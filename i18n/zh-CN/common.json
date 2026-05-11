@@ -1,0 +1,15 @@
+{
+  "version": "API 版本号，默认为 1",
+  "clientToken": "幂等性 Token，确保请求的唯一性",
+  "region": "地域 ID，例如：bj、gz、su",
+  "marker": "分页查询的起始标识符（上一次查询返回的 nextMarker）",
+  "maxKeys": "返回最大数量，默认 1000",
+  "pageNo": "页码，从 1 开始",
+  "pageSize": "每页数量，最大 1000",
+  "name": "名称",
+  "description": "描述信息",
+  "tags": "绑定的标签列表",
+  "tags.key": "标签键",
+  "tags.value": "标签值",
+  "enableIpv6": "是否开启 IPv6"
+}

@@ -1,0 +1,300 @@
+{
+  "product_name": "Virtual Private Cloud",
+  "CreateVpc": {
+    "desc": "Create a Virtual Private Cloud (VPC)",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "name": "VPC name, 1-65 characters, cannot be 'default'",
+    "description": "VPC description, max 200 characters",
+    "cidr": "IPv4 CIDR block of the VPC, e.g. 192.168.0.0/16",
+    "enableIpv6": "Whether to enable IPv6 (true=enable, default false)",
+    "tags": "List of tag key-value pairs to attach to the VPC",
+    "tags.tagKey": "Tag key",
+    "tags.tagValue": "Tag value"
+  },
+  "DescribeVpcs": {
+    "desc": "List all VPCs",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000",
+    "isDefault": "Filter by default VPC flag (true/false)",
+    "vpcIds": "Comma-separated list of VPC IDs to query"
+  },
+  "DescribeVpc": {
+    "desc": "Get detailed information about a specific VPC",
+    "vpcId": "VPC ID"
+  },
+  "UpdateVpc": {
+    "desc": "Update VPC name, description, or other attributes",
+    "vpcId": "ID of the VPC to update",
+    "clientToken": "Idempotent token",
+    "name": "New VPC name, 1-65 characters, cannot be 'default'",
+    "description": "New VPC description, max 200 characters",
+    "enableIpv6": "Whether to enable IPv6 (true=enable, false=disable)",
+    "secondaryCidr": "List of secondary CIDR blocks for the VPC (full replacement)"
+  },
+  "DeleteVpc": {
+    "desc": "Delete a VPC. Ensure no subnets or other resources exist inside",
+    "vpcId": "ID of the VPC to delete",
+    "clientToken": "Idempotent token"
+  },
+  "DescribeVpcPrivateIps": {
+    "desc": "Query private IP address information within a VPC",
+    "vpcId": "VPC ID",
+    "privateIpAddresses": "List of private IPs to query (mutually exclusive with privateIpRange)",
+    "privateIpRange": "IP range to query, e.g. 192.168.0.1-192.168.0.5"
+  },
+  "DescribeVpcResourceIps": {
+    "desc": "Query private IPs occupied by cloud products within a VPC",
+    "vpcId": "VPC ID",
+    "subnetId": "Optional subnet ID filter",
+    "resourceType": "Product type, e.g. bcc, enic, blb",
+    "pageNo": "Page number, starting from 1, default 1",
+    "pageSize": "Page size, range 1-1000, default 100"
+  },
+  "EnableVpcRelay": {
+    "desc": "Enable VPC relay",
+    "vpcId": "VPC ID",
+    "clientToken": "Idempotent token"
+  },
+  "DisableVpcRelay": {
+    "desc": "Disable VPC relay (relay must be currently enabled)",
+    "vpcId": "VPC ID",
+    "clientToken": "Idempotent token"
+  },
+  "CreateSubnet": {
+    "desc": "Create a subnet within a VPC",
+    "clientToken": "Idempotent token",
+    "name": "Subnet name, 1-65 characters, cannot be 'default'",
+    "zoneName": "Availability zone name, e.g. cn-bj-a",
+    "cidr": "IPv4 CIDR block, must be within the VPC CIDR range",
+    "vpcId": "ID of the VPC to create the subnet in",
+    "enableIpv6": "Whether to enable IPv6 (true=enable, default false)",
+    "vpcSecondaryCidr": "Secondary CIDR of the VPC that the subnet belongs to",
+    "subnetType": "Subnet type: BCC or BBC",
+    "description": "Subnet description, max 200 characters",
+    "tags": "List of tag key-value pairs to attach to the subnet",
+    "tags.tagKey": "Tag key",
+    "tags.tagValue": "Tag value"
+  },
+  "DescribeSubnets": {
+    "desc": "List all subnets",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000",
+    "vpcId": "Filter by VPC ID",
+    "zoneName": "Filter by availability zone name",
+    "subnetType": "Filter by subnet type: BCC or BBC",
+    "subnetIds": "Comma-separated list of subnet IDs to query"
+  },
+  "DescribeSubnet": {
+    "desc": "Get detailed information about a specific subnet",
+    "subnetId": "Subnet ID"
+  },
+  "UpdateSubnet": {
+    "desc": "Update subnet name, description, or other attributes",
+    "subnetId": "ID of the subnet to update",
+    "clientToken": "Idempotent token",
+    "name": "New subnet name, 1-65 characters",
+    "description": "New subnet description, max 200 characters",
+    "enableIpv6": "Whether to enable IPv6 (true=enable, false=disable)"
+  },
+  "DeleteSubnet": {
+    "desc": "Delete a subnet",
+    "subnetId": "ID of the subnet to delete",
+    "clientToken": "Idempotent token"
+  },
+  "CreateIpReserve": {
+    "desc": "Create a reserved IP range within a subnet",
+    "clientToken": "Idempotent token",
+    "subnetId": "ID of the subnet the reserved range belongs to",
+    "ipCidr": "Reserved IP address or CIDR block",
+    "ipVersion": "IP version: 4 for IPv4, 6 for IPv6",
+    "description": "Description of the reserved range"
+  },
+  "DescribeIpReserves": {
+    "desc": "List reserved IP ranges",
+    "subnetId": "Filter by subnet ID",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000"
+  },
+  "DeleteIpReserve": {
+    "desc": "Delete a reserved IP range",
+    "ipReserveId": "ID of the reserved IP range to delete",
+    "clientToken": "Idempotent token"
+  },
+  "DescribeRouteTables": {
+    "desc": "List route tables",
+    "routeTableId": "Route table ID (mutually exclusive with vpcId)",
+    "vpcId": "VPC ID (mutually exclusive with routeTableId)"
+  },
+  "CreateRouteRule": {
+    "desc": "Create a route rule in a route table",
+    "clientToken": "Idempotent token",
+    "routeTableId": "Route table ID",
+    "sourceAddress": "Source CIDR block",
+    "destinationAddress": "Destination CIDR block",
+    "nexthopId": "Next hop ID (required for single-path routes)",
+    "nexthopType": "Route type: custom/vpn/nat/dcGateway/peerConn",
+    "nextHopList": "List of next hops for multi-path routes",
+    "nextHopList.nexthopId": "Next hop resource ID",
+    "nextHopList.nexthopType": "Next hop type: custom/vpn/nat/dcGateway/peerConn",
+    "nextHopList.routeType": "Route role: primary or backup",
+    "description": "Route rule description, max 200 characters"
+  },
+  "DescribeRouteRules": {
+    "desc": "List route rules for a route table or VPC",
+    "routeTableId": "Route table ID (mutually exclusive with vpcId)",
+    "vpcId": "VPC ID (mutually exclusive with routeTableId)",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000"
+  },
+  "UpdateRouteRule": {
+    "desc": "Update a route rule (single-path routes only)",
+    "routeRuleId": "ID of the route rule to update",
+    "clientToken": "Idempotent token",
+    "sourceAddress": "Source CIDR block",
+    "destinationAddress": "Destination CIDR block",
+    "nexthopId": "Next hop ID",
+    "description": "Route rule description, max 200 characters"
+  },
+  "DeleteRouteRule": {
+    "desc": "Delete a route rule",
+    "routeRuleId": "ID of the route rule to delete",
+    "clientToken": "Idempotent token"
+  },
+  "SwitchRouteHA": {
+    "desc": "Switch primary to backup in a multi-path HA route",
+    "routeRuleId": "Primary route rule ID",
+    "clientToken": "Idempotent token"
+  },
+  "DescribeAcl": {
+    "desc": "Query ACL information for a VPC",
+    "vpcId": "VPC ID"
+  },
+  "DescribeAclRules": {
+    "desc": "List ACL rules for a subnet",
+    "subnetId": "Subnet ID",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000"
+  },
+  "CreateAclRules": {
+    "desc": "Add ACL rules in batch (max 20 per request)",
+    "clientToken": "Idempotent token",
+    "aclRules": "List of ACL rules to add",
+    "aclRules.subnetId": "Subnet ID the rule belongs to",
+    "aclRules.direction": "Traffic direction: ingress or egress",
+    "aclRules.action": "Match action: allow or deny",
+    "aclRules.protocol": "Protocol: all/tcp/udp/icmp",
+    "aclRules.sourceIpAddress": "Source IP address or CIDR",
+    "aclRules.destinationIpAddress": "Destination IP address or CIDR",
+    "aclRules.sourcePort": "Source port range, e.g. 1-65535",
+    "aclRules.destinationPort": "Destination port range, e.g. 80",
+    "aclRules.position": "Priority 1-5000 (lower value = higher priority)",
+    "aclRules.description": "Rule description"
+  },
+  "UpdateAclRule": {
+    "desc": "Update an ACL rule",
+    "aclRuleId": "ACL rule ID",
+    "clientToken": "Idempotent token",
+    "description": "Remark / description",
+    "protocol": "Protocol: all/tcp/udp/icmp",
+    "sourceIpAddress": "Source IP address",
+    "destinationIpAddress": "Destination IP address",
+    "sourcePort": "Source port",
+    "destinationPort": "Destination port",
+    "position": "Priority, 1-5000 (lower value = higher priority)",
+    "action": "Policy: allow or deny"
+  },
+  "DeleteAclRule": {
+    "desc": "Delete an ACL rule",
+    "aclRuleId": "ACL rule ID",
+    "clientToken": "Idempotent token"
+  },
+  "CreateSecurityGroup": {
+    "desc": "Create a security group with optional rules",
+    "clientToken": "Idempotent token",
+    "name": "Security group name, 1-65 characters, must start with a letter",
+    "vpcId": "VPC ID the security group belongs to",
+    "sgDesc": "Security group description",
+    "rules": "List of security group rules to bind on creation",
+    "rules.direction": "Rule direction: ingress or egress",
+    "rules.portRange": "Port range, e.g. 1-65535 or 80",
+    "rules.protocol": "Protocol: tcp/udp/icmp/all",
+    "rules.sourceIp": "Inbound source IP or CIDR (mutually exclusive with sourceGroupId)",
+    "rules.sourceGroupId": "Inbound source security group ID (mutually exclusive with sourceIp)",
+    "rules.destIp": "Outbound destination IP or CIDR (mutually exclusive with destGroupId)",
+    "rules.destGroupId": "Outbound destination security group ID (mutually exclusive with destIp)",
+    "rules.ethertype": "Ethertype: IPv4 or IPv6",
+    "rules.remark": "Rule remark",
+    "tags": "List of tags to bind on creation",
+    "tags.tagKey": "Tag key",
+    "tags.tagValue": "Tag value"
+  },
+  "DescribeSecurityGroups": {
+    "desc": "List security groups",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000",
+    "instanceId": "Cloud instance ID to filter associated security groups",
+    "vpcId": "VPC ID filter",
+    "securityGroupId": "Specific security group ID to query",
+    "securityGroupIds": "Comma-separated list of security group IDs to query"
+  },
+  "DescribeSecurityGroup": {
+    "desc": "Get detailed information about a security group",
+    "securityGroupId": "Security group ID"
+  },
+  "DeleteSecurityGroup": {
+    "desc": "Delete a security group",
+    "securityGroupId": "ID of the security group to delete",
+    "clientToken": "Idempotent token"
+  },
+  "AuthorizeSecurityGroupRule": {
+    "desc": "Add a new rule to a security group",
+    "securityGroupId": "Security group ID",
+    "sgVersion": "Security group version number",
+    "clientToken": "Idempotent token",
+    "rule": "Security group rule object to authorize",
+    "rule.direction": "Rule direction: ingress or egress",
+    "rule.portRange": "Port range, e.g. 1-65535 or 80",
+    "rule.protocol": "Protocol: tcp/udp/icmp/all",
+    "rule.sourceIp": "Inbound source IP or CIDR (mutually exclusive with sourceGroupId)",
+    "rule.sourceGroupId": "Inbound source security group ID (mutually exclusive with sourceIp)",
+    "rule.destIp": "Outbound destination IP or CIDR (mutually exclusive with destGroupId)",
+    "rule.destGroupId": "Outbound destination security group ID (mutually exclusive with destIp)",
+    "rule.ethertype": "Ethertype: IPv4 or IPv6",
+    "rule.remark": "Rule remark"
+  },
+  "RevokeSecurityGroupRule": {
+    "desc": "Remove a rule from a security group",
+    "securityGroupId": "Security group ID",
+    "sgVersion": "Security group version number",
+    "clientToken": "Idempotent token",
+    "rule": "Security group rule object to revoke",
+    "rule.direction": "Rule direction: ingress or egress",
+    "rule.portRange": "Port range, e.g. 1-65535 or 80",
+    "rule.protocol": "Protocol: tcp/udp/icmp/all",
+    "rule.sourceIp": "Inbound source IP or CIDR (mutually exclusive with sourceGroupId)",
+    "rule.sourceGroupId": "Inbound source security group ID (mutually exclusive with sourceIp)",
+    "rule.destIp": "Outbound destination IP or CIDR (mutually exclusive with destGroupId)",
+    "rule.destGroupId": "Outbound destination security group ID (mutually exclusive with destIp)",
+    "rule.ethertype": "Ethertype: IPv4 or IPv6",
+    "rule.remark": "Rule remark"
+  },
+  "UpdateSecurityGroupRule": {
+    "desc": "Update a security group rule",
+    "sgVersion": "Security group version number",
+    "clientToken": "Idempotent token",
+    "securityGroupRuleId": "Security group rule ID",
+    "remark": "Rule description",
+    "portRange": "Port range",
+    "sourceIp": "Inbound source IP (mutually exclusive with sourceGroupId)",
+    "sourceGroupId": "Inbound source security group ID (mutually exclusive with sourceIp)",
+    "destIp": "Outbound destination IP (mutually exclusive with destGroupId)",
+    "destGroupId": "Outbound destination security group ID (mutually exclusive with destIp)",
+    "protocol": "Protocol (tcp/udp to icmp conversion not supported)"
+  },
+  "DeleteSecurityGroupRule": {
+    "desc": "Delete a security group rule",
+    "securityGroupRuleId": "ID of the security group rule to delete",
+    "sgVersion": "Security group version number",
+    "clientToken": "Idempotent token"
+  }
+}

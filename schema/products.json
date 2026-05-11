@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "code": "vpc",
+      "protocol": "HTTP",
+      "endpoint": {
+        "default": "bcc.bj.baidubce.com",
+        "bj": "bcc.bj.baidubce.com",
+        "gz": "bcc.gz.baidubce.com",
+        "su": "bcc.su.baidubce.com",
+        "bd": "bcc.bd.baidubce.com"
+      }
+    },
+    {
+      "code": "bcc",
+      "protocol": "HTTP|HTTPS",
+      "endpoint": {
+        "default": "bcc.bj.baidubce.com",
+        "bj": "bcc.bj.baidubce.com",
+        "gz": "bcc.gz.baidubce.com",
+        "su": "bcc.su.baidubce.com",
+        "bd": "bcc.bd.baidubce.com"
+      }
+    },
+    {
+      "code": "eip",
+      "protocol": "HTTP|HTTPS",
+      "endpoint": {
+        "default": "eip.bj.baidubce.com",
+        "bj": "eip.bj.baidubce.com",
+        "gz": "eip.gz.baidubce.com",
+        "su": "eip.su.baidubce.com"
+      }
+    }
+  ]
+}

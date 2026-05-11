@@ -1,0 +1,15 @@
+{
+  "version": "API version number, default is 1",
+  "clientToken": "Idempotent token to ensure uniqueness of the request",
+  "region": "Region ID, e.g.: bj, gz, su",
+  "marker": "Start marker for pagination (nextMarker from previous response)",
+  "maxKeys": "Maximum number of results to return, default 1000",
+  "pageNo": "Page number, starting from 1",
+  "pageSize": "Items per page, maximum 1000",
+  "name": "Name",
+  "description": "Description",
+  "tags": "List of tags to attach",
+  "tags.key": "Tag key",
+  "tags.value": "Tag value",
+  "enableIpv6": "Whether to enable IPv6"
+}
