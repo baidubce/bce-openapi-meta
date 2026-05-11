@@ -1,0 +1,220 @@
+{
+  "CreateVpn": {
+    "desc": "创建 VPN 网关",
+    "clientToken": "幂等性 Token",
+    "vpcId": "VPN 网关所属 VPC 的 ID",
+    "vpnName": "VPN 网关名称",
+    "subnetId": "VPN 网关所属子网的 ID",
+    "type": "VPN 网关类型，如 ipsec / ssl / ipsec_ssl",
+    "description": "VPN 网关描述",
+    "eip": "绑定到 VPN 网关的 EIP 地址",
+    "maxConnection": "SSL VPN 最大并发连接数",
+    "resourceGroupId": "资源组 ID",
+    "deleteProtect": "是否开启删除保护，true 开启，false 关闭",
+    "billing": "计费信息对象",
+    "billing.paymentTiming": "付费类型：Prepaid（预付费）或 Postpaid（后付费）",
+    "billing.reservation": "预付费时长配置对象（Prepaid 时必填）",
+    "billing.reservation.reservationLength": "预付费时长（月）",
+    "billing.reservation.reservationTimeUnit": "预付费时长单位，固定为 Month",
+    "tags": "绑定到 VPN 网关的标签列表",
+    "tags.tagKey": "标签键",
+    "tags.tagValue": "标签值"
+  },
+  "DescribeVpns": {
+    "desc": "查询 VPN 网关列表",
+    "marker": "分页查询起始标识符",
+    "maxKeys": "每页最大返回数量，默认 1000",
+    "vpcId": "所属 VPC 的 ID",
+    "eip": "按绑定的 EIP 地址过滤",
+    "type": "按 VPN 类型过滤：ipsec / ssl / ipsec_ssl"
+  },
+  "DescribeVpn": {
+    "desc": "查询指定 VPN 网关的详情",
+    "vpnId": "VPN 网关 ID"
+  },
+  "UpdateVpn": {
+    "desc": "修改 VPN 网关名称或描述",
+    "vpnId": "待修改的 VPN 网关 ID",
+    "clientToken": "幂等性 Token",
+    "vpnName": "VPN 网关新名称",
+    "description": "VPN 网关新描述"
+  },
+  "ReleaseVpn": {
+    "desc": "释放 VPN 网关",
+    "vpnId": "待释放的 VPN 网关 ID",
+    "clientToken": "幂等性 Token"
+  },
+  "RenewVpn": {
+    "desc": "续费 VPN 网关（仅预付费网关可用）",
+    "vpnId": "待续费的 VPN 网关 ID",
+    "clientToken": "幂等性 Token",
+    "billing": "续费计费信息",
+    "billing.reservation": "预付费时长配置对象",
+    "billing.reservation.reservationLength": "续费时长（月）",
+    "billing.reservation.reservationTimeUnit": "续费时长单位，固定为 Month"
+  },
+  "UpdateVpnDeleteProtect": {
+    "desc": "开启或关闭 VPN 网关删除保护",
+    "vpnId": "VPN 网关 ID",
+    "clientToken": "幂等性 Token",
+    "deleteProtect": "是否开启删除保护：true 开启，false 关闭"
+  },
+  "BindEip": {
+    "desc": "为 VPN 网关绑定 EIP",
+    "vpnId": "VPN 网关 ID",
+    "clientToken": "幂等性 Token",
+    "eip": "要绑定的 EIP 地址"
+  },
+  "UnbindEip": {
+    "desc": "解绑 VPN 网关上的 EIP",
+    "vpnId": "VPN 网关 ID",
+    "clientToken": "幂等性 Token"
+  },
+  "CreateVpnTunnel": {
+    "desc": "创建 IPsec VPN 隧道",
+    "vpnId": "所属 VPN 网关的 ID",
+    "clientToken": "幂等性 Token",
+    "vpnConnName": "VPN 隧道名称",
+    "secretKey": "预共享密钥（PSK）",
+    "cgwId": "对端用户网关的 ID",
+    "localSubnets": "本端子网列表，CIDR 格式字符串数组",
+    "remoteSubnets": "对端子网列表，CIDR 格式字符串数组",
+    "description": "VPN 隧道描述",
+    "ikeConfig": "IKE 协议配置对象",
+    "ikeConfig.ikeVersion": "IKE 版本：v1 或 v2",
+    "ikeConfig.ikeMode": "协商模式：main（主模式）或 aggressive（野蛮模式）",
+    "ikeConfig.ikeEncAlg": "IKE 加密算法：aes128/aes192/aes256/3des/des",
+    "ikeConfig.ikeAuthAlg": "IKE 认证算法：sha1/md5/sha256/sha384/sha512",
+    "ikeConfig.ikePfs": "IKE DH 组：group2/group5/group14",
+    "ikeConfig.ikeLifeTime": "IKE SA 生存时间（秒）",
+    "ipsecConfig": "IPsec 协议配置对象",
+    "ipsecConfig.ipsecEncAlg": "IPsec 加密算法：aes128/aes192/aes256/3des/des",
+    "ipsecConfig.ipsecAuthAlg": "IPsec 认证算法：sha1/md5/sha256/sha384/sha512",
+    "ipsecConfig.ipsecPfs": "IPsec PFS DH 组：group2/group5/group14/disabled",
+    "ipsecConfig.ipsecLifetime": "IPsec SA 生存时间（秒）"
+  },
+  "DescribeVpnTunnels": {
+    "desc": "查询 VPN 网关下的隧道列表",
+    "vpnId": "VPN 网关 ID",
+    "clientToken": "幂等性 Token"
+  },
+  "UpdateVpnTunnel": {
+    "desc": "修改 IPsec VPN 隧道配置",
+    "vpnConnId": "待修改的 VPN 隧道 ID",
+    "clientToken": "幂等性 Token",
+    "vpnId": "所属 VPN 网关的 ID",
+    "vpnConnName": "VPN 隧道新名称",
+    "secretKey": "预共享密钥（PSK）",
+    "cgwId": "对端用户网关的 ID",
+    "localSubnets": "本端子网列表，CIDR 格式字符串数组",
+    "remoteSubnets": "对端子网列表，CIDR 格式字符串数组",
+    "description": "VPN 隧道描述",
+    "ikeConfig": "IKE 协议配置对象",
+    "ikeConfig.ikeVersion": "IKE 版本：v1 或 v2",
+    "ikeConfig.ikeMode": "协商模式：main（主模式）或 aggressive（野蛮模式）",
+    "ikeConfig.ikeEncAlg": "IKE 加密算法：aes128/aes192/aes256/3des/des",
+    "ikeConfig.ikeAuthAlg": "IKE 认证算法：sha1/md5/sha256/sha384/sha512",
+    "ikeConfig.ikePfs": "IKE DH 组：group2/group5/group14",
+    "ikeConfig.ikeLifeTime": "IKE SA 生存时间（秒）",
+    "ipsecConfig": "IPsec 协议配置对象",
+    "ipsecConfig.ipsecEncAlg": "IPsec 加密算法：aes128/aes192/aes256/3des/des",
+    "ipsecConfig.ipsecAuthAlg": "IPsec 认证算法：sha1/md5/sha256/sha384/sha512",
+    "ipsecConfig.ipsecPfs": "IPsec PFS DH 组：group2/group5/group14/disabled",
+    "ipsecConfig.ipsecLifetime": "IPsec SA 生存时间（秒）"
+  },
+  "DeleteVpnTunnel": {
+    "desc": "删除 IPsec VPN 隧道",
+    "vpnConnId": "待删除的 VPN 隧道 ID",
+    "clientToken": "幂等性 Token"
+  },
+  "CreateSslVpnServer": {
+    "desc": "创建 SSL VPN 服务端",
+    "vpnId": "所属 VPN 网关的 ID",
+    "clientToken": "幂等性 Token",
+    "sslVpnServerName": "SSL VPN 服务端名称",
+    "interfaceType": "网卡接口类型，如 tun 或 tap",
+    "localSubnets": "本端子网列表，CIDR 格式字符串数组",
+    "remoteSubnet": "分配给 VPN 客户端的地址池 CIDR",
+    "clientDns": "分配给 VPN 客户端的 DNS 地址"
+  },
+  "DescribeSslVpnServer": {
+    "desc": "查询 SSL VPN 服务端信息",
+    "vpnId": "VPN 网关 ID",
+    "clientToken": "幂等性 Token"
+  },
+  "UpdateSslVpnServer": {
+    "desc": "修改 SSL VPN 服务端配置",
+    "vpnId": "所属 VPN 网关的 ID",
+    "sslVpnServerId": "SSL VPN 服务端 ID",
+    "clientToken": "幂等性 Token",
+    "sslVpnServerName": "SSL VPN 服务端新名称",
+    "localSubnets": "本端子网列表，CIDR 格式字符串数组",
+    "remoteSubnet": "分配给 VPN 客户端的地址池 CIDR",
+    "clientDns": "分配给 VPN 客户端的 DNS 地址"
+  },
+  "DeleteSslVpnServer": {
+    "desc": "删除 SSL VPN 服务端",
+    "vpnId": "所属 VPN 网关的 ID",
+    "sslVpnServerId": "待删除的 SSL VPN 服务端 ID",
+    "clientToken": "幂等性 Token"
+  },
+  "BatchCreateSslVpnUsers": {
+    "desc": "批量创建 SSL VPN 用户",
+    "vpnId": "所属 VPN 网关的 ID",
+    "clientToken": "幂等性 Token",
+    "sslVpnUsers": "SSL VPN 用户列表",
+    "sslVpnUsers.userName": "SSL VPN 用户名",
+    "sslVpnUsers.password": "SSL VPN 用户密码",
+    "sslVpnUsers.clientName": "客户端标识名称",
+    "sslVpnUsers.description": "用户描述"
+  },
+  "DescribeSslVpnUsers": {
+    "desc": "查询 SSL VPN 用户列表",
+    "vpnId": "VPN 网关 ID",
+    "marker": "分页查询起始标识符",
+    "maxKeys": "每页最大返回数量，默认 1000",
+    "userName": "按用户名过滤"
+  },
+  "UpdateSslVpnUser": {
+    "desc": "修改 SSL VPN 用户信息",
+    "vpnId": "所属 VPN 网关的 ID",
+    "userId": "待修改的 SSL VPN 用户 ID",
+    "clientToken": "幂等性 Token",
+    "clientName": "客户端标识名称",
+    "password": "新密码",
+    "description": "用户描述"
+  },
+  "DeleteSslVpnUser": {
+    "desc": "删除 SSL VPN 用户",
+    "vpnId": "所属 VPN 网关的 ID",
+    "userId": "待删除的 SSL VPN 用户 ID",
+    "clientToken": "幂等性 Token"
+  },
+  "CreateUserGateway": {
+    "desc": "创建用户网关（对端网关）",
+    "clientToken": "幂等性 Token",
+    "name": "用户网关名称",
+    "ip": "用户网关的公网 IP 地址",
+    "description": "用户网关描述"
+  },
+  "DescribeUserGateways": {
+    "desc": "查询用户网关列表",
+    "marker": "分页查询起始标识符",
+    "maxKeys": "每页最大返回数量，默认 1000"
+  },
+  "DescribeUserGateway": {
+    "desc": "查询指定用户网关的详情",
+    "cgwId": "用户网关 ID"
+  },
+  "UpdateUserGateway": {
+    "desc": "修改用户网关名称或描述",
+    "cgwId": "待修改的用户网关 ID",
+    "clientToken": "幂等性 Token",
+    "name": "用户网关新名称",
+    "description": "用户网关新描述"
+  },
+  "DeleteUserGateway": {
+    "desc": "删除用户网关",
+    "cgwId": "待删除的用户网关 ID"
+  }
+}

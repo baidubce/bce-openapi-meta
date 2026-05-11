@@ -1,0 +1,45 @@
+{
+  "DescribeAcl": {
+    "desc": "Query ACL information for a VPC",
+    "vpcId": "VPC ID"
+  },
+  "DescribeAclRules": {
+    "desc": "List ACL rules for a subnet",
+    "subnetId": "Subnet ID",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000"
+  },
+  "CreateAclRules": {
+    "desc": "Add ACL rules in batch (max 20 per request)",
+    "clientToken": "Idempotent token",
+    "aclRules": "List of ACL rules to add",
+    "aclRules.subnetId": "Subnet ID the rule belongs to",
+    "aclRules.direction": "Traffic direction: ingress or egress",
+    "aclRules.action": "Match action: allow or deny",
+    "aclRules.protocol": "Protocol: all/tcp/udp/icmp",
+    "aclRules.sourceIpAddress": "Source IP address or CIDR",
+    "aclRules.destinationIpAddress": "Destination IP address or CIDR",
+    "aclRules.sourcePort": "Source port range, e.g. 1-65535",
+    "aclRules.destinationPort": "Destination port range, e.g. 80",
+    "aclRules.position": "Priority 1-5000 (lower value = higher priority)",
+    "aclRules.description": "Rule description"
+  },
+  "UpdateAclRule": {
+    "desc": "Update an ACL rule",
+    "aclRuleId": "ACL rule ID",
+    "clientToken": "Idempotent token",
+    "description": "Remark / description",
+    "protocol": "Protocol: all/tcp/udp/icmp",
+    "sourceIpAddress": "Source IP address",
+    "destinationIpAddress": "Destination IP address",
+    "sourcePort": "Source port",
+    "destinationPort": "Destination port",
+    "position": "Priority, 1-5000 (lower value = higher priority)",
+    "action": "Policy: allow or deny"
+  },
+  "DeleteAclRule": {
+    "desc": "Delete an ACL rule",
+    "aclRuleId": "ACL rule ID",
+    "clientToken": "Idempotent token"
+  }
+}

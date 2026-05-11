@@ -1,0 +1,63 @@
+{
+  "product_name": "私有网络 VPC",
+  "CreateVpc": {
+    "desc": "创建一个私有网络（VPC）",
+    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符串",
+    "name": "VPC 名称，1-65 个字符，不能取值 default",
+    "description": "VPC 描述，最大 200 字符",
+    "cidr": "VPC 的 IPv4 网段，例如 192.168.0.0/16",
+    "enableIpv6": "是否开启 IPv6 网段，true 开启，默认 false",
+    "tags": "绑定到 VPC 的标签键值对列表",
+    "tags.tagKey": "标签键",
+    "tags.tagValue": "标签值"
+  },
+  "DescribeVpcs": {
+    "desc": "查询用户的 VPC 列表",
+    "marker": "分页查询起始标识符",
+    "maxKeys": "每页最大返回数量，默认 1000",
+    "isDefault": "是否为默认 VPC，true/false",
+    "vpcIds": "指定查询的 VPC ID 列表，多个用逗号分隔"
+  },
+  "DescribeVpc": {
+    "desc": "查询指定 VPC 的详细信息",
+    "vpcId": "VPC 的 ID"
+  },
+  "UpdateVpc": {
+    "desc": "更新 VPC 的名称、描述等属性",
+    "vpcId": "待更新 VPC 的 ID",
+    "clientToken": "幂等性 Token",
+    "name": "VPC 新名称，1-65 个字符，不能取值 default",
+    "description": "VPC 新描述，最大 200 字符",
+    "enableIpv6": "是否开启 IPv6，true 开启，false 关闭",
+    "secondaryCidr": "VPC 辅助网段 CIDR 列表，替换式更新"
+  },
+  "DeleteVpc": {
+    "desc": "删除指定 VPC，删除前需确保 VPC 内无子网等资源",
+    "vpcId": "待删除 VPC 的 ID",
+    "clientToken": "幂等性 Token"
+  },
+  "DescribeVpcPrivateIps": {
+    "desc": "查询 VPC 内私网 IP 信息",
+    "vpcId": "VPC 的 ID",
+    "privateIpAddresses": "要查询的私网 IP 列表，与 privateIpRange 二选一",
+    "privateIpRange": "要查询的 IP 范围，格式如 192.168.0.1-192.168.0.5"
+  },
+  "DescribeVpcResourceIps": {
+    "desc": "查询 VPC 内产品占用的私网 IP 信息",
+    "vpcId": "VPC 的 ID",
+    "subnetId": "子网 ID，可选过滤条件",
+    "resourceType": "产品类型，如 bcc、enic、blb 等",
+    "pageNo": "页码，从 1 开始，默认 1",
+    "pageSize": "每页大小，范围 1-1000，默认 100"
+  },
+  "EnableVpcRelay": {
+    "desc": "开启 VPC 中继",
+    "vpcId": "VPC 的 ID",
+    "clientToken": "幂等性 Token"
+  },
+  "DisableVpcRelay": {
+    "desc": "关闭 VPC 中继，操作前需确保中继已开启",
+    "vpcId": "VPC 的 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

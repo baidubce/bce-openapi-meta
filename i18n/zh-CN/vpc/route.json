@@ -1,0 +1,47 @@
+{
+  "DescribeRouteTables": {
+    "desc": "查询路由表列表",
+    "routeTableId": "路由表 ID，与 vpcId 二选一",
+    "vpcId": "VPC 的 ID，与 routeTableId 二选一"
+  },
+  "CreateRouteRule": {
+    "desc": "在路由表内创建路由规则",
+    "clientToken": "幂等性 Token",
+    "routeTableId": "路由表 ID",
+    "sourceAddress": "源网段，CIDR 格式",
+    "destinationAddress": "目标网段，CIDR 格式",
+    "nexthopId": "下一跳 ID，单线路由时必填",
+    "nexthopType": "路由类型：custom/vpn/nat/dcGateway/peerConn",
+    "nextHopList": "多线路由下一跳信息列表，多线路由时必填",
+    "nextHopList.nexthopId": "下一跳资源 ID",
+    "nextHopList.nexthopType": "下一跳类型：custom/vpn/nat/dcGateway/peerConn",
+    "nextHopList.routeType": "路由类型：primary（主路由）或 backup（备路由）",
+    "description": "路由规则描述，最大 200 字符"
+  },
+  "DescribeRouteRules": {
+    "desc": "查询路由表或 VPC 下的路由规则列表",
+    "routeTableId": "路由表 ID，与 vpcId 二选一",
+    "vpcId": "VPC 的 ID，与 routeTableId 二选一",
+    "marker": "分页查询起始标识符",
+    "maxKeys": "每页最大返回数量，默认 1000"
+  },
+  "UpdateRouteRule": {
+    "desc": "更新路由规则（仅支持单线路由）",
+    "routeRuleId": "待更新的路由规则 ID",
+    "clientToken": "幂等性 Token",
+    "sourceAddress": "源网段，CIDR 格式",
+    "destinationAddress": "目标网段，CIDR 格式",
+    "nexthopId": "下一跳 ID",
+    "description": "路由规则描述，最大 200 字符"
+  },
+  "DeleteRouteRule": {
+    "desc": "删除指定路由规则",
+    "routeRuleId": "待删除的路由规则 ID",
+    "clientToken": "幂等性 Token"
+  },
+  "SwitchRouteHA": {
+    "desc": "多线主备路由中，将主路由切换为备路由",
+    "routeRuleId": "主路由规则 ID",
+    "clientToken": "幂等性 Token"
+  }
+}
