@@ -1,0 +1,76 @@
+{
+  "CreateEnterpriseSecurityGroup": {
+    "desc": "Create an enterprise security group",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "name": "Security group name; letters, digits, Chinese, -_. allowed; must start with a letter; length 1-65",
+    "groupDesc": "Enterprise security group description",
+    "rules": "List of rules to attach on creation, up to 20 per request",
+    "rules.remark": "Rule remark, length 1-255",
+    "rules.direction": "Rule direction: ingress or egress",
+    "rules.ethertype": "Network type: IPv4 or IPv6 (default IPv4)",
+    "rules.portRange": "Destination port range, e.g. 1-80 or 80,443 (default 1-65535)",
+    "rules.sourcePortRange": "Source port range, e.g. 1-80 or 80,443",
+    "rules.protocol": "Protocol: tcp / udp / icmp (default all)",
+    "rules.sourceIp": "Source IP address, 'all' means any (ingress rules)",
+    "rules.destIp": "Destination IP address, 'all' means any (egress rules)",
+    "rules.localIp": "Local IP address, 'all' means any",
+    "rules.remoteIpSet": "Remote IP address group (mutually exclusive with sourceIp/destIp and remoteIpGroup)",
+    "rules.remoteIpGroup": "Remote IP address family (mutually exclusive with sourceIp/destIp and remoteIpSet)",
+    "rules.action": "Action: allow or deny",
+    "rules.priority": "Priority, range 1-1000",
+    "tags": "List of tags to attach on creation",
+    "tags.tagKey": "Tag key",
+    "tags.tagValue": "Tag value"
+  },
+  "ListEnterpriseSecurityGroups": {
+    "desc": "List enterprise security groups",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, up to 1000, default 1000",
+    "instanceId": "Filter by instance ID; omit to list all"
+  },
+  "DeleteEnterpriseSecurityGroup": {
+    "desc": "Delete an enterprise security group",
+    "enterpriseSecurityGroupId": "ID of the enterprise security group to delete",
+    "clientToken": "Idempotent token, max 64 ASCII characters"
+  },
+  "AuthorizeEnterpriseSecurityGroupRule": {
+    "desc": "Add rules to an enterprise security group, up to 20 per request",
+    "enterpriseSecurityGroupId": "ID of the target enterprise security group",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "rules": "List of rules to authorize",
+    "rules.remark": "Rule remark, length 1-255",
+    "rules.direction": "Rule direction: ingress or egress",
+    "rules.ethertype": "Network type: IPv4 or IPv6 (default IPv4)",
+    "rules.portRange": "Destination port range, e.g. 1-80 or 80,443 (default 1-65535)",
+    "rules.sourcePortRange": "Source port range, e.g. 1-80 or 80,443",
+    "rules.protocol": "Protocol: tcp / udp / icmp (default all)",
+    "rules.sourceIp": "Source IP address, 'all' means any (ingress rules)",
+    "rules.destIp": "Destination IP address, 'all' means any (egress rules)",
+    "rules.localIp": "Local IP address, 'all' means any",
+    "rules.remoteIpSet": "Remote IP address group (mutually exclusive with sourceIp/destIp and remoteIpGroup)",
+    "rules.remoteIpGroup": "Remote IP address family (mutually exclusive with sourceIp/destIp and remoteIpSet)",
+    "rules.action": "Action: allow or deny",
+    "rules.priority": "Priority, range 1-1000"
+  },
+  "UpdateEnterpriseSecurityGroupRule": {
+    "desc": "Update an enterprise security group rule",
+    "enterpriseSecurityGroupRuleId": "ID of the rule to update",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "remark": "Rule remark",
+    "portRange": "Destination port range",
+    "sourcePortRange": "Source port range",
+    "protocol": "Protocol: all / tcp / udp / icmp",
+    "sourceIp": "Source IP address (ingress; mutually exclusive with remoteIpSet and remoteIpGroup)",
+    "destIp": "Destination IP address (egress; mutually exclusive with remoteIpSet and remoteIpGroup)",
+    "localIp": "Local IP address",
+    "remoteIpSet": "Remote IP address group (mutually exclusive with sourceIp/destIp and remoteIpGroup)",
+    "remoteIpGroup": "Remote IP address family (mutually exclusive with sourceIp/destIp and remoteIpSet)",
+    "action": "Action: allow or deny",
+    "priority": "Priority, range 1-1000"
+  },
+  "DeleteEnterpriseSecurityGroupRule": {
+    "desc": "Delete an enterprise security group rule",
+    "enterpriseSecurityGroupRuleId": "ID of the rule to delete",
+    "clientToken": "Idempotent token, max 64 ASCII characters"
+  }
+}

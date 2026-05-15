@@ -1,0 +1,128 @@
+{
+  "service": "vpc",
+  "module": "enterprise_security_group",
+  "apis": [
+    {
+      "name": "CreateEnterpriseSecurityGroup",
+      "method": "POST",
+      "uri": "/v{version}/enterprise/security",
+      "desc_key": "vpc.CreateEnterpriseSecurityGroup.desc",
+      "parameters": [
+        {"name": "version",     "type": "String", "required": false, "position": "URL",   "default": "1", "desc_key": "common.version"},
+        {"name": "clientToken", "type": "String", "required": false, "position": "QUERY", "desc_key": "vpc.CreateEnterpriseSecurityGroup.clientToken"},
+        {"name": "name",        "type": "String", "required": true,  "position": "BODY",  "desc_key": "vpc.CreateEnterpriseSecurityGroup.name"},
+        {"name": "desc",        "type": "String", "required": false, "position": "BODY",  "desc_key": "vpc.CreateEnterpriseSecurityGroup.groupDesc"},
+        {
+          "name": "rules", "type": "List", "required": false, "position": "BODY", "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules",
+          "sub_parameters": [
+            {"name": "remark",          "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.remark"},
+            {"name": "direction",       "type": "String",  "required": true,  "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.direction"},
+            {"name": "ethertype",       "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.ethertype"},
+            {"name": "portRange",       "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.portRange"},
+            {"name": "sourcePortRange", "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.sourcePortRange"},
+            {"name": "protocol",        "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.protocol"},
+            {"name": "sourceIp",        "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.sourceIp"},
+            {"name": "destIp",          "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.destIp"},
+            {"name": "localIp",         "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.localIp"},
+            {"name": "remoteIpSet",     "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.remoteIpSet"},
+            {"name": "remoteIpGroup",   "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.remoteIpGroup"},
+            {"name": "action",          "type": "String",  "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.action"},
+            {"name": "priority",        "type": "Integer", "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.rules.priority"}
+          ]
+        },
+        {
+          "name": "tags", "type": "List", "required": false, "position": "BODY", "desc_key": "vpc.CreateEnterpriseSecurityGroup.tags",
+          "sub_parameters": [
+            {"name": "tagKey",   "type": "String", "required": true,  "desc_key": "vpc.CreateEnterpriseSecurityGroup.tags.tagKey"},
+            {"name": "tagValue", "type": "String", "required": false, "desc_key": "vpc.CreateEnterpriseSecurityGroup.tags.tagValue"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ListEnterpriseSecurityGroups",
+      "method": "GET",
+      "uri": "/v{version}/enterprise/security",
+      "desc_key": "vpc.ListEnterpriseSecurityGroups.desc",
+      "parameters": [
+        {"name": "version",    "type": "String",  "required": false, "position": "URL",   "default": "1", "desc_key": "common.version"},
+        {"name": "marker",     "type": "String",  "required": false, "position": "QUERY", "desc_key": "vpc.ListEnterpriseSecurityGroups.marker"},
+        {"name": "maxKeys",    "type": "Integer", "required": false, "position": "QUERY", "desc_key": "vpc.ListEnterpriseSecurityGroups.maxKeys"},
+        {"name": "instanceId", "type": "String",  "required": false, "position": "QUERY", "desc_key": "vpc.ListEnterpriseSecurityGroups.instanceId"}
+      ]
+    },
+    {
+      "name": "DeleteEnterpriseSecurityGroup",
+      "method": "DELETE",
+      "uri": "/v{version}/enterprise/security/{enterpriseSecurityGroupId}",
+      "desc_key": "vpc.DeleteEnterpriseSecurityGroup.desc",
+      "parameters": [
+        {"name": "version",                    "type": "String", "required": false, "position": "URL",   "default": "1", "desc_key": "common.version"},
+        {"name": "enterpriseSecurityGroupId",  "type": "String", "required": true,  "position": "URL",   "desc_key": "vpc.DeleteEnterpriseSecurityGroup.enterpriseSecurityGroupId"},
+        {"name": "clientToken",                "type": "String", "required": false, "position": "QUERY", "desc_key": "vpc.DeleteEnterpriseSecurityGroup.clientToken"}
+      ]
+    },
+    {
+      "name": "AuthorizeEnterpriseSecurityGroupRule",
+      "method": "PUT",
+      "uri": "/v{version}/enterprise/security/{enterpriseSecurityGroupId}?authorizeRule",
+      "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.desc",
+      "parameters": [
+        {"name": "version",                   "type": "String", "required": false, "position": "URL",   "default": "1", "desc_key": "common.version"},
+        {"name": "enterpriseSecurityGroupId", "type": "String", "required": true,  "position": "URL",   "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.enterpriseSecurityGroupId"},
+        {"name": "clientToken",               "type": "String", "required": false, "position": "QUERY", "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.clientToken"},
+        {
+          "name": "rules", "type": "List", "required": true, "position": "BODY", "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules",
+          "sub_parameters": [
+            {"name": "remark",          "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.remark"},
+            {"name": "direction",       "type": "String",  "required": true,  "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.direction"},
+            {"name": "ethertype",       "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.ethertype"},
+            {"name": "portRange",       "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.portRange"},
+            {"name": "sourcePortRange", "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.sourcePortRange"},
+            {"name": "protocol",        "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.protocol"},
+            {"name": "sourceIp",        "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.sourceIp"},
+            {"name": "destIp",          "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.destIp"},
+            {"name": "localIp",         "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.localIp"},
+            {"name": "remoteIpSet",     "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.remoteIpSet"},
+            {"name": "remoteIpGroup",   "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.remoteIpGroup"},
+            {"name": "action",          "type": "String",  "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.action"},
+            {"name": "priority",        "type": "Integer", "required": false, "desc_key": "vpc.AuthorizeEnterpriseSecurityGroupRule.rules.priority"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UpdateEnterpriseSecurityGroupRule",
+      "method": "PUT",
+      "uri": "/v{version}/enterprise/security/rule/{enterpriseSecurityGroupRuleId}",
+      "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.desc",
+      "parameters": [
+        {"name": "version",                        "type": "String",  "required": false, "position": "URL",   "default": "1", "desc_key": "common.version"},
+        {"name": "enterpriseSecurityGroupRuleId",  "type": "String",  "required": true,  "position": "URL",   "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.enterpriseSecurityGroupRuleId"},
+        {"name": "clientToken",                    "type": "String",  "required": false, "position": "QUERY", "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.clientToken"},
+        {"name": "remark",                         "type": "String",  "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.remark"},
+        {"name": "portRange",                      "type": "String",  "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.portRange"},
+        {"name": "sourcePortRange",                "type": "String",  "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.sourcePortRange"},
+        {"name": "protocol",                       "type": "String",  "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.protocol"},
+        {"name": "sourceIp",                       "type": "String",  "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.sourceIp"},
+        {"name": "destIp",                         "type": "String",  "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.destIp"},
+        {"name": "localIp",                        "type": "String",  "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.localIp"},
+        {"name": "remoteIpSet",                    "type": "String",  "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.remoteIpSet"},
+        {"name": "remoteIpGroup",                  "type": "String",  "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.remoteIpGroup"},
+        {"name": "action",                         "type": "String",  "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.action"},
+        {"name": "priority",                       "type": "Integer", "required": false, "position": "BODY",  "desc_key": "vpc.UpdateEnterpriseSecurityGroupRule.priority"}
+      ]
+    },
+    {
+      "name": "DeleteEnterpriseSecurityGroupRule",
+      "method": "DELETE",
+      "uri": "/v{version}/enterprise/security/rule/{enterpriseSecurityGroupRuleId}",
+      "desc_key": "vpc.DeleteEnterpriseSecurityGroupRule.desc",
+      "parameters": [
+        {"name": "version",                       "type": "String", "required": false, "position": "URL",   "default": "1", "desc_key": "common.version"},
+        {"name": "enterpriseSecurityGroupRuleId", "type": "String", "required": true,  "position": "URL",   "desc_key": "vpc.DeleteEnterpriseSecurityGroupRule.enterpriseSecurityGroupRuleId"},
+        {"name": "clientToken",                   "type": "String", "required": false, "position": "QUERY", "desc_key": "vpc.DeleteEnterpriseSecurityGroupRule.clientToken"}
+      ]
+    }
+  ]
+}

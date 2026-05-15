@@ -1,0 +1,118 @@
+{
+  "CreateEni": {
+    "desc": "Create an Elastic Network Interface (ENI)",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "name": "ENI name",
+    "subnetId": "ID of the subnet the ENI belongs to",
+    "description": "ENI description",
+    "networkInterfaceTrafficMode": "NIC type: highPerformance (ERI) / standard (ENI, default)",
+    "securityGroupIds": "List of security group IDs to bind (mutually exclusive with enterpriseSecurityGroupIds)",
+    "securityGroupIds.securityGroupId": "Security group ID",
+    "enterpriseSecurityGroupIds": "List of enterprise security group IDs to bind (mutually exclusive with securityGroupIds)",
+    "enterpriseSecurityGroupIds.enterpriseSecurityGroupId": "Enterprise security group ID",
+    "privateIpSet": "List of private IPv4 addresses; exactly one entry must have primary=true",
+    "privateIpSet.primary": "Whether this is the primary IP",
+    "privateIpSet.privateIpAddress": "Private IPv4 address; empty string for auto-assignment",
+    "ipv6PrivateIpSet": "List of private IPv6 addresses",
+    "ipv6PrivateIpSet.primary": "Whether this is the primary IPv6 address",
+    "ipv6PrivateIpSet.privateIpAddress": "Private IPv6 address; empty string for auto-assignment"
+  },
+  "ListEni": {
+    "desc": "List Elastic Network Interfaces",
+    "vpcId": "VPC ID the ENIs belong to",
+    "instanceId": "Filter by attached instance ID",
+    "name": "Filter by ENI name",
+    "privateIpAddress": "Filter by private IP; multiple IPs comma-separated (single IP: suffix match, multiple IPs: exact match)",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, up to 1000, default 1000"
+  },
+  "GetEni": {
+    "desc": "Get detailed information about a specific ENI",
+    "eniId": "ENI ID"
+  },
+  "GetEniStatus": {
+    "desc": "Get the current status of an ENI",
+    "eniId": "ENI ID"
+  },
+  "ModifyEniAttribute": {
+    "desc": "Update the name or description of an ENI (at least one must be provided)",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "name": "New ENI name",
+    "description": "New ENI description"
+  },
+  "DeleteEni": {
+    "desc": "Delete an ENI",
+    "eniId": "ID of the ENI to delete",
+    "clientToken": "Idempotent token, max 64 ASCII characters"
+  },
+  "AttachEni": {
+    "desc": "Attach an ENI to a cloud instance",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "instanceId": "ID of the instance to attach the ENI to",
+    "instanceType": "Instance type: server (BCC, default) / hpas (HPAS)"
+  },
+  "DetachEni": {
+    "desc": "Detach an ENI from a cloud instance",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "instanceId": "ID of the instance to detach the ENI from"
+  },
+  "EniBindEip": {
+    "desc": "Bind an EIP to a private IP of an ENI",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "privateIpAddress": "Private IP address of the ENI to bind the EIP to",
+    "publicIpAddress": "EIP address to bind"
+  },
+  "EniUnBindEip": {
+    "desc": "Unbind an EIP from an ENI",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "publicIpAddress": "EIP address to unbind"
+  },
+  "EniBindSg": {
+    "desc": "Update security groups bound to an ENI, replacing all existing security groups",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "securityGroupIds": "List of security group IDs",
+    "securityGroupIds.securityGroupId": "Security group ID"
+  },
+  "EniBindEsg": {
+    "desc": "Update enterprise security groups bound to an ENI, replacing all existing security groups",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "enterpriseSecurityGroupIds": "List of enterprise security group IDs",
+    "enterpriseSecurityGroupIds.enterpriseSecurityGroupId": "Enterprise security group ID"
+  },
+  "AddEniPrivateIp": {
+    "desc": "Add a secondary private IP to an ENI",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "privateIpAddress": "Private IP address to add; empty string for auto-assignment",
+    "isIpv6": "Whether to assign an IPv6 address (true=IPv6, default false=IPv4)"
+  },
+  "DeleteEniPrivateIp": {
+    "desc": "Delete a secondary private IP from an ENI",
+    "eniId": "ENI ID",
+    "privateIpAddress": "Private IP address to delete (IPv4 or IPv6, secondary IPs only)",
+    "clientToken": "Idempotent token, max 64 ASCII characters"
+  },
+  "BatchAddEniPrivateIp": {
+    "desc": "Batch add secondary private IPs to an ENI, up to 10 per request",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "isIpv6": "Whether to assign IPv6 addresses (true=IPv6, default false=IPv4)",
+    "privateIpAddressCount": "Number of IPs to auto-assign, up to 10 (provide this or privateIpAddresses)",
+    "privateIpAddresses": "List of specific IP addresses to assign, up to 10 (provide this or privateIpAddressCount)",
+    "privateIpAddresses.privateIpAddress": "Private IP address"
+  },
+  "BatchDeleteEniPrivateIp": {
+    "desc": "Batch delete secondary private IPs from an ENI, up to 10 per request",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "privateIpAddresses": "List of private IP addresses to delete (IPv4 or IPv6, secondary IPs only)",
+    "privateIpAddresses.privateIpAddress": "Private IP address"
+  }
+}
