@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "style": "rpc",
+  "apis": {
+    "DescribeAcl": {
+      "title": "DescribeAcl",
+      "summary": "query acl info."
+    },
+    "DescribeAclRules": {
+      "title": "DescribeAclRules",
+      "summary": "query acl rules info."
+    }
+  }
+}

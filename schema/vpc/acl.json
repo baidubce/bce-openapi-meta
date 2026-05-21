@@ -3,28 +3,6 @@
   "module": "acl",
   "apis": [
     {
-      "name": "DescribeAcl",
-      "method": "GET",
-      "uri": "/v{version}/acl",
-      "desc_key": "vpc.DescribeAcl.desc",
-      "parameters": [
-        {"name": "version", "type": "String", "required": false, "position": "URL",   "default": "1", "desc_key": "common.version"},
-        {"name": "vpcId",   "type": "String", "required": true,  "position": "QUERY", "desc_key": "vpc.DescribeAcl.vpcId"}
-      ]
-    },
-    {
-      "name": "DescribeAclRules",
-      "method": "GET",
-      "uri": "/v{version}/acl/rule",
-      "desc_key": "vpc.DescribeAclRules.desc",
-      "parameters": [
-        {"name": "version",  "type": "String",  "required": false, "position": "URL",   "default": "1", "desc_key": "common.version"},
-        {"name": "subnetId", "type": "String",  "required": true,  "position": "QUERY", "desc_key": "vpc.DescribeAclRules.subnetId"},
-        {"name": "marker",   "type": "String",  "required": false, "position": "QUERY", "desc_key": "vpc.DescribeAclRules.marker"},
-        {"name": "maxKeys",  "type": "Integer", "required": false, "position": "QUERY", "desc_key": "vpc.DescribeAclRules.maxKeys"}
-      ]
-    },
-    {
       "name": "CreateAclRules",
       "method": "POST",
       "uri": "/v{version}/acl/rule",

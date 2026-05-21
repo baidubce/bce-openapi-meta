@@ -1,14 +1,4 @@
 {
-  "DescribeAcl": {
-    "desc": "Query ACL information for a VPC",
-    "vpcId": "VPC ID"
-  },
-  "DescribeAclRules": {
-    "desc": "List ACL rules for a subnet",
-    "subnetId": "Subnet ID",
-    "marker": "Pagination start marker",
-    "maxKeys": "Maximum results per page, default 1000"
-  },
   "CreateAclRules": {
     "desc": "Add ACL rules in batch (max 20 per request)",
     "clientToken": "Idempotent token",

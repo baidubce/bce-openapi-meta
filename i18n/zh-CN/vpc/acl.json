@@ -1,14 +1,4 @@
 {
-  "DescribeAcl": {
-    "desc": "查询 VPC 的 ACL 信息",
-    "vpcId": "VPC 的 ID"
-  },
-  "DescribeAclRules": {
-    "desc": "查询子网的 ACL 规则列表",
-    "subnetId": "子网 ID",
-    "marker": "分页查询起始标识符",
-    "maxKeys": "每页最大返回数量，默认 1000"
-  },
   "CreateAclRules": {
     "desc": "批量添加 ACL 规则，单次最多 20 条",
     "clientToken": "幂等性 Token",

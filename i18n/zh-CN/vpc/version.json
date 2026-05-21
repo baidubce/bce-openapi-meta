@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "style": "rpc",
+  "apis": {
+    "DescribeAcl": {
+      "title": "查询acl详情",
+      "summary": "查询acl详情"
+    },
+    "DescribeAclRules": {
+      "title": "查询acl规则",
+      "summary": "查询acl规则"
+    }
+  }
+}
