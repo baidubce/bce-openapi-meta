@@ -1,0 +1,7 @@
+{
+  "DescribeUserGateways": {
+    "desc": "List customer gateways",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000"
+  }
+}

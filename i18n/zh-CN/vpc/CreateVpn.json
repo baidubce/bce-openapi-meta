@@ -1,0 +1,23 @@
+{
+  "CreateVpn": {
+    "desc": "创建 VPN 网关",
+    "clientToken": "幂等性 Token",
+    "vpcId": "VPN 网关所属 VPC 的 ID",
+    "vpnName": "VPN 网关名称",
+    "subnetId": "VPN 网关所属子网的 ID",
+    "type": "VPN 网关类型，如 ipsec / ssl / ipsec_ssl",
+    "description": "VPN 网关描述",
+    "eip": "绑定到 VPN 网关的 EIP 地址",
+    "maxConnection": "SSL VPN 最大并发连接数",
+    "resourceGroupId": "资源组 ID",
+    "deleteProtect": "是否开启删除保护，true 开启，false 关闭",
+    "billing": "计费信息对象",
+    "billing.paymentTiming": "付费类型：Prepaid（预付费）或 Postpaid（后付费）",
+    "billing.reservation": "预付费时长配置对象（Prepaid 时必填）",
+    "billing.reservation.reservationLength": "预付费时长（月）",
+    "billing.reservation.reservationTimeUnit": "预付费时长单位，固定为 Month",
+    "tags": "绑定到 VPN 网关的标签列表",
+    "tags.tagKey": "标签键",
+    "tags.tagValue": "标签值"
+  }
+}

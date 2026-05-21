@@ -1,0 +1,37 @@
+{
+  "name": "DescribeVpcPrivateIps",
+  "method": "GET",
+  "uri": "/v{version}/vpc/{vpcId}/privateIpAddressInfo",
+  "desc_key": "vpc.DescribeVpcPrivateIps.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "vpcId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.DescribeVpcPrivateIps.vpcId"
+    },
+    {
+      "name": "privateIpAddresses",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeVpcPrivateIps.privateIpAddresses"
+    },
+    {
+      "name": "privateIpRange",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeVpcPrivateIps.privateIpRange"
+    }
+  ]
+}

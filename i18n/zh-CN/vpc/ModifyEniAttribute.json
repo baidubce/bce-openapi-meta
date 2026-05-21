@@ -1,0 +1,9 @@
+{
+  "ModifyEniAttribute": {
+    "desc": "更新弹性网卡的名称或描述（两者不能同时为空）",
+    "eniId": "弹性网卡的 ID",
+    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符",
+    "name": "新名称",
+    "description": "新描述"
+  }
+}

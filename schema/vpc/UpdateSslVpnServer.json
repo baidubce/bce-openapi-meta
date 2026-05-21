@@ -1,0 +1,65 @@
+{
+  "name": "UpdateSslVpnServer",
+  "method": "PUT",
+  "uri": "/v{version}/vpn/{vpnId}/sslVpnServer/{sslVpnServerId}",
+  "desc_key": "vpc.UpdateSslVpnServer.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "vpnId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.UpdateSslVpnServer.vpnId"
+    },
+    {
+      "name": "sslVpnServerId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.UpdateSslVpnServer.sslVpnServerId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.UpdateSslVpnServer.clientToken"
+    },
+    {
+      "name": "sslVpnServerName",
+      "type": "String",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSslVpnServer.sslVpnServerName"
+    },
+    {
+      "name": "localSubnets",
+      "type": "List",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSslVpnServer.localSubnets"
+    },
+    {
+      "name": "remoteSubnet",
+      "type": "String",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSslVpnServer.remoteSubnet"
+    },
+    {
+      "name": "clientDns",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSslVpnServer.clientDns"
+    }
+  ]
+}

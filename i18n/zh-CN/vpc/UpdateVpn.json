@@ -1,0 +1,9 @@
+{
+  "UpdateVpn": {
+    "desc": "修改 VPN 网关名称或描述",
+    "vpnId": "待修改的 VPN 网关 ID",
+    "clientToken": "幂等性 Token",
+    "vpnName": "VPN 网关新名称",
+    "description": "VPN 网关新描述"
+  }
+}

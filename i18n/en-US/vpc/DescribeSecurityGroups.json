@@ -1,0 +1,11 @@
+{
+  "DescribeSecurityGroups": {
+    "desc": "List security groups",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000",
+    "instanceId": "Cloud instance ID to filter associated security groups",
+    "vpcId": "VPC ID filter",
+    "securityGroupId": "Specific security group ID to query",
+    "securityGroupIds": "Comma-separated list of security group IDs to query"
+  }
+}

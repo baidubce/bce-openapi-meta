@@ -1,0 +1,6 @@
+{
+  "DescribeSubnet": {
+    "desc": "查询指定子网的详细信息",
+    "subnetId": "子网 ID"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "DeleteRouteRule": {
+    "desc": "删除指定路由规则",
+    "routeRuleId": "待删除的路由规则 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

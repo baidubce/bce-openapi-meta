@@ -1,0 +1,7 @@
+{
+  "DeleteSubnet": {
+    "desc": "删除指定子网",
+    "subnetId": "待删除子网的 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

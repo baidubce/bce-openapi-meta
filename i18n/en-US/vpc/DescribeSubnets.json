@@ -1,0 +1,11 @@
+{
+  "DescribeSubnets": {
+    "desc": "List all subnets",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000",
+    "vpcId": "Filter by VPC ID",
+    "zoneName": "Filter by availability zone name",
+    "subnetType": "Filter by subnet type: BCC or BBC",
+    "subnetIds": "Comma-separated list of subnet IDs to query"
+  }
+}

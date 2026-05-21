@@ -1,0 +1,8 @@
+{
+  "DeleteSslVpnUser": {
+    "desc": "删除 SSL VPN 用户",
+    "vpnId": "所属 VPN 网关的 ID",
+    "userId": "待删除的 SSL VPN 用户 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

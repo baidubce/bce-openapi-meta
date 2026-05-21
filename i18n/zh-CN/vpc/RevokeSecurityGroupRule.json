@@ -1,0 +1,18 @@
+{
+  "RevokeSecurityGroupRule": {
+    "desc": "撤销安全组中的规则",
+    "securityGroupId": "安全组 ID",
+    "sgVersion": "安全组版本号",
+    "clientToken": "幂等性 Token",
+    "rule": "待撤销的安全组规则对象",
+    "rule.direction": "规则方向：ingress（入站）或 egress（出站）",
+    "rule.portRange": "端口范围，如 1-65535 或 80",
+    "rule.protocol": "协议：tcp/udp/icmp/all",
+    "rule.sourceIp": "入站源 IP 或 CIDR，与 sourceGroupId 不可同时填写",
+    "rule.sourceGroupId": "入站源安全组 ID，与 sourceIp 不可同时填写",
+    "rule.destIp": "出站目的 IP 或 CIDR，与 destGroupId 不可同时填写",
+    "rule.destGroupId": "出站目的安全组 ID，与 destIp 不可同时填写",
+    "rule.ethertype": "以太网类型：IPv4 或 IPv6",
+    "rule.remark": "规则备注"
+  }
+}

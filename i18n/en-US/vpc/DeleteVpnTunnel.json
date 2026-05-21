@@ -1,0 +1,7 @@
+{
+  "DeleteVpnTunnel": {
+    "desc": "Delete an IPsec VPN tunnel",
+    "vpnConnId": "ID of the VPN tunnel to delete",
+    "clientToken": "Idempotent token"
+  }
+}

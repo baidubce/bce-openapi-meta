@@ -1,0 +1,7 @@
+{
+  "ReleaseVpn": {
+    "desc": "释放 VPN 网关",
+    "vpnId": "待释放的 VPN 网关 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

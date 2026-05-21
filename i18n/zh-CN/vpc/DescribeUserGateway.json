@@ -1,0 +1,6 @@
+{
+  "DescribeUserGateway": {
+    "desc": "查询指定用户网关的详情",
+    "cgwId": "用户网关 ID"
+  }
+}

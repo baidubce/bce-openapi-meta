@@ -1,0 +1,11 @@
+{
+  "UpdateRouteRule": {
+    "desc": "更新路由规则（仅支持单线路由）",
+    "routeRuleId": "待更新的路由规则 ID",
+    "clientToken": "幂等性 Token",
+    "sourceAddress": "源网段，CIDR 格式",
+    "destinationAddress": "目标网段，CIDR 格式",
+    "nexthopId": "下一跳 ID",
+    "description": "路由规则描述，最大 200 字符"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "CreateSecurityGroup": {
+    "desc": "创建普通安全组及安全组规则",
+    "clientToken": "幂等性 Token",
+    "name": "安全组名称，1-65 个字符，字母开头",
+    "vpcId": "安全组所属 VPC 的 ID",
+    "sgDesc": "安全组描述信息",
+    "rules": "创建时绑定的安全组规则列表",
+    "rules.direction": "规则方向：ingress（入站）或 egress（出站）",
+    "rules.portRange": "端口范围，如 1-65535 或 80",
+    "rules.protocol": "协议：tcp/udp/icmp/all",
+    "rules.sourceIp": "入站源 IP 或 CIDR，与 sourceGroupId 不可同时填写",
+    "rules.sourceGroupId": "入站源安全组 ID，与 sourceIp 不可同时填写",
+    "rules.destIp": "出站目的 IP 或 CIDR，与 destGroupId 不可同时填写",
+    "rules.destGroupId": "出站目的安全组 ID，与 destIp 不可同时填写",
+    "rules.ethertype": "以太网类型：IPv4 或 IPv6",
+    "rules.remark": "规则备注",
+    "tags": "创建时绑定的标签列表",
+    "tags.tagKey": "标签键",
+    "tags.tagValue": "标签值"
+  }
+}

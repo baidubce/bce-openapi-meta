@@ -1,0 +1,10 @@
+{
+  "UpdateSubnet": {
+    "desc": "Update subnet name, description, or other attributes",
+    "subnetId": "ID of the subnet to update",
+    "clientToken": "Idempotent token",
+    "name": "New subnet name, 1-65 characters",
+    "description": "New subnet description, max 200 characters",
+    "enableIpv6": "Whether to enable IPv6 (true=enable, false=disable)"
+  }
+}

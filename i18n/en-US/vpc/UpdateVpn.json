@@ -1,0 +1,9 @@
+{
+  "UpdateVpn": {
+    "desc": "Update VPN gateway name or description",
+    "vpnId": "ID of the VPN gateway to update",
+    "clientToken": "Idempotent token",
+    "vpnName": "New VPN gateway name",
+    "description": "New VPN gateway description"
+  }
+}

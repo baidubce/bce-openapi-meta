@@ -1,0 +1,11 @@
+{
+  "RenewVpn": {
+    "desc": "续费 VPN 网关（仅预付费网关可用）",
+    "vpnId": "待续费的 VPN 网关 ID",
+    "clientToken": "幂等性 Token",
+    "billing": "续费计费信息",
+    "billing.reservation": "预付费时长配置对象",
+    "billing.reservation.reservationLength": "续费时长（月）",
+    "billing.reservation.reservationTimeUnit": "续费时长单位，固定为 Month"
+  }
+}

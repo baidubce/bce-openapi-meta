@@ -1,0 +1,30 @@
+{
+  "name": "DescribeRouteTables",
+  "method": "GET",
+  "uri": "/v{version}/route",
+  "desc_key": "vpc.DescribeRouteTables.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "routeTableId",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeRouteTables.routeTableId"
+    },
+    {
+      "name": "vpcId",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeRouteTables.vpcId"
+    }
+  ]
+}

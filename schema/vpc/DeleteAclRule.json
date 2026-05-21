@@ -1,0 +1,30 @@
+{
+  "name": "DeleteAclRule",
+  "method": "DELETE",
+  "uri": "/v{version}/acl/rule/{aclRuleId}",
+  "desc_key": "vpc.DeleteAclRule.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "aclRuleId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.DeleteAclRule.aclRuleId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DeleteAclRule.clientToken"
+    }
+  ]
+}

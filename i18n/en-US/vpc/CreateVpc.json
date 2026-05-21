@@ -1,0 +1,13 @@
+{
+  "CreateVpc": {
+    "desc": "Create a Virtual Private Cloud (VPC)",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "name": "VPC name, 1-65 characters, cannot be 'default'",
+    "description": "VPC description, max 200 characters",
+    "cidr": "IPv4 CIDR block of the VPC, e.g. 192.168.0.0/16",
+    "enableIpv6": "Whether to enable IPv6 (true=enable, default false)",
+    "tags": "List of tag key-value pairs to attach to the VPC",
+    "tags.tagKey": "Tag key",
+    "tags.tagValue": "Tag value"
+  }
+}

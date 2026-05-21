@@ -1,0 +1,7 @@
+{
+  "DeleteVpc": {
+    "desc": "Delete a VPC. Ensure no subnets or other resources exist inside",
+    "vpcId": "ID of the VPC to delete",
+    "clientToken": "Idempotent token"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "DeleteIpReserve": {
+    "desc": "Delete a reserved IP range",
+    "ipReserveId": "ID of the reserved IP range to delete",
+    "clientToken": "Idempotent token"
+  }
+}

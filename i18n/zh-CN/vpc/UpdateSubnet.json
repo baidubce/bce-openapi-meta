@@ -1,0 +1,10 @@
+{
+  "UpdateSubnet": {
+    "desc": "更新子网名称、描述等属性",
+    "subnetId": "待更新子网的 ID",
+    "clientToken": "幂等性 Token",
+    "name": "子网新名称，1-65 个字符",
+    "description": "子网新描述，最大 200 字符",
+    "enableIpv6": "是否开启 IPv6，true 开启，false 不开启"
+  }
+}

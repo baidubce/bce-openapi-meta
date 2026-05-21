@@ -1,0 +1,11 @@
+{
+  "UpdateRouteRule": {
+    "desc": "Update a route rule (single-path routes only)",
+    "routeRuleId": "ID of the route rule to update",
+    "clientToken": "Idempotent token",
+    "sourceAddress": "Source CIDR block",
+    "destinationAddress": "Destination CIDR block",
+    "nexthopId": "Next hop ID",
+    "description": "Route rule description, max 200 characters"
+  }
+}

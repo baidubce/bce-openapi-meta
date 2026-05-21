@@ -1,0 +1,12 @@
+{
+  "UpdateSslVpnServer": {
+    "desc": "Update SSL VPN server configuration",
+    "vpnId": "ID of the VPN gateway the server belongs to",
+    "sslVpnServerId": "SSL VPN server ID",
+    "clientToken": "Idempotent token",
+    "sslVpnServerName": "New SSL VPN server name",
+    "localSubnets": "Local subnet list (array of CIDR strings)",
+    "remoteSubnet": "Client address pool CIDR assigned to VPN clients",
+    "clientDns": "DNS address assigned to VPN clients"
+  }
+}

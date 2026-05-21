@@ -1,0 +1,51 @@
+{
+  "name": "UpdateSubnet",
+  "method": "PUT",
+  "uri": "/v{version}/subnet/{subnetId}?modifyAttribute",
+  "desc_key": "vpc.UpdateSubnet.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "subnetId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.UpdateSubnet.subnetId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.UpdateSubnet.clientToken"
+    },
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSubnet.name"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSubnet.description"
+    },
+    {
+      "name": "enableIpv6",
+      "type": "Boolean",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSubnet.enableIpv6"
+    }
+  ]
+}

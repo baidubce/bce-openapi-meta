@@ -1,0 +1,9 @@
+{
+  "CreateUserGateway": {
+    "desc": "Create a customer gateway (remote peer gateway)",
+    "clientToken": "Idempotent token",
+    "name": "Customer gateway name",
+    "ip": "Public IP address of the customer gateway",
+    "description": "Customer gateway description"
+  }
+}

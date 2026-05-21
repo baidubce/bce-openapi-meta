@@ -1,0 +1,6 @@
+{
+  "DescribeVpc": {
+    "desc": "Get detailed information about a specific VPC",
+    "vpcId": "VPC ID"
+  }
+}

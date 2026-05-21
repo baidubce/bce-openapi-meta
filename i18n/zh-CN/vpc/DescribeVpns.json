@@ -1,0 +1,10 @@
+{
+  "DescribeVpns": {
+    "desc": "查询 VPN 网关列表",
+    "marker": "分页查询起始标识符",
+    "maxKeys": "每页最大返回数量，默认 1000",
+    "vpcId": "所属 VPC 的 ID",
+    "eip": "按绑定的 EIP 地址过滤",
+    "type": "按 VPN 类型过滤：ipsec / ssl / ipsec_ssl"
+  }
+}

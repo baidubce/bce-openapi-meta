@@ -9,6 +9,334 @@
     "DescribeAclRules": {
       "title": "查询acl规则",
       "summary": "查询acl规则"
+    },
+    "AddEniPrivateIp": {
+      "title": "为弹性网卡增加一个辅助内网 IP",
+      "summary": "为弹性网卡增加一个辅助内网 IP"
+    },
+    "AttachEni": {
+      "title": "将弹性网卡挂载到云产品实例",
+      "summary": "将弹性网卡挂载到云产品实例"
+    },
+    "AuthorizeEnterpriseSecurityGroupRule": {
+      "title": "向企业安全组添加规则，单次不超过 20 条",
+      "summary": "向企业安全组添加规则，单次不超过 20 条"
+    },
+    "AuthorizeSecurityGroupRule": {
+      "title": "在安全组中授权新的安全组规则",
+      "summary": "在安全组中授权新的安全组规则"
+    },
+    "BatchAddEniPrivateIp": {
+      "title": "批量为弹性网卡增加辅助内网 IP，单次最多 10 个",
+      "summary": "批量为弹性网卡增加辅助内网 IP，单次最多 10 个"
+    },
+    "BatchCreateSslVpnUsers": {
+      "title": "批量创建 SSL VPN 用户",
+      "summary": "批量创建 SSL VPN 用户"
+    },
+    "BatchDeleteEniPrivateIp": {
+      "title": "批量删除弹性网卡上的辅助内网 IP，单次最多 10 个",
+      "summary": "批量删除弹性网卡上的辅助内网 IP，单次最多 10 个"
+    },
+    "BindEip": {
+      "title": "为 VPN 网关绑定 EIP",
+      "summary": "为 VPN 网关绑定 EIP"
+    },
+    "CreateAclRules": {
+      "title": "批量添加 ACL 规则，单次最多 20 条",
+      "summary": "批量添加 ACL 规则，单次最多 20 条"
+    },
+    "CreateEni": {
+      "title": "创建弹性网卡",
+      "summary": "创建弹性网卡"
+    },
+    "CreateEnterpriseSecurityGroup": {
+      "title": "创建企业安全组",
+      "summary": "创建企业安全组"
+    },
+    "CreateIpReserve": {
+      "title": "在子网内创建预留网段",
+      "summary": "在子网内创建预留网段"
+    },
+    "CreateRouteRule": {
+      "title": "在路由表内创建路由规则",
+      "summary": "在路由表内创建路由规则"
+    },
+    "CreateSecurityGroup": {
+      "title": "创建普通安全组及安全组规则",
+      "summary": "创建普通安全组及安全组规则"
+    },
+    "CreateSslVpnServer": {
+      "title": "创建 SSL VPN 服务端",
+      "summary": "创建 SSL VPN 服务端"
+    },
+    "CreateSubnet": {
+      "title": "在指定 VPC 内创建子网",
+      "summary": "在指定 VPC 内创建子网"
+    },
+    "CreateUserGateway": {
+      "title": "创建用户网关（对端网关）",
+      "summary": "创建用户网关（对端网关）"
+    },
+    "CreateVpc": {
+      "title": "创建一个私有网络（VPC）",
+      "summary": "创建一个私有网络（VPC）"
+    },
+    "CreateVpn": {
+      "title": "创建 VPN 网关",
+      "summary": "创建 VPN 网关"
+    },
+    "CreateVpnTunnel": {
+      "title": "创建 IPsec VPN 隧道",
+      "summary": "创建 IPsec VPN 隧道"
+    },
+    "DeleteAclRule": {
+      "title": "删除指定 ACL 规则",
+      "summary": "删除指定 ACL 规则"
+    },
+    "DeleteEni": {
+      "title": "删除弹性网卡",
+      "summary": "删除弹性网卡"
+    },
+    "DeleteEniPrivateIp": {
+      "title": "删除弹性网卡上的指定辅助内网 IP",
+      "summary": "删除弹性网卡上的指定辅助内网 IP"
+    },
+    "DeleteEnterpriseSecurityGroup": {
+      "title": "删除企业安全组",
+      "summary": "删除企业安全组"
+    },
+    "DeleteEnterpriseSecurityGroupRule": {
+      "title": "删除企业安全组规则",
+      "summary": "删除企业安全组规则"
+    },
+    "DeleteIpReserve": {
+      "title": "删除预留网段",
+      "summary": "删除预留网段"
+    },
+    "DeleteRouteRule": {
+      "title": "删除指定路由规则",
+      "summary": "删除指定路由规则"
+    },
+    "DeleteSecurityGroup": {
+      "title": "删除指定普通安全组",
+      "summary": "删除指定普通安全组"
+    },
+    "DeleteSecurityGroupRule": {
+      "title": "删除指定普通安全组规则",
+      "summary": "删除指定普通安全组规则"
+    },
+    "DeleteSslVpnServer": {
+      "title": "删除 SSL VPN 服务端",
+      "summary": "删除 SSL VPN 服务端"
+    },
+    "DeleteSslVpnUser": {
+      "title": "删除 SSL VPN 用户",
+      "summary": "删除 SSL VPN 用户"
+    },
+    "DeleteSubnet": {
+      "title": "删除指定子网",
+      "summary": "删除指定子网"
+    },
+    "DeleteUserGateway": {
+      "title": "删除用户网关",
+      "summary": "删除用户网关"
+    },
+    "DeleteVpc": {
+      "title": "删除指定 VPC，删除前需确保 VPC 内无子网等资源",
+      "summary": "删除指定 VPC，删除前需确保 VPC 内无子网等资源"
+    },
+    "DeleteVpnTunnel": {
+      "title": "删除 IPsec VPN 隧道",
+      "summary": "删除 IPsec VPN 隧道"
+    },
+    "DescribeIpReserves": {
+      "title": "查询预留网段列表",
+      "summary": "查询预留网段列表"
+    },
+    "DescribeRouteRules": {
+      "title": "查询路由表或 VPC 下的路由规则列表",
+      "summary": "查询路由表或 VPC 下的路由规则列表"
+    },
+    "DescribeRouteTables": {
+      "title": "查询路由表列表",
+      "summary": "查询路由表列表"
+    },
+    "DescribeSecurityGroup": {
+      "title": "查询指定普通安全组的详情",
+      "summary": "查询指定普通安全组的详情"
+    },
+    "DescribeSecurityGroups": {
+      "title": "查询普通安全组列表",
+      "summary": "查询普通安全组列表"
+    },
+    "DescribeSslVpnServer": {
+      "title": "查询 SSL VPN 服务端信息",
+      "summary": "查询 SSL VPN 服务端信息"
+    },
+    "DescribeSslVpnUsers": {
+      "title": "查询 SSL VPN 用户列表",
+      "summary": "查询 SSL VPN 用户列表"
+    },
+    "DescribeSubnet": {
+      "title": "查询指定子网的详细信息",
+      "summary": "查询指定子网的详细信息"
+    },
+    "DescribeSubnets": {
+      "title": "查询所有子网列表",
+      "summary": "查询所有子网列表"
+    },
+    "DescribeUserGateway": {
+      "title": "查询指定用户网关的详情",
+      "summary": "查询指定用户网关的详情"
+    },
+    "DescribeUserGateways": {
+      "title": "查询用户网关列表",
+      "summary": "查询用户网关列表"
+    },
+    "DescribeVpc": {
+      "title": "查询指定 VPC 的详细信息",
+      "summary": "查询指定 VPC 的详细信息"
+    },
+    "DescribeVpcPrivateIps": {
+      "title": "查询 VPC 内私网 IP 信息",
+      "summary": "查询 VPC 内私网 IP 信息"
+    },
+    "DescribeVpcResourceIps": {
+      "title": "查询 VPC 内产品占用的私网 IP 信息",
+      "summary": "查询 VPC 内产品占用的私网 IP 信息"
+    },
+    "DescribeVpcs": {
+      "title": "查询用户的 VPC 列表",
+      "summary": "查询用户的 VPC 列表"
+    },
+    "DescribeVpn": {
+      "title": "查询指定 VPN 网关的详情",
+      "summary": "查询指定 VPN 网关的详情"
+    },
+    "DescribeVpnTunnels": {
+      "title": "查询 VPN 网关下的隧道列表",
+      "summary": "查询 VPN 网关下的隧道列表"
+    },
+    "DescribeVpns": {
+      "title": "查询 VPN 网关列表",
+      "summary": "查询 VPN 网关列表"
+    },
+    "DetachEni": {
+      "title": "将弹性网卡从云产品实例卸载",
+      "summary": "将弹性网卡从云产品实例卸载"
+    },
+    "DisableVpcRelay": {
+      "title": "关闭 VPC 中继，操作前需确保中继已开启",
+      "summary": "关闭 VPC 中继，操作前需确保中继已开启"
+    },
+    "EnableVpcRelay": {
+      "title": "开启 VPC 中继",
+      "summary": "开启 VPC 中继"
+    },
+    "EniBindEip": {
+      "title": "为弹性网卡的指定内网 IP 绑定 EIP",
+      "summary": "为弹性网卡的指定内网 IP 绑定 EIP"
+    },
+    "EniBindEsg": {
+      "title": "更新弹性网卡绑定的企业安全组（覆盖原有所有安全组）",
+      "summary": "更新弹性网卡绑定的企业安全组（覆盖原有所有安全组）"
+    },
+    "EniBindSg": {
+      "title": "更新弹性网卡绑定的普通安全组（覆盖原有所有安全组）",
+      "summary": "更新弹性网卡绑定的普通安全组（覆盖原有所有安全组）"
+    },
+    "EniUnBindEip": {
+      "title": "解绑弹性网卡上的 EIP",
+      "summary": "解绑弹性网卡上的 EIP"
+    },
+    "GetEni": {
+      "title": "查询指定弹性网卡的详细信息",
+      "summary": "查询指定弹性网卡的详细信息"
+    },
+    "GetEniStatus": {
+      "title": "查询弹性网卡的当前状态",
+      "summary": "查询弹性网卡的当前状态"
+    },
+    "ListEni": {
+      "title": "查询弹性网卡列表",
+      "summary": "查询弹性网卡列表"
+    },
+    "ListEnterpriseSecurityGroups": {
+      "title": "查询企业安全组列表",
+      "summary": "查询企业安全组列表"
+    },
+    "ModifyEniAttribute": {
+      "title": "更新弹性网卡的名称或描述（两者不能同时为空）",
+      "summary": "更新弹性网卡的名称或描述（两者不能同时为空）"
+    },
+    "ReleaseVpn": {
+      "title": "释放 VPN 网关",
+      "summary": "释放 VPN 网关"
+    },
+    "RenewVpn": {
+      "title": "续费 VPN 网关（仅预付费网关可用）",
+      "summary": "续费 VPN 网关（仅预付费网关可用）"
+    },
+    "RevokeSecurityGroupRule": {
+      "title": "撤销安全组中的规则",
+      "summary": "撤销安全组中的规则"
+    },
+    "SwitchRouteHA": {
+      "title": "多线主备路由中，将主路由切换为备路由",
+      "summary": "多线主备路由中，将主路由切换为备路由"
+    },
+    "UnbindEip": {
+      "title": "解绑 VPN 网关上的 EIP",
+      "summary": "解绑 VPN 网关上的 EIP"
+    },
+    "UpdateAclRule": {
+      "title": "更新 ACL 规则信息",
+      "summary": "更新 ACL 规则信息"
+    },
+    "UpdateEnterpriseSecurityGroupRule": {
+      "title": "更新企业安全组规则",
+      "summary": "更新企业安全组规则"
+    },
+    "UpdateRouteRule": {
+      "title": "更新路由规则（仅支持单线路由）",
+      "summary": "更新路由规则（仅支持单线路由）"
+    },
+    "UpdateSecurityGroupRule": {
+      "title": "更新普通安全组规则信息",
+      "summary": "更新普通安全组规则信息"
+    },
+    "UpdateSslVpnServer": {
+      "title": "修改 SSL VPN 服务端配置",
+      "summary": "修改 SSL VPN 服务端配置"
+    },
+    "UpdateSslVpnUser": {
+      "title": "修改 SSL VPN 用户信息",
+      "summary": "修改 SSL VPN 用户信息"
+    },
+    "UpdateSubnet": {
+      "title": "更新子网名称、描述等属性",
+      "summary": "更新子网名称、描述等属性"
+    },
+    "UpdateUserGateway": {
+      "title": "修改用户网关名称或描述",
+      "summary": "修改用户网关名称或描述"
+    },
+    "UpdateVpc": {
+      "title": "更新 VPC 的名称、描述等属性",
+      "summary": "更新 VPC 的名称、描述等属性"
+    },
+    "UpdateVpn": {
+      "title": "修改 VPN 网关名称或描述",
+      "summary": "修改 VPN 网关名称或描述"
+    },
+    "UpdateVpnDeleteProtect": {
+      "title": "开启或关闭 VPN 网关删除保护",
+      "summary": "开启或关闭 VPN 网关删除保护"
+    },
+    "UpdateVpnTunnel": {
+      "title": "修改 IPsec VPN 隧道配置",
+      "summary": "修改 IPsec VPN 隧道配置"
     }
   }
 }

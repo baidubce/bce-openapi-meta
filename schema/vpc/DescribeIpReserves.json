@@ -1,0 +1,37 @@
+{
+  "name": "DescribeIpReserves",
+  "method": "GET",
+  "uri": "/v{version}/subnet/ipreserve",
+  "desc_key": "vpc.DescribeIpReserves.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "subnetId",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeIpReserves.subnetId"
+    },
+    {
+      "name": "marker",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeIpReserves.marker"
+    },
+    {
+      "name": "maxKeys",
+      "type": "Integer",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeIpReserves.maxKeys"
+    }
+  ]
+}

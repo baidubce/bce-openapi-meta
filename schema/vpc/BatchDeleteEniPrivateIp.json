@@ -1,0 +1,45 @@
+{
+  "name": "BatchDeleteEniPrivateIp",
+  "method": "POST",
+  "uri": "/v{version}/eni/{eniId}/privateIp/batchDel",
+  "desc_key": "vpc.BatchDeleteEniPrivateIp.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "eniId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.BatchDeleteEniPrivateIp.eniId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.BatchDeleteEniPrivateIp.clientToken"
+    },
+    {
+      "name": "privateIpAddresses",
+      "type": "List",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.BatchDeleteEniPrivateIp.privateIpAddresses",
+      "sub_parameters": [
+        {
+          "name": "privateIpAddress",
+          "type": "String",
+          "required": true,
+          "desc_key": "vpc.BatchDeleteEniPrivateIp.privateIpAddresses.privateIpAddress"
+        }
+      ]
+    }
+  ]
+}

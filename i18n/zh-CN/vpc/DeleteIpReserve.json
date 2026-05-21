@@ -1,0 +1,7 @@
+{
+  "DeleteIpReserve": {
+    "desc": "删除预留网段",
+    "ipReserveId": "预留网段的 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "DescribeSubnets": {
+    "desc": "查询所有子网列表",
+    "marker": "分页查询起始标识符",
+    "maxKeys": "每页最大返回数量，默认 1000",
+    "vpcId": "所属 VPC 的 ID",
+    "zoneName": "可用区名称",
+    "subnetType": "子网类型，BCC 或 BBC",
+    "subnetIds": "指定查询的子网 ID 列表，多个用逗号分隔"
+  }
+}

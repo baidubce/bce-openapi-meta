@@ -1,0 +1,86 @@
+{
+  "name": "UpdateAclRule",
+  "method": "PUT",
+  "uri": "/v{version}/acl/rule/{aclRuleId}",
+  "desc_key": "vpc.UpdateAclRule.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "aclRuleId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.UpdateAclRule.aclRuleId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.UpdateAclRule.clientToken"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateAclRule.description"
+    },
+    {
+      "name": "protocol",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateAclRule.protocol"
+    },
+    {
+      "name": "sourceIpAddress",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateAclRule.sourceIpAddress"
+    },
+    {
+      "name": "destinationIpAddress",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateAclRule.destinationIpAddress"
+    },
+    {
+      "name": "sourcePort",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateAclRule.sourcePort"
+    },
+    {
+      "name": "destinationPort",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateAclRule.destinationPort"
+    },
+    {
+      "name": "position",
+      "type": "Integer",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateAclRule.position"
+    },
+    {
+      "name": "action",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateAclRule.action"
+    }
+  ]
+}

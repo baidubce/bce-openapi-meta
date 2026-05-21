@@ -1,0 +1,7 @@
+{
+  "DescribeVpnTunnels": {
+    "desc": "查询 VPN 网关下的隧道列表",
+    "vpnId": "VPN 网关 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

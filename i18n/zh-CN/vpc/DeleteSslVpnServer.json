@@ -1,0 +1,8 @@
+{
+  "DeleteSslVpnServer": {
+    "desc": "删除 SSL VPN 服务端",
+    "vpnId": "所属 VPN 网关的 ID",
+    "sslVpnServerId": "待删除的 SSL VPN 服务端 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

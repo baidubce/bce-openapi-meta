@@ -1,0 +1,7 @@
+{
+  "DescribeRouteTables": {
+    "desc": "List route tables",
+    "routeTableId": "Route table ID (mutually exclusive with vpcId)",
+    "vpcId": "VPC ID (mutually exclusive with routeTableId)"
+  }
+}

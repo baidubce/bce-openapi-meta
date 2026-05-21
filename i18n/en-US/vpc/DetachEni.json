@@ -1,0 +1,8 @@
+{
+  "DetachEni": {
+    "desc": "Detach an ENI from a cloud instance",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "instanceId": "ID of the instance to detach the ENI from"
+  }
+}

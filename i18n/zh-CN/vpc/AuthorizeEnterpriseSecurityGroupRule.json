@@ -1,0 +1,21 @@
+{
+  "AuthorizeEnterpriseSecurityGroupRule": {
+    "desc": "向企业安全组添加规则，单次不超过 20 条",
+    "enterpriseSecurityGroupId": "目标企业安全组 ID",
+    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符",
+    "rules": "待授权的安全组规则列表",
+    "rules.remark": "规则备注，长度 1-255",
+    "rules.direction": "规则方向：ingress（入站）或 egress（出站）",
+    "rules.ethertype": "网络类型：IPv4 或 IPv6，默认 IPv4",
+    "rules.portRange": "目的端口范围，如 1-80 或 80,443，默认 1-65535",
+    "rules.sourcePortRange": "源端口范围，如 1-80 或 80,443",
+    "rules.protocol": "协议类型：tcp / udp / icmp，默认 all",
+    "rules.sourceIp": "源 IP 地址，all 表示全部（入站规则）",
+    "rules.destIp": "目的 IP 地址，all 表示全部（出站规则）",
+    "rules.localIp": "本端 IP 地址，all 表示全部",
+    "rules.remoteIpSet": "远端 IP 地址组（与 sourceIp/destIp、remoteIpGroup 三选一）",
+    "rules.remoteIpGroup": "远端 IP 地址族（与 sourceIp/destIp、remoteIpSet 三选一）",
+    "rules.action": "动作：allow（允许）或 deny（拒绝）",
+    "rules.priority": "优先级，取值范围 1-1000"
+  }
+}

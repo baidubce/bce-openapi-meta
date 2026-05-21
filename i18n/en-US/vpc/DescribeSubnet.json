@@ -1,0 +1,6 @@
+{
+  "DescribeSubnet": {
+    "desc": "Get detailed information about a specific subnet",
+    "subnetId": "Subnet ID"
+  }
+}

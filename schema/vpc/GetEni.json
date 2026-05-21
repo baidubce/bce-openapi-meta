@@ -1,0 +1,23 @@
+{
+  "name": "GetEni",
+  "method": "GET",
+  "uri": "/v{version}/eni/{eniId}",
+  "desc_key": "vpc.GetEni.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "eniId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.GetEni.eniId"
+    }
+  ]
+}

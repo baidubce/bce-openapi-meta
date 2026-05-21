@@ -1,0 +1,26 @@
+{
+  "UpdateVpnTunnel": {
+    "desc": "修改 IPsec VPN 隧道配置",
+    "vpnConnId": "待修改的 VPN 隧道 ID",
+    "clientToken": "幂等性 Token",
+    "vpnId": "所属 VPN 网关的 ID",
+    "vpnConnName": "VPN 隧道新名称",
+    "secretKey": "预共享密钥（PSK）",
+    "cgwId": "对端用户网关的 ID",
+    "localSubnets": "本端子网列表，CIDR 格式字符串数组",
+    "remoteSubnets": "对端子网列表，CIDR 格式字符串数组",
+    "description": "VPN 隧道描述",
+    "ikeConfig": "IKE 协议配置对象",
+    "ikeConfig.ikeVersion": "IKE 版本：v1 或 v2",
+    "ikeConfig.ikeMode": "协商模式：main（主模式）或 aggressive（野蛮模式）",
+    "ikeConfig.ikeEncAlg": "IKE 加密算法：aes128/aes192/aes256/3des/des",
+    "ikeConfig.ikeAuthAlg": "IKE 认证算法：sha1/md5/sha256/sha384/sha512",
+    "ikeConfig.ikePfs": "IKE DH 组：group2/group5/group14",
+    "ikeConfig.ikeLifeTime": "IKE SA 生存时间（秒）",
+    "ipsecConfig": "IPsec 协议配置对象",
+    "ipsecConfig.ipsecEncAlg": "IPsec 加密算法：aes128/aes192/aes256/3des/des",
+    "ipsecConfig.ipsecAuthAlg": "IPsec 认证算法：sha1/md5/sha256/sha384/sha512",
+    "ipsecConfig.ipsecPfs": "IPsec PFS DH 组：group2/group5/group14/disabled",
+    "ipsecConfig.ipsecLifetime": "IPsec SA 生存时间（秒）"
+  }
+}

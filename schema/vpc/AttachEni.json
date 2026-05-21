@@ -1,0 +1,44 @@
+{
+  "name": "AttachEni",
+  "method": "PUT",
+  "uri": "/v{version}/eni/{eniId}?attach",
+  "desc_key": "vpc.AttachEni.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "eniId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.AttachEni.eniId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.AttachEni.clientToken"
+    },
+    {
+      "name": "instanceId",
+      "type": "String",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.AttachEni.instanceId"
+    },
+    {
+      "name": "instanceType",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.AttachEni.instanceType"
+    }
+  ]
+}

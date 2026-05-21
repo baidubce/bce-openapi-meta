@@ -1,0 +1,18 @@
+{
+  "UpdateEnterpriseSecurityGroupRule": {
+    "desc": "更新企业安全组规则",
+    "enterpriseSecurityGroupRuleId": "企业安全组规则 ID",
+    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符",
+    "remark": "规则备注",
+    "portRange": "目的端口范围",
+    "sourcePortRange": "源端口范围",
+    "protocol": "协议类型：all / tcp / udp / icmp",
+    "sourceIp": "源 IP 地址（入站规则，与 remoteIpSet、remoteIpGroup 三选一）",
+    "destIp": "目的 IP 地址（出站规则，与 remoteIpSet、remoteIpGroup 三选一）",
+    "localIp": "本端 IP 地址",
+    "remoteIpSet": "远端 IP 地址组（与 sourceIp/destIp、remoteIpGroup 三选一）",
+    "remoteIpGroup": "远端 IP 地址族（与 sourceIp/destIp、remoteIpSet 三选一）",
+    "action": "动作：allow（允许）或 deny（拒绝）",
+    "priority": "优先级，取值范围 1-1000"
+  }
+}

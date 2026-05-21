@@ -1,0 +1,11 @@
+{
+  "RenewVpn": {
+    "desc": "Renew a VPN gateway (Prepaid only)",
+    "vpnId": "ID of the VPN gateway to renew",
+    "clientToken": "Idempotent token",
+    "billing": "Renewal billing configuration",
+    "billing.reservation": "Prepaid reservation configuration object",
+    "billing.reservation.reservationLength": "Renewal duration in months",
+    "billing.reservation.reservationTimeUnit": "Renewal duration unit, fixed as Month"
+  }
+}

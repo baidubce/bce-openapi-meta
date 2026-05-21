@@ -1,0 +1,58 @@
+{
+  "name": "UpdateSslVpnUser",
+  "method": "PUT",
+  "uri": "/v{version}/vpn/{vpnId}/sslVpnUser/{userId}",
+  "desc_key": "vpc.UpdateSslVpnUser.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "vpnId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.UpdateSslVpnUser.vpnId"
+    },
+    {
+      "name": "userId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.UpdateSslVpnUser.userId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.UpdateSslVpnUser.clientToken"
+    },
+    {
+      "name": "clientName",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSslVpnUser.clientName"
+    },
+    {
+      "name": "password",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSslVpnUser.password"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSslVpnUser.description"
+    }
+  ]
+}

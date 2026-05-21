@@ -1,0 +1,7 @@
+{
+  "DeleteSecurityGroup": {
+    "desc": "删除指定普通安全组",
+    "securityGroupId": "待删除的安全组 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

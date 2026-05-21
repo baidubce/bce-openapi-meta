@@ -1,0 +1,7 @@
+{
+  "ReleaseVpn": {
+    "desc": "Release a VPN gateway",
+    "vpnId": "ID of the VPN gateway to release",
+    "clientToken": "Idempotent token"
+  }
+}

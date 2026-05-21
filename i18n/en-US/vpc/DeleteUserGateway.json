@@ -1,0 +1,6 @@
+{
+  "DeleteUserGateway": {
+    "desc": "Delete a customer gateway",
+    "cgwId": "ID of the customer gateway to delete"
+  }
+}

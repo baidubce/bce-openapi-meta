@@ -1,0 +1,37 @@
+{
+  "name": "UpdateVpnDeleteProtect",
+  "method": "PUT",
+  "uri": "/v{version}/vpn/{vpnId}/deleteProtect",
+  "desc_key": "vpc.UpdateVpnDeleteProtect.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "vpnId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.UpdateVpnDeleteProtect.vpnId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.UpdateVpnDeleteProtect.clientToken"
+    },
+    {
+      "name": "deleteProtect",
+      "type": "Boolean",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateVpnDeleteProtect.deleteProtect"
+    }
+  ]
+}

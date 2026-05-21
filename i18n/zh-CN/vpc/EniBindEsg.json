@@ -1,0 +1,9 @@
+{
+  "EniBindEsg": {
+    "desc": "更新弹性网卡绑定的企业安全组（覆盖原有所有安全组）",
+    "eniId": "弹性网卡的 ID",
+    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符",
+    "enterpriseSecurityGroupIds": "企业安全组 ID 列表",
+    "enterpriseSecurityGroupIds.enterpriseSecurityGroupId": "企业安全组 ID"
+  }
+}

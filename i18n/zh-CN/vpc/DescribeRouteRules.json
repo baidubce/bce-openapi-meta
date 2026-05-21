@@ -1,0 +1,9 @@
+{
+  "DescribeRouteRules": {
+    "desc": "查询路由表或 VPC 下的路由规则列表",
+    "routeTableId": "路由表 ID，与 vpcId 二选一",
+    "vpcId": "VPC 的 ID，与 routeTableId 二选一",
+    "marker": "分页查询起始标识符",
+    "maxKeys": "每页最大返回数量，默认 1000"
+  }
+}

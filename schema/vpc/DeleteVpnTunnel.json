@@ -1,0 +1,30 @@
+{
+  "name": "DeleteVpnTunnel",
+  "method": "DELETE",
+  "uri": "/v{version}/vpn/vpnconn/{vpnConnId}",
+  "desc_key": "vpc.DeleteVpnTunnel.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "vpnConnId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.DeleteVpnTunnel.vpnConnId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DeleteVpnTunnel.clientToken"
+    }
+  ]
+}

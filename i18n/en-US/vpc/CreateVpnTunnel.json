@@ -1,0 +1,25 @@
+{
+  "CreateVpnTunnel": {
+    "desc": "Create an IPsec VPN tunnel",
+    "vpnId": "ID of the VPN gateway the tunnel belongs to",
+    "clientToken": "Idempotent token",
+    "vpnConnName": "VPN tunnel name",
+    "secretKey": "Pre-shared key (PSK)",
+    "cgwId": "ID of the remote customer gateway",
+    "localSubnets": "Local subnet list (array of CIDR strings)",
+    "remoteSubnets": "Remote subnet list (array of CIDR strings)",
+    "description": "VPN tunnel description",
+    "ikeConfig": "IKE protocol configuration object",
+    "ikeConfig.ikeVersion": "IKE version: v1 or v2",
+    "ikeConfig.ikeMode": "Negotiation mode: main or aggressive",
+    "ikeConfig.ikeEncAlg": "IKE encryption algorithm: aes128/aes192/aes256/3des/des",
+    "ikeConfig.ikeAuthAlg": "IKE authentication algorithm: sha1/md5/sha256/sha384/sha512",
+    "ikeConfig.ikePfs": "IKE DH group: group2/group5/group14",
+    "ikeConfig.ikeLifeTime": "IKE SA lifetime in seconds",
+    "ipsecConfig": "IPsec protocol configuration object",
+    "ipsecConfig.ipsecEncAlg": "IPsec encryption algorithm: aes128/aes192/aes256/3des/des",
+    "ipsecConfig.ipsecAuthAlg": "IPsec authentication algorithm: sha1/md5/sha256/sha384/sha512",
+    "ipsecConfig.ipsecPfs": "IPsec PFS DH group: group2/group5/group14/disabled",
+    "ipsecConfig.ipsecLifetime": "IPsec SA lifetime in seconds"
+  }
+}

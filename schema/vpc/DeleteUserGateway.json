@@ -1,0 +1,23 @@
+{
+  "name": "DeleteUserGateway",
+  "method": "DELETE",
+  "uri": "/v{version}/vpn/cgw/{cgwId}",
+  "desc_key": "vpc.DeleteUserGateway.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "cgwId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.DeleteUserGateway.cgwId"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "CreateUserGateway": {
+    "desc": "创建用户网关（对端网关）",
+    "clientToken": "幂等性 Token",
+    "name": "用户网关名称",
+    "ip": "用户网关的公网 IP 地址",
+    "description": "用户网关描述"
+  }
+}

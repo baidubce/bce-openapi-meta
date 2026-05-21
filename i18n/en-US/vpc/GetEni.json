@@ -1,0 +1,6 @@
+{
+  "GetEni": {
+    "desc": "Get detailed information about a specific ENI",
+    "eniId": "ENI ID"
+  }
+}

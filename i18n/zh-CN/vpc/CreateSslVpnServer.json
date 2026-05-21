@@ -1,0 +1,12 @@
+{
+  "CreateSslVpnServer": {
+    "desc": "创建 SSL VPN 服务端",
+    "vpnId": "所属 VPN 网关的 ID",
+    "clientToken": "幂等性 Token",
+    "sslVpnServerName": "SSL VPN 服务端名称",
+    "interfaceType": "网卡接口类型，如 tun 或 tap",
+    "localSubnets": "本端子网列表，CIDR 格式字符串数组",
+    "remoteSubnet": "分配给 VPN 客户端的地址池 CIDR",
+    "clientDns": "分配给 VPN 客户端的 DNS 地址"
+  }
+}

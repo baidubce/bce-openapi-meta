@@ -1,0 +1,45 @@
+{
+  "name": "EniBindEsg",
+  "method": "PUT",
+  "uri": "/v{version}/eni/{eniId}?bindEsg",
+  "desc_key": "vpc.EniBindEsg.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "eniId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.EniBindEsg.eniId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.EniBindEsg.clientToken"
+    },
+    {
+      "name": "enterpriseSecurityGroupIds",
+      "type": "List",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.EniBindEsg.enterpriseSecurityGroupIds",
+      "sub_parameters": [
+        {
+          "name": "enterpriseSecurityGroupId",
+          "type": "String",
+          "required": true,
+          "desc_key": "vpc.EniBindEsg.enterpriseSecurityGroupIds.enterpriseSecurityGroupId"
+        }
+      ]
+    }
+  ]
+}

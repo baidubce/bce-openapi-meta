@@ -1,0 +1,44 @@
+{
+  "name": "CreateUserGateway",
+  "method": "POST",
+  "uri": "/v{version}/vpn/cgw",
+  "desc_key": "vpc.CreateUserGateway.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.CreateUserGateway.clientToken"
+    },
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.CreateUserGateway.name"
+    },
+    {
+      "name": "ip",
+      "type": "String",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.CreateUserGateway.ip"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.CreateUserGateway.description"
+    }
+  ]
+}

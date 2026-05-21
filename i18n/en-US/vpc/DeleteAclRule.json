@@ -1,0 +1,7 @@
+{
+  "DeleteAclRule": {
+    "desc": "Delete an ACL rule",
+    "aclRuleId": "ACL rule ID",
+    "clientToken": "Idempotent token"
+  }
+}

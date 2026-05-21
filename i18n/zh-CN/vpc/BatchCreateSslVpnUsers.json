@@ -1,0 +1,12 @@
+{
+  "BatchCreateSslVpnUsers": {
+    "desc": "批量创建 SSL VPN 用户",
+    "vpnId": "所属 VPN 网关的 ID",
+    "clientToken": "幂等性 Token",
+    "sslVpnUsers": "SSL VPN 用户列表",
+    "sslVpnUsers.userName": "SSL VPN 用户名",
+    "sslVpnUsers.password": "SSL VPN 用户密码",
+    "sslVpnUsers.clientName": "客户端标识名称",
+    "sslVpnUsers.description": "用户描述"
+  }
+}

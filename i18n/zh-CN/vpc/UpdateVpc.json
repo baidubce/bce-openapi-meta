@@ -1,0 +1,11 @@
+{
+  "UpdateVpc": {
+    "desc": "更新 VPC 的名称、描述等属性",
+    "vpcId": "待更新 VPC 的 ID",
+    "clientToken": "幂等性 Token",
+    "name": "VPC 新名称，1-65 个字符，不能取值 default",
+    "description": "VPC 新描述，最大 200 字符",
+    "enableIpv6": "是否开启 IPv6，true 开启，false 关闭",
+    "secondaryCidr": "VPC 辅助网段 CIDR 列表，替换式更新"
+  }
+}

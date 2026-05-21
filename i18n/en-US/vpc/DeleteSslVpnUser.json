@@ -1,0 +1,8 @@
+{
+  "DeleteSslVpnUser": {
+    "desc": "Delete an SSL VPN user",
+    "vpnId": "ID of the VPN gateway the user belongs to",
+    "userId": "ID of the SSL VPN user to delete",
+    "clientToken": "Idempotent token"
+  }
+}

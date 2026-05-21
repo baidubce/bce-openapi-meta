@@ -1,0 +1,7 @@
+{
+  "UnbindEip": {
+    "desc": "Unbind the EIP from a VPN gateway",
+    "vpnId": "VPN gateway ID",
+    "clientToken": "Idempotent token"
+  }
+}

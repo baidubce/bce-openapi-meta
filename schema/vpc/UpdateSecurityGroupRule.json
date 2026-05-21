@@ -1,0 +1,86 @@
+{
+  "name": "UpdateSecurityGroupRule",
+  "method": "PUT",
+  "uri": "/v{version}/securityGroup/rule/update",
+  "desc_key": "vpc.UpdateSecurityGroupRule.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "2",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "sgVersion",
+      "type": "Integer",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.UpdateSecurityGroupRule.sgVersion"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.UpdateSecurityGroupRule.clientToken"
+    },
+    {
+      "name": "securityGroupRuleId",
+      "type": "String",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSecurityGroupRule.securityGroupRuleId"
+    },
+    {
+      "name": "remark",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSecurityGroupRule.remark"
+    },
+    {
+      "name": "portRange",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSecurityGroupRule.portRange"
+    },
+    {
+      "name": "sourceIp",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSecurityGroupRule.sourceIp"
+    },
+    {
+      "name": "sourceGroupId",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSecurityGroupRule.sourceGroupId"
+    },
+    {
+      "name": "destIp",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSecurityGroupRule.destIp"
+    },
+    {
+      "name": "destGroupId",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSecurityGroupRule.destGroupId"
+    },
+    {
+      "name": "protocol",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.UpdateSecurityGroupRule.protocol"
+    }
+  ]
+}

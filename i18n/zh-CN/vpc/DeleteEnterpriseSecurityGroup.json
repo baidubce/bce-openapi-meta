@@ -1,0 +1,7 @@
+{
+  "DeleteEnterpriseSecurityGroup": {
+    "desc": "删除企业安全组",
+    "enterpriseSecurityGroupId": "待删除的企业安全组 ID",
+    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符"
+  }
+}

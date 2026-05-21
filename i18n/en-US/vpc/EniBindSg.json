@@ -1,0 +1,9 @@
+{
+  "EniBindSg": {
+    "desc": "Update security groups bound to an ENI, replacing all existing security groups",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "securityGroupIds": "List of security group IDs",
+    "securityGroupIds.securityGroupId": "Security group ID"
+  }
+}

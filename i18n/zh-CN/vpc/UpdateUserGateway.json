@@ -1,0 +1,9 @@
+{
+  "UpdateUserGateway": {
+    "desc": "修改用户网关名称或描述",
+    "cgwId": "待修改的用户网关 ID",
+    "clientToken": "幂等性 Token",
+    "name": "用户网关新名称",
+    "description": "用户网关新描述"
+  }
+}

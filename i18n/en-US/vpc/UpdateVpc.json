@@ -1,0 +1,11 @@
+{
+  "UpdateVpc": {
+    "desc": "Update VPC name, description, or other attributes",
+    "vpcId": "ID of the VPC to update",
+    "clientToken": "Idempotent token",
+    "name": "New VPC name, 1-65 characters, cannot be 'default'",
+    "description": "New VPC description, max 200 characters",
+    "enableIpv6": "Whether to enable IPv6 (true=enable, false=disable)",
+    "secondaryCidr": "List of secondary CIDR blocks for the VPC (full replacement)"
+  }
+}

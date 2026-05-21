@@ -1,0 +1,30 @@
+{
+  "name": "SwitchRouteHA",
+  "method": "PUT",
+  "uri": "/v{version}/route/rule/{routeRuleId}?switchRouteHA",
+  "desc_key": "vpc.SwitchRouteHA.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "routeRuleId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.SwitchRouteHA.routeRuleId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.SwitchRouteHA.clientToken"
+    }
+  ]
+}

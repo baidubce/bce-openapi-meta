@@ -9,6 +9,334 @@
     "DescribeAclRules": {
       "title": "DescribeAclRules",
       "summary": "query acl rules info."
+    },
+    "AddEniPrivateIp": {
+      "title": "AddEniPrivateIp",
+      "summary": "Add a secondary private IP to an ENI"
+    },
+    "AttachEni": {
+      "title": "AttachEni",
+      "summary": "Attach an ENI to a cloud instance"
+    },
+    "AuthorizeEnterpriseSecurityGroupRule": {
+      "title": "AuthorizeEnterpriseSecurityGroupRule",
+      "summary": "Add rules to an enterprise security group, up to 20 per request"
+    },
+    "AuthorizeSecurityGroupRule": {
+      "title": "AuthorizeSecurityGroupRule",
+      "summary": "Add a new rule to a security group"
+    },
+    "BatchAddEniPrivateIp": {
+      "title": "BatchAddEniPrivateIp",
+      "summary": "Batch add secondary private IPs to an ENI, up to 10 per request"
+    },
+    "BatchCreateSslVpnUsers": {
+      "title": "BatchCreateSslVpnUsers",
+      "summary": "Create SSL VPN users in batch"
+    },
+    "BatchDeleteEniPrivateIp": {
+      "title": "BatchDeleteEniPrivateIp",
+      "summary": "Batch delete secondary private IPs from an ENI, up to 10 per request"
+    },
+    "BindEip": {
+      "title": "BindEip",
+      "summary": "Bind an EIP to a VPN gateway"
+    },
+    "CreateAclRules": {
+      "title": "CreateAclRules",
+      "summary": "Add ACL rules in batch (max 20 per request)"
+    },
+    "CreateEni": {
+      "title": "CreateEni",
+      "summary": "Create an Elastic Network Interface (ENI)"
+    },
+    "CreateEnterpriseSecurityGroup": {
+      "title": "CreateEnterpriseSecurityGroup",
+      "summary": "Create an enterprise security group"
+    },
+    "CreateIpReserve": {
+      "title": "CreateIpReserve",
+      "summary": "Create a reserved IP range within a subnet"
+    },
+    "CreateRouteRule": {
+      "title": "CreateRouteRule",
+      "summary": "Create a route rule in a route table"
+    },
+    "CreateSecurityGroup": {
+      "title": "CreateSecurityGroup",
+      "summary": "Create a security group with optional rules"
+    },
+    "CreateSslVpnServer": {
+      "title": "CreateSslVpnServer",
+      "summary": "Create an SSL VPN server"
+    },
+    "CreateSubnet": {
+      "title": "CreateSubnet",
+      "summary": "Create a subnet within a VPC"
+    },
+    "CreateUserGateway": {
+      "title": "CreateUserGateway",
+      "summary": "Create a customer gateway (remote peer gateway)"
+    },
+    "CreateVpc": {
+      "title": "CreateVpc",
+      "summary": "Create a Virtual Private Cloud (VPC)"
+    },
+    "CreateVpn": {
+      "title": "CreateVpn",
+      "summary": "Create a VPN gateway"
+    },
+    "CreateVpnTunnel": {
+      "title": "CreateVpnTunnel",
+      "summary": "Create an IPsec VPN tunnel"
+    },
+    "DeleteAclRule": {
+      "title": "DeleteAclRule",
+      "summary": "Delete an ACL rule"
+    },
+    "DeleteEni": {
+      "title": "DeleteEni",
+      "summary": "Delete an ENI"
+    },
+    "DeleteEniPrivateIp": {
+      "title": "DeleteEniPrivateIp",
+      "summary": "Delete a secondary private IP from an ENI"
+    },
+    "DeleteEnterpriseSecurityGroup": {
+      "title": "DeleteEnterpriseSecurityGroup",
+      "summary": "Delete an enterprise security group"
+    },
+    "DeleteEnterpriseSecurityGroupRule": {
+      "title": "DeleteEnterpriseSecurityGroupRule",
+      "summary": "Delete an enterprise security group rule"
+    },
+    "DeleteIpReserve": {
+      "title": "DeleteIpReserve",
+      "summary": "Delete a reserved IP range"
+    },
+    "DeleteRouteRule": {
+      "title": "DeleteRouteRule",
+      "summary": "Delete a route rule"
+    },
+    "DeleteSecurityGroup": {
+      "title": "DeleteSecurityGroup",
+      "summary": "Delete a security group"
+    },
+    "DeleteSecurityGroupRule": {
+      "title": "DeleteSecurityGroupRule",
+      "summary": "Delete a security group rule"
+    },
+    "DeleteSslVpnServer": {
+      "title": "DeleteSslVpnServer",
+      "summary": "Delete an SSL VPN server"
+    },
+    "DeleteSslVpnUser": {
+      "title": "DeleteSslVpnUser",
+      "summary": "Delete an SSL VPN user"
+    },
+    "DeleteSubnet": {
+      "title": "DeleteSubnet",
+      "summary": "Delete a subnet"
+    },
+    "DeleteUserGateway": {
+      "title": "DeleteUserGateway",
+      "summary": "Delete a customer gateway"
+    },
+    "DeleteVpc": {
+      "title": "DeleteVpc",
+      "summary": "Delete a VPC. Ensure no subnets or other resources exist inside"
+    },
+    "DeleteVpnTunnel": {
+      "title": "DeleteVpnTunnel",
+      "summary": "Delete an IPsec VPN tunnel"
+    },
+    "DescribeIpReserves": {
+      "title": "DescribeIpReserves",
+      "summary": "List reserved IP ranges"
+    },
+    "DescribeRouteRules": {
+      "title": "DescribeRouteRules",
+      "summary": "List route rules for a route table or VPC"
+    },
+    "DescribeRouteTables": {
+      "title": "DescribeRouteTables",
+      "summary": "List route tables"
+    },
+    "DescribeSecurityGroup": {
+      "title": "DescribeSecurityGroup",
+      "summary": "Get detailed information about a security group"
+    },
+    "DescribeSecurityGroups": {
+      "title": "DescribeSecurityGroups",
+      "summary": "List security groups"
+    },
+    "DescribeSslVpnServer": {
+      "title": "DescribeSslVpnServer",
+      "summary": "Get SSL VPN server information"
+    },
+    "DescribeSslVpnUsers": {
+      "title": "DescribeSslVpnUsers",
+      "summary": "List SSL VPN users"
+    },
+    "DescribeSubnet": {
+      "title": "DescribeSubnet",
+      "summary": "Get detailed information about a specific subnet"
+    },
+    "DescribeSubnets": {
+      "title": "DescribeSubnets",
+      "summary": "List all subnets"
+    },
+    "DescribeUserGateway": {
+      "title": "DescribeUserGateway",
+      "summary": "Get detailed information about a customer gateway"
+    },
+    "DescribeUserGateways": {
+      "title": "DescribeUserGateways",
+      "summary": "List customer gateways"
+    },
+    "DescribeVpc": {
+      "title": "DescribeVpc",
+      "summary": "Get detailed information about a specific VPC"
+    },
+    "DescribeVpcPrivateIps": {
+      "title": "DescribeVpcPrivateIps",
+      "summary": "Query private IP address information within a VPC"
+    },
+    "DescribeVpcResourceIps": {
+      "title": "DescribeVpcResourceIps",
+      "summary": "Query private IPs occupied by cloud products within a VPC"
+    },
+    "DescribeVpcs": {
+      "title": "DescribeVpcs",
+      "summary": "List all VPCs"
+    },
+    "DescribeVpn": {
+      "title": "DescribeVpn",
+      "summary": "Get detailed information about a VPN gateway"
+    },
+    "DescribeVpnTunnels": {
+      "title": "DescribeVpnTunnels",
+      "summary": "List VPN tunnels under a VPN gateway"
+    },
+    "DescribeVpns": {
+      "title": "DescribeVpns",
+      "summary": "List VPN gateways"
+    },
+    "DetachEni": {
+      "title": "DetachEni",
+      "summary": "Detach an ENI from a cloud instance"
+    },
+    "DisableVpcRelay": {
+      "title": "DisableVpcRelay",
+      "summary": "Disable VPC relay (relay must be currently enabled)"
+    },
+    "EnableVpcRelay": {
+      "title": "EnableVpcRelay",
+      "summary": "Enable VPC relay"
+    },
+    "EniBindEip": {
+      "title": "EniBindEip",
+      "summary": "Bind an EIP to a private IP of an ENI"
+    },
+    "EniBindEsg": {
+      "title": "EniBindEsg",
+      "summary": "Update enterprise security groups bound to an ENI, replacing all existing security groups"
+    },
+    "EniBindSg": {
+      "title": "EniBindSg",
+      "summary": "Update security groups bound to an ENI, replacing all existing security groups"
+    },
+    "EniUnBindEip": {
+      "title": "EniUnBindEip",
+      "summary": "Unbind an EIP from an ENI"
+    },
+    "GetEni": {
+      "title": "GetEni",
+      "summary": "Get detailed information about a specific ENI"
+    },
+    "GetEniStatus": {
+      "title": "GetEniStatus",
+      "summary": "Get the current status of an ENI"
+    },
+    "ListEni": {
+      "title": "ListEni",
+      "summary": "List Elastic Network Interfaces"
+    },
+    "ListEnterpriseSecurityGroups": {
+      "title": "ListEnterpriseSecurityGroups",
+      "summary": "List enterprise security groups"
+    },
+    "ModifyEniAttribute": {
+      "title": "ModifyEniAttribute",
+      "summary": "Update the name or description of an ENI (at least one must be provided)"
+    },
+    "ReleaseVpn": {
+      "title": "ReleaseVpn",
+      "summary": "Release a VPN gateway"
+    },
+    "RenewVpn": {
+      "title": "RenewVpn",
+      "summary": "Renew a VPN gateway (Prepaid only)"
+    },
+    "RevokeSecurityGroupRule": {
+      "title": "RevokeSecurityGroupRule",
+      "summary": "Remove a rule from a security group"
+    },
+    "SwitchRouteHA": {
+      "title": "SwitchRouteHA",
+      "summary": "Switch primary to backup in a multi-path HA route"
+    },
+    "UnbindEip": {
+      "title": "UnbindEip",
+      "summary": "Unbind the EIP from a VPN gateway"
+    },
+    "UpdateAclRule": {
+      "title": "UpdateAclRule",
+      "summary": "Update an ACL rule"
+    },
+    "UpdateEnterpriseSecurityGroupRule": {
+      "title": "UpdateEnterpriseSecurityGroupRule",
+      "summary": "Update an enterprise security group rule"
+    },
+    "UpdateRouteRule": {
+      "title": "UpdateRouteRule",
+      "summary": "Update a route rule (single-path routes only)"
+    },
+    "UpdateSecurityGroupRule": {
+      "title": "UpdateSecurityGroupRule",
+      "summary": "Update a security group rule"
+    },
+    "UpdateSslVpnServer": {
+      "title": "UpdateSslVpnServer",
+      "summary": "Update SSL VPN server configuration"
+    },
+    "UpdateSslVpnUser": {
+      "title": "UpdateSslVpnUser",
+      "summary": "Update an SSL VPN user"
+    },
+    "UpdateSubnet": {
+      "title": "UpdateSubnet",
+      "summary": "Update subnet name, description, or other attributes"
+    },
+    "UpdateUserGateway": {
+      "title": "UpdateUserGateway",
+      "summary": "Update customer gateway name or description"
+    },
+    "UpdateVpc": {
+      "title": "UpdateVpc",
+      "summary": "Update VPC name, description, or other attributes"
+    },
+    "UpdateVpn": {
+      "title": "UpdateVpn",
+      "summary": "Update VPN gateway name or description"
+    },
+    "UpdateVpnDeleteProtect": {
+      "title": "UpdateVpnDeleteProtect",
+      "summary": "Enable or disable deletion protection for a VPN gateway"
+    },
+    "UpdateVpnTunnel": {
+      "title": "UpdateVpnTunnel",
+      "summary": "Update IPsec VPN tunnel configuration"
     }
   }
 }

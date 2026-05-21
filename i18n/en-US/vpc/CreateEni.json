@@ -1,0 +1,20 @@
+{
+  "CreateEni": {
+    "desc": "Create an Elastic Network Interface (ENI)",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "name": "ENI name",
+    "subnetId": "ID of the subnet the ENI belongs to",
+    "description": "ENI description",
+    "networkInterfaceTrafficMode": "NIC type: highPerformance (ERI) / standard (ENI, default)",
+    "securityGroupIds": "List of security group IDs to bind (mutually exclusive with enterpriseSecurityGroupIds)",
+    "securityGroupIds.securityGroupId": "Security group ID",
+    "enterpriseSecurityGroupIds": "List of enterprise security group IDs to bind (mutually exclusive with securityGroupIds)",
+    "enterpriseSecurityGroupIds.enterpriseSecurityGroupId": "Enterprise security group ID",
+    "privateIpSet": "List of private IPv4 addresses; exactly one entry must have primary=true",
+    "privateIpSet.primary": "Whether this is the primary IP",
+    "privateIpSet.privateIpAddress": "Private IPv4 address; empty string for auto-assignment",
+    "ipv6PrivateIpSet": "List of private IPv6 addresses",
+    "ipv6PrivateIpSet.primary": "Whether this is the primary IPv6 address",
+    "ipv6PrivateIpSet.privateIpAddress": "Private IPv6 address; empty string for auto-assignment"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "DeleteVpnTunnel": {
+    "desc": "删除 IPsec VPN 隧道",
+    "vpnConnId": "待删除的 VPN 隧道 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

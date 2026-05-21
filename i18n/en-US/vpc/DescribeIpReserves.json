@@ -1,0 +1,8 @@
+{
+  "DescribeIpReserves": {
+    "desc": "List reserved IP ranges",
+    "subnetId": "Filter by subnet ID",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000"
+  }
+}

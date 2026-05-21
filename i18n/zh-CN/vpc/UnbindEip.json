@@ -1,0 +1,7 @@
+{
+  "UnbindEip": {
+    "desc": "解绑 VPN 网关上的 EIP",
+    "vpnId": "VPN 网关 ID",
+    "clientToken": "幂等性 Token"
+  }
+}

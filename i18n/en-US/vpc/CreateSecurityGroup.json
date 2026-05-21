@@ -1,0 +1,22 @@
+{
+  "CreateSecurityGroup": {
+    "desc": "Create a security group with optional rules",
+    "clientToken": "Idempotent token",
+    "name": "Security group name, 1-65 characters, must start with a letter",
+    "vpcId": "VPC ID the security group belongs to",
+    "sgDesc": "Security group description",
+    "rules": "List of security group rules to bind on creation",
+    "rules.direction": "Rule direction: ingress or egress",
+    "rules.portRange": "Port range, e.g. 1-65535 or 80",
+    "rules.protocol": "Protocol: tcp/udp/icmp/all",
+    "rules.sourceIp": "Inbound source IP or CIDR (mutually exclusive with sourceGroupId)",
+    "rules.sourceGroupId": "Inbound source security group ID (mutually exclusive with sourceIp)",
+    "rules.destIp": "Outbound destination IP or CIDR (mutually exclusive with destGroupId)",
+    "rules.destGroupId": "Outbound destination security group ID (mutually exclusive with destIp)",
+    "rules.ethertype": "Ethertype: IPv4 or IPv6",
+    "rules.remark": "Rule remark",
+    "tags": "List of tags to bind on creation",
+    "tags.tagKey": "Tag key",
+    "tags.tagValue": "Tag value"
+  }
+}

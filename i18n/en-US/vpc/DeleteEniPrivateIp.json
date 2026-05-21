@@ -1,0 +1,8 @@
+{
+  "DeleteEniPrivateIp": {
+    "desc": "Delete a secondary private IP from an ENI",
+    "eniId": "ENI ID",
+    "privateIpAddress": "Private IP address to delete (IPv4 or IPv6, secondary IPs only)",
+    "clientToken": "Idempotent token, max 64 ASCII characters"
+  }
+}

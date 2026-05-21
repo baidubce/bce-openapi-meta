@@ -1,0 +1,7 @@
+{
+  "DeleteEnterpriseSecurityGroup": {
+    "desc": "Delete an enterprise security group",
+    "enterpriseSecurityGroupId": "ID of the enterprise security group to delete",
+    "clientToken": "Idempotent token, max 64 ASCII characters"
+  }
+}

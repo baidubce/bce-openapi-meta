@@ -1,0 +1,30 @@
+{
+  "name": "DeleteSecurityGroup",
+  "method": "DELETE",
+  "uri": "/v{version}/securityGroup/{securityGroupId}",
+  "desc_key": "vpc.DeleteSecurityGroup.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "2",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "securityGroupId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.DeleteSecurityGroup.securityGroupId"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DeleteSecurityGroup.clientToken"
+    }
+  ]
+}

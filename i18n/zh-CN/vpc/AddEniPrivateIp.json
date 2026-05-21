@@ -1,0 +1,9 @@
+{
+  "AddEniPrivateIp": {
+    "desc": "为弹性网卡增加一个辅助内网 IP",
+    "eniId": "弹性网卡的 ID",
+    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符",
+    "privateIpAddress": "新增的内网 IP 地址，空字符串表示自动分配",
+    "isIpv6": "是否分配 IPv6 地址，true 分配 IPv6，默认 false 分配 IPv4"
+  }
+}

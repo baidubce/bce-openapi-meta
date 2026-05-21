@@ -1,0 +1,9 @@
+{
+  "DescribeSslVpnUsers": {
+    "desc": "List SSL VPN users",
+    "vpnId": "VPN gateway ID",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000",
+    "userName": "Filter by username"
+  }
+}

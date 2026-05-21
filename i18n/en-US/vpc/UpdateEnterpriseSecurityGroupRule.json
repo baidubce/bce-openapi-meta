@@ -1,0 +1,18 @@
+{
+  "UpdateEnterpriseSecurityGroupRule": {
+    "desc": "Update an enterprise security group rule",
+    "enterpriseSecurityGroupRuleId": "ID of the rule to update",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "remark": "Rule remark",
+    "portRange": "Destination port range",
+    "sourcePortRange": "Source port range",
+    "protocol": "Protocol: all / tcp / udp / icmp",
+    "sourceIp": "Source IP address (ingress; mutually exclusive with remoteIpSet and remoteIpGroup)",
+    "destIp": "Destination IP address (egress; mutually exclusive with remoteIpSet and remoteIpGroup)",
+    "localIp": "Local IP address",
+    "remoteIpSet": "Remote IP address group (mutually exclusive with sourceIp/destIp and remoteIpGroup)",
+    "remoteIpGroup": "Remote IP address family (mutually exclusive with sourceIp/destIp and remoteIpSet)",
+    "action": "Action: allow or deny",
+    "priority": "Priority, range 1-1000"
+  }
+}

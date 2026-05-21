@@ -1,0 +1,17 @@
+{
+  "CreateSubnet": {
+    "desc": "在指定 VPC 内创建子网",
+    "clientToken": "幂等性 Token",
+    "name": "子网名称，1-65 个字符，不能取值 default",
+    "zoneName": "可用区名称，例如 cn-bj-a",
+    "cidr": "子网的 IPv4 网段，需在 VPC 网段范围内",
+    "vpcId": "所属 VPC 的 ID",
+    "enableIpv6": "是否开启 IPv6 网段，true 开启，默认 false",
+    "vpcSecondaryCidr": "子网所属 VPC 辅助网段的 CIDR",
+    "subnetType": "子网类型，BCC 或 BBC",
+    "description": "子网描述，最大 200 字符",
+    "tags": "绑定到子网的标签键值对列表",
+    "tags.tagKey": "标签键",
+    "tags.tagValue": "标签值"
+  }
+}

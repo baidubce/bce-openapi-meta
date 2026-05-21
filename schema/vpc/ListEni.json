@@ -1,0 +1,58 @@
+{
+  "name": "ListEni",
+  "method": "GET",
+  "uri": "/v{version}/eni",
+  "desc_key": "vpc.ListEni.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "vpcId",
+      "type": "String",
+      "required": true,
+      "position": "QUERY",
+      "desc_key": "vpc.ListEni.vpcId"
+    },
+    {
+      "name": "instanceId",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.ListEni.instanceId"
+    },
+    {
+      "name": "name",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.ListEni.name"
+    },
+    {
+      "name": "privateIpAddress",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.ListEni.privateIpAddress"
+    },
+    {
+      "name": "marker",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.ListEni.marker"
+    },
+    {
+      "name": "maxKeys",
+      "type": "Integer",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.ListEni.maxKeys"
+    }
+  ]
+}

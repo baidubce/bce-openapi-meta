@@ -1,0 +1,51 @@
+{
+  "name": "DescribeVpns",
+  "method": "GET",
+  "uri": "/v{version}/vpn",
+  "desc_key": "vpc.DescribeVpns.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "marker",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeVpns.marker"
+    },
+    {
+      "name": "maxKeys",
+      "type": "Integer",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeVpns.maxKeys"
+    },
+    {
+      "name": "vpcId",
+      "type": "String",
+      "required": true,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeVpns.vpcId"
+    },
+    {
+      "name": "eip",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeVpns.eip"
+    },
+    {
+      "name": "type",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.DescribeVpns.type"
+    }
+  ]
+}

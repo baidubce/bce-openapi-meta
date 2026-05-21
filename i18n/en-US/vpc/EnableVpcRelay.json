@@ -1,0 +1,7 @@
+{
+  "EnableVpcRelay": {
+    "desc": "Enable VPC relay",
+    "vpcId": "VPC ID",
+    "clientToken": "Idempotent token"
+  }
+}

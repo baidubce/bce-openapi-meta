@@ -1,0 +1,8 @@
+{
+  "BindEip": {
+    "desc": "为 VPN 网关绑定 EIP",
+    "vpnId": "VPN 网关 ID",
+    "clientToken": "幂等性 Token",
+    "eip": "要绑定的 EIP 地址"
+  }
+}

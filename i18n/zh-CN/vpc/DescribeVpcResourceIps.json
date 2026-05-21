@@ -1,0 +1,10 @@
+{
+  "DescribeVpcResourceIps": {
+    "desc": "查询 VPC 内产品占用的私网 IP 信息",
+    "vpcId": "VPC 的 ID",
+    "subnetId": "子网 ID，可选过滤条件",
+    "resourceType": "产品类型，如 bcc、enic、blb 等",
+    "pageNo": "页码，从 1 开始，默认 1",
+    "pageSize": "每页大小，范围 1-1000，默认 100"
+  }
+}

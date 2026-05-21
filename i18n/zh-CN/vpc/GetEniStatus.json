@@ -1,0 +1,6 @@
+{
+  "GetEniStatus": {
+    "desc": "查询弹性网卡的当前状态",
+    "eniId": "弹性网卡的 ID"
+  }
+}

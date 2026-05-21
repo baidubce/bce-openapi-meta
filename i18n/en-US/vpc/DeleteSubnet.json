@@ -1,0 +1,7 @@
+{
+  "DeleteSubnet": {
+    "desc": "Delete a subnet",
+    "subnetId": "ID of the subnet to delete",
+    "clientToken": "Idempotent token"
+  }
+}

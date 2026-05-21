@@ -1,0 +1,17 @@
+{
+  "CreateSubnet": {
+    "desc": "Create a subnet within a VPC",
+    "clientToken": "Idempotent token",
+    "name": "Subnet name, 1-65 characters, cannot be 'default'",
+    "zoneName": "Availability zone name, e.g. cn-bj-a",
+    "cidr": "IPv4 CIDR block, must be within the VPC CIDR range",
+    "vpcId": "ID of the VPC to create the subnet in",
+    "enableIpv6": "Whether to enable IPv6 (true=enable, default false)",
+    "vpcSecondaryCidr": "Secondary CIDR of the VPC that the subnet belongs to",
+    "subnetType": "Subnet type: BCC or BBC",
+    "description": "Subnet description, max 200 characters",
+    "tags": "List of tag key-value pairs to attach to the subnet",
+    "tags.tagKey": "Tag key",
+    "tags.tagValue": "Tag value"
+  }
+}

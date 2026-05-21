@@ -1,0 +1,12 @@
+{
+  "CreateSslVpnServer": {
+    "desc": "Create an SSL VPN server",
+    "vpnId": "ID of the VPN gateway the server belongs to",
+    "clientToken": "Idempotent token",
+    "sslVpnServerName": "SSL VPN server name",
+    "interfaceType": "Network interface type: tun or tap",
+    "localSubnets": "Local subnet list (array of CIDR strings)",
+    "remoteSubnet": "Client address pool CIDR assigned to VPN clients",
+    "clientDns": "DNS address assigned to VPN clients"
+  }
+}

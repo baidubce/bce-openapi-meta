@@ -1,0 +1,9 @@
+{
+  "DescribeRouteRules": {
+    "desc": "List route rules for a route table or VPC",
+    "routeTableId": "Route table ID (mutually exclusive with vpcId)",
+    "vpcId": "VPC ID (mutually exclusive with routeTableId)",
+    "marker": "Pagination start marker",
+    "maxKeys": "Maximum results per page, default 1000"
+  }
+}

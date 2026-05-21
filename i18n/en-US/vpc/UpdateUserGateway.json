@@ -1,0 +1,9 @@
+{
+  "UpdateUserGateway": {
+    "desc": "Update customer gateway name or description",
+    "cgwId": "ID of the customer gateway to update",
+    "clientToken": "Idempotent token",
+    "name": "New customer gateway name",
+    "description": "New customer gateway description"
+  }
+}

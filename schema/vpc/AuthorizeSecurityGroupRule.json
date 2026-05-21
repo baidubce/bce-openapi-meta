@@ -1,0 +1,100 @@
+{
+  "name": "AuthorizeSecurityGroupRule",
+  "method": "PUT",
+  "uri": "/v{version}/securityGroup/{securityGroupId}?authorizeRule",
+  "desc_key": "vpc.AuthorizeSecurityGroupRule.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "2",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "securityGroupId",
+      "type": "String",
+      "required": true,
+      "position": "URL",
+      "desc_key": "vpc.AuthorizeSecurityGroupRule.securityGroupId"
+    },
+    {
+      "name": "sgVersion",
+      "type": "Integer",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.AuthorizeSecurityGroupRule.sgVersion"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.AuthorizeSecurityGroupRule.clientToken"
+    },
+    {
+      "name": "rule",
+      "type": "Object",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.AuthorizeSecurityGroupRule.rule",
+      "sub_parameters": [
+        {
+          "name": "direction",
+          "type": "String",
+          "required": true,
+          "desc_key": "vpc.AuthorizeSecurityGroupRule.rule.direction"
+        },
+        {
+          "name": "portRange",
+          "type": "String",
+          "required": false,
+          "desc_key": "vpc.AuthorizeSecurityGroupRule.rule.portRange"
+        },
+        {
+          "name": "protocol",
+          "type": "String",
+          "required": false,
+          "desc_key": "vpc.AuthorizeSecurityGroupRule.rule.protocol"
+        },
+        {
+          "name": "sourceIp",
+          "type": "String",
+          "required": false,
+          "desc_key": "vpc.AuthorizeSecurityGroupRule.rule.sourceIp"
+        },
+        {
+          "name": "sourceGroupId",
+          "type": "String",
+          "required": false,
+          "desc_key": "vpc.AuthorizeSecurityGroupRule.rule.sourceGroupId"
+        },
+        {
+          "name": "destIp",
+          "type": "String",
+          "required": false,
+          "desc_key": "vpc.AuthorizeSecurityGroupRule.rule.destIp"
+        },
+        {
+          "name": "destGroupId",
+          "type": "String",
+          "required": false,
+          "desc_key": "vpc.AuthorizeSecurityGroupRule.rule.destGroupId"
+        },
+        {
+          "name": "ethertype",
+          "type": "String",
+          "required": false,
+          "desc_key": "vpc.AuthorizeSecurityGroupRule.rule.ethertype"
+        },
+        {
+          "name": "remark",
+          "type": "String",
+          "required": false,
+          "desc_key": "vpc.AuthorizeSecurityGroupRule.rule.remark"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "CreateVpc",
+  "method": "POST",
+  "uri": "/v{version}/vpc",
+  "desc_key": "vpc.CreateVpc.desc",
+  "parameters": [
+    {
+      "name": "version",
+      "type": "String",
+      "required": false,
+      "position": "URL",
+      "default": "1",
+      "desc_key": "common.version"
+    },
+    {
+      "name": "clientToken",
+      "type": "String",
+      "required": false,
+      "position": "QUERY",
+      "desc_key": "vpc.CreateVpc.clientToken"
+    },
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.CreateVpc.name"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.CreateVpc.description"
+    },
+    {
+      "name": "cidr",
+      "type": "String",
+      "required": true,
+      "position": "BODY",
+      "desc_key": "vpc.CreateVpc.cidr"
+    },
+    {
+      "name": "enableIpv6",
+      "type": "Boolean",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.CreateVpc.enableIpv6"
+    },
+    {
+      "name": "tags",
+      "type": "List",
+      "required": false,
+      "position": "BODY",
+      "desc_key": "vpc.CreateVpc.tags",
+      "sub_parameters": [
+        {
+          "name": "tagKey",
+          "type": "String",
+          "required": true,
+          "desc_key": "vpc.CreateVpc.tags.tagKey"
+        },
+        {
+          "name": "tagValue",
+          "type": "String",
+          "required": false,
+          "desc_key": "vpc.CreateVpc.tags.tagValue"
+        }
+      ]
+    }
+  ]
+}

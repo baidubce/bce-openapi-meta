@@ -1,0 +1,18 @@
+{
+  "AuthorizeSecurityGroupRule": {
+    "desc": "Add a new rule to a security group",
+    "securityGroupId": "Security group ID",
+    "sgVersion": "Security group version number",
+    "clientToken": "Idempotent token",
+    "rule": "Security group rule object to authorize",
+    "rule.direction": "Rule direction: ingress or egress",
+    "rule.portRange": "Port range, e.g. 1-65535 or 80",
+    "rule.protocol": "Protocol: tcp/udp/icmp/all",
+    "rule.sourceIp": "Inbound source IP or CIDR (mutually exclusive with sourceGroupId)",
+    "rule.sourceGroupId": "Inbound source security group ID (mutually exclusive with sourceIp)",
+    "rule.destIp": "Outbound destination IP or CIDR (mutually exclusive with destGroupId)",
+    "rule.destGroupId": "Outbound destination security group ID (mutually exclusive with destIp)",
+    "rule.ethertype": "Ethertype: IPv4 or IPv6",
+    "rule.remark": "Rule remark"
+  }
+}

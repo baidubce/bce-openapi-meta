@@ -1,0 +1,16 @@
+{
+  "CreateRouteRule": {
+    "desc": "Create a route rule in a route table",
+    "clientToken": "Idempotent token",
+    "routeTableId": "Route table ID",
+    "sourceAddress": "Source CIDR block",
+    "destinationAddress": "Destination CIDR block",
+    "nexthopId": "Next hop ID (required for single-path routes)",
+    "nexthopType": "Route type: custom/vpn/nat/dcGateway/peerConn",
+    "nextHopList": "List of next hops for multi-path routes",
+    "nextHopList.nexthopId": "Next hop resource ID",
+    "nextHopList.nexthopType": "Next hop type: custom/vpn/nat/dcGateway/peerConn",
+    "nextHopList.routeType": "Route role: primary or backup",
+    "description": "Route rule description, max 200 characters"
+  }
+}

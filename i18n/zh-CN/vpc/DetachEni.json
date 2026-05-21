@@ -1,0 +1,8 @@
+{
+  "DetachEni": {
+    "desc": "将弹性网卡从云产品实例卸载",
+    "eniId": "弹性网卡的 ID",
+    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符",
+    "instanceId": "解绑的云产品实例 ID"
+  }
+}

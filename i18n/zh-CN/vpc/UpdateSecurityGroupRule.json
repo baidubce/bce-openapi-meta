@@ -1,0 +1,15 @@
+{
+  "UpdateSecurityGroupRule": {
+    "desc": "更新普通安全组规则信息",
+    "sgVersion": "安全组版本号",
+    "clientToken": "幂等性 Token",
+    "securityGroupRuleId": "安全组规则 ID",
+    "remark": "规则描述",
+    "portRange": "端口范围",
+    "sourceIp": "入站规则源 IP，与 sourceGroupId 不可同时填写",
+    "sourceGroupId": "入站规则安全组 ID，与 sourceIp 不可同时填写",
+    "destIp": "出站规则目的 IP，与 destGroupId 不可同时填写",
+    "destGroupId": "出站规则目的安全组 ID，与 destIp 不可同时填写",
+    "protocol": "协议，暂不支持 tcp/udp 转 icmp"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "DeleteSecurityGroup": {
+    "desc": "Delete a security group",
+    "securityGroupId": "ID of the security group to delete",
+    "clientToken": "Idempotent token"
+  }
+}

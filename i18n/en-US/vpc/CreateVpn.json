@@ -1,0 +1,23 @@
+{
+  "CreateVpn": {
+    "desc": "Create a VPN gateway",
+    "clientToken": "Idempotent token",
+    "vpcId": "ID of the VPC the VPN gateway belongs to",
+    "vpnName": "VPN gateway name",
+    "subnetId": "ID of the subnet the VPN gateway belongs to",
+    "type": "VPN gateway type: ipsec / ssl / ipsec_ssl",
+    "description": "VPN gateway description",
+    "eip": "EIP address to bind to the VPN gateway",
+    "maxConnection": "Maximum concurrent SSL VPN connections",
+    "resourceGroupId": "Resource group ID",
+    "deleteProtect": "Whether to enable deletion protection (true=enable, false=disable)",
+    "billing": "Billing configuration object",
+    "billing.paymentTiming": "Payment type: Prepaid or Postpaid",
+    "billing.reservation": "Prepaid reservation configuration object (required when Prepaid)",
+    "billing.reservation.reservationLength": "Prepaid duration in months",
+    "billing.reservation.reservationTimeUnit": "Prepaid duration unit, fixed as Month",
+    "tags": "List of tags to attach to the VPN gateway",
+    "tags.tagKey": "Tag key",
+    "tags.tagValue": "Tag value"
+  }
+}

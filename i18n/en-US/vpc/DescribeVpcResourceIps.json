@@ -1,0 +1,10 @@
+{
+  "DescribeVpcResourceIps": {
+    "desc": "Query private IPs occupied by cloud products within a VPC",
+    "vpcId": "VPC ID",
+    "subnetId": "Optional subnet ID filter",
+    "resourceType": "Product type, e.g. bcc, enic, blb",
+    "pageNo": "Page number, starting from 1, default 1",
+    "pageSize": "Page size, range 1-1000, default 100"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "BindEip": {
+    "desc": "Bind an EIP to a VPN gateway",
+    "vpnId": "VPN gateway ID",
+    "clientToken": "Idempotent token",
+    "eip": "EIP address to bind"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteUserGateway": {
+    "desc": "删除用户网关",
+    "cgwId": "待删除的用户网关 ID"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "CreateIpReserve": {
+    "desc": "Create a reserved IP range within a subnet",
+    "clientToken": "Idempotent token",
+    "subnetId": "ID of the subnet the reserved range belongs to",
+    "ipCidr": "Reserved IP address or CIDR block",
+    "ipVersion": "IP version: 4 for IPv4, 6 for IPv6",
+    "description": "Description of the reserved range"
+  }
+}

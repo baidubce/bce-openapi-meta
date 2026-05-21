@@ -1,0 +1,8 @@
+{
+  "DeleteSslVpnServer": {
+    "desc": "Delete an SSL VPN server",
+    "vpnId": "ID of the VPN gateway the server belongs to",
+    "sslVpnServerId": "ID of the SSL VPN server to delete",
+    "clientToken": "Idempotent token"
+  }
+}

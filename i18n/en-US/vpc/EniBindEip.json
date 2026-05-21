@@ -1,0 +1,9 @@
+{
+  "EniBindEip": {
+    "desc": "Bind an EIP to a private IP of an ENI",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "privateIpAddress": "Private IP address of the ENI to bind the EIP to",
+    "publicIpAddress": "EIP address to bind"
+  }
+}

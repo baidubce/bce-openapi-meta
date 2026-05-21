@@ -1,0 +1,12 @@
+{
+  "BatchCreateSslVpnUsers": {
+    "desc": "Create SSL VPN users in batch",
+    "vpnId": "ID of the VPN gateway the users belong to",
+    "clientToken": "Idempotent token",
+    "sslVpnUsers": "List of SSL VPN users to create",
+    "sslVpnUsers.userName": "SSL VPN username",
+    "sslVpnUsers.password": "SSL VPN user password",
+    "sslVpnUsers.clientName": "Client identifier name",
+    "sslVpnUsers.description": "User description"
+  }
+}

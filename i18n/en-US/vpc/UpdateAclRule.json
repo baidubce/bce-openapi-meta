@@ -1,0 +1,15 @@
+{
+  "UpdateAclRule": {
+    "desc": "Update an ACL rule",
+    "aclRuleId": "ACL rule ID",
+    "clientToken": "Idempotent token",
+    "description": "Remark / description",
+    "protocol": "Protocol: all/tcp/udp/icmp",
+    "sourceIpAddress": "Source IP address",
+    "destinationIpAddress": "Destination IP address",
+    "sourcePort": "Source port",
+    "destinationPort": "Destination port",
+    "position": "Priority, 1-5000 (lower value = higher priority)",
+    "action": "Policy: allow or deny"
+  }
+}

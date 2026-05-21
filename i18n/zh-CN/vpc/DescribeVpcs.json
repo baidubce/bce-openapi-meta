@@ -1,0 +1,9 @@
+{
+  "DescribeVpcs": {
+    "desc": "查询用户的 VPC 列表",
+    "marker": "分页查询起始标识符",
+    "maxKeys": "每页最大返回数量，默认 1000",
+    "isDefault": "是否为默认 VPC，true/false",
+    "vpcIds": "指定查询的 VPC ID 列表，多个用逗号分隔"
+  }
+}

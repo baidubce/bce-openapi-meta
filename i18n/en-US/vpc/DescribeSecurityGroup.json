@@ -1,0 +1,6 @@
+{
+  "DescribeSecurityGroup": {
+    "desc": "Get detailed information about a security group",
+    "securityGroupId": "Security group ID"
+  }
+}

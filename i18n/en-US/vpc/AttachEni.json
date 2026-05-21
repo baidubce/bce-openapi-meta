@@ -1,0 +1,9 @@
+{
+  "AttachEni": {
+    "desc": "Attach an ENI to a cloud instance",
+    "eniId": "ENI ID",
+    "clientToken": "Idempotent token, max 64 ASCII characters",
+    "instanceId": "ID of the instance to attach the ENI to",
+    "instanceType": "Instance type: server (BCC, default) / hpas (HPAS)"
+  }
+}

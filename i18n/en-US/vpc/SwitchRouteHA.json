@@ -1,0 +1,7 @@
+{
+  "SwitchRouteHA": {
+    "desc": "Switch primary to backup in a multi-path HA route",
+    "routeRuleId": "Primary route rule ID",
+    "clientToken": "Idempotent token"
+  }
+}

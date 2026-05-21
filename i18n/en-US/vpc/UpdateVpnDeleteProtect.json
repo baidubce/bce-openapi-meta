@@ -1,0 +1,8 @@
+{
+  "UpdateVpnDeleteProtect": {
+    "desc": "Enable or disable deletion protection for a VPN gateway",
+    "vpnId": "VPN gateway ID",
+    "clientToken": "Idempotent token",
+    "deleteProtect": "Whether to enable deletion protection (true=enable, false=disable)"
+  }
+}
