@@ -10,21 +10,21 @@ BCE OpenAPI metadata repository. Describes Baidu Cloud product OpenAPI definitio
 
 ```
 bce-openapi-meta/
-├── meta.go               # Go entry point; embeds schema/ and i18n/ into the binary via embed.FS
-├── go.mod                # Go module definition
 ├── schema/               # API action definitions
 │   ├── products.json     # Product list with regional endpoint configuration
 │   └── <product>/        # One directory per product; one file per action
 │       └── <Action>.json
 └── i18n/                 # Multilingual descriptions
     ├── zh-CN/
-    │   ├── common.json   # Shared parameter descriptions (version, region, marker, etc.)
+    │   ├── common.json          # Shared parameter descriptions (version, region, marker, etc.)
     │   └── <product>/
-    │       └── <product>.json
+    │       ├── version.json     # Product action index (action names and summaries)
+    │       └── <Action>.json    # Per-action parameter descriptions
     └── en-US/
         ├── common.json
         └── <product>/
-            └── <product>.json
+            ├── version.json
+            └── <Action>.json
 ```
 
 ---
@@ -89,9 +89,26 @@ Describes a single API action: HTTP method, URI template, and parameter definiti
 
 Valid `position` values: `URL` · `QUERY` · `BODY`
 
-### i18n/\<locale\>/\<product\>/\<product\>.json
+### i18n/\<locale\>/\<product\>/version.json
 
-Stores parameter descriptions keyed by `<Action>.<param>` for each locale.
+Product action index listing the title and summary of each action.
+
+```json
+{
+  "version": "v1",
+  "style": "rpc",
+  "apis": {
+    "CreateVpc": {
+      "title": "Create VPC",
+      "summary": "Create a Virtual Private Cloud"
+    }
+  }
+}
+```
+
+### i18n/\<locale\>/\<product\>/\<Action\>.json
+
+Per-action multilingual parameter descriptions, keyed by parameter name.
 
 ```json
 {
@@ -115,16 +132,14 @@ Stores parameter descriptions keyed by `<Action>.<param>` for each locale.
 
 ## Usage
 
-This module is used as a Go library. All metadata is embedded into the binary at compile time via `embed.FS`, requiring no runtime file dependencies.
+This is a pure data repository. It is consumed by bce-cli as a git submodule and embedded into the binary at compile time via `go:embed`.
 
-```go
-import bceopenapimeta "github.com/baidubce/bce-openapi-meta"
+```bash
+# Add to bce-cli
+git submodule add <repo-url> internal/meta/bce-openapi-meta
 
-// Read a schema file
-data, err := bceopenapimeta.FS.ReadFile("schema/vpc/CreateVpc.json")
-
-// Read i18n descriptions
-i18n, err := bceopenapimeta.FS.ReadFile("i18n/en-US/vpc/vpc.json")
+# Update to latest metadata
+git submodule update --remote internal/meta/bce-openapi-meta
 ```
 
 ---
@@ -133,5 +148,5 @@ i18n, err := bceopenapimeta.FS.ReadFile("i18n/en-US/vpc/vpc.json")
 
 1. Add a product entry (`code`, `protocol`, `endpoint`) to the `products` array in `schema/products.json`.
 2. Create `schema/<product>/` and add one JSON file per API action.
-3. Create `i18n/zh-CN/<product>/` and `i18n/en-US/<product>/` directories with the corresponding description files.
+3. Create `i18n/zh-CN/<product>/` and `i18n/en-US/<product>/` directories with a `version.json` index and one description file per action.
 4. Common parameters (`version`, `region`, `marker`, etc.) can reuse `desc_key` values from `common.json` without duplication.
