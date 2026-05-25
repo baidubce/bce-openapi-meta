@@ -41,7 +41,18 @@
       "name" : "reservation",
       "type" : "Object",
       "required" : false,
-      "desc_key" : "eip.EipRenewal.billing.reservation"
+      "desc_key" : "eip.EipRenewal.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "eip.EipRenewal.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "eip.EipRenewal.billing.reservation.reservationTimeUnit"
+      } ]
     } ]
   } ],
   "desc_key" : "eip.EipRenewal.desc"

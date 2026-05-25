@@ -41,7 +41,34 @@
       "name" : "billing",
       "type" : "Object",
       "required" : false,
-      "desc_key" : "eip.MoveOutEips.moveOutEips.billing"
+      "desc_key" : "eip.MoveOutEips.moveOutEips.billing",
+      "sub_parameters" : [ {
+        "name" : "paymentTiming",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "eip.MoveOutEips.moveOutEips.billing.paymentTiming"
+      }, {
+        "name" : "billingMethod",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "eip.MoveOutEips.moveOutEips.billing.billingMethod"
+      }, {
+        "name" : "reservation",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "eip.MoveOutEips.moveOutEips.billing.reservation",
+        "sub_parameters" : [ {
+          "name" : "reservationLength",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "eip.MoveOutEips.moveOutEips.billing.reservation.reservationLength"
+        }, {
+          "name" : "reservationTimeUnit",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "eip.MoveOutEips.moveOutEips.billing.reservation.reservationTimeUnit"
+        } ]
+      } ]
     } ]
   } ],
   "desc_key" : "eip.MoveOutEips.desc"
