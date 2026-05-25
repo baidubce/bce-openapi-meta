@@ -1,0 +1,56 @@
+{
+  "name" : "DescribeAppBlbs",
+  "method" : "GET",
+  "uri" : "/v{version}/appblb",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "address",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbs.address"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbs.name"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbs.blbId"
+  }, {
+    "name" : "bccId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbs.bccId"
+  }, {
+    "name" : "exactlyMatch",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbs.exactlyMatch"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbs.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbs.maxKeys"
+  } ],
+  "desc_key" : "blb.DescribeAppBlbs.desc"
+}

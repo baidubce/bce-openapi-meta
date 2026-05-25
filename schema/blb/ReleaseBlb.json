@@ -1,0 +1,26 @@
+{
+  "name" : "ReleaseBlb",
+  "method" : "DELETE",
+  "uri" : "/v{version}/blb/{blbId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.ReleaseBlb.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.ReleaseBlb.clientToken"
+  } ],
+  "desc_key" : "blb.ReleaseBlb.desc"
+}

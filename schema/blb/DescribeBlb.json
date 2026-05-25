@@ -1,0 +1,26 @@
+{
+  "name" : "DescribeBlb",
+  "method" : "GET",
+  "uri" : "/v{version}/blb/{blbId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DescribeBlb.blbId"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeBlb.type"
+  } ],
+  "desc_key" : "blb.DescribeBlb.desc"
+}

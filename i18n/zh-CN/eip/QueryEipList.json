@@ -3,7 +3,7 @@
     "desc" : "queryEipList",
     "ipVersion" : "要查询的EIP IP类型，包含ipv4和ipv6，默认ipv4。",
     "eip" : "要查询的EIP，包括IPv4 EIP和IPv6 EIP,如需查询指定IPv6 EIP，需要指定ipVersion为ipv6。",
-    "instanceType" : "绑定实例类型.取值 BCC、BBC、DCC、ENI、BLB、NAT、VPN",
+    "instanceType" : "绑定实例类型.取值 BCC、BBC、DCC、ENI、blb、NAT、VPN",
     "instanceId" : "绑定实例的短ID，若指定了此参数，需同时提供instanceType参数",
     "name" : "要查询的EIP名称",
     "status" : "实例状态，仅支持available, binded, paused三种状态的查询",

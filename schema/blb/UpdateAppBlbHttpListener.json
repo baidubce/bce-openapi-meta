@@ -1,0 +1,104 @@
+{
+  "name" : "UpdateAppBlbHttpListener",
+  "method" : "PUT",
+  "uri" : "/v{version}/appblb/{blbId}/HTTPlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.clientToken"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.listenerPort"
+  }, {
+    "name" : "scheduler",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.scheduler"
+  }, {
+    "name" : "keepSession",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.keepSession"
+  }, {
+    "name" : "keepSessionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.keepSessionType"
+  }, {
+    "name" : "keepSessionTimeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.keepSessionTimeout"
+  }, {
+    "name" : "keepSessionCookieName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.keepSessionCookieName"
+  }, {
+    "name" : "xForwardedFor",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.xForwardedFor"
+  }, {
+    "name" : "xForwardedProto",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.xForwardedProto"
+  }, {
+    "name" : "additionalAttributes",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.additionalAttributes",
+    "sub_parameters" : [ {
+      "name" : "gzipJson",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.UpdateAppBlbHttpListener.additionalAttributes.gzipJson"
+    } ]
+  }, {
+    "name" : "serverTimeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.serverTimeout"
+  }, {
+    "name" : "redirectPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.redirectPort"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbHttpListener.description"
+  } ],
+  "desc_key" : "blb.UpdateAppBlbHttpListener.desc"
+}
