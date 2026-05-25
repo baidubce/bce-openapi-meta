@@ -1,0 +1,7 @@
+{
+  "ReleaseEipFromRecycle" : {
+    "desc" : "releaseEipFromRecycle",
+    "eip" : "The EIP address to be released from the recycle bin, including IPv4 EIP and IPv6 EIP.",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters. For details, see Idempotency."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ListTbspAreaBlocking" : {
+    "desc" : "listTbspAreaBlocking",
+    "id" : "DDoS Enhanced Protection Package ID",
+    "ip" : "IP address of the protected object under DDoS Enhanced Protection Package, supports fuzzy search"
+  }
+}

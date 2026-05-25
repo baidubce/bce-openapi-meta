@@ -1,0 +1,9 @@
+{
+  "ListBaseDdosAttackRecord" : {
+    "desc" : "listBaseDdosAttackRecord",
+    "ip" : "Public IP address",
+    "startTime" : "UTC time when the attack started",
+    "marker" : "The starting position for batch list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, not exceeding 1000. Default value is 1000"
+  }
+}

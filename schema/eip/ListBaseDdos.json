@@ -1,0 +1,38 @@
+{
+  "name" : "ListBaseDdos",
+  "method" : "GET",
+  "uri" : "/v{version}/ddos",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ips",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListBaseDdos.ips"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListBaseDdos.type"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListBaseDdos.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListBaseDdos.maxKeys"
+  } ],
+  "desc_key" : "eip.ListBaseDdos.desc"
+}

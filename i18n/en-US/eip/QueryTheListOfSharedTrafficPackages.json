@@ -1,0 +1,10 @@
+{
+  "QueryTheListOfSharedTrafficPackages" : {
+    "desc" : "Query the list of shared traffic packages",
+    "marker" : "The starting position for batch list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, not exceeding 1000, default value is 1000",
+    "id" : "The ID of the shared traffic package to query",
+    "status" : "The status of the shared traffic package to query: \"RUNNING\" in use; \"EXPIRED\" expired; \"USED_UP\" exhausted",
+    "deductPolicy" : "The deduction policy of the shared traffic package to query: \"FullTimeDurationPackage\" full-time; \"TimeDurationPackage\" off-peak"
+  }
+}

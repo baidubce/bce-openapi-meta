@@ -1,0 +1,12 @@
+{
+  "AddTbspProtocolBlocking" : {
+    "desc" : "addTbspProtocolBlocking",
+    "id" : "DDoS增强防护包ID",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "ip" : "DDoS增强防护包防护对象IP地址",
+    "protocolPortList" : "协议封禁端口列表",
+    "protocolPortList.type" : "DDoS增强防护包封禁协议类型，包含icmp、tcp和udp",
+    "protocolPortList.portBegin" : "DDoS增强防护包协议封禁端口起始值",
+    "protocolPortList.portEnd" : "DDoS增强防护包协议封禁端口终止值"
+  }
+}

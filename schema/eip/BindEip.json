@@ -1,0 +1,44 @@
+{
+  "name" : "BindEip",
+  "method" : "PUT",
+  "uri" : "/v{version}/eip/{eip}?bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "eip",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "eip.BindEip.eip"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "eip.BindEip.clientToken"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.BindEip.instanceType"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.BindEip.instanceId"
+  }, {
+    "name" : "instanceIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.BindEip.instanceIp"
+  } ],
+  "desc_key" : "eip.BindEip.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "GetEipGroup" : {
+    "desc" : "getEipGroup",
+    "id" : "The ID of the shared bandwidth to query"
+  }
+}

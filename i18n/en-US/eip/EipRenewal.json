@@ -1,0 +1,11 @@
+{
+  "EipRenewal" : {
+    "desc" : "eipRenewal",
+    "eip" : "The EIP to be renewed, including IPv4 EIP and IPv6 EIP.",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [Idempotency](EIP/API参考/通用说明.md#幂等性).",
+    "billing" : "Order information.",
+    "billing.paymentTiming" : "Payment timing: Prepaid or Postpaid.",
+    "billing.billingMethod" : "Billing method: ByTraffic, ByBandwidth, ByPeak95 (shared bandwidth postpaid only), or ByNetrafficMax (shared bandwidth postpaid only).",
+    "billing.reservation" : "Reservation info. Not required for Postpaid; required for Prepaid."
+  }
+}

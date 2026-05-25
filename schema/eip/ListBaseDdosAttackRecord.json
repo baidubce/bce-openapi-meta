@@ -1,0 +1,38 @@
+{
+  "name" : "ListBaseDdosAttackRecord",
+  "method" : "GET",
+  "uri" : "/v{version}/ddos/{ip}/record",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ip",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "eip.ListBaseDdosAttackRecord.ip"
+  }, {
+    "name" : "startTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListBaseDdosAttackRecord.startTime"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListBaseDdosAttackRecord.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListBaseDdosAttackRecord.maxKeys"
+  } ],
+  "desc_key" : "eip.ListBaseDdosAttackRecord.desc"
+}

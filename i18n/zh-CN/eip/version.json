@@ -1,0 +1,298 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "apis" : {
+    "ResizeEipBpBandwidth" : {
+      "title" : "ResizeEipBpBandwidth",
+      "summary" : "resizeEipBpBandwidth"
+    },
+    "CreateASharedTrafficPackage" : {
+      "title" : "CreateASharedTrafficPackage",
+      "summary" : "createASharedTrafficPackage"
+    },
+    "QueryTheDetailsOfSharedTrafficPackages" : {
+      "title" : "QueryTheDetailsOfSharedTrafficPackages",
+      "summary" : "queryTheDetailsOfSharedTrafficPackages"
+    },
+    "QueryTheListOfSharedTrafficPackages" : {
+      "title" : "QueryTheListOfSharedTrafficPackages",
+      "summary" : "queryTheListOfSharedTrafficPackages"
+    },
+    "ApplyForEip" : {
+      "title" : "ApplyForEip",
+      "summary" : "applyForEip"
+    },
+    "EipBandwidthScalingCapacity" : {
+      "title" : "EipBandwidthScalingCapacity",
+      "summary" : "eipBandwidthScalingCapacity"
+    },
+    "BindEip" : {
+      "title" : "BindEip",
+      "summary" : "bindEip"
+    },
+    "UnbindEip" : {
+      "title" : "UnbindEip",
+      "summary" : "unbindEip"
+    },
+    "ReleaseEip" : {
+      "title" : "ReleaseEip",
+      "summary" : "releaseEip"
+    },
+    "EipRenewal" : {
+      "title" : "EipRenewal",
+      "summary" : "eipRenewal"
+    },
+    "StartEipAutoRenew" : {
+      "title" : "StartEipAutoRenew",
+      "summary" : "startEipAutoRenew"
+    },
+    "StopEipAutoRenew" : {
+      "title" : "StopEipAutoRenew",
+      "summary" : "stopEipAutoRenew"
+    },
+    "DirectEip" : {
+      "title" : "DirectEip",
+      "summary" : "directEip"
+    },
+    "UnDirectEip" : {
+      "title" : "UnDirectEip",
+      "summary" : "unDirectEip"
+    },
+    "ListRecycleEips" : {
+      "title" : "ListRecycleEips",
+      "summary" : "listRecycleEips"
+    },
+    "OptionalReleaseEip" : {
+      "title" : "OptionalReleaseEip",
+      "summary" : "optionalReleaseEip"
+    },
+    "ReleaseEipFromRecycle" : {
+      "title" : "ReleaseEipFromRecycle",
+      "summary" : "releaseEipFromRecycle"
+    },
+    "RestoreEipFromRecycle" : {
+      "title" : "RestoreEipFromRecycle",
+      "summary" : "restoreEipFromRecycle"
+    },
+    "RefundEip" : {
+      "title" : "RefundEip",
+      "summary" : "refundEip"
+    },
+    "UpdateEipDeleteProtect" : {
+      "title" : "UpdateEipDeleteProtect",
+      "summary" : "updateEipDeleteProtect"
+    },
+    "EipPostpaidToPrepaid" : {
+      "title" : "EipPostpaidToPrepaid",
+      "summary" : "eipPostpaidToPrepaid"
+    },
+    "ReceiveEipTransfer" : {
+      "title" : "ReceiveEipTransfer",
+      "summary" : "receiveEipTransfer"
+    },
+    "CancelEipTransfer" : {
+      "title" : "CancelEipTransfer",
+      "summary" : "cancelEipTransfer"
+    },
+    "ListEipGroup" : {
+      "title" : "ListEipGroup",
+      "summary" : "listEipGroup"
+    },
+    "RejectEipTransfer" : {
+      "title" : "RejectEipTransfer",
+      "summary" : "rejectEipTransfer"
+    },
+    "ListEipTransfer" : {
+      "title" : "ListEipTransfer",
+      "summary" : "listEipTransfer"
+    },
+    "PurchaseReservedEipGroup" : {
+      "title" : "PurchaseReservedEipGroup",
+      "summary" : "purchaseReservedEipGroup"
+    },
+    "CreateTbsp" : {
+      "title" : "CreateTbsp",
+      "summary" : "createTbsp"
+    },
+    "BindTbspProtectionObject" : {
+      "title" : "BindTbspProtectionObject",
+      "summary" : "bindTbspProtectionObject"
+    },
+    "CreateEipGroup" : {
+      "title" : "CreateEipGroup",
+      "summary" : "createEipGroup"
+    },
+    "UnbindTbspProtectionObject" : {
+      "title" : "UnbindTbspProtectionObject",
+      "summary" : "unbindTbspProtectionObject"
+    },
+    "ReleaseEipGroup" : {
+      "title" : "ReleaseEipGroup",
+      "summary" : "releaseEipGroup"
+    },
+    "ListTbsp" : {
+      "title" : "ListTbsp",
+      "summary" : "listTbsp"
+    },
+    "MoveInEips" : {
+      "title" : "MoveInEips",
+      "summary" : "moveInEips"
+    },
+    "ListUnban" : {
+      "title" : "ListUnban",
+      "summary" : "listUnban"
+    },
+    "DetailTbsp" : {
+      "title" : "DetailTbsp",
+      "summary" : "detailTbsp"
+    },
+    "MoveOutEips" : {
+      "title" : "MoveOutEips",
+      "summary" : "moveOutEips"
+    },
+    "ResizeTbsp" : {
+      "title" : "ResizeTbsp",
+      "summary" : "resizeTbsp"
+    },
+    "RefundEipGroup" : {
+      "title" : "RefundEipGroup",
+      "summary" : "refundEipGroup"
+    },
+    "RenewTbsp" : {
+      "title" : "RenewTbsp",
+      "summary" : "renewTbsp"
+    },
+    "ListTbspIpClean" : {
+      "title" : "ListTbspIpClean",
+      "summary" : "listTbspIpClean"
+    },
+    "UpdateEipGroup" : {
+      "title" : "UpdateEipGroup",
+      "summary" : "updateEipGroup"
+    },
+    "ModifyTbspIpCleanThreshold" : {
+      "title" : "ModifyTbspIpCleanThreshold",
+      "summary" : "modifyTbspIpCleanThreshold"
+    },
+    "ResizeEipGroupBandwidth" : {
+      "title" : "ResizeEipGroupBandwidth",
+      "summary" : "resizeEipGroupBandwidth"
+    },
+    "EnableTbspIpClean" : {
+      "title" : "EnableTbspIpClean",
+      "summary" : "enableTbspIpClean"
+    },
+    "AddEipGroupCount" : {
+      "title" : "AddEipGroupCount",
+      "summary" : "addEipGroupCount"
+    },
+    "DisableTbspIpClean" : {
+      "title" : "DisableTbspIpClean",
+      "summary" : "disableTbspIpClean"
+    },
+    "ListTbspIpWhitelist" : {
+      "title" : "ListTbspIpWhitelist",
+      "summary" : "listTbspIpWhitelist"
+    },
+    "AddTbspIpWhitelist" : {
+      "title" : "AddTbspIpWhitelist",
+      "summary" : "addTbspIpWhitelist"
+    },
+    "RemoveTbspIpWhitelist" : {
+      "title" : "RemoveTbspIpWhitelist",
+      "summary" : "removeTbspIpWhitelist"
+    },
+    "ListTbspAreaBlocking" : {
+      "title" : "ListTbspAreaBlocking",
+      "summary" : "listTbspAreaBlocking"
+    },
+    "AddTbspAreaBlocking" : {
+      "title" : "AddTbspAreaBlocking",
+      "summary" : "addTbspAreaBlocking"
+    },
+    "RemoveTbspAreaBlocking" : {
+      "title" : "RemoveTbspAreaBlocking",
+      "summary" : "removeTbspAreaBlocking"
+    },
+    "ListTbspProtocolBlocking" : {
+      "title" : "ListTbspProtocolBlocking",
+      "summary" : "listTbspProtocolBlocking"
+    },
+    "AddTbspProtocolBlocking" : {
+      "title" : "AddTbspProtocolBlocking",
+      "summary" : "addTbspProtocolBlocking"
+    },
+    "GetEipGroup" : {
+      "title" : "GetEipGroup",
+      "summary" : "getEipGroup"
+    },
+    "RemoveTbspProtocolBlocking" : {
+      "title" : "RemoveTbspProtocolBlocking",
+      "summary" : "removeTbspProtocolBlocking"
+    },
+    "ModifyTbspIpProtectLevel" : {
+      "title" : "ModifyTbspIpProtectLevel",
+      "summary" : "modifyTbspIpProtectLevel"
+    },
+    "BandwidthPackageInquiry" : {
+      "title" : "BandwidthPackageInquiry",
+      "summary" : "bandwidthPackageInquiry"
+    },
+    "SharedBandwidthInquiry" : {
+      "title" : "SharedBandwidthInquiry",
+      "summary" : "sharedBandwidthInquiry"
+    },
+    "EipInquiry" : {
+      "title" : "EipInquiry",
+      "summary" : "eipInquiry"
+    },
+    "SharedDataPackageInquiry" : {
+      "title" : "SharedDataPackageInquiry",
+      "summary" : "sharedDataPackageInquiry"
+    },
+    "QueryEipList" : {
+      "title" : "QueryEipList",
+      "summary" : "queryEipList"
+    },
+    "CreateEipTransfer" : {
+      "title" : "CreateEipTransfer",
+      "summary" : "createEipTransfer"
+    },
+    "UpdateBaseDdosThreshold" : {
+      "title" : "UpdateBaseDdosThreshold",
+      "summary" : "updateBaseDdosThreshold"
+    },
+    "ListBaseDdos" : {
+      "title" : "ListBaseDdos",
+      "summary" : "listBaseDdos"
+    },
+    "ListBaseDdosAttackRecord" : {
+      "title" : "ListBaseDdosAttackRecord",
+      "summary" : "listBaseDdosAttackRecord"
+    },
+    "CreateEipBp" : {
+      "title" : "CreateEipBp",
+      "summary" : "createEipBp"
+    },
+    "UpdateEipBpName" : {
+      "title" : "UpdateEipBpName",
+      "summary" : "updateEipBpName"
+    },
+    "GetEipBp" : {
+      "title" : "GetEipBp",
+      "summary" : "getEipBp"
+    },
+    "ReleaseEipBp" : {
+      "title" : "ReleaseEipBp",
+      "summary" : "releaseEipBp"
+    },
+    "UpdateEipBpAutoReleaseTime" : {
+      "title" : "UpdateEipBpAutoReleaseTime",
+      "summary" : "updateEipBpAutoReleaseTime"
+    },
+    "ListEipBp" : {
+      "title" : "ListEipBp",
+      "summary" : "listEipBp"
+    }
+  }
+}

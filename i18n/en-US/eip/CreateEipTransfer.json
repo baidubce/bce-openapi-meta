@@ -1,0 +1,9 @@
+{
+  "CreateEipTransfer" : {
+    "desc" : "createEipTransfer",
+    "clientToken" : "Idempotency token, see [Idempotency](EIP/API参考/通用说明.md#幂等性) for details.",
+    "transferType" : "Type of resource to transfer. eip",
+    "transferResourceList" : "List of short IDs of resources to transfer. Maximum 30 per request.",
+    "toUserId" : "Target account ID."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ListRecycleEips" : {
+    "desc" : "listRecycleEips",
+    "eip" : "The EIP to query, including IPv4 EIP and IPv6 EIP.",
+    "name" : "The name of the EIP to query.",
+    "marker" : "The starting position for paginated list queries, which is a system-generated string.",
+    "maxKeys" : "The maximum number of items per page, up to 1000; default value is 1000."
+  }
+}

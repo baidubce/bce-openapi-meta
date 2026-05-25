@@ -1,0 +1,38 @@
+{
+  "name" : "StartEipAutoRenew",
+  "method" : "PUT",
+  "uri" : "/v{version}/eip/{eip}?startAutoRenew",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "eip.StartEipAutoRenew.clientToken"
+  }, {
+    "name" : "eip",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "eip.StartEipAutoRenew.eip"
+  }, {
+    "name" : "autoRenewTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.StartEipAutoRenew.autoRenewTimeUnit"
+  }, {
+    "name" : "autoRenewTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.StartEipAutoRenew.autoRenewTime"
+  } ],
+  "desc_key" : "eip.StartEipAutoRenew.desc"
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "AddTbspAreaBlocking",
+  "method" : "POST",
+  "uri" : "/v{version}/tbsp/{id}/areaBlocking",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "eip.AddTbspAreaBlocking.id"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.AddTbspAreaBlocking.clientToken"
+  }, {
+    "name" : "ip",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.AddTbspAreaBlocking.ip"
+  }, {
+    "name" : "blockTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.AddTbspAreaBlocking.blockTime"
+  }, {
+    "name" : "blockType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.AddTbspAreaBlocking.blockType"
+  } ],
+  "desc_key" : "eip.AddTbspAreaBlocking.desc"
+}
