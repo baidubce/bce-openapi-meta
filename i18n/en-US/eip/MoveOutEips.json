@@ -1,0 +1,11 @@
+{
+  "MoveOutEips" : {
+    "desc" : "Move EIPs out of shared bandwidth",
+    "id" : "The ID of the shared bandwidth",
+    "clientToken" : "Idempotency token, see [clientToken](EIP/API参考/通用说明.md#幂等性)",
+    "moveOutEips" : "List of EIPs to be removed, including IPv4 EIPs and IPv6 EIPs",
+    "moveOutEips.eip" : "The IP address of the EIP to be removed",
+    "moveOutEips.bandwidthInMbps" : "Bandwidth value of the EIP after removal, in Mbps (required only for EIPs originally provisioned under shared bandwidth)",
+    "moveOutEips.billing" : "Billing information of the EIP after removal, only postpaid is supported (required only for EIPs originally provisioned under shared bandwidth)"
+  }
+}

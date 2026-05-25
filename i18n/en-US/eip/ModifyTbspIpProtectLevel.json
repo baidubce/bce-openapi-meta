@@ -1,0 +1,9 @@
+{
+  "ModifyTbspIpProtectLevel" : {
+    "desc" : "modifyTbspIpProtectLevel",
+    "id" : "DDoS Advanced Protection Package ID",
+    "clientToken" : "Idempotency token, no more than 64 characters",
+    "ip" : "Protected object IP address of the DDoS Advanced Protection Package",
+    "protectLevel" : "Protection level: 1 (loose), 2 (moderate), 3 (strict)"
+  }
+}

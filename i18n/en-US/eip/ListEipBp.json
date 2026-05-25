@@ -1,0 +1,11 @@
+{
+  "ListEipBp" : {
+    "desc" : "listEipBp",
+    "marker" : "The starting position for batch list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, not exceeding 1000. Default value is 1000",
+    "id" : "The ID of the bandwidth package to query",
+    "name" : "The name of the bandwidth package to query",
+    "bindType" : "The type of resource bound to the queried bandwidth package, either \"eip\" (Elastic IP) or \"eipgroup\" (Shared Bandwidth)",
+    "type" : "The type of bandwidth package, including BandwidthPackage and AccelerationPackage (cross-border acceleration package). All types are selected by default"
+  }
+}

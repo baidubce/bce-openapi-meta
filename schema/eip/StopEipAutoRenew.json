@@ -1,0 +1,26 @@
+{
+  "name" : "StopEipAutoRenew",
+  "method" : "PUT",
+  "uri" : "/v{version}/eip/{eip}?stopAutoRenew",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "eip.StopEipAutoRenew.clientToken"
+  }, {
+    "name" : "eip",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "eip.StopEipAutoRenew.eip"
+  } ],
+  "desc_key" : "eip.StopEipAutoRenew.desc"
+}

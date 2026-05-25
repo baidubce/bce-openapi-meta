@@ -1,0 +1,9 @@
+{
+  "ListTbspIpClean" : {
+    "desc" : "listTbspIpClean",
+    "id" : "DDoS Enhanced Protection Package ID",
+    "ip" : "Protected object IP address of the DDoS Enhanced Protection Package, supports fuzzy search",
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000, default is 1000"
+  }
+}

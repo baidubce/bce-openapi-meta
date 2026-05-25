@@ -1,0 +1,9 @@
+{
+  "StartEipAutoRenew" : {
+    "desc" : "startEipAutoRenew",
+    "clientToken" : "Idempotency token, see Idempotency for details.",
+    "eip" : "The EIP to enable auto-renewal for, including IPv4 EIP and IPv6 EIP.",
+    "autoRenewTimeUnit" : "Accepted values: month or year (default: month).",
+    "autoRenewTime" : "Range depends on autoRenewTimeUnit: 1–9 for month, 1–3 for year."
+  }
+}

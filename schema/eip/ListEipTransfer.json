@@ -1,0 +1,68 @@
+{
+  "name" : "ListEipTransfer",
+  "method" : "GET",
+  "uri" : "/v{version}/transfer",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListEipTransfer.maxKeys"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListEipTransfer.marker"
+  }, {
+    "name" : "direction",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListEipTransfer.direction"
+  }, {
+    "name" : "transferId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListEipTransfer.transferId"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListEipTransfer.status"
+  }, {
+    "name" : "fuzzyTransferId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListEipTransfer.fuzzyTransferId"
+  }, {
+    "name" : "fuzzyInstanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListEipTransfer.fuzzyInstanceId"
+  }, {
+    "name" : "fuzzyInstanceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListEipTransfer.fuzzyInstanceName"
+  }, {
+    "name" : "fuzzyInstanceIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListEipTransfer.fuzzyInstanceIp"
+  } ],
+  "desc_key" : "eip.ListEipTransfer.desc"
+}

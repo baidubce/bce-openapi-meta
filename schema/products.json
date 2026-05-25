@@ -1,33 +1,35 @@
 {
-  "products": [
-    {
-      "code": "vpc",
-      "protocol": "HTTP",
-      "endpoint": {
-        "bj": "bcc.bj.baidubce.com",
-        "gz": "bcc.gz.baidubce.com",
-        "su": "bcc.su.baidubce.com",
-        "bd": "bcc.bd.baidubce.com"
-      }
-    },
-    {
-      "code": "bcc",
-      "protocol": "HTTP|HTTPS",
-      "endpoint": {
-        "bj": "bcc.bj.baidubce.com",
-        "gz": "bcc.gz.baidubce.com",
-        "su": "bcc.su.baidubce.com",
-        "bd": "bcc.bd.baidubce.com"
-      }
-    },
-    {
-      "code": "eip",
-      "protocol": "HTTP|HTTPS",
-      "endpoint": {
-        "bj": "eip.bj.baidubce.com",
-        "gz": "eip.gz.baidubce.com",
-        "su": "eip.su.baidubce.com"
-      }
+  "products" : [ {
+    "code" : "vpc",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bj" : "bcc.bj.baidubce.com",
+      "gz" : "bcc.gz.baidubce.com",
+      "su" : "bcc.su.baidubce.com",
+      "bd" : "bcc.bd.baidubce.com"
     }
-  ]
+  }, {
+    "code" : "bcc",
+    "protocol" : "HTTP|HTTPS",
+    "endpoint" : {
+      "bj" : "bcc.bj.baidubce.com",
+      "gz" : "bcc.gz.baidubce.com",
+      "su" : "bcc.su.baidubce.com",
+      "bd" : "bcc.bd.baidubce.com"
+    }
+  }, {
+    "code" : "eip",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "eip.bd.baidubce.com",
+      "bj" : "eip.bj.baidubce.com",
+      "cd" : "eip.cd.baidubce.com",
+      "fwh" : "eip.fwh.baidubce.com",
+      "gz" : "eip.gz.baidubce.com",
+      "hkg" : "eip.hkg.baidubce.com",
+      "nj" : "eip.nj.baidubce.com",
+      "su" : "eip.su.baidubce.com",
+      "yq" : "eip.yq.baidubce.com"
+    }
+  } ]
 }

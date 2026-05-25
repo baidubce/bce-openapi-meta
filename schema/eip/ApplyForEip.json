@@ -1,0 +1,107 @@
+{
+  "name" : "ApplyForEip",
+  "method" : "POST",
+  "uri" : "/v{version}/eip",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "eip.ApplyForEip.clientToken"
+  }, {
+    "name" : "ipVersion",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.ApplyForEip.ipVersion"
+  }, {
+    "name" : "routeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.ApplyForEip.routeType"
+  }, {
+    "name" : "bandwidthInMbps",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.ApplyForEip.bandwidthInMbps"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.ApplyForEip.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.ApplyForEip.billing.paymentTiming"
+    }, {
+      "name" : "billingMethod",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.ApplyForEip.billing.billingMethod"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "eip.ApplyForEip.billing.reservation"
+    } ]
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.ApplyForEip.name"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.ApplyForEip.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.ApplyForEip.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.ApplyForEip.tags.tagValue"
+    } ]
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.ApplyForEip.resourceGroupId"
+  }, {
+    "name" : "autoRenewTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.ApplyForEip.autoRenewTimeUnit"
+  }, {
+    "name" : "autoRenewTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.ApplyForEip.autoRenewTime"
+  }, {
+    "name" : "deleteProtect",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.ApplyForEip.deleteProtect"
+  } ],
+  "desc_key" : "eip.ApplyForEip.desc"
+}

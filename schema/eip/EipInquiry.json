@@ -1,0 +1,54 @@
+{
+  "name" : "EipInquiry",
+  "method" : "POST",
+  "uri" : "/v{version}/eip/price",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "bandwidthInMbps",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.EipInquiry.bandwidthInMbps"
+  }, {
+    "name" : "count",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.EipInquiry.count"
+  }, {
+    "name" : "purchaseType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.EipInquiry.purchaseType"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.EipInquiry.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.EipInquiry.billing.paymentTiming"
+    }, {
+      "name" : "billingMethod",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.EipInquiry.billing.billingMethod"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "eip.EipInquiry.billing.reservation"
+    } ]
+  } ],
+  "desc_key" : "eip.EipInquiry.desc"
+}

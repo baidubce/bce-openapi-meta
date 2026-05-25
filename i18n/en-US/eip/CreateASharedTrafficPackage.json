@@ -1,0 +1,10 @@
+{
+  "CreateASharedTrafficPackage" : {
+    "desc" : "createASharedTrafficPackage",
+    "clientToken" : "Idempotency token",
+    "reservationLength" : "Validity period of the shared traffic package (unit: month), options: 1/6/12",
+    "capacity" : "Capacity of the shared traffic package. When validity is 1 month, available options: \"10G\"/\"50G\"/\"100G\"/\"500G\"/\"1T\"/\"5T\"/\"10T\"/\"50T\"; when validity is 6 months, available options: \"60G\"/\"300G\"/\"600G\"/\"3T\"/\"6T\"/\"30T\"/\"60T\"/\"300T\"; when validity is 12 months, available options: \"1T\"/\"10T\"/\"50T\"/\"100T\"/\"500T\"/\"1P\". Capacity must be selected from the corresponding available specifications.",
+    "deductPolicy" : "Deduction policy of the shared traffic package. Options: \"FullTimeDurationPackage\" (full-time) or \"TimeDurationPackage\" (off-peak). Default is \"FullTimeDurationPackage\".",
+    "packageType" : "Line type of the shared traffic package. Currently supports \"WebOutBytes\" (dynamic). Default is \"WebOutBytes\"."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ReleaseEipGroup" : {
+    "desc" : "releaseEipGroup",
+    "id" : "The ID of the shared bandwidth",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. For details, see [Idempotency](EIP/API参考/通用说明.md#幂等性)."
+  }
+}

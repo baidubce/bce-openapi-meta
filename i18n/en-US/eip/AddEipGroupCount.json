@@ -1,0 +1,9 @@
+{
+  "AddEipGroupCount" : {
+    "desc" : "addEipGroupCount",
+    "id" : "The ID of the shared bandwidth package",
+    "clientToken" : "Idempotency token, see [clientToken](EIP/API参考/通用说明.md#幂等性) for details",
+    "eipAddCount" : "The number of IPv4 EIPs to add to the shared bandwidth package. Must be greater than 0. The maximum number of public IPs is n, where n*5Mbps is less than the total shared bandwidth capacity.",
+    "eipv6AddCount" : "The number of IPv6 EIPs to add to the shared bandwidth package. Must be greater than 0. The maximum number of public IPs is subject to quota limits, with a default of 256."
+  }
+}

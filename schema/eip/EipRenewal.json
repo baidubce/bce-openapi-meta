@@ -1,0 +1,48 @@
+{
+  "name" : "EipRenewal",
+  "method" : "PUT",
+  "uri" : "/v{version}/eip/{eip}?purchaseReserved",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "eip",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "eip.EipRenewal.eip"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "eip.EipRenewal.clientToken"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.EipRenewal.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.EipRenewal.billing.paymentTiming"
+    }, {
+      "name" : "billingMethod",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.EipRenewal.billing.billingMethod"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "eip.EipRenewal.billing.reservation"
+    } ]
+  } ],
+  "desc_key" : "eip.EipRenewal.desc"
+}
