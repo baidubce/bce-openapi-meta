@@ -1,0 +1,11 @@
+{
+  "UpdateAppBlbTcpListener" : {
+    "desc" : "updateAppBlbTcpListener",
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "listenerPort" : "监听器端口号",
+    "scheduler" : "负载均衡算法，支持3种方式：\"RoundRobin\"/\"LeastConnection\"/\"Hash\"，\"RoundRobin\"代表加权轮询、\"LeastConnection\"代表最小连接数、\"Hash\"代表根据源ip哈希",
+    "tcpSessionTimeout" : "tcp设置连接超时时间（单位：秒），默认900，需为10-4000间的整数",
+    "description" : "描述信息，长度不超过200个字符。"
+  }
+}

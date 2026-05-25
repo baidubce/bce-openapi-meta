@@ -1,0 +1,12 @@
+{
+  "DescribeAppBlbs" : {
+    "desc" : "Describes a list of application-type load balancers",
+    "address" : "The IP address of the LoadBalancer to query, in dotted-decimal notation",
+    "name" : "The name of the LoadBalancer to query",
+    "blbId" : "The ID of the LoadBalancer to query (exact match only)",
+    "bccId" : "Query LoadBalancers bound to the specified BCC instance (exact match only)",
+    "exactlyMatch" : "If true, query conditions use exact matching; otherwise fuzzy matching is applied. Default is false",
+    "marker" : "The starting position for paginated list retrieval, a system-generated string",
+    "maxKeys" : "The maximum number of items per page, up to 1000. Default is 1000"
+  }
+}

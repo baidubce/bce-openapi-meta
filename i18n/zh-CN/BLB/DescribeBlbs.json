@@ -1,0 +1,13 @@
+{
+  "DescribeBlbs" : {
+    "desc" : "describeBlbs",
+    "address" : "要查询的LoadBalancer内网服务地址，格式为点分十进制",
+    "name" : "要查询的LoadBalancer名称",
+    "blbId" : "要查询的LoadBalancer ID（只支持精确查询）",
+    "bccId" : "绑定该BCC的LoadBalancer（只支持精确查询）",
+    "exactlyMatch" : "为true表示查询条件为精准匹配，否则为模糊匹配。缺省值为false",
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量不超过1000。缺省值为1000",
+    "type" : "指定负载均衡实例的类型，不传默认为普通型，传\"ipv6\"代表查询ipv6类型的BLB。"
+  }
+}

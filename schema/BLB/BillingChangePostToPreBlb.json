@@ -1,0 +1,44 @@
+{
+  "name" : "BillingChangePostToPreBlb",
+  "method" : "POST",
+  "uri" : "/v{version}/blb/{blbId}/charge?action=TO_PREPAY",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "BLB.BillingChangePostToPreBlb.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "BLB.BillingChangePostToPreBlb.clientToken"
+  }, {
+    "name" : "billingMethod",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.BillingChangePostToPreBlb.billingMethod"
+  }, {
+    "name" : "performanceLevel",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.BillingChangePostToPreBlb.performanceLevel"
+  }, {
+    "name" : "reservationLength",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "BLB.BillingChangePostToPreBlb.reservationLength"
+  } ],
+  "desc_key" : "BLB.BillingChangePostToPreBlb.desc"
+}

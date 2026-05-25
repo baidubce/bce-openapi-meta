@@ -1,0 +1,11 @@
+{
+  "UpdateAppBlbUdpListener" : {
+    "desc" : "updateAppBlbUdpListener",
+    "blbId" : "The identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, no more than 64 characters",
+    "listenerPort" : "The port number of the listener",
+    "scheduler" : "Load balancing algorithm, supports 3 options: \"RoundRobin\" / \"LeastConnection\" / \"Hash\". \"RoundRobin\" means weighted round robin, \"LeastConnection\" means least connections, \"Hash\" means hashing by source IP",
+    "udpSessionTimeout" : "UDP session timeout in seconds. Default is 90, must be an integer between 5 and 4000",
+    "description" : "Description text, no more than 200 characters"
+  }
+}

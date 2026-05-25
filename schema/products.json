@@ -31,5 +31,19 @@
       "su" : "eip.su.baidubce.com",
       "yq" : "eip.yq.baidubce.com"
     }
+  }, {
+    "code" : "BLB",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "blb.bd.baidubce.com",
+      "bj" : "blb.bj.baidubce.com",
+      "cd" : "blb.cd.baidubce.com",
+      "fwh" : "blb.fwh.baidubce.com",
+      "gz" : "blb.gz.baidubce.com",
+      "hkg" : "blb.hkg.baidubce.com",
+      "nj" : "blb.nj.baidubce.com",
+      "su" : "blb.su.baidubce.com",
+      "yq" : "blb.yq.baidubce.com"
+    }
   } ]
 }

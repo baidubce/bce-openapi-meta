@@ -1,0 +1,44 @@
+{
+  "name" : "DescribeAppBlbPolicy",
+  "method" : "GET",
+  "uri" : "/v{version}/appblb/{blbId}/policys",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "BLB.DescribeAppBlbPolicy.blbId"
+  }, {
+    "name" : "port",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "BLB.DescribeAppBlbPolicy.port"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "BLB.DescribeAppBlbPolicy.type"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "BLB.DescribeAppBlbPolicy.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "BLB.DescribeAppBlbPolicy.maxKeys"
+  } ],
+  "desc_key" : "BLB.DescribeAppBlbPolicy.desc"
+}

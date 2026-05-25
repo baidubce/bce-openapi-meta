@@ -1,0 +1,6 @@
+{
+  "ReleaseAppBlb" : {
+    "desc" : "Release an application-type BLB instance",
+    "blbId" : "The ID of the LoadBalancer to be released"
+  }
+}

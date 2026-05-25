@@ -1,0 +1,7 @@
+{
+  "ReleaseBlb" : {
+    "desc" : "releaseBlb",
+    "blbId" : "The ID of the LoadBalancer to be released",
+    "clientToken" : "Idempotency token, up to 64 characters in length"
+  }
+}

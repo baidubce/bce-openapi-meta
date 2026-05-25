@@ -1,0 +1,11 @@
+{
+  "UpdateAppBlbTcpListener" : {
+    "desc" : "updateAppBlbTcpListener",
+    "blbId" : "The identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, up to 64 characters in length",
+    "listenerPort" : "Listener port number",
+    "scheduler" : "Load balancing algorithm, supports three modes: \"RoundRobin\" / \"LeastConnection\" / \"Hash\". \"RoundRobin\" indicates weighted round robin, \"LeastConnection\" indicates least connections, \"Hash\" indicates hashing based on source IP",
+    "tcpSessionTimeout" : "TCP connection timeout (in seconds), default 900, must be an integer between 10 and 4000",
+    "description" : "Description, up to 200 characters in length"
+  }
+}

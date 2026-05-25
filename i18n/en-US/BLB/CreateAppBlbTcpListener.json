@@ -1,0 +1,11 @@
+{
+  "CreateAppBlbTcpListener" : {
+    "desc" : "createAppBlbTcpListener",
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, max length 64 characters",
+    "listenerPort" : "Listening port of the listener, must be an integer between 1 and 65535",
+    "scheduler" : "Load balancing algorithm, supports three modes: \"RoundRobin\" (weighted round robin), \"WeightLeastConn\" (weighted least connections), \"Hash\" (source IP hash)",
+    "tcpSessionTimeout" : "TCP connection timeout in seconds, default 900, must be an integer between 10 and 4000",
+    "description" : "Description, max length 200 characters"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "DescribeAppBlbHttpsListener",
+  "method" : "GET",
+  "uri" : "/v{version}/appblb/{blbId}/HTTPSlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "BLB.DescribeAppBlbHttpsListener.blbId"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "BLB.DescribeAppBlbHttpsListener.listenerPort"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "BLB.DescribeAppBlbHttpsListener.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "BLB.DescribeAppBlbHttpsListener.maxKeys"
+  } ],
+  "desc_key" : "BLB.DescribeAppBlbHttpsListener.desc"
+}

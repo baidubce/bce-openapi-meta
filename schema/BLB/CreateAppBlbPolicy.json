@@ -1,0 +1,91 @@
+{
+  "name" : "CreateAppBlbPolicy",
+  "method" : "POST",
+  "uri" : "/v{version}/appblb/{blbId}/policys",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "BLB.CreateAppBlbPolicy.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "BLB.CreateAppBlbPolicy.clientToken"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "BLB.CreateAppBlbPolicy.listenerPort"
+  }, {
+    "name" : "appPolicyVos",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "BLB.CreateAppBlbPolicy.appPolicyVos",
+    "sub_parameters" : [ {
+      "name" : "appServerGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "BLB.CreateAppBlbPolicy.appPolicyVos.appServerGroupId"
+    }, {
+      "name" : "appIpGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "BLB.CreateAppBlbPolicy.appPolicyVos.appIpGroupId"
+    }, {
+      "name" : "backendPort",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "BLB.CreateAppBlbPolicy.appPolicyVos.backendPort"
+    }, {
+      "name" : "portType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "BLB.CreateAppBlbPolicy.appPolicyVos.portType"
+    }, {
+      "name" : "priority",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "BLB.CreateAppBlbPolicy.appPolicyVos.priority"
+    }, {
+      "name" : "ruleList",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "BLB.CreateAppBlbPolicy.appPolicyVos.ruleList",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "BLB.CreateAppBlbPolicy.appPolicyVos.ruleList.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "BLB.CreateAppBlbPolicy.appPolicyVos.ruleList.value"
+      } ]
+    }, {
+      "name" : "desc",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "BLB.CreateAppBlbPolicy.appPolicyVos.desc"
+    } ]
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.CreateAppBlbPolicy.type"
+  } ],
+  "desc_key" : "BLB.CreateAppBlbPolicy.desc"
+}

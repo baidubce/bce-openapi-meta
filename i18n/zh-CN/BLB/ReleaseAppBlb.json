@@ -1,0 +1,6 @@
+{
+  "ReleaseAppBlb" : {
+    "desc" : "releaseAppBlb",
+    "blbId" : "待释放的LoadBalancer的ID"
+  }
+}

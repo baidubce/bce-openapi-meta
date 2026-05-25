@@ -1,0 +1,20 @@
+{
+  "CreateAppBlbHttpListener" : {
+    "desc" : "createAppBlbHttpListener",
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, max 64 characters",
+    "listenerPort" : "Listening port of the listener, integer between 1-65535",
+    "scheduler" : "Load balancing algorithm, supports \"RoundRobin\" (weighted round robin) or \"LeastConnection\" (least connections)",
+    "keepSession" : "Whether to enable session persistence so requests from the same client reach the same backend server, disabled by default",
+    "keepSessionType" : "Cookie handling method for session persistence, valid only when session persistence is enabled, supports \"insert\" or \"rewrite\", default \"insert\"",
+    "keepSessionTimeout" : "Cookie expiration time for session persistence (in seconds), valid only when session persistence is enabled, default 3600s, integer between 1-15552000",
+    "keepSessionCookieName" : "Cookie name to override for session persistence, valid only when session persistence is enabled and keepSessionType=\"rewrite\"",
+    "xForwardedFor" : "Whether to enable retrieval of the real client IP via the X-Forwarded-For HTTP header on backend servers, disabled by default",
+    "xForwardedProto" : "Whether to enable retrieval of the listening protocol via the X-Forwarded-Proto HTTP header on backend servers, disabled by default",
+    "additionalAttributes" : "Custom configuration for HTTP listener",
+    "additionalAttributes.gzipJson" : "Whether to enable gzip JSON compression, string type, value \"on\" or \"off\"",
+    "serverTimeout" : "Maximum backend server timeout (in seconds), default 30s, integer between 1-3600",
+    "redirectPort" : "Forwards requests received by this listener to an HTTPS listener specified by this port",
+    "description" : "Description, max 200 characters"
+  }
+}
