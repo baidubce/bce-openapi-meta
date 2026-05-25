@@ -1,0 +1,32 @@
+{
+  "name" : "OptionalReleaseEip",
+  "method" : "DELETE",
+  "uri" : "/v{version}/eip/{eip}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "eip",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "eip.OptionalReleaseEip.eip"
+  }, {
+    "name" : "releaseToRecycle",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.OptionalReleaseEip.releaseToRecycle"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.OptionalReleaseEip.clientToken"
+  } ],
+  "desc_key" : "eip.OptionalReleaseEip.desc"
+}

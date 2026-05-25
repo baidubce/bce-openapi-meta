@@ -1,0 +1,44 @@
+{
+  "name" : "QueryTheListOfSharedTrafficPackages",
+  "method" : "GET",
+  "uri" : "/v{version}/eiptp",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.QueryTheListOfSharedTrafficPackages.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.QueryTheListOfSharedTrafficPackages.maxKeys"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.QueryTheListOfSharedTrafficPackages.id"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.QueryTheListOfSharedTrafficPackages.status"
+  }, {
+    "name" : "deductPolicy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.QueryTheListOfSharedTrafficPackages.deductPolicy"
+  } ],
+  "desc_key" : "eip.QueryTheListOfSharedTrafficPackages.desc"
+}

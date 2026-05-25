@@ -1,0 +1,8 @@
+{
+  "UpdateEipBpName" : {
+    "desc" : "updateEipBpName",
+    "clientToken" : "Idempotency token",
+    "id" : "Bandwidth package ID",
+    "name" : "Updated name of the bandwidth package"
+  }
+}

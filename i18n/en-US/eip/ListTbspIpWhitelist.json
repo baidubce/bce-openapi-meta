@@ -1,0 +1,10 @@
+{
+  "ListTbspIpWhitelist" : {
+    "desc" : "listTbspIpWhitelist",
+    "id" : "DDoS Enhanced Protection Package ID",
+    "ip" : "Protected object IP address of the DDoS enhanced protection package, supports fuzzy search",
+    "ipCidr" : "IP whitelist CIDR of the DDoS enhanced protection package (IP CIDR format), supports fuzzy search",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, not exceeding 1000. Default value is 1000"
+  }
+}

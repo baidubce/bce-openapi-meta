@@ -1,0 +1,8 @@
+{
+  "ResizeTbsp" : {
+    "desc" : "resizeTbsp",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "id" : "DDoS增强防护包id",
+    "ipCapacity" : "DDoS增强防护包IP容量，需大于升级前的IP容量（5/30/100）"
+  }
+}

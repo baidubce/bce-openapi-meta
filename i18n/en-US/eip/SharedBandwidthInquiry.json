@@ -1,0 +1,12 @@
+{
+  "SharedBandwidthInquiry" : {
+    "desc" : "sharedBandwidthInquiry",
+    "bandwidthInMbps" : "Public network bandwidth in Mbps. Must be an integer between 1 and 200.",
+    "count" : "Number of shared bandwidths. Default is 1.",
+    "ipNum" : "Number of IPs in the shared bandwidth.",
+    "billing" : "Billing information. Supports prepaid and postpaid (bandwidth, 95th percentile) methods.",
+    "billing.paymentTiming" : "Payment timing: Prepaid or Postpaid.",
+    "billing.billingMethod" : "Billing method: ByTraffic, ByBandwidth, ByPeak95 (postpaid shared bandwidth only), or ByNetrafficMax (postpaid shared bandwidth only).",
+    "billing.reservation" : "Reservation info. Not required for postpaid; must be set for prepaid."
+  }
+}

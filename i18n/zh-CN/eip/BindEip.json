@@ -1,0 +1,10 @@
+{
+  "BindEip" : {
+    "desc" : "bindEip",
+    "eip" : "被绑定的EIP，包括IPv4 EIP和IPv6 EIP。",
+    "clientToken" : "幂等性Token，详见[幂等性](EIP/API参考/通用说明.md#幂等性)",
+    "instanceType" : "被绑定的实例类型",
+    "instanceId" : "被绑定的实例ID",
+    "instanceIp" : "实例中需要绑定EIP的IP"
+  }
+}

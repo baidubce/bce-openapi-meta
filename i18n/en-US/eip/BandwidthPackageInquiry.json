@@ -1,0 +1,8 @@
+{
+  "BandwidthPackageInquiry" : {
+    "desc" : "bandwidthPackageInquiry",
+    "bandwidthInMbps" : "Public network bandwidth in Mbps. For EIPs billed by bandwidth, must be an integer between 1 and 200 (representing the bandwidth cap).",
+    "count" : "Number of EIPs, default is 1.",
+    "type" : "Type of bandwidth package: BandwidthPackage (standard bandwidth package) or AccelerationPackage (cross-border acceleration package). AccelerationPackage is only supported in Hong Kong region. Default is BandwidthPackage."
+  }
+}

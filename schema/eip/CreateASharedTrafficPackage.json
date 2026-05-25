@@ -1,0 +1,44 @@
+{
+  "name" : "CreateASharedTrafficPackage",
+  "method" : "POST",
+  "uri" : "/v{version}/eiptp",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.CreateASharedTrafficPackage.clientToken"
+  }, {
+    "name" : "reservationLength",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateASharedTrafficPackage.reservationLength"
+  }, {
+    "name" : "capacity",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateASharedTrafficPackage.capacity"
+  }, {
+    "name" : "deductPolicy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateASharedTrafficPackage.deductPolicy"
+  }, {
+    "name" : "packageType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateASharedTrafficPackage.packageType"
+  } ],
+  "desc_key" : "eip.CreateASharedTrafficPackage.desc"
+}

@@ -1,0 +1,8 @@
+{
+  "UpdateEipBpAutoReleaseTime" : {
+    "desc" : "updateEipBpAutoReleaseTime",
+    "clientToken" : "幂等性Token",
+    "id" : "带宽包id",
+    "autoReleaseTime" : "更新后带宽包的自动释放时间"
+  }
+}

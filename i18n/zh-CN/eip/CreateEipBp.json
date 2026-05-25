@@ -1,0 +1,16 @@
+{
+  "CreateEipBp" : {
+    "desc" : "createEipBp",
+    "clientToken" : "幂等性Token",
+    "name" : "带宽包名称，不填将自动生成",
+    "eip" : "带宽包绑定的弹性公网EIP的Ip地址",
+    "eipGroupId" : "带宽包绑定的共享带宽id",
+    "bandwidthInMbps" : "带宽包的公网带宽",
+    "type" : "带宽包的类型，包括BandwidthPackage（带宽包）和AccelerationPackage（跨境加速包），其中跨境加速包仅支持中国香港区域，默认为BandwidthPackage",
+    "autoReleaseTime" : "带宽包自动释放时间，时间格式要求符合UTC格式（格式形如：”2019-08-03T20:38:43Z”）",
+    "tags" : "待创建的标签键值对列表。",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65",
+    "resourceGroupId" : "创建带宽包的同时绑定的资源分组的ID"
+  }
+}

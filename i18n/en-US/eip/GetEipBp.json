@@ -1,0 +1,7 @@
+{
+  "GetEipBp" : {
+    "desc" : "Get EIP bandwidth package details",
+    "clientToken" : "Idempotency token",
+    "id" : "Bandwidth package ID"
+  }
+}

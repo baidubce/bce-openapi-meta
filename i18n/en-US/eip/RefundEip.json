@@ -1,0 +1,7 @@
+{
+  "RefundEip" : {
+    "desc" : "Unsubscribe EIP",
+    "eip" : "The EIP to unsubscribe, including IPv4 EIP and IPv6 EIP.",
+    "clientToken" : "Idempotency token. See [Idempotency](EIP/API参考/通用说明.md#幂等性)."
+  }
+}

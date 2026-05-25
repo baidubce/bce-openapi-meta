@@ -1,0 +1,26 @@
+{
+  "name" : "CancelEipTransfer",
+  "method" : "PUT",
+  "uri" : "/v{version}/transfer?cancel",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.CancelEipTransfer.clientToken"
+  }, {
+    "name" : "transferIdList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.CancelEipTransfer.transferIdList"
+  } ],
+  "desc_key" : "eip.CancelEipTransfer.desc"
+}

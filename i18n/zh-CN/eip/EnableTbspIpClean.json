@@ -1,0 +1,8 @@
+{
+  "EnableTbspIpClean" : {
+    "desc" : "enableTbspIpClean",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "id" : "DDoS增强防护包ID",
+    "ip" : "DDoS增强防护包防护对象IP地址"
+  }
+}
