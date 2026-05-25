@@ -1,0 +1,17 @@
+{
+  "CreateAppBlbPolicy" : {
+    "desc" : "createAppBlbPolicy",
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token",
+    "listenerPort" : "对应所在BLB下监听器端口号",
+    "appPolicyVos" : "监听器绑定策略列表，当监听器类型为TCP、UDP、SSL时，只能创建一条且只支持全匹配；当监听器类型为http、https监听器支持多个policy",
+    "appPolicyVos.appServerGroupId" : "策略绑定服务器组标识符，当绑定的目标组类型为服务器组时该字段必传",
+    "appPolicyVos.appIpGroupId" : "策略绑定IP组标识符，当绑定的目标组类型为IP组时该字段必传",
+    "appPolicyVos.backendPort" : "目标端口号，当listenerPort对应监听器为TCP或SSL时需要传入对应服务器组（appServerGroupId）下开放的TCP端口号；当listenerPort对应监听器为HTTP或HTTPS时需要传入对应服务器组（appServerGroupId）下开放的HTTP端口号；当listenerPort对应监听器为UDP时需要传入对应服务器组（appServerGroupId）下开放的UDP端口号",
+    "appPolicyVos.portType" : "目标端口类型，当目标组是服务器组时默认为目标端口号所使用的协议",
+    "appPolicyVos.priority" : "策略优先级，有效取值范围是1-32768",
+    "appPolicyVos.ruleList" : "策略规则列表",
+    "appPolicyVos.desc" : "策略描述默认为空",
+    "type" : "当监听器端口下有多个协议时，type必传"
+  }
+}

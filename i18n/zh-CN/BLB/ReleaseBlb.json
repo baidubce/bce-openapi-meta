@@ -1,0 +1,7 @@
+{
+  "ReleaseBlb" : {
+    "desc" : "releaseBlb",
+    "blbId" : "待释放的LoadBalancer的ID",
+    "clientToken" : "幂等性Token，长度不超过64位"
+  }
+}

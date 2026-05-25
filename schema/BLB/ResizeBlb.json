@@ -1,0 +1,32 @@
+{
+  "name" : "ResizeBlb",
+  "method" : "POST",
+  "uri" : "/v{version}/blb/{blbId}?action=RESIZE",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "BLB.ResizeBlb.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "BLB.ResizeBlb.clientToken"
+  }, {
+    "name" : "performanceLevel",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.ResizeBlb.performanceLevel"
+  } ],
+  "desc_key" : "BLB.ResizeBlb.desc"
+}

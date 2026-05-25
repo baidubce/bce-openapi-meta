@@ -1,0 +1,50 @@
+{
+  "name" : "UpdateAppBlbUdpListener",
+  "method" : "PUT",
+  "uri" : "/v{version}/appblb/{blbId}/UDPlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "BLB.UpdateAppBlbUdpListener.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "BLB.UpdateAppBlbUdpListener.clientToken"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "BLB.UpdateAppBlbUdpListener.listenerPort"
+  }, {
+    "name" : "scheduler",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbUdpListener.scheduler"
+  }, {
+    "name" : "udpSessionTimeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbUdpListener.udpSessionTimeout"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbUdpListener.description"
+  } ],
+  "desc_key" : "BLB.UpdateAppBlbUdpListener.desc"
+}

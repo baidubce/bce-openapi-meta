@@ -1,0 +1,27 @@
+{
+  "CreateAppBlb" : {
+    "desc" : "LoadBalancer实例的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文。默认为空",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "name" : "LoadBalancer的名称，方便记忆。长度1~65个字节，字母开头，可包含字母数字-\\_/.字符。若不传该参数，会自动生成",
+    "type" : "LoaBalancer的类型，此处取值\"application\"(默认)",
+    "subnetId" : "LoadBalancer实例所属子网",
+    "vpcId" : "LoadBalancer实例vip所属VPC的vpcShortId",
+    "address" : "指定负载均衡实例的私网IP地址，该地址必须包含在子网网段下。",
+    "eip" : "绑定已有的eip。取值为eip的IP地址",
+    "tags" : "待创建的标签键值对列表",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-\\_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-\\_ /.特殊字符，长度0-65",
+    "billing" : "订单相关信息，购买预付费blb的时候必填",
+    "billing.paymentTiming" : "付款时间，预支付（Prepaid）和后支付（Postpaid），目前只支持预支付",
+    "billing.billingMethod" : "计费方式，后付费的时候传，\"BySpec\"按固定规格、\"ByCapacityUnit\"按使用量",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置",
+    "performanceLevel" : "性能规格参数，默认为共享型。取值如下：\"small1\"标准型1，\"small2\"标准型2，\"medium1\"增强型1，\"medium2\"增强型1，\"large1\"超大型1，\"large2\"超大型2，\"large3\"超大型3，如果是后付费按使用量计费的时候还可以传\"unlimited\"不限速",
+    "autoRenewLength" : "支持创建预付费BLB同时开通自动续费，根据autoRenewTimeUnit的取值有不同的范围，month 为1到9，year 为1到3",
+    "autoRenewTimeUnit" : "支持创建BLB同时开通自动续费，取值为 month 获 year （默认 month）",
+    "resourceGroupId" : "支持创建BLB同时绑定资源分组id",
+    "allowDelete" : "是否允许删除。缺省值为true，代表允许删除",
+    "allowModify" : "默认fasle,表示关闭修改保护，允许通过控制台对实例进行变更。true 表示开启修改保护，禁止通过控制台对实例进行变更（注意:OpenAPI调用不受限制）",
+    "modificationProtectionReason" : "不允许修改的原因,最多支持128个字符",
+    "allocateIpv6" : "是否分配ipv6地址。true代表分配ipv6地址，false代表不分配ipv6地址"
+  }
+}

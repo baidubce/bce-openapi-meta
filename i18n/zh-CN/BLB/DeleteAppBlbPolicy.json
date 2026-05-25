@@ -1,0 +1,10 @@
+{
+  "DeleteAppBlbPolicy" : {
+    "desc" : "deleteAppBlbPolicy",
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token",
+    "port" : "要删除策略前端端口",
+    "policyIdList" : "所有待释放的策略标识符，一起组成一个数组",
+    "type" : "当监听器端口下有多个协议时，type必传"
+  }
+}

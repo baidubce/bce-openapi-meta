@@ -1,0 +1,9 @@
+{
+  "DescribeAppBlbSslListener" : {
+    "desc" : "describeAppBlbSslListener",
+    "blbId" : "The identifier of the associated LoadBalancer",
+    "listenerPort" : "The port of the listener to query",
+    "marker" : "The starting position for batch list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, not exceeding 1000. Default value is 1000"
+  }
+}

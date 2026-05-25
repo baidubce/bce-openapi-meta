@@ -1,0 +1,9 @@
+{
+  "UpdateBlb" : {
+    "desc" : "Description of the LoadBalancer instance for additional details. Length 0–450 bytes, supports Chinese characters. Defaults to empty.",
+    "blbId" : "ID of the LoadBalancer to be updated.",
+    "name" : "Name of the LoadBalancer for easy identification. Length 1–65 bytes, must start with a letter, may contain letters, digits, and -\\_/. characters. Auto-generated if not provided.",
+    "allowDelete" : "Whether deletion is allowed. Defaults to true, meaning deletion is permitted.",
+    "allocateIpv6" : "Whether to allocate an IPv6 address. true means allocate, false means do not allocate."
+  }
+}

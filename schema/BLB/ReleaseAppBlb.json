@@ -1,0 +1,20 @@
+{
+  "name" : "ReleaseAppBlb",
+  "method" : "DELETE",
+  "uri" : "/v{version}/appblb/{blbId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "BLB.ReleaseAppBlb.blbId"
+  } ],
+  "desc_key" : "BLB.ReleaseAppBlb.desc"
+}

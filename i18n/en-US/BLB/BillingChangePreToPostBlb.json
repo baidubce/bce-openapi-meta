@@ -1,0 +1,10 @@
+{
+  "BillingChangePreToPostBlb" : {
+    "desc" : "billingChangePreToPostBlb",
+    "blbId" : "The identifier of the LoadBalancer",
+    "clientToken" : "Idempotent token, no more than 64 characters in length",
+    "billingMethod" : "Billing method. \"BySpec\" indicates billing by fixed specification (default), \"ByCapacityUnit\" indicates billing by actual usage.",
+    "performanceLevel" : "Performance specification parameter, defaults to the current instance's performance level. Valid values: \"small1\" Standard 1, \"small2\" Standard 2, \"medium1\" Enhanced 1, \"medium2\" Enhanced 2, \"large1\" Ultra-large 1, \"large2\" Ultra-large 2, \"large3\" Ultra-large 3. Only postpaid-by-usage supports \"unlimited\" for no bandwidth limit.",
+    "effectiveImmediately" : "Whether to take effect immediately, defaults to false."
+  }
+}

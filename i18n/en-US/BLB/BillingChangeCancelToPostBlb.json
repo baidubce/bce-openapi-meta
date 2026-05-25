@@ -1,0 +1,7 @@
+{
+  "BillingChangeCancelToPostBlb" : {
+    "desc" : "billingChangeCancelToPostBlb",
+    "blbId" : "Identifier of the LoadBalancer",
+    "clientToken" : "Idempotency token, no more than 64 characters in length"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "UpdateAppBlbPolicy" : {
+    "desc" : "updateAppBlbPolicy",
+    "blbId" : "所操作BLB的ID",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "port" : "监听端口",
+    "type" : "监听的端口所使用的协议",
+    "policyList" : "要修改的监听策略列表",
+    "policyList.policyId" : "转发策略id。",
+    "policyList.priority" : "优先级，取值范围1-32768，且不能与已有条目重复。数值越小，优先级越高，规则匹配顺序为按优先级由高到低匹配。priority和description不能同时为空。",
+    "policyList.description" : "描述信息。最大200字符。priority和description不能同时为空。"
+  }
+}

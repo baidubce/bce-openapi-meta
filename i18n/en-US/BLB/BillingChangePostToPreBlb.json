@@ -1,0 +1,10 @@
+{
+  "BillingChangePostToPreBlb" : {
+    "desc" : "billingChangePostToPreBlb",
+    "blbId" : "Identifier of the LoadBalancer",
+    "clientToken" : "Idempotency token, max length 64 characters",
+    "billingMethod" : "Billing method. Only default value \"BySpec\" is currently supported.",
+    "performanceLevel" : "Performance specification. Leave empty to skip configuration change. Values: \"small1\" Standard 1, \"small2\" Standard 2, \"medium1\" Enhanced 1, \"medium2\" Enhanced 2, \"large1\" Ultra-large 1, \"large2\" Ultra-large 2, \"large3\" Ultra-large 3. Note: prepaid does not support \"unlimited\" (no speed limit).",
+    "reservationLength" : "Purchase duration in months, [1,2,3,4,5,6,7,8,9,12,24,36]"
+  }
+}

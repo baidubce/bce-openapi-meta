@@ -1,0 +1,8 @@
+{
+  "UpdateBlbAcl" : {
+    "desc" : "Update the ACL configuration of a BLB instance",
+    "blbId" : "The ID of the LoadBalancer to be updated",
+    "clientToken" : "Idempotency token, no more than 64 characters",
+    "supportAcl" : "Whether ACL is supported; default value is true, indicating ACL is supported"
+  }
+}

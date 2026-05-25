@@ -1,0 +1,162 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "apis" : {
+    "DescribeAppBlbPolicy" : {
+      "title" : "DescribeAppBlbPolicy",
+      "summary" : "describeAppBlbPolicy"
+    },
+    "UpdateBlbModifyProtection" : {
+      "title" : "UpdateBlbModifyProtection",
+      "summary" : "updateBlbModifyProtection"
+    },
+    "CreateAppBlb" : {
+      "title" : "CreateAppBlb",
+      "summary" : "Description of the LoadBalancer instance, allowing users to add more detailed information. Length 0~450 bytes, supports Chinese characters. Defaults to empty."
+    },
+    "UpdateAppBlb" : {
+      "title" : "UpdateAppBlb",
+      "summary" : "Description of the LoadBalancer instance, allowing users to add more detailed information. Length 0~450 bytes, supports Chinese characters. Defaults to empty."
+    },
+    "CreateAppBlbSslListener" : {
+      "title" : "CreateAppBlbSslListener",
+      "summary" : "createAppBlbSslListener"
+    },
+    "CreateAppBlbTcpListener" : {
+      "title" : "CreateAppBlbTcpListener",
+      "summary" : "createAppBlbTcpListener"
+    },
+    "CreateAppBlbHttpsListener" : {
+      "title" : "CreateAppBlbHttpsListener",
+      "summary" : "createAppBlbHttpsListener"
+    },
+    "CreateAppBlbHttpListener" : {
+      "title" : "CreateAppBlbHttpListener",
+      "summary" : "createAppBlbHttpListener"
+    },
+    "DescribeAppBlb" : {
+      "title" : "DescribeAppBlb",
+      "summary" : "describeAppBlb"
+    },
+    "CreateAppBlbUdpListener" : {
+      "title" : "CreateAppBlbUdpListener",
+      "summary" : "createAppBlbUdpListener"
+    },
+    "DescribeAppBlbSslListener" : {
+      "title" : "DescribeAppBlbSslListener",
+      "summary" : "describeAppBlbSslListener"
+    },
+    "UpdateAppBlbHttpsListener" : {
+      "title" : "UpdateAppBlbHttpsListener",
+      "summary" : "updateAppBlbHttpsListener"
+    },
+    "DescribeAppBlbTcpListener" : {
+      "title" : "DescribeAppBlbTcpListener",
+      "summary" : "describeAppBlbTcpListener"
+    },
+    "UpdateAppBlbSslListener" : {
+      "title" : "UpdateAppBlbSslListener",
+      "summary" : "updateAppBlbSslListener"
+    },
+    "UpdateAppBlbTcpListener" : {
+      "title" : "UpdateAppBlbTcpListener",
+      "summary" : "updateAppBlbTcpListener"
+    },
+    "UpdateAppBlbHttpListener" : {
+      "title" : "UpdateAppBlbHttpListener",
+      "summary" : "updateAppBlbHttpListener"
+    },
+    "CreateBlb" : {
+      "title" : "CreateBlb",
+      "summary" : "Description of the LoadBalancer instance, allowing users to add more detailed information. Length 0~450 bytes, supports Chinese characters. Defaults to empty."
+    },
+    "DescribeBlbs" : {
+      "title" : "DescribeBlbs",
+      "summary" : "describeBlbs"
+    },
+    "CreateAppBlbPolicy" : {
+      "title" : "CreateAppBlbPolicy",
+      "summary" : "createAppBlbPolicy"
+    },
+    "UpdateAppBlbUdpListener" : {
+      "title" : "UpdateAppBlbUdpListener",
+      "summary" : "updateAppBlbUdpListener"
+    },
+    "UpdateBlb" : {
+      "title" : "UpdateBlb",
+      "summary" : "Description of the LoadBalancer instance, allowing users to add more detailed information. Length 0~450 bytes, supports Chinese characters. Defaults to empty."
+    },
+    "DescribeBlb" : {
+      "title" : "DescribeBlb",
+      "summary" : "describeBlb"
+    },
+    "UpdateBlbAcl" : {
+      "title" : "UpdateBlbAcl",
+      "summary" : "updateBlbAcl"
+    },
+    "DescribeAppBlbHttpsListener" : {
+      "title" : "DescribeAppBlbHttpsListener",
+      "summary" : "describeAppBlbHttpsListener"
+    },
+    "DescribeAppBlbListener" : {
+      "title" : "DescribeAppBlbListener",
+      "summary" : "describeAppBlbListener"
+    },
+    "DescribeAppBlbUdpListener" : {
+      "title" : "DescribeAppBlbUdpListener",
+      "summary" : "describeAppBlbUdpListener"
+    },
+    "ReleaseBlb" : {
+      "title" : "ReleaseBlb",
+      "summary" : "releaseBlb"
+    },
+    "DeleteAppBlbListener" : {
+      "title" : "DeleteAppBlbListener",
+      "summary" : "deleteAppBlbListener"
+    },
+    "DescribeAppBlbs" : {
+      "title" : "DescribeAppBlbs",
+      "summary" : "describeAppBlbs"
+    },
+    "DeleteAppBlbPolicy" : {
+      "title" : "DeleteAppBlbPolicy",
+      "summary" : "deleteAppBlbPolicy"
+    },
+    "UpdateAppBlbPolicy" : {
+      "title" : "UpdateAppBlbPolicy",
+      "summary" : "updateAppBlbPolicy"
+    },
+    "DescribeAppBlbHttpListener" : {
+      "title" : "DescribeAppBlbHttpListener",
+      "summary" : "describeAppBlbHttpListener"
+    },
+    "ReleaseAppBlb" : {
+      "title" : "ReleaseAppBlb",
+      "summary" : "releaseAppBlb"
+    },
+    "BlbInquiry" : {
+      "title" : "BlbInquiry",
+      "summary" : "blbInquiry"
+    },
+    "BillingChangePostToPreBlb" : {
+      "title" : "BillingChangePostToPreBlb",
+      "summary" : "billingChangePostToPreBlb"
+    },
+    "BillingChangePreToPostBlb" : {
+      "title" : "BillingChangePreToPostBlb",
+      "summary" : "billingChangePreToPostBlb"
+    },
+    "BillingChangeCancelToPostBlb" : {
+      "title" : "BillingChangeCancelToPostBlb",
+      "summary" : "billingChangeCancelToPostBlb"
+    },
+    "ResizeBlb" : {
+      "title" : "ResizeBlb",
+      "summary" : "resizeBlb"
+    },
+    "RefundBlb" : {
+      "title" : "RefundBlb",
+      "summary" : "refundBlb"
+    }
+  }
+}

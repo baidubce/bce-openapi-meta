@@ -1,0 +1,9 @@
+{
+  "DescribeAppBlbUdpListener" : {
+    "desc" : "describeAppBlbUdpListener",
+    "blbId" : "The identifier of the associated LoadBalancer",
+    "listenerPort" : "The port of the listener to query",
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000. Default is 1000"
+  }
+}

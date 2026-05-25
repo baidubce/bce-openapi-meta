@@ -1,0 +1,139 @@
+{
+  "name" : "UpdateAppBlbHttpsListener",
+  "method" : "PUT",
+  "uri" : "/v{version}/appblb/{blbId}/HTTPSlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.clientToken"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.listenerPort"
+  }, {
+    "name" : "scheduler",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.scheduler"
+  }, {
+    "name" : "keepSession",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.keepSession"
+  }, {
+    "name" : "keepSessionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.keepSessionType"
+  }, {
+    "name" : "keepSessionTimeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.keepSessionTimeout"
+  }, {
+    "name" : "keepSessionCookieName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.keepSessionCookieName"
+  }, {
+    "name" : "xForwardedFor",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.xForwardedFor"
+  }, {
+    "name" : "xForwardedProto",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.xForwardedProto"
+  }, {
+    "name" : "serverTimeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.serverTimeout"
+  }, {
+    "name" : "certIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.certIds"
+  }, {
+    "name" : "encryptionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.encryptionType"
+  }, {
+    "name" : "encryptionProtocols",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.encryptionProtocols"
+  }, {
+    "name" : "appliedCiphers",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.appliedCiphers"
+  }, {
+    "name" : "dualAuth",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.dualAuth"
+  }, {
+    "name" : "clientCertIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.clientCertIds"
+  }, {
+    "name" : "additionalCertDomains",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.additionalCertDomains",
+    "sub_parameters" : [ {
+      "name" : "certId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "BLB.UpdateAppBlbHttpsListener.additionalCertDomains.certId"
+    }, {
+      "name" : "Host",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "BLB.UpdateAppBlbHttpsListener.additionalCertDomains.Host"
+    } ]
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "BLB.UpdateAppBlbHttpsListener.description"
+  } ],
+  "desc_key" : "BLB.UpdateAppBlbHttpsListener.desc"
+}

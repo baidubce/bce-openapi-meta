@@ -1,0 +1,11 @@
+{
+  "CreateAppBlbUdpListener" : {
+    "desc" : "createAppBlbUdpListener",
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, no more than 64 characters",
+    "listenerPort" : "Listening port of the listener, must be an integer between 1 and 65535",
+    "scheduler" : "Load balancing algorithm, supports 3 options: \"RoundRobin\" / \"WeightLeastConn\" / \"Hash\"; \"RoundRobin\" for weighted round-robin, \"WeightLeastConn\" for weighted least connections, \"Hash\" for source IP hash",
+    "udpSessionTimeout" : "UDP session timeout in seconds, default is 90, must be an integer between 5 and 4000",
+    "description" : "Description, no more than 200 characters"
+  }
+}

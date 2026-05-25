@@ -1,0 +1,8 @@
+{
+  "ResizeBlb" : {
+    "desc" : "Resize a BLB instance",
+    "blbId" : "The identifier of the Load Balancer",
+    "clientToken" : "Idempotency token, no more than 64 characters",
+    "performanceLevel" : "Performance specification. Valid values: \"small1\" Standard 1, \"small2\" Standard 2, \"medium1\" Enhanced 1, \"medium2\" Enhanced 2, \"large1\" Ultra-large 1, \"large2\" Ultra-large 2, \"large3\" Ultra-large 3. Only pay-as-you-go instances support resizing to \"unlimited\" (no bandwidth limit)."
+  }
+}
