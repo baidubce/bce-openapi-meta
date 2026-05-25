@@ -1,0 +1,50 @@
+{
+  "name" : "CreateAppBlbTcpListener",
+  "method" : "POST",
+  "uri" : "/v{version}/appblb/{blbId}/TCPlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.CreateAppBlbTcpListener.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.CreateAppBlbTcpListener.clientToken"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbTcpListener.listenerPort"
+  }, {
+    "name" : "scheduler",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbTcpListener.scheduler"
+  }, {
+    "name" : "tcpSessionTimeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbTcpListener.tcpSessionTimeout"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbTcpListener.description"
+  } ],
+  "desc_key" : "blb.CreateAppBlbTcpListener.desc"
+}

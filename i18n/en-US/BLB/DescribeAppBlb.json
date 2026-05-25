@@ -1,6 +1,0 @@
-{
-  "DescribeAppBlb" : {
-    "desc" : "Describe App BLB",
-    "blbId" : "The identifier of the LoadBalancer to query (the complete blbId must be provided)"
-  }
-}

@@ -1,0 +1,26 @@
+{
+  "UpdateAppBlbHttpsListener" : {
+    "desc" : "updateAppBlbHttpsListener",
+    "blbId" : "The identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, no more than 64 characters",
+    "listenerPort" : "The listener port to update, must be an integer between 1 and 65535",
+    "scheduler" : "Load balancing algorithm, supports two options: \"RoundRobin\" (weighted round robin) / \"LeastConnection\" (least connections)",
+    "keepSession" : "Whether to enable session persistence, which routes requests from the same client to the same backend server. Setting this to false when session persistence is enabled will disable it and clear keepSessionType, keepSessionTimeout, and keepSessionCookieName",
+    "keepSessionType" : "Cookie handling method for session persistence, valid only when session persistence is enabled. Supports \"insert\" / \"rewrite\". Defaults to \"insert\" when session persistence is first enabled",
+    "keepSessionTimeout" : "Cookie expiration time for session persistence (in seconds), valid only when session persistence is enabled. Must be an integer between 1 and 15552000. Defaults to 3600 when session persistence is first enabled and keepSessionType is \"insert\"",
+    "keepSessionCookieName" : "The cookie name to override for session persistence, valid only when session persistence is enabled and keepSessionType is \"rewrite\"",
+    "xForwardedFor" : "Whether to enable retrieval of the client's real IP. When enabled, backend servers can obtain the client's real address via the X-Forwarded-For HTTP header. Disabled by default",
+    "xForwardedProto" : "Whether to enable retrieval of the listener protocol. When enabled, backend servers can obtain the listener protocol via the X-Forwarded-Proto HTTP header. Disabled by default",
+    "serverTimeout" : "Maximum backend server timeout (in seconds). Default is 30s, must be an integer between 1 and 3600",
+    "certIds" : "Certificate chain to load for the listener. Currently only one certificate ID is allowed; if multiple are provided, only the last one takes effect",
+    "encryptionType" : "Encryption option. Supports: tls_cipher_policy_default / tls_cipher_policy_1_1 / tls_cipher_policy_1_2 / tls_cipher_policy_1_2_secure / userDefind. For corresponding encryption protocols and cipher suites, see: [encryption](blb/API Reference/Appendix.md#encryption)",
+    "encryptionProtocols" : "List of protocol types when encryptionType is \"userDefind\", consisting of a combination of \"tlsv10\", \"tlsv11\", and \"tlsv12\"",
+    "appliedCiphers" : "Cipher suites, see: [encryption](blb/API Reference/Appendix.md#encryption). Multiple cipher suites are separated by a colon \":\"",
+    "dualAuth" : "Whether to enable mutual TLS authentication. Disabled by default",
+    "clientCertIds" : "Client certificate chain to load when dualAuth is true. Currently only one certificate ID is allowed; if multiple are provided, only the last one takes effect",
+    "additionalCertDomains" : "Additional certificate domains",
+    "additionalCertDomains.certId" : "Certificate ID",
+    "additionalCertDomains.Host" : "Certificate domain. Wildcard domains and their subdomains are also supported if the certificate product type is a wildcard domain",
+    "description" : "Description, no more than 200 characters"
+  }
+}

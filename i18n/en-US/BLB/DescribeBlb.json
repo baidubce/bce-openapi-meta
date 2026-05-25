@@ -1,7 +1,0 @@
-{
-  "DescribeBlb" : {
-    "desc" : "describeBlb",
-    "blbId" : "The identifier of the LoadBalancer to query",
-    "type" : "Specifies the type of load balancer instance to query. Defaults to standard type if not provided; pass \"ipv6\" to query IPv6 type BLB."
-  }
-}

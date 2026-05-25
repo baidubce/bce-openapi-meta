@@ -1,0 +1,16 @@
+{
+  "UpdateAppBlbSslListener" : {
+    "desc" : "updateAppBlbSslListener",
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "listenerPort" : "要更新的监听器端口，需为1-65535间的整数",
+    "scheduler" : "负载均衡算法，支持3种方式：\"RoundRobin\"/\"LeastConnection\"/\"Hash\"，\"RoundRobin\"代表加权轮询、\"LeastConnection\"代表最小连接数、\"Hash\"代表根据源ip哈希",
+    "certIds" : "监听器要加载的证书链,当前仅允许传入1个证书ID，如果传入多个，则只有最后一个生效",
+    "encryptionType" : "加密选项。支持：tls_cipher_policy_default/tls_cipher_policy_1_1/tls_cipher_policy_1_2/tls_cipher_policy_1_2_secure/userDefind，对应的加密协议和加密套件参见：[encryption](blb/API参考/附录.md#encryption)",
+    "encryptionProtocols" : "当encryptionType值为userDefind时协议类型列表，是以\"tlsv10\"、\"tlsv11\"、\"tlsv12\"三种协议组合形成的字符串列表",
+    "appliedCiphers" : "加密套件参见：[encryption](blb/API参考/附录.md#encryption)，不同加密套件用冒号\":\"隔开",
+    "dualAuth" : "是否开启双向认证，默认为关闭",
+    "clientCertIds" : "当dualAuth为true时，加载的客户端证书链,当前仅允许传入1个证书ID，如果传入多个，则只有最后一个生效",
+    "description" : "描述信息，长度不超过200个字符。"
+  }
+}

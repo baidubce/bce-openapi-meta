@@ -1,0 +1,155 @@
+{
+  "name" : "CreateAppBlb",
+  "method" : "POST",
+  "uri" : "/v{version}/appblb",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.CreateAppBlb.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.name"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.type"
+  }, {
+    "name" : "desc",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.desc"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.subnetId"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.vpcId"
+  }, {
+    "name" : "address",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.address"
+  }, {
+    "name" : "eip",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.eip"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateAppBlb.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateAppBlb.tags.tagValue"
+    } ]
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateAppBlb.billing.paymentTiming"
+    }, {
+      "name" : "billingMethod",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateAppBlb.billing.billingMethod"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "blb.CreateAppBlb.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "blb.CreateAppBlb.billing.reservation.reservationLength"
+      } ]
+    } ]
+  }, {
+    "name" : "performanceLevel",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.performanceLevel"
+  }, {
+    "name" : "autoRenewLength",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.autoRenewLength"
+  }, {
+    "name" : "autoRenewTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.autoRenewTimeUnit"
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.resourceGroupId"
+  }, {
+    "name" : "allowDelete",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.allowDelete"
+  }, {
+    "name" : "allowModify",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.allowModify"
+  }, {
+    "name" : "modificationProtectionReason",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.modificationProtectionReason"
+  }, {
+    "name" : "allocateIpv6",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlb.allocateIpv6"
+  } ],
+  "desc_key" : "blb.CreateAppBlb.desc"
+}

@@ -1,0 +1,60 @@
+{
+  "name" : "UpdateAppBlbPolicy",
+  "method" : "PUT",
+  "uri" : "/v{version}/appblb/{blbId}/policys?batchupdate",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.UpdateAppBlbPolicy.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateAppBlbPolicy.clientToken"
+  }, {
+    "name" : "port",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbPolicy.port"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbPolicy.type"
+  }, {
+    "name" : "policyList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbPolicy.policyList",
+    "sub_parameters" : [ {
+      "name" : "policyId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.UpdateAppBlbPolicy.policyList.policyId"
+    }, {
+      "name" : "priority",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "blb.UpdateAppBlbPolicy.policyList.priority"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.UpdateAppBlbPolicy.policyList.description"
+    } ]
+  } ],
+  "desc_key" : "blb.UpdateAppBlbPolicy.desc"
+}

@@ -32,7 +32,7 @@
       "yq" : "eip.yq.baidubce.com"
     }
   }, {
-    "code" : "BLB",
+    "code" : "blb",
     "protocol" : "HTTP",
     "endpoint" : {
       "bd" : "blb.bd.baidubce.com",

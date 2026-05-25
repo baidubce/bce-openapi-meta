@@ -1,0 +1,38 @@
+{
+  "name" : "DescribeAppBlbUdpListener",
+  "method" : "GET",
+  "uri" : "/v{version}/appblb/{blbId}/UDPlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DescribeAppBlbUdpListener.blbId"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbUdpListener.listenerPort"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbUdpListener.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbUdpListener.maxKeys"
+  } ],
+  "desc_key" : "blb.DescribeAppBlbUdpListener.desc"
+}

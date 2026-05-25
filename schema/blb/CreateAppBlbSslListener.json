@@ -1,0 +1,80 @@
+{
+  "name" : "CreateAppBlbSslListener",
+  "method" : "POST",
+  "uri" : "/v{version}/appblb/{blbId}/SSLlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.CreateAppBlbSslListener.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.CreateAppBlbSslListener.clientToken"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbSslListener.listenerPort"
+  }, {
+    "name" : "scheduler",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbSslListener.scheduler"
+  }, {
+    "name" : "certIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbSslListener.certIds"
+  }, {
+    "name" : "encryptionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbSslListener.encryptionType"
+  }, {
+    "name" : "encryptionProtocols",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbSslListener.encryptionProtocols"
+  }, {
+    "name" : "appliedCiphers",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbSslListener.appliedCiphers"
+  }, {
+    "name" : "dualAuth",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbSslListener.dualAuth"
+  }, {
+    "name" : "clientCertIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbSslListener.clientCertIds"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbSslListener.description"
+  } ],
+  "desc_key" : "blb.CreateAppBlbSslListener.desc"
+}

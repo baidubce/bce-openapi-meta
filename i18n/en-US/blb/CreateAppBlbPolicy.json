@@ -1,0 +1,17 @@
+{
+  "CreateAppBlbPolicy" : {
+    "desc" : "createAppBlbPolicy",
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token",
+    "listenerPort" : "Listener port number under the corresponding blb",
+    "appPolicyVos" : "List of policies bound to the listener. Only one policy with full match is supported when the listener type is TCP, UDP, or SSL; multiple policies are supported when the listener type is HTTP or HTTPS",
+    "appPolicyVos.appServerGroupId" : "Identifier of the server group bound to the policy; required when the target group type is server group",
+    "appPolicyVos.appIpGroupId" : "Identifier of the IP group bound to the policy; required when the target group type is IP group",
+    "appPolicyVos.backendPort" : "Target port number. When the listener corresponding to listenerPort is TCP or SSL, specify the TCP port exposed by the server group (appServerGroupId); when HTTP or HTTPS, specify the HTTP port; when UDP, specify the UDP port",
+    "appPolicyVos.portType" : "Target port type; defaults to the protocol used by the target port when the target group is a server group",
+    "appPolicyVos.priority" : "Policy priority; valid range is 1-32768",
+    "appPolicyVos.ruleList" : "List of policy rules",
+    "appPolicyVos.desc" : "Policy description; defaults to empty",
+    "type" : "Required when multiple protocols exist under the listener port"
+  }
+}
