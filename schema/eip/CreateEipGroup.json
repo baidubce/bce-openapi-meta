@@ -59,7 +59,18 @@
       "name" : "reservation",
       "type" : "Object",
       "required" : false,
-      "desc_key" : "eip.CreateEipGroup.billing.reservation"
+      "desc_key" : "eip.CreateEipGroup.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "eip.CreateEipGroup.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "eip.CreateEipGroup.billing.reservation.reservationTimeUnit"
+      } ]
     } ]
   }, {
     "name" : "name",
