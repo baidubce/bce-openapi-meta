@@ -1,0 +1,11 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "云防火墙",
+  "apis" : {
+    "QueryCfwList" : {
+      "title" : "查询CFW策略列表",
+      "summary" : "查询CFW策略列表"
+    }
+  }
+}
