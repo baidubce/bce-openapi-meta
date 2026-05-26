@@ -63,13 +63,13 @@
       "yq" : "bcc.yq.baidubce.com"
     }
   }, {
-    "code" : "PrivateZone",
+    "code" : "privatezone",
     "protocol" : "HTTP",
     "endpoint" : {
       "global" : "privatezone.baidubce.com"
     }
   }, {
-    "code" : "DNS",
+    "code" : "dns",
     "protocol" : "HTTP",
     "endpoint" : {
       "global" : "dns.baidubce.com"
