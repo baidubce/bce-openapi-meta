@@ -1,14 +1,5 @@
 {
   "products" : [ {
-    "code" : "bcc",
-    "protocol" : "HTTP|HTTPS",
-    "endpoint" : {
-      "bj" : "bcc.bj.baidubce.com",
-      "gz" : "bcc.gz.baidubce.com",
-      "su" : "bcc.su.baidubce.com",
-      "bd" : "bcc.bd.baidubce.com"
-    }
-  }, {
     "code" : "eip",
     "protocol" : "HTTP",
     "endpoint" : {
@@ -75,7 +66,7 @@
       "global" : "dns.baidubce.com"
     }
   }, {
-    "code" : "CFW",
+    "code" : "cfw",
     "protocol" : "HTTP",
     "endpoint" : {
       "global" : "cfw.baidubce.com"
