@@ -1,14 +1,13 @@
 {
   "CreateAppBlbSslListener" : {
-    "desc" : "createAppBlbSslListener",
     "blbId" : "Identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token, max length 64 characters",
     "listenerPort" : "Listening port of the listener, must be an integer between 1 and 65535",
     "scheduler" : "Load balancing algorithm, supports three modes: \"RoundRobin\" (weighted round robin) / \"LeastConnection\" (least connections) / \"Hash\" (source IP hash)",
     "certIds" : "Certificate chain to load for the listener; only 1 certificate ID is allowed; if multiple are provided, only the last one takes effect",
-    "encryptionType" : "Encryption policy, default is tls_cipher_policy_default. Supported values: tls_cipher_policy_default / tls_cipher_policy_1_1 / tls_cipher_policy_1_2 / tls_cipher_policy_1_2_secure / userDefind. For corresponding protocols and cipher suites, see: [encryption](blb/API参考/附录.md#encryption)",
+    "encryptionType" : "Encryption option, default is tls_cipher_policy_default. Supported values: tls_cipher_policy_default/tls_cipher_policy_1_1/tls_cipher_policy_1_2/tls_cipher_policy_1_2_secure/userDefind. For corresponding encryption protocols and cipher suites, see: [encryption](BLB/API参考/附录.md#encryption)",
     "encryptionProtocols" : "When encryptionType is userDefind, a list of protocol types composed of combinations of \"tlsv10\", \"tlsv11\", and \"tlsv12\"",
-    "appliedCiphers" : "Cipher suites, see: [encryption](blb/API参考/附录.md#encryption); multiple cipher suites are separated by colon \":\"",
+    "appliedCiphers" : "Cipher suites to apply, see: [encryption](BLB/API参考/附录.md#encryption). Multiple cipher suites are separated by a colon \":\"",
     "dualAuth" : "Whether to enable mutual authentication; disabled by default",
     "clientCertIds" : "When dualAuth is true, the client certificate chain to load; only 1 certificate ID is allowed; if multiple are provided, only the last one takes effect",
     "description" : "Description, max length 200 characters"

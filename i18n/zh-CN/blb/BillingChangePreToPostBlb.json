@@ -1,6 +1,5 @@
 {
   "BillingChangePreToPostBlb" : {
-    "desc" : "billingChangePreToPostBlb",
     "blbId" : "LoadBalancer的标识符",
     "clientToken" : "幂等性Token，长度不超过64位",
     "billingMethod" : "计费方式。\"BySpec\"表示按固定规格计费(默认值)，\"ByCapacityUnit\"表示按使用量计费。",

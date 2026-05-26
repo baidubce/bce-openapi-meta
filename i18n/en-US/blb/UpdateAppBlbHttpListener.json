@@ -1,6 +1,5 @@
 {
   "UpdateAppBlbHttpListener" : {
-    "desc" : "updateAppBlbHttpListener",
     "blbId" : "Identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token, max 64 characters",
     "listenerPort" : "Port of the listener to update, integer between 1-65535",

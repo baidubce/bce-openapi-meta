@@ -1,6 +1,5 @@
 {
   "UpdateAppBlbUdpListener" : {
-    "desc" : "updateAppBlbUdpListener",
     "blbId" : "The identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token, no more than 64 characters",
     "listenerPort" : "The port number of the listener",

@@ -1,9 +1,9 @@
 {
   "CreateAppBlb" : {
-    "desc" : "Description of the LoadBalancer instance for additional details. Length 0–450 bytes, supports Chinese characters. Defaults to empty.",
     "clientToken" : "Idempotency token, no more than 64 characters.",
     "name" : "Name of the LoadBalancer for easy identification. Length 1–65 bytes, must start with a letter, may contain letters, digits, and -\\_/. characters. Auto-generated if not provided.",
     "type" : "Type of the LoadBalancer. Set to \"application\" (default).",
+    "desc" : "Description of the LoadBalancer instance for additional details. Length 0–450 bytes, supports Chinese characters. Defaults to empty.",
     "subnetId" : "Subnet to which the LoadBalancer instance belongs.",
     "vpcId" : "vpcShortId of the VPC to which the LoadBalancer instance VIP belongs.",
     "address" : "Private IP address assigned to the load balancer instance. Must fall within the subnet CIDR range.",

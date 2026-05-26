@@ -1,6 +1,5 @@
 {
   "BlbInquiry" : {
-    "desc" : "blbInquiry",
     "blbType" : "blb type. Defaults to normal type if not specified. Valid values: \"normal\" (standard), \"application\" (application), \"ipv6\" (standard IPv6), \"ipv6Application\" (application IPv6)",
     "performanceLevel" : "Performance specification. Defaults to shared type if not specified. Valid values: \"small1\" (Standard 1), \"small2\" (Standard 2), \"medium1\" (Enhanced 1), \"medium2\" (Enhanced 2), \"large1\" (Ultra-large 1), \"large2\" (Ultra-large 2), \"large3\" (Ultra-large 3)",
     "count" : "Purchase quantity. Defaults to 1 if not specified",

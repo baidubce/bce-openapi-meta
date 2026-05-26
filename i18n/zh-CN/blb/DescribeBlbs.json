@@ -1,6 +1,5 @@
 {
   "DescribeBlbs" : {
-    "desc" : "describeBlbs",
     "address" : "要查询的LoadBalancer内网服务地址，格式为点分十进制",
     "name" : "要查询的LoadBalancer名称",
     "blbId" : "要查询的LoadBalancer ID（只支持精确查询）",

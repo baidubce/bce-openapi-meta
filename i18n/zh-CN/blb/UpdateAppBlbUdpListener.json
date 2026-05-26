@@ -1,6 +1,5 @@
 {
   "UpdateAppBlbUdpListener" : {
-    "desc" : "updateAppBlbUdpListener",
     "blbId" : "所属LoadBalancer的标识符",
     "clientToken" : "幂等性Token，长度不超过64位",
     "listenerPort" : "监听器的端口号",

@@ -1,6 +1,5 @@
 {
   "DescribeBlbs" : {
-    "desc" : "List all LoadBalancer instances",
     "address" : "Internal IP address of the LoadBalancer to query, in dotted-decimal format",
     "name" : "Name of the LoadBalancer to query",
     "blbId" : "ID of the LoadBalancer to query (exact match only)",

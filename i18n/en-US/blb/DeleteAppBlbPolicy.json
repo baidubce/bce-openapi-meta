@@ -1,6 +1,5 @@
 {
   "DeleteAppBlbPolicy" : {
-    "desc" : "Delete application load balancer policy",
     "blbId" : "Identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token",
     "port" : "Frontend port of the policy to be deleted",

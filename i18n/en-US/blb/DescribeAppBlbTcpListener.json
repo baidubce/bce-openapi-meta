@@ -1,6 +1,5 @@
 {
   "DescribeAppBlbTcpListener" : {
-    "desc" : "describeAppBlbTcpListener",
     "blbId" : "The identifier of the associated LoadBalancer",
     "listenerPort" : "The port of the listener to query",
     "marker" : "The starting position for paginated list queries, a system-generated string",

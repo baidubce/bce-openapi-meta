@@ -1,6 +1,5 @@
 {
   "CreateAppBlbHttpListener" : {
-    "desc" : "createAppBlbHttpListener",
     "blbId" : "Identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token, max 64 characters",
     "listenerPort" : "Listening port of the listener, integer between 1-65535",
