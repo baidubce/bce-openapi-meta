@@ -1,0 +1,104 @@
+{
+  "name" : "AuthorizeRegularSecurityGroupRulesV2",
+  "method" : "PUT",
+  "uri" : "/v{version}/securityGroup/{securityGroupId}?authorizeRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "sgVersion",
+    "type" : "Long",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.sgVersion"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.clientToken"
+  }, {
+    "name" : "securityGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.securityGroupId"
+  }, {
+    "name" : "rule",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule",
+    "sub_parameters" : [ {
+      "name" : "remark",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.remark"
+    }, {
+      "name" : "direction",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.direction"
+    }, {
+      "name" : "ethertype",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.ethertype"
+    }, {
+      "name" : "portRange",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.portRange"
+    }, {
+      "name" : "protocol",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.protocol"
+    }, {
+      "name" : "sourceGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.sourceGroupId"
+    }, {
+      "name" : "sourceIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.sourceIp"
+    }, {
+      "name" : "destGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.destGroupId"
+    }, {
+      "name" : "destIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.destIp"
+    }, {
+      "name" : "securityGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.securityGroupId"
+    }, {
+      "name" : "securityGroupRuleId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.securityGroupRuleId"
+    }, {
+      "name" : "createdTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.createdTime"
+    }, {
+      "name" : "updatedTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.rule.updatedTime"
+    } ]
+  } ],
+  "desc_key" : "vpc.AuthorizeRegularSecurityGroupRulesV2.desc"
+}

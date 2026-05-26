@@ -1,0 +1,16 @@
+{
+  "CreateDedicatedGateway" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见ClientToken幂等性",
+    "name" : "专线网关的名称，由大小写字母、数字以及-_ /.特殊字符组成，必须以字母开头，长度1-65",
+    "vpcId" : "专线网关所属VPC的ID",
+    "speed" : "专线网关带宽的限速值，单位为Mbps。限制为为2~10000之间的整数",
+    "description" : "专线网关的描述，不超过200字符",
+    "etId" : "绑定的物理专线的ID，etid和channelId必须同时存在",
+    "channelId" : "绑定的专线通道的ID，etid和channelId必须同时存在",
+    "localCidrs" : "专线网关的云端网络，用户可以选本vpc网段或自定义一个或多个网段，仅当参数etId和channelId存在时可以设置",
+    "tags" : "待创建的标签键值对列表",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65",
+    "resourceGroupId" : "资源组"
+  }
+}

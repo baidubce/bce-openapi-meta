@@ -1,11 +1,10 @@
 {
-  "UpdateVpc": {
-    "desc": "更新 VPC 的名称、描述等属性",
-    "vpcId": "待更新 VPC 的 ID",
-    "clientToken": "幂等性 Token",
-    "name": "VPC 新名称，1-65 个字符，不能取值 default",
-    "description": "VPC 新描述，最大 200 字符",
-    "enableIpv6": "是否开启 IPv6，true 开启，false 关闭",
-    "secondaryCidr": "VPC 辅助网段 CIDR 列表，替换式更新"
+  "UpdateVpc" : {
+    "vpcId" : "VPC的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
+    "name" : "VPC名称，不能取值\"default\"，长度不超过65个字符，可由数字，字符，下划线组成",
+    "description" : "VPC描述，不超过200字符",
+    "enableIpv6" : "是否开启Ipv6网段，true开启，false关闭；不传表示不做更改",
+    "secondaryCidr" : "vpc的辅助网段cidr列表，**替换式更新**"
   }
 }

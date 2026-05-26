@@ -1,0 +1,10 @@
+{
+  "ViewGatewayLimitRules" : {
+    "serviceType" : "服务类型 <br/> peerconn-对等连接 <br/> et-专线网关 <br/> csn-云智能网",
+    "name" : "按名称模糊查询",
+    "glrId" : "按规则id模糊查询",
+    "resourceId" : "按资源id模糊查询",
+    "marker" : "标记从哪个地方开始查询,取glrId的值",
+    "maxKeys" : "一页大小,默认值1000"
+  }
+}

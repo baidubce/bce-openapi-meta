@@ -1,0 +1,10 @@
+{
+  "QuerySubnetList" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000, default is 1000",
+    "vpcId" : "The ID of the VPC to which the subnet belongs",
+    "zoneName" : "The name of the availability zone to which the subnet belongs",
+    "subnetType" : "Subnet type, either \"BCC\" or \"BBC\"",
+    "subnetIds" : "Specifies the subnets to query; multiple subnet IDs are separated by commas"
+  }
+}

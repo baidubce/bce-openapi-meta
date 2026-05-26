@@ -1,44 +1,38 @@
 {
-  "name": "UpdateUserGateway",
-  "method": "PUT",
-  "uri": "/v{version}/vpn/cgw/{cgwId}",
-  "desc_key": "vpc.UpdateUserGateway.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "cgwId",
-      "type": "String",
-      "required": true,
-      "position": "URL",
-      "desc_key": "vpc.UpdateUserGateway.cgwId"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.UpdateUserGateway.clientToken"
-    },
-    {
-      "name": "name",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateUserGateway.name"
-    },
-    {
-      "name": "description",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateUserGateway.description"
-    }
-  ]
+  "name" : "UpdateUserGateway",
+  "method" : "PUT",
+  "uri" : "/v{version}/vpn/cgw/{cgwId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateUserGateway.clientToken"
+  }, {
+    "name" : "cgwId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateUserGateway.cgwId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateUserGateway.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateUserGateway.description"
+  } ],
+  "desc_key" : "vpc.UpdateUserGateway.desc"
 }

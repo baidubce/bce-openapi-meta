@@ -1,30 +1,26 @@
 {
-  "name": "UnbindEip",
-  "method": "PUT",
-  "uri": "/v{version}/vpn/{vpnId}?unbind",
-  "desc_key": "vpc.UnbindEip.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "vpnId",
-      "type": "String",
-      "required": true,
-      "position": "URL",
-      "desc_key": "vpc.UnbindEip.vpnId"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.UnbindEip.clientToken"
-    }
-  ]
+  "name" : "UnbindEip",
+  "method" : "PUT",
+  "uri" : "/v{version}/vpn/{vpnId}?unbind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UnbindEip.clientToken"
+  }, {
+    "name" : "vpnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UnbindEip.vpnId"
+  } ],
+  "desc_key" : "vpc.UnbindEip.desc"
 }

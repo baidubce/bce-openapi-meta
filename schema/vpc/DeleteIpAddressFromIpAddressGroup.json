@@ -1,0 +1,32 @@
+{
+  "name" : "DeleteIpAddressFromIpAddressGroup",
+  "method" : "POST",
+  "uri" : "/v{version}/ipSet/{ipSetId}/deleteIpAddress",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ipSetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteIpAddressFromIpAddressGroup.ipSetId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.DeleteIpAddressFromIpAddressGroup.clientToken"
+  }, {
+    "name" : "ipAddressInfo",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.DeleteIpAddressFromIpAddressGroup.ipAddressInfo"
+  } ],
+  "desc_key" : "vpc.DeleteIpAddressFromIpAddressGroup.desc"
+}

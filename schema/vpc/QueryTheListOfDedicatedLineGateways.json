@@ -1,0 +1,50 @@
+{
+  "name" : "QueryTheListOfDedicatedLineGateways",
+  "method" : "GET",
+  "uri" : "/v{version}/etGateway",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfDedicatedLineGateways.vpcId"
+  }, {
+    "name" : "etGatewayId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfDedicatedLineGateways.etGatewayId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfDedicatedLineGateways.name"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfDedicatedLineGateways.status"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfDedicatedLineGateways.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfDedicatedLineGateways.maxKeys"
+  } ],
+  "desc_key" : "vpc.QueryTheListOfDedicatedLineGateways.desc"
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "DeleteGatewayLimitRule",
+  "method" : "DELETE",
+  "uri" : "/v{version}/gateway/limitrule/{glrId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.DeleteGatewayLimitRule.clientToken"
+  }, {
+    "name" : "glrId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteGatewayLimitRule.glrId"
+  } ],
+  "desc_key" : "vpc.DeleteGatewayLimitRule.desc"
+}

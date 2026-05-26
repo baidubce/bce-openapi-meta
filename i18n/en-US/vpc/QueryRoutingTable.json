@@ -1,0 +1,6 @@
+{
+  "QueryRoutingTable" : {
+    "routeTableId" : "Route table ID, either this parameter or vpcId must be specified",
+    "vpcId" : "VPC ID, either this parameter or routeTableId must be specified"
+  }
+}

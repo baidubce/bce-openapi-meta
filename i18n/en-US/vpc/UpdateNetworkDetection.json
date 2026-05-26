@@ -1,0 +1,10 @@
+{
+  "UpdateNetworkDetection" : {
+    "probeId" : "The ID of the network detection.",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. For details, see [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性).",
+    "name" : "Name of the network detection, up to 65 characters, consisting of digits, letters, and underscores.",
+    "description" : "Description of the network detection, up to 200 characters.",
+    "destIp" : "Destination IP address for the probe.",
+    "destPort" : "Destination port for the probe."
+  }
+}

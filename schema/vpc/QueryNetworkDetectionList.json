@@ -1,0 +1,26 @@
+{
+  "name" : "QueryNetworkDetectionList",
+  "method" : "GET",
+  "uri" : "/v{version}/probe",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryNetworkDetectionList.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryNetworkDetectionList.maxKeys"
+  } ],
+  "desc_key" : "vpc.QueryNetworkDetectionList.desc"
+}

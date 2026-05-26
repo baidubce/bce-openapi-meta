@@ -1,0 +1,32 @@
+{
+  "name" : "Ipv6GatewayBandwidthUpgradeAndDowngrade",
+  "method" : "PUT",
+  "uri" : "/v{version}/IPv6Gateway/{gatewayId}?resize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.Ipv6GatewayBandwidthUpgradeAndDowngrade.clientToken"
+  }, {
+    "name" : "gatewayId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.Ipv6GatewayBandwidthUpgradeAndDowngrade.gatewayId"
+  }, {
+    "name" : "bandwidthInMbps",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.Ipv6GatewayBandwidthUpgradeAndDowngrade.bandwidthInMbps"
+  } ],
+  "desc_key" : "vpc.Ipv6GatewayBandwidthUpgradeAndDowngrade.desc"
+}

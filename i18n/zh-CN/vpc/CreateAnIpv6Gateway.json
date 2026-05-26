@@ -1,0 +1,16 @@
+{
+  "CreateAnIpv6Gateway" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)",
+    "vpcId" : "vpc的ID",
+    "name" : "IPv6网关的名称",
+    "bandwidthInMbps" : "IPv6网关的带宽上限",
+    "billing" : "计费信息，目前只支持后付费",
+    "billing.paymentTiming" : "付款时间，预支付（Prepaid）和后支付（Postpaid），创建订单需要设置，续费订单无需设置",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置",
+    "tags" : "待创建的标签键值对列表。",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65",
+    "resourceGroupId" : "资源组",
+    "deleteProtect" : "是否开启释放保护。缺省值为false，代表允许删除"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "CreateSnatRule" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters, see [ClientToken Idempotency](VPC/API参考/通用说明.md)",
+    "natId" : "ID of the NAT gateway",
+    "ruleName" : "Name consisting of uppercase/lowercase letters, digits, and special characters -_ /., must start with a letter, length 1-65",
+    "publicIpsAddress" : "Public IPs, EIPs or shared bandwidth IPs associated with the NAT gateway's snatEips or bindEips",
+    "sourceCIDR" : "Private IP address or CIDR block"
+  }
+}

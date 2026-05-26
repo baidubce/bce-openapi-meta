@@ -1,7 +1,6 @@
 {
-  "DeleteVpnTunnel": {
-    "desc": "删除 IPsec VPN 隧道",
-    "vpnConnId": "待删除的 VPN 隧道 ID",
-    "clientToken": "幂等性 Token"
+  "DeleteVpnTunnel" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/)。",
+    "vpnConnId" : "VPN隧道的ID"
   }
 }

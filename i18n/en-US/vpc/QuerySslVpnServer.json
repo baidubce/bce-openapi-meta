@@ -1,0 +1,6 @@
+{
+  "QuerySslVpnServer" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters long. For details, see [ClientToken Idempotency](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/).",
+    "vpnId" : "The ID of the VPN."
+  }
+}

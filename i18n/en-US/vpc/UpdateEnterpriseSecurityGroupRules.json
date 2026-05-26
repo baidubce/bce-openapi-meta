@@ -1,0 +1,17 @@
+{
+  "UpdateEnterpriseSecurityGroupRules" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性).",
+    "enterpriseSecurityGroupRuleId" : "Enterprise security group rule ID",
+    "remark" : "Description",
+    "portRange" : "Destination port range",
+    "sourcePortRange" : "Source port range",
+    "sourceIp" : "Source IP for inbound rules only; mutually exclusive with remoteIpSet and remoteIpGroup",
+    "destIp" : "Destination IP for outbound rules only; mutually exclusive with remoteIpSet and remoteIpGroup",
+    "localIp" : "Local IP address",
+    "remoteIpSet" : "Remote IP address set; mutually exclusive with sourceIp(destIp) and remoteIpGroup",
+    "remoteIpGroup" : "Remote IP address group; mutually exclusive with sourceIp(destIp) and remoteIpSet",
+    "action" : "Allow or deny; valid values: allow, deny",
+    "priority" : "Priority",
+    "protocol" : "Protocol; valid values: all, tcp, udp, icmp"
+  }
+}

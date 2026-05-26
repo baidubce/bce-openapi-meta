@@ -1,0 +1,7 @@
+{
+  "QueryTheListOfHighlyAvailableVirtualIps" : {
+    "vpcId" : "The VPC ID to which the highly available virtual IP belongs",
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000, default is 1000"
+  }
+}

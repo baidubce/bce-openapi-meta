@@ -1,0 +1,32 @@
+{
+  "name" : "ClosePeerToPeerConnectionToSynchronizeDns",
+  "method" : "PUT",
+  "uri" : "/v{version}/peerconn/{peerConnId}?close",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "peerConnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.ClosePeerToPeerConnectionToSynchronizeDns.peerConnId"
+  }, {
+    "name" : "role",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ClosePeerToPeerConnectionToSynchronizeDns.role"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ClosePeerToPeerConnectionToSynchronizeDns.clientToken"
+  } ],
+  "desc_key" : "vpc.ClosePeerToPeerConnectionToSynchronizeDns.desc"
+}

@@ -1,0 +1,15 @@
+{
+  "CreateGatewayLimitRules" : {
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "ipVersion" : "IP协议版本,当前取值4",
+    "name" : "规则名称,需满足名称规则。支持大小写字母、数字以及-_ /.特殊字符，必须以字母开头，长度1-65",
+    "description" : "描述信息。长度0-200",
+    "serviceType" : "服务类型(peerconn,et,csn)<br/>peerconn-对等连接<br/>et-专线网关<br/>csn-云智能网",
+    "subServiceType" : "子服务类型，当serviceType=\"csn\"时,必传。<br/>LOCAL-网络实例带宽类型。<br>PEER_CLOUD-夸地域带宽云间互通<br/>PEER_EDGE-云边互通",
+    "peerRegion" : "当subServiceType是PEER_CLOUD或PEER_EDGE时必传。表示对端地域。例如华北-北京传递\"bj\",华北保定传递\"bd\"",
+    "resourceId" : "资源ID，对等连接ID或网关ID。当subServiceType=\"LOCAL\"时候，该resourceId=\"csnId:vpcId\"。当subServiceType=\"PEER_CLOUD\"时为csnId",
+    "direction" : "限速方向: egress",
+    "cidr" : "源网段CIDR,当前限流规则对当前设置的CIDR源网段生效。",
+    "bandwidth" : "带宽,Mbps,上限取决于具体网关的最大带宽。"
+  }
+}

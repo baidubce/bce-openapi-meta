@@ -1,0 +1,10 @@
+{
+  "BatchAddSnatRules" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters, see [ClientToken Idempotency](VPC/API参考/通用说明.md)",
+    "natId" : "ID of the NAT gateway",
+    "snatRules" : "Internal IP address or CIDR block",
+    "snatRules.ruleName" : "Rule name consisting of uppercase/lowercase letters, digits, and special characters -\\_ /., must start with a letter, length 1-65",
+    "snatRules.publicIpsAddress" : "List of public IP addresses, EIPs or IPs from shared bandwidth associated with the NAT gateway SNAT",
+    "snatRules.sourceCIDR" : "Internal IP address or CIDR block"
+  }
+}

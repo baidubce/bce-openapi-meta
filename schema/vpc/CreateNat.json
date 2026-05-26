@@ -1,0 +1,96 @@
+{
+  "name" : "CreateNat",
+  "method" : "POST",
+  "uri" : "/v{version}/nat",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateNat.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNat.name"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNat.vpcId"
+  }, {
+    "name" : "cuNum",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNat.cuNum"
+  }, {
+    "name" : "ipVersion",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNat.ipVersion"
+  }, {
+    "name" : "bindEips",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNat.bindEips"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNat.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateNat.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateNat.billing.reservation"
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNat.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateNat.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateNat.tags.tagValue"
+    } ]
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNat.resourceGroupId"
+  }, {
+    "name" : "deleteProtect",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNat.deleteProtect"
+  } ],
+  "desc_key" : "vpc.CreateNat.desc"
+}

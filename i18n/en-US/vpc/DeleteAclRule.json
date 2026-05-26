@@ -1,7 +1,6 @@
 {
-  "DeleteAclRule": {
-    "desc": "Delete an ACL rule",
-    "aclRuleId": "ACL rule ID",
-    "clientToken": "Idempotent token"
+  "DeleteAclRule" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "aclRuleId" : "The ID of the ACL rule to be deleted"
   }
 }

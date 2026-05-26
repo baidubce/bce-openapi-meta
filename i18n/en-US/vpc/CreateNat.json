@@ -1,0 +1,18 @@
+{
+  "CreateNat" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md)",
+    "name" : "Name of the NAT gateway, consisting of uppercase/lowercase letters, digits, and special characters -\\_ /., must start with a letter, length 1-65",
+    "vpcId" : "ID of the VPC",
+    "cuNum" : "Number of CUs for the NAT gateway",
+    "ipVersion" : "NAT IP version type, default is v4",
+    "bindEips" : "One or more EIPs from an EIP or shared bandwidth to associate with the NAT gateway",
+    "billing" : "Billing information",
+    "billing.paymentTiming" : "Payment timing: Prepaid for prepayment, Postpaid for postpayment",
+    "billing.reservation" : "Reservation details, required for prepaid billing",
+    "tags" : "List of tag key-value pairs to be created",
+    "tags.tagKey" : "Tag key",
+    "tags.tagValue" : "Tag value",
+    "resourceGroupId" : "Resource group",
+    "deleteProtect" : "Whether to enable deletion protection. Default is false, indicating deletion is allowed"
+  }
+}

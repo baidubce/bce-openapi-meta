@@ -1,0 +1,38 @@
+{
+  "name" : "QueryVpcList",
+  "method" : "GET",
+  "uri" : "/v{version}/vpc",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryVpcList.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryVpcList.maxKeys"
+  }, {
+    "name" : "isDefault",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryVpcList.isDefault"
+  }, {
+    "name" : "vpcIds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryVpcList.vpcIds"
+  } ],
+  "desc_key" : "vpc.QueryVpcList.desc"
+}

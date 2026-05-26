@@ -1,17 +1,16 @@
 {
-  "CreateSubnet": {
-    "desc": "Create a subnet within a VPC",
-    "clientToken": "Idempotent token",
-    "name": "Subnet name, 1-65 characters, cannot be 'default'",
-    "zoneName": "Availability zone name, e.g. cn-bj-a",
-    "cidr": "IPv4 CIDR block, must be within the VPC CIDR range",
-    "vpcId": "ID of the VPC to create the subnet in",
-    "enableIpv6": "Whether to enable IPv6 (true=enable, default false)",
-    "vpcSecondaryCidr": "Secondary CIDR of the VPC that the subnet belongs to",
-    "subnetType": "Subnet type: BCC or BBC",
-    "description": "Subnet description, max 200 characters",
-    "tags": "List of tag key-value pairs to attach to the subnet",
-    "tags.tagKey": "Tag key",
-    "tags.tagValue": "Tag value"
+  "CreateSubnet" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters long. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性).",
+    "name" : "Subnet name. Cannot be \"default\". Up to 65 characters, consisting of digits, letters, and underscores.",
+    "enableIpv6" : "Whether to enable IPv6 CIDR block. Set to true to enable; defaults to false.",
+    "zoneName" : "Availability zone name. Query method refers to [List Availability Zones](BCC/API参考/地域及可用区相关接口/查询可用区列表.md).",
+    "cidr" : "Subnet CIDR block, must fall within the CIDR range of the associated VPC.",
+    "vpcId" : "ID of the VPC to which the subnet belongs.",
+    "vpcSecondaryCidr" : "Secondary CIDR block of the VPC to which the subnet belongs.",
+    "subnetType" : "Subnet type. Valid values: BCC, BBC.",
+    "description" : "Description. Up to 200 characters.",
+    "tags" : "List of tag key-value pairs to be created.",
+    "tags.tagKey" : "Tag key. May contain uppercase and lowercase letters, digits, Chinese characters, and special characters -_ /. Length: 1–65 characters.",
+    "tags.tagValue" : "Tag value. May contain uppercase and lowercase letters, digits, Chinese characters, and special characters -_ /. Length: 0–65 characters."
   }
 }

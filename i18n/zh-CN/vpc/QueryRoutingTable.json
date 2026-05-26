@@ -1,0 +1,6 @@
+{
+  "QueryRoutingTable" : {
+    "routeTableId" : "路由表ID，该参数和vpcId两者之间二选一",
+    "vpcId" : "VPC的ID，该参数和routeTableId两者之间二选一"
+  }
+}

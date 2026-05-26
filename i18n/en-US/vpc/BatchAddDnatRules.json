@@ -1,0 +1,15 @@
+{
+  "BatchAddDnatRules" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md)",
+    "natId" : "ID of the NAT gateway",
+    "rules" : "Collection of DNAT rules",
+    "rules.ruleName" : "Rule name consisting of letters, digits, and special characters -\\_ /., must start with a letter, length 1-65, optional",
+    "rules.publicIpAddress" : "Public IP address, an EIP or shared-bandwidth IP associated with the NAT gateway DNAT",
+    "rules.privateIpAddress" : "Private IP address",
+    "rules.protocol" : "Protocol, supports TCP, UDP, or all",
+    "rules.publicPort" : "Public port (1-65535), valid when protocol is TCP or UDP, cannot be specified together with a port range",
+    "rules.privatePort" : "Private port (1-65535), valid when protocol is TCP or UDP, cannot be specified together with a port range",
+    "rules.publicPortRange" : "Public port range, e.g. \"80-90\", valid when protocol is TCP or UDP, cannot be specified together with a single port",
+    "rules.privatePortRange" : "Private port range, e.g. \"80-90\", valid when protocol is TCP or UDP, cannot be specified together with a single port"
+  }
+}

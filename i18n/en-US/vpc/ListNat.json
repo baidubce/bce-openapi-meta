@@ -1,0 +1,10 @@
+{
+  "ListNat" : {
+    "vpcId" : "The ID of the VPC",
+    "natId" : "The ID of the specified NAT to query",
+    "name" : "The name of the specified NAT to query",
+    "ip" : "The EIP bound to the specified NAT to query",
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "The maximum number of items per page, not exceeding 1000. Default value is 1000"
+  }
+}

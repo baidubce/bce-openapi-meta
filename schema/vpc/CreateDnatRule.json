@@ -1,0 +1,74 @@
+{
+  "name" : "CreateDnatRule",
+  "method" : "POST",
+  "uri" : "/v{version}/nat/{natId}/dnatRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateDnatRule.clientToken"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.CreateDnatRule.natId"
+  }, {
+    "name" : "ruleName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDnatRule.ruleName"
+  }, {
+    "name" : "publicIpAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDnatRule.publicIpAddress"
+  }, {
+    "name" : "privateIpAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDnatRule.privateIpAddress"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDnatRule.protocol"
+  }, {
+    "name" : "publicPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDnatRule.publicPort"
+  }, {
+    "name" : "privatePort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDnatRule.privatePort"
+  }, {
+    "name" : "publicPortRange",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDnatRule.publicPortRange"
+  }, {
+    "name" : "privatePortRange",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDnatRule.privatePortRange"
+  } ],
+  "desc_key" : "vpc.CreateDnatRule.desc"
+}

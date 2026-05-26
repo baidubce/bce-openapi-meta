@@ -1,0 +1,50 @@
+{
+  "name" : "QuerySubnetList",
+  "method" : "GET",
+  "uri" : "/v{version}/subnet",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QuerySubnetList.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QuerySubnetList.maxKeys"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QuerySubnetList.vpcId"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QuerySubnetList.zoneName"
+  }, {
+    "name" : "subnetType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QuerySubnetList.subnetType"
+  }, {
+    "name" : "subnetIds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QuerySubnetList.subnetIds"
+  } ],
+  "desc_key" : "vpc.QuerySubnetList.desc"
+}

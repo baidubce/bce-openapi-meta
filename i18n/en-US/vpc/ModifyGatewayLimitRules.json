@@ -1,0 +1,9 @@
+{
+  "ModifyGatewayLimitRules" : {
+    "clientToken" : "Idempotency token, up to 64 characters",
+    "glrId" : "Rule ID",
+    "name" : "Rule name",
+    "description" : "Description",
+    "bandwidth" : "Bandwidth"
+  }
+}

@@ -1,342 +1,683 @@
 {
-  "version": "v1",
-  "style": "rpc",
-  "apis": {
-    "DescribeAcl": {
-      "title": "查询acl详情",
-      "summary": "查询acl详情"
-    },
-    "DescribeAclRules": {
-      "title": "查询acl规则",
-      "summary": "查询acl规则"
-    },
-    "AddEniPrivateIp": {
-      "title": "为弹性网卡增加一个辅助内网 IP",
-      "summary": "为弹性网卡增加一个辅助内网 IP"
-    },
-    "AttachEni": {
-      "title": "将弹性网卡挂载到云产品实例",
-      "summary": "将弹性网卡挂载到云产品实例"
-    },
-    "AuthorizeEnterpriseSecurityGroupRule": {
-      "title": "向企业安全组添加规则，单次不超过 20 条",
-      "summary": "向企业安全组添加规则，单次不超过 20 条"
-    },
-    "AuthorizeSecurityGroupRule": {
-      "title": "在安全组中授权新的安全组规则",
-      "summary": "在安全组中授权新的安全组规则"
-    },
-    "BatchAddEniPrivateIp": {
-      "title": "批量为弹性网卡增加辅助内网 IP，单次最多 10 个",
-      "summary": "批量为弹性网卡增加辅助内网 IP，单次最多 10 个"
-    },
-    "BatchCreateSslVpnUsers": {
-      "title": "批量创建 SSL VPN 用户",
-      "summary": "批量创建 SSL VPN 用户"
-    },
-    "BatchDeleteEniPrivateIp": {
-      "title": "批量删除弹性网卡上的辅助内网 IP，单次最多 10 个",
-      "summary": "批量删除弹性网卡上的辅助内网 IP，单次最多 10 个"
-    },
-    "BindEip": {
-      "title": "为 VPN 网关绑定 EIP",
-      "summary": "为 VPN 网关绑定 EIP"
-    },
-    "CreateAclRules": {
-      "title": "批量添加 ACL 规则，单次最多 20 条",
-      "summary": "批量添加 ACL 规则，单次最多 20 条"
-    },
-    "CreateEni": {
-      "title": "创建弹性网卡",
-      "summary": "创建弹性网卡"
-    },
-    "CreateEnterpriseSecurityGroup": {
-      "title": "创建企业安全组",
-      "summary": "创建企业安全组"
-    },
-    "CreateIpReserve": {
-      "title": "在子网内创建预留网段",
-      "summary": "在子网内创建预留网段"
-    },
-    "CreateRouteRule": {
-      "title": "在路由表内创建路由规则",
-      "summary": "在路由表内创建路由规则"
-    },
-    "CreateSecurityGroup": {
-      "title": "创建普通安全组及安全组规则",
-      "summary": "创建普通安全组及安全组规则"
-    },
-    "CreateSslVpnServer": {
-      "title": "创建 SSL VPN 服务端",
-      "summary": "创建 SSL VPN 服务端"
-    },
-    "CreateSubnet": {
-      "title": "在指定 VPC 内创建子网",
-      "summary": "在指定 VPC 内创建子网"
-    },
-    "CreateUserGateway": {
-      "title": "创建用户网关（对端网关）",
-      "summary": "创建用户网关（对端网关）"
-    },
-    "CreateVpc": {
-      "title": "创建一个私有网络（VPC）",
-      "summary": "创建一个私有网络（VPC）"
-    },
-    "CreateVpn": {
-      "title": "创建 VPN 网关",
-      "summary": "创建 VPN 网关"
-    },
-    "CreateVpnTunnel": {
-      "title": "创建 IPsec VPN 隧道",
-      "summary": "创建 IPsec VPN 隧道"
-    },
-    "DeleteAclRule": {
-      "title": "删除指定 ACL 规则",
-      "summary": "删除指定 ACL 规则"
-    },
-    "DeleteEni": {
-      "title": "删除弹性网卡",
-      "summary": "删除弹性网卡"
-    },
-    "DeleteEniPrivateIp": {
-      "title": "删除弹性网卡上的指定辅助内网 IP",
-      "summary": "删除弹性网卡上的指定辅助内网 IP"
-    },
-    "DeleteEnterpriseSecurityGroup": {
-      "title": "删除企业安全组",
-      "summary": "删除企业安全组"
-    },
-    "DeleteEnterpriseSecurityGroupRule": {
-      "title": "删除企业安全组规则",
-      "summary": "删除企业安全组规则"
-    },
-    "DeleteIpReserve": {
-      "title": "删除预留网段",
-      "summary": "删除预留网段"
-    },
-    "DeleteRouteRule": {
-      "title": "删除指定路由规则",
-      "summary": "删除指定路由规则"
-    },
-    "DeleteSecurityGroup": {
-      "title": "删除指定普通安全组",
-      "summary": "删除指定普通安全组"
-    },
-    "DeleteSecurityGroupRule": {
-      "title": "删除指定普通安全组规则",
-      "summary": "删除指定普通安全组规则"
-    },
-    "DeleteSslVpnServer": {
-      "title": "删除 SSL VPN 服务端",
-      "summary": "删除 SSL VPN 服务端"
-    },
-    "DeleteSslVpnUser": {
-      "title": "删除 SSL VPN 用户",
-      "summary": "删除 SSL VPN 用户"
-    },
-    "DeleteSubnet": {
-      "title": "删除指定子网",
-      "summary": "删除指定子网"
-    },
-    "DeleteUserGateway": {
-      "title": "删除用户网关",
-      "summary": "删除用户网关"
-    },
-    "DeleteVpc": {
-      "title": "删除指定 VPC，删除前需确保 VPC 内无子网等资源",
-      "summary": "删除指定 VPC，删除前需确保 VPC 内无子网等资源"
-    },
-    "DeleteVpnTunnel": {
-      "title": "删除 IPsec VPN 隧道",
-      "summary": "删除 IPsec VPN 隧道"
-    },
-    "DescribeIpReserves": {
-      "title": "查询预留网段列表",
-      "summary": "查询预留网段列表"
-    },
-    "DescribeRouteRules": {
-      "title": "查询路由表或 VPC 下的路由规则列表",
-      "summary": "查询路由表或 VPC 下的路由规则列表"
-    },
-    "DescribeRouteTables": {
-      "title": "查询路由表列表",
-      "summary": "查询路由表列表"
-    },
-    "DescribeSecurityGroup": {
-      "title": "查询指定普通安全组的详情",
-      "summary": "查询指定普通安全组的详情"
-    },
-    "DescribeSecurityGroups": {
-      "title": "查询普通安全组列表",
-      "summary": "查询普通安全组列表"
-    },
-    "DescribeSslVpnServer": {
-      "title": "查询 SSL VPN 服务端信息",
-      "summary": "查询 SSL VPN 服务端信息"
-    },
-    "DescribeSslVpnUsers": {
-      "title": "查询 SSL VPN 用户列表",
-      "summary": "查询 SSL VPN 用户列表"
-    },
-    "DescribeSubnet": {
-      "title": "查询指定子网的详细信息",
-      "summary": "查询指定子网的详细信息"
-    },
-    "DescribeSubnets": {
-      "title": "查询所有子网列表",
-      "summary": "查询所有子网列表"
-    },
-    "DescribeUserGateway": {
-      "title": "查询指定用户网关的详情",
-      "summary": "查询指定用户网关的详情"
-    },
-    "DescribeUserGateways": {
-      "title": "查询用户网关列表",
-      "summary": "查询用户网关列表"
-    },
-    "DescribeVpc": {
-      "title": "查询指定 VPC 的详细信息",
-      "summary": "查询指定 VPC 的详细信息"
-    },
-    "DescribeVpcPrivateIps": {
-      "title": "查询 VPC 内私网 IP 信息",
-      "summary": "查询 VPC 内私网 IP 信息"
-    },
-    "DescribeVpcResourceIps": {
-      "title": "查询 VPC 内产品占用的私网 IP 信息",
-      "summary": "查询 VPC 内产品占用的私网 IP 信息"
-    },
-    "DescribeVpcs": {
-      "title": "查询用户的 VPC 列表",
-      "summary": "查询用户的 VPC 列表"
-    },
-    "DescribeVpn": {
-      "title": "查询指定 VPN 网关的详情",
-      "summary": "查询指定 VPN 网关的详情"
-    },
-    "DescribeVpnTunnels": {
-      "title": "查询 VPN 网关下的隧道列表",
-      "summary": "查询 VPN 网关下的隧道列表"
-    },
-    "DescribeVpns": {
-      "title": "查询 VPN 网关列表",
-      "summary": "查询 VPN 网关列表"
-    },
-    "DetachEni": {
-      "title": "将弹性网卡从云产品实例卸载",
-      "summary": "将弹性网卡从云产品实例卸载"
-    },
-    "DisableVpcRelay": {
-      "title": "关闭 VPC 中继，操作前需确保中继已开启",
-      "summary": "关闭 VPC 中继，操作前需确保中继已开启"
-    },
-    "EnableVpcRelay": {
-      "title": "开启 VPC 中继",
-      "summary": "开启 VPC 中继"
-    },
-    "EniBindEip": {
-      "title": "为弹性网卡的指定内网 IP 绑定 EIP",
-      "summary": "为弹性网卡的指定内网 IP 绑定 EIP"
-    },
-    "EniBindEsg": {
-      "title": "更新弹性网卡绑定的企业安全组（覆盖原有所有安全组）",
-      "summary": "更新弹性网卡绑定的企业安全组（覆盖原有所有安全组）"
-    },
-    "EniBindSg": {
-      "title": "更新弹性网卡绑定的普通安全组（覆盖原有所有安全组）",
-      "summary": "更新弹性网卡绑定的普通安全组（覆盖原有所有安全组）"
-    },
-    "EniUnBindEip": {
-      "title": "解绑弹性网卡上的 EIP",
-      "summary": "解绑弹性网卡上的 EIP"
-    },
-    "GetEni": {
-      "title": "查询指定弹性网卡的详细信息",
-      "summary": "查询指定弹性网卡的详细信息"
-    },
-    "GetEniStatus": {
-      "title": "查询弹性网卡的当前状态",
-      "summary": "查询弹性网卡的当前状态"
-    },
-    "ListEni": {
-      "title": "查询弹性网卡列表",
-      "summary": "查询弹性网卡列表"
-    },
-    "ListEnterpriseSecurityGroups": {
-      "title": "查询企业安全组列表",
-      "summary": "查询企业安全组列表"
-    },
-    "ModifyEniAttribute": {
-      "title": "更新弹性网卡的名称或描述（两者不能同时为空）",
-      "summary": "更新弹性网卡的名称或描述（两者不能同时为空）"
-    },
-    "ReleaseVpn": {
-      "title": "释放 VPN 网关",
-      "summary": "释放 VPN 网关"
-    },
-    "RenewVpn": {
-      "title": "续费 VPN 网关（仅预付费网关可用）",
-      "summary": "续费 VPN 网关（仅预付费网关可用）"
-    },
-    "RevokeSecurityGroupRule": {
-      "title": "撤销安全组中的规则",
-      "summary": "撤销安全组中的规则"
-    },
-    "SwitchRouteHA": {
-      "title": "多线主备路由中，将主路由切换为备路由",
-      "summary": "多线主备路由中，将主路由切换为备路由"
-    },
-    "UnbindEip": {
-      "title": "解绑 VPN 网关上的 EIP",
-      "summary": "解绑 VPN 网关上的 EIP"
-    },
-    "UpdateAclRule": {
-      "title": "更新 ACL 规则信息",
-      "summary": "更新 ACL 规则信息"
-    },
-    "UpdateEnterpriseSecurityGroupRule": {
-      "title": "更新企业安全组规则",
-      "summary": "更新企业安全组规则"
-    },
-    "UpdateRouteRule": {
-      "title": "更新路由规则（仅支持单线路由）",
-      "summary": "更新路由规则（仅支持单线路由）"
-    },
-    "UpdateSecurityGroupRule": {
-      "title": "更新普通安全组规则信息",
-      "summary": "更新普通安全组规则信息"
-    },
-    "UpdateSslVpnServer": {
-      "title": "修改 SSL VPN 服务端配置",
-      "summary": "修改 SSL VPN 服务端配置"
-    },
-    "UpdateSslVpnUser": {
-      "title": "修改 SSL VPN 用户信息",
-      "summary": "修改 SSL VPN 用户信息"
-    },
-    "UpdateSubnet": {
-      "title": "更新子网名称、描述等属性",
-      "summary": "更新子网名称、描述等属性"
-    },
-    "UpdateUserGateway": {
-      "title": "修改用户网关名称或描述",
-      "summary": "修改用户网关名称或描述"
-    },
-    "UpdateVpc": {
-      "title": "更新 VPC 的名称、描述等属性",
-      "summary": "更新 VPC 的名称、描述等属性"
-    },
-    "UpdateVpn": {
-      "title": "修改 VPN 网关名称或描述",
-      "summary": "修改 VPN 网关名称或描述"
-    },
-    "UpdateVpnDeleteProtect": {
-      "title": "开启或关闭 VPN 网关删除保护",
-      "summary": "开启或关闭 VPN 网关删除保护"
-    },
-    "UpdateVpnTunnel": {
-      "title": "修改 IPsec VPN 隧道配置",
-      "summary": "修改 IPsec VPN 隧道配置"
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "私有网络",
+  "apis" : {
+    "DeleteRegularSecurityGroupV2" : {
+      "title" : "删除普通安全组",
+      "summary" : "删除普通安全组"
+    },
+    "RevokeRegularSecurityGroupRulesV2" : {
+      "title" : "撤销普通安全组规则",
+      "summary" : "撤销普通安全组规则"
+    },
+    "UpdateRegularSecurityGroupRulesV2" : {
+      "title" : "更新普通安全组规则",
+      "summary" : "更新普通安全组规则"
+    },
+    "AddAclRule" : {
+      "title" : "添加ACL规则",
+      "summary" : "添加ACL规则"
+    },
+    "DeleteAclRule" : {
+      "title" : "删除ACL规则",
+      "summary" : "删除ACL规则"
+    },
+    "UpdateAclRules" : {
+      "title" : "更新ACL规则",
+      "summary" : "更新ACL规则"
+    },
+    "UpdateIpAddressFamily" : {
+      "title" : "更新IP地址族",
+      "summary" : "更新IP地址族"
+    },
+    "DeleteIpAddressFamily" : {
+      "title" : "删除IP地址族",
+      "summary" : "删除IP地址族"
+    },
+    "QueryTheSpecifiedIpAddressFamily" : {
+      "title" : "查询指定的IP地址族",
+      "summary" : "查询指定的IP地址族"
+    },
+    "DeleteIpAddressGroup" : {
+      "title" : "删除IP地址组",
+      "summary" : "删除IP地址组"
+    },
+    "UpdateIpAddressGroup" : {
+      "title" : "更新IP地址组",
+      "summary" : "更新IP地址组"
+    },
+    "CreateARegularSecurityGroupV2" : {
+      "title" : "创建普通安全组",
+      "summary" : "创建普通安全组"
+    },
+    "CreateIpAddressGroup" : {
+      "title" : "创建IP地址组",
+      "summary" : "创建IP地址组"
+    },
+    "DeleteRegularSecurityGroupRulesV2" : {
+      "title" : "删除普通安全组规则",
+      "summary" : "删除普通安全组规则"
+    },
+    "AuthorizeRegularSecurityGroupRulesV2" : {
+      "title" : "授权普通安全组规则",
+      "summary" : "授权普通安全组规则"
+    },
+    "CreateSubnet" : {
+      "title" : "创建子网",
+      "summary" : "创建子网"
+    },
+    "QuerySubnetList" : {
+      "title" : "查询子网列表",
+      "summary" : "查询子网列表"
+    },
+    "QueryTheSpecifiedIpAddressGroup" : {
+      "title" : "查询指定的IP地址组",
+      "summary" : "查询指定的IP地址组"
+    },
+    "DeleteEnterpriseSecurityGroup" : {
+      "title" : "删除企业安全组",
+      "summary" : "删除企业安全组"
+    },
+    "QuerySpecifiedSubnet" : {
+      "title" : "查询指定子网",
+      "summary" : "查询指定子网"
+    },
+    "QueryIpAddressFamilyList" : {
+      "title" : "查询IP地址族列表",
+      "summary" : "查询IP地址族列表"
+    },
+    "UpdateSubnet" : {
+      "title" : "更新子网",
+      "summary" : "更新子网"
+    },
+    "QueryTheListOfIpAddressGroups" : {
+      "title" : "查询IP地址组列表",
+      "summary" : "查询IP地址组列表"
+    },
+    "DeleteEnterpriseSecurityGroupRules" : {
+      "title" : "删除企业安全组规则",
+      "summary" : "删除企业安全组规则"
+    },
+    "DeleteSubnet" : {
+      "title" : "删除子网",
+      "summary" : "删除子网"
+    },
+    "AddIpAddressesToTheIpAddressGroup" : {
+      "title" : "IP地址组添加IP地址",
+      "summary" : "IP地址组添加IP地址"
+    },
+    "CreateIpReserved" : {
+      "title" : "创建预留网段",
+      "summary" : "创建预留网段"
+    },
+    "CreateIpAddressFamily" : {
+      "title" : "创建IP地址族",
+      "summary" : "创建IP地址族"
+    },
+    "UpdateEnterpriseSecurityGroupRules" : {
+      "title" : "更新企业安全组规则",
+      "summary" : "更新企业安全组规则"
+    },
+    "ListIpReserve" : {
+      "title" : "查询预留网段列表",
+      "summary" : "查询预留网段列表"
+    },
+    "AddIpAddressGroupToIpAddressFamily" : {
+      "title" : "IP地址族添加IP地址组",
+      "summary" : "IP地址族添加IP地址组"
+    },
+    "DeleteIpReserve" : {
+      "title" : "删除预留网段",
+      "summary" : "删除预留网段"
+    },
+    "RemoveIpAddressGroupFromIpAddressFamily" : {
+      "title" : "IP地址族移除IP地址组",
+      "summary" : "IP地址族移除IP地址组"
+    },
+    "CreateVpc" : {
+      "title" : "创建VPC",
+      "summary" : "创建VPC"
+    },
+    "DeleteIpAddressFromIpAddressGroup" : {
+      "title" : "IP地址组删除IP地址",
+      "summary" : "IP地址组删除IP地址"
+    },
+    "QueryVpcList" : {
+      "title" : "查询VPC列表",
+      "summary" : "查询VPC列表"
+    },
+    "QuerySpecifiedVpc" : {
+      "title" : "查询指定VPC",
+      "summary" : "查询指定VPC"
+    },
+    "DeleteVpc" : {
+      "title" : "删除VPC",
+      "summary" : "删除VPC"
+    },
+    "ActiveStandbySwitchover" : {
+      "title" : "主备切换",
+      "summary" : "主备切换"
+    },
+    "UpdateVpc" : {
+      "title" : "更新VPC",
+      "summary" : "更新VPC"
+    },
+    "QueryRoutingTable" : {
+      "title" : "查询路由表",
+      "summary" : "查询路由表"
+    },
+    "QueryVpcIntranetIp" : {
+      "title" : "查询VPC内网IP",
+      "summary" : "查询VPC内网IP"
+    },
+    "CloseVpcRelay" : {
+      "title" : "关闭VPC中继",
+      "summary" : "关闭VPC中继"
+    },
+    "OpenVpcRelay" : {
+      "title" : "开启VPC中继",
+      "summary" : "开启VPC中继"
+    },
+    "GetVpcResourceIpInfo" : {
+      "title" : "查询VPC内产品占用IP",
+      "summary" : "查询VPC内产品占用IP"
+    },
+    "CreateVpn" : {
+      "title" : "创建VPN",
+      "summary" : "创建VPN"
+    },
+    "RemoveElasticNetworkCard" : {
+      "title" : "删除弹性网卡",
+      "summary" : "删除弹性网卡"
+    },
+    "QueryVpnList" : {
+      "title" : "查询VPN列表",
+      "summary" : "查询VPN列表"
+    },
+    "ElasticNetworkCardUninstallationCloudProductInstance" : {
+      "title" : "弹性网卡卸载云产品实例",
+      "summary" : "弹性网卡卸载云产品实例"
+    },
+    "SearchForVpnDetails" : {
+      "title" : "查询VPN详情",
+      "summary" : "查询VPN详情"
+    },
+    "UpdateElasticNetworkCard" : {
+      "title" : "更新弹性网卡",
+      "summary" : "更新弹性网卡"
+    },
+    "UpdateVpn" : {
+      "title" : "更新VPN",
+      "summary" : "更新VPN"
+    },
+    "ReleaseVpn" : {
+      "title" : "释放VPN",
+      "summary" : "释放VPN"
+    },
+    "BindEip" : {
+      "title" : "绑定EIP",
+      "summary" : "绑定EIP"
+    },
+    "DeleteElasticNetworkCardAuxiliaryIp" : {
+      "title" : "删除弹性网卡辅助IP",
+      "summary" : "删除弹性网卡辅助IP"
+    },
+    "UnbindEip" : {
+      "title" : "解绑EIP",
+      "summary" : "解绑EIP"
+    },
+    "ElasticNetworkCardUpdatesRegularSecurityGroup" : {
+      "title" : "弹性网卡更新普通安全组",
+      "summary" : "弹性网卡更新普通安全组"
+    },
+    "RenewVpn" : {
+      "title" : "VPN网关续费",
+      "summary" : "VPN网关续费"
+    },
+    "ElasticNetworkCardMountedCloudProductInstance" : {
+      "title" : "弹性网卡挂载云产品实例",
+      "summary" : "弹性网卡挂载云产品实例"
+    },
+    "UpdateVpnReleaseProtection" : {
+      "title" : "更新VPN释放保护开关",
+      "summary" : "更新VPN释放保护开关"
+    },
+    "CreateVpnTunnel" : {
+      "title" : "创建VPN隧道",
+      "summary" : "创建VPN隧道"
+    },
+    "SearchVpnTunnel" : {
+      "title" : "查询VPN隧道",
+      "summary" : "查询VPN隧道"
+    },
+    "ElasticNetworkCardBindingEip" : {
+      "title" : "弹性网卡绑定EIP",
+      "summary" : "弹性网卡绑定EIP"
+    },
+    "UpdateVpnTunnel" : {
+      "title" : "更新VPN隧道",
+      "summary" : "更新VPN隧道"
+    },
+    "ElasticNetworkCardUnbindingEip" : {
+      "title" : "弹性网卡解绑EIP",
+      "summary" : "弹性网卡解绑EIP"
+    },
+    "DeleteVpnTunnel" : {
+      "title" : "删除VPN隧道",
+      "summary" : "删除VPN隧道"
+    },
+    "CreateElasticNetworkCard" : {
+      "title" : "创建弹性网卡",
+      "summary" : "创建弹性网卡"
+    },
+    "CreateUserGateway" : {
+      "title" : "创建用户网关",
+      "summary" : "创建用户网关"
+    },
+    "QueryTheStatusOfTheElasticNetworkCard" : {
+      "title" : "查询弹性网卡状态",
+      "summary" : "查询弹性网卡状态"
+    },
+    "UserGatewayList" : {
+      "title" : "用户网关列表",
+      "summary" : "用户网关列表"
+    },
+    "QueryTheSpecifiedElasticNetworkCard" : {
+      "title" : "查询指定的弹性网卡",
+      "summary" : "查询指定的弹性网卡"
+    },
+    "UserGatewayDetails" : {
+      "title" : "用户网关详情",
+      "summary" : "用户网关详情"
+    },
+    "QueryTheListOfElasticNetworkCards" : {
+      "title" : "查询弹性网卡列表",
+      "summary" : "查询弹性网卡列表"
+    },
+    "DeleteUserGateway" : {
+      "title" : "删除用户网关",
+      "summary" : "删除用户网关"
+    },
+    "AddElasticNetworkCardAuxiliaryIp" : {
+      "title" : "增加弹性网卡辅助IP",
+      "summary" : "增加弹性网卡辅助IP"
+    },
+    "UpdateUserGateway" : {
+      "title" : "更新用户网关",
+      "summary" : "更新用户网关"
+    },
+    "BatchDeleteElasticNetworkCardIntranetIp" : {
+      "title" : "批量删除弹性网卡内网IP",
+      "summary" : "批量删除弹性网卡内网IP"
+    },
+    "CreateSslVpnServer" : {
+      "title" : "创建SSL-VPN服务端",
+      "summary" : "创建SSL-VPN服务端"
+    },
+    "ElasticNetworkCardUpdateEnterpriseSecurityGroup" : {
+      "title" : "弹性网卡更新企业安全组",
+      "summary" : "弹性网卡更新企业安全组"
+    },
+    "QuerySslVpnServer" : {
+      "title" : "查询SSL-VPN服务端",
+      "summary" : "查询SSL-VPN服务端"
+    },
+    "BatchIncreaseElasticNetworkCardIntranetIp" : {
+      "title" : "批量增加弹性网卡内网IP",
+      "summary" : "批量增加弹性网卡内网IP"
+    },
+    "UpdateSslVpnServer" : {
+      "title" : "更新SSL-VPN服务端",
+      "summary" : "更新SSL-VPN服务端"
+    },
+    "CreateAHighlyAvailableVirtualIp" : {
+      "title" : "创建高可用虚拟IP",
+      "summary" : "创建高可用虚拟IP"
+    },
+    "DeleteSslVpnServer" : {
+      "title" : "删除SSL-VPN服务端",
+      "summary" : "删除SSL-VPN服务端"
+    },
+    "HighAvailabilityVirtualIpUnbindingEip" : {
+      "title" : "高可用虚拟IP解绑EIP",
+      "summary" : "高可用虚拟IP解绑EIP"
+    },
+    "BatchCreateSslVpnUsers" : {
+      "title" : "批量创建SSL-VPN用户",
+      "summary" : "批量创建SSL-VPN用户"
+    },
+    "HighAvailabilityVirtualIpUnbindingInstance" : {
+      "title" : "高可用虚拟IP解绑实例",
+      "summary" : "高可用虚拟IP解绑实例"
+    },
+    "UpdateSslVpnUsers" : {
+      "title" : "更新SSL-VPN用户",
+      "summary" : "更新SSL-VPN用户"
+    },
+    "QueryTheListOfHighlyAvailableVirtualIps" : {
+      "title" : "查询高可用虚拟IP列表",
+      "summary" : "查询高可用虚拟IP列表"
+    },
+    "QuerySslVpnUsers" : {
+      "title" : "查询SSL-VPN用户",
+      "summary" : "查询SSL-VPN用户"
+    },
+    "UpdateHighlyAvailableVirtualIp" : {
+      "title" : "更新高可用虚拟IP",
+      "summary" : "更新高可用虚拟IP"
+    },
+    "DeleteSslVpnUser" : {
+      "title" : "删除SSL-VPN用户",
+      "summary" : "删除SSL-VPN用户"
+    },
+    "HighlyAvailableVirtualIpBindingInstance" : {
+      "title" : "高可用虚拟IP绑定实例",
+      "summary" : "高可用虚拟IP绑定实例"
+    },
+    "HighlyAvailableVirtualIpBindingEip" : {
+      "title" : "高可用虚拟IP绑定EIP",
+      "summary" : "高可用虚拟IP绑定EIP"
+    },
+    "DeleteHighlyAvailableVirtualIp" : {
+      "title" : "删除高可用虚拟IP",
+      "summary" : "删除高可用虚拟IP"
+    },
+    "QueryTheSpecifiedHighlyAvailableVirtualIp" : {
+      "title" : "查询指定的高可用虚拟IP",
+      "summary" : "查询指定的高可用虚拟IP"
+    },
+    "DeleteIpv6Gateway" : {
+      "title" : "删除Ipv6网关",
+      "summary" : "删除Ipv6网关"
+    },
+    "CreateIpv6GatewaySpeedLimitPolicy" : {
+      "title" : "创建IPv6网关限速策略",
+      "summary" : "创建IPv6网关限速策略"
+    },
+    "CreateEnterpriseSecurityGroup" : {
+      "title" : "创建企业安全组",
+      "summary" : "创建企业安全组"
+    },
+    "ModifyGatewayLimitRules" : {
+      "title" : "修改网关限速规则",
+      "summary" : "修改网关限速规则"
+    },
+    "QueryingTheIpv6PolicyListWithOnlyOutputAndNoInclusion" : {
+      "title" : "查询IPv6只出不进策略列表",
+      "summary" : "查询IPv6只出不进策略列表"
+    },
+    "AuthorizedEnterpriseSecurityGroupRules" : {
+      "title" : "授权企业安全组规则",
+      "summary" : "授权企业安全组规则"
+    },
+    "DeleteGatewayLimitRule" : {
+      "title" : "删除网关限速规则",
+      "summary" : "删除网关限速规则"
+    },
+    "Ipv6GatewayBandwidthUpgradeAndDowngrade" : {
+      "title" : "IPv6网关带宽升降级",
+      "summary" : "IPv6网关带宽升降级"
+    },
+    "QueryTheListOfEnterpriseSecurityGroups" : {
+      "title" : "查询企业安全组列表",
+      "summary" : "查询企业安全组列表"
+    },
+    "ViewGatewayLimitRules" : {
+      "title" : "查看网关限速规则",
+      "summary" : "查看网关限速规则"
+    },
+    "UpdateIpv6GatewayReleaseProtectionSwitch" : {
+      "title" : "更新IPv6网关释放保护开关",
+      "summary" : "更新IPv6网关释放保护开关"
+    },
+    "AddIpv6OnlyOutboundAndNoInboundPolicy" : {
+      "title" : "添加IPv6只出不进策略",
+      "summary" : "添加IPv6只出不进策略"
+    },
+    "QueryIpv6Gateway" : {
+      "title" : "查询IPv6网关",
+      "summary" : "查询IPv6网关"
+    },
+    "CreateAnIpv6Gateway" : {
+      "title" : "创建IPv6网关",
+      "summary" : "创建IPv6网关"
+    },
+    "DeleteIpv6OnlyAccessPolicy" : {
+      "title" : "删除IPv6只出不进策略",
+      "summary" : "删除IPv6只出不进策略"
+    },
+    "QueryTheListOfSpeedLimitPoliciesForIpv6Gateway" : {
+      "title" : "查询IPv6网关限速策略列表",
+      "summary" : "查询IPv6网关限速策略列表"
+    },
+    "DeleteIpv6GatewaySpeedLimitPolicy" : {
+      "title" : "删除IPv6网关限速策略",
+      "summary" : "删除IPv6网关限速策略"
+    },
+    "UpdateIpv6GatewaySpeedLimitPolicy" : {
+      "title" : "更新IPv6网关限速策略",
+      "summary" : "更新IPv6网关限速策略"
+    },
+    "CreateNetworkDetection" : {
+      "title" : "创建网络探测",
+      "summary" : "创建网络探测"
+    },
+    "DeleteNetworkDetection" : {
+      "title" : "删除网络探测",
+      "summary" : "删除网络探测"
+    },
+    "UpdateNetworkDetection" : {
+      "title" : "更新网络探测",
+      "summary" : "更新网络探测"
+    },
+    "AcceptPeerToPeerConnectionApplications" : {
+      "title" : "接受对等连接申请",
+      "summary" : "接受对等连接申请"
+    },
+    "PrepaidPeerToPeerConnectionUnsubscribe" : {
+      "title" : "预付费对等连接退订",
+      "summary" : "预付费对等连接退订"
+    },
+    "QueryNetworkDetectionDetails" : {
+      "title" : "查询网络探测详情",
+      "summary" : "查询网络探测详情"
+    },
+    "ReleasePeerToPeerConnection" : {
+      "title" : "释放对等连接",
+      "summary" : "释放对等连接"
+    },
+    "ViewPeerToPeerConnectionDetails" : {
+      "title" : "查看对等连接详情",
+      "summary" : "查看对等连接详情"
+    },
+    "EnablePeerToPeerConnectionToSynchronizeDns" : {
+      "title" : "开启对等连接同步DNS",
+      "summary" : "开启对等连接同步DNS"
+    },
+    "RejectPeerToPeerConnectionRequest" : {
+      "title" : "拒绝对等连接申请",
+      "summary" : "拒绝对等连接申请"
+    },
+    "PeerToPeerConnectionBandwidthUpgradeAndDowngrade" : {
+      "title" : "对等连接带宽升降级",
+      "summary" : "对等连接带宽升降级"
+    },
+    "UpdateNatReleaseProtectionSwitch" : {
+      "title" : "更新NAT释放保护开关",
+      "summary" : "更新NAT释放保护开关"
+    },
+    "CreateAPeerToPeerConnection" : {
+      "title" : "创建对等连接",
+      "summary" : "创建对等连接"
+    },
+    "PeerToPeerConnectionRenewal" : {
+      "title" : "对等连接续费",
+      "summary" : "对等连接续费"
+    },
+    "DeleteSnatRule" : {
+      "title" : "删除SNAT规则",
+      "summary" : "删除SNAT规则"
+    },
+    "ClosePeerToPeerConnectionToSynchronizeDns" : {
+      "title" : "关闭对等连接同步DNS",
+      "summary" : "关闭对等连接同步DNS"
+    },
+    "QueryNetworkDetectionList" : {
+      "title" : "查询网络探测列表",
+      "summary" : "查询网络探测列表"
+    },
+    "CreateGatewayLimitRules" : {
+      "title" : "创建网关限速规则",
+      "summary" : "创建网关限速规则"
+    },
+    "QueryTheListOfPeerConnections" : {
+      "title" : "查询对等连接列表",
+      "summary" : "查询对等连接列表"
+    },
+    "DeleteDnatRule" : {
+      "title" : "删除DNAT规则",
+      "summary" : "删除DNAT规则"
+    },
+    "UpdateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections" : {
+      "title" : "更新对等连接本端接口名称和备注",
+      "summary" : "更新对等连接本端接口名称和备注"
+    },
+    "UpdatePeerToPeerConnectionReleaseProtectionSwitch" : {
+      "title" : "更新对等连接释放保护开关",
+      "summary" : "更新对等连接释放保护开关"
+    },
+    "CreateNat" : {
+      "title" : "创建NAT网关",
+      "summary" : "创建NAT网关"
+    },
+    "ListNat" : {
+      "title" : "查询NAT网关列表",
+      "summary" : "查询NAT网关列表"
+    },
+    "GetNat" : {
+      "title" : "查询NAT网关详情",
+      "summary" : "查询NAT网关详情"
+    },
+    "ModifyNat" : {
+      "title" : "更新NAT网关名称",
+      "summary" : "更新NAT网关名称"
+    },
+    "ReleaseNat" : {
+      "title" : "释放NAT网关",
+      "summary" : "释放NAT网关"
+    },
+    "PurchaseReservedNat" : {
+      "title" : "NAT网关续费",
+      "summary" : "NAT网关续费"
+    },
+    "CreateSnatRule" : {
+      "title" : "创建SNAT规则",
+      "summary" : "创建SNAT规则"
+    },
+    "UpdateSnatRule" : {
+      "title" : "更新SNAT规则",
+      "summary" : "更新SNAT规则"
+    },
+    "ListSnatRule" : {
+      "title" : "查询SNAT规则",
+      "summary" : "查询SNAT规则"
+    },
+    "CreateDnatRule" : {
+      "title" : "创建DNAT规则",
+      "summary" : "创建DNAT规则"
+    },
+    "UpdateDnatRule" : {
+      "title" : "更新DNAT规则",
+      "summary" : "更新DNAT规则"
+    },
+    "BatchAddSnatRules" : {
+      "title" : "批量创建SNAT规则",
+      "summary" : "批量创建SNAT规则"
+    },
+    "BatchAddDnatRules" : {
+      "title" : "批量创建DNAT规则",
+      "summary" : "批量创建DNAT规则"
+    },
+    "ResizeNat" : {
+      "title" : "NAT网关变配",
+      "summary" : "NAT网关变配"
+    },
+    "NatBindEip" : {
+      "title" : "NAT网关绑定EIP",
+      "summary" : "NAT网关绑定EIP"
+    },
+    "NatUnBindEip" : {
+      "title" : "NAT网关解绑EIP",
+      "summary" : "NAT网关解绑EIP"
+    },
+    "DeleteRoutingRules" : {
+      "title" : "删除路由规则",
+      "summary" : "删除路由规则"
+    },
+    "UpdateRoutingRules" : {
+      "title" : "更新路由规则",
+      "summary" : "更新路由规则"
+    },
+    "QueryRoutingRules" : {
+      "title" : "查询路由规则",
+      "summary" : "查询路由规则"
+    },
+    "CreateRoutingRules" : {
+      "title" : "创建路由规则",
+      "summary" : "创建路由规则"
+    },
+    "ListDnatRule" : {
+      "title" : "查询DNAT规则",
+      "summary" : "查询DNAT规则"
+    },
+    "QueryAcl" : {
+      "title" : "查询ACL",
+      "summary" : "查询ACL"
+    },
+    "QueryAclRules" : {
+      "title" : "查询ACL规则",
+      "summary" : "查询ACL规则"
+    },
+    "QueryTheListOfRegularSecurityGroupsV2" : {
+      "title" : "查询普通安全组列表",
+      "summary" : "查询普通安全组列表"
+    },
+    "ViewSecurityGroupDetailsV2" : {
+      "title" : "查看安全组详情",
+      "summary" : "查看安全组详情"
+    },
+    "ReleaseDedicatedGateway" : {
+      "title" : "释放专线网关",
+      "summary" : "释放专线网关"
+    },
+    "CreateDedicatedGatewayHealthCheck" : {
+      "title" : "创建专线网关健康检查",
+      "summary" : "创建专线网关健康检查"
+    },
+    "QueryTheListOfDedicatedLineGateways" : {
+      "title" : "查询专线网关列表",
+      "summary" : "查询专线网关列表"
+    },
+    "BindPhysicalDedicatedLine" : {
+      "title" : "绑定物理专线",
+      "summary" : "绑定物理专线"
+    },
+    "CreateDedicatedGateway" : {
+      "title" : "创建专线网关",
+      "summary" : "创建专线网关"
+    },
+    "UpdateDedicatedGateway" : {
+      "title" : "更新专线网关",
+      "summary" : "更新专线网关"
+    },
+    "QueryTheDetailsOfTheDedicatedGateway" : {
+      "title" : "查询专线网关详情",
+      "summary" : "查询专线网关详情"
+    },
+    "UnbindPhysicalDedicatedLine" : {
+      "title" : "解绑物理专线",
+      "summary" : "解绑物理专线"
     }
   }
 }

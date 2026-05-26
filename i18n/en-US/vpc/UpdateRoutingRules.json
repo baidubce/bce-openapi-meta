@@ -1,0 +1,10 @@
+{
+  "UpdateRoutingRules" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "routeRuleId" : "ID of the routing rule to update",
+    "sourceAddress" : "Source CIDR block; accepts all-traffic range 0.0.0.0/0, an existing subnet CIDR within the VPC, or a sub-range of a subnet",
+    "destinationAddress" : "Destination CIDR block; can be 0.0.0.0/0, otherwise must not overlap with the VPC CIDR (except when either the destination or the VPC CIDR is 0.0.0.0/0)",
+    "nexthopId" : "Next-hop ID",
+    "description" : "Description, up to 200 characters"
+  }
+}

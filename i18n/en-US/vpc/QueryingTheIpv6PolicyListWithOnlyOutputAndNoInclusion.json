@@ -1,0 +1,7 @@
+{
+  "QueryingTheIpv6PolicyListWithOnlyOutputAndNoInclusion" : {
+    "marker" : "The starting position for marker-based pagination",
+    "maxKeys" : "Maximum number of items per page",
+    "gatewayId" : "The ID of the IPv6 gateway"
+  }
+}

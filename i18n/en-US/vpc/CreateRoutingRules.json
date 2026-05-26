@@ -1,0 +1,15 @@
+{
+  "CreateRoutingRules" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性).",
+    "routeTableId" : "Route table ID",
+    "sourceAddress" : "Source CIDR block; accepts all traffic (0.0.0.0/0), an existing subnet CIDR within the VPC, or a sub-range of a subnet",
+    "destinationAddress" : "Destination CIDR block",
+    "nexthopId" : "Next-hop ID; required when creating a single-path route",
+    "nexthopType" : "Route type; required when creating a single-path route. Values: \"custom\" (BCC), \"vpn\" (VPN), \"nat\" (NAT), \"dcGateway\" (Direct Connect gateway), \"peerConn\" (peering connection; nexthopId must be the local interface ID, e.g. qpif-abuf50qxxxxx, not the peering connection ID)",
+    "nextHopList" : "Next-hop list for multi-path routes; required when creating a multi-path route",
+    "nextHopList.nexthopId" : "Next-hop ID",
+    "nextHopList.nexthopType" : "Route type; currently only supports Direct Connect gateway: \"dcGateway\"",
+    "nextHopList.pathType" : "Multi-path mode. \"ecmp\" for load balancing; \"ha:active\" or \"ha:standby\" for primary/backup mode",
+    "description" : "Route table rule description; maximum 200 characters"
+  }
+}

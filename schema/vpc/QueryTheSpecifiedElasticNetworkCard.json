@@ -1,0 +1,20 @@
+{
+  "name" : "QueryTheSpecifiedElasticNetworkCard",
+  "method" : "GET",
+  "uri" : "/v{version}/eni/{eniId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "eniId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.QueryTheSpecifiedElasticNetworkCard.eniId"
+  } ],
+  "desc_key" : "vpc.QueryTheSpecifiedElasticNetworkCard.desc"
+}

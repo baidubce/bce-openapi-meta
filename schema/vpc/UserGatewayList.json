@@ -1,0 +1,26 @@
+{
+  "name" : "UserGatewayList",
+  "method" : "GET",
+  "uri" : "/v{version}/vpn/cgw",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UserGatewayList.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UserGatewayList.maxKeys"
+  } ],
+  "desc_key" : "vpc.UserGatewayList.desc"
+}

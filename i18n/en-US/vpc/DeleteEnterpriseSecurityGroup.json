@@ -1,7 +1,6 @@
 {
-  "DeleteEnterpriseSecurityGroup": {
-    "desc": "Delete an enterprise security group",
-    "enterpriseSecurityGroupId": "ID of the enterprise security group to delete",
-    "clientToken": "Idempotent token, max 64 ASCII characters"
+  "DeleteEnterpriseSecurityGroup" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性).",
+    "enterpriseSecurityGroupId" : "The ID of the enterprise security group to be deleted."
   }
 }

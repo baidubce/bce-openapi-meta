@@ -1,0 +1,14 @@
+{
+  "UpdateAclRules" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "aclRuleId" : "ACL rule ID",
+    "description" : "Remarks",
+    "protocol" : "Protocol, one of: all/tcp/udp/icmp",
+    "sourceIpAddress" : "Source IP address",
+    "destinationIpAddress" : "Destination IP address",
+    "sourcePort" : "Source port",
+    "destinationPort" : "Destination port",
+    "position" : "Priority, range 1-5000, must be unique among existing entries; lower value means higher priority, rules are matched in descending priority order",
+    "action" : "Policy, either allow or deny"
+  }
+}

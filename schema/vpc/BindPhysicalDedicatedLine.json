@@ -1,0 +1,44 @@
+{
+  "name" : "BindPhysicalDedicatedLine",
+  "method" : "PUT",
+  "uri" : "/v{version}/etGateway/{etGatewayId}?bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "etGatewayId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.BindPhysicalDedicatedLine.etGatewayId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.BindPhysicalDedicatedLine.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BindPhysicalDedicatedLine.etId"
+  }, {
+    "name" : "channelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BindPhysicalDedicatedLine.channelId"
+  }, {
+    "name" : "localCidrs",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.BindPhysicalDedicatedLine.localCidrs"
+  } ],
+  "desc_key" : "vpc.BindPhysicalDedicatedLine.desc"
+}

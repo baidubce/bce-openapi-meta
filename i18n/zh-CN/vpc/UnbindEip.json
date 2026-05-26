@@ -1,7 +1,6 @@
 {
-  "UnbindEip": {
-    "desc": "解绑 VPN 网关上的 EIP",
-    "vpnId": "VPN 网关 ID",
-    "clientToken": "幂等性 Token"
+  "UnbindEip" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/)。",
+    "vpnId" : "VPN的ID"
   }
 }

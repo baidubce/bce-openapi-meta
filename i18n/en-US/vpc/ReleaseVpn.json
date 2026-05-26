@@ -1,7 +1,6 @@
 {
-  "ReleaseVpn": {
-    "desc": "Release a VPN gateway",
-    "vpnId": "ID of the VPN gateway to release",
-    "clientToken": "Idempotent token"
+  "ReleaseVpn" : {
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters. For details, see [ClientToken Idempotency](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/).",
+    "vpnId" : "The ID of the VPN."
   }
 }

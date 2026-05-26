@@ -1,11 +1,9 @@
 {
-  "RenewVpn": {
-    "desc": "续费 VPN 网关（仅预付费网关可用）",
-    "vpnId": "待续费的 VPN 网关 ID",
-    "clientToken": "幂等性 Token",
-    "billing": "续费计费信息",
-    "billing.reservation": "预付费时长配置对象",
-    "billing.reservation.reservationLength": "续费时长（月）",
-    "billing.reservation.reservationTimeUnit": "续费时长单位，固定为 Month"
+  "RenewVpn" : {
+    "vpnId" : "续费的VPN网关ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/)。",
+    "billing" : "订单信息",
+    "billing.paymentTiming" : "付款时间，预支付（Prepaid）和后支付（Postpaid），创建订单需要设置，续费订单无需设置",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置"
   }
 }

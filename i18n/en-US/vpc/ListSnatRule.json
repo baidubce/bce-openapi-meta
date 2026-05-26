@@ -1,0 +1,7 @@
+{
+  "ListSnatRule" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "The maximum number of items per page, typically not exceeding 1000. Default value is 1000",
+    "natId" : "NAT gateway ID"
+  }
+}

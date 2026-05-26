@@ -1,12 +1,11 @@
 {
-  "CreateSslVpnServer": {
-    "desc": "创建 SSL VPN 服务端",
-    "vpnId": "所属 VPN 网关的 ID",
-    "clientToken": "幂等性 Token",
-    "sslVpnServerName": "SSL VPN 服务端名称",
-    "interfaceType": "网卡接口类型，如 tun 或 tap",
-    "localSubnets": "本端子网列表，CIDR 格式字符串数组",
-    "remoteSubnet": "分配给 VPN 客户端的地址池 CIDR",
-    "clientDns": "分配给 VPN 客户端的 DNS 地址"
+  "CreateSslVpnServer" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/)。",
+    "vpnId" : "VPN的ID",
+    "sslVpnServerName" : "SSL-VPN服务端实例名称，大小写字母、数字以及-_/.特殊字符，必须以字母开头，长度1-65",
+    "interfaceType" : "SSL-VPN服务端接口类型。取值[tap, tun]，默认为“tap”",
+    "localSubnets" : "本端网络CIDR列表",
+    "remoteSubnet" : "客户端网络CIDR",
+    "clientDns" : "客户端的DNS地址"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "name" : "ModifyNat",
+  "method" : "PUT",
+  "uri" : "/v{version}/nat/{natId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.ModifyNat.natId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ModifyNat.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.ModifyNat.name"
+  } ],
+  "desc_key" : "vpc.ModifyNat.desc"
+}

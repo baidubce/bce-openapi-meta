@@ -1,0 +1,32 @@
+{
+  "name" : "ListDnatRule",
+  "method" : "GET",
+  "uri" : "/v{version}/nat/{natId}/dnatRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ListDnatRule.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ListDnatRule.maxKeys"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.ListDnatRule.natId"
+  } ],
+  "desc_key" : "vpc.ListDnatRule.desc"
+}

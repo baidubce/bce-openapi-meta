@@ -1,0 +1,20 @@
+{
+  "name" : "QuerySpecifiedSubnet",
+  "method" : "GET",
+  "uri" : "/v{version}/subnet/{subnetId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.QuerySpecifiedSubnet.subnetId"
+  } ],
+  "desc_key" : "vpc.QuerySpecifiedSubnet.desc"
+}

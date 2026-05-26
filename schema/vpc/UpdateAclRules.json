@@ -1,0 +1,74 @@
+{
+  "name" : "UpdateAclRules",
+  "method" : "PUT",
+  "uri" : "/v{version}/acl/rule/{aclRuleId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateAclRules.clientToken"
+  }, {
+    "name" : "aclRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateAclRules.aclRuleId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateAclRules.description"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateAclRules.protocol"
+  }, {
+    "name" : "sourceIpAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateAclRules.sourceIpAddress"
+  }, {
+    "name" : "destinationIpAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateAclRules.destinationIpAddress"
+  }, {
+    "name" : "sourcePort",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateAclRules.sourcePort"
+  }, {
+    "name" : "destinationPort",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateAclRules.destinationPort"
+  }, {
+    "name" : "position",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateAclRules.position"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateAclRules.action"
+  } ],
+  "desc_key" : "vpc.UpdateAclRules.desc"
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "PeerToPeerConnectionBandwidthUpgradeAndDowngrade",
+  "method" : "PUT",
+  "uri" : "/v{version}/peerconn/{peerConnId}?resize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "peerConnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.PeerToPeerConnectionBandwidthUpgradeAndDowngrade.peerConnId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.PeerToPeerConnectionBandwidthUpgradeAndDowngrade.clientToken"
+  }, {
+    "name" : "newBandwidthInMbps",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.PeerToPeerConnectionBandwidthUpgradeAndDowngrade.newBandwidthInMbps"
+  } ],
+  "desc_key" : "vpc.PeerToPeerConnectionBandwidthUpgradeAndDowngrade.desc"
+}

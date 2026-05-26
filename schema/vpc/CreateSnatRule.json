@@ -1,0 +1,44 @@
+{
+  "name" : "CreateSnatRule",
+  "method" : "POST",
+  "uri" : "/v{version}/nat/{natId}/snatRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateSnatRule.clientToken"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.CreateSnatRule.natId"
+  }, {
+    "name" : "ruleName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSnatRule.ruleName"
+  }, {
+    "name" : "publicIpsAddress",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSnatRule.publicIpsAddress"
+  }, {
+    "name" : "sourceCIDR",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSnatRule.sourceCIDR"
+  } ],
+  "desc_key" : "vpc.CreateSnatRule.desc"
+}

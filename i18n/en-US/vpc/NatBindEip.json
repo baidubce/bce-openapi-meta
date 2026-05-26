@@ -1,0 +1,7 @@
+{
+  "NatBindEip" : {
+    "natId" : "The ID of the NAT gateway to bind the EIP to",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "bindEips" : "List of EIPs to bind to the NAT gateway; multiple EIPs are supported, but all must be within the same shared bandwidth package or none of them in any shared bandwidth package"
+  }
+}

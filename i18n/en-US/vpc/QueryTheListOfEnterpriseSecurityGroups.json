@@ -1,0 +1,7 @@
+{
+  "QueryTheListOfEnterpriseSecurityGroups" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000, default is 1000",
+    "instanceId" : "Instance ID to query the list of enterprise security groups associated with a specific instance. Leave empty to query all created enterprise security groups."
+  }
+}

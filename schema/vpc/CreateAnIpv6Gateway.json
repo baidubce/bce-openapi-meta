@@ -1,0 +1,95 @@
+{
+  "name" : "CreateAnIpv6Gateway",
+  "method" : "POST",
+  "uri" : "/v{version}/IPv6Gateway",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateAnIpv6Gateway.clientToken"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAnIpv6Gateway.vpcId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAnIpv6Gateway.name"
+  }, {
+    "name" : "bandwidthInMbps",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAnIpv6Gateway.bandwidthInMbps"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAnIpv6Gateway.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateAnIpv6Gateway.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "vpc.CreateAnIpv6Gateway.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "vpc.CreateAnIpv6Gateway.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vpc.CreateAnIpv6Gateway.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAnIpv6Gateway.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateAnIpv6Gateway.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateAnIpv6Gateway.tags.tagValue"
+    } ]
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAnIpv6Gateway.resourceGroupId"
+  }, {
+    "name" : "deleteProtect",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAnIpv6Gateway.deleteProtect"
+  } ],
+  "desc_key" : "vpc.CreateAnIpv6Gateway.desc"
+}

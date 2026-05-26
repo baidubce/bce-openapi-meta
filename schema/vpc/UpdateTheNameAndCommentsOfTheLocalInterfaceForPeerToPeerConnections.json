@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections",
+  "method" : "PUT",
+  "uri" : "/v{version}/peerconn/{peerConnId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "peerConnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections.peerConnId"
+  }, {
+    "name" : "localIfId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections.localIfId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections.description"
+  }, {
+    "name" : "localIfName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections.localIfName"
+  } ],
+  "desc_key" : "vpc.UpdateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections.desc"
+}

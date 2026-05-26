@@ -1,0 +1,5 @@
+{
+  "QueryTheSpecifiedHighlyAvailableVirtualIp" : {
+    "haVipId" : "高可用虚拟IP的ID"
+  }
+}

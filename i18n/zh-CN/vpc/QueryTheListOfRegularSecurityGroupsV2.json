@@ -1,0 +1,10 @@
+{
+  "QueryTheListOfRegularSecurityGroupsV2" : {
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量通常不超过1000，缺省值为1000",
+    "instanceId" : "云产品实例ID，可查询实例关联的安全组列表。如需查询所有创建的安全组信息，不填写此参数。",
+    "vpcId" : "VPC实例ID，可查询实例关联的安全组列表。若填写了instanceId，vpcId必填。",
+    "securityGroupId" : "指定查询的安全组",
+    "securityGroupIds" : "指定查询的安全组，多个安全组id用,分割"
+  }
+}

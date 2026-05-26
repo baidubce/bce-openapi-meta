@@ -1,23 +1,20 @@
 {
-  "CreateVpn": {
-    "desc": "创建 VPN 网关",
-    "clientToken": "幂等性 Token",
-    "vpcId": "VPN 网关所属 VPC 的 ID",
-    "vpnName": "VPN 网关名称",
-    "subnetId": "VPN 网关所属子网的 ID",
-    "type": "VPN 网关类型，如 ipsec / ssl / ipsec_ssl",
-    "description": "VPN 网关描述",
-    "eip": "绑定到 VPN 网关的 EIP 地址",
-    "maxConnection": "SSL VPN 最大并发连接数",
-    "resourceGroupId": "资源组 ID",
-    "deleteProtect": "是否开启删除保护，true 开启，false 关闭",
-    "billing": "计费信息对象",
-    "billing.paymentTiming": "付费类型：Prepaid（预付费）或 Postpaid（后付费）",
-    "billing.reservation": "预付费时长配置对象（Prepaid 时必填）",
-    "billing.reservation.reservationLength": "预付费时长（月）",
-    "billing.reservation.reservationTimeUnit": "预付费时长单位，固定为 Month",
-    "tags": "绑定到 VPN 网关的标签列表",
-    "tags.tagKey": "标签键",
-    "tags.tagValue": "标签值"
+  "CreateVpn" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](https://cloud.baidu.com/doc/EIP/s/Gjwvz2wa6#%E5%B9%82%E7%AD%89%E6%80%A7)。",
+    "vpcId" : "所属VPC的ID",
+    "subnetId" : "所属SUBNET的ID",
+    "vpnName" : "VPN的名称，大小写字母、数字以及-_/.特殊字符，必须以字母开头，长度1-65",
+    "type" : "VPN网关类型，值“IPSec”表示IPSec-VPN网关，值“SSL”表示SSL-VPN网关，默认为“IPSec”",
+    "description" : "VPN的描述",
+    "eip" : "VPN绑定的eip",
+    "tags" : "VPN绑定的标签",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65",
+    "resourceGroupId" : "VPN绑定的资源组",
+    "billing" : "计费信息，支持预付费和后付费方式",
+    "billing.paymentTiming" : "付款时间，预支付（Prepaid）和后支付（Postpaid），创建订单需要设置，续费订单无需设置",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置",
+    "maxConnection" : "SSL-VPN最大客户端连接数。可选 [5, 10, 20, 50, 100, 200, 500, 1000]。仅SSL-VPN需要选这个参数。",
+    "deleteProtect" : "是否开启释放保护。缺省值为false，代表允许删除"
   }
 }

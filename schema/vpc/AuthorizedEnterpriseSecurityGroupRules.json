@@ -1,0 +1,113 @@
+{
+  "name" : "AuthorizedEnterpriseSecurityGroupRules",
+  "method" : "PUT",
+  "uri" : "/v{version}/enterprise/security/{enterpriseSecurityGroupId}?authorizeRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.clientToken"
+  }, {
+    "name" : "enterpriseSecurityGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.enterpriseSecurityGroupId"
+  }, {
+    "name" : "rules",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules",
+    "sub_parameters" : [ {
+      "name" : "remark",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.remark"
+    }, {
+      "name" : "direction",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.direction"
+    }, {
+      "name" : "ethertype",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.ethertype"
+    }, {
+      "name" : "portRange",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.portRange"
+    }, {
+      "name" : "sourcePortRange",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.sourcePortRange"
+    }, {
+      "name" : "protocol",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.protocol"
+    }, {
+      "name" : "sourceIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.sourceIp"
+    }, {
+      "name" : "destIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.destIp"
+    }, {
+      "name" : "localIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.localIp"
+    }, {
+      "name" : "remoteIpSet",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.remoteIpSet"
+    }, {
+      "name" : "remoteIpGroup",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.remoteIpGroup"
+    }, {
+      "name" : "action",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.action"
+    }, {
+      "name" : "priority",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.priority"
+    }, {
+      "name" : "enterpriseSecurityGroupRuleId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.enterpriseSecurityGroupRuleId"
+    }, {
+      "name" : "createdTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.createdTime"
+    }, {
+      "name" : "updatedTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.rules.updatedTime"
+    } ]
+  } ],
+  "desc_key" : "vpc.AuthorizedEnterpriseSecurityGroupRules.desc"
+}

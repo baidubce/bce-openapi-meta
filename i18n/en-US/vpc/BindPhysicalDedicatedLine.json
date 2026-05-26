@@ -1,0 +1,9 @@
+{
+  "BindPhysicalDedicatedLine" : {
+    "etGatewayId" : "The ID of the dedicated line gateway",
+    "clientToken" : "Idempotency token, an ASCII string no longer than 64 characters, see ClientToken Idempotency for details",
+    "etId" : "The ID of the physical dedicated line to bind; etId and channelId must be provided together",
+    "channelId" : "The ID of the dedicated line channel to bind; etId and channelId must be provided together",
+    "localCidrs" : "The cloud-side network of the dedicated line gateway; users can select the current VPC CIDR block or specify one or more custom CIDR blocks"
+  }
+}

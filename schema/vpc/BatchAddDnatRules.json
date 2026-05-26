@@ -1,0 +1,73 @@
+{
+  "name" : "BatchAddDnatRules",
+  "method" : "POST",
+  "uri" : "/v{version}/nat/{natId}/dnatRule/batchCreate",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.BatchAddDnatRules.clientToken"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.BatchAddDnatRules.natId"
+  }, {
+    "name" : "rules",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BatchAddDnatRules.rules",
+    "sub_parameters" : [ {
+      "name" : "ruleName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddDnatRules.rules.ruleName"
+    }, {
+      "name" : "publicIpAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddDnatRules.rules.publicIpAddress"
+    }, {
+      "name" : "privateIpAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddDnatRules.rules.privateIpAddress"
+    }, {
+      "name" : "protocol",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddDnatRules.rules.protocol"
+    }, {
+      "name" : "publicPort",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddDnatRules.rules.publicPort"
+    }, {
+      "name" : "privatePort",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddDnatRules.rules.privatePort"
+    }, {
+      "name" : "publicPortRange",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddDnatRules.rules.publicPortRange"
+    }, {
+      "name" : "privatePortRange",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddDnatRules.rules.privatePortRange"
+    } ]
+  } ],
+  "desc_key" : "vpc.BatchAddDnatRules.desc"
+}

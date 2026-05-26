@@ -1,0 +1,7 @@
+{
+  "QueryAclRules" : {
+    "marker" : "The starting position for batch list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically not exceeding 1000. Default value is 1000",
+    "subnetId" : "The ID of the subnet to which it belongs"
+  }
+}

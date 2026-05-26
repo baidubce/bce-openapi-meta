@@ -1,0 +1,9 @@
+{
+  "CreateIpReserved" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
+    "subnetId" : "The subnet ID to which the reserved IP range belongs",
+    "ipCidr" : "The IP address or CIDR block of the reserved IP range",
+    "ipVersion" : "IP version, supports IPv4 and IPv6",
+    "description" : "Description of the reserved IP range"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "UpdateIpv6GatewaySpeedLimitPolicy" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters in length. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "gatewayId" : "The ID of the IPv6 gateway",
+    "rateLimitRuleId" : "The ID of the rate limit policy",
+    "ingressBandwidthInMbps" : "The inbound bandwidth of the rate limit policy",
+    "egressBandwidthInMbps" : "The outbound bandwidth of the rate limit policy"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ModifyNat" : {
+    "natId" : "The ID of the NAT gateway",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters, see [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "name" : "The name of the NAT gateway"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "UpdateDedicatedGateway" : {
+    "etGatewayId" : "专线网关的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md)",
+    "name" : "专线网关的名称，由大小写字母、数字以及-_ /.特殊字符组成，必须以字母开头，长度1-65",
+    "speed" : "专线网关带宽的限速值，单位为Mbps。限制为2~100000之间的整数",
+    "description" : "专线网关的描述，不超过200字符",
+    "localCidrs" : "专线网关的IPv4云端网络，用户可以选本VPC网段或自定义一个或多个网段",
+    "enableIpv6" : "IPv6功能是否开启，1是0否，IPv6为白名单功能",
+    "ipv6LocalCidrs" : "专线网关的IPv6云端网络，用户可以选本VPC网段或自定义一个或多个IPv6网段"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "ReleaseNat",
+  "method" : "DELETE",
+  "uri" : "/v{version}/nat/{natId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.ReleaseNat.natId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ReleaseNat.clientToken"
+  } ],
+  "desc_key" : "vpc.ReleaseNat.desc"
+}

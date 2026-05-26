@@ -1,0 +1,26 @@
+{
+  "name" : "DeleteEnterpriseSecurityGroupRules",
+  "method" : "DELETE",
+  "uri" : "/v{version}/enterprise/security/rule/{enterpriseSecurityGroupRuleId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.DeleteEnterpriseSecurityGroupRules.clientToken"
+  }, {
+    "name" : "enterpriseSecurityGroupRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteEnterpriseSecurityGroupRules.enterpriseSecurityGroupRuleId"
+  } ],
+  "desc_key" : "vpc.DeleteEnterpriseSecurityGroupRules.desc"
+}

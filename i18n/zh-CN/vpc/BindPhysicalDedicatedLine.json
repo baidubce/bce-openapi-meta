@@ -1,0 +1,9 @@
+{
+  "BindPhysicalDedicatedLine" : {
+    "etGatewayId" : "专线网关的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见ClientToken幂等性",
+    "etId" : "绑定的物理专线的ID，etid和channelId必须同时存在",
+    "channelId" : "绑定的专线通道的ID，etid和channelId必须同时存在",
+    "localCidrs" : "专线网关的云端网络，用户可以选本VPC网段或自定义一个或多个网段"
+  }
+}

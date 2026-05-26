@@ -1,0 +1,38 @@
+{
+  "name" : "AddElasticNetworkCardAuxiliaryIp",
+  "method" : "POST",
+  "uri" : "/v{version}/eni/{eniId}/privateIp",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "eniId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.AddElasticNetworkCardAuxiliaryIp.eniId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.AddElasticNetworkCardAuxiliaryIp.clientToken"
+  }, {
+    "name" : "isIpv6",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.AddElasticNetworkCardAuxiliaryIp.isIpv6"
+  }, {
+    "name" : "privateIpAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.AddElasticNetworkCardAuxiliaryIp.privateIpAddress"
+  } ],
+  "desc_key" : "vpc.AddElasticNetworkCardAuxiliaryIp.desc"
+}

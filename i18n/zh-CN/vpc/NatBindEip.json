@@ -1,0 +1,7 @@
+{
+  "NatBindEip" : {
+    "natId" : "绑定EIP的NAT网关ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)",
+    "bindEips" : "绑定NAT网关的EIP列表；支持绑定多个EIP，多个EIP需在同一共享带宽内或者均不在任何共享带宽内。"
+  }
+}

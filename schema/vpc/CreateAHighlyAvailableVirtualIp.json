@@ -1,0 +1,44 @@
+{
+  "name" : "CreateAHighlyAvailableVirtualIp",
+  "method" : "POST",
+  "uri" : "/v{version}/havip",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateAHighlyAvailableVirtualIp.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAHighlyAvailableVirtualIp.name"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAHighlyAvailableVirtualIp.subnetId"
+  }, {
+    "name" : "privateIpAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAHighlyAvailableVirtualIp.privateIpAddress"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateAHighlyAvailableVirtualIp.description"
+  } ],
+  "desc_key" : "vpc.CreateAHighlyAvailableVirtualIp.desc"
+}

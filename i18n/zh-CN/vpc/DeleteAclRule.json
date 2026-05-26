@@ -1,7 +1,6 @@
 {
-  "DeleteAclRule": {
-    "desc": "删除指定 ACL 规则",
-    "aclRuleId": "ACL 规则 ID",
-    "clientToken": "幂等性 Token"
+  "DeleteAclRule" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)",
+    "aclRuleId" : "请求删除的ACL规则ID"
   }
 }

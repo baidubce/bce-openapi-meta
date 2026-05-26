@@ -1,0 +1,15 @@
+{
+  "CreateRoutingRules" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)。",
+    "routeTableId" : "路由表ID",
+    "sourceAddress" : "源网段，可填全部网段0.0.0.0/0、VPC内已有子网网段或子网范围内网段",
+    "destinationAddress" : "目标网段",
+    "nexthopId" : "下一跳ID，创建单线路由时该字段必填",
+    "nexthopType" : "路由类型，创建单线路由时该字段必填；Bcc类型是\"custom\"；VPN类型是\"vpn\"；NAT类型是\"nat\"；专线网关类型是\"dcGateway\";对等连接类型是\"peerConn\"(注意：对等连接类型nexthopId传递本端接口id,非对等连接id,如：qpif-abuf50qxxxxx)",
+    "nextHopList" : "多线路由下一跳信息，创建多线路由时该字段必填",
+    "nextHopList.nexthopId" : "下一跳ID",
+    "nextHopList.nexthopType" : "路由类型。目前只支持专线网关类型：\"dcGateway\"",
+    "nextHopList.pathType" : "多线模式。负载均衡取值为ecmp；主备模式取值ha:active、ha:standby，分别表示主、备路由",
+    "description" : "路由表规则描述，不超过200字符"
+  }
+}

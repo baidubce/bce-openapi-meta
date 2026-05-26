@@ -1,37 +1,32 @@
 {
-  "name": "DeleteSslVpnUser",
-  "method": "DELETE",
-  "uri": "/v{version}/vpn/{vpnId}/sslVpnUser/{userId}",
-  "desc_key": "vpc.DeleteSslVpnUser.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "vpnId",
-      "type": "String",
-      "required": true,
-      "position": "URL",
-      "desc_key": "vpc.DeleteSslVpnUser.vpnId"
-    },
-    {
-      "name": "userId",
-      "type": "String",
-      "required": true,
-      "position": "URL",
-      "desc_key": "vpc.DeleteSslVpnUser.userId"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.DeleteSslVpnUser.clientToken"
-    }
-  ]
+  "name" : "DeleteSslVpnUser",
+  "method" : "DELETE",
+  "uri" : "/v{version}/vpn/{vpnId}/sslVpnUser/{userId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.DeleteSslVpnUser.clientToken"
+  }, {
+    "name" : "vpnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteSslVpnUser.vpnId"
+  }, {
+    "name" : "userId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteSslVpnUser.userId"
+  } ],
+  "desc_key" : "vpc.DeleteSslVpnUser.desc"
 }

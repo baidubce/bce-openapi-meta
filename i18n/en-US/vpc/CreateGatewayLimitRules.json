@@ -1,0 +1,15 @@
+{
+  "CreateGatewayLimitRules" : {
+    "clientToken" : "Idempotency token, max length 64 characters",
+    "ipVersion" : "IP protocol version, current value is 4",
+    "name" : "Rule name. Supports uppercase/lowercase letters, digits, and special characters -_ /. Must start with a letter, length 1-65",
+    "description" : "Description. Length 0-200",
+    "serviceType" : "Service type (peerconn, et, csn). peerconn-Peering Connection, et-Express Gateway, csn-Cloud Smart Network",
+    "subServiceType" : "Sub-service type, required when serviceType=\"csn\". LOCAL-Network instance bandwidth type. PEER_CLOUD-Cross-region cloud interconnection. PEER_EDGE-Cloud-edge interconnection",
+    "peerRegion" : "Required when subServiceType is PEER_CLOUD or PEER_EDGE. Indicates the peer region, e.g. \"bj\" for North China-Beijing, \"bd\" for North China-Baoding",
+    "resourceId" : "Resource ID, peering connection ID or gateway ID. When subServiceType=\"LOCAL\", resourceId=\"csnId:vpcId\". When subServiceType=\"PEER_CLOUD\", it is the csnId",
+    "direction" : "Rate limiting direction: egress",
+    "cidr" : "Source CIDR block. The rate limiting rule applies to traffic from this source CIDR",
+    "bandwidth" : "Bandwidth in Mbps. Upper limit depends on the maximum bandwidth of the specific gateway"
+  }
+}

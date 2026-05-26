@@ -1,13 +1,12 @@
 {
-  "CreateVpc": {
-    "desc": "创建一个私有网络（VPC）",
-    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符串",
-    "name": "VPC 名称，1-65 个字符，不能取值 default",
-    "description": "VPC 描述，最大 200 字符",
-    "cidr": "VPC 的 IPv4 网段，例如 192.168.0.0/16",
-    "enableIpv6": "是否开启 IPv6 网段，true 开启，默认 false",
-    "tags": "绑定到 VPC 的标签键值对列表",
-    "tags.tagKey": "标签键",
-    "tags.tagValue": "标签值"
+  "CreateVpc" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性) 。",
+    "name" : "VPC名称，不能取值\"default\"，长度不超过65个字符，可由数字，字符，下划线组成",
+    "description" : "VPC描述，不超过200字符",
+    "cidr" : "VPC的cidr",
+    "enableIpv6" : "是否开启IPv6网段，true开启，默认false不开启。",
+    "tags" : "待创建的标签键值对列表",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65"
   }
 }

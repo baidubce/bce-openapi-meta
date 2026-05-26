@@ -1,10 +1,9 @@
 {
-  "UpdateSubnet": {
-    "desc": "更新子网名称、描述等属性",
-    "subnetId": "待更新子网的 ID",
-    "clientToken": "幂等性 Token",
-    "name": "子网新名称，1-65 个字符",
-    "description": "子网新描述，最大 200 字符",
-    "enableIpv6": "是否开启 IPv6，true 开启，false 不开启"
+  "UpdateSubnet" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)",
+    "subnetId" : "待更新的子网实例ID",
+    "name" : "子网名称，不能取值\"default\"，长度不超过65个字符，可由数字、字符、下划线组成",
+    "description" : "描述，不超过200字符",
+    "enableIpv6" : "是否开启IPv6网段，true表示开启，false表示不开启"
   }
 }

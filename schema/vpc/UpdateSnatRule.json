@@ -1,0 +1,50 @@
+{
+  "name" : "UpdateSnatRule",
+  "method" : "PUT",
+  "uri" : "/v{version}/nat/{natId}/snatRule/{ruleId}",
+  "parameters" : [ {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateSnatRule.clientToken"
+  }, {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateSnatRule.natId"
+  }, {
+    "name" : "ruleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateSnatRule.ruleId"
+  }, {
+    "name" : "ruleName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSnatRule.ruleName"
+  }, {
+    "name" : "sourceCIDR",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSnatRule.sourceCIDR"
+  }, {
+    "name" : "publicIpsAddress",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSnatRule.publicIpsAddress"
+  } ],
+  "desc_key" : "vpc.UpdateSnatRule.desc"
+}

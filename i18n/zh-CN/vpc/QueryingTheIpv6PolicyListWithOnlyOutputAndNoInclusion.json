@@ -1,0 +1,7 @@
+{
+  "QueryingTheIpv6PolicyListWithOnlyOutputAndNoInclusion" : {
+    "marker" : "标记查询的起始位置",
+    "maxKeys" : "每页包含的最大数量",
+    "gatewayId" : "IPv6网关的Id"
+  }
+}

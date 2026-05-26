@@ -1,157 +1,132 @@
 {
-  "name": "UpdateVpnTunnel",
-  "method": "PUT",
-  "uri": "/v{version}/vpn/vpnconn/{vpnConnId}",
-  "desc_key": "vpc.UpdateVpnTunnel.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "vpnConnId",
-      "type": "String",
-      "required": true,
-      "position": "URL",
-      "desc_key": "vpc.UpdateVpnTunnel.vpnConnId"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.UpdateVpnTunnel.clientToken"
-    },
-    {
-      "name": "vpnId",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateVpnTunnel.vpnId"
-    },
-    {
-      "name": "vpnConnName",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateVpnTunnel.vpnConnName"
-    },
-    {
-      "name": "secretKey",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateVpnTunnel.secretKey"
-    },
-    {
-      "name": "cgwId",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateVpnTunnel.cgwId"
-    },
-    {
-      "name": "localSubnets",
-      "type": "List",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateVpnTunnel.localSubnets"
-    },
-    {
-      "name": "remoteSubnets",
-      "type": "List",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateVpnTunnel.remoteSubnets"
-    },
-    {
-      "name": "description",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateVpnTunnel.description"
-    },
-    {
-      "name": "ikeConfig",
-      "type": "Object",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateVpnTunnel.ikeConfig",
-      "sub_parameters": [
-        {
-          "name": "ikeVersion",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.UpdateVpnTunnel.ikeConfig.ikeVersion"
-        },
-        {
-          "name": "ikeMode",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.UpdateVpnTunnel.ikeConfig.ikeMode"
-        },
-        {
-          "name": "ikeEncAlg",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.UpdateVpnTunnel.ikeConfig.ikeEncAlg"
-        },
-        {
-          "name": "ikeAuthAlg",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.UpdateVpnTunnel.ikeConfig.ikeAuthAlg"
-        },
-        {
-          "name": "ikePfs",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.UpdateVpnTunnel.ikeConfig.ikePfs"
-        },
-        {
-          "name": "ikeLifeTime",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.UpdateVpnTunnel.ikeConfig.ikeLifeTime"
-        }
-      ]
-    },
-    {
-      "name": "ipsecConfig",
-      "type": "Object",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.UpdateVpnTunnel.ipsecConfig",
-      "sub_parameters": [
-        {
-          "name": "ipsecEncAlg",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.UpdateVpnTunnel.ipsecConfig.ipsecEncAlg"
-        },
-        {
-          "name": "ipsecAuthAlg",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.UpdateVpnTunnel.ipsecConfig.ipsecAuthAlg"
-        },
-        {
-          "name": "ipsecPfs",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.UpdateVpnTunnel.ipsecConfig.ipsecPfs"
-        },
-        {
-          "name": "ipsecLifetime",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.UpdateVpnTunnel.ipsecConfig.ipsecLifetime"
-        }
-      ]
-    }
-  ]
+  "name" : "UpdateVpnTunnel",
+  "method" : "PUT",
+  "uri" : "/v{version}/vpn/vpnconn/{vpnConnId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateVpnTunnel.clientToken"
+  }, {
+    "name" : "vpnConnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateVpnTunnel.vpnConnId"
+  }, {
+    "name" : "vpnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateVpnTunnel.vpnId"
+  }, {
+    "name" : "secretKey",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateVpnTunnel.secretKey"
+  }, {
+    "name" : "localSubnets",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateVpnTunnel.localSubnets"
+  }, {
+    "name" : "cgwId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateVpnTunnel.cgwId"
+  }, {
+    "name" : "remoteSubnets",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateVpnTunnel.remoteSubnets"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateVpnTunnel.description"
+  }, {
+    "name" : "vpnConnName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateVpnTunnel.vpnConnName"
+  }, {
+    "name" : "ikeConfig",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateVpnTunnel.ikeConfig",
+    "sub_parameters" : [ {
+      "name" : "ikeVersion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.UpdateVpnTunnel.ikeConfig.ikeVersion"
+    }, {
+      "name" : "ikeMode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.UpdateVpnTunnel.ikeConfig.ikeMode"
+    }, {
+      "name" : "ikeEncAlg",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.UpdateVpnTunnel.ikeConfig.ikeEncAlg"
+    }, {
+      "name" : "ikeAuthAlg",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.UpdateVpnTunnel.ikeConfig.ikeAuthAlg"
+    }, {
+      "name" : "ikePfs",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.UpdateVpnTunnel.ikeConfig.ikePfs"
+    }, {
+      "name" : "ikeLifeTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.UpdateVpnTunnel.ikeConfig.ikeLifeTime"
+    } ]
+  }, {
+    "name" : "ipsecConfig",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateVpnTunnel.ipsecConfig",
+    "sub_parameters" : [ {
+      "name" : "ipsecEncAlg",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.UpdateVpnTunnel.ipsecConfig.ipsecEncAlg"
+    }, {
+      "name" : "ipsecAuthAlg",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.UpdateVpnTunnel.ipsecConfig.ipsecAuthAlg"
+    }, {
+      "name" : "ipsecPfs",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.UpdateVpnTunnel.ipsecConfig.ipsecPfs"
+    }, {
+      "name" : "ipsecLifetime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.UpdateVpnTunnel.ipsecConfig.ipsecLifetime"
+    } ]
+  } ],
+  "desc_key" : "vpc.UpdateVpnTunnel.desc"
 }

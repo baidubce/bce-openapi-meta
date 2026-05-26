@@ -1,0 +1,7 @@
+{
+  "ResizeNat" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md)",
+    "natId" : "NAT 实例 ID",
+    "cuNum" : "NAT网关变配的CU数量，取值1~100"
+  }
+}

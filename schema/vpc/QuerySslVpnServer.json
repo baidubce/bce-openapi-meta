@@ -1,0 +1,26 @@
+{
+  "name" : "QuerySslVpnServer",
+  "method" : "GET",
+  "uri" : "/v{version}/vpn/{vpnId}/sslVpnServer",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QuerySslVpnServer.clientToken"
+  }, {
+    "name" : "vpnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.QuerySslVpnServer.vpnId"
+  } ],
+  "desc_key" : "vpc.QuerySslVpnServer.desc"
+}

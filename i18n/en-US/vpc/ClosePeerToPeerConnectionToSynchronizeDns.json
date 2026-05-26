@@ -1,0 +1,7 @@
+{
+  "ClosePeerToPeerConnectionToSynchronizeDns" : {
+    "peerConnId" : "The peer connection ID for which DNS record synchronization is to be disabled",
+    "role" : "The role in the connection: \"initiator\" for the initiating side, \"acceptor\" for the accepting side",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters; see [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "NatUnBindEip" : {
+    "natId" : "The NAT gateway ID from which the EIP is unbound",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "bindEips" : "The list of EIPs to unbind"
+  }
+}

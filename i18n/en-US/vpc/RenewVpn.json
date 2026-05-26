@@ -1,11 +1,9 @@
 {
-  "RenewVpn": {
-    "desc": "Renew a VPN gateway (Prepaid only)",
-    "vpnId": "ID of the VPN gateway to renew",
-    "clientToken": "Idempotent token",
-    "billing": "Renewal billing configuration",
-    "billing.reservation": "Prepaid reservation configuration object",
-    "billing.reservation.reservationLength": "Renewal duration in months",
-    "billing.reservation.reservationTimeUnit": "Renewal duration unit, fixed as Month"
+  "RenewVpn" : {
+    "vpnId" : "The ID of the VPN gateway to renew",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/).",
+    "billing" : "Order information",
+    "billing.paymentTiming" : "Payment timing: Prepaid or Postpaid. Required when creating an order; not required for renewal orders.",
+    "billing.reservation" : "Reservation details. Not required for Postpaid; required for Prepaid."
   }
 }

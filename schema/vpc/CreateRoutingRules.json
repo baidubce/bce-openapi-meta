@@ -1,0 +1,78 @@
+{
+  "name" : "CreateRoutingRules",
+  "method" : "POST",
+  "uri" : "/v{version}/route/rule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateRoutingRules.clientToken"
+  }, {
+    "name" : "routeTableId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateRoutingRules.routeTableId"
+  }, {
+    "name" : "sourceAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateRoutingRules.sourceAddress"
+  }, {
+    "name" : "destinationAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateRoutingRules.destinationAddress"
+  }, {
+    "name" : "nexthopId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateRoutingRules.nexthopId"
+  }, {
+    "name" : "nexthopType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateRoutingRules.nexthopType"
+  }, {
+    "name" : "nextHopList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateRoutingRules.nextHopList",
+    "sub_parameters" : [ {
+      "name" : "nexthopId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateRoutingRules.nextHopList.nexthopId"
+    }, {
+      "name" : "nexthopType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateRoutingRules.nextHopList.nexthopType"
+    }, {
+      "name" : "pathType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateRoutingRules.nextHopList.pathType"
+    } ]
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateRoutingRules.description"
+  } ],
+  "desc_key" : "vpc.CreateRoutingRules.desc"
+}

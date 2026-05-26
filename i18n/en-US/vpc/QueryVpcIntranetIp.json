@@ -1,0 +1,7 @@
+{
+  "QueryVpcIntranetIp" : {
+    "vpcId" : "The ID of the VPC",
+    "privateIpAddresses" : "List of IP addresses to query; cannot be empty at the same time as privateIpRange; when both are present, privateIpRange takes precedence",
+    "privateIpRange" : "IP range to query, in the format \"192.168.0.1-192.168.0.5\"; cannot be empty at the same time as privateIpAddresses; when both are present, privateIpRange takes precedence"
+  }
+}

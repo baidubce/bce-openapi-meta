@@ -1,9 +1,8 @@
 {
-  "UpdateVpn": {
-    "desc": "Update VPN gateway name or description",
-    "vpnId": "ID of the VPN gateway to update",
-    "clientToken": "Idempotent token",
-    "vpnName": "New VPN gateway name",
-    "description": "New VPN gateway description"
+  "UpdateVpn" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/).",
+    "vpnId" : "The ID of the VPN.",
+    "vpnName" : "VPN name. Cannot be \"default\". Up to 65 characters, consisting of letters, digits, and underscores.",
+    "description" : "VPN description. Up to 200 characters."
   }
 }

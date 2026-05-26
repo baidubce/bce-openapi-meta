@@ -1,12 +1,11 @@
 {
-  "UpdateSslVpnServer": {
-    "desc": "修改 SSL VPN 服务端配置",
-    "vpnId": "所属 VPN 网关的 ID",
-    "sslVpnServerId": "SSL VPN 服务端 ID",
-    "clientToken": "幂等性 Token",
-    "sslVpnServerName": "SSL VPN 服务端新名称",
-    "localSubnets": "本端子网列表，CIDR 格式字符串数组",
-    "remoteSubnet": "分配给 VPN 客户端的地址池 CIDR",
-    "clientDns": "分配给 VPN 客户端的 DNS 地址"
+  "UpdateSslVpnServer" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/)。",
+    "vpnId" : "VPN的ID",
+    "sslVpnServerId" : "SSL-VPN服务端ID",
+    "sslVpnServerName" : "SSL-VPN服务端实例名称，大小写字母、数字以及-_/.特殊字符，必须以字母开头，长度1-65",
+    "localSubnets" : "本端网络CIDR列表",
+    "remoteSubnet" : "客户端网络CIDR",
+    "clientDns" : "客户端的DNS地址"
   }
 }

@@ -1,12 +1,11 @@
 {
-  "UpdateSslVpnServer": {
-    "desc": "Update SSL VPN server configuration",
-    "vpnId": "ID of the VPN gateway the server belongs to",
-    "sslVpnServerId": "SSL VPN server ID",
-    "clientToken": "Idempotent token",
-    "sslVpnServerName": "New SSL VPN server name",
-    "localSubnets": "Local subnet list (array of CIDR strings)",
-    "remoteSubnet": "Client address pool CIDR assigned to VPN clients",
-    "clientDns": "DNS address assigned to VPN clients"
+  "UpdateSslVpnServer" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters, see [ClientToken Idempotency](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/).",
+    "vpnId" : "The ID of the VPN",
+    "sslVpnServerId" : "The ID of the SSL-VPN server",
+    "sslVpnServerName" : "SSL-VPN server instance name; supports uppercase/lowercase letters, digits, and special characters -_/.; must start with a letter; length 1–65",
+    "localSubnets" : "List of local network CIDRs",
+    "remoteSubnet" : "Client network CIDR",
+    "clientDns" : "DNS address of the client"
   }
 }

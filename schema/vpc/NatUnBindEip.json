@@ -1,0 +1,32 @@
+{
+  "name" : "NatUnBindEip",
+  "method" : "PUT",
+  "uri" : "/v{version}/nat/{natId}?unbind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.NatUnBindEip.natId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.NatUnBindEip.clientToken"
+  }, {
+    "name" : "bindEips",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.NatUnBindEip.bindEips"
+  } ],
+  "desc_key" : "vpc.NatUnBindEip.desc"
+}

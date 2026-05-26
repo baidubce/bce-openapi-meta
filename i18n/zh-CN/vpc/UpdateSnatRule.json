@@ -1,0 +1,10 @@
+{
+  "UpdateSnatRule" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
+    "natId" : "NAT网关ID",
+    "ruleId" : "SNAT规则ID",
+    "ruleName" : "SNAT规则名字",
+    "sourceCIDR" : "内网IP/网段",
+    "publicIpsAddress" : "公网IPs"
+  }
+}

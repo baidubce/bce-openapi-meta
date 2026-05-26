@@ -1,0 +1,9 @@
+{
+  "CreateIpAddressFamily" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性).",
+    "name" : "Name of the IP address family. Allowed characters: letters, digits, Chinese characters, and -_/. Must start with a letter or Chinese character. Length: 1–65.",
+    "ipVersion" : "IP version. Valid values: IPv4, IPv6.",
+    "ipSetIds" : "IDs of associated IP address groups. Their ipVersion must match the one specified for this IP address family. Maximum 5 IDs per request.",
+    "description" : "Description of the IP address family. Maximum length: 255 characters."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "ModifyGatewayLimitRules",
+  "method" : "PUT",
+  "uri" : "/v{version}/gateway/limitrule/{glrId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ModifyGatewayLimitRules.clientToken"
+  }, {
+    "name" : "glrId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.ModifyGatewayLimitRules.glrId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.ModifyGatewayLimitRules.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.ModifyGatewayLimitRules.description"
+  }, {
+    "name" : "bandwidth",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.ModifyGatewayLimitRules.bandwidth"
+  } ],
+  "desc_key" : "vpc.ModifyGatewayLimitRules.desc"
+}

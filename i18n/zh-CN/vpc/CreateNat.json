@@ -1,0 +1,18 @@
+{
+  "CreateNat" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md)",
+    "name" : "NAT网关的名称，由大小写字母、数字以及-\\_ /.特殊字符组成，必须以字母开头，长度1-65",
+    "vpcId" : "VPC的ID",
+    "cuNum" : "NAT网关的CU数量",
+    "ipVersion" : "NAT IP类型，默认v4",
+    "bindEips" : "关联NAT网关EIP或者共享带宽中的一个或多个EIP",
+    "billing" : "计费信息",
+    "billing.paymentTiming" : "付款时间，预付费为Prepaid，后付费为Postpaid",
+    "billing.reservation" : "保留信息，预付费时必须填写",
+    "tags" : "待创建的标签键值对列表。",
+    "tags.tagKey" : "标签键",
+    "tags.tagValue" : "标签值",
+    "resourceGroupId" : "资源组",
+    "deleteProtect" : "是否开启释放保护。缺省值为false，代表允许删除"
+  }
+}

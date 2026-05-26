@@ -1,0 +1,19 @@
+{
+  "CreateElasticNetworkCard" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性).",
+    "name" : "Name of the elastic network card",
+    "subnetId" : "Subnet ID to which the elastic network card belongs",
+    "securityGroupIds" : "Collection of standard security groups to bind",
+    "enterpriseSecurityGroupIds" : "Collection of enterprise security groups to bind",
+    "privateIpSet" : "Specified private IPv4 address information",
+    "privateIpSet.publicIpAddress" : "Public IP address (EIP) of the elastic network card",
+    "privateIpSet.primary" : "Whether this is the primary IP",
+    "privateIpSet.privateIpAddress" : "Private IP address of the elastic network card",
+    "ipv6PrivateIpSet" : "Specified private IPv6 address information",
+    "ipv6PrivateIpSet.publicIpAddress" : "Public IP address (EIP) of the elastic network card",
+    "ipv6PrivateIpSet.primary" : "Whether this is the primary IP",
+    "ipv6PrivateIpSet.privateIpAddress" : "Private IP address of the elastic network card",
+    "description" : "Description of the elastic network card",
+    "networkInterfaceTrafficMode" : "Distinguishes between elastic RDMA network card (ERI) and standard elastic network card (ENI)"
+  }
+}

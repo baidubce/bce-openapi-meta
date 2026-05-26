@@ -1,0 +1,10 @@
+{
+  "UpdateSslVpnUsers" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/).",
+    "vpnId" : "The ID of the VPN.",
+    "userId" : "The ID of the SSL-VPN user.",
+    "clientName" : "The name of the client.",
+    "password" : "Password, 8–17 characters, must contain a combination of letters, digits, and symbols; allowed symbols: !@#$%^*(_",
+    "description" : "Description."
+  }
+}

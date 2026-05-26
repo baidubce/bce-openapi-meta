@@ -1,7 +1,6 @@
 {
-  "DeleteVpc": {
-    "desc": "删除指定 VPC，删除前需确保 VPC 内无子网等资源",
-    "vpcId": "待删除 VPC 的 ID",
-    "clientToken": "幂等性 Token"
+  "DeleteVpc" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
+    "vpcId" : "VPC的ID"
   }
 }

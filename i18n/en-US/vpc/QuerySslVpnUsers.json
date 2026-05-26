@@ -1,0 +1,8 @@
+{
+  "QuerySslVpnUsers" : {
+    "vpnId" : "The ID of the SSL-VPN",
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "The maximum number of items per page, typically no more than 1000, default value is 1000",
+    "userName" : "The username of the SSL-VPN user"
+  }
+}

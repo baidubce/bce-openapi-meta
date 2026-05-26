@@ -1,0 +1,13 @@
+{
+  "CreateDedicatedGatewayHealthCheck" : {
+    "etGatewayId" : "专线网关的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)",
+    "healthCheckSourceIp" : "若不传该参数，系统会自动分配一个IP",
+    "healthCheckType" : "参数可取值为\"ICMP\"，默认为\"ICMP\"",
+    "healthCheckPort" : "健康检查的端口",
+    "healthCheckInterval" : "健康检查的间隔，1-60之间的整数，单位s",
+    "healthThreshold" : "健康检查阈值，2-5之间的整数",
+    "unhealthThreshold" : "不健康检查阈值，2-5之间的整数",
+    "autoGenerateRouteRule" : "是否自动生成探测路由，默认开启。如需关闭，选择false。"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "ElasticNetworkCardMountedCloudProductInstance" : {
+    "eniId" : "The ID of the elastic network interface",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
+    "instanceId" : "The ID of the bound cloud product instance",
+    "instanceType" : "The type of the bound cloud product instance. Valid values: server / hpas, representing cloud server / HPAS respectively. Default value: server"
+  }
+}
