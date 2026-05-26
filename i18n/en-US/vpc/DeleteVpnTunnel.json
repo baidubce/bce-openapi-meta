@@ -1,7 +1,6 @@
 {
-  "DeleteVpnTunnel": {
-    "desc": "Delete an IPsec VPN tunnel",
-    "vpnConnId": "ID of the VPN tunnel to delete",
-    "clientToken": "Idempotent token"
+  "DeleteVpnTunnel" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/).",
+    "vpnConnId" : "The ID of the VPN tunnel."
   }
 }

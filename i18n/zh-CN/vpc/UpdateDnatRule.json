@@ -1,0 +1,15 @@
+{
+  "UpdateDnatRule" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
+    "natId" : "NAT网关ID",
+    "ruleId" : "DNAT规则ID",
+    "ruleName" : "DNAT规则名字",
+    "protocol" : "协议，支持TCP、UDP、all",
+    "publicPort" : "公网端口",
+    "privatePort" : "内网端口",
+    "publicPortRange" : "公网端口范围",
+    "privatePortRange" : "内网端口范围",
+    "privateIpAddress" : "内网IP",
+    "publicIpAddress" : "公网IP"
+  }
+}

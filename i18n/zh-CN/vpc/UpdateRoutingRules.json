@@ -1,0 +1,10 @@
+{
+  "UpdateRoutingRules" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)",
+    "routeRuleId" : "待更新的路由规则ID",
+    "sourceAddress" : "源网段，CIDR格式，可填全部网段0.0.0.0/0、VPC内已有子网网段或子网范围内网段",
+    "destinationAddress" : "目标网段，CIDR格式，可以是0.0.0.0/0，否则目的地址不能与本VPC cidr重叠（目的网段或本VPC cidr为0.0.0.0/0时例外）",
+    "nexthopId" : "下一跳ID",
+    "description" : "描述，不超过200字符"
+  }
+}

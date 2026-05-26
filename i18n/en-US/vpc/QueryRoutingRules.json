@@ -1,0 +1,8 @@
+{
+  "QueryRoutingRules" : {
+    "routeTableId" : "Route table ID. One of this parameter or vpcId is required.",
+    "vpcId" : "VPC ID. One of this parameter or routeTableId is required.",
+    "marker" : "Starting position for paginated list queries, a system-generated string.",
+    "maxKeys" : "Maximum number of entries per page, up to 1000. Default is 1000."
+  }
+}

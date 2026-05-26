@@ -1,0 +1,26 @@
+{
+  "name" : "OpenVpcRelay",
+  "method" : "PUT",
+  "uri" : "/v{version}/vpc/openRelay/{vpcId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.OpenVpcRelay.vpcId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.OpenVpcRelay.clientToken"
+  } ],
+  "desc_key" : "vpc.OpenVpcRelay.desc"
+}

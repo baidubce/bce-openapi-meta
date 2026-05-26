@@ -1,0 +1,80 @@
+{
+  "name" : "CreateGatewayLimitRules",
+  "method" : "POST",
+  "uri" : "/v{version}/gateway/limitrule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.clientToken"
+  }, {
+    "name" : "ipVersion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.ipVersion"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.description"
+  }, {
+    "name" : "serviceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.serviceType"
+  }, {
+    "name" : "subServiceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.subServiceType"
+  }, {
+    "name" : "peerRegion",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.peerRegion"
+  }, {
+    "name" : "resourceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.resourceId"
+  }, {
+    "name" : "direction",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.direction"
+  }, {
+    "name" : "cidr",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.cidr"
+  }, {
+    "name" : "bandwidth",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateGatewayLimitRules.bandwidth"
+  } ],
+  "desc_key" : "vpc.CreateGatewayLimitRules.desc"
+}

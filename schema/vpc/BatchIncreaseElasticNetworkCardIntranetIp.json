@@ -1,0 +1,44 @@
+{
+  "name" : "BatchIncreaseElasticNetworkCardIntranetIp",
+  "method" : "POST",
+  "uri" : "/v{version}/eni/{eniId}/privateIp/batchAdd",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "eniId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.BatchIncreaseElasticNetworkCardIntranetIp.eniId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.BatchIncreaseElasticNetworkCardIntranetIp.clientToken"
+  }, {
+    "name" : "isIpv6",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.BatchIncreaseElasticNetworkCardIntranetIp.isIpv6"
+  }, {
+    "name" : "privateIpAddresses",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.BatchIncreaseElasticNetworkCardIntranetIp.privateIpAddresses"
+  }, {
+    "name" : "privateIpAddressCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.BatchIncreaseElasticNetworkCardIntranetIp.privateIpAddressCount"
+  } ],
+  "desc_key" : "vpc.BatchIncreaseElasticNetworkCardIntranetIp.desc"
+}

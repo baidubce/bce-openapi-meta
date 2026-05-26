@@ -1,0 +1,7 @@
+{
+  "ListIpReserve" : {
+    "subnetId" : "The subnet ID to which the reserved IP range belongs",
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "The maximum number of items per page, up to 1000, default is 1000"
+  }
+}

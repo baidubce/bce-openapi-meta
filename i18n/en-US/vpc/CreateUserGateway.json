@@ -1,9 +1,8 @@
 {
-  "CreateUserGateway": {
-    "desc": "Create a customer gateway (remote peer gateway)",
-    "clientToken": "Idempotent token",
-    "name": "Customer gateway name",
-    "ip": "Public IP address of the customer gateway",
-    "description": "Customer gateway description"
+  "CreateUserGateway" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See ClientToken Idempotency for details.",
+    "name" : "User gateway name, must start with a letter, supports uppercase/lowercase letters, digits, and special characters -_/., max 65 characters.",
+    "ip" : "User gateway IP address.",
+    "description" : "User gateway description, max 200 characters."
   }
 }

@@ -1,0 +1,92 @@
+{
+  "name" : "UpdateEnterpriseSecurityGroupRules",
+  "method" : "PUT",
+  "uri" : "/v{version}/enterprise/security/rule/{enterpriseSecurityGroupRuleId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.clientToken"
+  }, {
+    "name" : "enterpriseSecurityGroupRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.enterpriseSecurityGroupRuleId"
+  }, {
+    "name" : "remark",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.remark"
+  }, {
+    "name" : "portRange",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.portRange"
+  }, {
+    "name" : "sourcePortRange",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.sourcePortRange"
+  }, {
+    "name" : "sourceIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.sourceIp"
+  }, {
+    "name" : "destIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.destIp"
+  }, {
+    "name" : "localIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.localIp"
+  }, {
+    "name" : "remoteIpSet",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.remoteIpSet"
+  }, {
+    "name" : "remoteIpGroup",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.remoteIpGroup"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.action"
+  }, {
+    "name" : "priority",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.priority"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.protocol"
+  } ],
+  "desc_key" : "vpc.UpdateEnterpriseSecurityGroupRules.desc"
+}

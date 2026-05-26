@@ -1,0 +1,10 @@
+{
+  "UpdateSslVpnUsers" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/)。",
+    "vpnId" : "VPN的ID",
+    "userId" : "SSL-VPN用户ID",
+    "clientName" : "客户端名称",
+    "password" : "密码，8～17位字符，英文、数字和符号必须同时存在，符号仅限!@#$%^*(_",
+    "description" : "描述"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "HighlyAvailableVirtualIpBindingInstance",
+  "method" : "PUT",
+  "uri" : "/v{version}/havip/{haVipId}?attach",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "haVipId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.HighlyAvailableVirtualIpBindingInstance.haVipId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.HighlyAvailableVirtualIpBindingInstance.clientToken"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.HighlyAvailableVirtualIpBindingInstance.instanceIds"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.HighlyAvailableVirtualIpBindingInstance.instanceType"
+  } ],
+  "desc_key" : "vpc.HighlyAvailableVirtualIpBindingInstance.desc"
+}

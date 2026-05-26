@@ -1,14 +1,5 @@
 {
   "products" : [ {
-    "code" : "vpc",
-    "protocol" : "HTTP",
-    "endpoint" : {
-      "bj" : "bcc.bj.baidubce.com",
-      "gz" : "bcc.gz.baidubce.com",
-      "su" : "bcc.su.baidubce.com",
-      "bd" : "bcc.bd.baidubce.com"
-    }
-  }, {
     "code" : "bcc",
     "protocol" : "HTTP|HTTPS",
     "endpoint" : {
@@ -44,6 +35,18 @@
       "nj" : "blb.nj.baidubce.com",
       "su" : "blb.su.baidubce.com",
       "yq" : "blb.yq.baidubce.com"
+    }
+  }, {
+    "code" : "vpc",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "bcc.bd.baidubce.com",
+      "bj" : "bcc.bj.baidubce.com",
+      "cd" : "bcc.cd.baidubce.com",
+      "fwh" : "bcc.fwh.baidubce.com",
+      "gz" : "bcc.gz.baidubce.com",
+      "hkg" : "bcc.hkg.baidubce.com",
+      "su" : "bcc.su.baidubce.com"
     }
   } ]
 }

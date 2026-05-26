@@ -1,0 +1,68 @@
+{
+  "name" : "CreateDedicatedGatewayHealthCheck",
+  "method" : "POST",
+  "uri" : "/v{version}/etGateway/{etGatewayId}/healthCheck",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "etGatewayId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.etGatewayId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.clientToken"
+  }, {
+    "name" : "healthCheckSourceIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.healthCheckSourceIp"
+  }, {
+    "name" : "healthCheckType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.healthCheckType"
+  }, {
+    "name" : "healthCheckPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.healthCheckPort"
+  }, {
+    "name" : "healthCheckInterval",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.healthCheckInterval"
+  }, {
+    "name" : "healthThreshold",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.healthThreshold"
+  }, {
+    "name" : "unhealthThreshold",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.unhealthThreshold"
+  }, {
+    "name" : "autoGenerateRouteRule",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.autoGenerateRouteRule"
+  } ],
+  "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.desc"
+}

@@ -1,0 +1,50 @@
+{
+  "name" : "UpdateRoutingRules",
+  "method" : "PUT",
+  "uri" : "/v{version}/route/rule/{routeRuleId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateRoutingRules.clientToken"
+  }, {
+    "name" : "routeRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateRoutingRules.routeRuleId"
+  }, {
+    "name" : "sourceAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRoutingRules.sourceAddress"
+  }, {
+    "name" : "destinationAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRoutingRules.destinationAddress"
+  }, {
+    "name" : "nexthopId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRoutingRules.nexthopId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRoutingRules.description"
+  } ],
+  "desc_key" : "vpc.UpdateRoutingRules.desc"
+}

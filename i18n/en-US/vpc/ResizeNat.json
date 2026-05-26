@@ -1,0 +1,7 @@
+{
+  "ResizeNat" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md)",
+    "natId" : "NAT instance ID",
+    "cuNum" : "Number of CUs for NAT gateway resize, valid range: 1–100"
+  }
+}

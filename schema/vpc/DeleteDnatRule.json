@@ -1,0 +1,32 @@
+{
+  "name" : "DeleteDnatRule",
+  "method" : "DELETE",
+  "uri" : "/v{version}/nat/{natId}/dnatRule/{ruleId}",
+  "parameters" : [ {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.DeleteDnatRule.clientToken"
+  }, {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteDnatRule.natId"
+  }, {
+    "name" : "ruleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteDnatRule.ruleId"
+  } ],
+  "desc_key" : "vpc.DeleteDnatRule.desc"
+}

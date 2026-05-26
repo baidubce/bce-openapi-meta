@@ -1,0 +1,6 @@
+{
+  "DeleteEnterpriseSecurityGroupRules" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. For details, see [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性).",
+    "enterpriseSecurityGroupRuleId" : "The ID of the enterprise security group rule to delete."
+  }
+}

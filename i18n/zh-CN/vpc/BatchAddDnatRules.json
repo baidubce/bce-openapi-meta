@@ -1,0 +1,15 @@
+{
+  "BatchAddDnatRules" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md)",
+    "natId" : "NAT网关的ID",
+    "rules" : "dnat规则集合",
+    "rules.ruleName" : "名称，由大小写字母、数字以及-\\_ /.特殊字符组成，必须以字母开头，长度1-65，非必填",
+    "rules.publicIpAddress" : "公网IP，关联在NAT网关DNAT上的EIP或共享带宽中的IP",
+    "rules.privateIpAddress" : "内网IP",
+    "rules.protocol" : "协议，支持TCP、UDP、all",
+    "rules.publicPort" : "公网端口(1-65535)，协议为TCP、UDP时有效，不能与端口范围同时指定",
+    "rules.privatePort" : "内网端口(1-65535)，协议为TCP、UDP时有效，不能与端口范围同时指定",
+    "rules.publicPortRange" : "公网端口范围，如“80-90”，协议为TCP、UDP时有效，不能与单个端口同时指定",
+    "rules.privatePortRange" : "内网端口范围，如“80-90”，协议为TCP、UDP时有效，不能与单个端口同时指定"
+  }
+}

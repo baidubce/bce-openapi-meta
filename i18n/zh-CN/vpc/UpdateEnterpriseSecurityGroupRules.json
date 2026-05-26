@@ -1,0 +1,17 @@
+{
+  "UpdateEnterpriseSecurityGroupRules" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
+    "enterpriseSecurityGroupRuleId" : "企业安全组规则ID",
+    "remark" : "描述",
+    "portRange" : "目的端口范围",
+    "sourcePortRange" : "源端口范围",
+    "sourceIp" : "入站规则源IP，仅入站规则使用，与remoteIpSet、remoteIpGroup三者选一",
+    "destIp" : "出站规则目的IP，仅出站规则使用，与remoteIpSet、remoteIpGroup三者选一",
+    "localIp" : "本端IP",
+    "remoteIpSet" : "远端IP地址组，与sourceIp(destIp)、 remoteIpGroup三者选一",
+    "remoteIpGroup" : "远端IP地址族，与sourceIp(destIp)、 remoteIpSet三者选一",
+    "action" : "允许/拒绝，取值allow或deny",
+    "priority" : "优先级",
+    "protocol" : "协议，取值all、tcp、udp或icmp"
+  }
+}

@@ -1,63 +1,48 @@
 {
-  "name": "BatchCreateSslVpnUsers",
-  "method": "POST",
-  "uri": "/v{version}/vpn/{vpnId}/sslVpnUser",
-  "desc_key": "vpc.BatchCreateSslVpnUsers.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "vpnId",
-      "type": "String",
-      "required": true,
-      "position": "URL",
-      "desc_key": "vpc.BatchCreateSslVpnUsers.vpnId"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.BatchCreateSslVpnUsers.clientToken"
-    },
-    {
-      "name": "sslVpnUsers",
-      "type": "List",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.BatchCreateSslVpnUsers.sslVpnUsers",
-      "sub_parameters": [
-        {
-          "name": "userName",
-          "type": "String",
-          "required": true,
-          "desc_key": "vpc.BatchCreateSslVpnUsers.sslVpnUsers.userName"
-        },
-        {
-          "name": "password",
-          "type": "String",
-          "required": true,
-          "desc_key": "vpc.BatchCreateSslVpnUsers.sslVpnUsers.password"
-        },
-        {
-          "name": "clientName",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.BatchCreateSslVpnUsers.sslVpnUsers.clientName"
-        },
-        {
-          "name": "description",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.BatchCreateSslVpnUsers.sslVpnUsers.description"
-        }
-      ]
-    }
-  ]
+  "name" : "BatchCreateSslVpnUsers",
+  "method" : "POST",
+  "uri" : "/v{version}/vpn/{vpnId}/sslVpnUser",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.BatchCreateSslVpnUsers.clientToken"
+  }, {
+    "name" : "vpnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.BatchCreateSslVpnUsers.vpnId"
+  }, {
+    "name" : "sslVpnUsers",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BatchCreateSslVpnUsers.sslVpnUsers",
+    "sub_parameters" : [ {
+      "name" : "userName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchCreateSslVpnUsers.sslVpnUsers.userName"
+    }, {
+      "name" : "password",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchCreateSslVpnUsers.sslVpnUsers.password"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchCreateSslVpnUsers.sslVpnUsers.description"
+    } ]
+  } ],
+  "desc_key" : "vpc.BatchCreateSslVpnUsers.desc"
 }

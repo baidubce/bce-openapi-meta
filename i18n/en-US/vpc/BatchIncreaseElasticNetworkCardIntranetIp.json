@@ -1,0 +1,9 @@
+{
+  "BatchIncreaseElasticNetworkCardIntranetIp" : {
+    "eniId" : "The ID of the elastic network interface",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
+    "isIpv6" : "Whether to assign an IPv6 address. true assigns an IPv6 address; defaults to false for IPv4",
+    "privateIpAddresses" : "Specified private IP address information, up to 10 per request. At least one of privateIpAddresses or privateIpAddressCount must be provided",
+    "privateIpAddressCount" : "Number of new private IP addresses to request, maximum 10. At least one of privateIpAddresses or privateIpAddressCount must be provided"
+  }
+}

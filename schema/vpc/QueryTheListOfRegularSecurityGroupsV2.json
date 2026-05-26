@@ -1,0 +1,50 @@
+{
+  "name" : "QueryTheListOfRegularSecurityGroupsV2",
+  "method" : "GET",
+  "uri" : "/v{version}/securityGroup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfRegularSecurityGroupsV2.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfRegularSecurityGroupsV2.maxKeys"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfRegularSecurityGroupsV2.instanceId"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfRegularSecurityGroupsV2.vpcId"
+  }, {
+    "name" : "securityGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfRegularSecurityGroupsV2.securityGroupId"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfRegularSecurityGroupsV2.securityGroupIds"
+  } ],
+  "desc_key" : "vpc.QueryTheListOfRegularSecurityGroupsV2.desc"
+}

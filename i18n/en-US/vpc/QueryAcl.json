@@ -1,0 +1,5 @@
+{
+  "QueryAcl" : {
+    "vpcId" : "The ID of the VPC"
+  }
+}

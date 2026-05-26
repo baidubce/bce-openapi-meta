@@ -1,9 +1,8 @@
 {
-  "UpdateUserGateway": {
-    "desc": "修改用户网关名称或描述",
-    "cgwId": "待修改的用户网关 ID",
-    "clientToken": "幂等性 Token",
-    "name": "用户网关新名称",
-    "description": "用户网关新描述"
+  "UpdateUserGateway" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见ClientToken幂等性。",
+    "cgwId" : "用户网关ID",
+    "name" : "用户网关名称",
+    "description" : "用户网关描述，名称与描述不能同时为空"
   }
 }

@@ -1,0 +1,80 @@
+{
+  "name" : "UpdateDnatRule",
+  "method" : "PUT",
+  "uri" : "/v{version}/nat/{natId}/dnatRule/{ruleId}",
+  "parameters" : [ {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateDnatRule.clientToken"
+  }, {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateDnatRule.natId"
+  }, {
+    "name" : "ruleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateDnatRule.ruleId"
+  }, {
+    "name" : "ruleName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDnatRule.ruleName"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDnatRule.protocol"
+  }, {
+    "name" : "publicPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDnatRule.publicPort"
+  }, {
+    "name" : "privatePort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDnatRule.privatePort"
+  }, {
+    "name" : "publicPortRange",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDnatRule.publicPortRange"
+  }, {
+    "name" : "privatePortRange",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDnatRule.privatePortRange"
+  }, {
+    "name" : "privateIpAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDnatRule.privateIpAddress"
+  }, {
+    "name" : "publicIpAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDnatRule.publicIpAddress"
+  } ],
+  "desc_key" : "vpc.UpdateDnatRule.desc"
+}

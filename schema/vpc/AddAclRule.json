@@ -1,0 +1,82 @@
+{
+  "name" : "AddAclRule",
+  "method" : "POST",
+  "uri" : "/v{version}/acl/rule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.AddAclRule.clientToken"
+  }, {
+    "name" : "aclRules",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.AddAclRule.aclRules",
+    "sub_parameters" : [ {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.subnetId"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.description"
+    }, {
+      "name" : "protocol",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.protocol"
+    }, {
+      "name" : "sourceIpAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.sourceIpAddress"
+    }, {
+      "name" : "destinationIpAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.destinationIpAddress"
+    }, {
+      "name" : "sourcePort",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.sourcePort"
+    }, {
+      "name" : "destinationPort",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.destinationPort"
+    }, {
+      "name" : "position",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.position"
+    }, {
+      "name" : "direction",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.direction"
+    }, {
+      "name" : "ipversion",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.ipversion"
+    }, {
+      "name" : "action",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddAclRule.aclRules.action"
+    } ]
+  } ],
+  "desc_key" : "vpc.AddAclRule.desc"
+}

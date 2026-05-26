@@ -1,0 +1,86 @@
+{
+  "name" : "CreateNetworkDetection",
+  "method" : "POST",
+  "uri" : "/v{version}/probe",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateNetworkDetection.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.description"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.vpcId"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.subnetId"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.protocol"
+  }, {
+    "name" : "frequency",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.frequency"
+  }, {
+    "name" : "sourceIps",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.sourceIps"
+  }, {
+    "name" : "sourceIpNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.sourceIpNum"
+  }, {
+    "name" : "destIp",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.destIp"
+  }, {
+    "name" : "destPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.destPort"
+  }, {
+    "name" : "payload",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNetworkDetection.payload"
+  } ],
+  "desc_key" : "vpc.CreateNetworkDetection.desc"
+}

@@ -1,10 +1,9 @@
 {
-  "UpdateSubnet": {
-    "desc": "Update subnet name, description, or other attributes",
-    "subnetId": "ID of the subnet to update",
-    "clientToken": "Idempotent token",
-    "name": "New subnet name, 1-65 characters",
-    "description": "New subnet description, max 200 characters",
-    "enableIpv6": "Whether to enable IPv6 (true=enable, false=disable)"
+  "UpdateSubnet" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "subnetId" : "ID of the subnet instance to be updated",
+    "name" : "Subnet name. Cannot be \"default\". Up to 65 characters, consisting of digits, letters, and underscores",
+    "description" : "Description. Up to 200 characters",
+    "enableIpv6" : "Whether to enable IPv6 CIDR block. true to enable, false to disable"
   }
 }

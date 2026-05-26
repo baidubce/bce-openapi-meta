@@ -1,0 +1,5 @@
+{
+  "QueryTheSpecifiedIpAddressFamily" : {
+    "ipGroupId" : "IP地址族的ID"
+  }
+}

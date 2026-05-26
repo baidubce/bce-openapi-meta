@@ -1,0 +1,5 @@
+{
+  "QuerySpecifiedSubnet" : {
+    "subnetId" : "待查询的子网实例ID"
+  }
+}

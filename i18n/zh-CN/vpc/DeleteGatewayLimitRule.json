@@ -1,0 +1,6 @@
+{
+  "DeleteGatewayLimitRule" : {
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "glrId" : "规则ID"
+  }
+}

@@ -1,8 +1,7 @@
 {
-  "DeleteSslVpnServer": {
-    "desc": "Delete an SSL VPN server",
-    "vpnId": "ID of the VPN gateway the server belongs to",
-    "sslVpnServerId": "ID of the SSL VPN server to delete",
-    "clientToken": "Idempotent token"
+  "DeleteSslVpnServer" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/).",
+    "vpnId" : "The ID of the VPN.",
+    "sslVpnServerId" : "The ID of the SSL-VPN server."
   }
 }

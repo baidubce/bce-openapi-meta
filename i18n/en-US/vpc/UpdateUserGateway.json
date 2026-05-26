@@ -1,9 +1,8 @@
 {
-  "UpdateUserGateway": {
-    "desc": "Update customer gateway name or description",
-    "cgwId": "ID of the customer gateway to update",
-    "clientToken": "Idempotent token",
-    "name": "New customer gateway name",
-    "description": "New customer gateway description"
+  "UpdateUserGateway" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See ClientToken Idempotency for details.",
+    "cgwId" : "User gateway ID",
+    "name" : "User gateway name",
+    "description" : "User gateway description. Name and description cannot both be empty."
   }
 }

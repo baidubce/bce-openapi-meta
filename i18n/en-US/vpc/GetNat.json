@@ -1,0 +1,5 @@
+{
+  "GetNat" : {
+    "natId" : "The ID of the NAT"
+  }
+}

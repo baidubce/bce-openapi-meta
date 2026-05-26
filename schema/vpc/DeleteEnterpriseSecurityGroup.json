@@ -1,30 +1,26 @@
 {
-  "name": "DeleteEnterpriseSecurityGroup",
-  "method": "DELETE",
-  "uri": "/v{version}/enterprise/security/{enterpriseSecurityGroupId}",
-  "desc_key": "vpc.DeleteEnterpriseSecurityGroup.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "enterpriseSecurityGroupId",
-      "type": "String",
-      "required": true,
-      "position": "URL",
-      "desc_key": "vpc.DeleteEnterpriseSecurityGroup.enterpriseSecurityGroupId"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.DeleteEnterpriseSecurityGroup.clientToken"
-    }
-  ]
+  "name" : "DeleteEnterpriseSecurityGroup",
+  "method" : "DELETE",
+  "uri" : "/v{version}/enterprise/security/{enterpriseSecurityGroupId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.DeleteEnterpriseSecurityGroup.clientToken"
+  }, {
+    "name" : "enterpriseSecurityGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteEnterpriseSecurityGroup.enterpriseSecurityGroupId"
+  } ],
+  "desc_key" : "vpc.DeleteEnterpriseSecurityGroup.desc"
 }

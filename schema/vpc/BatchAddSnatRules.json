@@ -1,0 +1,48 @@
+{
+  "name" : "BatchAddSnatRules",
+  "method" : "POST",
+  "uri" : "/v{version}/nat/snatRule/batchCreate",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.BatchAddSnatRules.clientToken"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BatchAddSnatRules.natId"
+  }, {
+    "name" : "snatRules",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BatchAddSnatRules.snatRules",
+    "sub_parameters" : [ {
+      "name" : "ruleName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddSnatRules.snatRules.ruleName"
+    }, {
+      "name" : "publicIpsAddress",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddSnatRules.snatRules.publicIpsAddress"
+    }, {
+      "name" : "sourceCIDR",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.BatchAddSnatRules.snatRules.sourceCIDR"
+    } ]
+  } ],
+  "desc_key" : "vpc.BatchAddSnatRules.desc"
+}

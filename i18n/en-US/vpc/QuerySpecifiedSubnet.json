@@ -1,0 +1,5 @@
+{
+  "QuerySpecifiedSubnet" : {
+    "subnetId" : "The subnet instance ID to be queried"
+  }
+}

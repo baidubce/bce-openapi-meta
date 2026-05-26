@@ -1,12 +1,11 @@
 {
-  "CreateSslVpnServer": {
-    "desc": "Create an SSL VPN server",
-    "vpnId": "ID of the VPN gateway the server belongs to",
-    "clientToken": "Idempotent token",
-    "sslVpnServerName": "SSL VPN server name",
-    "interfaceType": "Network interface type: tun or tap",
-    "localSubnets": "Local subnet list (array of CIDR strings)",
-    "remoteSubnet": "Client address pool CIDR assigned to VPN clients",
-    "clientDns": "DNS address assigned to VPN clients"
+  "CreateSslVpnServer" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters, see [ClientToken Idempotency](https://cloud.baidu.com/doc/VPC/s/gjwvyu77i/).",
+    "vpnId" : "The ID of the VPN",
+    "sslVpnServerName" : "SSL-VPN server instance name; alphanumeric and -_/. special characters, must start with a letter, length 1-65",
+    "interfaceType" : "SSL-VPN server interface type. Valid values: [tap, tun], default is \"tap\"",
+    "localSubnets" : "List of local network CIDRs",
+    "remoteSubnet" : "Client network CIDR",
+    "clientDns" : "DNS address of the client"
   }
 }

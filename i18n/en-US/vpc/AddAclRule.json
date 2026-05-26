@@ -1,0 +1,17 @@
+{
+  "AddAclRule" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "aclRules" : "Collection of ACL rules",
+    "aclRules.subnetId" : "ID of the subnet",
+    "aclRules.description" : "Description",
+    "aclRules.protocol" : "Protocol, including all, tcp, udp, icmp",
+    "aclRules.sourceIpAddress" : "Source IP address",
+    "aclRules.destinationIpAddress" : "Destination IP address",
+    "aclRules.sourcePort" : "Source port, e.g. 1-65535 or 8080",
+    "aclRules.destinationPort" : "Destination port, e.g. 1-65535 or 8080",
+    "aclRules.position" : "Priority, range 1-32768, must not duplicate existing entries. Lower value means higher priority; rules are matched in descending priority order",
+    "aclRules.direction" : "Direction of the rule: ingress for inbound, egress for outbound",
+    "aclRules.ipversion" : "Defaults to 4. Set to 6 and required when adding an IPv6 rule",
+    "aclRules.action" : "Policy, including allow and deny"
+  }
+}

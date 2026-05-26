@@ -1,0 +1,16 @@
+{
+  "CreateDedicatedGateway" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See ClientToken idempotency",
+    "name" : "Name of the dedicated gateway, consisting of letters, digits, and special characters -_ /., must start with a letter, length 1-65",
+    "vpcId" : "ID of the VPC to which the dedicated gateway belongs",
+    "speed" : "Bandwidth limit of the dedicated gateway in Mbps, must be an integer between 2 and 10000",
+    "description" : "Description of the dedicated gateway, up to 200 characters",
+    "etId" : "ID of the bound physical dedicated line; etId and channelId must be provided together",
+    "channelId" : "ID of the bound dedicated line channel; etId and channelId must be provided together",
+    "localCidrs" : "Cloud-side network of the dedicated gateway; users may select the VPC CIDR or specify one or more custom CIDRs. Only configurable when etId and channelId are present",
+    "tags" : "List of tag key-value pairs to be created",
+    "tags.tagKey" : "Tag key, may contain letters, digits, Chinese characters, and special characters -_ /., length 1-65",
+    "tags.tagValue" : "Tag value, may contain letters, digits, Chinese characters, and special characters -_ /., length 0-65",
+    "resourceGroupId" : "Resource group ID"
+  }
+}

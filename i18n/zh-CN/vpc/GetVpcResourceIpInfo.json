@@ -1,0 +1,9 @@
+{
+  "GetVpcResourceIpInfo" : {
+    "vpcId" : "VPC ID",
+    "subnetId" : "子网 ID",
+    "resourceType" : "产品类型，如bcc、enic、blb等",
+    "pageNo" : "pageNo >= 1 ，默认值1",
+    "pageSize" : "取值范围[1,1000]，默认值100"
+  }
+}

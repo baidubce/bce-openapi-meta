@@ -1,0 +1,19 @@
+{
+  "CreateElasticNetworkCard" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
+    "name" : "弹性网卡的名称",
+    "subnetId" : "弹性网卡所属的子网ID",
+    "securityGroupIds" : "指定绑定的普通安全组集合",
+    "enterpriseSecurityGroupIds" : "指定绑定的企业安全组集合",
+    "privateIpSet" : "指定的内网IPv4 IP信息",
+    "privateIpSet.publicIpAddress" : "弹性网卡的公网IP地址，即EIP地址",
+    "privateIpSet.primary" : "是否是主IP",
+    "privateIpSet.privateIpAddress" : "弹性网卡的内网Ip地址",
+    "ipv6PrivateIpSet" : "指定的内网IPv6 IP信息",
+    "ipv6PrivateIpSet.publicIpAddress" : "弹性网卡的公网IP地址，即EIP地址",
+    "ipv6PrivateIpSet.primary" : "是否是主IP",
+    "ipv6PrivateIpSet.privateIpAddress" : "弹性网卡的内网Ip地址",
+    "description" : "弹性网卡描述",
+    "networkInterfaceTrafficMode" : "区分创建弹性RDMA网卡（ERI）和普通弹性网卡（ENI）"
+  }
+}

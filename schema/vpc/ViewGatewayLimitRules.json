@@ -1,0 +1,50 @@
+{
+  "name" : "ViewGatewayLimitRules",
+  "method" : "GET",
+  "uri" : "/v{version}/gateway/limitrule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "serviceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ViewGatewayLimitRules.serviceType"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ViewGatewayLimitRules.name"
+  }, {
+    "name" : "glrId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ViewGatewayLimitRules.glrId"
+  }, {
+    "name" : "resourceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ViewGatewayLimitRules.resourceId"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ViewGatewayLimitRules.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ViewGatewayLimitRules.maxKeys"
+  } ],
+  "desc_key" : "vpc.ViewGatewayLimitRules.desc"
+}

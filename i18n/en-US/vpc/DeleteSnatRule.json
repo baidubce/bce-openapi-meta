@@ -1,0 +1,7 @@
+{
+  "DeleteSnatRule" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters, see [ClientToken Idempotency](BCC/API参考/通用说明.md#幂等性).",
+    "natId" : "NAT gateway ID",
+    "ruleId" : "SNAT rule ID"
+  }
+}

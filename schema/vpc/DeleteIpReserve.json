@@ -1,30 +1,26 @@
 {
-  "name": "DeleteIpReserve",
-  "method": "DELETE",
-  "uri": "/v{version}/subnet/ipreserve/{ipReserveId}",
-  "desc_key": "vpc.DeleteIpReserve.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "ipReserveId",
-      "type": "String",
-      "required": true,
-      "position": "URL",
-      "desc_key": "vpc.DeleteIpReserve.ipReserveId"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.DeleteIpReserve.clientToken"
-    }
-  ]
+  "name" : "DeleteIpReserve",
+  "method" : "DELETE",
+  "uri" : "/v{version}/subnet/ipreserve/{ipReserveId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ipReserveId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteIpReserve.ipReserveId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.DeleteIpReserve.clientToken"
+  } ],
+  "desc_key" : "vpc.DeleteIpReserve.desc"
 }

@@ -1,7 +1,6 @@
 {
-  "DeleteVpc": {
-    "desc": "Delete a VPC. Ensure no subnets or other resources exist inside",
-    "vpcId": "ID of the VPC to delete",
-    "clientToken": "Idempotent token"
+  "DeleteVpc" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性).",
+    "vpcId" : "The ID of the VPC."
   }
 }

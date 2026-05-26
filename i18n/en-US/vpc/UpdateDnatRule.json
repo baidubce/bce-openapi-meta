@@ -1,0 +1,15 @@
+{
+  "UpdateDnatRule" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性).",
+    "natId" : "NAT gateway ID",
+    "ruleId" : "DNAT rule ID",
+    "ruleName" : "DNAT rule name",
+    "protocol" : "Protocol, supports TCP, UDP, and all",
+    "publicPort" : "Public port",
+    "privatePort" : "Private port",
+    "publicPortRange" : "Public port range",
+    "privatePortRange" : "Private port range",
+    "privateIpAddress" : "Private IP address",
+    "publicIpAddress" : "Public IP address"
+  }
+}

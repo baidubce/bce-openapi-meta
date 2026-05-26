@@ -1,0 +1,62 @@
+{
+  "name" : "UpdateDedicatedGateway",
+  "method" : "PUT",
+  "uri" : "/v{version}/etGateway/{etGatewayId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "etGatewayId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateDedicatedGateway.etGatewayId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateDedicatedGateway.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDedicatedGateway.name"
+  }, {
+    "name" : "speed",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDedicatedGateway.speed"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDedicatedGateway.description"
+  }, {
+    "name" : "localCidrs",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDedicatedGateway.localCidrs"
+  }, {
+    "name" : "enableIpv6",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDedicatedGateway.enableIpv6"
+  }, {
+    "name" : "ipv6LocalCidrs",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDedicatedGateway.ipv6LocalCidrs"
+  } ],
+  "desc_key" : "vpc.UpdateDedicatedGateway.desc"
+}

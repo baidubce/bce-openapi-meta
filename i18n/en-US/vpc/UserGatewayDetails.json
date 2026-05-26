@@ -1,0 +1,5 @@
+{
+  "UserGatewayDetails" : {
+    "cgwId" : "The ID of the user gateway"
+  }
+}

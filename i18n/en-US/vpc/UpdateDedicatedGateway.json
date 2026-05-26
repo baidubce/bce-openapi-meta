@@ -1,0 +1,12 @@
+{
+  "UpdateDedicatedGateway" : {
+    "etGatewayId" : "The ID of the dedicated gateway",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md)",
+    "name" : "The name of the dedicated gateway, consisting of uppercase and lowercase letters, digits, and special characters -_ /., must start with a letter, length 1-65",
+    "speed" : "Bandwidth limit of the dedicated gateway, in Mbps. Must be an integer between 2 and 100000",
+    "description" : "The description of the dedicated gateway, no more than 200 characters",
+    "localCidrs" : "IPv4 cloud-side network of the dedicated gateway. Users can select the current VPC CIDR block or customize one or more CIDR blocks",
+    "enableIpv6" : "Whether IPv6 is enabled: 1 for enabled, 0 for disabled. IPv6 is a whitelist feature",
+    "ipv6LocalCidrs" : "IPv6 cloud-side network of the dedicated gateway. Users can select the current VPC CIDR block or customize one or more IPv6 CIDR blocks"
+  }
+}

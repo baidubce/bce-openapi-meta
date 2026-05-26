@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateNatReleaseProtectionSwitch",
+  "method" : "PUT",
+  "uri" : "/v{version}/nat/{natId}/deleteProtect",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateNatReleaseProtectionSwitch.natId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateNatReleaseProtectionSwitch.clientToken"
+  }, {
+    "name" : "deleteProtect",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateNatReleaseProtectionSwitch.deleteProtect"
+  } ],
+  "desc_key" : "vpc.UpdateNatReleaseProtectionSwitch.desc"
+}

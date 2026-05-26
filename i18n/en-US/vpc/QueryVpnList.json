@@ -1,0 +1,9 @@
+{
+  "QueryVpnList" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000, default value is 1000",
+    "vpcId" : "Identifier of the VPC to which the VPN belongs",
+    "eip" : "EIP address bound to the VPN",
+    "type" : "VPN gateway type; \"IPSec\" returns IPsec-VPN gateways, \"SSL\" returns SSL-VPN gateways, defaults to empty which returns all VPN gateway types"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "QueryTheSpecifiedIpAddressGroup" : {
+    "ipSetId" : "The ID of the IP address group"
+  }
+}

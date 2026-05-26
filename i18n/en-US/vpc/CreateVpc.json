@@ -1,13 +1,12 @@
 {
-  "CreateVpc": {
-    "desc": "Create a Virtual Private Cloud (VPC)",
-    "clientToken": "Idempotent token, max 64 ASCII characters",
-    "name": "VPC name, 1-65 characters, cannot be 'default'",
-    "description": "VPC description, max 200 characters",
-    "cidr": "IPv4 CIDR block of the VPC, e.g. 192.168.0.0/16",
-    "enableIpv6": "Whether to enable IPv6 (true=enable, default false)",
-    "tags": "List of tag key-value pairs to attach to the VPC",
-    "tags.tagKey": "Tag key",
-    "tags.tagValue": "Tag value"
+  "CreateVpc" : {
+    "clientToken" : "Idempotency token, an ASCII string not exceeding 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性).",
+    "name" : "VPC name. The value \"default\" is not allowed. Up to 65 characters, consisting of letters, digits, and underscores.",
+    "description" : "VPC description. Up to 200 characters.",
+    "cidr" : "CIDR block of the VPC.",
+    "enableIpv6" : "Whether to enable IPv6 CIDR. Set to true to enable; defaults to false.",
+    "tags" : "List of tag key-value pairs to be created.",
+    "tags.tagKey" : "Tag key. Supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /. Length: 1–65.",
+    "tags.tagValue" : "Tag value. Supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /. Length: 0–65."
   }
 }

@@ -1,0 +1,9 @@
+{
+  "GetVpcResourceIpInfo" : {
+    "vpcId" : "VPC ID",
+    "subnetId" : "Subnet ID",
+    "resourceType" : "Product type, e.g. bcc, enic, blb, etc.",
+    "pageNo" : "Page number, pageNo >= 1, default value 1",
+    "pageSize" : "Value range [1,1000], default value 100"
+  }
+}

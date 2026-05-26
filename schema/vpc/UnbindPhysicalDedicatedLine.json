@@ -1,0 +1,26 @@
+{
+  "name" : "UnbindPhysicalDedicatedLine",
+  "method" : "PUT",
+  "uri" : "/v{version}/etGateway/{etGatewayId}?unbind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "etGatewayId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UnbindPhysicalDedicatedLine.etGatewayId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UnbindPhysicalDedicatedLine.clientToken"
+  } ],
+  "desc_key" : "vpc.UnbindPhysicalDedicatedLine.desc"
+}

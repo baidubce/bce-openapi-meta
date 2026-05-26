@@ -1,0 +1,14 @@
+{
+  "UpdateAclRules" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)",
+    "aclRuleId" : "ACL规则ID",
+    "description" : "备注",
+    "protocol" : "协议，包括all/tcp/udp/icmp",
+    "sourceIpAddress" : "源IP",
+    "destinationIpAddress" : "目的IP",
+    "sourcePort" : "源端口",
+    "destinationPort" : "目的端口",
+    "position" : "优先级 1-5000且不能与已有条目重复；数值越小，优先级越高，规则匹配顺序为按优先级由高到低匹配",
+    "action" : "策略，包括allow和deny"
+  }
+}

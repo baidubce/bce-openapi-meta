@@ -1,0 +1,32 @@
+{
+  "name" : "ResizeNat",
+  "method" : "PUT",
+  "uri" : "/v{version}/nat/{natId}?resize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ResizeNat.clientToken"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.ResizeNat.natId"
+  }, {
+    "name" : "cuNum",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.ResizeNat.cuNum"
+  } ],
+  "desc_key" : "vpc.ResizeNat.desc"
+}

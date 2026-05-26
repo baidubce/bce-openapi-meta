@@ -1,0 +1,6 @@
+{
+  "QueryNetworkDetectionList" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page. Typically no more than 1000, default is 1000"
+  }
+}

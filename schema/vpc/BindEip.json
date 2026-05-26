@@ -1,37 +1,32 @@
 {
-  "name": "BindEip",
-  "method": "PUT",
-  "uri": "/v{version}/vpn/{vpnId}?bind",
-  "desc_key": "vpc.BindEip.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "vpnId",
-      "type": "String",
-      "required": true,
-      "position": "URL",
-      "desc_key": "vpc.BindEip.vpnId"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.BindEip.clientToken"
-    },
-    {
-      "name": "eip",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.BindEip.eip"
-    }
-  ]
+  "name" : "BindEip",
+  "method" : "PUT",
+  "uri" : "/v{version}/vpn/{vpnId}?bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.BindEip.clientToken"
+  }, {
+    "name" : "vpnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.BindEip.vpnId"
+  }, {
+    "name" : "eip",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BindEip.eip"
+  } ],
+  "desc_key" : "vpc.BindEip.desc"
 }

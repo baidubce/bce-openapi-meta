@@ -1,0 +1,10 @@
+{
+  "UpdateNetworkDetection" : {
+    "probeId" : "网络探测的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
+    "name" : "网络探测名称，长度不超过65个字符，可由数字、字符、下划线组成",
+    "description" : "网络探测描述，不超过200字符",
+    "destIp" : "探测目的IP",
+    "destPort" : "探测目的端口"
+  }
+}

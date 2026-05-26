@@ -1,0 +1,32 @@
+{
+  "name" : "QueryAclRules",
+  "method" : "GET",
+  "uri" : "/v{version}/acl/rule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryAclRules.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryAclRules.maxKeys"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryAclRules.subnetId"
+  } ],
+  "desc_key" : "vpc.QueryAclRules.desc"
+}

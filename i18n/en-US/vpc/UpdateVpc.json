@@ -1,11 +1,10 @@
 {
-  "UpdateVpc": {
-    "desc": "Update VPC name, description, or other attributes",
-    "vpcId": "ID of the VPC to update",
-    "clientToken": "Idempotent token",
-    "name": "New VPC name, 1-65 characters, cannot be 'default'",
-    "description": "New VPC description, max 200 characters",
-    "enableIpv6": "Whether to enable IPv6 (true=enable, false=disable)",
-    "secondaryCidr": "List of secondary CIDR blocks for the VPC (full replacement)"
+  "UpdateVpc" : {
+    "vpcId" : "The ID of the VPC",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性).",
+    "name" : "VPC name. Cannot be \"default\". Up to 65 characters, consisting of digits, letters, and underscores.",
+    "description" : "VPC description. Up to 200 characters.",
+    "enableIpv6" : "Whether to enable IPv6 CIDR block. true to enable, false to disable. If not specified, no change is made.",
+    "secondaryCidr" : "List of secondary CIDR blocks for the VPC. **Replacement update.**"
   }
 }

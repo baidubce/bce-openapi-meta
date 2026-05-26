@@ -1,0 +1,74 @@
+{
+  "name" : "UpdateRegularSecurityGroupRulesV2",
+  "method" : "PUT",
+  "uri" : "/v{version}/securityGroup/rule/update",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.clientToken"
+  }, {
+    "name" : "sgVersion",
+    "type" : "Long",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.sgVersion"
+  }, {
+    "name" : "securityGroupRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.securityGroupRuleId"
+  }, {
+    "name" : "remark",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.remark"
+  }, {
+    "name" : "portRange",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.portRange"
+  }, {
+    "name" : "sourceIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.sourceIp"
+  }, {
+    "name" : "sourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.sourceGroupId"
+  }, {
+    "name" : "destIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.destIp"
+  }, {
+    "name" : "destGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.destGroupId"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.protocol"
+  } ],
+  "desc_key" : "vpc.UpdateRegularSecurityGroupRulesV2.desc"
+}

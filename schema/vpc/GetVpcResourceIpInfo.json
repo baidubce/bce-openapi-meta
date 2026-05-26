@@ -1,0 +1,44 @@
+{
+  "name" : "GetVpcResourceIpInfo",
+  "method" : "GET",
+  "uri" : "/v{version}/vpc/resourceIp",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.GetVpcResourceIpInfo.vpcId"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.GetVpcResourceIpInfo.subnetId"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.GetVpcResourceIpInfo.resourceType"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.GetVpcResourceIpInfo.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.GetVpcResourceIpInfo.pageSize"
+  } ],
+  "desc_key" : "vpc.GetVpcResourceIpInfo.desc"
+}

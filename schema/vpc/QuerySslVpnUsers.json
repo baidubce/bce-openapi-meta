@@ -1,0 +1,38 @@
+{
+  "name" : "QuerySslVpnUsers",
+  "method" : "GET",
+  "uri" : "/v{version}/vpn/{vpnId}/sslVpnUser",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "vpnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.QuerySslVpnUsers.vpnId"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QuerySslVpnUsers.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QuerySslVpnUsers.maxKeys"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QuerySslVpnUsers.userName"
+  } ],
+  "desc_key" : "vpc.QuerySslVpnUsers.desc"
+}

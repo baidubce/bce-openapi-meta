@@ -1,0 +1,8 @@
+{
+  "ElasticNetworkCardMountedCloudProductInstance" : {
+    "eniId" : "弹性网卡的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)",
+    "instanceId" : "绑定的云产品实例ID",
+    "instanceType" : "绑定的云产品实例类型，目前取值范围为server/hpas，分别表示云主机/HPAS，默认值为server"
+  }
+}

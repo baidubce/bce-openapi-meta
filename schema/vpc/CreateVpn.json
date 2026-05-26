@@ -1,142 +1,119 @@
 {
-  "name": "CreateVpn",
-  "method": "POST",
-  "uri": "/v{version}/vpn",
-  "desc_key": "vpc.CreateVpn.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.CreateVpn.clientToken"
-    },
-    {
-      "name": "vpcId",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.vpcId"
-    },
-    {
-      "name": "vpnName",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.vpnName"
-    },
-    {
-      "name": "subnetId",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.subnetId"
-    },
-    {
-      "name": "type",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.type"
-    },
-    {
-      "name": "description",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.description"
-    },
-    {
-      "name": "eip",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.eip"
-    },
-    {
-      "name": "maxConnection",
-      "type": "Integer",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.maxConnection"
-    },
-    {
-      "name": "resourceGroupId",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.resourceGroupId"
-    },
-    {
-      "name": "deleteProtect",
-      "type": "Boolean",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.deleteProtect"
-    },
-    {
-      "name": "billing",
-      "type": "Object",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.billing",
-      "sub_parameters": [
-        {
-          "name": "paymentTiming",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.CreateVpn.billing.paymentTiming"
-        },
-        {
-          "name": "reservation",
-          "type": "Object",
-          "required": false,
-          "desc_key": "vpc.CreateVpn.billing.reservation",
-          "sub_parameters": [
-            {
-              "name": "reservationLength",
-              "type": "Integer",
-              "required": false,
-              "desc_key": "vpc.CreateVpn.billing.reservation.reservationLength"
-            },
-            {
-              "name": "reservationTimeUnit",
-              "type": "String",
-              "required": false,
-              "desc_key": "vpc.CreateVpn.billing.reservation.reservationTimeUnit"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "tags",
-      "type": "List",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateVpn.tags",
-      "sub_parameters": [
-        {
-          "name": "tagKey",
-          "type": "String",
-          "required": true,
-          "desc_key": "vpc.CreateVpn.tags.tagKey"
-        },
-        {
-          "name": "tagValue",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.CreateVpn.tags.tagValue"
-        }
-      ]
-    }
-  ]
+  "name" : "CreateVpn",
+  "method" : "POST",
+  "uri" : "/v{version}/vpn",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateVpn.clientToken"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.vpcId"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.subnetId"
+  }, {
+    "name" : "vpnName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.vpnName"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.type"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.description"
+  }, {
+    "name" : "eip",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.eip"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateVpn.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateVpn.tags.tagValue"
+    } ]
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.resourceGroupId"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateVpn.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "vpc.CreateVpn.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "vpc.CreateVpn.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vpc.CreateVpn.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "maxConnection",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.maxConnection"
+  }, {
+    "name" : "deleteProtect",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateVpn.deleteProtect"
+  } ],
+  "desc_key" : "vpc.CreateVpn.desc"
 }

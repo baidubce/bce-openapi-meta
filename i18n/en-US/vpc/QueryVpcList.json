@@ -1,0 +1,8 @@
+{
+  "QueryVpcList" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically not exceeding 1000, default value is 1000",
+    "isDefault" : "Whether it is the default VPC; valid values: true, false; if not specified, all VPCs are returned",
+    "vpcIds" : "Specifies the VPCs to query; multiple vpcIds are separated by commas"
+  }
+}

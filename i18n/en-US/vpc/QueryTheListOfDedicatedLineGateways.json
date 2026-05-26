@@ -1,0 +1,10 @@
+{
+  "QueryTheListOfDedicatedLineGateways" : {
+    "vpcId" : "The ID of the VPC",
+    "etGatewayId" : "The ID of the dedicated line gateway",
+    "name" : "The name of the dedicated line gateway, supports fuzzy query",
+    "status" : "The status of the dedicated line gateway",
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "The maximum number of items per page, not exceeding 1000. Default value is 1000"
+  }
+}

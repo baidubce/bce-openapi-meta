@@ -1,0 +1,9 @@
+{
+  "ModifyGatewayLimitRules" : {
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "glrId" : "规则ID",
+    "name" : "规则名称",
+    "description" : "描述",
+    "bandwidth" : "带宽"
+  }
+}

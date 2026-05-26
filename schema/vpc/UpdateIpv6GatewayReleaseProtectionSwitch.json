@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateIpv6GatewayReleaseProtectionSwitch",
+  "method" : "PUT",
+  "uri" : "/v{version}/IPv6Gateway/{gatewayId}/deleteProtect",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateIpv6GatewayReleaseProtectionSwitch.clientToken"
+  }, {
+    "name" : "gatewayId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateIpv6GatewayReleaseProtectionSwitch.gatewayId"
+  }, {
+    "name" : "deleteProtect",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateIpv6GatewayReleaseProtectionSwitch.deleteProtect"
+  } ],
+  "desc_key" : "vpc.UpdateIpv6GatewayReleaseProtectionSwitch.desc"
+}

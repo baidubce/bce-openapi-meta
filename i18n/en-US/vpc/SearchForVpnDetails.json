@@ -1,0 +1,5 @@
+{
+  "SearchForVpnDetails" : {
+    "vpnId" : "The ID of the VPN"
+  }
+}

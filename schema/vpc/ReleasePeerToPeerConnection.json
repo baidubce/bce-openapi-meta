@@ -1,0 +1,26 @@
+{
+  "name" : "ReleasePeerToPeerConnection",
+  "method" : "DELETE",
+  "uri" : "/v{version}/peerconn/{peerConnId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "peerConnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.ReleasePeerToPeerConnection.peerConnId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ReleasePeerToPeerConnection.clientToken"
+  } ],
+  "desc_key" : "vpc.ReleasePeerToPeerConnection.desc"
+}

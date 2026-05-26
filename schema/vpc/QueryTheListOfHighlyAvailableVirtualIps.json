@@ -1,0 +1,32 @@
+{
+  "name" : "QueryTheListOfHighlyAvailableVirtualIps",
+  "method" : "GET",
+  "uri" : "/v{version}/havip",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfHighlyAvailableVirtualIps.vpcId"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfHighlyAvailableVirtualIps.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.QueryTheListOfHighlyAvailableVirtualIps.maxKeys"
+  } ],
+  "desc_key" : "vpc.QueryTheListOfHighlyAvailableVirtualIps.desc"
+}

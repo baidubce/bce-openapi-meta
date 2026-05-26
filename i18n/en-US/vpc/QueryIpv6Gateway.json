@@ -1,0 +1,5 @@
+{
+  "QueryIpv6Gateway" : {
+    "vpcId" : "ID of the VPC"
+  }
+}

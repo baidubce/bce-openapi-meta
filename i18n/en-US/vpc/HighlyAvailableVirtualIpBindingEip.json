@@ -1,0 +1,7 @@
+{
+  "HighlyAvailableVirtualIpBindingEip" : {
+    "haVipId" : "The ID of the highly available virtual IP",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
+    "publicIpAddress" : "The address of the Elastic IP"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "QueryTheDetailsOfTheDedicatedGateway" : {
+    "etGatewayId" : "The ID of the dedicated gateway"
+  }
+}

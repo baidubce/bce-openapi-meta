@@ -1,0 +1,10 @@
+{
+  "ViewGatewayLimitRules" : {
+    "serviceType" : "Service type <br/> peerconn-Peering Connection <br/> et-Express Connect Gateway <br/> csn-Cloud Smart Network",
+    "name" : "Fuzzy query by name",
+    "glrId" : "Fuzzy query by rule ID",
+    "resourceId" : "Fuzzy query by resource ID",
+    "marker" : "Marker indicating the start position of the query, takes the value of glrId",
+    "maxKeys" : "Page size, default value 1000"
+  }
+}

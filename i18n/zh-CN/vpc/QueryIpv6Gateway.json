@@ -1,0 +1,5 @@
+{
+  "QueryIpv6Gateway" : {
+    "vpcId" : "vpc的Id"
+  }
+}

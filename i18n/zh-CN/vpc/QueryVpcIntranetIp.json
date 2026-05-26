@@ -1,0 +1,7 @@
+{
+  "QueryVpcIntranetIp" : {
+    "vpcId" : "VPC的ID",
+    "privateIpAddresses" : "要查询的ip列表；和privateIpRange不能同时为空，二者同时存在时候，以privateIpRange为准",
+    "privateIpRange" : "要查询的ip范围，格式如\"192.168.0.1-192.168.0.5\"；和privateIpAddresses不能同时为空，二者同时存在时候，以privateIpRange为准"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "AddIpv6OnlyOutboundAndNoInboundPolicy",
+  "method" : "POST",
+  "uri" : "/v{version}/IPv6Gateway/{gatewayId}/egressOnlyRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.AddIpv6OnlyOutboundAndNoInboundPolicy.clientToken"
+  }, {
+    "name" : "gatewayId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.AddIpv6OnlyOutboundAndNoInboundPolicy.gatewayId"
+  }, {
+    "name" : "cidr",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.AddIpv6OnlyOutboundAndNoInboundPolicy.cidr"
+  } ],
+  "desc_key" : "vpc.AddIpv6OnlyOutboundAndNoInboundPolicy.desc"
+}

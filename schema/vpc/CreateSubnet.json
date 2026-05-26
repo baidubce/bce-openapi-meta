@@ -1,100 +1,85 @@
 {
-  "name": "CreateSubnet",
-  "method": "POST",
-  "uri": "/v{version}/subnet",
-  "desc_key": "vpc.CreateSubnet.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.CreateSubnet.clientToken"
-    },
-    {
-      "name": "name",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSubnet.name"
-    },
-    {
-      "name": "zoneName",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSubnet.zoneName"
-    },
-    {
-      "name": "cidr",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSubnet.cidr"
-    },
-    {
-      "name": "vpcId",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSubnet.vpcId"
-    },
-    {
-      "name": "enableIpv6",
-      "type": "Boolean",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSubnet.enableIpv6"
-    },
-    {
-      "name": "vpcSecondaryCidr",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSubnet.vpcSecondaryCidr"
-    },
-    {
-      "name": "subnetType",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSubnet.subnetType"
-    },
-    {
-      "name": "description",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSubnet.description"
-    },
-    {
-      "name": "tags",
-      "type": "List",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSubnet.tags",
-      "sub_parameters": [
-        {
-          "name": "tagKey",
-          "type": "String",
-          "required": true,
-          "desc_key": "vpc.CreateSubnet.tags.tagKey"
-        },
-        {
-          "name": "tagValue",
-          "type": "String",
-          "required": false,
-          "desc_key": "vpc.CreateSubnet.tags.tagValue"
-        }
-      ]
-    }
-  ]
+  "name" : "CreateSubnet",
+  "method" : "POST",
+  "uri" : "/v{version}/subnet",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateSubnet.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSubnet.name"
+  }, {
+    "name" : "enableIpv6",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSubnet.enableIpv6"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSubnet.zoneName"
+  }, {
+    "name" : "cidr",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSubnet.cidr"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSubnet.vpcId"
+  }, {
+    "name" : "vpcSecondaryCidr",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSubnet.vpcSecondaryCidr"
+  }, {
+    "name" : "subnetType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSubnet.subnetType"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSubnet.description"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSubnet.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateSubnet.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateSubnet.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "vpc.CreateSubnet.desc"
 }

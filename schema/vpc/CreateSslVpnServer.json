@@ -1,65 +1,56 @@
 {
-  "name": "CreateSslVpnServer",
-  "method": "POST",
-  "uri": "/v{version}/vpn/{vpnId}/sslVpnServer",
-  "desc_key": "vpc.CreateSslVpnServer.desc",
-  "parameters": [
-    {
-      "name": "version",
-      "type": "String",
-      "required": false,
-      "position": "URL",
-      "default": "1",
-      "desc_key": "common.version"
-    },
-    {
-      "name": "vpnId",
-      "type": "String",
-      "required": true,
-      "position": "URL",
-      "desc_key": "vpc.CreateSslVpnServer.vpnId"
-    },
-    {
-      "name": "clientToken",
-      "type": "String",
-      "required": false,
-      "position": "QUERY",
-      "desc_key": "vpc.CreateSslVpnServer.clientToken"
-    },
-    {
-      "name": "sslVpnServerName",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSslVpnServer.sslVpnServerName"
-    },
-    {
-      "name": "interfaceType",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSslVpnServer.interfaceType"
-    },
-    {
-      "name": "localSubnets",
-      "type": "List",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSslVpnServer.localSubnets"
-    },
-    {
-      "name": "remoteSubnet",
-      "type": "String",
-      "required": true,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSslVpnServer.remoteSubnet"
-    },
-    {
-      "name": "clientDns",
-      "type": "String",
-      "required": false,
-      "position": "BODY",
-      "desc_key": "vpc.CreateSslVpnServer.clientDns"
-    }
-  ]
+  "name" : "CreateSslVpnServer",
+  "method" : "POST",
+  "uri" : "/v{version}/vpn/{vpnId}/sslVpnServer",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateSslVpnServer.clientToken"
+  }, {
+    "name" : "vpnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.CreateSslVpnServer.vpnId"
+  }, {
+    "name" : "sslVpnServerName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSslVpnServer.sslVpnServerName"
+  }, {
+    "name" : "interfaceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSslVpnServer.interfaceType"
+  }, {
+    "name" : "localSubnets",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSslVpnServer.localSubnets"
+  }, {
+    "name" : "remoteSubnet",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSslVpnServer.remoteSubnet"
+  }, {
+    "name" : "clientDns",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateSslVpnServer.clientDns"
+  } ],
+  "desc_key" : "vpc.CreateSslVpnServer.desc"
 }

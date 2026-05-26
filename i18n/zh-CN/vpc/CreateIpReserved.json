@@ -1,0 +1,9 @@
+{
+  "CreateIpReserved" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)",
+    "subnetId" : "预留网段所属的子网ID",
+    "ipCidr" : "预留网段的ip或cidr",
+    "ipVersion" : "IP版本，支持IPv4和IPv6",
+    "description" : "预留网段描述"
+  }
+}

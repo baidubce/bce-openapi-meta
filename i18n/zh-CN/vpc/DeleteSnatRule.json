@@ -1,0 +1,7 @@
+{
+  "DeleteSnatRule" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](BCC/API参考/通用说明.md#幂等性)。",
+    "natId" : "NAT网关ID",
+    "ruleId" : "SNAT规则ID"
+  }
+}

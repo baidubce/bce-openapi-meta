@@ -1,0 +1,32 @@
+{
+  "name" : "DeleteSnatRule",
+  "method" : "DELETE",
+  "uri" : "/v{version}/nat/{natId}/snatRule/{ruleId}",
+  "parameters" : [ {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.DeleteSnatRule.clientToken"
+  }, {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "natId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteSnatRule.natId"
+  }, {
+    "name" : "ruleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteSnatRule.ruleId"
+  } ],
+  "desc_key" : "vpc.DeleteSnatRule.desc"
+}
