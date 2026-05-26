@@ -1,6 +1,6 @@
 {
   "CreateEipBp" : {
-    "desc" : "createEipBp",
+    "desc" : "CreateEipBp",
     "clientToken" : "Idempotency token",
     "name" : "Bandwidth package name; auto-generated if not specified",
     "eip" : "EIP address bound to the bandwidth package",

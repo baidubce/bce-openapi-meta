@@ -1,6 +1,6 @@
 {
   "RefundEip" : {
-    "desc" : "refundEip",
+    "desc" : "预付费EIP退订",
     "eip" : "待退订的EIP，包括IPv4 EIP和IPv6 EIP。",
     "clientToken" : "幂等性Token，详见[幂等性](EIP/API参考/通用说明.md#幂等性)。"
   }

@@ -1,298 +1,299 @@
 {
   "version" : "v1",
   "style" : "rpc",
+  "description" : "eip",
   "apis" : {
     "ResizeEipBpBandwidth" : {
-      "title" : "ResizeEipBpBandwidth",
-      "summary" : "Resize EIP bandwidth package bandwidth"
+      "title" : "resizeEipBpBandwidth",
+      "summary" : "resizeEipBpBandwidth"
     },
     "CreateASharedTrafficPackage" : {
-      "title" : "CreateASharedTrafficPackage",
-      "summary" : "Create a shared traffic package"
+      "title" : "createASharedTrafficPackage",
+      "summary" : "createASharedTrafficPackage"
     },
     "QueryTheDetailsOfSharedTrafficPackages" : {
-      "title" : "QueryTheDetailsOfSharedTrafficPackages",
-      "summary" : "Query the details of shared traffic packages"
+      "title" : "queryTheDetailsOfSharedTrafficPackages",
+      "summary" : "queryTheDetailsOfSharedTrafficPackages"
     },
     "QueryTheListOfSharedTrafficPackages" : {
-      "title" : "QueryTheListOfSharedTrafficPackages",
-      "summary" : "Query the list of shared traffic packages"
+      "title" : "queryTheListOfSharedTrafficPackages",
+      "summary" : "queryTheListOfSharedTrafficPackages"
     },
     "ApplyForEip" : {
-      "title" : "ApplyForEip",
-      "summary" : "Apply for an EIP"
+      "title" : "applyForEip",
+      "summary" : "applyForEip"
     },
     "EipBandwidthScalingCapacity" : {
-      "title" : "EipBandwidthScalingCapacity",
-      "summary" : "EIP bandwidth scaling capacity"
+      "title" : "eipBandwidthScalingCapacity",
+      "summary" : "eipBandwidthScalingCapacity"
     },
     "BindEip" : {
-      "title" : "BindEip",
-      "summary" : "Bind EIP"
+      "title" : "bindEip",
+      "summary" : "bindEip"
     },
     "UnbindEip" : {
-      "title" : "UnbindEip",
-      "summary" : "Unbind EIP"
+      "title" : "unbindEip",
+      "summary" : "unbindEip"
     },
     "ReleaseEip" : {
-      "title" : "ReleaseEip",
-      "summary" : "Release EIP"
+      "title" : "releaseEip",
+      "summary" : "releaseEip"
     },
     "EipRenewal" : {
-      "title" : "EipRenewal",
-      "summary" : "Renew EIP"
+      "title" : "eipRenewal",
+      "summary" : "eipRenewal"
     },
     "StartEipAutoRenew" : {
-      "title" : "StartEipAutoRenew",
-      "summary" : "Enable EIP auto-renewal"
+      "title" : "startEipAutoRenew",
+      "summary" : "startEipAutoRenew"
     },
     "StopEipAutoRenew" : {
-      "title" : "StopEipAutoRenew",
-      "summary" : "Disable EIP auto-renewal"
+      "title" : "stopEipAutoRenew",
+      "summary" : "stopEipAutoRenew"
     },
     "DirectEip" : {
-      "title" : "DirectEip",
-      "summary" : "Enable EIP direct connection"
+      "title" : "directEip",
+      "summary" : "directEip"
     },
     "UnDirectEip" : {
-      "title" : "UnDirectEip",
-      "summary" : "Disable EIP direct connection"
+      "title" : "unDirectEip",
+      "summary" : "unDirectEip"
     },
     "ListRecycleEips" : {
-      "title" : "ListRecycleEips",
-      "summary" : "List EIPs in recycle bin"
+      "title" : "listRecycleEips",
+      "summary" : "listRecycleEips"
     },
     "OptionalReleaseEip" : {
-      "title" : "OptionalReleaseEip",
-      "summary" : "Optionally release EIP"
+      "title" : "optionalReleaseEip",
+      "summary" : "optionalReleaseEip"
     },
     "ReleaseEipFromRecycle" : {
-      "title" : "ReleaseEipFromRecycle",
-      "summary" : "Release EIP from recycle bin"
+      "title" : "releaseEipFromRecycle",
+      "summary" : "releaseEipFromRecycle"
     },
     "RestoreEipFromRecycle" : {
-      "title" : "RestoreEipFromRecycle",
-      "summary" : "Restore EIP from recycle bin"
+      "title" : "restoreEipFromRecycle",
+      "summary" : "restoreEipFromRecycle"
     },
     "RefundEip" : {
-      "title" : "RefundEip",
-      "summary" : "Refund EIP"
+      "title" : "refundEip",
+      "summary" : "refundEip"
     },
     "UpdateEipDeleteProtect" : {
-      "title" : "UpdateEipDeleteProtect",
-      "summary" : "Update EIP deletion protection"
+      "title" : "updateEipDeleteProtect",
+      "summary" : "updateEipDeleteProtect"
     },
     "EipPostpaidToPrepaid" : {
-      "title" : "EipPostpaidToPrepaid",
-      "summary" : "Convert EIP from postpaid to prepaid"
+      "title" : "eipPostpaidToPrepaid",
+      "summary" : "eipPostpaidToPrepaid"
     },
     "ReceiveEipTransfer" : {
-      "title" : "ReceiveEipTransfer",
-      "summary" : "Receive EIP transfer"
+      "title" : "receiveEipTransfer",
+      "summary" : "receiveEipTransfer"
     },
     "CancelEipTransfer" : {
-      "title" : "CancelEipTransfer",
-      "summary" : "Cancel EIP transfer"
+      "title" : "cancelEipTransfer",
+      "summary" : "cancelEipTransfer"
     },
     "ListEipGroup" : {
-      "title" : "ListEipGroup",
-      "summary" : "List EIP groups"
+      "title" : "listEipGroup",
+      "summary" : "listEipGroup"
     },
     "RejectEipTransfer" : {
-      "title" : "RejectEipTransfer",
-      "summary" : "Reject EIP transfer"
+      "title" : "rejectEipTransfer",
+      "summary" : "rejectEipTransfer"
     },
     "ListEipTransfer" : {
-      "title" : "ListEipTransfer",
-      "summary" : "List EIP transfers"
+      "title" : "listEipTransfer",
+      "summary" : "listEipTransfer"
     },
     "PurchaseReservedEipGroup" : {
-      "title" : "PurchaseReservedEipGroup",
-      "summary" : "Purchase reserved EIP group"
+      "title" : "purchaseReservedEipGroup",
+      "summary" : "purchaseReservedEipGroup"
     },
     "CreateTbsp" : {
-      "title" : "CreateTbsp",
-      "summary" : "Create TBSP"
+      "title" : "createTbsp",
+      "summary" : "createTbsp"
     },
     "BindTbspProtectionObject" : {
-      "title" : "BindTbspProtectionObject",
-      "summary" : "Bind TBSP protection object"
+      "title" : "bindTbspProtectionObject",
+      "summary" : "bindTbspProtectionObject"
     },
     "CreateEipGroup" : {
-      "title" : "CreateEipGroup",
-      "summary" : "Create EIP group"
+      "title" : "createEipGroup",
+      "summary" : "createEipGroup"
     },
     "UnbindTbspProtectionObject" : {
-      "title" : "UnbindTbspProtectionObject",
-      "summary" : "Unbind TBSP protection object"
+      "title" : "unbindTbspProtectionObject",
+      "summary" : "unbindTbspProtectionObject"
     },
     "ReleaseEipGroup" : {
-      "title" : "ReleaseEipGroup",
-      "summary" : "Release EIP group"
+      "title" : "releaseEipGroup",
+      "summary" : "releaseEipGroup"
     },
     "ListTbsp" : {
-      "title" : "ListTbsp",
-      "summary" : "List TBSPs"
+      "title" : "listTbsp",
+      "summary" : "listTbsp"
     },
     "MoveInEips" : {
-      "title" : "MoveInEips",
-      "summary" : "Move EIPs into group"
+      "title" : "moveInEips",
+      "summary" : "moveInEips"
     },
     "ListUnban" : {
-      "title" : "ListUnban",
-      "summary" : "List unban records"
+      "title" : "listUnban",
+      "summary" : "listUnban"
     },
     "DetailTbsp" : {
-      "title" : "DetailTbsp",
-      "summary" : "Get TBSP details"
+      "title" : "detailTbsp",
+      "summary" : "detailTbsp"
     },
     "MoveOutEips" : {
-      "title" : "MoveOutEips",
-      "summary" : "Move EIPs out of group"
+      "title" : "moveOutEips",
+      "summary" : "moveOutEips"
     },
     "ResizeTbsp" : {
-      "title" : "ResizeTbsp",
-      "summary" : "Resize TBSP"
+      "title" : "resizeTbsp",
+      "summary" : "resizeTbsp"
     },
     "RefundEipGroup" : {
-      "title" : "RefundEipGroup",
-      "summary" : "Refund EIP group"
+      "title" : "refundEipGroup",
+      "summary" : "refundEipGroup"
     },
     "RenewTbsp" : {
-      "title" : "RenewTbsp",
-      "summary" : "Renew TBSP"
+      "title" : "renewTbsp",
+      "summary" : "renewTbsp"
     },
     "ListTbspIpClean" : {
-      "title" : "ListTbspIpClean",
-      "summary" : "List TBSP IP cleaning rules"
+      "title" : "listTbspIpClean",
+      "summary" : "listTbspIpClean"
     },
     "UpdateEipGroup" : {
-      "title" : "UpdateEipGroup",
-      "summary" : "Update EIP group"
+      "title" : "updateEipGroup",
+      "summary" : "updateEipGroup"
     },
     "ModifyTbspIpCleanThreshold" : {
-      "title" : "ModifyTbspIpCleanThreshold",
-      "summary" : "Modify TBSP IP cleaning threshold"
+      "title" : "modifyTbspIpCleanThreshold",
+      "summary" : "modifyTbspIpCleanThreshold"
     },
     "ResizeEipGroupBandwidth" : {
-      "title" : "ResizeEipGroupBandwidth",
-      "summary" : "Resize EIP group bandwidth"
+      "title" : "resizeEipGroupBandwidth",
+      "summary" : "resizeEipGroupBandwidth"
     },
     "EnableTbspIpClean" : {
-      "title" : "EnableTbspIpClean",
-      "summary" : "Enable TBSP IP cleaning"
+      "title" : "enableTbspIpClean",
+      "summary" : "enableTbspIpClean"
     },
     "AddEipGroupCount" : {
-      "title" : "AddEipGroupCount",
-      "summary" : "Add EIPs to group"
+      "title" : "addEipGroupCount",
+      "summary" : "addEipGroupCount"
     },
     "DisableTbspIpClean" : {
-      "title" : "DisableTbspIpClean",
-      "summary" : "Disable TBSP IP cleaning"
+      "title" : "disableTbspIpClean",
+      "summary" : "disableTbspIpClean"
     },
     "ListTbspIpWhitelist" : {
-      "title" : "ListTbspIpWhitelist",
-      "summary" : "List TBSP IP whitelist entries"
+      "title" : "listTbspIpWhitelist",
+      "summary" : "listTbspIpWhitelist"
     },
     "AddTbspIpWhitelist" : {
-      "title" : "AddTbspIpWhitelist",
-      "summary" : "Add TBSP IP whitelist entry"
+      "title" : "addTbspIpWhitelist",
+      "summary" : "addTbspIpWhitelist"
     },
     "RemoveTbspIpWhitelist" : {
-      "title" : "RemoveTbspIpWhitelist",
-      "summary" : "Remove TBSP IP whitelist entry"
+      "title" : "removeTbspIpWhitelist",
+      "summary" : "removeTbspIpWhitelist"
     },
     "ListTbspAreaBlocking" : {
-      "title" : "ListTbspAreaBlocking",
-      "summary" : "List TBSP area blocking rules"
+      "title" : "listTbspAreaBlocking",
+      "summary" : "listTbspAreaBlocking"
     },
     "AddTbspAreaBlocking" : {
-      "title" : "AddTbspAreaBlocking",
-      "summary" : "Add TBSP area blocking rule"
+      "title" : "addTbspAreaBlocking",
+      "summary" : "addTbspAreaBlocking"
     },
     "RemoveTbspAreaBlocking" : {
-      "title" : "RemoveTbspAreaBlocking",
-      "summary" : "Remove TBSP area blocking rule"
+      "title" : "removeTbspAreaBlocking",
+      "summary" : "removeTbspAreaBlocking"
     },
     "ListTbspProtocolBlocking" : {
-      "title" : "ListTbspProtocolBlocking",
-      "summary" : "List TBSP protocol blocking rules"
+      "title" : "listTbspProtocolBlocking",
+      "summary" : "listTbspProtocolBlocking"
     },
     "AddTbspProtocolBlocking" : {
-      "title" : "AddTbspProtocolBlocking",
-      "summary" : "Add TBSP protocol blocking rule"
+      "title" : "addTbspProtocolBlocking",
+      "summary" : "addTbspProtocolBlocking"
     },
     "GetEipGroup" : {
-      "title" : "GetEipGroup",
-      "summary" : "Get EIP group details"
+      "title" : "getEipGroup",
+      "summary" : "getEipGroup"
     },
     "RemoveTbspProtocolBlocking" : {
-      "title" : "RemoveTbspProtocolBlocking",
-      "summary" : "Remove TBSP protocol blocking rule"
+      "title" : "removeTbspProtocolBlocking",
+      "summary" : "removeTbspProtocolBlocking"
     },
     "ModifyTbspIpProtectLevel" : {
-      "title" : "ModifyTbspIpProtectLevel",
-      "summary" : "Modify TBSP IP protection level"
+      "title" : "modifyTbspIpProtectLevel",
+      "summary" : "modifyTbspIpProtectLevel"
     },
     "BandwidthPackageInquiry" : {
-      "title" : "BandwidthPackageInquiry",
-      "summary" : "Bandwidth package price inquiry"
+      "title" : "bandwidthPackageInquiry",
+      "summary" : "bandwidthPackageInquiry"
     },
     "SharedBandwidthInquiry" : {
-      "title" : "SharedBandwidthInquiry",
-      "summary" : "Shared bandwidth price inquiry"
+      "title" : "sharedBandwidthInquiry",
+      "summary" : "sharedBandwidthInquiry"
     },
     "EipInquiry" : {
-      "title" : "EipInquiry",
-      "summary" : "EIP price inquiry"
+      "title" : "eipInquiry",
+      "summary" : "eipInquiry"
     },
     "SharedDataPackageInquiry" : {
-      "title" : "SharedDataPackageInquiry",
-      "summary" : "Shared data package price inquiry"
+      "title" : "sharedDataPackageInquiry",
+      "summary" : "sharedDataPackageInquiry"
     },
     "QueryEipList" : {
-      "title" : "QueryEipList",
-      "summary" : "Query EIP list"
+      "title" : "queryEipList",
+      "summary" : "queryEipList"
     },
     "CreateEipTransfer" : {
-      "title" : "CreateEipTransfer",
-      "summary" : "Create EIP transfer"
+      "title" : "createEipTransfer",
+      "summary" : "createEipTransfer"
     },
     "UpdateBaseDdosThreshold" : {
-      "title" : "UpdateBaseDdosThreshold",
-      "summary" : "Update base DDoS threshold"
+      "title" : "updateBaseDdosThreshold",
+      "summary" : "updateBaseDdosThreshold"
     },
     "ListBaseDdos" : {
-      "title" : "ListBaseDdos",
-      "summary" : "List base DDoS records"
+      "title" : "listBaseDdos",
+      "summary" : "listBaseDdos"
     },
     "ListBaseDdosAttackRecord" : {
-      "title" : "ListBaseDdosAttackRecord",
-      "summary" : "List base DDoS attack records"
+      "title" : "listBaseDdosAttackRecord",
+      "summary" : "listBaseDdosAttackRecord"
     },
     "CreateEipBp" : {
-      "title" : "CreateEipBp",
-      "summary" : "Create EIP bandwidth package"
+      "title" : "createEipBp",
+      "summary" : "createEipBp"
     },
     "UpdateEipBpName" : {
-      "title" : "UpdateEipBpName",
-      "summary" : "Update EIP bandwidth package name"
+      "title" : "updateEipBpName",
+      "summary" : "updateEipBpName"
     },
     "GetEipBp" : {
-      "title" : "GetEipBp",
-      "summary" : "Get EIP bandwidth package details"
+      "title" : "getEipBp",
+      "summary" : "getEipBp"
     },
     "ReleaseEipBp" : {
-      "title" : "ReleaseEipBp",
-      "summary" : "Release EIP bandwidth package"
+      "title" : "releaseEipBp",
+      "summary" : "releaseEipBp"
     },
     "UpdateEipBpAutoReleaseTime" : {
-      "title" : "UpdateEipBpAutoReleaseTime",
-      "summary" : "Update EIP bandwidth package auto-release time"
+      "title" : "updateEipBpAutoReleaseTime",
+      "summary" : "updateEipBpAutoReleaseTime"
     },
     "ListEipBp" : {
-      "title" : "ListEipBp",
-      "summary" : "List EIP bandwidth packages"
+      "title" : "listEipBp",
+      "summary" : "listEipBp"
     }
   }
 }

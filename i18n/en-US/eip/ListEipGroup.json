@@ -1,6 +1,6 @@
 {
   "ListEipGroup" : {
-    "desc" : "List shared bandwidth groups",
+    "desc" : "ListEipGroup",
     "id" : "The ID of the shared bandwidth group to query",
     "name" : "The name of the shared bandwidth group to query",
     "status" : "The status of the shared bandwidth group to query",

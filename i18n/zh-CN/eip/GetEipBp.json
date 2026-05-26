@@ -1,6 +1,6 @@
 {
   "GetEipBp" : {
-    "desc" : "getEipBp",
+    "desc" : "查询带宽包详情",
     "clientToken" : "幂等性Token",
     "id" : "带宽包id"
   }

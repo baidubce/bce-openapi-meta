@@ -1,6 +1,6 @@
 {
   "ReleaseEipBp" : {
-    "desc" : "releaseEipBp",
+    "desc" : "ReleaseEipBp",
     "clientToken" : "Idempotency token.",
     "id" : "The ID of the bandwidth package to be released."
   }

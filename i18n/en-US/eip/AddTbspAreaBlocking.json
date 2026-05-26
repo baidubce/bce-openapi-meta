@@ -1,6 +1,6 @@
 {
   "AddTbspAreaBlocking" : {
-    "desc" : "addTbspAreaBlocking",
+    "desc" : "AddTbspAreaBlocking",
     "id" : "Traffic burst service ID",
     "clientToken" : "Idempotency token, no more than 64 characters",
     "ip" : "Protected object IP address of the DDoS enhanced protection package",

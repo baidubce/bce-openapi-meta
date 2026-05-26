@@ -1,6 +1,6 @@
 {
   "DirectEip" : {
-    "desc" : "directEip",
+    "desc" : "DirectEip",
     "eip" : "The EIP to enable pass-through for, including IPv4 EIP and IPv6 EIP.",
     "clientToken" : "Idempotency token. For details, see [Idempotency](EIP/API参考/通用说明.md#幂等性)."
   }

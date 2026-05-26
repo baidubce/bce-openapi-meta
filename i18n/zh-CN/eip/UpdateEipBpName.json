@@ -1,6 +1,6 @@
 {
   "UpdateEipBpName" : {
-    "desc" : "updateEipBpName",
+    "desc" : "更新带宽包名称",
     "clientToken" : "幂等性Token",
     "id" : "带宽包id",
     "name" : "更新后带宽包的名称"

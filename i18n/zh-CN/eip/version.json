@@ -1,298 +1,299 @@
 {
   "version" : "v1",
   "style" : "rpc",
+  "description" : "弹性公网",
   "apis" : {
     "ResizeEipBpBandwidth" : {
-      "title" : "ResizeEipBpBandwidth",
-      "summary" : "resizeEipBpBandwidth"
+      "title" : "调整带宽包带宽",
+      "summary" : "调整带宽包带宽"
     },
     "CreateASharedTrafficPackage" : {
-      "title" : "CreateASharedTrafficPackage",
-      "summary" : "createASharedTrafficPackage"
+      "title" : "创建共享流量包",
+      "summary" : "创建共享流量包"
     },
     "QueryTheDetailsOfSharedTrafficPackages" : {
-      "title" : "QueryTheDetailsOfSharedTrafficPackages",
-      "summary" : "queryTheDetailsOfSharedTrafficPackages"
+      "title" : "查询共享流量包详情",
+      "summary" : "查询共享流量包详情"
     },
     "QueryTheListOfSharedTrafficPackages" : {
-      "title" : "QueryTheListOfSharedTrafficPackages",
-      "summary" : "queryTheListOfSharedTrafficPackages"
+      "title" : "查询共享流量包列表",
+      "summary" : "查询共享流量包列表"
     },
     "ApplyForEip" : {
-      "title" : "ApplyForEip",
-      "summary" : "applyForEip"
+      "title" : "申请EIP",
+      "summary" : "申请EIP"
     },
     "EipBandwidthScalingCapacity" : {
-      "title" : "EipBandwidthScalingCapacity",
-      "summary" : "eipBandwidthScalingCapacity"
+      "title" : "EIP带宽扩缩容",
+      "summary" : "EIP带宽扩缩容"
     },
     "BindEip" : {
-      "title" : "BindEip",
-      "summary" : "bindEip"
+      "title" : "绑定EIP",
+      "summary" : "绑定EIP"
     },
     "UnbindEip" : {
-      "title" : "UnbindEip",
-      "summary" : "unbindEip"
+      "title" : "解绑EIP",
+      "summary" : "解绑EIP"
     },
     "ReleaseEip" : {
-      "title" : "ReleaseEip",
-      "summary" : "releaseEip"
+      "title" : "释放EIP",
+      "summary" : "释放EIP"
     },
     "EipRenewal" : {
-      "title" : "EipRenewal",
-      "summary" : "eipRenewal"
+      "title" : "EIP续费",
+      "summary" : "EIP续费"
     },
     "StartEipAutoRenew" : {
-      "title" : "StartEipAutoRenew",
-      "summary" : "startEipAutoRenew"
+      "title" : "开通EIP自动续费",
+      "summary" : "开通EIP自动续费"
     },
     "StopEipAutoRenew" : {
-      "title" : "StopEipAutoRenew",
-      "summary" : "stopEipAutoRenew"
+      "title" : "关闭EIP自动续费",
+      "summary" : "关闭EIP自动续费"
     },
     "DirectEip" : {
-      "title" : "DirectEip",
-      "summary" : "directEip"
+      "title" : "开启EIP直通",
+      "summary" : "开启EIP直通"
     },
     "UnDirectEip" : {
-      "title" : "UnDirectEip",
-      "summary" : "unDirectEip"
+      "title" : "关闭EIP直通",
+      "summary" : "关闭EIP直通"
     },
     "ListRecycleEips" : {
-      "title" : "ListRecycleEips",
-      "summary" : "listRecycleEips"
+      "title" : "查询回收站内EIP列表",
+      "summary" : "查询回收站内EIP列表"
     },
     "OptionalReleaseEip" : {
-      "title" : "OptionalReleaseEip",
-      "summary" : "optionalReleaseEip"
+      "title" : "选择性释放EIP",
+      "summary" : "选择性释放EIP"
     },
     "ReleaseEipFromRecycle" : {
-      "title" : "ReleaseEipFromRecycle",
-      "summary" : "releaseEipFromRecycle"
+      "title" : "释放回收站内EIP",
+      "summary" : "释放回收站内EIP"
     },
     "RestoreEipFromRecycle" : {
-      "title" : "RestoreEipFromRecycle",
-      "summary" : "restoreEipFromRecycle"
+      "title" : "恢复回收站内EIP",
+      "summary" : "恢复回收站内EIP"
     },
     "RefundEip" : {
-      "title" : "RefundEip",
-      "summary" : "refundEip"
+      "title" : "预付费EIP退订",
+      "summary" : "预付费EIP退订"
     },
     "UpdateEipDeleteProtect" : {
-      "title" : "UpdateEipDeleteProtect",
-      "summary" : "updateEipDeleteProtect"
+      "title" : "更新EIP释放保护开关",
+      "summary" : "更新EIP释放保护开关"
     },
     "EipPostpaidToPrepaid" : {
-      "title" : "EipPostpaidToPrepaid",
-      "summary" : "eipPostpaidToPrepaid"
+      "title" : "EIP后付费转预付费",
+      "summary" : "EIP后付费转预付费"
     },
     "ReceiveEipTransfer" : {
-      "title" : "ReceiveEipTransfer",
-      "summary" : "receiveEipTransfer"
+      "title" : "接收EIP资源转移任务",
+      "summary" : "接收EIP资源转移任务"
     },
     "CancelEipTransfer" : {
-      "title" : "CancelEipTransfer",
-      "summary" : "cancelEipTransfer"
+      "title" : "取消EIP资源转移任务",
+      "summary" : "取消EIP资源转移任务"
     },
     "ListEipGroup" : {
-      "title" : "ListEipGroup",
-      "summary" : "listEipGroup"
+      "title" : "查询共享带宽列表",
+      "summary" : "查询共享带宽列表"
     },
     "RejectEipTransfer" : {
-      "title" : "RejectEipTransfer",
-      "summary" : "rejectEipTransfer"
+      "title" : "拒绝EIP资源转移任务",
+      "summary" : "拒绝EIP资源转移任务"
     },
     "ListEipTransfer" : {
-      "title" : "ListEipTransfer",
-      "summary" : "listEipTransfer"
+      "title" : "支持EIP资源转移任务列表",
+      "summary" : "支持EIP资源转移任务列表"
     },
     "PurchaseReservedEipGroup" : {
-      "title" : "PurchaseReservedEipGroup",
-      "summary" : "purchaseReservedEipGroup"
+      "title" : "共享带宽续费",
+      "summary" : "共享带宽续费"
     },
     "CreateTbsp" : {
-      "title" : "CreateTbsp",
-      "summary" : "createTbsp"
+      "title" : "创建DDoS增强防护包",
+      "summary" : "创建DDoS增强防护包"
     },
     "BindTbspProtectionObject" : {
-      "title" : "BindTbspProtectionObject",
-      "summary" : "bindTbspProtectionObject"
+      "title" : "绑定防护对象",
+      "summary" : "绑定防护对象"
     },
     "CreateEipGroup" : {
-      "title" : "CreateEipGroup",
-      "summary" : "createEipGroup"
+      "title" : "创建共享带宽",
+      "summary" : "创建共享带宽"
     },
     "UnbindTbspProtectionObject" : {
-      "title" : "UnbindTbspProtectionObject",
-      "summary" : "unbindTbspProtectionObject"
+      "title" : "释放防护对象",
+      "summary" : "释放防护对象"
     },
     "ReleaseEipGroup" : {
-      "title" : "ReleaseEipGroup",
-      "summary" : "releaseEipGroup"
+      "title" : "共享带宽释放",
+      "summary" : "共享带宽释放"
     },
     "ListTbsp" : {
-      "title" : "ListTbsp",
-      "summary" : "listTbsp"
+      "title" : "查询DDoS增强防护包列表",
+      "summary" : "查询DDoS增强防护包列表"
     },
     "MoveInEips" : {
-      "title" : "MoveInEips",
-      "summary" : "moveInEips"
+      "title" : "共享带宽移入EIP",
+      "summary" : "共享带宽移入EIP"
     },
     "ListUnban" : {
-      "title" : "ListUnban",
-      "summary" : "listUnban"
+      "title" : "查询封堵记录列表",
+      "summary" : "查询封堵记录列表"
     },
     "DetailTbsp" : {
-      "title" : "DetailTbsp",
-      "summary" : "detailTbsp"
+      "title" : "查询DDoS增强防护包详情",
+      "summary" : "查询DDoS增强防护包详情"
     },
     "MoveOutEips" : {
-      "title" : "MoveOutEips",
-      "summary" : "moveOutEips"
+      "title" : "共享带宽移出EIP",
+      "summary" : "共享带宽移出EIP"
     },
     "ResizeTbsp" : {
-      "title" : "ResizeTbsp",
-      "summary" : "resizeTbsp"
+      "title" : "DDoS增强防护包容量升级",
+      "summary" : "DDoS增强防护包容量升级"
     },
     "RefundEipGroup" : {
-      "title" : "RefundEipGroup",
-      "summary" : "refundEipGroup"
+      "title" : "预付费共享带宽退订",
+      "summary" : "预付费共享带宽退订"
     },
     "RenewTbsp" : {
-      "title" : "RenewTbsp",
-      "summary" : "renewTbsp"
+      "title" : "DDoS增强防护包续费",
+      "summary" : "DDoS增强防护包续费"
     },
     "ListTbspIpClean" : {
-      "title" : "ListTbspIpClean",
-      "summary" : "listTbspIpClean"
+      "title" : "查询防护IP清洗阈值列表",
+      "summary" : "查询防护IP清洗阈值列表"
     },
     "UpdateEipGroup" : {
-      "title" : "UpdateEipGroup",
-      "summary" : "updateEipGroup"
+      "title" : "共享带宽更新",
+      "summary" : "共享带宽更新"
     },
     "ModifyTbspIpCleanThreshold" : {
-      "title" : "ModifyTbspIpCleanThreshold",
-      "summary" : "modifyTbspIpCleanThreshold"
+      "title" : "修改防护IP清洗阈值",
+      "summary" : "修改防护IP清洗阈值"
     },
     "ResizeEipGroupBandwidth" : {
-      "title" : "ResizeEipGroupBandwidth",
-      "summary" : "resizeEipGroupBandwidth"
+      "title" : "共享带宽的带宽扩容",
+      "summary" : "共享带宽的带宽扩容"
     },
     "EnableTbspIpClean" : {
-      "title" : "EnableTbspIpClean",
-      "summary" : "enableTbspIpClean"
+      "title" : "打开防护IP清洗",
+      "summary" : "打开防护IP清洗"
     },
     "AddEipGroupCount" : {
-      "title" : "AddEipGroupCount",
-      "summary" : "addEipGroupCount"
+      "title" : "共享带宽IP数量升级",
+      "summary" : "共享带宽IP数量升级"
     },
     "DisableTbspIpClean" : {
-      "title" : "DisableTbspIpClean",
-      "summary" : "disableTbspIpClean"
+      "title" : "关闭防护IP清洗",
+      "summary" : "关闭防护IP清洗"
     },
     "ListTbspIpWhitelist" : {
-      "title" : "ListTbspIpWhitelist",
-      "summary" : "listTbspIpWhitelist"
+      "title" : "查询防护IP白名单列表",
+      "summary" : "查询防护IP白名单列表"
     },
     "AddTbspIpWhitelist" : {
-      "title" : "AddTbspIpWhitelist",
-      "summary" : "addTbspIpWhitelist"
+      "title" : "添加防护IP白名单",
+      "summary" : "添加防护IP白名单"
     },
     "RemoveTbspIpWhitelist" : {
-      "title" : "RemoveTbspIpWhitelist",
-      "summary" : "removeTbspIpWhitelist"
+      "title" : "删除防护IP白名单",
+      "summary" : "删除防护IP白名单"
     },
     "ListTbspAreaBlocking" : {
-      "title" : "ListTbspAreaBlocking",
-      "summary" : "listTbspAreaBlocking"
+      "title" : "查询区域封禁列表",
+      "summary" : "查询区域封禁列表"
     },
     "AddTbspAreaBlocking" : {
-      "title" : "AddTbspAreaBlocking",
-      "summary" : "addTbspAreaBlocking"
+      "title" : "添加区域封禁",
+      "summary" : "添加区域封禁"
     },
     "RemoveTbspAreaBlocking" : {
-      "title" : "RemoveTbspAreaBlocking",
-      "summary" : "removeTbspAreaBlocking"
+      "title" : "删除区域封禁",
+      "summary" : "删除区域封禁"
     },
     "ListTbspProtocolBlocking" : {
-      "title" : "ListTbspProtocolBlocking",
-      "summary" : "listTbspProtocolBlocking"
+      "title" : "查询协议封禁列表",
+      "summary" : "查询协议封禁列表"
     },
     "AddTbspProtocolBlocking" : {
-      "title" : "AddTbspProtocolBlocking",
-      "summary" : "addTbspProtocolBlocking"
+      "title" : "添加协议封禁",
+      "summary" : "添加协议封禁"
     },
     "GetEipGroup" : {
-      "title" : "GetEipGroup",
-      "summary" : "getEipGroup"
+      "title" : "查询共享带宽详情",
+      "summary" : "查询共享带宽详情"
     },
     "RemoveTbspProtocolBlocking" : {
-      "title" : "RemoveTbspProtocolBlocking",
-      "summary" : "removeTbspProtocolBlocking"
+      "title" : "删除协议封禁",
+      "summary" : "删除协议封禁"
     },
     "ModifyTbspIpProtectLevel" : {
-      "title" : "ModifyTbspIpProtectLevel",
-      "summary" : "modifyTbspIpProtectLevel"
+      "title" : "修改防护IP防护等级",
+      "summary" : "修改防护IP防护等级"
     },
     "BandwidthPackageInquiry" : {
-      "title" : "BandwidthPackageInquiry",
-      "summary" : "bandwidthPackageInquiry"
+      "title" : "带宽包询价",
+      "summary" : "带宽包询价"
     },
     "SharedBandwidthInquiry" : {
-      "title" : "SharedBandwidthInquiry",
-      "summary" : "sharedBandwidthInquiry"
+      "title" : "共享带宽询价",
+      "summary" : "共享带宽询价"
     },
     "EipInquiry" : {
-      "title" : "EipInquiry",
-      "summary" : "eipInquiry"
+      "title" : "EIP询价",
+      "summary" : "EIP询价"
     },
     "SharedDataPackageInquiry" : {
-      "title" : "SharedDataPackageInquiry",
-      "summary" : "sharedDataPackageInquiry"
+      "title" : "共享流量包询价",
+      "summary" : "共享流量包询价"
     },
     "QueryEipList" : {
-      "title" : "QueryEipList",
-      "summary" : "queryEipList"
+      "title" : "查询EIP列表",
+      "summary" : "查询EIP列表"
     },
     "CreateEipTransfer" : {
-      "title" : "CreateEipTransfer",
-      "summary" : "createEipTransfer"
+      "title" : "创建EIP资源转移任务",
+      "summary" : "创建EIP资源转移任务"
     },
     "UpdateBaseDdosThreshold" : {
-      "title" : "UpdateBaseDdosThreshold",
-      "summary" : "updateBaseDdosThreshold"
+      "title" : "修改DDoS基础防护阈值",
+      "summary" : "修改DDoS基础防护阈值"
     },
     "ListBaseDdos" : {
-      "title" : "ListBaseDdos",
-      "summary" : "listBaseDdos"
+      "title" : "查询DDoS基础防护列表",
+      "summary" : "查询DDoS基础防护列表"
     },
     "ListBaseDdosAttackRecord" : {
-      "title" : "ListBaseDdosAttackRecord",
-      "summary" : "listBaseDdosAttackRecord"
+      "title" : "查询DDoS基础防护攻击记录",
+      "summary" : "查询DDoS基础防护攻击记录"
     },
     "CreateEipBp" : {
-      "title" : "CreateEipBp",
-      "summary" : "createEipBp"
+      "title" : "创建带宽包",
+      "summary" : "创建带宽包"
     },
     "UpdateEipBpName" : {
-      "title" : "UpdateEipBpName",
-      "summary" : "updateEipBpName"
+      "title" : "更新带宽包名称",
+      "summary" : "更新带宽包名称"
     },
     "GetEipBp" : {
-      "title" : "GetEipBp",
-      "summary" : "getEipBp"
+      "title" : "查询带宽包详情",
+      "summary" : "查询带宽包详情"
     },
     "ReleaseEipBp" : {
-      "title" : "ReleaseEipBp",
-      "summary" : "releaseEipBp"
+      "title" : "释放带宽包",
+      "summary" : "释放带宽包"
     },
     "UpdateEipBpAutoReleaseTime" : {
-      "title" : "UpdateEipBpAutoReleaseTime",
-      "summary" : "updateEipBpAutoReleaseTime"
+      "title" : "更新带宽包自动释放时间",
+      "summary" : "更新带宽包自动释放时间"
     },
     "ListEipBp" : {
-      "title" : "ListEipBp",
-      "summary" : "listEipBp"
+      "title" : "查询用户带宽包列表信息",
+      "summary" : "查询用户带宽包列表信息"
     }
   }
 }

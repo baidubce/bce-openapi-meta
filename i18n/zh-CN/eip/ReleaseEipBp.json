@@ -1,6 +1,6 @@
 {
   "ReleaseEipBp" : {
-    "desc" : "releaseEipBp",
+    "desc" : "释放带宽包",
     "clientToken" : "幂等性Token。",
     "id" : "待释放的带宽包id"
   }

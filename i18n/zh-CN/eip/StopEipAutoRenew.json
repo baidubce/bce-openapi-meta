@@ -1,6 +1,6 @@
 {
   "StopEipAutoRenew" : {
-    "desc" : "stopEipAutoRenew",
+    "desc" : "关闭EIP自动续费",
     "clientToken" : "幂等性Token，详见幂等性。",
     "eip" : "待取消自动续费的EIP，包括IPv4 EIP和IPv6 EIP。"
   }

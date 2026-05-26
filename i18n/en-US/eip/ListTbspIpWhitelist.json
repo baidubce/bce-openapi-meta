@@ -1,6 +1,6 @@
 {
   "ListTbspIpWhitelist" : {
-    "desc" : "listTbspIpWhitelist",
+    "desc" : "ListTbspIpWhitelist",
     "id" : "DDoS Enhanced Protection Package ID",
     "ip" : "Protected object IP address of the DDoS enhanced protection package, supports fuzzy search",
     "ipCidr" : "IP whitelist CIDR of the DDoS enhanced protection package (IP CIDR format), supports fuzzy search",

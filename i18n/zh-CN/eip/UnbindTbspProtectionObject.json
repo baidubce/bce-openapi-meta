@@ -1,6 +1,6 @@
 {
   "UnbindTbspProtectionObject" : {
-    "desc" : "unbindTbspProtectionObject",
+    "desc" : "释放防护对象",
     "clientToken" : "幂等性Token，长度不超过64位",
     "id" : "DDoS增强防护包id",
     "ipList" : "解绑的防护对象IP列表"
