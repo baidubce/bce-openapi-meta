@@ -1,0 +1,67 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "智能云公网DNS",
+  "apis" : {
+    "QueryAndParseRecordList" : {
+      "title" : "查询解析记录列表",
+      "summary" : "查询解析记录列表"
+    },
+    "DomainNameRenewal" : {
+      "title" : "域名续费",
+      "summary" : "域名续费"
+    },
+    "UpgradeTheFreeDomainNameToTheUniversalVersion" : {
+      "title" : "免费版域名升级成普惠版",
+      "summary" : "免费版域名升级成普惠版"
+    },
+    "PurchaseAPaidDomainName" : {
+      "title" : "购买付费版域名",
+      "summary" : "购买付费版域名"
+    },
+    "QueryDomainNameList" : {
+      "title" : "查询域名列表",
+      "summary" : "查询域名列表"
+    },
+    "AddLineGroup" : {
+      "title" : "添加线路组",
+      "summary" : "添加线路组"
+    },
+    "UpdateLineGroup" : {
+      "title" : "更新线路组",
+      "summary" : "更新线路组"
+    },
+    "AddDomainName" : {
+      "title" : "添加域名",
+      "summary" : "添加域名"
+    },
+    "RemoveDomainName" : {
+      "title" : "删除域名",
+      "summary" : "删除域名"
+    },
+    "DeleteLineGroup" : {
+      "title" : "删除线路组",
+      "summary" : "删除线路组"
+    },
+    "AddParsingRecords" : {
+      "title" : "添加解析记录",
+      "summary" : "添加解析记录"
+    },
+    "ModifyParsingRecords" : {
+      "title" : "修改解析记录",
+      "summary" : "修改解析记录"
+    },
+    "ModifyTheParsingRecordStatus" : {
+      "title" : "修改解析记录状态",
+      "summary" : "修改解析记录状态"
+    },
+    "DeleteParsingRecords" : {
+      "title" : "删除解析记录",
+      "summary" : "删除解析记录"
+    },
+    "QueryTheListOfLineGroups" : {
+      "title" : "查询线路组列表",
+      "summary" : "查询线路组列表"
+    }
+  }
+}

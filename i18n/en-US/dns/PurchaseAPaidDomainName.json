@@ -1,0 +1,10 @@
+{
+  "PurchaseAPaidDomainName" : {
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters.",
+    "names" : "The name of the domain.",
+    "productVersion" : "The product version to purchase, including: Standard Edition (\"discount\") and Enterprise Edition (\"flagship\").",
+    "billing" : "Billing information.",
+    "billing.paymentTiming" : "Payment timing, either Prepaid or Postpaid; currently only Prepaid is supported.",
+    "billing.reservation" : "Reservation information; not required for Postpaid, but mandatory for Prepaid."
+  }
+}

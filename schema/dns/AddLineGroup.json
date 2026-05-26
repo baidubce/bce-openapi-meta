@@ -1,0 +1,32 @@
+{
+  "name" : "AddLineGroup",
+  "method" : "POST",
+  "uri" : "/v{version}/dns/customline",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "DNS.AddLineGroup.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "DNS.AddLineGroup.name"
+  }, {
+    "name" : "lines",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "DNS.AddLineGroup.lines"
+  } ],
+  "desc_key" : "DNS.AddLineGroup.desc"
+}

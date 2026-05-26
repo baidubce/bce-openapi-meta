@@ -1,0 +1,6 @@
+{
+  "DeleteLineGroup" : {
+    "lineId" : "线路组id。",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串。"
+  }
+}

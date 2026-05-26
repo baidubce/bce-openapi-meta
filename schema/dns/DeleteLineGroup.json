@@ -1,0 +1,26 @@
+{
+  "name" : "DeleteLineGroup",
+  "method" : "DELETE",
+  "uri" : "/v{version}/dns/customline/{lineId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "lineId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "DNS.DeleteLineGroup.lineId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "DNS.DeleteLineGroup.clientToken"
+  } ],
+  "desc_key" : "DNS.DeleteLineGroup.desc"
+}

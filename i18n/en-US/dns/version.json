@@ -1,0 +1,67 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "DNS",
+  "apis" : {
+    "QueryAndParseRecordList" : {
+      "title" : "queryAndParseRecordList",
+      "summary" : "queryAndParseRecordList"
+    },
+    "DomainNameRenewal" : {
+      "title" : "domainNameRenewal",
+      "summary" : "domainNameRenewal"
+    },
+    "UpgradeTheFreeDomainNameToTheUniversalVersion" : {
+      "title" : "upgradeTheFreeDomainNameToTheUniversalVersion",
+      "summary" : "upgradeTheFreeDomainNameToTheUniversalVersion"
+    },
+    "PurchaseAPaidDomainName" : {
+      "title" : "purchaseAPaidDomainName",
+      "summary" : "purchaseAPaidDomainName"
+    },
+    "QueryDomainNameList" : {
+      "title" : "queryDomainNameList",
+      "summary" : "queryDomainNameList"
+    },
+    "AddLineGroup" : {
+      "title" : "addLineGroup",
+      "summary" : "addLineGroup"
+    },
+    "UpdateLineGroup" : {
+      "title" : "updateLineGroup",
+      "summary" : "updateLineGroup"
+    },
+    "AddDomainName" : {
+      "title" : "addDomainName",
+      "summary" : "addDomainName"
+    },
+    "RemoveDomainName" : {
+      "title" : "removeDomainName",
+      "summary" : "removeDomainName"
+    },
+    "DeleteLineGroup" : {
+      "title" : "deleteLineGroup",
+      "summary" : "deleteLineGroup"
+    },
+    "AddParsingRecords" : {
+      "title" : "addParsingRecords",
+      "summary" : "addParsingRecords"
+    },
+    "ModifyParsingRecords" : {
+      "title" : "modifyParsingRecords",
+      "summary" : "modifyParsingRecords"
+    },
+    "ModifyTheParsingRecordStatus" : {
+      "title" : "modifyTheParsingRecordStatus",
+      "summary" : "modifyTheParsingRecordStatus"
+    },
+    "DeleteParsingRecords" : {
+      "title" : "deleteParsingRecords",
+      "summary" : "deleteParsingRecords"
+    },
+    "QueryTheListOfLineGroups" : {
+      "title" : "queryTheListOfLineGroups",
+      "summary" : "queryTheListOfLineGroups"
+    }
+  }
+}

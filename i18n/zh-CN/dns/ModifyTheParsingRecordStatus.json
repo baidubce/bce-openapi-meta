@@ -1,0 +1,8 @@
+{
+  "ModifyTheParsingRecordStatus" : {
+    "zoneName" : "域名名称。",
+    "recordId" : "解析记录id。",
+    "action" : "“enable”/“disable”分别代表启用/暂停该条解析记录。",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串。"
+  }
+}

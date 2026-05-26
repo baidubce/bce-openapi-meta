@@ -1,0 +1,9 @@
+{
+  "QueryAndParseRecordList" : {
+    "zoneName" : "The name of the domain.",
+    "rr" : "Host record, e.g. \"www\".",
+    "id" : "DNS record ID.",
+    "marker" : "The starting position for paginated list queries, a system-generated string.",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000. Default is 1000."
+  }
+}

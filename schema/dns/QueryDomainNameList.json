@@ -1,0 +1,32 @@
+{
+  "name" : "QueryDomainNameList",
+  "method" : "GET",
+  "uri" : "/v{version}/dns/zone",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "DNS.QueryDomainNameList.name"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "DNS.QueryDomainNameList.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "DNS.QueryDomainNameList.maxKeys"
+  } ],
+  "desc_key" : "DNS.QueryDomainNameList.desc"
+}

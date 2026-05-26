@@ -1,0 +1,7 @@
+{
+  "QueryDomainNameList" : {
+    "name" : "The name of the domain, supports fuzzy search.",
+    "marker" : "The starting position for paginated list queries, a system-generated string.",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000, default is 1000."
+  }
+}
