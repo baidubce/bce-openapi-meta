@@ -1,6 +1,5 @@
 {
   "DescribeAppBlbs" : {
-    "desc" : "describeAppBlbs",
     "address" : "要查询的LoadBalancer地址，格式为点分十进制的IP",
     "name" : "要查询的LoadBalancer名称",
     "blbId" : "要查询的LoadBalancer ID（只支持精确查询）",

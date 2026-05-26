@@ -1,162 +1,163 @@
 {
   "version" : "v1",
   "style" : "rpc",
+  "description" : "负载均衡",
   "apis" : {
     "DescribeAppBlbPolicy" : {
-      "title" : "DescribeAppBlbPolicy",
-      "summary" : "describeAppBlbPolicy"
+      "title" : "查询转发策略",
+      "summary" : "查询转发策略"
     },
     "UpdateBlbModifyProtection" : {
-      "title" : "UpdateBlbModifyProtection",
-      "summary" : "updateBlbModifyProtection"
+      "title" : "修改保护开关",
+      "summary" : "修改保护开关"
     },
     "CreateAppBlb" : {
-      "title" : "CreateAppBlb",
-      "summary" : "LoadBalancer实例的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文。默认为空"
+      "title" : "创建实例",
+      "summary" : "创建实例"
     },
     "UpdateAppBlb" : {
-      "title" : "UpdateAppBlb",
-      "summary" : "LoadBalancer实例的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文。默认为空"
+      "title" : "更新实例",
+      "summary" : "更新实例"
     },
     "CreateAppBlbSslListener" : {
-      "title" : "CreateAppBlbSslListener",
-      "summary" : "createAppBlbSslListener"
+      "title" : "创建SSL监听器",
+      "summary" : "创建SSL监听器"
     },
     "CreateAppBlbTcpListener" : {
-      "title" : "CreateAppBlbTcpListener",
-      "summary" : "createAppBlbTcpListener"
+      "title" : "创建TCP监听器",
+      "summary" : "创建TCP监听器"
     },
     "CreateAppBlbHttpsListener" : {
-      "title" : "CreateAppBlbHttpsListener",
-      "summary" : "createAppBlbHttpsListener"
+      "title" : "创建HTTPS监听器",
+      "summary" : "创建HTTPS监听器"
     },
     "CreateAppBlbHttpListener" : {
-      "title" : "CreateAppBlbHttpListener",
-      "summary" : "createAppBlbHttpListener"
+      "title" : "创建HTTP监听器",
+      "summary" : "创建HTTP监听器"
     },
     "DescribeAppBlb" : {
-      "title" : "DescribeAppBlb",
-      "summary" : "describeAppBlb"
+      "title" : "查询实例详情",
+      "summary" : "查询实例详情"
     },
     "CreateAppBlbUdpListener" : {
-      "title" : "CreateAppBlbUdpListener",
-      "summary" : "createAppBlbUdpListener"
+      "title" : "创建UDP监听器",
+      "summary" : "创建UDP监听器"
     },
     "DescribeAppBlbSslListener" : {
-      "title" : "DescribeAppBlbSslListener",
-      "summary" : "describeAppBlbSslListener"
+      "title" : "查询SSL监听器",
+      "summary" : "查询SSL监听器"
     },
     "UpdateAppBlbHttpsListener" : {
-      "title" : "UpdateAppBlbHttpsListener",
-      "summary" : "updateAppBlbHttpsListener"
+      "title" : "更新HTTPS监听器",
+      "summary" : "更新HTTPS监听器"
     },
     "DescribeAppBlbTcpListener" : {
-      "title" : "DescribeAppBlbTcpListener",
-      "summary" : "describeAppBlbTcpListener"
+      "title" : "查询TCP监听器",
+      "summary" : "查询TCP监听器"
     },
     "UpdateAppBlbSslListener" : {
-      "title" : "UpdateAppBlbSslListener",
-      "summary" : "updateAppBlbSslListener"
+      "title" : "更新SSL监听器",
+      "summary" : "更新SSL监听器"
     },
     "UpdateAppBlbTcpListener" : {
-      "title" : "UpdateAppBlbTcpListener",
-      "summary" : "updateAppBlbTcpListener"
+      "title" : "更新TCP监听器",
+      "summary" : "更新TCP监听器"
     },
     "UpdateAppBlbHttpListener" : {
-      "title" : "UpdateAppBlbHttpListener",
-      "summary" : "updateAppBlbHttpListener"
+      "title" : "更新HTTP监听器",
+      "summary" : "更新HTTP监听器"
     },
     "CreateBlb" : {
-      "title" : "CreateBlb",
-      "summary" : "LoadBalancer实例的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文，默认为空"
+      "title" : "创建实例",
+      "summary" : "创建实例"
     },
     "DescribeBlbs" : {
-      "title" : "DescribeBlbs",
-      "summary" : "describeBlbs"
+      "title" : "查询实例",
+      "summary" : "查询实例"
     },
     "CreateAppBlbPolicy" : {
-      "title" : "CreateAppBlbPolicy",
-      "summary" : "createAppBlbPolicy"
+      "title" : "创建策略",
+      "summary" : "创建策略"
     },
     "UpdateAppBlbUdpListener" : {
-      "title" : "UpdateAppBlbUdpListener",
-      "summary" : "updateAppBlbUdpListener"
+      "title" : "更新UDP监听器",
+      "summary" : "更新UDP监听器"
     },
     "UpdateBlb" : {
-      "title" : "UpdateBlb",
-      "summary" : "LoadBalancer实例的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文。默认为空"
+      "title" : "更新实例",
+      "summary" : "更新实例"
     },
     "DescribeBlb" : {
-      "title" : "DescribeBlb",
-      "summary" : "describeBlb"
+      "title" : "查询实例详情",
+      "summary" : "查询实例详情"
     },
     "UpdateBlbAcl" : {
-      "title" : "UpdateBlbAcl",
-      "summary" : "updateBlbAcl"
+      "title" : "更新实例ACL功能",
+      "summary" : "更新实例ACL功能"
     },
     "DescribeAppBlbHttpsListener" : {
-      "title" : "DescribeAppBlbHttpsListener",
-      "summary" : "describeAppBlbHttpsListener"
+      "title" : "查询HTTPS监听器",
+      "summary" : "查询HTTPS监听器"
     },
     "DescribeAppBlbListener" : {
-      "title" : "DescribeAppBlbListener",
-      "summary" : "describeAppBlbListener"
+      "title" : "查询所有监听",
+      "summary" : "查询所有监听"
     },
     "DescribeAppBlbUdpListener" : {
-      "title" : "DescribeAppBlbUdpListener",
-      "summary" : "describeAppBlbUdpListener"
+      "title" : "查询UDP监听器",
+      "summary" : "查询UDP监听器"
     },
     "ReleaseBlb" : {
-      "title" : "ReleaseBlb",
-      "summary" : "releaseBlb"
+      "title" : "释放实例",
+      "summary" : "释放实例"
     },
     "DeleteAppBlbListener" : {
-      "title" : "DeleteAppBlbListener",
-      "summary" : "deleteAppBlbListener"
+      "title" : "释放监听器",
+      "summary" : "释放监听器"
     },
     "DescribeAppBlbs" : {
-      "title" : "DescribeAppBlbs",
-      "summary" : "describeAppBlbs"
+      "title" : "查询实例",
+      "summary" : "查询实例"
     },
     "DeleteAppBlbPolicy" : {
-      "title" : "DeleteAppBlbPolicy",
-      "summary" : "deleteAppBlbPolicy"
+      "title" : "删除策略",
+      "summary" : "删除策略"
     },
     "UpdateAppBlbPolicy" : {
-      "title" : "UpdateAppBlbPolicy",
-      "summary" : "updateAppBlbPolicy"
+      "title" : "修改策略",
+      "summary" : "修改策略"
     },
     "DescribeAppBlbHttpListener" : {
-      "title" : "DescribeAppBlbHttpListener",
-      "summary" : "describeAppBlbHttpListener"
+      "title" : "查询HTTP监听器",
+      "summary" : "查询HTTP监听器"
     },
     "ReleaseAppBlb" : {
-      "title" : "ReleaseAppBlb",
-      "summary" : "releaseAppBlb"
+      "title" : "释放实例",
+      "summary" : "释放实例"
     },
     "BlbInquiry" : {
-      "title" : "BlbInquiry",
-      "summary" : "blbInquiry"
+      "title" : "BLB询价",
+      "summary" : "BLB询价"
     },
     "BillingChangePostToPreBlb" : {
-      "title" : "BillingChangePostToPreBlb",
-      "summary" : "billingChangePostToPreBlb"
+      "title" : "BLB计费变更-后付费转预付费",
+      "summary" : "BLB计费变更-后付费转预付费"
     },
     "BillingChangePreToPostBlb" : {
-      "title" : "BillingChangePreToPostBlb",
-      "summary" : "billingChangePreToPostBlb"
+      "title" : "BLB计费变更-预付费转后付费",
+      "summary" : "BLB计费变更-预付费转后付费"
     },
     "BillingChangeCancelToPostBlb" : {
-      "title" : "BillingChangeCancelToPostBlb",
-      "summary" : "billingChangeCancelToPostBlb"
+      "title" : "BLB计费变更-取消预付费转后付费",
+      "summary" : "BLB计费变更-取消预付费转后付费"
     },
     "ResizeBlb" : {
-      "title" : "ResizeBlb",
-      "summary" : "resizeBlb"
+      "title" : "BLB-变配",
+      "summary" : "BLB-变配"
     },
     "RefundBlb" : {
-      "title" : "RefundBlb",
-      "summary" : "refundBlb"
+      "title" : "BLB退订接口",
+      "summary" : "BLB退订接口"
     }
   }
 }

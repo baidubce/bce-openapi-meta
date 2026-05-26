@@ -1,6 +1,5 @@
 {
   "BillingChangePreToPostBlb" : {
-    "desc" : "billingChangePreToPostBlb",
     "blbId" : "The identifier of the LoadBalancer",
     "clientToken" : "Idempotent token, no more than 64 characters in length",
     "billingMethod" : "Billing method. \"BySpec\" indicates billing by fixed specification (default), \"ByCapacityUnit\" indicates billing by actual usage.",

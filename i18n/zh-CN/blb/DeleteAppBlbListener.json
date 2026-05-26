@@ -1,6 +1,5 @@
 {
   "DeleteAppBlbListener" : {
-    "desc" : "deleteAppBlbListener",
     "blbId" : "所属LoadBalancer的标识符",
     "clientToken" : "幂等性Token",
     "portList" : "所有待释放的监听器的端口，一起组成一个数组",

@@ -1,6 +1,5 @@
 {
   "DescribeAppBlbPolicy" : {
-    "desc" : "describeAppBlbPolicy",
     "blbId" : "所属LoadBalancer的标识符",
     "port" : "BLB下监听器端口号",
     "type" : "当监听器端口下有多个协议时，type必传",

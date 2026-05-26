@@ -1,6 +1,5 @@
 {
   "UpdateAppBlbPolicy" : {
-    "desc" : "updateAppBlbPolicy",
     "blbId" : "ID of the blb to operate on",
     "clientToken" : "Idempotency token, max 64 characters",
     "port" : "Listener port",

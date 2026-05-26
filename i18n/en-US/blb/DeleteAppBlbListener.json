@@ -1,6 +1,5 @@
 {
   "DeleteAppBlbListener" : {
-    "desc" : "Delete App blb Listener",
     "blbId" : "Identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token",
     "portList" : "Array of ports for all listeners to be released",

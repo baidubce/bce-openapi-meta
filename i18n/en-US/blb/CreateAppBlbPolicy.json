@@ -1,6 +1,5 @@
 {
   "CreateAppBlbPolicy" : {
-    "desc" : "createAppBlbPolicy",
     "blbId" : "Identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token",
     "listenerPort" : "Listener port number under the corresponding blb",

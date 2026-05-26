@@ -1,6 +1,5 @@
 {
   "DescribeAppBlbHttpListener" : {
-    "desc" : "describeAppBlbHttpListener",
     "blbId" : "所属LoadBalancer的标识符",
     "listenerPort" : "要查询的监听器端口",
     "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",

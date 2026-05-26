@@ -1,6 +1,5 @@
 {
   "UpdateAppBlbPolicy" : {
-    "desc" : "updateAppBlbPolicy",
     "blbId" : "所操作BLB的ID",
     "clientToken" : "幂等性Token，长度不超过64位",
     "port" : "监听端口",

@@ -1,6 +1,5 @@
 {
   "UpdateAppBlbTcpListener" : {
-    "desc" : "updateAppBlbTcpListener",
     "blbId" : "The identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token, up to 64 characters in length",
     "listenerPort" : "Listener port number",

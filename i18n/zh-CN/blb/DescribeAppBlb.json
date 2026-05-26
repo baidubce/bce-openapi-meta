@@ -1,6 +1,5 @@
 {
   "DescribeAppBlb" : {
-    "desc" : "describeAppBlb",
     "blbId" : "要查询的LoadBalancer的标识符（必须输入完整的blbId）"
   }
 }

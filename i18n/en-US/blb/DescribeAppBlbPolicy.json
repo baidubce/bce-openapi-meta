@@ -1,6 +1,5 @@
 {
   "DescribeAppBlbPolicy" : {
-    "desc" : "describeAppBlbPolicy",
     "blbId" : "Identifier of the associated LoadBalancer",
     "port" : "Listener port number under the blb",
     "type" : "Required when multiple protocols exist under the listener port",

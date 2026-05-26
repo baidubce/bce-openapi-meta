@@ -1,6 +1,5 @@
 {
   "CreateAppBlbUdpListener" : {
-    "desc" : "createAppBlbUdpListener",
     "blbId" : "Identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token, no more than 64 characters",
     "listenerPort" : "Listening port of the listener, must be an integer between 1 and 65535",

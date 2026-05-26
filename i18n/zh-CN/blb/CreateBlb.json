@@ -1,8 +1,8 @@
 {
   "CreateBlb" : {
-    "desc" : "LoadBalancer实例的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文，默认为空",
     "clientToken" : "幂等性Token，长度不超过64位",
     "name" : "LoadBalancer的名称，方便记忆。长度1~65个字节，字母开头，可包含字母数字-\\_/.字符。若不传该参数，会自动生成",
+    "desc" : "LoadBalancer实例的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文，默认为空",
     "vpcId" : "LoadBalancer实例所属VPC的ID",
     "subnetId" : "LoadBalancer实例所属子网的ID",
     "address" : "指定负载均衡实例的私网IP地址，该地址必须包含在子网网段下。",

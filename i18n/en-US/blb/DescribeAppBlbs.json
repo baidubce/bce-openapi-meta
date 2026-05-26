@@ -1,6 +1,5 @@
 {
   "DescribeAppBlbs" : {
-    "desc" : "Describes a list of application-type load balancers",
     "address" : "The IP address of the LoadBalancer to query, in dotted-decimal notation",
     "name" : "The name of the LoadBalancer to query",
     "blbId" : "The ID of the LoadBalancer to query (exact match only)",

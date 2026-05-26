@@ -1,6 +1,5 @@
 {
   "CreateAppBlbHttpListener" : {
-    "desc" : "createAppBlbHttpListener",
     "blbId" : "所属LoadBalancer的标识符",
     "clientToken" : "幂等性Token，长度不超过64位",
     "listenerPort" : "监听器的监听端口，需为1-65535间的整数",

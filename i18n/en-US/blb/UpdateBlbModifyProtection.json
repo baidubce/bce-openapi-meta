@@ -1,6 +1,5 @@
 {
   "UpdateBlbModifyProtection" : {
-    "desc" : "updateBlbModifyProtection",
     "blbId" : "The identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
     "allowModify" : "true indicates modification is allowed (protection disabled); false indicates modification is not allowed (protection enabled)",

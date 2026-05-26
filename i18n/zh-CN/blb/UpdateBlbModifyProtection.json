@@ -1,6 +1,5 @@
 {
   "UpdateBlbModifyProtection" : {
-    "desc" : "updateBlbModifyProtection",
     "blbId" : "所属LoadBalancer的标识符",
     "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
     "allowModify" : "true表示允许修改（关闭保护）；false表示不允许修改（开启保护）",

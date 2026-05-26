@@ -1,6 +1,5 @@
 {
   "ResizeBlb" : {
-    "desc" : "resizeBlb",
     "blbId" : "LoadBalancer的标识符",
     "clientToken" : "幂等性Token，长度不超过64位",
     "performanceLevel" : "性能规格。取值如下：\"small1\"标准型1，\"small2\"标准型2，\"medium1\"增强型1，\"medium2\"增强型2，\"large1\"超大型1，\"large2\"超大型2，\"large3\"超大型3。仅后付费-按使用量支持变配为\"unlimited\"不限速。"

@@ -1,6 +1,5 @@
 {
   "DescribeBlb" : {
-    "desc" : "describeBlb",
     "blbId" : "要查询的LoadBalancer的标识符",
     "type" : "指定查询负载均衡实例的类型，不传默认为普通型，传\"ipv6\"代表查询ipv6类型的BLB。"
   }
