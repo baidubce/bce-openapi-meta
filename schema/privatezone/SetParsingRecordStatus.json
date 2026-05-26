@@ -1,0 +1,32 @@
+{
+  "name" : "SetParsingRecordStatus",
+  "method" : "PUT",
+  "uri" : "/v{version}/privatezone/record/{recordId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.SetParsingRecordStatus.clientToken"
+  }, {
+    "name" : "recordId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "PrivateZone.SetParsingRecordStatus.recordId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.SetParsingRecordStatus.action"
+  } ],
+  "desc_key" : "PrivateZone.SetParsingRecordStatus.desc"
+}

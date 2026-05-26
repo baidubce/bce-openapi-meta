@@ -1,0 +1,12 @@
+{
+  "AddParsingRecords" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](DNS/API参考/通用说明.md#幂等性)",
+    "zoneId" : "Zone的ID",
+    "rr" : "主机记录,不能与已有记录重复,记录值和zone的name长度加在一起不能超过255",
+    "value" : "记录值",
+    "type" : "解析记录类型，目前支持A, AAAA,CNAME, TXT, MX, PTR, SRV",
+    "priority" : "MX记录的优先级，取值范围：[0,100]。记录类型为MX记录时，此参数必选。",
+    "ttl" : "生存时间，值为[5,24*3600]，默认为60",
+    "description" : "描述"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name" : "QueryAndParseRecordList",
+  "method" : "GET",
+  "uri" : "/v{version}/privatezone/{zoneId}/record",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "zoneId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "PrivateZone.QueryAndParseRecordList.zoneId"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.QueryAndParseRecordList.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.QueryAndParseRecordList.maxKeys"
+  }, {
+    "name" : "rr",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.QueryAndParseRecordList.rr"
+  }, {
+    "name" : "searchMode",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.QueryAndParseRecordList.searchMode"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.QueryAndParseRecordList.type"
+  }, {
+    "name" : "value",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.QueryAndParseRecordList.value"
+  } ],
+  "desc_key" : "PrivateZone.QueryAndParseRecordList.desc"
+}

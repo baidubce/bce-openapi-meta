@@ -1,0 +1,12 @@
+{
+  "ModifyParsingRecords" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
+    "recordId" : "ID of the DNS record",
+    "rr" : "Host record",
+    "value" : "Record value",
+    "type" : "DNS record type. Supported types: A, AAAA, CNAME, TXT, MX, PTR, SRV",
+    "ttl" : "Time to live, range [5, 24*3600], default 60",
+    "priority" : "Priority of MX record, range [0, 100]. Required when record type is MX.",
+    "description" : "Description"
+  }
+}

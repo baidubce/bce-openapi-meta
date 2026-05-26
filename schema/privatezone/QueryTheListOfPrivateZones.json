@@ -1,0 +1,26 @@
+{
+  "name" : "QueryTheListOfPrivateZones",
+  "method" : "GET",
+  "uri" : "/v{version}/privatezone",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.QueryTheListOfPrivateZones.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.QueryTheListOfPrivateZones.maxKeys"
+  } ],
+  "desc_key" : "PrivateZone.QueryTheListOfPrivateZones.desc"
+}

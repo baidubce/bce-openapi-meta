@@ -1,0 +1,12 @@
+{
+  "ModifyParsingRecords" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](DNS/API参考/通用说明.md#幂等性)",
+    "recordId" : "解析记录的ID",
+    "rr" : "主机记录",
+    "value" : "记录值",
+    "type" : "解析记录类型，目前支持A, AAAA,CNAME, TXT, MX, PTR, SRV",
+    "ttl" : "生存时间，值为[5,24*3600]，默认为60",
+    "priority" : "MX记录的优先级，取值范围：[0,100]。记录类型为MX记录时，此参数必选。",
+    "description" : "描述"
+  }
+}

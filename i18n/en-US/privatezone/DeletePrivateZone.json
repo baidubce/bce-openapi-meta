@@ -1,0 +1,6 @@
+{
+  "DeletePrivateZone" : {
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
+    "zoneId" : "The ID of the Zone"
+  }
+}

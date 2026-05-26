@@ -1,0 +1,6 @@
+{
+  "DeletePrivateZone" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](DNS/API参考/通用说明.md#幂等性)",
+    "zoneId" : "Zone的ID"
+  }
+}

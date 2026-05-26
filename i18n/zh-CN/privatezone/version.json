@@ -1,0 +1,51 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "智能云解析 PrivateZone",
+  "apis" : {
+    "AddParsingRecords" : {
+      "title" : "添加解析记录",
+      "summary" : "添加解析记录"
+    },
+    "QueryTheListOfPrivateZones" : {
+      "title" : "查询PrivateZone列表",
+      "summary" : "查询PrivateZone列表"
+    },
+    "SearchForDetailsOfPrivatzone" : {
+      "title" : "查询PrivateZone详情",
+      "summary" : "查询PrivateZone详情"
+    },
+    "CreateAPrivateZone" : {
+      "title" : "创建PrivateZone",
+      "summary" : "创建PrivateZone"
+    },
+    "AssociateVpc" : {
+      "title" : "关联VPC",
+      "summary" : "关联VPC"
+    },
+    "DeleteParsingRecords" : {
+      "title" : "删除解析记录",
+      "summary" : "删除解析记录"
+    },
+    "SetParsingRecordStatus" : {
+      "title" : "设置解析记录状态",
+      "summary" : "设置解析记录状态"
+    },
+    "DeletePrivateZone" : {
+      "title" : "删除PrivateZone",
+      "summary" : "删除PrivateZone"
+    },
+    "QueryAndParseRecordList" : {
+      "title" : "查询解析记录列表",
+      "summary" : "查询解析记录列表"
+    },
+    "DisassociateVpc" : {
+      "title" : "解关联VPC",
+      "summary" : "解关联VPC"
+    },
+    "ModifyParsingRecords" : {
+      "title" : "修改解析记录",
+      "summary" : "修改解析记录"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "DisassociateVpc",
+  "method" : "PUT",
+  "uri" : "/v{version}/privatezone/{zoneId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "zoneId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "PrivateZone.DisassociateVpc.zoneId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.DisassociateVpc.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.DisassociateVpc.clientToken"
+  }, {
+    "name" : "region",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "PrivateZone.DisassociateVpc.region"
+  }, {
+    "name" : "vpcIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "PrivateZone.DisassociateVpc.vpcIds"
+  } ],
+  "desc_key" : "PrivateZone.DisassociateVpc.desc"
+}
