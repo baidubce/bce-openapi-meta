@@ -1,6 +1,6 @@
 {
   "UpdateEipBpAutoReleaseTime" : {
-    "desc" : "updateEipBpAutoReleaseTime",
+    "desc" : "UpdateEipBpAutoReleaseTime",
     "clientToken" : "Idempotency token",
     "id" : "Bandwidth package ID",
     "autoReleaseTime" : "Auto-release time of the bandwidth package after update"

@@ -1,6 +1,6 @@
 {
   "ListEipTransfer" : {
-    "desc" : "listEipTransfer",
+    "desc" : "ListEipTransfer",
     "maxKeys" : "Maximum number of items per page, default 10.",
     "marker" : "Paginate from this instance.",
     "direction" : "sent: initiated by me, received: received by me.",

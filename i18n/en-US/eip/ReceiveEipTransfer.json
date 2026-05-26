@@ -1,6 +1,6 @@
 {
   "ReceiveEipTransfer" : {
-    "desc" : "receiveEipTransfer",
+    "desc" : "ReceiveEipTransfer",
     "clientToken" : "Idempotency token, see [Idempotency](EIP/API参考/通用说明.md#幂等性) for details.",
     "transferIdList" : "List of short IDs of resources to transfer, up to 30 per request."
   }

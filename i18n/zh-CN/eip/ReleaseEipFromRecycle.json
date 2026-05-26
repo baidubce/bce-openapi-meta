@@ -1,6 +1,6 @@
 {
   "ReleaseEipFromRecycle" : {
-    "desc" : "releaseEipFromRecycle",
+    "desc" : "释放回收站内EIP",
     "eip" : "要释放的回收站内EIP IP地址，包括IPv4 EIP和IPv6 EIP。",
     "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见幂等性。"
   }

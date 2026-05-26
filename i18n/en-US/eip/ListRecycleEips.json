@@ -1,6 +1,6 @@
 {
   "ListRecycleEips" : {
-    "desc" : "listRecycleEips",
+    "desc" : "ListRecycleEips",
     "eip" : "The EIP to query, including IPv4 EIP and IPv6 EIP.",
     "name" : "The name of the EIP to query.",
     "marker" : "The starting position for paginated list queries, which is a system-generated string.",

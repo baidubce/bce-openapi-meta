@@ -1,6 +1,6 @@
 {
   "EipPostpaidToPrepaid" : {
-    "desc" : "eipPostpaidToPrepaid",
+    "desc" : "EIP后付费转预付费",
     "eip" : "计费变更的EIP，包括IPv4 EIP和IPv6 EIP。",
     "clientToken" : "幂等性Token，详见[幂等性Token](EIP/API参考/通用说明.md#幂等性)",
     "purchaseLength" : "预付费EIP的购买时长，单位为月，取值为1-9,12,24,36。",

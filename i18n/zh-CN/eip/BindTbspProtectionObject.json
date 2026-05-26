@@ -1,6 +1,6 @@
 {
   "BindTbspProtectionObject" : {
-    "desc" : "bindTbspProtectionObject",
+    "desc" : "绑定防护对象",
     "clientToken" : "幂等性Token，长度不超过64位",
     "id" : "DDoS增强防护包id",
     "ipList" : "绑定的防护对象IP列表（IP地址的线路类型和DDoS增强防护包的线路类型一致才可以绑定）"

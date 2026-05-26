@@ -1,6 +1,6 @@
 {
   "CreateTbsp" : {
-    "desc" : "createTbsp",
+    "desc" : "CreateTbsp",
     "clientToken" : "Idempotency token, up to 64 characters",
     "name" : "DDoS Enhanced Protection Package name",
     "lineType" : "Line type (BGP/BGP_S, representing Standard BGP/Enhanced BGP respectively)",

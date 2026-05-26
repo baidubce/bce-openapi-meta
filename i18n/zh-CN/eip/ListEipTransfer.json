@@ -1,6 +1,6 @@
 {
   "ListEipTransfer" : {
-    "desc" : "listEipTransfer",
+    "desc" : "支持EIP资源转移任务列表",
     "maxKeys" : "每页最大个数,默认10",
     "marker" : "从该实例分页。",
     "direction" : "sent：我发起的，received：我接收的。",

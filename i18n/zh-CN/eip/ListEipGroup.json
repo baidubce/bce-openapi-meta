@@ -1,6 +1,6 @@
 {
   "ListEipGroup" : {
-    "desc" : "listEipGroup",
+    "desc" : "查询共享带宽列表",
     "id" : "要查询的共享带宽的ID",
     "name" : "要查询的共享带宽的名称",
     "status" : "要查询的共享带宽的状态",

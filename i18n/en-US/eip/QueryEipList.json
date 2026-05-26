@@ -1,9 +1,9 @@
 {
   "QueryEipList" : {
-    "desc" : "Query EIP list",
+    "desc" : "QueryEipList",
     "ipVersion" : "IP version of the EIP to query, ipv4 or ipv6, default is ipv4.",
     "eip" : "EIP to query, including IPv4 and IPv6 EIPs. To query a specific IPv6 EIP, set ipVersion to ipv6.",
-    "instanceType" : "Bound instance type. Valid values: BCC, BBC, DCC, ENI, blb, NAT, VPN.",
+    "instanceType" : "Bound instance type. Valid values: BCC, BBC, DCC, ENI, BLB, NAT, VPN",
     "instanceId" : "Short ID of the bound instance. If specified, instanceType must also be provided.",
     "name" : "Name of the EIP to query.",
     "status" : "Instance status. Only supports: available, binded, paused.",

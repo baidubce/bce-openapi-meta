@@ -1,6 +1,6 @@
 {
   "UpdateEipGroup" : {
-    "desc" : "updateEipGroup",
+    "desc" : "共享带宽更新",
     "id" : "共享带宽的id",
     "clientToken" : "幂等性Token，详见[clientToken](EIP/API参考/通用说明.md#幂等性)",
     "name" : "共享带宽名称"

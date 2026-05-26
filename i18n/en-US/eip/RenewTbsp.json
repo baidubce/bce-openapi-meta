@@ -1,6 +1,6 @@
 {
   "RenewTbsp" : {
-    "desc" : "renewTbsp",
+    "desc" : "RenewTbsp",
     "clientToken" : "Idempotency token, up to 64 characters",
     "id" : "DDoS enhanced protection package ID",
     "renewTime" : "Renewal period (monthly: 1-9; yearly: 1-3)",

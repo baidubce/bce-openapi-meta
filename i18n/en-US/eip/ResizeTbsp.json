@@ -1,6 +1,6 @@
 {
   "ResizeTbsp" : {
-    "desc" : "resizeTbsp",
+    "desc" : "ResizeTbsp",
     "clientToken" : "Idempotency token, no more than 64 characters in length",
     "id" : "DDoS enhanced protection package ID",
     "ipCapacity" : "IP capacity of the DDoS enhanced protection package, must be greater than the IP capacity before upgrade (5/30/100)"

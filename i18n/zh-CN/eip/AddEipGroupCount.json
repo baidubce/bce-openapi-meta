@@ -1,6 +1,6 @@
 {
   "AddEipGroupCount" : {
-    "desc" : "addEipGroupCount",
+    "desc" : "共享带宽IP数量升级",
     "id" : "共享带宽的id",
     "clientToken" : "幂等性Token，详见[clientToken](EIP/API参考/通用说明.md#幂等性)",
     "eipAddCount" : "共享带宽包新增IPv4 EIP的数量。该值大于0，公网IP数量最多可以包括n个（n\\*5Mbps小于共享带宽包总量）。",

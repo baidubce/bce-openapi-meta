@@ -1,6 +1,6 @@
 {
   "MoveOutEips" : {
-    "desc" : "moveOutEips",
+    "desc" : "共享带宽移出EIP",
     "id" : "共享带宽的id",
     "clientToken" : "幂等性Token，详见[clientToken](EIP/API参考/通用说明.md#幂等性)",
     "moveOutEips" : "待移出EIP列表，包括IPv4 EIP和IPv6 EIP",

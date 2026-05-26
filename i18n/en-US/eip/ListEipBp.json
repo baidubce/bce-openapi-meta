@@ -1,6 +1,6 @@
 {
   "ListEipBp" : {
-    "desc" : "listEipBp",
+    "desc" : "ListEipBp",
     "marker" : "The starting position for batch list queries, a system-generated string",
     "maxKeys" : "Maximum number of items per page, not exceeding 1000. Default value is 1000",
     "id" : "The ID of the bandwidth package to query",

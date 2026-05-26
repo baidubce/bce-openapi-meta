@@ -1,6 +1,6 @@
 {
   "UnbindEip" : {
-    "desc" : "unbindEip",
+    "desc" : "解绑EIP",
     "eip" : "被解绑的EIP，包括IPv4 EIP和IPv6 EIP。",
     "clientToken" : "幂等性Token，详见[幂等性](EIP/API参考/通用说明.md#幂等性)。"
   }

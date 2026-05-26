@@ -1,6 +1,6 @@
 {
   "EipInquiry" : {
-    "desc" : "eipInquiry",
+    "desc" : "EipInquiry",
     "bandwidthInMbps" : "Public network bandwidth in Mbps. For bandwidth-billed EIPs, must be an integer between 1 and 200 (representing the bandwidth cap); for traffic-billed EIPs, must be an integer between 1 and 1000 (representing the peak bandwidth allowed).",
     "count" : "Number of EIPs to purchase, default is 1.",
     "purchaseType" : "EIP line type selection. Options: BGP, Static, ChinaTelecom, ChinaUnicom, ChinaMobile. Default is BGP.",

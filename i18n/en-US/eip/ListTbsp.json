@@ -1,6 +1,6 @@
 {
   "ListTbsp" : {
-    "desc" : "List TBSP instances",
+    "desc" : "ListTbsp",
     "id" : "Instance ID, supports fuzzy search",
     "name" : "Instance name, supports fuzzy search",
     "status" : "Instance status (RUNNING/STOPPED)",

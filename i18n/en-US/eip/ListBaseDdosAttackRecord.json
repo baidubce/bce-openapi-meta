@@ -1,6 +1,6 @@
 {
   "ListBaseDdosAttackRecord" : {
-    "desc" : "listBaseDdosAttackRecord",
+    "desc" : "ListBaseDdosAttackRecord",
     "ip" : "Public IP address",
     "startTime" : "UTC time when the attack started",
     "marker" : "The starting position for batch list queries, a system-generated string",

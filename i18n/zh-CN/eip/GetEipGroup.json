@@ -1,6 +1,6 @@
 {
   "GetEipGroup" : {
-    "desc" : "getEipGroup",
+    "desc" : "查询共享带宽详情",
     "id" : "要查询的共享带宽的ID"
   }
 }

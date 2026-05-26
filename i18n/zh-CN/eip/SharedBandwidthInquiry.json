@@ -1,6 +1,6 @@
 {
   "SharedBandwidthInquiry" : {
-    "desc" : "sharedBandwidthInquiry",
+    "desc" : "共享带宽询价",
     "bandwidthInMbps" : "公网带宽，单位为Mbps。限制为为1~200之间的整数。",
     "count" : "共享带宽的数量，默认为1。",
     "ipNum" : "共享带宽中的IP数量。",

@@ -1,6 +1,6 @@
 {
   "ReleaseEip" : {
-    "desc" : "releaseEip",
+    "desc" : "释放EIP",
     "eip" : "被释放的EIP，包括IPv4 EIP和IPv6 EIP。",
     "releaseToRecycle" : "true表示将EIP放入回收站，false表示直接释放EIP",
     "clientToken" : "幂等性Token，详见[幂等性](EIP/API参考/通用说明.md#幂等性)。"

@@ -1,6 +1,6 @@
 {
   "MoveOutEips" : {
-    "desc" : "Move EIPs out of shared bandwidth",
+    "desc" : "MoveOutEips",
     "id" : "The ID of the shared bandwidth",
     "clientToken" : "Idempotency token, see [clientToken](EIP/API参考/通用说明.md#幂等性)",
     "moveOutEips" : "List of EIPs to be removed, including IPv4 EIPs and IPv6 EIPs",

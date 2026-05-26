@@ -1,6 +1,6 @@
 {
   "PurchaseReservedEipGroup" : {
-    "desc" : "purchaseReservedEipGroup",
+    "desc" : "PurchaseReservedEipGroup",
     "id" : "The ID of the shared bandwidth group",
     "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [Idempotency](EIP/API参考/通用说明.md#幂等性).",
     "billing" : "Order billing information",
