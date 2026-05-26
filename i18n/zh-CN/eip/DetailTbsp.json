@@ -1,6 +1,5 @@
 {
   "DetailTbsp" : {
-    "desc" : "查询DDoS增强防护包详情",
     "id" : "DDoS增强防护包id"
   }
 }

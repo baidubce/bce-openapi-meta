@@ -1,6 +1,5 @@
 {
   "UpdateEipDeleteProtect" : {
-    "desc" : "UpdateEipDeleteProtect",
     "eip" : "The EIP to be updated, including IPv4 EIP and IPv6 EIP.",
     "clientToken" : "See [Idempotency Token](EIP/API参考/通用说明.md#幂等性)",
     "deleteProtect" : "Whether to enable deletion protection."

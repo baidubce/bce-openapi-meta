@@ -1,6 +1,5 @@
 {
   "EipRenewal" : {
-    "desc" : "EipRenewal",
     "eip" : "The EIP to be renewed, including IPv4 EIP and IPv6 EIP.",
     "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [Idempotency](EIP/API参考/通用说明.md#幂等性).",
     "billing" : "Order information.",

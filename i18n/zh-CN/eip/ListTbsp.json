@@ -1,6 +1,5 @@
 {
   "ListTbsp" : {
-    "desc" : "查询DDoS增强防护包列表",
     "id" : "实例ID，支持模糊搜索",
     "name" : "实例名称，支持模糊搜索",
     "status" : "实例状态（RUNNING/STOPPED）",

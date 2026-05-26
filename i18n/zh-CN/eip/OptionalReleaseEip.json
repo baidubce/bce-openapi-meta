@@ -1,6 +1,5 @@
 {
   "OptionalReleaseEip" : {
-    "desc" : "选择性释放EIP",
     "eip" : "被选择释放的EIP地址，包括IPv4 EIP和IPv6 EIP。",
     "releaseToRecycle" : "是否将指定EIP放入回收站，缺省值为false，代表将EIP直接释放。",
     "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见幂等性。"

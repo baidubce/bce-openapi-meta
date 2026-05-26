@@ -1,6 +1,5 @@
 {
   "ListRecycleEips" : {
-    "desc" : "查询回收站内EIP列表",
     "eip" : "要查询的EIP，包括IPv4 EIP和IPv6 EIP。",
     "name" : "要查询的EIP名称。",
     "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串。",

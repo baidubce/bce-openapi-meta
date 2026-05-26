@@ -1,6 +1,5 @@
 {
   "ListUnban" : {
-    "desc" : "ListUnban",
     "marker" : "The starting position for paginated list queries, a system-generated string",
     "maxKeys" : "Maximum number of items per page, up to 1000, default is 1000",
     "ip" : "IP address for exact filtering"

@@ -1,6 +1,5 @@
 {
   "RefundEipGroup" : {
-    "desc" : "RefundEipGroup",
     "id" : "ID of the shared bandwidth to be unsubscribed",
     "clientToken" : "Idempotency token, see [Idempotency](EIP/API参考/通用说明.md#幂等性) for details."
   }

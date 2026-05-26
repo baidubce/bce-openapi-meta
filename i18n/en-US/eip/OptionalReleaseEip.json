@@ -1,6 +1,5 @@
 {
   "OptionalReleaseEip" : {
-    "desc" : "OptionalReleaseEip",
     "eip" : "The selected EIP addresses to release, including IPv4 EIP and IPv6 EIP.",
     "releaseToRecycle" : "Whether to move the specified EIP to the recycle bin. Default is false, meaning the EIP will be released directly.",
     "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See Idempotency for details."

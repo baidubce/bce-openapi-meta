@@ -1,6 +1,5 @@
 {
   "ListBaseDdos" : {
-    "desc" : "ListBaseDdos",
     "ips" : "Public IP addresses, multiple addresses separated by \",\", maximum count up to 1000",
     "type" : "Public IP type, default is ipv4, optional values are ipv4 and ipv6",
     "marker" : "The starting position for batch list queries, a system-generated string",

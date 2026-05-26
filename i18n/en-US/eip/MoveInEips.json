@@ -1,6 +1,5 @@
 {
   "MoveInEips" : {
-    "desc" : "MoveInEips",
     "id" : "The ID of the shared bandwidth",
     "clientToken" : "Idempotency token, see [clientToken](EIP/API参考/通用说明.md#幂等性)",
     "eips" : "Array of IPs to be moved in, including IPv4 EIP and IPv6 EIP"

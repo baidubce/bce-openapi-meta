@@ -1,6 +1,5 @@
 {
   "UnbindEip" : {
-    "desc" : "UnbindEip",
     "eip" : "The EIP to be unbound, including IPv4 EIP and IPv6 EIP.",
     "clientToken" : "Idempotency token. For details, see [Idempotency](EIP/API Reference/General Description.md#Idempotency)."
   }

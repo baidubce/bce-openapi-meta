@@ -1,6 +1,5 @@
 {
   "EipRenewal" : {
-    "desc" : "EIP续费",
     "eip" : "待续费EIP，包括IPv4 EIP和IPv6 EIP。",
     "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[幂等性](EIP/API参考/通用说明.md#幂等性)。",
     "billing" : "订单信息",

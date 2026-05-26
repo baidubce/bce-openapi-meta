@@ -1,6 +1,5 @@
 {
   "RestoreEipFromRecycle" : {
-    "desc" : "RestoreEipFromRecycle",
     "eip" : "The EIP address to restore from recycle bin, including IPv4 EIP and IPv6 EIP.",
     "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See Idempotency for details."
   }

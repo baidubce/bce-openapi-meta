@@ -1,6 +1,5 @@
 {
   "RefundEipGroup" : {
-    "desc" : "预付费共享带宽退订",
     "id" : "待退订的共享带宽的ID",
     "clientToken" : "幂等性Token，详见[幂等性](EIP/API参考/通用说明.md#幂等性)。"
   }
