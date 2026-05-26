@@ -1,0 +1,7 @@
+{
+  "AddLineGroup" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串。",
+    "name" : "线路组名称，长度不超过12个字符。",
+    "lines" : "解析线路。"
+  }
+}

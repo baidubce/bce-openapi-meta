@@ -1,0 +1,7 @@
+{
+  "DeleteParsingRecords" : {
+    "zoneName" : "Domain name.",
+    "recordId" : "DNS record ID.",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters."
+  }
+}

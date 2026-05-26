@@ -1,0 +1,6 @@
+{
+  "DeleteLineGroup" : {
+    "lineId" : "Line group ID.",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters."
+  }
+}

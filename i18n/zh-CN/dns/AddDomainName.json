@@ -1,0 +1,6 @@
+{
+  "AddDomainName" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串。",
+    "name" : "域名的名称，比如baidu.com。"
+  }
+}

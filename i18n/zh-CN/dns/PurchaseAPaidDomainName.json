@@ -1,0 +1,10 @@
+{
+  "PurchaseAPaidDomainName" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串。",
+    "names" : "域名的名称。",
+    "productVersion" : "购买的产品版本，包含：普惠版（“discount”）、企业版（“flagship”）。",
+    "billing" : "计费信息。",
+    "billing.paymentTiming" : "付款时间，预支付（Prepaid）和后支付（Postpaid），目前只支持预支付。",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置。"
+  }
+}
