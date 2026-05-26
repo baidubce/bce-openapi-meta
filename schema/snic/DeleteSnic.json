@@ -1,0 +1,26 @@
+{
+  "name" : "DeleteSnic",
+  "method" : "DELETE",
+  "uri" : "/v{version}/endpoint/{endpointId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.DeleteSnic.clientToken"
+  }, {
+    "name" : "endpointId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "snic.DeleteSnic.endpointId"
+  } ],
+  "desc_key" : "snic.DeleteSnic.desc"
+}

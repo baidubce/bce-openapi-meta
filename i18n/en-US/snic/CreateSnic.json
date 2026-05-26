@@ -1,0 +1,19 @@
+{
+  "CreateSnic" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters, see [ClientToken Idempotency](#idempotency)",
+    "vpcId" : "ID of the VPC",
+    "name" : "Name of the service NIC; supports uppercase/lowercase letters, digits, special characters -_/., and Chinese characters; must start with a letter; length 1-65",
+    "subnetId" : "ID of the subnet",
+    "service" : "Service domain name to attach",
+    "description" : "Description of the service NIC",
+    "ipAddress" : "Specified IP address for the service NIC; auto-assigned if not provided",
+    "bandwidth" : "Specified bandwidth for the service NIC",
+    "billing" : "Billing information",
+    "billing.paymentTiming" : "Payment timing: Prepaid or Postpaid; required when creating an order, not required for renewal",
+    "billing.reservation" : "Reservation info; not required for Postpaid, required for Prepaid",
+    "tags" : "Tags",
+    "tags.tagKey" : "Tag key; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; length 1-65",
+    "tags.tagValue" : "Tag value; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; length 0-65",
+    "resourceGroupId" : "Resource group ID"
+  }
+}

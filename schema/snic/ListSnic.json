@@ -1,0 +1,62 @@
+{
+  "name" : "ListSnic",
+  "method" : "GET",
+  "uri" : "/v{version}/endpoint",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "snic.ListSnic.vpcId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.ListSnic.name"
+  }, {
+    "name" : "ipAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.ListSnic.ipAddress"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.ListSnic.status"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.ListSnic.subnetId"
+  }, {
+    "name" : "service",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.ListSnic.service"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.ListSnic.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.ListSnic.maxKeys"
+  } ],
+  "desc_key" : "snic.ListSnic.desc"
+}

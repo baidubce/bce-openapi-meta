@@ -1,0 +1,39 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "snic",
+  "apis" : {
+    "DescribeSnic" : {
+      "title" : "describeSnic",
+      "summary" : "describeSnic"
+    },
+    "CreateSnic" : {
+      "title" : "createSnic",
+      "summary" : "createSnic"
+    },
+    "QueryAvailablePublicServices" : {
+      "title" : "queryAvailablePublicServices",
+      "summary" : "queryAvailablePublicServices"
+    },
+    "ListSnic" : {
+      "title" : "listSnic",
+      "summary" : "listSnic"
+    },
+    "UpdateSnic" : {
+      "title" : "updateSnic",
+      "summary" : "updateSnic"
+    },
+    "UpdateSnicEsg" : {
+      "title" : "updateSnicEsg",
+      "summary" : "updateSnicEsg"
+    },
+    "UpdateSnicSg" : {
+      "title" : "updateSnicSg",
+      "summary" : "updateSnicSg"
+    },
+    "DeleteSnic" : {
+      "title" : "deleteSnic",
+      "summary" : "deleteSnic"
+    }
+  }
+}

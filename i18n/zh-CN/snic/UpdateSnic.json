@@ -1,0 +1,8 @@
+{
+  "UpdateSnic" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](#幂等性)。",
+    "endpointId" : "服务网卡的id",
+    "name" : "服务网卡名称,长度不超过65个字符，可由数字，字符，下划线、中文组成",
+    "description" : "服务网卡描述，不超过200字符"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteSnic" : {
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters. For details, see [ClientToken Idempotency](#idempotency).",
+    "endpointId" : "The ID of the service network interface card (SNIC)."
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name" : "CreateSnic",
+  "method" : "POST",
+  "uri" : "/v{version}/endpoint",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.CreateSnic.clientToken"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "snic.CreateSnic.vpcId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "snic.CreateSnic.name"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "snic.CreateSnic.subnetId"
+  }, {
+    "name" : "service",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "snic.CreateSnic.service"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "snic.CreateSnic.description"
+  }, {
+    "name" : "ipAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "snic.CreateSnic.ipAddress"
+  }, {
+    "name" : "bandwidth",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "snic.CreateSnic.bandwidth"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "snic.CreateSnic.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "snic.CreateSnic.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "snic.CreateSnic.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "snic.CreateSnic.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "snic.CreateSnic.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "snic.CreateSnic.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "snic.CreateSnic.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "snic.CreateSnic.tags.tagValue"
+    } ]
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "snic.CreateSnic.resourceGroupId"
+  } ],
+  "desc_key" : "snic.CreateSnic.desc"
+}

@@ -1,0 +1,5 @@
+{
+  "DescribeSnic" : {
+    "endpointId" : "The ID of the service network interface card"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "UpdateSnicEsg" : {
+    "endpointId" : "服务网卡的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "enterpriseSecurityGroupIds" : "企业安全组的ID列表"
+  }
+}
