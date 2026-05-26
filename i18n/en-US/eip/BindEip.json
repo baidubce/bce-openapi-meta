@@ -1,6 +1,5 @@
 {
   "BindEip" : {
-    "desc" : "BindEip",
     "eip" : "The EIP to be bound, including IPv4 EIP and IPv6 EIP",
     "clientToken" : "Idempotency token, see [Idempotency](EIP/API参考/通用说明.md#幂等性)",
     "instanceType" : "The type of the instance to be bound",

@@ -1,6 +1,5 @@
 {
   "CreateEipGroup" : {
-    "desc" : "创建共享带宽",
     "clientToken" : "幂等性Token，详见[clientToken](EIP/API参考/通用说明.md#幂等性)",
     "routeType" : "线路类型，包含标准BGP（BGP）和增强BGP（BGP_S），默认标准BGP。",
     "eipCount" : "共享带宽中IPv4 EIP的个数。公网IPv4数量最少为0个，最多可以包括n个（标准型BGP n\\*1Mbps小于共享带宽包总量，增强型BGP n\\*20Mbps小于共享带宽包总量）",

@@ -1,6 +1,5 @@
 {
   "RemoveTbspIpWhitelist" : {
-    "desc" : "RemoveTbspIpWhitelist",
     "id" : "DDoS Enhanced Protection Package ID",
     "clientToken" : "Idempotency token, no more than 64 characters",
     "ip" : "Protected object IP address of the DDoS Enhanced Protection Package",

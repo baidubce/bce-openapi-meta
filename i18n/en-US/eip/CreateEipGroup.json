@@ -1,6 +1,5 @@
 {
   "CreateEipGroup" : {
-    "desc" : "CreateEipGroup",
     "clientToken" : "Idempotency token, see [clientToken](EIP/API参考/通用说明.md#幂等性)",
     "routeType" : "Line type, either Standard BGP (BGP) or Enhanced BGP (BGP_S). Defaults to Standard BGP.",
     "eipCount" : "Number of IPv4 EIPs in the shared bandwidth group. Minimum 0, maximum n (Standard BGP: n*1Mbps must be less than total shared bandwidth; Enhanced BGP: n*20Mbps must be less than total shared bandwidth).",

@@ -1,6 +1,5 @@
 {
   "QueryEipList" : {
-    "desc" : "查询EIP列表",
     "ipVersion" : "要查询的EIP IP类型，包含ipv4和ipv6，默认ipv4。",
     "eip" : "要查询的EIP，包括IPv4 EIP和IPv6 EIP,如需查询指定IPv6 EIP，需要指定ipVersion为ipv6。",
     "instanceType" : "绑定实例类型.取值 BCC、BBC、DCC、ENI、BLB、NAT、VPN",

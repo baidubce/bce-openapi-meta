@@ -1,6 +1,5 @@
 {
   "ReceiveEipTransfer" : {
-    "desc" : "接收EIP资源转移任务",
     "clientToken" : "幂等性Token，详见[幂等性](EIP/API参考/通用说明.md#幂等性)。",
     "transferIdList" : "转移资源短ID列表,单次最多接收30个。"
   }

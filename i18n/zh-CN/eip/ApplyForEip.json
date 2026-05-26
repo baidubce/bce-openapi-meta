@@ -1,6 +1,5 @@
 {
   "ApplyForEip" : {
-    "desc" : "申请EIP",
     "clientToken" : "幂等性Token，详见[幂等性](EIP/API参考/通用说明.md#幂等性)。",
     "ipVersion" : "EIP IP类型，包含ipv4和ipv6，默认ipv4。",
     "routeType" : "EIP线路类型，包含标准BGP（BGP）和增强BGP（BGP_S），默认标准BGP。",

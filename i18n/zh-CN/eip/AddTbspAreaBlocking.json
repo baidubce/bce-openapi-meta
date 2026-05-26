@@ -1,6 +1,5 @@
 {
   "AddTbspAreaBlocking" : {
-    "desc" : "添加区域封禁",
     "id" : "流量突发服务ID",
     "clientToken" : "幂等性Token，长度不超过64位",
     "ip" : "DDoS增强防护包防护对象IP地址",

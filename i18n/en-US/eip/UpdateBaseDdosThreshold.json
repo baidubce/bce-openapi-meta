@@ -1,6 +1,5 @@
 {
   "UpdateBaseDdosThreshold" : {
-    "desc" : "UpdateBaseDdosThreshold",
     "ip" : "Public IP address",
     "clientToken" : "Idempotency token, see [Idempotency](EIP/API参考/通用说明.md#幂等性)",
     "thresholdType" : "Scrubbing threshold setting type, including bandwidth cap (bandwidth), intelligent threshold (auto), and manual setting (manual)",

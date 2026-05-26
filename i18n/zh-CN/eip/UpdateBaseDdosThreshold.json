@@ -1,6 +1,5 @@
 {
   "UpdateBaseDdosThreshold" : {
-    "desc" : "修改DDoS基础防护阈值",
     "ip" : "公网IP地址",
     "clientToken" : "幂等性Token，详见[幂等性](EIP/API参考/通用说明.md#幂等性)",
     "thresholdType" : "清洗阈值设置类型，包含按带宽上限 (bandwidth)、智能阈值 (auto) 和手动设置 (manual)",

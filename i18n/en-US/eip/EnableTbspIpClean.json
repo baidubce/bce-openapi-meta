@@ -1,6 +1,5 @@
 {
   "EnableTbspIpClean" : {
-    "desc" : "EnableTbspIpClean",
     "clientToken" : "Idempotency token, up to 64 characters",
     "id" : "DDoS enhanced protection package ID",
     "ip" : "Protected IP address of the DDoS enhanced protection package"

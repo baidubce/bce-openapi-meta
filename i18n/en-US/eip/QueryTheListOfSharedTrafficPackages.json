@@ -1,6 +1,5 @@
 {
   "QueryTheListOfSharedTrafficPackages" : {
-    "desc" : "QueryTheListOfSharedTrafficPackages",
     "marker" : "The starting position for batch list queries, a system-generated string",
     "maxKeys" : "Maximum number of items per page, not exceeding 1000, default value is 1000",
     "id" : "The ID of the shared traffic package to query",

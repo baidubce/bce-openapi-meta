@@ -1,6 +1,5 @@
 {
   "EipInquiry" : {
-    "desc" : "EIP询价",
     "bandwidthInMbps" : "公网带宽，单位为Mbps。对于使用带宽计费的EIP，限制为为1~200之间的整数（代表带宽上限）；对于按使用流量计费的EIP，限制为1~1000之间的整数（代表允许的带宽流量峰值）。",
     "count" : "EIP数量，默认为1.",
     "purchaseType" : "EIP购买线路选择，可选择BGP、Static、ChinaTelcom、ChinaUnicom、ChinaMobile，默认BGP",

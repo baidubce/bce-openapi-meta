@@ -1,6 +1,5 @@
 {
   "CreateEipTransfer" : {
-    "desc" : "创建EIP资源转移任务",
     "clientToken" : "幂等性Token，详见[幂等性](EIP/API参考/通用说明.md#幂等性)。",
     "transferType" : "转移资源类型。eip",
     "transferResourceList" : "转移资源短ID列表,单次最多转移30个。",

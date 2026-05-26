@@ -1,6 +1,5 @@
 {
   "CancelEipTransfer" : {
-    "desc" : "CancelEipTransfer",
     "clientToken" : "Idempotency token. For details, see [Idempotency](EIP/API参考/通用说明.md#幂等性).",
     "transferIdList" : "List of short IDs of transfer resources. A maximum of 30 IDs are accepted per request."
   }

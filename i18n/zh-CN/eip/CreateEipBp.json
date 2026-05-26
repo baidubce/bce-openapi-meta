@@ -1,6 +1,5 @@
 {
   "CreateEipBp" : {
-    "desc" : "创建带宽包",
     "clientToken" : "幂等性Token",
     "name" : "带宽包名称，不填将自动生成",
     "eip" : "带宽包绑定的弹性公网EIP的Ip地址",

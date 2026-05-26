@@ -1,6 +1,5 @@
 {
   "CreateTbsp" : {
-    "desc" : "创建DDoS增强防护包",
     "clientToken" : "幂等性Token，长度不超过64位",
     "name" : "DDoS增强防护包名称",
     "lineType" : "线路类型（支持BGP/BGP_S，分别代表标准BGP/增强BGP）",

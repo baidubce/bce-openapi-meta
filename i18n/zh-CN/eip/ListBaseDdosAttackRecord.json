@@ -1,6 +1,5 @@
 {
   "ListBaseDdosAttackRecord" : {
-    "desc" : "查询DDoS基础防护攻击记录",
     "ip" : "公网IP地址",
     "startTime" : "攻击开始UTC时间",
     "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",

@@ -1,6 +1,5 @@
 {
   "SharedBandwidthInquiry" : {
-    "desc" : "SharedBandwidthInquiry",
     "bandwidthInMbps" : "Public network bandwidth in Mbps. Must be an integer between 1 and 200.",
     "count" : "Number of shared bandwidths. Default is 1.",
     "ipNum" : "Number of IPs in the shared bandwidth.",

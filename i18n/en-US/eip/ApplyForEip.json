@@ -1,6 +1,5 @@
 {
   "ApplyForEip" : {
-    "desc" : "ApplyForEip",
     "clientToken" : "Idempotency token, see [Idempotency](EIP/API Reference/General Description.md#Idempotency).",
     "ipVersion" : "EIP IP version, either ipv4 or ipv6, defaults to ipv4.",
     "routeType" : "EIP line type, either Standard BGP (BGP) or Enhanced BGP (BGP_S), defaults to Standard BGP.",

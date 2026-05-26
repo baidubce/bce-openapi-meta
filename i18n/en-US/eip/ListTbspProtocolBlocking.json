@@ -1,6 +1,5 @@
 {
   "ListTbspProtocolBlocking" : {
-    "desc" : "ListTbspProtocolBlocking",
     "id" : "DDoS enhanced protection package ID",
     "ip" : "IP address of the protected object in the DDoS enhanced protection package, supports fuzzy search"
   }
