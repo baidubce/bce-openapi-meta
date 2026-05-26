@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateSnicEsg",
+  "method" : "PUT",
+  "uri" : "/v{version}/endpoint/{endpointId}?bindEsg",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "endpointId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "snic.UpdateSnicEsg.endpointId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.UpdateSnicEsg.clientToken"
+  }, {
+    "name" : "enterpriseSecurityGroupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "snic.UpdateSnicEsg.enterpriseSecurityGroupIds"
+  } ],
+  "desc_key" : "snic.UpdateSnicEsg.desc"
+}

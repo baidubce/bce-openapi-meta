@@ -1,0 +1,5 @@
+{
+  "DescribeSnic" : {
+    "endpointId" : "服务网卡的id"
+  }
+}

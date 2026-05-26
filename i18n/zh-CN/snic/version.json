@@ -1,0 +1,39 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "服务网卡",
+  "apis" : {
+    "DescribeSnic" : {
+      "title" : "查询服务网卡详情",
+      "summary" : "查询服务网卡详情"
+    },
+    "CreateSnic" : {
+      "title" : "创建服务网卡",
+      "summary" : "创建服务网卡"
+    },
+    "QueryAvailablePublicServices" : {
+      "title" : "查询可挂载的公共服务",
+      "summary" : "查询可挂载的公共服务"
+    },
+    "ListSnic" : {
+      "title" : "查询服务网卡列表",
+      "summary" : "查询服务网卡列表"
+    },
+    "UpdateSnic" : {
+      "title" : "更新服务网卡",
+      "summary" : "更新服务网卡"
+    },
+    "UpdateSnicEsg" : {
+      "title" : "服务网卡更新企业安全组",
+      "summary" : "服务网卡更新企业安全组"
+    },
+    "UpdateSnicSg" : {
+      "title" : "服务网卡更新普通安全组",
+      "summary" : "服务网卡更新普通安全组"
+    },
+    "DeleteSnic" : {
+      "title" : "删除服务网卡",
+      "summary" : "删除服务网卡"
+    }
+  }
+}

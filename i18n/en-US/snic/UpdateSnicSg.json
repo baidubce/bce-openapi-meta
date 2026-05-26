@@ -1,0 +1,7 @@
+{
+  "UpdateSnicSg" : {
+    "endpointId" : "The ID of the service network interface card",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "securityGroupIds" : "List of standard security group IDs, must be in the same VPC as the service network interface card"
+  }
+}

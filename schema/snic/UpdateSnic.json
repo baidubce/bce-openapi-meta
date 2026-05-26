@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateSnic",
+  "method" : "PUT",
+  "uri" : "/v{version}/endpoint/{endpointId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "snic.UpdateSnic.clientToken"
+  }, {
+    "name" : "endpointId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "snic.UpdateSnic.endpointId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "snic.UpdateSnic.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "snic.UpdateSnic.description"
+  } ],
+  "desc_key" : "snic.UpdateSnic.desc"
+}

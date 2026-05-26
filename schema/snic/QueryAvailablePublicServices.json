@@ -1,0 +1,14 @@
+{
+  "name" : "QueryAvailablePublicServices",
+  "method" : "GET",
+  "uri" : "/v{version}/endpoint/publicService",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "snic.QueryAvailablePublicServices.desc"
+}

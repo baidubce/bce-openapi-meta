@@ -1,0 +1,12 @@
+{
+  "ListSnic" : {
+    "vpcId" : "Identifier of the VPC to which the service NIC belongs",
+    "name" : "Name of the service NIC",
+    "ipAddress" : "IP address of the service NIC",
+    "status" : "Status of the service NIC; valid values: available/dead, indicating attachable/non-attachable respectively",
+    "subnetId" : "Identifier of the subnet to which the service NIC belongs",
+    "service" : "Domain name of the service bound to the service NIC",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000; default is 1000"
+  }
+}

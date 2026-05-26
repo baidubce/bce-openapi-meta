@@ -1,0 +1,8 @@
+{
+  "UpdateSnic" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](#idempotency).",
+    "endpointId" : "ID of the service NIC",
+    "name" : "Service NIC name, up to 65 characters, consisting of digits, letters, underscores, or Chinese characters",
+    "description" : "Service NIC description, up to 200 characters"
+  }
+}

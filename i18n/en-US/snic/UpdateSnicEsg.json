@@ -1,0 +1,7 @@
+{
+  "UpdateSnicEsg" : {
+    "endpointId" : "The ID of the service network interface card",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "enterpriseSecurityGroupIds" : "List of enterprise security group IDs"
+  }
+}

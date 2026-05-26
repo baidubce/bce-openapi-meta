@@ -1,0 +1,7 @@
+{
+  "UpdateSnicSg" : {
+    "endpointId" : "服务网卡的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "securityGroupIds" : "普通安全组的ID列表，需和服务网卡在同一VPC下"
+  }
+}
