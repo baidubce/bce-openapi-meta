@@ -1,0 +1,9 @@
+{
+  "AssociateVpc" : {
+    "zoneId" : "The ID of the zone",
+    "action" : "Association action (bind)",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
+    "region" : "The region of the VPC to be associated or disassociated",
+    "vpcIds" : "The list of VPC IDs to be associated or disassociated"
+  }
+}

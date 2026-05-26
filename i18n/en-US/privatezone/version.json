@@ -1,0 +1,51 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "PrivateZone",
+  "apis" : {
+    "AddParsingRecords" : {
+      "title" : "addParsingRecords",
+      "summary" : "addParsingRecords"
+    },
+    "QueryTheListOfPrivateZones" : {
+      "title" : "queryTheListOfPrivateZones",
+      "summary" : "queryTheListOfPrivateZones"
+    },
+    "SearchForDetailsOfPrivatzone" : {
+      "title" : "searchForDetailsOfPrivatzone",
+      "summary" : "searchForDetailsOfPrivatzone"
+    },
+    "CreateAPrivateZone" : {
+      "title" : "createAPrivateZone",
+      "summary" : "createAPrivateZone"
+    },
+    "AssociateVpc" : {
+      "title" : "associateVpc",
+      "summary" : "associateVpc"
+    },
+    "DeleteParsingRecords" : {
+      "title" : "deleteParsingRecords",
+      "summary" : "deleteParsingRecords"
+    },
+    "SetParsingRecordStatus" : {
+      "title" : "setParsingRecordStatus",
+      "summary" : "setParsingRecordStatus"
+    },
+    "DeletePrivateZone" : {
+      "title" : "deletePrivateZone",
+      "summary" : "deletePrivateZone"
+    },
+    "QueryAndParseRecordList" : {
+      "title" : "queryAndParseRecordList",
+      "summary" : "queryAndParseRecordList"
+    },
+    "DisassociateVpc" : {
+      "title" : "disassociateVpc",
+      "summary" : "disassociateVpc"
+    },
+    "ModifyParsingRecords" : {
+      "title" : "modifyParsingRecords",
+      "summary" : "modifyParsingRecords"
+    }
+  }
+}

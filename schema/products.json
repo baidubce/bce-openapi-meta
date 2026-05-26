@@ -62,5 +62,11 @@
       "su" : "bcc.su.baidubce.com",
       "yq" : "bcc.yq.baidubce.com"
     }
+  }, {
+    "code" : "PrivateZone",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "privatezone.baidubce.com"
+    }
   } ]
 }

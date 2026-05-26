@@ -1,0 +1,62 @@
+{
+  "name" : "AddParsingRecords",
+  "method" : "POST",
+  "uri" : "/v{version}/privatezone/{zoneId}/record",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "PrivateZone.AddParsingRecords.clientToken"
+  }, {
+    "name" : "zoneId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "PrivateZone.AddParsingRecords.zoneId"
+  }, {
+    "name" : "rr",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "PrivateZone.AddParsingRecords.rr"
+  }, {
+    "name" : "value",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "PrivateZone.AddParsingRecords.value"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "PrivateZone.AddParsingRecords.type"
+  }, {
+    "name" : "priority",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "PrivateZone.AddParsingRecords.priority"
+  }, {
+    "name" : "ttl",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "PrivateZone.AddParsingRecords.ttl"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "PrivateZone.AddParsingRecords.description"
+  } ],
+  "desc_key" : "PrivateZone.AddParsingRecords.desc"
+}

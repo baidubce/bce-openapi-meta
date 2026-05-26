@@ -1,0 +1,11 @@
+{
+  "QueryAndParseRecordList" : {
+    "zoneId" : "Zone的ID",
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量不超过1000，缺省值为1000",
+    "rr" : "主机记录,可搭配searchType字段选择合适的匹配方式",
+    "searchMode" : "rr的匹配模式,LIKE表示模糊匹配，EXACT表示精确匹配(默认)",
+    "type" : "解析记录类型，目前支持A, AAAA,CNAME, TXT, MX, PTR, SRV",
+    "value" : "解析记录值，模糊匹配"
+  }
+}

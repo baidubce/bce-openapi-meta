@@ -1,0 +1,7 @@
+{
+  "SetParsingRecordStatus" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](DNS/API参考/通用说明.md#幂等性)",
+    "recordId" : "解析记录ID",
+    "action" : "enable: 启用解析 disable: 暂停解析"
+  }
+}
