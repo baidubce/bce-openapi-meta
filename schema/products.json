@@ -74,5 +74,11 @@
     "endpoint" : {
       "global" : "dns.baidubce.com"
     }
+  }, {
+    "code" : "CFW",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "cfw.baidubce.com"
+    }
   } ]
 }

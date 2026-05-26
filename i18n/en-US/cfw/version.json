@@ -1,0 +1,11 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "CFW",
+  "apis" : {
+    "QueryCfwList" : {
+      "title" : "queryCfwList",
+      "summary" : "queryCfwList"
+    }
+  }
+}
