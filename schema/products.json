@@ -1,19 +1,5 @@
 {
   "products" : [ {
-    "code" : "snic",
-    "protocol" : "HTTP",
-    "endpoint" : {
-      "bd" : "bcc.bd.baidubce.com",
-      "bj" : "bcc.bj.baidubce.com",
-      "cd" : "bcc.cd.baidubce.com",
-      "fwh" : "bcc.fwh.baidubce.com",
-      "gz" : "bcc.gz.baidubce.com",
-      "hkg" : "bcc.hkg.baidubce.com",
-      "nj" : "bcc.nj.baidubce.com",
-      "su" : "bcc.su.baidubce.com",
-      "yq" : "bcc.yq.baidubce.com"
-    }
-  }, {
     "code" : "dns",
     "protocol" : "HTTP",
     "endpoint" : {
@@ -70,6 +56,20 @@
     "protocol" : "HTTP",
     "endpoint" : {
       "global" : "privatezone.baidubce.com"
+    }
+  }, {
+    "code" : "snic",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "bcc.bd.baidubce.com",
+      "bj" : "bcc.bj.baidubce.com",
+      "cd" : "bcc.cd.baidubce.com",
+      "fwh" : "bcc.fwh.baidubce.com",
+      "gz" : "bcc.gz.baidubce.com",
+      "hkg" : "bcc.hkg.baidubce.com",
+      "nj" : "bcc.nj.baidubce.com",
+      "su" : "bcc.su.baidubce.com",
+      "yq" : "bcc.yq.baidubce.com"
     }
   } ]
 }
