@@ -16,6 +16,12 @@
     "position" : "URL",
     "desc_key" : "blb.UpdateBlb.blbId"
   }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateBlb.clientToken"
+  }, {
     "name" : "name",
     "type" : "String",
     "required" : false,
