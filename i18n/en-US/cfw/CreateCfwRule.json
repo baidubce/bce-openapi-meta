@@ -1,0 +1,16 @@
+{
+  "CreateCfwRule" : {
+    "cfwId" : "The ID of the CFW",
+    "cfwRules" : "List of CFW rules",
+    "cfwRules.ipVersion" : "IP protocol version, valid values: \\[ 4 \\| 6 ]",
+    "cfwRules.priority" : "Rule priority, valid values: [ 1-1000 ]",
+    "cfwRules.protocol" : "Protocol type, valid values: \\[ TCP \\| UDP \\| ICMP \\| ALL ]",
+    "cfwRules.direction" : "Traffic direction, valid values: \\[ in \\| out ]; NAT boundary firewall only supports outbound rules, inbound traffic is allowed by default",
+    "cfwRules.sourceAddress" : "Source IP address or CIDR block, e.g. 180.76.1.0/24 or 180.76.1.1; 0.0.0.0/0 means all",
+    "cfwRules.destAddress" : "Destination IP address or CIDR block, e.g. 180.76.1.0/24 or 180.76.1.1; 0.0.0.0/0 means all",
+    "cfwRules.sourcePort" : "Source port, an integer or range between 0-65535, e.g. 8080 or 8080-8090; 0-65535 means all",
+    "cfwRules.destPort" : "Destination port, an integer or range between 0-65535, e.g. 8080 or 8080-8090; 0-65535 means all",
+    "cfwRules.action" : "Rule action, valid values: \\[ allow \\| deny \\| observe ]",
+    "cfwRules.description" : "Description of the CFW rule"
+  }
+}

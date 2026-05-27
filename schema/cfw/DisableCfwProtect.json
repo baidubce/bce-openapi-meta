@@ -1,0 +1,38 @@
+{
+  "name" : "DisableCfwProtect",
+  "method" : "PUT",
+  "uri" : "/v{version}/cfw/{cfwId}?off",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "cfwId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "CFW.DisableCfwProtect.cfwId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "CFW.DisableCfwProtect.instanceId"
+  }, {
+    "name" : "role",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "CFW.DisableCfwProtect.role"
+  }, {
+    "name" : "memberId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "CFW.DisableCfwProtect.memberId"
+  } ],
+  "desc_key" : "CFW.DisableCfwProtect.desc"
+}

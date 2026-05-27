@@ -1,0 +1,77 @@
+{
+  "name" : "CreateCfwRule",
+  "method" : "POST",
+  "uri" : "/v{version}/cfw/{cfwId}/rule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "cfwId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "CFW.CreateCfwRule.cfwId"
+  }, {
+    "name" : "cfwRules",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "CFW.CreateCfwRule.cfwRules",
+    "sub_parameters" : [ {
+      "name" : "ipVersion",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfwRule.cfwRules.ipVersion"
+    }, {
+      "name" : "priority",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfwRule.cfwRules.priority"
+    }, {
+      "name" : "protocol",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfwRule.cfwRules.protocol"
+    }, {
+      "name" : "direction",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfwRule.cfwRules.direction"
+    }, {
+      "name" : "sourceAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfwRule.cfwRules.sourceAddress"
+    }, {
+      "name" : "destAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfwRule.cfwRules.destAddress"
+    }, {
+      "name" : "sourcePort",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfwRule.cfwRules.sourcePort"
+    }, {
+      "name" : "destPort",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfwRule.cfwRules.destPort"
+    }, {
+      "name" : "action",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfwRule.cfwRules.action"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfwRule.cfwRules.description"
+    } ]
+  } ],
+  "desc_key" : "CFW.CreateCfwRule.desc"
+}

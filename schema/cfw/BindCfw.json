@@ -1,0 +1,53 @@
+{
+  "name" : "BindCfw",
+  "method" : "PUT",
+  "uri" : "/v{version}/cfw/{cfwId}?bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "cfwId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "CFW.BindCfw.cfwId"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "CFW.BindCfw.instanceType"
+  }, {
+    "name" : "instances",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "CFW.BindCfw.instances",
+    "sub_parameters" : [ {
+      "name" : "region",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.BindCfw.instances.region"
+    }, {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.BindCfw.instances.instanceId"
+    }, {
+      "name" : "role",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.BindCfw.instances.role"
+    }, {
+      "name" : "memberId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.BindCfw.instances.memberId"
+    } ]
+  } ],
+  "desc_key" : "CFW.BindCfw.desc"
+}

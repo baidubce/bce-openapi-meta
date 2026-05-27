@@ -6,12 +6,6 @@
       "global" : "dns.baidubce.com"
     }
   }, {
-    "code" : "cfw",
-    "protocol" : "HTTP",
-    "endpoint" : {
-      "global" : "cfw.baidubce.com"
-    }
-  }, {
     "code" : "vpc",
     "protocol" : "HTTP",
     "endpoint" : {
@@ -70,6 +64,12 @@
       "nj" : "bcc.nj.baidubce.com",
       "su" : "bcc.su.baidubce.com",
       "yq" : "bcc.yq.baidubce.com"
+    }
+  }, {
+    "code" : "cfw",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "cfw.baidubce.com"
     }
   } ]
 }

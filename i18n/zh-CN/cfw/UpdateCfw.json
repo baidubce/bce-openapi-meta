@@ -1,0 +1,7 @@
+{
+  "UpdateCfw" : {
+    "cfwId" : "CFW的id",
+    "name" : "CFW名称，长度不超过65个字符，可由数字、字符、下划线组成",
+    "description" : "CFW描述，不超过200字符"
+  }
+}

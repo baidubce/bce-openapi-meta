@@ -1,0 +1,7 @@
+{
+  "UpdateCfw" : {
+    "cfwId" : "The ID of the CFW",
+    "name" : "CFW name, up to 65 characters, consisting of digits, letters, and underscores",
+    "description" : "CFW description, up to 200 characters"
+  }
+}

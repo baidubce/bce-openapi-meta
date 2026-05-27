@@ -1,0 +1,16 @@
+{
+  "CreateCfwRule" : {
+    "cfwId" : "CFW的id",
+    "cfwRules" : "CFW规则列表",
+    "cfwRules.ipVersion" : "IP协议类型，取值 \\[ 4 \\| 6 ]",
+    "cfwRules.priority" : "规则优先级，取值 [ 1-1000 ]",
+    "cfwRules.protocol" : "协议类型，取值 \\[ TCP \\| UDP \\| ICMP \\| ALL ]",
+    "cfwRules.direction" : "方向，取值 \\[ in \\| out ]，NAT边界防火墙只能配置出向规则，入向默认全放行",
+    "cfwRules.sourceAddress" : "源IP，网段或IP，例如：180.76.1.0/24 或 180.76.1.1，0.0.0.0/0表示所有",
+    "cfwRules.destAddress" : "目的IP，网段或IP，例如：180.76.1.0/24 或 180.76.1.1，0.0.0.0/0表示所有",
+    "cfwRules.sourcePort" : "源端口，0-65535之间的整数，或区间，例如：8080，8080-8090，0-65535表示所有",
+    "cfwRules.destPort" : "目的端口，0-65535之间的整数，或区间，例如：8080，8080-8090，0-65535表示所有",
+    "cfwRules.action" : "策略，取值 \\[ allow \\| deny \\| observe ]",
+    "cfwRules.description" : "CFW规则的描述"
+  }
+}

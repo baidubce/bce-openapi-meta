@@ -1,0 +1,19 @@
+{
+  "CreateCfw" : {
+    "name" : "CFW name, up to 65 characters, consisting of digits, letters, and underscores",
+    "type" : "CFW type; value 1 indicates a stateful firewall",
+    "border" : "CFW protection boundary; values 0, 1, 2 represent internet boundary, VPC boundary, and NAT boundary respectively; stateful firewall defaults to internet boundary",
+    "description" : "CFW description, up to 200 characters",
+    "cfwRules" : "CFW rules",
+    "cfwRules.ipVersion" : "IP protocol version; valid values: [ 4 | 6 ]",
+    "cfwRules.priority" : "Rule priority; valid range: [ 1-1000 ]",
+    "cfwRules.protocol" : "Protocol type; valid values: [ TCP | UDP | ICMP | ALL ]",
+    "cfwRules.direction" : "Traffic direction; valid values: [ in | out ]; NAT boundary firewall supports outbound rules only, inbound traffic is allowed by default",
+    "cfwRules.sourceAddress" : "Source IP address or CIDR block, e.g. 180.76.1.0/24 or 180.76.1.1; 0.0.0.0/0 means all",
+    "cfwRules.destAddress" : "Destination IP address or CIDR block, e.g. 180.76.1.0/24 or 180.76.1.1; 0.0.0.0/0 means all",
+    "cfwRules.sourcePort" : "Source port; integer or range between 0-65535, e.g. 8080 or 8080-8090; 0-65535 means all",
+    "cfwRules.destPort" : "Destination port; integer or range between 0-65535, e.g. 8080 or 8080-8090; 0-65535 means all",
+    "cfwRules.action" : "Policy action; valid values: [ allow | deny | observe ]",
+    "cfwRules.description" : "Description of the CFW rule"
+  }
+}

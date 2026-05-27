@@ -1,0 +1,51 @@
+{
+  "name" : "ListProtectInstances",
+  "method" : "GET",
+  "uri" : "/v{version}/cfw/instance",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "CFW.ListProtectInstances.instanceType"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "CFW.ListProtectInstances.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "CFW.ListProtectInstances.maxKeys"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "CFW.ListProtectInstances.status"
+  }, {
+    "name" : "region",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "CFW.ListProtectInstances.region"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "instances"
+  },
+  "desc_key" : "CFW.ListProtectInstances.desc"
+}

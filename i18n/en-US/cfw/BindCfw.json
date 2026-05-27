@@ -1,0 +1,11 @@
+{
+  "BindCfw" : {
+    "cfwId" : "The ID of the CFW",
+    "instanceType" : "Instance type, valid values: \\[ eip \\| nat \\| etGateway \\| peerconn \\| csn \\| ipv6Gateway ]",
+    "instances" : "Binding instance information",
+    "instances.region" : "Region, valid values: \\[ bj \\| gz \\| su \\| fsh \\| hkg \\| bd \\| fwh \\| sin ]",
+    "instances.instanceId" : "The ID of the associated instance",
+    "instances.role" : "PEERCONN-specific attribute, local role, valid values: \\[ acceptor \\| initiator ]; required when the bound or unbound instance is of type PEERCONN",
+    "instances.memberId" : "CSN-specific attribute, the network instance ID within the CSN; required when the bound or unbound instance is of type CSN"
+  }
+}

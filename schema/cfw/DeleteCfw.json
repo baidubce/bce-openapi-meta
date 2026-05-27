@@ -1,0 +1,20 @@
+{
+  "name" : "DeleteCfw",
+  "method" : "DELETE",
+  "uri" : "/v{version}/cfw/{cfwId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "cfwId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "CFW.DeleteCfw.cfwId"
+  } ],
+  "desc_key" : "CFW.DeleteCfw.desc"
+}

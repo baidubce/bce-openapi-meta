@@ -1,0 +1,8 @@
+{
+  "EnableCfwProtect" : {
+    "cfwId" : "The ID of the CFW",
+    "instanceId" : "The ID of the protected instance",
+    "role" : "Attribute specific to PEERCONN instances; the instance role, valid values: [ acceptor | initiator ]; required when the instance type is PEERCONN",
+    "memberId" : "Attribute specific to CSN instances; the network instance ID within the CSN; required when the instance type is CSN"
+  }
+}

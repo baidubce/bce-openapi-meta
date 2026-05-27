@@ -3,9 +3,57 @@
   "style" : "rpc",
   "description" : "CFW",
   "apis" : {
-    "QueryCfwList" : {
-      "title" : "queryCfwList",
-      "summary" : "queryCfwList"
+    "CreateCfw" : {
+      "title" : "createCfw",
+      "summary" : "createCfw"
+    },
+    "DisableCfwProtect" : {
+      "title" : "disableCfwProtect",
+      "summary" : "disableCfwProtect"
+    },
+    "UnbindCfw" : {
+      "title" : "unbindCfw",
+      "summary" : "unbindCfw"
+    },
+    "UpdateCfw" : {
+      "title" : "updateCfw",
+      "summary" : "updateCfw"
+    },
+    "ListProtectInstances" : {
+      "title" : "listProtectInstances",
+      "summary" : "listProtectInstances"
+    },
+    "DeleteCfw" : {
+      "title" : "deleteCfw",
+      "summary" : "deleteCfw"
+    },
+    "EnableCfwProtect" : {
+      "title" : "enableCfwProtect",
+      "summary" : "enableCfwProtect"
+    },
+    "BindCfw" : {
+      "title" : "bindCfw",
+      "summary" : "bindCfw"
+    },
+    "GetCfw" : {
+      "title" : "getCfw",
+      "summary" : "getCfw"
+    },
+    "ListCfw" : {
+      "title" : "listCfw",
+      "summary" : "listCfw"
+    },
+    "UpdateCfwRule" : {
+      "title" : "updateCfwRule",
+      "summary" : "updateCfwRule"
+    },
+    "DeleteCfwRule" : {
+      "title" : "deleteCfwRule",
+      "summary" : "deleteCfwRule"
+    },
+    "CreateCfwRule" : {
+      "title" : "createCfwRule",
+      "summary" : "createCfwRule"
     }
   }
 }
