@@ -46,5 +46,12 @@
     "position" : "QUERY",
     "desc_key" : "eip.ListEipBp.type"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "bpList"
+  },
   "desc_key" : "eip.ListEipBp.desc"
 }

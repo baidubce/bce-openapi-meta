@@ -64,5 +64,12 @@
     "position" : "QUERY",
     "desc_key" : "eip.ListEipTransfer.fuzzyInstanceIp"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "transferList"
+  },
   "desc_key" : "eip.ListEipTransfer.desc"
 }
