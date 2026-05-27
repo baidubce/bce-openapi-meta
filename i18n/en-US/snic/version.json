@@ -7,13 +7,13 @@
       "title" : "describeSnic",
       "summary" : "describeSnic"
     },
-    "CreateSnic" : {
-      "title" : "createSnic",
-      "summary" : "createSnic"
-    },
     "QueryAvailablePublicServices" : {
       "title" : "queryAvailablePublicServices",
       "summary" : "queryAvailablePublicServices"
+    },
+    "CreateSnic" : {
+      "title" : "createSnic",
+      "summary" : "createSnic"
     },
     "ListSnic" : {
       "title" : "listSnic",

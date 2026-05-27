@@ -7,13 +7,13 @@
       "title" : "查询服务网卡详情",
       "summary" : "查询服务网卡详情"
     },
-    "CreateSnic" : {
-      "title" : "创建服务网卡",
-      "summary" : "创建服务网卡"
-    },
     "QueryAvailablePublicServices" : {
       "title" : "查询可挂载的公共服务",
       "summary" : "查询可挂载的公共服务"
+    },
+    "CreateSnic" : {
+      "title" : "创建服务网卡",
+      "summary" : "创建服务网卡"
     },
     "ListSnic" : {
       "title" : "查询服务网卡列表",
