@@ -7,9 +7,21 @@
       "title" : "describeAppBlbPolicy",
       "summary" : "describeAppBlbPolicy"
     },
+    "CreateBlb" : {
+      "title" : "createBlb",
+      "summary" : "createBlb"
+    },
+    "ReleaseBlb" : {
+      "title" : "releaseBlb",
+      "summary" : "releaseBlb"
+    },
     "UpdateBlbModifyProtection" : {
       "title" : "updateBlbModifyProtection",
       "summary" : "updateBlbModifyProtection"
+    },
+    "UpdateBlbAcl" : {
+      "title" : "updateBlbAcl",
+      "summary" : "updateBlbAcl"
     },
     "CreateAppBlb" : {
       "title" : "createAppBlb",
@@ -18,6 +30,10 @@
     "UpdateAppBlb" : {
       "title" : "updateAppBlb",
       "summary" : "updateAppBlb"
+    },
+    "UpdateBlb" : {
+      "title" : "updateBlb",
+      "summary" : "updateBlb"
     },
     "CreateAppBlbSslListener" : {
       "title" : "createAppBlbSslListener",
@@ -67,10 +83,6 @@
       "title" : "updateAppBlbHttpListener",
       "summary" : "updateAppBlbHttpListener"
     },
-    "CreateBlb" : {
-      "title" : "createBlb",
-      "summary" : "createBlb"
-    },
     "DescribeBlbs" : {
       "title" : "describeBlbs",
       "summary" : "describeBlbs"
@@ -83,17 +95,9 @@
       "title" : "updateAppBlbUdpListener",
       "summary" : "updateAppBlbUdpListener"
     },
-    "UpdateBlb" : {
-      "title" : "updateBlb",
-      "summary" : "updateBlb"
-    },
     "DescribeBlb" : {
       "title" : "describeBlb",
       "summary" : "describeBlb"
-    },
-    "UpdateBlbAcl" : {
-      "title" : "updateBlbAcl",
-      "summary" : "updateBlbAcl"
     },
     "DescribeAppBlbHttpsListener" : {
       "title" : "describeAppBlbHttpsListener",
@@ -106,10 +110,6 @@
     "DescribeAppBlbUdpListener" : {
       "title" : "describeAppBlbUdpListener",
       "summary" : "describeAppBlbUdpListener"
-    },
-    "ReleaseBlb" : {
-      "title" : "releaseBlb",
-      "summary" : "releaseBlb"
     },
     "DeleteAppBlbListener" : {
       "title" : "deleteAppBlbListener",
