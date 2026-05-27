@@ -52,5 +52,12 @@
     "position" : "QUERY",
     "desc_key" : "PrivateZone.QueryAndParseRecordList.value"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "records"
+  },
   "desc_key" : "PrivateZone.QueryAndParseRecordList.desc"
 }
