@@ -1,7 +1,0 @@
-{
-  "DescribeRouteTables": {
-    "desc": "查询路由表列表",
-    "routeTableId": "路由表 ID，与 vpcId 二选一",
-    "vpcId": "VPC 的 ID，与 routeTableId 二选一"
-  }
-}

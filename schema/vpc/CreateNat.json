@@ -12,7 +12,7 @@
   }, {
     "name" : "clientToken",
     "type" : "String",
-    "required" : true,
+    "required" : false,
     "position" : "QUERY",
     "desc_key" : "vpc.CreateNat.clientToken"
   }, {
@@ -58,9 +58,42 @@
       "desc_key" : "vpc.CreateNat.billing.paymentTiming"
     }, {
       "name" : "reservation",
-      "type" : "String",
+      "type" : "Object",
       "required" : false,
-      "desc_key" : "vpc.CreateNat.billing.reservation"
+      "desc_key" : "vpc.CreateNat.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "vpc.CreateNat.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vpc.CreateNat.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "sessionConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateNat.sessionConfig",
+    "sub_parameters" : [ {
+      "name" : "tcpTimeout",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vpc.CreateNat.sessionConfig.tcpTimeout"
+    }, {
+      "name" : "udpTimeout",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vpc.CreateNat.sessionConfig.udpTimeout"
+    }, {
+      "name" : "icmpTimeout",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vpc.CreateNat.sessionConfig.icmpTimeout"
     } ]
   }, {
     "name" : "tags",

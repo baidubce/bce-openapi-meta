@@ -1,6 +1,0 @@
-{
-  "DescribeVpn": {
-    "desc": "Get detailed information about a VPN gateway",
-    "vpnId": "VPN gateway ID"
-  }
-}

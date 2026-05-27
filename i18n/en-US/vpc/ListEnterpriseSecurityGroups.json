@@ -1,8 +1,0 @@
-{
-  "ListEnterpriseSecurityGroups": {
-    "desc": "List enterprise security groups",
-    "marker": "Pagination start marker",
-    "maxKeys": "Maximum results per page, up to 1000, default 1000",
-    "instanceId": "Filter by instance ID; omit to list all"
-  }
-}

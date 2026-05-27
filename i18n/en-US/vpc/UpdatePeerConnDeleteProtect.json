@@ -1,0 +1,7 @@
+{
+  "UpdatePeerConnDeleteProtect" : {
+    "peerConnId" : "The ID of the peer connection",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters, see [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "deleteProtect" : "Whether to enable deletion protection"
+  }
+}

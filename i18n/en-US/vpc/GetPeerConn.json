@@ -1,0 +1,6 @@
+{
+  "GetPeerConn" : {
+    "peerConnId" : "The ID of the peer connection",
+    "role" : "\"initiator\" indicates the initiating side, \"acceptor\" indicates the accepting side. For same-region peer connections, this parameter can be used to query details of a specific side. If not specified, information of one side is returned randomly for same-region peer connections."
+  }
+}

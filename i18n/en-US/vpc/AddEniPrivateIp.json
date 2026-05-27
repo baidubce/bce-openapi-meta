@@ -1,9 +1,0 @@
-{
-  "AddEniPrivateIp": {
-    "desc": "Add a secondary private IP to an ENI",
-    "eniId": "ENI ID",
-    "clientToken": "Idempotent token, max 64 ASCII characters",
-    "privateIpAddress": "Private IP address to add; empty string for auto-assignment",
-    "isIpv6": "Whether to assign an IPv6 address (true=IPv6, default false=IPv4)"
-  }
-}

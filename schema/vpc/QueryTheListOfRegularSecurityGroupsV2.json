@@ -46,5 +46,12 @@
     "position" : "QUERY",
     "desc_key" : "vpc.QueryTheListOfRegularSecurityGroupsV2.securityGroupIds"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "securityGroups"
+  },
   "desc_key" : "vpc.QueryTheListOfRegularSecurityGroupsV2.desc"
 }

@@ -1,9 +1,0 @@
-{
-  "BatchDeleteEniPrivateIp": {
-    "desc": "Batch delete secondary private IPs from an ENI, up to 10 per request",
-    "eniId": "ENI ID",
-    "clientToken": "Idempotent token, max 64 ASCII characters",
-    "privateIpAddresses": "List of private IP addresses to delete (IPv4 or IPv6, secondary IPs only)",
-    "privateIpAddresses.privateIpAddress": "Private IP address"
-  }
-}

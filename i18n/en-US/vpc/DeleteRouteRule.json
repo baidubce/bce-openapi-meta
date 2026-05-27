@@ -1,7 +1,0 @@
-{
-  "DeleteRouteRule": {
-    "desc": "Delete a route rule",
-    "routeRuleId": "ID of the route rule to delete",
-    "clientToken": "Idempotent token"
-  }
-}

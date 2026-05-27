@@ -1,8 +1,0 @@
-{
-  "DescribeVpcPrivateIps": {
-    "desc": "查询 VPC 内私网 IP 信息",
-    "vpcId": "VPC 的 ID",
-    "privateIpAddresses": "要查询的私网 IP 列表，与 privateIpRange 二选一",
-    "privateIpRange": "要查询的 IP 范围，格式如 192.168.0.1-192.168.0.5"
-  }
-}

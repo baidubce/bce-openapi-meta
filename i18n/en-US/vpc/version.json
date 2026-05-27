@@ -3,6 +3,10 @@
   "style" : "rpc",
   "description" : "vpc",
   "apis" : {
+    "AddAclRule" : {
+      "title" : "addAclRule",
+      "summary" : "addAclRule"
+    },
     "DeleteRegularSecurityGroupV2" : {
       "title" : "deleteRegularSecurityGroupV2",
       "summary" : "deleteRegularSecurityGroupV2"
@@ -11,13 +15,25 @@
       "title" : "revokeRegularSecurityGroupRulesV2",
       "summary" : "revokeRegularSecurityGroupRulesV2"
     },
+    "QueryNetworkDetectionList" : {
+      "title" : "queryNetworkDetectionList",
+      "summary" : "queryNetworkDetectionList"
+    },
     "UpdateRegularSecurityGroupRulesV2" : {
       "title" : "updateRegularSecurityGroupRulesV2",
       "summary" : "updateRegularSecurityGroupRulesV2"
     },
-    "AddAclRule" : {
-      "title" : "addAclRule",
-      "summary" : "addAclRule"
+    "GetNat" : {
+      "title" : "getNat",
+      "summary" : "getNat"
+    },
+    "QueryNetworkDetectionDetails" : {
+      "title" : "queryNetworkDetectionDetails",
+      "summary" : "queryNetworkDetectionDetails"
+    },
+    "CreatePeerConn" : {
+      "title" : "createPeerConn",
+      "summary" : "createPeerConn"
     },
     "DeleteAclRule" : {
       "title" : "deleteAclRule",
@@ -31,9 +47,17 @@
       "title" : "updateIpAddressFamily",
       "summary" : "updateIpAddressFamily"
     },
+    "ReleasePeerConn" : {
+      "title" : "releasePeerConn",
+      "summary" : "releasePeerConn"
+    },
     "DeleteIpAddressFamily" : {
       "title" : "deleteIpAddressFamily",
       "summary" : "deleteIpAddressFamily"
+    },
+    "UpdatePeerConnBandwidth" : {
+      "title" : "updatePeerConnBandwidth",
+      "summary" : "updatePeerConnBandwidth"
     },
     "QueryTheSpecifiedIpAddressFamily" : {
       "title" : "queryTheSpecifiedIpAddressFamily",
@@ -43,9 +67,21 @@
       "title" : "deleteIpAddressGroup",
       "summary" : "deleteIpAddressGroup"
     },
+    "RenewPeerConn" : {
+      "title" : "renewPeerConn",
+      "summary" : "renewPeerConn"
+    },
+    "OpenPeerConnSyncDns" : {
+      "title" : "openPeerConnSyncDns",
+      "summary" : "openPeerConnSyncDns"
+    },
     "UpdateIpAddressGroup" : {
       "title" : "updateIpAddressGroup",
       "summary" : "updateIpAddressGroup"
+    },
+    "ClosePeerConnSyncDns" : {
+      "title" : "closePeerConnSyncDns",
+      "summary" : "closePeerConnSyncDns"
     },
     "CreateARegularSecurityGroupV2" : {
       "title" : "createARegularSecurityGroupV2",
@@ -59,13 +95,29 @@
       "title" : "deleteRegularSecurityGroupRulesV2",
       "summary" : "deleteRegularSecurityGroupRulesV2"
     },
+    "RefundPeerConn" : {
+      "title" : "refundPeerConn",
+      "summary" : "refundPeerConn"
+    },
     "AuthorizeRegularSecurityGroupRulesV2" : {
       "title" : "authorizeRegularSecurityGroupRulesV2",
       "summary" : "authorizeRegularSecurityGroupRulesV2"
     },
+    "AcceptPeerConn" : {
+      "title" : "acceptPeerConn",
+      "summary" : "acceptPeerConn"
+    },
     "CreateSubnet" : {
       "title" : "createSubnet",
       "summary" : "createSubnet"
+    },
+    "RejectPeerConn" : {
+      "title" : "rejectPeerConn",
+      "summary" : "rejectPeerConn"
+    },
+    "CreateNat" : {
+      "title" : "createNat",
+      "summary" : "createNat"
     },
     "QuerySubnetList" : {
       "title" : "querySubnetList",
@@ -87,6 +139,10 @@
       "title" : "queryIpAddressFamilyList",
       "summary" : "queryIpAddressFamilyList"
     },
+    "UpdatePeerConn" : {
+      "title" : "updatePeerConn",
+      "summary" : "updatePeerConn"
+    },
     "UpdateSubnet" : {
       "title" : "updateSubnet",
       "summary" : "updateSubnet"
@@ -94,6 +150,10 @@
     "QueryTheListOfIpAddressGroups" : {
       "title" : "queryTheListOfIpAddressGroups",
       "summary" : "queryTheListOfIpAddressGroups"
+    },
+    "UpdatePeerConnDeleteProtect" : {
+      "title" : "updatePeerConnDeleteProtect",
+      "summary" : "updatePeerConnDeleteProtect"
     },
     "DeleteEnterpriseSecurityGroupRules" : {
       "title" : "deleteEnterpriseSecurityGroupRules",
@@ -179,9 +239,17 @@
       "title" : "openVpcRelay",
       "summary" : "openVpcRelay"
     },
+    "ListPeerConn" : {
+      "title" : "listPeerConn",
+      "summary" : "listPeerConn"
+    },
     "GetVpcResourceIpInfo" : {
       "title" : "getVpcResourceIpInfo",
       "summary" : "getVpcResourceIpInfo"
+    },
+    "GetPeerConn" : {
+      "title" : "getPeerConn",
+      "summary" : "getPeerConn"
     },
     "CreateVpn" : {
       "title" : "createVpn",
@@ -471,93 +539,17 @@
       "title" : "updateNetworkDetection",
       "summary" : "updateNetworkDetection"
     },
-    "AcceptPeerToPeerConnectionApplications" : {
-      "title" : "acceptPeerToPeerConnectionApplications",
-      "summary" : "acceptPeerToPeerConnectionApplications"
-    },
-    "PrepaidPeerToPeerConnectionUnsubscribe" : {
-      "title" : "prepaidPeerToPeerConnectionUnsubscribe",
-      "summary" : "prepaidPeerToPeerConnectionUnsubscribe"
-    },
-    "QueryNetworkDetectionDetails" : {
-      "title" : "queryNetworkDetectionDetails",
-      "summary" : "queryNetworkDetectionDetails"
-    },
-    "ReleasePeerToPeerConnection" : {
-      "title" : "releasePeerToPeerConnection",
-      "summary" : "releasePeerToPeerConnection"
-    },
-    "ViewPeerToPeerConnectionDetails" : {
-      "title" : "viewPeerToPeerConnectionDetails",
-      "summary" : "viewPeerToPeerConnectionDetails"
-    },
-    "EnablePeerToPeerConnectionToSynchronizeDns" : {
-      "title" : "enablePeerToPeerConnectionToSynchronizeDns",
-      "summary" : "enablePeerToPeerConnectionToSynchronizeDns"
-    },
-    "RejectPeerToPeerConnectionRequest" : {
-      "title" : "rejectPeerToPeerConnectionRequest",
-      "summary" : "rejectPeerToPeerConnectionRequest"
-    },
-    "PeerToPeerConnectionBandwidthUpgradeAndDowngrade" : {
-      "title" : "peerToPeerConnectionBandwidthUpgradeAndDowngrade",
-      "summary" : "peerToPeerConnectionBandwidthUpgradeAndDowngrade"
-    },
     "UpdateNatReleaseProtectionSwitch" : {
       "title" : "updateNatReleaseProtectionSwitch",
       "summary" : "updateNatReleaseProtectionSwitch"
-    },
-    "CreateAPeerToPeerConnection" : {
-      "title" : "createAPeerToPeerConnection",
-      "summary" : "createAPeerToPeerConnection"
-    },
-    "PeerToPeerConnectionRenewal" : {
-      "title" : "peerToPeerConnectionRenewal",
-      "summary" : "peerToPeerConnectionRenewal"
-    },
-    "DeleteSnatRule" : {
-      "title" : "deleteSnatRule",
-      "summary" : "deleteSnatRule"
-    },
-    "ClosePeerToPeerConnectionToSynchronizeDns" : {
-      "title" : "closePeerToPeerConnectionToSynchronizeDns",
-      "summary" : "closePeerToPeerConnectionToSynchronizeDns"
-    },
-    "QueryNetworkDetectionList" : {
-      "title" : "queryNetworkDetectionList",
-      "summary" : "queryNetworkDetectionList"
     },
     "CreateGatewayLimitRules" : {
       "title" : "createGatewayLimitRules",
       "summary" : "createGatewayLimitRules"
     },
-    "QueryTheListOfPeerConnections" : {
-      "title" : "queryTheListOfPeerConnections",
-      "summary" : "queryTheListOfPeerConnections"
-    },
-    "DeleteDnatRule" : {
-      "title" : "deleteDnatRule",
-      "summary" : "deleteDnatRule"
-    },
-    "UpdateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections" : {
-      "title" : "updateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections",
-      "summary" : "updateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections"
-    },
-    "UpdatePeerToPeerConnectionReleaseProtectionSwitch" : {
-      "title" : "updatePeerToPeerConnectionReleaseProtectionSwitch",
-      "summary" : "updatePeerToPeerConnectionReleaseProtectionSwitch"
-    },
-    "CreateNat" : {
-      "title" : "createNat",
-      "summary" : "createNat"
-    },
     "ListNat" : {
       "title" : "listNat",
       "summary" : "listNat"
-    },
-    "GetNat" : {
-      "title" : "getNat",
-      "summary" : "getNat"
     },
     "ModifyNat" : {
       "title" : "modifyNat",
@@ -571,10 +563,6 @@
       "title" : "purchaseReservedNat",
       "summary" : "purchaseReservedNat"
     },
-    "CreateSnatRule" : {
-      "title" : "createSnatRule",
-      "summary" : "createSnatRule"
-    },
     "UpdateSnatRule" : {
       "title" : "updateSnatRule",
       "summary" : "updateSnatRule"
@@ -583,37 +571,45 @@
       "title" : "listSnatRule",
       "summary" : "listSnatRule"
     },
-    "CreateDnatRule" : {
-      "title" : "createDnatRule",
-      "summary" : "createDnatRule"
-    },
     "UpdateDnatRule" : {
       "title" : "updateDnatRule",
       "summary" : "updateDnatRule"
-    },
-    "BatchAddSnatRules" : {
-      "title" : "batchAddSnatRules",
-      "summary" : "batchAddSnatRules"
-    },
-    "BatchAddDnatRules" : {
-      "title" : "batchAddDnatRules",
-      "summary" : "batchAddDnatRules"
     },
     "ResizeNat" : {
       "title" : "resizeNat",
       "summary" : "resizeNat"
     },
+    "CreateSnatRule" : {
+      "title" : "createSnatRule",
+      "summary" : "createSnatRule"
+    },
     "NatBindEip" : {
       "title" : "natBindEip",
       "summary" : "natBindEip"
+    },
+    "BatchAddSnatRules" : {
+      "title" : "batchAddSnatRules",
+      "summary" : "batchAddSnatRules"
     },
     "NatUnBindEip" : {
       "title" : "natUnBindEip",
       "summary" : "natUnBindEip"
     },
+    "DeleteSnatRule" : {
+      "title" : "deleteSnatRule",
+      "summary" : "deleteSnatRule"
+    },
+    "CreateDnatRule" : {
+      "title" : "createDnatRule",
+      "summary" : "createDnatRule"
+    },
     "DeleteRoutingRules" : {
       "title" : "deleteRoutingRules",
       "summary" : "deleteRoutingRules"
+    },
+    "BatchAddDnatRules" : {
+      "title" : "batchAddDnatRules",
+      "summary" : "batchAddDnatRules"
     },
     "UpdateRoutingRules" : {
       "title" : "updateRoutingRules",
@@ -626,6 +622,10 @@
     "CreateRoutingRules" : {
       "title" : "createRoutingRules",
       "summary" : "createRoutingRules"
+    },
+    "DeleteDnatRule" : {
+      "title" : "deleteDnatRule",
+      "summary" : "deleteDnatRule"
     },
     "ListDnatRule" : {
       "title" : "listDnatRule",

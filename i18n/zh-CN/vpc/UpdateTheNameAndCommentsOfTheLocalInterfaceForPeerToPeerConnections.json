@@ -1,8 +1,0 @@
-{
-  "UpdateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections" : {
-    "peerConnId" : "对等连接的ID",
-    "localIfId" : "对等连接的接口ID 不可更改",
-    "description" : "备注",
-    "localIfName" : "本端接口名称"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "DescribeVpc": {
-    "desc": "查询指定 VPC 的详细信息",
-    "vpcId": "VPC 的 ID"
-  }
-}

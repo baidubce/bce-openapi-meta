@@ -1,7 +1,0 @@
-{
-  "DeleteEnterpriseSecurityGroupRule": {
-    "desc": "Delete an enterprise security group rule",
-    "enterpriseSecurityGroupRuleId": "ID of the rule to delete",
-    "clientToken": "Idempotent token, max 64 ASCII characters"
-  }
-}

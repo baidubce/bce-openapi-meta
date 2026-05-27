@@ -1,7 +1,0 @@
-{
-  "DisableVpcRelay": {
-    "desc": "Disable VPC relay (relay must be currently enabled)",
-    "vpcId": "VPC ID",
-    "clientToken": "Idempotent token"
-  }
-}

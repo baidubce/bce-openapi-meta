@@ -1,6 +1,0 @@
-{
-  "DescribeVpn": {
-    "desc": "查询指定 VPN 网关的详情",
-    "vpnId": "VPN 网关 ID"
-  }
-}

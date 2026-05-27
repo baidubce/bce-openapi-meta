@@ -1,6 +1,0 @@
-{
-  "GetEniStatus": {
-    "desc": "Get the current status of an ENI",
-    "eniId": "ENI ID"
-  }
-}

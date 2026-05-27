@@ -1,0 +1,9 @@
+{
+  "RenewPeerConn" : {
+    "peerConnId" : "The peer connection ID to renew",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "billing" : "Order billing information",
+    "billing.paymentTiming" : "Payment timing: Prepaid or Postpaid. Required when creating an order; not required for renewal orders",
+    "billing.reservation" : "Reservation details. Not required for Postpaid; required for Prepaid"
+  }
+}

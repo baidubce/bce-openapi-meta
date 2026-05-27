@@ -1,7 +1,0 @@
-{
-  "ClosePeerToPeerConnectionToSynchronizeDns" : {
-    "peerConnId" : "开启同步DNS记录的对等连接",
-    "role" : "发起端\"initiator\"，接收端\"acceptor\"",
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)"
-  }
-}

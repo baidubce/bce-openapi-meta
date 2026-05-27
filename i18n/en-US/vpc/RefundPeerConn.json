@@ -1,0 +1,6 @@
+{
+  "RefundPeerConn" : {
+    "peerConnId" : "Peer connection ID",
+    "clientToken" : "Idempotent token, an ASCII string with a maximum length of 64 characters. For details, see [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)"
+  }
+}

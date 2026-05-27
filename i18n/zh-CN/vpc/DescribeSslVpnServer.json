@@ -1,7 +1,0 @@
-{
-  "DescribeSslVpnServer": {
-    "desc": "查询 SSL VPN 服务端信息",
-    "vpnId": "VPN 网关 ID",
-    "clientToken": "幂等性 Token"
-  }
-}

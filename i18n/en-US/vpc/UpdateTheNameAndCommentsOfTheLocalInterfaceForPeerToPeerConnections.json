@@ -1,8 +1,0 @@
-{
-  "UpdateTheNameAndCommentsOfTheLocalInterfaceForPeerToPeerConnections" : {
-    "peerConnId" : "The ID of the peer-to-peer connection",
-    "localIfId" : "The interface ID of the peer-to-peer connection, cannot be modified",
-    "description" : "Remarks",
-    "localIfName" : "Local interface name"
-  }
-}

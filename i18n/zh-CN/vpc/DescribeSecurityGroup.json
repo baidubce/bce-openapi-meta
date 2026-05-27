@@ -1,6 +1,0 @@
-{
-  "DescribeSecurityGroup": {
-    "desc": "查询指定普通安全组的详情",
-    "securityGroupId": "安全组 ID"
-  }
-}

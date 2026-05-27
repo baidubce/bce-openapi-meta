@@ -1,8 +1,0 @@
-{
-  "DescribeAclRules": {
-    "desc": "查询子网的 ACL 规则列表",
-    "subnetId": "子网 ID",
-    "marker": "分页查询起始标识符",
-    "maxKeys": "每页最大返回数量，默认 1000"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "EnablePeerToPeerConnectionToSynchronizeDns" : {
-    "peerConnId" : "The peer connection ID for enabling DNS record synchronization",
-    "role" : "The role of the connection: \"initiator\" for the initiating side, \"acceptor\" for the accepting side",
-    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)"
-  }
-}

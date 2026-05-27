@@ -28,5 +28,12 @@
     "position" : "URL",
     "desc_key" : "vpc.QueryingTheIpv6PolicyListWithOnlyOutputAndNoInclusion.gatewayId"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "egressOnlyRules"
+  },
   "desc_key" : "vpc.QueryingTheIpv6PolicyListWithOnlyOutputAndNoInclusion.desc"
 }

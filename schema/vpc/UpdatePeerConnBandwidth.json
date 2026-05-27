@@ -1,0 +1,32 @@
+{
+  "name" : "UpdatePeerConnBandwidth",
+  "method" : "PUT",
+  "uri" : "/v{version}/peerconn/{peerConnId}?resize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "peerConnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdatePeerConnBandwidth.peerConnId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdatePeerConnBandwidth.clientToken"
+  }, {
+    "name" : "newBandwidthInMbps",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdatePeerConnBandwidth.newBandwidthInMbps"
+  } ],
+  "desc_key" : "vpc.UpdatePeerConnBandwidth.desc"
+}

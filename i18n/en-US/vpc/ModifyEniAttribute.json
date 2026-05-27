@@ -1,9 +1,0 @@
-{
-  "ModifyEniAttribute": {
-    "desc": "Update the name or description of an ENI (at least one must be provided)",
-    "eniId": "ENI ID",
-    "clientToken": "Idempotent token, max 64 ASCII characters",
-    "name": "New ENI name",
-    "description": "New ENI description"
-  }
-}

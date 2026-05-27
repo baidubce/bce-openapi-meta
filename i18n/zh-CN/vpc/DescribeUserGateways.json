@@ -1,7 +1,0 @@
-{
-  "DescribeUserGateways": {
-    "desc": "查询用户网关列表",
-    "marker": "分页查询起始标识符",
-    "maxKeys": "每页最大返回数量，默认 1000"
-  }
-}

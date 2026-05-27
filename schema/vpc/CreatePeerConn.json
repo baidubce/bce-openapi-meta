@@ -1,0 +1,125 @@
+{
+  "name" : "CreatePeerConn",
+  "method" : "POST",
+  "uri" : "/v{version}/peerconn",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreatePeerConn.clientToken"
+  }, {
+    "name" : "bandwidthInMbps",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.bandwidthInMbps"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.description"
+  }, {
+    "name" : "localIfName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.localIfName"
+  }, {
+    "name" : "localVpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.localVpcId"
+  }, {
+    "name" : "peerAccountId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.peerAccountId"
+  }, {
+    "name" : "peerVpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.peerVpcId"
+  }, {
+    "name" : "peerRegion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.peerRegion"
+  }, {
+    "name" : "peerIfName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.peerIfName"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreatePeerConn.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "vpc.CreatePeerConn.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "vpc.CreatePeerConn.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vpc.CreatePeerConn.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreatePeerConn.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreatePeerConn.tags.tagValue"
+    } ]
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.resourceGroupId"
+  }, {
+    "name" : "deleteProtect",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreatePeerConn.deleteProtect"
+  } ],
+  "desc_key" : "vpc.CreatePeerConn.desc"
+}
