@@ -1,11 +1,5 @@
 {
   "products" : [ {
-    "code" : "dns",
-    "protocol" : "HTTP",
-    "endpoint" : {
-      "global" : "dns.baidubce.com"
-    }
-  }, {
     "code" : "vpc",
     "protocol" : "HTTP",
     "endpoint" : {
@@ -70,6 +64,12 @@
     "protocol" : "HTTP",
     "endpoint" : {
       "global" : "cfw.baidubce.com"
+    }
+  }, {
+    "code" : "dns",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "dns.baidubce.com"
     }
   } ]
 }

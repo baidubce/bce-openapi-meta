@@ -40,5 +40,12 @@
     "position" : "QUERY",
     "desc_key" : "DNS.QueryAndParseRecordList.maxKeys"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "records"
+  },
   "desc_key" : "DNS.QueryAndParseRecordList.desc"
 }
