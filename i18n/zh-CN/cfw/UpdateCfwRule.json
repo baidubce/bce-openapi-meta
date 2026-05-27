@@ -1,0 +1,16 @@
+{
+  "UpdateCfwRule" : {
+    "cfwId" : "CFW策略的id",
+    "cfwRuleId" : "CFW规则的id",
+    "ipVersion" : "IP协议类型，取值 \\[ 4 \\| 6 ]",
+    "priority" : "规则优先级，取值 [ 1-1000 ]",
+    "protocol" : "协议类型，取值 \\[ TCP \\| UDP \\| ICMP \\| ALL ]",
+    "direction" : "方向，取值 \\[ in \\| out ]",
+    "sourceAddress" : "源IP，0.0.0.0/0表示所有",
+    "destAddress" : "目的IP，0.0.0.0/0表示所有",
+    "sourcePort" : "源端口，0-65535表示所有",
+    "destPort" : "目的端口，0-65535表示所有",
+    "action" : "策略，取值 \\[ allow \\| deny ]",
+    "description" : "CFW规则的描述"
+  }
+}

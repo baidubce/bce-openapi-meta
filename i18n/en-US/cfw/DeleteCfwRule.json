@@ -1,0 +1,6 @@
+{
+  "DeleteCfwRule" : {
+    "cfwId" : "The ID of the CFW",
+    "cfwRuleIds" : "The IDs of the CFW rules to be deleted in batch"
+  }
+}

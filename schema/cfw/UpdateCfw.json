@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateCfw",
+  "method" : "PUT",
+  "uri" : "/v{version}/cfw/{cfwId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "cfwId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "CFW.UpdateCfw.cfwId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "CFW.UpdateCfw.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "CFW.UpdateCfw.description"
+  } ],
+  "desc_key" : "CFW.UpdateCfw.desc"
+}

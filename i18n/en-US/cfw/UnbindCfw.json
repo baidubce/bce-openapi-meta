@@ -1,0 +1,11 @@
+{
+  "UnbindCfw" : {
+    "cfwId" : "The ID of the CFW",
+    "instanceType" : "Instance type, valid values: [ eip | nat | etGateway | peerconn | csn | ipv6Gateway ]",
+    "instances" : "Information of instances to unbind",
+    "instances.region" : "Region, valid values: [ bj | gz | su | fsh | hkg | bd | fwh | sin ]",
+    "instances.instanceId" : "The ID of the associated instance",
+    "instances.role" : "PEERCONN-specific attribute, local role, valid values: [ acceptor | initiator ], required when the instance being bound or unbound is of type PEERCONN",
+    "instances.memberId" : "CSN-specific attribute, network instance ID within the CSN, required when the instance being bound or unbound is of type CSN"
+  }
+}

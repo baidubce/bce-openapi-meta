@@ -1,0 +1,9 @@
+{
+  "ListProtectInstances" : {
+    "instanceType" : "Instance type, valid values: [ eip | nat | etGateway | peerconn | csn | ipv6Gateway ]",
+    "marker" : "The starting position for batch list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000, default value is 1000",
+    "status" : "Protection status, valid values: [ unbind | protected | unprotected ]",
+    "region" : "Region, valid values: [ bj | gz | su | fsh | hkg | bd | fwh | sin ]"
+  }
+}

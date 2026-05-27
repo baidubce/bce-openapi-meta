@@ -1,0 +1,20 @@
+{
+  "name" : "GetCfw",
+  "method" : "GET",
+  "uri" : "/v{version}/cfw/{cfwId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "cfwId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "CFW.GetCfw.cfwId"
+  } ],
+  "desc_key" : "CFW.GetCfw.desc"
+}

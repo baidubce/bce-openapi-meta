@@ -1,0 +1,11 @@
+{
+  "BindCfw" : {
+    "cfwId" : "CFW的id",
+    "instanceType" : "实例类型，取值 \\[ eip \\| nat \\|  etGateway \\| peerconn \\| csn \\| ipv6Gateway ]",
+    "instances" : "绑定实例信息",
+    "instances.region" : "地域信息，取值 \\[ bj \\| gz \\| su \\| fsh \\| hkg \\| bd \\| fwh \\|sin ]",
+    "instances.instanceId" : "关联的实例的id",
+    "instances.role" : "PEERCONN实例特有属性，本端角色，取值\\[ acceptor \\| initiator ]，当绑定、解绑实例为PEERCONN时，该值必填",
+    "instances.memberId" : "CSN实例特有属性，CSN中网络实例id，当绑定、解绑实例为CSN时，该值必填"
+  }
+}

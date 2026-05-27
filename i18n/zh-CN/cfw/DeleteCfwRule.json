@@ -1,0 +1,6 @@
+{
+  "DeleteCfwRule" : {
+    "cfwId" : "CFW的id",
+    "cfwRuleIds" : "批量删除的CFW规则id"
+  }
+}

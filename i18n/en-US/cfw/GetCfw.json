@@ -1,0 +1,5 @@
+{
+  "GetCfw" : {
+    "cfwId" : "The ID of the CFW"
+  }
+}

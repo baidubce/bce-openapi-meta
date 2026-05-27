@@ -1,0 +1,8 @@
+{
+  "DisableCfwProtect" : {
+    "cfwId" : "CFW的id",
+    "instanceId" : "防护实例的id",
+    "role" : "PEERCONN实例特有属性，实例角色，取值 \\[ acceptor \\| initiatorn ]，当实例为PEERCONN时，该值必填",
+    "memberId" : "CSN实例特有属性，CSN中网络实例id，当实例为CSN时，该值必填"
+  }
+}

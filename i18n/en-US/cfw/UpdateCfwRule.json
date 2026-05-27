@@ -1,0 +1,16 @@
+{
+  "UpdateCfwRule" : {
+    "cfwId" : "ID of the CFW policy",
+    "cfwRuleId" : "ID of the CFW rule",
+    "ipVersion" : "IP protocol version, valid values \\[ 4 \\| 6 ]",
+    "priority" : "Rule priority, valid values [ 1-1000 ]",
+    "protocol" : "Protocol type, valid values \\[ TCP \\| UDP \\| ICMP \\| ALL ]",
+    "direction" : "Traffic direction, valid values \\[ in \\| out ]",
+    "sourceAddress" : "Source IP address, 0.0.0.0/0 means all",
+    "destAddress" : "Destination IP address, 0.0.0.0/0 means all",
+    "sourcePort" : "Source port, 0-65535 means all",
+    "destPort" : "Destination port, 0-65535 means all",
+    "action" : "Policy action, valid values \\[ allow \\| deny ]",
+    "description" : "Description of the CFW rule"
+  }
+}

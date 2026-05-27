@@ -1,0 +1,95 @@
+{
+  "name" : "CreateCfw",
+  "method" : "POST",
+  "uri" : "/v{version}/cfw",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "CFW.CreateCfw.name"
+  }, {
+    "name" : "type",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "CFW.CreateCfw.type"
+  }, {
+    "name" : "border",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "CFW.CreateCfw.border"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "CFW.CreateCfw.description"
+  }, {
+    "name" : "cfwRules",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "CFW.CreateCfw.cfwRules",
+    "sub_parameters" : [ {
+      "name" : "ipVersion",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfw.cfwRules.ipVersion"
+    }, {
+      "name" : "priority",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfw.cfwRules.priority"
+    }, {
+      "name" : "protocol",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfw.cfwRules.protocol"
+    }, {
+      "name" : "direction",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfw.cfwRules.direction"
+    }, {
+      "name" : "sourceAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfw.cfwRules.sourceAddress"
+    }, {
+      "name" : "destAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfw.cfwRules.destAddress"
+    }, {
+      "name" : "sourcePort",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfw.cfwRules.sourcePort"
+    }, {
+      "name" : "destPort",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfw.cfwRules.destPort"
+    }, {
+      "name" : "action",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfw.cfwRules.action"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "CFW.CreateCfw.cfwRules.description"
+    } ]
+  } ],
+  "desc_key" : "CFW.CreateCfw.desc"
+}
