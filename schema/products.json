@@ -14,12 +14,6 @@
       "yq" : "bcc.yq.baidubce.com"
     }
   }, {
-    "code" : "privatezone",
-    "protocol" : "HTTP",
-    "endpoint" : {
-      "global" : "privatezone.baidubce.com"
-    }
-  }, {
     "code" : "dns",
     "protocol" : "HTTP",
     "endpoint" : {
@@ -70,6 +64,12 @@
       "nj" : "eip.nj.baidubce.com",
       "su" : "eip.su.baidubce.com",
       "yq" : "eip.yq.baidubce.com"
+    }
+  }, {
+    "code" : "privatezone",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "privatezone.baidubce.com"
     }
   } ]
 }
