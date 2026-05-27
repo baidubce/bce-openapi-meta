@@ -40,5 +40,12 @@
     "position" : "QUERY",
     "desc_key" : "eip.QueryTheListOfSharedTrafficPackages.deductPolicy"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "packageList"
+  },
   "desc_key" : "eip.QueryTheListOfSharedTrafficPackages.desc"
 }

@@ -40,5 +40,12 @@
     "position" : "QUERY",
     "desc_key" : "eip.ListTbsp.maxKeys"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "detailList"
+  },
   "desc_key" : "eip.ListTbsp.desc"
 }
