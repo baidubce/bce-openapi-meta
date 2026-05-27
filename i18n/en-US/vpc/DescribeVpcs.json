@@ -1,9 +1,0 @@
-{
-  "DescribeVpcs": {
-    "desc": "List all VPCs",
-    "marker": "Pagination start marker",
-    "maxKeys": "Maximum results per page, default 1000",
-    "isDefault": "Filter by default VPC flag (true/false)",
-    "vpcIds": "Comma-separated list of VPC IDs to query"
-  }
-}

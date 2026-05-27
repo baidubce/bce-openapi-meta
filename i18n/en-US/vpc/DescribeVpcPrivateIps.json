@@ -1,8 +1,0 @@
-{
-  "DescribeVpcPrivateIps": {
-    "desc": "Query private IP address information within a VPC",
-    "vpcId": "VPC ID",
-    "privateIpAddresses": "List of private IPs to query (mutually exclusive with privateIpRange)",
-    "privateIpRange": "IP range to query, e.g. 192.168.0.1-192.168.0.5"
-  }
-}

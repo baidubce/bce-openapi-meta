@@ -1,0 +1,7 @@
+{
+  "OpenPeerConnSyncDns" : {
+    "peerConnId" : "The peer connection for which DNS record synchronization is enabled",
+    "role" : "Initiator side \"initiator\", acceptor side \"acceptor\"",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters, see [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)"
+  }
+}

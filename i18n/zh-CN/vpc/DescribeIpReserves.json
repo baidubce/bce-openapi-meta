@@ -1,8 +1,0 @@
-{
-  "DescribeIpReserves": {
-    "desc": "查询预留网段列表",
-    "subnetId": "子网 ID，过滤该子网下的预留网段",
-    "marker": "分页查询起始标识符",
-    "maxKeys": "每页最大返回数量，默认 1000"
-  }
-}

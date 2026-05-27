@@ -1,6 +1,0 @@
-{
-  "DescribeAcl": {
-    "desc": "Query ACL information for a VPC",
-    "vpcId": "VPC ID"
-  }
-}

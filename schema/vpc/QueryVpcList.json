@@ -34,5 +34,12 @@
     "position" : "QUERY",
     "desc_key" : "vpc.QueryVpcList.vpcIds"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "vpcs"
+  },
   "desc_key" : "vpc.QueryVpcList.desc"
 }

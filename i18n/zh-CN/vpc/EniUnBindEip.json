@@ -1,8 +1,0 @@
-{
-  "EniUnBindEip": {
-    "desc": "解绑弹性网卡上的 EIP",
-    "eniId": "弹性网卡的 ID",
-    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符",
-    "publicIpAddress": "要解绑的 EIP 地址"
-  }
-}

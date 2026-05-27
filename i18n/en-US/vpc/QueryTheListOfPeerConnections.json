@@ -1,7 +1,0 @@
-{
-  "QueryTheListOfPeerConnections" : {
-    "vpcId" : "The ID of the VPC",
-    "marker" : "The starting position for paginated list queries, a system-generated string",
-    "maxKeys" : "The maximum number of items per page, not exceeding 1000. Default value is 1000"
-  }
-}

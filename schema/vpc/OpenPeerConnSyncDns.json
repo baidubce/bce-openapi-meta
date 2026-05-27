@@ -1,0 +1,32 @@
+{
+  "name" : "OpenPeerConnSyncDns",
+  "method" : "PUT",
+  "uri" : "/v{version}/peerconn/{peerConnId}?open",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "peerConnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.OpenPeerConnSyncDns.peerConnId"
+  }, {
+    "name" : "role",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vpc.OpenPeerConnSyncDns.role"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.OpenPeerConnSyncDns.clientToken"
+  } ],
+  "desc_key" : "vpc.OpenPeerConnSyncDns.desc"
+}

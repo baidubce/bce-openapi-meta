@@ -22,5 +22,12 @@
     "position" : "QUERY",
     "desc_key" : "vpc.UserGatewayList.maxKeys"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "result"
+  },
   "desc_key" : "vpc.UserGatewayList.desc"
 }

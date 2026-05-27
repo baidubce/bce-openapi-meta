@@ -1,7 +1,0 @@
-{
-  "SwitchRouteHA": {
-    "desc": "多线主备路由中，将主路由切换为备路由",
-    "routeRuleId": "主路由规则 ID",
-    "clientToken": "幂等性 Token"
-  }
-}

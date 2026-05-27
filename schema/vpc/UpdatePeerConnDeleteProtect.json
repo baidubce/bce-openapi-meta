@@ -1,0 +1,32 @@
+{
+  "name" : "UpdatePeerConnDeleteProtect",
+  "method" : "PUT",
+  "uri" : "/v{version}/peerconn/{peerConnId}/deleteProtect",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "peerConnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdatePeerConnDeleteProtect.peerConnId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdatePeerConnDeleteProtect.clientToken"
+  }, {
+    "name" : "deleteProtect",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdatePeerConnDeleteProtect.deleteProtect"
+  } ],
+  "desc_key" : "vpc.UpdatePeerConnDeleteProtect.desc"
+}

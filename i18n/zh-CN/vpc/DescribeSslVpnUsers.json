@@ -1,9 +1,0 @@
-{
-  "DescribeSslVpnUsers": {
-    "desc": "查询 SSL VPN 用户列表",
-    "vpnId": "VPN 网关 ID",
-    "marker": "分页查询起始标识符",
-    "maxKeys": "每页最大返回数量，默认 1000",
-    "userName": "按用户名过滤"
-  }
-}

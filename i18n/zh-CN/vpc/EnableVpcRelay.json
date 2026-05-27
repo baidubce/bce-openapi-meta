@@ -1,7 +1,0 @@
-{
-  "EnableVpcRelay": {
-    "desc": "开启 VPC 中继",
-    "vpcId": "VPC 的 ID",
-    "clientToken": "幂等性 Token"
-  }
-}

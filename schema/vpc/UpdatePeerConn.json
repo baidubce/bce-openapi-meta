@@ -1,0 +1,44 @@
+{
+  "name" : "UpdatePeerConn",
+  "method" : "PUT",
+  "uri" : "/v{version}/peerconn/{peerConnId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "peerConnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdatePeerConn.peerConnId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdatePeerConn.clientToken"
+  }, {
+    "name" : "localIfId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdatePeerConn.localIfId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdatePeerConn.description"
+  }, {
+    "name" : "localIfName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdatePeerConn.localIfName"
+  } ],
+  "desc_key" : "vpc.UpdatePeerConn.desc"
+}

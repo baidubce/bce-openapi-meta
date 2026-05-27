@@ -1,7 +1,0 @@
-{
-  "DisableVpcRelay": {
-    "desc": "关闭 VPC 中继，操作前需确保中继已开启",
-    "vpcId": "VPC 的 ID",
-    "clientToken": "幂等性 Token"
-  }
-}

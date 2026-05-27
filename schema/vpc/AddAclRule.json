@@ -67,10 +67,10 @@
       "required" : false,
       "desc_key" : "vpc.AddAclRule.aclRules.direction"
     }, {
-      "name" : "ipversion",
+      "name" : "ipVersion",
       "type" : "Integer",
       "required" : false,
-      "desc_key" : "vpc.AddAclRule.aclRules.ipversion"
+      "desc_key" : "vpc.AddAclRule.aclRules.ipVersion"
     }, {
       "name" : "action",
       "type" : "String",

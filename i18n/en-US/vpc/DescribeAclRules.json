@@ -1,8 +1,0 @@
-{
-  "DescribeAclRules": {
-    "desc": "List ACL rules for a subnet",
-    "subnetId": "Subnet ID",
-    "marker": "Pagination start marker",
-    "maxKeys": "Maximum results per page, default 1000"
-  }
-}

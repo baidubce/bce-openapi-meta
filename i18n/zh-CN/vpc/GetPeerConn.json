@@ -1,0 +1,6 @@
+{
+  "GetPeerConn" : {
+    "peerConnId" : "对等连接的ID",
+    "role" : "\"initiator\"表示发起端\"acceptor\"表示接受端，同region的对等连接可以据此进行详情查询，若不设置该参数，同region则随机返回一端信息"
+  }
+}

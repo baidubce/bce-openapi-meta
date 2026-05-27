@@ -1,9 +1,0 @@
-{
-  "EniBindEip": {
-    "desc": "为弹性网卡的指定内网 IP 绑定 EIP",
-    "eniId": "弹性网卡的 ID",
-    "clientToken": "幂等性 Token，最长 64 位 ASCII 字符",
-    "privateIpAddress": "要绑定 EIP 的内网 IP 地址",
-    "publicIpAddress": "要绑定的 EIP 地址"
-  }
-}

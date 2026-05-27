@@ -1,8 +1,0 @@
-{
-  "ListEnterpriseSecurityGroups": {
-    "desc": "查询企业安全组列表",
-    "marker": "分页查询起始标识符",
-    "maxKeys": "每页最大返回数量，不超过 1000，默认 1000",
-    "instanceId": "按实例 ID 过滤关联的安全组，不填则查询所有"
-  }
-}

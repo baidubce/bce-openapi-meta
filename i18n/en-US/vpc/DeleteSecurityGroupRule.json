@@ -1,8 +1,0 @@
-{
-  "DeleteSecurityGroupRule": {
-    "desc": "Delete a security group rule",
-    "securityGroupRuleId": "ID of the security group rule to delete",
-    "sgVersion": "Security group version number",
-    "clientToken": "Idempotent token"
-  }
-}

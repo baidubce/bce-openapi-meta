@@ -1,6 +1,0 @@
-{
-  "UpdatePeerToPeerConnectionReleaseProtectionSwitch" : {
-    "peerConnId" : "The ID of the peer-to-peer connection",
-    "deleteProtect" : "Whether to enable release protection"
-  }
-}

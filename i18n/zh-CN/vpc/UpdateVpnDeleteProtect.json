@@ -1,8 +1,0 @@
-{
-  "UpdateVpnDeleteProtect": {
-    "desc": "开启或关闭 VPN 网关删除保护",
-    "vpnId": "VPN 网关 ID",
-    "clientToken": "幂等性 Token",
-    "deleteProtect": "是否开启删除保护：true 开启，false 关闭"
-  }
-}

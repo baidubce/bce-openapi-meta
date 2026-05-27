@@ -1,6 +1,0 @@
-{
-  "UpdatePeerToPeerConnectionReleaseProtectionSwitch" : {
-    "peerConnId" : "对等连接的ID",
-    "deleteProtect" : "是否开启释放保护"
-  }
-}

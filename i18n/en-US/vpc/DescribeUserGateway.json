@@ -1,6 +1,0 @@
-{
-  "DescribeUserGateway": {
-    "desc": "Get detailed information about a customer gateway",
-    "cgwId": "Customer gateway ID"
-  }
-}

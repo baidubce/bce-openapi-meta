@@ -1,6 +1,0 @@
-{
-  "ViewPeerToPeerConnectionDetails" : {
-    "peerConnId" : "The ID of the peer-to-peer connection",
-    "role" : "\"initiator\" indicates the initiating end, \"acceptor\" indicates the accepting end. For same-region peer connections, this parameter can be used to query details of a specific end. If not set, one end's information is returned at random for same-region connections."
-  }
-}

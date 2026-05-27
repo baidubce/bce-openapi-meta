@@ -1,8 +1,0 @@
-{
-  "EniUnBindEip": {
-    "desc": "Unbind an EIP from an ENI",
-    "eniId": "ENI ID",
-    "clientToken": "Idempotent token, max 64 ASCII characters",
-    "publicIpAddress": "EIP address to unbind"
-  }
-}

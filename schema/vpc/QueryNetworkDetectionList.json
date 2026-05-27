@@ -22,5 +22,12 @@
     "position" : "QUERY",
     "desc_key" : "vpc.QueryNetworkDetectionList.maxKeys"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "probes"
+  },
   "desc_key" : "vpc.QueryNetworkDetectionList.desc"
 }

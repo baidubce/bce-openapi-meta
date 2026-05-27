@@ -1,7 +1,0 @@
-{
-  "DeleteEni": {
-    "desc": "Delete an ENI",
-    "eniId": "ID of the ENI to delete",
-    "clientToken": "Idempotent token, max 64 ASCII characters"
-  }
-}

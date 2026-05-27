@@ -1,8 +1,0 @@
-{
-  "DeleteSecurityGroupRule": {
-    "desc": "删除指定普通安全组规则",
-    "securityGroupRuleId": "待删除的安全组规则 ID",
-    "sgVersion": "安全组版本号",
-    "clientToken": "幂等性 Token"
-  }
-}

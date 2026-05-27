@@ -1,7 +1,0 @@
-{
-  "DescribeSslVpnServer": {
-    "desc": "Get SSL VPN server information",
-    "vpnId": "VPN gateway ID",
-    "clientToken": "Idempotent token"
-  }
-}

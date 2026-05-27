@@ -1,7 +1,0 @@
-{
-  "DescribeVpnTunnels": {
-    "desc": "List VPN tunnels under a VPN gateway",
-    "vpnId": "VPN gateway ID",
-    "clientToken": "Idempotent token"
-  }
-}

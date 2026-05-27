@@ -28,5 +28,12 @@
     "position" : "QUERY",
     "desc_key" : "vpc.QueryTheListOfSpeedLimitPoliciesForIpv6Gateway.maxKeys"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "rateLimitRules"
+  },
   "desc_key" : "vpc.QueryTheListOfSpeedLimitPoliciesForIpv6Gateway.desc"
 }
