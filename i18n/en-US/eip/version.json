@@ -1,7 +1,7 @@
 {
   "version" : "v1",
   "style" : "rpc",
-  "description" : "eip",
+  "description" : "EIP",
   "apis" : {
     "ResizeEipBpBandwidth" : {
       "title" : "resizeEipBpBandwidth",
