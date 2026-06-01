@@ -1,0 +1,107 @@
+{
+  "name" : "DescribeServicesNames",
+  "method" : "POST",
+  "uri" : "/v1/apm/query?action=DescribeServicesNames",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "beginDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.beginDatetime"
+  }, {
+    "name" : "endDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.endDatetime"
+  }, {
+    "name" : "serviceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.serviceName"
+  }, {
+    "name" : "serviceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.serviceId"
+  }, {
+    "name" : "language",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.language"
+  }, {
+    "name" : "env",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.env"
+  }, {
+    "name" : "source",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.source"
+  }, {
+    "name" : "tag",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.tag",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeServicesNames.tag.key"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeServicesNames.tag.value"
+    } ]
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.order"
+  }, {
+    "name" : "metricFilters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeServicesNames.metricFilters",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeServicesNames.metricFilters.key"
+    }, {
+      "name" : "op",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeServicesNames.metricFilters.op"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeServicesNames.metricFilters.value"
+    } ]
+  } ],
+  "desc_key" : "apm.DescribeServicesNames.desc"
+}

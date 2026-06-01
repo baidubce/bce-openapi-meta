@@ -1,0 +1,29 @@
+{
+  "UpdateServiceConfig" : {
+    "serviceNames" : "List of service names; supports updating configuration to multiple services simultaneously",
+    "sampleConfig" : "Sampling configuration; if not specified, this configuration will not be updated",
+    "sampleConfig.enabled" : "Whether to enable sampling",
+    "sampleConfig.processors" : "List of samplers",
+    "loggingConfig" : "Log correlation configuration; if not specified, this configuration will not be updated",
+    "loggingConfig.enabled" : "Whether to enable log correlation",
+    "loggingConfig.region" : "Region",
+    "loggingConfig.project" : "Project that the log store belongs to",
+    "loggingConfig.logStoreName" : "Name of the log store",
+    "loggingConfig.traceIdIndex" : "Method for searching traceId in logs; options: `FIELD` - search by specified field (default), `FULLTEXT` - full-text search",
+    "loggingConfig.traceIdKey" : "Key used for searching when traceIdIndex=FIELD; default: trace_id",
+    "loggingConfig.spanIdIndex" : "Method for searching spanId in logs; options: `FIELD` - search by specified field (default), `FULLTEXT` - full-text search",
+    "loggingConfig.spanIdKey" : "Key used for searching when spanIdIndex=FIELD; default: span_id",
+    "requestConfig" : "Request configuration; if not specified, this configuration will not be updated",
+    "requestConfig.global" : "",
+    "requestConfig.serverSlowRequestThresholdSeconds" : "",
+    "requestConfig.dbSlowRequestThresholdSeconds" : "",
+    "requestConfig.okHttpStatus" : "",
+    "topoConfig" : "Topology map configuration; if not specified, this configuration will not be updated",
+    "topoConfig.global" : "",
+    "topoConfig.requestSecondsThreshold" : "",
+    "topoConfig.errorRateThreshold" : "",
+    "mllmResourceDumpConfig" : "Multimodal data dump configuration; if not specified, this configuration will not be updated",
+    "mllmResourceDumpConfig.retentionDays" : "Retention duration for dumped data, in days",
+    "mllmResourceDumpConfig.bucket" : "BOS Bucket name"
+  }
+}

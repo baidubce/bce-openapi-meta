@@ -1,0 +1,21 @@
+{
+  "DescribeLLMMetricData" : {
+    "beginDatetime" : "开始时间，UTC时间",
+    "endDatetime" : "结束时间，UTC时间",
+    "metrics" : "指标查询列表，每项包含name(指标名，必填)和compareTo(同比数据，选填，可选值：yesterday/lastweek/指定日期)",
+    "metrics.name" : "指标名",
+    "metrics.compareTo" : "同比数据，可选项：`yesterday` - 昨日同比，`lastweek` - 上周同比，`YYYY-mm-dd` - 指定日期同比，`5m`/`1h` - 周期环比",
+    "metrics.filters" : "该指标的特殊过滤条件，会与全局过滤项合并",
+    "filters" : "过滤项列表",
+    "filters.key" : "过滤字段名",
+    "filters.op" : "过滤操作，可选项：`=` - 等于，`:` - 等于，`!=` - 不等于，`contains` - 包含，`in` - 在数组中，`>` - 大于，`>=` - 大于等于，`<` - 小于，`<=` - 小于等于",
+    "filters.value" : "单值，可用于操作符: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "多值，可用于操作符: in",
+    "groupBy" : "GroupBy维度列表",
+    "orderBy" : "排序字段",
+    "order" : "排序方向，可选值：asc(升序)、desc(降序)",
+    "limit" : "返回数量限制，若未设置则返回尽可能多的数据",
+    "periodSeconds" : "按时间聚合周期（秒），默认值0。若为0或未设置，表示从起止时间只计算一个聚合点",
+    "aggregate" : "返回聚合值，可选项：sum(求和)、sumPerSecond(求和后计算每秒平均值)"
+  }
+}

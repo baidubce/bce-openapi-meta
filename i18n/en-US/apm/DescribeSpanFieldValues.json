@@ -1,0 +1,13 @@
+{
+  "DescribeSpanFieldValues" : {
+    "action" : "API action name, current value is DescribeSpanFieldValues",
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "key" : "Field name. Options: service (application name), host (instance name), duration (response time in microseconds), traceId (Trace ID), attributes.apm.operation (endpoint), attributes.apm.component (request type)",
+    "filters" : "Filter list. Only the following filters are supported: service (application name)",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator. Options: `=` - equal, `:` - equal, `!=` - not equal, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal to, `<` - less than, `<=` - less than or equal to",
+    "filters.value" : "Single value, applicable to operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, applicable to operator: in"
+  }
+}

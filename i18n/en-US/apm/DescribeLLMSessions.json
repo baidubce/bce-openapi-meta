@@ -1,0 +1,15 @@
+{
+  "DescribeLLMSessions" : {
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "filters" : "Filter list. Supported filter fields: sessionId, userId, duration (response time in ms), inputTokens, outputTokens, totalTokens, traceCount",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator. Options: `=` - equal, `:` - equal, `!=` - not equal, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal, `<` - less than, `<=` - less than or equal",
+    "filters.value" : "Single value, applicable to operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, applicable to operator: in",
+    "orderBy" : "Sort field. Default: startTime. Options: startTime, duration, traceCount, totalTokens",
+    "order" : "Sort direction. Options: asc (ascending), desc (descending)",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Number of items per page, maximum: 100"
+  }
+}

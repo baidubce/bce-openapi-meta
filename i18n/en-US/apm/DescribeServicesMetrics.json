@@ -1,0 +1,12 @@
+{
+  "DescribeServicesMetrics" : {
+    "beginDatetime" : "Start time, in ISO 8601 format",
+    "endDatetime" : "End time, in ISO 8601 format",
+    "services" : "List of application names; the services to display per page from the full service list returned by the first-stage query",
+    "metrics" : "List of application metrics to return; if not set, defaults to [requests, requestsPerSecond, errors, errorRate, durationSeconds]. Options: requests, requestsPerSecond, errors, errorRate, durationSeconds, abSuccessRate, abErrorRate, abRequests, abDurationSeconds, llmErrorRate, llmTokens",
+    "metricFilters" : "Filter conditions for metrics",
+    "metricFilters.key" : "Filter field name",
+    "metricFilters.op" : "Filter operator. Options: `=` - equals, `!=` - not equals, `contains` - contains",
+    "metricFilters.value" : "Filter value"
+  }
+}

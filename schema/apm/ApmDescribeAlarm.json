@@ -1,0 +1,20 @@
+{
+  "name" : "ApmDescribeAlarm",
+  "method" : "POST",
+  "uri" : "/v1/apm/alarm?action=DescribeAlarm",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmDescribeAlarm.id"
+  } ],
+  "desc_key" : "apm.ApmDescribeAlarm.desc"
+}

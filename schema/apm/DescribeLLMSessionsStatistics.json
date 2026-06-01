@@ -1,0 +1,53 @@
+{
+  "name" : "DescribeLLMSessionsStatistics",
+  "method" : "POST",
+  "uri" : "/v1/apm/query?action=DescribeLLMSessionsStatistics",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "beginDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMSessionsStatistics.beginDatetime"
+  }, {
+    "name" : "endDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMSessionsStatistics.endDatetime"
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMSessionsStatistics.filters",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMSessionsStatistics.filters.key"
+    }, {
+      "name" : "op",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMSessionsStatistics.filters.op"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMSessionsStatistics.filters.value"
+    }, {
+      "name" : "values",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMSessionsStatistics.filters.values"
+    } ]
+  } ],
+  "desc_key" : "apm.DescribeLLMSessionsStatistics.desc"
+}

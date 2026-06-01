@@ -1,0 +1,17 @@
+{
+  "DescribeTraceMetricData" : {
+    "action" : "API name, current value is DescribeTraceMetricData",
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "metrics" : "List of metric names. Available metrics: apm_requests_count (request count), apm_error_requests_count (error count), apm_requests_seconds_avg (average request latency), apm_requests_seconds_p90 (P90 latency), apm_requests_seconds_p95 (P95 latency), apm_requests_seconds_p99 (P99 latency)",
+    "metrics.name" : "Metric name",
+    "filters" : "List of filter conditions",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator. Options: `=` - equal, `:` - equal, `!=` - not equal, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal, `<` - less than, `<=` - less than or equal",
+    "filters.value" : "Single value, applicable operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, applicable operator: in",
+    "groupBy" : "List of group-by fields. Options: attributes.http.response.status_code (HTTP response status code)",
+    "periodSeconds" : "Time aggregation interval in seconds. One aggregation point is computed per periodSeconds seconds. If set to 0 or not specified, a single aggregation point is computed over the entire time range. Default: 0",
+    "aggregate" : "Aggregation method for returned values. Options: sum (summation), sumPerSecond (sum divided by seconds to get per-second average)"
+  }
+}

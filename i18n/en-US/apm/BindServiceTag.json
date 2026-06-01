@@ -1,0 +1,9 @@
+{
+  "BindServiceTag" : {
+    "serviceName" : "Application name",
+    "serviceId" : "Application ID",
+    "tags" : "List of tags to bind; only full tag replacement is supported, partial updates are not",
+    "tags.key" : "Tag key",
+    "tags.value" : "Tag value"
+  }
+}

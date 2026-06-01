@@ -1,0 +1,14 @@
+{
+  "name" : "DescribeRetentionLimit",
+  "method" : "POST",
+  "uri" : "/v1/apm?action=DescribeRetentionLimit",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "apm.DescribeRetentionLimit.desc"
+}

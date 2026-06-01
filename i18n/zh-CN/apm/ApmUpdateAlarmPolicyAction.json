@@ -1,0 +1,12 @@
+{
+  "ApmUpdateAlarmPolicyAction" : {
+    "id" : "策略ID",
+    "actions" : "通知模板列表，统一用于异常通知、恢复通知、重复报警通知",
+    "actions.notifyId" : "通知模板ID",
+    "actions.alias" : "通知模板名称，仅在查询响应中返回",
+    "actions.callBacks" : "回调地址列表，仅在查询响应中返回",
+    "actions.disableTimes" : "屏蔽时间列表，仅在查询响应中返回",
+    "actions.members" : "成员列表，仅在查询响应中返回",
+    "actions.types" : "通知类型列表，如EMAIL，仅在查询响应中返回"
+  }
+}

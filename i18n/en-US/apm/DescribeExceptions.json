@@ -1,0 +1,9 @@
+{
+  "DescribeExceptions" : {
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "service" : "Service name to which the exception belongs",
+    "exceptions" : "Batch query by exceptionId, each item contains id (exception ID, required)",
+    "exceptions.id" : "Exception ID"
+  }
+}

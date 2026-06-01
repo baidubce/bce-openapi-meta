@@ -1,0 +1,15 @@
+{
+  "DescribeTrace" : {
+    "action" : "API接口名称，当前取值为DescribeTrace",
+    "spanDatetime" : "链路中任一span的时间戳。该字段与beginDatetime/endDatetime必填其一，若填写了spanDatetime，将忽略begin/endDatetime",
+    "beginDatetime" : "开始时间，UTC时间。与spanDatetime必填其一",
+    "endDatetime" : "结束时间，UTC时间。与spanDatetime必填其一",
+    "traceId" : "TraceID",
+    "filters" : "过滤项列表",
+    "filters.key" : "过滤字段名",
+    "filters.op" : "过滤操作，可选项：`=` - 等于，`:` - 等于，`!=` - 不等于，`contains` - 包含，`in` - 在数组中，`>` - 大于，`>=` - 大于等于，`<` - 小于，`<=` - 小于等于",
+    "filters.value" : "单值，可用于操作符: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "多值，可用于操作符: in",
+    "returnHeight" : "是否返回span在瀑布图中的高度，默认值：false"
+  }
+}

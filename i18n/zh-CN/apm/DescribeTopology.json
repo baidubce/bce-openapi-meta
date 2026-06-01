@@ -1,0 +1,9 @@
+{
+  "DescribeTopology" : {
+    "action" : "API接口名称，当前取值为DescribeTopology",
+    "serviceName" : "应用名。若未设置，表示查询全局拓扑；若设置，表示查询服务上下游拓扑。支持模糊搜索，例如\".*mall.*\"",
+    "env" : "按env过滤，若未设置，返回所有环境的拓扑图",
+    "beginDatetime" : "开始时间，UTC时间",
+    "endDatetime" : "结束时间，UTC时间"
+  }
+}

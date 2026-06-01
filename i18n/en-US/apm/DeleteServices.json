@@ -1,0 +1,5 @@
+{
+  "DeleteServices" : {
+    "serviceNames" : "List of application names, supports batch deletion"
+  }
+}

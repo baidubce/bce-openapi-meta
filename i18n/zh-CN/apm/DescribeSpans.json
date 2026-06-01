@@ -1,0 +1,15 @@
+{
+  "DescribeSpans" : {
+    "action" : "API接口名称，当前取值为DescribeSpans",
+    "beginDatetime" : "开始时间，UTC时间",
+    "endDatetime" : "结束时间，UTC时间",
+    "filters" : "过滤项列表。支持的过滤字段：service（应用名称）、name（span名称）、kind（span类型）、host（实例名称）、duration（响应时间，单位us）、traceId（TraceID）、statusCode（Span状态码）、hasException（是否存在异常）、exception.type（异常类型）、attributes.apm.operation（接口）、attributes.apm.component（请求类型）、slowRequest（慢调用）、slowDBRequest（慢SQL）、attributes.${key}（自定义span属性值）、env（所属环境）",
+    "filters.key" : "过滤字段名",
+    "filters.op" : "过滤操作，可选项：`=` - 等于，`:` - 等于，`!=` - 不等于，`contains` - 包含，`in` - 在数组中，`>` - 大于，`>=` - 大于等于，`<` - 小于，`<=` - 小于等于",
+    "filters.value" : "单值，可用于操作符: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "多值，可用于操作符: in",
+    "orderBy" : "排序字段，默认值：startTime",
+    "order" : "排序方式，可选值：asc、desc",
+    "marker" : "翻页游标。请求第一页时填空，请求后续页时使用上一页返回的nextMarker值"
+  }
+}

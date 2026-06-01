@@ -1,0 +1,44 @@
+{
+  "name" : "DescribeTopology",
+  "method" : "POST",
+  "uri" : "/v1/apm/query?action=DescribeTopology",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "apm.DescribeTopology.action"
+  }, {
+    "name" : "serviceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeTopology.serviceName"
+  }, {
+    "name" : "env",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeTopology.env"
+  }, {
+    "name" : "beginDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeTopology.beginDatetime"
+  }, {
+    "name" : "endDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeTopology.endDatetime"
+  } ],
+  "desc_key" : "apm.DescribeTopology.desc"
+}

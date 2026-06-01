@@ -1,0 +1,68 @@
+{
+  "name" : "ApmDescribeAlarmPolicies",
+  "method" : "POST",
+  "uri" : "/v1/apm?action=DescribeAlarmPolicies",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "policyName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmDescribeAlarmPolicies.policyName"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmDescribeAlarmPolicies.policyId"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmDescribeAlarmPolicies.state"
+  }, {
+    "name" : "level",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmDescribeAlarmPolicies.level"
+  }, {
+    "name" : "metricKind",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmDescribeAlarmPolicies.metricKind"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmDescribeAlarmPolicies.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmDescribeAlarmPolicies.order"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmDescribeAlarmPolicies.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmDescribeAlarmPolicies.pageSize"
+  } ],
+  "desc_key" : "apm.ApmDescribeAlarmPolicies.desc"
+}

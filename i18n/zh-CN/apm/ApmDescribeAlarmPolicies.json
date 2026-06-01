@@ -1,0 +1,13 @@
+{
+  "ApmDescribeAlarmPolicies" : {
+    "policyName" : "按策略名称筛选",
+    "policyId" : "按策略ID筛选",
+    "state" : "策略状态筛选，可选值：ENABLED-启动，DISABLED-禁用",
+    "level" : "策略级别筛选，可选值：NOTICE-通知，WARNING-警告，MAJOR-重要，CRITICAL-严重",
+    "metricKind" : "指标类别筛选，可选值：SERVER-服务端性能指标，CLIENT-客户端性能指标，DB-数据库指标，PRODUCER-生产者，CONSUMER-消费者，INTERNAL_FUNCTION-内部函数，JVM-JVM监控，EXCEPTION-异常监控",
+    "orderBy" : "排序字段，默认值：updatedTime，可选值：updatedTime-更新时间，createdTime-创建时间",
+    "order" : "排序方式，默认值：desc，可选值：desc-降序，asc-升序",
+    "pageNo" : "第几页，从1开始计数",
+    "pageSize" : "每页展示数量，最大值：100"
+  }
+}

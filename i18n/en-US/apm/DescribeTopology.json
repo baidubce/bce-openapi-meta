@@ -1,0 +1,9 @@
+{
+  "DescribeTopology" : {
+    "action" : "The name of the API action; fixed value: DescribeTopology",
+    "serviceName" : "Application name. If not set, queries the global topology; if set, queries the upstream/downstream topology of the specified service. Supports fuzzy search, e.g. \".*mall.*\"",
+    "env" : "Filter by environment. If not set, returns topology for all environments",
+    "beginDatetime" : "Start time in UTC",
+    "endDatetime" : "End time in UTC"
+  }
+}

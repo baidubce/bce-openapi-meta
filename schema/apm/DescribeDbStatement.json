@@ -1,0 +1,44 @@
+{
+  "name" : "DescribeDbStatement",
+  "method" : "POST",
+  "uri" : "/v1/apm/query?action=DescribeDbStatement",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "beginDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeDbStatement.beginDatetime"
+  }, {
+    "name" : "endDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeDbStatement.endDatetime"
+  }, {
+    "name" : "service",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeDbStatement.service"
+  }, {
+    "name" : "statements",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeDbStatement.statements",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeDbStatement.statements.id"
+    } ]
+  } ],
+  "desc_key" : "apm.DescribeDbStatement.desc"
+}

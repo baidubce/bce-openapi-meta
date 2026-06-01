@@ -1,0 +1,15 @@
+{
+  "DescribeLLMSpans" : {
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "parseLLMInputOutput" : "Whether to populate gen_ai.input and gen_ai.output fields, default false",
+    "filters" : "List of filter conditions. Supported filter fields: service (application name), host (instance name), duration (response time in microseconds), traceId (Trace ID), statusCode (span status code), hasException (whether an exception exists), exception.type (exception type), attributes.apm.operation (operation), attributes.apm.component (request type), attributes.gen_ai.kind (span type), attributes.gen_ai.response.model (model name)",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator. Options: `=` - equal, `:` - equal, `!=` - not equal, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal, `<` - less than, `<=` - less than or equal",
+    "filters.value" : "Single value, applicable to operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, applicable to operator: in",
+    "orderBy" : "Sort field, default: startTime. Options: startTime (start time)",
+    "order" : "Sort direction. Options: asc (ascending), desc (descending)",
+    "marker" : "Pagination cursor. Leave empty for the first page; use the nextMarker value returned from the previous page for subsequent pages"
+  }
+}

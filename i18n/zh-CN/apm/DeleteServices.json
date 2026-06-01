@@ -1,0 +1,5 @@
+{
+  "DeleteServices" : {
+    "serviceNames" : "应用名列表，支持批量删除"
+  }
+}

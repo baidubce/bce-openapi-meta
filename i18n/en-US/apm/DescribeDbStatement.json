@@ -1,0 +1,9 @@
+{
+  "DescribeDbStatement" : {
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "service" : "Service name to which the database belongs",
+    "statements" : "Batch query by database statement IDs, each item contains id (statement ID, required)",
+    "statements.id" : "Statement ID"
+  }
+}

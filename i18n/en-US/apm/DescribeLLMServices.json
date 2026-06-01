@@ -1,0 +1,14 @@
+{
+  "DescribeLLMServices" : {
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "serviceName" : "Filter by application name; returns all applications if not set",
+    "serviceId" : "Filter by application ID",
+    "env" : "Filter by env",
+    "tag" : "Filter by tag (single selection). key=\"@@@\" means no tag; key=\"@@@\" and value=\"@@@\" means all tags; key=\"abc\" and value=\"@@@\" means all resources with key \"abc\"",
+    "tag.key" : "Tag key",
+    "tag.value" : "Tag value",
+    "orderBy" : "Sort field; default: requests",
+    "order" : "Sort order; default: desc; options: asc (ascending), desc (descending)"
+  }
+}

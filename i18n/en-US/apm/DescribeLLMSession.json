@@ -1,0 +1,7 @@
+{
+  "DescribeLLMSession" : {
+    "sessionID" : "Session ID",
+    "beginDatetime" : "Session start time in UTC",
+    "endDatetime" : "Session end time in UTC"
+  }
+}

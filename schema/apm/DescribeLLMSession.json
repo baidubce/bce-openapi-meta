@@ -1,0 +1,32 @@
+{
+  "name" : "DescribeLLMSession",
+  "method" : "POST",
+  "uri" : "/v1/apm/query?action=DescribeLLMSession",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "sessionID",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMSession.sessionID"
+  }, {
+    "name" : "beginDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMSession.beginDatetime"
+  }, {
+    "name" : "endDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMSession.endDatetime"
+  } ],
+  "desc_key" : "apm.DescribeLLMSession.desc"
+}

@@ -1,0 +1,65 @@
+{
+  "name" : "DescribeLLMTrace",
+  "method" : "POST",
+  "uri" : "/v1/apm/query?action=DescribeLLMTrace",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "beginDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMTrace.beginDatetime"
+  }, {
+    "name" : "endDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMTrace.endDatetime"
+  }, {
+    "name" : "traceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMTrace.traceId"
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMTrace.filters",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMTrace.filters.key"
+    }, {
+      "name" : "op",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMTrace.filters.op"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMTrace.filters.value"
+    }, {
+      "name" : "values",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMTrace.filters.values"
+    } ]
+  }, {
+    "name" : "returnHeight",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMTrace.returnHeight"
+  } ],
+  "desc_key" : "apm.DescribeLLMTrace.desc"
+}

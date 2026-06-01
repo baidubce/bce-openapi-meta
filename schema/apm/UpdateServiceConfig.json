@@ -1,0 +1,187 @@
+{
+  "name" : "UpdateServiceConfig",
+  "method" : "POST",
+  "uri" : "/v1/apm?action=UpdateServiceConfig",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "serviceNames",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.UpdateServiceConfig.serviceNames"
+  }, {
+    "name" : "sampleConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.UpdateServiceConfig.sampleConfig",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.sampleConfig.enabled"
+    }, {
+      "name" : "processors",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.sampleConfig.processors",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.UpdateServiceConfig.sampleConfig.processors.name"
+      }, {
+        "name" : "enabled",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "apm.UpdateServiceConfig.sampleConfig.processors.enabled"
+      }, {
+        "name" : "filters",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "apm.UpdateServiceConfig.sampleConfig.processors.filters",
+        "sub_parameters" : [ {
+          "name" : "key",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "apm.UpdateServiceConfig.sampleConfig.processors.filters.key"
+        }, {
+          "name" : "op",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "apm.UpdateServiceConfig.sampleConfig.processors.filters.op"
+        }, {
+          "name" : "value",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "apm.UpdateServiceConfig.sampleConfig.processors.filters.value"
+        } ]
+      }, {
+        "name" : "sampleRate",
+        "type" : "Float",
+        "required" : false,
+        "desc_key" : "apm.UpdateServiceConfig.sampleConfig.processors.sampleRate"
+      } ]
+    } ]
+  }, {
+    "name" : "loggingConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.UpdateServiceConfig.loggingConfig",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.loggingConfig.enabled"
+    }, {
+      "name" : "region",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.loggingConfig.region"
+    }, {
+      "name" : "project",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.loggingConfig.project"
+    }, {
+      "name" : "logStoreName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.loggingConfig.logStoreName"
+    }, {
+      "name" : "traceIdIndex",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.loggingConfig.traceIdIndex"
+    }, {
+      "name" : "traceIdKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.loggingConfig.traceIdKey"
+    }, {
+      "name" : "spanIdIndex",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.loggingConfig.spanIdIndex"
+    }, {
+      "name" : "spanIdKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.loggingConfig.spanIdKey"
+    } ]
+  }, {
+    "name" : "requestConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.UpdateServiceConfig.requestConfig",
+    "sub_parameters" : [ {
+      "name" : "global",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.requestConfig.global"
+    }, {
+      "name" : "serverSlowRequestThresholdSeconds",
+      "type" : "Double",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.requestConfig.serverSlowRequestThresholdSeconds"
+    }, {
+      "name" : "dbSlowRequestThresholdSeconds",
+      "type" : "Double",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.requestConfig.dbSlowRequestThresholdSeconds"
+    }, {
+      "name" : "okHttpStatus",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.requestConfig.okHttpStatus"
+    } ]
+  }, {
+    "name" : "topoConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.UpdateServiceConfig.topoConfig",
+    "sub_parameters" : [ {
+      "name" : "global",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.topoConfig.global"
+    }, {
+      "name" : "requestSecondsThreshold",
+      "type" : "Double",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.topoConfig.requestSecondsThreshold"
+    }, {
+      "name" : "errorRateThreshold",
+      "type" : "Double",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.topoConfig.errorRateThreshold"
+    } ]
+  }, {
+    "name" : "mllmResourceDumpConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.UpdateServiceConfig.mllmResourceDumpConfig",
+    "sub_parameters" : [ {
+      "name" : "retentionDays",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.mllmResourceDumpConfig.retentionDays"
+    }, {
+      "name" : "bucket",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.UpdateServiceConfig.mllmResourceDumpConfig.bucket"
+    } ]
+  } ],
+  "desc_key" : "apm.UpdateServiceConfig.desc"
+}
