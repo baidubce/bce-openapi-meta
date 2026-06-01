@@ -1,0 +1,5 @@
+{
+  "GetProbeDetail" : {
+    "probeId" : "网络探测的ID"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "RevokeSecurityGroupRules" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性).",
+    "sgVersion" : "Security group version number, obtainable from the security group list.",
+    "securityGroupId" : "ID of the security group whose rules are to be revoked.",
+    "rule" : "Security group rule to be revoked.",
+    "rule.remark" : "Remark.",
+    "rule.direction" : "Traffic direction: ingress or egress.",
+    "rule.ethertype" : "Network type: IPv4 or IPv6. Defaults to IPv4 if empty.",
+    "rule.portRange" : "Port range, e.g. 80 for a single port. Defaults to 1-65535 if empty.",
+    "rule.protocol" : "Protocol type: tcp, udp, or icmp. Defaults to all if empty.",
+    "rule.sourceGroupId" : "Source security group ID.",
+    "rule.sourceIp" : "Source IP address. Cannot be set together with sourceGroupId.",
+    "rule.destGroupId" : "Destination security group ID.",
+    "rule.destIp" : "Destination IP address. Cannot be set together with destGroupId.",
+    "rule.securityGroupId" : "Security group ID.",
+    "rule.securityGroupRuleId" : "Security group rule ID.",
+    "rule.createdTime" : "Creation time of the security group rule.",
+    "rule.updatedTime" : "Last modification time of the security group rule."
+  }
+}

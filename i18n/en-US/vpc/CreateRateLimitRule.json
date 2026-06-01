@@ -1,0 +1,9 @@
+{
+  "CreateRateLimitRule" : {
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "gatewayId" : "The ID of the IPv6 gateway",
+    "ipv6Address" : "The IPv6 address",
+    "ingressBandwidthInMbps" : "Inbound bandwidth limit of the rate limiting policy, in Mbps",
+    "egressBandwidthInMbps" : "Outbound bandwidth limit of the rate limiting policy, in Mbps"
+  }
+}

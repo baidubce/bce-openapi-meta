@@ -1,0 +1,10 @@
+{
+  "UpdateProbe" : {
+    "probeId" : "The ID of the network probe",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性).",
+    "name" : "Name of the network probe, up to 65 characters, consisting of digits, letters, and underscores",
+    "description" : "Description of the network probe, up to 200 characters",
+    "destIp" : "Destination IP address for the probe",
+    "destPort" : "Destination port for the probe"
+  }
+}

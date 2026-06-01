@@ -1,0 +1,74 @@
+{
+  "name" : "UpdateSecurityGroupRules",
+  "method" : "PUT",
+  "uri" : "/v{version}/securityGroup/rule/update",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateSecurityGroupRules.clientToken"
+  }, {
+    "name" : "sgVersion",
+    "type" : "Long",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateSecurityGroupRules.sgVersion"
+  }, {
+    "name" : "securityGroupRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSecurityGroupRules.securityGroupRuleId"
+  }, {
+    "name" : "remark",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSecurityGroupRules.remark"
+  }, {
+    "name" : "portRange",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSecurityGroupRules.portRange"
+  }, {
+    "name" : "sourceIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSecurityGroupRules.sourceIp"
+  }, {
+    "name" : "sourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSecurityGroupRules.sourceGroupId"
+  }, {
+    "name" : "destIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSecurityGroupRules.destIp"
+  }, {
+    "name" : "destGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSecurityGroupRules.destGroupId"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateSecurityGroupRules.protocol"
+  } ],
+  "desc_key" : "vpc.UpdateSecurityGroupRules.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "RemoveIpGroupFromIpSet" : {
+    "ipGroupId" : "The ID of the IP address group.",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性).",
+    "ipSetIds" : "IDs of the IP sets to remove. A maximum of 5 IDs can be specified per request."
+  }
+}

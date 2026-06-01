@@ -1,0 +1,14 @@
+{
+  "UpdateSecurityGroupRules" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)。",
+    "sgVersion" : "安全组版本号",
+    "securityGroupRuleId" : "安全组规则ID",
+    "remark" : "描述",
+    "portRange" : "端口范围",
+    "sourceIp" : "入站规则Ip，与sourceGroupId不可同时存在",
+    "sourceGroupId" : "入站规则安全组ID，与sourceIp不可同时存在",
+    "destIp" : "出站规则Ip，与destGroupId不可同时存在",
+    "destGroupId" : "出站规则安全组ID，与destIp不可同时存在",
+    "protocol" : "协议，暂不支持tcp/udp转icmp"
+  }
+}

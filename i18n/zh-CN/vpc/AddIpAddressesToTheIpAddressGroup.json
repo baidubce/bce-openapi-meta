@@ -1,9 +1,0 @@
-{
-  "AddIpAddressesToTheIpAddressGroup" : {
-    "ipSetId" : "IP地址组的ID",
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)",
-    "ipAddressInfo" : "添加的IP地址信息，其ipVersion需与指定的IP地址组保持一致，单次最多指定10个",
-    "ipAddressInfo.ipAddress" : "参数模板IP地址，可为具体IP地址或者CIDR块",
-    "ipAddressInfo.description" : "参数模板IP地址，具体描述"
-  }
-}

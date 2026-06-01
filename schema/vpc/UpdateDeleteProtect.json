@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateDeleteProtect",
+  "method" : "PUT",
+  "uri" : "/v{version}/IPv6Gateway/{gatewayId}/deleteProtect",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateDeleteProtect.clientToken"
+  }, {
+    "name" : "gatewayId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateDeleteProtect.gatewayId"
+  }, {
+    "name" : "deleteProtect",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateDeleteProtect.deleteProtect"
+  } ],
+  "desc_key" : "vpc.UpdateDeleteProtect.desc"
+}

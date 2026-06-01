@@ -1,0 +1,19 @@
+{
+  "CreateEni" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性).",
+    "name" : "Name of the elastic network interface",
+    "subnetId" : "ID of the subnet to which the elastic network interface belongs",
+    "securityGroupIds" : "Collection of standard security groups to bind",
+    "enterpriseSecurityGroupIds" : "Collection of enterprise security groups to bind",
+    "privateIpSet" : "Specified private IPv4 address information",
+    "privateIpSet.publicIpAddress" : "Public IP address (EIP) associated with the elastic network interface",
+    "privateIpSet.primary" : "Whether this is the primary IP address",
+    "privateIpSet.privateIpAddress" : "Private IPv4 address of the elastic network interface",
+    "ipv6PrivateIpSet" : "Specified private IPv6 address information",
+    "ipv6PrivateIpSet.publicIpAddress" : "Public IP address (EIP) associated with the elastic network interface",
+    "ipv6PrivateIpSet.primary" : "Whether this is the primary IP address",
+    "ipv6PrivateIpSet.privateIpAddress" : "Private IPv6 address of the elastic network interface",
+    "description" : "Description of the elastic network interface",
+    "networkInterfaceTrafficMode" : "Specifies whether to create an elastic RDMA interface (ERI) or a standard elastic network interface (ENI)"
+  }
+}

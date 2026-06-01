@@ -1,0 +1,32 @@
+{
+  "name" : "DeleteEniIp",
+  "method" : "DELETE",
+  "uri" : "/v{version}/eni/{eniId}/privateIp/{privateIpAddress}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "eniId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteEniIp.eniId"
+  }, {
+    "name" : "privateIpAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.DeleteEniIp.privateIpAddress"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.DeleteEniIp.clientToken"
+  } ],
+  "desc_key" : "vpc.DeleteEniIp.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "CreateEgressOnlyRule" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters, see [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "gatewayId" : "ID of the IPv6 gateway",
+    "cidr" : "CIDR for the egress-only policy"
+  }
+}

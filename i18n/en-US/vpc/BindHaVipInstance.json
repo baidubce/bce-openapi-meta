@@ -1,0 +1,8 @@
+{
+  "BindHaVipInstance" : {
+    "haVipId" : "ID of the HA VIP",
+    "clientToken" : "Idempotency token, ASCII string up to 64 characters, see [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "instanceIds" : "List of bound instance IDs, max 5 entries",
+    "instanceType" : "Type of bound instance: \"SERVER\" for cloud servers (BCC/BBC/DCC), \"ENI\" for elastic network interface"
+  }
+}

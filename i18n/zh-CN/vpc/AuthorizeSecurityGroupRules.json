@@ -1,0 +1,21 @@
+{
+  "AuthorizeSecurityGroupRules" : {
+    "sgVersion" : "安全组版本号",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)。",
+    "securityGroupId" : "授权新安全组规则的安全组ID",
+    "rule" : "待授权安全组规则",
+    "rule.remark" : "备注",
+    "rule.direction" : "入站/出站，取值ingress或egress。",
+    "rule.ethertype" : "网络类型，取值IPv4或IPv6。值为空时表示默认取值IPv4。",
+    "rule.portRange" : "端口范围，可以指定80等单个端口，值为空时默认取值1-65535。",
+    "rule.protocol" : "协议类型，tcp、udp或icmp，值为空时默认取值all。",
+    "rule.sourceGroupId" : "源安全组ID",
+    "rule.sourceIp" : "源IP地址，与sourceGroupId不能同时设定值。",
+    "rule.destGroupId" : "目的安全组ID",
+    "rule.destIp" : "目的IP地址，与destGroupId不能同时设定值。",
+    "rule.securityGroupId" : "安全组ID",
+    "rule.securityGroupRuleId" : "安全组规则ID",
+    "rule.createdTime" : "安全组规则创建时间",
+    "rule.updatedTime" : "安全组规则修改时间"
+  }
+}

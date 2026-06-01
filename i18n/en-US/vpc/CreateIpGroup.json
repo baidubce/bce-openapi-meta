@@ -1,0 +1,11 @@
+{
+  "CreateIpGroup" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性).",
+    "name" : "Name of the IP address group. Allowed characters: uppercase and lowercase letters, digits, Chinese characters, and special characters -_/. Must start with a letter or Chinese character. Length: 1–65.",
+    "ipVersion" : "IP version. Valid values: IPv4 or IPv6.",
+    "ipAddressInfo" : "IP address information for the parameter template. Up to 10 entries can be specified per request.",
+    "ipAddressInfo.ipAddress" : "IP address for the parameter template. Can be a specific IP address or a CIDR block.",
+    "ipAddressInfo.description" : "Description of the parameter template IP address.",
+    "description" : "Description of the IP address group. Maximum length: 255 characters."
+  }
+}

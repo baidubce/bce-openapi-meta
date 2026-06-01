@@ -1,7 +1,0 @@
-{
-  "HighlyAvailableVirtualIpBindingEip" : {
-    "haVipId" : "高可用虚拟IP的ID",
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)",
-    "publicIpAddress" : "弹性公网IP的地址"
-  }
-}

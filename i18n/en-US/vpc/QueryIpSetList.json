@@ -1,0 +1,7 @@
+{
+  "QueryIpSetList" : {
+    "ipVersion" : "IP version, value is IPv4 or IPv6",
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000, default is 1000"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteHaVip" : {
+    "haVipId" : "The ID of the high-availability virtual IP",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)"
+  }
+}

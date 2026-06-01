@@ -1,9 +1,0 @@
-{
-  "CreateAHighlyAvailableVirtualIp" : {
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)",
-    "name" : "高可用虚拟IP的名称，限制：大小写字母、数字、中文以及-_/.特殊字符，必须以字母或者中文开头，长度1-65",
-    "subnetId" : "高可用虚拟IP所属的子网ID",
-    "privateIpAddress" : "指定的IP地址，为\"\"表示自动分配IP地址",
-    "description" : "高可用虚拟IP描述"
-  }
-}

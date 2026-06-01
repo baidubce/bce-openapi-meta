@@ -1,0 +1,100 @@
+{
+  "name" : "CreateEni",
+  "method" : "POST",
+  "uri" : "/v{version}/eni",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateEni.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateEni.name"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateEni.subnetId"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateEni.securityGroupIds"
+  }, {
+    "name" : "enterpriseSecurityGroupIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateEni.enterpriseSecurityGroupIds"
+  }, {
+    "name" : "privateIpSet",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateEni.privateIpSet",
+    "sub_parameters" : [ {
+      "name" : "publicIpAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateEni.privateIpSet.publicIpAddress"
+    }, {
+      "name" : "primary",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "vpc.CreateEni.privateIpSet.primary"
+    }, {
+      "name" : "privateIpAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateEni.privateIpSet.privateIpAddress"
+    } ]
+  }, {
+    "name" : "ipv6PrivateIpSet",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateEni.ipv6PrivateIpSet",
+    "sub_parameters" : [ {
+      "name" : "publicIpAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateEni.ipv6PrivateIpSet.publicIpAddress"
+    }, {
+      "name" : "primary",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "vpc.CreateEni.ipv6PrivateIpSet.primary"
+    }, {
+      "name" : "privateIpAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.CreateEni.ipv6PrivateIpSet.privateIpAddress"
+    } ]
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateEni.description"
+  }, {
+    "name" : "networkInterfaceTrafficMode",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateEni.networkInterfaceTrafficMode"
+  } ],
+  "desc_key" : "vpc.CreateEni.desc"
+}

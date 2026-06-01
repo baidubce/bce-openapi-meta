@@ -1,0 +1,32 @@
+{
+  "name" : "BindHaVipEip",
+  "method" : "PUT",
+  "uri" : "/v{version}/havip/{haVipId}?bindPublicIp",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "haVipId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.BindHaVipEip.haVipId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.BindHaVipEip.clientToken"
+  }, {
+    "name" : "publicIpAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BindHaVipEip.publicIpAddress"
+  } ],
+  "desc_key" : "vpc.BindHaVipEip.desc"
+}

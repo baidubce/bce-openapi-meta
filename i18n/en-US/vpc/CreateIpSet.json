@@ -1,0 +1,9 @@
+{
+  "CreateIpSet" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See ClientToken Idempotency for details.",
+    "name" : "Name of the IP address family. Allowed characters: letters, digits, Chinese characters, and -_/. special chars; must start with a letter or Chinese character; length 1–65.",
+    "ipVersion" : "IP version, value: IPv4 or IPv6.",
+    "ipSetIds" : "Associated IP address group IDs; ipVersion must match the IP address family being created; up to 5 IDs per request.",
+    "description" : "Description of the IP address family; max length 255 characters."
+  }
+}

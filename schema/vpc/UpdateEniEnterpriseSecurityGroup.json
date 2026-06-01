@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateEniEnterpriseSecurityGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/eni/{eniId}?bindEsg",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "eniId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UpdateEniEnterpriseSecurityGroup.eniId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UpdateEniEnterpriseSecurityGroup.clientToken"
+  }, {
+    "name" : "enterpriseSecurityGroupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UpdateEniEnterpriseSecurityGroup.enterpriseSecurityGroupIds"
+  } ],
+  "desc_key" : "vpc.UpdateEniEnterpriseSecurityGroup.desc"
+}

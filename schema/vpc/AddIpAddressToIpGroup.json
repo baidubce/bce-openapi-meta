@@ -1,0 +1,43 @@
+{
+  "name" : "AddIpAddressToIpGroup",
+  "method" : "POST",
+  "uri" : "/v{version}/ipSet/{ipSetId}/ipAddress",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ipSetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.AddIpAddressToIpGroup.ipSetId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.AddIpAddressToIpGroup.clientToken"
+  }, {
+    "name" : "ipAddressInfo",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.AddIpAddressToIpGroup.ipAddressInfo",
+    "sub_parameters" : [ {
+      "name" : "ipAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddIpAddressToIpGroup.ipAddressInfo.ipAddress"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.AddIpAddressToIpGroup.ipAddressInfo.description"
+    } ]
+  } ],
+  "desc_key" : "vpc.AddIpAddressToIpGroup.desc"
+}

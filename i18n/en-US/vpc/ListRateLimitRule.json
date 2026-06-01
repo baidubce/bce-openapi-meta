@@ -1,0 +1,7 @@
+{
+  "ListRateLimitRule" : {
+    "gatewayId" : "The ID of the IPv6 gateway",
+    "marker" : "The starting position marker for paginated queries",
+    "maxKeys" : "The maximum number of items per page"
+  }
+}

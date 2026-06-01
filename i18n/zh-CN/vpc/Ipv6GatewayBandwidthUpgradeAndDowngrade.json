@@ -1,7 +1,0 @@
-{
-  "Ipv6GatewayBandwidthUpgradeAndDowngrade" : {
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)",
-    "gatewayId" : "IPv6网关的Id",
-    "bandwidthInMbps" : "更新后的IPv6网关的带宽"
-  }
-}

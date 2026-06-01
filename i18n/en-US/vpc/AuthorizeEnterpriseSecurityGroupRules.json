@@ -1,0 +1,23 @@
+{
+  "AuthorizeEnterpriseSecurityGroupRules" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性).",
+    "enterpriseSecurityGroupId" : "The enterprise security group ID to authorize new security group rules for.",
+    "rules" : "The enterprise security group rules to be authorized.",
+    "rules.remark" : "Remark, 1–255 characters in length.",
+    "rules.direction" : "Traffic direction: ingress or egress.",
+    "rules.ethertype" : "Network type: IPv4 or IPv6.",
+    "rules.portRange" : "Destination port range. Supports contiguous ports (e.g. \"1-80\") and discrete ports (e.g. \"80,7000,8000\", comma-separated, up to 15 values). Defaults to 1-65535 if empty.",
+    "rules.sourcePortRange" : "Source port range. Supports contiguous ports (e.g. \"1-80\") and discrete ports (e.g. \"80,7000,8000\", comma-separated, up to 15 values). Defaults to 1-65535 if empty.",
+    "rules.protocol" : "Protocol type: tcp, udp, or icmp.",
+    "rules.sourceIp" : "Source IP address. Use \"all\" to match any address.",
+    "rules.destIp" : "Destination IP address. Use \"all\" to match any address.",
+    "rules.localIp" : "Local IP address. Use \"all\" to match any address.",
+    "rules.remoteIpSet" : "Remote IP address set.",
+    "rules.remoteIpGroup" : "Remote IP address group.",
+    "rules.action" : "Traffic action: allow or deny.",
+    "rules.priority" : "Rule priority, range 1–1000.",
+    "rules.enterpriseSecurityGroupRuleId" : "Enterprise security group rule ID.",
+    "rules.createdTime" : "Creation time of the enterprise security group rule.",
+    "rules.updatedTime" : "Last modification time of the enterprise security group rule."
+  }
+}

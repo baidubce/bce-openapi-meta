@@ -1,0 +1,44 @@
+{
+  "name" : "CreateRateLimitRule",
+  "method" : "POST",
+  "uri" : "/v{version}/IPv6Gateway/{gatewayId}/rateLimitRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.CreateRateLimitRule.clientToken"
+  }, {
+    "name" : "gatewayId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.CreateRateLimitRule.gatewayId"
+  }, {
+    "name" : "ipv6Address",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateRateLimitRule.ipv6Address"
+  }, {
+    "name" : "ingressBandwidthInMbps",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateRateLimitRule.ingressBandwidthInMbps"
+  }, {
+    "name" : "egressBandwidthInMbps",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateRateLimitRule.egressBandwidthInMbps"
+  } ],
+  "desc_key" : "vpc.CreateRateLimitRule.desc"
+}

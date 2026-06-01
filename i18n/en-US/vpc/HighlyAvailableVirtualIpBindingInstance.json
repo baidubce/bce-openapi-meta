@@ -1,8 +1,0 @@
-{
-  "HighlyAvailableVirtualIpBindingInstance" : {
-    "haVipId" : "The ID of the highly available virtual IP",
-    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
-    "instanceIds" : "List of bound instance IDs, with a maximum list length of 5",
-    "instanceType" : "Type of the bound instance. \"SERVER\" indicates a cloud server (BCC/BBC/DCC); \"ENI\" indicates an elastic network interface"
-  }
-}

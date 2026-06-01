@@ -1,9 +1,0 @@
-{
-  "CreateAHighlyAvailableVirtualIp" : {
-    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
-    "name" : "Name of the highly available virtual IP. Allowed characters: letters (upper/lower), digits, Chinese characters, and special characters -_/. Must start with a letter or Chinese character. Length: 1–65",
-    "subnetId" : "Subnet ID to which the highly available virtual IP belongs",
-    "privateIpAddress" : "Specified IP address. Use \"\" for automatic IP assignment",
-    "description" : "Description of the highly available virtual IP"
-  }
-}

@@ -1,0 +1,5 @@
+{
+  "GetHaVipDetail" : {
+    "haVipId" : "The ID of the high-availability virtual IP"
+  }
+}
