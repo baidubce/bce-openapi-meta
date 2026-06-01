@@ -1,0 +1,38 @@
+{
+  "name" : "ListPfs",
+  "method" : "GET",
+  "uri" : "/v1/pfs/instance?manner=marker",
+  "parameters" : [ {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "pfs.ListPfs.maxKeys"
+  }, {
+    "name" : "manner",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.ListPfs.manner"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "pfs.ListPfs.marker"
+  }, {
+    "name" : "filterTag",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "pfs.ListPfs.filterTag"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "result"
+  },
+  "desc_key" : "pfs.ListPfs.desc"
+}

@@ -1,0 +1,30 @@
+{
+  "name" : "UpdatePFSTag",
+  "method" : "POST",
+  "uri" : "/v1/pfs/tag",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdatePFSTag.instanceId"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdatePFSTag.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "pfs.UpdatePFSTag.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "pfs.UpdatePFSTag.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "pfs.UpdatePFSTag.desc"
+}

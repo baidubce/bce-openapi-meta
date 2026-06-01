@@ -1,0 +1,8 @@
+{
+  "ListPfs" : {
+    "maxKeys" : "返回实例列表长度最大为1000，默认为20个，取值范围为【1，1000】，超过范围的规整为1或1000",
+    "manner" : "请求的分段类型，必须指定marker",
+    "marker" : "按照instanceId（格式一般为\"\"pfs-xxxxxx\"\"）的字典序排列，从marker之后的第一个开始返回（不包括marker）",
+    "filterTag" : "用于过滤的标签"
+  }
+}

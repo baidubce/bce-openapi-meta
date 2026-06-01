@@ -84,5 +84,16 @@
       "su" : "cfs.su.baidubce.com",
       "yq" : "cfs.yq.baidubce.com"
     }
+  }, {
+    "code" : "pfs",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "pfs.bd.baidubce.com",
+      "bj" : "pfs.bj.baidubce.com",
+      "cd" : "pfs.cd.baidubce.com",
+      "gz" : "pfs.gz.baidubce.com",
+      "su" : "pfs.su.baidubce.com",
+      "yq" : "pfs.yq.baidubce.com"
+    }
   } ]
 }

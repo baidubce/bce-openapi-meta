@@ -1,0 +1,12 @@
+{
+  "CreatePfs" : {
+    "name" : "Instance name. • Length: 1–128 English or Chinese characters. • Must start with an uppercase/lowercase letter or Chinese character. • Can contain digits, Chinese characters, colons (:), underscores (_), or hyphens (-).",
+    "instanceType" : "Available types: base, basic, baseX, plus, plus2, plusl2X.",
+    "capacity" : "Storage capacity of the file system to purchase. See the capacity limit table for details (unit: GB).",
+    "subnetId" : "Short ID of the subnet.",
+    "description" : "Description of the instance.",
+    "tags" : "Tags of the instance.",
+    "tags.tagKey" : "Tag key. Can contain uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /. Length: 1–65.",
+    "tags.tagValue" : "Tag value. Can contain uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /. Length: 0–65."
+  }
+}
