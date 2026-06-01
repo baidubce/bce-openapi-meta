@@ -1,0 +1,13 @@
+{
+  "ApmDescribeAlarmPolicies" : {
+    "policyName" : "Filter by policy name",
+    "policyId" : "Filter by policy ID",
+    "state" : "Filter by policy state. Valid values: ENABLED-enabled, DISABLED-disabled",
+    "level" : "Filter by policy level. Valid values: NOTICE-notice, WARNING-warning, MAJOR-major, CRITICAL-critical",
+    "metricKind" : "Filter by metric category. Valid values: SERVER-server-side performance metrics, CLIENT-client-side performance metrics, DB-database metrics, PRODUCER-producer, CONSUMER-consumer, INTERNAL_FUNCTION-internal function, JVM-JVM monitoring, EXCEPTION-exception monitoring",
+    "orderBy" : "Sort field. Default: updatedTime. Valid values: updatedTime-update time, createdTime-creation time",
+    "order" : "Sort order. Default: desc. Valid values: desc-descending, asc-ascending",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Number of items per page. Maximum: 100"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DescribeLLMSpans" : {
+    "beginDatetime" : "开始时间，UTC时间",
+    "endDatetime" : "结束时间，UTC时间",
+    "parseLLMInputOutput" : "是否填充gen_ai.input和gen_ai.output字段，默认false",
+    "filters" : "过滤项列表。支持的过滤字段：service(应用名称)、host(实例名称)、duration(响应时间，单位us)、traceId(TraceID)、statusCode(Span状态码)、hasException(是否存在异常)、exception.type(异常类型)、attributes.apm.operation(接口)、attributes.apm.component(请求类型)、attributes.gen_ai.kind(span类型)、attributes.gen_ai.response.model(模型名称)",
+    "filters.key" : "过滤字段名",
+    "filters.op" : "过滤操作，可选项：`=` - 等于，`:` - 等于，`!=` - 不等于，`contains` - 包含，`in` - 在数组中，`>` - 大于，`>=` - 大于等于，`<` - 小于，`<=` - 小于等于",
+    "filters.value" : "单值，可用于操作符: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "多值，可用于操作符: in",
+    "orderBy" : "排序字段，默认值：startTime，可选项：startTime(开始时间)",
+    "order" : "排序方向，可选值：asc(升序)、desc(降序)",
+    "marker" : "翻页游标。请求第一页时填空，请求后续页时使用上一页返回的nextMarker值"
+  }
+}

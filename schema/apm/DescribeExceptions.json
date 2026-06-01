@@ -1,0 +1,44 @@
+{
+  "name" : "DescribeExceptions",
+  "method" : "POST",
+  "uri" : "/v1/apm/query?action=DescribeExceptions",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "beginDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeExceptions.beginDatetime"
+  }, {
+    "name" : "endDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeExceptions.endDatetime"
+  }, {
+    "name" : "service",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeExceptions.service"
+  }, {
+    "name" : "exceptions",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeExceptions.exceptions",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeExceptions.exceptions.id"
+    } ]
+  } ],
+  "desc_key" : "apm.DescribeExceptions.desc"
+}

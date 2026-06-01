@@ -1,0 +1,20 @@
+{
+  "name" : "DeleteServices",
+  "method" : "POST",
+  "uri" : "/v1/apm?action=DeleteServices",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "serviceNames",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DeleteServices.serviceNames"
+  } ],
+  "desc_key" : "apm.DeleteServices.desc"
+}

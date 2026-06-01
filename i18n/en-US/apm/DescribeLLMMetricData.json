@@ -1,0 +1,21 @@
+{
+  "DescribeLLMMetricData" : {
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "metrics" : "List of metric queries, each containing name (metric name, required) and compareTo (year-over-year comparison, optional, values: yesterday/lastweek/specific date)",
+    "metrics.name" : "Metric name",
+    "metrics.compareTo" : "Comparison period. Options: `yesterday` - compare to yesterday, `lastweek` - compare to last week, `YYYY-mm-dd` - compare to a specific date, `5m`/`1h` - period-over-period comparison",
+    "metrics.filters" : "Metric-specific filter conditions, merged with global filters",
+    "filters" : "List of filter conditions",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator. Options: `=` - equal, `:` - equal, `!=` - not equal, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal to, `<` - less than, `<=` - less than or equal to",
+    "filters.value" : "Single value, applicable to operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, applicable to operator: in",
+    "groupBy" : "List of GroupBy dimensions",
+    "orderBy" : "Sort field",
+    "order" : "Sort direction. Options: asc (ascending), desc (descending)",
+    "limit" : "Maximum number of results to return; if not set, returns as many as possible",
+    "periodSeconds" : "Time aggregation period in seconds, default 0. If 0 or not set, a single aggregation point is computed over the entire time range",
+    "aggregate" : "Aggregation function for returned values. Options: sum (summation), sumPerSecond (sum divided by elapsed seconds to get per-second average)"
+  }
+}

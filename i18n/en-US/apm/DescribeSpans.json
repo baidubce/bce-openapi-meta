@@ -1,0 +1,15 @@
+{
+  "DescribeSpans" : {
+    "action" : "API name, current value is DescribeSpans",
+    "beginDatetime" : "Start time, in UTC",
+    "endDatetime" : "End time, in UTC",
+    "filters" : "List of filter conditions. Supported filter fields: service (application name), name (span name), kind (span type), host (instance name), duration (response time in microseconds), traceId (Trace ID), statusCode (span status code), hasException (whether an exception exists), exception.type (exception type), attributes.apm.operation (API endpoint), attributes.apm.component (request type), slowRequest (slow call), slowDBRequest (slow SQL), attributes.${key} (custom span attribute value), env (environment)",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator. Options: `=` - equals, `:` - equals, `!=` - not equals, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal to, `<` - less than, `<=` - less than or equal to",
+    "filters.value" : "Single value, applicable to operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, applicable to operator: in",
+    "orderBy" : "Sort field, default value: startTime",
+    "order" : "Sort order. Options: asc, desc",
+    "marker" : "Pagination cursor. Leave empty for the first page; use the nextMarker value returned from the previous page for subsequent pages"
+  }
+}

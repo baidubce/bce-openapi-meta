@@ -1,0 +1,12 @@
+{
+  "ApmUpdateAlarmPolicyAction" : {
+    "id" : "Policy ID",
+    "actions" : "List of notification templates, used uniformly for anomaly notifications, recovery notifications, and repeated alarm notifications",
+    "actions.notifyId" : "Notification template ID",
+    "actions.alias" : "Notification template name, returned only in query responses",
+    "actions.callBacks" : "List of callback URLs, returned only in query responses",
+    "actions.disableTimes" : "List of mute time periods, returned only in query responses",
+    "actions.members" : "List of members, returned only in query responses",
+    "actions.types" : "List of notification types, e.g. EMAIL, returned only in query responses"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "ApmDeleteAlarmPolicy" : {
+    "ids" : "List of policy IDs, supports batch deletion"
+  }
+}

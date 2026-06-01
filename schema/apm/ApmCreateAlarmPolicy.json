@@ -1,0 +1,255 @@
+{
+  "name" : "ApmCreateAlarmPolicy",
+  "method" : "POST",
+  "uri" : "/v1/apm?action=CreateAlarmPolicy",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.name"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.state"
+  }, {
+    "name" : "target",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.target",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.target.type"
+    }, {
+      "name" : "tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.target.tags",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.target.tags.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.target.tags.value"
+      } ]
+    }, {
+      "name" : "services",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.target.services"
+    } ]
+  }, {
+    "name" : "metricKind",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.metricKind"
+  }, {
+    "name" : "rule",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.rule",
+    "sub_parameters" : [ {
+      "name" : "operator",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.rule.operator"
+    }, {
+      "name" : "rules",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.rule.rules",
+      "sub_parameters" : [ {
+        "name" : "operator",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.rule.rules.operator"
+      }, {
+        "name" : "rules",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.rule.rules.rules"
+      }, {
+        "name" : "metric",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.rule.rules.metric"
+      }, {
+        "name" : "windowInSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.rule.rules.windowInSeconds"
+      }, {
+        "name" : "aggregate",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.rule.rules.aggregate"
+      }, {
+        "name" : "displayValue",
+        "type" : "Float",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.rule.rules.displayValue"
+      }, {
+        "name" : "displayUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.rule.rules.displayUnit"
+      } ]
+    }, {
+      "name" : "metric",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.rule.metric"
+    }, {
+      "name" : "windowInSeconds",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.rule.windowInSeconds"
+    }, {
+      "name" : "aggregate",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.rule.aggregate"
+    }, {
+      "name" : "displayValue",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.rule.displayValue"
+    }, {
+      "name" : "displayUnit",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.rule.displayUnit"
+    } ]
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.filters",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.filters.key"
+    }, {
+      "name" : "operator",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.filters.operator"
+    }, {
+      "name" : "values",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.filters.values"
+    } ]
+  }, {
+    "name" : "pendingCount",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.pendingCount"
+  }, {
+    "name" : "renotifyIntervalInMinutes",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.renotifyIntervalInMinutes"
+  }, {
+    "name" : "renotifyCount",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.renotifyCount"
+  }, {
+    "name" : "notifyRecovery",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.notifyRecovery"
+  }, {
+    "name" : "onMissingData",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.onMissingData"
+  }, {
+    "name" : "noDataNotifyPendingIntervalInMinutes",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.noDataNotifyPendingIntervalInMinutes"
+  }, {
+    "name" : "level",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.level"
+  }, {
+    "name" : "actions",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.ApmCreateAlarmPolicy.actions",
+    "sub_parameters" : [ {
+      "name" : "notifyId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.actions.notifyId"
+    }, {
+      "name" : "alias",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.actions.alias"
+    }, {
+      "name" : "callBacks",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.actions.callBacks"
+    }, {
+      "name" : "disableTimes",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.actions.disableTimes",
+      "sub_parameters" : [ {
+        "name" : "from",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.actions.disableTimes.from"
+      }, {
+        "name" : "to",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.ApmCreateAlarmPolicy.actions.disableTimes.to"
+      } ]
+    }, {
+      "name" : "members",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.actions.members"
+    }, {
+      "name" : "types",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.ApmCreateAlarmPolicy.actions.types"
+    } ]
+  } ],
+  "desc_key" : "apm.ApmCreateAlarmPolicy.desc"
+}

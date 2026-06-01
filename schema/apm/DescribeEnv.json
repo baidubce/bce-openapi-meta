@@ -1,0 +1,14 @@
+{
+  "name" : "DescribeEnv",
+  "method" : "POST",
+  "uri" : "/v1/apm/query?action=DescribeEnv",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "apm.DescribeEnv.desc"
+}

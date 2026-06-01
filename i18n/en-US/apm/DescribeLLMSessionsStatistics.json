@@ -1,0 +1,11 @@
+{
+  "DescribeLLMSessionsStatistics" : {
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "filters" : "Filter list. Supported fields: sessionId, userId, duration (response time in ms), inputTokens, outputTokens, totalTokens, traceCount",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator. Options: `=` - equal, `:` - equal, `!=` - not equal, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal, `<` - less than, `<=` - less than or equal",
+    "filters.value" : "Single value, applicable to operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, applicable to operator: in"
+  }
+}

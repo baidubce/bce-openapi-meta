@@ -1,0 +1,13 @@
+{
+  "DescribeDimensionValues" : {
+    "action" : "API name, fixed value: DescribeDimensionValues",
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "dimensionKey" : "Dimension name",
+    "filters" : "Filter list",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator; options: `=` - equal, `:` - equal, `!=` - not equal, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal, `<` - less than, `<=` - less than or equal",
+    "filters.value" : "Single value, usable with operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, usable with operator: in"
+  }
+}

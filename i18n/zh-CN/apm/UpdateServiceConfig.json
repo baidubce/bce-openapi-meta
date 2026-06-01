@@ -1,0 +1,29 @@
+{
+  "UpdateServiceConfig" : {
+    "serviceNames" : "应用名列表，支持将配置同时更新到多个服务",
+    "sampleConfig" : "采样配置，若未填写则不更新该配置",
+    "sampleConfig.enabled" : "是否开启采样",
+    "sampleConfig.processors" : "采样器列表",
+    "loggingConfig" : "日志关联配置，若未填写则不更新该配置",
+    "loggingConfig.enabled" : "是否开启日志关联",
+    "loggingConfig.region" : "地域",
+    "loggingConfig.project" : "日志集所属project",
+    "loggingConfig.logStoreName" : "日志集名称",
+    "loggingConfig.traceIdIndex" : "在日志中搜索traceId的方式，可选项：`FIELD` - 指定字段搜索（默认），`FULLTEXT` - 全文检索",
+    "loggingConfig.traceIdKey" : "当traceIdIndex=FIELD时搜索的key，默认值：trace_id",
+    "loggingConfig.spanIdIndex" : "在日志中搜索spanId的方式，可选项：`FIELD` - 指定字段搜索（默认），`FULLTEXT` - 全文检索",
+    "loggingConfig.spanIdKey" : "当spanIdIndex=FIELD时搜索的key，默认值：span_id",
+    "requestConfig" : "调用配置，若未填写则不更新该配置",
+    "requestConfig.global" : "",
+    "requestConfig.serverSlowRequestThresholdSeconds" : "",
+    "requestConfig.dbSlowRequestThresholdSeconds" : "",
+    "requestConfig.okHttpStatus" : "",
+    "topoConfig" : "拓扑图配置，若未填写则不更新该配置",
+    "topoConfig.global" : "",
+    "topoConfig.requestSecondsThreshold" : "",
+    "topoConfig.errorRateThreshold" : "",
+    "mllmResourceDumpConfig" : "多模态数据转储配置，若未填写则不更新该配置",
+    "mllmResourceDumpConfig.retentionDays" : "转储时长，单位：天",
+    "mllmResourceDumpConfig.bucket" : "BOS Bucket名称"
+  }
+}

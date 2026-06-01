@@ -1,0 +1,15 @@
+{
+  "DescribeLLMSessions" : {
+    "beginDatetime" : "开始时间，UTC时间",
+    "endDatetime" : "结束时间，UTC时间",
+    "filters" : "过滤项列表。支持的过滤字段：sessionId(会话ID)、userId(用户ID)、duration(响应时间，单位ms)、inputTokens(输入token数)、outputTokens(输出token数)、totalTokens(总token数)、traceCount(trace数量)",
+    "filters.key" : "过滤字段名",
+    "filters.op" : "过滤操作，可选项：`=` - 等于，`:` - 等于，`!=` - 不等于，`contains` - 包含，`in` - 在数组中，`>` - 大于，`>=` - 大于等于，`<` - 小于，`<=` - 小于等于",
+    "filters.value" : "单值，可用于操作符: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "多值，可用于操作符: in",
+    "orderBy" : "排序字段，默认值：startTime，可选项：startTime(开始时间)、duration(持续时间)、traceCount(trace数量)、totalTokens(总token数)",
+    "order" : "排序方向，可选值：asc(升序)、desc(降序)",
+    "pageNo" : "第几页，从1开始计数",
+    "pageSize" : "每页展示数量，最大值：100"
+  }
+}

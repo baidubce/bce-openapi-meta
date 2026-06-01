@@ -1,0 +1,20 @@
+{
+  "DescribeServicesNames" : {
+    "beginDatetime" : "Start time, in ISO 8601 format",
+    "endDatetime" : "End time, in ISO 8601 format",
+    "serviceName" : "Filter by application name; if not set, all applications are returned",
+    "serviceId" : "Filter by application ID",
+    "language" : "Filter by language; if not set, all languages are returned",
+    "env" : "Filter by env; if not set, applications of all envs are returned",
+    "source" : "Filter by application source; options: APP_BUILDER (Qianfan AppBuilder)",
+    "tag" : "Filter by tag (single selection). key=\"@@@\" means no tag; key=\"@@@\" and value=\"@@@\" means all tags; key=\"abc\" and value=\"@@@\" means all resources with key \"abc\"",
+    "tag.key" : "Tag key",
+    "tag.value" : "Tag value",
+    "orderBy" : "Sort field; options: requests, requestsPerSecond, errors, errorRate, durationSeconds, abSuccessRate, abErrorRate, abRequests, abDurationSeconds, llmErrorRate, llmTokens",
+    "order" : "Sort order; options: desc, asc",
+    "metricFilters" : "Metric filter conditions",
+    "metricFilters.key" : "Filter field name",
+    "metricFilters.op" : "Filter operator; options: `=` - equals, `!=` - not equals, `contains` - contains",
+    "metricFilters.value" : "Filter value"
+  }
+}

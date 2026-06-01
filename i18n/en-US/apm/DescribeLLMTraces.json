@@ -1,0 +1,15 @@
+{
+  "DescribeLLMTraces" : {
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "filters" : "List of filter conditions. Supported filter fields: service (application name), traceId (Trace ID), sessionId (session ID), userId (user ID), duration (response time in ms), inputTokens (input token count), outputTokens (output token count), totalTokens (total token count)",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator. Options: `=` - equal, `:` - equal, `!=` - not equal, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal to, `<` - less than, `<=` - less than or equal to",
+    "filters.value" : "Single value, applicable to operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, applicable to operator: in",
+    "orderBy" : "Sort field. Default: startTime. Options: startTime (start time), duration (duration), totalTokens (total token count)",
+    "order" : "Sort direction. Options: asc (ascending), desc (descending)",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Number of items per page. Maximum: 100"
+  }
+}

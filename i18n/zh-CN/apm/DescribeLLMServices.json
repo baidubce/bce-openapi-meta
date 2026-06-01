@@ -1,0 +1,14 @@
+{
+  "DescribeLLMServices" : {
+    "beginDatetime" : "开始时间，UTC时间",
+    "endDatetime" : "结束时间，UTC时间",
+    "serviceName" : "按应用名过滤，若未设置返回所有应用",
+    "serviceId" : "按应用ID过滤",
+    "env" : "按env过滤",
+    "tag" : "按tag筛选，单选。key=\"@@@\"表示无标签；key=\"@@@\"且value=\"@@@\"表示全部标签；key=\"abc\"且value=\"@@@\"表示所有key为abc的资源",
+    "tag.key" : "标签键",
+    "tag.value" : "标签值",
+    "orderBy" : "排序字段，默认值：requests",
+    "order" : "排序方向，默认值：desc，可选值：asc(升序)、desc(降序)"
+  }
+}

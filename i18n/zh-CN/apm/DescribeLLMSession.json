@@ -1,0 +1,7 @@
+{
+  "DescribeLLMSession" : {
+    "sessionID" : "会话ID",
+    "beginDatetime" : "Session开始时间，UTC时间",
+    "endDatetime" : "Session结束时间，UTC时间"
+  }
+}

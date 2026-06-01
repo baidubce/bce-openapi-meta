@@ -1,0 +1,155 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "apm",
+  "apis" : {
+    "DescribeServicesNames" : {
+      "title" : "describeServicesNames",
+      "summary" : "describeServicesNames"
+    },
+    "DescribeServicesMetrics" : {
+      "title" : "describeServicesMetrics",
+      "summary" : "describeServicesMetrics"
+    },
+    "DescribeDefaultConfig" : {
+      "title" : "describeDefaultConfig",
+      "summary" : "describeDefaultConfig"
+    },
+    "DescribeRetentionLimit" : {
+      "title" : "describeRetentionLimit",
+      "summary" : "describeRetentionLimit"
+    },
+    "DescribeServiceConfig" : {
+      "title" : "describeServiceConfig",
+      "summary" : "describeServiceConfig"
+    },
+    "UpdateServiceConfig" : {
+      "title" : "updateServiceConfig",
+      "summary" : "updateServiceConfig"
+    },
+    "DescribeEnv" : {
+      "title" : "describeEnv",
+      "summary" : "describeEnv"
+    },
+    "DeleteServices" : {
+      "title" : "deleteServices",
+      "summary" : "deleteServices"
+    },
+    "BindServiceTag" : {
+      "title" : "bindServiceTag",
+      "summary" : "bindServiceTag"
+    },
+    "DescribeTopology" : {
+      "title" : "describeTopology",
+      "summary" : "describeTopology"
+    },
+    "DescribeSpanFieldValues" : {
+      "title" : "describeSpanFieldValues",
+      "summary" : "describeSpanFieldValues"
+    },
+    "DescribeSpans" : {
+      "title" : "describeSpans",
+      "summary" : "describeSpans"
+    },
+    "DescribeTrace" : {
+      "title" : "describeTrace",
+      "summary" : "describeTrace"
+    },
+    "DescribeTraceMetricData" : {
+      "title" : "describeTraceMetricData",
+      "summary" : "describeTraceMetricData"
+    },
+    "ApmCreateAlarmPolicy" : {
+      "title" : "apmCreateAlarmPolicy",
+      "summary" : "apmCreateAlarmPolicy"
+    },
+    "ApmDescribeAlarmPolicies" : {
+      "title" : "apmDescribeAlarmPolicies",
+      "summary" : "apmDescribeAlarmPolicies"
+    },
+    "ApmDescribeAlarmPolicy" : {
+      "title" : "apmDescribeAlarmPolicy",
+      "summary" : "apmDescribeAlarmPolicy"
+    },
+    "ApmUpdateAlarmPolicy" : {
+      "title" : "apmUpdateAlarmPolicy",
+      "summary" : "apmUpdateAlarmPolicy"
+    },
+    "ApmUpdateAlarmPolicyState" : {
+      "title" : "apmUpdateAlarmPolicyState",
+      "summary" : "apmUpdateAlarmPolicyState"
+    },
+    "ApmUpdateAlarmPolicyAction" : {
+      "title" : "apmUpdateAlarmPolicyAction",
+      "summary" : "apmUpdateAlarmPolicyAction"
+    },
+    "ApmDeleteAlarmPolicy" : {
+      "title" : "apmDeleteAlarmPolicy",
+      "summary" : "apmDeleteAlarmPolicy"
+    },
+    "ApmDescribeAlarms" : {
+      "title" : "apmDescribeAlarms",
+      "summary" : "apmDescribeAlarms"
+    },
+    "ApmDescribeAlarm" : {
+      "title" : "apmDescribeAlarm",
+      "summary" : "apmDescribeAlarm"
+    },
+    "DescribeExceptions" : {
+      "title" : "describeExceptions",
+      "summary" : "describeExceptions"
+    },
+    "DescribeDbStatement" : {
+      "title" : "describeDbStatement",
+      "summary" : "describeDbStatement"
+    },
+    "DescribeLLMTraces" : {
+      "title" : "describeLLMTraces",
+      "summary" : "describeLLMTraces"
+    },
+    "DescribeLLMTrace" : {
+      "title" : "describeLLMTrace",
+      "summary" : "describeLLMTrace"
+    },
+    "DescribeLLMTracesStatistics" : {
+      "title" : "describeLLMTracesStatistics",
+      "summary" : "describeLLMTracesStatistics"
+    },
+    "DescribeDimensionValues" : {
+      "title" : "describeDimensionValues",
+      "summary" : "describeDimensionValues"
+    },
+    "DescribeLLMServices" : {
+      "title" : "describeLLMServices",
+      "summary" : "describeLLMServices"
+    },
+    "DescribeLLMSpans" : {
+      "title" : "describeLLMSpans",
+      "summary" : "describeLLMSpans"
+    },
+    "DescribeMetricData" : {
+      "title" : "describeMetricData",
+      "summary" : "describeMetricData"
+    },
+    "DescribeLLMDimensionValues" : {
+      "title" : "describeLLMDimensionValues",
+      "summary" : "describeLLMDimensionValues"
+    },
+    "DescribeLLMMetricData" : {
+      "title" : "describeLLMMetricData",
+      "summary" : "describeLLMMetricData"
+    },
+    "DescribeLLMSession" : {
+      "title" : "describeLLMSession",
+      "summary" : "describeLLMSession"
+    },
+    "DescribeLLMSessions" : {
+      "title" : "describeLLMSessions",
+      "summary" : "describeLLMSessions"
+    },
+    "DescribeLLMSessionsStatistics" : {
+      "title" : "describeLLMSessionsStatistics",
+      "summary" : "describeLLMSessionsStatistics"
+    }
+  }
+}

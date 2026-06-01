@@ -1,0 +1,12 @@
+{
+  "DescribeLLMDimensionValues" : {
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "key" : "Attribute name, options: service (application name), host (instance name), duration (response time in us), traceId (TraceID), attributes.apm.operation (API), attributes.apm.component (request type), attributes.gen_ai.kind (span type), attributes.gen_ai.response.model (model name)",
+    "filters" : "Filter list, only supports service (application name) filtering",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator, options: `=` - equals, `:` - equals, `!=` - not equals, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal, `<` - less than, `<=` - less than or equal",
+    "filters.value" : "Single value, usable with operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, usable with operator: in"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "DescribeMetricData" : {
+    "action" : "API接口名称，当前取值为DescribeMetricData",
+    "metrics" : "指标名列表",
+    "metrics.name" : "指标名",
+    "metrics.compareTo" : "同比数据，不填写表示不查询同比数据。可选值：5m（周期环比，支持m和h）、yesterday（昨日同比）、lastweek（上周同比）、YYYY-mm-dd（指定日期同比，UTC时间）",
+    "metrics.filters" : "该指标的特殊过滤条件，会与全局过滤项列表进行合并",
+    "metrics.filters.key" : "过滤字段名",
+    "metrics.filters.op" : "过滤操作，可选项：`=` - 等于，`:` - 等于，`!=` - 不等于，`contains` - 包含，`in` - 在数组中，`>` - 大于，`>=` - 大于等于，`<` - 小于，`<=` - 小于等于",
+    "metrics.filters.value" : "单值，可用于操作符: =, !=, contains, >, >=, <, <=",
+    "metrics.filters.values" : "多值，可用于操作符: in",
+    "beginDatetime" : "开始时间，UTC时间",
+    "endDatetime" : "结束时间，UTC时间",
+    "filters" : "过滤项列表，所有指标共享",
+    "filters.key" : "过滤字段名",
+    "filters.op" : "过滤操作，可选项：`=` - 等于，`:` - 等于，`!=` - 不等于，`contains` - 包含，`in` - 在数组中，`>` - 大于，`>=` - 大于等于，`<` - 小于，`<=` - 小于等于",
+    "filters.value" : "单值，可用于操作符: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "多值，可用于操作符: in",
+    "groupBy" : "GroupBy列表",
+    "orderBy" : "排序字段",
+    "order" : "排序方式，可选值：asc、desc",
+    "limit" : "返回数量限制，若未设置，后端服务将返回尽可能多的数据",
+    "periodSeconds" : "聚合周期，单位：秒。每periodSeconds秒计算一个聚合点。若为0或未设置，表示从起止时间只计算一个聚合点。默认值：0",
+    "reserveEmptyDimensions" : "当dimensions为空时，是否保留对应的时间序列。默认值：false"
+  }
+}

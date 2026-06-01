@@ -1,0 +1,5 @@
+{
+  "ApmDeleteAlarmPolicy" : {
+    "ids" : "策略ID列表，支持批量删除"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ApmDescribeAlarms" : {
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "policyName" : "Filter by policy name",
+    "level" : "Alarm severity filter; values: NOTICE-Notice, WARNING-Warning, MAJOR-Major, CRITICAL-Critical",
+    "metricKind" : "Metric type filter; values: SERVER-Server performance, CLIENT-Client performance, DB-Database, PRODUCER_CONSUMER-Producer/Consumer, INTERNAL_FUNCTION-Internal function, JVM-JVM monitoring, EXCEPTION-Exception monitoring",
+    "state" : "Alarm state filter; values: OK-Recovered, ALERT-Alerting, NODATA-No data, CLOSED-Closed",
+    "orderBy" : "Sort field; default: startTime; values: startTime-Alarm start time",
+    "order" : "Sort order; default: desc; values: desc-Descending, asc-Ascending",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Page size, max: 100"
+  }
+}

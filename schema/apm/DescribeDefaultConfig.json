@@ -1,0 +1,14 @@
+{
+  "name" : "DescribeDefaultConfig",
+  "method" : "POST",
+  "uri" : "/v1/apm?action=DescribeDefaultConfig",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "apm.DescribeDefaultConfig.desc"
+}

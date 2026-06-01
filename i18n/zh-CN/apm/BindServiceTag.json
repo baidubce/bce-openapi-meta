@@ -1,0 +1,9 @@
+{
+  "BindServiceTag" : {
+    "serviceName" : "应用名",
+    "serviceId" : "应用ID",
+    "tags" : "绑定标签列表，只支持更新全量标签，不支持更新部分标签",
+    "tags.key" : "标签键",
+    "tags.value" : "标签值"
+  }
+}

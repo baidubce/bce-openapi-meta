@@ -1,0 +1,15 @@
+{
+  "DescribeTrace" : {
+    "action" : "The API name, current value is DescribeTrace",
+    "spanDatetime" : "Timestamp of any span in the trace. Either this field or beginDatetime/endDatetime is required; if spanDatetime is provided, beginDatetime/endDatetime will be ignored",
+    "beginDatetime" : "Start time in UTC. Either this field or spanDatetime is required",
+    "endDatetime" : "End time in UTC. Either this field or spanDatetime is required",
+    "traceId" : "TraceID",
+    "filters" : "List of filter conditions",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator. Options: `=` - equal, `:` - equal, `!=` - not equal, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal, `<` - less than, `<=` - less than or equal",
+    "filters.value" : "Single value, applicable to operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, applicable to operator: in",
+    "returnHeight" : "Whether to return the height of each span in the waterfall chart. Default: false"
+  }
+}

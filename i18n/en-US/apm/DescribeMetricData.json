@@ -1,0 +1,26 @@
+{
+  "DescribeMetricData" : {
+    "action" : "API name, current value is DescribeMetricData",
+    "metrics" : "List of metric names",
+    "metrics.name" : "Metric name",
+    "metrics.compareTo" : "Comparison data; omit to skip. Options: 5m (period-over-period, supports m and h), yesterday (day-over-day), lastweek (week-over-week), YYYY-mm-dd (specific date comparison, UTC)",
+    "metrics.filters" : "Metric-specific filter conditions, merged with global filters",
+    "metrics.filters.key" : "Filter field name",
+    "metrics.filters.op" : "Filter operator. Options: `=` - equals, `:` - equals, `!=` - not equals, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal, `<` - less than, `<=` - less than or equal",
+    "metrics.filters.value" : "Single value, applicable to operators: =, !=, contains, >, >=, <, <=",
+    "metrics.filters.values" : "Multiple values, applicable to operator: in",
+    "beginDatetime" : "Start time, UTC",
+    "endDatetime" : "End time, UTC",
+    "filters" : "Global filter list shared across all metrics",
+    "filters.key" : "Filter field name",
+    "filters.op" : "Filter operator. Options: `=` - equals, `:` - equals, `!=` - not equals, `contains` - contains, `in` - in array, `>` - greater than, `>=` - greater than or equal, `<` - less than, `<=` - less than or equal",
+    "filters.value" : "Single value, applicable to operators: =, !=, contains, >, >=, <, <=",
+    "filters.values" : "Multiple values, applicable to operator: in",
+    "groupBy" : "GroupBy list",
+    "orderBy" : "Sort field",
+    "order" : "Sort order. Options: asc, desc",
+    "limit" : "Result count limit; if not set, the backend returns as much data as possible",
+    "periodSeconds" : "Aggregation period in seconds; one aggregation point is computed every periodSeconds seconds. If 0 or unset, a single aggregation point is computed over the entire time range. Default: 0",
+    "reserveEmptyDimensions" : "Whether to retain time series with empty dimensions. Default: false"
+  }
+}

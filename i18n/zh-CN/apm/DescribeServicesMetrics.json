@@ -1,0 +1,12 @@
+{
+  "DescribeServicesMetrics" : {
+    "beginDatetime" : "开始时间，格式为ISO 8601",
+    "endDatetime" : "结束时间，格式为ISO 8601",
+    "services" : "应用名列表，第一阶段查询返回的全量服务中每页需要展示的服务",
+    "metrics" : "返回的应用指标列表，若未设置，默认返回[requests, requestsPerSecond, errors, errorRate, durationSeconds]。可选项：requests、requestsPerSecond、errors、errorRate、durationSeconds、abSuccessRate、abErrorRate、abRequests、abDurationSeconds、llmErrorRate、llmTokens",
+    "metricFilters" : "指标过滤条件",
+    "metricFilters.key" : "过滤字段名",
+    "metricFilters.op" : "过滤操作，可选项：`=` - 等于，`!=` - 不等于，`contains` - 包含",
+    "metricFilters.value" : "过滤值"
+  }
+}

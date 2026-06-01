@@ -1,0 +1,132 @@
+{
+  "name" : "DescribeLLMMetricData",
+  "method" : "POST",
+  "uri" : "/v1/apm/query?action=DescribeLLMMetricData",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "beginDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMMetricData.beginDatetime"
+  }, {
+    "name" : "endDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMMetricData.endDatetime"
+  }, {
+    "name" : "metrics",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMMetricData.metrics",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMMetricData.metrics.name"
+    }, {
+      "name" : "compareTo",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMMetricData.metrics.compareTo"
+    }, {
+      "name" : "filters",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMMetricData.metrics.filters",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.DescribeLLMMetricData.metrics.filters.key"
+      }, {
+        "name" : "op",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.DescribeLLMMetricData.metrics.filters.op"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "apm.DescribeLLMMetricData.metrics.filters.value"
+      }, {
+        "name" : "values",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "apm.DescribeLLMMetricData.metrics.filters.values"
+      } ]
+    } ]
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMMetricData.filters",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMMetricData.filters.key"
+    }, {
+      "name" : "op",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMMetricData.filters.op"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMMetricData.filters.value"
+    }, {
+      "name" : "values",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMMetricData.filters.values"
+    } ]
+  }, {
+    "name" : "groupBy",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMMetricData.groupBy"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMMetricData.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMMetricData.order"
+  }, {
+    "name" : "limit",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMMetricData.limit"
+  }, {
+    "name" : "periodSeconds",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMMetricData.periodSeconds"
+  }, {
+    "name" : "aggregate",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMMetricData.aggregate"
+  } ],
+  "desc_key" : "apm.DescribeLLMMetricData.desc"
+}

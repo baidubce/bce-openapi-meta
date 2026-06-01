@@ -1,0 +1,6 @@
+{
+  "ApmUpdateAlarmPolicyState" : {
+    "ids" : "List of policy IDs, supports batch enable/disable operations",
+    "state" : "Target state, valid values: ENABLED - activate policy, DISABLED - deactivate policy"
+  }
+}

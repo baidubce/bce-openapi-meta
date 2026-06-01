@@ -1,0 +1,73 @@
+{
+  "name" : "DescribeLLMServices",
+  "method" : "POST",
+  "uri" : "/v1/apm/query?action=DescribeLLMServices",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "beginDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMServices.beginDatetime"
+  }, {
+    "name" : "endDatetime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMServices.endDatetime"
+  }, {
+    "name" : "serviceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMServices.serviceName"
+  }, {
+    "name" : "serviceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMServices.serviceId"
+  }, {
+    "name" : "env",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMServices.env"
+  }, {
+    "name" : "tag",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMServices.tag",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMServices.tag.key"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "apm.DescribeLLMServices.tag.value"
+    } ]
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMServices.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "apm.DescribeLLMServices.order"
+  } ],
+  "desc_key" : "apm.DescribeLLMServices.desc"
+}

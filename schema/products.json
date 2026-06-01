@@ -121,5 +121,13 @@
       "su" : "bls-log.su.baidubce.com",
       "yq" : "bls-log.yq.baidubce.com"
     }
+  }, {
+    "code" : "apm",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bj" : "apm.bj.baidubce.com",
+      "gz" : "apm.gz.baidubce.com",
+      "su" : "apm.su.baidubce.com"
+    }
   } ]
 }

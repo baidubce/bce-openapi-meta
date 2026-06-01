@@ -1,0 +1,6 @@
+{
+  "ApmUpdateAlarmPolicyState" : {
+    "ids" : "策略ID列表，支持批量启停",
+    "state" : "目标状态，可选值：ENABLED-启动策略，DISABLED-停用策略"
+  }
+}
