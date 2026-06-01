@@ -1,0 +1,6 @@
+{
+  "CreatePermissionGroup" : {
+    "accessGroupName" : "Name of the new permission group; 1–65 bytes, must start with a letter, may contain letters, digits, hyphens, underscores, and dots.",
+    "description" : "Description of the new permission group; must not exceed 1024 bytes."
+  }
+}

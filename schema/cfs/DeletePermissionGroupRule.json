@@ -1,0 +1,26 @@
+{
+  "name" : "DeletePermissionGroupRule",
+  "method" : "DELETE",
+  "uri" : "/v{version}/accessGroup/{agName}/{arId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "agName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.DeletePermissionGroupRule.agName"
+  }, {
+    "name" : "arId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.DeletePermissionGroupRule.arId"
+  } ],
+  "desc_key" : "cfs.DeletePermissionGroupRule.desc"
+}

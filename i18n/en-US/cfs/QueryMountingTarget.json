@@ -1,0 +1,8 @@
+{
+  "QueryMountingTarget" : {
+    "fId" : "The FileSystem ID to query",
+    "mountId" : "The ID of the MountTarget to query",
+    "marker" : "The starting position for batch list retrieval, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000. Default value is 1000"
+  }
+}

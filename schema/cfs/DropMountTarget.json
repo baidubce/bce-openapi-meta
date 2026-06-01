@@ -1,0 +1,26 @@
+{
+  "name" : "DropMountTarget",
+  "method" : "DELETE",
+  "uri" : "/v{version}/cfs/{fsId}/{mountId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "fsId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.DropMountTarget.fsId"
+  }, {
+    "name" : "mountId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.DropMountTarget.mountId"
+  } ],
+  "desc_key" : "cfs.DropMountTarget.desc"
+}

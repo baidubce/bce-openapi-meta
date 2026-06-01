@@ -1,0 +1,51 @@
+{
+  "name" : "QueryFileSystem",
+  "method" : "GET",
+  "uri" : "/v{version}/cfs",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cfs.QueryFileSystem.userId"
+  }, {
+    "name" : "fsId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cfs.QueryFileSystem.fsId"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cfs.QueryFileSystem.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cfs.QueryFileSystem.maxKeys"
+  }, {
+    "name" : "filterTag",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cfs.QueryFileSystem.filterTag"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "fileSystemList"
+  },
+  "desc_key" : "cfs.QueryFileSystem.desc"
+}

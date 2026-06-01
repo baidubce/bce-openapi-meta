@@ -1,0 +1,12 @@
+{
+  "CreateFileSystem" : {
+    "fsName" : "FileSystem的名称，方便记忆。长度1~65个字节，字母开头，可包含字母数字-_/.字符。",
+    "zone" : "FileSystem所在可用区，例如zoneB。",
+    "type" : "文件系统类型：1.cap(容量型) 2.ssd(性能型) 当前默认是容量型",
+    "protocol" : "协议类型：1.nfs 2.smb，默认nfs协议。",
+    "tags" : "文件系统标签",
+    "tags.tagKey" : "标签键",
+    "tags.tagValue" : "标签值",
+    "capacityQuota" : "文件系统的quota值，不选或者值为0是表示无自定义硬限，否则表示上限容量（设置时最小为1GB，最大为10PB），单位 bytes。"
+  }
+}

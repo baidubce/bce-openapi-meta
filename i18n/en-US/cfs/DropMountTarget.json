@@ -1,0 +1,6 @@
+{
+  "DropMountTarget" : {
+    "fsId" : "The FileSystem ID of the target to be released",
+    "mountId" : "The ID of the mount target to be released"
+  }
+}

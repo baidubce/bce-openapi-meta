@@ -1,0 +1,6 @@
+{
+  "UpdatePermissionGroup" : {
+    "agName" : "待更新的权限组的名字。",
+    "description" : "对于更新的权限组的描述，不能超过1024个字节"
+  }
+}

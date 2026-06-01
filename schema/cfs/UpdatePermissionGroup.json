@@ -1,0 +1,26 @@
+{
+  "name" : "UpdatePermissionGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/accessGroup/{agName}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "agName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.UpdatePermissionGroup.agName"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfs.UpdatePermissionGroup.description"
+  } ],
+  "desc_key" : "cfs.UpdatePermissionGroup.desc"
+}

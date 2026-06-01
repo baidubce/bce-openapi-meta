@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateFileSystem",
+  "method" : "PUT",
+  "uri" : "/v{version}/cfs/{fsId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "fsId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.UpdateFileSystem.fsId"
+  }, {
+    "name" : "fsName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfs.UpdateFileSystem.fsName"
+  }, {
+    "name" : "capacityQuota",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfs.UpdateFileSystem.capacityQuota"
+  } ],
+  "desc_key" : "cfs.UpdateFileSystem.desc"
+}

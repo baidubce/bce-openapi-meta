@@ -1,0 +1,9 @@
+{
+  "CreateMountingTarget" : {
+    "fsId" : "待创建MountTarget的FileSystem的ID",
+    "subnetId" : "MountTarget所属子网，subnet属于fs所在vpc，为短id",
+    "vpcId" : "fs实例vip所属VPC的短Id",
+    "accessGroupName" : "绑定的权限组的名称，长度1~65个字节，字母开头，可包含字母数字和- _ .字符。",
+    "address" : "创建MountTarget的指定IP地址"
+  }
+}

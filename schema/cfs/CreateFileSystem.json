@@ -1,0 +1,61 @@
+{
+  "name" : "CreateFileSystem",
+  "method" : "POST",
+  "uri" : "/v{version}/cfs",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "fsName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreateFileSystem.fsName"
+  }, {
+    "name" : "zone",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreateFileSystem.zone"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreateFileSystem.type"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreateFileSystem.protocol"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreateFileSystem.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cfs.CreateFileSystem.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cfs.CreateFileSystem.tags.tagValue"
+    } ]
+  }, {
+    "name" : "capacityQuota",
+    "type" : "Long",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreateFileSystem.capacityQuota"
+  } ],
+  "desc_key" : "cfs.CreateFileSystem.desc"
+}

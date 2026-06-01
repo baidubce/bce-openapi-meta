@@ -1,0 +1,7 @@
+{
+  "QueryPermissionGroup" : {
+    "agName" : "Name of the permission group to query; if not provided, retrieves the full list in batch.",
+    "marker" : "Starting position for batch list retrieval, a system-generated string.",
+    "maxKeys" : "Maximum number of entries per page, up to 1000. Default is 1000."
+  }
+}

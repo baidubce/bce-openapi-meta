@@ -1,0 +1,6 @@
+{
+  "DeletePermissionGroupRule" : {
+    "agName" : "要删除的权限组名字。",
+    "arId" : "要删除的权限组规则标识符"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name" : "UpdatePermissionGroupRules",
+  "method" : "PUT",
+  "uri" : "/v{version}/accessGroup/{agName}/{arId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "agName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.UpdatePermissionGroupRules.agName"
+  }, {
+    "name" : "arId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.UpdatePermissionGroupRules.arId"
+  }, {
+    "name" : "ip",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.UpdatePermissionGroupRules.ip"
+  }, {
+    "name" : "mask",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.UpdatePermissionGroupRules.mask"
+  }, {
+    "name" : "writeAccess",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.UpdatePermissionGroupRules.writeAccess"
+  }, {
+    "name" : "userAccess",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.UpdatePermissionGroupRules.userAccess"
+  }, {
+    "name" : "priority",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.UpdatePermissionGroupRules.priority"
+  } ],
+  "desc_key" : "cfs.UpdatePermissionGroupRules.desc"
+}

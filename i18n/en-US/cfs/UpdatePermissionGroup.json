@@ -1,0 +1,6 @@
+{
+  "UpdatePermissionGroup" : {
+    "agName" : "The name of the permission group to be updated.",
+    "description" : "The description of the updated permission group, cannot exceed 1024 bytes."
+  }
+}

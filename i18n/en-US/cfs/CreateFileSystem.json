@@ -1,0 +1,12 @@
+{
+  "CreateFileSystem" : {
+    "fsName" : "Name of the FileSystem for easy identification. Length 1–65 bytes, must start with a letter, may contain letters, digits, and -_/. characters.",
+    "zone" : "Availability zone where the FileSystem resides, e.g. zoneB.",
+    "type" : "File system type: 1.cap (capacity) 2.ssd (performance). Default is capacity type.",
+    "protocol" : "Protocol type: 1.nfs 2.smb. Default is nfs.",
+    "tags" : "File system tags.",
+    "tags.tagKey" : "Tag key.",
+    "tags.tagValue" : "Tag value.",
+    "capacityQuota" : "Quota for the FileSystem. Omitting or setting to 0 means no hard limit; otherwise specifies the capacity upper limit (min 1GB, max 10PB when set), in bytes."
+  }
+}
