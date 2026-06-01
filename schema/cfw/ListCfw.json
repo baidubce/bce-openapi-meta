@@ -14,13 +14,13 @@
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "CFW.ListCfw.marker"
+    "desc_key" : "cfw.ListCfw.marker"
   }, {
     "name" : "maxKeys",
     "type" : "Integer",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "CFW.ListCfw.maxKeys"
+    "desc_key" : "cfw.ListCfw.maxKeys"
   } ],
   "paginator" : {
     "input_token" : "marker",
@@ -29,5 +29,5 @@
     "more_results" : "isTruncated",
     "result_key" : "cfws"
   },
-  "desc_key" : "CFW.ListCfw.desc"
+  "desc_key" : "cfw.ListCfw.desc"
 }

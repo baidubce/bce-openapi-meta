@@ -14,82 +14,82 @@
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "CFW.CreateCfw.name"
+    "desc_key" : "cfw.CreateCfw.name"
   }, {
     "name" : "type",
     "type" : "Integer",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "CFW.CreateCfw.type"
+    "desc_key" : "cfw.CreateCfw.type"
   }, {
     "name" : "border",
     "type" : "Integer",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.CreateCfw.border"
+    "desc_key" : "cfw.CreateCfw.border"
   }, {
     "name" : "description",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.CreateCfw.description"
+    "desc_key" : "cfw.CreateCfw.description"
   }, {
     "name" : "cfwRules",
     "type" : "List",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.CreateCfw.cfwRules",
+    "desc_key" : "cfw.CreateCfw.cfwRules",
     "sub_parameters" : [ {
       "name" : "ipVersion",
       "type" : "Integer",
       "required" : false,
-      "desc_key" : "CFW.CreateCfw.cfwRules.ipVersion"
+      "desc_key" : "cfw.CreateCfw.cfwRules.ipVersion"
     }, {
       "name" : "priority",
       "type" : "Integer",
       "required" : false,
-      "desc_key" : "CFW.CreateCfw.cfwRules.priority"
+      "desc_key" : "cfw.CreateCfw.cfwRules.priority"
     }, {
       "name" : "protocol",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfw.cfwRules.protocol"
+      "desc_key" : "cfw.CreateCfw.cfwRules.protocol"
     }, {
       "name" : "direction",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfw.cfwRules.direction"
+      "desc_key" : "cfw.CreateCfw.cfwRules.direction"
     }, {
       "name" : "sourceAddress",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfw.cfwRules.sourceAddress"
+      "desc_key" : "cfw.CreateCfw.cfwRules.sourceAddress"
     }, {
       "name" : "destAddress",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfw.cfwRules.destAddress"
+      "desc_key" : "cfw.CreateCfw.cfwRules.destAddress"
     }, {
       "name" : "sourcePort",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfw.cfwRules.sourcePort"
+      "desc_key" : "cfw.CreateCfw.cfwRules.sourcePort"
     }, {
       "name" : "destPort",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfw.cfwRules.destPort"
+      "desc_key" : "cfw.CreateCfw.cfwRules.destPort"
     }, {
       "name" : "action",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfw.cfwRules.action"
+      "desc_key" : "cfw.CreateCfw.cfwRules.action"
     }, {
       "name" : "description",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfw.cfwRules.description"
+      "desc_key" : "cfw.CreateCfw.cfwRules.description"
     } ]
   } ],
-  "desc_key" : "CFW.CreateCfw.desc"
+  "desc_key" : "cfw.CreateCfw.desc"
 }

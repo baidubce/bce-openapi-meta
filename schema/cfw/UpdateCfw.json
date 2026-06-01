@@ -14,19 +14,19 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "CFW.UpdateCfw.cfwId"
+    "desc_key" : "cfw.UpdateCfw.cfwId"
   }, {
     "name" : "name",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfw.name"
+    "desc_key" : "cfw.UpdateCfw.name"
   }, {
     "name" : "description",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfw.description"
+    "desc_key" : "cfw.UpdateCfw.description"
   } ],
-  "desc_key" : "CFW.UpdateCfw.desc"
+  "desc_key" : "cfw.UpdateCfw.desc"
 }

@@ -14,7 +14,7 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "CFW.GetCfw.cfwId"
+    "desc_key" : "cfw.GetCfw.cfwId"
   } ],
-  "desc_key" : "CFW.GetCfw.desc"
+  "desc_key" : "cfw.GetCfw.desc"
 }

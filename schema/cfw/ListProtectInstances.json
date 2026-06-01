@@ -14,31 +14,31 @@
     "type" : "String",
     "required" : true,
     "position" : "QUERY",
-    "desc_key" : "CFW.ListProtectInstances.instanceType"
+    "desc_key" : "cfw.ListProtectInstances.instanceType"
   }, {
     "name" : "marker",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "CFW.ListProtectInstances.marker"
+    "desc_key" : "cfw.ListProtectInstances.marker"
   }, {
     "name" : "maxKeys",
     "type" : "Integer",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "CFW.ListProtectInstances.maxKeys"
+    "desc_key" : "cfw.ListProtectInstances.maxKeys"
   }, {
     "name" : "status",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "CFW.ListProtectInstances.status"
+    "desc_key" : "cfw.ListProtectInstances.status"
   }, {
     "name" : "region",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "CFW.ListProtectInstances.region"
+    "desc_key" : "cfw.ListProtectInstances.region"
   } ],
   "paginator" : {
     "input_token" : "marker",
@@ -47,5 +47,5 @@
     "more_results" : "isTruncated",
     "result_key" : "instances"
   },
-  "desc_key" : "CFW.ListProtectInstances.desc"
+  "desc_key" : "cfw.ListProtectInstances.desc"
 }

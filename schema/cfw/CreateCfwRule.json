@@ -14,64 +14,64 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "CFW.CreateCfwRule.cfwId"
+    "desc_key" : "cfw.CreateCfwRule.cfwId"
   }, {
     "name" : "cfwRules",
     "type" : "List",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "CFW.CreateCfwRule.cfwRules",
+    "desc_key" : "cfw.CreateCfwRule.cfwRules",
     "sub_parameters" : [ {
       "name" : "ipVersion",
       "type" : "Integer",
       "required" : false,
-      "desc_key" : "CFW.CreateCfwRule.cfwRules.ipVersion"
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.ipVersion"
     }, {
       "name" : "priority",
       "type" : "Integer",
       "required" : false,
-      "desc_key" : "CFW.CreateCfwRule.cfwRules.priority"
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.priority"
     }, {
       "name" : "protocol",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfwRule.cfwRules.protocol"
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.protocol"
     }, {
       "name" : "direction",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfwRule.cfwRules.direction"
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.direction"
     }, {
       "name" : "sourceAddress",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfwRule.cfwRules.sourceAddress"
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.sourceAddress"
     }, {
       "name" : "destAddress",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfwRule.cfwRules.destAddress"
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.destAddress"
     }, {
       "name" : "sourcePort",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfwRule.cfwRules.sourcePort"
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.sourcePort"
     }, {
       "name" : "destPort",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfwRule.cfwRules.destPort"
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.destPort"
     }, {
       "name" : "action",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfwRule.cfwRules.action"
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.action"
     }, {
       "name" : "description",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.CreateCfwRule.cfwRules.description"
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.description"
     } ]
   } ],
-  "desc_key" : "CFW.CreateCfwRule.desc"
+  "desc_key" : "cfw.CreateCfwRule.desc"
 }

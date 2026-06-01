@@ -1,7 +1,7 @@
 {
   "version" : "v1",
   "style" : "rpc",
-  "description" : "CFW",
+  "description" : "cfw",
   "apis" : {
     "CreateCfw" : {
       "title" : "createCfw",
