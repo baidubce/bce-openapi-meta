@@ -14,25 +14,25 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "CFW.EnableCfwProtect.cfwId"
+    "desc_key" : "cfw.EnableCfwProtect.cfwId"
   }, {
     "name" : "instanceId",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "CFW.EnableCfwProtect.instanceId"
+    "desc_key" : "cfw.EnableCfwProtect.instanceId"
   }, {
     "name" : "role",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.EnableCfwProtect.role"
+    "desc_key" : "cfw.EnableCfwProtect.role"
   }, {
     "name" : "memberId",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.EnableCfwProtect.memberId"
+    "desc_key" : "cfw.EnableCfwProtect.memberId"
   } ],
-  "desc_key" : "CFW.EnableCfwProtect.desc"
+  "desc_key" : "cfw.EnableCfwProtect.desc"
 }

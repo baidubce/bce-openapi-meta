@@ -14,7 +14,7 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "CFW.DeleteCfw.cfwId"
+    "desc_key" : "cfw.DeleteCfw.cfwId"
   } ],
-  "desc_key" : "CFW.DeleteCfw.desc"
+  "desc_key" : "cfw.DeleteCfw.desc"
 }

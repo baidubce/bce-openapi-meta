@@ -14,13 +14,13 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "CFW.DeleteCfwRule.cfwId"
+    "desc_key" : "cfw.DeleteCfwRule.cfwId"
   }, {
     "name" : "cfwRuleIds",
     "type" : "List",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "CFW.DeleteCfwRule.cfwRuleIds"
+    "desc_key" : "cfw.DeleteCfwRule.cfwRuleIds"
   } ],
-  "desc_key" : "CFW.DeleteCfwRule.desc"
+  "desc_key" : "cfw.DeleteCfwRule.desc"
 }

@@ -14,73 +14,73 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "CFW.UpdateCfwRule.cfwId"
+    "desc_key" : "cfw.UpdateCfwRule.cfwId"
   }, {
     "name" : "cfwRuleId",
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "CFW.UpdateCfwRule.cfwRuleId"
+    "desc_key" : "cfw.UpdateCfwRule.cfwRuleId"
   }, {
     "name" : "ipVersion",
     "type" : "Integer",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfwRule.ipVersion"
+    "desc_key" : "cfw.UpdateCfwRule.ipVersion"
   }, {
     "name" : "priority",
     "type" : "Integer",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfwRule.priority"
+    "desc_key" : "cfw.UpdateCfwRule.priority"
   }, {
     "name" : "protocol",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfwRule.protocol"
+    "desc_key" : "cfw.UpdateCfwRule.protocol"
   }, {
     "name" : "direction",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfwRule.direction"
+    "desc_key" : "cfw.UpdateCfwRule.direction"
   }, {
     "name" : "sourceAddress",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfwRule.sourceAddress"
+    "desc_key" : "cfw.UpdateCfwRule.sourceAddress"
   }, {
     "name" : "destAddress",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfwRule.destAddress"
+    "desc_key" : "cfw.UpdateCfwRule.destAddress"
   }, {
     "name" : "sourcePort",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfwRule.sourcePort"
+    "desc_key" : "cfw.UpdateCfwRule.sourcePort"
   }, {
     "name" : "destPort",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfwRule.destPort"
+    "desc_key" : "cfw.UpdateCfwRule.destPort"
   }, {
     "name" : "action",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfwRule.action"
+    "desc_key" : "cfw.UpdateCfwRule.action"
   }, {
     "name" : "description",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "CFW.UpdateCfwRule.description"
+    "desc_key" : "cfw.UpdateCfwRule.description"
   } ],
-  "desc_key" : "CFW.UpdateCfwRule.desc"
+  "desc_key" : "cfw.UpdateCfwRule.desc"
 }

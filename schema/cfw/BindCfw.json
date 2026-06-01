@@ -14,40 +14,40 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "CFW.BindCfw.cfwId"
+    "desc_key" : "cfw.BindCfw.cfwId"
   }, {
     "name" : "instanceType",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "CFW.BindCfw.instanceType"
+    "desc_key" : "cfw.BindCfw.instanceType"
   }, {
     "name" : "instances",
     "type" : "List",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "CFW.BindCfw.instances",
+    "desc_key" : "cfw.BindCfw.instances",
     "sub_parameters" : [ {
       "name" : "region",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.BindCfw.instances.region"
+      "desc_key" : "cfw.BindCfw.instances.region"
     }, {
       "name" : "instanceId",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.BindCfw.instances.instanceId"
+      "desc_key" : "cfw.BindCfw.instances.instanceId"
     }, {
       "name" : "role",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.BindCfw.instances.role"
+      "desc_key" : "cfw.BindCfw.instances.role"
     }, {
       "name" : "memberId",
       "type" : "String",
       "required" : false,
-      "desc_key" : "CFW.BindCfw.instances.memberId"
+      "desc_key" : "cfw.BindCfw.instances.memberId"
     } ]
   } ],
-  "desc_key" : "CFW.BindCfw.desc"
+  "desc_key" : "cfw.BindCfw.desc"
 }
