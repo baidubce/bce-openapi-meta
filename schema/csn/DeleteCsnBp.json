@@ -1,0 +1,26 @@
+{
+  "name" : "DeleteCsnBp",
+  "method" : "DELETE",
+  "uri" : "/v{version}/csn/bp/{csnBpId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "csn.DeleteCsnBp.clientToken"
+  }, {
+    "name" : "csnBpId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.DeleteCsnBp.csnBpId"
+  } ],
+  "desc_key" : "csn.DeleteCsnBp.desc"
+}

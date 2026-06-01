@@ -1,0 +1,9 @@
+{
+  "UpdateRegionBandwidth" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](CSN/API参考/通用说明.md#幂等性)",
+    "csnBpId" : "带宽包的ID",
+    "localRegion" : "地域带宽的本端region，该值不能改变",
+    "peerRegion" : "地域带宽的对端region，该值不能改变",
+    "bandwidth" : "更新的地域带宽的带宽值"
+  }
+}

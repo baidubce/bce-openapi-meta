@@ -1,0 +1,20 @@
+{
+  "name" : "QueryRegionBandwidth",
+  "method" : "GET",
+  "uri" : "/v{version}/csn/bp/{csnBpId}/limit",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "csnBpId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.QueryRegionBandwidth.csnBpId"
+  } ],
+  "desc_key" : "csn.QueryRegionBandwidth.desc"
+}

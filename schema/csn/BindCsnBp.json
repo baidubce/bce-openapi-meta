@@ -1,0 +1,32 @@
+{
+  "name" : "BindCsnBp",
+  "method" : "PUT",
+  "uri" : "/v{version}/csn/bp/{csnBpId}?bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "csn.BindCsnBp.clientToken"
+  }, {
+    "name" : "csnBpId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.BindCsnBp.csnBpId"
+  }, {
+    "name" : "csnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.BindCsnBp.csnId"
+  } ],
+  "desc_key" : "csn.BindCsnBp.desc"
+}

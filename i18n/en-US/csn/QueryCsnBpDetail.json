@@ -1,0 +1,5 @@
+{
+  "QueryCsnBpDetail" : {
+    "csnBpId" : "The ID of the bandwidth package"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "QueryCsnBpPrice" : {
+    "name" : "Name of the bandwidth package, cannot be empty",
+    "bandwidth" : "Bandwidth value of the package; not required for postpaid by traffic billing.",
+    "geographicA" : "Region of the network instance. Values: [ China, Asia-Pacific ], representing Chinese mainland and Asia-Pacific region respectively.",
+    "geographicB" : "Region of the other network instance. Values: [ China, Asia-Pacific ], representing Chinese mainland and Asia-Pacific region respectively.",
+    "billing" : "Billing information",
+    "billing.paymentTiming" : "Payment method: Prepaid or Postpaid",
+    "billing.billingMethod" : "Required for postpaid. ByTraffic: pay-by-traffic; ByBandwidth: pay-by-bandwidth; PeakBandwidth_Percent_95: 95th percentile billing; Enhanced_Percent_95: enhanced 95th percentile billing",
+    "billing.reservation" : "Reservation info. Not required for postpaid; must be set for prepaid."
+  }
+}

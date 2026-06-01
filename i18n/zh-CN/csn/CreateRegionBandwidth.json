@@ -1,0 +1,9 @@
+{
+  "CreateRegionBandwidth" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](CSN/API参考/通用说明.md#幂等性)",
+    "csnBpId" : "带宽包的ID",
+    "localRegion" : "地域带宽的本端region，云边互通场景中表示云端region",
+    "peerRegion" : "地域带宽的对端region，云边互通场景中表示边缘region",
+    "bandwidth" : "地域带宽的带宽值"
+  }
+}

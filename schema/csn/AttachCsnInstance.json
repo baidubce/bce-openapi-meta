@@ -1,0 +1,50 @@
+{
+  "name" : "AttachCsnInstance",
+  "method" : "PUT",
+  "uri" : "/v{version}/csn/{csnId}?attach",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "csn.AttachCsnInstance.clientToken"
+  }, {
+    "name" : "csnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.AttachCsnInstance.csnId"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.AttachCsnInstance.instanceType"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.AttachCsnInstance.instanceId"
+  }, {
+    "name" : "instanceRegion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.AttachCsnInstance.instanceRegion"
+  }, {
+    "name" : "instanceAccountId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "csn.AttachCsnInstance.instanceAccountId"
+  } ],
+  "desc_key" : "csn.AttachCsnInstance.desc"
+}

@@ -101,5 +101,11 @@
     "endpoint" : {
       "global" : "bcc.bj.baidubce.com"
     }
+  }, {
+    "code" : "csn",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "csn.baidubce.com"
+    }
   } ]
 }

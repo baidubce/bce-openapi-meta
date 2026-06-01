@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateCsn",
+  "method" : "PUT",
+  "uri" : "/v{version}/csn/{csnId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "csn.UpdateCsn.clientToken"
+  }, {
+    "name" : "csnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.UpdateCsn.csnId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "csn.UpdateCsn.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "csn.UpdateCsn.description"
+  } ],
+  "desc_key" : "csn.UpdateCsn.desc"
+}

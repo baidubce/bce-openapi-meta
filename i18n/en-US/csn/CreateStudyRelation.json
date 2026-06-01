@@ -1,0 +1,8 @@
+{
+  "CreateStudyRelation" : {
+    "clientToken" : "Idempotent token, an ASCII string with a maximum length of 64 characters. For details, see [ClientToken Idempotency](CSN/API参考/通用说明.md#幂等性)",
+    "csnRtId" : "The ID of the Cloud Smart Network route table",
+    "attachId" : "The ID of the network instance identity in the Cloud Smart Network",
+    "description" : "Description"
+  }
+}

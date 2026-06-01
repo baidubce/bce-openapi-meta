@@ -1,0 +1,32 @@
+{
+  "name" : "DeleteStudyRelation",
+  "method" : "DELETE",
+  "uri" : "/v{version}/csn/routeTable/{csnRtId}/propagation/{attachId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "csn.DeleteStudyRelation.clientToken"
+  }, {
+    "name" : "csnRtId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.DeleteStudyRelation.csnRtId"
+  }, {
+    "name" : "attachId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.DeleteStudyRelation.attachId"
+  } ],
+  "desc_key" : "csn.DeleteStudyRelation.desc"
+}

@@ -1,0 +1,71 @@
+{
+  "name" : "QueryCsnBpPrice",
+  "method" : "POST",
+  "uri" : "/v{version}/csn/bp/price",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.QueryCsnBpPrice.name"
+  }, {
+    "name" : "bandwidth",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "csn.QueryCsnBpPrice.bandwidth"
+  }, {
+    "name" : "geographicA",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.QueryCsnBpPrice.geographicA"
+  }, {
+    "name" : "geographicB",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.QueryCsnBpPrice.geographicB"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.QueryCsnBpPrice.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "csn.QueryCsnBpPrice.billing.paymentTiming"
+    }, {
+      "name" : "billingMethod",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "csn.QueryCsnBpPrice.billing.billingMethod"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "csn.QueryCsnBpPrice.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "csn.QueryCsnBpPrice.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "csn.QueryCsnBpPrice.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "csn.QueryCsnBpPrice.desc"
+}

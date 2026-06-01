@@ -1,0 +1,7 @@
+{
+  "QueryCsnInstance" : {
+    "marker" : "The starting position for a batch list query, which is a system-generated string",
+    "maxKeys" : "The maximum number of items per page, up to 1000, with a default value of 1000",
+    "csnId" : "The ID of the Cloud Smart Network (CSN)"
+  }
+}

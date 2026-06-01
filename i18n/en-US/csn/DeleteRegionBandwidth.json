@@ -1,0 +1,8 @@
+{
+  "DeleteRegionBandwidth" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](CSN/API参考/通用说明.md#幂等性)",
+    "csnBpId" : "The ID of the bandwidth package",
+    "localRegion" : "The local region of the regional bandwidth",
+    "peerRegion" : "The peer region of the regional bandwidth"
+  }
+}

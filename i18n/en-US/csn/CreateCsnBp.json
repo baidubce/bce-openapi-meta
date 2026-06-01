@@ -1,0 +1,17 @@
+{
+  "CreateCsnBp" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](CSN/API参考/通用说明.md#幂等性)",
+    "name" : "Name of the bandwidth package, cannot be empty",
+    "interworkType" : "Interworking type of the bandwidth package. Valid values: [ center | center-edge | edge-edge ], representing cloud-to-cloud, cloud-to-edge, and edge-to-edge interworking respectively. Default is cloud-to-cloud",
+    "bandwidth" : "Bandwidth value of the bandwidth package, maximum value is 10000",
+    "geographicA" : "Region of the network instance. Valid values: [ China | Asia-Pacific ], representing Chinese Mainland and Asia-Pacific region respectively",
+    "geographicB" : "Region of the other network instance. Valid values: [ China | Asia-Pacific ], representing Chinese Mainland and Asia-Pacific region respectively",
+    "billing" : "Billing information",
+    "billing.paymentTiming" : "Payment method: Prepaid or Postpaid",
+    "billing.billingMethod" : "Required for postpaid. ByTraffic: pay-by-traffic; ByBandwidth: pay-by-bandwidth; PeakBandwidth_Percent_95: 95th percentile billing; Enhanced_Percent_95: enhanced 95th percentile billing",
+    "billing.reservation" : "Reservation details. Not required for postpaid; mandatory for prepaid",
+    "tags" : "List of tag key-value pairs to be created",
+    "tags.tagKey" : "Tag key, may contain uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /., length 1–65",
+    "tags.tagValue" : "Tag value, may contain uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /., length 0–65"
+  }
+}

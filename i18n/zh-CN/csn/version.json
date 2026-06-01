@@ -1,0 +1,147 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "云智能网",
+  "apis" : {
+    "QueryCsnBpPrice" : {
+      "title" : "带宽包询价",
+      "summary" : "带宽包询价"
+    },
+    "QueryTgwList" : {
+      "title" : "查询TGW列表",
+      "summary" : "查询TGW列表"
+    },
+    "AttachCsnInstance" : {
+      "title" : "云智能网加载网络实例",
+      "summary" : "云智能网加载网络实例"
+    },
+    "DetachCsnInstance" : {
+      "title" : "云智能网卸载网络实例",
+      "summary" : "云智能网卸载网络实例"
+    },
+    "ResizeCsnBp" : {
+      "title" : "带宽包的带宽升降级",
+      "summary" : "带宽包的带宽升降级"
+    },
+    "UpdateTgw" : {
+      "title" : "更新TGW信息",
+      "summary" : "更新TGW信息"
+    },
+    "UnbindCsnBp" : {
+      "title" : "带宽包解绑云智能网",
+      "summary" : "带宽包解绑云智能网"
+    },
+    "QueryTgwRoute" : {
+      "title" : "查询TGW路由条目",
+      "summary" : "查询TGW路由条目"
+    },
+    "BindCsnBp" : {
+      "title" : "带宽包绑定云智能网",
+      "summary" : "带宽包绑定云智能网"
+    },
+    "UpdateRegionBandwidth" : {
+      "title" : "更新地域带宽",
+      "summary" : "更新地域带宽"
+    },
+    "QueryRegionBandwidth" : {
+      "title" : "查询地域带宽",
+      "summary" : "查询地域带宽"
+    },
+    "QueryRegionBandwidthByCsn" : {
+      "title" : "查询指定云智能网的地域带宽",
+      "summary" : "查询指定云智能网的地域带宽"
+    },
+    "CreateRegionBandwidth" : {
+      "title" : "创建地域带宽",
+      "summary" : "创建地域带宽"
+    },
+    "DeleteRegionBandwidth" : {
+      "title" : "删除地域带宽",
+      "summary" : "删除地域带宽"
+    },
+    "CreateCsn" : {
+      "title" : "创建云智能网",
+      "summary" : "创建云智能网"
+    },
+    "UpdateCsn" : {
+      "title" : "更新云智能网",
+      "summary" : "更新云智能网"
+    },
+    "QueryCsnList" : {
+      "title" : "查询云智能网列表",
+      "summary" : "查询云智能网列表"
+    },
+    "DeleteCsn" : {
+      "title" : "删除云智能网",
+      "summary" : "删除云智能网"
+    },
+    "QueryCsnInstance" : {
+      "title" : "查询云智能网网络实例列表",
+      "summary" : "查询云智能网网络实例列表"
+    },
+    "QueryCsnDetail" : {
+      "title" : "查询云智能网详情",
+      "summary" : "查询云智能网详情"
+    },
+    "QueryRouteRule" : {
+      "title" : "查询路由条目",
+      "summary" : "查询路由条目"
+    },
+    "AddRouteRule" : {
+      "title" : "添加路由条目",
+      "summary" : "添加路由条目"
+    },
+    "DeleteRouteRule" : {
+      "title" : "删除路由条目",
+      "summary" : "删除路由条目"
+    },
+    "CreateStudyRelation" : {
+      "title" : "创建学习关系",
+      "summary" : "创建学习关系"
+    },
+    "QueryStudyRelation" : {
+      "title" : "查询学习关系",
+      "summary" : "查询学习关系"
+    },
+    "CreateAssociationRelation" : {
+      "title" : "创建关联关系",
+      "summary" : "创建关联关系"
+    },
+    "QueryAssociationRelation" : {
+      "title" : "查询关联关系",
+      "summary" : "查询关联关系"
+    },
+    "DeleteAssociationRelation" : {
+      "title" : "删除关联关系",
+      "summary" : "删除关联关系"
+    },
+    "DeleteStudyRelation" : {
+      "title" : "删除学习关系",
+      "summary" : "删除学习关系"
+    },
+    "QueryRouteTableList" : {
+      "title" : "查询路由表列表",
+      "summary" : "查询路由表列表"
+    },
+    "QueryCsnBpList" : {
+      "title" : "查询带宽包列表",
+      "summary" : "查询带宽包列表"
+    },
+    "QueryCsnBpDetail" : {
+      "title" : "查询指定带宽包详情",
+      "summary" : "查询指定带宽包详情"
+    },
+    "CreateCsnBp" : {
+      "title" : "创建带宽包",
+      "summary" : "创建带宽包"
+    },
+    "UpdateCsnBp" : {
+      "title" : "更新带宽包",
+      "summary" : "更新带宽包"
+    },
+    "DeleteCsnBp" : {
+      "title" : "删除带宽包",
+      "summary" : "删除带宽包"
+    }
+  }
+}

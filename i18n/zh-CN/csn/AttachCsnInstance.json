@@ -1,0 +1,10 @@
+{
+  "AttachCsnInstance" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](CSN/API参考/通用说明.md#幂等性)",
+    "csnId" : "云智能网的ID",
+    "instanceType" : "加载的实例类型，取值 [ vpc \\| channel \\| bec_vpc ]，分别表示私有网络、专线通道、边缘网络",
+    "instanceId" : "加载的实例ID",
+    "instanceRegion" : "加载的实例所属的region",
+    "instanceAccountId" : "跨账号加载网络实例场景下，网络实例所属账号的ID"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "CreateRegionBandwidth" : {
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency](CSN/API参考/通用说明.md#幂等性)",
+    "csnBpId" : "ID of the bandwidth package",
+    "localRegion" : "Local region of the regional bandwidth; represents the cloud-side region in cloud-edge interconnection scenarios",
+    "peerRegion" : "Peer region of the regional bandwidth; represents the edge-side region in cloud-edge interconnection scenarios",
+    "bandwidth" : "Bandwidth value of the regional bandwidth"
+  }
+}

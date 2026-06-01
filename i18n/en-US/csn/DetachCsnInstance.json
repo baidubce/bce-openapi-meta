@@ -1,0 +1,10 @@
+{
+  "DetachCsnInstance" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](CSN/API参考/通用说明.md#幂等性)",
+    "csnId" : "The ID of the Cloud Smart Network (CSN)",
+    "instanceType" : "Type of the instance to detach. Valid values: [ vpc | channel | bec_vpc ], representing VPC, dedicated line channel, and edge network respectively",
+    "instanceId" : "The ID of the instance to detach",
+    "instanceRegion" : "The region where the instance belongs",
+    "instanceAccountId" : "In cross-account scenarios, the account ID that owns the network instance"
+  }
+}
