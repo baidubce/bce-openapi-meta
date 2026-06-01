@@ -1,7 +1,0 @@
-{
-  "BatchDeleteElasticNetworkCardIntranetIp" : {
-    "eniId" : "弹性网卡的ID",
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)",
-    "privateIpAddresses" : "指定的内网IP信息，可指定IPv4或IPv6地址，单次最多指定10个"
-  }
-}

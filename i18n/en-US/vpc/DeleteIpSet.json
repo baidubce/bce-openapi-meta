@@ -1,0 +1,6 @@
+{
+  "DeleteIpSet" : {
+    "ipGroupId" : "The ID of the IP address set",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)."
+  }
+}

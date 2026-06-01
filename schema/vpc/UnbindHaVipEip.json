@@ -1,0 +1,26 @@
+{
+  "name" : "UnbindHaVipEip",
+  "method" : "PUT",
+  "uri" : "/v{version}/havip/{haVipId}?unbindPublicIp",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "haVipId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UnbindHaVipEip.haVipId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UnbindHaVipEip.clientToken"
+  } ],
+  "desc_key" : "vpc.UnbindHaVipEip.desc"
+}

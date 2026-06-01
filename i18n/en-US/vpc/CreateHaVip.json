@@ -1,0 +1,9 @@
+{
+  "CreateHaVip" : {
+    "clientToken" : "Idempotency token, ASCII string up to 64 characters, see [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "name" : "HA VIP name; allowed: letters, digits, Chinese characters, and -_/. symbols; must start with a letter or Chinese character; length 1–65",
+    "subnetId" : "Subnet ID to which the HA VIP belongs",
+    "privateIpAddress" : "Specified IP address; empty string means auto-assign",
+    "description" : "HA VIP description"
+  }
+}

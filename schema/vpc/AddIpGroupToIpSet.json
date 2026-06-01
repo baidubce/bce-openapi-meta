@@ -1,0 +1,32 @@
+{
+  "name" : "AddIpGroupToIpSet",
+  "method" : "POST",
+  "uri" : "/v{version}/ipGroup/{ipGroupId}/bindIpSet",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ipGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.AddIpGroupToIpSet.ipGroupId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.AddIpGroupToIpSet.clientToken"
+  }, {
+    "name" : "ipSetIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.AddIpGroupToIpSet.ipSetIds"
+  } ],
+  "desc_key" : "vpc.AddIpGroupToIpSet.desc"
+}

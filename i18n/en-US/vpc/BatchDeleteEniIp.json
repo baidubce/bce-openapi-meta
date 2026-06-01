@@ -1,0 +1,7 @@
+{
+  "BatchDeleteEniIp" : {
+    "eniId" : "The ID of the elastic network interface",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. For details, see [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
+    "privateIpAddresses" : "The specified private IP address information. IPv4 or IPv6 addresses can be specified, with a maximum of 10 addresses per request"
+  }
+}

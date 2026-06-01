@@ -1,0 +1,39 @@
+{
+  "name" : "ListEgressOnlyRule",
+  "method" : "GET",
+  "uri" : "/v{version}/IPv6Gateway/{gatewayId}/egressOnlyRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ListEgressOnlyRule.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.ListEgressOnlyRule.maxKeys"
+  }, {
+    "name" : "gatewayId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.ListEgressOnlyRule.gatewayId"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "egressOnlyRules"
+  },
+  "desc_key" : "vpc.ListEgressOnlyRule.desc"
+}

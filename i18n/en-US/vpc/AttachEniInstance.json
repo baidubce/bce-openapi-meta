@@ -1,0 +1,8 @@
+{
+  "AttachEniInstance" : {
+    "eniId" : "ID of the elastic network interface",
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters; see [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "instanceId" : "ID of the bound cloud product instance",
+    "instanceType" : "Type of the bound cloud product instance; valid values: server/hpas (cloud server/HPAS respectively); default is server"
+  }
+}

@@ -1,5 +1,0 @@
-{
-  "QueryTheStatusOfTheElasticNetworkCard" : {
-    "eniId" : "弹性网卡的ID"
-  }
-}

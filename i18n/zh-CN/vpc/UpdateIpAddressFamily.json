@@ -1,8 +1,0 @@
-{
-  "UpdateIpAddressFamily" : {
-    "ipGroupId" : "IP地址族的ID",
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
-    "name" : "IP地址族的名称",
-    "description" : "IP地址族的描述"
-  }
-}

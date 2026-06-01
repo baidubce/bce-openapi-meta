@@ -1,0 +1,8 @@
+{
+  "UnbindHaVipInstance" : {
+    "haVipId" : "The ID of the HA VIP (High Availability Virtual IP)",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
+    "instanceIds" : "List of instance IDs to unbind, with a maximum of 5 entries",
+    "instanceType" : "Type of instance to unbind: \"SERVER\" for cloud servers (BCC/BBC/DCC), \"ENI\" for Elastic Network Interface"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "CreateSecurityGroup" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)。",
+    "name" : "创建的安全组的名字,支持大小写字母、数字、中文以及-\\_ /.特殊字符，必须以字母开头，长度1-65。",
+    "vpcId" : "安全组所属的VPC ID。",
+    "desc" : "对所创建的安全组的描述信息",
+    "rules" : "创建安全组时绑定的安全组规则列表",
+    "rules.remark" : "备注",
+    "rules.direction" : "入站/出站，取值ingress或egress。",
+    "rules.ethertype" : "网络类型，取值IPv4或IPv6。值为空时表示默认取值IPv4。",
+    "rules.portRange" : "端口范围，可以指定80等单个端口，值为空时默认取值1-65535。",
+    "rules.protocol" : "协议类型，tcp、udp或icmp，值为空时默认取值all。",
+    "rules.sourceGroupId" : "源安全组ID",
+    "rules.sourceIp" : "源IP地址，与sourceGroupId不能同时设定值。",
+    "rules.destGroupId" : "目的安全组ID",
+    "rules.destIp" : "目的IP地址，与destGroupId不能同时设定值。",
+    "rules.securityGroupId" : "安全组ID",
+    "rules.securityGroupRuleId" : "安全组规则ID",
+    "rules.createdTime" : "安全组规则创建时间",
+    "rules.updatedTime" : "安全组规则修改时间",
+    "tags" : "创建安全组时绑定的标签列表",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65"
+  }
+}

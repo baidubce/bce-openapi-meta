@@ -1,0 +1,7 @@
+{
+  "AddIpGroupToIpSet" : {
+    "ipGroupId" : "ID of the IP address family",
+    "clientToken" : "Idempotency token; an ASCII string up to 64 characters, see [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
+    "ipSetIds" : "IDs of associated IP address groups; ipVersion must match the specified IP address family; up to 5 IDs per request"
+  }
+}

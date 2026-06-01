@@ -1,0 +1,38 @@
+{
+  "name" : "BindHaVipInstance",
+  "method" : "PUT",
+  "uri" : "/v{version}/havip/{haVipId}?attach",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "haVipId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.BindHaVipInstance.haVipId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.BindHaVipInstance.clientToken"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BindHaVipInstance.instanceIds"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BindHaVipInstance.instanceType"
+  } ],
+  "desc_key" : "vpc.BindHaVipInstance.desc"
+}

@@ -7,65 +7,65 @@
       "title" : "addAclRule",
       "summary" : "addAclRule"
     },
-    "DeleteRegularSecurityGroupV2" : {
-      "title" : "deleteRegularSecurityGroupV2",
-      "summary" : "deleteRegularSecurityGroupV2"
-    },
-    "RevokeRegularSecurityGroupRulesV2" : {
-      "title" : "revokeRegularSecurityGroupRulesV2",
-      "summary" : "revokeRegularSecurityGroupRulesV2"
-    },
-    "QueryNetworkDetectionList" : {
-      "title" : "queryNetworkDetectionList",
-      "summary" : "queryNetworkDetectionList"
-    },
-    "UpdateRegularSecurityGroupRulesV2" : {
-      "title" : "updateRegularSecurityGroupRulesV2",
-      "summary" : "updateRegularSecurityGroupRulesV2"
+    "DeleteIpv6GatewayEgressOnlyRule" : {
+      "title" : "deleteIpv6GatewayEgressOnlyRule",
+      "summary" : "deleteIpv6GatewayEgressOnlyRule"
     },
     "GetNat" : {
       "title" : "getNat",
       "summary" : "getNat"
     },
-    "QueryNetworkDetectionDetails" : {
-      "title" : "queryNetworkDetectionDetails",
-      "summary" : "queryNetworkDetectionDetails"
+    "AuthorizeEnterpriseSecurityGroupRules" : {
+      "title" : "authorizeEnterpriseSecurityGroupRules",
+      "summary" : "authorizeEnterpriseSecurityGroupRules"
+    },
+    "QueryEnterpriseSecurityGroupList" : {
+      "title" : "queryEnterpriseSecurityGroupList",
+      "summary" : "queryEnterpriseSecurityGroupList"
+    },
+    "AddEniIp" : {
+      "title" : "addEniIp",
+      "summary" : "addEniIp"
+    },
+    "DeleteEniIp" : {
+      "title" : "deleteEniIp",
+      "summary" : "deleteEniIp"
+    },
+    "BatchDeleteEniIp" : {
+      "title" : "batchDeleteEniIp",
+      "summary" : "batchDeleteEniIp"
     },
     "CreatePeerConn" : {
       "title" : "createPeerConn",
       "summary" : "createPeerConn"
     },
+    "BindEniEip" : {
+      "title" : "bindEniEip",
+      "summary" : "bindEniEip"
+    },
     "DeleteAclRule" : {
       "title" : "deleteAclRule",
       "summary" : "deleteAclRule"
+    },
+    "UnbindEniEip" : {
+      "title" : "unbindEniEip",
+      "summary" : "unbindEniEip"
     },
     "UpdateAclRules" : {
       "title" : "updateAclRules",
       "summary" : "updateAclRules"
     },
-    "UpdateIpAddressFamily" : {
-      "title" : "updateIpAddressFamily",
-      "summary" : "updateIpAddressFamily"
-    },
     "ReleasePeerConn" : {
       "title" : "releasePeerConn",
       "summary" : "releasePeerConn"
     },
-    "DeleteIpAddressFamily" : {
-      "title" : "deleteIpAddressFamily",
-      "summary" : "deleteIpAddressFamily"
+    "BatchAddEniIp" : {
+      "title" : "batchAddEniIp",
+      "summary" : "batchAddEniIp"
     },
     "UpdatePeerConnBandwidth" : {
       "title" : "updatePeerConnBandwidth",
       "summary" : "updatePeerConnBandwidth"
-    },
-    "QueryTheSpecifiedIpAddressFamily" : {
-      "title" : "queryTheSpecifiedIpAddressFamily",
-      "summary" : "queryTheSpecifiedIpAddressFamily"
-    },
-    "DeleteIpAddressGroup" : {
-      "title" : "deleteIpAddressGroup",
-      "summary" : "deleteIpAddressGroup"
     },
     "RenewPeerConn" : {
       "title" : "renewPeerConn",
@@ -75,37 +75,29 @@
       "title" : "openPeerConnSyncDns",
       "summary" : "openPeerConnSyncDns"
     },
-    "UpdateIpAddressGroup" : {
-      "title" : "updateIpAddressGroup",
-      "summary" : "updateIpAddressGroup"
+    "UnbindHaVipInstance" : {
+      "title" : "unbindHaVipInstance",
+      "summary" : "unbindHaVipInstance"
     },
     "ClosePeerConnSyncDns" : {
       "title" : "closePeerConnSyncDns",
       "summary" : "closePeerConnSyncDns"
     },
-    "CreateARegularSecurityGroupV2" : {
-      "title" : "createARegularSecurityGroupV2",
-      "summary" : "createARegularSecurityGroupV2"
-    },
-    "CreateIpAddressGroup" : {
-      "title" : "createIpAddressGroup",
-      "summary" : "createIpAddressGroup"
-    },
-    "DeleteRegularSecurityGroupRulesV2" : {
-      "title" : "deleteRegularSecurityGroupRulesV2",
-      "summary" : "deleteRegularSecurityGroupRulesV2"
+    "UnbindHaVipEip" : {
+      "title" : "unbindHaVipEip",
+      "summary" : "unbindHaVipEip"
     },
     "RefundPeerConn" : {
       "title" : "refundPeerConn",
       "summary" : "refundPeerConn"
     },
-    "AuthorizeRegularSecurityGroupRulesV2" : {
-      "title" : "authorizeRegularSecurityGroupRulesV2",
-      "summary" : "authorizeRegularSecurityGroupRulesV2"
-    },
     "AcceptPeerConn" : {
       "title" : "acceptPeerConn",
       "summary" : "acceptPeerConn"
+    },
+    "BindHaVipEip" : {
+      "title" : "bindHaVipEip",
+      "summary" : "bindHaVipEip"
     },
     "CreateSubnet" : {
       "title" : "createSubnet",
@@ -123,21 +115,17 @@
       "title" : "querySubnetList",
       "summary" : "querySubnetList"
     },
-    "QueryTheSpecifiedIpAddressGroup" : {
-      "title" : "queryTheSpecifiedIpAddressGroup",
-      "summary" : "queryTheSpecifiedIpAddressGroup"
-    },
     "DeleteEnterpriseSecurityGroup" : {
       "title" : "deleteEnterpriseSecurityGroup",
       "summary" : "deleteEnterpriseSecurityGroup"
     },
+    "BindHaVipInstance" : {
+      "title" : "bindHaVipInstance",
+      "summary" : "bindHaVipInstance"
+    },
     "QuerySpecifiedSubnet" : {
       "title" : "querySpecifiedSubnet",
       "summary" : "querySpecifiedSubnet"
-    },
-    "QueryIpAddressFamilyList" : {
-      "title" : "queryIpAddressFamilyList",
-      "summary" : "queryIpAddressFamilyList"
     },
     "UpdatePeerConn" : {
       "title" : "updatePeerConn",
@@ -146,10 +134,6 @@
     "UpdateSubnet" : {
       "title" : "updateSubnet",
       "summary" : "updateSubnet"
-    },
-    "QueryTheListOfIpAddressGroups" : {
-      "title" : "queryTheListOfIpAddressGroups",
-      "summary" : "queryTheListOfIpAddressGroups"
     },
     "UpdatePeerConnDeleteProtect" : {
       "title" : "updatePeerConnDeleteProtect",
@@ -163,17 +147,13 @@
       "title" : "deleteSubnet",
       "summary" : "deleteSubnet"
     },
-    "AddIpAddressesToTheIpAddressGroup" : {
-      "title" : "addIpAddressesToTheIpAddressGroup",
-      "summary" : "addIpAddressesToTheIpAddressGroup"
+    "CreateProbe" : {
+      "title" : "createProbe",
+      "summary" : "createProbe"
     },
     "CreateIpReserved" : {
       "title" : "createIpReserved",
       "summary" : "createIpReserved"
-    },
-    "CreateIpAddressFamily" : {
-      "title" : "createIpAddressFamily",
-      "summary" : "createIpAddressFamily"
     },
     "UpdateEnterpriseSecurityGroupRules" : {
       "title" : "updateEnterpriseSecurityGroupRules",
@@ -183,29 +163,29 @@
       "title" : "listIpReserve",
       "summary" : "listIpReserve"
     },
-    "AddIpAddressGroupToIpAddressFamily" : {
-      "title" : "addIpAddressGroupToIpAddressFamily",
-      "summary" : "addIpAddressGroupToIpAddressFamily"
+    "DeleteProbe" : {
+      "title" : "deleteProbe",
+      "summary" : "deleteProbe"
     },
     "DeleteIpReserve" : {
       "title" : "deleteIpReserve",
       "summary" : "deleteIpReserve"
     },
-    "RemoveIpAddressGroupFromIpAddressFamily" : {
-      "title" : "removeIpAddressGroupFromIpAddressFamily",
-      "summary" : "removeIpAddressGroupFromIpAddressFamily"
+    "UpdateProbe" : {
+      "title" : "updateProbe",
+      "summary" : "updateProbe"
     },
     "CreateVpc" : {
       "title" : "createVpc",
       "summary" : "createVpc"
     },
-    "DeleteIpAddressFromIpAddressGroup" : {
-      "title" : "deleteIpAddressFromIpAddressGroup",
-      "summary" : "deleteIpAddressFromIpAddressGroup"
-    },
     "QueryVpcList" : {
       "title" : "queryVpcList",
       "summary" : "queryVpcList"
+    },
+    "ListProbes" : {
+      "title" : "listProbes",
+      "summary" : "listProbes"
     },
     "QuerySpecifiedVpc" : {
       "title" : "querySpecifiedVpc",
@@ -219,6 +199,10 @@
       "title" : "activeStandbySwitchover",
       "summary" : "activeStandbySwitchover"
     },
+    "GetProbeDetail" : {
+      "title" : "getProbeDetail",
+      "summary" : "getProbeDetail"
+    },
     "UpdateVpc" : {
       "title" : "updateVpc",
       "summary" : "updateVpc"
@@ -226,6 +210,10 @@
     "QueryRoutingTable" : {
       "title" : "queryRoutingTable",
       "summary" : "queryRoutingTable"
+    },
+    "UpdateDeleteProtect" : {
+      "title" : "updateDeleteProtect",
+      "summary" : "updateDeleteProtect"
     },
     "QueryVpcIntranetIp" : {
       "title" : "queryVpcIntranetIp",
@@ -243,6 +231,10 @@
       "title" : "listPeerConn",
       "summary" : "listPeerConn"
     },
+    "DeleteSecurityGroup" : {
+      "title" : "deleteSecurityGroup",
+      "summary" : "deleteSecurityGroup"
+    },
     "GetVpcResourceIpInfo" : {
       "title" : "getVpcResourceIpInfo",
       "summary" : "getVpcResourceIpInfo"
@@ -255,25 +247,21 @@
       "title" : "createVpn",
       "summary" : "createVpn"
     },
-    "RemoveElasticNetworkCard" : {
-      "title" : "removeElasticNetworkCard",
-      "summary" : "removeElasticNetworkCard"
+    "RevokeSecurityGroupRules" : {
+      "title" : "revokeSecurityGroupRules",
+      "summary" : "revokeSecurityGroupRules"
     },
     "QueryVpnList" : {
       "title" : "queryVpnList",
       "summary" : "queryVpnList"
     },
-    "ElasticNetworkCardUninstallationCloudProductInstance" : {
-      "title" : "elasticNetworkCardUninstallationCloudProductInstance",
-      "summary" : "elasticNetworkCardUninstallationCloudProductInstance"
-    },
     "SearchForVpnDetails" : {
       "title" : "searchForVpnDetails",
       "summary" : "searchForVpnDetails"
     },
-    "UpdateElasticNetworkCard" : {
-      "title" : "updateElasticNetworkCard",
-      "summary" : "updateElasticNetworkCard"
+    "UpdateSecurityGroupRules" : {
+      "title" : "updateSecurityGroupRules",
+      "summary" : "updateSecurityGroupRules"
     },
     "UpdateVpn" : {
       "title" : "updateVpn",
@@ -283,33 +271,33 @@
       "title" : "releaseVpn",
       "summary" : "releaseVpn"
     },
+    "QuerySecurityGroupsList" : {
+      "title" : "querySecurityGroupsList",
+      "summary" : "querySecurityGroupsList"
+    },
     "BindEip" : {
       "title" : "bindEip",
       "summary" : "bindEip"
-    },
-    "DeleteElasticNetworkCardAuxiliaryIp" : {
-      "title" : "deleteElasticNetworkCardAuxiliaryIp",
-      "summary" : "deleteElasticNetworkCardAuxiliaryIp"
     },
     "UnbindEip" : {
       "title" : "unbindEip",
       "summary" : "unbindEip"
     },
-    "ElasticNetworkCardUpdatesRegularSecurityGroup" : {
-      "title" : "elasticNetworkCardUpdatesRegularSecurityGroup",
-      "summary" : "elasticNetworkCardUpdatesRegularSecurityGroup"
+    "CreateSecurityGroup" : {
+      "title" : "createSecurityGroup",
+      "summary" : "createSecurityGroup"
     },
     "RenewVpn" : {
       "title" : "renewVpn",
       "summary" : "renewVpn"
     },
-    "ElasticNetworkCardMountedCloudProductInstance" : {
-      "title" : "elasticNetworkCardMountedCloudProductInstance",
-      "summary" : "elasticNetworkCardMountedCloudProductInstance"
-    },
     "UpdateVpnReleaseProtection" : {
       "title" : "updateVpnReleaseProtection",
       "summary" : "updateVpnReleaseProtection"
+    },
+    "DeleteSecurityGroupRules" : {
+      "title" : "deleteSecurityGroupRules",
+      "summary" : "deleteSecurityGroupRules"
     },
     "CreateVpnTunnel" : {
       "title" : "createVpnTunnel",
@@ -319,149 +307,77 @@
       "title" : "searchVpnTunnel",
       "summary" : "searchVpnTunnel"
     },
-    "ElasticNetworkCardBindingEip" : {
-      "title" : "elasticNetworkCardBindingEip",
-      "summary" : "elasticNetworkCardBindingEip"
+    "GetSecurityGroupDetails" : {
+      "title" : "getSecurityGroupDetails",
+      "summary" : "getSecurityGroupDetails"
     },
     "UpdateVpnTunnel" : {
       "title" : "updateVpnTunnel",
       "summary" : "updateVpnTunnel"
     },
-    "ElasticNetworkCardUnbindingEip" : {
-      "title" : "elasticNetworkCardUnbindingEip",
-      "summary" : "elasticNetworkCardUnbindingEip"
-    },
     "DeleteVpnTunnel" : {
       "title" : "deleteVpnTunnel",
       "summary" : "deleteVpnTunnel"
     },
-    "CreateElasticNetworkCard" : {
-      "title" : "createElasticNetworkCard",
-      "summary" : "createElasticNetworkCard"
+    "AuthorizeSecurityGroupRules" : {
+      "title" : "authorizeSecurityGroupRules",
+      "summary" : "authorizeSecurityGroupRules"
     },
     "CreateUserGateway" : {
       "title" : "createUserGateway",
       "summary" : "createUserGateway"
     },
-    "QueryTheStatusOfTheElasticNetworkCard" : {
-      "title" : "queryTheStatusOfTheElasticNetworkCard",
-      "summary" : "queryTheStatusOfTheElasticNetworkCard"
-    },
     "UserGatewayList" : {
       "title" : "userGatewayList",
       "summary" : "userGatewayList"
-    },
-    "QueryTheSpecifiedElasticNetworkCard" : {
-      "title" : "queryTheSpecifiedElasticNetworkCard",
-      "summary" : "queryTheSpecifiedElasticNetworkCard"
     },
     "UserGatewayDetails" : {
       "title" : "userGatewayDetails",
       "summary" : "userGatewayDetails"
     },
-    "QueryTheListOfElasticNetworkCards" : {
-      "title" : "queryTheListOfElasticNetworkCards",
-      "summary" : "queryTheListOfElasticNetworkCards"
-    },
     "DeleteUserGateway" : {
       "title" : "deleteUserGateway",
       "summary" : "deleteUserGateway"
-    },
-    "AddElasticNetworkCardAuxiliaryIp" : {
-      "title" : "addElasticNetworkCardAuxiliaryIp",
-      "summary" : "addElasticNetworkCardAuxiliaryIp"
     },
     "UpdateUserGateway" : {
       "title" : "updateUserGateway",
       "summary" : "updateUserGateway"
     },
-    "BatchDeleteElasticNetworkCardIntranetIp" : {
-      "title" : "batchDeleteElasticNetworkCardIntranetIp",
-      "summary" : "batchDeleteElasticNetworkCardIntranetIp"
-    },
     "CreateSslVpnServer" : {
       "title" : "createSslVpnServer",
       "summary" : "createSslVpnServer"
-    },
-    "ElasticNetworkCardUpdateEnterpriseSecurityGroup" : {
-      "title" : "elasticNetworkCardUpdateEnterpriseSecurityGroup",
-      "summary" : "elasticNetworkCardUpdateEnterpriseSecurityGroup"
     },
     "QuerySslVpnServer" : {
       "title" : "querySslVpnServer",
       "summary" : "querySslVpnServer"
     },
-    "BatchIncreaseElasticNetworkCardIntranetIp" : {
-      "title" : "batchIncreaseElasticNetworkCardIntranetIp",
-      "summary" : "batchIncreaseElasticNetworkCardIntranetIp"
-    },
     "UpdateSslVpnServer" : {
       "title" : "updateSslVpnServer",
       "summary" : "updateSslVpnServer"
-    },
-    "CreateAHighlyAvailableVirtualIp" : {
-      "title" : "createAHighlyAvailableVirtualIp",
-      "summary" : "createAHighlyAvailableVirtualIp"
     },
     "DeleteSslVpnServer" : {
       "title" : "deleteSslVpnServer",
       "summary" : "deleteSslVpnServer"
     },
-    "HighAvailabilityVirtualIpUnbindingEip" : {
-      "title" : "highAvailabilityVirtualIpUnbindingEip",
-      "summary" : "highAvailabilityVirtualIpUnbindingEip"
-    },
     "BatchCreateSslVpnUsers" : {
       "title" : "batchCreateSslVpnUsers",
       "summary" : "batchCreateSslVpnUsers"
-    },
-    "HighAvailabilityVirtualIpUnbindingInstance" : {
-      "title" : "highAvailabilityVirtualIpUnbindingInstance",
-      "summary" : "highAvailabilityVirtualIpUnbindingInstance"
     },
     "UpdateSslVpnUsers" : {
       "title" : "updateSslVpnUsers",
       "summary" : "updateSslVpnUsers"
     },
-    "QueryTheListOfHighlyAvailableVirtualIps" : {
-      "title" : "queryTheListOfHighlyAvailableVirtualIps",
-      "summary" : "queryTheListOfHighlyAvailableVirtualIps"
-    },
     "QuerySslVpnUsers" : {
       "title" : "querySslVpnUsers",
       "summary" : "querySslVpnUsers"
-    },
-    "UpdateHighlyAvailableVirtualIp" : {
-      "title" : "updateHighlyAvailableVirtualIp",
-      "summary" : "updateHighlyAvailableVirtualIp"
     },
     "DeleteSslVpnUser" : {
       "title" : "deleteSslVpnUser",
       "summary" : "deleteSslVpnUser"
     },
-    "HighlyAvailableVirtualIpBindingInstance" : {
-      "title" : "highlyAvailableVirtualIpBindingInstance",
-      "summary" : "highlyAvailableVirtualIpBindingInstance"
-    },
-    "HighlyAvailableVirtualIpBindingEip" : {
-      "title" : "highlyAvailableVirtualIpBindingEip",
-      "summary" : "highlyAvailableVirtualIpBindingEip"
-    },
-    "DeleteHighlyAvailableVirtualIp" : {
-      "title" : "deleteHighlyAvailableVirtualIp",
-      "summary" : "deleteHighlyAvailableVirtualIp"
-    },
-    "QueryTheSpecifiedHighlyAvailableVirtualIp" : {
-      "title" : "queryTheSpecifiedHighlyAvailableVirtualIp",
-      "summary" : "queryTheSpecifiedHighlyAvailableVirtualIp"
-    },
     "DeleteIpv6Gateway" : {
       "title" : "deleteIpv6Gateway",
       "summary" : "deleteIpv6Gateway"
-    },
-    "CreateIpv6GatewaySpeedLimitPolicy" : {
-      "title" : "createIpv6GatewaySpeedLimitPolicy",
-      "summary" : "createIpv6GatewaySpeedLimitPolicy"
     },
     "CreateEnterpriseSecurityGroup" : {
       "title" : "createEnterpriseSecurityGroup",
@@ -471,73 +387,17 @@
       "title" : "modifyGatewayLimitRules",
       "summary" : "modifyGatewayLimitRules"
     },
-    "QueryingTheIpv6PolicyListWithOnlyOutputAndNoInclusion" : {
-      "title" : "queryingTheIpv6PolicyListWithOnlyOutputAndNoInclusion",
-      "summary" : "queryingTheIpv6PolicyListWithOnlyOutputAndNoInclusion"
-    },
-    "AuthorizedEnterpriseSecurityGroupRules" : {
-      "title" : "authorizedEnterpriseSecurityGroupRules",
-      "summary" : "authorizedEnterpriseSecurityGroupRules"
-    },
     "DeleteGatewayLimitRule" : {
       "title" : "deleteGatewayLimitRule",
       "summary" : "deleteGatewayLimitRule"
-    },
-    "Ipv6GatewayBandwidthUpgradeAndDowngrade" : {
-      "title" : "ipv6GatewayBandwidthUpgradeAndDowngrade",
-      "summary" : "ipv6GatewayBandwidthUpgradeAndDowngrade"
-    },
-    "QueryTheListOfEnterpriseSecurityGroups" : {
-      "title" : "queryTheListOfEnterpriseSecurityGroups",
-      "summary" : "queryTheListOfEnterpriseSecurityGroups"
     },
     "ViewGatewayLimitRules" : {
       "title" : "viewGatewayLimitRules",
       "summary" : "viewGatewayLimitRules"
     },
-    "UpdateIpv6GatewayReleaseProtectionSwitch" : {
-      "title" : "updateIpv6GatewayReleaseProtectionSwitch",
-      "summary" : "updateIpv6GatewayReleaseProtectionSwitch"
-    },
-    "AddIpv6OnlyOutboundAndNoInboundPolicy" : {
-      "title" : "addIpv6OnlyOutboundAndNoInboundPolicy",
-      "summary" : "addIpv6OnlyOutboundAndNoInboundPolicy"
-    },
     "QueryIpv6Gateway" : {
       "title" : "queryIpv6Gateway",
       "summary" : "queryIpv6Gateway"
-    },
-    "CreateAnIpv6Gateway" : {
-      "title" : "createAnIpv6Gateway",
-      "summary" : "createAnIpv6Gateway"
-    },
-    "DeleteIpv6OnlyAccessPolicy" : {
-      "title" : "deleteIpv6OnlyAccessPolicy",
-      "summary" : "deleteIpv6OnlyAccessPolicy"
-    },
-    "QueryTheListOfSpeedLimitPoliciesForIpv6Gateway" : {
-      "title" : "queryTheListOfSpeedLimitPoliciesForIpv6Gateway",
-      "summary" : "queryTheListOfSpeedLimitPoliciesForIpv6Gateway"
-    },
-    "DeleteIpv6GatewaySpeedLimitPolicy" : {
-      "title" : "deleteIpv6GatewaySpeedLimitPolicy",
-      "summary" : "deleteIpv6GatewaySpeedLimitPolicy"
-    },
-    "UpdateIpv6GatewaySpeedLimitPolicy" : {
-      "title" : "updateIpv6GatewaySpeedLimitPolicy",
-      "summary" : "updateIpv6GatewaySpeedLimitPolicy"
-    },
-    "CreateNetworkDetection" : {
-      "title" : "createNetworkDetection",
-      "summary" : "createNetworkDetection"
-    },
-    "DeleteNetworkDetection" : {
-      "title" : "deleteNetworkDetection",
-      "summary" : "deleteNetworkDetection"
-    },
-    "UpdateNetworkDetection" : {
-      "title" : "updateNetworkDetection",
-      "summary" : "updateNetworkDetection"
     },
     "UpdateNatReleaseProtectionSwitch" : {
       "title" : "updateNatReleaseProtectionSwitch",
@@ -575,6 +435,10 @@
       "title" : "updateDnatRule",
       "summary" : "updateDnatRule"
     },
+    "DeleteIpGroup" : {
+      "title" : "deleteIpGroup",
+      "summary" : "deleteIpGroup"
+    },
     "ResizeNat" : {
       "title" : "resizeNat",
       "summary" : "resizeNat"
@@ -582,6 +446,10 @@
     "CreateSnatRule" : {
       "title" : "createSnatRule",
       "summary" : "createSnatRule"
+    },
+    "QueryIpGroupList" : {
+      "title" : "queryIpGroupList",
+      "summary" : "queryIpGroupList"
     },
     "NatBindEip" : {
       "title" : "natBindEip",
@@ -607,9 +475,17 @@
       "title" : "deleteRoutingRules",
       "summary" : "deleteRoutingRules"
     },
+    "CreateIpSet" : {
+      "title" : "createIpSet",
+      "summary" : "createIpSet"
+    },
     "BatchAddDnatRules" : {
       "title" : "batchAddDnatRules",
       "summary" : "batchAddDnatRules"
+    },
+    "DeleteIpSet" : {
+      "title" : "deleteIpSet",
+      "summary" : "deleteIpSet"
     },
     "UpdateRoutingRules" : {
       "title" : "updateRoutingRules",
@@ -619,6 +495,10 @@
       "title" : "queryRoutingRules",
       "summary" : "queryRoutingRules"
     },
+    "UpdateIpSet" : {
+      "title" : "updateIpSet",
+      "summary" : "updateIpSet"
+    },
     "CreateRoutingRules" : {
       "title" : "createRoutingRules",
       "summary" : "createRoutingRules"
@@ -626,6 +506,90 @@
     "DeleteDnatRule" : {
       "title" : "deleteDnatRule",
       "summary" : "deleteDnatRule"
+    },
+    "QueryIpSetDetail" : {
+      "title" : "queryIpSetDetail",
+      "summary" : "queryIpSetDetail"
+    },
+    "AddIpGroupToIpSet" : {
+      "title" : "addIpGroupToIpSet",
+      "summary" : "addIpGroupToIpSet"
+    },
+    "RemoveIpGroupFromIpSet" : {
+      "title" : "removeIpGroupFromIpSet",
+      "summary" : "removeIpGroupFromIpSet"
+    },
+    "RemoveIpAddressFromIpGroup" : {
+      "title" : "removeIpAddressFromIpGroup",
+      "summary" : "removeIpAddressFromIpGroup"
+    },
+    "CreateIpGroup" : {
+      "title" : "createIpGroup",
+      "summary" : "createIpGroup"
+    },
+    "UpdateIpGroup" : {
+      "title" : "updateIpGroup",
+      "summary" : "updateIpGroup"
+    },
+    "AddIpAddressToIpGroup" : {
+      "title" : "addIpAddressToIpGroup",
+      "summary" : "addIpAddressToIpGroup"
+    },
+    "QueryIpSetList" : {
+      "title" : "queryIpSetList",
+      "summary" : "queryIpSetList"
+    },
+    "QueryIpGroupDetail" : {
+      "title" : "queryIpGroupDetail",
+      "summary" : "queryIpGroupDetail"
+    },
+    "RemoveEni" : {
+      "title" : "removeEni",
+      "summary" : "removeEni"
+    },
+    "DetachEniInstance" : {
+      "title" : "detachEniInstance",
+      "summary" : "detachEniInstance"
+    },
+    "UpdateEni" : {
+      "title" : "updateEni",
+      "summary" : "updateEni"
+    },
+    "AttachEniInstance" : {
+      "title" : "attachEniInstance",
+      "summary" : "attachEniInstance"
+    },
+    "UpdateEniSecurityGroup" : {
+      "title" : "updateEniSecurityGroup",
+      "summary" : "updateEniSecurityGroup"
+    },
+    "UpdateEniEnterpriseSecurityGroup" : {
+      "title" : "updateEniEnterpriseSecurityGroup",
+      "summary" : "updateEniEnterpriseSecurityGroup"
+    },
+    "CreateEni" : {
+      "title" : "createEni",
+      "summary" : "createEni"
+    },
+    "ListEni" : {
+      "title" : "listEni",
+      "summary" : "listEni"
+    },
+    "GetEniStatus" : {
+      "title" : "getEniStatus",
+      "summary" : "getEniStatus"
+    },
+    "GetEniDetail" : {
+      "title" : "getEniDetail",
+      "summary" : "getEniDetail"
+    },
+    "CreateHaVip" : {
+      "title" : "createHaVip",
+      "summary" : "createHaVip"
+    },
+    "ListHaVip" : {
+      "title" : "listHaVip",
+      "summary" : "listHaVip"
     },
     "ListDnatRule" : {
       "title" : "listDnatRule",
@@ -639,17 +603,37 @@
       "title" : "queryAclRules",
       "summary" : "queryAclRules"
     },
-    "QueryTheListOfRegularSecurityGroupsV2" : {
-      "title" : "queryTheListOfRegularSecurityGroupsV2",
-      "summary" : "queryTheListOfRegularSecurityGroupsV2"
+    "UpdateHaVip" : {
+      "title" : "updateHaVip",
+      "summary" : "updateHaVip"
     },
-    "ViewSecurityGroupDetailsV2" : {
-      "title" : "viewSecurityGroupDetailsV2",
-      "summary" : "viewSecurityGroupDetailsV2"
+    "DeleteHaVip" : {
+      "title" : "deleteHaVip",
+      "summary" : "deleteHaVip"
+    },
+    "GetHaVipDetail" : {
+      "title" : "getHaVipDetail",
+      "summary" : "getHaVipDetail"
+    },
+    "CreateIpv6Gateway" : {
+      "title" : "createIpv6Gateway",
+      "summary" : "createIpv6Gateway"
+    },
+    "ResizeIpv6Gateway" : {
+      "title" : "resizeIpv6Gateway",
+      "summary" : "resizeIpv6Gateway"
+    },
+    "CreateRateLimitRule" : {
+      "title" : "createRateLimitRule",
+      "summary" : "createRateLimitRule"
     },
     "ReleaseDedicatedGateway" : {
       "title" : "releaseDedicatedGateway",
       "summary" : "releaseDedicatedGateway"
+    },
+    "DeleteIpv6GatewayRateLimitRule" : {
+      "title" : "deleteIpv6GatewayRateLimitRule",
+      "summary" : "deleteIpv6GatewayRateLimitRule"
     },
     "CreateDedicatedGatewayHealthCheck" : {
       "title" : "createDedicatedGatewayHealthCheck",
@@ -659,6 +643,10 @@
       "title" : "queryTheListOfDedicatedLineGateways",
       "summary" : "queryTheListOfDedicatedLineGateways"
     },
+    "ListRateLimitRule" : {
+      "title" : "listRateLimitRule",
+      "summary" : "listRateLimitRule"
+    },
     "BindPhysicalDedicatedLine" : {
       "title" : "bindPhysicalDedicatedLine",
       "summary" : "bindPhysicalDedicatedLine"
@@ -666,6 +654,10 @@
     "CreateDedicatedGateway" : {
       "title" : "createDedicatedGateway",
       "summary" : "createDedicatedGateway"
+    },
+    "UpdateRateLimitRule" : {
+      "title" : "updateRateLimitRule",
+      "summary" : "updateRateLimitRule"
     },
     "UpdateDedicatedGateway" : {
       "title" : "updateDedicatedGateway",
@@ -675,9 +667,17 @@
       "title" : "queryTheDetailsOfTheDedicatedGateway",
       "summary" : "queryTheDetailsOfTheDedicatedGateway"
     },
+    "CreateEgressOnlyRule" : {
+      "title" : "createEgressOnlyRule",
+      "summary" : "createEgressOnlyRule"
+    },
     "UnbindPhysicalDedicatedLine" : {
       "title" : "unbindPhysicalDedicatedLine",
       "summary" : "unbindPhysicalDedicatedLine"
+    },
+    "ListEgressOnlyRule" : {
+      "title" : "listEgressOnlyRule",
+      "summary" : "listEgressOnlyRule"
     }
   }
 }

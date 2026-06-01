@@ -1,0 +1,38 @@
+{
+  "name" : "BindEniEip",
+  "method" : "PUT",
+  "uri" : "/v{version}/eni/{eniId}?bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "eniId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.BindEniEip.eniId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.BindEniEip.clientToken"
+  }, {
+    "name" : "privateIpAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BindEniEip.privateIpAddress"
+  }, {
+    "name" : "publicIpAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.BindEniEip.publicIpAddress"
+  } ],
+  "desc_key" : "vpc.BindEniEip.desc"
+}

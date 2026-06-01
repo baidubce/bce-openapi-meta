@@ -1,9 +1,0 @@
-{
-  "AddIpAddressesToTheIpAddressGroup" : {
-    "ipSetId" : "The ID of the IP address group",
-    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
-    "ipAddressInfo" : "Information of the IP addresses to be added. The ipVersion must be consistent with the specified IP address group. A maximum of 10 entries can be specified per request",
-    "ipAddressInfo.ipAddress" : "IP address in the parameter template, which can be a specific IP address or a CIDR block",
-    "ipAddressInfo.description" : "Description of the IP address entry in the parameter template"
-  }
-}

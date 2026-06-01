@@ -1,0 +1,8 @@
+{
+  "UpdateEni" : {
+    "eniId" : "弹性网卡ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
+    "name" : "弹性网卡的名称",
+    "description" : "弹性网卡的描述"
+  }
+}

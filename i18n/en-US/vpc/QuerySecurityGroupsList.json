@@ -1,0 +1,10 @@
+{
+  "QuerySecurityGroupsList" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000; default value is 1000",
+    "instanceId" : "Cloud product instance ID, used to query the list of security groups associated with the instance. Leave empty to query all created security groups.",
+    "vpcId" : "VPC instance ID, used to query the list of security groups associated with the instance. Required if instanceId is specified.",
+    "securityGroupId" : "Specifies the security group to query",
+    "securityGroupIds" : "Specifies multiple security groups to query, with multiple security group IDs separated by commas"
+  }
+}

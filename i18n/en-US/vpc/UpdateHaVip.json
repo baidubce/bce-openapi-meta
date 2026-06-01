@@ -1,0 +1,8 @@
+{
+  "UpdateHaVip" : {
+    "haVipId" : "The ID of the HA VIP (High Availability Virtual IP)",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
+    "name" : "The name of the HA VIP",
+    "description" : "The description of the HA VIP"
+  }
+}

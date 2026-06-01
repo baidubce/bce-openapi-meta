@@ -1,0 +1,8 @@
+{
+  "AddEniIp" : {
+    "eniId" : "The ID of the elastic network interface",
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters, see [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "isIpv6" : "Whether to assign an IPv6 address; true assigns IPv6, false (default) assigns IPv4",
+    "privateIpAddress" : "The private IP address to add"
+  }
+}

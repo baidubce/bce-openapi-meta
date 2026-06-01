@@ -1,0 +1,5 @@
+{
+  "GetProbeDetail" : {
+    "probeId" : "The ID of the network probe"
+  }
+}

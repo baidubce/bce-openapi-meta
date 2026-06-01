@@ -1,0 +1,104 @@
+{
+  "name" : "RevokeSecurityGroupRules",
+  "method" : "PUT",
+  "uri" : "/v{version}/securityGroup/{securityGroupId}?revokeRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.RevokeSecurityGroupRules.clientToken"
+  }, {
+    "name" : "sgVersion",
+    "type" : "Long",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.RevokeSecurityGroupRules.sgVersion"
+  }, {
+    "name" : "securityGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.RevokeSecurityGroupRules.securityGroupId"
+  }, {
+    "name" : "rule",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.RevokeSecurityGroupRules.rule",
+    "sub_parameters" : [ {
+      "name" : "remark",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.remark"
+    }, {
+      "name" : "direction",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.direction"
+    }, {
+      "name" : "ethertype",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.ethertype"
+    }, {
+      "name" : "portRange",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.portRange"
+    }, {
+      "name" : "protocol",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.protocol"
+    }, {
+      "name" : "sourceGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.sourceGroupId"
+    }, {
+      "name" : "sourceIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.sourceIp"
+    }, {
+      "name" : "destGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.destGroupId"
+    }, {
+      "name" : "destIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.destIp"
+    }, {
+      "name" : "securityGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.securityGroupId"
+    }, {
+      "name" : "securityGroupRuleId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.securityGroupRuleId"
+    }, {
+      "name" : "createdTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.createdTime"
+    }, {
+      "name" : "updatedTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vpc.RevokeSecurityGroupRules.rule.updatedTime"
+    } ]
+  } ],
+  "desc_key" : "vpc.RevokeSecurityGroupRules.desc"
+}

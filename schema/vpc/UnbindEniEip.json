@@ -1,0 +1,32 @@
+{
+  "name" : "UnbindEniEip",
+  "method" : "PUT",
+  "uri" : "/v{version}/eni/{eniId}?unBind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "eniId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.UnbindEniEip.eniId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vpc.UnbindEniEip.clientToken"
+  }, {
+    "name" : "publicIpAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "vpc.UnbindEniEip.publicIpAddress"
+  } ],
+  "desc_key" : "vpc.UnbindEniEip.desc"
+}

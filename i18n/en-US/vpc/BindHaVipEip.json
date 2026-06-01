@@ -1,0 +1,7 @@
+{
+  "BindHaVipEip" : {
+    "haVipId" : "The ID of the HA VIP",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
+    "publicIpAddress" : "The address of the Elastic IP"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "CreateProbe" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性).",
+    "name" : "Network probe name, up to 65 characters, consisting of digits, letters, and underscores.",
+    "description" : "Network probe description, up to 200 characters.",
+    "vpcId" : "ID of the VPC to which the network probe belongs.",
+    "subnetId" : "ID of the subnet to which the network probe belongs.",
+    "protocol" : "Probe type. Currently supports ICMP, TCP, UDP, and DNS.",
+    "frequency" : "Probe frequency. Valid values: 10, 20, 30.",
+    "sourceIps" : "List of probe source IPs. Can be empty; if so, sourceIpNum must be specified.",
+    "sourceIpNum" : "Number of probe source IPs to be automatically assigned.",
+    "destIp" : "Probe destination IP.",
+    "destPort" : "Probe destination port. Required for TCP, UDP, and DNS probe types.",
+    "payload" : "Probe string for UDP type or probe domain name for DNS type."
+  }
+}

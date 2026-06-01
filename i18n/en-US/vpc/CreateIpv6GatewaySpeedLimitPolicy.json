@@ -1,9 +1,0 @@
-{
-  "CreateIpv6GatewaySpeedLimitPolicy" : {
-    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency](VPC/API参考/通用说明.md#幂等性)",
-    "gatewayId" : "The ID of the IPv6 gateway",
-    "ipv6Address" : "The IPv6 address",
-    "ingressBandwidthInMbps" : "Inbound bandwidth of the speed limit policy",
-    "egressBandwidthInMbps" : "Outbound bandwidth of the speed limit policy"
-  }
-}

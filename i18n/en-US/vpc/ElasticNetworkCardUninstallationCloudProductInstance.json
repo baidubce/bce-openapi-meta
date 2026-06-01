@@ -1,7 +1,0 @@
-{
-  "ElasticNetworkCardUninstallationCloudProductInstance" : {
-    "eniId" : "The ID of the elastic network card",
-    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. For details, see [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
-    "instanceId" : "The ID of the cloud product instance to be unbound"
-  }
-}

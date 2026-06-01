@@ -1,0 +1,5 @@
+{
+  "QueryIpGroupDetail" : {
+    "ipSetId" : "IP地址组的ID"
+  }
+}

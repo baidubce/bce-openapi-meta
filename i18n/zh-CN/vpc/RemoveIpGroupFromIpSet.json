@@ -1,0 +1,7 @@
+{
+  "RemoveIpGroupFromIpSet" : {
+    "ipGroupId" : "IP地址族的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
+    "ipSetIds" : "移除的IP地址组ID，单次最多指定5个"
+  }
+}

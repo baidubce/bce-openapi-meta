@@ -1,0 +1,8 @@
+{
+  "AddEniIp" : {
+    "eniId" : "弹性网卡的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)。",
+    "isIpv6" : "是否IPv6地址，true表示分配IPv6地址，默认false分配IPv4地址",
+    "privateIpAddress" : "新增的内网IP地址"
+  }
+}

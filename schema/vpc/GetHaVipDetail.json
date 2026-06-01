@@ -1,0 +1,20 @@
+{
+  "name" : "GetHaVipDetail",
+  "method" : "GET",
+  "uri" : "/v{version}/havip/{haVipId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "haVipId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vpc.GetHaVipDetail.haVipId"
+  } ],
+  "desc_key" : "vpc.GetHaVipDetail.desc"
+}

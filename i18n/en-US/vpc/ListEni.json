@@ -1,0 +1,10 @@
+{
+  "ListEni" : {
+    "vpcId" : "The VPC ID to which the elastic network interface belongs",
+    "instanceId" : "The ID of the instance to which the elastic network interface is attached",
+    "name" : "The name of the elastic network interface",
+    "privateIpAddress" : "The private IP (IPv4) address of the elastic network interface; supports single or multiple IP queries (multiple IPs separated by commas); single IP supports suffix fuzzy matching, multiple IPs require exact matching",
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "The maximum number of items per page, not exceeding 1000; default value is 1000"
+  }
+}

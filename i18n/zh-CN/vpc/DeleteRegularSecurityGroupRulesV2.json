@@ -1,7 +1,0 @@
-{
-  "DeleteRegularSecurityGroupRulesV2" : {
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](VPC/API参考/通用说明.md#幂等性)。",
-    "sgVersion" : "安全组版本号",
-    "securityGroupRuleId" : "要删除的安全组规则ID"
-  }
-}

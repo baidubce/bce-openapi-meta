@@ -1,8 +1,0 @@
-{
-  "UpdateHighlyAvailableVirtualIp" : {
-    "haVipId" : "The ID of the highly available virtual IP",
-    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
-    "name" : "The name of the highly available virtual IP",
-    "description" : "The description of the highly available virtual IP"
-  }
-}

@@ -1,5 +1,0 @@
-{
-  "QueryTheSpecifiedHighlyAvailableVirtualIp" : {
-    "haVipId" : "The ID of the highly available virtual IP"
-  }
-}

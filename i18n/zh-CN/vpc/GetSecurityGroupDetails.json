@@ -1,0 +1,5 @@
+{
+  "GetSecurityGroupDetails" : {
+    "securityGroupId" : "安全组ID"
+  }
+}

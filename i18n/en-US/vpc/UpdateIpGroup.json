@@ -1,0 +1,8 @@
+{
+  "UpdateIpGroup" : {
+    "ipSetId" : "ID of the IP address group",
+    "clientToken" : "Idempotency token; an ASCII string up to 64 characters. See ClientToken idempotency support.",
+    "name" : "Name of the IP address group",
+    "description" : "Description of the IP address group"
+  }
+}
