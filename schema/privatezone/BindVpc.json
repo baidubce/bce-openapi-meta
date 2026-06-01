@@ -1,7 +1,7 @@
 {
-  "name" : "DisassociateVpc",
+  "name" : "BindVpc",
   "method" : "PUT",
-  "uri" : "/v{version}/privatezone/{zoneId}",
+  "uri" : "/v{version}/privatezone/{zoneId}?bind",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",
@@ -14,31 +14,25 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "PrivateZone.DisassociateVpc.zoneId"
-  }, {
-    "name" : "action",
-    "type" : "String",
-    "required" : true,
-    "position" : "QUERY",
-    "desc_key" : "PrivateZone.DisassociateVpc.action"
+    "desc_key" : "privatezone.BindVpc.zoneId"
   }, {
     "name" : "clientToken",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.DisassociateVpc.clientToken"
+    "desc_key" : "privatezone.BindVpc.clientToken"
   }, {
     "name" : "region",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.DisassociateVpc.region"
+    "desc_key" : "privatezone.BindVpc.region"
   }, {
     "name" : "vpcIds",
     "type" : "List",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.DisassociateVpc.vpcIds"
+    "desc_key" : "privatezone.BindVpc.vpcIds"
   } ],
-  "desc_key" : "PrivateZone.DisassociateVpc.desc"
+  "desc_key" : "privatezone.BindVpc.desc"
 }

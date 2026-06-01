@@ -1,5 +1,5 @@
 {
-  "name" : "AssociateVpc",
+  "name" : "UnbindVpc",
   "method" : "PUT",
   "uri" : "/v{version}/privatezone/{zoneId}",
   "parameters" : [ {
@@ -14,31 +14,31 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "PrivateZone.AssociateVpc.zoneId"
+    "desc_key" : "privatezone.UnbindVpc.zoneId"
   }, {
     "name" : "action",
     "type" : "String",
     "required" : true,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.AssociateVpc.action"
+    "desc_key" : "privatezone.UnbindVpc.action"
   }, {
     "name" : "clientToken",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.AssociateVpc.clientToken"
+    "desc_key" : "privatezone.UnbindVpc.clientToken"
   }, {
     "name" : "region",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.AssociateVpc.region"
+    "desc_key" : "privatezone.UnbindVpc.region"
   }, {
     "name" : "vpcIds",
     "type" : "List",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.AssociateVpc.vpcIds"
+    "desc_key" : "privatezone.UnbindVpc.vpcIds"
   } ],
-  "desc_key" : "PrivateZone.AssociateVpc.desc"
+  "desc_key" : "privatezone.UnbindVpc.desc"
 }

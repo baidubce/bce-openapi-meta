@@ -1,6 +1,6 @@
 {
-  "name" : "SetParsingRecordStatus",
-  "method" : "PUT",
+  "name" : "DeleteRecord",
+  "method" : "DELETE",
   "uri" : "/v{version}/privatezone/record/{recordId}",
   "parameters" : [ {
     "name" : "version",
@@ -14,19 +14,13 @@
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.SetParsingRecordStatus.clientToken"
+    "desc_key" : "privatezone.DeleteRecord.clientToken"
   }, {
     "name" : "recordId",
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "PrivateZone.SetParsingRecordStatus.recordId"
-  }, {
-    "name" : "action",
-    "type" : "String",
-    "required" : true,
-    "position" : "QUERY",
-    "desc_key" : "PrivateZone.SetParsingRecordStatus.action"
+    "desc_key" : "privatezone.DeleteRecord.recordId"
   } ],
-  "desc_key" : "PrivateZone.SetParsingRecordStatus.desc"
+  "desc_key" : "privatezone.DeleteRecord.desc"
 }

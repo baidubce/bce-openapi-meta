@@ -14,13 +14,13 @@
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.DeletePrivateZone.clientToken"
+    "desc_key" : "privatezone.DeletePrivateZone.clientToken"
   }, {
     "name" : "zoneId",
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "PrivateZone.DeletePrivateZone.zoneId"
+    "desc_key" : "privatezone.DeletePrivateZone.zoneId"
   } ],
-  "desc_key" : "PrivateZone.DeletePrivateZone.desc"
+  "desc_key" : "privatezone.DeletePrivateZone.desc"
 }

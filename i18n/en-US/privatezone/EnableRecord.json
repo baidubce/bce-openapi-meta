@@ -1,6 +1,7 @@
 {
-  "CreateAPrivateZone" : {
+  "EnableRecord" : {
     "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters. See [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
-    "zoneName" : "Zone name, consisting of two or more letters or digits, with a maximum length of 240 characters"
+    "recordId" : "DNS record ID",
+    "action" : "enable: enable the DNS record"
   }
 }

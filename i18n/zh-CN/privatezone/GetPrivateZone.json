@@ -1,0 +1,5 @@
+{
+  "GetPrivateZone" : {
+    "zoneId" : "zone的ID"
+  }
+}

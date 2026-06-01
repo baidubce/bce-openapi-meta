@@ -1,9 +1,0 @@
-{
-  "DisassociateVpc" : {
-    "zoneId" : "The ID of the zone",
-    "action" : "The operation type: disassociate (unbind)",
-    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
-    "region" : "The region to which the VPC to be associated or disassociated belongs",
-    "vpcIds" : "The list of IDs of the VPCs to be associated or disassociated"
-  }
-}

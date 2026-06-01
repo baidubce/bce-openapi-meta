@@ -1,0 +1,12 @@
+{
+  "UpdateRecord" : {
+    "clientToken" : "Idempotency token, ASCII string up to 64 characters, see [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
+    "recordId" : "DNS record ID",
+    "rr" : "Host record",
+    "value" : "Record value",
+    "type" : "Record type; supported: A, AAAA, CNAME, TXT, MX, PTR, SRV",
+    "ttl" : "Time to live, range [5, 86400], default 60",
+    "priority" : "MX record priority, range [0, 100]; required when record type is MX",
+    "description" : "Description"
+  }
+}

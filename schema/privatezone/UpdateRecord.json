@@ -1,5 +1,5 @@
 {
-  "name" : "ModifyParsingRecords",
+  "name" : "UpdateRecord",
   "method" : "PUT",
   "uri" : "/v{version}/privatezone/record/{recordId}",
   "parameters" : [ {
@@ -14,49 +14,49 @@
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.ModifyParsingRecords.clientToken"
+    "desc_key" : "privatezone.UpdateRecord.clientToken"
   }, {
     "name" : "recordId",
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "PrivateZone.ModifyParsingRecords.recordId"
+    "desc_key" : "privatezone.UpdateRecord.recordId"
   }, {
     "name" : "rr",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.ModifyParsingRecords.rr"
+    "desc_key" : "privatezone.UpdateRecord.rr"
   }, {
     "name" : "value",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.ModifyParsingRecords.value"
+    "desc_key" : "privatezone.UpdateRecord.value"
   }, {
     "name" : "type",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.ModifyParsingRecords.type"
+    "desc_key" : "privatezone.UpdateRecord.type"
   }, {
     "name" : "ttl",
     "type" : "Integer",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.ModifyParsingRecords.ttl"
+    "desc_key" : "privatezone.UpdateRecord.ttl"
   }, {
     "name" : "priority",
     "type" : "Integer",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.ModifyParsingRecords.priority"
+    "desc_key" : "privatezone.UpdateRecord.priority"
   }, {
     "name" : "description",
     "type" : "String",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.ModifyParsingRecords.description"
+    "desc_key" : "privatezone.UpdateRecord.description"
   } ],
-  "desc_key" : "PrivateZone.ModifyParsingRecords.desc"
+  "desc_key" : "privatezone.UpdateRecord.desc"
 }

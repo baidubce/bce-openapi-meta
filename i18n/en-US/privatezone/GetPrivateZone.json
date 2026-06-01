@@ -1,5 +1,5 @@
 {
-  "SearchForDetailsOfPrivatzone" : {
+  "GetPrivateZone" : {
     "zoneId" : "The ID of the zone"
   }
 }
