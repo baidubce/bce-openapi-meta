@@ -1,7 +1,6 @@
 {
-  "SetParsingRecordStatus" : {
+  "CreatePrivateZone" : {
     "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
-    "recordId" : "DNS record ID",
-    "action" : "enable: activate the DNS record; disable: suspend the DNS record"
+    "zoneName" : "Zone name, consisting of two or more letters or digits, with a maximum length of 240 characters"
   }
 }

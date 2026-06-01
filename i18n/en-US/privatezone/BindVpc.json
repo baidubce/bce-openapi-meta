@@ -1,0 +1,8 @@
+{
+  "BindVpc" : {
+    "zoneId" : "The ID of the zone",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
+    "region" : "The region of the VPC to associate or disassociate",
+    "vpcIds" : "List of VPC IDs to associate or disassociate"
+  }
+}

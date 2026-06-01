@@ -1,10 +1,10 @@
 {
-  "QueryAndParseRecordList" : {
+  "ListRecord" : {
     "zoneId" : "The ID of the Zone",
     "marker" : "The starting position for paginated list queries, a system-generated string",
     "maxKeys" : "Maximum number of items per page, up to 1000, default is 1000",
     "rr" : "Host record, can be used with the searchType field to select the appropriate matching mode",
-    "searchMode" : "Matching mode for rr; LIKE for fuzzy match, EXACT for exact match (default)",
+    "searchMode" : "Matching mode for rr: LIKE for fuzzy match, EXACT for exact match (default)",
     "type" : "DNS record type, currently supports A, AAAA, CNAME, TXT, MX, PTR, SRV",
     "value" : "DNS record value, fuzzy match"
   }

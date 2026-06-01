@@ -1,5 +1,5 @@
 {
-  "name" : "CreateAPrivateZone",
+  "name" : "CreatePrivateZone",
   "method" : "POST",
   "uri" : "/v{version}/privatezone",
   "parameters" : [ {
@@ -14,13 +14,13 @@
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.CreateAPrivateZone.clientToken"
+    "desc_key" : "privatezone.CreatePrivateZone.clientToken"
   }, {
     "name" : "zoneName",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "PrivateZone.CreateAPrivateZone.zoneName"
+    "desc_key" : "privatezone.CreatePrivateZone.zoneName"
   } ],
-  "desc_key" : "PrivateZone.CreateAPrivateZone.desc"
+  "desc_key" : "privatezone.CreatePrivateZone.desc"
 }

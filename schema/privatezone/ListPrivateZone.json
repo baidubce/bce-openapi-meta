@@ -1,5 +1,5 @@
 {
-  "name" : "QueryTheListOfPrivateZones",
+  "name" : "ListPrivateZone",
   "method" : "GET",
   "uri" : "/v{version}/privatezone",
   "parameters" : [ {
@@ -14,13 +14,13 @@
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.QueryTheListOfPrivateZones.marker"
+    "desc_key" : "privatezone.ListPrivateZone.marker"
   }, {
     "name" : "maxKeys",
     "type" : "Integer",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.QueryTheListOfPrivateZones.maxKeys"
+    "desc_key" : "privatezone.ListPrivateZone.maxKeys"
   } ],
   "paginator" : {
     "input_token" : "marker",
@@ -29,5 +29,5 @@
     "more_results" : "isTruncated",
     "result_key" : "zones"
   },
-  "desc_key" : "PrivateZone.QueryTheListOfPrivateZones.desc"
+  "desc_key" : "privatezone.ListPrivateZone.desc"
 }

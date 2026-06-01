@@ -1,5 +1,5 @@
 {
-  "name" : "SearchForDetailsOfPrivatzone",
+  "name" : "GetPrivateZone",
   "method" : "GET",
   "uri" : "/v{version}/privatezone/{zoneId}",
   "parameters" : [ {
@@ -14,7 +14,7 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "PrivateZone.SearchForDetailsOfPrivatzone.zoneId"
+    "desc_key" : "privatezone.GetPrivateZone.zoneId"
   } ],
-  "desc_key" : "PrivateZone.SearchForDetailsOfPrivatzone.desc"
+  "desc_key" : "privatezone.GetPrivateZone.desc"
 }

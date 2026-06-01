@@ -1,51 +1,55 @@
 {
   "version" : "v1",
   "style" : "rpc",
-  "description" : "PrivateZone",
+  "description" : "privatezone",
   "apis" : {
-    "AddParsingRecords" : {
-      "title" : "addParsingRecords",
-      "summary" : "addParsingRecords"
+    "ListRecord" : {
+      "title" : "listRecord",
+      "summary" : "listRecord"
     },
-    "QueryTheListOfPrivateZones" : {
-      "title" : "queryTheListOfPrivateZones",
-      "summary" : "queryTheListOfPrivateZones"
+    "CreatePrivateZone" : {
+      "title" : "createPrivateZone",
+      "summary" : "createPrivateZone"
     },
-    "SearchForDetailsOfPrivatzone" : {
-      "title" : "searchForDetailsOfPrivatzone",
-      "summary" : "searchForDetailsOfPrivatzone"
+    "UnbindVpc" : {
+      "title" : "unbindVpc",
+      "summary" : "unbindVpc"
     },
-    "CreateAPrivateZone" : {
-      "title" : "createAPrivateZone",
-      "summary" : "createAPrivateZone"
+    "DisableRecord" : {
+      "title" : "disableRecord",
+      "summary" : "disableRecord"
     },
-    "AssociateVpc" : {
-      "title" : "associateVpc",
-      "summary" : "associateVpc"
+    "UpdateRecord" : {
+      "title" : "updateRecord",
+      "summary" : "updateRecord"
     },
-    "DeleteParsingRecords" : {
-      "title" : "deleteParsingRecords",
-      "summary" : "deleteParsingRecords"
+    "BindVpc" : {
+      "title" : "bindVpc",
+      "summary" : "bindVpc"
     },
-    "SetParsingRecordStatus" : {
-      "title" : "setParsingRecordStatus",
-      "summary" : "setParsingRecordStatus"
+    "DeleteRecord" : {
+      "title" : "deleteRecord",
+      "summary" : "deleteRecord"
+    },
+    "EnableRecord" : {
+      "title" : "enableRecord",
+      "summary" : "enableRecord"
     },
     "DeletePrivateZone" : {
       "title" : "deletePrivateZone",
       "summary" : "deletePrivateZone"
     },
-    "QueryAndParseRecordList" : {
-      "title" : "queryAndParseRecordList",
-      "summary" : "queryAndParseRecordList"
+    "ListPrivateZone" : {
+      "title" : "listPrivateZone",
+      "summary" : "listPrivateZone"
     },
-    "DisassociateVpc" : {
-      "title" : "disassociateVpc",
-      "summary" : "disassociateVpc"
+    "AddRecord" : {
+      "title" : "addRecord",
+      "summary" : "addRecord"
     },
-    "ModifyParsingRecords" : {
-      "title" : "modifyParsingRecords",
-      "summary" : "modifyParsingRecords"
+    "GetPrivateZone" : {
+      "title" : "getPrivateZone",
+      "summary" : "getPrivateZone"
     }
   }
 }

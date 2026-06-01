@@ -1,5 +1,5 @@
 {
-  "name" : "QueryAndParseRecordList",
+  "name" : "ListRecord",
   "method" : "GET",
   "uri" : "/v{version}/privatezone/{zoneId}/record",
   "parameters" : [ {
@@ -14,43 +14,43 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "PrivateZone.QueryAndParseRecordList.zoneId"
+    "desc_key" : "privatezone.ListRecord.zoneId"
   }, {
     "name" : "marker",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.QueryAndParseRecordList.marker"
+    "desc_key" : "privatezone.ListRecord.marker"
   }, {
     "name" : "maxKeys",
     "type" : "Integer",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.QueryAndParseRecordList.maxKeys"
+    "desc_key" : "privatezone.ListRecord.maxKeys"
   }, {
     "name" : "rr",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.QueryAndParseRecordList.rr"
+    "desc_key" : "privatezone.ListRecord.rr"
   }, {
     "name" : "searchMode",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.QueryAndParseRecordList.searchMode"
+    "desc_key" : "privatezone.ListRecord.searchMode"
   }, {
     "name" : "type",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.QueryAndParseRecordList.type"
+    "desc_key" : "privatezone.ListRecord.type"
   }, {
     "name" : "value",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "PrivateZone.QueryAndParseRecordList.value"
+    "desc_key" : "privatezone.ListRecord.value"
   } ],
   "paginator" : {
     "input_token" : "marker",
@@ -59,5 +59,5 @@
     "more_results" : "isTruncated",
     "result_key" : "records"
   },
-  "desc_key" : "PrivateZone.QueryAndParseRecordList.desc"
+  "desc_key" : "privatezone.ListRecord.desc"
 }
