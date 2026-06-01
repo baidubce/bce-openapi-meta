@@ -1,0 +1,32 @@
+{
+  "name" : "BindInstanceToService",
+  "method" : "PUT",
+  "uri" : "/v{version}/service/{service}?bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.BindInstanceToService.clientToken"
+  }, {
+    "name" : "service",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.BindInstanceToService.service"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.BindInstanceToService.instanceId"
+  } ],
+  "desc_key" : "blb.BindInstanceToService.desc"
+}

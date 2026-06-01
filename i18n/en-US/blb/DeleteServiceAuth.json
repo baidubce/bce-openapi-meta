@@ -1,0 +1,8 @@
+{
+  "DeleteServiceAuth" : {
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "service" : "Domain name of the service publishing endpoint",
+    "action" : "Action to perform, current value is removeAuth",
+    "uidList" : "List of user IDs; use \"*\" to indicate all users"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "DeleteServiceAuth" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "service" : "服务发布点的域名",
+    "action" : "执行动作，当前取值为removeAuth",
+    "uidList" : "用户id列表，所有人使用\"*\""
+  }
+}

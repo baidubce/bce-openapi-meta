@@ -1,0 +1,38 @@
+{
+  "name" : "DeleteServiceAuth",
+  "method" : "PUT",
+  "uri" : "/v{version}/service/{service}?removeAuth",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DeleteServiceAuth.clientToken"
+  }, {
+    "name" : "service",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DeleteServiceAuth.service"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.DeleteServiceAuth.action"
+  }, {
+    "name" : "uidList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.DeleteServiceAuth.uidList"
+  } ],
+  "desc_key" : "blb.DeleteServiceAuth.desc"
+}

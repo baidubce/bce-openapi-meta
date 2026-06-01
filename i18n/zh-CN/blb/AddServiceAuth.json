@@ -1,0 +1,9 @@
+{
+  "AddServiceAuth" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "service" : "服务发布点的域名",
+    "authList" : "用户授权列表",
+    "authList.uid" : "用户id，所有人使用\"*\"",
+    "authList.auth" : "鉴权方式，取值：allow/deny，分别表示允许/拒绝"
+  }
+}

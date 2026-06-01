@@ -1,0 +1,7 @@
+{
+  "BindInstanceToService" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters",
+    "service" : "Domain name of the service publication endpoint",
+    "instanceId" : "ID of the instance to bind"
+  }
+}

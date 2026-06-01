@@ -1,0 +1,20 @@
+{
+  "name" : "DescribeService",
+  "method" : "GET",
+  "uri" : "/v{version}/service/{service}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "service",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DescribeService.service"
+  } ],
+  "desc_key" : "blb.DescribeService.desc"
+}
