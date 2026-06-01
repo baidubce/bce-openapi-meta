@@ -1,0 +1,8 @@
+{
+  "ListPfs" : {
+    "maxKeys" : "Maximum number of instances returned per list is 1000, default is 20; valid range is [1, 1000], values out of range will be clamped to 1 or 1000",
+    "manner" : "Pagination type of the request; marker must be specified",
+    "marker" : "Results are sorted by instanceId (format is typically \"pfs-xxxxxx\") in lexicographic order; returns entries starting after the specified marker (marker itself is excluded)",
+    "filterTag" : "Tags used for filtering"
+  }
+}

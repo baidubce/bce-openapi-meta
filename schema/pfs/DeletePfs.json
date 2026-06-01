@@ -1,0 +1,13 @@
+{
+  "name" : "DeletePfs",
+  "method" : "DELETE",
+  "uri" : "/v1/pfs/instance",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.DeletePfs.instanceId"
+  } ],
+  "desc_key" : "pfs.DeletePfs.desc"
+}

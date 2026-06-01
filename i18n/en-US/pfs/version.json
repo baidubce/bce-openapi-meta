@@ -1,0 +1,27 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "pfs",
+  "apis" : {
+    "CreatePfs" : {
+      "title" : "createPfs",
+      "summary" : "createPfs"
+    },
+    "DeletePfs" : {
+      "title" : "deletePfs",
+      "summary" : "deletePfs"
+    },
+    "DescPfs" : {
+      "title" : "descPfs",
+      "summary" : "descPfs"
+    },
+    "UpdatePFSTag" : {
+      "title" : "updatePFSTag",
+      "summary" : "updatePFSTag"
+    },
+    "ListPfs" : {
+      "title" : "listPfs",
+      "summary" : "listPfs"
+    }
+  }
+}

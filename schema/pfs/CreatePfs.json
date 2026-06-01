@@ -1,0 +1,54 @@
+{
+  "name" : "CreatePfs",
+  "method" : "POST",
+  "uri" : "/v1/pfs/instance",
+  "parameters" : [ {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreatePfs.name"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreatePfs.instanceType"
+  }, {
+    "name" : "capacity",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreatePfs.capacity"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreatePfs.subnetId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreatePfs.description"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreatePfs.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "pfs.CreatePfs.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "pfs.CreatePfs.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "pfs.CreatePfs.desc"
+}

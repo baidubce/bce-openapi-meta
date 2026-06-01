@@ -1,0 +1,13 @@
+{
+  "name" : "DescPfs",
+  "method" : "GET",
+  "uri" : "/v1/pfs/instance",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.DescPfs.instanceId"
+  } ],
+  "desc_key" : "pfs.DescPfs.desc"
+}

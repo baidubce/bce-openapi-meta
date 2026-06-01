@@ -1,0 +1,8 @@
+{
+  "UpdatePFSTag" : {
+    "instanceId" : "List of instance IDs",
+    "tags" : "List of tags",
+    "tags.tagKey" : "Tag key, may contain uppercase and lowercase letters, digits, Chinese characters, and special characters -_ /., length 1–65",
+    "tags.tagValue" : "Tag value, may contain uppercase and lowercase letters, digits, Chinese characters, and special characters -_ /., length 0–65"
+  }
+}
