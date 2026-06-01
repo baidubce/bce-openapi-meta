@@ -1,0 +1,5 @@
+{
+  "QueryDedicatedLineDetail" : {
+    "dcphyId" : "The ID of the dedicated line"
+  }
+}

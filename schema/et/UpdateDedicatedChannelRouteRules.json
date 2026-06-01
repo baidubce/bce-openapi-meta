@@ -1,0 +1,44 @@
+{
+  "name" : "UpdateDedicatedChannelRouteRules",
+  "method" : "PUT",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}/route/rule/{routeRuleId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.UpdateDedicatedChannelRouteRules.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.UpdateDedicatedChannelRouteRules.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.UpdateDedicatedChannelRouteRules.etChannelId"
+  }, {
+    "name" : "routeRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.UpdateDedicatedChannelRouteRules.routeRuleId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.UpdateDedicatedChannelRouteRules.description"
+  } ],
+  "desc_key" : "et.UpdateDedicatedChannelRouteRules.desc"
+}

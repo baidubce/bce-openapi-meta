@@ -1,0 +1,38 @@
+{
+  "name" : "RemoveDedicatedChannelUserObject",
+  "method" : "PUT",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}?removeUsers",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.RemoveDedicatedChannelUserObject.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.RemoveDedicatedChannelUserObject.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.RemoveDedicatedChannelUserObject.etChannelId"
+  }, {
+    "name" : "authorizedUsers",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.RemoveDedicatedChannelUserObject.authorizedUsers"
+  } ],
+  "desc_key" : "et.RemoveDedicatedChannelUserObject.desc"
+}

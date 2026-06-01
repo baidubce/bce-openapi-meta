@@ -1,0 +1,50 @@
+{
+  "name" : "UpdateDedicatedChannel",
+  "method" : "PUT",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}?modifyAttribute",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.UpdateDedicatedChannel.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.UpdateDedicatedChannel.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.UpdateDedicatedChannel.etChannelId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.UpdateDedicatedChannel.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.UpdateDedicatedChannel.description"
+  }, {
+    "name" : "bgpRouteLimit",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.UpdateDedicatedChannel.bgpRouteLimit"
+  } ],
+  "desc_key" : "et.UpdateDedicatedChannel.desc"
+}

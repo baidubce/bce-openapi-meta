@@ -1,0 +1,38 @@
+{
+  "name" : "AssociatedDedicatedChannel",
+  "method" : "PUT",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}?associate",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.AssociatedDedicatedChannel.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.AssociatedDedicatedChannel.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.AssociatedDedicatedChannel.etChannelId"
+  }, {
+    "name" : "extraChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.AssociatedDedicatedChannel.extraChannelId"
+  } ],
+  "desc_key" : "et.AssociatedDedicatedChannel.desc"
+}

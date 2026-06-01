@@ -1,0 +1,39 @@
+{
+  "name" : "QueryDedicatedLines",
+  "method" : "GET",
+  "uri" : "/v{version}/et",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.QueryDedicatedLines.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.QueryDedicatedLines.maxKeys"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.QueryDedicatedLines.status"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "ets"
+  },
+  "desc_key" : "et.QueryDedicatedLines.desc"
+}

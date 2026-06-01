@@ -1,0 +1,19 @@
+{
+  "ResubmitDedicatedChannel" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](#幂等性)。",
+    "etId" : "专线的ID",
+    "etChannelId" : "专线通道的ID",
+    "authorizedUsers" : "分配对象",
+    "description" : "描述",
+    "baiduAddress" : "云端网络互联IP",
+    "name" : "通道名称",
+    "networks" : "路由参数",
+    "customerAddress" : "IDC互联IP",
+    "routeType" : "路由协议，当前只支持static-route（静态）",
+    "vlanId" : "VLAN ID，取值范围：0, 2-4009",
+    "enableIpv6" : "IPv6功能是否开启，1是0否，IPv6为白名单功能",
+    "baiduIpv6Address" : "云端网络侧IPv6互联地址，enableIpv6=1时需要",
+    "customerIpv6Address" : "IDC侧IPv6互联地址，enableIpv6=1时需要",
+    "ipv6Networks" : "IPv6路由参数，当enableIpv6=1且“routeType”为“static-route”时需要"
+  }
+}

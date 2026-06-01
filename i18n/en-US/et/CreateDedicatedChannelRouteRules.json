@@ -1,0 +1,12 @@
+{
+  "CreateDedicatedChannelRouteRules" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
+    "etId" : "Dedicated line ID",
+    "etChannelId" : "Dedicated line channel ID",
+    "ipVersion" : "IP protocol version, valid values: [4 \\| 6], default is 4",
+    "destAddress" : "Destination CIDR block",
+    "nexthopType" : "Next hop type, valid values: [\"etGateway\" \\| \"etChannel\"], representing dedicated line gateway and dedicated line channel respectively",
+    "nexthopId" : "Next hop instance ID",
+    "description" : "Description"
+  }
+}

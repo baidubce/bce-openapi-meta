@@ -1,0 +1,32 @@
+{
+  "name" : "DisableDedicatedChannelIpv6",
+  "method" : "PUT",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}?disableIpv6",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.DisableDedicatedChannelIpv6.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.DisableDedicatedChannelIpv6.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.DisableDedicatedChannelIpv6.etChannelId"
+  } ],
+  "desc_key" : "et.DisableDedicatedChannelIpv6.desc"
+}

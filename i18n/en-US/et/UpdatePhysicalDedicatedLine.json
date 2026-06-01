@@ -1,0 +1,12 @@
+{
+  "UpdatePhysicalDedicatedLine" : {
+    "dcphyId" : "Physical dedicated line ID",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](ET/API参考/通用说明.md#幂等性).",
+    "name" : "Dedicated line name. Supports uppercase and lowercase letters, digits, and special characters -_ /. Must start with a letter. Length: 1–65 characters.",
+    "description" : "Description",
+    "userName" : "User name",
+    "userPhone" : "User mobile phone number",
+    "userEmail" : "Email address",
+    "linkDelay" : "Port delay-down duration, in milliseconds (ms)"
+  }
+}

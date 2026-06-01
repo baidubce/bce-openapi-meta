@@ -1,0 +1,10 @@
+{
+  "RemoveDedicatedChannelRouteParameters" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](ET/API参考/通用说明.md#幂等性).",
+    "etId" : "ID of the dedicated line",
+    "etChannelId" : "ID of the dedicated line channel",
+    "networks" : "IPv4 route CIDR",
+    "ipv6Networks" : "IPv6 route CIDR",
+    "routeType" : "Route type; currently supports static-route"
+  }
+}

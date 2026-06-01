@@ -1,0 +1,50 @@
+{
+  "name" : "CreateDedicatedChannelBfd",
+  "method" : "POST",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}/bfd",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.CreateDedicatedChannelBfd.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.CreateDedicatedChannelBfd.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.CreateDedicatedChannelBfd.etChannelId"
+  }, {
+    "name" : "sendInterval",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelBfd.sendInterval"
+  }, {
+    "name" : "receivInterval",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelBfd.receivInterval"
+  }, {
+    "name" : "detectMultiplier",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelBfd.detectMultiplier"
+  } ],
+  "desc_key" : "et.CreateDedicatedChannelBfd.desc"
+}

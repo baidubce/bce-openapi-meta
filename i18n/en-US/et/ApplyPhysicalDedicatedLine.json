@@ -1,0 +1,25 @@
+{
+  "ApplyPhysicalDedicatedLine" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](ET/API参考/通用说明.md#幂等性).",
+    "name" : "Dedicated line name. Supports uppercase/lowercase letters, digits, and special characters -_ /. Must start with a letter. Length: 1–65.",
+    "description" : "Description.",
+    "isp" : "Internet service provider. Valid values: ISP_CMCC / ISP_CUCC / ISP_CYC / ISP_OTHER, corresponding to: China Mobile / China Unicom / China Telecom / Other domestic ISP.",
+    "intfType" : "Physical port specification. Valid values: 1G / 10G / 100G / 40G / 400G.",
+    "apType" : "Line type. Baidu internal users: BAIDU; external users: SINGLE.",
+    "apAddr" : "Access point. Valid values: BB / BJYZ / M3A / M3B / M2A / M2B / HKG03 / WHGG / SHWGQ / BDBL, corresponding to: Beijing Haidian / Beijing Yizhuang / Guangzhou Nansha / Shenzhen / Nanjing / Suzhou / Hong Kong / Wuhan Optics Valley / Shanghai / Baoding.",
+    "linkDelay" : "Port delay-down duration, in milliseconds.",
+    "userName" : "User name.",
+    "userPhone" : "User phone number.",
+    "userEmail" : "User email address.",
+    "userIdc" : "Remote address in the format: Province|City|District|Location, e.g. Beijing|Municipal District|Dongcheng District|Baidu Technology Park K2.",
+    "billing" : "Billing information. Currently only prepaid is supported; defaults to a one-month purchase.",
+    "billing.paymentTiming" : "Payment timing. Prepaid (Prepaid) or postpaid (Postpaid). Required when creating an order; not required for renewal orders.",
+    "billing.reservation" : "Reservation information. Not required for postpaid; required for prepaid.",
+    "autoRenew" : "Auto-renewal configuration.",
+    "autoRenew.reservationLength" : "Duration. Valid values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 24, 36].",
+    "autoRenew.reservationTimeUnit" : "Time unit. Value: month. Currently only monthly billing is supported.",
+    "tags" : "List of tag key-value pairs to be created.",
+    "tags.tagKey" : "Tag key. Supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /. Length: 1–65.",
+    "tags.tagValue" : "Tag value. Supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /. Length: 0–65."
+  }
+}

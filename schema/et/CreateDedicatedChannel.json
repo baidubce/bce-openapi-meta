@@ -1,0 +1,127 @@
+{
+  "name" : "CreateDedicatedChannel",
+  "method" : "POST",
+  "uri" : "/v{version}/et/{etId}/channel",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.CreateDedicatedChannel.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.CreateDedicatedChannel.etId"
+  }, {
+    "name" : "authorizedUsers",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.authorizedUsers"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.description"
+  }, {
+    "name" : "baiduAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.baiduAddress"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.name"
+  }, {
+    "name" : "networks",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.networks"
+  }, {
+    "name" : "customerAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.customerAddress"
+  }, {
+    "name" : "routeType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.routeType"
+  }, {
+    "name" : "vlanId",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.vlanId"
+  }, {
+    "name" : "bgpAsn",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.bgpAsn"
+  }, {
+    "name" : "bgpKey",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.bgpKey"
+  }, {
+    "name" : "enableIpv6",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.enableIpv6"
+  }, {
+    "name" : "baiduIpv6Address",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.baiduIpv6Address"
+  }, {
+    "name" : "customerIpv6Address",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.customerIpv6Address"
+  }, {
+    "name" : "ipv6Networks",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.ipv6Networks"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannel.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "et.CreateDedicatedChannel.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "et.CreateDedicatedChannel.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "et.CreateDedicatedChannel.desc"
+}

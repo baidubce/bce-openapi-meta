@@ -1,0 +1,10 @@
+{
+  "EnableDedicatedChannelIpv6" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](ET/API参考/通用说明.md#幂等性).",
+    "etId" : "The ID of the dedicated line",
+    "etChannelId" : "The ID of the dedicated line channel",
+    "baiduIpv6Address" : "IPv6 interconnection address on the cloud network side",
+    "customerIpv6Address" : "IPv6 interconnection address on the IDC side",
+    "ipv6Networks" : "IPv6 routing parameters, required when the channel routing type is static routing"
+  }
+}

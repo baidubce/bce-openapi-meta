@@ -1,0 +1,50 @@
+{
+  "name" : "EnableDedicatedChannelIpv6",
+  "method" : "PUT",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}?enableIpv6",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.EnableDedicatedChannelIpv6.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.EnableDedicatedChannelIpv6.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.EnableDedicatedChannelIpv6.etChannelId"
+  }, {
+    "name" : "baiduIpv6Address",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.EnableDedicatedChannelIpv6.baiduIpv6Address"
+  }, {
+    "name" : "customerIpv6Address",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.EnableDedicatedChannelIpv6.customerIpv6Address"
+  }, {
+    "name" : "ipv6Networks",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.EnableDedicatedChannelIpv6.ipv6Networks"
+  } ],
+  "desc_key" : "et.EnableDedicatedChannelIpv6.desc"
+}

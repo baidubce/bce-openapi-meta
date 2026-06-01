@@ -1,0 +1,23 @@
+{
+  "CreateDedicatedChannel" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](ET/API参考/通用说明.md#幂等性).",
+    "etId" : "ID of the dedicated line",
+    "authorizedUsers" : "Assigned objects",
+    "description" : "Description",
+    "baiduAddress" : "Cloud-side interconnect IP address",
+    "name" : "Channel name",
+    "networks" : "Routing parameters, required only when \"routeType\" is \"static-route\"",
+    "customerAddress" : "IDC-side interconnect IP address",
+    "routeType" : "Routing protocol; currently supports \"static-route\" (static) and \"bgp\" (dynamic)",
+    "vlanId" : "VLAN ID, valid range: 0, 2–4009",
+    "bgpAsn" : "BGP ASN, valid range: 1–4294967295; Baidu Cloud ASN: 45085. Required only when \"routeType\" is \"bgp\"",
+    "bgpKey" : "BGP authentication key, required only when \"routeType\" is \"bgp\"",
+    "enableIpv6" : "Whether IPv6 is enabled: 1 for enabled, 0 for disabled. IPv6 is a whitelist feature",
+    "baiduIpv6Address" : "Cloud-side IPv6 interconnect address, required when enableIpv6=1",
+    "customerIpv6Address" : "IDC-side IPv6 interconnect address, required when enableIpv6=1",
+    "ipv6Networks" : "IPv6 routing parameters, required when enableIpv6=1 and \"routeType\" is \"static-route\"",
+    "tags" : "List of tag key-value pairs to be created",
+    "tags.tagKey" : "Tag key; may contain uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; length 1–65",
+    "tags.tagValue" : "Tag value; may contain uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; length 0–65"
+  }
+}

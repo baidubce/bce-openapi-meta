@@ -1,0 +1,8 @@
+{
+  "DeleteDedicatedChannelRouteRules" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. For details, see [ClientToken Idempotency Support](ET/API Reference/General Description.md#Idempotency).",
+    "etId" : "Dedicated line ID",
+    "etChannelId" : "Dedicated line channel ID",
+    "routeRuleId" : "Dedicated line channel route rule ID"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name" : "UpdatePhysicalDedicatedLine",
+  "method" : "PUT",
+  "uri" : "/v{version}/et/{dcphyId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "dcphyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.UpdatePhysicalDedicatedLine.dcphyId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.UpdatePhysicalDedicatedLine.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.UpdatePhysicalDedicatedLine.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.UpdatePhysicalDedicatedLine.description"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.UpdatePhysicalDedicatedLine.userName"
+  }, {
+    "name" : "userPhone",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.UpdatePhysicalDedicatedLine.userPhone"
+  }, {
+    "name" : "userEmail",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.UpdatePhysicalDedicatedLine.userEmail"
+  }, {
+    "name" : "linkDelay",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.UpdatePhysicalDedicatedLine.linkDelay"
+  } ],
+  "desc_key" : "et.UpdatePhysicalDedicatedLine.desc"
+}

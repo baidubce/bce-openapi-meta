@@ -1,0 +1,8 @@
+{
+  "DeleteDedicatedChannelRouteRules" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](ET/API参考/通用说明.md#幂等性)。",
+    "etId" : "专线ID",
+    "etChannelId" : "专线通道ID",
+    "routeRuleId" : "专线通道路由规则ID"
+  }
+}
