@@ -1,0 +1,49 @@
+{
+  "name" : "DeleteBlbListener",
+  "method" : "PUT",
+  "uri" : "/v{version}/blb/{blbId}/listener?batchdelete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DeleteBlbListener.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.DeleteBlbListener.clientToken"
+  }, {
+    "name" : "portList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.DeleteBlbListener.portList"
+  }, {
+    "name" : "portTypeList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.DeleteBlbListener.portTypeList",
+    "sub_parameters" : [ {
+      "name" : "port",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "blb.DeleteBlbListener.portTypeList.port"
+    }, {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.DeleteBlbListener.portTypeList.type"
+    } ]
+  } ],
+  "desc_key" : "blb.DeleteBlbListener.desc"
+}

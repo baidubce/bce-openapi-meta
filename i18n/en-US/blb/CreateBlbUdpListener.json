@@ -1,0 +1,17 @@
+{
+  "CreateBlbUdpListener" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, max length 64 characters",
+    "listenerPort" : "Listener port, integer between 1-65535",
+    "backendPort" : "Backend server listening port, integer between 1-65535",
+    "scheduler" : "Load balancing algorithm, supports \"RoundRobin\" (weighted round robin) / \"WeightLeastConn\" (weighted least connections) / \"Hash\" (source IP hash)",
+    "healthCheckType" : "Health check protocol type, supports \"UDP\" / \"ICMP\", default \"UDP\"",
+    "healthCheckPort" : "Health check port, specified when protocol is \"UDP\", defaults to backendPort",
+    "healthCheckString" : "Request string sent during health check; backend server must respond. Supports hex \\00-\\FF and standard ASCII, max length 1299. Required when protocol is \"UDP\"",
+    "healthCheckTimeoutInSecond" : "Health check timeout in seconds, default 3, integer between 1-60",
+    "healthCheckInterval" : "Health check interval in seconds, default 3, integer between 1-10",
+    "unhealthyThreshold" : "Unhealthy threshold: number of consecutive failed health checks before the backend server is blocked, default 3, integer between 2-5",
+    "healthyThreshold" : "Healthy threshold: number of consecutive successful health checks before the backend server is restored to available, default 3, integer between 2-5",
+    "udpSessionTimeout" : "UDP session timeout in seconds, default 90, integer between 5-4000"
+  }
+}

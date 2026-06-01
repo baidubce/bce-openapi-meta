@@ -1,0 +1,20 @@
+{
+  "CreateAppBlbServerGroupPort" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "sgId" : "端口所属服务器组标识符",
+    "port" : "端口号，需为1-65535间的整数",
+    "type" : "监听端口的协议类型，\"TCP\"/\"UDP\"/\"HTTP\"",
+    "enableHealthCheck" : "是否开启健康检查，默认true",
+    "healthCheck" : "健康检查协议，支持\"HTTP\"/\"TCP\"/\"UDP\"/\"ICMP\"，  TCP默认TCP，UDP默认UDP，HTTP默认HTTP",
+    "healthCheckPort" : "健康检查端口，允许范围为1-65535，默认为port的取值，当健康检查协议为\"HTTP\"时生效",
+    "healthCheckUrlPath" : "健康检查URI，默认/。当健康检查协议为\"HTTP\"时生效",
+    "healthCheckTimeoutInSecond" : "健康检查超时（单位：秒），默认为3，需为1-60间的整数",
+    "healthCheckIntervalInSecond" : "健康检查间隔（单位：秒），默认为3，需为1-10间的整数",
+    "healthCheckDownRetry" : "不健康阈值，即连续多少次健康检查失败后，屏蔽该后端服务器。默认为3，需为2-5间的整数",
+    "healthCheckUpRetry" : "健康阈值，即连续多少次健康检查成功后，重新将该后端服务器置为可用。默认为3，需为2-5间的整数",
+    "healthCheckNormalStatus" : "健康检查正常时的HTTP状态码，支持5类状态码的组合，例如\"http_1xx\\|http_2xx\"，默认\"http_2xx\\|http_3xx\"。当健康检查协议为\"HTTP\"时生效",
+    "healthCheckHost" : "7层健康检查请求的头部域会带指定的host字段，例如\"localhost\"，默认\"\"。当健康检查协议为\"HTTP\"时生效",
+    "udpHealthCheckString" : "UDP服务的健康检查字段。当健康检查协议为\"UDP\"时，则必传"
+  }
+}

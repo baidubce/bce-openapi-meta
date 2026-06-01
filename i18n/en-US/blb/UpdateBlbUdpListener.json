@@ -1,0 +1,16 @@
+{
+  "UpdateBlbUdpListener" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "listenerPort" : "Listening port of the listener, must be an integer between 1 and 65535",
+    "backendPort" : "Listening port of the backend server, must be an integer between 1 and 65535",
+    "scheduler" : "Load balancing algorithm, supports three modes: \"RoundRobin\" / \"LeastConnection\" / \"Hash\"; \"RoundRobin\" indicates weighted round-robin, \"LeastConnection\" indicates least connections, \"Hash\" indicates source-IP-based hashing",
+    "healthCheckType" : "Health check protocol type, supports \"UDP\" / \"ICMP\"",
+    "healthCheckPort" : "Health check port, configurable when the health check protocol is \"UDP\"",
+    "healthCheckTimeoutInSecond" : "Health check timeout in seconds, default is 3, must be an integer between 1 and 60",
+    "healthCheckInterval" : "Health check interval in seconds, default is 3, must be an integer between 1 and 10",
+    "unhealthyThreshold" : "Unhealthy threshold: number of consecutive health check failures after which the backend server is blocked; default is 3, must be an integer between 2 and 5",
+    "healthyThreshold" : "Healthy threshold: number of consecutive health check successes after which the backend server is restored to available; default is 3, must be an integer between 2 and 5",
+    "healthCheckString" : "Request string sent during health check; the backend server must respond upon receipt; supports standard escape sequences such as \\\\00 and \\\\xf2 for binary format requests; required when the health check protocol is \"UDP\"",
+    "udpSessionTimeout" : "UDP session timeout in seconds, default is 90, must be an integer between 5 and 4000"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "DescribeBlbEnterpriseSecurityGroups" : {
+    "blbId" : "要查询的LoadBalancer的标识符"
+  }
+}

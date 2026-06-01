@@ -1,0 +1,86 @@
+{
+  "name" : "UpdateBlbUdpListener",
+  "method" : "PUT",
+  "uri" : "/v{version}/blb/{blbId}/UDPlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.UpdateBlbUdpListener.blbId"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateBlbUdpListener.listenerPort"
+  }, {
+    "name" : "backendPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbUdpListener.backendPort"
+  }, {
+    "name" : "scheduler",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbUdpListener.scheduler"
+  }, {
+    "name" : "healthCheckType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbUdpListener.healthCheckType"
+  }, {
+    "name" : "healthCheckPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbUdpListener.healthCheckPort"
+  }, {
+    "name" : "healthCheckTimeoutInSecond",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbUdpListener.healthCheckTimeoutInSecond"
+  }, {
+    "name" : "healthCheckInterval",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbUdpListener.healthCheckInterval"
+  }, {
+    "name" : "unhealthyThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbUdpListener.unhealthyThreshold"
+  }, {
+    "name" : "healthyThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbUdpListener.healthyThreshold"
+  }, {
+    "name" : "healthCheckString",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbUdpListener.healthCheckString"
+  }, {
+    "name" : "udpSessionTimeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbUdpListener.udpSessionTimeout"
+  } ],
+  "desc_key" : "blb.UpdateBlbUdpListener.desc"
+}

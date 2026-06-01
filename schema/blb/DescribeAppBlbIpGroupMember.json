@@ -1,0 +1,45 @@
+{
+  "name" : "DescribeAppBlbIpGroupMember",
+  "method" : "GET",
+  "uri" : "/v{version}/appblb/{blbId}/ipgroup/member",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DescribeAppBlbIpGroupMember.blbId"
+  }, {
+    "name" : "ipGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbIpGroupMember.ipGroupId"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbIpGroupMember.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbIpGroupMember.maxKeys"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "memberList"
+  },
+  "desc_key" : "blb.DescribeAppBlbIpGroupMember.desc"
+}

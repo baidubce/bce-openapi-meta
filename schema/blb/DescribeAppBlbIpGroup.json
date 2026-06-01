@@ -1,0 +1,51 @@
+{
+  "name" : "DescribeAppBlbIpGroup",
+  "method" : "GET",
+  "uri" : "/v{version}/appblb/{blbId}/ipgroup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DescribeAppBlbIpGroup.blbId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbIpGroup.name"
+  }, {
+    "name" : "exactlyMatch",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbIpGroup.exactlyMatch"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbIpGroup.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbIpGroup.maxKeys"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "appIpGroupList"
+  },
+  "desc_key" : "blb.DescribeAppBlbIpGroup.desc"
+}

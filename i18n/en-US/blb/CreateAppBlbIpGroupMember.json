@@ -1,0 +1,14 @@
+{
+  "CreateAppBlbIpGroupMember" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "ipGroupId" : "Identifier of the associated IP group",
+    "memberList" : "List of IP group members",
+    "memberList.ip" : "IPv4 address",
+    "memberList.port" : "Port number, valid range: 1~65535",
+    "memberList.weight" : "Weight, valid range: 0~100",
+    "memberList.desc" : "Description, supports up to 200 characters",
+    "memberList.memberId" : "Identifier of the IP group member",
+    "memberList.portList" : "List of ports exposed by the IP group member"
+  }
+}

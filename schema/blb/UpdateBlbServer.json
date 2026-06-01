@@ -1,0 +1,43 @@
+{
+  "name" : "UpdateBlbServer",
+  "method" : "PUT",
+  "uri" : "/v{version}/blb/{blbId}/backendserver?update",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.UpdateBlbServer.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateBlbServer.clientToken"
+  }, {
+    "name" : "backendServerList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbServer.backendServerList",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.UpdateBlbServer.backendServerList.instanceId"
+    }, {
+      "name" : "weight",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "blb.UpdateBlbServer.backendServerList.weight"
+    } ]
+  } ],
+  "desc_key" : "blb.UpdateBlbServer.desc"
+}

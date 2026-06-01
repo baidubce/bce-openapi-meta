@@ -1,0 +1,38 @@
+{
+  "name" : "DeleteAppBlbIpGroupMember",
+  "method" : "PUT",
+  "uri" : "/v{version}/appblb/{blbId}/ipgroup/member?delete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DeleteAppBlbIpGroupMember.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.DeleteAppBlbIpGroupMember.clientToken"
+  }, {
+    "name" : "ipGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.DeleteAppBlbIpGroupMember.ipGroupId"
+  }, {
+    "name" : "memberIdList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.DeleteAppBlbIpGroupMember.memberIdList"
+  } ],
+  "desc_key" : "blb.DeleteAppBlbIpGroupMember.desc"
+}

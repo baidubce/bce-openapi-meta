@@ -1,0 +1,44 @@
+{
+  "name" : "UpdateAppBlbIpGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/appblb/{blbId}/ipgroup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.UpdateAppBlbIpGroup.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateAppBlbIpGroup.clientToken"
+  }, {
+    "name" : "ipGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbIpGroup.ipGroupId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbIpGroup.name"
+  }, {
+    "name" : "desc",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbIpGroup.desc"
+  } ],
+  "desc_key" : "blb.UpdateAppBlbIpGroup.desc"
+}

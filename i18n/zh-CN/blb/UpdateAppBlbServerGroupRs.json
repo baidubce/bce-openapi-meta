@@ -1,0 +1,12 @@
+{
+  "UpdateAppBlbServerGroupRs" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "sgId" : "RS所属服务器组id",
+    "backendServerList" : "后端服务器列表",
+    "backendServerList.instanceId" : "后端服务器标识符",
+    "backendServerList.weight" : "后端服务器权重，取值范围0-100",
+    "backendServerList.privateIp" : "查询时返回值，后端绑定的该服务器ip地址",
+    "backendServerList.portList" : "查询时返回值，设置了相应策略，RS开放的端口列表"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "DeleteAppBlbIpGroup" : {
+    "blbId" : "The identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "ipGroupId" : "The ID of the IP group to be deleted"
+  }
+}

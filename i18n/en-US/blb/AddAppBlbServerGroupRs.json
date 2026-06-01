@@ -1,0 +1,12 @@
+{
+  "AddAppBlbServerGroupRs" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, max length 64 characters",
+    "sgId" : "ID of the server group to which the RS belongs",
+    "backendServerList" : "List of backend servers",
+    "backendServerList.instanceId" : "Backend server identifier",
+    "backendServerList.weight" : "Backend server weight, value range 0-100",
+    "backendServerList.privateIp" : "Returned on query, IP address of the bound backend server",
+    "backendServerList.portList" : "Returned on query, list of ports exposed by the RS with corresponding policies configured"
+  }
+}

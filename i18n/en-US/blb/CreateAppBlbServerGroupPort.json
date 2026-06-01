@@ -1,0 +1,20 @@
+{
+  "CreateAppBlbServerGroupPort" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, maximum length 64 characters",
+    "sgId" : "Identifier of the server group to which the port belongs",
+    "port" : "Port number, must be an integer between 1 and 65535",
+    "type" : "Protocol type of the listening port: \"TCP\" / \"UDP\" / \"HTTP\"",
+    "enableHealthCheck" : "Whether to enable health check, default is true",
+    "healthCheck" : "Health check protocol, supports \"HTTP\" / \"TCP\" / \"UDP\" / \"ICMP\"; default is TCP for TCP listeners, UDP for UDP listeners, HTTP for HTTP listeners",
+    "healthCheckPort" : "Health check port, valid range 1-65535, defaults to the value of port; takes effect when health check protocol is \"HTTP\"",
+    "healthCheckUrlPath" : "Health check URI path, default is /; takes effect when health check protocol is \"HTTP\"",
+    "healthCheckTimeoutInSecond" : "Health check timeout in seconds, default is 3, must be an integer between 1 and 60",
+    "healthCheckIntervalInSecond" : "Health check interval in seconds, default is 3, must be an integer between 1 and 10",
+    "healthCheckDownRetry" : "Unhealthy threshold: number of consecutive health check failures before the backend server is blocked, default is 3, must be an integer between 2 and 5",
+    "healthCheckUpRetry" : "Healthy threshold: number of consecutive health check successes before the backend server is restored to available, default is 3, must be an integer between 2 and 5",
+    "healthCheckNormalStatus" : "HTTP status codes considered healthy, supports combinations of 5 status code classes, e.g. \"http_1xx\\|http_2xx\", default is \"http_2xx\\|http_3xx\"; takes effect when health check protocol is \"HTTP\"",
+    "healthCheckHost" : "Host header field for Layer-7 health check requests, e.g. \"localhost\", default is \"\"; takes effect when health check protocol is \"HTTP\"",
+    "udpHealthCheckString" : "Health check string for UDP services; required when health check protocol is \"UDP\""
+  }
+}

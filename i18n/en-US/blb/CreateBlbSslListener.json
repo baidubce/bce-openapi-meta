@@ -1,0 +1,21 @@
+{
+  "CreateBlbSslListener" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, maximum length of 64 characters",
+    "listenerPort" : "Listening port of the listener, must be an integer between 1 and 65535",
+    "backendPort" : "Listening port of the backend server, must be an integer between 1 and 65535",
+    "scheduler" : "Load balancing algorithm, supports three modes: \"RoundRobin\" (weighted round robin) / \"LeastConnection\" (least connections) / \"Hash\" (source IP hash)",
+    "healthCheckType" : "Health check protocol type, default is \"TCP\"",
+    "serverTimeout" : "Maximum timeout for backend servers (in seconds), default is 900, must be an integer between 10 and 4000",
+    "healthCheckTimeoutInSecond" : "Health check timeout (in seconds), default is 3, must be an integer between 1 and 60",
+    "healthCheckInterval" : "Health check interval (in seconds), default is 3, must be an integer between 1 and 10",
+    "unhealthyThreshold" : "Unhealthy threshold: number of consecutive health check failures before the backend server is blocked, default is 3, must be an integer between 2 and 5",
+    "healthyThreshold" : "Healthy threshold: number of consecutive health check successes before the backend server is marked available again, default is 3, must be an integer between 2 and 5",
+    "certIds" : "Certificate chain to be loaded by the listener; only one certificate ID is allowed; if multiple are provided, only the last one takes effect",
+    "encryptionType" : "Encryption policy, default is tls_cipher_policy_default; supported values: tls_cipher_policy_default / tls_cipher_policy_1_1 / tls_cipher_policy_1_2 / tls_cipher_policy_1_2_secure / userDefind; refer to [encryption](https://cloud.baidu.com/doc/BLB/s/Pjwvxnxdm#encryption) for corresponding protocols and cipher suites",
+    "encryptionProtocols" : "When encryptionType is userDefind, a list of protocol types composed of combinations of \"tlsv10\", \"tlsv11\", and \"tlsv12\"",
+    "appliedCiphers" : "Cipher suites as described in [encryption](https://cloud.baidu.com/doc/BLB/s/Pjwvxnxdm#encryption); multiple cipher suites are separated by a colon \":\"",
+    "dualAuth" : "Whether to enable mutual (two-way) authentication, disabled by default",
+    "clientCertIds" : "When dualAuth is true, the client certificate chain to be loaded; only one certificate ID is allowed; if multiple are provided, only the last one takes effect"
+  }
+}

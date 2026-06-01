@@ -1,0 +1,26 @@
+{
+  "name" : "DescribeAppBlbServerGroupUnmountRs",
+  "method" : "GET",
+  "uri" : "/v{version}/appblb/{blbId}/blbrsunmount",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DescribeAppBlbServerGroupUnmountRs.blbId"
+  }, {
+    "name" : "sgId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbServerGroupUnmountRs.sgId"
+  } ],
+  "desc_key" : "blb.DescribeAppBlbServerGroupUnmountRs.desc"
+}

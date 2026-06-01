@@ -1,0 +1,8 @@
+{
+  "DescribeBlbUdpListener" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "listenerPort" : "Port of the listener to query",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, not exceeding 1000. Default value is 1000"
+  }
+}

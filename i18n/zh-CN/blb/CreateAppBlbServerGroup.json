@@ -1,0 +1,13 @@
+{
+  "CreateAppBlbServerGroup" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "name" : "服务器组的名称，方便记忆。长度1~65个字节，字母开头，\\_可包含字母数字-/.字符。若不传该参数，会自动生成",
+    "desc" : "服务器组的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文。默认为空。",
+    "backendServerList" : "服务器组绑定的后端服务器列表",
+    "backendServerList.instanceId" : "后端服务器标识符",
+    "backendServerList.weight" : "后端服务器权重，取值范围0-100",
+    "backendServerList.privateIp" : "查询时返回值，后端绑定的该服务器ip地址",
+    "backendServerList.portList" : "查询时返回值，设置了相应策略，RS开放的端口列表"
+  }
+}

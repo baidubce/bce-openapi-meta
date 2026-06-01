@@ -1,0 +1,68 @@
+{
+  "name" : "UpdateBlbTcpListener",
+  "method" : "PUT",
+  "uri" : "/v{version}/blb/{blbId}/TCPlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.UpdateBlbTcpListener.blbId"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateBlbTcpListener.listenerPort"
+  }, {
+    "name" : "backendPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbTcpListener.backendPort"
+  }, {
+    "name" : "scheduler",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbTcpListener.scheduler"
+  }, {
+    "name" : "healthCheckType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbTcpListener.healthCheckType"
+  }, {
+    "name" : "healthCheckTimeoutInSecond",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbTcpListener.healthCheckTimeoutInSecond"
+  }, {
+    "name" : "healthCheckInterval",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbTcpListener.healthCheckInterval"
+  }, {
+    "name" : "unhealthyThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbTcpListener.unhealthyThreshold"
+  }, {
+    "name" : "healthyThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbTcpListener.healthyThreshold"
+  } ],
+  "desc_key" : "blb.UpdateBlbTcpListener.desc"
+}

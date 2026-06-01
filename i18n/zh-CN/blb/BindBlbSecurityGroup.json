@@ -1,0 +1,7 @@
+{
+  "BindBlbSecurityGroup" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "securityGroupIds" : "绑定的普通安全组ID列表"
+  }
+}

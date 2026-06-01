@@ -1,0 +1,7 @@
+{
+  "BindBlbSecurityGroup" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, max 64 characters",
+    "securityGroupIds" : "List of security group IDs to bind"
+  }
+}

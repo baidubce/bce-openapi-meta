@@ -1,0 +1,8 @@
+{
+  "DeleteAppBlbIpGroupMember" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "ipGroupId" : "所属IP组的标识符",
+    "memberIdList" : "要删除的IP组成员id数组"
+  }
+}

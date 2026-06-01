@@ -1,0 +1,152 @@
+{
+  "name" : "CreateBlbHttpListener",
+  "method" : "POST",
+  "uri" : "/v{version}/blb/{blbId}/HTTPlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.CreateBlbHttpListener.blbId"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.listenerPort"
+  }, {
+    "name" : "backendPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.backendPort"
+  }, {
+    "name" : "scheduler",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.scheduler"
+  }, {
+    "name" : "keepSession",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.keepSession"
+  }, {
+    "name" : "keepSessionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.keepSessionType"
+  }, {
+    "name" : "keepSessionDuration",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.keepSessionDuration"
+  }, {
+    "name" : "keepSessionCookieName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.keepSessionCookieName"
+  }, {
+    "name" : "xForwardFor",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.xForwardFor"
+  }, {
+    "name" : "xForwardedProto",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.xForwardedProto"
+  }, {
+    "name" : "additionalAttributes",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.additionalAttributes",
+    "sub_parameters" : [ {
+      "name" : "gzipJson",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateBlbHttpListener.additionalAttributes.gzipJson"
+    } ]
+  }, {
+    "name" : "healthCheckType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.healthCheckType"
+  }, {
+    "name" : "healthCheckPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.healthCheckPort"
+  }, {
+    "name" : "healthCheckURI",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.healthCheckURI"
+  }, {
+    "name" : "healthCheckTimeoutInSecond",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.healthCheckTimeoutInSecond"
+  }, {
+    "name" : "healthCheckInterval",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.healthCheckInterval"
+  }, {
+    "name" : "unhealthyThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.unhealthyThreshold"
+  }, {
+    "name" : "healthyThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.healthyThreshold"
+  }, {
+    "name" : "healthCheckNormalStatus",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.healthCheckNormalStatus"
+  }, {
+    "name" : "healthCheckHost",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.healthCheckHost"
+  }, {
+    "name" : "serverTimeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.serverTimeout"
+  }, {
+    "name" : "redirectPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpListener.redirectPort"
+  } ],
+  "desc_key" : "blb.CreateBlbHttpListener.desc"
+}

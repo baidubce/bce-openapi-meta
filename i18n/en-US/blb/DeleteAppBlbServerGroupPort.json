@@ -1,0 +1,8 @@
+{
+  "DeleteAppBlbServerGroupPort" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, no more than 64 characters",
+    "sgId" : "ID of the server group containing the ports to be deleted",
+    "portIdList" : "Array of port IDs to be released"
+  }
+}

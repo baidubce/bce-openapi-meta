@@ -1,0 +1,7 @@
+{
+  "UnbindBlbSecurityGroup" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, max length 64 characters",
+    "securityGroupIds" : "List of security group IDs to unbind"
+  }
+}

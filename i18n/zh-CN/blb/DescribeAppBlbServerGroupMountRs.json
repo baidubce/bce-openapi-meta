@@ -1,0 +1,6 @@
+{
+  "DescribeAppBlbServerGroupMountRs" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "sgId" : "RS所属服务器组id"
+  }
+}

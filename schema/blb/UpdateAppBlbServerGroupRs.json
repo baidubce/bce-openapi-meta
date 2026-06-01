@@ -1,0 +1,95 @@
+{
+  "name" : "UpdateAppBlbServerGroupRs",
+  "method" : "PUT",
+  "uri" : "/v{version}/appblb/{blbId}/blbrs",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.UpdateAppBlbServerGroupRs.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupRs.clientToken"
+  }, {
+    "name" : "sgId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupRs.sgId"
+  }, {
+    "name" : "backendServerList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.instanceId"
+    }, {
+      "name" : "weight",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.weight"
+    }, {
+      "name" : "privateIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.privateIp"
+    }, {
+      "name" : "portList",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.portList",
+      "sub_parameters" : [ {
+        "name" : "listenerPort",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.portList.listenerPort"
+      }, {
+        "name" : "backendPort",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.portList.backendPort"
+      }, {
+        "name" : "portType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.portList.portType"
+      }, {
+        "name" : "healthCheckPortType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.portList.healthCheckPortType"
+      }, {
+        "name" : "status",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.portList.status"
+      }, {
+        "name" : "portId",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.portList.portId"
+      }, {
+        "name" : "policyId",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.portList.policyId"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "blb.UpdateAppBlbServerGroupRs.desc"
+}
