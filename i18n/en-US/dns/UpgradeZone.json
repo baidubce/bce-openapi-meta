@@ -1,0 +1,10 @@
+{
+  "UpgradeZone" : {
+    "action" : "The value of this parameter is upgradeToDiscount.",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters.",
+    "names" : "The name of the domain.",
+    "billing" : "Billing information.",
+    "billing.paymentTiming" : "Payment timing: Prepaid or Postpaid; currently only Prepaid is supported.",
+    "billing.reservation" : "Reservation details; not required for Postpaid, required for Prepaid."
+  }
+}

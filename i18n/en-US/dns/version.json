@@ -1,67 +1,71 @@
 {
   "version" : "v1",
   "style" : "rpc",
-  "description" : "DNS",
+  "description" : "dns",
   "apis" : {
-    "QueryAndParseRecordList" : {
-      "title" : "queryAndParseRecordList",
-      "summary" : "queryAndParseRecordList"
+    "CreatePaidZone" : {
+      "title" : "createPaidZone",
+      "summary" : "createPaidZone"
     },
-    "DomainNameRenewal" : {
-      "title" : "domainNameRenewal",
-      "summary" : "domainNameRenewal"
+    "UpdateRecordDisable" : {
+      "title" : "updateRecordDisable",
+      "summary" : "updateRecordDisable"
     },
-    "UpgradeTheFreeDomainNameToTheUniversalVersion" : {
-      "title" : "upgradeTheFreeDomainNameToTheUniversalVersion",
-      "summary" : "upgradeTheFreeDomainNameToTheUniversalVersion"
+    "UpgradeZone" : {
+      "title" : "upgradeZone",
+      "summary" : "upgradeZone"
     },
-    "PurchaseAPaidDomainName" : {
-      "title" : "purchaseAPaidDomainName",
-      "summary" : "purchaseAPaidDomainName"
+    "RenewZone" : {
+      "title" : "renewZone",
+      "summary" : "renewZone"
     },
-    "QueryDomainNameList" : {
-      "title" : "queryDomainNameList",
-      "summary" : "queryDomainNameList"
+    "CreateRecord" : {
+      "title" : "createRecord",
+      "summary" : "createRecord"
     },
-    "AddLineGroup" : {
-      "title" : "addLineGroup",
-      "summary" : "addLineGroup"
+    "ListRecord" : {
+      "title" : "listRecord",
+      "summary" : "listRecord"
+    },
+    "UpdateRecord" : {
+      "title" : "updateRecord",
+      "summary" : "updateRecord"
     },
     "UpdateLineGroup" : {
       "title" : "updateLineGroup",
       "summary" : "updateLineGroup"
     },
-    "AddDomainName" : {
-      "title" : "addDomainName",
-      "summary" : "addDomainName"
+    "DeleteRecord" : {
+      "title" : "deleteRecord",
+      "summary" : "deleteRecord"
     },
-    "RemoveDomainName" : {
-      "title" : "removeDomainName",
-      "summary" : "removeDomainName"
+    "AddLineGroup" : {
+      "title" : "addLineGroup",
+      "summary" : "addLineGroup"
     },
     "DeleteLineGroup" : {
       "title" : "deleteLineGroup",
       "summary" : "deleteLineGroup"
     },
-    "AddParsingRecords" : {
-      "title" : "addParsingRecords",
-      "summary" : "addParsingRecords"
+    "CreateZone" : {
+      "title" : "createZone",
+      "summary" : "createZone"
     },
-    "ModifyParsingRecords" : {
-      "title" : "modifyParsingRecords",
-      "summary" : "modifyParsingRecords"
+    "DeleteZone" : {
+      "title" : "deleteZone",
+      "summary" : "deleteZone"
     },
-    "ModifyTheParsingRecordStatus" : {
-      "title" : "modifyTheParsingRecordStatus",
-      "summary" : "modifyTheParsingRecordStatus"
+    "ListLineGroup" : {
+      "title" : "listLineGroup",
+      "summary" : "listLineGroup"
     },
-    "DeleteParsingRecords" : {
-      "title" : "deleteParsingRecords",
-      "summary" : "deleteParsingRecords"
+    "ListZone" : {
+      "title" : "listZone",
+      "summary" : "listZone"
     },
-    "QueryTheListOfLineGroups" : {
-      "title" : "queryTheListOfLineGroups",
-      "summary" : "queryTheListOfLineGroups"
+    "UpdateRecordEnable" : {
+      "title" : "updateRecordEnable",
+      "summary" : "updateRecordEnable"
     }
   }
 }

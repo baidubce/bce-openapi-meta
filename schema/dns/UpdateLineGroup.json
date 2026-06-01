@@ -14,25 +14,25 @@
     "type" : "Integer",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "DNS.UpdateLineGroup.lineId"
+    "desc_key" : "dns.UpdateLineGroup.lineId"
   }, {
     "name" : "clientToken",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "DNS.UpdateLineGroup.clientToken"
+    "desc_key" : "dns.UpdateLineGroup.clientToken"
   }, {
     "name" : "name",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "DNS.UpdateLineGroup.name"
+    "desc_key" : "dns.UpdateLineGroup.name"
   }, {
     "name" : "lines",
     "type" : "List",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "DNS.UpdateLineGroup.lines"
+    "desc_key" : "dns.UpdateLineGroup.lines"
   } ],
-  "desc_key" : "DNS.UpdateLineGroup.desc"
+  "desc_key" : "dns.UpdateLineGroup.desc"
 }

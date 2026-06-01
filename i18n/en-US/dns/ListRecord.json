@@ -1,0 +1,9 @@
+{
+  "ListRecord" : {
+    "zoneName" : "The name of the domain.",
+    "rr" : "Host record, e.g. \"www\".",
+    "id" : "The ID of the DNS record.",
+    "marker" : "The starting position for paginated list queries, a system-generated string.",
+    "maxKeys" : "The maximum number of items per page, typically not exceeding 1000. Default value is 1000."
+  }
+}

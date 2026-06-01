@@ -1,0 +1,6 @@
+{
+  "CreateZone" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters.",
+    "name" : "The domain name, e.g. baidu.com."
+  }
+}

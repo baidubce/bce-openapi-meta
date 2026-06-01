@@ -1,0 +1,9 @@
+{
+  "RenewZone" : {
+    "name" : "续费的域名。",
+    "action" : "本接口中该参数取值purchaseReserved。",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串。",
+    "billing" : "计费信息。",
+    "billing.reservation" : "保留信息。"
+  }
+}
