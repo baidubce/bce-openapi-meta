@@ -1,0 +1,100 @@
+{
+  "name" : "CreateCsnBp",
+  "method" : "POST",
+  "uri" : "/v{version}/csn/bp",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "csn.CreateCsnBp.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.CreateCsnBp.name"
+  }, {
+    "name" : "interworkType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "csn.CreateCsnBp.interworkType"
+  }, {
+    "name" : "bandwidth",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.CreateCsnBp.bandwidth"
+  }, {
+    "name" : "geographicA",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.CreateCsnBp.geographicA"
+  }, {
+    "name" : "geographicB",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.CreateCsnBp.geographicB"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.CreateCsnBp.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "csn.CreateCsnBp.billing.paymentTiming"
+    }, {
+      "name" : "billingMethod",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "csn.CreateCsnBp.billing.billingMethod"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "csn.CreateCsnBp.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "csn.CreateCsnBp.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "csn.CreateCsnBp.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "csn.CreateCsnBp.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "csn.CreateCsnBp.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "csn.CreateCsnBp.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "csn.CreateCsnBp.desc"
+}

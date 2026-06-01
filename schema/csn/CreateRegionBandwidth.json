@@ -1,0 +1,44 @@
+{
+  "name" : "CreateRegionBandwidth",
+  "method" : "POST",
+  "uri" : "/v{version}/csn/bp/{csnBpId}/limit",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "csn.CreateRegionBandwidth.clientToken"
+  }, {
+    "name" : "csnBpId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.CreateRegionBandwidth.csnBpId"
+  }, {
+    "name" : "localRegion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.CreateRegionBandwidth.localRegion"
+  }, {
+    "name" : "peerRegion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.CreateRegionBandwidth.peerRegion"
+  }, {
+    "name" : "bandwidth",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.CreateRegionBandwidth.bandwidth"
+  } ],
+  "desc_key" : "csn.CreateRegionBandwidth.desc"
+}

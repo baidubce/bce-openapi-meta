@@ -1,0 +1,6 @@
+{
+  "QueryCsnList" : {
+    "marker" : "The starting position for batch list queries, which is a system-generated string",
+    "maxKeys" : "The maximum number of items per page, not exceeding 1000, with a default value of 1000"
+  }
+}

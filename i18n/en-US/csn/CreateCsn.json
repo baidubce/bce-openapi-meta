@@ -1,0 +1,10 @@
+{
+  "CreateCsn" : {
+    "clientToken" : "Idempotency token; ASCII string, max 64 characters; see ClientToken idempotency",
+    "name" : "Name of the Cloud Smart Network",
+    "description" : "Description of the Cloud Smart Network",
+    "tags" : "List of tag key-value pairs to create",
+    "tags.tagKey" : "Tag key; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; length 1–65",
+    "tags.tagValue" : "Tag value; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; length 0–65"
+  }
+}

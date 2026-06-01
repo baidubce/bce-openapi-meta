@@ -1,0 +1,5 @@
+{
+  "QueryRegionBandwidth" : {
+    "csnBpId" : "The ID of the bandwidth package"
+  }
+}

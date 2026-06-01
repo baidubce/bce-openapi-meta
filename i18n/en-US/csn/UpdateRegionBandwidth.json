@@ -1,0 +1,9 @@
+{
+  "UpdateRegionBandwidth" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters, see [ClientToken Idempotency](CSN/API参考/通用说明.md#幂等性)",
+    "csnBpId" : "Bandwidth package ID",
+    "localRegion" : "Local region of the regional bandwidth; cannot be changed",
+    "peerRegion" : "Peer region of the regional bandwidth; cannot be changed",
+    "bandwidth" : "Updated bandwidth value for the regional bandwidth"
+  }
+}

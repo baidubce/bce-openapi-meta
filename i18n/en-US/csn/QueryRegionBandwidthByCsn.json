@@ -1,0 +1,5 @@
+{
+  "QueryRegionBandwidthByCsn" : {
+    "csnId" : "The ID of the Cloud Smart Network (CSN)"
+  }
+}

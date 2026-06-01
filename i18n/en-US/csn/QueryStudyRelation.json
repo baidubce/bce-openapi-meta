@@ -1,0 +1,5 @@
+{
+  "QueryStudyRelation" : {
+    "csnRtId" : "The ID of the Cloud Smart Network route table"
+  }
+}

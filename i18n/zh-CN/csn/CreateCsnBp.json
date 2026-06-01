@@ -1,0 +1,17 @@
+{
+  "CreateCsnBp" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](CSN/API参考/通用说明.md#幂等性)",
+    "name" : "带宽包的名称，不能为空",
+    "interworkType" : "带宽包的互通类型，取值 [ center \\| center-edge \\| edge-edge ]，分别表示云间互通、云边互通、边边互通，默认为云间互通",
+    "bandwidth" : "带宽包的带宽值，最大值为10000",
+    "geographicA" : "网络实例所属的区域。取值 [ China \\| Asia-Pacific ]，分别表示中国大陆、亚太区域",
+    "geographicB" : "另一个网络实例所属的区域。取值 [ China \\| Asia-Pacific ]，分别表示中国大陆、亚太区域",
+    "billing" : "计费信息",
+    "billing.paymentTiming" : "付款方式，预支付（Prepaid）和后支付（Postpaid）",
+    "billing.billingMethod" : "后付费需要传该参数。ByTraffic按量计费 ByBandwidth按带宽计费 PeakBandwidth_Percent_95 95计费 Enhanced_Percent_95增强型95计费",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置",
+    "tags" : "待创建的标签键值对列表",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65"
+  }
+}

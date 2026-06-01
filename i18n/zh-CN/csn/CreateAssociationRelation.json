@@ -1,0 +1,8 @@
+{
+  "CreateAssociationRelation" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](CSN/API参考/通用说明.md#幂等性)",
+    "csnRtId" : "云智能网路由表的ID",
+    "attachId" : "网络实例在云智能网中的身份ID",
+    "description" : "描述"
+  }
+}

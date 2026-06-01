@@ -1,0 +1,9 @@
+{
+  "AddRouteRule" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](CSN/API参考/通用说明.md#幂等性)",
+    "csnRtId" : "The ID of the CSN route table",
+    "attachId" : "The ID of the network instance identity in the CSN",
+    "destAddress" : "Destination address of the route. Currently only 0.0.0.0/0 is supported",
+    "routeType" : "Route type. Currently only custom is supported"
+  }
+}

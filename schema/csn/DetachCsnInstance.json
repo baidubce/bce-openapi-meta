@@ -1,0 +1,50 @@
+{
+  "name" : "DetachCsnInstance",
+  "method" : "PUT",
+  "uri" : "/v{version}/csn/{csnId}?detach",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "csn.DetachCsnInstance.clientToken"
+  }, {
+    "name" : "csnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.DetachCsnInstance.csnId"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.DetachCsnInstance.instanceType"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.DetachCsnInstance.instanceId"
+  }, {
+    "name" : "instanceRegion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "csn.DetachCsnInstance.instanceRegion"
+  }, {
+    "name" : "instanceAccountId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "csn.DetachCsnInstance.instanceAccountId"
+  } ],
+  "desc_key" : "csn.DetachCsnInstance.desc"
+}

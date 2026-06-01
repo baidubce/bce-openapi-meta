@@ -1,0 +1,10 @@
+{
+  "AttachCsnInstance" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters; see ClientToken Idempotency",
+    "csnId" : "ID of the Cloud Smart Network (CSN)",
+    "instanceType" : "Type of the instance to attach; one of [ vpc | channel | bec_vpc ], representing VPC, dedicated line channel, or edge network respectively",
+    "instanceId" : "ID of the instance to attach",
+    "instanceRegion" : "Region where the instance to attach resides",
+    "instanceAccountId" : "Account ID that owns the network instance, used in cross-account attach scenarios"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "UpdateTgw" : {
+    "csnId" : "云智能网的ID",
+    "tgwId" : "TGW实例的ID",
+    "name" : "TGW的名称",
+    "description" : "TGW的描述信息"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateTgw",
+  "method" : "PUT",
+  "uri" : "/v{version}/csn/{csnId}/tgw/{tgwId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "csnId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.UpdateTgw.csnId"
+  }, {
+    "name" : "tgwId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.UpdateTgw.tgwId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "csn.UpdateTgw.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "csn.UpdateTgw.description"
+  } ],
+  "desc_key" : "csn.UpdateTgw.desc"
+}

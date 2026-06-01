@@ -1,0 +1,20 @@
+{
+  "name" : "QueryCsnBpDetail",
+  "method" : "GET",
+  "uri" : "/v{version}/csn/bp/{csnBpId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "csnBpId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "csn.QueryCsnBpDetail.csnBpId"
+  } ],
+  "desc_key" : "csn.QueryCsnBpDetail.desc"
+}

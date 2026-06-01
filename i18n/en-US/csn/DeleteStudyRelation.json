@@ -1,0 +1,7 @@
+{
+  "DeleteStudyRelation" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters in length. See [ClientToken Idempotency](CSN/API参考/通用说明.md#幂等性)",
+    "csnRtId" : "The ID of the route table",
+    "attachId" : "The identity ID of the network instance in the Cloud Smart Network"
+  }
+}

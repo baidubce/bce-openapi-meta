@@ -1,0 +1,8 @@
+{
+  "QueryTgwRoute" : {
+    "csnId" : "ID of the Cloud Smart Network",
+    "tgwId" : "ID of the TGW",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000, default is 1000"
+  }
+}

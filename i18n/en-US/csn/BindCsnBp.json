@@ -1,0 +1,7 @@
+{
+  "BindCsnBp" : {
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency](CSN/API参考/通用说明.md#幂等性)",
+    "csnBpId" : "The ID of the bandwidth package",
+    "csnId" : "The ID of the Cloud Smart Network"
+  }
+}

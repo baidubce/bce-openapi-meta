@@ -1,0 +1,147 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "csn",
+  "apis" : {
+    "QueryCsnBpPrice" : {
+      "title" : "queryCsnBpPrice",
+      "summary" : "queryCsnBpPrice"
+    },
+    "QueryTgwList" : {
+      "title" : "queryTgwList",
+      "summary" : "queryTgwList"
+    },
+    "AttachCsnInstance" : {
+      "title" : "attachCsnInstance",
+      "summary" : "attachCsnInstance"
+    },
+    "DetachCsnInstance" : {
+      "title" : "detachCsnInstance",
+      "summary" : "detachCsnInstance"
+    },
+    "ResizeCsnBp" : {
+      "title" : "resizeCsnBp",
+      "summary" : "resizeCsnBp"
+    },
+    "UpdateTgw" : {
+      "title" : "updateTgw",
+      "summary" : "updateTgw"
+    },
+    "UnbindCsnBp" : {
+      "title" : "unbindCsnBp",
+      "summary" : "unbindCsnBp"
+    },
+    "QueryTgwRoute" : {
+      "title" : "queryTgwRoute",
+      "summary" : "queryTgwRoute"
+    },
+    "BindCsnBp" : {
+      "title" : "bindCsnBp",
+      "summary" : "bindCsnBp"
+    },
+    "UpdateRegionBandwidth" : {
+      "title" : "updateRegionBandwidth",
+      "summary" : "updateRegionBandwidth"
+    },
+    "QueryRegionBandwidth" : {
+      "title" : "queryRegionBandwidth",
+      "summary" : "queryRegionBandwidth"
+    },
+    "QueryRegionBandwidthByCsn" : {
+      "title" : "queryRegionBandwidthByCsn",
+      "summary" : "queryRegionBandwidthByCsn"
+    },
+    "CreateRegionBandwidth" : {
+      "title" : "createRegionBandwidth",
+      "summary" : "createRegionBandwidth"
+    },
+    "DeleteRegionBandwidth" : {
+      "title" : "deleteRegionBandwidth",
+      "summary" : "deleteRegionBandwidth"
+    },
+    "CreateCsn" : {
+      "title" : "createCsn",
+      "summary" : "createCsn"
+    },
+    "UpdateCsn" : {
+      "title" : "updateCsn",
+      "summary" : "updateCsn"
+    },
+    "QueryCsnList" : {
+      "title" : "queryCsnList",
+      "summary" : "queryCsnList"
+    },
+    "DeleteCsn" : {
+      "title" : "deleteCsn",
+      "summary" : "deleteCsn"
+    },
+    "QueryCsnInstance" : {
+      "title" : "queryCsnInstance",
+      "summary" : "queryCsnInstance"
+    },
+    "QueryCsnDetail" : {
+      "title" : "queryCsnDetail",
+      "summary" : "queryCsnDetail"
+    },
+    "QueryRouteRule" : {
+      "title" : "queryRouteRule",
+      "summary" : "queryRouteRule"
+    },
+    "AddRouteRule" : {
+      "title" : "addRouteRule",
+      "summary" : "addRouteRule"
+    },
+    "DeleteRouteRule" : {
+      "title" : "deleteRouteRule",
+      "summary" : "deleteRouteRule"
+    },
+    "CreateStudyRelation" : {
+      "title" : "createStudyRelation",
+      "summary" : "createStudyRelation"
+    },
+    "QueryStudyRelation" : {
+      "title" : "queryStudyRelation",
+      "summary" : "queryStudyRelation"
+    },
+    "CreateAssociationRelation" : {
+      "title" : "createAssociationRelation",
+      "summary" : "createAssociationRelation"
+    },
+    "QueryAssociationRelation" : {
+      "title" : "queryAssociationRelation",
+      "summary" : "queryAssociationRelation"
+    },
+    "DeleteAssociationRelation" : {
+      "title" : "deleteAssociationRelation",
+      "summary" : "deleteAssociationRelation"
+    },
+    "DeleteStudyRelation" : {
+      "title" : "deleteStudyRelation",
+      "summary" : "deleteStudyRelation"
+    },
+    "QueryRouteTableList" : {
+      "title" : "queryRouteTableList",
+      "summary" : "queryRouteTableList"
+    },
+    "QueryCsnBpList" : {
+      "title" : "queryCsnBpList",
+      "summary" : "queryCsnBpList"
+    },
+    "QueryCsnBpDetail" : {
+      "title" : "queryCsnBpDetail",
+      "summary" : "queryCsnBpDetail"
+    },
+    "CreateCsnBp" : {
+      "title" : "createCsnBp",
+      "summary" : "createCsnBp"
+    },
+    "UpdateCsnBp" : {
+      "title" : "updateCsnBp",
+      "summary" : "updateCsnBp"
+    },
+    "DeleteCsnBp" : {
+      "title" : "deleteCsnBp",
+      "summary" : "deleteCsnBp"
+    }
+  }
+}

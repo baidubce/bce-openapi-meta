@@ -1,0 +1,8 @@
+{
+  "CreateAssociationRelation" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](CSN/API参考/通用说明.md#幂等性)",
+    "csnRtId" : "The ID of the Cloud Smart Network route table",
+    "attachId" : "The identity ID of the network instance in the Cloud Smart Network",
+    "description" : "Description"
+  }
+}

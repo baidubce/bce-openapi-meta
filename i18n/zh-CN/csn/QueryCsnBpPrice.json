@@ -1,0 +1,12 @@
+{
+  "QueryCsnBpPrice" : {
+    "name" : "带宽包的名称，不能为空",
+    "bandwidth" : "带宽包的带宽值，后付费按流量不需要该值。",
+    "geographicA" : "网络实例所属的区域。取值 [ China、Asia-Pacific ]，分别表示中国大陆、亚太区域",
+    "geographicB" : "另一个网络实例所属的区域。取值 [ China、Asia-Pacific ]，分别表示中国大陆、亚太区域",
+    "billing" : "计费信息",
+    "billing.paymentTiming" : "付款方式，预支付（Prepaid）和后支付（Postpaid）",
+    "billing.billingMethod" : "后付费需要传该参数。ByTraffic按量计费 ByBandwidth按带宽计费 PeakBandwidth_Percent_95 95计费 Enhanced_Percent_95增强型95计费",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置"
+  }
+}

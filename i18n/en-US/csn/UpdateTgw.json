@@ -1,0 +1,8 @@
+{
+  "UpdateTgw" : {
+    "csnId" : "The ID of the Cloud Smart Network",
+    "tgwId" : "The ID of the TGW instance",
+    "name" : "The name of the TGW",
+    "description" : "The description of the TGW"
+  }
+}
