@@ -1,0 +1,10 @@
+{
+  "UpdateDedicatedChannelBfd" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](#幂等性)。",
+    "etId" : "专线的id",
+    "etChannelId" : "专线通道的id",
+    "sendInterval" : "报文发送间隔, 200-1000间的整数，单位为ms,推荐值为300",
+    "receivInterval" : "报文接收间隔, 200-1000间的整数，单位为ms,推荐值为300",
+    "detectMultiplier" : "检测时间倍数, 3-10间的整数，推荐值为4"
+  }
+}

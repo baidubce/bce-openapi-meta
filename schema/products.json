@@ -95,5 +95,11 @@
       "su" : "pfs.su.baidubce.com",
       "yq" : "pfs.yq.baidubce.com"
     }
+  }, {
+    "code" : "et",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "bcc.bj.baidubce.com"
+    }
   } ]
 }

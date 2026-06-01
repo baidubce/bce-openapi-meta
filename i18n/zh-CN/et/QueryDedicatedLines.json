@@ -1,0 +1,7 @@
+{
+  "QueryDedicatedLines" : {
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量通常不超过1000，缺省值为1000",
+    "status" : "专线状态，取值范围：ack-wait/accept/reject/building/pay-wait/established/stopped/deleted，分别对应：申请中/申请已受理/申请被拒绝/建设中/未支付（建设完成，未支付端口时长费）/可用/已到期/到期删除中"
+  }
+}

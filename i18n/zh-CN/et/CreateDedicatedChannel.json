@@ -1,0 +1,23 @@
+{
+  "CreateDedicatedChannel" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](ET/API参考/通用说明.md#幂等性)。",
+    "etId" : "专线的ID",
+    "authorizedUsers" : "分配对象",
+    "description" : "描述",
+    "baiduAddress" : "云端网络互联IP",
+    "name" : "通道名称",
+    "networks" : "路由参数，仅当“routeType”为“static-route”时需要",
+    "customerAddress" : "IDC互联IP",
+    "routeType" : "路由协议，当前支持”static-route“（静态）和”bgp“（动态）",
+    "vlanId" : "VLAN ID，取值范围：0, 2-4009",
+    "bgpAsn" : "BGP ASN，有效范围：1-4294967295，百度智能云ASN:45085；仅当“routeType”为“bgp”时需要",
+    "bgpKey" : "BGP 密钥，仅当“routeType”为“bgp”时需要",
+    "enableIpv6" : "IPv6功能是否开启，1是0否，IPv6为白名单功能",
+    "baiduIpv6Address" : "云端网络侧IPv6互联地址，enableIpv6=1时需要",
+    "customerIpv6Address" : "IDC侧IPv6互联地址，enableIpv6=1时需要",
+    "ipv6Networks" : "IPv6路由参数，当enableIpv6=1且“routeType”为“static-route”时需要",
+    "tags" : "待创建的标签键值对列表",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65"
+  }
+}

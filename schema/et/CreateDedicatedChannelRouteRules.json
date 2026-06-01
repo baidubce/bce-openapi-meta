@@ -1,0 +1,62 @@
+{
+  "name" : "CreateDedicatedChannelRouteRules",
+  "method" : "POST",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}/route/rule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.CreateDedicatedChannelRouteRules.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.CreateDedicatedChannelRouteRules.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.CreateDedicatedChannelRouteRules.etChannelId"
+  }, {
+    "name" : "ipVersion",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelRouteRules.ipVersion"
+  }, {
+    "name" : "destAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelRouteRules.destAddress"
+  }, {
+    "name" : "nexthopType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelRouteRules.nexthopType"
+  }, {
+    "name" : "nexthopId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelRouteRules.nexthopId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelRouteRules.description"
+  } ],
+  "desc_key" : "et.CreateDedicatedChannelRouteRules.desc"
+}

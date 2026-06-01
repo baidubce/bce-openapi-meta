@@ -1,0 +1,25 @@
+{
+  "ApplyPhysicalDedicatedLine" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](ET/API参考/通用说明.md#幂等性)。",
+    "name" : "专线名称,大小写字母、数字以及-_ /.特殊字符，必须以字母开头，长度1-65",
+    "description" : "描述",
+    "isp" : "运营商，取值：ISP_CMCC/ISP_CUCC/ISP_CYC/ISP_OTHER，分别对应：中国移动/中国联通/中国电信/国内其它",
+    "intfType" : "物理端口规格，取值：1G/10G/100G/40G/400G",
+    "apType" : "线路类型，百度内部用户：BAIDU，外部用户：SINGLE",
+    "apAddr" : "接入点，取值：BB/BJYZ/M3A/M3B/M2A/M2B/HKG03/WHGG/SHWGQ/BDBL，分别对应：北京海淀接入点/北京亦庄接入点/广州南沙接入点/深圳接入点/南京接入点/苏州接入点/香港接入点/武汉光谷接入点/上海接入点/保定接入点",
+    "linkDelay" : "端口延迟down时间，单位ms",
+    "userName" : "用户名称",
+    "userPhone" : "用户手机号码",
+    "userEmail" : "用户邮箱",
+    "userIdc" : "对端地址，格式为：省&#124;市&#124;县&#124;区，如 北京&#124;市辖区&#124;东城区&#124;百度科技园K2",
+    "billing" : "计费信息，目前仅支持预付费，默认购买一个月",
+    "billing.paymentTiming" : "付款时间，预支付（Prepaid）和后支付（Postpaid），创建订单需要设置，续费订单无需设置",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置",
+    "autoRenew" : "自动续费信息",
+    "autoRenew.reservationLength" : "时长，[1,2,3,4,5,6,7,8,9,12,24,36]",
+    "autoRenew.reservationTimeUnit" : "时间单位，month，当前仅支持按月",
+    "tags" : "待创建的标签键值对列表",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65"
+  }
+}

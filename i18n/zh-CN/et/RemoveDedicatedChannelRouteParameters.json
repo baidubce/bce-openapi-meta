@@ -1,0 +1,10 @@
+{
+  "RemoveDedicatedChannelRouteParameters" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](ET/API参考/通用说明.md#幂等性)。",
+    "etId" : "专线的ID",
+    "etChannelId" : "专线通道的ID",
+    "networks" : "IPv4路由cidr",
+    "ipv6Networks" : "IPv6路由cidr",
+    "routeType" : "路由类型，当前支持static-route"
+  }
+}

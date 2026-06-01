@@ -1,0 +1,38 @@
+{
+  "name" : "DeleteDedicatedChannelRouteRules",
+  "method" : "DELETE",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}/route/rule/{routeRuleId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.DeleteDedicatedChannelRouteRules.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.DeleteDedicatedChannelRouteRules.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.DeleteDedicatedChannelRouteRules.etChannelId"
+  }, {
+    "name" : "routeRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.DeleteDedicatedChannelRouteRules.routeRuleId"
+  } ],
+  "desc_key" : "et.DeleteDedicatedChannelRouteRules.desc"
+}

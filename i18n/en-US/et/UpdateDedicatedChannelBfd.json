@@ -1,0 +1,10 @@
+{
+  "UpdateDedicatedChannelBfd" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](#idempotency).",
+    "etId" : "The ID of the dedicated line.",
+    "etChannelId" : "The ID of the dedicated line channel.",
+    "sendInterval" : "Packet send interval, an integer between 200 and 1000 (ms). Recommended value: 300.",
+    "receivInterval" : "Packet receive interval, an integer between 200 and 1000 (ms). Recommended value: 300.",
+    "detectMultiplier" : "Detection time multiplier, an integer between 3 and 10. Recommended value: 4."
+  }
+}

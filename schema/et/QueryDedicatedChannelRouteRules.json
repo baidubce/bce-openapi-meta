@@ -1,0 +1,51 @@
+{
+  "name" : "QueryDedicatedChannelRouteRules",
+  "method" : "GET",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}/route/rule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.QueryDedicatedChannelRouteRules.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.QueryDedicatedChannelRouteRules.etChannelId"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.QueryDedicatedChannelRouteRules.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.QueryDedicatedChannelRouteRules.maxKeys"
+  }, {
+    "name" : "destAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.QueryDedicatedChannelRouteRules.destAddress"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "routeRules"
+  },
+  "desc_key" : "et.QueryDedicatedChannelRouteRules.desc"
+}

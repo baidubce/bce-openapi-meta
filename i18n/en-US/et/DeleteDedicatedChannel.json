@@ -1,0 +1,7 @@
+{
+  "DeleteDedicatedChannel" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency Support](ET/API参考/通用说明.md#幂等性).",
+    "etId" : "Dedicated line ID",
+    "etChannelId" : "Dedicated line channel ID"
+  }
+}

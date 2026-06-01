@@ -1,0 +1,12 @@
+{
+  "UpdatePhysicalDedicatedLine" : {
+    "dcphyId" : "物理专线ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](ET/API参考/通用说明.md#幂等性)。",
+    "name" : "专线名称，大小写字母、数字以及-_ /.特殊字符，必须以字母开头，长度1-65",
+    "description" : "描述",
+    "userName" : "用户名称",
+    "userPhone" : "用户手机号码",
+    "userEmail" : "邮箱",
+    "linkDelay" : "端口延迟down时间，单位ms"
+  }
+}

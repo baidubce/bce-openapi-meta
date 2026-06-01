@@ -1,0 +1,32 @@
+{
+  "name" : "DeleteDedicatedChannelBfd",
+  "method" : "DELETE",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}/bfd",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.DeleteDedicatedChannelBfd.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.DeleteDedicatedChannelBfd.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.DeleteDedicatedChannelBfd.etChannelId"
+  } ],
+  "desc_key" : "et.DeleteDedicatedChannelBfd.desc"
+}

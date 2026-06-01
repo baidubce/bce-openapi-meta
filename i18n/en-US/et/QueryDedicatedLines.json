@@ -1,0 +1,7 @@
+{
+  "QueryDedicatedLines" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically not exceeding 1000, default value is 1000",
+    "status" : "Dedicated line status. Valid values: ack-wait/accept/reject/building/pay-wait/established/stopped/deleted, corresponding to: Pending/Accepted/Rejected/Under Construction/Unpaid (construction complete, port duration fee unpaid)/Available/Expired/Deleting after expiration"
+  }
+}

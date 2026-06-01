@@ -1,0 +1,103 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "et",
+  "apis" : {
+    "ResubmitDedicatedChannel" : {
+      "title" : "resubmitDedicatedChannel",
+      "summary" : "resubmitDedicatedChannel"
+    },
+    "UnrelatedDedicatedLineChannel" : {
+      "title" : "unrelatedDedicatedLineChannel",
+      "summary" : "unrelatedDedicatedLineChannel"
+    },
+    "AssociatedDedicatedChannel" : {
+      "title" : "associatedDedicatedChannel",
+      "summary" : "associatedDedicatedChannel"
+    },
+    "DeleteDedicatedChannelBfd" : {
+      "title" : "deleteDedicatedChannelBfd",
+      "summary" : "deleteDedicatedChannelBfd"
+    },
+    "UpdateDedicatedChannelBfd" : {
+      "title" : "updateDedicatedChannelBfd",
+      "summary" : "updateDedicatedChannelBfd"
+    },
+    "UpdateDedicatedChannel" : {
+      "title" : "updateDedicatedChannel",
+      "summary" : "updateDedicatedChannel"
+    },
+    "CreateDedicatedChannel" : {
+      "title" : "createDedicatedChannel",
+      "summary" : "createDedicatedChannel"
+    },
+    "CreateDedicatedChannelBfd" : {
+      "title" : "createDedicatedChannelBfd",
+      "summary" : "createDedicatedChannelBfd"
+    },
+    "ApplyPhysicalDedicatedLine" : {
+      "title" : "applyPhysicalDedicatedLine",
+      "summary" : "applyPhysicalDedicatedLine"
+    },
+    "CreateDedicatedChannelRouteRules" : {
+      "title" : "createDedicatedChannelRouteRules",
+      "summary" : "createDedicatedChannelRouteRules"
+    },
+    "UpdatePhysicalDedicatedLine" : {
+      "title" : "updatePhysicalDedicatedLine",
+      "summary" : "updatePhysicalDedicatedLine"
+    },
+    "DeleteDedicatedChannelRouteRules" : {
+      "title" : "deleteDedicatedChannelRouteRules",
+      "summary" : "deleteDedicatedChannelRouteRules"
+    },
+    "QueryDedicatedChannelRouteRules" : {
+      "title" : "queryDedicatedChannelRouteRules",
+      "summary" : "queryDedicatedChannelRouteRules"
+    },
+    "UpdateDedicatedChannelRouteRules" : {
+      "title" : "updateDedicatedChannelRouteRules",
+      "summary" : "updateDedicatedChannelRouteRules"
+    },
+    "DeleteDedicatedChannel" : {
+      "title" : "deleteDedicatedChannel",
+      "summary" : "deleteDedicatedChannel"
+    },
+    "QueryDedicatedLines" : {
+      "title" : "queryDedicatedLines",
+      "summary" : "queryDedicatedLines"
+    },
+    "EnableDedicatedChannelIpv6" : {
+      "title" : "enableDedicatedChannelIpv6",
+      "summary" : "enableDedicatedChannelIpv6"
+    },
+    "DisableDedicatedChannelIpv6" : {
+      "title" : "disableDedicatedChannelIpv6",
+      "summary" : "disableDedicatedChannelIpv6"
+    },
+    "QueryDedicatedLineDetail" : {
+      "title" : "queryDedicatedLineDetail",
+      "summary" : "queryDedicatedLineDetail"
+    },
+    "QueryDedicatedChannel" : {
+      "title" : "queryDedicatedChannel",
+      "summary" : "queryDedicatedChannel"
+    },
+    "RemoveDedicatedChannelUserObject" : {
+      "title" : "removeDedicatedChannelUserObject",
+      "summary" : "removeDedicatedChannelUserObject"
+    },
+    "CreateDedicatedChannelUserObject" : {
+      "title" : "createDedicatedChannelUserObject",
+      "summary" : "createDedicatedChannelUserObject"
+    },
+    "RemoveDedicatedChannelRouteParameters" : {
+      "title" : "removeDedicatedChannelRouteParameters",
+      "summary" : "removeDedicatedChannelRouteParameters"
+    },
+    "CreateDedicatedChannelRouteParameters" : {
+      "title" : "createDedicatedChannelRouteParameters",
+      "summary" : "createDedicatedChannelRouteParameters"
+    }
+  }
+}

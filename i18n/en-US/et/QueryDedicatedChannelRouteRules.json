@@ -1,0 +1,9 @@
+{
+  "QueryDedicatedChannelRouteRules" : {
+    "etId" : "Dedicated line ID",
+    "etChannelId" : "Dedicated line channel ID",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000, default is 1000",
+    "destAddress" : "Destination CIDR block"
+  }
+}

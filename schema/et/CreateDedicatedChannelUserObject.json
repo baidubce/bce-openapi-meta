@@ -1,0 +1,38 @@
+{
+  "name" : "CreateDedicatedChannelUserObject",
+  "method" : "PUT",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}?addUsers",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.CreateDedicatedChannelUserObject.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.CreateDedicatedChannelUserObject.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.CreateDedicatedChannelUserObject.etChannelId"
+  }, {
+    "name" : "authorizedUsers",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelUserObject.authorizedUsers"
+  } ],
+  "desc_key" : "et.CreateDedicatedChannelUserObject.desc"
+}

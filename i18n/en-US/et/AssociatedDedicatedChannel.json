@@ -1,0 +1,8 @@
+{
+  "AssociatedDedicatedChannel" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency Support](ET/API参考/通用说明.md#幂等性).",
+    "etId" : "The ID of the dedicated line (ET).",
+    "etChannelId" : "The ID of the dedicated line channel.",
+    "extraChannelId" : "The ID of the associated dedicated line channel."
+  }
+}

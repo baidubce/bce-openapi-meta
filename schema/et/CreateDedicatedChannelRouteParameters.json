@@ -1,0 +1,50 @@
+{
+  "name" : "CreateDedicatedChannelRouteParameters",
+  "method" : "PUT",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}?addRoutes",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.CreateDedicatedChannelRouteParameters.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.CreateDedicatedChannelRouteParameters.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.CreateDedicatedChannelRouteParameters.etChannelId"
+  }, {
+    "name" : "networks",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelRouteParameters.networks"
+  }, {
+    "name" : "ipv6Networks",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelRouteParameters.ipv6Networks"
+  }, {
+    "name" : "routeType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.CreateDedicatedChannelRouteParameters.routeType"
+  } ],
+  "desc_key" : "et.CreateDedicatedChannelRouteParameters.desc"
+}

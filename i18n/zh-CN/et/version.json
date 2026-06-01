@@ -1,0 +1,103 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "专线接入",
+  "apis" : {
+    "ResubmitDedicatedChannel" : {
+      "title" : "重新提交专线通道",
+      "summary" : "重新提交专线通道"
+    },
+    "UnrelatedDedicatedLineChannel" : {
+      "title" : "解关联专线通道",
+      "summary" : "解关联专线通道"
+    },
+    "AssociatedDedicatedChannel" : {
+      "title" : "关联专线通道",
+      "summary" : "关联专线通道"
+    },
+    "DeleteDedicatedChannelBfd" : {
+      "title" : "删除专线通道BFD",
+      "summary" : "删除专线通道BFD"
+    },
+    "UpdateDedicatedChannelBfd" : {
+      "title" : "修改专线通道BFD",
+      "summary" : "修改专线通道BFD"
+    },
+    "UpdateDedicatedChannel" : {
+      "title" : "更新专线通道",
+      "summary" : "更新专线通道"
+    },
+    "CreateDedicatedChannel" : {
+      "title" : "新建专线通道",
+      "summary" : "新建专线通道"
+    },
+    "CreateDedicatedChannelBfd" : {
+      "title" : "创建专线通道BFD",
+      "summary" : "创建专线通道BFD"
+    },
+    "ApplyPhysicalDedicatedLine" : {
+      "title" : "申请物理专线",
+      "summary" : "申请物理专线"
+    },
+    "CreateDedicatedChannelRouteRules" : {
+      "title" : "创建专线通道路由规则",
+      "summary" : "创建专线通道路由规则"
+    },
+    "UpdatePhysicalDedicatedLine" : {
+      "title" : "更新物理专线",
+      "summary" : "更新物理专线"
+    },
+    "DeleteDedicatedChannelRouteRules" : {
+      "title" : "删除专线通道路由规则",
+      "summary" : "删除专线通道路由规则"
+    },
+    "QueryDedicatedChannelRouteRules" : {
+      "title" : "查询专线通道路由规则",
+      "summary" : "查询专线通道路由规则"
+    },
+    "UpdateDedicatedChannelRouteRules" : {
+      "title" : "修改专线通道路由规则",
+      "summary" : "修改专线通道路由规则"
+    },
+    "DeleteDedicatedChannel" : {
+      "title" : "删除专线通道",
+      "summary" : "删除专线通道"
+    },
+    "QueryDedicatedLines" : {
+      "title" : "查询专线列表",
+      "summary" : "查询专线列表"
+    },
+    "EnableDedicatedChannelIpv6" : {
+      "title" : "打开专线通道的IPv6功能",
+      "summary" : "打开专线通道的IPv6功能"
+    },
+    "DisableDedicatedChannelIpv6" : {
+      "title" : "关闭专线通道的IPv6功能",
+      "summary" : "关闭专线通道的IPv6功能"
+    },
+    "QueryDedicatedLineDetail" : {
+      "title" : "查询专线详情",
+      "summary" : "查询专线详情"
+    },
+    "QueryDedicatedChannel" : {
+      "title" : "查询专线通道",
+      "summary" : "查询专线通道"
+    },
+    "RemoveDedicatedChannelUserObject" : {
+      "title" : "移除专线通道用户对象",
+      "summary" : "移除专线通道用户对象"
+    },
+    "CreateDedicatedChannelUserObject" : {
+      "title" : "新增专线通道用户对象",
+      "summary" : "新增专线通道用户对象"
+    },
+    "RemoveDedicatedChannelRouteParameters" : {
+      "title" : "移除专线通道路由参数",
+      "summary" : "移除专线通道路由参数"
+    },
+    "CreateDedicatedChannelRouteParameters" : {
+      "title" : "新增专线通道路由参数",
+      "summary" : "新增专线通道路由参数"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name" : "ResubmitDedicatedChannel",
+  "method" : "PUT",
+  "uri" : "/v{version}/et/{etId}/channel/{etChannelId}?reCreate",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.ResubmitDedicatedChannel.clientToken"
+  }, {
+    "name" : "etId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.ResubmitDedicatedChannel.etId"
+  }, {
+    "name" : "etChannelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.ResubmitDedicatedChannel.etChannelId"
+  }, {
+    "name" : "authorizedUsers",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.authorizedUsers"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.description"
+  }, {
+    "name" : "baiduAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.baiduAddress"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.name"
+  }, {
+    "name" : "networks",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.networks"
+  }, {
+    "name" : "customerAddress",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.customerAddress"
+  }, {
+    "name" : "routeType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.routeType"
+  }, {
+    "name" : "vlanId",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.vlanId"
+  }, {
+    "name" : "enableIpv6",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.enableIpv6"
+  }, {
+    "name" : "baiduIpv6Address",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.baiduIpv6Address"
+  }, {
+    "name" : "customerIpv6Address",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.customerIpv6Address"
+  }, {
+    "name" : "ipv6Networks",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ResubmitDedicatedChannel.ipv6Networks"
+  } ],
+  "desc_key" : "et.ResubmitDedicatedChannel.desc"
+}

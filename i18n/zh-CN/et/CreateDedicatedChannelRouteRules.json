@@ -1,0 +1,12 @@
+{
+  "CreateDedicatedChannelRouteRules" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性支持](VPC/API参考/通用说明.md#幂等性)",
+    "etId" : "专线ID",
+    "etChannelId" : "专线通道ID",
+    "ipVersion" : "IP协议类型，取值[4 \\| 6]，默认为4",
+    "destAddress" : "目标网段",
+    "nexthopType" : "下一跳类型，取值[\"etGateway\" \\| \"etChannel\"]，分别表示专线网关、专线通道",
+    "nexthopId" : "下一跳实例ID",
+    "description" : "描述"
+  }
+}

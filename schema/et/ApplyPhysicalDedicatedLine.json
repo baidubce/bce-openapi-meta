@@ -1,0 +1,148 @@
+{
+  "name" : "ApplyPhysicalDedicatedLine",
+  "method" : "POST",
+  "uri" : "/v{version}/et/init",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.description"
+  }, {
+    "name" : "isp",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.isp"
+  }, {
+    "name" : "intfType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.intfType"
+  }, {
+    "name" : "apType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.apType"
+  }, {
+    "name" : "apAddr",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.apAddr"
+  }, {
+    "name" : "linkDelay",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.linkDelay"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.userName"
+  }, {
+    "name" : "userPhone",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.userPhone"
+  }, {
+    "name" : "userEmail",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.userEmail"
+  }, {
+    "name" : "userIdc",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.userIdc"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "et.ApplyPhysicalDedicatedLine.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "et.ApplyPhysicalDedicatedLine.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "et.ApplyPhysicalDedicatedLine.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "et.ApplyPhysicalDedicatedLine.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "autoRenew",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.autoRenew",
+    "sub_parameters" : [ {
+      "name" : "reservationLength",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "et.ApplyPhysicalDedicatedLine.autoRenew.reservationLength"
+    }, {
+      "name" : "reservationTimeUnit",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "et.ApplyPhysicalDedicatedLine.autoRenew.reservationTimeUnit"
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "et.ApplyPhysicalDedicatedLine.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "et.ApplyPhysicalDedicatedLine.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "et.ApplyPhysicalDedicatedLine.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "et.ApplyPhysicalDedicatedLine.desc"
+}
