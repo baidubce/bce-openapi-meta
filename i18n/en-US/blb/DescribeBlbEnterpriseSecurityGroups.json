@@ -1,0 +1,5 @@
+{
+  "DescribeBlbEnterpriseSecurityGroups" : {
+    "blbId" : "The identifier of the LoadBalancer to query"
+  }
+}

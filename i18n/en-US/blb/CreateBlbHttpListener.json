@@ -1,0 +1,27 @@
+{
+  "CreateBlbHttpListener" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "listenerPort" : "Listening port of the listener, must be an integer between 1 and 65535",
+    "backendPort" : "Listening port of the backend server, must be an integer between 1 and 65535",
+    "scheduler" : "Load balancing algorithm, supports two modes: \"RoundRobin\" (weighted round robin) and \"LeastConnection\" (least connections)",
+    "keepSession" : "Whether to enable session persistence so that requests from the same client are always routed to the same backend server; disabled by default",
+    "keepSessionType" : "Cookie handling method for session persistence, effective only when session persistence is enabled; supports \"insert\" or \"rewrite\", defaults to \"insert\"",
+    "keepSessionDuration" : "Cookie validity duration for session persistence (in seconds), effective only when session persistence is enabled; defaults to 3600s, must be an integer between 1 and 15552000",
+    "keepSessionCookieName" : "Cookie name to be overwritten for session persistence, effective only when session persistence is enabled and keepSessionType is \"rewrite\"",
+    "xForwardFor" : "Whether to enable retrieval of the real client IP; when enabled, backend servers can obtain the client's real address via the X-Forwarded-For HTTP header; disabled by default",
+    "xForwardedProto" : "Forwards the protocol used by the listener to the backend server via the x-forwarded-proto HTTP header",
+    "additionalAttributes" : "Custom configuration for HTTP type listeners",
+    "additionalAttributes.gzipJson" : "Whether to enable gzip JSON compression; string type, accepts \"on\" or \"off\"",
+    "healthCheckType" : "Health check protocol, supports \"HTTP\" or \"TCP\"; defaults to \"HTTP\"",
+    "healthCheckPort" : "Health check port, defaults to backendPort",
+    "healthCheckURI" : "Health check URI, defaults to /; takes effect when the health check protocol is \"HTTP\"",
+    "healthCheckTimeoutInSecond" : "Health check timeout (in seconds), defaults to 3, must be an integer between 1 and 60",
+    "healthCheckInterval" : "Health check interval (in seconds), defaults to 3, must be an integer between 1 and 10",
+    "unhealthyThreshold" : "Unhealthy threshold; number of consecutive health check failures after which the backend server is blocked; defaults to 3, must be an integer between 2 and 5",
+    "healthyThreshold" : "Healthy threshold; number of consecutive health check successes after which the backend server is marked available again; defaults to 3, must be an integer between 2 and 5",
+    "healthCheckNormalStatus" : "HTTP status codes considered normal during health checks; supports combinations of 5 status code classes, e.g. \"http_1xx\\|http_2xx\"; defaults to \"http_2xx\\|http_3xx\"; takes effect when the health check protocol is \"HTTP\"",
+    "healthCheckHost" : "Host field carried in the header of layer-7 health check requests, e.g. \"localhost\"; defaults to \"\"; takes effect when the health check protocol is \"HTTP\"",
+    "serverTimeout" : "Maximum timeout for backend servers (in seconds), defaults to 30s, must be an integer between 1 and 3600",
+    "redirectPort" : "Forwards requests received by this listener to an HTTPS listener identified by the specified port"
+  }
+}

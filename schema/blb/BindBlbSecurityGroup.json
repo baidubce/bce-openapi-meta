@@ -1,0 +1,32 @@
+{
+  "name" : "BindBlbSecurityGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/blb/{blbId}/securitygroup?bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.BindBlbSecurityGroup.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.BindBlbSecurityGroup.clientToken"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.BindBlbSecurityGroup.securityGroupIds"
+  } ],
+  "desc_key" : "blb.BindBlbSecurityGroup.desc"
+}

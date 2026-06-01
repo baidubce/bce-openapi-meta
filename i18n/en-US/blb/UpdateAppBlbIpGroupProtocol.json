@@ -1,0 +1,18 @@
+{
+  "UpdateAppBlbIpGroupProtocol" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "ipGroupId" : "ID of the IP group",
+    "id" : "ID of the IP group protocol",
+    "healthCheck" : "Health check protocol type (HTTPS, HTTP, TCP, UDP, ICMP). Mapping between listener protocol (type) and health check protocol (healthCheck): (type)TCP->(healthCheck)TCP; (type)UDP->(healthCheck)UDP, ICMP; (type)HTTP->(healthCheck)TCP, HTTP; (type)HTTPS->(healthCheck)TCP, HTTP, HTTPS",
+    "healthCheckPort" : "Health check port",
+    "healthCheckUrlPath" : "Health check path, default is /, effective when the health check protocol is HTTP",
+    "healthCheckTimeoutInSecond" : "Health check timeout in seconds, default is 3, must be an integer between 1 and 60",
+    "healthCheckIntervalInSecond" : "Health check interval in seconds, default is 3, must be an integer between 1 and 10",
+    "healthCheckDownRetry" : "Unhealthy threshold, i.e., the number of consecutive failed health checks before the backend server is blocked. Default is 3, must be an integer between 2 and 5",
+    "healthCheckUpRetry" : "Healthy threshold, i.e., the number of consecutive successful health checks before the backend server is marked as available again. Default is 3, must be an integer between 2 and 5",
+    "healthCheckNormalStatus" : "HTTP status codes considered normal during health checks, supports combinations of 5 status code classes, e.g., \"http_1xx\"",
+    "healthCheckHost" : "Host header of health check requests sent to backend servers, e.g., \"localhost\", default is empty, effective when the health check protocol is HTTP",
+    "udpHealthCheckString" : "UDP health check string, effective when the health check protocol is UDP"
+  }
+}

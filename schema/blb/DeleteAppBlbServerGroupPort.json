@@ -1,0 +1,38 @@
+{
+  "name" : "DeleteAppBlbServerGroupPort",
+  "method" : "PUT",
+  "uri" : "/v{version}/appblb/{blbId}/appservergroupport?batchdelete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DeleteAppBlbServerGroupPort.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.DeleteAppBlbServerGroupPort.clientToken"
+  }, {
+    "name" : "sgId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.DeleteAppBlbServerGroupPort.sgId"
+  }, {
+    "name" : "portIdList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.DeleteAppBlbServerGroupPort.portIdList"
+  } ],
+  "desc_key" : "blb.DeleteAppBlbServerGroupPort.desc"
+}

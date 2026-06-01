@@ -1,0 +1,19 @@
+{
+  "UpdateAppBlbServerGroupPort" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, up to 64 characters",
+    "sgId" : "Identifier of the server group to which the port belongs",
+    "portId" : "Identifier of the server group port to be updated",
+    "enableHealthCheck" : "Whether to enable health check, default true",
+    "healthCheck" : "Health check protocol, supports \"HTTP\"/\"TCP\"/\"UDP\"/\"ICMP\"; default is TCP for TCP listeners, UDP for UDP listeners, HTTP for HTTP listeners",
+    "healthCheckPort" : "Health check port, defaults to the value of port; takes effect when health check protocol is \"HTTP\"",
+    "healthCheckUrlPath" : "Health check URI path, default /; takes effect when health check protocol is \"HTTP\"",
+    "healthCheckTimeoutInSecond" : "Health check timeout in seconds, default 3, must be an integer between 1 and 60",
+    "healthCheckIntervalInSecond" : "Health check interval in seconds, default 3, must be an integer between 1 and 10",
+    "healthCheckDownRetry" : "Unhealthy threshold: number of consecutive failed health checks before the backend server is blocked, default 3, must be an integer between 2 and 5",
+    "healthCheckUpRetry" : "Healthy threshold: number of consecutive successful health checks before the backend server is restored to available, default 3, must be an integer between 2 and 5",
+    "healthCheckNormalStatus" : "HTTP status codes considered healthy, supports combinations of 5 status code classes, e.g. \"http_1xx|http_2xx\", default \"http_2xx|http_3xx\"; takes effect when health check protocol is \"HTTP\"",
+    "healthCheckHost" : "Host header field for layer-7 health check requests, e.g. \"localhost\", default \"\"; takes effect when health check protocol is \"HTTP\"",
+    "udpHealthCheckString" : "Health check string for UDP service; required when health check protocol is \"UDP\""
+  }
+}

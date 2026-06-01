@@ -1,0 +1,205 @@
+{
+  "name" : "CreateBlbHttpsListener",
+  "method" : "POST",
+  "uri" : "/v{version}/blb/{blbId}/HTTPSlistener",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.CreateBlbHttpsListener.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.CreateBlbHttpsListener.clientToken"
+  }, {
+    "name" : "listenerPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.listenerPort"
+  }, {
+    "name" : "backendPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.backendPort"
+  }, {
+    "name" : "scheduler",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.scheduler"
+  }, {
+    "name" : "keepSession",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.keepSession"
+  }, {
+    "name" : "keepSessionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.keepSessionType"
+  }, {
+    "name" : "keepSessionDuration",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.keepSessionDuration"
+  }, {
+    "name" : "keepSessionCookieName",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.keepSessionCookieName"
+  }, {
+    "name" : "xForwardFor",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.xForwardFor"
+  }, {
+    "name" : "xForwardedProto",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.xForwardedProto"
+  }, {
+    "name" : "additionalAttributes",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.additionalAttributes",
+    "sub_parameters" : [ {
+      "name" : "gzipJson",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateBlbHttpsListener.additionalAttributes.gzipJson"
+    } ]
+  }, {
+    "name" : "healthCheckType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.healthCheckType"
+  }, {
+    "name" : "healthCheckPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.healthCheckPort"
+  }, {
+    "name" : "healthCheckURI",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.healthCheckURI"
+  }, {
+    "name" : "healthCheckTimeoutInSecond",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.healthCheckTimeoutInSecond"
+  }, {
+    "name" : "healthCheckInterval",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.healthCheckInterval"
+  }, {
+    "name" : "unhealthyThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.unhealthyThreshold"
+  }, {
+    "name" : "healthyThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.healthyThreshold"
+  }, {
+    "name" : "healthCheckNormalStatus",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.healthCheckNormalStatus"
+  }, {
+    "name" : "healthCheckHost",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.healthCheckHost"
+  }, {
+    "name" : "serverTimeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.serverTimeout"
+  }, {
+    "name" : "certIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.certIds"
+  }, {
+    "name" : "encryptionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.encryptionType"
+  }, {
+    "name" : "encryptionProtocols",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.encryptionProtocols"
+  }, {
+    "name" : "appliedCiphers",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.appliedCiphers"
+  }, {
+    "name" : "dualAuth",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.dualAuth"
+  }, {
+    "name" : "clientCertIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.clientCertIds"
+  }, {
+    "name" : "additionalCertDomains",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateBlbHttpsListener.additionalCertDomains",
+    "sub_parameters" : [ {
+      "name" : "certId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateBlbHttpsListener.additionalCertDomains.certId"
+    }, {
+      "name" : "Host",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateBlbHttpsListener.additionalCertDomains.Host"
+    } ]
+  } ],
+  "desc_key" : "blb.CreateBlbHttpsListener.desc"
+}

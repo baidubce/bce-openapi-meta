@@ -1,0 +1,7 @@
+{
+  "UnbindBlbEnterpriseSecurityGroup" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "enterpriseSecurityGroupIds" : "解绑的企业安全组ID列表"
+  }
+}

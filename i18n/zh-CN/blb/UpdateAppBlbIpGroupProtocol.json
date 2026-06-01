@@ -1,0 +1,18 @@
+{
+  "UpdateAppBlbIpGroupProtocol" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "ipGroupId" : "IP组的id",
+    "id" : "IP组协议的id",
+    "healthCheck" : "健康检查协议类型(HTTPS、HTTP、TCP、UDP、ICMP)监听端口协议type和健康检查协议healthCheck对应关系如下：(type)TCP->(healthCheck)TCP(type)UDP->(healthCheck)UDP、ICMP(type)HTTP->(healthCheck)TCP、HTTP(type)HTTPS->(healthCheck)TCP、HTTP、HTTPS",
+    "healthCheckPort" : "健康检查端口",
+    "healthCheckUrlPath" : "健康检查路径，默认/，当健康检查协议为\"HTTP\"时生效",
+    "healthCheckTimeoutInSecond" : "健康检查超时（单位：秒），默认为3，需为1-60间的整数",
+    "healthCheckIntervalInSecond" : "健康检查间隔（单位：秒），默认为3，需为1-10间的整数",
+    "healthCheckDownRetry" : "不健康阈值，即连续多少次健康检查失败后，屏蔽该后端服务器。默认为3，需为2-5间的整数",
+    "healthCheckUpRetry" : "健康阈值，即连续多少次健康检查成功后，重新将该后端服务器置为可用。默认为3，需为2-5间的整数",
+    "healthCheckNormalStatus" : "健康检查正常时的HTTP状态码，支持5类状态码的组合，例如\"http_1xx",
+    "healthCheckHost" : "发往后端服务器的健康检查请求的Host头域，例如\"localhost\"，默认为空，当健康检查协议为\"HTTP\"时生效",
+    "udpHealthCheckString" : "udp健康检查字符串，当健康检查协议为\"UDP\"时生效"
+  }
+}

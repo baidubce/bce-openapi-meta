@@ -1,0 +1,9 @@
+{
+  "UpdateAppBlbIpGroup" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "ipGroupId" : "要更新的IP组id",
+    "name" : "IP组的名称，方便记忆。长度1~65个字节，字母开头，_可包含字母数字-/.字符。",
+    "desc" : "IP组的描述，最大支持200字符"
+  }
+}

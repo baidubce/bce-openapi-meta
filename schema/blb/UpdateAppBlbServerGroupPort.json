@@ -1,0 +1,104 @@
+{
+  "name" : "UpdateAppBlbServerGroupPort",
+  "method" : "PUT",
+  "uri" : "/v{version}/appblb/{blbId}/appservergroupport",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.clientToken"
+  }, {
+    "name" : "sgId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.sgId"
+  }, {
+    "name" : "portId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.portId"
+  }, {
+    "name" : "enableHealthCheck",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.enableHealthCheck"
+  }, {
+    "name" : "healthCheck",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheck"
+  }, {
+    "name" : "healthCheckPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheckPort"
+  }, {
+    "name" : "healthCheckUrlPath",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheckUrlPath"
+  }, {
+    "name" : "healthCheckTimeoutInSecond",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheckTimeoutInSecond"
+  }, {
+    "name" : "healthCheckIntervalInSecond",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheckIntervalInSecond"
+  }, {
+    "name" : "healthCheckDownRetry",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheckDownRetry"
+  }, {
+    "name" : "healthCheckUpRetry",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheckUpRetry"
+  }, {
+    "name" : "healthCheckNormalStatus",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheckNormalStatus"
+  }, {
+    "name" : "healthCheckHost",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheckHost"
+  }, {
+    "name" : "udpHealthCheckString",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.udpHealthCheckString"
+  } ],
+  "desc_key" : "blb.UpdateAppBlbServerGroupPort.desc"
+}

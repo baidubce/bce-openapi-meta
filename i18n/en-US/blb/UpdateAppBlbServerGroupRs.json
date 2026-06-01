@@ -1,0 +1,12 @@
+{
+  "UpdateAppBlbServerGroupRs" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, max 64 characters",
+    "sgId" : "Server group ID that the RS belongs to",
+    "backendServerList" : "List of backend servers",
+    "backendServerList.instanceId" : "Backend server identifier",
+    "backendServerList.weight" : "Backend server weight, range 0-100",
+    "backendServerList.privateIp" : "Returned on query; IP address of the bound backend server",
+    "backendServerList.portList" : "Returned on query; list of ports exposed by the RS with configured policies"
+  }
+}

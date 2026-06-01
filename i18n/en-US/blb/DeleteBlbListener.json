@@ -1,0 +1,10 @@
+{
+  "DeleteBlbListener" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, max 64 characters",
+    "portList" : "Array of ports for all listeners to be deleted",
+    "portTypeList" : "Array of port and protocol pairs for all listeners to be deleted; use this parameter when multi-protocol on the same port is enabled and only one protocol should be deleted. At least one of portList or portTypeList must be provided.",
+    "portTypeList.port" : "Listener port",
+    "portTypeList.type" : "Protocol of the listener port"
+  }
+}

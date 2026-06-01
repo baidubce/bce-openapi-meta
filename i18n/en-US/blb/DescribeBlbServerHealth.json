@@ -1,0 +1,8 @@
+{
+  "DescribeBlbServerHealth" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "listenerPort" : "Port of the listener to query",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of entries per page, up to 1000; default is 1000"
+  }
+}

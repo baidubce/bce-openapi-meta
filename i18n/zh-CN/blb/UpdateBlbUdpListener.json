@@ -1,0 +1,16 @@
+{
+  "UpdateBlbUdpListener" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "listenerPort" : "监听器的监听端口，需为1-65535间的整数",
+    "backendPort" : "后端服务器的监听端口，需为1-65535间的整数",
+    "scheduler" : "负载均衡算法，支持3种方式：\"RoundRobin\"/\"LeastConnection\"/\"Hash\"，\"RoundRobin\"代表加权轮询、\"LeastConnection\"代表最小连接数、\"Hash\"代表根据源ip哈希",
+    "healthCheckType" : "健康检查协议类型，支持\"UDP\"/\"ICMP\"",
+    "healthCheckPort" : "健康检查端口，当健康检查协议为\"UDP\"时可指定",
+    "healthCheckTimeoutInSecond" : "健康检查超时（单位：秒），默认为3，需为1-60间的整数",
+    "healthCheckInterval" : "健康检查间隔（单位：秒），默认为3，需为1-10间的整数",
+    "unhealthyThreshold" : "不健康阈值，即连续多少次健康检查失败后，屏蔽该后端服务器。默认为3，需为2-5间的整数",
+    "healthyThreshold" : "健康阈值，即连续多少次健康检查成功后，重新将该后端服务器置为可用。默认为3，需为2-5间的整数",
+    "healthCheckString" : "健康发送的请求字符串，后端服务器收到后需要进行应答，支持标准转义如\\\\00、\\\\xf2，方便配置二进制格式请求，健康检查协议为\"UDP\"时必传",
+    "udpSessionTimeout" : "udp会话超时时间。默认为90，需为5-4000间的整数，单位秒"
+  }
+}

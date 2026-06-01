@@ -1,0 +1,8 @@
+{
+  "DeleteAppBlbServerGroupRs" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, no more than 64 characters in length",
+    "sgId" : "ID of the server group to which the RS to be deleted belongs",
+    "backendServerIdList" : "List of identifiers of all backend servers to be released, combined as an array"
+  }
+}

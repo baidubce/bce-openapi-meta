@@ -1,0 +1,98 @@
+{
+  "name" : "CreateAppBlbIpGroupProtocol",
+  "method" : "POST",
+  "uri" : "/v{version}/appblb/{blbId}/ipgroup/backendpolicy",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.clientToken"
+  }, {
+    "name" : "ipGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.ipGroupId"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.type"
+  }, {
+    "name" : "healthCheck",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheck"
+  }, {
+    "name" : "healthCheckPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheckPort"
+  }, {
+    "name" : "healthCheckUrlPath",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheckUrlPath"
+  }, {
+    "name" : "healthCheckTimeoutInSecond",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheckTimeoutInSecond"
+  }, {
+    "name" : "healthCheckIntervalInSecond",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheckIntervalInSecond"
+  }, {
+    "name" : "healthCheckDownRetry",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheckDownRetry"
+  }, {
+    "name" : "healthCheckUpRetry",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheckUpRetry"
+  }, {
+    "name" : "healthCheckNormalStatus",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheckNormalStatus"
+  }, {
+    "name" : "healthCheckHost",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheckHost"
+  }, {
+    "name" : "udpHealthCheckString",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.udpHealthCheckString"
+  } ],
+  "desc_key" : "blb.CreateAppBlbIpGroupProtocol.desc"
+}

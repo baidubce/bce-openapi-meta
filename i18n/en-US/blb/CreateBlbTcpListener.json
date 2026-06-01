@@ -1,0 +1,14 @@
+{
+  "CreateBlbTcpListener" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "listenerPort" : "Listening port of the listener, must be an integer between 1 and 65535",
+    "backendPort" : "Listening port of the backend server, must be an integer between 1 and 65535",
+    "scheduler" : "Load balancing algorithm, supports three options: \"RoundRobin\" / \"WeightLeastConn\" / \"Hash\"; \"RoundRobin\" for weighted round robin, \"WeightLeastConn\" for weighted least connections, \"Hash\" for source IP hash",
+    "tcpSessionTimeout" : "TCP connection timeout in seconds, default 900, must be an integer between 10 and 4000",
+    "healthCheckType" : "Health check protocol type, default \"TCP\"",
+    "healthCheckTimeoutInSecond" : "Health check timeout in seconds, default 3, must be an integer between 1 and 60",
+    "healthCheckInterval" : "Health check interval in seconds, default 3, must be an integer between 1 and 10",
+    "unhealthyThreshold" : "Unhealthy threshold: number of consecutive failed health checks after which the backend server is blocked, default 3, must be an integer between 2 and 5",
+    "healthyThreshold" : "Healthy threshold: number of consecutive successful health checks after which the backend server is marked available again, default 3, must be an integer between 2 and 5"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "DeleteAppBlbServerGroupPort" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "sgId" : "要删除的端口所在服务器组id",
+    "portIdList" : "所有待释放的端口id，一起组成一个数组"
+  }
+}

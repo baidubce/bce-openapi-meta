@@ -1,0 +1,9 @@
+{
+  "UpdateAppBlbIpGroup" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters",
+    "ipGroupId" : "ID of the IP group to update",
+    "name" : "Name of the IP group for easy identification. 1–65 bytes, must start with a letter, may contain letters, digits, -, /, . and _",
+    "desc" : "Description of the IP group, up to 200 characters"
+  }
+}

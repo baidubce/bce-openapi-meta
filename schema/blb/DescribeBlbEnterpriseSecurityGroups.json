@@ -1,0 +1,20 @@
+{
+  "name" : "DescribeBlbEnterpriseSecurityGroups",
+  "method" : "GET",
+  "uri" : "/v{version}/blb/{blbId}/enterprise/securitygroup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DescribeBlbEnterpriseSecurityGroups.blbId"
+  } ],
+  "desc_key" : "blb.DescribeBlbEnterpriseSecurityGroups.desc"
+}

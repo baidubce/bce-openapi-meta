@@ -1,0 +1,8 @@
+{
+  "DescribeAppBlbServerGroupRs" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "sgId" : "ID of the server group that the RS belongs to",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000. Default value is 1000"
+  }
+}

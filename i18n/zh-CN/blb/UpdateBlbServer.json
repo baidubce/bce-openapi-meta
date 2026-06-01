@@ -1,0 +1,9 @@
+{
+  "UpdateBlbServer" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "backendServerList" : "待更新的后端服务器列表",
+    "backendServerList.instanceId" : "后端服务器标识符",
+    "backendServerList.weight" : "后端服务器权重，取值范围[0, 100]，权重为0表示不要把流量转发到该后端服务器上"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "DeleteAppBlbServerGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/appblb/{blbId}/appservergroup?delete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.DeleteAppBlbServerGroup.blbId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "blb.DeleteAppBlbServerGroup.clientToken"
+  }, {
+    "name" : "sgId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.DeleteAppBlbServerGroup.sgId"
+  } ],
+  "desc_key" : "blb.DeleteAppBlbServerGroup.desc"
+}

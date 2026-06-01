@@ -1,0 +1,6 @@
+{
+  "DescribeAppBlbServerGroupUnmountRs" : {
+    "blbId" : "The identifier of the LoadBalancer to which it belongs",
+    "sgId" : "The server group ID to which the RS belongs"
+  }
+}

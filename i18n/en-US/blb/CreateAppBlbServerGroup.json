@@ -1,0 +1,13 @@
+{
+  "CreateAppBlbServerGroup" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, no more than 64 characters",
+    "name" : "Name of the server group for easy identification. Length 1~65 bytes, must start with a letter, may contain letters, digits, -, /, . and _. Auto-generated if not specified.",
+    "desc" : "Description of the server group for additional details. Length 0~450 bytes, supports Chinese characters. Defaults to empty.",
+    "backendServerList" : "List of backend servers bound to the server group",
+    "backendServerList.instanceId" : "Identifier of the backend server",
+    "backendServerList.weight" : "Weight of the backend server, value range 0-100",
+    "backendServerList.privateIp" : "Returned on query; the private IP address of the bound backend server",
+    "backendServerList.portList" : "Returned on query; list of ports exposed by the RS with corresponding policies configured"
+  }
+}

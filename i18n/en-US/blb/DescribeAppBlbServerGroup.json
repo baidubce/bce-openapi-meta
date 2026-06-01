@@ -1,0 +1,9 @@
+{
+  "DescribeAppBlbServerGroup" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "name" : "Name of the server group to query",
+    "exactlyMatch" : "Specifies whether the name field uses exact matching",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000; default is 1000"
+  }
+}

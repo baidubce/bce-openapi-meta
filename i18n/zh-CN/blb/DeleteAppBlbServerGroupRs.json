@@ -1,0 +1,8 @@
+{
+  "DeleteAppBlbServerGroupRs" : {
+    "blbId" : "所属LoadBalancer的标识符",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "sgId" : "要删除的RS所属服务器组id",
+    "backendServerIdList" : "所有待释放的后端服务器标识符，一起组成一个数组"
+  }
+}

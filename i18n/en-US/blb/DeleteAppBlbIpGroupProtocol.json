@@ -1,0 +1,8 @@
+{
+  "DeleteAppBlbIpGroupProtocol" : {
+    "blbId" : "Identifier of the associated LoadBalancer",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters",
+    "ipGroupId" : "Identifier of the associated IP group",
+    "backendPolicyIdList" : "Array of IP group protocol IDs to delete"
+  }
+}
