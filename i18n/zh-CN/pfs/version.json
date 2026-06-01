@@ -7,6 +7,10 @@
       "title" : "创建PFS实例",
       "summary" : "创建PFS实例"
     },
+    "ListPfs" : {
+      "title" : "获取PFS实例列表",
+      "summary" : "获取PFS实例列表"
+    },
     "DeletePfs" : {
       "title" : "删除PFS实例",
       "summary" : "删除PFS实例"
@@ -18,10 +22,6 @@
     "UpdatePFSTag" : {
       "title" : "更新PFS实例标签",
       "summary" : "更新PFS实例标签"
-    },
-    "ListPfs" : {
-      "title" : "获取PFS实例列表",
-      "summary" : "获取PFS实例列表"
     }
   }
 }
