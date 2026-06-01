@@ -1,0 +1,26 @@
+{
+  "name" : "UpdateProject",
+  "method" : "PUT",
+  "uri" : "/v{version}/project",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "uuid",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateProject.uuid"
+  }, {
+    "name" : "description",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateProject.description"
+  } ],
+  "desc_key" : "bls.UpdateProject.desc"
+}

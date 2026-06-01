@@ -1,0 +1,11 @@
+{
+  "PullLogRecord" : {
+    "project" : "Log group name",
+    "logStoreName" : "Log store name",
+    "logStreamName" : "Log stream name",
+    "startDateTime" : "Start datetime, inclusive",
+    "endDateTime" : "End datetime, exclusive",
+    "limit" : "Maximum number of entries to return, default 100, maximum 1000",
+    "marker" : "Marker specifying the position to start reading from"
+  }
+}

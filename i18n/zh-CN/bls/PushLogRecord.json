@@ -1,0 +1,14 @@
+{
+  "PushLogRecord" : {
+    "project" : "日志组名称，默认default",
+    "logStoreName" : "日志集名称",
+    "logStreamName" : "日志流名称，长度不能超过 192 字符，包含的字符仅限于：`a-z, A-Z, 0-9, '_', '-', '.' '/'`",
+    "type" : "数据类型，JSON/TEXT，默认为 TEXT",
+    "logRecords" : "日志记录",
+    "logRecords.message" : "日志内容",
+    "logRecords.timestamp" : "日志时间戳",
+    "tags" : "日志标签",
+    "tags.k" : "标签键",
+    "tags.v" : "标签值"
+  }
+}

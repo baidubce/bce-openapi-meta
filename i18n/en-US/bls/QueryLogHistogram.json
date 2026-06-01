@@ -1,0 +1,10 @@
+{
+  "QueryLogHistogram" : {
+    "project" : "Log group name",
+    "logStoreName" : "Log store name",
+    "logStreamName" : "Log stream name",
+    "query" : "Input query statement",
+    "startDateTime" : "Start date and time, UTC, inclusive",
+    "endDateTime" : "End date and time, UTC, exclusive"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name" : "QueryLogRecord",
+  "method" : "GET",
+  "uri" : "/v{version}/logstore/{logStoreName}/logrecord",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "project",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.project"
+  }, {
+    "name" : "logStoreName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.QueryLogRecord.logStoreName"
+  }, {
+    "name" : "logStreamName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.logStreamName"
+  }, {
+    "name" : "query",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.query"
+  }, {
+    "name" : "startDateTime",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.startDateTime"
+  }, {
+    "name" : "endDateTime",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.endDateTime"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.marker"
+  }, {
+    "name" : "limit",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.limit"
+  }, {
+    "name" : "sort",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.sort"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.pageSize"
+  } ],
+  "desc_key" : "bls.QueryLogRecord.desc"
+}

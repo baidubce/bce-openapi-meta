@@ -1,0 +1,14 @@
+{
+  "PushLogRecord" : {
+    "project" : "Log group name, default: default",
+    "logStoreName" : "Log store name",
+    "logStreamName" : "Log stream name, max 192 chars, allowed characters: `a-z, A-Z, 0-9, '_', '-', '.', '/'`",
+    "type" : "Data type, JSON/TEXT, default: TEXT",
+    "logRecords" : "Log records",
+    "logRecords.message" : "Log content",
+    "logRecords.timestamp" : "Log timestamp",
+    "tags" : "Log tags",
+    "tags.k" : "Tag key",
+    "tags.v" : "Tag value"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "CreateProject" : {
+    "name" : "日志组名称",
+    "description" : "日志组描述"
+  }
+}

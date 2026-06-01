@@ -1,0 +1,10 @@
+{
+  "QueryLogHistogram" : {
+    "project" : "日志组名称",
+    "logStoreName" : "日志集名称",
+    "logStreamName" : "日志流名称",
+    "query" : "输入的 Query 语句",
+    "startDateTime" : "起始日期时间，UTC时间，包括起始时间",
+    "endDateTime" : "结束日期时间，UTC时间，不包括结束时间"
+  }
+}

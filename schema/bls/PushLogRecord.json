@@ -1,0 +1,72 @@
+{
+  "name" : "PushLogRecord",
+  "method" : "POST",
+  "uri" : "/v{version}/logstore/{logStoreName}/logrecord",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "project",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.PushLogRecord.project"
+  }, {
+    "name" : "logStoreName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.PushLogRecord.logStoreName"
+  }, {
+    "name" : "logStreamName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.PushLogRecord.logStreamName"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.PushLogRecord.type"
+  }, {
+    "name" : "logRecords",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.PushLogRecord.logRecords",
+    "sub_parameters" : [ {
+      "name" : "message",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.PushLogRecord.logRecords.message"
+    }, {
+      "name" : "timestamp",
+      "type" : "Long",
+      "required" : false,
+      "desc_key" : "bls.PushLogRecord.logRecords.timestamp"
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.PushLogRecord.tags",
+    "sub_parameters" : [ {
+      "name" : "k",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.PushLogRecord.tags.k"
+    }, {
+      "name" : "v",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.PushLogRecord.tags.v"
+    } ]
+  } ],
+  "desc_key" : "bls.PushLogRecord.desc"
+}

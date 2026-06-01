@@ -1,0 +1,6 @@
+{
+  "UpdateProject" : {
+    "uuid" : "日志组UUID",
+    "description" : "日志组是否置顶"
+  }
+}

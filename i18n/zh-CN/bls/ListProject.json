@@ -1,0 +1,10 @@
+{
+  "ListProject" : {
+    "name" : "指定筛选日志组名称的关键字",
+    "description" : "指定筛选日志组描述的关键字",
+    "orderBy" : "排序字段，默认为创建时间，支持createdAt: 创建时间，updatedAt: 修改时间, name: 名称",
+    "order" : "排序顺序，desc为降序，asc为升序，默认为 desc",
+    "pageNo" : "起始页码，默认为 1",
+    "pageSize" : "每页显示数据大小，默认为 10"
+  }
+}
