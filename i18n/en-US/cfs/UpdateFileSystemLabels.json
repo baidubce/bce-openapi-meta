@@ -1,8 +1,8 @@
 {
   "UpdateFileSystemLabels" : {
     "fsId" : "List of FileSystem IDs",
-    "tags" : "",
-    "tags.tagKey" : "",
-    "tags.tagValue" : ""
+    "tags" : "List of tags associated with the file system",
+    "tags.tagKey" : "Tag key",
+    "tags.tagValue" : "Tag value"
   }
 }
