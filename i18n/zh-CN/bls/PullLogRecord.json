@@ -1,0 +1,11 @@
+{
+  "PullLogRecord" : {
+    "project" : "日志组名称",
+    "logStoreName" : "日志集名称",
+    "logStreamName" : "日志流名称",
+    "startDateTime" : "起始日期时间，包括起始时间",
+    "endDateTime" : "结束日期时间，不包括结束时间",
+    "limit" : "指定返回的最大条目数，默认值100，最大支持1000",
+    "marker" : "指定查看的位置标记"
+  }
+}

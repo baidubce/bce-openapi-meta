@@ -1,0 +1,43 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "bls",
+  "apis" : {
+    "CreateProject" : {
+      "title" : "createProject",
+      "summary" : "createProject"
+    },
+    "PullLogRecord" : {
+      "title" : "pullLogRecord",
+      "summary" : "pullLogRecord"
+    },
+    "UpdateProject" : {
+      "title" : "updateProject",
+      "summary" : "updateProject"
+    },
+    "QueryLogRecord" : {
+      "title" : "queryLogRecord",
+      "summary" : "queryLogRecord"
+    },
+    "ListProject" : {
+      "title" : "listProject",
+      "summary" : "listProject"
+    },
+    "DescribeProject" : {
+      "title" : "describeProject",
+      "summary" : "describeProject"
+    },
+    "PushLogRecord" : {
+      "title" : "pushLogRecord",
+      "summary" : "pushLogRecord"
+    },
+    "DeleteProject" : {
+      "title" : "deleteProject",
+      "summary" : "deleteProject"
+    },
+    "QueryLogHistogram" : {
+      "title" : "queryLogHistogram",
+      "summary" : "queryLogHistogram"
+    }
+  }
+}

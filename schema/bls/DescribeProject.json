@@ -1,0 +1,20 @@
+{
+  "name" : "DescribeProject",
+  "method" : "GET",
+  "uri" : "/v{version}/project/{uuid}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "uuid",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.DescribeProject.uuid"
+  } ],
+  "desc_key" : "bls.DescribeProject.desc"
+}

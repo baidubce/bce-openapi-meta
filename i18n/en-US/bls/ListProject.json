@@ -1,0 +1,10 @@
+{
+  "ListProject" : {
+    "name" : "Keyword for filtering log group names",
+    "description" : "Keyword for filtering log group descriptions",
+    "orderBy" : "Sort field, defaults to creation time; supported values: createdAt (creation time), updatedAt (last modified time), name (name)",
+    "order" : "Sort order; desc for descending, asc for ascending, defaults to desc",
+    "pageNo" : "Starting page number, defaults to 1",
+    "pageSize" : "Number of records per page, defaults to 10"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "QueryLogRecord" : {
+    "project" : "Log group name",
+    "logStoreName" : "Log store name",
+    "logStreamName" : "Log stream name, max 192 characters, allowed characters: `a-z, A-Z, 0-9, '_', '-', '.', '/'`",
+    "query" : "Query parameter statement",
+    "startDateTime" : "Start datetime, inclusive",
+    "endDateTime" : "End datetime, exclusive",
+    "marker" : "Valid only when query is a search statement; specifies the starting row for the query. Default: empty string.",
+    "limit" : "Valid only when query is a search statement; maximum number of log entries to return. Min: 0, max: 1000, default: 100. (Ignored when pagination parameters are present.)",
+    "sort" : "Valid only when query is a search statement; log sort order. desc: descending by timestamp, asc: ascending by timestamp. Default: desc.",
+    "pageNo" : "Starting page for log retrieval. Valid only when query is a search statement and pageSize is present.",
+    "pageSize" : "Page size for log retrieval. Valid only when query is a search statement and pageNo is present."
+  }
+}

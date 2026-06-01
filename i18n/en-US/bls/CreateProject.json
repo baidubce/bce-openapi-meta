@@ -1,0 +1,6 @@
+{
+  "CreateProject" : {
+    "name" : "Log group name",
+    "description" : "Log group description"
+  }
+}

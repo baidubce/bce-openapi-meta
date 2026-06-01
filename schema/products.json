@@ -107,5 +107,19 @@
     "endpoint" : {
       "global" : "csn.baidubce.com"
     }
+  }, {
+    "code" : "bls",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "bls-log.bd.baidubce.com",
+      "bj" : "bls-log.bj.baidubce.com",
+      "cd" : "bls-log.cd.baidubce.com",
+      "fwh" : "bls-log.fwh.baidubce.com",
+      "gz" : "bls-log.gz.baidubce.com",
+      "hkg" : "bls-log.hkg.baidubce.com",
+      "nj" : "bls-log.nj.baidubce.com",
+      "su" : "bls-log.su.baidubce.com",
+      "yq" : "bls-log.yq.baidubce.com"
+    }
   } ]
 }

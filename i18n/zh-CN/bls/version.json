@@ -1,0 +1,43 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "日志服务",
+  "apis" : {
+    "CreateProject" : {
+      "title" : "创建日志组",
+      "summary" : "创建日志组"
+    },
+    "PullLogRecord" : {
+      "title" : "获取日志记录",
+      "summary" : "获取日志记录"
+    },
+    "UpdateProject" : {
+      "title" : "更新日志组",
+      "summary" : "更新日志组"
+    },
+    "QueryLogRecord" : {
+      "title" : "检索分析日志",
+      "summary" : "检索分析日志"
+    },
+    "ListProject" : {
+      "title" : "日志组列表",
+      "summary" : "日志组列表"
+    },
+    "DescribeProject" : {
+      "title" : "日志组详情",
+      "summary" : "日志组详情"
+    },
+    "PushLogRecord" : {
+      "title" : "推送日志",
+      "summary" : "推送日志"
+    },
+    "DeleteProject" : {
+      "title" : "删除日志组",
+      "summary" : "删除日志组"
+    },
+    "QueryLogHistogram" : {
+      "title" : "查询直方图",
+      "summary" : "查询直方图"
+    }
+  }
+}
