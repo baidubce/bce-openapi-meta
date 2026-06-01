@@ -7,6 +7,10 @@
       "title" : "createPfs",
       "summary" : "createPfs"
     },
+    "ListPfs" : {
+      "title" : "listPfs",
+      "summary" : "listPfs"
+    },
     "DeletePfs" : {
       "title" : "deletePfs",
       "summary" : "deletePfs"
@@ -18,10 +22,6 @@
     "UpdatePFSTag" : {
       "title" : "updatePFSTag",
       "summary" : "updatePFSTag"
-    },
-    "ListPfs" : {
-      "title" : "listPfs",
-      "summary" : "listPfs"
     }
   }
 }
