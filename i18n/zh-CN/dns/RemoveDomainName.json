@@ -1,6 +1,0 @@
-{
-  "RemoveDomainName" : {
-    "zoneName" : "域名的名称。",
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串。"
-  }
-}

@@ -1,0 +1,68 @@
+{
+  "name" : "CreateRecord",
+  "method" : "POST",
+  "uri" : "/v{version}/dns/zone/{zoneName}/record",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "dns.CreateRecord.zoneName"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dns.CreateRecord.clientToken"
+  }, {
+    "name" : "rr",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dns.CreateRecord.rr"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dns.CreateRecord.type"
+  }, {
+    "name" : "value",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dns.CreateRecord.value"
+  }, {
+    "name" : "ttl",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "dns.CreateRecord.ttl"
+  }, {
+    "name" : "line",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "dns.CreateRecord.line"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "dns.CreateRecord.description"
+  }, {
+    "name" : "priority",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "dns.CreateRecord.priority"
+  } ],
+  "desc_key" : "dns.CreateRecord.desc"
+}

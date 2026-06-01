@@ -1,7 +1,7 @@
 {
-  "name" : "AddLineGroup",
+  "name" : "CreateZone",
   "method" : "POST",
-  "uri" : "/v{version}/dns/customline",
+  "uri" : "/v{version}/dns/zone",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",
@@ -14,19 +14,13 @@
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "dns.AddLineGroup.clientToken"
+    "desc_key" : "dns.CreateZone.clientToken"
   }, {
     "name" : "name",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "dns.AddLineGroup.name"
-  }, {
-    "name" : "lines",
-    "type" : "List",
-    "required" : true,
-    "position" : "BODY",
-    "desc_key" : "dns.AddLineGroup.lines"
+    "desc_key" : "dns.CreateZone.name"
   } ],
-  "desc_key" : "dns.AddLineGroup.desc"
+  "desc_key" : "dns.CreateZone.desc"
 }

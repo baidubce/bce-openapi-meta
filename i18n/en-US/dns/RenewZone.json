@@ -1,0 +1,9 @@
+{
+  "RenewZone" : {
+    "name" : "The domain name to be renewed.",
+    "action" : "The value of this parameter in this API is purchaseReserved.",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters.",
+    "billing" : "Billing information.",
+    "billing.reservation" : "Reservation information."
+  }
+}

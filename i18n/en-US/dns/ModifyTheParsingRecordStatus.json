@@ -1,8 +1,0 @@
-{
-  "ModifyTheParsingRecordStatus" : {
-    "zoneName" : "Domain name.",
-    "recordId" : "DNS record ID.",
-    "action" : "\"enable\"/\"disable\" to enable or pause the DNS record respectively.",
-    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters."
-  }
-}

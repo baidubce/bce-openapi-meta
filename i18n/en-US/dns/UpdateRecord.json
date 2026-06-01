@@ -1,0 +1,13 @@
+{
+  "UpdateRecord" : {
+    "zoneName" : "Domain name.",
+    "recordId" : "DNS record ID.",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters.",
+    "rr" : "Host record, e.g. \"www\". The combined length of the record value and zone name must not exceed 255 characters.",
+    "type" : "DNS record type. Valid values: \"A\", \"CNAME\", \"MX\", \"TXT\", \"NS\", \"AAAA\", \"SRV\".",
+    "value" : "Record value, e.g. IP: \"192.168.1.1\", CNAME: \"cname.baidu.com\", MX: \"mail.baidu.com\".",
+    "ttl" : "TTL for the record in the local DNS server cache (in seconds). Default: 300s (Basic), 120s (Standard), 1s (Enterprise). Must be a positive integer.",
+    "description" : "Description, up to 255 characters.",
+    "priority" : "Priority for MX records. Valid range: [0, 50]. Required when the record type is MX."
+  }
+}

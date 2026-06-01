@@ -1,0 +1,68 @@
+{
+  "name" : "UpdateRecord",
+  "method" : "PUT",
+  "uri" : "/v{version}/dns/zone/{zoneName}/record/{recordId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "dns.UpdateRecord.zoneName"
+  }, {
+    "name" : "recordId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "dns.UpdateRecord.recordId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dns.UpdateRecord.clientToken"
+  }, {
+    "name" : "rr",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dns.UpdateRecord.rr"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dns.UpdateRecord.type"
+  }, {
+    "name" : "value",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dns.UpdateRecord.value"
+  }, {
+    "name" : "ttl",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "dns.UpdateRecord.ttl"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "dns.UpdateRecord.description"
+  }, {
+    "name" : "priority",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "dns.UpdateRecord.priority"
+  } ],
+  "desc_key" : "dns.UpdateRecord.desc"
+}

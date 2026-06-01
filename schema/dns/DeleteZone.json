@@ -1,7 +1,7 @@
 {
-  "name" : "DeleteLineGroup",
+  "name" : "DeleteZone",
   "method" : "DELETE",
-  "uri" : "/v{version}/dns/customline/{lineId}",
+  "uri" : "/v{version}/dns/zone/{zoneName}",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",
@@ -10,17 +10,17 @@
     "default" : "1",
     "desc_key" : "common.version"
   }, {
-    "name" : "lineId",
+    "name" : "zoneName",
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "dns.DeleteLineGroup.lineId"
+    "desc_key" : "dns.DeleteZone.zoneName"
   }, {
     "name" : "clientToken",
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "dns.DeleteLineGroup.clientToken"
+    "desc_key" : "dns.DeleteZone.clientToken"
   } ],
-  "desc_key" : "dns.DeleteLineGroup.desc"
+  "desc_key" : "dns.DeleteZone.desc"
 }

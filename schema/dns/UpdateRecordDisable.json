@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateRecordDisable",
+  "method" : "PUT",
+  "uri" : "/v{version}/dns/zone/{zoneName}/record/{recordId}?disable",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "dns.UpdateRecordDisable.zoneName"
+  }, {
+    "name" : "recordId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "dns.UpdateRecordDisable.recordId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dns.UpdateRecordDisable.clientToken"
+  } ],
+  "desc_key" : "dns.UpdateRecordDisable.desc"
+}

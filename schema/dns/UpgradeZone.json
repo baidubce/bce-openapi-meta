@@ -1,0 +1,55 @@
+{
+  "name" : "UpgradeZone",
+  "method" : "PUT",
+  "uri" : "/v{version}/dns/zone/order?upgradeToDiscount",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dns.UpgradeZone.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dns.UpgradeZone.clientToken"
+  }, {
+    "name" : "names",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dns.UpgradeZone.names"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dns.UpgradeZone.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "dns.UpgradeZone.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "dns.UpgradeZone.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "dns.UpgradeZone.billing.reservation.reservationLength"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "dns.UpgradeZone.desc"
+}

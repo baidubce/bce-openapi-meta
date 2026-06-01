@@ -1,0 +1,7 @@
+{
+  "DeleteRecord" : {
+    "zoneName" : "域名名称。",
+    "recordId" : "解析记录id。",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串。"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "UpdateRecordDisable" : {
+    "zoneName" : "The domain name.",
+    "recordId" : "The ID of the DNS record.",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters."
+  }
+}

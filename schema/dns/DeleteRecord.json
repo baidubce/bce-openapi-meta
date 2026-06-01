@@ -1,0 +1,32 @@
+{
+  "name" : "DeleteRecord",
+  "method" : "DELETE",
+  "uri" : "/v{version}/dns/zone/{zoneName}/record/{recordId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "dns.DeleteRecord.zoneName"
+  }, {
+    "name" : "recordId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "dns.DeleteRecord.recordId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dns.DeleteRecord.clientToken"
+  } ],
+  "desc_key" : "dns.DeleteRecord.desc"
+}
