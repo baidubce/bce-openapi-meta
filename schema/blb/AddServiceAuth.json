@@ -1,0 +1,43 @@
+{
+  "name" : "AddServiceAuth",
+  "method" : "PUT",
+  "uri" : "/v{version}/service/{service}?addAuth",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.AddServiceAuth.clientToken"
+  }, {
+    "name" : "service",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.AddServiceAuth.service"
+  }, {
+    "name" : "authList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.AddServiceAuth.authList",
+    "sub_parameters" : [ {
+      "name" : "uid",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.AddServiceAuth.authList.uid"
+    }, {
+      "name" : "auth",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.AddServiceAuth.authList.auth"
+    } ]
+  } ],
+  "desc_key" : "blb.AddServiceAuth.desc"
+}

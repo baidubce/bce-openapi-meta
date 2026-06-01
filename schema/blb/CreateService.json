@@ -1,0 +1,61 @@
+{
+  "name" : "CreateService",
+  "method" : "POST",
+  "uri" : "/v{version}/service",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.CreateService.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateService.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateService.description"
+  }, {
+    "name" : "serviceName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateService.serviceName"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateService.instanceId"
+  }, {
+    "name" : "authList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateService.authList",
+    "sub_parameters" : [ {
+      "name" : "uid",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateService.authList.uid"
+    }, {
+      "name" : "auth",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateService.authList.auth"
+    } ]
+  } ],
+  "desc_key" : "blb.CreateService.desc"
+}

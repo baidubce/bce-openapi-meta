@@ -1,0 +1,12 @@
+{
+  "CreateService" : {
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "name" : "Name of the service endpoint; supports uppercase/lowercase letters, digits, and special characters -_/.; must start with a letter; length 1-65",
+    "description" : "Description of the service endpoint; maximum 200 characters",
+    "serviceName" : "Corresponding service name; supports uppercase/lowercase letters and digits; length 1-65",
+    "instanceId" : "Bound instance ID; currently only supports binding to BLB",
+    "authList" : "User authorization list; all requests are denied by default",
+    "authList.uid" : "User ID; use \"*\" to represent all users",
+    "authList.auth" : "Authentication action; valid values: allow/deny, indicating permit/deny respectively"
+  }
+}

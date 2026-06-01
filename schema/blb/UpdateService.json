@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateService",
+  "method" : "PUT",
+  "uri" : "/v{version}/service/{service}?modifyAttribute",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateService.clientToken"
+  }, {
+    "name" : "service",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.UpdateService.service"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateService.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateService.description"
+  } ],
+  "desc_key" : "blb.UpdateService.desc"
+}

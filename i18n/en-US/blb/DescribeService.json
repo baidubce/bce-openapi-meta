@@ -1,0 +1,5 @@
+{
+  "DescribeService" : {
+    "service" : "Domain name of the service publishing endpoint"
+  }
+}

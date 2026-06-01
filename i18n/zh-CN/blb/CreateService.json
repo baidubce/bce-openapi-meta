@@ -1,0 +1,12 @@
+{
+  "CreateService" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "name" : "服务发布点的名称，大小写字母、数字以及-_/.特殊字符，必须以字母开头，长度1-65",
+    "description" : "服务发布点的描述，最大支持200字符",
+    "serviceName" : "对应服务名称,大小写字母、数字长度1-65",
+    "instanceId" : "绑定实例id，当前只支持绑定blb",
+    "authList" : "用户授权列表，默认拒绝所有",
+    "authList.uid" : "用户id，所有人使用\"*\"",
+    "authList.auth" : "鉴权方式，取值：allow/deny，分别表示允许/拒绝"
+  }
+}
