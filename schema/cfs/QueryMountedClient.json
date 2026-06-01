@@ -1,0 +1,39 @@
+{
+  "name" : "QueryMountedClient",
+  "method" : "GET",
+  "uri" : "/v{version}/cfs/clients",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "fsId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cfs.QueryMountedClient.fsId"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cfs.QueryMountedClient.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cfs.QueryMountedClient.maxKeys"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "clientInfoList"
+  },
+  "desc_key" : "cfs.QueryMountedClient.desc"
+}

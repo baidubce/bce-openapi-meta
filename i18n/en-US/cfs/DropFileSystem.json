@@ -1,0 +1,5 @@
+{
+  "DropFileSystem" : {
+    "fsId" : "The ID of the FileSystem to be released"
+  }
+}

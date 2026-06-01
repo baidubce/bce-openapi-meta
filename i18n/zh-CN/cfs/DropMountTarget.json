@@ -1,0 +1,6 @@
+{
+  "DropMountTarget" : {
+    "fsId" : "待释放的target的FileSystem的ID",
+    "mountId" : "待释放的target的ID"
+  }
+}

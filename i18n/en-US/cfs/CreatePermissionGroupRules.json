@@ -1,0 +1,10 @@
+{
+  "CreatePermissionGroupRules" : {
+    "agName" : "The name of the permission group for the rule to be created.",
+    "ip" : "Authorized IP address (virtual VPC IP). Supports single IP or subnet (combined with mask). Supports IPv4 and IPv6, e.g. 10.10.1.123 or 2001::/16.",
+    "mask" : "Used with the ip parameter to specify a subnet. Set to 32 for a single IPv4 address or 128 for a single IPv6 address.",
+    "writeAccess" : "Read/write rule. Supported values: \"read_only\" for read-only access, \"read_write\" for read-write access.",
+    "userAccess" : "User permission rule. Supported values: \"no_squash\" (no root restriction), \"root_squash\" (restrict root user), \"all_squash\" (restrict all users).",
+    "priority" : "Rule priority. Valid range: 1–100, where 1 is the highest priority."
+  }
+}

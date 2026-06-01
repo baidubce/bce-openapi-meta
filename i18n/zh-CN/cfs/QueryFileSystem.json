@@ -1,0 +1,9 @@
+{
+  "QueryFileSystem" : {
+    "userId" : "要查询文件系统所属的用户ID",
+    "fsId" : "要查询的FileSystem ID，支持批量查询，格式为fsId=fsIdA,fsIdB,fsIdC, 批量查询数量上限为100个。",
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量不超过1000。缺省值为1000",
+    "filterTag" : "{key}:{value}格式 <br>查询key下所有值为 {key}:@@@"
+  }
+}

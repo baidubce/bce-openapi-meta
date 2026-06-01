@@ -1,0 +1,26 @@
+{
+  "name" : "CreatePermissionGroup",
+  "method" : "POST",
+  "uri" : "/v{version}/accessGroup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "accessGroupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreatePermissionGroup.accessGroupName"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreatePermissionGroup.description"
+  } ],
+  "desc_key" : "cfs.CreatePermissionGroup.desc"
+}

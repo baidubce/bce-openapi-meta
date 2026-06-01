@@ -1,0 +1,5 @@
+{
+  "DropFileSystem" : {
+    "fsId" : "待释放的FileSystem的ID"
+  }
+}

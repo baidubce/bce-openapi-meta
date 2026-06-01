@@ -1,0 +1,11 @@
+{
+  "BatchCreationOfPermissionGroupRules" : {
+    "ag_name" : "The name of the permission group for the rules to be created.",
+    "access_rules" : "List of permission group rules to be added in bulk; up to 100 rules can be created per request.",
+    "access_rules.ip" : "Authorized IP address (virtual VPC IP). Supports a single IP or a subnet combined with the mask parameter. Both IPv4 and IPv6 are supported, e.g., 10.10.1.123 or 2001::/16.",
+    "access_rules.mask" : "Used with the ip parameter to specify a subnet. Set to 32 for a single IPv4 address or 128 for a single IPv6 address.",
+    "access_rules.write_access" : "Read/write permission rule. Supported values: \"read_only\" for read-only access, \"read_write\" for read-write access.",
+    "access_rules.user_access" : "User permission rule. Supported values: \"no_squash\" to allow root without restriction, \"root_squash\" to restrict root user, \"all_squash\" to restrict all users.",
+    "access_rules.priority" : "Rule priority. Valid range is 1–100, where 1 is the highest priority."
+  }
+}

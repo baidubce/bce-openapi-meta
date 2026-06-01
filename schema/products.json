@@ -71,5 +71,18 @@
     "endpoint" : {
       "global" : "dns.baidubce.com"
     }
+  }, {
+    "code" : "cfs",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "cfs.bd.baidubce.com",
+      "bj" : "cfs.bj.baidubce.com",
+      "cd" : "cfs.cd.baidubce.com",
+      "fwh" : "cfs.fwh.baidubce.com",
+      "gz" : "cfs.gz.baidubce.com",
+      "hkg" : "cfs.hkg.baidubce.com",
+      "su" : "cfs.su.baidubce.com",
+      "yq" : "cfs.yq.baidubce.com"
+    }
   } ]
 }

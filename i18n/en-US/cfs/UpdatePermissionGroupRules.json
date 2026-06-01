@@ -1,0 +1,11 @@
+{
+  "UpdatePermissionGroupRules" : {
+    "agName" : "Name of the permission group whose rules are being updated.",
+    "arId" : "Identifier of the rule to update.",
+    "ip" : "Authorized IP address (virtual VPC IP); supports single IP or CIDR range (with mask); supports IPv4 and IPv6, e.g. 10.10.1.123 or 2001::/16.",
+    "mask" : "Used with ip to define a subnet; set to 32 for a single IPv4 address or 128 for a single IPv6 address.",
+    "writeAccess" : "Read/write rule; \"read_only\" for read-only access, \"read_write\" for read-write access.",
+    "userAccess" : "User permission rule; \"no_squash\" allows root access, \"root_squash\" restricts root, \"all_squash\" restricts all users.",
+    "priority" : "Rule priority; range 1–100, where 1 is the highest priority."
+  }
+}

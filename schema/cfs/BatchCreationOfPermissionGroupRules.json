@@ -1,0 +1,52 @@
+{
+  "name" : "BatchCreationOfPermissionGroupRules",
+  "method" : "POST",
+  "uri" : "/v{version}/accessGroup/batchCreateAccessRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ag_name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.BatchCreationOfPermissionGroupRules.ag_name"
+  }, {
+    "name" : "access_rules",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.BatchCreationOfPermissionGroupRules.access_rules",
+    "sub_parameters" : [ {
+      "name" : "ip",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cfs.BatchCreationOfPermissionGroupRules.access_rules.ip"
+    }, {
+      "name" : "mask",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "cfs.BatchCreationOfPermissionGroupRules.access_rules.mask"
+    }, {
+      "name" : "write_access",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cfs.BatchCreationOfPermissionGroupRules.access_rules.write_access"
+    }, {
+      "name" : "user_access",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cfs.BatchCreationOfPermissionGroupRules.access_rules.user_access"
+    }, {
+      "name" : "priority",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "cfs.BatchCreationOfPermissionGroupRules.access_rules.priority"
+    } ]
+  } ],
+  "desc_key" : "cfs.BatchCreationOfPermissionGroupRules.desc"
+}

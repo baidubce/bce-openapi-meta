@@ -1,0 +1,5 @@
+{
+  "DeletePermissionGroup" : {
+    "agName" : "要删除的权限组名字。"
+  }
+}

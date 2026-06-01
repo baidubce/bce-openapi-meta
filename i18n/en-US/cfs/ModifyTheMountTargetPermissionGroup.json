@@ -1,0 +1,7 @@
+{
+  "ModifyTheMountTargetPermissionGroup" : {
+    "fsId" : "The FileSystem ID of the target to be modified",
+    "mountID" : "The ID of the mount target to be modified",
+    "accessGroupName" : "Name of the permission group to assign; 1–65 bytes, must start with a letter, may contain letters, digits, hyphens, underscores, and dots."
+  }
+}

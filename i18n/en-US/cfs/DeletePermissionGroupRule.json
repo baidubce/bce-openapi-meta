@@ -1,0 +1,6 @@
+{
+  "DeletePermissionGroupRule" : {
+    "agName" : "The name of the permission group to be deleted.",
+    "arId" : "The identifier of the permission group rule to be deleted."
+  }
+}

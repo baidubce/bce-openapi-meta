@@ -1,0 +1,32 @@
+{
+  "name" : "ModifyTheMountTargetPermissionGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/cfs/{fsId}/{mountID}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "fsId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.ModifyTheMountTargetPermissionGroup.fsId"
+  }, {
+    "name" : "mountID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.ModifyTheMountTargetPermissionGroup.mountID"
+  }, {
+    "name" : "accessGroupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.ModifyTheMountTargetPermissionGroup.accessGroupName"
+  } ],
+  "desc_key" : "cfs.ModifyTheMountTargetPermissionGroup.desc"
+}

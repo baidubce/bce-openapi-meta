@@ -1,0 +1,9 @@
+{
+  "QueryFileSystem" : {
+    "userId" : "User ID of the file system owner to query",
+    "fsId" : "File system ID(s) to query; supports batch query as fsId=fsIdA,fsIdB,fsIdC, max 100",
+    "marker" : "Start position for paginated listing, a system-generated string",
+    "maxKeys" : "Maximum number of results per page, up to 1000; default is 1000",
+    "filterTag" : "Filter by tag in {key}:{value} format; use {key}:@@@ to match all values under a key"
+  }
+}

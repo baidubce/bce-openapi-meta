@@ -1,0 +1,83 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "cfs",
+  "apis" : {
+    "CreatePermissionGroup" : {
+      "title" : "createPermissionGroup",
+      "summary" : "createPermissionGroup"
+    },
+    "CreateFileSystem" : {
+      "title" : "createFileSystem",
+      "summary" : "createFileSystem"
+    },
+    "CreatePermissionGroupRules" : {
+      "title" : "createPermissionGroupRules",
+      "summary" : "createPermissionGroupRules"
+    },
+    "UpdatePermissionGroupRules" : {
+      "title" : "updatePermissionGroupRules",
+      "summary" : "updatePermissionGroupRules"
+    },
+    "DropMountTarget" : {
+      "title" : "dropMountTarget",
+      "summary" : "dropMountTarget"
+    },
+    "QueryPermissionGroupRules" : {
+      "title" : "queryPermissionGroupRules",
+      "summary" : "queryPermissionGroupRules"
+    },
+    "CreateMountingTarget" : {
+      "title" : "createMountingTarget",
+      "summary" : "createMountingTarget"
+    },
+    "DeletePermissionGroupRule" : {
+      "title" : "deletePermissionGroupRule",
+      "summary" : "deletePermissionGroupRule"
+    },
+    "ModifyTheMountTargetPermissionGroup" : {
+      "title" : "modifyTheMountTargetPermissionGroup",
+      "summary" : "modifyTheMountTargetPermissionGroup"
+    },
+    "UpdateFileSystem" : {
+      "title" : "updateFileSystem",
+      "summary" : "updateFileSystem"
+    },
+    "QueryMountingTarget" : {
+      "title" : "queryMountingTarget",
+      "summary" : "queryMountingTarget"
+    },
+    "DropFileSystem" : {
+      "title" : "dropFileSystem",
+      "summary" : "dropFileSystem"
+    },
+    "UpdatePermissionGroup" : {
+      "title" : "updatePermissionGroup",
+      "summary" : "updatePermissionGroup"
+    },
+    "DeletePermissionGroup" : {
+      "title" : "deletePermissionGroup",
+      "summary" : "deletePermissionGroup"
+    },
+    "BatchCreationOfPermissionGroupRules" : {
+      "title" : "batchCreationOfPermissionGroupRules",
+      "summary" : "batchCreationOfPermissionGroupRules"
+    },
+    "QueryFileSystem" : {
+      "title" : "queryFileSystem",
+      "summary" : "queryFileSystem"
+    },
+    "QueryPermissionGroup" : {
+      "title" : "queryPermissionGroup",
+      "summary" : "queryPermissionGroup"
+    },
+    "UpdateFileSystemLabels" : {
+      "title" : "updateFileSystemLabels",
+      "summary" : "updateFileSystemLabels"
+    },
+    "QueryMountedClient" : {
+      "title" : "queryMountedClient",
+      "summary" : "queryMountedClient"
+    }
+  }
+}

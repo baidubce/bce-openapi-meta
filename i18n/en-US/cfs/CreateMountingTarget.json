@@ -1,0 +1,9 @@
+{
+  "CreateMountingTarget" : {
+    "fsId" : "ID of the FileSystem for which the MountTarget is to be created",
+    "subnetId" : "Subnet of the MountTarget; must belong to the VPC of the filesystem, specified as a short ID",
+    "vpcId" : "Short ID of the VPC that owns the filesystem instance VIP",
+    "accessGroupName" : "Name of the bound permission group; 1–65 bytes, must start with a letter, may contain letters, digits, hyphens, underscores, and dots",
+    "address" : "Specified IP address for creating the MountTarget"
+  }
+}

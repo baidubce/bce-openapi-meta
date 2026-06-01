@@ -1,0 +1,50 @@
+{
+  "name" : "CreatePermissionGroupRules",
+  "method" : "POST",
+  "uri" : "/v{version}/accessGroup/{agName}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "agName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.CreatePermissionGroupRules.agName"
+  }, {
+    "name" : "ip",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreatePermissionGroupRules.ip"
+  }, {
+    "name" : "mask",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreatePermissionGroupRules.mask"
+  }, {
+    "name" : "writeAccess",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreatePermissionGroupRules.writeAccess"
+  }, {
+    "name" : "userAccess",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreatePermissionGroupRules.userAccess"
+  }, {
+    "name" : "priority",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreatePermissionGroupRules.priority"
+  } ],
+  "desc_key" : "cfs.CreatePermissionGroupRules.desc"
+}

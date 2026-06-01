@@ -1,0 +1,44 @@
+{
+  "name" : "CreateMountingTarget",
+  "method" : "POST",
+  "uri" : "/v{version}/cfs/{fsId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "fsId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cfs.CreateMountingTarget.fsId"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreateMountingTarget.subnetId"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreateMountingTarget.vpcId"
+  }, {
+    "name" : "accessGroupName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreateMountingTarget.accessGroupName"
+  }, {
+    "name" : "address",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfs.CreateMountingTarget.address"
+  } ],
+  "desc_key" : "cfs.CreateMountingTarget.desc"
+}
