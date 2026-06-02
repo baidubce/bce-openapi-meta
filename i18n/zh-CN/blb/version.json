@@ -3,6 +3,14 @@
   "style" : "rpc",
   "description" : "负载均衡",
   "apis" : {
+    "UpgradeLbdc" : {
+      "title" : "升级集群",
+      "summary" : "升级集群"
+    },
+    "RenewLbdc" : {
+      "title" : "续费集群",
+      "summary" : "续费集群"
+    },
     "UpdateService" : {
       "title" : "更新服务发布点",
       "summary" : "更新服务发布点"
@@ -99,6 +107,10 @@
       "title" : "删除IP组协议",
       "summary" : "删除IP组协议"
     },
+    "CreateLbdc" : {
+      "title" : "创建集群",
+      "summary" : "创建集群"
+    },
     "ReleaseBlb" : {
       "title" : "释放实例",
       "summary" : "释放实例"
@@ -118,6 +130,10 @@
     "UpdateBlb" : {
       "title" : "更新实例",
       "summary" : "更新实例"
+    },
+    "DescribeLbdc" : {
+      "title" : "查询集群详情",
+      "summary" : "查询集群详情"
     },
     "CreateService" : {
       "title" : "创建服务发布点",
@@ -215,9 +231,21 @@
       "title" : "查询企业安全组",
       "summary" : "查询企业安全组"
     },
+    "DescribeLbdcs" : {
+      "title" : "查询集群列表",
+      "summary" : "查询集群列表"
+    },
     "CreateAppBlb" : {
       "title" : "创建实例",
       "summary" : "创建实例"
+    },
+    "DescribeLbdcBlb" : {
+      "title" : "查询集群下的BLB实例",
+      "summary" : "查询集群下的BLB实例"
+    },
+    "UpdateLbdc" : {
+      "title" : "更新集群",
+      "summary" : "更新集群"
     },
     "UpdateAppBlb" : {
       "title" : "更新实例",

@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateLbdc",
+  "method" : "PUT",
+  "uri" : "/v{version}/lbdc/{id}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.UpdateLbdc.id"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateLbdc.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateLbdc.name"
+  }, {
+    "name" : "desc",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateLbdc.desc"
+  } ],
+  "desc_key" : "blb.UpdateLbdc.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "UpgradeLbdc" : {
+    "id" : "The cluster ID to be upgraded",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "ccuCount" : "Cluster Capacity Unit (CCU) is a metric used to measure various indicators involved when a BLB cluster processes traffic"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "RenewLbdc",
+  "method" : "PUT",
+  "uri" : "/v{version}/lbdc/{id}?purchaseReserved",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "blb.RenewLbdc.id"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.RenewLbdc.clientToken"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.RenewLbdc.billing",
+    "sub_parameters" : [ {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "blb.RenewLbdc.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "blb.RenewLbdc.billing.reservation.reservationLength"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "blb.RenewLbdc.desc"
+}

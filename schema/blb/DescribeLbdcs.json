@@ -1,0 +1,26 @@
+{
+  "name" : "DescribeLbdcs",
+  "method" : "GET",
+  "uri" : "/v{version}/lbdc",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeLbdcs.id"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeLbdcs.name"
+  } ],
+  "desc_key" : "blb.DescribeLbdcs.desc"
+}

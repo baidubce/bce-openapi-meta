@@ -1,0 +1,18 @@
+{
+  "CreateLbdc" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "name" : "集群名称，长度1~65个字节，字母开头，_可包含字母数字-/.字符",
+    "type" : "集群类型，取值为\"4Layer\"或者\"7Layer\"",
+    "ccuCount" : "集群性能容量单位CCU（Cluster Capacity Unit）是用来衡量BLB集群处理流量时涉及的各个指标。",
+    "desc" : "LBDC的描述，最大支持200字符",
+    "billing" : "订单信息",
+    "billing.paymentTiming" : "付款时间，预支付（Prepaid）和后支付（Postpaid），目前只支持预支付",
+    "billing.billingMethod" : "计费方式，后付费的时候传，\"BySpec\"按固定规格、\"ByCapacityUnit\"按使用量",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置",
+    "renewReservation" : "自动续费信息，是否开启自动续费任务",
+    "renewReservation.reservationLength" : "购买月份时长，[1,2,3,4,5,6,7,8,9,12,24,36]",
+    "tags" : "标签",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-\\_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-\\_ /.特殊字符，长度0-65"
+  }
+}

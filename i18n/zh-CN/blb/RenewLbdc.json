@@ -1,0 +1,8 @@
+{
+  "RenewLbdc" : {
+    "id" : "续费的集群id",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "billing" : "订单信息",
+    "billing.reservation" : "保留信息，预支付时必须设置"
+  }
+}

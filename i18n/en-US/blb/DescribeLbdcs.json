@@ -1,0 +1,6 @@
+{
+  "DescribeLbdcs" : {
+    "id" : "The cluster ID to query",
+    "name" : "The cluster name to query"
+  }
+}
