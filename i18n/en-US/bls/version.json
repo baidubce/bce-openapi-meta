@@ -3,10 +3,6 @@
   "style" : "rpc",
   "description" : "bls",
   "apis" : {
-    "QueryLogHistogram" : {
-      "title" : "queryLogHistogram",
-      "summary" : "queryLogHistogram"
-    },
     "CreateProject" : {
       "title" : "createProject",
       "summary" : "createProject"
@@ -38,6 +34,10 @@
     "DeleteProject" : {
       "title" : "deleteProject",
       "summary" : "deleteProject"
+    },
+    "QueryLogHistogram" : {
+      "title" : "queryLogHistogram",
+      "summary" : "queryLogHistogram"
     }
   }
 }
