@@ -3,25 +3,33 @@
   "style" : "rpc",
   "description" : "并行文件存储",
   "apis" : {
-    "DescPfs" : {
-      "title" : "查询PFS实例详情",
-      "summary" : "查询PFS实例详情"
+    "CreatePfs" : {
+      "title" : "创建PFS实例",
+      "summary" : "创建PFS实例"
+    },
+    "InstanceListClients" : {
+      "title" : "查询PFS实例挂载客户端列表",
+      "summary" : "查询PFS实例挂载客户端列表"
     },
     "DeletePfs" : {
       "title" : "删除PFS实例",
       "summary" : "删除PFS实例"
     },
-    "CreatePfs" : {
-      "title" : "创建PFS实例",
-      "summary" : "创建PFS实例"
+    "DescPfs" : {
+      "title" : "查询PFS实例详情",
+      "summary" : "查询PFS实例详情"
     },
-    "ListPfs" : {
-      "title" : "获取PFS实例列表",
-      "summary" : "获取PFS实例列表"
+    "MountTargetListClients" : {
+      "title" : "查询挂载服务挂载客户端列表",
+      "summary" : "查询挂载服务挂载客户端列表"
     },
     "UpdatePFSTag" : {
       "title" : "更新PFS实例标签",
       "summary" : "更新PFS实例标签"
+    },
+    "ListPfs" : {
+      "title" : "获取PFS实例列表",
+      "summary" : "获取PFS实例列表"
     }
   }
 }

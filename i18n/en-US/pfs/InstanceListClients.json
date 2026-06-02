@@ -1,0 +1,9 @@
+{
+  "InstanceListClients" : {
+    "action" : "The value of this parameter is fixed to InstanceListClients",
+    "instanceId" : "PFS instance ID",
+    "maxKeys" : "Maximum number of client mount entries to return. Default is 100. Valid range is [1, 500]; values outside this range are clamped to 1 or 500",
+    "manner" : "Pagination type for the request; marker must be specified",
+    "marker" : "Results are sorted by internalIp in lexicographical order and returned starting from the first entry after the specified marker (marker itself is excluded)"
+  }
+}

@@ -3,25 +3,33 @@
   "style" : "rpc",
   "description" : "pfs",
   "apis" : {
-    "DescPfs" : {
-      "title" : "descPfs",
-      "summary" : "descPfs"
+    "CreatePfs" : {
+      "title" : "createPfs",
+      "summary" : "createPfs"
+    },
+    "InstanceListClients" : {
+      "title" : "instanceListClients",
+      "summary" : "instanceListClients"
     },
     "DeletePfs" : {
       "title" : "deletePfs",
       "summary" : "deletePfs"
     },
-    "CreatePfs" : {
-      "title" : "createPfs",
-      "summary" : "createPfs"
+    "DescPfs" : {
+      "title" : "descPfs",
+      "summary" : "descPfs"
     },
-    "ListPfs" : {
-      "title" : "listPfs",
-      "summary" : "listPfs"
+    "MountTargetListClients" : {
+      "title" : "mountTargetListClients",
+      "summary" : "mountTargetListClients"
     },
     "UpdatePFSTag" : {
       "title" : "updatePFSTag",
       "summary" : "updatePFSTag"
+    },
+    "ListPfs" : {
+      "title" : "listPfs",
+      "summary" : "listPfs"
     }
   }
 }
