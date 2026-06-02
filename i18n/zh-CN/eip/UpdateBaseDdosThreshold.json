@@ -1,9 +1,0 @@
-{
-  "UpdateBaseDdosThreshold" : {
-    "ip" : "公网IP地址",
-    "clientToken" : "幂等性Token，详见[幂等性](EIP/API参考/通用说明.md#幂等性)",
-    "thresholdType" : "清洗阈值设置类型，包含按带宽上限 (bandwidth)、智能阈值 (auto) 和手动设置 (manual)",
-    "ipCleanMbps" : "每秒流量带宽Mbps，最小值为120Mbps，最大值为5000Mbps (当清洗阈值设置类型为manual时必填)",
-    "ipCleanPps" : "每秒报文数pps，最小值为58594pps，最大值为4882813pps (当清洗阈值设置类型为manual时必填)"
-  }
-}

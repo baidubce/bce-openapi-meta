@@ -1,7 +1,0 @@
-{
-  "ResizeEipBpBandwidth" : {
-    "clientToken" : "幂等性Token",
-    "id" : "带宽包id",
-    "bandwidthInMbps" : "调整后带宽包的公网带宽"
-  }
-}

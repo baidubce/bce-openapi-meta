@@ -1,7 +1,0 @@
-{
-  "BandwidthPackageInquiry" : {
-    "bandwidthInMbps" : "公网带宽，单位为Mbps。对于使用带宽计费的EIP，限制为为1~200之间的整数（代表带宽上限）。",
-    "count" : "EIP数量，默认为1。",
-    "type" : "带宽包的类型，包括BandwidthPackage（带宽包）和AccelerationPackage（跨境加速包），其中跨境加速包仅支持中国香港区域，默认为BandwidthPackage"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "ResizeEipBpBandwidth" : {
-    "clientToken" : "Idempotency token",
-    "id" : "Bandwidth package ID",
-    "bandwidthInMbps" : "Public network bandwidth of the adjusted bandwidth package"
-  }
-}

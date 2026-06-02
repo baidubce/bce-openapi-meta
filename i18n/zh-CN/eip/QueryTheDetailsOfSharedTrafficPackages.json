@@ -1,6 +1,0 @@
-{
-  "QueryTheDetailsOfSharedTrafficPackages" : {
-    "clientToken" : "幂等性Token",
-    "id" : "共享流量包id"
-  }
-}

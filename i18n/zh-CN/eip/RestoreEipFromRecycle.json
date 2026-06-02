@@ -1,6 +1,0 @@
-{
-  "RestoreEipFromRecycle" : {
-    "eip" : "要恢复的回收站内EIP IP地址，包括IPv4 EIP和IPv6 EIP。",
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见幂等性。"
-  }
-}
