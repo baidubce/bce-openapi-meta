@@ -3,25 +3,25 @@
   "style" : "rpc",
   "description" : "bls",
   "apis" : {
+    "QueryLogHistogram" : {
+      "title" : "queryLogHistogram",
+      "summary" : "queryLogHistogram"
+    },
     "CreateProject" : {
       "title" : "createProject",
       "summary" : "createProject"
-    },
-    "PullLogRecord" : {
-      "title" : "pullLogRecord",
-      "summary" : "pullLogRecord"
     },
     "UpdateProject" : {
       "title" : "updateProject",
       "summary" : "updateProject"
     },
-    "QueryLogRecord" : {
-      "title" : "queryLogRecord",
-      "summary" : "queryLogRecord"
-    },
     "ListProject" : {
       "title" : "listProject",
       "summary" : "listProject"
+    },
+    "DeleteProject" : {
+      "title" : "deleteProject",
+      "summary" : "deleteProject"
     },
     "DescribeProject" : {
       "title" : "describeProject",
@@ -31,13 +31,13 @@
       "title" : "pushLogRecord",
       "summary" : "pushLogRecord"
     },
-    "DeleteProject" : {
-      "title" : "deleteProject",
-      "summary" : "deleteProject"
+    "PullLogRecord" : {
+      "title" : "pullLogRecord",
+      "summary" : "pullLogRecord"
     },
-    "QueryLogHistogram" : {
-      "title" : "queryLogHistogram",
-      "summary" : "queryLogHistogram"
+    "QueryLogRecord" : {
+      "title" : "queryLogRecord",
+      "summary" : "queryLogRecord"
     }
   }
 }
