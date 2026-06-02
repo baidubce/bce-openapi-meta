@@ -1,0 +1,37 @@
+{
+  "name" : "MountTargetListClients",
+  "method" : "POST",
+  "uri" : "/?action=MountTargetListClients",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.MountTargetListClients.action"
+  }, {
+    "name" : "mountTargetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.MountTargetListClients.mountTargetId"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.MountTargetListClients.maxKeys"
+  }, {
+    "name" : "manner",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.MountTargetListClients.manner"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.MountTargetListClients.marker"
+  } ],
+  "desc_key" : "pfs.MountTargetListClients.desc"
+}

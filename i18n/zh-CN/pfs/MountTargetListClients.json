@@ -1,0 +1,9 @@
+{
+  "MountTargetListClients" : {
+    "action" : "本接口固定为 MountTargetListClients",
+    "mountTargetId" : "挂载服务ID",
+    "maxKeys" : "返回客户端挂载列表长度，默认为100个，取值范围为【1, 500】，超过范围的规整为1或500",
+    "manner" : "请求的分段类型，必须指定marker",
+    "marker" : "按照internalIp的字典序排列，从marker之后的第一个开始返回（不包括marker）"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name" : "InstanceListClients",
+  "method" : "POST",
+  "uri" : "/?action=InstanceListClients",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.InstanceListClients.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.InstanceListClients.instanceId"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.InstanceListClients.maxKeys"
+  }, {
+    "name" : "manner",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.InstanceListClients.manner"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.InstanceListClients.marker"
+  } ],
+  "desc_key" : "pfs.InstanceListClients.desc"
+}

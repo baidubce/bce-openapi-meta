@@ -1,0 +1,9 @@
+{
+  "MountTargetListClients" : {
+    "action" : "The action for this API is fixed as MountTargetListClients",
+    "mountTargetId" : "Mount target ID",
+    "maxKeys" : "Maximum number of client mount records to return; defaults to 100, valid range is [1, 500], values outside this range are clamped to 1 or 500",
+    "manner" : "Pagination type of the request; marker must be specified",
+    "marker" : "Results are sorted by internalIp lexicographically and returned starting from the first entry after the specified marker (marker itself is excluded)"
+  }
+}
