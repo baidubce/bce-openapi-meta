@@ -219,9 +219,17 @@
       "title" : "describeAppBlbIpGroupMember",
       "summary" : "describeAppBlbIpGroupMember"
     },
+    "DescribeAppBlbServerGroupUnmountRs" : {
+      "title" : "describeAppBlbServerGroupUnmountRs",
+      "summary" : "describeAppBlbServerGroupUnmountRs"
+    },
     "DescribeAppBlbPolicy" : {
       "title" : "describeAppBlbPolicy",
       "summary" : "describeAppBlbPolicy"
+    },
+    "DescribeAppBlbServerGroupMountRs" : {
+      "title" : "describeAppBlbServerGroupMountRs",
+      "summary" : "describeAppBlbServerGroupMountRs"
     },
     "DescribeBlbSecurityGroups" : {
       "title" : "describeBlbSecurityGroups",
@@ -302,10 +310,6 @@
     "CreateAppBlbPolicy" : {
       "title" : "createAppBlbPolicy",
       "summary" : "createAppBlbPolicy"
-    },
-    "DescribeAppBlbServerGroupUnmountRs" : {
-      "title" : "describeAppBlbServerGroupUnmountRs",
-      "summary" : "describeAppBlbServerGroupUnmountRs"
     },
     "UpdateAppBlbServerGroupRs" : {
       "title" : "updateAppBlbServerGroupRs",
@@ -414,10 +418,6 @@
     "DeleteAppBlbServerGroupRs" : {
       "title" : "deleteAppBlbServerGroupRs",
       "summary" : "deleteAppBlbServerGroupRs"
-    },
-    "DescribeAppBlbServerGroupMountRs" : {
-      "title" : "describeAppBlbServerGroupMountRs",
-      "summary" : "describeAppBlbServerGroupMountRs"
     },
     "DescribeAppBlbServerGroupRs" : {
       "title" : "describeAppBlbServerGroupRs",

@@ -219,9 +219,17 @@
       "title" : "查询IP组成员",
       "summary" : "查询IP组成员"
     },
+    "DescribeAppBlbServerGroupUnmountRs" : {
+      "title" : "查询可添加的服务器",
+      "summary" : "查询可添加的服务器"
+    },
     "DescribeAppBlbPolicy" : {
       "title" : "查询转发策略",
       "summary" : "查询转发策略"
+    },
+    "DescribeAppBlbServerGroupMountRs" : {
+      "title" : "查询已添加的所有服务器",
+      "summary" : "查询已添加的所有服务器"
     },
     "DescribeBlbSecurityGroups" : {
       "title" : "查询普通安全组",
@@ -302,10 +310,6 @@
     "CreateAppBlbPolicy" : {
       "title" : "创建策略",
       "summary" : "创建策略"
-    },
-    "DescribeAppBlbServerGroupUnmountRs" : {
-      "title" : "查询可添加的服务器",
-      "summary" : "查询可添加的服务器"
     },
     "UpdateAppBlbServerGroupRs" : {
       "title" : "修改后端服务器",
@@ -414,10 +418,6 @@
     "DeleteAppBlbServerGroupRs" : {
       "title" : "移除后端服务器",
       "summary" : "移除后端服务器"
-    },
-    "DescribeAppBlbServerGroupMountRs" : {
-      "title" : "查询已添加的所有服务器",
-      "summary" : "查询已添加的所有服务器"
     },
     "DescribeAppBlbServerGroupRs" : {
       "title" : "查询已添加的服务器",
