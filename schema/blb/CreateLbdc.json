@@ -1,0 +1,101 @@
+{
+  "name" : "CreateLbdc",
+  "method" : "POST",
+  "uri" : "/v{version}/lbdc",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.CreateLbdc.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateLbdc.name"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateLbdc.type"
+  }, {
+    "name" : "ccuCount",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateLbdc.ccuCount"
+  }, {
+    "name" : "desc",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateLbdc.desc"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateLbdc.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateLbdc.billing.paymentTiming"
+    }, {
+      "name" : "billingMethod",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateLbdc.billing.billingMethod"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "blb.CreateLbdc.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "blb.CreateLbdc.billing.reservation.reservationLength"
+      } ]
+    } ]
+  }, {
+    "name" : "renewReservation",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateLbdc.renewReservation",
+    "sub_parameters" : [ {
+      "name" : "reservationLength",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "blb.CreateLbdc.renewReservation.reservationLength"
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateLbdc.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateLbdc.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateLbdc.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "blb.CreateLbdc.desc"
+}

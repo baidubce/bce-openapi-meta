@@ -1,0 +1,8 @@
+{
+  "RenewLbdc" : {
+    "id" : "The cluster ID to be renewed",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "billing" : "Order information",
+    "billing.reservation" : "Reservation information, required when prepayment is used"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "DescribeLbdcBlb" : {
+    "id" : "The cluster ID to query"
+  }
+}

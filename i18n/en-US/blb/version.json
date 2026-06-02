@@ -3,6 +3,14 @@
   "style" : "rpc",
   "description" : "blb",
   "apis" : {
+    "UpgradeLbdc" : {
+      "title" : "upgradeLbdc",
+      "summary" : "upgradeLbdc"
+    },
+    "RenewLbdc" : {
+      "title" : "renewLbdc",
+      "summary" : "renewLbdc"
+    },
     "UpdateService" : {
       "title" : "updateService",
       "summary" : "updateService"
@@ -99,6 +107,10 @@
       "title" : "deleteAppBlbIpGroupProtocol",
       "summary" : "deleteAppBlbIpGroupProtocol"
     },
+    "CreateLbdc" : {
+      "title" : "createLbdc",
+      "summary" : "createLbdc"
+    },
     "ReleaseBlb" : {
       "title" : "releaseBlb",
       "summary" : "releaseBlb"
@@ -118,6 +130,10 @@
     "UpdateBlb" : {
       "title" : "updateBlb",
       "summary" : "updateBlb"
+    },
+    "DescribeLbdc" : {
+      "title" : "describeLbdc",
+      "summary" : "describeLbdc"
     },
     "CreateService" : {
       "title" : "createService",
@@ -215,9 +231,21 @@
       "title" : "describeBlbEnterpriseSecurityGroups",
       "summary" : "describeBlbEnterpriseSecurityGroups"
     },
+    "DescribeLbdcs" : {
+      "title" : "describeLbdcs",
+      "summary" : "describeLbdcs"
+    },
     "CreateAppBlb" : {
       "title" : "createAppBlb",
       "summary" : "createAppBlb"
+    },
+    "DescribeLbdcBlb" : {
+      "title" : "describeLbdcBlb",
+      "summary" : "describeLbdcBlb"
+    },
+    "UpdateLbdc" : {
+      "title" : "updateLbdc",
+      "summary" : "updateLbdc"
     },
     "UpdateAppBlb" : {
       "title" : "updateAppBlb",

@@ -1,0 +1,18 @@
+{
+  "CreateLbdc" : {
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "name" : "Cluster name, 1–65 bytes, must start with a letter, may contain letters, digits, and the characters -/._",
+    "type" : "Cluster type, valid values are \"4Layer\" or \"7Layer\"",
+    "ccuCount" : "Cluster Capacity Unit (CCU), the performance capacity unit used to measure various metrics when a BLB cluster processes traffic",
+    "desc" : "Description of the LBDC, up to 200 characters",
+    "billing" : "Order billing information",
+    "billing.paymentTiming" : "Payment timing; Prepaid or Postpaid — currently only Prepaid is supported",
+    "billing.billingMethod" : "Billing method, required for postpaid; \"BySpec\" for fixed specification, \"ByCapacityUnit\" for usage-based billing",
+    "billing.reservation" : "Reservation details; not required for postpaid, mandatory for prepaid",
+    "renewReservation" : "Auto-renewal configuration, specifies whether to enable automatic renewal",
+    "renewReservation.reservationLength" : "Purchase duration in months, valid values: [1,2,3,4,5,6,7,8,9,12,24,36]",
+    "tags" : "Resource tags",
+    "tags.tagKey" : "Tag key, may contain uppercase and lowercase letters, digits, Chinese characters, and the special characters -\\_ /., length 1–65",
+    "tags.tagValue" : "Tag value, may contain uppercase and lowercase letters, digits, Chinese characters, and the special characters -\\_ /., length 0–65"
+  }
+}

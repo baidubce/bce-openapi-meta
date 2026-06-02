@@ -1,0 +1,5 @@
+{
+  "DescribeLbdc" : {
+    "id" : "要查询的集群id"
+  }
+}

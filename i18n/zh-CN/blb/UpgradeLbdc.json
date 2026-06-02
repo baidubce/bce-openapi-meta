@@ -1,0 +1,7 @@
+{
+  "UpgradeLbdc" : {
+    "id" : "升级的集群id",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "ccuCount" : "集群性能容量单位CCU（Cluster Capacity Unit）是用来衡量BLB集群处理流量时涉及的各个指标。"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "UpdateLbdc" : {
+    "id" : "Cluster ID",
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "name" : "Cluster name. Length 1–65 bytes, must start with a letter, may contain letters, digits, and the characters - / . _",
+    "desc" : "Cluster description, supports up to 200 characters"
+  }
+}
