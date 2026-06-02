@@ -1,8 +1,0 @@
-{
-  "DisableTbspIpClean" : {
-    "id" : "DDoS Enhanced Protection Package ID",
-    "clientToken" : "Idempotency token, up to 64 characters",
-    "ip" : "Protected object IP address of the DDoS enhanced protection package",
-    "turnOffDuration" : "Duration for disabling traffic scrubbing on the protected IP (unit: minutes), minimum 30, maximum 7200"
-  }
-}

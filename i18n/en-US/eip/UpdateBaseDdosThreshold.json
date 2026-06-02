@@ -1,9 +1,0 @@
-{
-  "UpdateBaseDdosThreshold" : {
-    "ip" : "Public IP address",
-    "clientToken" : "Idempotency token, see [Idempotency](EIP/API参考/通用说明.md#幂等性)",
-    "thresholdType" : "Scrubbing threshold setting type, including bandwidth cap (bandwidth), intelligent threshold (auto), and manual setting (manual)",
-    "ipCleanMbps" : "Traffic bandwidth in Mbps per second, minimum 120 Mbps, maximum 5000 Mbps (required when thresholdType is manual)",
-    "ipCleanPps" : "Packet rate in pps per second, minimum 58594 pps, maximum 4882813 pps (required when thresholdType is manual)"
-  }
-}

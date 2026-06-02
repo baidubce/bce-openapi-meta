@@ -1,7 +1,0 @@
-{
-  "RemoveTbspProtocolBlocking" : {
-    "id" : "DDoS enhanced protection package ID",
-    "ip" : "Protected IP address of the DDoS enhanced protection package",
-    "clientToken" : "Idempotency token, up to 64 characters in length"
-  }
-}

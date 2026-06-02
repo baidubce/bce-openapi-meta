@@ -1,9 +1,0 @@
-{
-  "ListEipGroup" : {
-    "id" : "The ID of the shared bandwidth group to query",
-    "name" : "The name of the shared bandwidth group to query",
-    "status" : "The status of the shared bandwidth group to query",
-    "marker" : "The starting position for paginated list queries, a system-generated string",
-    "maxKeys" : "The maximum number of items per page, up to 1000. Default value is 1000"
-  }
-}

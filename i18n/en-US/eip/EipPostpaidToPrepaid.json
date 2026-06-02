@@ -1,8 +1,0 @@
-{
-  "EipPostpaidToPrepaid" : {
-    "eip" : "The EIP for billing change, including IPv4 EIP and IPv6 EIP.",
-    "clientToken" : "Idempotency token. See [Idempotency Token](EIP/API参考/通用说明.md#幂等性).",
-    "purchaseLength" : "Purchase duration for prepaid EIP, in months. Valid values: 1-9, 12, 24, 36.",
-    "bandWidth" : "Public network bandwidth for prepaid EIP."
-  }
-}

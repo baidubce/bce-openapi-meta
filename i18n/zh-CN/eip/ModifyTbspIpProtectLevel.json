@@ -1,8 +1,0 @@
-{
-  "ModifyTbspIpProtectLevel" : {
-    "id" : "DDoS增强防护包ID",
-    "clientToken" : "幂等性Token，长度不超过64位",
-    "ip" : "DDoS增强防护包防护对象IP地址",
-    "protectLevel" : "防护等级，可为1（宽松）、2（适中）、3（严格）"
-  }
-}

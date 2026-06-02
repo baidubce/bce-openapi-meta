@@ -1,6 +1,0 @@
-{
-  "QueryTheDetailsOfSharedTrafficPackages" : {
-    "clientToken" : "Idempotency token",
-    "id" : "Shared traffic package ID"
-  }
-}

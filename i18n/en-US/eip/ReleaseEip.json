@@ -1,7 +1,0 @@
-{
-  "ReleaseEip" : {
-    "eip" : "The EIP to be released, including both IPv4 EIP and IPv6 EIP.",
-    "releaseToRecycle" : "true to move the EIP to the recycle bin; false to release the EIP immediately.",
-    "clientToken" : "Idempotency token. See [Idempotency](EIP/API参考/通用说明.md#幂等性) for details."
-  }
-}

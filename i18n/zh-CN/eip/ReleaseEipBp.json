@@ -1,6 +1,0 @@
-{
-  "ReleaseEipBp" : {
-    "clientToken" : "幂等性Token。",
-    "id" : "待释放的带宽包id"
-  }
-}

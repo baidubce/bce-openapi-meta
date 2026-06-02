@@ -1,6 +1,0 @@
-{
-  "GetEipBp" : {
-    "clientToken" : "幂等性Token",
-    "id" : "带宽包id"
-  }
-}
