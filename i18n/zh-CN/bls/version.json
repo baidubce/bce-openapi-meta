@@ -3,13 +3,9 @@
   "style" : "rpc",
   "description" : "日志服务",
   "apis" : {
-    "QueryLogHistogram" : {
-      "title" : "直方图接口QueryLogHistogram",
-      "summary" : "直方图接口QueryLogHistogram"
-    },
     "CreateProject" : {
-      "title" : "创建日志组",
-      "summary" : "创建日志组"
+      "title" : "创建日志组CreateProject",
+      "summary" : "创建日志组CreateProject"
     },
     "PullLogRecord" : {
       "title" : "获取日志记录",
@@ -38,6 +34,10 @@
     "DeleteProject" : {
       "title" : "删除日志组",
       "summary" : "删除日志组"
+    },
+    "QueryLogHistogram" : {
+      "title" : "查询直方图",
+      "summary" : "查询直方图"
     }
   }
 }
