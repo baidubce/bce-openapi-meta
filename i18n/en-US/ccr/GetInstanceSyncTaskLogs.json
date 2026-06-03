@@ -1,0 +1,7 @@
+{
+  "GetInstanceSyncTaskLogs" : {
+    "instanceId" : "CCR instance ID",
+    "executionId" : "Instance sync execution task ID",
+    "taskId" : "Task ID"
+  }
+}

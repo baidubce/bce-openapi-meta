@@ -1,0 +1,7 @@
+{
+  "GetInstanceSyncTaskLogs" : {
+    "instanceId" : "CCR实例ID",
+    "executionId" : "实例同步执行任务ID",
+    "taskId" : "任务ID"
+  }
+}

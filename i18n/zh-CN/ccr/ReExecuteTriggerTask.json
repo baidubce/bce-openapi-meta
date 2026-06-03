@@ -1,0 +1,7 @@
+{
+  "ReExecuteTriggerTask" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "触发器策略ID",
+    "jobId" : "触发器任务ID"
+  }
+}

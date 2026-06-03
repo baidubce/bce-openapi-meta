@@ -1,0 +1,43 @@
+{
+  "name" : "ListChartVersions",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/charts/{chartName}/versions",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListChartVersions.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListChartVersions.projectName"
+  }, {
+    "name" : "chartName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListChartVersions.chartName"
+  }, {
+    "name" : "chartVersion",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListChartVersions.chartVersion"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListChartVersions.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListChartVersions.pageSize"
+  } ],
+  "desc_key" : "ccr.ListChartVersions.desc"
+}

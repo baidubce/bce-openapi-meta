@@ -1,0 +1,7 @@
+{
+  "GetRepository" : {
+    "instanceId" : "Instance ID",
+    "projectName" : "Namespace name",
+    "repositoryName" : "Image repository name<br> Note: The image repository name may contain the / character, so it is recommended to Base64-encode the repository name. For example, `lib/ubuntu` encodes to `bGliL3VidW50dQ==`"
+  }
+}

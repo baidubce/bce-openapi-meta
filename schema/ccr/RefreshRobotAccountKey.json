@@ -1,0 +1,25 @@
+{
+  "name" : "RefreshRobotAccountKey",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/robots/{robotID}/secret",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.RefreshRobotAccountKey.instanceId"
+  }, {
+    "name" : "robotID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.RefreshRobotAccountKey.robotID"
+  }, {
+    "name" : "secret",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.RefreshRobotAccountKey.secret"
+  } ],
+  "desc_key" : "ccr.RefreshRobotAccountKey.desc"
+}

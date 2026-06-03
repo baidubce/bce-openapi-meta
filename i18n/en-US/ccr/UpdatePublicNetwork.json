@@ -1,0 +1,6 @@
+{
+  "UpdatePublicNetwork" : {
+    "instanceId" : "CCR instance ID",
+    "action" : "Action to update public network access, valid values: open, close, which enable or disable the public network access endpoint respectively"
+  }
+}

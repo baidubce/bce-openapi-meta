@@ -1,0 +1,31 @@
+{
+  "name" : "UpdateRepository",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/repositories/{repositoryName}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateRepository.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateRepository.projectName"
+  }, {
+    "name" : "repositoryName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateRepository.repositoryName"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateRepository.description"
+  } ],
+  "desc_key" : "ccr.UpdateRepository.desc"
+}

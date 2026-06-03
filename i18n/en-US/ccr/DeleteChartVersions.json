@@ -1,0 +1,8 @@
+{
+  "DeleteChartVersions" : {
+    "instanceId" : "CCR instance ID",
+    "projectName" : "Namespace name",
+    "chartName" : "Chart name",
+    "items" : "Array of Chart version numbers"
+  }
+}

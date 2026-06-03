@@ -1,0 +1,8 @@
+{
+  "ListImageMigrationRecords" : {
+    "instanceId" : "Instance ID",
+    "policyId" : "Image migration policy ID",
+    "pageNo" : "Current page number, default is 1",
+    "pageSize" : "Number of records per page, default is 10"
+  }
+}

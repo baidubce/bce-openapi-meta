@@ -1,0 +1,10 @@
+{
+  "ListChartVersions" : {
+    "instanceId" : "CCR实例ID",
+    "projectName" : "命名空间名称",
+    "chartName" : "Chart名称",
+    "chartVersion" : "Chart版本号，支持模糊查询",
+    "pageNo" : "当前页码，默认1",
+    "pageSize" : "每页记录数，默认10，最大100"
+  }
+}

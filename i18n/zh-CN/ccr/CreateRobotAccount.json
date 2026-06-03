@@ -1,0 +1,14 @@
+{
+  "CreateRobotAccount" : {
+    "instanceId" : "CCR实例ID",
+    "name" : "机器人账号名称。注意：创建成功后的机器人账号会自动加上前缀`ccr$`，如填写 test，则实际使用的用户名为：ccr$test。<br> 长度限制在1~65之间，必须以小写字母或数字开头和结尾，支持小写字母、数字及特殊字符._-，但特殊字符不可连续",
+    "secret" : "账号密码，如果不填则由系统自动生成。<br>长度8~65，必须包含大、小写字母、数字或特殊字符，特殊字符允许!@#$%^*()",
+    "disable" : "是否禁用，默认是false",
+    "duration" : "账号有效期，单位：天，-1表示永不过期",
+    "description" : "账号描述，长度0~1024个字符",
+    "permissions" : "权限",
+    "permissions.kind" : "固定值为 `project`",
+    "permissions.namespace" : "命名空间名称，如果是选择所有命名空间，则展示 `*`",
+    "permissions.access" : "访问权限内容"
+  }
+}

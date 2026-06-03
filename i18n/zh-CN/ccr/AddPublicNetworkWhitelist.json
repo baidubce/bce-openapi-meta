@@ -1,0 +1,7 @@
+{
+  "AddPublicNetworkWhitelist" : {
+    "instanceId" : "CCR实例D",
+    "ipAddr" : "白名单IP地址，输入单个IPV4地址或CIDR地址段",
+    "description" : "白名单描述"
+  }
+}

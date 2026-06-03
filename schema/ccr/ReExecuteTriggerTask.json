@@ -1,0 +1,25 @@
+{
+  "name" : "ReExecuteTriggerTask",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/triggers/policies/{policyId}/jobs/{jobId}/retry",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ReExecuteTriggerTask.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ReExecuteTriggerTask.policyId"
+  }, {
+    "name" : "jobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ReExecuteTriggerTask.jobId"
+  } ],
+  "desc_key" : "ccr.ReExecuteTriggerTask.desc"
+}

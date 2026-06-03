@@ -1,0 +1,25 @@
+{
+  "name" : "ToggleTrigger",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/triggers/policies/{policyId}/enable",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ToggleTrigger.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ToggleTrigger.policyId"
+  }, {
+    "name" : "enabled",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ToggleTrigger.enabled"
+  } ],
+  "desc_key" : "ccr.ToggleTrigger.desc"
+}

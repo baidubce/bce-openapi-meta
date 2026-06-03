@@ -1,0 +1,26 @@
+{
+  "name" : "TestTriggerTargetAddress",
+  "method" : "POST",
+  "uri" : "/v1/instances/{instanceId}/triggers/policies/targets",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.TestTriggerTargetAddress.instanceId"
+  }, {
+    "name" : "address",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.TestTriggerTargetAddress.address"
+  }, {
+    "name" : "headers",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.TestTriggerTargetAddress.headers",
+    "sub_parameters" : [ ]
+  } ],
+  "desc_key" : "ccr.TestTriggerTargetAddress.desc"
+}

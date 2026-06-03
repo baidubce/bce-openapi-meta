@@ -1,0 +1,6 @@
+{
+  "ExecuteImageMigration" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "执行任务所属的规则ID"
+  }
+}

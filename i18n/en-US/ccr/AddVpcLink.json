@@ -1,0 +1,10 @@
+{
+  "AddVpcLink" : {
+    "instanceId" : "CCR instance ID",
+    "vpcID" : "VPC ID",
+    "subnetID" : "VPC subnet ID",
+    "ipType" : "IP allocation method, valid values: auto, manual, indicating automatic allocation and manual specification respectively",
+    "ipAddress" : "Required when ipType is manual, an available IP within the subnet",
+    "autoDnsResolve" : "Automatic DNS resolution, valid values: true, false"
+  }
+}

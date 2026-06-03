@@ -1,0 +1,7 @@
+{
+  "DeleteVpcLink" : {
+    "instanceId" : "CCR instance ID",
+    "vpcID" : "VPC ID",
+    "subnetID" : "VPC subnet ID"
+  }
+}

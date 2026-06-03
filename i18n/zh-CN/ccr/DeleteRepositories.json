@@ -1,0 +1,7 @@
+{
+  "DeleteRepositories" : {
+    "instanceId" : "实例ID",
+    "projectName" : "命名空间名称",
+    "items" : "待删除的镜像仓库名称数组,最大100"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "UpdateRobotAccount" : {
+    "instanceId" : "实例ID",
+    "robotID" : "机器人账号ID",
+    "disable" : "是否禁用，默认是false",
+    "duration" : "账号有效期，单位：天，-1表示永不过期",
+    "description" : "账号描述，长度0~1024个字符",
+    "permissions" : "权限",
+    "permissions.kind" : "固定值为 `project`",
+    "permissions.namespace" : "命名空间名称，如果是选择所有命名空间，则展示 `*`",
+    "permissions.access" : "访问权限内容"
+  }
+}

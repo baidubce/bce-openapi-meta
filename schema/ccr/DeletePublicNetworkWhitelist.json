@@ -1,0 +1,19 @@
+{
+  "name" : "DeletePublicNetworkWhitelist",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/publiclinks/whitelist",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeletePublicNetworkWhitelist.instanceId"
+  }, {
+    "name" : "items",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.DeletePublicNetworkWhitelist.items"
+  } ],
+  "desc_key" : "ccr.DeletePublicNetworkWhitelist.desc"
+}

@@ -1,0 +1,25 @@
+{
+  "name" : "AddPublicNetworkWhitelist",
+  "method" : "POST",
+  "uri" : "/v1/instances/{instanceId}/publiclinks/whitelist",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.AddPublicNetworkWhitelist.instanceId"
+  }, {
+    "name" : "ipAddr",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.AddPublicNetworkWhitelist.ipAddr"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.AddPublicNetworkWhitelist.description"
+  } ],
+  "desc_key" : "ccr.AddPublicNetworkWhitelist.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "GetInstanceSyncDetail" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "实例同步规则ID"
+  }
+}

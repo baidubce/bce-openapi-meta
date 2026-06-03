@@ -1,0 +1,8 @@
+{
+  "ListImageMigrationRules" : {
+    "instanceId" : "实例ID",
+    "policyName" : "镜像迁移规则名称，支持模糊查询",
+    "pageNo" : "当前页，默认为1",
+    "pageSize" : "每页记录数，默认为10"
+  }
+}

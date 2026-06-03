@@ -1,0 +1,13 @@
+{
+  "name" : "GetInstanceDetail",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetInstanceDetail.instanceId"
+  } ],
+  "desc_key" : "ccr.GetInstanceDetail.desc"
+}

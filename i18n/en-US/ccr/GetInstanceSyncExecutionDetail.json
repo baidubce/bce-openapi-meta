@@ -1,0 +1,6 @@
+{
+  "GetInstanceSyncExecutionDetail" : {
+    "instanceId" : "CCR instance ID",
+    "executionId" : "Instance sync execution task ID"
+  }
+}

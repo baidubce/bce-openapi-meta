@@ -1,0 +1,7 @@
+{
+  "RefreshRobotAccountKey" : {
+    "instanceId" : "实例ID",
+    "robotID" : "机器人账号ID",
+    "secret" : "新密码，如果不填则由系统自动生成。<br>长度8~65，必须包含大、小写字母、数字或特殊字符，特殊字符允许!@#$%^*()"
+  }
+}

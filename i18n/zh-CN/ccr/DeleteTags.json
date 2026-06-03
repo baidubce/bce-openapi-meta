@@ -1,0 +1,8 @@
+{
+  "DeleteTags" : {
+    "instanceId" : "CCR实例ID",
+    "projectName" : "命名空间名称",
+    "repositoryName" : "镜像仓库名称",
+    "items" : "待删除的Tag名称数组，最大100个"
+  }
+}

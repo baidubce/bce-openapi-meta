@@ -1,0 +1,6 @@
+{
+  "ExecuteInstanceSync" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Policy ID to which the execution task belongs"
+  }
+}

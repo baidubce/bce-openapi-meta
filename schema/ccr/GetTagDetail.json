@@ -1,0 +1,31 @@
+{
+  "name" : "GetTagDetail",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/repositories/{repositoryName}/tags/{tagName}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagDetail.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagDetail.projectName"
+  }, {
+    "name" : "repositoryName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagDetail.repositoryName"
+  }, {
+    "name" : "tagName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagDetail.tagName"
+  } ],
+  "desc_key" : "ccr.GetTagDetail.desc"
+}

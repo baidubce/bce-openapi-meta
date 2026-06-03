@@ -1,0 +1,19 @@
+{
+  "name" : "StopImageMigration",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/executions/{executionId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.StopImageMigration.instanceId"
+  }, {
+    "name" : "executionId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.StopImageMigration.executionId"
+  } ],
+  "desc_key" : "ccr.StopImageMigration.desc"
+}

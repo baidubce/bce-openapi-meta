@@ -1,0 +1,19 @@
+{
+  "name" : "GetAcceleratorFilterDetail",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/accelerators/policies/{policyId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetAcceleratorFilterDetail.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetAcceleratorFilterDetail.policyId"
+  } ],
+  "desc_key" : "ccr.GetAcceleratorFilterDetail.desc"
+}

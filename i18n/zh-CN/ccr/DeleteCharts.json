@@ -1,0 +1,7 @@
+{
+  "DeleteCharts" : {
+    "instanceId" : "CCR实例ID",
+    "projectName" : "命名空间名称",
+    "items" : "Chart名称数组"
+  }
+}

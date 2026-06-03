@@ -1,0 +1,8 @@
+{
+  "ListTriggers" : {
+    "instanceId" : "Instance ID",
+    "policyName" : "Trigger policy name, supports fuzzy query",
+    "pageNo" : "Current page number, default is 1",
+    "pageSize" : "Number of records per page, default is 10, maximum is 100"
+  }
+}

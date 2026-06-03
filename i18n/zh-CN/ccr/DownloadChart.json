@@ -1,0 +1,7 @@
+{
+  "DownloadChart" : {
+    "instanceId" : "CCR实例ID",
+    "projectName" : "命名空间名称",
+    "filename" : "Helm Chart文件名称，从[Helm Chart版本列表](CCR/企业版API参考/附录.md#HelmChartVersion)返回结果中的urls字段查看Chart文件名称文件名称"
+  }
+}

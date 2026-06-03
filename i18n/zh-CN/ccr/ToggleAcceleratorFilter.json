@@ -1,0 +1,7 @@
+{
+  "ToggleAcceleratorFilter" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "镜像按需加载规则ID",
+    "enabled" : "是否开启"
+  }
+}

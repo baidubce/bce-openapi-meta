@@ -1,0 +1,6 @@
+{
+  "DeleteAcceleratorFilter" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "镜像加速规则ID"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteImageMigrationRule" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Image migration rule ID"
+  }
+}

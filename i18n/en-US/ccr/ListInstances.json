@@ -1,0 +1,9 @@
+{
+  "ListInstances" : {
+    "pageNo" : "Current page number",
+    "pageSize" : "Number of records per page, default 10",
+    "keywordType" : "Keyword type, valid values: id, name, indicating query by instance ID or instance name respectively",
+    "keyword" : "Keyword",
+    "acrossregion" : "Whether to search across all regions, valid values: true, false, default false"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "TestTriggerTargetAddress" : {
+    "instanceId" : "CCR instance ID",
+    "address" : "Target URL",
+    "headers" : "Header key only supports \"Authorization\""
+  }
+}

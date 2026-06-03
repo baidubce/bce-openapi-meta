@@ -1,0 +1,8 @@
+{
+  "UpdateRepository" : {
+    "instanceId" : "Instance ID",
+    "projectName" : "Namespace name",
+    "repositoryName" : "Image repository name<br> Note: Since the repository name may contain the `/` character, it is recommended to Base64-encode the name. For example, `lib/ubuntu` encodes to `bGliL3VidW50dQ==`",
+    "description" : "Image repository description"
+  }
+}

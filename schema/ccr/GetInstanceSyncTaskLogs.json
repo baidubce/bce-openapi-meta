@@ -1,0 +1,25 @@
+{
+  "name" : "GetInstanceSyncTaskLogs",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/executions/{executionId}/tasks/{taskId}/log",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetInstanceSyncTaskLogs.instanceId"
+  }, {
+    "name" : "executionId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetInstanceSyncTaskLogs.executionId"
+  }, {
+    "name" : "taskId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetInstanceSyncTaskLogs.taskId"
+  } ],
+  "desc_key" : "ccr.GetInstanceSyncTaskLogs.desc"
+}

@@ -1,0 +1,5 @@
+{
+  "GetPublicNetworkConfig" : {
+    "instanceId" : "CCR实例ID"
+  }
+}

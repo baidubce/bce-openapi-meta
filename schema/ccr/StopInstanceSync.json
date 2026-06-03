@@ -1,0 +1,19 @@
+{
+  "name" : "StopInstanceSync",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/executions/{executionId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.StopInstanceSync.instanceId"
+  }, {
+    "name" : "executionId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.StopInstanceSync.executionId"
+  } ],
+  "desc_key" : "ccr.StopInstanceSync.desc"
+}

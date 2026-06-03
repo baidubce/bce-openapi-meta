@@ -1,0 +1,8 @@
+{
+  "ListTriggers" : {
+    "instanceId" : "实例ID",
+    "policyName" : "触发器策略名称，支持模糊查询",
+    "pageNo" : "当前页，默认为1",
+    "pageSize" : "每页记录数，默认为10，最大100"
+  }
+}

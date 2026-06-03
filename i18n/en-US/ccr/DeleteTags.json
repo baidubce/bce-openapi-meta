@@ -1,0 +1,8 @@
+{
+  "DeleteTags" : {
+    "instanceId" : "CCR instance ID",
+    "projectName" : "Namespace name",
+    "repositoryName" : "Image repository name",
+    "items" : "Array of tag names to delete, maximum 100 items"
+  }
+}

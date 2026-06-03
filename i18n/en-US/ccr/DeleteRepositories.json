@@ -1,0 +1,7 @@
+{
+  "DeleteRepositories" : {
+    "instanceId" : "Instance ID",
+    "projectName" : "Namespace name",
+    "items" : "Array of image repository names to delete, maximum 100"
+  }
+}

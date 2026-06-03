@@ -1,0 +1,8 @@
+{
+  "ListRobotAccounts" : {
+    "instanceId" : "Instance ID",
+    "status" : "Status filter, valid values: enabled, disabled",
+    "pageNo" : "Current page number",
+    "pageSize" : "Records per page, default 10, max 100"
+  }
+}

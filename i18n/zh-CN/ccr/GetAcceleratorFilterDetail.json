@@ -1,0 +1,6 @@
+{
+  "GetAcceleratorFilterDetail" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "镜像按需加载规则ID"
+  }
+}

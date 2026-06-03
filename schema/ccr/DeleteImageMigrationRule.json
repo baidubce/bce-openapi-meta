@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteImageMigrationRule",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/replications/{policyId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteImageMigrationRule.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteImageMigrationRule.policyId"
+  } ],
+  "desc_key" : "ccr.DeleteImageMigrationRule.desc"
+}

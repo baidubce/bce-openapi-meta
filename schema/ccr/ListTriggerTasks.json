@@ -1,0 +1,31 @@
+{
+  "name" : "ListTriggerTasks",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/triggers/policies/{policyId}/jobs",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListTriggerTasks.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListTriggerTasks.policyId"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListTriggerTasks.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListTriggerTasks.pageSize"
+  } ],
+  "desc_key" : "ccr.ListTriggerTasks.desc"
+}

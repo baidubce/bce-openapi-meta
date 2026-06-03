@@ -1,0 +1,19 @@
+{
+  "name" : "UpdatePublicNetwork",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/publiclinks",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdatePublicNetwork.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdatePublicNetwork.action"
+  } ],
+  "desc_key" : "ccr.UpdatePublicNetwork.desc"
+}

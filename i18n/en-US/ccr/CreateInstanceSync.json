@@ -1,0 +1,16 @@
+{
+  "CreateInstanceSync" : {
+    "instanceId" : "CCR instance ID",
+    "description" : "Sync rule description",
+    "destInstanceId" : "Destination instance ID for synchronization",
+    "destProjectName" : "Destination namespace for synchronization",
+    "name" : "Sync rule name",
+    "override" : "Whether to overwrite existing images with the same name in the destination instance",
+    "srcProjectName" : "Source instance namespace",
+    "srcRepository" : "Source repository name",
+    "srcTag" : "Source image tag",
+    "syncType" : "Synchronization type",
+    "trigger" : "Trigger",
+    "trigger.type" : "Trigger type for sync rule, valid values are `manual` and `event_based`"
+  }
+}

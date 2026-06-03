@@ -1,0 +1,25 @@
+{
+  "name" : "DeleteRepositories",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/repositories",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteRepositories.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteRepositories.projectName"
+  }, {
+    "name" : "items",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.DeleteRepositories.items"
+  } ],
+  "desc_key" : "ccr.DeleteRepositories.desc"
+}

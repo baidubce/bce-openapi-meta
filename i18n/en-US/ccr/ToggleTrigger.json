@@ -1,0 +1,7 @@
+{
+  "ToggleTrigger" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Trigger policy ID",
+    "enabled" : "Whether to enable"
+  }
+}

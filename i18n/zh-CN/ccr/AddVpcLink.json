@@ -1,0 +1,10 @@
+{
+  "AddVpcLink" : {
+    "instanceId" : "CCR实例ID",
+    "vpcID" : "私有网络ID",
+    "subnetID" : "私有网络子网ID",
+    "ipType" : "IP分配方式，取值范围：auto、manual，分别表示自动分配、手动指定",
+    "ipAddress" : "当ipType为manual为必填，子网内可用的IP",
+    "autoDnsResolve" : "自动DNS解析，取值范围：true、false"
+  }
+}

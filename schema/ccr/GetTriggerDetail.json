@@ -1,0 +1,19 @@
+{
+  "name" : "GetTriggerDetail",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/triggers/policies/{policyId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTriggerDetail.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTriggerDetail.policyId"
+  } ],
+  "desc_key" : "ccr.GetTriggerDetail.desc"
+}

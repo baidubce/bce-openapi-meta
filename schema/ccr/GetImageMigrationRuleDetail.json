@@ -1,0 +1,19 @@
+{
+  "name" : "GetImageMigrationRuleDetail",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/replications/{policyId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetImageMigrationRuleDetail.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetImageMigrationRuleDetail.policyId"
+  } ],
+  "desc_key" : "ccr.GetImageMigrationRuleDetail.desc"
+}

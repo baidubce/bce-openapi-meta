@@ -1,0 +1,19 @@
+{
+  "name" : "GetImageMigrationExecutionRecordDetail",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/executions/{executionId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetImageMigrationExecutionRecordDetail.instanceId"
+  }, {
+    "name" : "executionId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetImageMigrationExecutionRecordDetail.executionId"
+  } ],
+  "desc_key" : "ccr.GetImageMigrationExecutionRecordDetail.desc"
+}

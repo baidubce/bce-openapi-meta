@@ -1,0 +1,16 @@
+{
+  "CreateInstanceSync" : {
+    "instanceId" : "CCR实例ID",
+    "description" : "同步规则备注",
+    "destInstanceId" : "同步目标实例ID",
+    "destProjectName" : "同步目标命名空间",
+    "name" : "同步规则名称",
+    "override" : "是否覆盖目标实例已有的同名镜像",
+    "srcProjectName" : "源实例命名空间",
+    "srcRepository" : "源仓库名称",
+    "srcTag" : "源镜像版本",
+    "syncType" : "同步类型",
+    "trigger" : "触发器",
+    "trigger.type" : "同步规则触发类型，有效值为 `manual` 和 `event_based`"
+  }
+}

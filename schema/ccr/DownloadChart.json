@@ -1,0 +1,25 @@
+{
+  "name" : "DownloadChart",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/charts/download/{filename}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DownloadChart.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DownloadChart.projectName"
+  }, {
+    "name" : "filename",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DownloadChart.filename"
+  } ],
+  "desc_key" : "ccr.DownloadChart.desc"
+}

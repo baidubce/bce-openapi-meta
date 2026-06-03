@@ -1,0 +1,6 @@
+{
+  "StopInstanceSync" : {
+    "instanceId" : "CCR instance ID",
+    "executionId" : "Task ID"
+  }
+}

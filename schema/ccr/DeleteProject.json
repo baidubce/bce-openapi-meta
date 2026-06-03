@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteProject",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteProject.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteProject.projectName"
+  } ],
+  "desc_key" : "ccr.DeleteProject.desc"
+}

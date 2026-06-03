@@ -1,0 +1,6 @@
+{
+  "DeleteInstanceSync" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "同步规则ID"
+  }
+}

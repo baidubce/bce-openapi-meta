@@ -1,0 +1,13 @@
+{
+  "name" : "GetUserDetail",
+  "method" : "GET",
+  "uri" : "/v1/users/profile",
+  "parameters" : [ {
+    "name" : "userId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "ccr.GetUserDetail.userId"
+  } ],
+  "desc_key" : "ccr.GetUserDetail.desc"
+}

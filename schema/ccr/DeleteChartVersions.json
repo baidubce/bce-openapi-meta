@@ -1,0 +1,31 @@
+{
+  "name" : "DeleteChartVersions",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/charts/{chartName}/versions",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteChartVersions.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteChartVersions.projectName"
+  }, {
+    "name" : "chartName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteChartVersions.chartName"
+  }, {
+    "name" : "items",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.DeleteChartVersions.items"
+  } ],
+  "desc_key" : "ccr.DeleteChartVersions.desc"
+}

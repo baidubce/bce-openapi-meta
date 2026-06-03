@@ -1,0 +1,8 @@
+{
+  "ListProjects" : {
+    "instanceId" : "Instance ID",
+    "projectName" : "Namespace name, used for fuzzy query",
+    "pageNo" : "Current page number",
+    "pageSize" : "Number of records per page, default is 10, maximum is 100"
+  }
+}

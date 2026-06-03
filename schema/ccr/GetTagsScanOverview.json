@@ -1,0 +1,43 @@
+{
+  "name" : "GetTagsScanOverview",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/repositories/{repositoryName}/tags/{tagName}/scanoverview",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagsScanOverview.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagsScanOverview.projectName"
+  }, {
+    "name" : "repositoryName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagsScanOverview.repositoryName"
+  }, {
+    "name" : "tagName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagsScanOverview.tagName"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.GetTagsScanOverview.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.GetTagsScanOverview.pageSize"
+  } ],
+  "desc_key" : "ccr.GetTagsScanOverview.desc"
+}

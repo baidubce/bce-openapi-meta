@@ -1,0 +1,7 @@
+{
+  "RefreshRobotAccountKey" : {
+    "instanceId" : "Instance ID",
+    "robotID" : "Robot account ID",
+    "secret" : "New password; if not provided, the system will generate one automatically. Length: 8–65 characters, must contain uppercase letters, lowercase letters, digits, or special characters. Allowed special characters: !@#$%^*()"
+  }
+}

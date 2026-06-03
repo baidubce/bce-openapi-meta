@@ -1,0 +1,25 @@
+{
+  "name" : "DeleteVpcLink",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/privatelinks",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteVpcLink.instanceId"
+  }, {
+    "name" : "vpcID",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.DeleteVpcLink.vpcID"
+  }, {
+    "name" : "subnetID",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.DeleteVpcLink.subnetID"
+  } ],
+  "desc_key" : "ccr.DeleteVpcLink.desc"
+}

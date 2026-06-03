@@ -1,0 +1,7 @@
+{
+  "AddPublicNetworkWhitelist" : {
+    "instanceId" : "CCR instance ID",
+    "ipAddr" : "Whitelist IP address, enter a single IPv4 address or CIDR block",
+    "description" : "Whitelist description"
+  }
+}

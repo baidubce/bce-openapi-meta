@@ -1,0 +1,331 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "ccr",
+  "apis" : {
+    "ListTriggerTasks" : {
+      "title" : "listTriggerTasks",
+      "summary" : "listTriggerTasks"
+    },
+    "CreateInstanceSync" : {
+      "title" : "createInstanceSync",
+      "summary" : "createInstanceSync"
+    },
+    "ReExecuteTriggerTask" : {
+      "title" : "reExecuteTriggerTask",
+      "summary" : "reExecuteTriggerTask"
+    },
+    "GetInstanceSyncDetail" : {
+      "title" : "getInstanceSyncDetail",
+      "summary" : "getInstanceSyncDetail"
+    },
+    "GetTagsScanOverview" : {
+      "title" : "getTagsScanOverview",
+      "summary" : "getTagsScanOverview"
+    },
+    "UpdateInstanceSync" : {
+      "title" : "updateInstanceSync",
+      "summary" : "updateInstanceSync"
+    },
+    "AddPublicNetworkWhitelist" : {
+      "title" : "addPublicNetworkWhitelist",
+      "summary" : "addPublicNetworkWhitelist"
+    },
+    "GetTagDetail" : {
+      "title" : "getTagDetail",
+      "summary" : "getTagDetail"
+    },
+    "ToggleTrigger" : {
+      "title" : "toggleTrigger",
+      "summary" : "toggleTrigger"
+    },
+    "ListInstanceSyncs" : {
+      "title" : "listInstanceSyncs",
+      "summary" : "listInstanceSyncs"
+    },
+    "DeletePublicNetworkWhitelist" : {
+      "title" : "deletePublicNetworkWhitelist",
+      "summary" : "deletePublicNetworkWhitelist"
+    },
+    "CreateTrigger" : {
+      "title" : "createTrigger",
+      "summary" : "createTrigger"
+    },
+    "ListVpcLinks" : {
+      "title" : "listVpcLinks",
+      "summary" : "listVpcLinks"
+    },
+    "DeleteProject" : {
+      "title" : "deleteProject",
+      "summary" : "deleteProject"
+    },
+    "DeleteProjects" : {
+      "title" : "deleteProjects",
+      "summary" : "deleteProjects"
+    },
+    "ListProjects" : {
+      "title" : "listProjects",
+      "summary" : "listProjects"
+    },
+    "ExecuteImageMigration" : {
+      "title" : "executeImageMigration",
+      "summary" : "executeImageMigration"
+    },
+    "UpdateImageMigrationRule" : {
+      "title" : "updateImageMigrationRule",
+      "summary" : "updateImageMigrationRule"
+    },
+    "ListImageMigrationRules" : {
+      "title" : "listImageMigrationRules",
+      "summary" : "listImageMigrationRules"
+    },
+    "CreateImageMigrationRule" : {
+      "title" : "createImageMigrationRule",
+      "summary" : "createImageMigrationRule"
+    },
+    "DeleteRobotAccount" : {
+      "title" : "deleteRobotAccount",
+      "summary" : "deleteRobotAccount"
+    },
+    "RefreshRobotAccountKey" : {
+      "title" : "refreshRobotAccountKey",
+      "summary" : "refreshRobotAccountKey"
+    },
+    "StopImageMigration" : {
+      "title" : "stopImageMigration",
+      "summary" : "stopImageMigration"
+    },
+    "DeleteImageMigrationRule" : {
+      "title" : "deleteImageMigrationRule",
+      "summary" : "deleteImageMigrationRule"
+    },
+    "GetImageMigrationExecutionRecordDetail" : {
+      "title" : "getImageMigrationExecutionRecordDetail",
+      "summary" : "getImageMigrationExecutionRecordDetail"
+    },
+    "GetImageMigrationTaskLogs" : {
+      "title" : "getImageMigrationTaskLogs",
+      "summary" : "getImageMigrationTaskLogs"
+    },
+    "ListImageMigrationRecords" : {
+      "title" : "listImageMigrationRecords",
+      "summary" : "listImageMigrationRecords"
+    },
+    "ListImageMigrationTaskRecords" : {
+      "title" : "listImageMigrationTaskRecords",
+      "summary" : "listImageMigrationTaskRecords"
+    },
+    "UpdateRobotAccount" : {
+      "title" : "updateRobotAccount",
+      "summary" : "updateRobotAccount"
+    },
+    "DeleteRepository" : {
+      "title" : "deleteRepository",
+      "summary" : "deleteRepository"
+    },
+    "GetRepository" : {
+      "title" : "getRepository",
+      "summary" : "getRepository"
+    },
+    "ListRobotAccounts" : {
+      "title" : "listRobotAccounts",
+      "summary" : "listRobotAccounts"
+    },
+    "ListInstances" : {
+      "title" : "listInstances",
+      "summary" : "listInstances"
+    },
+    "ListRepositories" : {
+      "title" : "listRepositories",
+      "summary" : "listRepositories"
+    },
+    "ListAcceleratorFilters" : {
+      "title" : "listAcceleratorFilters",
+      "summary" : "listAcceleratorFilters"
+    },
+    "TestTriggerTargetAddress" : {
+      "title" : "testTriggerTargetAddress",
+      "summary" : "testTriggerTargetAddress"
+    },
+    "DeleteAcceleratorFilter" : {
+      "title" : "deleteAcceleratorFilter",
+      "summary" : "deleteAcceleratorFilter"
+    },
+    "ListTags" : {
+      "title" : "listTags",
+      "summary" : "listTags"
+    },
+    "DeleteAcceleratorFilters" : {
+      "title" : "deleteAcceleratorFilters",
+      "summary" : "deleteAcceleratorFilters"
+    },
+    "ToggleAcceleratorFilter" : {
+      "title" : "toggleAcceleratorFilter",
+      "summary" : "toggleAcceleratorFilter"
+    },
+    "ListChartVersions" : {
+      "title" : "listChartVersions",
+      "summary" : "listChartVersions"
+    },
+    "CreateAcceleratorFilter" : {
+      "title" : "createAcceleratorFilter",
+      "summary" : "createAcceleratorFilter"
+    },
+    "DeleteChartVersion" : {
+      "title" : "deleteChartVersion",
+      "summary" : "deleteChartVersion"
+    },
+    "TestAcceleratorFilter" : {
+      "title" : "testAcceleratorFilter",
+      "summary" : "testAcceleratorFilter"
+    },
+    "DownloadChart" : {
+      "title" : "downloadChart",
+      "summary" : "downloadChart"
+    },
+    "GetAcceleratorFilterDetail" : {
+      "title" : "getAcceleratorFilterDetail",
+      "summary" : "getAcceleratorFilterDetail"
+    },
+    "DeleteCharts" : {
+      "title" : "deleteCharts",
+      "summary" : "deleteCharts"
+    },
+    "GetInstanceDetail" : {
+      "title" : "getInstanceDetail",
+      "summary" : "getInstanceDetail"
+    },
+    "DeleteRepositories" : {
+      "title" : "deleteRepositories",
+      "summary" : "deleteRepositories"
+    },
+    "CreateRobotAccount" : {
+      "title" : "createRobotAccount",
+      "summary" : "createRobotAccount"
+    },
+    "ListCharts" : {
+      "title" : "listCharts",
+      "summary" : "listCharts"
+    },
+    "DeleteChart" : {
+      "title" : "deleteChart",
+      "summary" : "deleteChart"
+    },
+    "DeleteChartVersions" : {
+      "title" : "deleteChartVersions",
+      "summary" : "deleteChartVersions"
+    },
+    "GetTagBuildHistory" : {
+      "title" : "getTagBuildHistory",
+      "summary" : "getTagBuildHistory"
+    },
+    "TriggerTagScan" : {
+      "title" : "triggerTagScan",
+      "summary" : "triggerTagScan"
+    },
+    "DeleteTag" : {
+      "title" : "deleteTag",
+      "summary" : "deleteTag"
+    },
+    "GetImageMigrationRuleDetail" : {
+      "title" : "getImageMigrationRuleDetail",
+      "summary" : "getImageMigrationRuleDetail"
+    },
+    "DeleteTags" : {
+      "title" : "deleteTags",
+      "summary" : "deleteTags"
+    },
+    "CreateTemporaryPassword" : {
+      "title" : "createTemporaryPassword",
+      "summary" : "createTemporaryPassword"
+    },
+    "GetUserDetail" : {
+      "title" : "getUserDetail",
+      "summary" : "getUserDetail"
+    },
+    "ResetPassword" : {
+      "title" : "resetPassword",
+      "summary" : "resetPassword"
+    },
+    "UpdateInstanceName" : {
+      "title" : "updateInstanceName",
+      "summary" : "updateInstanceName"
+    },
+    "UpdateInstanceTags" : {
+      "title" : "updateInstanceTags",
+      "summary" : "updateInstanceTags"
+    },
+    "UpdateRepository" : {
+      "title" : "updateRepository",
+      "summary" : "updateRepository"
+    },
+    "ListTriggers" : {
+      "title" : "listTriggers",
+      "summary" : "listTriggers"
+    },
+    "UpdateTrigger" : {
+      "title" : "updateTrigger",
+      "summary" : "updateTrigger"
+    },
+    "GetPublicNetworkConfig" : {
+      "title" : "getPublicNetworkConfig",
+      "summary" : "getPublicNetworkConfig"
+    },
+    "StopInstanceSync" : {
+      "title" : "stopInstanceSync",
+      "summary" : "stopInstanceSync"
+    },
+    "UpdateAcceleratorFilter" : {
+      "title" : "updateAcceleratorFilter",
+      "summary" : "updateAcceleratorFilter"
+    },
+    "UpdatePublicNetwork" : {
+      "title" : "updatePublicNetwork",
+      "summary" : "updatePublicNetwork"
+    },
+    "GetInstanceSyncTaskLogs" : {
+      "title" : "getInstanceSyncTaskLogs",
+      "summary" : "getInstanceSyncTaskLogs"
+    },
+    "DeleteTrigger" : {
+      "title" : "deleteTrigger",
+      "summary" : "deleteTrigger"
+    },
+    "ExecuteInstanceSync" : {
+      "title" : "executeInstanceSync",
+      "summary" : "executeInstanceSync"
+    },
+    "DeleteTriggers" : {
+      "title" : "deleteTriggers",
+      "summary" : "deleteTriggers"
+    },
+    "ListInstanceSyncTaskRecords" : {
+      "title" : "listInstanceSyncTaskRecords",
+      "summary" : "listInstanceSyncTaskRecords"
+    },
+    "GetInstanceSyncExecutionDetail" : {
+      "title" : "getInstanceSyncExecutionDetail",
+      "summary" : "getInstanceSyncExecutionDetail"
+    },
+    "DeleteVpcLink" : {
+      "title" : "deleteVpcLink",
+      "summary" : "deleteVpcLink"
+    },
+    "DeleteInstanceSync" : {
+      "title" : "deleteInstanceSync",
+      "summary" : "deleteInstanceSync"
+    },
+    "ListInstanceSyncRecords" : {
+      "title" : "listInstanceSyncRecords",
+      "summary" : "listInstanceSyncRecords"
+    },
+    "AddVpcLink" : {
+      "title" : "addVpcLink",
+      "summary" : "addVpcLink"
+    },
+    "GetTriggerDetail" : {
+      "title" : "getTriggerDetail",
+      "summary" : "getTriggerDetail"
+    }
+  }
+}

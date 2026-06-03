@@ -1,0 +1,11 @@
+{
+  "UpdateAcceleratorFilter" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "镜像按需加载规则ID",
+    "description" : "备注",
+    "filters" : "触发规则",
+    "filters.type" : "镜像加速触发类型",
+    "filters.value" : "镜像加速触发类型对应值",
+    "name" : "镜像按需加载规则名称"
+  }
+}

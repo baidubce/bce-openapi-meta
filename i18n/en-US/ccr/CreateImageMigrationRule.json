@@ -1,0 +1,16 @@
+{
+  "CreateImageMigrationRule" : {
+    "instanceId" : "CCR instance ID",
+    "description" : "Description of the image migration rule",
+    "destProjectName" : "Destination namespace",
+    "filters" : "Resource filters",
+    "filters.type" : "Filter type for migration rule resources",
+    "filters.value" : "Value corresponding to the migration rule resource filter type",
+    "name" : "Name of the image migration rule",
+    "override" : "Whether to overwrite resources in the destination repository",
+    "srcRegistry" : "Source registry",
+    "srcRegistry.id" : "Registry ID",
+    "trigger" : "Trigger",
+    "trigger.type" : "Trigger type for the migration rule; only `manual` is supported in image migration scenarios"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name" : "ListAcceleratorFilters",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/accelerators/policies",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListAcceleratorFilters.instanceId"
+  }, {
+    "name" : "policyName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListAcceleratorFilters.policyName"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListAcceleratorFilters.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListAcceleratorFilters.pageSize"
+  } ],
+  "desc_key" : "ccr.ListAcceleratorFilters.desc"
+}

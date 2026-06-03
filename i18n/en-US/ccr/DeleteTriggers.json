@@ -1,0 +1,6 @@
+{
+  "DeleteTriggers" : {
+    "instanceId" : "CCR instance ID",
+    "items" : "Array of trigger policy IDs"
+  }
+}

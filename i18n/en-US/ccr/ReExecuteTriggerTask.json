@@ -1,0 +1,7 @@
+{
+  "ReExecuteTriggerTask" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Trigger policy ID",
+    "jobId" : "Trigger job ID"
+  }
+}

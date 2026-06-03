@@ -1,0 +1,79 @@
+{
+  "name" : "CreateInstanceSync",
+  "method" : "POST",
+  "uri" : "/v1/instances/{instanceId}/syncs",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.CreateInstanceSync.instanceId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateInstanceSync.description"
+  }, {
+    "name" : "destInstanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateInstanceSync.destInstanceId"
+  }, {
+    "name" : "destProjectName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateInstanceSync.destProjectName"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateInstanceSync.name"
+  }, {
+    "name" : "override",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateInstanceSync.override"
+  }, {
+    "name" : "srcProjectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateInstanceSync.srcProjectName"
+  }, {
+    "name" : "srcRepository",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateInstanceSync.srcRepository"
+  }, {
+    "name" : "srcTag",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateInstanceSync.srcTag"
+  }, {
+    "name" : "syncType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateInstanceSync.syncType"
+  }, {
+    "name" : "trigger",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateInstanceSync.trigger",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.CreateInstanceSync.trigger.type"
+    } ]
+  } ],
+  "desc_key" : "ccr.CreateInstanceSync.desc"
+}

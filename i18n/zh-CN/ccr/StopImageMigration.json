@@ -1,0 +1,6 @@
+{
+  "StopImageMigration" : {
+    "instanceId" : "CCR实例ID",
+    "executionId" : "任务ID"
+  }
+}

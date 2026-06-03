@@ -1,0 +1,8 @@
+{
+  "TestAcceleratorFilter" : {
+    "filters" : "Trigger rules",
+    "filters.type" : "Image acceleration trigger type",
+    "filters.value" : "Value corresponding to the image acceleration trigger type",
+    "repository" : "Image repository address"
+  }
+}

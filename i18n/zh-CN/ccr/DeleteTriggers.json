@@ -1,0 +1,6 @@
+{
+  "DeleteTriggers" : {
+    "instanceId" : "CCR实例ID",
+    "items" : "触发器策略ID数组"
+  }
+}

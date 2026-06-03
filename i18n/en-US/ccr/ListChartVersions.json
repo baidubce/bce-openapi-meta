@@ -1,0 +1,10 @@
+{
+  "ListChartVersions" : {
+    "instanceId" : "CCR instance ID",
+    "projectName" : "Namespace name",
+    "chartName" : "Chart name",
+    "chartVersion" : "Chart version, supports fuzzy search",
+    "pageNo" : "Current page number, default 1",
+    "pageSize" : "Records per page, default 10, max 100"
+  }
+}

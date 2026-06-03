@@ -1,0 +1,31 @@
+{
+  "name" : "GetTagBuildHistory",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/repositories/{repositoryName}/tags/{tagName}/buildhistory",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagBuildHistory.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagBuildHistory.projectName"
+  }, {
+    "name" : "repositoryName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagBuildHistory.repositoryName"
+  }, {
+    "name" : "tagName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetTagBuildHistory.tagName"
+  } ],
+  "desc_key" : "ccr.GetTagBuildHistory.desc"
+}

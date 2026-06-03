@@ -1,0 +1,48 @@
+{
+  "name" : "UpdateAcceleratorFilter",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/accelerators/policies/{policyId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateAcceleratorFilter.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateAcceleratorFilter.policyId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateAcceleratorFilter.description"
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateAcceleratorFilter.filters",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateAcceleratorFilter.filters.type"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateAcceleratorFilter.filters.value"
+    } ]
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateAcceleratorFilter.name"
+  } ],
+  "desc_key" : "ccr.UpdateAcceleratorFilter.desc"
+}

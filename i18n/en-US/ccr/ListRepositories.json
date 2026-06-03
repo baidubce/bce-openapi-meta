@@ -1,0 +1,9 @@
+{
+  "ListRepositories" : {
+    "instanceId" : "Instance ID",
+    "projectName" : "Namespace name",
+    "repositoryName" : "Image repository name",
+    "pageNo" : "Current page number",
+    "pageSize" : "Records per page, default 10, max 100"
+  }
+}

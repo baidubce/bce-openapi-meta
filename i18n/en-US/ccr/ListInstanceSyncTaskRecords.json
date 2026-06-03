@@ -1,0 +1,8 @@
+{
+  "ListInstanceSyncTaskRecords" : {
+    "instanceId" : "Instance ID",
+    "executionId" : "Task ID",
+    "pageNo" : "Current page, default is 1",
+    "pageSize" : "Records per page, default is 10"
+  }
+}

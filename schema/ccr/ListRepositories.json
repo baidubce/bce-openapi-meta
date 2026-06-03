@@ -1,0 +1,37 @@
+{
+  "name" : "ListRepositories",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/repositories",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListRepositories.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListRepositories.projectName"
+  }, {
+    "name" : "repositoryName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListRepositories.repositoryName"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListRepositories.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListRepositories.pageSize"
+  } ],
+  "desc_key" : "ccr.ListRepositories.desc"
+}

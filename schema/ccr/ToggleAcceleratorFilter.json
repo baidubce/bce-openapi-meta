@@ -1,0 +1,25 @@
+{
+  "name" : "ToggleAcceleratorFilter",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/accelerators/policies/{policyId}/enable",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ToggleAcceleratorFilter.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ToggleAcceleratorFilter.policyId"
+  }, {
+    "name" : "enabled",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ToggleAcceleratorFilter.enabled"
+  } ],
+  "desc_key" : "ccr.ToggleAcceleratorFilter.desc"
+}

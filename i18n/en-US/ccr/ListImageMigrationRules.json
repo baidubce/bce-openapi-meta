@@ -1,0 +1,8 @@
+{
+  "ListImageMigrationRules" : {
+    "instanceId" : "Instance ID",
+    "policyName" : "Image migration rule name, supports fuzzy search",
+    "pageNo" : "Current page, default is 1",
+    "pageSize" : "Records per page, default is 10"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "ExecuteInstanceSync",
+  "method" : "POST",
+  "uri" : "/v1/instances/{instanceId}/executions",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ExecuteInstanceSync.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.ExecuteInstanceSync.policyId"
+  } ],
+  "desc_key" : "ccr.ExecuteInstanceSync.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "GetAcceleratorFilterDetail" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Image on-demand loading policy ID"
+  }
+}

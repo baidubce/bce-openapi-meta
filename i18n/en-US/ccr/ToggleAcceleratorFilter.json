@@ -1,0 +1,7 @@
+{
+  "ToggleAcceleratorFilter" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Image on-demand loading policy ID",
+    "enabled" : "Whether to enable"
+  }
+}

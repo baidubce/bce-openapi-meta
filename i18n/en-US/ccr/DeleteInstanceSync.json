@@ -1,0 +1,6 @@
+{
+  "DeleteInstanceSync" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Sync policy ID"
+  }
+}

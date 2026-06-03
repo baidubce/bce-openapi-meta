@@ -1,0 +1,7 @@
+{
+  "TestTriggerTargetAddress" : {
+    "instanceId" : "CCR实例ID",
+    "address" : "目标URL",
+    "headers" : "header key仅支持“Authorization”"
+  }
+}

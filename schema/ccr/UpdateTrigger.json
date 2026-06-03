@@ -1,0 +1,71 @@
+{
+  "name" : "UpdateTrigger",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/triggers/policies/{policyId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateTrigger.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateTrigger.policyId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateTrigger.description"
+  }, {
+    "name" : "eventTypes",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateTrigger.eventTypes"
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateTrigger.filters",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateTrigger.filters.type"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateTrigger.filters.value"
+    } ]
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateTrigger.name"
+  }, {
+    "name" : "targets",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateTrigger.targets",
+    "sub_parameters" : [ {
+      "name" : "address",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateTrigger.targets.address"
+    }, {
+      "name" : "headers",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateTrigger.targets.headers"
+    } ]
+  } ],
+  "desc_key" : "ccr.UpdateTrigger.desc"
+}

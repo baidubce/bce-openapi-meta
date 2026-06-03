@@ -1,0 +1,31 @@
+{
+  "name" : "ListRobotAccounts",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/robots",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListRobotAccounts.instanceId"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListRobotAccounts.status"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListRobotAccounts.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListRobotAccounts.pageSize"
+  } ],
+  "desc_key" : "ccr.ListRobotAccounts.desc"
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "UpdateInstanceName",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateInstanceName.instanceId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateInstanceName.name"
+  } ],
+  "desc_key" : "ccr.UpdateInstanceName.desc"
+}

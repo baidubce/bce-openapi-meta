@@ -1,0 +1,30 @@
+{
+  "name" : "TestAcceleratorFilter",
+  "method" : "POST",
+  "uri" : "/v1/accelerators/policies/filters",
+  "parameters" : [ {
+    "name" : "filters",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.TestAcceleratorFilter.filters",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.TestAcceleratorFilter.filters.type"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.TestAcceleratorFilter.filters.value"
+    } ]
+  }, {
+    "name" : "repository",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.TestAcceleratorFilter.repository"
+  } ],
+  "desc_key" : "ccr.TestAcceleratorFilter.desc"
+}

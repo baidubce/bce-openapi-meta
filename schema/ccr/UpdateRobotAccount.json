@@ -1,0 +1,70 @@
+{
+  "name" : "UpdateRobotAccount",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/robots/{robotID}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateRobotAccount.instanceId"
+  }, {
+    "name" : "robotID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateRobotAccount.robotID"
+  }, {
+    "name" : "disable",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateRobotAccount.disable"
+  }, {
+    "name" : "duration",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateRobotAccount.duration"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateRobotAccount.description"
+  }, {
+    "name" : "permissions",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateRobotAccount.permissions",
+    "sub_parameters" : [ {
+      "name" : "kind",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateRobotAccount.permissions.kind"
+    }, {
+      "name" : "namespace",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateRobotAccount.permissions.namespace"
+    }, {
+      "name" : "access",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "ccr.UpdateRobotAccount.permissions.access",
+      "sub_parameters" : [ {
+        "name" : "resource",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "ccr.UpdateRobotAccount.permissions.access.resource"
+      }, {
+        "name" : "action",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "ccr.UpdateRobotAccount.permissions.access.action"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "ccr.UpdateRobotAccount.desc"
+}

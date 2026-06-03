@@ -1,0 +1,31 @@
+{
+  "name" : "ListProjects",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/projects",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListProjects.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListProjects.projectName"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListProjects.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListProjects.pageSize"
+  } ],
+  "desc_key" : "ccr.ListProjects.desc"
+}

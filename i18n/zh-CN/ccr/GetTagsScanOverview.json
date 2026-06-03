@@ -1,0 +1,10 @@
+{
+  "GetTagsScanOverview" : {
+    "instanceId" : "CCR实例ID",
+    "projectName" : "命名空间名称",
+    "repositoryName" : "镜像仓库名称",
+    "tagName" : "Tag名称",
+    "pageNo" : "当前页",
+    "pageSize" : "每页记录数"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "DeleteCharts" : {
+    "instanceId" : "CCR instance ID",
+    "projectName" : "Namespace name",
+    "items" : "Array of Chart names"
+  }
+}

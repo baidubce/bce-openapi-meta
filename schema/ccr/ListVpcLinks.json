@@ -1,0 +1,13 @@
+{
+  "name" : "ListVpcLinks",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/privatelinks",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListVpcLinks.instanceId"
+  } ],
+  "desc_key" : "ccr.ListVpcLinks.desc"
+}

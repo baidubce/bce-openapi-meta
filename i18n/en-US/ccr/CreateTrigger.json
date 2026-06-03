@@ -1,0 +1,14 @@
+{
+  "CreateTrigger" : {
+    "instanceId" : "CCR instance ID",
+    "description" : "Trigger policy remarks",
+    "eventTypes" : "List of trigger events. Valid values: <br />UPLOAD_CHART (Helm Chart push), <br />DOWNLOAD_CHART (Helm Chart pull), <br />DELETE_CHART (Helm Chart delete), <br />PUSH_ARTIFACT (artifact push), <br />PULL_ARTIFACT (artifact pull), <br />DELETE_ARTIFACT (artifact delete)",
+    "filters" : "Trigger rules",
+    "filters.type" : "Trigger filter type: `project_name` (namespace), `repository_name` (repository), `repository_name` (tag)",
+    "filters.value" : "Value corresponding to the filter type",
+    "name" : "Trigger name",
+    "targets" : "Access configuration",
+    "targets.address" : "URL to be called when the trigger is fired",
+    "targets.headers" : "Custom header information<br>Only `Authorization` is supported as a Header Key"
+  }
+}

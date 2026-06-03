@@ -1,0 +1,84 @@
+{
+  "name" : "UpdateImageMigrationRule",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/replications/{policyId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateImageMigrationRule.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateImageMigrationRule.policyId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateImageMigrationRule.description"
+  }, {
+    "name" : "destProjectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateImageMigrationRule.destProjectName"
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateImageMigrationRule.filters",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateImageMigrationRule.filters.type"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateImageMigrationRule.filters.value"
+    } ]
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateImageMigrationRule.name"
+  }, {
+    "name" : "override",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateImageMigrationRule.override"
+  }, {
+    "name" : "srcRegistry",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateImageMigrationRule.srcRegistry",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "ccr.UpdateImageMigrationRule.srcRegistry.id"
+    } ]
+  }, {
+    "name" : "trigger",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateImageMigrationRule.trigger",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateImageMigrationRule.trigger.type"
+    } ]
+  } ],
+  "desc_key" : "ccr.UpdateImageMigrationRule.desc"
+}

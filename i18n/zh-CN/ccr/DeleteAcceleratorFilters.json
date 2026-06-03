@@ -1,0 +1,6 @@
+{
+  "DeleteAcceleratorFilters" : {
+    "instanceId" : "CCR实例ID",
+    "items" : "按需加载策略ID数组"
+  }
+}

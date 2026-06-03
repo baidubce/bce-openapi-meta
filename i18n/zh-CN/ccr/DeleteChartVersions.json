@@ -1,0 +1,8 @@
+{
+  "DeleteChartVersions" : {
+    "instanceId" : "CCR实例ID",
+    "projectName" : "命名空间名称",
+    "chartName" : "Chart名称",
+    "items" : "Chart版本号数组"
+  }
+}

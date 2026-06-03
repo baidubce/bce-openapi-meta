@@ -1,0 +1,6 @@
+{
+  "UpdateInstanceName" : {
+    "instanceId" : "Instance ID",
+    "name" : "Instance name"
+  }
+}

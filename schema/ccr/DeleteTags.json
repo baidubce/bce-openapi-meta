@@ -1,0 +1,31 @@
+{
+  "name" : "DeleteTags",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/repositories/{repositoryName}/tags",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteTags.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteTags.projectName"
+  }, {
+    "name" : "repositoryName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteTags.repositoryName"
+  }, {
+    "name" : "items",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.DeleteTags.items"
+  } ],
+  "desc_key" : "ccr.DeleteTags.desc"
+}

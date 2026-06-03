@@ -1,0 +1,6 @@
+{
+  "DeleteImageMigrationRule" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "镜像迁移规则ID"
+  }
+}

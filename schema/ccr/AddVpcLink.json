@@ -1,0 +1,43 @@
+{
+  "name" : "AddVpcLink",
+  "method" : "POST",
+  "uri" : "/v1/instances/{instanceId}/privatelinks",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.AddVpcLink.instanceId"
+  }, {
+    "name" : "vpcID",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.AddVpcLink.vpcID"
+  }, {
+    "name" : "subnetID",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.AddVpcLink.subnetID"
+  }, {
+    "name" : "ipType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.AddVpcLink.ipType"
+  }, {
+    "name" : "ipAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.AddVpcLink.ipAddress"
+  }, {
+    "name" : "autoDnsResolve",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.AddVpcLink.autoDnsResolve"
+  } ],
+  "desc_key" : "ccr.AddVpcLink.desc"
+}

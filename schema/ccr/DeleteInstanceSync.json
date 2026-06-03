@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteInstanceSync",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/syncs/{policyId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteInstanceSync.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteInstanceSync.policyId"
+  } ],
+  "desc_key" : "ccr.DeleteInstanceSync.desc"
+}

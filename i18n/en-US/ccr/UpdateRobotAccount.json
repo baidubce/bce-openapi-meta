@@ -1,0 +1,13 @@
+{
+  "UpdateRobotAccount" : {
+    "instanceId" : "Instance ID",
+    "robotID" : "Robot account ID",
+    "disable" : "Whether to disable, default is false",
+    "duration" : "Account validity period in days, -1 means never expires",
+    "description" : "Account description, length 0~1024 characters",
+    "permissions" : "Permissions",
+    "permissions.kind" : "Fixed value is `project`",
+    "permissions.namespace" : "Namespace name, use `*` if all namespaces are selected",
+    "permissions.access" : "Access permission details"
+  }
+}

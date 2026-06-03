@@ -1,0 +1,6 @@
+{
+  "GetImageMigrationExecutionRecordDetail" : {
+    "instanceId" : "CCR实例ID",
+    "executionId" : "镜像迁移执行任务ID"
+  }
+}

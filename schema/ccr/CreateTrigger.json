@@ -1,0 +1,65 @@
+{
+  "name" : "CreateTrigger",
+  "method" : "POST",
+  "uri" : "/v1/instances/{instanceId}/triggers/policies",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.CreateTrigger.instanceId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateTrigger.description"
+  }, {
+    "name" : "eventTypes",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateTrigger.eventTypes"
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateTrigger.filters",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.CreateTrigger.filters.type"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.CreateTrigger.filters.value"
+    } ]
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateTrigger.name"
+  }, {
+    "name" : "targets",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateTrigger.targets",
+    "sub_parameters" : [ {
+      "name" : "address",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.CreateTrigger.targets.address"
+    }, {
+      "name" : "headers",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.CreateTrigger.targets.headers"
+    } ]
+  } ],
+  "desc_key" : "ccr.CreateTrigger.desc"
+}

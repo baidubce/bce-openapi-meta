@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteAcceleratorFilter",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/accelerators/policies/{policyId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteAcceleratorFilter.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteAcceleratorFilter.policyId"
+  } ],
+  "desc_key" : "ccr.DeleteAcceleratorFilter.desc"
+}

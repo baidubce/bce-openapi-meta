@@ -1,0 +1,8 @@
+{
+  "ListProjects" : {
+    "instanceId" : "实例ID",
+    "projectName" : "命名空间名称，用于模糊查询",
+    "pageNo" : "当前页",
+    "pageSize" : "每页记录数，默认为10，最大100"
+  }
+}

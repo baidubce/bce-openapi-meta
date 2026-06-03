@@ -1,0 +1,8 @@
+{
+  "ListRobotAccounts" : {
+    "instanceId" : "实例ID",
+    "status" : "状态筛选字段，可选值enabled：启用,disabled：禁用",
+    "pageNo" : "当前页",
+    "pageSize" : "每页记录数，默认为10，最大100"
+  }
+}

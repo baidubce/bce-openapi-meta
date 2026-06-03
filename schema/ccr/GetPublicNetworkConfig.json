@@ -1,0 +1,13 @@
+{
+  "name" : "GetPublicNetworkConfig",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/publiclinks",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetPublicNetworkConfig.instanceId"
+  } ],
+  "desc_key" : "ccr.GetPublicNetworkConfig.desc"
+}

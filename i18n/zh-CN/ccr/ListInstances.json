@@ -1,0 +1,9 @@
+{
+  "ListInstances" : {
+    "pageNo" : "当前页",
+    "pageSize" : "每页记录数，默认10",
+    "keywordType" : "关键字类型，取值范围：id、name，分别表示按实例ID查询、或按实例名称查询",
+    "keyword" : "关键字",
+    "acrossregion" : "是否在全区域内搜索,取值范围：true、false，默认为false"
+  }
+}

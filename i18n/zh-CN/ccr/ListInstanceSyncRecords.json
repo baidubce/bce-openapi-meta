@@ -1,0 +1,8 @@
+{
+  "ListInstanceSyncRecords" : {
+    "instanceId" : "实例ID",
+    "policyId" : "同步策略ID",
+    "pageNo" : "当前页，默认为1",
+    "pageSize" : "每页记录数，默认为10"
+  }
+}

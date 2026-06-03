@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteTriggers",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/triggers/policies",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteTriggers.instanceId"
+  }, {
+    "name" : "items",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.DeleteTriggers.items"
+  } ],
+  "desc_key" : "ccr.DeleteTriggers.desc"
+}

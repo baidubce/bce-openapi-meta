@@ -1,0 +1,6 @@
+{
+  "DeleteRobotAccount" : {
+    "instanceId" : "实例ID",
+    "robotID" : "机器人账号ID"
+  }
+}

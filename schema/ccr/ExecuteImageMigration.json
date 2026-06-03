@@ -1,0 +1,19 @@
+{
+  "name" : "ExecuteImageMigration",
+  "method" : "POST",
+  "uri" : "/v1/instances/{instanceId}/executions",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ExecuteImageMigration.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.ExecuteImageMigration.policyId"
+  } ],
+  "desc_key" : "ccr.ExecuteImageMigration.desc"
+}

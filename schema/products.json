@@ -141,5 +141,18 @@
       "su" : "rapidfs.su.baidubce.com",
       "yq" : "rapidfs.yq.baidubce.com"
     }
+  }, {
+    "code" : "ccr",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "ccr.bd.baidubce.com",
+      "bj" : "ccr.bj.baidubce.com",
+      "cd" : "ccr.cd.baidubce.com",
+      "fwh" : "ccr.fwh.baidubce.com",
+      "gz" : "ccr.gz.baidubce.com",
+      "hkg" : "ccr.hkg.baidubce.com",
+      "su" : "ccr.su.baidubce.com",
+      "yq" : "ccr.yq.baidubce.com"
+    }
   } ]
 }

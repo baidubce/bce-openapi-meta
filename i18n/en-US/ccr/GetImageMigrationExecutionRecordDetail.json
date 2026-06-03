@@ -1,0 +1,6 @@
+{
+  "GetImageMigrationExecutionRecordDetail" : {
+    "instanceId" : "CCR instance ID",
+    "executionId" : "Image migration execution task ID"
+  }
+}

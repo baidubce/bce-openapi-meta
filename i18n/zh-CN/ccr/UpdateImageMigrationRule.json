@@ -1,0 +1,17 @@
+{
+  "UpdateImageMigrationRule" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "镜像迁移规则ID",
+    "description" : "镜像迁移规则描述",
+    "destProjectName" : "目的命名空间",
+    "filters" : "资源筛选",
+    "filters.type" : "迁移规则资源筛选种类",
+    "filters.value" : "迁移规则资源筛选种类对应值",
+    "name" : "镜像迁移规则名称",
+    "override" : "是否覆盖目的仓库上的资源",
+    "srcRegistry" : "源仓库",
+    "srcRegistry.id" : "Registry ID",
+    "trigger" : "触发器",
+    "trigger.type" : "迁移规则触发类型，镜像迁移场景下只能为 `manual`"
+  }
+}

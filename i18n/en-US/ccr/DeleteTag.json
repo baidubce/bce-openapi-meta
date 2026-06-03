@@ -1,0 +1,8 @@
+{
+  "DeleteTag" : {
+    "instanceId" : "CCR instance ID",
+    "projectName" : "Namespace name",
+    "repositoryName" : "Image repository name",
+    "tagName" : "Tag name"
+  }
+}

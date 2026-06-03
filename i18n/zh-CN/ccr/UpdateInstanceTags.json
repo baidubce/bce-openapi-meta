@@ -1,0 +1,8 @@
+{
+  "UpdateInstanceTags" : {
+    "instanceId" : "实例ID",
+    "tags" : "标签键值对信息",
+    "tags.tagKey" : "标签键",
+    "tags.tagValue" : "标签值"
+  }
+}

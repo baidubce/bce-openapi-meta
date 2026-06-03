@@ -1,0 +1,6 @@
+{
+  "UpdatePublicNetwork" : {
+    "instanceId" : "CCR实例ID",
+    "action" : "更新共有网络动作，取值范围：open、close，分别表示开启公有网络访问入口、关闭公有网络入口"
+  }
+}

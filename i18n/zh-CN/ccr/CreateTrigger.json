@@ -1,0 +1,14 @@
+{
+  "CreateTrigger" : {
+    "instanceId" : "CCR实例ID",
+    "description" : "触发器策略备注",
+    "eventTypes" : "触发事件列表，有效值为：<br />UPLOAD_CHART（Helm Chart推送）、<br />DOWNLOAD_CHART（Helm Chart拉取）、<br />DELETE_CHART（Helm Chart删除）、<br />PUSH_ARTIFACT（制品推送）、<br />PULL_ARTIFACT（制品拉取）、<br />DELETE_ARTIFACT（制品删除）",
+    "filters" : "触发规则",
+    "filters.type" : "触发器过滤类型：`project_name`（命名空间）、`repository_name`（仓库）、`repository_name`（版本）",
+    "filters.value" : "该类型对应的值",
+    "name" : "触发器名称",
+    "targets" : "访问配置",
+    "targets.address" : "触发器被触发后访问的 URL 地址",
+    "targets.headers" : "自定义 Header 信息<br>Header Key 仅支持 `Authorization`"
+  }
+}

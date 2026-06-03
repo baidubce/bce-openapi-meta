@@ -1,0 +1,25 @@
+{
+  "name" : "DeleteChart",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/charts/{chartName}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteChart.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteChart.projectName"
+  }, {
+    "name" : "chartName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteChart.chartName"
+  } ],
+  "desc_key" : "ccr.DeleteChart.desc"
+}

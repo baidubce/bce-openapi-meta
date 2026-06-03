@@ -1,0 +1,6 @@
+{
+  "GetInstanceSyncDetail" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Instance sync policy ID"
+  }
+}

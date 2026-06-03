@@ -1,0 +1,6 @@
+{
+  "GetImageMigrationRuleDetail" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Image migration rule name ID"
+  }
+}

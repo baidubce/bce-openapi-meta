@@ -1,0 +1,6 @@
+{
+  "DeleteProjects" : {
+    "instanceId" : "Instance ID",
+    "items" : "Array of namespace names"
+  }
+}

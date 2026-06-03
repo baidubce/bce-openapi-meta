@@ -1,0 +1,37 @@
+{
+  "name" : "ListCharts",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/charts",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListCharts.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListCharts.projectName"
+  }, {
+    "name" : "chartName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListCharts.chartName"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListCharts.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListCharts.pageSize"
+  } ],
+  "desc_key" : "ccr.ListCharts.desc"
+}

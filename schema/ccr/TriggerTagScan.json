@@ -1,0 +1,31 @@
+{
+  "name" : "TriggerTagScan",
+  "method" : "POST",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}/repositories/{repositoryName}/tags/{tagName}/scan",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.TriggerTagScan.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.TriggerTagScan.projectName"
+  }, {
+    "name" : "repositoryName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.TriggerTagScan.repositoryName"
+  }, {
+    "name" : "tagName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.TriggerTagScan.tagName"
+  } ],
+  "desc_key" : "ccr.TriggerTagScan.desc"
+}

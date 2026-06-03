@@ -1,0 +1,8 @@
+{
+  "ListTriggerTasks" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Trigger policy ID",
+    "pageNo" : "Current page number",
+    "pageSize" : "Number of records per page, default is 10, maximum is 100"
+  }
+}

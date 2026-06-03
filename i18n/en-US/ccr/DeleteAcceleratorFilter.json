@@ -1,0 +1,6 @@
+{
+  "DeleteAcceleratorFilter" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Image acceleration policy ID"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "DownloadChart" : {
+    "instanceId" : "CCR instance ID",
+    "projectName" : "Namespace name",
+    "filename" : "Helm Chart filename; retrieve the Chart filename from the urls field in the response of [Helm Chart Version List](CCR/企业版API参考/附录.md#HelmChartVersion)"
+  }
+}

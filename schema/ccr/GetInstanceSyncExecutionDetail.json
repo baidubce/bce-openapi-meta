@@ -1,0 +1,19 @@
+{
+  "name" : "GetInstanceSyncExecutionDetail",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/executions/{executionId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetInstanceSyncExecutionDetail.instanceId"
+  }, {
+    "name" : "executionId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetInstanceSyncExecutionDetail.executionId"
+  } ],
+  "desc_key" : "ccr.GetInstanceSyncExecutionDetail.desc"
+}

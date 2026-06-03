@@ -1,0 +1,17 @@
+{
+  "UpdateInstanceSync" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Sync policy ID",
+    "description" : "Sync policy description",
+    "destInstanceId" : "Destination instance ID",
+    "destProjectName" : "Destination namespace",
+    "name" : "Sync policy name",
+    "override" : "Whether to overwrite existing images with the same name in the destination instance",
+    "srcProjectName" : "Source instance namespace",
+    "srcRepository" : "Source repository name",
+    "srcTag" : "Source image tag",
+    "syncType" : "Sync type",
+    "trigger" : "Trigger",
+    "trigger.type" : "Sync policy trigger type, valid values are `manual` and `event_based`"
+  }
+}

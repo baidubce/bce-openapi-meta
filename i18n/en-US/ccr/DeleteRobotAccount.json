@@ -1,0 +1,6 @@
+{
+  "DeleteRobotAccount" : {
+    "instanceId" : "Instance ID",
+    "robotID" : "Robot account ID"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name" : "UpdateInstanceTags",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/tags",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateInstanceTags.instanceId"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateInstanceTags.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateInstanceTags.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.UpdateInstanceTags.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "ccr.UpdateInstanceTags.desc"
+}

@@ -1,0 +1,42 @@
+{
+  "name" : "CreateAcceleratorFilter",
+  "method" : "POST",
+  "uri" : "/v1/instances/{instanceId}/accelerators/policies",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.CreateAcceleratorFilter.instanceId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateAcceleratorFilter.description"
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateAcceleratorFilter.filters",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.CreateAcceleratorFilter.filters.type"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ccr.CreateAcceleratorFilter.filters.value"
+    } ]
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateAcceleratorFilter.name"
+  } ],
+  "desc_key" : "ccr.CreateAcceleratorFilter.desc"
+}

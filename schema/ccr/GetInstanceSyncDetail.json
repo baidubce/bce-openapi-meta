@@ -1,0 +1,19 @@
+{
+  "name" : "GetInstanceSyncDetail",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/syncs/{policyId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetInstanceSyncDetail.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetInstanceSyncDetail.policyId"
+  } ],
+  "desc_key" : "ccr.GetInstanceSyncDetail.desc"
+}

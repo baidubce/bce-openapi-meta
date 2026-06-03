@@ -1,0 +1,8 @@
+{
+  "UpdateInstanceTags" : {
+    "instanceId" : "Instance ID",
+    "tags" : "Tag key-value pair information",
+    "tags.tagKey" : "Tag key",
+    "tags.tagValue" : "Tag value"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteRobotAccount",
+  "method" : "DELETE",
+  "uri" : "/v1/instances/{instanceId}/robots/{robotID}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteRobotAccount.instanceId"
+  }, {
+    "name" : "robotID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.DeleteRobotAccount.robotID"
+  } ],
+  "desc_key" : "ccr.DeleteRobotAccount.desc"
+}

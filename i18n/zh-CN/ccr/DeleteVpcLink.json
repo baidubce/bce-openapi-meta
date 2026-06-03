@@ -1,0 +1,7 @@
+{
+  "DeleteVpcLink" : {
+    "instanceId" : "CCR实例ID",
+    "vpcID" : "私有网络ID",
+    "subnetID" : "私有网络子网ID"
+  }
+}

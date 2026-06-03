@@ -1,0 +1,6 @@
+{
+  "DeleteProjects" : {
+    "instanceId" : "实例ID",
+    "items" : "命名空间名称数组"
+  }
+}

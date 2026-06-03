@@ -1,0 +1,6 @@
+{
+  "UpdateInstanceName" : {
+    "instanceId" : "实例ID",
+    "name" : "实例名称"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteAcceleratorFilters" : {
+    "instanceId" : "CCR instance ID",
+    "items" : "Array of on-demand loading policy IDs"
+  }
+}

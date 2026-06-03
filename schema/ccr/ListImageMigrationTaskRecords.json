@@ -1,0 +1,31 @@
+{
+  "name" : "ListImageMigrationTaskRecords",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/executions/{executionId}/tasks",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListImageMigrationTaskRecords.instanceId"
+  }, {
+    "name" : "executionId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.ListImageMigrationTaskRecords.executionId"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListImageMigrationTaskRecords.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ccr.ListImageMigrationTaskRecords.pageSize"
+  } ],
+  "desc_key" : "ccr.ListImageMigrationTaskRecords.desc"
+}

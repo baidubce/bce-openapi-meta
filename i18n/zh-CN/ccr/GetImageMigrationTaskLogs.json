@@ -1,0 +1,7 @@
+{
+  "GetImageMigrationTaskLogs" : {
+    "instanceId" : "CCR实例ID",
+    "executionId" : "实例镜像迁移任务ID",
+    "taskId" : "任务ID"
+  }
+}

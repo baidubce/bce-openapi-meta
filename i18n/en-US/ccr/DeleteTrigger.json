@@ -1,0 +1,6 @@
+{
+  "DeleteTrigger" : {
+    "instanceId" : "CCR instance ID",
+    "policyId" : "Trigger policy ID"
+  }
+}

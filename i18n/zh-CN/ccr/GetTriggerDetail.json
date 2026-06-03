@@ -1,0 +1,6 @@
+{
+  "GetTriggerDetail" : {
+    "instanceId" : "CCR实例ID",
+    "policyId" : "触发器策略ID"
+  }
+}

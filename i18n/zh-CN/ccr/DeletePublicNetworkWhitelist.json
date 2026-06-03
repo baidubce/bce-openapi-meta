@@ -1,0 +1,6 @@
+{
+  "DeletePublicNetworkWhitelist" : {
+    "instanceId" : "CCR实例ID",
+    "items" : "白名单IP数组"
+  }
+}

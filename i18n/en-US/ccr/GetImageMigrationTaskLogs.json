@@ -1,0 +1,7 @@
+{
+  "GetImageMigrationTaskLogs" : {
+    "instanceId" : "CCR instance ID",
+    "executionId" : "Instance image migration task ID",
+    "taskId" : "Task ID"
+  }
+}
