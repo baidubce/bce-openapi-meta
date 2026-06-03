@@ -1,0 +1,13 @@
+{
+  "ListFileset" : {
+    "action" : "本接口中固定为 ListFileset",
+    "instanceId" : "fileset所属PFS实例的短id",
+    "filesetId" : "基于filesetId进行过滤",
+    "filesetName" : "基于filesetName进行过滤",
+    "manner" : "只支持page",
+    "order" : "排序，desc倒序，asc正序",
+    "orderBy" : "orderBy，默认createTime",
+    "pageNo" : "默认1",
+    "pageSize" : "默认10"
+  }
+}

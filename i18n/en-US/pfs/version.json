@@ -3,33 +3,53 @@
   "style" : "rpc",
   "description" : "pfs",
   "apis" : {
-    "DescPfs" : {
-      "title" : "descPfs",
-      "summary" : "descPfs"
-    },
-    "DeletePfs" : {
-      "title" : "deletePfs",
-      "summary" : "deletePfs"
+    "CreatePfs" : {
+      "title" : "createPfs",
+      "summary" : "createPfs"
     },
     "InstanceListClients" : {
       "title" : "instanceListClients",
       "summary" : "instanceListClients"
     },
-    "CreatePfs" : {
-      "title" : "createPfs",
-      "summary" : "createPfs"
+    "DeletePfs" : {
+      "title" : "deletePfs",
+      "summary" : "deletePfs"
     },
-    "ListPfs" : {
-      "title" : "listPfs",
-      "summary" : "listPfs"
+    "DescPfs" : {
+      "title" : "descPfs",
+      "summary" : "descPfs"
     },
     "MountTargetListClients" : {
       "title" : "mountTargetListClients",
       "summary" : "mountTargetListClients"
     },
+    "CreateFileset" : {
+      "title" : "createFileset",
+      "summary" : "createFileset"
+    },
+    "DeleteFileset" : {
+      "title" : "deleteFileset",
+      "summary" : "deleteFileset"
+    },
     "UpdatePFSTag" : {
       "title" : "updatePFSTag",
       "summary" : "updatePFSTag"
+    },
+    "ListPfs" : {
+      "title" : "listPfs",
+      "summary" : "listPfs"
+    },
+    "UpdateFileset" : {
+      "title" : "updateFileset",
+      "summary" : "updateFileset"
+    },
+    "ListFileset" : {
+      "title" : "listFileset",
+      "summary" : "listFileset"
+    },
+    "DescFileset" : {
+      "title" : "descFileset",
+      "summary" : "descFileset"
     }
   }
 }

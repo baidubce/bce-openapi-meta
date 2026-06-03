@@ -1,0 +1,7 @@
+{
+  "DescFileset" : {
+    "action" : "本接口固定为DescribeFileset",
+    "instanceId" : "fileset所属PFS实例Id",
+    "filesetId" : "fileset Id"
+  }
+}

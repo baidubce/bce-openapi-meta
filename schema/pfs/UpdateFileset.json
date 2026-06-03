@@ -1,0 +1,55 @@
+{
+  "name" : "UpdateFileset",
+  "method" : "POST",
+  "uri" : "/?action=UpdateFileset",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.UpdateFileset.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateFileset.instanceId"
+  }, {
+    "name" : "filesetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateFileset.filesetId"
+  }, {
+    "name" : "filesetName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateFileset.filesetName"
+  }, {
+    "name" : "blockQuota",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateFileset.blockQuota"
+  }, {
+    "name" : "filesQuota",
+    "type" : "Long",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateFileset.filesQuota"
+  }, {
+    "name" : "qpsLimit",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateFileset.qpsLimit"
+  }, {
+    "name" : "bandwidthLimitMb",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateFileset.bandwidthLimitMb"
+  } ],
+  "desc_key" : "pfs.UpdateFileset.desc"
+}

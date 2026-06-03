@@ -1,0 +1,13 @@
+{
+  "ListFileset" : {
+    "action" : "Fixed value for this API: ListFileset",
+    "instanceId" : "Short ID of the PFS instance to which the fileset belongs",
+    "filesetId" : "Filter results by filesetId",
+    "filesetName" : "Filter results by filesetName",
+    "manner" : "Only supports page",
+    "order" : "Sort order: desc for descending, asc for ascending",
+    "orderBy" : "Sort field, default is createTime",
+    "pageNo" : "Page number, default is 1",
+    "pageSize" : "Page size, default is 10"
+  }
+}
