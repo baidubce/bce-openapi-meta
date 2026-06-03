@@ -1,0 +1,33 @@
+name: Trigger CLI Release
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get commit message
+        id: meta
+        run: |
+          # 只取第一行，去掉 issue 前缀（如 "BCE-JC-12345 "）
+          MSG=$(git log -1 --pretty=%s | sed 's/^[A-Z][A-Z0-9]*-[A-Z0-9]*-[0-9]\+[[:space:]]*//')
+          echo "commit_msg=$MSG" >> $GITHUB_OUTPUT
+
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.CLI_DISPATCH_TOKEN }}
+          script: |
+            await github.rest.repos.createDispatchEvent({
+              owner: 'baidubce',
+              repo: 'bce-cli',
+              event_type: 'metadata-updated',
+              client_payload: {
+                sha: context.sha,
+                description: '${{ steps.meta.outputs.commit_msg }}'
+              }
+            })
+            console.log('Triggered bce-cli release workflow')
