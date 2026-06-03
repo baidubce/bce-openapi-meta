@@ -1,0 +1,12 @@
+{
+  "CreateFileset" : {
+    "action" : "Fixed value for this API: CreateFileset",
+    "instanceId" : "Short instance ID of the PFS instance where the fileset will be created",
+    "filesetName" : "Name of the fileset to create<br><li>Length: 1–128 characters (letters or Chinese characters).<br><li>Must start with a letter (upper or lower case) or a Chinese character.<br><li>May contain digits, Chinese characters, colons (:), underscores (_), or hyphens (-)",
+    "filesetPath" : "Absolute path within the PFS file system for the new fileset.<br><li>Must be a new path that does not already exist.<br><li>Must begin with a forward slash (/), e.g. /filepath; the path will be created automatically.<br><li>The parent directory must be an existing regular directory.<br><li>Maximum path depth: 8 levels.<br><li>Maximum total path length: 1013 characters.<br><li>Maximum length of a single directory name: 255 characters",
+    "blockQuota" : "Storage capacity quota in GB.<br><li>Defines the maximum writable capacity for the fileset; no new data can be written once the quota is reached.<br><li>Cannot exceed the total capacity of the PFS file system instance.<br><li>Set to 0 or leave unset for unlimited",
+    "filesQuota" : "File count quota.<br><li>Defines the maximum number of files and directories that can be created in the fileset; no new data can be written once the quota is reached.<br><li>Maximum configurable value is 3 billion; submit a ticket to request a higher limit.<br><li>Set to 0 or leave unset for unlimited",
+    "qpsLimit" : "IOPS limit.<br><li>Specifies the maximum IOPS QoS for the fileset (excluding DIO); traffic throttling is triggered when the fileset's IOPS usage reaches this threshold",
+    "bandwidthLimitMb" : "Bandwidth limit in MB.<br><li>Specifies the maximum throughput QoS for the fileset (excluding DIO); traffic throttling is triggered when the fileset's throughput usage reaches this threshold"
+  }
+}

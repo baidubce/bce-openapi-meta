@@ -1,0 +1,25 @@
+{
+  "name" : "DeleteFileset",
+  "method" : "POST",
+  "uri" : "/?action=DeleteFileset",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.DeleteFileset.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DeleteFileset.instanceId"
+  }, {
+    "name" : "filesetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DeleteFileset.filesetId"
+  } ],
+  "desc_key" : "pfs.DeleteFileset.desc"
+}

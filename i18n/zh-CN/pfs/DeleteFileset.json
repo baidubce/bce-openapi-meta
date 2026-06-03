@@ -1,0 +1,7 @@
+{
+  "DeleteFileset" : {
+    "action" : "本接口固定为DeleteFileset",
+    "instanceId" : "fileset所属的pfs实例短id",
+    "filesetId" : "删除fileset的Id"
+  }
+}

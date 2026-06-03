@@ -1,0 +1,12 @@
+{
+  "UpdateFileset" : {
+    "action" : "本接口中固定为 UpdateFileset",
+    "instanceId" : "fileset所属的pfs实例短id",
+    "filesetId" : "更新fileset的 Id",
+    "filesetName" : "需要更新的fileset名称<br><li>不传该值表示不修改",
+    "blockQuota" : "容量限制，单位GB<br><li>设置为0时表示不限制<br><li>不传该值表示不修改<br><li>如果设置该值，需满足以下条件：小于等于PFS实例容量",
+    "filesQuota" : "文件数限制<br><li>设置为0时表示不限制<br><li>不传该值表示不修改<br><li>如果设置该值，需满足以下条件（若设置文件数配额不在此范围，请提交工单）：1.大于等于 max{100万，文件数预分配配额}；2.小于等于30亿",
+    "qpsLimit" : "iops限制<br><li>IOPS QoS为Fileset的最大IOPS（不包含DIO）性能，当Fileset的IOPS使用性能达到QoS设置阈值后，会触发流控。",
+    "bandwidthLimitMb" : "带宽限制，单位MB<br><li>吞吐QoS为Fileset的最大吞吐性能（不包含DIO），当Fileset的吞吐使用性能达到QoS设置阈值后，会触发流控。"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name" : "DescFileset",
+  "method" : "POST",
+  "uri" : "/?action=DescribeFileset",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.DescFileset.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DescFileset.instanceId"
+  }, {
+    "name" : "filesetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DescFileset.filesetId"
+  } ],
+  "desc_key" : "pfs.DescFileset.desc"
+}

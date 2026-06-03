@@ -3,33 +3,53 @@
   "style" : "rpc",
   "description" : "并行文件存储",
   "apis" : {
-    "DescPfs" : {
-      "title" : "查询PFS实例详情",
-      "summary" : "查询PFS实例详情"
-    },
-    "DeletePfs" : {
-      "title" : "删除PFS实例",
-      "summary" : "删除PFS实例"
+    "CreatePfs" : {
+      "title" : "创建PFS实例",
+      "summary" : "创建PFS实例"
     },
     "InstanceListClients" : {
       "title" : "查询PFS实例挂载客户端列表",
       "summary" : "查询PFS实例挂载客户端列表"
     },
-    "CreatePfs" : {
-      "title" : "创建PFS实例",
-      "summary" : "创建PFS实例"
+    "DeletePfs" : {
+      "title" : "删除PFS实例",
+      "summary" : "删除PFS实例"
     },
-    "ListPfs" : {
-      "title" : "获取PFS实例列表",
-      "summary" : "获取PFS实例列表"
+    "DescPfs" : {
+      "title" : "查询PFS实例详情",
+      "summary" : "查询PFS实例详情"
     },
     "MountTargetListClients" : {
       "title" : "查询挂载服务挂载客户端列表",
       "summary" : "查询挂载服务挂载客户端列表"
     },
+    "CreateFileset" : {
+      "title" : "创建Fileset",
+      "summary" : "创建Fileset"
+    },
+    "DeleteFileset" : {
+      "title" : "删除Fileset",
+      "summary" : "删除Fileset"
+    },
     "UpdatePFSTag" : {
       "title" : "更新PFS实例标签",
       "summary" : "更新PFS实例标签"
+    },
+    "ListPfs" : {
+      "title" : "获取PFS实例列表",
+      "summary" : "获取PFS实例列表"
+    },
+    "UpdateFileset" : {
+      "title" : "更新Fileset",
+      "summary" : "更新Fileset"
+    },
+    "ListFileset" : {
+      "title" : "获取Fileset列表",
+      "summary" : "获取Fileset列表"
+    },
+    "DescFileset" : {
+      "title" : "查询FIleset详情",
+      "summary" : "查询FIleset详情"
     }
   }
 }

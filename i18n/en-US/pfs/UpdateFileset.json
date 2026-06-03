@@ -1,0 +1,12 @@
+{
+  "UpdateFileset" : {
+    "action" : "Fixed value: UpdateFileset",
+    "instanceId" : "Short ID of the PFS instance that owns the fileset",
+    "filesetId" : "ID of the fileset to update",
+    "filesetName" : "New name for the fileset; omit to leave unchanged",
+    "blockQuota" : "Capacity quota in GB; 0 means unlimited; omit to leave unchanged; must not exceed PFS instance capacity",
+    "filesQuota" : "File count quota; 0 means unlimited; omit to leave unchanged; valid range: max(1,000,000, pre-allocated file quota) to 3,000,000,000 (submit a ticket if outside this range)",
+    "qpsLimit" : "IOPS limit (QoS); maximum IOPS for the fileset (excludes DIO); throttling triggers when usage reaches this threshold",
+    "bandwidthLimitMb" : "Bandwidth limit in MB; maximum throughput for the fileset (excludes DIO); throttling triggers when usage reaches this threshold"
+  }
+}

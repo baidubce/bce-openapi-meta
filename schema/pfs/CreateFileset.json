@@ -1,0 +1,55 @@
+{
+  "name" : "CreateFileset",
+  "method" : "POST",
+  "uri" : "/?action=CreateFileset",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.CreateFileset.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateFileset.instanceId"
+  }, {
+    "name" : "filesetName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateFileset.filesetName"
+  }, {
+    "name" : "filesetPath",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateFileset.filesetPath"
+  }, {
+    "name" : "blockQuota",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateFileset.blockQuota"
+  }, {
+    "name" : "filesQuota",
+    "type" : "Long",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateFileset.filesQuota"
+  }, {
+    "name" : "qpsLimit",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateFileset.qpsLimit"
+  }, {
+    "name" : "bandwidthLimitMb",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateFileset.bandwidthLimitMb"
+  } ],
+  "desc_key" : "pfs.CreateFileset.desc"
+}

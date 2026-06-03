@@ -1,0 +1,7 @@
+{
+  "DescFileset" : {
+    "action" : "This API is fixed as DescribeFileset",
+    "instanceId" : "The PFS instance ID to which the fileset belongs",
+    "filesetId" : "Fileset ID"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "DeleteFileset" : {
+    "action" : "The action for this API is fixed as DeleteFileset",
+    "instanceId" : "Short ID of the PFS instance that the fileset belongs to",
+    "filesetId" : "ID of the fileset to be deleted"
+  }
+}
