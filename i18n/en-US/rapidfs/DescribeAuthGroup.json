@@ -1,6 +1,5 @@
 {
   "DescribeAuthGroup" : {
-    "action" : "Fixed value: DescribeAuthGroup",
     "instanceId" : "The unique ID of the rapidFS instance to query",
     "authGroupId" : "The ID of the permission group"
   }

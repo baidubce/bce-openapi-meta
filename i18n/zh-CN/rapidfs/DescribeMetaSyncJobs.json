@@ -1,6 +1,5 @@
 {
   "DescribeMetaSyncJobs" : {
-    "action" : "固定值，DescribeMetaSyncJobs",
     "instanceId" : "RapidFS 实例 ID",
     "dataSrcId" : "数据源 ID",
     "metaSyncRuleId" : "元数据同步规则 ID",

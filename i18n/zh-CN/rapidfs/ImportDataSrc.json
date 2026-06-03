@@ -1,6 +1,5 @@
 {
   "ImportDataSrc" : {
-    "action" : "固定值，ImportDataSrc",
     "clientToken" : "保证API调用的幂等性",
     "instanceId" : "RapidFS 实例 ID",
     "dataSrcName" : "数据源名称",

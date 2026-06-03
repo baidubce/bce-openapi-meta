@@ -1,6 +1,5 @@
 {
   "StopCacheNodes" : {
-    "action" : "Fixed value: StopCacheNodes",
     "clientToken" : "Ensures idempotency of the API call",
     "instanceId" : "RapidFS instance ID",
     "cacheNodeIds" : "List of CacheNode IDs to be stopped",

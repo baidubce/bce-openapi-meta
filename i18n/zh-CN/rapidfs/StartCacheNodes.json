@@ -1,6 +1,5 @@
 {
   "StartCacheNodes" : {
-    "action" : "固定值，StartCacheNodes",
     "clientToken" : "保证API调用的幂等性",
     "instanceId" : "RapidFS 实例 ID",
     "cacheNodeIds" : "待启动的 CacheNode ID 列表"

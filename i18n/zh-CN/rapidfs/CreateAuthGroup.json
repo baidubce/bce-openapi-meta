@@ -1,6 +1,5 @@
 {
   "CreateAuthGroup" : {
-    "action" : "固定值，CreateAuthGroup",
     "clientToken" : "保证API调用的幂等性",
     "authGroupName" : "权限组名",
     "instanceId" : "所属 rapidFS 实例ID",

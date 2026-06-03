@@ -10,12 +10,6 @@
     "default" : "1",
     "desc_key" : "common.version"
   }, {
-    "name" : "action",
-    "type" : "String",
-    "required" : true,
-    "position" : "QUERY",
-    "desc_key" : "rapidfs.AddCacheNodes.action"
-  }, {
     "name" : "clientToken",
     "type" : "String",
     "required" : true,

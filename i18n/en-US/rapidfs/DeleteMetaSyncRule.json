@@ -1,6 +1,5 @@
 {
   "DeleteMetaSyncRule" : {
-    "action" : "Fixed value, DeleteMetaSyncRule",
     "clientToken" : "Ensures idempotency of the API call",
     "instanceId" : "RapidFS instance ID",
     "dataSrcId" : "Data source ID",

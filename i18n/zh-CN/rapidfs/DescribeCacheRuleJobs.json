@@ -1,6 +1,5 @@
 {
   "DescribeCacheRuleJobs" : {
-    "action" : "固定值，DescribeCacheRuleJobs",
     "instanceId" : "RapidFS 实例 ID",
     "dataSrcId" : "数据源 ID",
     "cacheRuleId" : "缓存管理规则 ID",

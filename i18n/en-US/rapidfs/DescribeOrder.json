@@ -1,6 +1,5 @@
 {
   "DescribeOrder" : {
-    "action" : "Fixed value: DescribeOrder",
     "orderId" : "Order ID. The API returns the order ID upon instance creation."
   }
 }

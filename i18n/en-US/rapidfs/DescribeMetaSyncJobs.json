@@ -1,6 +1,5 @@
 {
   "DescribeMetaSyncJobs" : {
-    "action" : "Fixed value: DescribeMetaSyncJobs",
     "instanceId" : "RapidFS instance ID",
     "dataSrcId" : "Data source ID",
     "metaSyncRuleId" : "Metadata sync rule ID",

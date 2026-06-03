@@ -1,6 +1,5 @@
 {
   "StopCacheNodes" : {
-    "action" : "固定值，StopCacheNodes",
     "clientToken" : "保证API调用的幂等性",
     "instanceId" : "RapidFS 实例 ID",
     "cacheNodeIds" : "待停止的 CacheNode ID 列表",

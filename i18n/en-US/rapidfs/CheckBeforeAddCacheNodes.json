@@ -1,6 +1,5 @@
 {
   "CheckBeforeAddCacheNodes" : {
-    "action" : "Fixed value: CheckBeforeAddCacheNodes",
     "instanceId" : "RapidFS instance ID",
     "type" : "Cache access type to be added by the user in MasterManaged deployment mode. Currently supported values: * BCC: Baidu Cloud Compute (BCC); * IDC: Self-built data center",
     "cacheNodes" : "List of node information to be added. See appendix AddCacheNodeInfo",

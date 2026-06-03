@@ -1,6 +1,5 @@
 {
   "DescribeAuthGroup" : {
-    "action" : "固定值，DescribeAuthGroup",
     "instanceId" : "待查询的 rapidFS 实例唯一 ID",
     "authGroupId" : "权限组id"
   }

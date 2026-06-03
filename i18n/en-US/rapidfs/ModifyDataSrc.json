@@ -1,6 +1,5 @@
 {
   "ModifyDataSrc" : {
-    "action" : "Fixed value: ModifyDataSrc",
     "clientToken" : "Ensures idempotency of the API call",
     "dataSrcId" : "ID of the data source to be modified",
     "instanceId" : "Unique ID of the RapidFS instance that the data source belongs to",

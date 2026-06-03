@@ -1,6 +1,5 @@
 {
   "DescribeDataSrc" : {
-    "action" : "Fixed value, DescribeDataSrc",
     "instanceId" : "RapidFS instance ID",
     "dataSrcId" : "ID of the data source to be modified"
   }

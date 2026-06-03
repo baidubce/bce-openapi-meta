@@ -1,6 +1,5 @@
 {
   "DescribeCacheNode" : {
-    "action" : "固定值，DescribeCacheNode",
     "instanceId" : "RapidFS 实例 ID",
     "cacheNodeId" : "CacheNode ID"
   }

@@ -1,8 +1,7 @@
 {
   "DeleteInstance" : {
-    "action" : "Fixed value: DeleteInstance",
     "clientToken" : "Ensures idempotency of the API call",
     "instanceId" : "The ID of the RapidFS instance to be released",
-    "token" : "* First call: If the parameter is empty or not provided, the system generates and returns a temporary token; * Second call: Required, pass in the token returned from the first call; the system will validate it and decide whether to accept the release operation based on the result"
+    "token" : "<br> • First call: If this parameter is left empty or omitted, the system will generate and return a temporary token; <br> • Second call: Required. Pass in the token returned from the first call; the system will validate it and determine whether to accept the instance release request based on the validation result."
   }
 }

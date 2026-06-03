@@ -1,6 +1,5 @@
 {
   "DescribeOrder" : {
-    "action" : "固定值，DescribeOrder",
     "orderId" : "订单ID，创建实例时，接口会返回订单ID"
   }
 }

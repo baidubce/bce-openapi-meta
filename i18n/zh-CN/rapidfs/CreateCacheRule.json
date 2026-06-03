@@ -1,11 +1,10 @@
 {
   "CreateCacheRule" : {
-    "action" : "固定值，CreateCacheRule",
     "clientToken" : "保证 API 调用的幂等性",
     "instanceId" : "RapidFS 实例 ID",
     "dataSrcId" : "数据源 ID",
     "cacheRuleName" : "缓存管理规则名称",
-    "type" : "缓存管理规则类型：* WARMUP：缓存预热，将缓存从持久存储预热到 RapidFS 实例内；* EVICTION：缓存淘汰，将已预热到 RapidFS 实例的缓存淘汰",
+    "type" : "缓存管理规则类型：<br> • WARMUP：缓存预热，将缓存从持久存储预热到 RapidFS 实例内；<br> • EVICTION：缓存淘汰，将已预热到 RapidFS 实例的缓存淘汰",
     "directory" : "RapidFS 目录前缀，默认值为 /",
     "executeOnCreate" : "是否立即执行，默认 false",
     "description" : "缓存管理规则描述信息"

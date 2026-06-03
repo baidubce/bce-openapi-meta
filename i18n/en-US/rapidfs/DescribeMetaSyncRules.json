@@ -1,8 +1,7 @@
 {
   "DescribeMetaSyncRules" : {
-    "action" : "Fixed value: DescribeMetaSyncRules",
     "instanceId" : "RapidFS instance ID",
-    "filters" : "Filter conditions (see Filter appendix). Multiple filters are AND-related; multiple values within a filter are OR-related. Supported fields: * name=dataSrcId, filter by data source ID, e.g. value=[\"ds-AOLmxozuEqas\", \"ds-kykIYfOmY9ZU\"]; * name=metaSyncRuleId, e.g. value=[\"ms-HljnqUtZBazs\", \"ms-Jz6lAqoiYJxI\"]",
+    "filters" : "Conditional filters. See Appendix Filter. Multiple filter groups are combined with AND logic; multiple values within a single filter are combined with OR logic. Supported fields:<br> • name=dataSrcId: filter by data source ID, e.g. value=[\"ds-AOLmxozuEqas\", \"ds-kykIYfOmY9ZU\"];<br> • name=metaSyncRuleId, e.g. value=[\"ms-HljnqUtZBazs\", \"ms-Jz6lAqoiYJxI\"]",
     "filters.name" : "Field to filter on; multiple filters are AND-related. Example: zone",
     "filters.values" : "Filter values for the field; multiple values are OR-related. Example: [\"zoneA\", \"zoneB\"]",
     "maxKeys" : "Maximum number of items to return. Valid range: [1, 1000]. Default: 100",

@@ -1,6 +1,5 @@
 {
   "RestartCacheNodes" : {
-    "action" : "Fixed value, RestartCacheNodes",
     "clientToken" : "Ensures idempotency of API calls",
     "instanceId" : "RapidFS instance ID",
     "cacheNodeIds" : "List of CacheNode IDs to restart"

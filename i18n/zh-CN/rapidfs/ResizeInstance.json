@@ -1,6 +1,5 @@
 {
   "ResizeInstance" : {
-    "action" : "固定值，ResizeInstance",
     "clientToken" : "保证API调用的幂等性",
     "instanceId" : "RapidFS 实例 ID",
     "capacityTiB" : "扩缩容后的目标容量，单位 TiB"

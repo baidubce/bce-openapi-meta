@@ -1,6 +1,5 @@
 {
   "ModifyToken" : {
-    "action" : "固定值，ModifyToken",
     "clientToken" : "保证API调用的幂等性",
     "instanceId" : "所属 RapidFS 实例唯一 Id",
     "tokenId" : "Token id",

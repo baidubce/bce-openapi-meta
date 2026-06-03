@@ -1,11 +1,10 @@
 {
   "CreateCacheRule" : {
-    "action" : "Fixed value, CreateCacheRule",
     "clientToken" : "Ensures idempotency of the API call",
     "instanceId" : "RapidFS instance ID",
     "dataSrcId" : "Data source ID",
     "cacheRuleName" : "Cache management rule name",
-    "type" : "Cache management rule type: * WARMUP: Cache warm-up, preloads data from persistent storage into the RapidFS instance; * EVICTION: Cache eviction, evicts data that has been warmed up in the RapidFS instance",
+    "type" : "Cache management rule type: WARMUP – pre-warms cache from persistent storage into the RapidFS instance; EVICTION – evicts cache that has been warmed into the RapidFS instance",
     "directory" : "RapidFS directory prefix, default value is /",
     "executeOnCreate" : "Whether to execute immediately, default is false",
     "description" : "Cache management rule description"

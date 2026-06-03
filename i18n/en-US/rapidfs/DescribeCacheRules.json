@@ -1,6 +1,5 @@
 {
   "DescribeCacheRules" : {
-    "action" : "Fixed value: DescribeCacheRules",
     "instanceId" : "RapidFS instance ID",
     "filters" : "Filter conditions. See Appendix Filter. Multiple filters are combined with AND logic; multiple values within a filter are combined with OR logic. Supported fields: * name=dataSrcId, filter by data source ID, e.g. value=[\"ds-AOLmxozuEqas\", \"ds-kykIYfOmY9ZU\"]; * name=cacheRuleId, e.g. value=[\"df-HljnqUtZBazs\", \"df-3LwVtPjGYPij\"]",
     "filters.name" : "The field to filter on. Multiple filters are combined with AND logic. Example: zone",

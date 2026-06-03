@@ -1,6 +1,5 @@
 {
   "CreateAuthGroup" : {
-    "action" : "Fixed value, CreateAuthGroup",
     "clientToken" : "Ensures idempotency of the API call",
     "authGroupName" : "Name of the permission group",
     "instanceId" : "ID of the associated rapidFS instance",

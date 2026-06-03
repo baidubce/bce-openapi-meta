@@ -1,6 +1,5 @@
 {
   "CancelMetaSyncJob" : {
-    "action" : "固定值，CancelMetaSyncJob",
     "clientToken" : "保证API调用的幂等性",
     "instanceId" : "RapidFS 实例 ID",
     "dataSrcId" : "数据源 ID",

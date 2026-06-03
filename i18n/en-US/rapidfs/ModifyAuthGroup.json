@@ -1,6 +1,5 @@
 {
   "ModifyAuthGroup" : {
-    "action" : "Fixed value, ModifyAuthGroup",
     "clientToken" : "Ensures idempotency of the API call",
     "authGroupId" : "Permission group ID",
     "instanceId" : "Unique ID of the RapidFS instance",

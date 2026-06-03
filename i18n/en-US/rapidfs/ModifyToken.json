@@ -1,6 +1,5 @@
 {
   "ModifyToken" : {
-    "action" : "Fixed value, ModifyToken",
     "clientToken" : "Ensures idempotency of API calls",
     "instanceId" : "Unique ID of the associated RapidFS instance",
     "tokenId" : "Token ID",

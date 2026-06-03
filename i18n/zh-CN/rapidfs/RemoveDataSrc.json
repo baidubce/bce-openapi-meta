@@ -1,6 +1,5 @@
 {
   "RemoveDataSrc" : {
-    "action" : "固定值，RemoveDataSrc",
     "clientToken" : "保证API调用的幂等性",
     "dataSrcId" : "待释放的数据源ID",
     "instanceId" : "所属RapidFS 实例ID",

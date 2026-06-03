@@ -1,6 +1,5 @@
 {
   "DeleteAuthGroup" : {
-    "action" : "固定值，DeleteAuthGroup",
     "clientToken" : "保证API调用的幂等性",
     "instanceId" : "所属 RapidFS 实例唯一 Id",
     "authGroupId" : "待删除的权限组id，**权限组有绑定数据源的情况下会删除失败**"

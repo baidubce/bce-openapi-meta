@@ -1,6 +1,5 @@
 {
   "DescribeInstances" : {
-    "action" : "Fixed value: DescribeInstances",
     "filters" : "Condition filters. See Appendix Filter. Multiple filters are combined with AND logic; multiple values within a filter are combined with OR logic. Supported fields: * name=instanceId, e.g. value=[\"rapidfs-wKEltVDfQwgO\", \"rapidfs-Lp1yaDO582fz\"]; * name=instanceName, e.g. value=[\"filter-name\", \"test-name\"]; * name=status, enum values refer to Appendix InstanceStatus, e.g. value=[\"RUNNING\", \"CREATING\"]; * name=aihcResourcePoolId/cceClusterId/k8sControllerId, e.g. value=[\"aihc-hk25ilq7xcfd\", \"cce-gv45s2cp\"]",
     "filters.name" : "The field to filter on. Multiple filters are combined with AND logic. Example: zone",
     "filters.values" : "Filter values for the field. Multiple values are combined with OR logic. Example: [\"zoneA\", \"zoneB\"]",

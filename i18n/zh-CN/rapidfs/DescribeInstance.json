@@ -1,6 +1,5 @@
 {
   "DescribeInstance" : {
-    "action" : "固定值，DescribeInstance",
     "instanceId" : "RapidFS 实例ID"
   }
 }

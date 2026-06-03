@@ -1,6 +1,5 @@
 {
   "CreateInstance" : {
-    "action" : "Fixed value: CreateInstance.",
     "clientToken" : "Ensures idempotency of the API call.",
     "instanceName" : "User-defined name for the instance.",
     "description" : "Description text, supports up to 256 characters.",

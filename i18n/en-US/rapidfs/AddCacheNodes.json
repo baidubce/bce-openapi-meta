@@ -1,6 +1,5 @@
 {
   "AddCacheNodes" : {
-    "action" : "Fixed value: AddCacheNodes",
     "clientToken" : "Ensures idempotency of the API call",
     "instanceId" : "RapidFS instance ID",
     "type" : "Cache access type to be added in MasterManaged deployment mode; currently supported values: * BCC: Baidu Cloud Server (BCC); * IDC: Self-built data center",

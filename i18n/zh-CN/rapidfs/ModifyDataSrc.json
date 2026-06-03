@@ -1,6 +1,5 @@
 {
   "ModifyDataSrc" : {
-    "action" : "固定值，ModifyDataSrc",
     "clientToken" : "保证API调用的幂等性",
     "dataSrcId" : "待修改的数据源 ID",
     "instanceId" : "所属 RapidFS 实例唯一 ID",

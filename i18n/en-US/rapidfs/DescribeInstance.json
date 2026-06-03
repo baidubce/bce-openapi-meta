@@ -1,6 +1,5 @@
 {
   "DescribeInstance" : {
-    "action" : "Fixed value, DescribeInstance",
     "instanceId" : "RapidFS instance ID"
   }
 }

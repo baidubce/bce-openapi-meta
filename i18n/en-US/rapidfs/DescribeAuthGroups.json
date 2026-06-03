@@ -1,6 +1,5 @@
 {
   "DescribeAuthGroups" : {
-    "action" : "Fixed value: DescribeAuthGroups",
     "instanceId" : "The unique ID of the rapidFS instance to query",
     "filters" : "Filter conditions. See Appendix Filter. Multiple filters are combined with AND logic; multiple values within a filter are combined with OR logic. Supported fields: * name=authGroupId, e.g. value=[\"ag-AOLmxozuEqas\", \"ag-MuzHGS8WtjHq\"]",
     "filters.name" : "The field to filter on. Multiple filters are combined with AND logic. Example: zone",

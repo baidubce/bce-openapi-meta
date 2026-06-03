@@ -1,6 +1,5 @@
 {
   "ModifyAuthGroup" : {
-    "action" : "固定值，ModifyAuthGroup",
     "clientToken" : "保证API调用的幂等性",
     "authGroupId" : "权限组id",
     "instanceId" : "所属 RapidFS 实例唯一 Id",

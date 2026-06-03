@@ -1,6 +1,5 @@
 {
   "ImportDataSrc" : {
-    "action" : "Fixed value: ImportDataSrc",
     "clientToken" : "Ensures idempotency of the API call",
     "instanceId" : "RapidFS instance ID",
     "dataSrcName" : "Data source name",

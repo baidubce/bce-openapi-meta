@@ -1,6 +1,5 @@
 {
   "DescribeCacheRule" : {
-    "action" : "Fixed value, DescribeCacheRule",
     "instanceId" : "RapidFS instance ID",
     "dataSrcId" : "Data source ID",
     "cacheRuleId" : "Cache management rule ID"

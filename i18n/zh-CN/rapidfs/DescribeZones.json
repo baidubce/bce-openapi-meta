@@ -1,5 +1,3 @@
 {
-  "DescribeZones" : {
-    "action" : "固定值，DescribeZones"
-  }
+  "DescribeZones" : { }
 }
