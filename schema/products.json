@@ -129,5 +129,17 @@
       "gz" : "apm.gz.baidubce.com",
       "su" : "apm.su.baidubce.com"
     }
+  }, {
+    "code" : "rapidfs",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "rapidfs.bd.baidubce.com",
+      "bj" : "rapidfs.bj.baidubce.com",
+      "cd" : "rapidfs.cd.baidubce.com",
+      "gz" : "rapidfs.gz.baidubce.com",
+      "hkg" : "rapidfs.hkg.baidubce.com",
+      "su" : "rapidfs.su.baidubce.com",
+      "yq" : "rapidfs.yq.baidubce.com"
+    }
   } ]
 }

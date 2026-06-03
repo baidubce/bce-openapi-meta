@@ -1,0 +1,7 @@
+{
+  "DescribeAllocatableDataSrcQuota" : {
+    "action" : "固定值，DescribeAllocatableDataSrcQuota",
+    "instanceId" : "所属 RapidFS 实例唯一 Id",
+    "dataSrcId" : "查询某个数据源可分配的最大配额，包含当前已分配的配额"
+  }
+}

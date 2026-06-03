@@ -1,0 +1,7 @@
+{
+  "DescribeToken" : {
+    "action" : "固定值，DescribeToken",
+    "instanceId" : "RapidFS 实例 ID",
+    "tokenId" : "Token id，不传返回集群默认 Token"
+  }
+}

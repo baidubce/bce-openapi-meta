@@ -1,0 +1,15 @@
+{
+  "CreateMetaSyncRule" : {
+    "action" : "Fixed value: CreateMetaSyncRule",
+    "clientToken" : "Ensures idempotency of the API call",
+    "instanceId" : "RapidFS instance ID",
+    "dataSrcId" : "Data source ID",
+    "metaSyncRuleName" : "Metadata sync rule name",
+    "type" : "Metadata sync rule type. Enum values: * MANUAL: one-time sync, executed manually; * PERIODIC: periodic sync, executed automatically",
+    "directory" : "RapidFS directory prefix, default value is /",
+    "intervalMinutes" : "Sync interval in minutes, default 5 min. Valid range: [1, 28800 (20 days)]",
+    "executeOnCreate" : "Whether to execute immediately after a one-time sync rule is created, default false",
+    "enableOnCreate" : "Whether to enable a periodic sync rule by default upon creation, default true",
+    "description" : "Metadata sync rule description"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "CheckBeforeCreateInstance" : {
+    "action" : "Fixed value: CheckBeforeCreateInstance",
+    "zone" : "Availability zone, e.g. ZoneA, ZoneB, etc.",
+    "vpcId" : "VPC (short ID) where the RapidFS instance resides",
+    "subnetId" : "Subnet (short ID) where the RapidFS instance resides",
+    "managedMode" : "Deployment mode of the RapidFS instance. Enum values: * FullyManaged: Fully managed mode, suitable for businesses without idle storage resources, at ultra-large scale, or requiring high stability. In this mode, RapidFS fully manages the instance with no user O&M required. * MasterManaged: Master-managed mode, suitable for businesses with idle storage resources, cost sensitivity, and certain O&M capabilities.",
+    "metaSpec" : "Metadata specification. Currently effective only in MasterManaged mode. Enum values: * M1: Suitable for scenarios with up to 1 billion files, up to 50 cache nodes, and up to 4 data disks mountable per cache node. * M2: Suitable for scenarios with up to 5 billion files, up to 400 cache nodes, and up to 8 data disks mountable per cache node.",
+    "dataSpec" : "Data specification. Currently effective only in FullyManaged mode. Enum values: * Basic: Data performance baseline of 100 MB/s/TiB. * Capacity: Data performance baseline of 200 MB/s/TiB.",
+    "type" : "Cache access type managed by the user in MasterManaged mode. Valid only in MasterManaged mode. Enum values: * BCC: Cloud server BCC, cache nodes deployed directly on BCC instances. * IDC: Self-built data center, cache nodes deployed directly on user IDC servers. * CCE: Cloud Container Engine, cache nodes deployed as containers in a CCE cluster. * K8S: Self-managed Kubernetes, cache nodes deployed as containers in an in-house EKS or self-built K8s cluster. * AIHC: AI Heterogeneous Compute (Baihe AIHC), cache nodes deployed as containers in an AIHC cluster; currently only fully managed AIHC resource pools are supported.",
+    "capacityTiB" : "Required in FullyManaged mode. Specifies the purchased cache capacity in TiB. Must not exceed the maximum purchasable capacity returned by the DescribeSpecs API.",
+    "cceClusterId" : "Required in MasterManaged mode when the cache access type is CCE. Specifies the CCE cluster ID.",
+    "aihcResourcePoolId" : "Required in MasterManaged mode when the cache access type is AIHC. Specifies the AIHC fully managed resource pool ID.",
+    "k8sControllerId" : "Required in MasterManaged mode when the cache access type is K8S. Specifies the RapidFS cache controller ID within the K8s cluster. Retrieve it after controller installation via: `kubectl get cm -n kube-system rapidfs-cache-service-config -o yaml`",
+    "k8sControllerToken" : "Required in MasterManaged mode when the cache access type is K8S. Specifies the RapidFS cache controller token within the K8s cluster. Retrieve it after controller installation via: `kubectl get cm -n kube-system rapidfs-cache-service-config -o yaml`. Must be encrypted using the secret key corresponding to the request header x-bce-accesskey. See the password encryption transmission specification for details. Refer to the aes128_encrypt_16char_key() function in the bce-python-sdk."
+  }
+}

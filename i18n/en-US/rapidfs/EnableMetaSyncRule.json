@@ -1,0 +1,9 @@
+{
+  "EnableMetaSyncRule" : {
+    "action" : "Fixed value, EnableMetaSyncRule",
+    "clientToken" : "Ensures idempotency of API calls",
+    "instanceId" : "RapidFS instance ID",
+    "dataSrcId" : "Data source ID",
+    "metaSyncRuleId" : "Metadata sync rule ID"
+  }
+}

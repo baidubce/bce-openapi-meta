@@ -1,0 +1,11 @@
+{
+  "DescribeMetaSyncRules" : {
+    "action" : "Fixed value: DescribeMetaSyncRules",
+    "instanceId" : "RapidFS instance ID",
+    "filters" : "Filter conditions (see Filter appendix). Multiple filters are AND-related; multiple values within a filter are OR-related. Supported fields: * name=dataSrcId, filter by data source ID, e.g. value=[\"ds-AOLmxozuEqas\", \"ds-kykIYfOmY9ZU\"]; * name=metaSyncRuleId, e.g. value=[\"ms-HljnqUtZBazs\", \"ms-Jz6lAqoiYJxI\"]",
+    "filters.name" : "Field to filter on; multiple filters are AND-related. Example: zone",
+    "filters.values" : "Filter values for the field; multiple values are OR-related. Example: [\"zoneA\", \"zoneB\"]",
+    "maxKeys" : "Maximum number of items to return. Valid range: [1, 1000]. Default: 100",
+    "marker" : "Starting position for paginated list retrieval. The list is sorted by metaSyncRuleId lexicographically. Use the nextMarker value from the previous response"
+  }
+}

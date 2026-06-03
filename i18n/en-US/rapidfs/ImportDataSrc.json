@@ -1,0 +1,18 @@
+{
+  "ImportDataSrc" : {
+    "action" : "Fixed value: ImportDataSrc",
+    "clientToken" : "Ensures idempotency of the API call",
+    "instanceId" : "RapidFS instance ID",
+    "dataSrcName" : "Data source name",
+    "bucket" : "BOS Bucket of the data source (only buckets in the same region are supported)",
+    "otherAccount" : "Whether the bucket belongs to another resource account; if true, an AK/SK with read/write access to the imported bucket must be provided. Default: false",
+    "bucketAK" : "Required when otherAccount is true; no encryption needed",
+    "bucketSK" : "Required when otherAccount is true; must be encrypted using the secret key corresponding to request header x-bce-accesskey. Refer to the Password Encryption Transmission Specification and the aes128_encrypt_16char_key() function in bce-python-sdk",
+    "bucketStsToken" : "Effective when otherAccount is true; no encryption needed",
+    "dirPrefix" : "Directory prefix of the BOS Bucket; default is /. For example, to import all objects under bos://bucket_name/model_data/2025/, set dirPrefix to /model_data/2025/",
+    "keepSymlink" : "Whether to preserve BOS symbolic links; keeping symlinks reduces efficiency of data source import creation and subsequent incremental metadata sync. Default: false",
+    "authGroupId" : "Permission group ID; the default permission group ID is AG-RAPIDFS_DEFAULT_AUTHGROUP_ID",
+    "description" : "Data source description",
+    "quotaMiB" : "Capacity quota for the data source, representing the maximum available capacity; cannot exceed the total cache capacity of the instance"
+  }
+}

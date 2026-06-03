@@ -1,0 +1,12 @@
+{
+  "DescribeCacheNodeBccCandidates" : {
+    "action" : "Fixed value: DescribeCacheNodeBccCandidates",
+    "instanceId" : "RapidFS instance ID",
+    "vpcId" : "VPC ID",
+    "filters" : "Filter conditions (see Appendix Filter). Multiple filters are combined with AND logic; multiple values within a filter use OR logic. Supported fields: * name=bccId, filter by BCC ID, e.g. value=[\"i-RC35eAcH\", \"i-5si77yc4\"]; * name=bccName, filter by BCC name, e.g. value=[\"name1\", \"name2\"]; * name=bccIp, filter by BCC IP, e.g. value=[\"192.168.0.1\", \"192.168.0.2\"]; * name=tag, batch filter by BCC bound tags, e.g. value=[\"tagkey:tagvalue\", \"tagkey\"]",
+    "filters.name" : "Field to filter on; multiple filters are combined with AND logic. E.g. zone",
+    "filters.values" : "Filter values for the field; multiple values use OR logic. E.g. [\"zoneA\", \"zoneB\"]",
+    "maxKeys" : "Maximum number of entries to return. Valid range: [1, 1000]. Default: 100",
+    "marker" : "Starting position for paginated list retrieval. Use the nextMarker value returned from the previous response"
+  }
+}

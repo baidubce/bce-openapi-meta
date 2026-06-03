@@ -1,0 +1,9 @@
+{
+  "RemoveDataSrc" : {
+    "action" : "固定值，RemoveDataSrc",
+    "clientToken" : "保证API调用的幂等性",
+    "dataSrcId" : "待释放的数据源ID",
+    "instanceId" : "所属RapidFS 实例ID",
+    "token" : "当参数为空或未传值时，系统会生成并返回一个临时令牌；当传入token时，系统会进行校验，并根据校验结果决定是否接受释放操作"
+  }
+}

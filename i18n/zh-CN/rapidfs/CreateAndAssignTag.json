@@ -1,0 +1,9 @@
+{
+  "CreateAndAssignTag" : {
+    "action" : "固定值，CreateAndAssignTag",
+    "clientToken" : "保证API调用的幂等性",
+    "tagResources" : "需要修改的实例及标签信息，支持批量修改，见附录 TagResource，仅支持 RapidFS 实例绑定标签",
+    "tagResources.instanceId" : "RapidFS 实例ID",
+    "tagResources.tags" : "需要创建或者修改绑定的实例标签，解绑所有标签时则传空数组即可，见Tag"
+  }
+}

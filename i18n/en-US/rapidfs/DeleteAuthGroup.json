@@ -1,0 +1,8 @@
+{
+  "DeleteAuthGroup" : {
+    "action" : "Fixed value, DeleteAuthGroup",
+    "clientToken" : "Ensures idempotency of the API call",
+    "instanceId" : "Unique ID of the RapidFS instance",
+    "authGroupId" : "ID of the auth group to delete; **deletion fails if the auth group has bound data sources**"
+  }
+}

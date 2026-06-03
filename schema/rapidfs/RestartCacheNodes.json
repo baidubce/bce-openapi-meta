@@ -1,0 +1,38 @@
+{
+  "name" : "RestartCacheNodes",
+  "method" : "POST",
+  "uri" : "/v{version}/cachenode?action=RestartCacheNodes",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.RestartCacheNodes.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.RestartCacheNodes.clientToken"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.RestartCacheNodes.instanceId"
+  }, {
+    "name" : "cacheNodeIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.RestartCacheNodes.cacheNodeIds"
+  } ],
+  "desc_key" : "rapidfs.RestartCacheNodes.desc"
+}

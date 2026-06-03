@@ -1,0 +1,38 @@
+{
+  "name" : "DescribeAihcResourcePools",
+  "method" : "POST",
+  "uri" : "/v{version}/aihcresourcepool?action=DescribeAihcResourcePools",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.DescribeAihcResourcePools.action"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeAihcResourcePools.vpcId"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeAihcResourcePools.maxKeys"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeAihcResourcePools.marker"
+  } ],
+  "desc_key" : "rapidfs.DescribeAihcResourcePools.desc"
+}

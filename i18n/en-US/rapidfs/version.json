@@ -1,0 +1,227 @@
+{
+  "version" : "v2",
+  "style" : "rpc",
+  "description" : "rapidfs",
+  "apis" : {
+    "ImportDataSrc" : {
+      "title" : "importDataSrc",
+      "summary" : "importDataSrc"
+    },
+    "DescribeDataSrcs" : {
+      "title" : "describeDataSrcs",
+      "summary" : "describeDataSrcs"
+    },
+    "DescribeDataSrc" : {
+      "title" : "describeDataSrc",
+      "summary" : "describeDataSrc"
+    },
+    "ModifyDataSrc" : {
+      "title" : "modifyDataSrc",
+      "summary" : "modifyDataSrc"
+    },
+    "RemoveDataSrc" : {
+      "title" : "removeDataSrc",
+      "summary" : "removeDataSrc"
+    },
+    "ResizeInstance" : {
+      "title" : "resizeInstance",
+      "summary" : "resizeInstance"
+    },
+    "CreateCacheRule" : {
+      "title" : "createCacheRule",
+      "summary" : "createCacheRule"
+    },
+    "DescribeOrder" : {
+      "title" : "describeOrder",
+      "summary" : "describeOrder"
+    },
+    "DescribeCacheRules" : {
+      "title" : "describeCacheRules",
+      "summary" : "describeCacheRules"
+    },
+    "DescribeZones" : {
+      "title" : "describeZones",
+      "summary" : "describeZones"
+    },
+    "DescribeCacheRule" : {
+      "title" : "describeCacheRule",
+      "summary" : "describeCacheRule"
+    },
+    "ExecuteCacheRuleJob" : {
+      "title" : "executeCacheRuleJob",
+      "summary" : "executeCacheRuleJob"
+    },
+    "ModifyToken" : {
+      "title" : "modifyToken",
+      "summary" : "modifyToken"
+    },
+    "DeleteCacheRule" : {
+      "title" : "deleteCacheRule",
+      "summary" : "deleteCacheRule"
+    },
+    "DescribeCacheDeployGroups" : {
+      "title" : "describeCacheDeployGroups",
+      "summary" : "describeCacheDeployGroups"
+    },
+    "DescribeCacheDeployGroup" : {
+      "title" : "describeCacheDeployGroup",
+      "summary" : "describeCacheDeployGroup"
+    },
+    "CheckBeforeAddCacheNodes" : {
+      "title" : "checkBeforeAddCacheNodes",
+      "summary" : "checkBeforeAddCacheNodes"
+    },
+    "AddCacheNodes" : {
+      "title" : "addCacheNodes",
+      "summary" : "addCacheNodes"
+    },
+    "RemoveCacheNodes" : {
+      "title" : "removeCacheNodes",
+      "summary" : "removeCacheNodes"
+    },
+    "StopCacheNodes" : {
+      "title" : "stopCacheNodes",
+      "summary" : "stopCacheNodes"
+    },
+    "StartCacheNodes" : {
+      "title" : "startCacheNodes",
+      "summary" : "startCacheNodes"
+    },
+    "RestartCacheNodes" : {
+      "title" : "restartCacheNodes",
+      "summary" : "restartCacheNodes"
+    },
+    "DescribeCacheNodes" : {
+      "title" : "describeCacheNodes",
+      "summary" : "describeCacheNodes"
+    },
+    "DescribeCacheNode" : {
+      "title" : "describeCacheNode",
+      "summary" : "describeCacheNode"
+    },
+    "DescribeCacheNodeBccCandidates" : {
+      "title" : "describeCacheNodeBccCandidates",
+      "summary" : "describeCacheNodeBccCandidates"
+    },
+    "DescribeCacheNodeQuota" : {
+      "title" : "describeCacheNodeQuota",
+      "summary" : "describeCacheNodeQuota"
+    },
+    "CreateMetaSyncRule" : {
+      "title" : "createMetaSyncRule",
+      "summary" : "createMetaSyncRule"
+    },
+    "DescribeMetaSyncRules" : {
+      "title" : "describeMetaSyncRules",
+      "summary" : "describeMetaSyncRules"
+    },
+    "DescribeMetaSyncRule" : {
+      "title" : "describeMetaSyncRule",
+      "summary" : "describeMetaSyncRule"
+    },
+    "ExecuteMetaSyncJob" : {
+      "title" : "executeMetaSyncJob",
+      "summary" : "executeMetaSyncJob"
+    },
+    "CancelMetaSyncJob" : {
+      "title" : "cancelMetaSyncJob",
+      "summary" : "cancelMetaSyncJob"
+    },
+    "EnableMetaSyncRule" : {
+      "title" : "enableMetaSyncRule",
+      "summary" : "enableMetaSyncRule"
+    },
+    "DisableMetaSyncRule" : {
+      "title" : "disableMetaSyncRule",
+      "summary" : "disableMetaSyncRule"
+    },
+    "DescribeMetaSyncJobs" : {
+      "title" : "describeMetaSyncJobs",
+      "summary" : "describeMetaSyncJobs"
+    },
+    "ModifyMetaSyncRule" : {
+      "title" : "modifyMetaSyncRule",
+      "summary" : "modifyMetaSyncRule"
+    },
+    "DeleteMetaSyncRule" : {
+      "title" : "deleteMetaSyncRule",
+      "summary" : "deleteMetaSyncRule"
+    },
+    "DescribeAllocatableDataSrcQuota" : {
+      "title" : "describeAllocatableDataSrcQuota",
+      "summary" : "describeAllocatableDataSrcQuota"
+    },
+    "CancelCacheRuleJob" : {
+      "title" : "cancelCacheRuleJob",
+      "summary" : "cancelCacheRuleJob"
+    },
+    "DescribeCacheRuleJobs" : {
+      "title" : "describeCacheRuleJobs",
+      "summary" : "describeCacheRuleJobs"
+    },
+    "DeleteInstance" : {
+      "title" : "deleteInstance",
+      "summary" : "deleteInstance"
+    },
+    "DescribeInstance" : {
+      "title" : "describeInstance",
+      "summary" : "describeInstance"
+    },
+    "CreateInstance" : {
+      "title" : "createInstance",
+      "summary" : "createInstance"
+    },
+    "DescribeInstances" : {
+      "title" : "describeInstances",
+      "summary" : "describeInstances"
+    },
+    "DescribeToken" : {
+      "title" : "describeToken",
+      "summary" : "describeToken"
+    },
+    "CheckBeforeCreateInstance" : {
+      "title" : "checkBeforeCreateInstance",
+      "summary" : "checkBeforeCreateInstance"
+    },
+    "CreateAndAssignTag" : {
+      "title" : "createAndAssignTag",
+      "summary" : "createAndAssignTag"
+    },
+    "DescribeSpecs" : {
+      "title" : "describeSpecs",
+      "summary" : "describeSpecs"
+    },
+    "DescribePrice" : {
+      "title" : "describePrice",
+      "summary" : "describePrice"
+    },
+    "DescribeCceClusters" : {
+      "title" : "describeCceClusters",
+      "summary" : "describeCceClusters"
+    },
+    "DescribeAihcResourcePools" : {
+      "title" : "describeAihcResourcePools",
+      "summary" : "describeAihcResourcePools"
+    },
+    "CreateAuthGroup" : {
+      "title" : "createAuthGroup",
+      "summary" : "createAuthGroup"
+    },
+    "DescribeAuthGroups" : {
+      "title" : "describeAuthGroups",
+      "summary" : "describeAuthGroups"
+    },
+    "DescribeAuthGroup" : {
+      "title" : "describeAuthGroup",
+      "summary" : "describeAuthGroup"
+    },
+    "ModifyAuthGroup" : {
+      "title" : "modifyAuthGroup",
+      "summary" : "modifyAuthGroup"
+    },
+    "DeleteAuthGroup" : {
+      "title" : "deleteAuthGroup",
+      "summary" : "deleteAuthGroup"
+    }
+  }
+}

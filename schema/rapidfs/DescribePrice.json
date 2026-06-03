@@ -1,0 +1,50 @@
+{
+  "name" : "DescribePrice",
+  "method" : "POST",
+  "uri" : "/v{version}/price?action=DescribePrice",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.DescribePrice.action"
+  }, {
+    "name" : "currency",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribePrice.currency"
+  }, {
+    "name" : "managedMode",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribePrice.managedMode"
+  }, {
+    "name" : "metaSpec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribePrice.metaSpec"
+  }, {
+    "name" : "dataSpec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribePrice.dataSpec"
+  }, {
+    "name" : "capacityTiB",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribePrice.capacityTiB"
+  } ],
+  "desc_key" : "rapidfs.DescribePrice.desc"
+}

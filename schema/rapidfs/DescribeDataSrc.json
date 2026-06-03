@@ -1,0 +1,32 @@
+{
+  "name" : "DescribeDataSrc",
+  "method" : "POST",
+  "uri" : "/v{version}/datasrc?action=DescribeDataSrc",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.DescribeDataSrc.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeDataSrc.instanceId"
+  }, {
+    "name" : "dataSrcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeDataSrc.dataSrcId"
+  } ],
+  "desc_key" : "rapidfs.DescribeDataSrc.desc"
+}

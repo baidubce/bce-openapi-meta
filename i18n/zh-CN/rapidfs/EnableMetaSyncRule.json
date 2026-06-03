@@ -1,0 +1,9 @@
+{
+  "EnableMetaSyncRule" : {
+    "action" : "固定值，EnableMetaSyncRule",
+    "clientToken" : "保证API调用的幂等性",
+    "instanceId" : "RapidFS 实例 ID",
+    "dataSrcId" : "数据源 ID",
+    "metaSyncRuleId" : "元数据同步规则 ID"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "RemoveCacheNodes" : {
+    "action" : "固定值，RemoveCacheNodes",
+    "clientToken" : "保证API调用的幂等性",
+    "instanceId" : "RapidFS 实例 ID",
+    "cacheNodeIds" : "待移除的 CacheNode ID 列表",
+    "forceRemoveOnOffline" : "节点连接状态离线时，是否强制移除"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "name" : "CreateInstance",
+  "method" : "POST",
+  "uri" : "/v{version}/instance?action=CreateInstance",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.CreateInstance.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.CreateInstance.clientToken"
+  }, {
+    "name" : "instanceName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.instanceName"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.description"
+  }, {
+    "name" : "zone",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.zone"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.vpcId"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.subnetId"
+  }, {
+    "name" : "managedMode",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.managedMode"
+  }, {
+    "name" : "metaSpec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.metaSpec"
+  }, {
+    "name" : "dataSpec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.dataSpec"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.type"
+  }, {
+    "name" : "capacityTiB",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.capacityTiB"
+  }, {
+    "name" : "cceClusterId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.cceClusterId"
+  }, {
+    "name" : "aihcResourcePoolId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.aihcResourcePoolId"
+  }, {
+    "name" : "k8sControllerId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.k8sControllerId"
+  }, {
+    "name" : "k8sControllerToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.k8sControllerToken"
+  }, {
+    "name" : "tokenRefreshIntervalMinutes",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.tokenRefreshIntervalMinutes"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateInstance.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.CreateInstance.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.CreateInstance.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "rapidfs.CreateInstance.desc"
+}

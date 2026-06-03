@@ -1,0 +1,9 @@
+{
+  "ModifyToken" : {
+    "action" : "Fixed value, ModifyToken",
+    "clientToken" : "Ensures idempotency of API calls",
+    "instanceId" : "Unique ID of the associated RapidFS instance",
+    "tokenId" : "Token ID",
+    "tokenRefreshIntervalMinutes" : "Token refresh interval in minutes, valid range [0, 43200(min)]; 0 means never refresh, token is permanently valid"
+  }
+}

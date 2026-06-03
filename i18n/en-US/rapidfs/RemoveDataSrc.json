@@ -1,0 +1,9 @@
+{
+  "RemoveDataSrc" : {
+    "action" : "Fixed value: RemoveDataSrc",
+    "clientToken" : "Ensures idempotency of API calls",
+    "dataSrcId" : "ID of the data source to be released",
+    "instanceId" : "RapidFS instance ID that the data source belongs to",
+    "token" : "If empty or not provided, the system generates and returns a temporary token; if a token is provided, the system validates it and decides whether to accept the release operation based on the validation result"
+  }
+}

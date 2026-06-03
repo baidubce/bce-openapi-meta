@@ -1,0 +1,8 @@
+{
+  "DescribeCacheDeployGroups" : {
+    "action" : "Fixed value: DescribeCacheDeployGroups",
+    "instanceId" : "RapidFS instance ID",
+    "maxKeys" : "Maximum number of entries to return, valid range [1, 1000], default 100",
+    "marker" : "Starting position for paginated list query; results are sorted alphabetically by name; use the nextMarker value from the previous response"
+  }
+}

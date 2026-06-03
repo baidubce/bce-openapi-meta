@@ -1,0 +1,61 @@
+{
+  "name" : "DescribeCacheNodeBccCandidates",
+  "method" : "POST",
+  "uri" : "/v{version}/cachenode?action=DescribeCacheNodeBccCandidates",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.DescribeCacheNodeBccCandidates.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeCacheNodeBccCandidates.instanceId"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeCacheNodeBccCandidates.vpcId"
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeCacheNodeBccCandidates.filters",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.DescribeCacheNodeBccCandidates.filters.name"
+    }, {
+      "name" : "values",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "rapidfs.DescribeCacheNodeBccCandidates.filters.values"
+    } ]
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeCacheNodeBccCandidates.maxKeys"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeCacheNodeBccCandidates.marker"
+  } ],
+  "desc_key" : "rapidfs.DescribeCacheNodeBccCandidates.desc"
+}

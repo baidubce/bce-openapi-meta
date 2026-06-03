@@ -1,0 +1,138 @@
+{
+  "name" : "AddCacheNodes",
+  "method" : "POST",
+  "uri" : "/v{version}/cachenode?action=AddCacheNodes",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.AddCacheNodes.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.AddCacheNodes.clientToken"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.AddCacheNodes.instanceId"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.AddCacheNodes.type"
+  }, {
+    "name" : "cacheNodes",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.AddCacheNodes.cacheNodes",
+    "sub_parameters" : [ {
+      "name" : "ip",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.ip"
+    }, {
+      "name" : "config",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.config"
+    }, {
+      "name" : "diskInfos",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.diskInfos",
+      "sub_parameters" : [ {
+        "name" : "dev",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.diskInfos.dev"
+      }, {
+        "name" : "mountPath",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.diskInfos.mountPath"
+      }, {
+        "name" : "diskQuotaGiB",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.diskInfos.diskQuotaGiB"
+      }, {
+        "name" : "format",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.diskInfos.format"
+      }, {
+        "name" : "diskType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.diskInfos.diskType"
+      } ]
+    }, {
+      "name" : "deployPath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.deployPath"
+    }, {
+      "name" : "bccInfo",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.bccInfo",
+      "sub_parameters" : [ {
+        "name" : "bccId",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.bccInfo.bccId"
+      }, {
+        "name" : "bccName",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.bccInfo.bccName"
+      }, {
+        "name" : "zone",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.bccInfo.zone"
+      }, {
+        "name" : "bccSpec",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.bccInfo.bccSpec"
+      } ]
+    }, {
+      "name" : "idcInfo",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.idcInfo",
+      "sub_parameters" : [ {
+        "name" : "sshUser",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.idcInfo.sshUser"
+      }, {
+        "name" : "sshPassword",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.idcInfo.sshPassword"
+      }, {
+        "name" : "sshPort",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "rapidfs.AddCacheNodes.cacheNodes.idcInfo.sshPort"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "rapidfs.AddCacheNodes.desc"
+}

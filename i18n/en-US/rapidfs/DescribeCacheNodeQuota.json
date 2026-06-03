@@ -1,0 +1,6 @@
+{
+  "DescribeCacheNodeQuota" : {
+    "action" : "Fixed value, DescribeCacheNodeQuota",
+    "instanceId" : "RapidFS instance ID"
+  }
+}

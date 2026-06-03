@@ -1,0 +1,6 @@
+{
+  "DescribeCacheNodeQuota" : {
+    "action" : "固定值，DescribeCacheNodeQuota",
+    "instanceId" : "RapidFS 实例 ID"
+  }
+}

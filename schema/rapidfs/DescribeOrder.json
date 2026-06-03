@@ -1,0 +1,26 @@
+{
+  "name" : "DescribeOrder",
+  "method" : "POST",
+  "uri" : "/v{version}/order?action=DescribeOrder",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.DescribeOrder.action"
+  }, {
+    "name" : "orderId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.DescribeOrder.orderId"
+  } ],
+  "desc_key" : "rapidfs.DescribeOrder.desc"
+}

@@ -1,0 +1,10 @@
+{
+  "DescribeMetaSyncJobs" : {
+    "action" : "固定值，DescribeMetaSyncJobs",
+    "instanceId" : "RapidFS 实例 ID",
+    "dataSrcId" : "数据源 ID",
+    "metaSyncRuleId" : "元数据同步规则 ID",
+    "maxKeys" : "返回列表长度，有效范围 [1, 1000]，默认 100",
+    "marker" : "批量获取列表的查询的起始位置，返回列表按 metaSyncJobId 字典序排序，取值为上一次返回的 nextMarker"
+  }
+}

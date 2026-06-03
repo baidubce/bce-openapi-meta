@@ -1,0 +1,66 @@
+{
+  "name" : "CreateAuthGroup",
+  "method" : "POST",
+  "uri" : "/v{version}/authgroup?action=CreateAuthGroup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.CreateAuthGroup.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.CreateAuthGroup.clientToken"
+  }, {
+    "name" : "authGroupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateAuthGroup.authGroupName"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateAuthGroup.instanceId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateAuthGroup.description"
+  }, {
+    "name" : "authInfos",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateAuthGroup.authInfos",
+    "sub_parameters" : [ {
+      "name" : "cidr",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.CreateAuthGroup.authInfos.cidr"
+    }, {
+      "name" : "mode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.CreateAuthGroup.authInfos.mode"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.CreateAuthGroup.authInfos.description"
+    } ]
+  } ],
+  "desc_key" : "rapidfs.CreateAuthGroup.desc"
+}

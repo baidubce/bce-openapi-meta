@@ -1,0 +1,8 @@
+{
+  "DescribeCacheDeployGroup" : {
+    "action" : "固定值，DescribeCacheDeployGroup",
+    "instanceId" : "RapidFS 实例 ID",
+    "cacheDeployGroupName" : "缓存部署组名称",
+    "cacheDeployGroupNS" : "K8s 集群的命名空间"
+  }
+}

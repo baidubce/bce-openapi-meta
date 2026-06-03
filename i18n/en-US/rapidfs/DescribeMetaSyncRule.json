@@ -1,0 +1,8 @@
+{
+  "DescribeMetaSyncRule" : {
+    "action" : "Fixed value, DescribeMetaSyncRule",
+    "instanceId" : "RapidFS instance ID",
+    "dataSrcId" : "Data source ID",
+    "metaSyncRuleId" : "Metadata sync rule ID"
+  }
+}

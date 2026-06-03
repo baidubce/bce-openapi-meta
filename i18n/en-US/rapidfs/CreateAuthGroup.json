@@ -1,0 +1,13 @@
+{
+  "CreateAuthGroup" : {
+    "action" : "Fixed value, CreateAuthGroup",
+    "clientToken" : "Ensures idempotency of the API call",
+    "authGroupName" : "Name of the permission group",
+    "instanceId" : "ID of the associated rapidFS instance",
+    "description" : "Description of the permission group instance",
+    "authInfos" : "List of specific permissions for the permission group to be created. See the appendix for the AuthInfo structure. If the request authInfos does not contain any permission with cidr equal to \"0.0.0.0/0\", the backend will **additionally** create a default permission rule { cidr: \"0.0.0.0/0\", mode: \"ReadWrite\", description: \"allow read/write in default, cannot be deleted\" }",
+    "authInfos.cidr" : "Permission address, an IP or IP range. Ensure the format is correct and valid, e.g.: 127.0.0.1, 127.0.0.0/28",
+    "authInfos.mode" : "Permission type, enum values: ReadOnly: read-only; ReadWrite: read and write; Forbid: access denied",
+    "authInfos.description" : "Description of the permission entry"
+  }
+}

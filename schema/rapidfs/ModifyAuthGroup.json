@@ -1,0 +1,94 @@
+{
+  "name" : "ModifyAuthGroup",
+  "method" : "POST",
+  "uri" : "/v{version}/authgroup?action=ModifyAuthGroup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.ModifyAuthGroup.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.ModifyAuthGroup.clientToken"
+  }, {
+    "name" : "authGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyAuthGroup.authGroupId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyAuthGroup.instanceId"
+  }, {
+    "name" : "authGroupName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyAuthGroup.authGroupName"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyAuthGroup.description"
+  }, {
+    "name" : "authInfos",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyAuthGroup.authInfos",
+    "sub_parameters" : [ {
+      "name" : "cidr",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyAuthGroup.authInfos.cidr"
+    }, {
+      "name" : "mode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyAuthGroup.authInfos.mode"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyAuthGroup.authInfos.description"
+    } ]
+  }, {
+    "name" : "originalAuthInfos",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyAuthGroup.originalAuthInfos",
+    "sub_parameters" : [ {
+      "name" : "cidr",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyAuthGroup.originalAuthInfos.cidr"
+    }, {
+      "name" : "mode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyAuthGroup.originalAuthInfos.mode"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyAuthGroup.originalAuthInfos.description"
+    } ]
+  } ],
+  "desc_key" : "rapidfs.ModifyAuthGroup.desc"
+}

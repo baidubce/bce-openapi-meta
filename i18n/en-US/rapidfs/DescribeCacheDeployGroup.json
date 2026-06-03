@@ -1,0 +1,8 @@
+{
+  "DescribeCacheDeployGroup" : {
+    "action" : "Fixed value, DescribeCacheDeployGroup",
+    "instanceId" : "RapidFS instance ID",
+    "cacheDeployGroupName" : "Cache deploy group name",
+    "cacheDeployGroupNS" : "Namespace of the K8s cluster"
+  }
+}

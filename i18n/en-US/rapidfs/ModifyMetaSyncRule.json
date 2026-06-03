@@ -1,0 +1,12 @@
+{
+  "ModifyMetaSyncRule" : {
+    "action" : "Fixed value, ModifyMetaSyncRule",
+    "clientToken" : "Ensures idempotency of the API call",
+    "instanceId" : "RapidFS instance ID",
+    "dataSrcId" : "Data source ID",
+    "metaSyncRuleId" : "Metadata sync rule ID",
+    "metaSyncRuleName" : "Updated name of the sync rule",
+    "intervalMinutes" : "Updated interval for periodic sync, in minutes. Valid range: [1, 28800 (20 days)]. Ignored for one-time sync rules",
+    "description" : "Updated description"
+  }
+}

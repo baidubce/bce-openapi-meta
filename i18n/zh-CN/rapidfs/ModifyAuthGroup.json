@@ -1,0 +1,18 @@
+{
+  "ModifyAuthGroup" : {
+    "action" : "固定值，ModifyAuthGroup",
+    "clientToken" : "保证API调用的幂等性",
+    "authGroupId" : "权限组id",
+    "instanceId" : "所属 RapidFS 实例唯一 Id",
+    "authGroupName" : "权限组名称",
+    "description" : "描述信息",
+    "authInfos" : "修改之后的权限规则列表。默认权限组不允许增加或删除权限规则",
+    "authInfos.cidr" : "权限地址，ip/ip 段，请确保格式正确有效，如：127.0.0.1，127.0.0.0/28",
+    "authInfos.mode" : "权限类型，枚举值：ReadOnly：只读；ReadWrite：可读写；Forbid：禁止访问",
+    "authInfos.description" : "权限描述信息",
+    "originalAuthInfos" : "表示修改前的权限规则列表，默认不传。可与 authInfos 搭配使用实现条件更新的效果，如果请求的权限规则列表与产品侧记录不一致，返回 400",
+    "originalAuthInfos.cidr" : "权限地址，ip/ip 段，请确保格式正确有效，如：127.0.0.1，127.0.0.0/28",
+    "originalAuthInfos.mode" : "权限类型，枚举值：ReadOnly：只读；ReadWrite：可读写；Forbid：禁止访问",
+    "originalAuthInfos.description" : "权限描述信息"
+  }
+}

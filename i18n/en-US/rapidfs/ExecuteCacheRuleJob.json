@@ -1,0 +1,9 @@
+{
+  "ExecuteCacheRuleJob" : {
+    "action" : "Fixed value: ExecuteCacheRuleJob",
+    "clientToken" : "Ensures idempotency of the API call",
+    "instanceId" : "RapidFS instance ID",
+    "dataSrcId" : "Data source ID",
+    "cacheRuleId" : "Cache management rule ID"
+  }
+}

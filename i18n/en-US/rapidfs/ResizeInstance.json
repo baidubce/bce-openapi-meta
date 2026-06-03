@@ -1,0 +1,8 @@
+{
+  "ResizeInstance" : {
+    "action" : "Fixed value: ResizeInstance",
+    "clientToken" : "Ensures idempotency of the API call",
+    "instanceId" : "RapidFS instance ID",
+    "capacityTiB" : "Target capacity after scaling, in TiB"
+  }
+}

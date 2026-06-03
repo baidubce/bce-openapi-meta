@@ -1,0 +1,8 @@
+{
+  "DescribeSpecs" : {
+    "action" : "Fixed value: DescribeSpecs",
+    "filters" : "Filter conditions, see Appendix Filter. Multiple filters are combined with AND logic; multiple values within a filter are combined with OR logic. Supported fields: - name=managedMode, filter by deployment type, e.g. value=[\"FullyManaged\"]; - name=metaSpec, filter by metadata spec, e.g. value=[\"M2\"]; - name=dataSpec, filter by data spec, e.g. value=[\"Basic\"]",
+    "filters.name" : "The field to filter on. Multiple filters are combined with AND logic. Example: zone",
+    "filters.values" : "The filter values for the field. Multiple values are combined with OR logic. Example: [\"zoneA\", \"zoneB\"]"
+  }
+}

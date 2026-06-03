@@ -1,0 +1,7 @@
+{
+  "DescribeDataSrc" : {
+    "action" : "固定值，DescribeDataSrc",
+    "instanceId" : "RapidFS 实例ID",
+    "dataSrcId" : "待修改的数据源 ID"
+  }
+}

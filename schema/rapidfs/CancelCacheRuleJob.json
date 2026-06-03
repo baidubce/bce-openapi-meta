@@ -1,0 +1,44 @@
+{
+  "name" : "CancelCacheRuleJob",
+  "method" : "POST",
+  "uri" : "/v{version}/cacherule?action=CancelCacheRuleJob",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.CancelCacheRuleJob.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.CancelCacheRuleJob.clientToken"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CancelCacheRuleJob.instanceId"
+  }, {
+    "name" : "dataSrcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CancelCacheRuleJob.dataSrcId"
+  }, {
+    "name" : "cacheRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CancelCacheRuleJob.cacheRuleId"
+  } ],
+  "desc_key" : "rapidfs.CancelCacheRuleJob.desc"
+}

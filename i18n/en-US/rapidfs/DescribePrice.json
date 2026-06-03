@@ -1,0 +1,10 @@
+{
+  "DescribePrice" : {
+    "action" : "Fixed value, DescribePrice.",
+    "currency" : "Currency unit. Enum values: * CNY: Chinese Yuan, default; * USD: US Dollar.",
+    "managedMode" : "RapidFS instance deployment mode. Enum values: * FullyManaged: Fully managed deployment mode, suitable for businesses without idle storage resources, at ultra-large scale, or requiring high stability. In this mode, RapidFS fully manages the instance with no user O&M required; * MasterManaged: Master managed deployment mode, suitable for businesses with idle storage resources, cost-sensitive needs, and certain O&M capabilities.",
+    "metaSpec" : "Metadata specification, currently effective only in MasterManaged deployment mode. Enum values: * M1: Applicable to scenarios with up to 1 billion files, a maximum of 50 cache nodes, and up to 4 data disks mountable per cache node; * M2: Applicable to scenarios with up to 5 billion files, a maximum of 400 cache nodes, and up to 8 data disks mountable per cache node.",
+    "dataSpec" : "Data specification, currently effective only in FullyManaged deployment mode. Enum values: * Basic: Data performance baseline of 100 MB/s/TiB; * Capacity: Data performance baseline of 200 MB/s/TiB.",
+    "capacityTiB" : "Required in FullyManaged deployment mode. Indicates the purchased cache capacity in TiB. Must not exceed the maximum purchasable capacity returned by the DescribeSpecs API."
+  }
+}

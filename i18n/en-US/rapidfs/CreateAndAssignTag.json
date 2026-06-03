@@ -1,0 +1,9 @@
+{
+  "CreateAndAssignTag" : {
+    "action" : "Fixed value, CreateAndAssignTag",
+    "clientToken" : "Ensures idempotency of the API call",
+    "tagResources" : "Instance and tag information to be modified, supports batch modification, see appendix TagResource; only supports tag binding for RapidFS instances",
+    "tagResources.instanceId" : "RapidFS instance ID",
+    "tagResources.tags" : "Instance tags to be created or updated; pass an empty array to unbind all tags, see Tag"
+  }
+}

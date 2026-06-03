@@ -1,0 +1,38 @@
+{
+  "name" : "ResizeInstance",
+  "method" : "POST",
+  "uri" : "/v{version}/instance?action=ResizeInstance",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.ResizeInstance.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.ResizeInstance.clientToken"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ResizeInstance.instanceId"
+  }, {
+    "name" : "capacityTiB",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ResizeInstance.capacityTiB"
+  } ],
+  "desc_key" : "rapidfs.ResizeInstance.desc"
+}

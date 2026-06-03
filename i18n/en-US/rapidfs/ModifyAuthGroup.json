@@ -1,0 +1,18 @@
+{
+  "ModifyAuthGroup" : {
+    "action" : "Fixed value, ModifyAuthGroup",
+    "clientToken" : "Ensures idempotency of the API call",
+    "authGroupId" : "Permission group ID",
+    "instanceId" : "Unique ID of the RapidFS instance",
+    "authGroupName" : "Permission group name",
+    "description" : "Description",
+    "authInfos" : "Updated list of permission rules. Default permission groups do not allow adding or removing rules",
+    "authInfos.cidr" : "Permission address, IP or IP range; ensure the format is valid, e.g.: 127.0.0.1, 127.0.0.0/28",
+    "authInfos.mode" : "Permission type, enum: ReadOnly: read-only; ReadWrite: read-write; Forbid: access denied",
+    "authInfos.description" : "Permission description",
+    "originalAuthInfos" : "List of permission rules before modification; not passed by default. Can be used with authInfos for conditional updates; returns 400 if the requested rules differ from the server-side records",
+    "originalAuthInfos.cidr" : "Permission address, IP or IP range; ensure the format is valid, e.g.: 127.0.0.1, 127.0.0.0/28",
+    "originalAuthInfos.mode" : "Permission type, enum: ReadOnly: read-only; ReadWrite: read-write; Forbid: access denied",
+    "originalAuthInfos.description" : "Permission description"
+  }
+}

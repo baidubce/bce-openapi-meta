@@ -1,0 +1,10 @@
+{
+  "DescribeInstances" : {
+    "action" : "固定值，DescribeInstances",
+    "filters" : "条件筛选，见附录 Filter，多组 filter 之间为条件与关系，多个 value 之间为条件或关系。当前支持字段:* name=instanceId，例如 value=[\"rapidfs-wKEltVDfQwgO\", \"rapidfs-Lp1yaDO582fz\"]；* name=instanceName，例如 value=[\"filter-name\", \"test-name\"]；* name=status, 状态枚举值参考附录 InstanceStatus，例如 value=[\"RUNNING\", \"CREATING\"]；* name=aihcResourcePoolId/cceClusterId/k8sControllerId，例如 value=[\"aihc-hk25ilq7xcfd\", \"cce-gv45s2cp\"]",
+    "filters.name" : "需要过滤的字段，多组 filter 之间为条件与关系。例如 zone",
+    "filters.values" : "字段的过滤值，多个 values 之间为逻辑或关系。例如：[\"zoneA\", \"zoneB\"]",
+    "maxKeys" : "返回实例列表长度，有效范围 [1, 1000]，默认 100",
+    "marker" : "批量获取列表的查询的起始位置，返回列表按 instanceId 字典序排列，取值为上一次返回的 nextMarker"
+  }
+}

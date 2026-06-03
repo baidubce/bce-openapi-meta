@@ -1,0 +1,15 @@
+{
+  "AddCacheNodes" : {
+    "action" : "Fixed value: AddCacheNodes",
+    "clientToken" : "Ensures idempotency of the API call",
+    "instanceId" : "RapidFS instance ID",
+    "type" : "Cache access type to be added in MasterManaged deployment mode; currently supported values: * BCC: Baidu Cloud Server (BCC); * IDC: Self-built data center",
+    "cacheNodes" : "List of node information to be added; see appendix AddCacheNodeInfo",
+    "cacheNodes.ip" : "Node IP address",
+    "cacheNodes.config" : "Node configuration in JSON string format (default): {  \"systemConfig\": {    \"vm.max_map_count\": 524288,    \"fs.aio-max-nr\": 10485760  },  \"resourceConfig\": {    \"requestCpu\": 4,    \"limitCpu\": 16,    \"requestMem\": \"2GiB\",    \"limitMem\": \"8GiB\"  },  \"serviceConfig\": {    \"min_log_level\": 1  }}",
+    "cacheNodes.diskInfos" : "Disk information for the node to join; see appendix DiskInfo. The format field indicates whether to format the disk before joining: when true, the target dev device must be specified; when false, the diskQuotaGiB capacity for the given path must be specified",
+    "cacheNodes.deployPath" : "Deployment path for the cache node service; default is /home/.rapidfs/",
+    "cacheNodes.bccInfo" : "BCC cache node information; see appendix BCCCacheNodeInfo",
+    "cacheNodes.idcInfo" : "IDC cache node information; see appendix IDCCacheNodeInfo"
+  }
+}

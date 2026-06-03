@@ -1,0 +1,8 @@
+{
+  "DescribeCceClusters" : {
+    "action" : "Fixed value: DescribeCceClusters",
+    "vpcId" : "VPC ID; only returns clusters belonging to this VPC",
+    "maxKeys" : "Maximum number of results to return; valid range [1, 1000], default 100",
+    "marker" : "Starting position for paginated queries; use the nextMarker value from the previous response"
+  }
+}

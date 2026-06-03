@@ -1,0 +1,11 @@
+{
+  "DescribeCacheNodes" : {
+    "action" : "Fixed value: DescribeCacheNodes",
+    "instanceId" : "RapidFS instance ID",
+    "filters" : "Filter conditions (see Appendix: Filter). Multiple filters are combined with AND logic; multiple values within a filter use OR logic. Supported fields: * name=cacheNodeId, e.g. value=[\"wn-LVWFONLJei7W-DFfmSUFht1zt\", \"wn-LVWFONLJei7W-CKVxoBV6soGW\"]; * name=ip, e.g. value=[\"192.168.0.1\", \"192.168.0.2\"]; * name=zone, e.g. value=[\"zoneA\", \"zoneB\"]; * name=status, see CacheNodeStatus for valid enum values, e.g. value=[\"RUNNING\",\"ADDING\"]; * name=cacheDeployGroupName, only supported when cache access type is K8S/CCE/AIHC, e.g. value=[\"test-cache-deploy-group\", \"test-cdp\"]",
+    "filters.name" : "The field to filter on. Multiple filters are combined with AND logic. Example: zone",
+    "filters.values" : "The filter values for the field. Multiple values use OR logic. Example: [\"zoneA\", \"zoneB\"]",
+    "maxKeys" : "Maximum number of items to return. Valid range: [1, 1000]. Default: 100",
+    "marker" : "Starting position for paginated list retrieval. The returned list is sorted by cacheNodeId in lexicographic order. Set this to the nextMarker value from the previous response"
+  }
+}

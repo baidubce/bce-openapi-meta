@@ -1,0 +1,7 @@
+{
+  "DescribeAllocatableDataSrcQuota" : {
+    "action" : "Fixed value, DescribeAllocatableDataSrcQuota",
+    "instanceId" : "Unique ID of the associated RapidFS instance",
+    "dataSrcId" : "Query the maximum allocatable quota for a specific data source, including the currently allocated quota"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "DescribeToken" : {
+    "action" : "Fixed value: DescribeToken",
+    "instanceId" : "RapidFS instance ID",
+    "tokenId" : "Token ID. If not specified, returns the default token of the cluster."
+  }
+}

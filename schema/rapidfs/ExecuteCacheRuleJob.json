@@ -1,0 +1,44 @@
+{
+  "name" : "ExecuteCacheRuleJob",
+  "method" : "POST",
+  "uri" : "/v{version}/cacherule?action=ExecuteCacheRuleJob",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.ExecuteCacheRuleJob.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.ExecuteCacheRuleJob.clientToken"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ExecuteCacheRuleJob.instanceId"
+  }, {
+    "name" : "dataSrcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ExecuteCacheRuleJob.dataSrcId"
+  }, {
+    "name" : "cacheRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ExecuteCacheRuleJob.cacheRuleId"
+  } ],
+  "desc_key" : "rapidfs.ExecuteCacheRuleJob.desc"
+}

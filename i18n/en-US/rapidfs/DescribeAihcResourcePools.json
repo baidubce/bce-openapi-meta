@@ -1,0 +1,8 @@
+{
+  "DescribeAihcResourcePools" : {
+    "action" : "Fixed value: DescribeAihcResourcePools",
+    "vpcId" : "VPC ID; only return resource pools belonging to this VPC",
+    "maxKeys" : "Maximum number of entries to return; valid range [1, 1000], default 100",
+    "marker" : "Starting position for paginated list queries; set to the nextMarker value returned by the previous response"
+  }
+}

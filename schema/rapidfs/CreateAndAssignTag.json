@@ -1,0 +1,54 @@
+{
+  "name" : "CreateAndAssignTag",
+  "method" : "POST",
+  "uri" : "/v{version}/tag?action=CreateAndAssignTag",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.CreateAndAssignTag.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.CreateAndAssignTag.clientToken"
+  }, {
+    "name" : "tagResources",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateAndAssignTag.tagResources",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.CreateAndAssignTag.tagResources.instanceId"
+    }, {
+      "name" : "tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "rapidfs.CreateAndAssignTag.tagResources.tags",
+      "sub_parameters" : [ {
+        "name" : "tagKey",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.CreateAndAssignTag.tagResources.tags.tagKey"
+      }, {
+        "name" : "tagValue",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rapidfs.CreateAndAssignTag.tagResources.tags.tagValue"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "rapidfs.CreateAndAssignTag.desc"
+}

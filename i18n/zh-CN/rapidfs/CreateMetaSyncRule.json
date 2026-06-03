@@ -1,0 +1,15 @@
+{
+  "CreateMetaSyncRule" : {
+    "action" : "固定值，CreateMetaSyncRule",
+    "clientToken" : "保证API调用的幂等性",
+    "instanceId" : "RapidFS 实例 ID",
+    "dataSrcId" : "数据源 ID",
+    "metaSyncRuleName" : "元数据同步规则名称",
+    "type" : "元数据同步规则类型，枚举值：* MANUAL：单次同步，手动执行；* PERIODIC：周期同步，自动执行",
+    "directory" : "RapidFS 目录前缀，默认值为 /",
+    "intervalMinutes" : "同步间隔时间，单位 min，默认 5min。有效范围 [1, 28800(20 天)]",
+    "executeOnCreate" : "单次同步创建之后是否立即执行，默认 false",
+    "enableOnCreate" : "周期同步创建之后是否默认开启，默认 true",
+    "description" : "元数据同步描述信息"
+  }
+}

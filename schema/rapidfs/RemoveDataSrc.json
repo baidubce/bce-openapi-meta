@@ -1,0 +1,44 @@
+{
+  "name" : "RemoveDataSrc",
+  "method" : "POST",
+  "uri" : "/v{version}/datasrc?action=RemoveDataSrc",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.RemoveDataSrc.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.RemoveDataSrc.clientToken"
+  }, {
+    "name" : "dataSrcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.RemoveDataSrc.dataSrcId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.RemoveDataSrc.instanceId"
+  }, {
+    "name" : "token",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.RemoveDataSrc.token"
+  } ],
+  "desc_key" : "rapidfs.RemoveDataSrc.desc"
+}

@@ -1,0 +1,62 @@
+{
+  "name" : "ModifyDataSrc",
+  "method" : "POST",
+  "uri" : "/v{version}/datasrc?action=ModifyDataSrc",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.ModifyDataSrc.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.ModifyDataSrc.clientToken"
+  }, {
+    "name" : "dataSrcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyDataSrc.dataSrcId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyDataSrc.instanceId"
+  }, {
+    "name" : "keepSymlink",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyDataSrc.keepSymlink"
+  }, {
+    "name" : "authGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyDataSrc.authGroupId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyDataSrc.description"
+  }, {
+    "name" : "quotaMiB",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyDataSrc.quotaMiB"
+  } ],
+  "desc_key" : "rapidfs.ModifyDataSrc.desc"
+}

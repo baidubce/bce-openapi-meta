@@ -1,0 +1,68 @@
+{
+  "name" : "CreateCacheRule",
+  "method" : "POST",
+  "uri" : "/v{version}/cacherule?action=CreateCacheRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.CreateCacheRule.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rapidfs.CreateCacheRule.clientToken"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateCacheRule.instanceId"
+  }, {
+    "name" : "dataSrcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateCacheRule.dataSrcId"
+  }, {
+    "name" : "cacheRuleName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateCacheRule.cacheRuleName"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateCacheRule.type"
+  }, {
+    "name" : "directory",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateCacheRule.directory"
+  }, {
+    "name" : "executeOnCreate",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateCacheRule.executeOnCreate"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.CreateCacheRule.description"
+  } ],
+  "desc_key" : "rapidfs.CreateCacheRule.desc"
+}

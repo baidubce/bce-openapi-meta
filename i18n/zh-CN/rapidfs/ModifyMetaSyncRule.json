@@ -1,0 +1,12 @@
+{
+  "ModifyMetaSyncRule" : {
+    "action" : "固定值，ModifyMetaSyncRule",
+    "clientToken" : "保证API调用的幂等性",
+    "instanceId" : "RapidFS 实例 ID",
+    "dataSrcId" : "数据源 ID",
+    "metaSyncRuleId" : "元数据同步规则 ID",
+    "metaSyncRuleName" : "修改后的同步规则名称",
+    "intervalMinutes" : "修改后的周期同步间隔，单位 min。有效范围 [1, 28800(20 天)]。单次同步规则忽略该字段",
+    "description" : "修改后的描述信息"
+  }
+}

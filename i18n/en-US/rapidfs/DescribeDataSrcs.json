@@ -1,0 +1,11 @@
+{
+  "DescribeDataSrcs" : {
+    "action" : "Fixed value: DescribeDataSrcs",
+    "instanceId" : "RapidFS instance ID",
+    "filters" : "Filter conditions. See Appendix Filter. Multiple filters are combined with AND logic; multiple values within a filter are combined with OR logic. Supported fields: * name=dataSrcId, e.g. value=[\"ds-AOLmxozuEqas\", \"ds-kykIYfOmY9ZU\"]",
+    "filters.name" : "The field to filter on. Multiple filters are combined with AND logic. Example: zone",
+    "filters.values" : "The filter values for the field. Multiple values are combined with OR logic. Example: [\"zoneA\", \"zoneB\"]",
+    "maxKeys" : "Maximum number of entries to return. Valid range: [1, 1000]. Default: 100",
+    "marker" : "Starting position for paginated list retrieval. The returned list is sorted by dataSrcId in lexicographic order. Set to the nextMarker value from the previous response"
+  }
+}

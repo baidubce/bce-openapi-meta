@@ -1,0 +1,8 @@
+{
+  "RestartCacheNodes" : {
+    "action" : "固定值，RestartCacheNodes",
+    "clientToken" : "保证API调用的幂等性",
+    "instanceId" : "RapidFS 实例 ID",
+    "cacheNodeIds" : "待重启的 CacheNode ID 列表"
+  }
+}

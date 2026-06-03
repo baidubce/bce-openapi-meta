@@ -1,0 +1,10 @@
+{
+  "DescribeMetaSyncJobs" : {
+    "action" : "Fixed value: DescribeMetaSyncJobs",
+    "instanceId" : "RapidFS instance ID",
+    "dataSrcId" : "Data source ID",
+    "metaSyncRuleId" : "Metadata sync rule ID",
+    "maxKeys" : "Maximum number of entries to return, valid range [1, 1000], default 100",
+    "marker" : "Starting position for paginated list queries; results are sorted by metaSyncJobId in lexicographic order; use the nextMarker value returned from the previous response"
+  }
+}

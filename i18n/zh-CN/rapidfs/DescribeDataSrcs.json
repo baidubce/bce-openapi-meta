@@ -1,0 +1,11 @@
+{
+  "DescribeDataSrcs" : {
+    "action" : "固定值，DescribeDataSrcs",
+    "instanceId" : "RapidFS 实例ID",
+    "filters" : "条件筛选，见附录 Filter，多组 filter 之间为条件与关系，多个 value 之间为条件或关系。当前支持字段:* name=dataSrcId，例如 value=[\"ds-AOLmxozuEqas\", \"ds-kykIYfOmY9ZU\"]",
+    "filters.name" : "需要过滤的字段，多组 filter 之间为条件与关系。例如 zone",
+    "filters.values" : "字段的过滤值，多个 values 之间为逻辑或关系。例如：[\"zoneA\", \"zoneB\"]",
+    "maxKeys" : "返回列表长度，有效范围 [1, 1000]，默认 100",
+    "marker" : "批量获取列表的查询的起始位置，返回列表按 dataSrcId 字典序排序，取值为上一次返回的 nextMarker"
+  }
+}
