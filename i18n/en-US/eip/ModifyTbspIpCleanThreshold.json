@@ -1,0 +1,10 @@
+{
+  "ModifyTbspIpCleanThreshold" : {
+    "id" : "DDoS Enhanced Protection Package ID",
+    "clientToken" : "Idempotency token, max 64 characters",
+    "ip" : "Protected IP address of the DDoS enhanced protection package",
+    "thresholdType" : "Cleaning threshold type for the protected IP: bandwidth cap (bandwidth), smart threshold (auto), or manual setting (manual)",
+    "cleanMbps" : "Traffic bandwidth in Mbps, min 120 Mbps, max 10000 Mbps (required when thresholdType is manual)",
+    "cleanPps" : "Packet rate in pps, min 58594 pps, max 4882813 pps (required when thresholdType is manual)"
+  }
+}

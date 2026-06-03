@@ -1,0 +1,8 @@
+{
+  "AddTbspIpWhitelist" : {
+    "id" : "DDoS Enhanced Protection Package ID",
+    "clientToken" : "Idempotency token, max 64 characters",
+    "ip" : "Protected object IP address of the DDoS Enhanced Protection Package",
+    "ipCidrList" : "IP whitelist CIDR list (full IP address or CIDR block format)"
+  }
+}

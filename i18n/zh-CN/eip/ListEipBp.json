@@ -1,0 +1,10 @@
+{
+  "ListEipBp" : {
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量不超过1000。缺省值为1000",
+    "id" : "要查询的带宽包id",
+    "name" : "要查询的带宽包名称",
+    "bindType" : "要查询的带宽包所绑定的资源的类型，\"eip\"（弹性公网EIP）或\"eipgroup\"（共享带宽）",
+    "type" : "带宽包的类型，包括BandwidthPackage（带宽包）和AccelerationPackage（跨境加速包），默认全选"
+  }
+}

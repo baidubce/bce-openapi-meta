@@ -1,0 +1,7 @@
+{
+  "UpdateEipDeleteProtect" : {
+    "eip" : "被更新的EIP，包括IPv4 EIP和IPv6 EIP。",
+    "clientToken" : "详见[幂等性Token](EIP/API参考/通用说明.md#幂等性)",
+    "deleteProtect" : "是否开启释放保护"
+  }
+}

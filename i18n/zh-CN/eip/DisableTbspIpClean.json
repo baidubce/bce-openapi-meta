@@ -1,0 +1,8 @@
+{
+  "DisableTbspIpClean" : {
+    "id" : "DDoS增强防护包ID",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "ip" : "DDoS增强防护包防护对象IP地址",
+    "turnOffDuration" : "防护对象IP关闭清洗时长 (单位: 分钟)，最小值为30，最大值为7200"
+  }
+}

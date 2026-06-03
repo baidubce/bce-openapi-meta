@@ -1,0 +1,7 @@
+{
+  "EnableTbspIpClean" : {
+    "clientToken" : "Idempotency token, no more than 64 characters in length",
+    "id" : "DDoS enhanced protection package ID",
+    "ip" : "Protected object IP address of the DDoS enhanced protection package"
+  }
+}

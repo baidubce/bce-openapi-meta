@@ -1,0 +1,8 @@
+{
+  "ListBaseDdosAttackRecord" : {
+    "ip" : "Public IP address",
+    "startTime" : "Attack start time in UTC",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000. Default is 1000"
+  }
+}

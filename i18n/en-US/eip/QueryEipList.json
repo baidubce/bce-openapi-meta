@@ -1,0 +1,13 @@
+{
+  "QueryEipList" : {
+    "ipVersion" : "IP version to query, supports ipv4 and ipv6, defaults to ipv4.",
+    "eip" : "EIP address to query, including IPv4 and IPv6 EIPs; to query a specific IPv6 EIP, ipVersion must be set to ipv6.",
+    "instanceType" : "Bound instance type. Valid values: BCC, BBC, DCC, ENI, BLB, NAT, VPN.",
+    "instanceId" : "Short ID of the bound instance; if specified, instanceType must also be provided.",
+    "name" : "Name of the EIP to query.",
+    "status" : "Instance status; only supports querying three statuses: available, binded, paused.",
+    "eipIds" : "EIP short ID(s); supports single or multiple EIP IDs (multiple IDs separated by commas).",
+    "marker" : "Starting position for paginated list queries, a system-generated string.",
+    "maxKeys" : "Maximum number of entries per page, up to 1000. Default is 1000."
+  }
+}

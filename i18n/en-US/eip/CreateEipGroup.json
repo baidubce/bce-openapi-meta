@@ -1,0 +1,18 @@
+{
+  "CreateEipGroup" : {
+    "clientToken" : "Idempotency token, see [clientToken](EIP/API参考/通用说明.md#幂等性)",
+    "routeType" : "Line type: Standard BGP (BGP) or Enhanced BGP (BGP_S). Defaults to Standard BGP.",
+    "eipCount" : "Number of IPv4 EIPs in the shared bandwidth. Minimum is 0; maximum is n (Standard BGP: n*1Mbps must be less than total shared bandwidth; Enhanced BGP: n*20Mbps must be less than total shared bandwidth).",
+    "eipv6Count" : "Number of IPv6 EIPs in the shared bandwidth. Minimum is 0; maximum is quota-controlled, default is 256.",
+    "bandwidthInMbps" : "Public network bandwidth in Mbps. For prepay EIP Groups, Standard BGP must be an integer between 20 and 500; Enhanced BGP must be an integer between 100 and 5000.",
+    "billing" : "Billing information.",
+    "billing.paymentTiming" : "Payment timing: Prepaid or Postpaid.",
+    "billing.billingMethod" : "Billing method: ByTraffic, ByBandwidth, ByPeak95 (postpaid shared bandwidth only), or ByNetrafficMax (postpaid shared bandwidth only).",
+    "billing.reservation" : "Reservation details. Not required for postpaid; required for prepaid.",
+    "name" : "1 to 65 characters, must start with a letter, may contain letters, digits, and special characters -_/. If not specified, the service will auto-generate a name.",
+    "tags" : "List of tag key-value pairs to be created.",
+    "tags.tagKey" : "Tag key. Can contain uppercase and lowercase letters, digits, Chinese characters, and special characters -_ /. Length: 1 to 65.",
+    "tags.tagValue" : "Tag value. Can contain uppercase and lowercase letters, digits, Chinese characters, and special characters -_ /. Length: 0 to 65.",
+    "resourceGroupId" : "ID of the resource group to bind when creating the shared bandwidth."
+  }
+}

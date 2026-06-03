@@ -1,0 +1,7 @@
+{
+  "ResizeTbsp" : {
+    "clientToken" : "Idempotency token, max length 64 characters",
+    "id" : "DDoS enhanced protection package ID",
+    "ipCapacity" : "IP capacity of the DDoS enhanced protection package, must be greater than the previous IP capacity (5/30/100)"
+  }
+}

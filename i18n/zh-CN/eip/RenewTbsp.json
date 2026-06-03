@@ -1,0 +1,8 @@
+{
+  "RenewTbsp" : {
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "id" : "DDoS增强防护包id",
+    "renewTime" : "续费周期（按月:1-9； 按年:1-3）",
+    "renewTimeUnit" : "续费周期单位（DAY/MONTH/YEAR)"
+  }
+}

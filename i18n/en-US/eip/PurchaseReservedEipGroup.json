@@ -1,0 +1,10 @@
+{
+  "PurchaseReservedEipGroup" : {
+    "id" : "The ID of the shared bandwidth group",
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [Idempotency](EIP/API参考/通用说明.md#幂等性).",
+    "billing" : "Order billing information",
+    "billing.paymentTiming" : "Payment timing: Prepaid or Postpaid",
+    "billing.billingMethod" : "Billing method: ByTraffic, ByBandwidth, ByPeak95 (shared bandwidth Postpaid only), or ByNetrafficMax (shared bandwidth Postpaid only)",
+    "billing.reservation" : "Reservation details. Required for Prepaid; not required for Postpaid."
+  }
+}

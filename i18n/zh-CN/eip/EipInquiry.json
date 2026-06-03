@@ -1,0 +1,11 @@
+{
+  "EipInquiry" : {
+    "bandwidthInMbps" : "公网带宽，单位为Mbps。对于使用带宽计费的EIP，限制为为1~200之间的整数（代表带宽上限）；对于按使用流量计费的EIP，限制为1~1000之间的整数（代表允许的带宽流量峰值）。",
+    "count" : "EIP数量，默认为1.",
+    "purchaseType" : "EIP购买线路选择，可选择BGP、Static、ChinaTelcom、ChinaUnicom、ChinaMobile，默认BGP",
+    "billing" : "计费信息，支持预付费和后付费（带宽、流量）方式",
+    "billing.paymentTiming" : "付款时间，预支付（Prepaid）和后支付（Postpaid）",
+    "billing.billingMethod" : "计费方式，按流量（ByTraffic）、按带宽（ByBandwidth）、按增强95（ByPeak95）（只有共享带宽后付费支持）、按主流量计费(ByNetrafficMax)（只有共享带宽后付费支持）",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置"
+  }
+}

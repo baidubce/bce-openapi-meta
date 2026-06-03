@@ -1,0 +1,6 @@
+{
+  "UnDirectEip" : {
+    "eip" : "The EIP to disable pass-through, including IPv4 EIP and IPv6 EIP.",
+    "clientToken" : "Idempotency token, see [Idempotency](EIP/API参考/通用说明.md#幂等性)."
+  }
+}

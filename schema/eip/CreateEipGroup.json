@@ -1,0 +1,106 @@
+{
+  "name" : "CreateEipGroup",
+  "method" : "POST",
+  "uri" : "/v{version}/eipgroup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "eip.CreateEipGroup.clientToken"
+  }, {
+    "name" : "routeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateEipGroup.routeType"
+  }, {
+    "name" : "eipCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateEipGroup.eipCount"
+  }, {
+    "name" : "eipv6Count",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateEipGroup.eipv6Count"
+  }, {
+    "name" : "bandwidthInMbps",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateEipGroup.bandwidthInMbps"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateEipGroup.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.CreateEipGroup.billing.paymentTiming"
+    }, {
+      "name" : "billingMethod",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.CreateEipGroup.billing.billingMethod"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "eip.CreateEipGroup.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "eip.CreateEipGroup.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "eip.CreateEipGroup.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateEipGroup.name"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateEipGroup.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.CreateEipGroup.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "eip.CreateEipGroup.tags.tagValue"
+    } ]
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "eip.CreateEipGroup.resourceGroupId"
+  } ],
+  "desc_key" : "eip.CreateEipGroup.desc"
+}

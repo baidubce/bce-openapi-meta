@@ -1,0 +1,8 @@
+{
+  "ListBaseDdos" : {
+    "ips" : "Public IP addresses, multiple addresses separated by \",\", maximum 1000",
+    "type" : "Public IP type, default is ipv4, optional values: ipv4 and ipv6",
+    "marker" : "Starting position for paginated list query, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000. Default value is 1000"
+  }
+}

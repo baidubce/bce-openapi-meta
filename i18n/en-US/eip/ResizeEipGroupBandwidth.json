@@ -1,0 +1,7 @@
+{
+  "ResizeEipGroupBandwidth" : {
+    "id" : "The ID of the shared bandwidth package",
+    "clientToken" : "Idempotent token, see [clientToken](EIP/API参考/通用说明.md#幂等性)",
+    "bandwidthInMbps" : "Public network bandwidth in Mbps. For prepay type EIP Group, the value must be an integer between 10 and 200"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ListEipTransfer" : {
+    "maxKeys" : "Maximum number of items per page, default is 10.",
+    "marker" : "Paginate starting from this instance.",
+    "direction" : "sent: initiated by me, received: received by me.",
+    "transferId" : "Exact query by transfer ID, supports multiple IDs separated by underscore.",
+    "status" : "Transfer status, default is all. (processing, transfering, cancel, reject, timeout, failed, success)",
+    "fuzzyTransferId" : "Transfer ID, fuzzy query.",
+    "fuzzyInstanceId" : "Instance ID, fuzzy query.",
+    "fuzzyInstanceName" : "Instance name, fuzzy query.",
+    "fuzzyInstanceIp" : "Instance IP, fuzzy query."
+  }
+}

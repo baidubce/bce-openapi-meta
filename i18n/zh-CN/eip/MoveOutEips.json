@@ -1,0 +1,10 @@
+{
+  "MoveOutEips" : {
+    "id" : "共享带宽的id",
+    "clientToken" : "幂等性Token，详见[clientToken](EIP/API参考/通用说明.md#幂等性)",
+    "moveOutEips" : "待移出EIP列表，包括IPv4 EIP和IPv6 EIP",
+    "moveOutEips.eip" : "待移出的EIP IP地址",
+    "moveOutEips.bandwidthInMbps" : "移出后的EIP带宽值，单位为Mbps（只有移出共享带宽原生的EIP需要此参数）",
+    "moveOutEips.billing" : "移出后的EIP计费信息，仅支持后付费（只有移出共享带宽原生的EIP需要此参数）"
+  }
+}

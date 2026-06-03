@@ -1,0 +1,9 @@
+{
+  "BindEip" : {
+    "eip" : "The EIP to bind, including IPv4 and IPv6 EIPs.",
+    "clientToken" : "Idempotency token, see [Idempotency](EIP/API参考/通用说明.md#幂等性)",
+    "instanceType" : "Type of the instance to bind.",
+    "instanceId" : "ID of the instance to bind.",
+    "instanceIp" : "IP within the instance to associate with the EIP."
+  }
+}

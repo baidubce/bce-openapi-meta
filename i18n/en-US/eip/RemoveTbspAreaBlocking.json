@@ -1,0 +1,8 @@
+{
+  "RemoveTbspAreaBlocking" : {
+    "id" : "ID of the DDoS Enhanced Protection package",
+    "ip" : "Protected object IP address of the DDoS Enhanced Protection package",
+    "blockType" : "Blocking mode (systemDetermines: system-determined, fixedDuration: fixed duration). If the IP has only one blocking mode record, omitting this field will delete it directly. If the IP has two blocking mode records, omitting this field defaults to fixedDuration.",
+    "clientToken" : "Idempotency token"
+  }
+}

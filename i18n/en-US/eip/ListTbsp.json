@@ -1,0 +1,9 @@
+{
+  "ListTbsp" : {
+    "id" : "Instance ID, supports fuzzy search",
+    "name" : "Instance name, supports fuzzy search",
+    "status" : "Instance status (RUNNING/STOPPED)",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 1000. Default value is 1000"
+  }
+}

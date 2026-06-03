@@ -1,0 +1,7 @@
+{
+  "BindTbspProtectionObject" : {
+    "clientToken" : "Idempotency token, up to 64 characters in length",
+    "id" : "DDoS enhanced protection package ID",
+    "ipList" : "List of protected object IPs to bind (the IP line type must match the DDoS enhanced protection package line type)"
+  }
+}

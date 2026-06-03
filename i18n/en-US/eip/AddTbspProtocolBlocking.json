@@ -1,0 +1,11 @@
+{
+  "AddTbspProtocolBlocking" : {
+    "id" : "DDoS Enhanced Protection Package ID",
+    "clientToken" : "Idempotency token, no more than 64 characters",
+    "ip" : "Protected object IP address of the DDoS Enhanced Protection Package",
+    "protocolPortList" : "List of protocol blocking ports",
+    "protocolPortList.type" : "Protocol blocking type of the DDoS Enhanced Protection Package, including icmp, tcp, and udp",
+    "protocolPortList.portBegin" : "Start port value of the protocol blocking rule in the DDoS Enhanced Protection Package",
+    "protocolPortList.portEnd" : "End port value of the protocol blocking rule in the DDoS Enhanced Protection Package"
+  }
+}

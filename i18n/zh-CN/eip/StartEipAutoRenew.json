@@ -1,0 +1,8 @@
+{
+  "StartEipAutoRenew" : {
+    "clientToken" : "幂等性Token，详见幂等性。",
+    "eip" : "待开通自动续费的EIP，包括IPv4 EIP和IPv6 EIP。",
+    "autoRenewTimeUnit" : "取值为 month 获 year （默认 month）",
+    "autoRenewTime" : "根据autoRenewTimeUnit的取值有不同的范围，month 为1到9，year 为1到3"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ResizeEipGroupBandwidth" : {
+    "id" : "共享带宽的id",
+    "clientToken" : "幂等性Token，详见[clientToken](EIP/API参考/通用说明.md#幂等性)",
+    "bandwidthInMbps" : "公网带宽，单位为Mbps。对于prepay类型的EIP Group，限制为为10~200之间的整数"
+  }
+}

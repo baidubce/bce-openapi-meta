@@ -1,0 +1,51 @@
+{
+  "name" : "ListTbspIpWhitelist",
+  "method" : "GET",
+  "uri" : "/v{version}/tbsp/{id}/ipWhitelist",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "eip.ListTbspIpWhitelist.id"
+  }, {
+    "name" : "ip",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListTbspIpWhitelist.ip"
+  }, {
+    "name" : "ipCidr",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListTbspIpWhitelist.ipCidr"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListTbspIpWhitelist.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "eip.ListTbspIpWhitelist.maxKeys"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "ipWhitelistList"
+  },
+  "desc_key" : "eip.ListTbspIpWhitelist.desc"
+}

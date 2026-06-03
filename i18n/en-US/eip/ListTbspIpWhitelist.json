@@ -1,0 +1,9 @@
+{
+  "ListTbspIpWhitelist" : {
+    "id" : "DDoS Enhanced Protection Package ID",
+    "ip" : "Protected object IP address of DDoS enhanced protection package, supports fuzzy search",
+    "ipCidr" : "IP whitelist CIDR block of DDoS enhanced protection package (IP CIDR format), supports fuzzy search",
+    "marker" : "Starting position for batch list query, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, not exceeding 1000. Default value is 1000"
+  }
+}

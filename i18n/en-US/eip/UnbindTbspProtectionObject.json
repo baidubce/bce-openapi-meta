@@ -1,0 +1,7 @@
+{
+  "UnbindTbspProtectionObject" : {
+    "clientToken" : "Idempotency token, max length 64 characters",
+    "id" : "DDoS enhanced protection package ID",
+    "ipList" : "List of protection object IPs to unbind"
+  }
+}

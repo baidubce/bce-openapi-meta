@@ -1,0 +1,9 @@
+{
+  "AddTbspAreaBlocking" : {
+    "id" : "流量突发服务ID",
+    "clientToken" : "幂等性Token，长度不超过64位",
+    "ip" : "DDoS增强防护包防护对象IP地址",
+    "blockTime" : "区域封禁时长 (单位: 分钟)，最小值为30，最大值为1440，添加固定时长区域封禁时blockTime必填",
+    "blockType" : "封禁类型，可为fixedDuration(固定时长)或systemDetermines（系统判定），不填默认fixedDuration类型"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "AddTbspAreaBlocking" : {
+    "id" : "Traffic burst service ID",
+    "clientToken" : "Idempotency token, max 64 characters",
+    "ip" : "Protected object IP address of the DDoS enhanced protection package",
+    "blockTime" : "Area blocking duration (unit: minutes), min 30, max 1440, required when adding fixed-duration area blocking",
+    "blockType" : "Blocking type: fixedDuration (fixed duration) or systemDetermines (system determined), defaults to fixedDuration if not specified"
+  }
+}

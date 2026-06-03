@@ -1,0 +1,6 @@
+{
+  "RejectEipTransfer" : {
+    "clientToken" : "Idempotency token, see [Idempotency](EIP/API参考/通用说明.md#幂等性).",
+    "transferIdList" : "List of transfer resource short IDs, max 30 per request."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "QueryTheListOfSharedTrafficPackages" : {
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量不超过1000，缺省值为1000",
+    "id" : "要查询的共享流量包id",
+    "status" : "要查询的共享流量包状态，包含 \"RUNNING\" 使用中；\"EXPIRED\" 已过期；\"USED_UP\" 已用完",
+    "deductPolicy" : "要查询的共享流量包扣费策略，包含 \"FullTimeDurationPackage\" 全时；\"TimeDurationPackage\" 闲时"
+  }
+}

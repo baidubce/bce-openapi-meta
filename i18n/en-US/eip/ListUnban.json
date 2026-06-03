@@ -1,0 +1,7 @@
+{
+  "ListUnban" : {
+    "marker" : "The starting position for querying the batch list, which is a system-generated string",
+    "maxKeys" : "The maximum number of items per page, up to 1000, default value is 1000",
+    "ip" : "IP address for exact filtering"
+  }
+}

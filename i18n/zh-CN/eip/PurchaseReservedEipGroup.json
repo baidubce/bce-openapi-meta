@@ -1,0 +1,10 @@
+{
+  "PurchaseReservedEipGroup" : {
+    "id" : "共享带宽的ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[幂等性](EIP/API参考/通用说明.md#幂等性)。",
+    "billing" : "订单信息",
+    "billing.paymentTiming" : "付款时间，预支付（Prepaid）和后支付（Postpaid）",
+    "billing.billingMethod" : "计费方式，按流量（ByTraffic）、按带宽（ByBandwidth）、按增强95（ByPeak95）（只有共享带宽后付费支持）、按主流量计费(ByNetrafficMax)（只有共享带宽后付费支持）",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置"
+  }
+}

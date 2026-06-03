@@ -1,0 +1,7 @@
+{
+  "EipBandwidthScalingCapacity" : {
+    "eip" : "被更新的EIP，包括IPv4 EIP和IPv6 EIP。",
+    "clientToken" : "详见[幂等性Token](EIP/API参考/通用说明.md#幂等性)",
+    "newBandwidthInMbps" : "公网带宽，单位为Mbps。对于预付费(prepay)以及按带宽(bandwidth)类型的EIP，限制为1~200之间的整数，对于按流量(traffic)类型的EIP，限制为1~1000之间的整数。"
+  }
+}

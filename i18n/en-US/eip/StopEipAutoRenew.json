@@ -1,0 +1,6 @@
+{
+  "StopEipAutoRenew" : {
+    "clientToken" : "Idempotency token, see Idempotency for details.",
+    "eip" : "The EIP for which auto-renewal is to be cancelled, including IPv4 EIP and IPv6 EIP."
+  }
+}

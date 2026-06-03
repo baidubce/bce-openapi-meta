@@ -1,0 +1,8 @@
+{
+  "RemoveTbspAreaBlocking" : {
+    "id" : "DDoS增强防护包ID",
+    "ip" : "DDoS增强防护包防护对象IP地址",
+    "blockType" : "封禁模式（systemDetermines: 系统判定，fixedDuration: 固定时长），ip只存在一种封禁模式记录时，不填会直接删除。如果ip存在两种封禁模式记录时，不填默认是固定时长。",
+    "clientToken" : "幂等性Token"
+  }
+}
