@@ -1,0 +1,31 @@
+{
+  "name" : "QryL2PolExecDetail",
+  "method" : "POST",
+  "uri" : "/?action=QueryL2PolicyExecuteDetail",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.QryL2PolExecDetail.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.QryL2PolExecDetail.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.QryL2PolExecDetail.policyId"
+  }, {
+    "name" : "jobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.QryL2PolExecDetail.jobId"
+  } ],
+  "desc_key" : "pfs.QryL2PolExecDetail.desc"
+}

@@ -1,0 +1,8 @@
+{
+  "ListL2Policy" : {
+    "action" : "本接口中固定为 ListL2Policy",
+    "instanceId" : "policyId对应的pfs实例短id",
+    "maxKeys" : "本次请求返回数量，默认为20",
+    "marker" : "上一次返回的nextMarker的值，用于分段遍历list所有task使用，下次将从该makrer处继续往后返回值"
+  }
+}

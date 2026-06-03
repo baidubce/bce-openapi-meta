@@ -1,0 +1,18 @@
+{
+  "CreateL2BucketLink" : {
+    "action" : "Fixed value for this API: CreateL2BucketLink",
+    "instanceId" : "PFS instance ID",
+    "conflictPolicy" : "Conflict policy<br><li>1 Overwrite<br><li>2 Skip<br><li>3 Keep both",
+    "bucketName" : "BOS bucket name for the data transfer task, max length 64",
+    "bucketPrefix" : "BOS bucket prefix for the data transfer task. Requirements:<br><li>Must not start with \"/\"<br><li>Must end with \"/\"<br><li>Max length 1000<br><li>Path does not support \".\" or \"..\"",
+    "throughputLimitBytes" : "Throughput limit for the data transfer task, in bytes. Only three tiers are supported: 600MB, 1200MB, 1500MB, i.e.:<br><li>629145600<br><li>1258291200<br><li>1572864000",
+    "reportObjectName" : "Object name for saving the data transfer report.<br><li>Max length 978<br><li>Path does not support \".\" or \"..\"",
+    "bucketLinkName" : "Name of the data transfer task, max length 128 (64 for Chinese characters)",
+    "transferType" : "Type of data transfer task<br><li>0 Export (PFS -> BOS)<br><li>1 Import (BOS -> PFS)",
+    "pfsPath" : "PFS path for the data transfer task. Requirements:<br><li>Must start with \"/\"<br><li>Must not end with \"/\"<br><li>Max length 1000<br><li>Path does not support \".\" or \"..\"",
+    "cron" : "Indicates whether this is a periodic data transfer task. Omit this field for one-time tasks; provide a recurrence rule for periodic tasks. The cron field uses a crontab-like syntax, supporting only <code>\\*</code> and <code>numbers</code>: <code>\\* \\* \\* \\* \\*</code> corresponds to <code>minute hour day month weekday</code>. Examples:<br><code>0 0 \\* \\* \\*</code> Run once daily at 00:00<br><code>0 0 1 \\* \\*</code> Run on the 1st of every month at 00:00<br><code>0 0 \\* \\* 1</code> Run every Monday at 00:00<br>Note: Only the following schedule expressions are supported: a specific time each day, a specific day and time each month, or a specific weekday and time each week. Other expressions will be rejected.",
+    "bucketBelongUserId" : "Cross-account field specifying the primary account user ID of the target account",
+    "lccId" : "When cross-account access is enabled, if the bucket belongs to an LCC zone, the LCC ID of the bucket must also be specified",
+    "scope" : "Visibility scope of the task. 1: visible to both primary account and all sub-accounts; 2: visible to primary account and associated sub-accounts only"
+  }
+}

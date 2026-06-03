@@ -1,0 +1,8 @@
+{
+  "QryL2PolExecDetail" : {
+    "action" : "本接口中固定为 QueryL2PolicyExecuteDetail",
+    "instanceId" : "policyId对应的pfs实例短id",
+    "policyId" : "policyId",
+    "jobId" : "需要查询的任务ID"
+  }
+}

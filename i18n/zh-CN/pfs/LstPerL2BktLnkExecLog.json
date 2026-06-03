@@ -1,0 +1,9 @@
+{
+  "LstPerL2BktLnkExecLog" : {
+    "action" : "本接口固定为 ListPeriodL2BucketLinkExecuteLog",
+    "instanceId" : "PFS实例ID",
+    "bucketLinkId" : "数据流动ID",
+    "startTime" : "查询日志起始时间戳(秒级)",
+    "endTime" : "查询日志结束时间戳(秒级)"
+  }
+}

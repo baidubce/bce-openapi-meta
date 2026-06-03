@@ -1,0 +1,7 @@
+{
+  "PauseL2BucketLink" : {
+    "action" : "本接口中为固定PauseL2BucketLink",
+    "instanceId" : "数据流动所属PFS实例ID",
+    "bucketLinkId" : "需要暂停的数据流动ID"
+  }
+}

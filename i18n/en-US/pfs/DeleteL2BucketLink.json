@@ -1,0 +1,6 @@
+{
+  "DeleteL2BucketLink" : {
+    "instanceId" : "The PFS instance ID to which the data flow belongs",
+    "bucketLinkId" : "The ID of the data flow to be deleted"
+  }
+}

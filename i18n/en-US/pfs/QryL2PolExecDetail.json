@@ -1,0 +1,8 @@
+{
+  "QryL2PolExecDetail" : {
+    "action" : "Fixed value for this API: QueryL2PolicyExecuteDetail",
+    "instanceId" : "Short instance ID of the PFS instance corresponding to the policyId",
+    "policyId" : "Policy ID",
+    "jobId" : "The job ID to query"
+  }
+}

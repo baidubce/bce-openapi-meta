@@ -1,0 +1,9 @@
+{
+  "LstPerL2BktLnkExecLog" : {
+    "action" : "This interface is fixed as ListPeriodL2BucketLinkExecuteLog",
+    "instanceId" : "PFS instance ID",
+    "bucketLinkId" : "Data flow ID",
+    "startTime" : "Start timestamp (in seconds) for log query",
+    "endTime" : "End timestamp (in seconds) for log query"
+  }
+}

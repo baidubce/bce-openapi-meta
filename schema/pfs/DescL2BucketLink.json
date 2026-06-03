@@ -1,0 +1,25 @@
+{
+  "name" : "DescL2BucketLink",
+  "method" : "POST",
+  "uri" : "/?action=DescribeL2BucketLink",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.DescL2BucketLink.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DescL2BucketLink.instanceId"
+  }, {
+    "name" : "bucketLinkId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DescL2BucketLink.bucketLinkId"
+  } ],
+  "desc_key" : "pfs.DescL2BucketLink.desc"
+}

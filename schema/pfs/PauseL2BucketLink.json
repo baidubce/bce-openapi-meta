@@ -1,0 +1,25 @@
+{
+  "name" : "PauseL2BucketLink",
+  "method" : "POST",
+  "uri" : "/?action=PauseL2BucketLink",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.PauseL2BucketLink.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.PauseL2BucketLink.instanceId"
+  }, {
+    "name" : "bucketLinkId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.PauseL2BucketLink.bucketLinkId"
+  } ],
+  "desc_key" : "pfs.PauseL2BucketLink.desc"
+}

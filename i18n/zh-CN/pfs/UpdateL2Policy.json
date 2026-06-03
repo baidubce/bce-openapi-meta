@@ -1,0 +1,12 @@
+{
+  "UpdateL2Policy" : {
+    "action" : "本接口中固定为 UpdateL2Policy",
+    "instanceId" : "policyId对应的pfs实例短id",
+    "policyId" : "需要修改policyId",
+    "newPolicyName" : "新规则的名称，支持大小写字母、数字、中文、半角冒号（:）、下划线（_）或者短划线（-）。必须以大小字母或中文开头，长度为1~128个英文或中文字符",
+    "expiredTime" : "规则的过期时间，单位天，1 ～ 365*5",
+    "executeTime" : "规则的执行时间点，0～23整数，默认为0，范围在：0 ～ 23",
+    "bucketName" : "数据转存对应的bucket",
+    "bucketPrefix" : "数据转存对应的prefix，非\"/\"开头，以\"/\"结尾"
+  }
+}

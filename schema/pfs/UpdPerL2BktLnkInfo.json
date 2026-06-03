@@ -1,0 +1,55 @@
+{
+  "name" : "UpdPerL2BktLnkInfo",
+  "method" : "POST",
+  "uri" : "/?action=UpdatePeriodL2BucketLinkInfo",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.UpdPerL2BktLnkInfo.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdPerL2BktLnkInfo.instanceId"
+  }, {
+    "name" : "bucketLinkId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdPerL2BktLnkInfo.bucketLinkId"
+  }, {
+    "name" : "newCron",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdPerL2BktLnkInfo.newCron"
+  }, {
+    "name" : "newBucketLinkName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdPerL2BktLnkInfo.newBucketLinkName"
+  }, {
+    "name" : "newConflictPolicy",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdPerL2BktLnkInfo.newConflictPolicy"
+  }, {
+    "name" : "newThroughputLimitBytes",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdPerL2BktLnkInfo.newThroughputLimitBytes"
+  }, {
+    "name" : "newScope",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdPerL2BktLnkInfo.newScope"
+  } ],
+  "desc_key" : "pfs.UpdPerL2BktLnkInfo.desc"
+}

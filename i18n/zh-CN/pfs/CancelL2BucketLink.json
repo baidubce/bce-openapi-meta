@@ -1,0 +1,7 @@
+{
+  "CancelL2BucketLink" : {
+    "action" : "本接口中固定为 CancelL2BucketLink",
+    "bucketLinkId" : "需要取消的数据流动ID",
+    "instanceId" : "取消数据流动任务所属PFS实例ID"
+  }
+}

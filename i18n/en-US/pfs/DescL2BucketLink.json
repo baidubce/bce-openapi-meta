@@ -1,0 +1,7 @@
+{
+  "DescL2BucketLink" : {
+    "action" : "Fixed value for this API: DescribeL2BucketLink",
+    "instanceId" : "PFS instance ID that the data flow belongs to",
+    "bucketLinkId" : "Data flow ID"
+  }
+}

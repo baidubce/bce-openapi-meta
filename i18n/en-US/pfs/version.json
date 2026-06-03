@@ -7,21 +7,29 @@
       "title" : "createPfs",
       "summary" : "createPfs"
     },
-    "InstanceListClients" : {
-      "title" : "instanceListClients",
-      "summary" : "instanceListClients"
+    "DescL2BucketLink" : {
+      "title" : "descL2BucketLink",
+      "summary" : "descL2BucketLink"
     },
-    "DeletePfs" : {
-      "title" : "deletePfs",
-      "summary" : "deletePfs"
+    "PauseL2BucketLink" : {
+      "title" : "pauseL2BucketLink",
+      "summary" : "pauseL2BucketLink"
     },
-    "DescPfs" : {
-      "title" : "descPfs",
-      "summary" : "descPfs"
+    "LstPerL2BktLnkExecLog" : {
+      "title" : "lstPerL2BktLnkExecLog",
+      "summary" : "lstPerL2BktLnkExecLog"
     },
-    "MountTargetListClients" : {
-      "title" : "mountTargetListClients",
-      "summary" : "mountTargetListClients"
+    "CreateL2BucketLink" : {
+      "title" : "createL2BucketLink",
+      "summary" : "createL2BucketLink"
+    },
+    "DeleteL2BucketLink" : {
+      "title" : "deleteL2BucketLink",
+      "summary" : "deleteL2BucketLink"
+    },
+    "CancelL2BucketLink" : {
+      "title" : "cancelL2BucketLink",
+      "summary" : "cancelL2BucketLink"
     },
     "CreateFileset" : {
       "title" : "createFileset",
@@ -30,14 +38,6 @@
     "DeleteFileset" : {
       "title" : "deleteFileset",
       "summary" : "deleteFileset"
-    },
-    "UpdatePFSTag" : {
-      "title" : "updatePFSTag",
-      "summary" : "updatePFSTag"
-    },
-    "ListPfs" : {
-      "title" : "listPfs",
-      "summary" : "listPfs"
     },
     "UpdateFileset" : {
       "title" : "updateFileset",
@@ -50,6 +50,70 @@
     "DescFileset" : {
       "title" : "descFileset",
       "summary" : "descFileset"
+    },
+    "ResumeL2BucketLink" : {
+      "title" : "resumeL2BucketLink",
+      "summary" : "resumeL2BucketLink"
+    },
+    "MountTargetListClients" : {
+      "title" : "mountTargetListClients",
+      "summary" : "mountTargetListClients"
+    },
+    "ListL2BucketLink" : {
+      "title" : "listL2BucketLink",
+      "summary" : "listL2BucketLink"
+    },
+    "CreateL2Policy" : {
+      "title" : "createL2Policy",
+      "summary" : "createL2Policy"
+    },
+    "InstanceListClients" : {
+      "title" : "instanceListClients",
+      "summary" : "instanceListClients"
+    },
+    "UpdateL2Policy" : {
+      "title" : "updateL2Policy",
+      "summary" : "updateL2Policy"
+    },
+    "DeleteL2Policy" : {
+      "title" : "deleteL2Policy",
+      "summary" : "deleteL2Policy"
+    },
+    "ListL2Policy" : {
+      "title" : "listL2Policy",
+      "summary" : "listL2Policy"
+    },
+    "DescL2Policy" : {
+      "title" : "descL2Policy",
+      "summary" : "descL2Policy"
+    },
+    "QryL2PolExecLog" : {
+      "title" : "qryL2PolExecLog",
+      "summary" : "qryL2PolExecLog"
+    },
+    "QryL2PolExecDetail" : {
+      "title" : "qryL2PolExecDetail",
+      "summary" : "qryL2PolExecDetail"
+    },
+    "DeletePfs" : {
+      "title" : "deletePfs",
+      "summary" : "deletePfs"
+    },
+    "DescPfs" : {
+      "title" : "descPfs",
+      "summary" : "descPfs"
+    },
+    "UpdatePFSTag" : {
+      "title" : "updatePFSTag",
+      "summary" : "updatePFSTag"
+    },
+    "ListPfs" : {
+      "title" : "listPfs",
+      "summary" : "listPfs"
+    },
+    "UpdPerL2BktLnkInfo" : {
+      "title" : "updPerL2BktLnkInfo",
+      "summary" : "updPerL2BktLnkInfo"
     }
   }
 }

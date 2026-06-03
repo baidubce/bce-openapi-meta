@@ -1,0 +1,9 @@
+{
+  "QryL2PolExecLog" : {
+    "action" : "Fixed value for this API: QueryL2PolicyExecuteLog",
+    "instanceId" : "Short instance ID of the PFS instance corresponding to the policyId",
+    "policyId" : "Policy ID",
+    "startTime" : "Start timestamp (in seconds) for log query",
+    "endTime" : "End timestamp (in seconds) for log query"
+  }
+}

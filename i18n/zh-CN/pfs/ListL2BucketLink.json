@@ -1,0 +1,9 @@
+{
+  "ListL2BucketLink" : {
+    "action" : "本接口固定为 ListL2BucketLink",
+    "instanceId" : "PFS实例ID",
+    "maxKeys" : "返回bucketlink列表长度，默认为20个，取值范围为【1，20】，超过范围的规整为1或20",
+    "manner" : "请求的分段类型，必须指定marker",
+    "marker" : "按照bucketlinkId（格式一般为\"dflow-xxxxxx\"）的字典序排列，从marker之后的第一个开始返回（不包括marker）"
+  }
+}

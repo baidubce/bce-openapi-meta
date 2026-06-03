@@ -1,0 +1,31 @@
+{
+  "name" : "ListL2Policy",
+  "method" : "POST",
+  "uri" : "/?action=ListL2Policy",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.ListL2Policy.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.ListL2Policy.instanceId"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.ListL2Policy.maxKeys"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.ListL2Policy.marker"
+  } ],
+  "desc_key" : "pfs.ListL2Policy.desc"
+}

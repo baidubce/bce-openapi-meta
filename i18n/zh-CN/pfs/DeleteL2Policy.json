@@ -1,0 +1,7 @@
+{
+  "DeleteL2Policy" : {
+    "action" : "本接口中固定为 DeleteL2Policy",
+    "instanceId" : "policyId对应的pfs实例短id",
+    "policyId" : "需要删除的policyId"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "QryL2PolExecLog" : {
+    "action" : "本接口中固定为 QueryL2PolicyExecuteLog",
+    "instanceId" : "policyId对应的pfs实例短id",
+    "policyId" : "policyId",
+    "startTime" : "查询日志起始时间戳(秒级)",
+    "endTime" : "查询日志结束时间戳(秒级)"
+  }
+}

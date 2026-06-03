@@ -1,0 +1,12 @@
+{
+  "UpdateL2Policy" : {
+    "action" : "Fixed value for this API: UpdateL2Policy",
+    "instanceId" : "Short instance ID of the PFS instance associated with the policyId",
+    "policyId" : "The policyId to be updated",
+    "newPolicyName" : "New policy name; supports uppercase/lowercase letters, digits, Chinese characters, colons (:), underscores (_), or hyphens (-); must begin with a letter or Chinese character; length: 1–128 characters (English or Chinese)",
+    "expiredTime" : "Expiration time of the policy in days; valid range: 1–365*5",
+    "executeTime" : "Execution time of the policy (hour of day); integer from 0 to 23; defaults to 0",
+    "bucketName" : "Destination bucket for data archiving",
+    "bucketPrefix" : "Destination prefix for data archiving; must not start with \"/\" and must end with \"/\""
+  }
+}

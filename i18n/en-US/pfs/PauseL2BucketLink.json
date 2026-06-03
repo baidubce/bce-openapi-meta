@@ -1,0 +1,7 @@
+{
+  "PauseL2BucketLink" : {
+    "action" : "Fixed value for this API: PauseL2BucketLink",
+    "instanceId" : "The PFS instance ID that the data flow belongs to",
+    "bucketLinkId" : "The ID of the data flow to be paused"
+  }
+}

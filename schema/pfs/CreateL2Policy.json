@@ -1,0 +1,61 @@
+{
+  "name" : "CreateL2Policy",
+  "method" : "POST",
+  "uri" : "/?action=CreateL2Policy",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.CreateL2Policy.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2Policy.instanceId"
+  }, {
+    "name" : "policyName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2Policy.policyName"
+  }, {
+    "name" : "path",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2Policy.path"
+  }, {
+    "name" : "expiredTime",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2Policy.expiredTime"
+  }, {
+    "name" : "type",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2Policy.type"
+  }, {
+    "name" : "executeTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2Policy.executeTime"
+  }, {
+    "name" : "bucketName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2Policy.bucketName"
+  }, {
+    "name" : "bucketPrefix",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2Policy.bucketPrefix"
+  } ],
+  "desc_key" : "pfs.CreateL2Policy.desc"
+}

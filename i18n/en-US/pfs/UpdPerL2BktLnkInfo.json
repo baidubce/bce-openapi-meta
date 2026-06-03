@@ -1,0 +1,12 @@
+{
+  "UpdPerL2BktLnkInfo" : {
+    "action" : "Fixed value UpdatePeriodL2BucketLinkInfo for this API",
+    "instanceId" : "PFS instance ID to which the data flow belongs",
+    "bucketLinkId" : "ID of the data flow to be updated",
+    "newCron" : "New trigger schedule cron expression",
+    "newBucketLinkName" : "New name for the bucket link",
+    "newConflictPolicy" : "New conflict resolution policy",
+    "newThroughputLimitBytes" : "New throughput limit in bytes",
+    "newScope" : "New visibility scope; this setting only takes effect for data flow tasks created after 2026-01-01"
+  }
+}

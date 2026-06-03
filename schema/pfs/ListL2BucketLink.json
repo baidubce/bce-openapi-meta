@@ -1,0 +1,37 @@
+{
+  "name" : "ListL2BucketLink",
+  "method" : "POST",
+  "uri" : "/?action=ListL2BucketLink",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.ListL2BucketLink.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.ListL2BucketLink.instanceId"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.ListL2BucketLink.maxKeys"
+  }, {
+    "name" : "manner",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.ListL2BucketLink.manner"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.ListL2BucketLink.marker"
+  } ],
+  "desc_key" : "pfs.ListL2BucketLink.desc"
+}

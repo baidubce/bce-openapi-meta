@@ -1,0 +1,6 @@
+{
+  "DeleteL2BucketLink" : {
+    "instanceId" : "数据流动所属PFS实例ID",
+    "bucketLinkId" : "需要删除的数据流动ID"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name" : "ResumeL2BucketLink",
+  "method" : "POST",
+  "uri" : "/?action=ResumeL2BucketLink",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.ResumeL2BucketLink.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.ResumeL2BucketLink.instanceId"
+  }, {
+    "name" : "bucketLinkId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.ResumeL2BucketLink.bucketLinkId"
+  } ],
+  "desc_key" : "pfs.ResumeL2BucketLink.desc"
+}

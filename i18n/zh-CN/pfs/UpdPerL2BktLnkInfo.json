@@ -1,0 +1,12 @@
+{
+  "UpdPerL2BktLnkInfo" : {
+    "action" : "本接口中为固定UpdatePeriodL2BucketLinkInfo",
+    "instanceId" : "数据流动所属PFS实例ID",
+    "bucketLinkId" : "需要更新的数据流动ID",
+    "newCron" : "新触发周期cron表达式",
+    "newBucketLinkName" : "新的bucketlink名字",
+    "newConflictPolicy" : "新的冲突策略",
+    "newThroughputLimitBytes" : "新的吞吐限制",
+    "newScope" : "新的可见范围，设置仅对2026-01-01之后创建的数据流动任务生效。"
+  }
+}

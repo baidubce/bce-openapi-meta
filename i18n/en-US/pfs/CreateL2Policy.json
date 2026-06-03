@@ -1,0 +1,13 @@
+{
+  "CreateL2Policy" : {
+    "action" : "Fixed value for this API: CreateL2Policy",
+    "instanceId" : "Short ID of the PFS instance for which the rule is created",
+    "policyName" : "Name of the rule. Supports letters, digits, Chinese characters, colons (:), underscores (_), and hyphens (-). Must start with a letter or Chinese character. Length: 1–128 characters.",
+    "path" : "Path associated with the rule. Must start with \"/\" and must not end with \"/\"",
+    "expiredTime" : "Expiration time of the rule in days, range: 1–1825",
+    "type" : "Rule type: 0 for data deletion; 1 for data archiving",
+    "executeTime" : "Execution hour of the rule, integer from 0 to 23, default is 0",
+    "bucketName" : "Target bucket for data archiving. Required when type is data archiving.",
+    "bucketPrefix" : "Target prefix for data archiving. Required when type is data archiving. Must not start with \"/\" and must end with \"/\""
+  }
+}

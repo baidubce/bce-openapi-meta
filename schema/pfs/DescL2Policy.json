@@ -1,0 +1,25 @@
+{
+  "name" : "DescL2Policy",
+  "method" : "POST",
+  "uri" : "/?action=DescribeL2Policy",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.DescL2Policy.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DescL2Policy.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DescL2Policy.policyId"
+  } ],
+  "desc_key" : "pfs.DescL2Policy.desc"
+}

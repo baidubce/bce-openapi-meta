@@ -1,0 +1,37 @@
+{
+  "name" : "QryL2PolExecLog",
+  "method" : "POST",
+  "uri" : "/?action=QueryL2PolicyExecuteLog",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.QryL2PolExecLog.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.QryL2PolExecLog.instanceId"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.QryL2PolExecLog.policyId"
+  }, {
+    "name" : "startTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.QryL2PolExecLog.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.QryL2PolExecLog.endTime"
+  } ],
+  "desc_key" : "pfs.QryL2PolExecLog.desc"
+}

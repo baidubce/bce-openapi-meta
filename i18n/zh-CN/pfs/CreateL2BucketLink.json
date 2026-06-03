@@ -1,0 +1,18 @@
+{
+  "CreateL2BucketLink" : {
+    "action" : "本接口中固定为 CreateL2BucketLink",
+    "instanceId" : "PFS实例ID",
+    "conflictPolicy" : "冲突策略<br><li>1 覆盖策略<br><li>2 跳过策略<br><li>3 保留两者",
+    "bucketName" : "任务流动的BOS bucket name，最长长度64",
+    "bucketPrefix" : "任务流动的BOS bucket prefix，要求：<br><li>非\"/\"开始<br><li>以\"/\"结尾<br><li>最长长度1000<br><li>路径不支持\".\" \"..\"",
+    "throughputLimitBytes" : "任务流动限流，单位byte，当前只支持3个档位，分别是600MB, 1200MB, 1500MB，即：<br><li>629145600<br><li>1258291200<br><li>1572864000",
+    "reportObjectName" : "任务流动报告保存的object名字<br><li>最长长度978<br><li>路径不支持\".\" \"..\"",
+    "bucketLinkName" : "任务流动名称，最长长度128，(中文64)",
+    "transferType" : "任务流动类型<br><li>0 导出任务(PFS -> BOS)<br><li>1 导入任务(BOS -> PFS)",
+    "pfsPath" : "任务流动的PFS路径，要求：<br><li>以\"/\"开始<br><li>非\"/\"结尾<br><li>最长长度1000<br><li>路径不支持\".\" \"..\"",
+    "cron" : "标识是否为周期性数据流动，如果为一次性任务，则不需要提供此字段，否者需要提供周期性运行规则；cron字段是一个类crontab的语法，但仅支持最简单的<code>\\*</code> + <code>数字</code> 的语法：<code>\\* \\* \\* \\* \\*</code> 分别对应<code>分 时 日 月 周</code>这几个字段，下面是几个例子：<br><code>0 0 \\* \\* \\*</code> 每天0点0分执行一次<br><code>0 0 1 \\* \\*</code> 每月的一日0点0分执行一次<br><code>0 0 \\* \\* 1</code> 每周一的0点0分执行一次 <br>说明：cron字段仅支持传入以下时间表达方式：每天的几点几分、每月的某日几点几分或每周几的几点几分，其他表达方式将被拒绝。",
+    "bucketBelongUserId" : "跨账号字段，标明跨账号的目标用户主账号userid",
+    "lccId" : "当跨账号启动时，如果bucket所属lcc专区，则需要额外标名对应的bucket所属的LccID信息",
+    "scope" : "任务可见范围，1：主账号以及子账号全部可见，2：仅主账号和子账号可见"
+  }
+}

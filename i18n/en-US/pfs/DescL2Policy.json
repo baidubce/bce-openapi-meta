@@ -1,0 +1,7 @@
+{
+  "DescL2Policy" : {
+    "action" : "Fixed value for this API: DescribeL2Policy",
+    "instanceId" : "Short instance ID of the PFS instance associated with the policyId",
+    "policyId" : "The policy ID"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "DescL2BucketLink" : {
+    "action" : "本接口中为固定DescribeL2BucketLink",
+    "instanceId" : "数据流动所属PFS实例Id",
+    "bucketLinkId" : "数据流动ID"
+  }
+}

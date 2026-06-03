@@ -1,0 +1,7 @@
+{
+  "DeleteL2Policy" : {
+    "action" : "Fixed value for this API: DeleteL2Policy",
+    "instanceId" : "The short ID of the PFS instance corresponding to the policyId",
+    "policyId" : "The policyId to be deleted"
+  }
+}

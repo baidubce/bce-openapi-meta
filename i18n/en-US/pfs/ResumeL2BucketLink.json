@@ -1,0 +1,7 @@
+{
+  "ResumeL2BucketLink" : {
+    "action" : "Fixed value ResumeL2BucketLink for this API",
+    "instanceId" : "PFS instance ID that the data flow belongs to",
+    "bucketLinkId" : "ID of the data flow to be resumed"
+  }
+}

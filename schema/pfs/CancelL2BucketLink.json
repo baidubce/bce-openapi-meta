@@ -1,0 +1,25 @@
+{
+  "name" : "CancelL2BucketLink",
+  "method" : "POST",
+  "uri" : "/?action=CancelL2BucketLink",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.CancelL2BucketLink.action"
+  }, {
+    "name" : "bucketLinkId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CancelL2BucketLink.bucketLinkId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CancelL2BucketLink.instanceId"
+  } ],
+  "desc_key" : "pfs.CancelL2BucketLink.desc"
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteL2BucketLink",
+  "method" : "POST",
+  "uri" : "/?action=DeleteL2BucketLink",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DeleteL2BucketLink.instanceId"
+  }, {
+    "name" : "bucketLinkId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DeleteL2BucketLink.bucketLinkId"
+  } ],
+  "desc_key" : "pfs.DeleteL2BucketLink.desc"
+}

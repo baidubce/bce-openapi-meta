@@ -1,0 +1,91 @@
+{
+  "name" : "CreateL2BucketLink",
+  "method" : "POST",
+  "uri" : "/?action=CreateL2BucketLink",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.CreateL2BucketLink.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.instanceId"
+  }, {
+    "name" : "conflictPolicy",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.conflictPolicy"
+  }, {
+    "name" : "bucketName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.bucketName"
+  }, {
+    "name" : "bucketPrefix",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.bucketPrefix"
+  }, {
+    "name" : "throughputLimitBytes",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.throughputLimitBytes"
+  }, {
+    "name" : "reportObjectName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.reportObjectName"
+  }, {
+    "name" : "bucketLinkName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.bucketLinkName"
+  }, {
+    "name" : "transferType",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.transferType"
+  }, {
+    "name" : "pfsPath",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.pfsPath"
+  }, {
+    "name" : "cron",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.cron"
+  }, {
+    "name" : "bucketBelongUserId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.bucketBelongUserId"
+  }, {
+    "name" : "lccId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.lccId"
+  }, {
+    "name" : "scope",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.scope"
+  } ],
+  "desc_key" : "pfs.CreateL2BucketLink.desc"
+}

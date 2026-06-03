@@ -1,0 +1,7 @@
+{
+  "CancelL2BucketLink" : {
+    "action" : "Fixed value for this API: CancelL2BucketLink",
+    "bucketLinkId" : "The ID of the data flow link to be cancelled",
+    "instanceId" : "The PFS instance ID to which the cancel data flow task belongs"
+  }
+}

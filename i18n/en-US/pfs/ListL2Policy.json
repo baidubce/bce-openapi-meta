@@ -1,0 +1,8 @@
+{
+  "ListL2Policy" : {
+    "action" : "Fixed value for this API is ListL2Policy",
+    "instanceId" : "Short ID of the PFS instance corresponding to the policyId",
+    "maxKeys" : "Number of results to return in this request, default is 20",
+    "marker" : "The nextMarker value returned from the previous response, used for paginated traversal of all tasks; the next request will resume from this marker"
+  }
+}
