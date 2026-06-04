@@ -7,7 +7,7 @@
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "default" : "1",
+    "default" : "2",
     "desc_key" : "common.version"
   }, {
     "name" : "vpcId",
