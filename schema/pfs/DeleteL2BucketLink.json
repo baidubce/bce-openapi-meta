@@ -3,6 +3,13 @@
   "method" : "POST",
   "uri" : "/?action=DeleteL2BucketLink",
   "parameters" : [ {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
     "name" : "instanceId",
     "type" : "String",
     "required" : true,

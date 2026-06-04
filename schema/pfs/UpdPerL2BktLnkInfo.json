@@ -9,6 +9,13 @@
     "position" : "QUERY",
     "desc_key" : "pfs.UpdPerL2BktLnkInfo.action"
   }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
     "name" : "instanceId",
     "type" : "String",
     "required" : true,
