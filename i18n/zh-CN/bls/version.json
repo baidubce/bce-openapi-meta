@@ -4,8 +4,8 @@
   "description" : "日志服务",
   "apis" : {
     "CreateProject" : {
-      "title" : "创建日志组CreateProject",
-      "summary" : "创建日志组CreateProject"
+      "title" : "创建日志组",
+      "summary" : "创建日志组"
     },
     "PullLogRecord" : {
       "title" : "获取日志记录",
