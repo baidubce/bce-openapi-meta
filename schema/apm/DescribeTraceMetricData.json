@@ -40,12 +40,6 @@
       "desc_key" : "apm.DescribeTraceMetricData.metrics.name"
     } ]
   }, {
-    "name" : "metrics.name",
-    "type" : "String",
-    "required" : true,
-    "position" : "BODY",
-    "desc_key" : "apm.DescribeTraceMetricData.metrics.name"
-  }, {
     "name" : "filters",
     "type" : "List",
     "required" : false,
