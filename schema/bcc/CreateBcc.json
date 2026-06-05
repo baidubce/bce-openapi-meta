@@ -1,0 +1,14 @@
+{
+  "name" : "CreateBcc",
+  "method" : "POST",
+  "uri" : "/v{version}/xxx",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "bcc.CreateBcc.desc"
+}

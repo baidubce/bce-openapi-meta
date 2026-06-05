@@ -1,0 +1,7 @@
+{
+  "RestartTheInstance" : {
+    "instanceId" : "待启动的实例ID",
+    "action" : "对实例执行的动作，本接口中该参数取值：reboot",
+    "forceStop" : "是否强制停止实例，可选值true,false,缺省为false"
+  }
+}

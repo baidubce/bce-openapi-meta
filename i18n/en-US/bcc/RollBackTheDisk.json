@@ -1,0 +1,7 @@
+{
+  "RollBackTheDisk" : {
+    "volumeId" : "The ID of the disk to be rolled back",
+    "action" : "The operation to perform on the disk, current valid value: rollback",
+    "snapshotId" : "The snapshot ID used to roll back the specified disk, must be a snapshot created from the volumeId"
+  }
+}

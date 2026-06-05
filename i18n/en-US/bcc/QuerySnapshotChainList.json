@@ -1,0 +1,9 @@
+{
+  "QuerySnapshotChainList" : {
+    "orderBy" : "Sort field, options: chainId (snapshot chain ID, default), chainSize (snapshot chain size), volumeSize (disk size)",
+    "order" : "Sort order, options: asc (ascending, default), desc (descending)",
+    "pageSize" : "Number of results per page, default is 1000",
+    "pageNo" : "Page number, default is 1",
+    "volumeId" : "Disk ID; if specified, returns snapshot chain info for this disk only"
+  }
+}

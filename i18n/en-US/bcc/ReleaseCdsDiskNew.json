@@ -1,0 +1,9 @@
+{
+  "ReleaseCdsDiskNew" : {
+    "volumeId" : "The ID of the disk to be released",
+    "autoSnapshot" : "When set to \"on\", automatically deletes the automatic snapshots associated with the disk",
+    "manualSnapshot" : "When set to \"on\", automatically deletes the manual snapshots associated with the disk",
+    "recycle" : "When set to \"on\", the data disk is moved to the recycle bin; when set to \"off\", it is deleted immediately. Default is \"on\".",
+    "cdsAttributeActive" : "Specifies whether automatic snapshots are released according to the \"release with disk\" attribute. Defaults to false. When set to true, snapshots are released based on their associated release attribute, which takes precedence over the autoSnapshot parameter."
+  }
+}

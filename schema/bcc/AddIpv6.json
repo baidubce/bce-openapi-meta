@@ -1,0 +1,32 @@
+{
+  "name" : "AddIpv6",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/addIpv6",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.AddIpv6.instanceId"
+  }, {
+    "name" : "ipv6Address",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AddIpv6.ipv6Address"
+  }, {
+    "name" : "reboot",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AddIpv6.reboot"
+  } ],
+  "desc_key" : "bcc.AddIpv6.desc"
+}

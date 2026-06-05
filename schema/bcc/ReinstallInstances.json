@@ -1,0 +1,98 @@
+{
+  "name" : "ReinstallInstances",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ReinstallInstances.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ReinstallInstances.action"
+  }, {
+    "name" : "imageId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.imageId"
+  }, {
+    "name" : "adminPass",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.adminPass"
+  }, {
+    "name" : "keypairId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.keypairId"
+  }, {
+    "name" : "keepImageLogin",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.keepImageLogin"
+  }, {
+    "name" : "userData",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.userData"
+  }, {
+    "name" : "cleanLastUserData",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.cleanLastUserData"
+  }, {
+    "name" : "isOpenHostEye",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.isOpenHostEye"
+  }, {
+    "name" : "sysRootSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.sysRootSize"
+  }, {
+    "name" : "isPreserveData",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.isPreserveData"
+  }, {
+    "name" : "raidId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.raidId"
+  }, {
+    "name" : "dataPartitionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.dataPartitionType"
+  }, {
+    "name" : "rootPartitionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReinstallInstances.rootPartitionType"
+  } ],
+  "desc_key" : "bcc.ReinstallInstances.desc"
+}

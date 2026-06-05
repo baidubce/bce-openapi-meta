@@ -1,0 +1,10 @@
+{
+  "DiskBillingChange" : {
+    "volumeId" : "待变更计费磁盘ID",
+    "action" : "对磁盘的执行动作，当前取值modifyChargeType",
+    "billing" : "订单信息。 当后付费CDS未挂载，或者挂载到的BCC非预付费类型时，禁用后转预；billing为空或者billing.reservation为空，或者billing.reservation.reservationLength = 0时，代表CDS后转预后的到期时间和其挂载的预付费BCC实例的到期时间一致。当billing.reservation.reservationLength > 0时，表示CDS后转预到期时间自定义，其值必须不小于其挂载的预付费BCC实例的到期时间。reservationLength可选值为0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 24, 36, 48, 60。",
+    "billing.paymentTiming" : "付费方式，包括预支付（Prepaid）、后支付（Postpaid）和抢占实例（bidding）",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置",
+    "effectiveType" : "转后付费生效方式，可选参数：AtOnce（立即转按量付费）、AfterExpiration（到期后转按量付费）。不传默认为到期后按量付费。"
+  }
+}

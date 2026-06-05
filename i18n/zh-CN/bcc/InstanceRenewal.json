@@ -1,0 +1,14 @@
+{
+  "InstanceRenewal" : {
+    "instanceId" : "虚拟机实例ID",
+    "action" : "本接口中该参数取值：purchaseReserved",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[{clientToken}幂等性](BCC/API参考/通用说明.md#幂等性)。",
+    "relatedRenewFlag" : "设置实例关联续费标识，默认为空字符串。可选标识请参照[RelatedRenewFlag](BCC/API参考/附录.md#RelatedRenewFlag)。**注意**：实例关联的CDS盘会一同进行续费。",
+    "billing" : "订单详情",
+    "billing.paymentTiming" : "付费方式，包括预支付（Prepaid）、后支付（Postpaid）和抢占实例（bidding）",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置",
+    "cdsCustomPeriod" : "挂载磁盘的自定义续费周期，可选大于等于（续费后BCC到期时间-CDS当前到期时间）的续费时长，范围为【1，60】个月。不传时默认与BCC续费后的到期时间保持一致。",
+    "cdsCustomPeriod.volumeId" : "磁盘ID（磁盘详情、磁盘列表接口返回）",
+    "cdsCustomPeriod.period" : "续费时长，单位为月，范围为【1，60】。需保证续费后磁盘的到期时间等于或晚于BCC到期时间，否则续费失败。"
+  }
+}

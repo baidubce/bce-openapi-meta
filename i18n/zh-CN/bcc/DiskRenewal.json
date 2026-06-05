@@ -1,0 +1,11 @@
+{
+  "DiskRenewal" : {
+    "volumeId" : "磁盘ID",
+    "action" : "本接口中该参数取值：purchaseReserved",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](BCC/API参考/通用说明.md#幂等性)。",
+    "billing" : "自定义续费时长，单位为月。为空时表示与挂载的BCC到期时间对齐，必须保证自定义时长大于（BCC到期时间-CDS当前到期时间）否则续费失败。支持的时长为【1，60】个月",
+    "billing.paymentTiming" : "付费方式，包括预支付（Prepaid）、后支付（Postpaid）和抢占实例（bidding）",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置",
+    "instanceId" : "未挂载磁盘预期挂载到的预付费BCC实例ID，磁盘未挂载状态下必传，已挂载状态下可不传或传当前挂载的实例ID"
+  }
+}

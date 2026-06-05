@@ -1,0 +1,10 @@
+{
+  "DiskUnbindingLabel" : {
+    "volumeId" : "Disk ID",
+    "action" : "Action to perform on the disk, current value: unbind",
+    "relationTag" : "Whether to unbind tags from associated resources",
+    "changeTags" : "List of tags to be unbound, see [TagModel](BCC/API Reference/Appendix.md#TagModel) for data format",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value"
+  }
+}

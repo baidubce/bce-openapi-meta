@@ -1,0 +1,9 @@
+{
+  "QueryTheListOfInstancesThatCanBeShutDownWithoutCharging" : {
+    "marker" : "The starting position for batch list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000. Default value is 1000",
+    "internalIp" : "Internal IP address",
+    "keypairId" : "Key pair ID",
+    "zoneName" : "Availability zone name, e.g.: cn-bj-a"
+  }
+}

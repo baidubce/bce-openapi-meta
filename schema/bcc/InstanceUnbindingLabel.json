@@ -1,0 +1,49 @@
+{
+  "name" : "InstanceUnbindingLabel",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}/tag",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.InstanceUnbindingLabel.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.InstanceUnbindingLabel.action"
+  }, {
+    "name" : "attachRelatedResourceTag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceUnbindingLabel.attachRelatedResourceTag"
+  }, {
+    "name" : "changeTags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceUnbindingLabel.changeTags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.InstanceUnbindingLabel.changeTags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.InstanceUnbindingLabel.changeTags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "bcc.InstanceUnbindingLabel.desc"
+}

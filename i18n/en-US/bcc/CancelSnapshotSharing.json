@@ -1,0 +1,7 @@
+{
+  "CancelSnapshotSharing" : {
+    "sourceSnapshotId" : "Source snapshot ID to cancel sharing; required when the sharing party cancels snapshot sharing.",
+    "accountIds" : "Recipient account IDs to cancel sharing for; if omitted, all shares are cancelled.",
+    "shareSnapshotId" : "ID of the received snapshot to cancel sharing; required for the recipient."
+  }
+}

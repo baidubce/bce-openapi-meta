@@ -1,0 +1,6 @@
+{
+  "StartInstance" : {
+    "instanceId" : "待启动的实例ID",
+    "action" : "对实例执行的动作，本接口中该参数取值：start"
+  }
+}

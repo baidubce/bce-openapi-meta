@@ -1,0 +1,43 @@
+{
+  "name" : "UnbindTagsFromSnapshotChains",
+  "method" : "PUT",
+  "uri" : "/v{version}/snapshot/chain/{chainId}/tag",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "chainId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.UnbindTagsFromSnapshotChains.chainId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.UnbindTagsFromSnapshotChains.action"
+  }, {
+    "name" : "changeTags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindTagsFromSnapshotChains.changeTags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.UnbindTagsFromSnapshotChains.changeTags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.UnbindTagsFromSnapshotChains.changeTags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "bcc.UnbindTagsFromSnapshotChains.desc"
+}

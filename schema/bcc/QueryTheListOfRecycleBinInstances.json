@@ -1,0 +1,62 @@
+{
+  "name" : "QueryTheListOfRecycleBinInstances",
+  "method" : "POST",
+  "uri" : "/v{version}/recycle/instance",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "{clientToken}",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.QueryTheListOfRecycleBinInstances.{clientToken}"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryTheListOfRecycleBinInstances.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryTheListOfRecycleBinInstances.maxKeys"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryTheListOfRecycleBinInstances.instanceId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryTheListOfRecycleBinInstances.name"
+  }, {
+    "name" : "paymentTiming",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryTheListOfRecycleBinInstances.paymentTiming"
+  }, {
+    "name" : "recycleBegin",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryTheListOfRecycleBinInstances.recycleBegin"
+  }, {
+    "name" : "recycleEnd",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryTheListOfRecycleBinInstances.recycleEnd"
+  } ],
+  "desc_key" : "bcc.QueryTheListOfRecycleBinInstances.desc"
+}

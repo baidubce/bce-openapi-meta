@@ -1,0 +1,44 @@
+{
+  "name" : "QueryTheListOfInstancesThatCanBeShutDownWithoutCharging",
+  "method" : "GET",
+  "uri" : "/v{version}/instance/noCharge",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.QueryTheListOfInstancesThatCanBeShutDownWithoutCharging.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.QueryTheListOfInstancesThatCanBeShutDownWithoutCharging.maxKeys"
+  }, {
+    "name" : "internalIp",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.QueryTheListOfInstancesThatCanBeShutDownWithoutCharging.internalIp"
+  }, {
+    "name" : "keypairId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.QueryTheListOfInstancesThatCanBeShutDownWithoutCharging.keypairId"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.QueryTheListOfInstancesThatCanBeShutDownWithoutCharging.zoneName"
+  } ],
+  "desc_key" : "bcc.QueryTheListOfInstancesThatCanBeShutDownWithoutCharging.desc"
+}

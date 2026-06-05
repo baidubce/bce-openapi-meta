@@ -1,0 +1,10 @@
+{
+  "InstanceChangeVpc" : {
+    "{clientToken}" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见 [幂等性](BCC/API参考/通用说明.md#幂等性)。",
+    "instanceId" : "虚机ID",
+    "subnetId" : "目标VPC的子网ID",
+    "internalIp" : "内网IP",
+    "securityGroupIds" : "安全组列表",
+    "enterpriseSecurityGroupIds" : "企业安全组列表，不能同时指定普通安全组和企业安全组"
+  }
+}

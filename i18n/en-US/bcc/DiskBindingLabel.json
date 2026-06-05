@@ -1,0 +1,10 @@
+{
+  "DiskBindingLabel" : {
+    "volumeId" : "Disk ID",
+    "action" : "Action on the disk; current value: bind",
+    "relationTag" : "Whether to bind tags to associated resources",
+    "changeTags" : "List of tags to bind; see TagModel for data format; non-existing tags will be created automatically",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value"
+  }
+}

@@ -154,5 +154,11 @@
       "su" : "ccr.su.baidubce.com",
       "yq" : "ccr.yq.baidubce.com"
     }
+  }, {
+    "code" : "bcc",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bj" : "bcc.bj.baidubce.com"
+    }
   } ]
 }

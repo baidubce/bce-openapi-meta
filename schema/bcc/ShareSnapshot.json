@@ -1,0 +1,26 @@
+{
+  "name" : "ShareSnapshot",
+  "method" : "POST",
+  "uri" : "/v{version}/snapshot/share",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "snapshotId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ShareSnapshot.snapshotId"
+  }, {
+    "name" : "accountIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ShareSnapshot.accountIds"
+  } ],
+  "desc_key" : "bcc.ShareSnapshot.desc"
+}

@@ -1,0 +1,8 @@
+{
+  "UnbindTheCharacter" : {
+    "action" : "The action to perform on the instance, current value: unbind",
+    "roleName" : "The name of the role to unbind from the instance",
+    "instances" : "List of instance IDs to unbind the role from",
+    "instances.instanceId" : "Instance ID"
+  }
+}

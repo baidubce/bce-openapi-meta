@@ -1,0 +1,5 @@
+{
+  "QueryInstanceCustomData" : {
+    "instanceId" : "The instance ID to query"
+  }
+}

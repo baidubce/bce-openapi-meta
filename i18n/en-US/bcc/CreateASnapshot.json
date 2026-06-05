@@ -1,0 +1,12 @@
+{
+  "CreateASnapshot" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](BCC/API参考/通用说明.md#幂等性).",
+    "volumeId" : "ID of the disk to create a snapshot from; use the instance ID for system disks.",
+    "snapshotName" : "Snapshot name. Supports uppercase/lowercase letters, digits, Chinese characters, and special characters -\\_ /. Must start with a letter. Length: 1–65 characters.",
+    "desc" : "Snapshot description (optional). Supports Chinese characters, letters, digits, and the following characters: . space _ - = , ， ： / 。",
+    "tags" : "Tag bindings for the snapshot.",
+    "tags.tagKey" : "Tag key.",
+    "tags.tagValue" : "Tag value.",
+    "retentionInDays" : "Snapshot retention period in days. Default is -1 (permanent). Valid range: 1–10000."
+  }
+}

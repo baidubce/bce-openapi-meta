@@ -1,0 +1,9 @@
+{
+  "InstanceConfigurationBySpecifyingInstancePackageSpecifications" : {
+    "instanceId" : "Instance ID",
+    "action" : "Operation to perform on the instance. Current valid value: resize",
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters in length. See [link](#{clientToken}Idempotency Support) for details.",
+    "spec" : "Target instance specification",
+    "enableJumboFrame" : "Whether to enable Jumbo Frame for the instance. true: enable, false: disable. Defaults to null. When null: if resizing to a spec that does not support Jumbo Frame, Jumbo Frame is disabled; if resizing from a non-supporting spec to a supporting spec, Jumbo Frame is not enabled; if resizing between two supporting specs, the Jumbo Frame setting is preserved from before the resize."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "StopInstancesBatchStop" : {
+    "action" : "Action to perform on instances; value for this API: stop",
+    "instanceIds" : "Collection of instance IDs; maximum 100 elements",
+    "forceStop" : "Whether to force shutdown; values: true/false; default: false",
+    "stopWithNoCharge" : "Whether to stop without billing; values: true/false; default: false"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "AddInstanceToSecurityGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.AddInstanceToSecurityGroup.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.AddInstanceToSecurityGroup.action"
+  }, {
+    "name" : "securityGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.AddInstanceToSecurityGroup.securityGroupId"
+  } ],
+  "desc_key" : "bcc.AddInstanceToSecurityGroup.desc"
+}

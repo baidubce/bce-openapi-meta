@@ -1,0 +1,44 @@
+{
+  "name" : "InstanceChangeSubnet",
+  "method" : "PUT",
+  "uri" : "/v{version}/subnet/changeSubnet",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceChangeSubnet.instanceId"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceChangeSubnet.subnetId"
+  }, {
+    "name" : "internalIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceChangeSubnet.internalIp"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceChangeSubnet.securityGroupIds"
+  }, {
+    "name" : "enterpriseSecurityGroupIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceChangeSubnet.enterpriseSecurityGroupIds"
+  } ],
+  "desc_key" : "bcc.InstanceChangeSubnet.desc"
+}

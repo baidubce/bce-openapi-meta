@@ -1,0 +1,6 @@
+{
+  "Openapi_instance_startInstance" : {
+    "instanceId" : "The ID of the instance to be started",
+    "start" : "The action to perform on the instance; in this API, the value is: start"
+  }
+}

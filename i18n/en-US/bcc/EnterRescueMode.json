@@ -1,0 +1,8 @@
+{
+  "EnterRescueMode" : {
+    "clientToken" : "Idempotency token, an ASCII string with a maximum length of 64 characters",
+    "instanceId" : "Virtual machine instance ID",
+    "forceStop" : "Force shutdown",
+    "password" : "Virtual machine password"
+  }
+}

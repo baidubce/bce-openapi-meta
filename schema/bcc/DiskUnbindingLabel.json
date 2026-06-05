@@ -1,0 +1,49 @@
+{
+  "name" : "DiskUnbindingLabel",
+  "method" : "PUT",
+  "uri" : "/v{version}/volume/{volumeId}/tag",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.DiskUnbindingLabel.volumeId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.DiskUnbindingLabel.action"
+  }, {
+    "name" : "relationTag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DiskUnbindingLabel.relationTag"
+  }, {
+    "name" : "changeTags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.DiskUnbindingLabel.changeTags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskUnbindingLabel.changeTags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskUnbindingLabel.changeTags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "bcc.DiskUnbindingLabel.desc"
+}

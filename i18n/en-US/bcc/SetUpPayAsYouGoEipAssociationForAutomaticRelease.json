@@ -1,0 +1,6 @@
+{
+  "SetUpPayAsYouGoEipAssociationForAutomaticRelease" : {
+    "instanceId" : "The ID of the instance to be configured",
+    "isEipAutoRelatedDelete" : "Whether the pay-as-you-go EIP bound to the instance is automatically released along with the instance. Yes: true, No: false"
+  }
+}

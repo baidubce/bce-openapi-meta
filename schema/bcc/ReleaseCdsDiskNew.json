@@ -1,0 +1,44 @@
+{
+  "name" : "ReleaseCdsDiskNew",
+  "method" : "POST",
+  "uri" : "/v{version}/volume/{volumeId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ReleaseCdsDiskNew.volumeId"
+  }, {
+    "name" : "autoSnapshot",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseCdsDiskNew.autoSnapshot"
+  }, {
+    "name" : "manualSnapshot",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseCdsDiskNew.manualSnapshot"
+  }, {
+    "name" : "recycle",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseCdsDiskNew.recycle"
+  }, {
+    "name" : "cdsAttributeActive",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseCdsDiskNew.cdsAttributeActive"
+  } ],
+  "desc_key" : "bcc.ReleaseCdsDiskNew.desc"
+}

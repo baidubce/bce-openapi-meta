@@ -1,0 +1,6 @@
+{
+  "CrossRegionalReplicationSnapshot" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等](https://cloud.baidu.com/doc/BCC/s/ojwvynrqn#%E5%B9%82%E7%AD%89%E6%80%A7)。",
+    "snapshotId" : "待复制的快照ID"
+  }
+}

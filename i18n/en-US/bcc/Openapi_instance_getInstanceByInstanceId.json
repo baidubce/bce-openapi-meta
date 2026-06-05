@@ -1,0 +1,5 @@
+{
+  "Openapi_instance_getInstanceByInstanceId" : {
+    "instanceId" : "The ID of the instance to query"
+  }
+}

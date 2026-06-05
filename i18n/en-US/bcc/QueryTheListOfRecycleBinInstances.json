@@ -1,0 +1,12 @@
+{
+  "QueryTheListOfRecycleBinInstances" : {
+    "{clientToken}" : "Idempotency token, an ASCII string of no more than 64 characters. See [Idempotency](BCC/API参考/通用说明.md#幂等性).",
+    "marker" : "The starting position for batch list queries, a system-generated string.",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000. Default value is 1000.",
+    "instanceId" : "Instance ID of the virtual machine.",
+    "name" : "Name of the virtual machine.",
+    "paymentTiming" : "Payment method, including Prepaid (monthly/yearly subscription) and Postpaid (pay-as-you-go).",
+    "recycleBegin" : "Query instances whose recycle bin entry time is greater than or equal to this start time. Format: yyyy-MM-ddTHH:mm:ssZ.",
+    "recycleEnd" : "Query instances whose recycle bin entry time is less than or equal to this end time. Format: yyyy-MM-ddTHH:mm:ssZ."
+  }
+}

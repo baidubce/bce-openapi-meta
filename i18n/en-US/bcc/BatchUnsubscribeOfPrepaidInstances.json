@@ -1,0 +1,8 @@
+{
+  "BatchUnsubscribeOfPrepaidInstances" : {
+    "instanceIds" : "List of instance IDs; up to 20 instances are supported per operation.",
+    "relatedReleaseFlag" : "Whether to release the EIP and data disks attached to the instance at the time of release. Default: false (not released). **Note**: Prepaid CDS disks associated with the instance will be forcibly released together with the instance.",
+    "deleteCdsSnapshotFlag" : "Whether to release cloud disk snapshots. Default: false (not released).",
+    "deleteRelatedEnisFlag" : "Whether to delete associated ENIs when the instance is released. Default: false (not deleted)."
+  }
+}

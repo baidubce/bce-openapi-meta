@@ -1,0 +1,38 @@
+{
+  "name" : "StopInstance",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.StopInstance.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.StopInstance.action"
+  }, {
+    "name" : "forceStop",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.StopInstance.forceStop"
+  }, {
+    "name" : "stopWithNoCharge",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.StopInstance.stopWithNoCharge"
+  } ],
+  "desc_key" : "bcc.StopInstance.desc"
+}

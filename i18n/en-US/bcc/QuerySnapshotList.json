@@ -1,0 +1,7 @@
+{
+  "QuerySnapshotList" : {
+    "marker" : "The starting position for batch list queries, which is a system-generated string.",
+    "maxKeys" : "The maximum number of items per page, typically not exceeding 1000. Default value is 1000.",
+    "volumeId" : "Filter by disk ID; for system disks, use the instance ID."
+  }
+}

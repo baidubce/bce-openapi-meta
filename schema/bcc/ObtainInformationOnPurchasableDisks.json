@@ -1,0 +1,26 @@
+{
+  "name" : "ObtainInformationOnPurchasableDisks",
+  "method" : "GET",
+  "uri" : "/v{version}/volume/disk",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ObtainInformationOnPurchasableDisks.clientToken"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ObtainInformationOnPurchasableDisks.zoneName"
+  } ],
+  "desc_key" : "bcc.ObtainInformationOnPurchasableDisks.desc"
+}

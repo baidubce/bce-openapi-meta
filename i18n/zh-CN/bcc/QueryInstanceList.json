@@ -1,0 +1,22 @@
+{
+  "QueryInstanceList" : {
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量通常不超过1000，缺省值为1000",
+    "internalIp" : "内网IP",
+    "dedicatedHostId" : "专属服务器ID",
+    "zoneName" : "可用区信息",
+    "instanceIds" : "多个实例ID，英文逗号分割，最多支持100个",
+    "volumeIds" : "多个磁盘ID，英文逗号分割，最多支持100个",
+    "instanceNames" : "多个实例名称，英文逗号分割，精确搜索。最多支持100个",
+    "fuzzyInstanceName" : "实例的名称，支持关键字模糊查询。与instanceNames参数只能2选1，不能同时传值，否则报错。",
+    "deploySetIds" : "多个部署集ID，英文逗号分割，最多支持100个",
+    "securityGroupIds" : "多个安全组ID，英文逗号分割，最多支持100个",
+    "paymentTiming" : "支付方式（Prepaid / Postpaid）",
+    "status" : "实例状态（Recycled / Running / Stopped / Stopping / Starting）",
+    "tags" : "多个标签，逗号分割，格式：tagKey:tagValue 或 tagKey",
+    "vpcId" : "vpcId，只能与privateIps查询参数组合使用",
+    "privateIps" : "多个内网IP，英文逗号分隔，最多支持100个，必须和vpcId组合使用",
+    "ehcClusterId" : "ehc集群id",
+    "autoRenew" : "是否自动续费"
+  }
+}

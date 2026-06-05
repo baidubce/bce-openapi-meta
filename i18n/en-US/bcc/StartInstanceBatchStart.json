@@ -1,0 +1,6 @@
+{
+  "StartInstanceBatchStart" : {
+    "action" : "The action to perform on instances; for this API, the value is: start",
+    "instanceIds" : "A collection of instance IDs, with no more than 100 elements in the collection"
+  }
+}

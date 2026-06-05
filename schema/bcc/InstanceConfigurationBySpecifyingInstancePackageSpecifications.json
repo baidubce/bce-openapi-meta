@@ -1,0 +1,44 @@
+{
+  "name" : "InstanceConfigurationBySpecifyingInstancePackageSpecifications",
+  "method" : "PUT",
+  "uri" : "/v{version}/instanceBySpec/{instanceId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.InstanceConfigurationBySpecifyingInstancePackageSpecifications.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.InstanceConfigurationBySpecifyingInstancePackageSpecifications.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.InstanceConfigurationBySpecifyingInstancePackageSpecifications.clientToken"
+  }, {
+    "name" : "spec",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceConfigurationBySpecifyingInstancePackageSpecifications.spec"
+  }, {
+    "name" : "enableJumboFrame",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceConfigurationBySpecifyingInstancePackageSpecifications.enableJumboFrame"
+  } ],
+  "desc_key" : "bcc.InstanceConfigurationBySpecifyingInstancePackageSpecifications.desc"
+}

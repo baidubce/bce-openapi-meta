@@ -1,0 +1,8 @@
+{
+  "UnbindTheCharacter" : {
+    "action" : "对实例执行的操作，当前取值：unbind",
+    "roleName" : "实例解绑的角色名称",
+    "instances" : "要解绑角色的实例id列表",
+    "instances.instanceId" : "实例ID"
+  }
+}

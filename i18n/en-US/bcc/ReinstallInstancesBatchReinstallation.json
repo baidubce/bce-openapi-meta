@@ -1,0 +1,17 @@
+{
+  "ReinstallInstancesBatchReinstallation" : {
+    "instanceIds" : "List of specified instance IDs, up to 100",
+    "imageId" : "The ID of the image to be used",
+    "adminPass" : "Instance password (must be encrypted for transmission, see Password Encryption Specification); either adminPass or keypairId is required",
+    "keypairId" : "ID of the key pair to bind to the reinstalled instance; either adminPass or keypairId is required",
+    "cleanLastUserData" : "Whether to clear the current custom scripts (including GPU drivers and CFS file systems); default is false",
+    "userData" : "Custom script for reinstallation; if not specified, the current custom scripts (including GPU drivers and CFS file systems) are used",
+    "keepImageLogin" : "Whether to use the preset password in the image; default is false. true: use the preset password in the image; false: do not use it. 1. If set to true, password and keypairId must be empty. 2. Only supported for custom images or shared images.",
+    "isOpenHostEye" : "Whether to enable host security; default is true",
+    "sysRootSize" : "System disk size; only applies to EBC instances",
+    "isPreserveData" : "Whether to preserve data during reinstallation; only applies to local disks of EBC instances. When set to true, raidId and sysRootSize fields are ignored",
+    "raidId" : "RAID configuration ID; only applies to EBC instances. Required when isPreserveData is false; ignored when isPreserveData is true",
+    "dataPartitionType" : "Data disk partition format; only applies to EBC instances",
+    "rootPartitionType" : "System disk partition format; only applies to EBC instances"
+  }
+}

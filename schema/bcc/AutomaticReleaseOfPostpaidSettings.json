@@ -1,0 +1,44 @@
+{
+  "name" : "AutomaticReleaseOfPostpaidSettings",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.AutomaticReleaseOfPostpaidSettings.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.AutomaticReleaseOfPostpaidSettings.action"
+  }, {
+    "name" : "{clientToken}",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.AutomaticReleaseOfPostpaidSettings.{clientToken}"
+  }, {
+    "name" : "isEipAutoRelatedDelete",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AutomaticReleaseOfPostpaidSettings.isEipAutoRelatedDelete"
+  }, {
+    "name" : "releaseTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AutomaticReleaseOfPostpaidSettings.releaseTime"
+  } ],
+  "desc_key" : "bcc.AutomaticReleaseOfPostpaidSettings.desc"
+}

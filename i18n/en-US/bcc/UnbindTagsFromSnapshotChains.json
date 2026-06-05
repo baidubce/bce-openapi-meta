@@ -1,0 +1,9 @@
+{
+  "UnbindTagsFromSnapshotChains" : {
+    "chainId" : "Snapshot chain ID",
+    "action" : "Operation to perform on the snapshot chain; currently supported value: unbind",
+    "changeTags" : "List of tags to unbind; see [TagModel](BCC/API参考/附录.md#TagModel) for data format details",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "BatchIncreasePrimaryNetworkCardAndAuxiliaryIp" : {
+    "{clientToken}" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见 [幂等性](BCC/API参考/通用说明.md#幂等性)。",
+    "instanceId" : "虚机ID",
+    "secondaryPrivateIpAddressCount" : "需要增加IPV6/IPV4的数量，与privateIps必须存在一个",
+    "privateIps" : "需要增加的IPV6/IPV4地址，与secondaryPrivateIpAddressCount必须存在一个",
+    "allocateMultiIpv6Addr" : "是否分配IPV6，创建IPV6必须是true"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "StopInstance" : {
+    "instanceId" : "ID of the instance to stop",
+    "action" : "Action to perform on the instance; value for this API: stop",
+    "forceStop" : "Whether to force shutdown the instance; values: true, false; default: false",
+    "stopWithNoCharge" : "Whether to stop the instance without billing; values: true, false; default: false"
+  }
+}

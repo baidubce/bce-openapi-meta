@@ -1,0 +1,44 @@
+{
+  "name" : "QuerySnapshotChainList",
+  "method" : "GET",
+  "uri" : "/v{version}/snapshot/chain",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.QuerySnapshotChainList.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.QuerySnapshotChainList.order"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.QuerySnapshotChainList.pageSize"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.QuerySnapshotChainList.pageNo"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.QuerySnapshotChainList.volumeId"
+  } ],
+  "desc_key" : "bcc.QuerySnapshotChainList.desc"
+}

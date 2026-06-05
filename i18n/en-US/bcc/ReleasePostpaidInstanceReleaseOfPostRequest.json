@@ -1,0 +1,10 @@
+{
+  "ReleasePostpaidInstanceReleaseOfPostRequest" : {
+    "instanceId" : "Instance ID",
+    "relatedReleaseFlag" : "Whether to release all pay-as-you-go EIPs (EIPs in shared bandwidth will be automatically unbound) and pay-as-you-go CDS data disks attached to the instance at release time. When set to true and cdsAttributeActive is true, only data disks with the associated release attribute will be released; when cdsAttributeActive is false, all disks will be released.",
+    "deleteCdsSnapshotFlag" : "Whether to delete all snapshots of a CDS when it is released. When cdsAttributeActive is true, this field has no effect; whether automatic snapshots are released is determined solely by the associated release attribute, and manual snapshots are retained by default.",
+    "deleteRelatedEnisFlag" : "Whether to delete associated ENIs when the instance is released.",
+    "bccRecycleFlag" : "Whether to move the instance to the recycle bin upon release.",
+    "cdsAttributeActive" : "Whether to release resources according to each disk's associated release attribute. Defaults to false. When set to true, resource release is determined by the associated release attribute configured on each disk, taking precedence over relatedReleaseFlag and deleteCdsSnapshotFlag."
+  }
+}

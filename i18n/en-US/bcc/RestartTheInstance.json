@@ -1,0 +1,7 @@
+{
+  "RestartTheInstance" : {
+    "instanceId" : "The instance ID of the instance to be restarted",
+    "action" : "The action to perform on the instance; for this API, the value is: reboot",
+    "forceStop" : "Whether to forcibly stop the instance; valid values are true, false; defaults to false"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name" : "InstanceChangeVpc",
+  "method" : "PUT",
+  "uri" : "/v{version}/vpc/changeVpc",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "{clientToken}",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.InstanceChangeVpc.{clientToken}"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceChangeVpc.instanceId"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceChangeVpc.subnetId"
+  }, {
+    "name" : "internalIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceChangeVpc.internalIp"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceChangeVpc.securityGroupIds"
+  }, {
+    "name" : "enterpriseSecurityGroupIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceChangeVpc.enterpriseSecurityGroupIds"
+  } ],
+  "desc_key" : "bcc.InstanceChangeVpc.desc"
+}

@@ -1,0 +1,10 @@
+{
+  "DiskBindingLabel" : {
+    "volumeId" : "磁盘ID",
+    "action" : "对磁盘的执行动作，当前取值：bind",
+    "relationTag" : "是否给关联资源绑定标签",
+    "changeTags" : "待绑定的标签列表，具体数据格式参见下述[TagModel](BCC/API参考/附录.md#TagModel),绑定的标签如果之前不存在，将自动创建该标签",
+    "changeTags.tagKey" : "标签键",
+    "changeTags.tagValue" : "标签值"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "DiskUnbindingLabel" : {
+    "volumeId" : "磁盘ID",
+    "action" : "对磁盘的执行动作，当前取值：unbind",
+    "relationTag" : "是否给关联资源解绑标签",
+    "changeTags" : "待解绑的标签列表，具体数据格式参见下述[TagModel](BCC/API参考/附录.md#TagModel)",
+    "changeTags.tagKey" : "标签键",
+    "changeTags.tagValue" : "标签值"
+  }
+}

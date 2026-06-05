@@ -1,0 +1,7 @@
+{
+  "ReleaseIpv6" : {
+    "instanceId" : "实例id",
+    "ipv6Address" : "需要释放的ipv6地址",
+    "reboot" : "是否重启，true表示重启，为空表示不重启。默认不重启false。"
+  }
+}

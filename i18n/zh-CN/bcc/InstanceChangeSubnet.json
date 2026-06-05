@@ -1,0 +1,9 @@
+{
+  "InstanceChangeSubnet" : {
+    "instanceId" : "虚拟机实例ID",
+    "subnetId" : "变更后的子网ID",
+    "internalIp" : "指定内网IP，不指定则随机生成",
+    "securityGroupIds" : "变更普通安全组，跨VPC变更子网时生效，不支持和企业安全组同时修改",
+    "enterpriseSecurityGroupIds" : "变更企业安全组，跨VPC变更子网时生效，不支持和安全组同时修改"
+  }
+}

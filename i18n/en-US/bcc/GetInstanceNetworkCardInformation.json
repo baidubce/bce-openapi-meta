@@ -1,0 +1,6 @@
+{
+  "GetInstanceNetworkCardInformation" : {
+    "{clientToken}" : "Idempotency token, an ASCII string with a maximum length of 64 characters. See [Idempotency](BCC/API参考/通用说明.md#幂等性).",
+    "instanceId" : "The ID of the instance to which the network card is attached."
+  }
+}

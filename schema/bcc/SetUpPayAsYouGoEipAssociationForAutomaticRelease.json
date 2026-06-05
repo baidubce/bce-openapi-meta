@@ -1,0 +1,26 @@
+{
+  "name" : "SetUpPayAsYouGoEipAssociationForAutomaticRelease",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}/modifyRelatedDeletePolicy",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.SetUpPayAsYouGoEipAssociationForAutomaticRelease.instanceId"
+  }, {
+    "name" : "isEipAutoRelatedDelete",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.SetUpPayAsYouGoEipAssociationForAutomaticRelease.isEipAutoRelatedDelete"
+  } ],
+  "desc_key" : "bcc.SetUpPayAsYouGoEipAssociationForAutomaticRelease.desc"
+}

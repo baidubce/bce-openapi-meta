@@ -1,0 +1,9 @@
+{
+  "SnapshotChainBindingLabel" : {
+    "chainId" : "快照链ID",
+    "action" : "对快照链执行的操作，当前取值：bind",
+    "changeTags" : "待解绑的标签列表，具体数据格式参见下述[TagModel](BCC/API参考/附录.md#TagModel)",
+    "changeTags.tagKey" : "标签键",
+    "changeTags.tagValue" : "标签值"
+  }
+}

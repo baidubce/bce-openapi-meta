@@ -1,0 +1,10 @@
+{
+  "ModifyInstanceHostname" : {
+    "instanceId" : "The specified instance ID",
+    "action" : "Action to perform on the instance; current value: changeHostname",
+    "hostname" : "Instance hostname",
+    "isOpenHostnameDomain" : "Whether to enable hostname domain; true: yes, false: no; default false",
+    "reboot" : "Whether to auto-reboot; default false",
+    "isAllowHostnameRepeat" : "Whether duplicate hostnames are allowed; true: yes, false: no; default false"
+  }
+}

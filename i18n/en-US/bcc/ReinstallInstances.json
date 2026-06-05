@@ -1,0 +1,18 @@
+{
+  "ReinstallInstances" : {
+    "instanceId" : "The specified instance ID",
+    "action" : "Action to perform on the instance; current value: rebuild",
+    "imageId" : "The image ID to use",
+    "adminPass" : "Instance password (must be encrypted per [Password Encryption Spec](BCC/API参考/通用说明.md#密码加密传输规范)); either adminPass or keypairId is required",
+    "keypairId" : "Key pair ID to bind to the reinstalled instance; either adminPass or keypairId is required",
+    "keepImageLogin" : "Whether to use the image preset password; default: false. true: use image preset password; false: do not use it.<br>1. If true, password and keypairId must be empty.<br>2. Only supported for custom or shared images.",
+    "userData" : "Custom script for the reinstalled instance",
+    "cleanLastUserData" : "Clear historical userData; default false (i.e., retain historical userData including GPU drivers and CFS filesystem)",
+    "isOpenHostEye" : "Whether to enable host security; default true",
+    "sysRootSize" : "System disk size; applies to EBC instances only",
+    "isPreserveData" : "Applies to EBC instance local disks only. Whether to preserve data during reinstallation; when true, raidId and sysRootSize are ignored",
+    "raidId" : "RAID configuration ID; applies to EBC instances only. Required when isPreserveData is false; ignored when isPreserveData is true",
+    "dataPartitionType" : "Data disk partition format; applies to EBC instances only",
+    "rootPartitionType" : "System disk partition format; applies to EBC instances only"
+  }
+}

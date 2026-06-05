@@ -1,0 +1,6 @@
+{
+  "DeleteTheRelationshipBetweenInstancesAndDeploymentSets" : {
+    "deployId" : "Deployment set ID",
+    "instanceIdList" : "Array of instance IDs"
+  }
+}

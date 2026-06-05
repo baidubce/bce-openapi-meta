@@ -1,0 +1,14 @@
+{
+  "name" : "RetrieveTheListOfInstanceRoles",
+  "method" : "GET",
+  "uri" : "/v{version}/instance/role/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "bcc.RetrieveTheListOfInstanceRoles.desc"
+}

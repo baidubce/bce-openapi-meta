@@ -1,0 +1,57 @@
+{
+  "name" : "BatchConversionOfAnnualAndMonthlyPackages",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/batch/charging",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.BatchConversionOfAnnualAndMonthlyPackages.action"
+  }, {
+    "name" : "config",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchConversionOfAnnualAndMonthlyPackages.config",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.BatchConversionOfAnnualAndMonthlyPackages.config.instanceId"
+    }, {
+      "name" : "duration",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.BatchConversionOfAnnualAndMonthlyPackages.config.duration"
+    }, {
+      "name" : "cdsList",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcc.BatchConversionOfAnnualAndMonthlyPackages.config.cdsList"
+    }, {
+      "name" : "autoRenew",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bcc.BatchConversionOfAnnualAndMonthlyPackages.config.autoRenew"
+    }, {
+      "name" : "autoRenewPeriod",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.BatchConversionOfAnnualAndMonthlyPackages.config.autoRenewPeriod"
+    }, {
+      "name" : "autoPay",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bcc.BatchConversionOfAnnualAndMonthlyPackages.config.autoPay"
+    } ]
+  } ],
+  "desc_key" : "bcc.BatchConversionOfAnnualAndMonthlyPackages.desc"
+}

@@ -1,0 +1,10 @@
+{
+  "InstanceBindingLabel" : {
+    "instanceId" : "Virtual machine instance ID",
+    "action" : "Operation to perform on the instance; current value: bind",
+    "attachRelatedResourceTag" : "Whether to also bind tags to associated resources (CDS system disk, data disk, EIP, snapshot, snapshot chain). true: bind together; false: do not bind together. Defaults to false if not specified",
+    "changeTags" : "List of tags to unbind; see TagModel for data format",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value"
+  }
+}

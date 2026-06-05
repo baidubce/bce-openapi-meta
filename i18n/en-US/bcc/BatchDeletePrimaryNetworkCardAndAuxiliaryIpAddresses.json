@@ -1,0 +1,7 @@
+{
+  "BatchDeletePrimaryNetworkCardAndAuxiliaryIpAddresses" : {
+    "{clientToken}" : "Idempotency token, an ASCII string with a maximum length of 64 characters. See [Idempotency](BCC/API参考/通用说明.md#幂等性).",
+    "instanceId" : "The ID of the virtual machine instance.",
+    "privateIps" : "The list of IPv4/IPv6 addresses to be deleted."
+  }
+}

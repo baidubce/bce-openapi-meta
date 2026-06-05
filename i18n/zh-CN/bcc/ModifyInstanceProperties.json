@@ -1,0 +1,9 @@
+{
+  "ModifyInstanceProperties" : {
+    "instanceId" : "指定的实例ID",
+    "action" : "对实例执行的动作，当前取值：modifyAttribute。",
+    "name" : "实例名称，支持大小写字母、数字</br>以及`-_ /`.特殊字符，必须以字母开头，长度`1-65`个字符。",
+    "netEthQueueCount" : "修改后的网卡队列数",
+    "enableJumboFrame" : "是否开启Jumbo帧，开启:true，关闭:false。注意:只有支持Jumbo帧的套餐才能开启"
+  }
+}

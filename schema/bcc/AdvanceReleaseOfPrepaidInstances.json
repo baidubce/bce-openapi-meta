@@ -1,0 +1,38 @@
+{
+  "name" : "AdvanceReleaseOfPrepaidInstances",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/delete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.AdvanceReleaseOfPrepaidInstances.instanceId"
+  }, {
+    "name" : "relatedReleaseFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AdvanceReleaseOfPrepaidInstances.relatedReleaseFlag"
+  }, {
+    "name" : "deleteCdsSnapshotFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AdvanceReleaseOfPrepaidInstances.deleteCdsSnapshotFlag"
+  }, {
+    "name" : "deleteRelatedEnisFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AdvanceReleaseOfPrepaidInstances.deleteRelatedEnisFlag"
+  } ],
+  "desc_key" : "bcc.AdvanceReleaseOfPrepaidInstances.desc"
+}

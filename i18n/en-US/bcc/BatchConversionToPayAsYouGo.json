@@ -1,0 +1,9 @@
+{
+  "BatchConversionToPayAsYouGo" : {
+    "action" : "The action to perform on instances; current valid value: toPostpay",
+    "config" : "Configuration for batch conversion to pay-as-you-go instances; supports up to 20 entries",
+    "config.instanceId" : "Instance ID",
+    "config.cdsList" : "(Deprecated. Subscription CDS data disks attached to BCC must be converted to pay-as-you-go together.) List of associated data disks to convert; defaults to empty; \"all\" indicates all associated data disks (e.g., \"cdsList\":[\"all\"]); pass specific disk IDs to convert only selected disks",
+    "config.effectiveType" : "Effective timing for the conversion; valid values: AtOnce (convert immediately), AfterExpiration (convert after expiration); defaults to AfterExpiration if not specified; all instances in a batch operation must use the same value"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name" : "BillingChangeMonthlyPackageTransfer",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/{instanceId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.BillingChangeMonthlyPackageTransfer.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.BillingChangeMonthlyPackageTransfer.action"
+  }, {
+    "name" : "duration",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BillingChangeMonthlyPackageTransfer.duration"
+  }, {
+    "name" : "relationCds",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BillingChangeMonthlyPackageTransfer.relationCds"
+  }, {
+    "name" : "autoRenew",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BillingChangeMonthlyPackageTransfer.autoRenew"
+  }, {
+    "name" : "autoRenewPeriod",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BillingChangeMonthlyPackageTransfer.autoRenewPeriod"
+  } ],
+  "desc_key" : "bcc.BillingChangeMonthlyPackageTransfer.desc"
+}

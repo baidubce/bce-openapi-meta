@@ -1,0 +1,38 @@
+{
+  "name" : "BatchUnsubscribeOfPrepaidInstances",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/batchRefundResource",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchUnsubscribeOfPrepaidInstances.instanceIds"
+  }, {
+    "name" : "relatedReleaseFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchUnsubscribeOfPrepaidInstances.relatedReleaseFlag"
+  }, {
+    "name" : "deleteCdsSnapshotFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchUnsubscribeOfPrepaidInstances.deleteCdsSnapshotFlag"
+  }, {
+    "name" : "deleteRelatedEnisFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchUnsubscribeOfPrepaidInstances.deleteRelatedEnisFlag"
+  } ],
+  "desc_key" : "bcc.BatchUnsubscribeOfPrepaidInstances.desc"
+}

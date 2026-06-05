@@ -1,0 +1,129 @@
+{
+  "name" : "Openapi_instance_listInstances",
+  "method" : "GET",
+  "uri" : "/v{version}/instance",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.maxKeys"
+  }, {
+    "name" : "internalIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.internalIp"
+  }, {
+    "name" : "dedicatedHostId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.dedicatedHostId"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.zoneName"
+  }, {
+    "name" : "showRdmaTopo",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.showRdmaTopo"
+  }, {
+    "name" : "instanceIds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.instanceIds"
+  }, {
+    "name" : "instanceNames",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.instanceNames"
+  }, {
+    "name" : "fuzzyInstanceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.fuzzyInstanceName"
+  }, {
+    "name" : "volumeIds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.volumeIds"
+  }, {
+    "name" : "deploySetIds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.deploySetIds"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.securityGroupIds"
+  }, {
+    "name" : "paymentTiming",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.paymentTiming"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.status"
+  }, {
+    "name" : "tags",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.tags"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.vpcId"
+  }, {
+    "name" : "privateIps",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.privateIps"
+  }, {
+    "name" : "ehcClusterId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.Openapi_instance_listInstances.ehcClusterId"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "instances"
+  },
+  "desc_key" : "bcc.Openapi_instance_listInstances.desc"
+}

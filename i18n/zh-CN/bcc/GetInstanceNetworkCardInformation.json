@@ -1,0 +1,6 @@
+{
+  "GetInstanceNetworkCardInformation" : {
+    "{clientToken}" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见 [幂等性](BCC/API参考/通用说明.md#幂等性)。",
+    "instanceId" : "网卡挂载的虚机ID"
+  }
+}
