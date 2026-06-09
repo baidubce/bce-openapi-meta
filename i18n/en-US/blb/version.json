@@ -135,6 +135,14 @@
       "title" : "describeLbdc",
       "summary" : "describeLbdc"
     },
+    "CreateAppBlb" : {
+      "title" : "createAppBlb",
+      "summary" : "createAppBlb"
+    },
+    "DescribeAppBlbs" : {
+      "title" : "describeAppBlbs",
+      "summary" : "describeAppBlbs"
+    },
     "CreateService" : {
       "title" : "createService",
       "summary" : "createService"
@@ -142,10 +150,6 @@
     "DescribeBlb" : {
       "title" : "describeBlb",
       "summary" : "describeBlb"
-    },
-    "DescribeAppBlbs" : {
-      "title" : "describeAppBlbs",
-      "summary" : "describeAppBlbs"
     },
     "CreateBlbTcpListener" : {
       "title" : "createBlbTcpListener",
@@ -219,17 +223,9 @@
       "title" : "describeAppBlbIpGroupMember",
       "summary" : "describeAppBlbIpGroupMember"
     },
-    "DescribeAppBlbServerGroupUnmountRs" : {
-      "title" : "describeAppBlbServerGroupUnmountRs",
-      "summary" : "describeAppBlbServerGroupUnmountRs"
-    },
     "DescribeAppBlbPolicy" : {
       "title" : "describeAppBlbPolicy",
       "summary" : "describeAppBlbPolicy"
-    },
-    "DescribeAppBlbServerGroupMountRs" : {
-      "title" : "describeAppBlbServerGroupMountRs",
-      "summary" : "describeAppBlbServerGroupMountRs"
     },
     "DescribeBlbSecurityGroups" : {
       "title" : "describeBlbSecurityGroups",
@@ -242,10 +238,6 @@
     "DescribeLbdcs" : {
       "title" : "describeLbdcs",
       "summary" : "describeLbdcs"
-    },
-    "CreateAppBlb" : {
-      "title" : "createAppBlb",
-      "summary" : "createAppBlb"
     },
     "DescribeLbdcBlb" : {
       "title" : "describeLbdcBlb",
@@ -310,6 +302,10 @@
     "CreateAppBlbPolicy" : {
       "title" : "createAppBlbPolicy",
       "summary" : "createAppBlbPolicy"
+    },
+    "DescribeAppBlbServerGroupUnmountRs" : {
+      "title" : "describeAppBlbServerGroupUnmountRs",
+      "summary" : "describeAppBlbServerGroupUnmountRs"
     },
     "UpdateAppBlbServerGroupRs" : {
       "title" : "updateAppBlbServerGroupRs",
@@ -418,6 +414,10 @@
     "DeleteAppBlbServerGroupRs" : {
       "title" : "deleteAppBlbServerGroupRs",
       "summary" : "deleteAppBlbServerGroupRs"
+    },
+    "DescribeAppBlbServerGroupMountRs" : {
+      "title" : "describeAppBlbServerGroupMountRs",
+      "summary" : "describeAppBlbServerGroupMountRs"
     },
     "DescribeAppBlbServerGroupRs" : {
       "title" : "describeAppBlbServerGroupRs",

@@ -6,6 +6,7 @@
     "bccId" : "Query LoadBalancers bound to the specified BCC instance (exact match only)",
     "exactlyMatch" : "If true, query conditions use exact matching; otherwise fuzzy matching is applied. Default is false",
     "marker" : "The starting position for paginated list retrieval, a system-generated string",
-    "maxKeys" : "The maximum number of items per page, up to 1000. Default is 1000"
+    "maxKeys" : "The maximum number of items per page, up to 1000. Default is 1000",
+    "type" : "Specifies the type of load balancer instance. Defaults to application type if not provided; pass \"ipv6Application\" to query IPv6 application-type BLB."
   }
 }

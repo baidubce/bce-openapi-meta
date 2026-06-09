@@ -135,6 +135,14 @@
       "title" : "查询集群详情",
       "summary" : "查询集群详情"
     },
+    "CreateAppBlb" : {
+      "title" : "创建实例",
+      "summary" : "创建实例"
+    },
+    "DescribeAppBlbs" : {
+      "title" : "查询实例",
+      "summary" : "查询实例"
+    },
     "CreateService" : {
       "title" : "创建服务发布点",
       "summary" : "创建服务发布点"
@@ -142,10 +150,6 @@
     "DescribeBlb" : {
       "title" : "查询实例详情",
       "summary" : "查询实例详情"
-    },
-    "DescribeAppBlbs" : {
-      "title" : "查询实例",
-      "summary" : "查询实例"
     },
     "CreateBlbTcpListener" : {
       "title" : "创建TCP监听器",
@@ -219,17 +223,9 @@
       "title" : "查询IP组成员",
       "summary" : "查询IP组成员"
     },
-    "DescribeAppBlbServerGroupUnmountRs" : {
-      "title" : "查询可添加的服务器",
-      "summary" : "查询可添加的服务器"
-    },
     "DescribeAppBlbPolicy" : {
       "title" : "查询转发策略",
       "summary" : "查询转发策略"
-    },
-    "DescribeAppBlbServerGroupMountRs" : {
-      "title" : "查询已添加的所有服务器",
-      "summary" : "查询已添加的所有服务器"
     },
     "DescribeBlbSecurityGroups" : {
       "title" : "查询普通安全组",
@@ -242,10 +238,6 @@
     "DescribeLbdcs" : {
       "title" : "查询集群列表",
       "summary" : "查询集群列表"
-    },
-    "CreateAppBlb" : {
-      "title" : "创建实例",
-      "summary" : "创建实例"
     },
     "DescribeLbdcBlb" : {
       "title" : "查询集群下的BLB实例",
@@ -310,6 +302,10 @@
     "CreateAppBlbPolicy" : {
       "title" : "创建策略",
       "summary" : "创建策略"
+    },
+    "DescribeAppBlbServerGroupUnmountRs" : {
+      "title" : "查询可添加的服务器",
+      "summary" : "查询可添加的服务器"
     },
     "UpdateAppBlbServerGroupRs" : {
       "title" : "修改后端服务器",
@@ -418,6 +414,10 @@
     "DeleteAppBlbServerGroupRs" : {
       "title" : "移除后端服务器",
       "summary" : "移除后端服务器"
+    },
+    "DescribeAppBlbServerGroupMountRs" : {
+      "title" : "查询已添加的所有服务器",
+      "summary" : "查询已添加的所有服务器"
     },
     "DescribeAppBlbServerGroupRs" : {
       "title" : "查询已添加的服务器",

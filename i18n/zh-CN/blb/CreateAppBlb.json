@@ -2,7 +2,7 @@
   "CreateAppBlb" : {
     "clientToken" : "幂等性Token，长度不超过64位",
     "name" : "LoadBalancer的名称，方便记忆。长度1~65个字节，字母开头，可包含字母数字-\\_/.字符。若不传该参数，会自动生成",
-    "type" : "LoaBalancer的类型，此处取值\"application\"(默认)",
+    "type" : "指定负载均衡实例的类型，不传默认为应用型，传\"ipv6Application\"代表创建ipv6类型的应用型BLB。",
     "desc" : "LoadBalancer实例的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文。默认为空",
     "subnetId" : "LoadBalancer实例所属子网",
     "vpcId" : "LoadBalancer实例vip所属VPC的vpcShortId",

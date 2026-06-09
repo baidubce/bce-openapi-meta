@@ -51,6 +51,12 @@
     "required" : false,
     "position" : "QUERY",
     "desc_key" : "blb.DescribeAppBlbs.maxKeys"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DescribeAppBlbs.type"
   } ],
   "paginator" : {
     "input_token" : "marker",
