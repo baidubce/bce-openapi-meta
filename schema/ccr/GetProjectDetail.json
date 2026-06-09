@@ -1,0 +1,19 @@
+{
+  "name" : "GetProjectDetail",
+  "method" : "GET",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetProjectDetail.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.GetProjectDetail.projectName"
+  } ],
+  "desc_key" : "ccr.GetProjectDetail.desc"
+}

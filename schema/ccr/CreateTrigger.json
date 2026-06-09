@@ -56,7 +56,7 @@
       "desc_key" : "ccr.CreateTrigger.targets.address"
     }, {
       "name" : "headers",
-      "type" : "String",
+      "type" : "Object",
       "required" : false,
       "desc_key" : "ccr.CreateTrigger.targets.headers"
     } ]

@@ -1,0 +1,25 @@
+{
+  "name" : "CreateProject",
+  "method" : "POST",
+  "uri" : "/v1/instances/{instanceId}/projects",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.CreateProject.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateProject.projectName"
+  }, {
+    "name" : "public",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.CreateProject.public"
+  } ],
+  "desc_key" : "ccr.CreateProject.desc"
+}

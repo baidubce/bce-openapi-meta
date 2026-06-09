@@ -1,0 +1,6 @@
+{
+  "GetProjectDetail" : {
+    "instanceId" : "实例ID",
+    "projectName" : "命名空间名称"
+  }
+}

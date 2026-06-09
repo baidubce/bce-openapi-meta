@@ -31,10 +31,6 @@
       "title" : "addPublicNetworkWhitelist",
       "summary" : "addPublicNetworkWhitelist"
     },
-    "GetTagDetail" : {
-      "title" : "getTagDetail",
-      "summary" : "getTagDetail"
-    },
     "ToggleTrigger" : {
       "title" : "toggleTrigger",
       "summary" : "toggleTrigger"
@@ -47,13 +43,17 @@
       "title" : "deletePublicNetworkWhitelist",
       "summary" : "deletePublicNetworkWhitelist"
     },
-    "CreateTrigger" : {
-      "title" : "createTrigger",
-      "summary" : "createTrigger"
+    "CreateProject" : {
+      "title" : "createProject",
+      "summary" : "createProject"
     },
     "ListVpcLinks" : {
       "title" : "listVpcLinks",
       "summary" : "listVpcLinks"
+    },
+    "GetProjectDetail" : {
+      "title" : "getProjectDetail",
+      "summary" : "getProjectDetail"
     },
     "DeleteProject" : {
       "title" : "deleteProject",
@@ -83,13 +83,29 @@
       "title" : "createImageMigrationRule",
       "summary" : "createImageMigrationRule"
     },
+    "CreateTrigger" : {
+      "title" : "createTrigger",
+      "summary" : "createTrigger"
+    },
+    "UpdateTrigger" : {
+      "title" : "updateTrigger",
+      "summary" : "updateTrigger"
+    },
     "DeleteRobotAccount" : {
       "title" : "deleteRobotAccount",
       "summary" : "deleteRobotAccount"
     },
+    "GetTriggerDetail" : {
+      "title" : "getTriggerDetail",
+      "summary" : "getTriggerDetail"
+    },
     "RefreshRobotAccountKey" : {
       "title" : "refreshRobotAccountKey",
       "summary" : "refreshRobotAccountKey"
+    },
+    "ListTriggers" : {
+      "title" : "listTriggers",
+      "summary" : "listTriggers"
     },
     "StopImageMigration" : {
       "title" : "stopImageMigration",
@@ -107,9 +123,17 @@
       "title" : "getImageMigrationTaskLogs",
       "summary" : "getImageMigrationTaskLogs"
     },
+    "ListTags" : {
+      "title" : "listTags",
+      "summary" : "listTags"
+    },
     "ListImageMigrationRecords" : {
       "title" : "listImageMigrationRecords",
       "summary" : "listImageMigrationRecords"
+    },
+    "GetTagDetail" : {
+      "title" : "getTagDetail",
+      "summary" : "getTagDetail"
     },
     "ListImageMigrationTaskRecords" : {
       "title" : "listImageMigrationTaskRecords",
@@ -150,10 +174,6 @@
     "DeleteAcceleratorFilter" : {
       "title" : "deleteAcceleratorFilter",
       "summary" : "deleteAcceleratorFilter"
-    },
-    "ListTags" : {
-      "title" : "listTags",
-      "summary" : "listTags"
     },
     "DeleteAcceleratorFilters" : {
       "title" : "deleteAcceleratorFilters",
@@ -215,6 +235,10 @@
       "title" : "deleteChartVersions",
       "summary" : "deleteChartVersions"
     },
+    "UpdateProject" : {
+      "title" : "updateProject",
+      "summary" : "updateProject"
+    },
     "GetTagBuildHistory" : {
       "title" : "getTagBuildHistory",
       "summary" : "getTagBuildHistory"
@@ -258,14 +282,6 @@
     "UpdateRepository" : {
       "title" : "updateRepository",
       "summary" : "updateRepository"
-    },
-    "ListTriggers" : {
-      "title" : "listTriggers",
-      "summary" : "listTriggers"
-    },
-    "UpdateTrigger" : {
-      "title" : "updateTrigger",
-      "summary" : "updateTrigger"
     },
     "GetPublicNetworkConfig" : {
       "title" : "getPublicNetworkConfig",
@@ -322,10 +338,6 @@
     "AddVpcLink" : {
       "title" : "addVpcLink",
       "summary" : "addVpcLink"
-    },
-    "GetTriggerDetail" : {
-      "title" : "getTriggerDetail",
-      "summary" : "getTriggerDetail"
     }
   }
 }

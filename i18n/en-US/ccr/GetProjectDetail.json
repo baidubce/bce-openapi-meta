@@ -1,0 +1,6 @@
+{
+  "GetProjectDetail" : {
+    "instanceId" : "Instance ID",
+    "projectName" : "Namespace name"
+  }
+}

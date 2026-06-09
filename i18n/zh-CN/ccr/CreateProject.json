@@ -1,0 +1,7 @@
+{
+  "CreateProject" : {
+    "instanceId" : "CCR实例ID",
+    "projectName" : "命名空间名称，允许包含小写字母、数字及分隔符._-，且不能以分隔符开头或结尾，不能是纯数字",
+    "public" : "命名空间类型，有两种类型。true表示公有，false表示私有"
+  }
+}

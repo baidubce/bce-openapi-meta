@@ -1,0 +1,31 @@
+{
+  "name" : "UpdateProject",
+  "method" : "PUT",
+  "uri" : "/v1/instances/{instanceId}/projects/{projectName}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateProject.instanceId"
+  }, {
+    "name" : "projectName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ccr.UpdateProject.projectName"
+  }, {
+    "name" : "autoScan",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateProject.autoScan"
+  }, {
+    "name" : "public",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ccr.UpdateProject.public"
+  } ],
+  "desc_key" : "ccr.UpdateProject.desc"
+}

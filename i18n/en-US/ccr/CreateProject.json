@@ -1,0 +1,7 @@
+{
+  "CreateProject" : {
+    "instanceId" : "CCR instance ID",
+    "projectName" : "Namespace name; allows lowercase letters, digits, and separators (._-); cannot start or end with a separator; cannot be purely numeric",
+    "public" : "Namespace type: true for public, false for private"
+  }
+}

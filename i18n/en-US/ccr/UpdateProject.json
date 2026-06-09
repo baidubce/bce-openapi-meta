@@ -1,0 +1,8 @@
+{
+  "UpdateProject" : {
+    "instanceId" : "Instance ID",
+    "projectName" : "Namespace name",
+    "autoScan" : "Whether to automatically scan images on push, valid values: true, false",
+    "public" : "Namespace type: true for public, false for private"
+  }
+}
