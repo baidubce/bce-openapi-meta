@@ -1,0 +1,6 @@
+{
+  "DetachVolume" : {
+    "volumeId" : "待卸载的磁盘对应的ID",
+    "instanceId" : "所挂载的实例ID"
+  }
+}

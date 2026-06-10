@@ -1,5 +1,0 @@
-{
-  "DeleteSnapshot" : {
-    "snapshotId" : "待删除的快照的ID"
-  }
-}

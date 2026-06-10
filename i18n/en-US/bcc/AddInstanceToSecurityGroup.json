@@ -1,7 +1,0 @@
-{
-  "AddInstanceToSecurityGroup" : {
-    "instanceId" : "The ID of the virtual machine instance",
-    "action" : "Fixed value for this API: bind",
-    "securityGroupId" : "The ID of the security group to be associated with the instance"
-  }
-}

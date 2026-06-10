@@ -1,9 +1,0 @@
-{
-  "QueryVariableConfigurationSpecifications" : {
-    "action" : "The operation to perform on the instance; current valid value: resizeList",
-    "spec" : "Instance specification. Exactly one of instance specification, specification family ID, or instance ID must be provided.",
-    "specId" : "Specification family ID. Exactly one of instance specification, specification family ID, or instance ID must be provided.",
-    "zone" : "Specifies the zone information. The naming convention is \"country-region-availability-zone-index\" in lowercase; for example, Beijing Zone A is \"cn-bj-a\". Required when spec or specId is provided.",
-    "instanceIdList" : "List of instance IDs. Exactly one of instance specification, specification family ID, or instance ID must be provided."
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "ExitRescueMode" : {
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
-    "instanceId" : "虚拟机实例ID"
-  }
-}

@@ -1,5 +1,0 @@
-{
-  "ReleaseRecycleBinInstance" : {
-    "instanceId" : "The ID of the virtual machine instance to be released"
-  }
-}

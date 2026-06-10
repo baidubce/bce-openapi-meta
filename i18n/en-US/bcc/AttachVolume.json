@@ -1,0 +1,8 @@
+{
+  "AttachVolume" : {
+    "volumeId" : "ID of the volume to attach",
+    "instanceId" : "ID of the VM instance to attach the volume to",
+    "deleteWithInstance" : "Delete volume with instance; default false; only supported for postpaid data disks",
+    "deleteAutoSnapshot" : "Delete auto snapshots with volume; default false; supported for all volume types"
+  }
+}

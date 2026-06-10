@@ -1,8 +1,0 @@
-{
-  "BatchConfigurationInstance" : {
-    "action" : "The action to perform on the instance; the value for this parameter in this API is: resize",
-    "spec" : "The instance specification for batch resizing",
-    "instanceIdList" : "A collection of instance IDs, up to 30 entries",
-    "enableJumboFrame" : "Whether to enable Jumbo Frame for the instance. true: enable Jumbo Frame; false: disable Jumbo Frame. Defaults to null. When null: if resizing to a spec that does not support Jumbo Frame, Jumbo Frame will not be enabled; if resizing from a non-supporting spec to a supporting spec, Jumbo Frame will not be enabled; if resizing between two specs that both support Jumbo Frame, the Jumbo Frame state follows the pre-resize setting (enabled remains enabled, disabled remains disabled)."
-  }
-}

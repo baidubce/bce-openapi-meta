@@ -1,6 +1,0 @@
-{
-  "DeleteAutomaticRenewalRule" : {
-    "instanceId" : "实例ID",
-    "renewEip" : "是否合并关闭eip自动续费，默认为true。"
-  }
-}

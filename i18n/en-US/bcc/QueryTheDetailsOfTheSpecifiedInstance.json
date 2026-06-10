@@ -1,5 +1,0 @@
-{
-  "QueryTheDetailsOfTheSpecifiedInstance" : {
-    "instanceId" : "The instance ID to be queried"
-  }
-}

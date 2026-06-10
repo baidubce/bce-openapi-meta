@@ -1,0 +1,37 @@
+{
+  "name" : "BindTagVolume",
+  "method" : "PUT",
+  "uri" : "/v{version}/volume/{volumeId}/tag?bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.BindTagVolume.volumeId"
+  }, {
+    "name" : "changeTags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BindTagVolume.changeTags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.BindTagVolume.changeTags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.BindTagVolume.changeTags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "bcc.BindTagVolume.desc"
+}

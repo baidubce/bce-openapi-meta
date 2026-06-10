@@ -1,0 +1,5 @@
+{
+  "GetVolumeResizeProgress" : {
+    "volumeId" : "The disk ID for which resize progress needs to be queried"
+  }
+}

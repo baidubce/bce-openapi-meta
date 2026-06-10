@@ -1,0 +1,8 @@
+{
+  "ResizeVolume" : {
+    "volumeId" : "Disk ID",
+    "newCdsSizeInGB" : "New capacity of the CDS disk after expansion, must be an integer greater than the current CDS capacity, unit: GB, valid range: 1–32765 GB.",
+    "newExtraIO" : "Adjusted extra IOPS after modification, supports both upgrade and downgrade; newVolumeType, newCdsSizeInGB, and newExtraIO cannot all be empty simultaneously.",
+    "newVolumeType" : "CDS supports upgrading and downgrading prepaid and postpaid cloud disks; newVolumeType and newCdsSizeInGB cannot both be empty simultaneously."
+  }
+}

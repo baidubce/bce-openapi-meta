@@ -1,5 +1,0 @@
-{
-  "CheckTheProgressOfDiskConfigurationChanges" : {
-    "volumeId" : "The disk ID for which to check the configuration change progress"
-  }
-}

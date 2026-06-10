@@ -1,5 +1,0 @@
-{
-  "CheckTheProgressOfDiskConfigurationChanges" : {
-    "volumeId" : "需要查询进度的磁盘ID"
-  }
-}

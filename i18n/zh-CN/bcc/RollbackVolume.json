@@ -1,0 +1,6 @@
+{
+  "RollbackVolume" : {
+    "volumeId" : "待回滚的磁盘ID",
+    "snapshotId" : "用于回滚指定磁盘的快照ID，必须为 volumeId 所创建的快照"
+  }
+}

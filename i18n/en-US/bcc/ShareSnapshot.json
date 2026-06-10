@@ -1,6 +1,0 @@
-{
-  "ShareSnapshot" : {
-    "snapshotId" : "The ID of the snapshot to share",
-    "accountIds" : "List of account IDs to share with, up to 100 Baidu Cloud primary accounts. For snapshots already in \"share accepted\" status, updating the account list has no effect. Passing an empty list will cancel sharing for snapshots in \"sharing\" status."
-  }
-}

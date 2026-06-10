@@ -1,0 +1,44 @@
+{
+  "name" : "ReleaseVolume",
+  "method" : "POST",
+  "uri" : "/v{version}/volume/{volumeId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ReleaseVolume.volumeId"
+  }, {
+    "name" : "autoSnapshot",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseVolume.autoSnapshot"
+  }, {
+    "name" : "manualSnapshot",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseVolume.manualSnapshot"
+  }, {
+    "name" : "cdsAttributeActive",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseVolume.cdsAttributeActive"
+  }, {
+    "name" : "recycle",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseVolume.recycle"
+  } ],
+  "desc_key" : "bcc.ReleaseVolume.desc"
+}

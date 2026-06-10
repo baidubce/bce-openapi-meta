@@ -1,7 +1,0 @@
-{
-  "QueryInstanceListBasedOnInstanceId" : {
-    "marker" : "Starting position for paginated list queries, a system-generated string",
-    "maxKeys" : "Maximum number of entries per page, typically no more than 1000; default is 1000",
-    "instanceIds" : "List of instance IDs to query, supports up to 100 entries"
-  }
-}

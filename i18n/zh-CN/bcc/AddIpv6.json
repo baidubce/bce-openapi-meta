@@ -1,7 +1,0 @@
-{
-  "AddIpv6" : {
-    "instanceId" : "实例id",
-    "ipv6Address" : "ipv6地址，为空表示自动分配ipv6",
-    "reboot" : "是否重启，true表示重启，为空表示不重启"
-  }
-}

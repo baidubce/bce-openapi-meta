@@ -1,6 +1,0 @@
-{
-  "DeleteTheRelationshipBetweenInstancesAndDeploymentSets" : {
-    "deployId" : "部署集id",
-    "instanceIdList" : "实例id数组"
-  }
-}

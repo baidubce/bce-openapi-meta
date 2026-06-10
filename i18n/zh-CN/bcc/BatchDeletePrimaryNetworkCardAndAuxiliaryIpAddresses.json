@@ -1,7 +1,0 @@
-{
-  "BatchDeletePrimaryNetworkCardAndAuxiliaryIpAddresses" : {
-    "{clientToken}" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见 [幂等性](BCC/API参考/通用说明.md#幂等性)。",
-    "instanceId" : "虚机ID",
-    "privateIps" : "需要删除的IPV6/IPV4地址"
-  }
-}

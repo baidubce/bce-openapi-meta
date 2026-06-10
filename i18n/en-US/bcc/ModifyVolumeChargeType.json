@@ -1,0 +1,9 @@
+{
+  "ModifyVolumeChargeType" : {
+    "volumeId" : "The ID of the disk whose billing type is to be changed",
+    "billing" : "Order information. Switching from postpaid to prepaid is prohibited when the postpaid CDS is not attached or is attached to a non-prepaid BCC instance. If billing is empty, billing.reservation is empty, or billing.reservation.reservationLength = 0, the CDS expiration time after conversion will match that of the attached prepaid BCC instance. If billing.reservation.reservationLength > 0, the CDS expiration time after conversion is customized and must not be earlier than the expiration time of the attached prepaid BCC instance. Valid values for reservationLength: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 24, 36, 48, 60.",
+    "billing.paymentTiming" : "Payment method: Prepaid, Postpaid, or bidding (used for instance creation, spot instance creation, and instance renewal)",
+    "billing.reservation" : "Reservation info. Not required for postpaid; required for prepaid (used for instance creation, spot instance creation, and instance renewal)",
+    "effectiveType" : "How the switch to postpaid takes effect. Options: AtOnce (switch to pay-as-you-go immediately), AfterExpiration (switch after expiration). Defaults to AfterExpiration if not specified."
+  }
+}

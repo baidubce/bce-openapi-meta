@@ -1,0 +1,6 @@
+{
+  "DetachVolume" : {
+    "volumeId" : "ID of the disk to be detached",
+    "instanceId" : "ID of the instance the disk is attached to"
+  }
+}

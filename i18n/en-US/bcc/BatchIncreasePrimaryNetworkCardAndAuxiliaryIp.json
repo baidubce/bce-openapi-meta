@@ -1,9 +1,0 @@
-{
-  "BatchIncreasePrimaryNetworkCardAndAuxiliaryIp" : {
-    "{clientToken}" : "Idempotency token, an ASCII string of up to 64 characters; see [Idempotency](BCC/API参考/通用说明.md#幂等性).",
-    "instanceId" : "VM instance ID",
-    "secondaryPrivateIpAddressCount" : "Number of IPv6/IPv4 addresses to add; one of this or privateIps is required",
-    "privateIps" : "IPv6/IPv4 addresses to add; one of this or secondaryPrivateIpAddressCount is required",
-    "allocateMultiIpv6Addr" : "Whether to allocate IPv6 addresses; must be true to create IPv6"
-  }
-}

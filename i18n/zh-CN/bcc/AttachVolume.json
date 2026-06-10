@@ -1,0 +1,8 @@
+{
+  "AttachVolume" : {
+    "volumeId" : "待挂载的磁盘ID",
+    "instanceId" : "待挂载的虚拟机实例ID",
+    "deleteWithInstance" : "磁盘随实例删除，默认为false，仅后付费类型的数据盘支持配置该选项",
+    "deleteAutoSnapshot" : "自动快照随磁盘删除，默认为false，所有类型的磁盘都支持配置该选项"
+  }
+}

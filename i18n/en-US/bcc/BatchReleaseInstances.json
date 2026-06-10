@@ -1,9 +1,0 @@
-{
-  "BatchReleaseInstances" : {
-    "instanceIds" : "List of instance IDs, up to 100 elements",
-    "relatedReleaseFlag" : "Whether to also release pay-as-you-go EIPs (EIPs in shared bandwidth are automatically unbound and not eligible) and pay-as-you-go data disks attached to the instances at release time; deleteCdsSnapshotFlag is only effective when this field is true",
-    "deleteCdsSnapshotFlag" : "Whether to delete cloud disk snapshots upon release",
-    "bccRecycleFlag" : "Whether to move the instance to the recycle bin upon release",
-    "deleteRelatedEnisFlag" : "Whether to delete associated ENIs upon instance release"
-  }
-}

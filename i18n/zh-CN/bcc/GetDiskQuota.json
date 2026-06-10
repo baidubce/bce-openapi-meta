@@ -1,0 +1,5 @@
+{
+  "GetDiskQuota" : {
+    "zoneName" : "zone信息，zoneName命名规范是\"国家-region-可用区序列\"，小写，例如北京可用区A为\"cn-bj-a\""
+  }
+}

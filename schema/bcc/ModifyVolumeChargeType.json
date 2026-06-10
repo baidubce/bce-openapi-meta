@@ -1,0 +1,54 @@
+{
+  "name" : "ModifyVolumeChargeType",
+  "method" : "PUT",
+  "uri" : "/v{version}/volume/{volumeId}?modifyChargeType",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ModifyVolumeChargeType.volumeId"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyVolumeChargeType.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.ModifyVolumeChargeType.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bcc.ModifyVolumeChargeType.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bcc.ModifyVolumeChargeType.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcc.ModifyVolumeChargeType.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "effectiveType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyVolumeChargeType.effectiveType"
+  } ],
+  "desc_key" : "bcc.ModifyVolumeChargeType.desc"
+}

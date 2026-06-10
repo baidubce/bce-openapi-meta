@@ -3,369 +3,73 @@
   "style" : "rpc",
   "description" : "云服务器",
   "apis" : {
-    "StopInstancesBatchStop" : {
-      "title" : "停止实例（批量停止）",
-      "summary" : "停止实例（批量停止）"
-    },
-    "DiskExpansionAndTypeChange" : {
-      "title" : "磁盘扩容及类型变更",
-      "summary" : "磁盘扩容及类型变更"
-    },
-    "SetUpPayAsYouGoEipAssociationForAutomaticRelease" : {
-      "title" : "设置按量付费EIP关联自动释放",
-      "summary" : "设置按量付费EIP关联自动释放"
-    },
-    "DiskRenaming" : {
-      "title" : "磁盘重命名",
-      "summary" : "磁盘重命名"
-    },
-    "QueryCdsPrices" : {
-      "title" : "查询CDS价格",
-      "summary" : "查询CDS价格"
-    },
-    "ModifyDiskProperties" : {
-      "title" : "修改磁盘属性",
-      "summary" : "修改磁盘属性"
-    },
-    "RollBackTheDisk" : {
-      "title" : "回滚磁盘",
-      "summary" : "回滚磁盘"
-    },
-    "Openapi_instance_listInstances" : {
-      "title" : "查询实例列表",
-      "summary" : "查询实例列表"
-    },
-    "CreateCdsDisk" : {
+    "CreateVolume" : {
       "title" : "创建CDS磁盘",
       "summary" : "创建CDS磁盘"
     },
-    "ReleaseCdsDiskNew" : {
-      "title" : "释放CDS磁盘（新）",
-      "summary" : "释放CDS磁盘（新）"
-    },
-    "Openapi_instance_getInstanceByInstanceId" : {
-      "title" : "查询指定实例详情",
-      "summary" : "查询指定实例详情"
-    },
-    "ObtainInformationOnPurchasableDisks" : {
-      "title" : "获取可购买磁盘信息",
-      "summary" : "获取可购买磁盘信息"
-    },
-    "QueryDiskDetails" : {
-      "title" : "查询磁盘详情",
-      "summary" : "查询磁盘详情"
-    },
-    "DiskBindingLabel" : {
+    "BindTagVolume" : {
       "title" : "磁盘绑定标签",
       "summary" : "磁盘绑定标签"
     },
-    "QueryDiskList" : {
+    "GetVolume" : {
+      "title" : "查询磁盘详情",
+      "summary" : "查询磁盘详情"
+    },
+    "ListVolumes" : {
       "title" : "查询磁盘列表",
       "summary" : "查询磁盘列表"
     },
-    "Openapi_instance_startInstance" : {
-      "title" : "启动实例",
-      "summary" : "启动实例"
-    },
-    "CreateInstanceBySpec" : {
-      "title" : "创建实例（通过指定实例套餐规格）",
-      "summary" : "创建实例（通过指定实例套餐规格）"
-    },
-    "CreateBcc" : {
-      "title" : "创建BCC",
-      "summary" : "创建BCC"
-    },
-    "BoundRole" : {
-      "title" : "绑定角色",
-      "summary" : "绑定角色"
-    },
-    "SetInstanceDeletionProtection" : {
-      "title" : "设置实例删除保护",
-      "summary" : "设置实例删除保护"
-    },
-    "InstanceUnbindingLabel" : {
-      "title" : "实例解绑标签",
-      "summary" : "实例解绑标签"
-    },
-    "RestartTheInstance" : {
-      "title" : "重启实例",
-      "summary" : "重启实例"
-    },
-    "QueryInstanceList" : {
-      "title" : "查询实例列表",
-      "summary" : "查询实例列表"
-    },
-    "CreateAnInstanceBySpecifyingTheInstancePackageSpecifications" : {
-      "title" : "创建实例（通过指定实例套餐规格）",
-      "summary" : "创建实例（通过指定实例套餐规格）"
-    },
-    "ModifyInstanceProperties" : {
-      "title" : "修改实例属性",
-      "summary" : "修改实例属性"
-    },
-    "StartInstanceBatchStart" : {
-      "title" : "启动实例（批量启动）",
-      "summary" : "启动实例（批量启动）"
-    },
-    "QueryInstanceListBasedOnInstanceId" : {
-      "title" : "根据实例id查询实例列表",
-      "summary" : "根据实例id查询实例列表"
-    },
-    "InstanceConfigurationBySpecifyingInstancePackageSpecifications" : {
-      "title" : "实例变配（通过指定实例套餐规格）",
-      "summary" : "实例变配（通过指定实例套餐规格）"
-    },
-    "RetrieveTheListOfInstanceRoles" : {
-      "title" : "获取实例角色列表",
-      "summary" : "获取实例角色列表"
-    },
-    "InstanceChangeVpc" : {
-      "title" : "实例变更VPC",
-      "summary" : "实例变更VPC"
-    },
-    "ModifyInstanceDescription" : {
-      "title" : "修改实例描述",
-      "summary" : "修改实例描述"
-    },
-    "BindRole" : {
-      "title" : "绑定角色",
-      "summary" : "绑定角色"
-    },
-    "QueryVariableConfigurationSpecifications" : {
-      "title" : "查询可变配规格",
-      "summary" : "查询可变配规格"
-    },
-    "BatchReleaseInstances" : {
-      "title" : "批量释放实例",
-      "summary" : "批量释放实例"
-    },
-    "CrossRegionalReplicationSnapshot" : {
-      "title" : "跨地域复制快照",
-      "summary" : "跨地域复制快照"
-    },
-    "BccRecoveryBillingInTheRecyclingBin" : {
-      "title" : "回收站内BCC恢复计费",
-      "summary" : "回收站内BCC恢复计费"
-    },
-    "SnapshotChainBindingLabel" : {
-      "title" : "快照链绑定标签",
-      "summary" : "快照链绑定标签"
-    },
-    "StopInstance" : {
-      "title" : "停止实例",
-      "summary" : "停止实例"
-    },
-    "CancelSnapshotSharing" : {
-      "title" : "取消快照共享",
-      "summary" : "取消快照共享"
-    },
-    "QueryTheListOfInstancesThatCanBeShutDownWithoutCharging" : {
-      "title" : "查询可关机不计费的实例列表",
-      "summary" : "查询可关机不计费的实例列表"
-    },
-    "ShareSnapshot" : {
-      "title" : "共享快照",
-      "summary" : "共享快照"
-    },
-    "BatchConversionOfAnnualAndMonthlyPackages" : {
-      "title" : "批量转包年包月",
-      "summary" : "批量转包年包月"
-    },
-    "DeleteSnapshot" : {
-      "title" : "删除快照",
-      "summary" : "删除快照"
-    },
-    "InstanceRenewal" : {
-      "title" : "实例续费",
-      "summary" : "实例续费"
-    },
-    "CreateASnapshot" : {
-      "title" : "创建快照",
-      "summary" : "创建快照"
-    },
-    "ModifyInstanceHostname" : {
-      "title" : "修改实例主机名",
-      "summary" : "修改实例主机名"
-    },
-    "UnbindTagsFromSnapshotChains" : {
-      "title" : "快照链解绑标签",
-      "summary" : "快照链解绑标签"
-    },
-    "AddInstanceToSecurityGroup" : {
-      "title" : "将实例加入安全组",
-      "summary" : "将实例加入安全组"
-    },
-    "QuerySnapshotChainList" : {
-      "title" : "查询快照链列表",
-      "summary" : "查询快照链列表"
-    },
-    "EnterRescueMode" : {
-      "title" : "进入救援模式",
-      "summary" : "进入救援模式"
-    },
-    "QuerySnapshotDetails" : {
-      "title" : "查询快照详情",
-      "summary" : "查询快照详情"
-    },
-    "QueryMultipleInstanceDetails" : {
-      "title" : "查询多个实例详情",
-      "summary" : "查询多个实例详情"
-    },
-    "QuerySnapshotList" : {
-      "title" : "查询快照列表",
-      "summary" : "查询快照列表"
-    },
-    "BillingChangeMonthlyPackageTransfer" : {
-      "title" : "计费变更-转包年包月",
-      "summary" : "计费变更-转包年包月"
-    },
-    "QueryTheListOfSharedSnapshots" : {
-      "title" : "查询共享快照列表",
-      "summary" : "查询共享快照列表"
-    },
-    "BatchConfigurationInstance" : {
-      "title" : "批量变配实例",
-      "summary" : "批量变配实例"
-    },
-    "UnbindTheCharacter" : {
-      "title" : "解绑角色",
-      "summary" : "解绑角色"
-    },
-    "ReinstallInstancesBatchReinstallation" : {
-      "title" : "重装实例（批量重装）",
-      "summary" : "重装实例（批量重装）"
-    },
-    "BatchUnsubscribeOfPrepaidInstances" : {
-      "title" : "批量退订预付费实例",
-      "summary" : "批量退订预付费实例"
-    },
-    "BatchIncreasePrimaryNetworkCardAndAuxiliaryIp" : {
-      "title" : "批量增加主网卡辅助IP",
-      "summary" : "批量增加主网卡辅助IP"
-    },
-    "GetInstanceNetworkCardInformation" : {
-      "title" : "获取实例网卡信息",
-      "summary" : "获取实例网卡信息"
-    },
-    "InstanceBindingLabel" : {
-      "title" : "实例绑定标签",
-      "summary" : "实例绑定标签"
-    },
-    "AdvanceReleaseOfPrepaidInstances" : {
-      "title" : "预付费实例提前释放",
-      "summary" : "预付费实例提前释放"
-    },
-    "AutomaticReleaseOfPostpaidSettings" : {
-      "title" : "后付费设置自动释放",
-      "summary" : "后付费设置自动释放"
-    },
-    "CreateAutomaticRenewalRules" : {
-      "title" : "创建自动续费规则",
-      "summary" : "创建自动续费规则"
-    },
-    "ReinstallInstances" : {
-      "title" : "重装实例",
-      "summary" : "重装实例"
-    },
-    "ReleaseIpv6" : {
-      "title" : "释放ipv6",
-      "summary" : "释放ipv6"
-    },
-    "DeleteTheRelationshipBetweenInstancesAndDeploymentSets" : {
-      "title" : "删除实例与部署集之间的关系",
-      "summary" : "删除实例与部署集之间的关系"
-    },
-    "RemoveTheInstanceFromTheSecurityGroup" : {
-      "title" : "将实例移出安全组",
-      "summary" : "将实例移出安全组"
-    },
-    "BatchDeletePrimaryNetworkCardAndAuxiliaryIpAddresses" : {
-      "title" : "批量删除主网卡辅助IP",
-      "summary" : "批量删除主网卡辅助IP"
-    },
-    "ReleaseRecycleBinInstance" : {
-      "title" : "释放回收站实例",
-      "summary" : "释放回收站实例"
-    },
-    "InstanceChangeSubnet" : {
-      "title" : "实例变更子网",
-      "summary" : "实例变更子网"
-    },
-    "ChangeInstancePassword" : {
-      "title" : "修改实例密码",
-      "summary" : "修改实例密码"
-    },
-    "QueryTheListOfRecycleBinInstances" : {
-      "title" : "查询回收站实例列表",
-      "summary" : "查询回收站实例列表"
-    },
-    "QueryTheDetailsOfTheSpecifiedInstance" : {
-      "title" : "查询指定实例详情",
-      "summary" : "查询指定实例详情"
-    },
-    "UninstallCdsDisk" : {
-      "title" : "卸载CDS磁盘",
-      "summary" : "卸载CDS磁盘"
-    },
-    "QueryInstanceCustomData" : {
-      "title" : "查询实例自定义数据",
-      "summary" : "查询实例自定义数据"
-    },
-    "CheckTheProgressOfDiskConfigurationChanges" : {
-      "title" : "查询磁盘变配进度",
-      "summary" : "查询磁盘变配进度"
-    },
-    "BatchConversionToPayAsYouGo" : {
-      "title" : "批量转按量付费",
-      "summary" : "批量转按量付费"
-    },
-    "DiskUnbindingLabel" : {
-      "title" : "磁盘解绑标签",
-      "summary" : "磁盘解绑标签"
-    },
-    "QueryInstanceVncAddress" : {
-      "title" : "查询实例VNC地址",
-      "summary" : "查询实例VNC地址"
-    },
-    "ReleaseCdsDisk" : {
-      "title" : "释放CDS磁盘",
-      "summary" : "释放CDS磁盘"
-    },
-    "DeleteAutomaticRenewalRule" : {
-      "title" : "删除自动续费规则",
-      "summary" : "删除自动续费规则"
-    },
-    "GetPurchasableDiskInformationNew" : {
-      "title" : "获取可购买磁盘信息（新）",
-      "summary" : "获取可购买磁盘信息（新）"
-    },
-    "StartInstance" : {
-      "title" : "启动实例",
-      "summary" : "启动实例"
-    },
-    "MountCdsDisk" : {
+    "AttachVolume" : {
       "title" : "挂载CDS磁盘",
       "summary" : "挂载CDS磁盘"
     },
-    "ExitRescueMode" : {
-      "title" : "退出救援模式",
-      "summary" : "退出救援模式"
+    "GetVolumeResizeProgress" : {
+      "title" : "查询磁盘变配进度",
+      "summary" : "查询磁盘变配进度"
     },
-    "DiskRenewal" : {
+    "GetCdsPrice" : {
+      "title" : "查询CDS价格",
+      "summary" : "查询CDS价格"
+    },
+    "DetachVolume" : {
+      "title" : "卸载CDS磁盘",
+      "summary" : "卸载CDS磁盘"
+    },
+    "ReleaseVolume" : {
+      "title" : "释放CDS磁盘（新）",
+      "summary" : "释放CDS磁盘（新）"
+    },
+    "UnbindTagVolume" : {
+      "title" : "磁盘解绑标签",
+      "summary" : "磁盘解绑标签"
+    },
+    "ResizeVolume" : {
+      "title" : "磁盘扩容及类型变更",
+      "summary" : "磁盘扩容及类型变更"
+    },
+    "GetDiskQuota" : {
+      "title" : "获取可购买磁盘信息（新）",
+      "summary" : "获取可购买磁盘信息（新）"
+    },
+    "RenameVolume" : {
+      "title" : "磁盘重命名",
+      "summary" : "磁盘重命名"
+    },
+    "ModifyCdsAttribute" : {
+      "title" : "修改磁盘属性",
+      "summary" : "修改磁盘属性"
+    },
+    "RollbackVolume" : {
+      "title" : "回滚磁盘",
+      "summary" : "回滚磁盘"
+    },
+    "PurchaseReservedVolume" : {
       "title" : "磁盘续费",
       "summary" : "磁盘续费"
     },
-    "ReleasePostpaidInstanceReleaseOfPostRequest" : {
-      "title" : "释放后付费实例(POST请求的释放)",
-      "summary" : "释放后付费实例(POST请求的释放)"
-    },
-    "DiskBillingChange" : {
+    "ModifyVolumeChargeType" : {
       "title" : "磁盘计费变更",
       "summary" : "磁盘计费变更"
-    },
-    "AddIpv6" : {
-      "title" : "添加ipv6",
-      "summary" : "添加ipv6"
     }
   }
 }

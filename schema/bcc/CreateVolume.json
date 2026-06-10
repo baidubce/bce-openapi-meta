@@ -1,0 +1,241 @@
+{
+  "name" : "CreateVolume",
+  "method" : "POST",
+  "uri" : "/v{version}/volume",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.zoneName"
+  }, {
+    "name" : "storageType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.storageType"
+  }, {
+    "name" : "cdsSizeInGB",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.cdsSizeInGB"
+  }, {
+    "name" : "cdsExtraIo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.cdsExtraIo"
+  }, {
+    "name" : "snapshotId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.snapshotId"
+  }, {
+    "name" : "shareSnapshotId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.shareSnapshotId"
+  }, {
+    "name" : "enableDeleteProtection",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.enableDeleteProtection"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.instanceId"
+  }, {
+    "name" : "encryptKey",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.encryptKey"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.description"
+  }, {
+    "name" : "renewTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.renewTimeUnit"
+  }, {
+    "name" : "renewTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.renewTime"
+  }, {
+    "name" : "relationTag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.relationTag"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.tags.tagValue"
+    } ]
+  }, {
+    "name" : "resGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.resGroupId"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bcc.CreateVolume.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcc.CreateVolume.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.clusterId"
+  }, {
+    "name" : "chargeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.chargeType"
+  }, {
+    "name" : "autoSnapshotPolicy",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.id"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.name"
+    }, {
+      "name" : "timePoints",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.timePoints"
+    }, {
+      "name" : "repeatWeekdays",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.repeatWeekdays"
+    }, {
+      "name" : "status",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.status"
+    }, {
+      "name" : "retentionDays",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.retentionDays"
+    }, {
+      "name" : "createdTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.createdTime"
+    }, {
+      "name" : "updatedTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.updatedTime"
+    }, {
+      "name" : "deletedTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.deletedTime"
+    }, {
+      "name" : "lastExecuteTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.lastExecuteTime"
+    }, {
+      "name" : "volumeCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.CreateVolume.autoSnapshotPolicy.volumeCount"
+    } ]
+  }, {
+    "name" : "deleteWithInstance",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.deleteWithInstance"
+  }, {
+    "name" : "deleteAutoSnapshot",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.deleteAutoSnapshot"
+  }, {
+    "name" : "purchaseCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateVolume.purchaseCount"
+  } ],
+  "desc_key" : "bcc.CreateVolume.desc"
+}

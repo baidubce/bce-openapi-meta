@@ -1,0 +1,56 @@
+{
+  "name" : "GetCdsPrice",
+  "method" : "POST",
+  "uri" : "/v{version}/volume/getPrice",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "storageType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetCdsPrice.storageType"
+  }, {
+    "name" : "cdsSizeInGB",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetCdsPrice.cdsSizeInGB"
+  }, {
+    "name" : "paymentTiming",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetCdsPrice.paymentTiming"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetCdsPrice.zoneName"
+  }, {
+    "name" : "purchaseCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetCdsPrice.purchaseCount"
+  }, {
+    "name" : "purchaseLength",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetCdsPrice.purchaseLength"
+  }, {
+    "name" : "cdsExtraIo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetCdsPrice.cdsExtraIo"
+  } ],
+  "desc_key" : "bcc.GetCdsPrice.desc"
+}

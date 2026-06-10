@@ -1,6 +1,0 @@
-{
-  "QueryTheListOfSharedSnapshots" : {
-    "marker" : "The starting position for a batch list query, which is a system-generated string.",
-    "maxKeys" : "The maximum number of items contained per page."
-  }
-}

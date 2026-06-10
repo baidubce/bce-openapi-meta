@@ -1,0 +1,11 @@
+{
+  "GetCdsPrice" : {
+    "storageType" : "CDS磁盘存储类型，包括enhanced_ssd_pl0【增强型SSD_PL0】，enhanced_ssd_pl1【增强型SSD_PL1】，enhanced_ssd_pl2【增强型SSD_PL2】，enhanced_ssd_pl3【增强型SSD_PL3】，cloud_hp1 或 premium_ssd 【通用型SSD】 和 hp1 或 ssd 【高性能云磁盘】 六种云盘类型，elastic_ephemeral_disk【弹性临时盘_标准型】一种弹性临时盘类型，默认 hp1。",
+    "cdsSizeInGB" : "CDS磁盘容量",
+    "paymentTiming" : "付费方式，包括Postpaid（后付费），Prepaid（预付费）两种",
+    "zoneName" : "可用区名称",
+    "purchaseCount" : "任意数量CDS的总价格，必须为大于0的整数，可选参数，缺省为1",
+    "purchaseLength" : "时长，可选值[1,2,3,4,5,6,7,8,9,12,24,36]，单位：月",
+    "cdsExtraIo" : "增强型SSD_PL1、增强型SSD_PL2、增强型SSD_PL3，支持购买额外IO性能"
+  }
+}

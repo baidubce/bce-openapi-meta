@@ -1,8 +1,0 @@
-{
-  "EnterRescueMode" : {
-    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
-    "instanceId" : "虚拟机实例ID",
-    "forceStop" : "强制关机",
-    "password" : "虚拟机密码"
-  }
-}

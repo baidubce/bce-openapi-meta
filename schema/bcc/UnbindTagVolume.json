@@ -1,0 +1,37 @@
+{
+  "name" : "UnbindTagVolume",
+  "method" : "PUT",
+  "uri" : "/v{version}/volume/{volumeId}/tag?unbind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.UnbindTagVolume.volumeId"
+  }, {
+    "name" : "changeTags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindTagVolume.changeTags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.UnbindTagVolume.changeTags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.UnbindTagVolume.changeTags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "bcc.UnbindTagVolume.desc"
+}

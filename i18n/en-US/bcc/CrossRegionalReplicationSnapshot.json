@@ -1,6 +1,0 @@
-{
-  "CrossRegionalReplicationSnapshot" : {
-    "clientToken" : "Idempotency token; an ASCII string of up to 64 characters. See [ClientToken Idempotency](https://cloud.baidu.com/doc/BCC/s/ojwvynrqn#%E5%B9%82%E7%AD%89%E6%80%A7).",
-    "snapshotId" : "The ID of the snapshot to be replicated."
-  }
-}

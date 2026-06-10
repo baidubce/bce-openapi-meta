@@ -1,7 +1,0 @@
-{
-  "UninstallCdsDisk" : {
-    "volumeId" : "The ID of the disk to be detached",
-    "action" : "The action to perform on the disk, current value: detach",
-    "instanceId" : "The ID of the instance to which the disk is attached"
-  }
-}

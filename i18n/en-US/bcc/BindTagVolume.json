@@ -1,0 +1,8 @@
+{
+  "BindTagVolume" : {
+    "volumeId" : "Disk ID",
+    "changeTags" : "List of tags to bind; tags that do not exist will be created automatically",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value"
+  }
+}

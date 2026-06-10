@@ -1,6 +1,0 @@
-{
-  "StartInstance" : {
-    "instanceId" : "The ID of the instance to start",
-    "action" : "Action to perform on the instance; value for this API: start"
-  }
-}

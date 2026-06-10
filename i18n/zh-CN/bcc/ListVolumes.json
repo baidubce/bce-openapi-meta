@@ -1,0 +1,13 @@
+{
+  "ListVolumes" : {
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量通常不超过1000。缺省值为1000",
+    "instanceId" : "实例id，可查询实例挂载的磁盘列表（包含系统盘）。如需查询用户创建的所有磁盘信息，不填写此参数。",
+    "zoneName" : "可用区信息",
+    "clusterId" : "CDS专属集群ID",
+    "chargeFilter" : "CDS计费类型,取值postpay/prepay",
+    "usageFilter" : "CDS磁盘类型，取值system/data",
+    "name" : "CDS磁盘名称",
+    "productCategory" : "按挂载到的实例服务类型筛选磁盘，可选值包含BCC/HPAS"
+  }
+}

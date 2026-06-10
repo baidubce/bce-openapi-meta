@@ -1,5 +1,0 @@
-{
-  "DeleteSnapshot" : {
-    "snapshotId" : "The ID of the snapshot to be deleted"
-  }
-}

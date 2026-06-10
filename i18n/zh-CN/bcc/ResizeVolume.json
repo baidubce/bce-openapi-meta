@@ -1,0 +1,8 @@
+{
+  "ResizeVolume" : {
+    "volumeId" : "磁盘ID",
+    "newCdsSizeInGB" : "新扩容CDS磁盘的容量大小，必须为大于当前CDS容量的整数，单位为GB，大小为0~32765GB的正整数。",
+    "newExtraIO" : "调整后的额外IOPS数量，支持升配和降配，newVolumeType、newCdsSizeInGB和newExtraIO不允许同时为空。",
+    "newVolumeType" : "CDS支持对预付费和后付费云磁盘进行升配和降配。newVolumeType和newCdsSizeInGB不允许同时为空。"
+  }
+}

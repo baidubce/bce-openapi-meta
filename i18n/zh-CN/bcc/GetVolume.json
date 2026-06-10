@@ -1,0 +1,5 @@
+{
+  "GetVolume" : {
+    "volumeId" : "待查询的磁盘ID"
+  }
+}

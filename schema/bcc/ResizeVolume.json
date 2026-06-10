@@ -1,0 +1,38 @@
+{
+  "name" : "ResizeVolume",
+  "method" : "PUT",
+  "uri" : "/v{version}/volume/{volumeId}?resize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ResizeVolume.volumeId"
+  }, {
+    "name" : "newCdsSizeInGB",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ResizeVolume.newCdsSizeInGB"
+  }, {
+    "name" : "newExtraIO",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ResizeVolume.newExtraIO"
+  }, {
+    "name" : "newVolumeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ResizeVolume.newVolumeType"
+  } ],
+  "desc_key" : "bcc.ResizeVolume.desc"
+}

@@ -1,9 +1,0 @@
-{
-  "SnapshotChainBindingLabel" : {
-    "chainId" : "Snapshot chain ID",
-    "action" : "Operation to perform on the snapshot chain, current value: bind",
-    "changeTags" : "List of tags to be unbound, see [TagModel](BCC/API参考/附录.md#TagModel) for data format",
-    "changeTags.tagKey" : "Tag key",
-    "changeTags.tagValue" : "Tag value"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "ReleaseCdsDiskNew" : {
-    "volumeId" : "待释放的磁盘ID",
-    "autoSnapshot" : "取值为\"on\"时，会删除磁盘关联的自动快照",
-    "manualSnapshot" : "取值为\"on\"时，会删除磁盘关联的手动快照",
-    "recycle" : "取值为\"on\"时，数据盘进入回收站，取值为\"off\"时，立即删除。默认为\"on\"。",
-    "cdsAttributeActive" : "自动快照是否按照“自动快照随磁盘释放”属性进行资源释放，默认为false，当该参数为true时将根据自动快照的关联释放属性进行释放，优先级高于autoSnapshot"
-  }
-}

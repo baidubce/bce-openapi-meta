@@ -1,6 +1,0 @@
-{
-  "ObtainInformationOnPurchasableDisks" : {
-    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [Idempotency](BCC/API参考/通用说明.md#幂等性).",
-    "zoneName" : "Zone information. The zoneName naming convention is \"country-region-zone-sequence\" in lowercase, e.g., Beijing Zone A is \"cn-bj-a\". If zoneName is empty or invalid, purchasable disk information for all availability zones will be returned."
-  }
-}

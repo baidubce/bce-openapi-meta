@@ -1,7 +1,0 @@
-{
-  "ModifyInstanceDescription" : {
-    "instanceId" : "The specified instance ID",
-    "action" : "Operation to perform on the instance; current valid value: modifyDesc",
-    "desc" : "Instance description; supports Chinese characters, letters, digits, period \".\", space, underscore \"_\", hyphen \"-\", equals sign \"=\", comma \",\", Chinese comma \"，\", colon \":\", slash \"/\", and Chinese period \"。\""
-  }
-}

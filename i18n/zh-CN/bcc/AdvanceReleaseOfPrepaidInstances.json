@@ -1,8 +1,0 @@
-{
-  "AdvanceReleaseOfPrepaidInstances" : {
-    "instanceId" : "实例id",
-    "relatedReleaseFlag" : "是否关联释放当前时刻，实例挂载的EIP和数据盘。默认值：false，不关联释放。**注意：**实例关联的预付费CDS盘会强制随实例一起释放。",
-    "deleteCdsSnapshotFlag" : "是否释放云磁盘快照。默认值：false，不关联释放",
-    "deleteRelatedEnisFlag" : "实例释放时是否删除关联的ENI。默认值：false，不关联释放"
-  }
-}

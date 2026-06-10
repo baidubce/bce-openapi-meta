@@ -1,0 +1,11 @@
+{
+  "GetCdsPrice" : {
+    "storageType" : "CDS disk storage type: enhanced_ssd_pl0, enhanced_ssd_pl1, enhanced_ssd_pl2, enhanced_ssd_pl3, cloud_hp1/premium_ssd (general-purpose SSD), hp1/ssd (high-performance cloud disk), and elastic_ephemeral_disk (elastic ephemeral disk standard); default is hp1.",
+    "cdsSizeInGB" : "CDS disk capacity in GB",
+    "paymentTiming" : "Payment method: Postpaid (pay-as-you-go) or Prepaid (subscription)",
+    "zoneName" : "Availability zone name",
+    "purchaseCount" : "Total price for any number of CDS disks; must be a positive integer; optional, default is 1",
+    "purchaseLength" : "Duration in months; valid values: [1,2,3,4,5,6,7,8,9,12,24,36]",
+    "cdsExtraIo" : "Additional I/O performance purchase supported for enhanced_ssd_pl1, enhanced_ssd_pl2, and enhanced_ssd_pl3"
+  }
+}

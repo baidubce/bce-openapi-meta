@@ -1,0 +1,5 @@
+{
+  "GetDiskQuota" : {
+    "zoneName" : "Zone information, zoneName naming convention is \"country-region-zone-sequence\" in lowercase, e.g., Beijing Zone A is \"cn-bj-a\""
+  }
+}

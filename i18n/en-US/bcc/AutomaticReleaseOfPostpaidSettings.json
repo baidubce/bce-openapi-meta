@@ -1,9 +1,0 @@
-{
-  "AutomaticReleaseOfPostpaidSettings" : {
-    "instanceId" : "Instance ID",
-    "action" : "Operation to perform on the instance; current valid value: autorelease",
-    "{clientToken}" : "Idempotency token; an ASCII string of up to 64 characters, see [Idempotency](BCC/API参考/通用说明.md#幂等性)",
-    "isEipAutoRelatedDelete" : "Whether the pay-as-you-go EIP bound to the instance is automatically released along with the instance; true: yes, false: no. Takes effect only when the public bandwidth billing method is pay-by-bandwidth or pay-by-traffic. Default: false",
-    "releaseTime" : "Scheduled release time in the format yyyy-MM-dd'T'HH:mm:ss'Z'; omit this parameter to cancel the scheduled release"
-  }
-}

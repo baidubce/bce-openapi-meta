@@ -1,0 +1,5 @@
+{
+  "GetVolume" : {
+    "volumeId" : "The ID of the volume to query"
+  }
+}

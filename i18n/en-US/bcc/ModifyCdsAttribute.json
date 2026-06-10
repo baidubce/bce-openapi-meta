@@ -1,0 +1,9 @@
+{
+  "ModifyCdsAttribute" : {
+    "volumeId" : "ID of the disk to be modified",
+    "cdsName" : "New name of the disk; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; must start with a letter; length 1-65",
+    "desc" : "New description of the disk; desc and cdsName cannot both be empty; supports Chinese characters, letters, digits, period \".\", space, underscore \"_\", hyphen \"-\", equals sign \"=\", comma \",\", Chinese comma \"，\", colon \":\", slash \"/\", and Chinese period \"。\"",
+    "deleteWithInstance" : "Whether to delete the disk with the instance; default is false; once explicitly set, the attribute of all related disks will be replaced with the new value; only supported for postpaid data disks; for V2 API, the cdsAttributeActive parameter must be set to true when releasing the instance for this to take effect",
+    "deleteAutoSnapshot" : "Whether to delete auto snapshots when the disk is deleted; default is false; once explicitly set, the attribute of all related disks will be replaced with the new value; supported for all disk types; for V2 API, the cdsAttributeActive parameter must be set to true when releasing the instance for this to take effect"
+  }
+}

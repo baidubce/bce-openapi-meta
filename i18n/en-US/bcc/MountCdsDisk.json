@@ -1,9 +1,0 @@
-{
-  "MountCdsDisk" : {
-    "volumeId" : "Disk ID",
-    "action" : "Action to perform on the disk; current valid value: attach",
-    "instanceId" : "ID of the virtual machine instance to attach the disk to",
-    "deleteWithInstance" : "Whether to delete the disk when the instance is deleted; default is false; only supported for postpaid data disks",
-    "deleteAutoSnapshot" : "Whether to delete automatic snapshots when the disk is deleted; default is false; supported for all disk types"
-  }
-}

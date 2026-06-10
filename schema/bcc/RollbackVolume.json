@@ -1,0 +1,26 @@
+{
+  "name" : "RollbackVolume",
+  "method" : "PUT",
+  "uri" : "/v{version}/volume/{volumeId}?rollback",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.RollbackVolume.volumeId"
+  }, {
+    "name" : "snapshotId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.RollbackVolume.snapshotId"
+  } ],
+  "desc_key" : "bcc.RollbackVolume.desc"
+}

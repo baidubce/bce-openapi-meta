@@ -3,369 +3,73 @@
   "style" : "rpc",
   "description" : "bcc",
   "apis" : {
-    "StopInstancesBatchStop" : {
-      "title" : "stopInstancesBatchStop",
-      "summary" : "stopInstancesBatchStop"
-    },
-    "DiskExpansionAndTypeChange" : {
-      "title" : "diskExpansionAndTypeChange",
-      "summary" : "diskExpansionAndTypeChange"
-    },
-    "SetUpPayAsYouGoEipAssociationForAutomaticRelease" : {
-      "title" : "setUpPayAsYouGoEipAssociationForAutomaticRelease",
-      "summary" : "setUpPayAsYouGoEipAssociationForAutomaticRelease"
-    },
-    "DiskRenaming" : {
-      "title" : "diskRenaming",
-      "summary" : "diskRenaming"
-    },
-    "QueryCdsPrices" : {
-      "title" : "queryCdsPrices",
-      "summary" : "queryCdsPrices"
-    },
-    "ModifyDiskProperties" : {
-      "title" : "modifyDiskProperties",
-      "summary" : "modifyDiskProperties"
-    },
-    "RollBackTheDisk" : {
-      "title" : "rollBackTheDisk",
-      "summary" : "rollBackTheDisk"
-    },
-    "Openapi_instance_listInstances" : {
-      "title" : "openapi_instance_listInstances",
-      "summary" : "openapi_instance_listInstances"
-    },
-    "CreateCdsDisk" : {
-      "title" : "createCdsDisk",
-      "summary" : "createCdsDisk"
-    },
-    "ReleaseCdsDiskNew" : {
-      "title" : "releaseCdsDiskNew",
-      "summary" : "releaseCdsDiskNew"
-    },
-    "Openapi_instance_getInstanceByInstanceId" : {
-      "title" : "openapi_instance_getInstanceByInstanceId",
-      "summary" : "openapi_instance_getInstanceByInstanceId"
-    },
-    "ObtainInformationOnPurchasableDisks" : {
-      "title" : "obtainInformationOnPurchasableDisks",
-      "summary" : "obtainInformationOnPurchasableDisks"
-    },
-    "QueryDiskDetails" : {
-      "title" : "queryDiskDetails",
-      "summary" : "queryDiskDetails"
-    },
-    "DiskBindingLabel" : {
-      "title" : "diskBindingLabel",
-      "summary" : "diskBindingLabel"
-    },
-    "QueryDiskList" : {
-      "title" : "queryDiskList",
-      "summary" : "queryDiskList"
-    },
-    "Openapi_instance_startInstance" : {
-      "title" : "openapi_instance_startInstance",
-      "summary" : "openapi_instance_startInstance"
-    },
-    "CreateInstanceBySpec" : {
-      "title" : "createInstanceBySpec",
-      "summary" : "createInstanceBySpec"
-    },
-    "CreateBcc" : {
-      "title" : "createBcc",
-      "summary" : "createBcc"
-    },
-    "BoundRole" : {
-      "title" : "boundRole",
-      "summary" : "boundRole"
-    },
-    "SetInstanceDeletionProtection" : {
-      "title" : "setInstanceDeletionProtection",
-      "summary" : "setInstanceDeletionProtection"
-    },
-    "InstanceUnbindingLabel" : {
-      "title" : "instanceUnbindingLabel",
-      "summary" : "instanceUnbindingLabel"
-    },
-    "RestartTheInstance" : {
-      "title" : "restartTheInstance",
-      "summary" : "restartTheInstance"
-    },
-    "QueryInstanceList" : {
-      "title" : "queryInstanceList",
-      "summary" : "queryInstanceList"
-    },
-    "CreateAnInstanceBySpecifyingTheInstancePackageSpecifications" : {
-      "title" : "createAnInstanceBySpecifyingTheInstancePackageSpecifications",
-      "summary" : "createAnInstanceBySpecifyingTheInstancePackageSpecifications"
-    },
-    "ModifyInstanceProperties" : {
-      "title" : "modifyInstanceProperties",
-      "summary" : "modifyInstanceProperties"
-    },
-    "StartInstanceBatchStart" : {
-      "title" : "startInstanceBatchStart",
-      "summary" : "startInstanceBatchStart"
-    },
-    "QueryInstanceListBasedOnInstanceId" : {
-      "title" : "queryInstanceListBasedOnInstanceId",
-      "summary" : "queryInstanceListBasedOnInstanceId"
-    },
-    "InstanceConfigurationBySpecifyingInstancePackageSpecifications" : {
-      "title" : "instanceConfigurationBySpecifyingInstancePackageSpecifications",
-      "summary" : "instanceConfigurationBySpecifyingInstancePackageSpecifications"
-    },
-    "RetrieveTheListOfInstanceRoles" : {
-      "title" : "retrieveTheListOfInstanceRoles",
-      "summary" : "retrieveTheListOfInstanceRoles"
-    },
-    "InstanceChangeVpc" : {
-      "title" : "instanceChangeVpc",
-      "summary" : "instanceChangeVpc"
-    },
-    "ModifyInstanceDescription" : {
-      "title" : "modifyInstanceDescription",
-      "summary" : "modifyInstanceDescription"
-    },
-    "BindRole" : {
-      "title" : "bindRole",
-      "summary" : "bindRole"
-    },
-    "QueryVariableConfigurationSpecifications" : {
-      "title" : "queryVariableConfigurationSpecifications",
-      "summary" : "queryVariableConfigurationSpecifications"
-    },
-    "BatchReleaseInstances" : {
-      "title" : "batchReleaseInstances",
-      "summary" : "batchReleaseInstances"
-    },
-    "CrossRegionalReplicationSnapshot" : {
-      "title" : "crossRegionalReplicationSnapshot",
-      "summary" : "crossRegionalReplicationSnapshot"
-    },
-    "BccRecoveryBillingInTheRecyclingBin" : {
-      "title" : "bccRecoveryBillingInTheRecyclingBin",
-      "summary" : "bccRecoveryBillingInTheRecyclingBin"
-    },
-    "SnapshotChainBindingLabel" : {
-      "title" : "snapshotChainBindingLabel",
-      "summary" : "snapshotChainBindingLabel"
-    },
-    "StopInstance" : {
-      "title" : "stopInstance",
-      "summary" : "stopInstance"
-    },
-    "CancelSnapshotSharing" : {
-      "title" : "cancelSnapshotSharing",
-      "summary" : "cancelSnapshotSharing"
-    },
-    "QueryTheListOfInstancesThatCanBeShutDownWithoutCharging" : {
-      "title" : "queryTheListOfInstancesThatCanBeShutDownWithoutCharging",
-      "summary" : "queryTheListOfInstancesThatCanBeShutDownWithoutCharging"
-    },
-    "ShareSnapshot" : {
-      "title" : "shareSnapshot",
-      "summary" : "shareSnapshot"
-    },
-    "BatchConversionOfAnnualAndMonthlyPackages" : {
-      "title" : "batchConversionOfAnnualAndMonthlyPackages",
-      "summary" : "batchConversionOfAnnualAndMonthlyPackages"
-    },
-    "DeleteSnapshot" : {
-      "title" : "deleteSnapshot",
-      "summary" : "deleteSnapshot"
-    },
-    "InstanceRenewal" : {
-      "title" : "instanceRenewal",
-      "summary" : "instanceRenewal"
-    },
-    "CreateASnapshot" : {
-      "title" : "createASnapshot",
-      "summary" : "createASnapshot"
-    },
-    "ModifyInstanceHostname" : {
-      "title" : "modifyInstanceHostname",
-      "summary" : "modifyInstanceHostname"
-    },
-    "UnbindTagsFromSnapshotChains" : {
-      "title" : "unbindTagsFromSnapshotChains",
-      "summary" : "unbindTagsFromSnapshotChains"
-    },
-    "AddInstanceToSecurityGroup" : {
-      "title" : "addInstanceToSecurityGroup",
-      "summary" : "addInstanceToSecurityGroup"
-    },
-    "QuerySnapshotChainList" : {
-      "title" : "querySnapshotChainList",
-      "summary" : "querySnapshotChainList"
-    },
-    "EnterRescueMode" : {
-      "title" : "enterRescueMode",
-      "summary" : "enterRescueMode"
-    },
-    "QuerySnapshotDetails" : {
-      "title" : "querySnapshotDetails",
-      "summary" : "querySnapshotDetails"
-    },
-    "QueryMultipleInstanceDetails" : {
-      "title" : "queryMultipleInstanceDetails",
-      "summary" : "queryMultipleInstanceDetails"
-    },
-    "QuerySnapshotList" : {
-      "title" : "querySnapshotList",
-      "summary" : "querySnapshotList"
-    },
-    "BillingChangeMonthlyPackageTransfer" : {
-      "title" : "billingChangeMonthlyPackageTransfer",
-      "summary" : "billingChangeMonthlyPackageTransfer"
-    },
-    "QueryTheListOfSharedSnapshots" : {
-      "title" : "queryTheListOfSharedSnapshots",
-      "summary" : "queryTheListOfSharedSnapshots"
-    },
-    "BatchConfigurationInstance" : {
-      "title" : "batchConfigurationInstance",
-      "summary" : "batchConfigurationInstance"
-    },
-    "UnbindTheCharacter" : {
-      "title" : "unbindTheCharacter",
-      "summary" : "unbindTheCharacter"
-    },
-    "ReinstallInstancesBatchReinstallation" : {
-      "title" : "reinstallInstancesBatchReinstallation",
-      "summary" : "reinstallInstancesBatchReinstallation"
-    },
-    "BatchUnsubscribeOfPrepaidInstances" : {
-      "title" : "batchUnsubscribeOfPrepaidInstances",
-      "summary" : "batchUnsubscribeOfPrepaidInstances"
-    },
-    "BatchIncreasePrimaryNetworkCardAndAuxiliaryIp" : {
-      "title" : "batchIncreasePrimaryNetworkCardAndAuxiliaryIp",
-      "summary" : "batchIncreasePrimaryNetworkCardAndAuxiliaryIp"
-    },
-    "GetInstanceNetworkCardInformation" : {
-      "title" : "getInstanceNetworkCardInformation",
-      "summary" : "getInstanceNetworkCardInformation"
-    },
-    "InstanceBindingLabel" : {
-      "title" : "instanceBindingLabel",
-      "summary" : "instanceBindingLabel"
-    },
-    "AdvanceReleaseOfPrepaidInstances" : {
-      "title" : "advanceReleaseOfPrepaidInstances",
-      "summary" : "advanceReleaseOfPrepaidInstances"
-    },
-    "AutomaticReleaseOfPostpaidSettings" : {
-      "title" : "automaticReleaseOfPostpaidSettings",
-      "summary" : "automaticReleaseOfPostpaidSettings"
-    },
-    "CreateAutomaticRenewalRules" : {
-      "title" : "createAutomaticRenewalRules",
-      "summary" : "createAutomaticRenewalRules"
-    },
-    "ReinstallInstances" : {
-      "title" : "reinstallInstances",
-      "summary" : "reinstallInstances"
-    },
-    "ReleaseIpv6" : {
-      "title" : "releaseIpv6",
-      "summary" : "releaseIpv6"
-    },
-    "DeleteTheRelationshipBetweenInstancesAndDeploymentSets" : {
-      "title" : "deleteTheRelationshipBetweenInstancesAndDeploymentSets",
-      "summary" : "deleteTheRelationshipBetweenInstancesAndDeploymentSets"
-    },
-    "RemoveTheInstanceFromTheSecurityGroup" : {
-      "title" : "removeTheInstanceFromTheSecurityGroup",
-      "summary" : "removeTheInstanceFromTheSecurityGroup"
-    },
-    "BatchDeletePrimaryNetworkCardAndAuxiliaryIpAddresses" : {
-      "title" : "batchDeletePrimaryNetworkCardAndAuxiliaryIpAddresses",
-      "summary" : "batchDeletePrimaryNetworkCardAndAuxiliaryIpAddresses"
-    },
-    "ReleaseRecycleBinInstance" : {
-      "title" : "releaseRecycleBinInstance",
-      "summary" : "releaseRecycleBinInstance"
-    },
-    "InstanceChangeSubnet" : {
-      "title" : "instanceChangeSubnet",
-      "summary" : "instanceChangeSubnet"
-    },
-    "ChangeInstancePassword" : {
-      "title" : "changeInstancePassword",
-      "summary" : "changeInstancePassword"
-    },
-    "QueryTheListOfRecycleBinInstances" : {
-      "title" : "queryTheListOfRecycleBinInstances",
-      "summary" : "queryTheListOfRecycleBinInstances"
-    },
-    "QueryTheDetailsOfTheSpecifiedInstance" : {
-      "title" : "queryTheDetailsOfTheSpecifiedInstance",
-      "summary" : "queryTheDetailsOfTheSpecifiedInstance"
-    },
-    "UninstallCdsDisk" : {
-      "title" : "uninstallCdsDisk",
-      "summary" : "uninstallCdsDisk"
-    },
-    "QueryInstanceCustomData" : {
-      "title" : "queryInstanceCustomData",
-      "summary" : "queryInstanceCustomData"
-    },
-    "CheckTheProgressOfDiskConfigurationChanges" : {
-      "title" : "checkTheProgressOfDiskConfigurationChanges",
-      "summary" : "checkTheProgressOfDiskConfigurationChanges"
-    },
-    "BatchConversionToPayAsYouGo" : {
-      "title" : "batchConversionToPayAsYouGo",
-      "summary" : "batchConversionToPayAsYouGo"
-    },
-    "DiskUnbindingLabel" : {
-      "title" : "diskUnbindingLabel",
-      "summary" : "diskUnbindingLabel"
-    },
-    "QueryInstanceVncAddress" : {
-      "title" : "queryInstanceVncAddress",
-      "summary" : "queryInstanceVncAddress"
-    },
-    "ReleaseCdsDisk" : {
-      "title" : "releaseCdsDisk",
-      "summary" : "releaseCdsDisk"
-    },
-    "DeleteAutomaticRenewalRule" : {
-      "title" : "deleteAutomaticRenewalRule",
-      "summary" : "deleteAutomaticRenewalRule"
-    },
-    "GetPurchasableDiskInformationNew" : {
-      "title" : "getPurchasableDiskInformationNew",
-      "summary" : "getPurchasableDiskInformationNew"
-    },
-    "StartInstance" : {
-      "title" : "startInstance",
-      "summary" : "startInstance"
-    },
-    "MountCdsDisk" : {
-      "title" : "mountCdsDisk",
-      "summary" : "mountCdsDisk"
-    },
-    "ExitRescueMode" : {
-      "title" : "exitRescueMode",
-      "summary" : "exitRescueMode"
-    },
-    "DiskRenewal" : {
-      "title" : "diskRenewal",
-      "summary" : "diskRenewal"
-    },
-    "ReleasePostpaidInstanceReleaseOfPostRequest" : {
-      "title" : "releasePostpaidInstanceReleaseOfPostRequest",
-      "summary" : "releasePostpaidInstanceReleaseOfPostRequest"
-    },
-    "DiskBillingChange" : {
-      "title" : "diskBillingChange",
-      "summary" : "diskBillingChange"
-    },
-    "AddIpv6" : {
-      "title" : "addIpv6",
-      "summary" : "addIpv6"
+    "CreateVolume" : {
+      "title" : "createVolume",
+      "summary" : "createVolume"
+    },
+    "BindTagVolume" : {
+      "title" : "bindTagVolume",
+      "summary" : "bindTagVolume"
+    },
+    "GetVolume" : {
+      "title" : "getVolume",
+      "summary" : "getVolume"
+    },
+    "ListVolumes" : {
+      "title" : "listVolumes",
+      "summary" : "listVolumes"
+    },
+    "AttachVolume" : {
+      "title" : "attachVolume",
+      "summary" : "attachVolume"
+    },
+    "GetVolumeResizeProgress" : {
+      "title" : "getVolumeResizeProgress",
+      "summary" : "getVolumeResizeProgress"
+    },
+    "GetCdsPrice" : {
+      "title" : "getCdsPrice",
+      "summary" : "getCdsPrice"
+    },
+    "DetachVolume" : {
+      "title" : "detachVolume",
+      "summary" : "detachVolume"
+    },
+    "ReleaseVolume" : {
+      "title" : "releaseVolume",
+      "summary" : "releaseVolume"
+    },
+    "UnbindTagVolume" : {
+      "title" : "unbindTagVolume",
+      "summary" : "unbindTagVolume"
+    },
+    "ResizeVolume" : {
+      "title" : "resizeVolume",
+      "summary" : "resizeVolume"
+    },
+    "GetDiskQuota" : {
+      "title" : "getDiskQuota",
+      "summary" : "getDiskQuota"
+    },
+    "RenameVolume" : {
+      "title" : "renameVolume",
+      "summary" : "renameVolume"
+    },
+    "ModifyCdsAttribute" : {
+      "title" : "modifyCdsAttribute",
+      "summary" : "modifyCdsAttribute"
+    },
+    "RollbackVolume" : {
+      "title" : "rollbackVolume",
+      "summary" : "rollbackVolume"
+    },
+    "PurchaseReservedVolume" : {
+      "title" : "purchaseReservedVolume",
+      "summary" : "purchaseReservedVolume"
+    },
+    "ModifyVolumeChargeType" : {
+      "title" : "modifyVolumeChargeType",
+      "summary" : "modifyVolumeChargeType"
     }
   }
 }

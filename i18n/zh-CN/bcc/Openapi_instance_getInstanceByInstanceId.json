@@ -1,5 +1,0 @@
-{
-  "Openapi_instance_getInstanceByInstanceId" : {
-    "instanceId" : "待查询的实例ID"
-  }
-}
