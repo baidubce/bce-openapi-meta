@@ -158,7 +158,15 @@
     "code" : "bcc",
     "protocol" : "HTTP",
     "endpoint" : {
-      "bj" : "bcc.bj.baidubce.com"
+      "bd" : "bcc.bd.baidubce.com",
+      "bj" : "bcc.bj.baidubce.com",
+      "cd" : "bcc.cd.baidubce.com",
+      "fwh" : "bcc.fwh.baidubce.com",
+      "gz" : "bcc.gz.baidubce.com",
+      "hkg" : "bcc.hkg.baidubce.com",
+      "nj" : "bcc.nj.baidubce.com",
+      "su" : "bcc.su.baidubce.com",
+      "yq" : "bcc.yq.baidubce.com"
     }
   } ]
 }

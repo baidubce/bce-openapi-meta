@@ -70,6 +70,10 @@
     "ModifyVolumeChargeType" : {
       "title" : "磁盘计费变更",
       "summary" : "磁盘计费变更"
+    },
+    "CreateInstanceBySpec" : {
+      "title" : "创建实例（通过指定实例套餐规格）",
+      "summary" : "创建实例（通过指定实例套餐规格）"
     }
   }
 }

@@ -70,6 +70,10 @@
     "ModifyVolumeChargeType" : {
       "title" : "modifyVolumeChargeType",
       "summary" : "modifyVolumeChargeType"
+    },
+    "CreateInstanceBySpec" : {
+      "title" : "createInstanceBySpec",
+      "summary" : "createInstanceBySpec"
     }
   }
 }
