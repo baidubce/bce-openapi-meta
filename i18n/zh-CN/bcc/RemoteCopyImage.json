@@ -1,0 +1,7 @@
+{
+  "RemoteCopyImage" : {
+    "imageId" : "待复制的镜像ID",
+    "name" : "复制镜像名",
+    "destRegion" : "目的regionId，可以传多个"
+  }
+}

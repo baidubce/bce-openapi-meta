@@ -1,0 +1,8 @@
+{
+  "ShareImage" : {
+    "imageId" : "ID of the image to be shared",
+    "account" : "Username to share with",
+    "accountId" : "User ID to share with",
+    "ucAccount" : "UC account"
+  }
+}

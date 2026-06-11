@@ -1,0 +1,8 @@
+{
+  "GetAvailableImagesBySpec" : {
+    "spec" : "Instance specification",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, default 10, maximum 100",
+    "osName" : "Image operating system name, e.g. Windows, CentOS, Ubuntu"
+  }
+}

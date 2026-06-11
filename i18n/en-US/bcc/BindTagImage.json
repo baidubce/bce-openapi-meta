@@ -1,0 +1,8 @@
+{
+  "BindTagImage" : {
+    "imageId" : "Image ID",
+    "changeTags" : "List of tags to bind",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value"
+  }
+}

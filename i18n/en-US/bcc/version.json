@@ -7,6 +7,14 @@
       "title" : "createVolume",
       "summary" : "createVolume"
     },
+    "RenameImage" : {
+      "title" : "renameImage",
+      "summary" : "renameImage"
+    },
+    "CreateImage" : {
+      "title" : "createImage",
+      "summary" : "createImage"
+    },
     "BindTagVolume" : {
       "title" : "bindTagVolume",
       "summary" : "bindTagVolume"
@@ -19,10 +27,6 @@
       "title" : "listVolumes",
       "summary" : "listVolumes"
     },
-    "AttachVolume" : {
-      "title" : "attachVolume",
-      "summary" : "attachVolume"
-    },
     "GetVolumeResizeProgress" : {
       "title" : "getVolumeResizeProgress",
       "summary" : "getVolumeResizeProgress"
@@ -31,6 +35,74 @@
       "title" : "getCdsPrice",
       "summary" : "getCdsPrice"
     },
+    "ListImages" : {
+      "title" : "listImages",
+      "summary" : "listImages"
+    },
+    "GetImage" : {
+      "title" : "getImage",
+      "summary" : "getImage"
+    },
+    "UnbindTagVolume" : {
+      "title" : "unbindTagVolume",
+      "summary" : "unbindTagVolume"
+    },
+    "DeleteImage" : {
+      "title" : "deleteImage",
+      "summary" : "deleteImage"
+    },
+    "ResizeVolume" : {
+      "title" : "resizeVolume",
+      "summary" : "resizeVolume"
+    },
+    "ShareImage" : {
+      "title" : "shareImage",
+      "summary" : "shareImage"
+    },
+    "UnShareImage" : {
+      "title" : "unShareImage",
+      "summary" : "unShareImage"
+    },
+    "GetDiskQuota" : {
+      "title" : "getDiskQuota",
+      "summary" : "getDiskQuota"
+    },
+    "ListSharedUser" : {
+      "title" : "listSharedUser",
+      "summary" : "listSharedUser"
+    },
+    "ListOs" : {
+      "title" : "listOs",
+      "summary" : "listOs"
+    },
+    "GetAvailableImagesBySpec" : {
+      "title" : "getAvailableImagesBySpec",
+      "summary" : "getAvailableImagesBySpec"
+    },
+    "CancelRemoteCopyImage" : {
+      "title" : "cancelRemoteCopyImage",
+      "summary" : "cancelRemoteCopyImage"
+    },
+    "BindTagImage" : {
+      "title" : "bindTagImage",
+      "summary" : "bindTagImage"
+    },
+    "UnbindTagImage" : {
+      "title" : "unbindTagImage",
+      "summary" : "unbindTagImage"
+    },
+    "ImportImage" : {
+      "title" : "importImage",
+      "summary" : "importImage"
+    },
+    "RemoteCopyImage" : {
+      "title" : "remoteCopyImage",
+      "summary" : "remoteCopyImage"
+    },
+    "AttachVolume" : {
+      "title" : "attachVolume",
+      "summary" : "attachVolume"
+    },
     "DetachVolume" : {
       "title" : "detachVolume",
       "summary" : "detachVolume"
@@ -38,18 +110,6 @@
     "ReleaseVolume" : {
       "title" : "releaseVolume",
       "summary" : "releaseVolume"
-    },
-    "UnbindTagVolume" : {
-      "title" : "unbindTagVolume",
-      "summary" : "unbindTagVolume"
-    },
-    "ResizeVolume" : {
-      "title" : "resizeVolume",
-      "summary" : "resizeVolume"
-    },
-    "GetDiskQuota" : {
-      "title" : "getDiskQuota",
-      "summary" : "getDiskQuota"
     },
     "RenameVolume" : {
       "title" : "renameVolume",
@@ -70,10 +130,6 @@
     "ModifyVolumeChargeType" : {
       "title" : "modifyVolumeChargeType",
       "summary" : "modifyVolumeChargeType"
-    },
-    "CreateInstanceBySpec" : {
-      "title" : "createInstanceBySpec",
-      "summary" : "createInstanceBySpec"
     }
   }
 }

@@ -1,0 +1,5 @@
+{
+  "ListSharedUser" : {
+    "imageId" : "The image ID to query"
+  }
+}

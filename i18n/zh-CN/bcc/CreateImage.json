@@ -1,0 +1,10 @@
+{
+  "CreateImage" : {
+    "imageName" : "待创建的自定义镜像名称，支持大小写字母、数字、中文以及-_ /.特殊字符，必须以字母开头，长度1-65",
+    "instanceId" : "当从实例创建镜像时，此参数是指用于创建镜像的实例ID。与snapshotId不同时存在，同时存在时只取instanceId",
+    "snapshotId" : "当从快照创建镜像时，此参数是指用于创建镜像的快照ID。与instanceId不同时存在，同时存在时只取instanceId",
+    "encryptKey" : "加密密钥",
+    "relateCds" : "是否创建包含了所有cds盘的大镜像，如果为true，镜像不能加密，且必须在白名单内，默认为false",
+    "detection" : "镜像检测，不配置此参数时不触发检测。如果为true，镜像创建完成后自动执行镜像检测。如果为false，不执行镜像检测。默认为false"
+  }
+}

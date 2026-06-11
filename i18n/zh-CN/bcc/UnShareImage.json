@@ -1,0 +1,8 @@
+{
+  "UnShareImage" : {
+    "imageId" : "待取消共享的镜像ID",
+    "account" : "待取消共享的用户名",
+    "accountId" : "待取消共享的用户ID",
+    "ucAccount" : "uc账号"
+  }
+}

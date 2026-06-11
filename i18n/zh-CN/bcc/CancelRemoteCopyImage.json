@@ -1,0 +1,5 @@
+{
+  "CancelRemoteCopyImage" : {
+    "imageId" : "待取消复制的镜像ID"
+  }
+}

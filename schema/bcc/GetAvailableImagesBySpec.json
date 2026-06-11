@@ -1,0 +1,45 @@
+{
+  "name" : "GetAvailableImagesBySpec",
+  "method" : "GET",
+  "uri" : "/v{version}/image/getAvailableImagesBySpec",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "spec",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetAvailableImagesBySpec.spec"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetAvailableImagesBySpec.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetAvailableImagesBySpec.maxKeys"
+  }, {
+    "name" : "osName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetAvailableImagesBySpec.osName"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "images"
+  },
+  "desc_key" : "bcc.GetAvailableImagesBySpec.desc"
+}

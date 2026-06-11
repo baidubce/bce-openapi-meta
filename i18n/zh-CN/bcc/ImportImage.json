@@ -1,0 +1,12 @@
+{
+  "ImportImage" : {
+    "osName" : "操作系统名称",
+    "osArch" : "操作系统位数",
+    "osType" : "操作系统类型",
+    "osVersion" : "操作系统版本",
+    "name" : "镜像名称,支持大小写字母、数字、中文以及-_ /.特殊字符，必须以字母开头，长度1-65。",
+    "bosUrl" : "bos镜像地址",
+    "detection" : "镜像检测，不配置此参数时不触发检测。如果为true，镜像导入后自动执行镜像检测。 如果为false，镜像导入后不执行镜像检测。默认取值：false。",
+    "generationType" : "导入的镜像适用于BCC还是EBC，枚举值：BCC、EBC，默认BCC"
+  }
+}

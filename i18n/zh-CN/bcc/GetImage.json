@@ -1,0 +1,5 @@
+{
+  "GetImage" : {
+    "imageId" : "待查询的镜像ID"
+  }
+}

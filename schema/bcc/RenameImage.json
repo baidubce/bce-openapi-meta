@@ -1,0 +1,26 @@
+{
+  "name" : "RenameImage",
+  "method" : "PUT",
+  "uri" : "/v{version}/image/rename",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "imageIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RenameImage.imageIds"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RenameImage.name"
+  } ],
+  "desc_key" : "bcc.RenameImage.desc"
+}

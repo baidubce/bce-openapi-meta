@@ -1,0 +1,8 @@
+{
+  "UnShareImage" : {
+    "imageId" : "ID of the image to unshare",
+    "account" : "Username to remove image sharing from",
+    "accountId" : "User ID to remove image sharing from",
+    "ucAccount" : "UC account"
+  }
+}

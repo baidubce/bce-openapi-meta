@@ -1,0 +1,32 @@
+{
+  "name" : "RemoteCopyImage",
+  "method" : "POST",
+  "uri" : "/v{version}/image/{imageId}?remoteCopy",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "imageId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.RemoteCopyImage.imageId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RemoteCopyImage.name"
+  }, {
+    "name" : "destRegion",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.RemoteCopyImage.destRegion"
+  } ],
+  "desc_key" : "bcc.RemoteCopyImage.desc"
+}

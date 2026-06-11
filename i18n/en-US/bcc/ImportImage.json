@@ -1,0 +1,12 @@
+{
+  "ImportImage" : {
+    "osName" : "Operating system name",
+    "osArch" : "Operating system architecture (bit width)",
+    "osType" : "Operating system type",
+    "osVersion" : "Operating system version",
+    "name" : "Image name. Supports uppercase and lowercase letters, digits, Chinese characters, and special characters -_ /. Must start with a letter. Length: 1–65 characters.",
+    "bosUrl" : "BOS image URL",
+    "detection" : "Image detection. If not set, detection is not triggered. If true, image detection runs automatically after import. If false, detection is skipped after import. Default: false.",
+    "generationType" : "Specifies whether the imported image is for BCC or EBC. Enum values: BCC, EBC. Default: BCC."
+  }
+}

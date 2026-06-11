@@ -1,0 +1,50 @@
+{
+  "name" : "CreateImage",
+  "method" : "POST",
+  "uri" : "/v{version}/image",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "imageName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateImage.imageName"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateImage.instanceId"
+  }, {
+    "name" : "snapshotId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateImage.snapshotId"
+  }, {
+    "name" : "encryptKey",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateImage.encryptKey"
+  }, {
+    "name" : "relateCds",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateImage.relateCds"
+  }, {
+    "name" : "detection",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateImage.detection"
+  } ],
+  "desc_key" : "bcc.CreateImage.desc"
+}

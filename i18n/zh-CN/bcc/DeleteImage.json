@@ -1,0 +1,5 @@
+{
+  "DeleteImage" : {
+    "imageId" : "待删除的镜像ID"
+  }
+}

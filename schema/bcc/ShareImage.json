@@ -1,0 +1,38 @@
+{
+  "name" : "ShareImage",
+  "method" : "POST",
+  "uri" : "/v{version}/image/{imageId}?share",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "imageId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ShareImage.imageId"
+  }, {
+    "name" : "account",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ShareImage.account"
+  }, {
+    "name" : "accountId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ShareImage.accountId"
+  }, {
+    "name" : "ucAccount",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ShareImage.ucAccount"
+  } ],
+  "desc_key" : "bcc.ShareImage.desc"
+}

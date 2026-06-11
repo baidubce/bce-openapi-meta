@@ -1,0 +1,7 @@
+{
+  "RemoteCopyImage" : {
+    "imageId" : "ID of the image to be copied",
+    "name" : "Name of the copied image",
+    "destRegion" : "Destination region ID(s), multiple values supported"
+  }
+}

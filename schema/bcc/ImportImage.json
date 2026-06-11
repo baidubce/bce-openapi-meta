@@ -1,0 +1,62 @@
+{
+  "name" : "ImportImage",
+  "method" : "POST",
+  "uri" : "/v{version}/image/import",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "osName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportImage.osName"
+  }, {
+    "name" : "osArch",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportImage.osArch"
+  }, {
+    "name" : "osType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportImage.osType"
+  }, {
+    "name" : "osVersion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportImage.osVersion"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportImage.name"
+  }, {
+    "name" : "bosUrl",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportImage.bosUrl"
+  }, {
+    "name" : "detection",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportImage.detection"
+  }, {
+    "name" : "generationType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportImage.generationType"
+  } ],
+  "desc_key" : "bcc.ImportImage.desc"
+}

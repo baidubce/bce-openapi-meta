@@ -1,0 +1,8 @@
+{
+  "ListImages" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000; default is 1000",
+    "imageType" : "Specifies the image type to query: All, System, BbcSystem, Custom, Integration, Sharing, GpuBccSystem, GpuBccCustom, FpgaBccSystem, FpgaBccCustom, EbcTotal, EbcSystem, EbcCustom; default is All",
+    "imageName" : "Filters images by name; returns only images whose names contain the specified string"
+  }
+}

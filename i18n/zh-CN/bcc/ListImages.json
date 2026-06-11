@@ -1,0 +1,8 @@
+{
+  "ListImages" : {
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量通常不超过1000。缺省值为1000",
+    "imageType" : "指定要查询何种类型的镜像，包括All、System、BbcSystem、Custom、Integration、Sharing、GpuBccSystem、GpuBccCustom、FpgaBccSystem、FpgaBccCustom、EbcTotal、EbcSystem、EbcCustom，缺省值为All",
+    "imageName" : "过滤查询镜像，返回名称中包含该字符串的镜像"
+  }
+}

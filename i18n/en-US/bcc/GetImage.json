@@ -1,0 +1,5 @@
+{
+  "GetImage" : {
+    "imageId" : "The image ID to query"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "UnbindTagImage" : {
+    "imageId" : "镜像ID",
+    "changeTags" : "待解绑的标签列表",
+    "changeTags.tagKey" : "标签键",
+    "changeTags.tagValue" : "标签值"
+  }
+}

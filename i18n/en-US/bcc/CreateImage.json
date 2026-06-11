@@ -1,0 +1,10 @@
+{
+  "CreateImage" : {
+    "imageName" : "Name of the custom image to create; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; must start with a letter; length 1-65",
+    "instanceId" : "ID of the instance used to create the image; mutually exclusive with snapshotId; if both are provided, instanceId takes precedence",
+    "snapshotId" : "ID of the snapshot used to create the image; mutually exclusive with instanceId; if both are provided, instanceId takes precedence",
+    "encryptKey" : "Encryption key",
+    "relateCds" : "Whether to create a large image containing all CDS disks; if true, the image cannot be encrypted and must be whitelisted; default is false",
+    "detection" : "Image detection configuration; not triggered if omitted; if true, detection runs automatically after image creation; if false, detection is skipped; default is false"
+  }
+}

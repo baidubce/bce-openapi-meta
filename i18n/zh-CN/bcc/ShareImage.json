@@ -1,0 +1,8 @@
+{
+  "ShareImage" : {
+    "imageId" : "待共享的镜像ID",
+    "account" : "待共享的用户名",
+    "accountId" : "待共享的用户ID",
+    "ucAccount" : "uc账号"
+  }
+}

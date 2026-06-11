@@ -1,0 +1,5 @@
+{
+  "DeleteImage" : {
+    "imageId" : "The ID of the image to be deleted"
+  }
+}
