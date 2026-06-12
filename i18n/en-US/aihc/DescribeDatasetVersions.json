@@ -1,0 +1,7 @@
+{
+  "DescribeDatasetVersions" : {
+    "datasetId" : "Dataset ID",
+    "pageNumber" : "Page number for pagination, default is 1",
+    "pageSize" : "Results per page, returns all if not specified"
+  }
+}

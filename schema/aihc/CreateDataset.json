@@ -1,0 +1,137 @@
+{
+  "name" : "CreateDataset",
+  "method" : "POST",
+  "uri" : "/?action=CreateDataset",
+  "parameters" : [ {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateDataset.name"
+  }, {
+    "name" : "storageType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateDataset.storageType"
+  }, {
+    "name" : "storageInstance",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateDataset.storageInstance"
+  }, {
+    "name" : "importFormat",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateDataset.importFormat"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateDataset.description"
+  }, {
+    "name" : "owner",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateDataset.owner"
+  }, {
+    "name" : "visibilityScope",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateDataset.visibilityScope"
+  }, {
+    "name" : "visibilityUser",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateDataset.visibilityUser",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.visibilityUser.id"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.visibilityUser.name"
+    }, {
+      "name" : "permission",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.visibilityUser.permission"
+    } ]
+  }, {
+    "name" : "visibilityGroup",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateDataset.visibilityGroup",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.visibilityGroup.id"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.visibilityGroup.name"
+    }, {
+      "name" : "permission",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.visibilityGroup.permission"
+    } ]
+  }, {
+    "name" : "initVersionEntry",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateDataset.initVersionEntry",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.initVersionEntry.id"
+    }, {
+      "name" : "version",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.initVersionEntry.version"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.initVersionEntry.description"
+    }, {
+      "name" : "storagePath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.initVersionEntry.storagePath"
+    }, {
+      "name" : "mountPath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.initVersionEntry.mountPath"
+    }, {
+      "name" : "createUser",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateDataset.initVersionEntry.createUser"
+    } ]
+  } ],
+  "desc_key" : "aihc.CreateDataset.desc"
+}

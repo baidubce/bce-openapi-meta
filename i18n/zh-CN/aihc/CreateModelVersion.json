@@ -1,0 +1,10 @@
+{
+  "CreateModelVersion" : {
+    "modelId" : "模型ID",
+    "storageBucket" : "模型存储的BOS桶",
+    "storagePath" : "BOS桶中的存储路径",
+    "description" : "描述",
+    "source" : "该版本模型的来源UserUpload：用户上传",
+    "modelMetrics" : "模型指标，JSON格式。格式如下，其中 Metrics、Dataset 中的内容用户可自定义填写：{\"Results\":[{\"Metrics\":{\"loss\":2.13,\"lr\":0.0005},\"Dataset\":{\"DatasetId\":\"ds-xxx\"}}]}"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name" : "CreateModelVersion",
+  "method" : "POST",
+  "uri" : "/?action=CreateModelVersion&modelId=xxx",
+  "parameters" : [ {
+    "name" : "modelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.CreateModelVersion.modelId"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "storageBucket",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModelVersion.storageBucket"
+  }, {
+    "name" : "storagePath",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModelVersion.storagePath"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModelVersion.description"
+  }, {
+    "name" : "source",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModelVersion.source"
+  }, {
+    "name" : "modelMetrics",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModelVersion.modelMetrics"
+  } ],
+  "desc_key" : "aihc.CreateModelVersion.desc"
+}

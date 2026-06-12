@@ -1,0 +1,6 @@
+{
+  "DescribeModelVersion" : {
+    "modelId" : "Model ID",
+    "versionId" : "Model version ID"
+  }
+}

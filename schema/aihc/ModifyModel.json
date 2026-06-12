@@ -1,0 +1,32 @@
+{
+  "name" : "ModifyModel",
+  "method" : "POST",
+  "uri" : "/?action=ModifyModel&modelId=xxx",
+  "parameters" : [ {
+    "name" : "modelId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.ModifyModel.modelId"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.ModifyModel.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.ModifyModel.description"
+  } ],
+  "desc_key" : "aihc.ModifyModel.desc"
+}

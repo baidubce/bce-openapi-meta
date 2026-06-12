@@ -1,0 +1,79 @@
+{
+  "version" : "v2",
+  "style" : "rpc",
+  "description" : "aihc",
+  "apis" : {
+    "DescribeModelVersions" : {
+      "title" : "describeModelVersions",
+      "summary" : "describeModelVersions"
+    },
+    "CreateDataset" : {
+      "title" : "createDataset",
+      "summary" : "createDataset"
+    },
+    "DescribeDatasets" : {
+      "title" : "describeDatasets",
+      "summary" : "describeDatasets"
+    },
+    "DescribeDatasetVersions" : {
+      "title" : "describeDatasetVersions",
+      "summary" : "describeDatasetVersions"
+    },
+    "ModifyDataset" : {
+      "title" : "modifyDataset",
+      "summary" : "modifyDataset"
+    },
+    "DescribeDatasetVersion" : {
+      "title" : "describeDatasetVersion",
+      "summary" : "describeDatasetVersion"
+    },
+    "DescribeDataset" : {
+      "title" : "describeDataset",
+      "summary" : "describeDataset"
+    },
+    "DeleteDataset" : {
+      "title" : "deleteDataset",
+      "summary" : "deleteDataset"
+    },
+    "CreateDatasetVersion" : {
+      "title" : "createDatasetVersion",
+      "summary" : "createDatasetVersion"
+    },
+    "DeleteDatasetVersion" : {
+      "title" : "deleteDatasetVersion",
+      "summary" : "deleteDatasetVersion"
+    },
+    "ModifyModel" : {
+      "title" : "modifyModel",
+      "summary" : "modifyModel"
+    },
+    "DeleteModelVersion" : {
+      "title" : "deleteModelVersion",
+      "summary" : "deleteModelVersion"
+    },
+    "DeleteModel" : {
+      "title" : "deleteModel",
+      "summary" : "deleteModel"
+    },
+    "CreateModelVersion" : {
+      "title" : "createModelVersion",
+      "summary" : "createModelVersion"
+    },
+    "CreateModel" : {
+      "title" : "createModel",
+      "summary" : "createModel"
+    },
+    "DescribeModelVersion" : {
+      "title" : "describeModelVersion",
+      "summary" : "describeModelVersion"
+    },
+    "DescribeModel" : {
+      "title" : "describeModel",
+      "summary" : "describeModel"
+    },
+    "DescribeModels" : {
+      "title" : "describeModels",
+      "summary" : "describeModels"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "DescribeDatasets" : {
+    "keyword" : "名称关键字",
+    "storageType" : "存储类型PFS：并行存储PFSBOS：对象存储BOS",
+    "storageInstances" : "存储实例列表，英文逗号(,)分隔",
+    "importFormat" : "导入格式FILE：文件FOLDER：文件夹",
+    "pageNumber" : "请求分页参数，表示第几页，默认值为1",
+    "pageSize" : "单页结果数，不传递该参数默认返回全部"
+  }
+}

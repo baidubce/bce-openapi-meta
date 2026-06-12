@@ -1,0 +1,86 @@
+{
+  "name" : "CreateModel",
+  "method" : "POST",
+  "uri" : "/?action=CreateModel",
+  "parameters" : [ {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModel.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModel.description"
+  }, {
+    "name" : "modelFormat",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModel.modelFormat"
+  }, {
+    "name" : "owner",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModel.owner"
+  }, {
+    "name" : "visibilityScope",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModel.visibilityScope"
+  }, {
+    "name" : "initVersionEntry",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateModel.initVersionEntry",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateModel.initVersionEntry.id"
+    }, {
+      "name" : "version",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateModel.initVersionEntry.version"
+    }, {
+      "name" : "source",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateModel.initVersionEntry.source"
+    }, {
+      "name" : "storageBucket",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateModel.initVersionEntry.storageBucket"
+    }, {
+      "name" : "storagePath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateModel.initVersionEntry.storagePath"
+    }, {
+      "name" : "modelMetrics",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateModel.initVersionEntry.modelMetrics"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateModel.initVersionEntry.description"
+    } ]
+  } ],
+  "desc_key" : "aihc.CreateModel.desc"
+}

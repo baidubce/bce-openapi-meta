@@ -1,0 +1,17 @@
+{
+  "CreateModel" : {
+    "name" : "模型名称支持小写字母、数字和-，必须以小写字母开头，必须以小写字母或数字结尾，长度限制1-50。",
+    "description" : "描述",
+    "modelFormat" : "模型格式，HuggingFace、MegatronCore等",
+    "owner" : "所有者，不传递时默认为创建者",
+    "visibilityScope" : "可见范围ONLY_OWNER：仅所有者可读写",
+    "initVersionEntry" : "初始版本相关信息",
+    "initVersionEntry.id" : "模型版本ID。新建版本时，无需指定ID。",
+    "initVersionEntry.version" : "版本号。新建版本时，无需指定版本号。",
+    "initVersionEntry.source" : "该版本模型的来源UserUpload：用户上传",
+    "initVersionEntry.storageBucket" : "模型存储的BOS桶",
+    "initVersionEntry.storagePath" : "BOS桶中的存储路径",
+    "initVersionEntry.modelMetrics" : "模型指标，JSON格式。格式如下，其中 Metrics、Dataset 中的内容用户可自定义填写：<br>{\"Results\":[{\"Metrics\":{\"loss\":2.13,\"lr\":0.0005},\"Dataset\":{\"DatasetId\":\"ds-xxx\"}}]}",
+    "initVersionEntry.description" : "版本描述"
+  }
+}

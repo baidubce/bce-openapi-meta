@@ -1,0 +1,6 @@
+{
+  "DescribeDatasetVersion" : {
+    "datasetId" : "数据集ID",
+    "versionId" : "数据集版本ID"
+  }
+}

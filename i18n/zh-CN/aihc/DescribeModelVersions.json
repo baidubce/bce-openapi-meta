@@ -1,0 +1,7 @@
+{
+  "DescribeModelVersions" : {
+    "modelId" : "模型ID",
+    "pageNumber" : "分页参数，没传默认1",
+    "pageSize" : "分页大小，没传默认返回全部"
+  }
+}

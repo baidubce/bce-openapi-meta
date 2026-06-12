@@ -1,0 +1,10 @@
+{
+  "CreateModelVersion" : {
+    "modelId" : "Model ID",
+    "storageBucket" : "BOS bucket where the model is stored",
+    "storagePath" : "Storage path within the BOS bucket",
+    "description" : "Description",
+    "source" : "Source of this model version; UserUpload: uploaded by user",
+    "modelMetrics" : "Model metrics in JSON format. Example (Metrics and Dataset fields are user-defined): {\"Results\":[{\"Metrics\":{\"loss\":2.13,\"lr\":0.0005},\"Dataset\":{\"DatasetId\":\"ds-xxx\"}}]}"
+  }
+}

@@ -168,5 +168,16 @@
       "su" : "bcc.su.baidubce.com",
       "yq" : "bcc.yq.baidubce.com"
     }
+  }, {
+    "code" : "aihc",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "aihc.bd.baidubce.com",
+      "bj" : "aihc.bj.baidubce.com",
+      "fwh" : "aihc.fwh.baidubce.com",
+      "gz" : "aihc.gz.baidubce.com",
+      "su" : "aihc.su.baidubce.com",
+      "yq" : "aihc.yq.baidubce.com"
+    }
   } ]
 }

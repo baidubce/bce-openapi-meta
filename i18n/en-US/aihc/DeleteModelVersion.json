@@ -1,0 +1,6 @@
+{
+  "DeleteModelVersion" : {
+    "modelId" : "Model ID",
+    "versionId" : "Model version ID"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "DescribeDatasetVersion",
+  "method" : "GET",
+  "uri" : "/?action=DescribeDatasetVersion&datasetId=xxx&versionId=xxx",
+  "parameters" : [ {
+    "name" : "datasetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeDatasetVersion.datasetId"
+  }, {
+    "name" : "versionId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeDatasetVersion.versionId"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "aihc.DescribeDatasetVersion.desc"
+}

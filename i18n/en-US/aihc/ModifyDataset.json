@@ -1,0 +1,16 @@
+{
+  "ModifyDataset" : {
+    "datasetId" : "Dataset ID",
+    "name" : "Dataset name",
+    "description" : "Description",
+    "visibilityScope" : "Visibility scope<br>ALL_PEOPLE: Visible to everyone<br>ONLY_OWNER: Read/write by owner only<br>USER_GROUP: Available to specified scope",
+    "visibilityUser" : "User permission list<br>[{\"id\": \"xxx\", \"name\": \"xxx\", \"permission\": \"r\"}, {\"id\": \"yyy\", \"name\": \"xxx\", \"permission\": \"rw\"}]",
+    "visibilityUser.id" : "User or user group ID",
+    "visibilityUser.name" : "User or user group name",
+    "visibilityUser.permission" : "Permission, enum values: r: read-only, rw: read-write",
+    "visibilityGroup" : "User group permission list<br>[{\"id\": \"xxx\", \"name\": \"xxx\", \"permission\": \"r\"}, {\"id\": \"yyy\", \"name\": \"xxx\", \"permission\": \"rw\"}]",
+    "visibilityGroup.id" : "User or user group ID",
+    "visibilityGroup.name" : "User or user group name",
+    "visibilityGroup.permission" : "Permission, enum values: r: read-only, rw: read-write"
+  }
+}

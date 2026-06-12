@@ -1,0 +1,17 @@
+{
+  "CreateModel" : {
+    "name" : "Model name supports lowercase letters, digits, and hyphens; must start with a lowercase letter, end with a lowercase letter or digit; length 1-50.",
+    "description" : "Description",
+    "modelFormat" : "Model format, e.g. HuggingFace, MegatronCore",
+    "owner" : "Owner; defaults to the creator if not specified",
+    "visibilityScope" : "Visibility scope. ONLY_OWNER: readable and writable by owner only",
+    "initVersionEntry" : "Initial version information",
+    "initVersionEntry.id" : "Model version ID. Not required when creating a new version.",
+    "initVersionEntry.version" : "Version number. Not required when creating a new version.",
+    "initVersionEntry.source" : "Source of this model version. UserUpload: uploaded by user",
+    "initVersionEntry.storageBucket" : "BOS bucket where the model is stored",
+    "initVersionEntry.storagePath" : "Storage path within the BOS bucket",
+    "initVersionEntry.modelMetrics" : "Model metrics in JSON format. Example, where Metrics and Dataset fields are user-defined:<br>{\"Results\":[{\"Metrics\":{\"loss\":2.13,\"lr\":0.0005},\"Dataset\":{\"DatasetId\":\"ds-xxx\"}}]}",
+    "initVersionEntry.description" : "Version description"
+  }
+}

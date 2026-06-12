@@ -1,0 +1,8 @@
+{
+  "CreateDatasetVersion" : {
+    "datasetId" : "Dataset ID",
+    "description" : "Version description",
+    "storagePath" : "Storage path",
+    "mountPath" : "Default mount path"
+  }
+}

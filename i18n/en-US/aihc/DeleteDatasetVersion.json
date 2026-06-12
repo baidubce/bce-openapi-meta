@@ -1,0 +1,6 @@
+{
+  "DeleteDatasetVersion" : {
+    "datasetId" : "Dataset ID",
+    "versionId" : "Dataset version ID"
+  }
+}

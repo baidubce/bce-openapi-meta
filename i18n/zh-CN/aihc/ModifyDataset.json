@@ -1,0 +1,16 @@
+{
+  "ModifyDataset" : {
+    "datasetId" : "数据集ID",
+    "name" : "数据集名称",
+    "description" : "描述",
+    "visibilityScope" : "可见范围<br>ALL_PEOPLE：所有人可见<br>ONLY_OWNER：仅所有者可读写<br>USER_GROUP：指定范围可用",
+    "visibilityUser" : "用户权限列表<br>[{\"id\": \"xxx\", \"name\": \"xxx\", \"permission\": \"r\"}, {\"id\": \"yyy\", \"name\": \"xxx\", \"permission\": \"rw\"}]",
+    "visibilityUser.id" : "用户或用户组ID",
+    "visibilityUser.name" : "用户或用户组名",
+    "visibilityUser.permission" : "权限，枚举值：r：只读rw：读写",
+    "visibilityGroup" : "用户组权限列表<br>[{\"id\": \"xxx\", \"name\": \"xxx\", \"permission\": \"r\"}, {\"id\": \"yyy\", \"name\": \"xxx\", \"permission\": \"rw\"}]",
+    "visibilityGroup.id" : "用户或用户组ID",
+    "visibilityGroup.name" : "用户或用户组名",
+    "visibilityGroup.permission" : "权限，枚举值：r：只读rw：读写"
+  }
+}

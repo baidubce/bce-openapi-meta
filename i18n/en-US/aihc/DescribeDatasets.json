@@ -1,0 +1,10 @@
+{
+  "DescribeDatasets" : {
+    "keyword" : "Name keyword",
+    "storageType" : "Storage type: PFS (Parallel File Storage), BOS (Object Storage)",
+    "storageInstances" : "Storage instance list, comma-separated",
+    "importFormat" : "Import format: FILE (file), FOLDER (folder)",
+    "pageNumber" : "Page number for pagination, default is 1",
+    "pageSize" : "Number of results per page, returns all if not specified"
+  }
+}

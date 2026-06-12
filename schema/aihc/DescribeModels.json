@@ -1,0 +1,32 @@
+{
+  "name" : "DescribeModels",
+  "method" : "GET",
+  "uri" : "/?action=DescribeModels&keyword=xxx&pageNumber=xxx&pageSize=xxx",
+  "parameters" : [ {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeModels.keyword"
+  }, {
+    "name" : "pageNumber",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeModels.pageNumber"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeModels.pageSize"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "aihc.DescribeModels.desc"
+}

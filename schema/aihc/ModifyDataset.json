@@ -1,0 +1,82 @@
+{
+  "name" : "ModifyDataset",
+  "method" : "POST",
+  "uri" : "/?action=ModifyDataset&datasetId=xxx",
+  "parameters" : [ {
+    "name" : "datasetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.ModifyDataset.datasetId"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.ModifyDataset.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.ModifyDataset.description"
+  }, {
+    "name" : "visibilityScope",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.ModifyDataset.visibilityScope"
+  }, {
+    "name" : "visibilityUser",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.ModifyDataset.visibilityUser",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.ModifyDataset.visibilityUser.id"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.ModifyDataset.visibilityUser.name"
+    }, {
+      "name" : "permission",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.ModifyDataset.visibilityUser.permission"
+    } ]
+  }, {
+    "name" : "visibilityGroup",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.ModifyDataset.visibilityGroup",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.ModifyDataset.visibilityGroup.id"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.ModifyDataset.visibilityGroup.name"
+    }, {
+      "name" : "permission",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.ModifyDataset.visibilityGroup.permission"
+    } ]
+  } ],
+  "desc_key" : "aihc.ModifyDataset.desc"
+}

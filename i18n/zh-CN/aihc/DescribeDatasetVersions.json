@@ -1,0 +1,7 @@
+{
+  "DescribeDatasetVersions" : {
+    "datasetId" : "数据集ID",
+    "pageNumber" : "请求分页参数，表示第几页，默认值为1",
+    "pageSize" : "单页结果数，不传递该参数默认返回全部"
+  }
+}

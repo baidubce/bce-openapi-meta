@@ -1,0 +1,79 @@
+{
+  "version" : "v2",
+  "style" : "rpc",
+  "description" : "百度百舸·AI计算平台",
+  "apis" : {
+    "DescribeModelVersions" : {
+      "title" : "获取模型版本列表",
+      "summary" : "获取模型版本列表"
+    },
+    "CreateDataset" : {
+      "title" : "创建数据集",
+      "summary" : "创建数据集"
+    },
+    "DescribeDatasets" : {
+      "title" : "获取数据集列表",
+      "summary" : "获取数据集列表"
+    },
+    "DescribeDatasetVersions" : {
+      "title" : "获取数据集版本列表",
+      "summary" : "获取数据集版本列表"
+    },
+    "ModifyDataset" : {
+      "title" : "修改数据集",
+      "summary" : "修改数据集"
+    },
+    "DescribeDatasetVersion" : {
+      "title" : "获取数据集版本详情",
+      "summary" : "获取数据集版本详情"
+    },
+    "DescribeDataset" : {
+      "title" : "获取数据集详情",
+      "summary" : "获取数据集详情"
+    },
+    "DeleteDataset" : {
+      "title" : "删除数据集",
+      "summary" : "删除数据集"
+    },
+    "CreateDatasetVersion" : {
+      "title" : "创建数据集版本",
+      "summary" : "创建数据集版本"
+    },
+    "DeleteDatasetVersion" : {
+      "title" : "删除数据集版本",
+      "summary" : "删除数据集版本"
+    },
+    "ModifyModel" : {
+      "title" : "修改模型",
+      "summary" : "修改模型"
+    },
+    "DeleteModelVersion" : {
+      "title" : "删除模型版本",
+      "summary" : "删除模型版本"
+    },
+    "DeleteModel" : {
+      "title" : "删除模型",
+      "summary" : "删除模型"
+    },
+    "CreateModelVersion" : {
+      "title" : "新建模型版本",
+      "summary" : "新建模型版本"
+    },
+    "CreateModel" : {
+      "title" : "创建模型",
+      "summary" : "创建模型"
+    },
+    "DescribeModelVersion" : {
+      "title" : "获取模型版本详情",
+      "summary" : "获取模型版本详情"
+    },
+    "DescribeModel" : {
+      "title" : "获取模型详情",
+      "summary" : "获取模型详情"
+    },
+    "DescribeModels" : {
+      "title" : "获取模型列表",
+      "summary" : "获取模型列表"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "CreateDataset" : {
+    "name" : "数据集名称支持小写字母、数字和-，必须以小写字母开头，必须以小写字母或数字结尾，长度限制1-50。",
+    "storageType" : "存储类型，可选项：PFS、BOS",
+    "storageInstance" : "存储实例ID，对应PFS、BOS的ID",
+    "importFormat" : "导入格式<br>FILE：文件<br>FOLDER：文件夹",
+    "description" : "数据集的描述",
+    "owner" : "所有者，不传递时默认为创建者",
+    "visibilityScope" : "可见范围<br>ALL_PEOPLE：所有人可见<br>ONLY_OWNER：仅所有者可读写<br>USER_GROUP：指定范围可用",
+    "visibilityUser" : "用户权限列表<br>[{\"id\": \"xxx\", \"name\": \"xxx\", \"permission\": \"r\"}, {\"id\": \"yyy\", \"name\": \"xxx\", \"permission\": \"rw\"}]",
+    "visibilityUser.id" : "用户或用户组ID",
+    "visibilityUser.name" : "用户或用户组名",
+    "visibilityUser.permission" : "权限，枚举值：r：只读rw：读写",
+    "visibilityGroup" : "用户组权限列表<br>[{\"id\": \"xxx\", \"name\": \"xxx\", \"permission\": \"r\"}, {\"id\": \"yyy\", \"name\": \"xxx\", \"permission\": \"rw\"}]",
+    "visibilityGroup.id" : "用户或用户组ID",
+    "visibilityGroup.name" : "用户或用户组名",
+    "visibilityGroup.permission" : "权限，枚举值：r：只读rw：读写",
+    "initVersionEntry" : "初始版本相关信息",
+    "initVersionEntry.id" : "数据集版本ID。新建版本时，无需指定ID。",
+    "initVersionEntry.version" : "版本号。新建版本时，无需指定版本号。",
+    "initVersionEntry.description" : "版本描述",
+    "initVersionEntry.storagePath" : "存储路径",
+    "initVersionEntry.mountPath" : "默认挂载路径",
+    "initVersionEntry.createUser" : "创建用户"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name" : "DescribeDatasets",
+  "method" : "GET",
+  "uri" : "/?action=DescribeDatasets&keyword=xxx&storageType=xxx&storageInstances=xxx&importFormat=xxx&pageNumber=xxx&pageSize=xxx",
+  "parameters" : [ {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeDatasets.keyword"
+  }, {
+    "name" : "storageType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeDatasets.storageType"
+  }, {
+    "name" : "storageInstances",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeDatasets.storageInstances"
+  }, {
+    "name" : "importFormat",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeDatasets.importFormat"
+  }, {
+    "name" : "pageNumber",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeDatasets.pageNumber"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeDatasets.pageSize"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "aihc.DescribeDatasets.desc"
+}

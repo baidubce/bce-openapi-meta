@@ -1,0 +1,6 @@
+{
+  "DeleteModelVersion" : {
+    "modelId" : "模型ID",
+    "versionId" : "模型版本ID"
+  }
+}

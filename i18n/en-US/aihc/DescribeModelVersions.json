@@ -1,0 +1,7 @@
+{
+  "DescribeModelVersions" : {
+    "modelId" : "Model ID",
+    "pageNumber" : "Page number, defaults to 1 if not provided",
+    "pageSize" : "Page size, returns all if not provided"
+  }
+}

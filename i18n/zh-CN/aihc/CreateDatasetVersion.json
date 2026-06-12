@@ -1,0 +1,8 @@
+{
+  "CreateDatasetVersion" : {
+    "datasetId" : "数据集ID",
+    "description" : "版本描述",
+    "storagePath" : "存储路径",
+    "mountPath" : "默认挂载路径"
+  }
+}

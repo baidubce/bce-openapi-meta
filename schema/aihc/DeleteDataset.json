@@ -1,0 +1,20 @@
+{
+  "name" : "DeleteDataset",
+  "method" : "POST",
+  "uri" : "/?action=DeleteDataset&datasetId=xxx",
+  "parameters" : [ {
+    "name" : "datasetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DeleteDataset.datasetId"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "aihc.DeleteDataset.desc"
+}
