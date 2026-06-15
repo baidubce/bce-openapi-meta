@@ -1,7 +1,7 @@
 {
   "name" : "DeleteDatasetVersion",
   "method" : "POST",
-  "uri" : "/?action=DeleteDatasetVersion&datasetId=xxx&versionId=xxx",
+  "uri" : "/?action=DeleteDatasetVersion",
   "parameters" : [ {
     "name" : "datasetId",
     "type" : "String",

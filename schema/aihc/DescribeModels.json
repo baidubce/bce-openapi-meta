@@ -1,7 +1,7 @@
 {
   "name" : "DescribeModels",
   "method" : "GET",
-  "uri" : "/?action=DescribeModels&keyword=xxx&pageNumber=xxx&pageSize=xxx",
+  "uri" : "/?action=DescribeModels",
   "parameters" : [ {
     "name" : "keyword",
     "type" : "String",

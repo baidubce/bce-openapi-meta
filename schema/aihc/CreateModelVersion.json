@@ -1,7 +1,7 @@
 {
   "name" : "CreateModelVersion",
   "method" : "POST",
-  "uri" : "/?action=CreateModelVersion&modelId=xxx",
+  "uri" : "/?action=CreateModelVersion",
   "parameters" : [ {
     "name" : "modelId",
     "type" : "String",

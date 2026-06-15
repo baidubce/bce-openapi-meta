@@ -1,7 +1,7 @@
 {
   "name" : "DeleteModelVersion",
   "method" : "POST",
-  "uri" : "/?action=DeleteModelVersion&modelId=xxx&versionId=xxx",
+  "uri" : "/?action=DeleteModelVersion",
   "parameters" : [ {
     "name" : "modelId",
     "type" : "String",

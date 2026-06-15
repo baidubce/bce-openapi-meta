@@ -1,7 +1,7 @@
 {
   "name" : "DescribeDataset",
   "method" : "GET",
-  "uri" : "/?action=DescribeDataset&datasetId=xxx",
+  "uri" : "/?action=DescribeDataset",
   "parameters" : [ {
     "name" : "datasetId",
     "type" : "String",

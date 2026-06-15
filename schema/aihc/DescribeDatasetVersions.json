@@ -1,7 +1,7 @@
 {
   "name" : "DescribeDatasetVersions",
   "method" : "GET",
-  "uri" : "/?action=DescribeDatasetVersions&datasetId=xxx&pageNumber=xxx&pageSize=xxx",
+  "uri" : "/?action=DescribeDatasetVersions",
   "parameters" : [ {
     "name" : "datasetId",
     "type" : "String",

@@ -1,7 +1,7 @@
 {
   "name" : "DescribeModelVersions",
   "method" : "GET",
-  "uri" : "/?action=DescribeModelVersions&modelId=xxx&pageNumber=xxx&pageSize=xxx",
+  "uri" : "/?action=DescribeModelVersions",
   "parameters" : [ {
     "name" : "modelId",
     "type" : "String",

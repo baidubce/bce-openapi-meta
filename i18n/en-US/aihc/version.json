@@ -3,13 +3,13 @@
   "style" : "rpc",
   "description" : "aihc",
   "apis" : {
-    "DescribeModelVersions" : {
-      "title" : "describeModelVersions",
-      "summary" : "describeModelVersions"
-    },
     "CreateDataset" : {
       "title" : "createDataset",
       "summary" : "createDataset"
+    },
+    "DeleteDataset" : {
+      "title" : "deleteDataset",
+      "summary" : "deleteDataset"
     },
     "DescribeDatasets" : {
       "title" : "describeDatasets",
@@ -23,18 +23,6 @@
       "title" : "modifyDataset",
       "summary" : "modifyDataset"
     },
-    "DescribeDatasetVersion" : {
-      "title" : "describeDatasetVersion",
-      "summary" : "describeDatasetVersion"
-    },
-    "DescribeDataset" : {
-      "title" : "describeDataset",
-      "summary" : "describeDataset"
-    },
-    "DeleteDataset" : {
-      "title" : "deleteDataset",
-      "summary" : "deleteDataset"
-    },
     "CreateDatasetVersion" : {
       "title" : "createDatasetVersion",
       "summary" : "createDatasetVersion"
@@ -42,6 +30,14 @@
     "DeleteDatasetVersion" : {
       "title" : "deleteDatasetVersion",
       "summary" : "deleteDatasetVersion"
+    },
+    "DescribeDatasetVersion" : {
+      "title" : "describeDatasetVersion",
+      "summary" : "describeDatasetVersion"
+    },
+    "DescribeDataset" : {
+      "title" : "describeDataset",
+      "summary" : "describeDataset"
     },
     "ModifyModel" : {
       "title" : "modifyModel",
@@ -51,18 +47,6 @@
       "title" : "deleteModelVersion",
       "summary" : "deleteModelVersion"
     },
-    "DeleteModel" : {
-      "title" : "deleteModel",
-      "summary" : "deleteModel"
-    },
-    "CreateModelVersion" : {
-      "title" : "createModelVersion",
-      "summary" : "createModelVersion"
-    },
-    "CreateModel" : {
-      "title" : "createModel",
-      "summary" : "createModel"
-    },
     "DescribeModelVersion" : {
       "title" : "describeModelVersion",
       "summary" : "describeModelVersion"
@@ -71,9 +55,25 @@
       "title" : "describeModel",
       "summary" : "describeModel"
     },
+    "DeleteModel" : {
+      "title" : "deleteModel",
+      "summary" : "deleteModel"
+    },
+    "CreateModelVersion" : {
+      "title" : "createModelVersion",
+      "summary" : "createModelVersion"
+    },
     "DescribeModels" : {
       "title" : "describeModels",
       "summary" : "describeModels"
+    },
+    "DescribeModelVersions" : {
+      "title" : "describeModelVersions",
+      "summary" : "describeModelVersions"
+    },
+    "CreateModel" : {
+      "title" : "createModel",
+      "summary" : "createModel"
     }
   }
 }

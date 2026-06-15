@@ -1,7 +1,7 @@
 {
   "name" : "ModifyDataset",
   "method" : "POST",
-  "uri" : "/?action=ModifyDataset&datasetId=xxx",
+  "uri" : "/?action=ModifyDataset",
   "parameters" : [ {
     "name" : "datasetId",
     "type" : "String",

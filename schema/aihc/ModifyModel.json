@@ -1,7 +1,7 @@
 {
   "name" : "ModifyModel",
   "method" : "POST",
-  "uri" : "/?action=ModifyModel&modelId=xxx",
+  "uri" : "/?action=ModifyModel",
   "parameters" : [ {
     "name" : "modelId",
     "type" : "String",

@@ -1,7 +1,7 @@
 {
   "name" : "DeleteModel",
   "method" : "POST",
-  "uri" : "/?action=DeleteModel&modelId=xxx",
+  "uri" : "/?action=DeleteModel",
   "parameters" : [ {
     "name" : "modelId",
     "type" : "String",

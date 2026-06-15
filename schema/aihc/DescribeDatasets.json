@@ -1,7 +1,7 @@
 {
   "name" : "DescribeDatasets",
   "method" : "GET",
-  "uri" : "/?action=DescribeDatasets&keyword=xxx&storageType=xxx&storageInstances=xxx&importFormat=xxx&pageNumber=xxx&pageSize=xxx",
+  "uri" : "/?action=DescribeDatasets",
   "parameters" : [ {
     "name" : "keyword",
     "type" : "String",

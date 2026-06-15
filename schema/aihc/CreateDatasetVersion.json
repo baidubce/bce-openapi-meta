@@ -1,7 +1,7 @@
 {
   "name" : "CreateDatasetVersion",
   "method" : "POST",
-  "uri" : "/?action=CreateDatasetVersion&datasetId=xxx",
+  "uri" : "/?action=CreateDatasetVersion",
   "parameters" : [ {
     "name" : "datasetId",
     "type" : "String",
