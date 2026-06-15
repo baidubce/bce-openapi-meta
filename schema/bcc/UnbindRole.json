@@ -1,0 +1,32 @@
+{
+  "name" : "UnbindRole",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/role?unbind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "roleName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindRole.roleName"
+  }, {
+    "name" : "instances",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindRole.instances",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.UnbindRole.instances.instanceId"
+    } ]
+  } ],
+  "desc_key" : "bcc.UnbindRole.desc"
+}

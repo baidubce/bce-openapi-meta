@@ -1,0 +1,5 @@
+{
+  "DeleteRecycledInstance" : {
+    "instanceId" : "The ID of the instance to be released from recycle bin"
+  }
+}

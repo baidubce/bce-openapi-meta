@@ -1,0 +1,6 @@
+{
+  "UnbindInstanceFromSecurityGroup" : {
+    "instanceId" : "实例ID",
+    "securityGroupId" : "要从该实例取消关联的安全组ID"
+  }
+}

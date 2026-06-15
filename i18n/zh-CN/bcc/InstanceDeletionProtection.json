@@ -1,0 +1,6 @@
+{
+  "InstanceDeletionProtection" : {
+    "instanceId" : "待设置删除保护的实例ID",
+    "deletionProtection" : "删除保护策略，默认0，不设置"
+  }
+}

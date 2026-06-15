@@ -1,0 +1,6 @@
+{
+  "DeleteInstanceDeploySet" : {
+    "deployId" : "Deployment set ID",
+    "instanceIdList" : "List of instance IDs"
+  }
+}

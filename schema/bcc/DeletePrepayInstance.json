@@ -1,0 +1,38 @@
+{
+  "name" : "DeletePrepayInstance",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/delete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.DeletePrepayInstance.instanceId"
+  }, {
+    "name" : "relatedReleaseFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DeletePrepayInstance.relatedReleaseFlag"
+  }, {
+    "name" : "deleteCdsSnapshotFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DeletePrepayInstance.deleteCdsSnapshotFlag"
+  }, {
+    "name" : "deleteRelatedEnisFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DeletePrepayInstance.deleteRelatedEnisFlag"
+  } ],
+  "desc_key" : "bcc.DeletePrepayInstance.desc"
+}

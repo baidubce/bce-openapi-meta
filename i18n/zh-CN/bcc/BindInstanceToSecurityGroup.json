@@ -1,0 +1,6 @@
+{
+  "BindInstanceToSecurityGroup" : {
+    "instanceId" : "虚拟机实例ID",
+    "securityGroupId" : "要关联到该实例上的安全组ID"
+  }
+}

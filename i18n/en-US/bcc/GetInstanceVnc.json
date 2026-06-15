@@ -1,0 +1,5 @@
+{
+  "GetInstanceVnc" : {
+    "instanceId" : "Virtual machine instance ID"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "BindRole" : {
+    "roleName" : "Role name to bind to the instance",
+    "instances" : "List of instance IDs to bind the role to",
+    "instances.instanceId" : "Instance ID"
+  }
+}

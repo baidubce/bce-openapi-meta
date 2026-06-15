@@ -1,0 +1,32 @@
+{
+  "name" : "BatchStopInstance",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/batchAction?stop",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchStopInstance.instanceIds"
+  }, {
+    "name" : "forceStop",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchStopInstance.forceStop"
+  }, {
+    "name" : "stopWithNoCharge",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchStopInstance.stopWithNoCharge"
+  } ],
+  "desc_key" : "bcc.BatchStopInstance.desc"
+}

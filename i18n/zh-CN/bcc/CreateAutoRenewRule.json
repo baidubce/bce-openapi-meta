@@ -1,0 +1,8 @@
+{
+  "CreateAutoRenewRule" : {
+    "instanceId" : "实例Id",
+    "renewTimeUnit" : "续费时间，单位：month，支持1, 2, 3, 4, 5, 6, 7, 8, 9；单位：year，支持1, 2, 3",
+    "renewTime" : "续费时长",
+    "renewEip" : "是否合并eip自动续费，默认值为true。"
+  }
+}

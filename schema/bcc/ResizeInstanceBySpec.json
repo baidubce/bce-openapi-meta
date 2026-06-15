@@ -1,0 +1,38 @@
+{
+  "name" : "ResizeInstanceBySpec",
+  "method" : "PUT",
+  "uri" : "/v{version}/instanceBySpec/{instanceId}?resize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ResizeInstanceBySpec.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ResizeInstanceBySpec.action"
+  }, {
+    "name" : "spec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ResizeInstanceBySpec.spec"
+  }, {
+    "name" : "enableJumboFrame",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ResizeInstanceBySpec.enableJumboFrame"
+  } ],
+  "desc_key" : "bcc.ResizeInstanceBySpec.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "ModifyRelatedDeletePolicy" : {
+    "instanceId" : "The instance ID to be configured",
+    "isEipAutoRelatedDelete" : "Whether the postpaid EIP bound to the instance is automatically released when the instance is deleted. Yes: true, No: false"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "RebootInstance" : {
+    "instanceId" : "The ID of the instance to reboot",
+    "forceStop" : "Whether to force stop the instance; valid values: true, false; default is false"
+  }
+}

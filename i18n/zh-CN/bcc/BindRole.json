@@ -1,0 +1,7 @@
+{
+  "BindRole" : {
+    "roleName" : "实例绑定的角色名称",
+    "instances" : "要绑定角色的实例id列表",
+    "instances.instanceId" : "实例ID"
+  }
+}

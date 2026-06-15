@@ -1,0 +1,10 @@
+{
+  "ChangeVpc" : {
+    "instanceId" : "虚机ID",
+    "subnetId" : "目标VPC的子网ID",
+    "internalIp" : "内网IP",
+    "securityGroupIds" : "安全组列表",
+    "enterpriseSecurityGroupIds" : "企业安全组列表，不能同时指定普通安全组和企业安全组",
+    "reboot" : "是否重启实例"
+  }
+}

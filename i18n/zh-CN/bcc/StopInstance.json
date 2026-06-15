@@ -1,0 +1,7 @@
+{
+  "StopInstance" : {
+    "instanceId" : "待启动的实例ID",
+    "forceStop" : "指定实例是否强制关机，可选值：true、false，缺省为false",
+    "stopWithNoCharge" : "指定实例是否关机不计费，可选值：true、false，缺省为false"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ListInstances" : {
+    "marker" : "Starting position for paginated list query, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000, default is 1000",
+    "internalIp" : "Internal (private) IP address",
+    "dedicatedHostId" : "Dedicated host ID",
+    "zoneName" : "Availability zone information",
+    "showRdmaTopo" : "Whether to retrieve RDMA high-performance network topology information",
+    "instanceIds" : "Multiple instance IDs, comma-separated, up to 100",
+    "instanceNames" : "Multiple instance names, comma-separated, exact match, up to 100",
+    "fuzzyInstanceName" : "Instance name supporting fuzzy keyword search; mutually exclusive with instanceNames",
+    "volumeIds" : "Multiple volume IDs, comma-separated, up to 100",
+    "deploySetIds" : "Multiple deploy set IDs, comma-separated, up to 100",
+    "securityGroupIds" : "Multiple security group IDs, comma-separated, up to 100",
+    "paymentTiming" : "Payment type (Prepaid / Postpaid)",
+    "status" : "Instance status (Recycled / Running / Stopped / Stopping / Starting)",
+    "tags" : "Multiple tags, comma-separated, format: tagKey:tagValue or tagKey",
+    "vpcId" : "VPC ID, can only be used in combination with privateIps",
+    "privateIps" : "Multiple private IPs, comma-separated, up to 100, must be used with vpcId",
+    "ehcClusterId" : "EHC cluster ID"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "BatchRefundResource" : {
+    "instanceIds" : "List of instance IDs, up to 20 instances per operation",
+    "relatedReleaseFlag" : "Whether to release associated EIPs and data disks at the time of instance release. Default: false. Note: prepaid CDS disks associated with the instance will be forcibly released with it.",
+    "deleteCdsSnapshotFlag" : "Whether to release cloud disk snapshots. Default: false, not released.",
+    "deleteRelatedEnisFlag" : "Whether to delete associated ENIs when the instance is released. Default: false, not deleted."
+  }
+}

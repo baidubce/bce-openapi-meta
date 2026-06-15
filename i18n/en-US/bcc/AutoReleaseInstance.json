@@ -1,0 +1,7 @@
+{
+  "AutoReleaseInstance" : {
+    "instanceId" : "Instance ID",
+    "isEipAutoRelatedDelete" : "Whether the postpaid EIP bound to the instance is automatically released along with the postpaid instance. true: yes, false: no. Takes effect only when the public bandwidth billing method is pay-by-bandwidth or pay-by-traffic. Default: false.",
+    "releaseTime" : "Release time in format yyyy-MM-dd'T'HH:mm:ss'Z'. If not specified, the scheduled release is cancelled."
+  }
+}

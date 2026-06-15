@@ -1,0 +1,8 @@
+{
+  "BatchChangeToPostpaid" : {
+    "config" : "需要批量转按量付费实例的配置，最多支持20个",
+    "config.instanceId" : "实例ID",
+    "config.cdsList" : "（该参数已废弃，bcc挂载的包年包月CDS数据盘必须一起转按量付费）变更关联的数据盘列表，默认为空，all表示关联的全部数据盘（例\"cdsList\":[\"all\"]，若仅变更部分关联数据盘，传具体的数据盘id）",
+    "config.effectiveType" : "生效方式，可选参数：AtOnce（立即转按量付费）、AfterExpiration（到期后转按量付费）。不传默认为到期后按量付费。批量操作该参数必须保持一致。"
+  }
+}

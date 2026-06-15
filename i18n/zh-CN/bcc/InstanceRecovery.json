@@ -1,0 +1,6 @@
+{
+  "InstanceRecovery" : {
+    "instanceIds" : "实例ID列表，最多支持100个",
+    "instanceIds.instanceId" : "实例ID"
+  }
+}

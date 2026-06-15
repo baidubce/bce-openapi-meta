@@ -1,0 +1,9 @@
+{
+  "UpdateInstanceSubnet" : {
+    "instanceId" : "Virtual machine instance ID",
+    "subnetId" : "Target subnet ID after the change",
+    "internalIp" : "Specified private IP address; randomly assigned if not specified",
+    "securityGroupIds" : "Update standard security groups; takes effect when changing subnet across VPCs; cannot be modified simultaneously with enterprise security groups",
+    "enterpriseSecurityGroupIds" : "Update enterprise security groups; takes effect when changing subnet across VPCs; cannot be modified simultaneously with standard security groups"
+  }
+}

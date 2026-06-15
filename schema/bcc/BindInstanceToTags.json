@@ -1,0 +1,43 @@
+{
+  "name" : "BindInstanceToTags",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}/tag?bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.BindInstanceToTags.instanceId"
+  }, {
+    "name" : "changeTags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BindInstanceToTags.changeTags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.BindInstanceToTags.changeTags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.BindInstanceToTags.changeTags.tagValue"
+    } ]
+  }, {
+    "name" : "attachRelatedResourceTag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BindInstanceToTags.attachRelatedResourceTag"
+  } ],
+  "desc_key" : "bcc.BindInstanceToTags.desc"
+}

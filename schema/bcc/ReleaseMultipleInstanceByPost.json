@@ -1,0 +1,50 @@
+{
+  "name" : "ReleaseMultipleInstanceByPost",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/batchDelete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseMultipleInstanceByPost.instanceIds"
+  }, {
+    "name" : "relatedReleaseFlag",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseMultipleInstanceByPost.relatedReleaseFlag"
+  }, {
+    "name" : "deleteRelatedCdsFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseMultipleInstanceByPost.deleteRelatedCdsFlag"
+  }, {
+    "name" : "deleteCdsSnapshotFlag",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseMultipleInstanceByPost.deleteCdsSnapshotFlag"
+  }, {
+    "name" : "deleteRelatedEnisFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseMultipleInstanceByPost.deleteRelatedEnisFlag"
+  }, {
+    "name" : "bccRecycleFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseMultipleInstanceByPost.bccRecycleFlag"
+  } ],
+  "desc_key" : "bcc.ReleaseMultipleInstanceByPost.desc"
+}

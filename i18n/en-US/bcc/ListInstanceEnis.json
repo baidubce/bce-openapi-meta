@@ -1,0 +1,5 @@
+{
+  "ListInstanceEnis" : {
+    "instanceId" : "The ID of the virtual machine to which the NIC is attached"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "DeleteRecycledInstance",
+  "method" : "DELETE",
+  "uri" : "/v{version}/recycle/instance/{instanceId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.DeleteRecycledInstance.instanceId"
+  } ],
+  "desc_key" : "bcc.DeleteRecycledInstance.desc"
+}

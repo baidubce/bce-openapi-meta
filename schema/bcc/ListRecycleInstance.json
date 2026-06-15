@@ -1,0 +1,56 @@
+{
+  "name" : "ListRecycleInstance",
+  "method" : "POST",
+  "uri" : "/v{version}/recycle/instance",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListRecycleInstance.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListRecycleInstance.maxKeys"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListRecycleInstance.instanceId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListRecycleInstance.name"
+  }, {
+    "name" : "paymentTiming",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListRecycleInstance.paymentTiming"
+  }, {
+    "name" : "recycleBegin",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListRecycleInstance.recycleBegin"
+  }, {
+    "name" : "recycleEnd",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListRecycleInstance.recycleEnd"
+  } ],
+  "desc_key" : "bcc.ListRecycleInstance.desc"
+}

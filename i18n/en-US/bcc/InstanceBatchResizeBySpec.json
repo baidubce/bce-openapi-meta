@@ -1,0 +1,9 @@
+{
+  "InstanceBatchResizeBySpec" : {
+    "spec" : "Instance specification for batch resize",
+    "instanceIdList" : "Set of instance IDs for batch operation, up to 30",
+    "enableJumboFrame" : "Whether to enable Jumbo Frame for the instance. true: enable, false: disable. Default is empty: when resizing to a spec that does not support Jumbo Frame, it will not be enabled; when resizing from a non-supporting to a supporting spec, it will not be enabled; when resizing between supporting specs, Jumbo Frame state follows the pre-resize setting.",
+    "subnetId" : "Subnet ID",
+    "logicalZone" : "Logical availability zone identifier"
+  }
+}

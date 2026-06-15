@@ -1,0 +1,57 @@
+{
+  "name" : "GetInstanceNoChargeList",
+  "method" : "GET",
+  "uri" : "/v{version}/instance/noCharge",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetInstanceNoChargeList.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetInstanceNoChargeList.maxKeys"
+  }, {
+    "name" : "internalIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetInstanceNoChargeList.internalIp"
+  }, {
+    "name" : "keypairId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetInstanceNoChargeList.keypairId"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetInstanceNoChargeList.zoneName"
+  }, {
+    "name" : "instanceIds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetInstanceNoChargeList.instanceIds"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "instances"
+  },
+  "desc_key" : "bcc.GetInstanceNoChargeList.desc"
+}

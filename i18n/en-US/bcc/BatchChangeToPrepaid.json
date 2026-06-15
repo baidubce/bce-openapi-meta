@@ -1,0 +1,11 @@
+{
+  "BatchChangeToPrepaid" : {
+    "config" : "Configuration for batch converting instances to prepaid (yearly/monthly), up to 20 instances supported",
+    "config.instanceId" : "Instance ID",
+    "config.autoRenew" : "Whether to auto-renew after expiration; true: auto-renew, false: no auto-renew; default: false",
+    "config.autoRenewPeriod" : "Duration (in months) for each auto-renewal. Valid values: 1,2,3,4,5,6,7,8,9,12,24,36; default: 1. Only effective when autoRenew is true.",
+    "config.duration" : "Purchase duration (in months)",
+    "config.cdsList" : "(Deprecated) List of associated data disks to convert; default empty; \"all\" means all associated data disks (e.g. \"cdsList\":[\"all\"]); pass specific disk IDs to convert only selected disks",
+    "config.autoPay" : "Whether to pay automatically; default true"
+  }
+}

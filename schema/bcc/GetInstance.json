@@ -1,0 +1,20 @@
+{
+  "name" : "GetInstance",
+  "method" : "GET",
+  "uri" : "/v{version}/instance/{instanceId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.GetInstance.instanceId"
+  } ],
+  "desc_key" : "bcc.GetInstance.desc"
+}

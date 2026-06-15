@@ -1,0 +1,9 @@
+{
+  "ModifyInstanceHostname" : {
+    "instanceId" : "Instance ID",
+    "reboot" : "Whether to reboot automatically, default false",
+    "isOpenHostnameDomain" : "Whether to enable hostname domain, true: yes, false: no, default false",
+    "hostname" : "Instance hostname",
+    "isAllowHostnameRepeat" : "Whether to allow duplicate hostnames, true: yes, false: no, default false"
+  }
+}

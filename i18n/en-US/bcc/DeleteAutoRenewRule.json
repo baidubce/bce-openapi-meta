@@ -1,0 +1,6 @@
+{
+  "DeleteAutoRenewRule" : {
+    "instanceId" : "Instance ID",
+    "renewEip" : "Whether to also disable auto-renewal for EIP, defaults to true."
+  }
+}

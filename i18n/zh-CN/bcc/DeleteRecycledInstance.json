@@ -1,0 +1,5 @@
+{
+  "DeleteRecycledInstance" : {
+    "instanceId" : "待释放的虚拟机实例ID"
+  }
+}

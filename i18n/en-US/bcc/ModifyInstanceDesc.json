@@ -1,0 +1,6 @@
+{
+  "ModifyInstanceDesc" : {
+    "instanceId" : "The specified instance ID",
+    "desc" : "Instance description. Supports Chinese characters, letters, digits, period \".\", space, underscore \"_\", hyphen \"-\", equals sign \"=\", comma \",\" (English and Chinese), colon \":\", slash \"/\", and Chinese period \"。\""
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "InstanceRecovery" : {
+    "instanceIds" : "List of instance IDs, up to 100",
+    "instanceIds.instanceId" : "Instance ID"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "InstanceDeletionProtection" : {
+    "instanceId" : "ID of the instance to set deletion protection for",
+    "deletionProtection" : "Deletion protection policy, default 0 (disabled)"
+  }
+}

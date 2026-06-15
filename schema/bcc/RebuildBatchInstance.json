@@ -1,0 +1,98 @@
+{
+  "name" : "RebuildBatchInstance",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/rebuild",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "imageId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.imageId"
+  }, {
+    "name" : "keepImageLogin",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.keepImageLogin"
+  }, {
+    "name" : "isPreserveData",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.isPreserveData"
+  }, {
+    "name" : "adminPass",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.adminPass"
+  }, {
+    "name" : "isOpenHostEye",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.isOpenHostEye"
+  }, {
+    "name" : "sysRootSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.sysRootSize"
+  }, {
+    "name" : "keypairId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.keypairId"
+  }, {
+    "name" : "dataPartitionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.dataPartitionType"
+  }, {
+    "name" : "rootPartitionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.rootPartitionType"
+  }, {
+    "name" : "raidId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.raidId"
+  }, {
+    "name" : "userData",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.userData"
+  }, {
+    "name" : "useLastUserData",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.useLastUserData"
+  }, {
+    "name" : "cleanLastUserData",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.cleanLastUserData"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildBatchInstance.instanceIds"
+  } ],
+  "desc_key" : "bcc.RebuildBatchInstance.desc"
+}

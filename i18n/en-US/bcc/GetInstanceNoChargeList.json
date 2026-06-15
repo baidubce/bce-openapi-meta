@@ -1,0 +1,10 @@
+{
+  "GetInstanceNoChargeList" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically not exceeding 1000. Default value is 1000",
+    "internalIp" : "Private IP address",
+    "keypairId" : "Key pair ID",
+    "zoneName" : "Availability zone name, e.g.: cn-bj-a",
+    "instanceIds" : "List of instance IDs"
+  }
+}

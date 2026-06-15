@@ -1,0 +1,6 @@
+{
+  "BatchDeleteIp" : {
+    "instanceId" : "Instance ID",
+    "privateIps" : "IPv6/IPv4 addresses to delete"
+  }
+}

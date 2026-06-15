@@ -1,0 +1,26 @@
+{
+  "name" : "InstanceDeletionProtection",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}/deletionProtection",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.InstanceDeletionProtection.instanceId"
+  }, {
+    "name" : "deletionProtection",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.InstanceDeletionProtection.deletionProtection"
+  } ],
+  "desc_key" : "bcc.InstanceDeletionProtection.desc"
+}

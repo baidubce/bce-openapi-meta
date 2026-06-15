@@ -1,0 +1,7 @@
+{
+  "EnterRescueMode" : {
+    "instanceId" : "虚拟机实例ID",
+    "forceStop" : "是否强制关机（默认为false）",
+    "password" : "虚拟机密码"
+  }
+}

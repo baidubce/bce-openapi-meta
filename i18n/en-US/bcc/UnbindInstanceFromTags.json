@@ -1,0 +1,9 @@
+{
+  "UnbindInstanceFromTags" : {
+    "instanceId" : "Virtual machine instance ID",
+    "changeTags" : "List of tags to be unbound",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value",
+    "attachRelatedResourceTag" : "Whether to also unbind tags from associated resources (CDS system disk, data disk, EIP, snapshot, snapshot chain). true: unbind together; false: unbind separately. Defaults to false if not specified"
+  }
+}

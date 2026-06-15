@@ -1,0 +1,11 @@
+{
+  "ListRecycleInstance" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000, default is 1000",
+    "instanceId" : "Instance ID of the virtual machine",
+    "name" : "Name of the virtual machine",
+    "paymentTiming" : "Payment method, including Prepaid (yearly/monthly subscription) and Postpaid (pay-as-you-go)",
+    "recycleBegin" : "Filter instances that entered the recycle bin at or after this time, format: yyyy-MM-ddTHH:mm:ssZ",
+    "recycleEnd" : "Filter instances that entered the recycle bin at or before this time, format: yyyy-MM-ddTHH:mm:ssZ"
+  }
+}

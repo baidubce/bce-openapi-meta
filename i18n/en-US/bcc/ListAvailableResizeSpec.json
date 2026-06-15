@@ -1,0 +1,8 @@
+{
+  "ListAvailableResizeSpec" : {
+    "spec" : "Instance type. Exactly one of instance type, spec family ID, or instance ID must be specified.",
+    "specId" : "Spec family ID. Exactly one of instance type, spec family ID, or instance ID must be specified.",
+    "zone" : "Availability zone, named as \"country-region-zone\" in lowercase, e.g. \"cn-bj-a\" for Beijing Zone A. Required when spec or specId is provided.",
+    "instanceIdList" : "List of instance IDs. Exactly one of instance type, spec family ID, or instance ID must be specified."
+  }
+}

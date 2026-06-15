@@ -1,0 +1,36 @@
+{
+  "name" : "BatchChangeToPostpaid",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/batch/charging?toPostpay",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "config",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchChangeToPostpaid.config",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.BatchChangeToPostpaid.config.instanceId"
+    }, {
+      "name" : "cdsList",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcc.BatchChangeToPostpaid.config.cdsList"
+    }, {
+      "name" : "effectiveType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.BatchChangeToPostpaid.config.effectiveType"
+    } ]
+  } ],
+  "desc_key" : "bcc.BatchChangeToPostpaid.desc"
+}

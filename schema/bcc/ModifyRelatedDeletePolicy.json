@@ -1,0 +1,26 @@
+{
+  "name" : "ModifyRelatedDeletePolicy",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}/modifyRelatedDeletePolicy",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ModifyRelatedDeletePolicy.instanceId"
+  }, {
+    "name" : "isEipAutoRelatedDelete",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyRelatedDeletePolicy.isEipAutoRelatedDelete"
+  } ],
+  "desc_key" : "bcc.ModifyRelatedDeletePolicy.desc"
+}

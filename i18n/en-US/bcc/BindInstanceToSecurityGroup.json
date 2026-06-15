@@ -1,0 +1,6 @@
+{
+  "BindInstanceToSecurityGroup" : {
+    "instanceId" : "Virtual machine instance ID",
+    "securityGroupId" : "ID of the security group to associate with the instance"
+  }
+}

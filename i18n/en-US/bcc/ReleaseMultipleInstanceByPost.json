@@ -1,0 +1,10 @@
+{
+  "ReleaseMultipleInstanceByPost" : {
+    "instanceIds" : "List of instance IDs, up to 100 elements",
+    "relatedReleaseFlag" : "Whether to also release pay-per-use EIPs (EIPs in shared bandwidth will be unbound automatically and do not support associated release) and pay-per-use data disks attached to the instance at the time of release; deleteCdsSnapshotFlag is only effective when this field is true",
+    "deleteRelatedCdsFlag" : "Whether to release cloud disks",
+    "deleteCdsSnapshotFlag" : "Whether to release cloud disk snapshots",
+    "deleteRelatedEnisFlag" : "Whether to delete associated ENIs when the instance is released",
+    "bccRecycleFlag" : "Whether to move the instance to the recycle bin upon release"
+  }
+}

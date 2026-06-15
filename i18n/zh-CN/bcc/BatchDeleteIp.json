@@ -1,0 +1,6 @@
+{
+  "BatchDeleteIp" : {
+    "instanceId" : "虚机ID",
+    "privateIps" : "需要删除的IPV6/IPV4地址"
+  }
+}

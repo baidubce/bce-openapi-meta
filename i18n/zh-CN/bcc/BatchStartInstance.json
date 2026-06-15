@@ -1,0 +1,5 @@
+{
+  "BatchStartInstance" : {
+    "instanceIds" : "实例id组成的集合，集合元素数量不超过100个"
+  }
+}

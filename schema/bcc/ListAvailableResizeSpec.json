@@ -1,0 +1,38 @@
+{
+  "name" : "ListAvailableResizeSpec",
+  "method" : "POST",
+  "uri" : "/v{version}/instance?resizeList",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "spec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListAvailableResizeSpec.spec"
+  }, {
+    "name" : "specId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListAvailableResizeSpec.specId"
+  }, {
+    "name" : "zone",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListAvailableResizeSpec.zone"
+  }, {
+    "name" : "instanceIdList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListAvailableResizeSpec.instanceIdList"
+  } ],
+  "desc_key" : "bcc.ListAvailableResizeSpec.desc"
+}

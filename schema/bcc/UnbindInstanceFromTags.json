@@ -1,0 +1,43 @@
+{
+  "name" : "UnbindInstanceFromTags",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}/tag?unbind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.UnbindInstanceFromTags.instanceId"
+  }, {
+    "name" : "changeTags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindInstanceFromTags.changeTags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.UnbindInstanceFromTags.changeTags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.UnbindInstanceFromTags.changeTags.tagValue"
+    } ]
+  }, {
+    "name" : "attachRelatedResourceTag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindInstanceFromTags.attachRelatedResourceTag"
+  } ],
+  "desc_key" : "bcc.UnbindInstanceFromTags.desc"
+}

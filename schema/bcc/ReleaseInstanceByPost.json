@@ -1,0 +1,50 @@
+{
+  "name" : "ReleaseInstanceByPost",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/{instanceId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ReleaseInstanceByPost.instanceId"
+  }, {
+    "name" : "relatedReleaseFlag",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseInstanceByPost.relatedReleaseFlag"
+  }, {
+    "name" : "deleteCdsSnapshotFlag",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseInstanceByPost.deleteCdsSnapshotFlag"
+  }, {
+    "name" : "deleteRelatedEnisFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseInstanceByPost.deleteRelatedEnisFlag"
+  }, {
+    "name" : "bccRecycleFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseInstanceByPost.bccRecycleFlag"
+  }, {
+    "name" : "cdsAttributeActive",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReleaseInstanceByPost.cdsAttributeActive"
+  } ],
+  "desc_key" : "bcc.ReleaseInstanceByPost.desc"
+}

@@ -1,0 +1,8 @@
+{
+  "ModifyInstanceAttributes" : {
+    "instanceId" : "The specified instance ID",
+    "name" : "Instance name; supports uppercase/lowercase letters, digits, and special characters -_ /.; must start with a letter; length 1–65 characters.",
+    "enableJumboFrame" : "Whether to enable Jumbo Frame: enable: true, disable: false. Note: only instance types that support Jumbo Frame can enable this feature.",
+    "netEthQueueCount" : "The updated number of NIC queues after modification."
+  }
+}

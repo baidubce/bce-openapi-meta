@@ -1,0 +1,38 @@
+{
+  "name" : "BatchRefundResource",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/batchRefundResource",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchRefundResource.instanceIds"
+  }, {
+    "name" : "relatedReleaseFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchRefundResource.relatedReleaseFlag"
+  }, {
+    "name" : "deleteCdsSnapshotFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchRefundResource.deleteCdsSnapshotFlag"
+  }, {
+    "name" : "deleteRelatedEnisFlag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchRefundResource.deleteRelatedEnisFlag"
+  } ],
+  "desc_key" : "bcc.BatchRefundResource.desc"
+}

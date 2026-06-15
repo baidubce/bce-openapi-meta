@@ -1,0 +1,7 @@
+{
+  "EnterRescueMode" : {
+    "instanceId" : "Virtual machine instance ID",
+    "forceStop" : "Whether to force shutdown (default: false)",
+    "password" : "Virtual machine password"
+  }
+}

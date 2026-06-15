@@ -1,0 +1,38 @@
+{
+  "name" : "CreateAutoRenewRule",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/batchCreateAutoRenewRules",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateAutoRenewRule.instanceId"
+  }, {
+    "name" : "renewTimeUnit",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateAutoRenewRule.renewTimeUnit"
+  }, {
+    "name" : "renewTime",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateAutoRenewRule.renewTime"
+  }, {
+    "name" : "renewEip",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateAutoRenewRule.renewEip"
+  } ],
+  "desc_key" : "bcc.CreateAutoRenewRule.desc"
+}

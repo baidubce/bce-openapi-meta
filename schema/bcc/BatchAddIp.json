@@ -1,0 +1,38 @@
+{
+  "name" : "BatchAddIp",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/batchAddIp",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchAddIp.instanceId"
+  }, {
+    "name" : "secondaryPrivateIpAddressCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchAddIp.secondaryPrivateIpAddressCount"
+  }, {
+    "name" : "privateIps",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchAddIp.privateIps"
+  }, {
+    "name" : "allocateMultiIpv6Addr",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchAddIp.allocateMultiIpv6Addr"
+  } ],
+  "desc_key" : "bcc.BatchAddIp.desc"
+}

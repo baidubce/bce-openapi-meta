@@ -1,0 +1,7 @@
+{
+  "DelIpv6" : {
+    "instanceId" : "Instance ID",
+    "ipv6Address" : "IPv6 address to be released",
+    "reboot" : "Whether to reboot; true means reboot, empty or false means no reboot. Default is false."
+  }
+}

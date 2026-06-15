@@ -1,0 +1,8 @@
+{
+  "ListAvailableResizeSpec" : {
+    "spec" : "实例规格。实例规格、规格族ID和实例ID有且只能传一个。",
+    "specId" : "规格族ID。实例规格、规格族ID和实例ID有且只能传一个。",
+    "zone" : "指定zone信息，命名规范是\"国家-region-可用区序列\"，小写，例如北京可用区A为\"cn-bj-a\"。若传入spec或specId，则该参数为必填。",
+    "instanceIdList" : "实例ID列表。实例规格、规格族ID和实例ID有且只能传一个。"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name" : "BatchChangeToPrepaid",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/batch/charging?toPrepay",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "config",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BatchChangeToPrepaid.config",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.BatchChangeToPrepaid.config.instanceId"
+    }, {
+      "name" : "autoRenew",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bcc.BatchChangeToPrepaid.config.autoRenew"
+    }, {
+      "name" : "autoRenewPeriod",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.BatchChangeToPrepaid.config.autoRenewPeriod"
+    }, {
+      "name" : "duration",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.BatchChangeToPrepaid.config.duration"
+    }, {
+      "name" : "cdsList",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcc.BatchChangeToPrepaid.config.cdsList"
+    }, {
+      "name" : "autoPay",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bcc.BatchChangeToPrepaid.config.autoPay"
+    } ]
+  } ],
+  "desc_key" : "bcc.BatchChangeToPrepaid.desc"
+}

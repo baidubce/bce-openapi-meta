@@ -1,0 +1,8 @@
+{
+  "DeletePrepayInstance" : {
+    "instanceId" : "Instance ID",
+    "relatedReleaseFlag" : "Whether to release the EIP and data disks attached to the instance at the time of deletion. Default: false (no associated release). Note: prepaid CDS disks associated with the instance will be forcibly released along with the instance.",
+    "deleteCdsSnapshotFlag" : "Whether to release cloud disk snapshots. Default: false (no associated release).",
+    "deleteRelatedEnisFlag" : "Whether to delete associated ENIs when the instance is released. Default: false (no associated release)."
+  }
+}

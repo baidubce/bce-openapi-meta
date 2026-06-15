@@ -1,0 +1,9 @@
+{
+  "ModifyInstanceHostname" : {
+    "instanceId" : "实例ID",
+    "reboot" : "是否自动重启，默认false",
+    "isOpenHostnameDomain" : "是否开启hostname domain true:是 false:否，默认false",
+    "hostname" : "实例主机名",
+    "isAllowHostnameRepeat" : "是否允许hostname重复 true:是 false:否，默认false"
+  }
+}

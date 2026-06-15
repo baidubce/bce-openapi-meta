@@ -1,0 +1,6 @@
+{
+  "RebootInstance" : {
+    "instanceId" : "待重启的实例ID",
+    "forceStop" : "是否强制停止实例，可选值true,false,缺省为false"
+  }
+}

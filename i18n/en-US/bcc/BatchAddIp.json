@@ -1,0 +1,8 @@
+{
+  "BatchAddIp" : {
+    "instanceId" : "Virtual machine ID",
+    "secondaryPrivateIpAddressCount" : "Number of IPv6/IPv4 addresses to add; must be present if privateIps is absent",
+    "privateIps" : "IPv6/IPv4 addresses to add; must be present if secondaryPrivateIpAddressCount is absent",
+    "allocateMultiIpv6Addr" : "Whether to allocate IPv6; must be true when creating IPv6 addresses"
+  }
+}

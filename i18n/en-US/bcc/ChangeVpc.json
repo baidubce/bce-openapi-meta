@@ -1,0 +1,10 @@
+{
+  "ChangeVpc" : {
+    "instanceId" : "Instance ID",
+    "subnetId" : "Subnet ID of the target VPC",
+    "internalIp" : "Internal IP address",
+    "securityGroupIds" : "Security group list",
+    "enterpriseSecurityGroupIds" : "Enterprise security group list; cannot specify both regular and enterprise security groups simultaneously",
+    "reboot" : "Whether to reboot the instance"
+  }
+}

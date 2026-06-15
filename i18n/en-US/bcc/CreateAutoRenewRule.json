@@ -1,0 +1,8 @@
+{
+  "CreateAutoRenewRule" : {
+    "instanceId" : "Instance ID",
+    "renewTimeUnit" : "Renewal time unit: month (supports 1-9), year (supports 1-3)",
+    "renewTime" : "Renewal duration",
+    "renewEip" : "Whether to include EIP in auto-renewal, default is true"
+  }
+}

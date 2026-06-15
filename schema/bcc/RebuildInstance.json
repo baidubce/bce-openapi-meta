@@ -1,0 +1,98 @@
+{
+  "name" : "RebuildInstance",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}?rebuild",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.RebuildInstance.instanceId"
+  }, {
+    "name" : "imageId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.imageId"
+  }, {
+    "name" : "keepImageLogin",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.keepImageLogin"
+  }, {
+    "name" : "isPreserveData",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.isPreserveData"
+  }, {
+    "name" : "adminPass",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.adminPass"
+  }, {
+    "name" : "isOpenHostEye",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.isOpenHostEye"
+  }, {
+    "name" : "sysRootSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.sysRootSize"
+  }, {
+    "name" : "keypairId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.keypairId"
+  }, {
+    "name" : "dataPartitionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.dataPartitionType"
+  }, {
+    "name" : "rootPartitionType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.rootPartitionType"
+  }, {
+    "name" : "raidId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.raidId"
+  }, {
+    "name" : "userData",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.userData"
+  }, {
+    "name" : "useLastUserData",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.useLastUserData"
+  }, {
+    "name" : "cleanLastUserData",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RebuildInstance.cleanLastUserData"
+  } ],
+  "desc_key" : "bcc.RebuildInstance.desc"
+}

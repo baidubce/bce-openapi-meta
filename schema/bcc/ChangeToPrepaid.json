@@ -1,0 +1,44 @@
+{
+  "name" : "ChangeToPrepaid",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/{instanceId}?toPrepay",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ChangeToPrepaid.instanceId"
+  }, {
+    "name" : "duration",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ChangeToPrepaid.duration"
+  }, {
+    "name" : "autoRenew",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ChangeToPrepaid.autoRenew"
+  }, {
+    "name" : "autoRenewPeriod",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ChangeToPrepaid.autoRenewPeriod"
+  }, {
+    "name" : "relationCds",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ChangeToPrepaid.relationCds"
+  } ],
+  "desc_key" : "bcc.ChangeToPrepaid.desc"
+}

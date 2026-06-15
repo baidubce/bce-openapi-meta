@@ -1,0 +1,6 @@
+{
+  "ModifyRelatedDeletePolicy" : {
+    "instanceId" : "待设置的实例ID",
+    "isEipAutoRelatedDelete" : "实例绑定的后付费EIP是否随实例关联自动释放。是：true，否：false"
+  }
+}

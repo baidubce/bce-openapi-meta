@@ -1,0 +1,9 @@
+{
+  "ChangeToPrepaid" : {
+    "instanceId" : "实例ID",
+    "duration" : "购买时长（单位：月）",
+    "autoRenew" : "实例到期后是否自动续费，取值：true：自动续费，false：不自动续费，默认值：false。",
+    "autoRenewPeriod" : "每次自动续费的时长（单位：月）。取值范围：1，2，3，4，5，6，7，8，9，12，24，36，默认值：1。仅当autoRenew取值为true，该参数有效。",
+    "relationCds" : "变更关联的数据盘，已废弃，关联的按量付费（后付费）CDS需同BCC一起变更为包年包月（预付费）。"
+  }
+}

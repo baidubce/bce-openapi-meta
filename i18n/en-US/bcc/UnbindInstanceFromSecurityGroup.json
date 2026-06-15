@@ -1,0 +1,6 @@
+{
+  "UnbindInstanceFromSecurityGroup" : {
+    "instanceId" : "Instance ID",
+    "securityGroupId" : "ID of the security group to disassociate from the instance"
+  }
+}

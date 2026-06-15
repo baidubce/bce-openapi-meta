@@ -1,0 +1,12 @@
+{
+  "PurchaseReservedInstance" : {
+    "instanceId" : "Virtual machine instance ID",
+    "relatedRenewFlag" : "Flag for associated renewal of the instance, defaults to empty string. Note: CDS disks associated with the instance will be renewed together.",
+    "billing" : "Order details",
+    "billing.paymentTiming" : "Payment method, including Prepaid, Postpaid, and bidding (spot instance) (for create instance, create spot instance, and instance renewal)",
+    "billing.reservation" : "Reservation info, not required for Postpaid, required for Prepaid (for create instance, create spot instance, and instance renewal)",
+    "cdsCustomPeriod" : "Custom renewal period for attached disks, optional value greater than or equal to (BCC expiration time after renewal - CDS current expiration time), range: [1, 60] months. If not specified, defaults to match BCC expiration time after renewal.",
+    "cdsCustomPeriod.period" : "Renewal duration in months, range: [1, 60]. The disk expiration time after renewal must be equal to or later than the BCC expiration time, otherwise renewal fails. (Instance renewal)",
+    "cdsCustomPeriod.volumeId" : "Disk ID (returned by disk details and disk list APIs, instance renewal)"
+  }
+}

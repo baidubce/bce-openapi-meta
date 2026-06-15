@@ -1,0 +1,26 @@
+{
+  "name" : "DeleteAutoRenewRule",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/batchDeleteAutoRenewRules",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.DeleteAutoRenewRule.instanceId"
+  }, {
+    "name" : "renewEip",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DeleteAutoRenewRule.renewEip"
+  } ],
+  "desc_key" : "bcc.DeleteAutoRenewRule.desc"
+}

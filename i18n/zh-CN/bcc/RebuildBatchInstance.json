@@ -1,0 +1,18 @@
+{
+  "RebuildBatchInstance" : {
+    "imageId" : "待指定的镜像ID",
+    "keepImageLogin" : "是否使用镜像预设的密码，默认取值：false。true：表示使用镜像中预设的密码; false：表示不使用镜像中预设的密码。 1. 若取值为“true”，则password、keypairId需为空。 2. 仅支持镜像为自定义镜像或共享镜像。",
+    "isPreserveData" : "仅对ebc实例本地盘生效。是否保留数据重装。当值为true时，raidId和sysRootSize字段不生效",
+    "adminPass" : "机器密码，密码需要加密传输，详见密码加密传输规范 ，必须传递adminPass、keypairId其中一个参数",
+    "isOpenHostEye" : "是否开启主机安全，默认true",
+    "sysRootSize" : "仅对ebc实例生效。系统盘大小",
+    "keypairId" : "待重装实例所要绑定的密钥对ID，必须传递adminPass、keypairId其中一个参数",
+    "dataPartitionType" : "仅对ebc实例生效。数据盘分区格式",
+    "rootPartitionType" : "仅对ebc实例生效。系统盘分区格式",
+    "raidId" : "仅对ebc实例生效。raid配置Id，此参数在isPreserveData为false时为必填，在isPreserveData为true时不生效",
+    "userData" : "待重装的自定义脚本，不传默认使用当前自定义脚本（包括gpu驱动和CFS文件系统）",
+    "useLastUserData" : "在重装实例时是否使用上一次的 userData",
+    "cleanLastUserData" : "是否清空当前自定义脚本（包括gpu驱动和CFS文件系统），默认false",
+    "instanceIds" : "指定的实例ID列表，最多100个"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "ModifyInstanceAttributes",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}?modifyAttribute",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ModifyInstanceAttributes.instanceId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyInstanceAttributes.name"
+  }, {
+    "name" : "enableJumboFrame",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyInstanceAttributes.enableJumboFrame"
+  }, {
+    "name" : "netEthQueueCount",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyInstanceAttributes.netEthQueueCount"
+  } ],
+  "desc_key" : "bcc.ModifyInstanceAttributes.desc"
+}

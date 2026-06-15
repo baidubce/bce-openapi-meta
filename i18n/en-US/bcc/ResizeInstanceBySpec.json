@@ -1,0 +1,8 @@
+{
+  "ResizeInstanceBySpec" : {
+    "instanceId" : "Instance ID",
+    "action" : "Operation to perform on the instance; current valid value: resize",
+    "spec" : "Target instance specification",
+    "enableJumboFrame" : "Whether to enable Jumbo Frame for the instance: true to enable, false to disable. Defaults to empty. When empty: Jumbo Frame is not enabled when resizing to a spec that does not support it; Jumbo Frame is not enabled when resizing from a non-supporting to a supporting spec; when resizing between specs that both support Jumbo Frame, the setting follows the pre-resize state."
+  }
+}

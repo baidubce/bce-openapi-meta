@@ -1,0 +1,44 @@
+{
+  "name" : "UpdateInstanceSubnet",
+  "method" : "PUT",
+  "uri" : "/v{version}/subnet/changeSubnet",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateInstanceSubnet.instanceId"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateInstanceSubnet.subnetId"
+  }, {
+    "name" : "internalIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateInstanceSubnet.internalIp"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateInstanceSubnet.securityGroupIds"
+  }, {
+    "name" : "enterpriseSecurityGroupIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateInstanceSubnet.enterpriseSecurityGroupIds"
+  } ],
+  "desc_key" : "bcc.UpdateInstanceSubnet.desc"
+}

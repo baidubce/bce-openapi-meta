@@ -1,0 +1,18 @@
+{
+  "RebuildBatchInstance" : {
+    "imageId" : "The image ID to use for rebuilding",
+    "keepImageLogin" : "Whether to use the preset password in the image. Default: false. true: use the preset password in the image; false: do not use it. 1. If true, password and keypairId must be empty. 2. Only supported for custom images or shared images.",
+    "isPreserveData" : "Only applies to EBC instance local disks. Whether to preserve data during rebuild. When true, raidId and sysRootSize fields are ignored.",
+    "adminPass" : "Instance password, must be encrypted as per the password encryption specification. One of adminPass or keypairId is required.",
+    "isOpenHostEye" : "Whether to enable host security. Default: true.",
+    "sysRootSize" : "Only applies to EBC instances. System disk size.",
+    "keypairId" : "The key pair ID to bind to the instance being rebuilt. One of adminPass or keypairId is required.",
+    "dataPartitionType" : "Only applies to EBC instances. Data disk partition format.",
+    "rootPartitionType" : "Only applies to EBC instances. System disk partition format.",
+    "raidId" : "Only applies to EBC instances. RAID configuration ID. Required when isPreserveData is false; ignored when isPreserveData is true.",
+    "userData" : "Custom script for the rebuilt instance. If not provided, the current custom script (including GPU drivers and CFS filesystem) is used.",
+    "useLastUserData" : "Whether to use the previous userData when rebuilding the instance.",
+    "cleanLastUserData" : "Whether to clear the current custom script (including GPU drivers and CFS filesystem). Default: false.",
+    "instanceIds" : "List of specified instance IDs. Maximum 100."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "ModifyInstanceHostname",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}?changeHostname",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ModifyInstanceHostname.instanceId"
+  }, {
+    "name" : "reboot",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyInstanceHostname.reboot"
+  }, {
+    "name" : "isOpenHostnameDomain",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyInstanceHostname.isOpenHostnameDomain"
+  }, {
+    "name" : "hostname",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyInstanceHostname.hostname"
+  }, {
+    "name" : "isAllowHostnameRepeat",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyInstanceHostname.isAllowHostnameRepeat"
+  } ],
+  "desc_key" : "bcc.ModifyInstanceHostname.desc"
+}

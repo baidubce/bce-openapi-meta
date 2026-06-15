@@ -1,0 +1,5 @@
+{
+  "BatchStartInstance" : {
+    "instanceIds" : "Collection of instance IDs, with no more than 100 elements"
+  }
+}
