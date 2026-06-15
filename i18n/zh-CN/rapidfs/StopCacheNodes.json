@@ -3,6 +3,6 @@
     "clientToken" : "保证API调用的幂等性",
     "instanceId" : "RapidFS 实例 ID",
     "cacheNodeIds" : "待停止的 CacheNode ID 列表",
-    "migrateDataBeforeStop" : "停止节点时是否迁移数据，默认 true。不迁移数据直接停止缓存节点会导致正在读取作业的缓存命中率降低，除非有特殊情况，一般都建议先迁移数据再停止"
+    "migrateDataBeforeStop" : "停止节点时是否迁移数据，默认 true。不迁移数据而直接停止缓存节点，可能降低运行中作业读取的缓存命中率。除非有特殊情况，建议先迁移数据再停止。"
   }
 }

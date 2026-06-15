@@ -1,7 +1,7 @@
 {
   "name" : "DescribeCacheRuleJobs",
   "method" : "POST",
-  "uri" : "/v{version}/cacherule?action=DescribeCacheRuleJobs",
+  "uri" : "/v{version}/cacherule?action=DescribeCacheJobs",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",

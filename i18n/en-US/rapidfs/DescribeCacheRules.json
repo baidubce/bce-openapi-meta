@@ -1,7 +1,7 @@
 {
   "DescribeCacheRules" : {
     "instanceId" : "RapidFS instance ID",
-    "filters" : "Filter conditions. See Appendix Filter. Multiple filters are combined with AND logic; multiple values within a filter are combined with OR logic. Supported fields: * name=dataSrcId, filter by data source ID, e.g. value=[\"ds-AOLmxozuEqas\", \"ds-kykIYfOmY9ZU\"]; * name=cacheRuleId, e.g. value=[\"df-HljnqUtZBazs\", \"df-3LwVtPjGYPij\"]",
+    "filters" : "Conditional filters (see Appendix: Filter). Multiple filters are AND-combined; multiple values within a filter are OR-combined. Supported fields:<br> • name=dataSrcId: filter by data source ID, e.g. value=[\"ds-AOLmxozuEqas\", \"ds-kykIYfOmY9ZU\"];<br> • name=cacheRuleId: filter by cache rule ID, e.g. value=[\"cr-HljnqUtZBazs\", \"cr-3LwVtPjGYPij\"];",
     "filters.name" : "The field to filter on. Multiple filters are combined with AND logic. Example: zone",
     "filters.values" : "The filter values for the field. Multiple values are combined with OR logic. Example: [\"zoneA\", \"zoneB\"]",
     "maxKeys" : "Maximum number of entries to return. Valid range: [1, 1000]. Default: 100",

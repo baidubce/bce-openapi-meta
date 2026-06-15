@@ -14,7 +14,7 @@
     "cceClusterId" : "MasterManaged 部署模式下，用户运维管理的缓存接入类型 type 为 CCE 时必填，为容器引擎 CCE 集群 ID。",
     "aihcResourcePoolId" : "MasterManaged 部署模式下，用户运维管理的缓存接入类型 type 为 AIHC 时必填，为 AIHC 全托管资源池 ID。",
     "k8sControllerId" : "MasterManaged 部署模式下，用户运维管理的缓存接入类型 type 为 K8S 时必填，为 K8s 集群内 RapidFS 缓存控制器 ID；需要在 controller 安装之后，通过 K8s 命令行查询获取：`kubectl get cm -n kube-system rapidfs-cache-service-config -o yaml`",
-    "k8sControllerToken" : "MasterManaged 部署模式下，用户运维管理的缓存接入类型 type == K8S 时必填，为 K8s 集群内 RapidFS 缓存控制器 Token；需要在 controller 安装之后，通过 K8s 命令行 get controller 查询获取：`kubectl get cm -n kube-system rapidfs-cache-service-config -o yaml`需要基于请求 header x-bce-accesskey 对应的 secretkey 进行加密传输，详见[密码加密传输规范定义](https://cloud.baidu.com/doc/BCC/s/ojwvynrqn#%E5%AF%86%E7%A0%81%E5%8A%A0%E5%AF%86%E4%BC%A0%E8%BE%93%E8%A7%84%E8%8C%83)。可参考 [bce-python-sdk](https://cloud.baidu.com/doc/Developer/index.html) aes128_encrypt_16char_key()函数实现。",
+    "k8sControllerToken" : "MasterManaged 部署模式下，用户运维管理的缓存接入类型 type == K8S 时必填，为 K8s 集群内 RapidFS 缓存控制器 Token；需要在 controller 安装之后，通过 K8s 命令行 get controller 查询获取：`kubectl get cm -n kube-system rapidfs-cache-service-config -o yaml`该字段需要基于请求 header x-bce-accesskey 对应的 secretkey 进行加密传输，详见[密码加密传输规范定义](https://cloud.baidu.com/doc/BCC/s/ojwvynrqn#%E5%AF%86%E7%A0%81%E5%8A%A0%E5%AF%86%E4%BC%A0%E8%BE%93%E8%A7%84%E8%8C%83)。可参考 [bce-python-sdk](https://cloud.baidu.com/doc/Developer/index.html) aes128_encrypt_16char_key()函数实现。",
     "tokenRefreshIntervalMinutes" : "实例 Token 初始更新周期，单位分钟，取值范围 [0, 43200(min)]；仅在 Master 托管类型且缓存接入类型为 K8S/CCE/AIHC 时有效。默认值 0 表示永不更新，Token 永久有效。",
     "tags" : "创建标签，见 Tag。",
     "tags.tagKey" : "标签键",

@@ -3,7 +3,7 @@
     "clientToken" : "保证API调用的幂等性",
     "dataSrcId" : "待修改的数据源 ID",
     "instanceId" : "所属 RapidFS 实例唯一 ID",
-    "keepSymlink" : "是否保留 BOS 软链，保留软链会降低创建数据源导入效率，以及后续增量元数据同步效率",
+    "keepSymlink" : "是否保留 BOS 软链，保留软链会降低数据源导入效率，以及后续增量元数据同步效率",
     "authGroupId" : "权限组Id",
     "description" : "数据源描述信息，不超过256个字符",
     "quotaMiB" : "该数据源的容量配额，表示该数据源的可用最大容量，不能超过实例的缓存总容量。-1 表示取消对数据源的容量限制"

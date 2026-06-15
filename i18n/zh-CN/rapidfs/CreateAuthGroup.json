@@ -4,9 +4,9 @@
     "authGroupName" : "权限组名",
     "instanceId" : "所属 rapidFS 实例ID",
     "description" : "权限组实例描述信息",
-    "authInfos" : "待创建权限组具体权限列表，AuthInfo结构详见附录。如果请求 authInfos 不包含任何cidr等于\"0.0.0.0/0\"的权限，则产品后端会**额外**创建默认权限规则 { cidr: \"0.0.0.0/0\" mode: \"ReadWrite\" description: \"allow read/write in default, cannot be deleted\" }",
-    "authInfos.cidr" : "权限地址，ip/ip 段，请确保格式正确有效，如：127.0.0.1，127.0.0.0/28",
-    "authInfos.mode" : "权限类型，枚举值：ReadOnly：只读；ReadWrite：可读写；Forbid：禁止访问",
+    "authInfos" : "待创建权限组具体权限列表，AuthInfo结构详见附录。如果请求中的 authInfos 不包含 cidr 为 \"0.0.0.0/0\" 的权限规则，则产品后端会**额外**创建默认权限规则 { cidr: \"0.0.0.0/0\" mode: \"ReadWrite\" description: \"allow read/write in default, cannot be deleted\" }",
+    "authInfos.cidr" : "权限地址，IP/IP 段，请确保格式正确有效，如：127.0.0.1，127.0.0.0/28",
+    "authInfos.mode" : "权限类型，枚举值：* ReadOnly：只读；* ReadWrite：可读写；* Forbid：禁止访问",
     "authInfos.description" : "权限描述信息"
   }
 }

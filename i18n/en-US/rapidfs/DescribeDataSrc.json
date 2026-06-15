@@ -1,6 +1,6 @@
 {
   "DescribeDataSrc" : {
     "instanceId" : "RapidFS instance ID",
-    "dataSrcId" : "ID of the data source to be modified"
+    "dataSrcId" : "The ID of the data source to query"
   }
 }

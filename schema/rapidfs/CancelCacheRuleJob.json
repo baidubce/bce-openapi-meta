@@ -1,7 +1,7 @@
 {
   "name" : "CancelCacheRuleJob",
   "method" : "POST",
-  "uri" : "/v{version}/cacherule?action=CancelCacheRuleJob",
+  "uri" : "/v{version}/cacherule?action=CancelCacheJob",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",

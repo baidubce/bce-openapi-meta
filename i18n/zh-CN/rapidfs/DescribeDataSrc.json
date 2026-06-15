@@ -1,6 +1,6 @@
 {
   "DescribeDataSrc" : {
     "instanceId" : "RapidFS 实例ID",
-    "dataSrcId" : "待修改的数据源 ID"
+    "dataSrcId" : "待查询的数据源 ID"
   }
 }

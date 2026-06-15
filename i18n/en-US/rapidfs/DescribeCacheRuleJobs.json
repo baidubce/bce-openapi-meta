@@ -4,6 +4,6 @@
     "dataSrcId" : "Data source ID",
     "cacheRuleId" : "Cache management rule ID",
     "maxKeys" : "Maximum number of entries to return, valid range [1, 1000], default 100",
-    "marker" : "Starting position for paginated list retrieval; results are sorted by cacheRuleJobId in lexicographic order; set to the nextMarker value returned from the previous response"
+    "marker" : "The starting position for paginated list queries; the returned list is sorted by cacheJobId in lexicographic order; set this to the nextMarker value returned by the previous response"
   }
 }

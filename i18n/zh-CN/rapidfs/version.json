@@ -3,13 +3,57 @@
   "style" : "rpc",
   "description" : "数据湖存储加速工具",
   "apis" : {
+    "RemoveCacheNodes" : {
+      "title" : "批量移出CacheNode节点",
+      "summary" : "批量移出CacheNode节点"
+    },
+    "StopCacheNodes" : {
+      "title" : "批量停止CacheNode节点",
+      "summary" : "批量停止CacheNode节点"
+    },
+    "StartCacheNodes" : {
+      "title" : "批量启动CacheNode节点",
+      "summary" : "批量启动CacheNode节点"
+    },
+    "RestartCacheNodes" : {
+      "title" : "批量重启CacheNode节点",
+      "summary" : "批量重启CacheNode节点"
+    },
+    "ImportDataSrc" : {
+      "title" : "导入数据源",
+      "summary" : "导入数据源"
+    },
+    "DescribeZones" : {
+      "title" : "查询可用区",
+      "summary" : "查询可用区"
+    },
+    "ModifyDataSrc" : {
+      "title" : "修改数据源",
+      "summary" : "修改数据源"
+    },
+    "RemoveDataSrc" : {
+      "title" : "移除数据源",
+      "summary" : "移除数据源"
+    },
+    "CreateMetaSyncRule" : {
+      "title" : "创建元数据同步规则",
+      "summary" : "创建元数据同步规则"
+    },
+    "ExecuteMetaSyncJob" : {
+      "title" : "执行元数据单次同步任务",
+      "summary" : "执行元数据单次同步任务"
+    },
+    "CancelMetaSyncJob" : {
+      "title" : "取消元数据单次同步任务",
+      "summary" : "取消元数据单次同步任务"
+    },
+    "EnableMetaSyncRule" : {
+      "title" : "启用元数据周期同步规则",
+      "summary" : "启用元数据周期同步规则"
+    },
     "DisableMetaSyncRule" : {
       "title" : "禁用元数据周期同步规则",
       "summary" : "禁用元数据周期同步规则"
-    },
-    "DescribeMetaSyncJobs" : {
-      "title" : "查询元数据同步规则的任务列表",
-      "summary" : "查询元数据同步规则的任务列表"
     },
     "ModifyMetaSyncRule" : {
       "title" : "修改元数据同步规则",
@@ -23,57 +67,17 @@
       "title" : "创建缓存管理规则",
       "summary" : "创建缓存管理规则"
     },
-    "DescribeCacheRules" : {
-      "title" : "查询缓存管理规则列表",
-      "summary" : "查询缓存管理规则列表"
-    },
-    "DescribeCacheRule" : {
-      "title" : "查询单个缓存管理规则详情",
-      "summary" : "查询单个缓存管理规则详情"
-    },
     "ExecuteCacheRuleJob" : {
-      "title" : "执行缓存管理规则的任务",
-      "summary" : "执行缓存管理规则的任务"
+      "title" : "执行缓存管理任务",
+      "summary" : "执行缓存管理任务"
     },
     "CancelCacheRuleJob" : {
-      "title" : "取消缓存管理规则执行中的任务",
-      "summary" : "取消缓存管理规则执行中的任务"
-    },
-    "DescribeCacheRuleJobs" : {
-      "title" : "查询缓存管理规则的任务列表",
-      "summary" : "查询缓存管理规则的任务列表"
+      "title" : "取消缓存管理任务",
+      "summary" : "取消缓存管理任务"
     },
     "DeleteCacheRule" : {
       "title" : "删除缓存管理规则",
       "summary" : "删除缓存管理规则"
-    },
-    "DescribeZones" : {
-      "title" : "查询可用区",
-      "summary" : "查询可用区"
-    },
-    "DescribeSpecs" : {
-      "title" : "查询套餐规格列表",
-      "summary" : "查询套餐规格列表"
-    },
-    "DescribePrice" : {
-      "title" : "查询配置价格",
-      "summary" : "查询配置价格"
-    },
-    "DescribeOrder" : {
-      "title" : "查询订单状态",
-      "summary" : "查询订单状态"
-    },
-    "CreateAndAssignTag" : {
-      "title" : "绑定/解绑实例标签",
-      "summary" : "绑定/解绑实例标签"
-    },
-    "DescribeCceClusters" : {
-      "title" : "查询CCE集群列表",
-      "summary" : "查询CCE集群列表"
-    },
-    "DescribeAihcResourcePools" : {
-      "title" : "查询AIHC资源池列表",
-      "summary" : "查询AIHC资源池列表"
     },
     "CheckBeforeCreateInstance" : {
       "title" : "创建RapidFS实例前校验",
@@ -83,29 +87,17 @@
       "title" : "创建RapidFS缓存实例",
       "summary" : "创建RapidFS缓存实例"
     },
-    "DescribeInstances" : {
-      "title" : "查询RapidFS实例列表",
-      "summary" : "查询RapidFS实例列表"
+    "DescribeToken" : {
+      "title" : "查询实例Token详情",
+      "summary" : "查询实例Token详情"
     },
     "DescribeInstance" : {
       "title" : "查询单个RapidFS实例详情",
       "summary" : "查询单个RapidFS实例详情"
     },
-    "DeleteInstance" : {
-      "title" : "释放RapidFS缓存实例",
-      "summary" : "释放RapidFS缓存实例"
-    },
-    "ResizeInstance" : {
-      "title" : "实例扩缩容",
-      "summary" : "实例扩缩容"
-    },
-    "DescribeToken" : {
-      "title" : "查询实例Token详情",
-      "summary" : "查询实例Token详情"
-    },
-    "ModifyToken" : {
-      "title" : "更新实例Token",
-      "summary" : "更新实例Token"
+    "DescribeInstances" : {
+      "title" : "查询RapidFS实例列表",
+      "summary" : "查询RapidFS实例列表"
     },
     "CreateAuthGroup" : {
       "title" : "创建权限组",
@@ -123,10 +115,6 @@
       "title" : "修改权限组",
       "summary" : "修改权限组"
     },
-    "DeleteAuthGroup" : {
-      "title" : "删除权限组",
-      "summary" : "删除权限组"
-    },
     "DescribeCacheDeployGroups" : {
       "title" : "查询缓存部署组列表",
       "summary" : "查询缓存部署组列表"
@@ -142,22 +130,6 @@
     "AddCacheNodes" : {
       "title" : "批量添加CacheNode节点",
       "summary" : "批量添加CacheNode节点"
-    },
-    "RemoveCacheNodes" : {
-      "title" : "批量移除CacheNode节点",
-      "summary" : "批量移除CacheNode节点"
-    },
-    "StopCacheNodes" : {
-      "title" : "批量停止CacheNode节点",
-      "summary" : "批量停止CacheNode节点"
-    },
-    "StartCacheNodes" : {
-      "title" : "批量启动CacheNode节点",
-      "summary" : "批量启动CacheNode节点"
-    },
-    "RestartCacheNodes" : {
-      "title" : "批量重启CacheNode节点",
-      "summary" : "批量重启CacheNode节点"
     },
     "DescribeCacheNodes" : {
       "title" : "查询CacheNode节点列表",
@@ -175,10 +147,6 @@
       "title" : "查询CacheNode节点数配额信息",
       "summary" : "查询CacheNode节点数配额信息"
     },
-    "ImportDataSrc" : {
-      "title" : "导入数据源",
-      "summary" : "导入数据源"
-    },
     "DescribeDataSrcs" : {
       "title" : "查询数据源列表",
       "summary" : "查询数据源列表"
@@ -187,21 +155,9 @@
       "title" : "查询单个数据源详情",
       "summary" : "查询单个数据源详情"
     },
-    "ModifyDataSrc" : {
-      "title" : "修改数据源",
-      "summary" : "修改数据源"
-    },
-    "RemoveDataSrc" : {
-      "title" : "移除数据源",
-      "summary" : "移除数据源"
-    },
     "DescribeAllocatableDataSrcQuota" : {
       "title" : "查询可分配的数据源配额",
       "summary" : "查询可分配的数据源配额"
-    },
-    "CreateMetaSyncRule" : {
-      "title" : "创建元数据同步规则",
-      "summary" : "创建元数据同步规则"
     },
     "DescribeMetaSyncRules" : {
       "title" : "查询元数据同步规则列表",
@@ -211,17 +167,61 @@
       "title" : "查询单个元数据同步规则详情",
       "summary" : "查询单个元数据同步规则详情"
     },
-    "ExecuteMetaSyncJob" : {
-      "title" : "执行元数据单次同步规则的任务",
-      "summary" : "执行元数据单次同步规则的任务"
+    "DescribeMetaSyncJobs" : {
+      "title" : "查询元数据同步规则的任务执行记录",
+      "summary" : "查询元数据同步规则的任务执行记录"
     },
-    "CancelMetaSyncJob" : {
-      "title" : "取消元数据单次同步规则的任务",
-      "summary" : "取消元数据单次同步规则的任务"
+    "DeleteInstance" : {
+      "title" : "释放RapidFS缓存实例",
+      "summary" : "释放RapidFS缓存实例"
     },
-    "EnableMetaSyncRule" : {
-      "title" : "启用元数据周期同步规则",
-      "summary" : "启用元数据周期同步规则"
+    "DescribeCacheRules" : {
+      "title" : "查询缓存管理规则列表",
+      "summary" : "查询缓存管理规则列表"
+    },
+    "ResizeInstance" : {
+      "title" : "实例扩缩容",
+      "summary" : "实例扩缩容"
+    },
+    "DescribeCacheRule" : {
+      "title" : "查询单个缓存管理规则详情",
+      "summary" : "查询单个缓存管理规则详情"
+    },
+    "DescribeCacheRuleJobs" : {
+      "title" : "查询缓存管理规则的任务列表",
+      "summary" : "查询缓存管理规则的任务列表"
+    },
+    "ModifyToken" : {
+      "title" : "修改实例 Token 配置",
+      "summary" : "修改实例 Token 配置"
+    },
+    "DescribeSpecs" : {
+      "title" : "查询套餐规格列表",
+      "summary" : "查询套餐规格列表"
+    },
+    "DescribePrice" : {
+      "title" : "查询配置价格",
+      "summary" : "查询配置价格"
+    },
+    "DescribeOrder" : {
+      "title" : "查询订单状态",
+      "summary" : "查询订单状态"
+    },
+    "DeleteAuthGroup" : {
+      "title" : "删除权限组",
+      "summary" : "删除权限组"
+    },
+    "CreateAndAssignTag" : {
+      "title" : "绑定/解绑实例标签",
+      "summary" : "绑定/解绑实例标签"
+    },
+    "DescribeCceClusters" : {
+      "title" : "查询CCE集群列表",
+      "summary" : "查询CCE集群列表"
+    },
+    "DescribeAihcResourcePools" : {
+      "title" : "查询AIHC资源池列表",
+      "summary" : "查询AIHC资源池列表"
     }
   }
 }

@@ -4,10 +4,10 @@
     "type" : "Cache access type to be added by the user in MasterManaged deployment mode. Currently supported values: * BCC: Baidu Cloud Compute (BCC); * IDC: Self-built data center",
     "cacheNodes" : "List of node information to be added. See appendix AddCacheNodeInfo",
     "cacheNodes.ip" : "Node IP address",
-    "cacheNodes.config" : "Node configuration, default settings in JSON string format: {  \"systemConfig\": {    \"vm.max_map_count\": 524288,    \"fs.aio-max-nr\": 10485760  },  \"resourceConfig\": {    \"requestCpu\": 4,    \"limitCpu\": 16,    \"requestMem\": \"2GiB\",    \"limitMem\": \"8GiB\"  },  \"serviceConfig\": {    \"min_log_level\": 1  }}",
-    "cacheNodes.diskInfos" : "Disk information for the node to be added. See appendix DiskInfo. The field \"format\" indicates whether to format the disk before joining; if true, the target dev device to be formatted must be specified; if false, the diskQuotaGiB capacity for the specified path must be provided",
+    "cacheNodes.config" : "Node configuration info, JSON format string, default config: {  \"systemConfig\": {    \"vm.max_map_count\": 524288,    \"fs.aio-max-nr\": 10485760  },  \"resourceConfig\": {    \"requestCpu\": 4,    \"limitCpu\": 16,    \"requestMem\": \"2GiB\",    \"limitMem\": \"8GiB\"  },  \"serviceConfig\": {    \"min_log_level\": 1  }}",
+    "cacheNodes.diskInfos" : "Disk information for joining nodes, see appendix DiskInfo. The field `format` is required, indicating whether to format the disk before joining. Enum values: * true: must provide the dev device to be formatted; `dev` and `mountPath` are required; * false: must provide the `diskQuotaGiB` capacity for the specified path; `mountPath` and `diskQuotaGiB` are required",
     "cacheNodes.deployPath" : "Service deployment path for the cache node. Default: /home/.rapidfs/",
-    "cacheNodes.bccInfo" : "BCC cache node information. See appendix BCCCacheNodeInfo",
-    "cacheNodes.idcInfo" : "IDC cache node information. See appendix IDCCacheNodeInfo"
+    "cacheNodes.bccInfo" : "BCC cache node info, required when cache node type is BCC, see appendix BCCCacheNodeInfo. Field `bccId` is required",
+    "cacheNodes.idcInfo" : "IDC cache node info, required when cache node type is IDC, see appendix IDCCacheNodeInfo. Fields `sshUser`, `sshPassword`, and `sshPort` are required"
   }
 }

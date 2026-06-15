@@ -3,13 +3,57 @@
   "style" : "rpc",
   "description" : "rapidfs",
   "apis" : {
+    "RemoveCacheNodes" : {
+      "title" : "removeCacheNodes",
+      "summary" : "removeCacheNodes"
+    },
+    "StopCacheNodes" : {
+      "title" : "stopCacheNodes",
+      "summary" : "stopCacheNodes"
+    },
+    "StartCacheNodes" : {
+      "title" : "startCacheNodes",
+      "summary" : "startCacheNodes"
+    },
+    "RestartCacheNodes" : {
+      "title" : "restartCacheNodes",
+      "summary" : "restartCacheNodes"
+    },
+    "ImportDataSrc" : {
+      "title" : "importDataSrc",
+      "summary" : "importDataSrc"
+    },
+    "DescribeZones" : {
+      "title" : "describeZones",
+      "summary" : "describeZones"
+    },
+    "ModifyDataSrc" : {
+      "title" : "modifyDataSrc",
+      "summary" : "modifyDataSrc"
+    },
+    "RemoveDataSrc" : {
+      "title" : "removeDataSrc",
+      "summary" : "removeDataSrc"
+    },
+    "CreateMetaSyncRule" : {
+      "title" : "createMetaSyncRule",
+      "summary" : "createMetaSyncRule"
+    },
+    "ExecuteMetaSyncJob" : {
+      "title" : "executeMetaSyncJob",
+      "summary" : "executeMetaSyncJob"
+    },
+    "CancelMetaSyncJob" : {
+      "title" : "cancelMetaSyncJob",
+      "summary" : "cancelMetaSyncJob"
+    },
+    "EnableMetaSyncRule" : {
+      "title" : "enableMetaSyncRule",
+      "summary" : "enableMetaSyncRule"
+    },
     "DisableMetaSyncRule" : {
       "title" : "disableMetaSyncRule",
       "summary" : "disableMetaSyncRule"
-    },
-    "DescribeMetaSyncJobs" : {
-      "title" : "describeMetaSyncJobs",
-      "summary" : "describeMetaSyncJobs"
     },
     "ModifyMetaSyncRule" : {
       "title" : "modifyMetaSyncRule",
@@ -23,14 +67,6 @@
       "title" : "createCacheRule",
       "summary" : "createCacheRule"
     },
-    "DescribeCacheRules" : {
-      "title" : "describeCacheRules",
-      "summary" : "describeCacheRules"
-    },
-    "DescribeCacheRule" : {
-      "title" : "describeCacheRule",
-      "summary" : "describeCacheRule"
-    },
     "ExecuteCacheRuleJob" : {
       "title" : "executeCacheRuleJob",
       "summary" : "executeCacheRuleJob"
@@ -39,41 +75,9 @@
       "title" : "cancelCacheRuleJob",
       "summary" : "cancelCacheRuleJob"
     },
-    "DescribeCacheRuleJobs" : {
-      "title" : "describeCacheRuleJobs",
-      "summary" : "describeCacheRuleJobs"
-    },
     "DeleteCacheRule" : {
       "title" : "deleteCacheRule",
       "summary" : "deleteCacheRule"
-    },
-    "DescribeZones" : {
-      "title" : "describeZones",
-      "summary" : "describeZones"
-    },
-    "DescribeSpecs" : {
-      "title" : "describeSpecs",
-      "summary" : "describeSpecs"
-    },
-    "DescribePrice" : {
-      "title" : "describePrice",
-      "summary" : "describePrice"
-    },
-    "DescribeOrder" : {
-      "title" : "describeOrder",
-      "summary" : "describeOrder"
-    },
-    "CreateAndAssignTag" : {
-      "title" : "createAndAssignTag",
-      "summary" : "createAndAssignTag"
-    },
-    "DescribeCceClusters" : {
-      "title" : "describeCceClusters",
-      "summary" : "describeCceClusters"
-    },
-    "DescribeAihcResourcePools" : {
-      "title" : "describeAihcResourcePools",
-      "summary" : "describeAihcResourcePools"
     },
     "CheckBeforeCreateInstance" : {
       "title" : "checkBeforeCreateInstance",
@@ -83,29 +87,17 @@
       "title" : "createInstance",
       "summary" : "createInstance"
     },
-    "DescribeInstances" : {
-      "title" : "describeInstances",
-      "summary" : "describeInstances"
+    "DescribeToken" : {
+      "title" : "describeToken",
+      "summary" : "describeToken"
     },
     "DescribeInstance" : {
       "title" : "describeInstance",
       "summary" : "describeInstance"
     },
-    "DeleteInstance" : {
-      "title" : "deleteInstance",
-      "summary" : "deleteInstance"
-    },
-    "ResizeInstance" : {
-      "title" : "resizeInstance",
-      "summary" : "resizeInstance"
-    },
-    "DescribeToken" : {
-      "title" : "describeToken",
-      "summary" : "describeToken"
-    },
-    "ModifyToken" : {
-      "title" : "modifyToken",
-      "summary" : "modifyToken"
+    "DescribeInstances" : {
+      "title" : "describeInstances",
+      "summary" : "describeInstances"
     },
     "CreateAuthGroup" : {
       "title" : "createAuthGroup",
@@ -123,10 +115,6 @@
       "title" : "modifyAuthGroup",
       "summary" : "modifyAuthGroup"
     },
-    "DeleteAuthGroup" : {
-      "title" : "deleteAuthGroup",
-      "summary" : "deleteAuthGroup"
-    },
     "DescribeCacheDeployGroups" : {
       "title" : "describeCacheDeployGroups",
       "summary" : "describeCacheDeployGroups"
@@ -142,22 +130,6 @@
     "AddCacheNodes" : {
       "title" : "addCacheNodes",
       "summary" : "addCacheNodes"
-    },
-    "RemoveCacheNodes" : {
-      "title" : "removeCacheNodes",
-      "summary" : "removeCacheNodes"
-    },
-    "StopCacheNodes" : {
-      "title" : "stopCacheNodes",
-      "summary" : "stopCacheNodes"
-    },
-    "StartCacheNodes" : {
-      "title" : "startCacheNodes",
-      "summary" : "startCacheNodes"
-    },
-    "RestartCacheNodes" : {
-      "title" : "restartCacheNodes",
-      "summary" : "restartCacheNodes"
     },
     "DescribeCacheNodes" : {
       "title" : "describeCacheNodes",
@@ -175,10 +147,6 @@
       "title" : "describeCacheNodeQuota",
       "summary" : "describeCacheNodeQuota"
     },
-    "ImportDataSrc" : {
-      "title" : "importDataSrc",
-      "summary" : "importDataSrc"
-    },
     "DescribeDataSrcs" : {
       "title" : "describeDataSrcs",
       "summary" : "describeDataSrcs"
@@ -187,21 +155,9 @@
       "title" : "describeDataSrc",
       "summary" : "describeDataSrc"
     },
-    "ModifyDataSrc" : {
-      "title" : "modifyDataSrc",
-      "summary" : "modifyDataSrc"
-    },
-    "RemoveDataSrc" : {
-      "title" : "removeDataSrc",
-      "summary" : "removeDataSrc"
-    },
     "DescribeAllocatableDataSrcQuota" : {
       "title" : "describeAllocatableDataSrcQuota",
       "summary" : "describeAllocatableDataSrcQuota"
-    },
-    "CreateMetaSyncRule" : {
-      "title" : "createMetaSyncRule",
-      "summary" : "createMetaSyncRule"
     },
     "DescribeMetaSyncRules" : {
       "title" : "describeMetaSyncRules",
@@ -211,17 +167,61 @@
       "title" : "describeMetaSyncRule",
       "summary" : "describeMetaSyncRule"
     },
-    "ExecuteMetaSyncJob" : {
-      "title" : "executeMetaSyncJob",
-      "summary" : "executeMetaSyncJob"
+    "DescribeMetaSyncJobs" : {
+      "title" : "describeMetaSyncJobs",
+      "summary" : "describeMetaSyncJobs"
     },
-    "CancelMetaSyncJob" : {
-      "title" : "cancelMetaSyncJob",
-      "summary" : "cancelMetaSyncJob"
+    "DeleteInstance" : {
+      "title" : "deleteInstance",
+      "summary" : "deleteInstance"
     },
-    "EnableMetaSyncRule" : {
-      "title" : "enableMetaSyncRule",
-      "summary" : "enableMetaSyncRule"
+    "DescribeCacheRules" : {
+      "title" : "describeCacheRules",
+      "summary" : "describeCacheRules"
+    },
+    "ResizeInstance" : {
+      "title" : "resizeInstance",
+      "summary" : "resizeInstance"
+    },
+    "DescribeCacheRule" : {
+      "title" : "describeCacheRule",
+      "summary" : "describeCacheRule"
+    },
+    "DescribeCacheRuleJobs" : {
+      "title" : "describeCacheRuleJobs",
+      "summary" : "describeCacheRuleJobs"
+    },
+    "ModifyToken" : {
+      "title" : "modifyToken",
+      "summary" : "modifyToken"
+    },
+    "DescribeSpecs" : {
+      "title" : "describeSpecs",
+      "summary" : "describeSpecs"
+    },
+    "DescribePrice" : {
+      "title" : "describePrice",
+      "summary" : "describePrice"
+    },
+    "DescribeOrder" : {
+      "title" : "describeOrder",
+      "summary" : "describeOrder"
+    },
+    "DeleteAuthGroup" : {
+      "title" : "deleteAuthGroup",
+      "summary" : "deleteAuthGroup"
+    },
+    "CreateAndAssignTag" : {
+      "title" : "createAndAssignTag",
+      "summary" : "createAndAssignTag"
+    },
+    "DescribeCceClusters" : {
+      "title" : "describeCceClusters",
+      "summary" : "describeCceClusters"
+    },
+    "DescribeAihcResourcePools" : {
+      "title" : "describeAihcResourcePools",
+      "summary" : "describeAihcResourcePools"
     }
   }
 }

@@ -3,7 +3,7 @@
     "clientToken" : "Ensures idempotency of the API call",
     "dataSrcId" : "ID of the data source to be modified",
     "instanceId" : "Unique ID of the RapidFS instance that the data source belongs to",
-    "keepSymlink" : "Whether to retain BOS symbolic links; retaining symlinks will reduce the efficiency of data source import creation and subsequent incremental metadata synchronization",
+    "keepSymlink" : "Whether to retain BOS soft links; retaining them reduces data source import efficiency and incremental metadata sync efficiency.",
     "authGroupId" : "Permission group ID",
     "description" : "Description of the data source, no more than 256 characters",
     "quotaMiB" : "Capacity quota for the data source, indicating the maximum available capacity; cannot exceed the total cache capacity of the instance. -1 means no capacity limit is applied to the data source"

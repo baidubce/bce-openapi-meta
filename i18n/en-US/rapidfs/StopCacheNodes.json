@@ -3,6 +3,6 @@
     "clientToken" : "Ensures idempotency of the API call",
     "instanceId" : "RapidFS instance ID",
     "cacheNodeIds" : "List of CacheNode IDs to be stopped",
-    "migrateDataBeforeStop" : "Whether to migrate data before stopping the node, default is true. Stopping cache nodes without migrating data will reduce cache hit rates for ongoing read jobs; it is generally recommended to migrate data first unless there are special circumstances"
+    "migrateDataBeforeStop" : "Whether to migrate data before stopping the node, default true. Stopping without migration may reduce cache hit rate for running jobs. Unless there are special circumstances, it is recommended to migrate data first before stopping."
   }
 }

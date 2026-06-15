@@ -4,10 +4,10 @@
     "type" : "MasterManaged 部署模式下，用户待添加的缓存接入类型，当前仅支持：<br> • BCC：云服务器 BCC；<br> • IDC：自建数据中心",
     "cacheNodes" : "待添加的节点信息列表，见附录 AddCacheNodeInfo",
     "cacheNodes.ip" : "节点 ip",
-    "cacheNodes.config" : "节点配置信息，默认配置，json 格式字符串：{  \"systemConfig\": {    \"vm.max_map_count\": 524288,    \"fs.aio-max-nr\": 10485760  },  \"resourceConfig\": {    \"requestCpu\": 4,    \"limitCpu\": 16,    \"requestMem\": \"2GiB\",    \"limitMem\": \"8GiB\"  },  \"serviceConfig\": {    \"min_log_level\": 1  }}",
-    "cacheNodes.diskInfos" : "加入节点磁盘的信息，见附录 DiskInfo。其中 format 表示磁盘加入前是否进行格式化；为 true 时必须给出需要格式化的 dev 设备；为 false 时必须给出指定路径的 diskQuotaGiB 容量",
+    "cacheNodes.config" : "节点配置信息，JSON 格式字符串，默认配置：{  \"systemConfig\": {    \"vm.max_map_count\": 524288,    \"fs.aio-max-nr\": 10485760  },  \"resourceConfig\": {    \"requestCpu\": 4,    \"limitCpu\": 16,    \"requestMem\": \"2GiB\",    \"limitMem\": \"8GiB\"  },  \"serviceConfig\": {    \"min_log_level\": 1  }}",
+    "cacheNodes.diskInfos" : "加入节点磁盘的信息，见附录 DiskInfo。其中 format 必填，表示磁盘加入前是否进行格式化，枚举值：* true：必须给出需要格式化的 dev 设备，此时 dev、mountPath 必填；* false：必须给出指定路径的 diskQuotaGiB 容量，此时 mountPath、diskQuotaGiB 必填",
     "cacheNodes.deployPath" : "cache 节点服务部署路径，默认 /home/.rapidfs/",
-    "cacheNodes.bccInfo" : "BCC 缓存节点信息，见附录 BCCCacheNodeInfo",
-    "cacheNodes.idcInfo" : "IDC 缓存节点信息，见附录 IDCCacheNodeInfo"
+    "cacheNodes.bccInfo" : "BCC 缓存节点信息，缓存节点类型为 BCC 时必填，见附录 BCCCacheNodeInfo。其中 bccId 必填",
+    "cacheNodes.idcInfo" : "IDC 缓存节点信息，缓存节点类型为 IDC 时必填，见附录 IDCCacheNodeInfo。其中 sshUser、sshPassword、sshPort 必填"
   }
 }
