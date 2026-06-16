@@ -1,0 +1,20 @@
+{
+  "name" : "GetDeploySet",
+  "method" : "GET",
+  "uri" : "/v{version}/deployset/{id}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.GetDeploySet.id"
+  } ],
+  "desc_key" : "bcc.GetDeploySet.desc"
+}

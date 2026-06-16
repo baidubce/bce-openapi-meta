@@ -1,0 +1,11 @@
+{
+  "CreateSnapshot" : {
+    "volumeId" : "Disk ID for creating the snapshot; use instance ID for system disks",
+    "snapshotName" : "Snapshot name; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; must start with a letter; length 1-65",
+    "desc" : "Snapshot description (optional); supports Chinese characters, letters, digits, period \".\", space, underscore \"_\", hyphen \"-\", equals sign \"=\", comma \",\" (English/Chinese), colon \":\", slash \"/\", and Chinese period \"。\"",
+    "tags" : "Bound tag information",
+    "tags.tagKey" : "Tag key",
+    "tags.tagValue" : "Tag value",
+    "retentionInDays" : "Snapshot retention period; default is -1 (permanent); valid range is 1-10000 days"
+  }
+}

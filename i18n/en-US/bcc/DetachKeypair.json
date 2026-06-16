@@ -1,0 +1,6 @@
+{
+  "DetachKeypair" : {
+    "keypairId" : "ID of the keypair to detach",
+    "instanceIds" : "List of instance IDs to detach the keypair from"
+  }
+}

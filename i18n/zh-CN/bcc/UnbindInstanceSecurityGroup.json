@@ -1,0 +1,7 @@
+{
+  "UnbindInstanceSecurityGroup" : {
+    "instanceIds" : "待解绑的虚机的短id列表",
+    "securityGroupIds" : "待解绑的安全组的短id列表",
+    "securityGroupType" : "待解绑的安全组类型（enterprise/normal）"
+  }
+}

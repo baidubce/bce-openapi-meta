@@ -1,0 +1,7 @@
+{
+  "ListSnapshots" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically not exceeding 1000; default is 1000",
+    "volumeId" : "Filter by disk ID; for system disks, use the instance ID"
+  }
+}

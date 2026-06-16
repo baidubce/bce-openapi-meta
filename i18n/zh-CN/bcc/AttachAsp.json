@@ -1,0 +1,7 @@
+{
+  "AttachAsp" : {
+    "aspId" : "自动快照策略ID",
+    "volumeIds" : "需要绑定的磁盘ID列表",
+    "deleteAutoSnapshot" : "自动快照随磁盘删除，初始值为false，显式赋值后所有相关磁盘对应属性会被新值替换"
+  }
+}

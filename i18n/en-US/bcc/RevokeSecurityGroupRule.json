@@ -1,0 +1,20 @@
+{
+  "RevokeSecurityGroupRule" : {
+    "securityGroupId" : "The security group ID of the security group whose rule is to be revoked",
+    "sgVersion" : "Security group version number, used for optimistic locking control",
+    "rule" : "The security group rule to be revoked",
+    "rule.remark" : "Rule remark (create security group, list security groups, authorize security group rule, revoke security group rule)",
+    "rule.direction" : "Rule direction, valid values: ingress/egress (create security group, list security groups, authorize security group rule, revoke security group rule)",
+    "rule.ethertype" : "Ethernet protocol type (create security group, list security groups, authorize security group rule, revoke security group rule)",
+    "rule.portRange" : "Port range, e.g. 1-65535; empty string means all ports (create security group, list security groups, authorize security group rule, revoke security group rule)",
+    "rule.protocol" : "Protocol type, valid values: tcp/udp/icmp; empty string means all protocols (create security group, list security groups, authorize security group rule, revoke security group rule)",
+    "rule.sourceGroupId" : "Source security group ID, valid only when direction is ingress (create security group, list security groups, authorize security group rule, revoke security group rule)",
+    "rule.sourceIp" : "Source IP address (CIDR format), valid only when direction is ingress (create security group, list security groups, authorize security group rule, revoke security group rule)",
+    "rule.destGroupId" : "Destination security group ID, valid only when direction is egress (create security group, list security groups, authorize security group rule, revoke security group rule)",
+    "rule.destIp" : "Destination IP address (CIDR format), valid only when direction is egress (create security group, list security groups, authorize security group rule, revoke security group rule)",
+    "rule.securityGroupId" : "ID of the security group to which the rule belongs (list security groups)",
+    "rule.securityGroupRuleId" : "Security group rule ID (list security groups)",
+    "rule.createdTime" : "Rule creation time (list security groups)",
+    "rule.updatedTime" : "Rule last update time (list security groups)"
+  }
+}

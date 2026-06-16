@@ -1,0 +1,5 @@
+{
+  "DeleteKeypair" : {
+    "keypairId" : "待删除的密钥对ID"
+  }
+}

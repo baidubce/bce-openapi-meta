@@ -1,0 +1,20 @@
+{
+  "AuthorizeSecurityGroupRule" : {
+    "securityGroupId" : "The security group ID for which a new security group rule is being authorized",
+    "sgVersion" : "Security group version number, used for optimistic locking control",
+    "rule" : "The security group rule to be authorized",
+    "rule.remark" : "Rule remark (used in: create security group, list security groups, authorize rule, revoke rule)",
+    "rule.direction" : "Rule direction, valid values: ingress/egress (used in: create security group, list security groups, authorize rule, revoke rule)",
+    "rule.ethertype" : "Ethernet protocol type (used in: create security group, list security groups, authorize rule, revoke rule)",
+    "rule.portRange" : "Port range, e.g. 1-65535; empty string means all ports (used in: create security group, list security groups, authorize rule, revoke rule)",
+    "rule.protocol" : "Protocol type, valid values: tcp/udp/icmp; empty string means all protocols (used in: create security group, list security groups, authorize rule, revoke rule)",
+    "rule.sourceGroupId" : "Source security group ID, valid only when direction is ingress (used in: create security group, list security groups, authorize rule, revoke rule)",
+    "rule.sourceIp" : "Source IP address (CIDR format), valid only when direction is ingress (used in: create security group, list security groups, authorize rule, revoke rule)",
+    "rule.destGroupId" : "Destination security group ID, valid only when direction is egress (used in: create security group, list security groups, authorize rule, revoke rule)",
+    "rule.destIp" : "Destination IP address (CIDR format), valid only when direction is egress (used in: create security group, list security groups, authorize rule, revoke rule)",
+    "rule.securityGroupId" : "ID of the security group to which the rule belongs (list security groups)",
+    "rule.securityGroupRuleId" : "Security group rule ID (list security groups)",
+    "rule.createdTime" : "Rule creation time (list security groups)",
+    "rule.updatedTime" : "Rule last update time (list security groups)"
+  }
+}

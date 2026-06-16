@@ -1,0 +1,32 @@
+{
+  "name" : "DetachAsp",
+  "method" : "PUT",
+  "uri" : "/v{version}/asp/{aspId}?detach",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "aspId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.DetachAsp.aspId"
+  }, {
+    "name" : "volumeIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.DetachAsp.volumeIds"
+  }, {
+    "name" : "deleteAutoSnapshot",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DetachAsp.deleteAutoSnapshot"
+  } ],
+  "desc_key" : "bcc.DetachAsp.desc"
+}

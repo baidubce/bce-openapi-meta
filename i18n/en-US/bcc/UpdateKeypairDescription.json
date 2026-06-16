@@ -1,0 +1,6 @@
+{
+  "UpdateKeypairDescription" : {
+    "keypairId" : "The ID of the key pair whose description is to be updated",
+    "description" : "New description for the key pair. Only Chinese characters, letters, digits, periods \".\", spaces, underscores \"_\", hyphens \"-\", equals signs \"=\", English commas \",\", Chinese commas \"，\", colons \"：\", slashes \"/\" and Chinese periods \"。\" are allowed."
+  }
+}

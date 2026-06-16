@@ -1,0 +1,5 @@
+{
+  "DeleteDeploySet" : {
+    "deployId" : "部署集id"
+  }
+}

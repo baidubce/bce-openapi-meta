@@ -1,0 +1,8 @@
+{
+  "ListAsps" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically not exceeding 1000. Default value is 1000",
+    "aspName" : "Auto snapshot policy name",
+    "volumeName" : "Disk name"
+  }
+}

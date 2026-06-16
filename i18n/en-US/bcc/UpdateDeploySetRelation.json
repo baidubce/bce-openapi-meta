@@ -1,0 +1,6 @@
+{
+  "UpdateDeploySetRelation" : {
+    "instanceId" : "Instance ID",
+    "deploysetIdList" : "List of deploy set IDs to join"
+  }
+}

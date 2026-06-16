@@ -1,0 +1,6 @@
+{
+  "RenameKeypair" : {
+    "keypairId" : "ID of the keypair to be renamed",
+    "name" : "New keypair name. Supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /. Must start with a letter, length 1-65."
+  }
+}

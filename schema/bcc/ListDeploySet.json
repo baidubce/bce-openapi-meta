@@ -1,0 +1,14 @@
+{
+  "name" : "ListDeploySet",
+  "method" : "GET",
+  "uri" : "/v{version}/instance/deployset/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "bcc.ListDeploySet.desc"
+}

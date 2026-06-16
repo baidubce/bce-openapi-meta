@@ -1,0 +1,32 @@
+{
+  "name" : "BindInstanceSecurityGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/securitygroup/bind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BindInstanceSecurityGroup.instanceIds"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BindInstanceSecurityGroup.securityGroupIds"
+  }, {
+    "name" : "securityGroupType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.BindInstanceSecurityGroup.securityGroupType"
+  } ],
+  "desc_key" : "bcc.BindInstanceSecurityGroup.desc"
+}

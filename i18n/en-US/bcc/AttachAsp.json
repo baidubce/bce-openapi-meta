@@ -1,0 +1,7 @@
+{
+  "AttachAsp" : {
+    "aspId" : "Auto snapshot policy ID",
+    "volumeIds" : "List of disk IDs to bind",
+    "deleteAutoSnapshot" : "Delete auto snapshots with disk; default false, explicit assignment replaces this property for all associated disks"
+  }
+}

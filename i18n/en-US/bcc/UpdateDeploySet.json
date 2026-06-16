@@ -1,0 +1,7 @@
+{
+  "UpdateDeploySet" : {
+    "deployId" : "Deploy set ID",
+    "name" : "Deploy set name (at least one of name or desc is required)",
+    "desc" : "Deploy set description (at least one of name or desc is required); only Chinese characters, letters, digits, periods \".\", spaces, underscores \"_\", hyphens \"-\", equals signs \"=\", English commas \",\", Chinese commas \"，\", colons \"：\", slashes \"/\" and Chinese periods \"。\" are allowed"
+  }
+}

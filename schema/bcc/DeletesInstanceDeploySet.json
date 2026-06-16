@@ -1,0 +1,26 @@
+{
+  "name" : "DeletesInstanceDeploySet",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/deployset/delRelation",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "deployId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.DeletesInstanceDeploySet.deployId"
+  }, {
+    "name" : "instanceIdList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.DeletesInstanceDeploySet.instanceIdList"
+  } ],
+  "desc_key" : "bcc.DeletesInstanceDeploySet.desc"
+}

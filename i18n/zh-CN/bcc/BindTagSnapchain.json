@@ -1,0 +1,8 @@
+{
+  "BindTagSnapchain" : {
+    "chainId" : "快照链ID",
+    "changeTags" : "待绑定的标签列表",
+    "changeTags.tagKey" : "标签键",
+    "changeTags.tagValue" : "标签值"
+  }
+}

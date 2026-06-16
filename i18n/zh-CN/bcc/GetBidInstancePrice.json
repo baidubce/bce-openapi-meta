@@ -1,0 +1,22 @@
+{
+  "GetBidInstancePrice" : {
+    "spec" : "套餐规格",
+    "rootDiskSizeInGb" : "待创建虚拟机实例的系统盘大小，单位GB，默认是40GB，范围为[40, 2048]GB，超过40GB按照云磁盘价格收费。注意指定的系统盘大小需要满足所使用镜像最小磁盘空间限制。",
+    "rootDiskStorageType" : "待创建虚拟机实例系统盘介质，默认使用SSD型云磁盘，可指定系统盘磁盘类型",
+    "createCdsList" : "待创建的CDS磁盘列表",
+    "createCdsList.storageType" : "CDS磁盘存储类型，默认是hp1(高性能云磁盘)。（创建实例、创建抢占实例、查询抢占实例市场价）",
+    "createCdsList.cdsSizeInGB" : "CDS磁盘容量，必须为大于0的整数，单位为GB，大小为0~5120G（创建实例、创建抢占实例、查询抢占实例市场价）",
+    "createCdsList.cdsNum" : "磁盘数量（创建实例）",
+    "createCdsList.name" : "磁盘名称（创建实例）",
+    "createCdsList.cdsExtraIo" : "额外 IO 性能（创建实例）",
+    "createCdsList.snapshotId" : "快照ID，当通过快照创建磁盘时，此属性有效，不能小于快照大小（创建实例、创建抢占实例、查询抢占实例市场价）",
+    "createCdsList.encryptKey" : "加密密钥（创建实例）",
+    "createCdsList.enableDeleteProtection" : "磁盘删除保护（创建实例）",
+    "createCdsList.deleteWithInstance" : "磁盘随实例删除，计费方式为按量后付时生效，初始值为false，V2 API需要在释放实例时指定cdsAttributeActive参数为true才可生效（创建实例）",
+    "createCdsList.deleteAutoSnapshot" : "释放时是否删除自动快照（创建实例）",
+    "networkCapacityInMbps" : "公网带宽，单位Mbps，0~200，0表示不分配公网IP",
+    "internetChargeType" : "公网带宽计费方式",
+    "purchaseCount" : "批量创建（购买）的虚拟机实例个数，必须为大于0的整数，可选参数，缺省为1",
+    "zoneName" : "接口查询可用区列表。zoneName命名规范是“国家-region-可用区序列\"，小写，例如北京可用区A为\"cn-bj-a\"。专属实例使用专属服务器所在zone,无需指定该字段。"
+  }
+}

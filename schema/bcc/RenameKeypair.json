@@ -1,0 +1,26 @@
+{
+  "name" : "RenameKeypair",
+  "method" : "PUT",
+  "uri" : "/v{version}/keypair/{keypairId}?rename",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "keypairId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.RenameKeypair.keypairId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.RenameKeypair.name"
+  } ],
+  "desc_key" : "bcc.RenameKeypair.desc"
+}

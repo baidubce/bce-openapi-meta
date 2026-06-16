@@ -1,0 +1,26 @@
+{
+  "name" : "ListSnapshotShare",
+  "method" : "POST",
+  "uri" : "/v{version}/snapshot/snapshotShare/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListSnapshotShare.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListSnapshotShare.maxKeys"
+  } ],
+  "desc_key" : "bcc.ListSnapshotShare.desc"
+}

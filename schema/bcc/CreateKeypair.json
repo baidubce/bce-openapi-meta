@@ -1,0 +1,26 @@
+{
+  "name" : "CreateKeypair",
+  "method" : "POST",
+  "uri" : "/v{version}/keypair",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateKeypair.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateKeypair.description"
+  } ],
+  "desc_key" : "bcc.CreateKeypair.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "DetachAsp" : {
+    "aspId" : "Auto snapshot policy ID",
+    "volumeIds" : "List of disk IDs to detach",
+    "deleteAutoSnapshot" : "Delete auto snapshots with disk; defaults to false; once explicitly set, all associated disks will have this property replaced with the new value"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "CreateDeploySet",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/deployset/create",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateDeploySet.name"
+  }, {
+    "name" : "desc",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateDeploySet.desc"
+  }, {
+    "name" : "strategy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateDeploySet.strategy"
+  }, {
+    "name" : "concurrency",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateDeploySet.concurrency"
+  } ],
+  "desc_key" : "bcc.CreateDeploySet.desc"
+}

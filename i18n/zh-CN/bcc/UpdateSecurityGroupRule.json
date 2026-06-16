@@ -1,0 +1,13 @@
+{
+  "UpdateSecurityGroupRule" : {
+    "sgVersion" : "安全组版本号，用于乐观锁控制",
+    "securityGroupRuleId" : "安全组规则ID",
+    "remark" : "规则备注描述",
+    "portRange" : "端口范围",
+    "sourceIp" : "入站规则IP，与sourceGroupId不可同时存在",
+    "sourceGroupId" : "入站规则安全组ID，与sourceIp不可同时存在",
+    "destIp" : "出站规则IP，与destGroupId不可同时存在",
+    "destGroupId" : "出站规则安全组ID，与destIp不可同时存在",
+    "protocol" : "协议类型，暂不支持tcp/udp转icmp"
+  }
+}

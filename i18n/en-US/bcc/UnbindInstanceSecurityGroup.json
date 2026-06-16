@@ -1,0 +1,7 @@
+{
+  "UnbindInstanceSecurityGroup" : {
+    "instanceIds" : "List of short IDs of instances to unbind",
+    "securityGroupIds" : "List of short IDs of security groups to unbind",
+    "securityGroupType" : "Type of security group to unbind (enterprise/normal)"
+  }
+}

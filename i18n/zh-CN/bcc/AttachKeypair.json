@@ -1,0 +1,6 @@
+{
+  "AttachKeypair" : {
+    "keypairId" : "待绑定的密钥对ID",
+    "instanceIds" : "待绑定的虚机短ID列表"
+  }
+}

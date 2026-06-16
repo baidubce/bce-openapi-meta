@@ -1,0 +1,10 @@
+{
+  "ListSecurityGroups" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000. Default is 1000",
+    "instanceId" : "Instance ID, used to query security groups associated with the instance",
+    "vpcId" : "VPC instance ID, used to query security groups associated with the VPC",
+    "securityGroupId" : "Security group ID, for exact query of a single security group",
+    "securityGroupIds" : "List of security group IDs, for batch query of multiple security groups"
+  }
+}

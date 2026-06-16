@@ -1,0 +1,6 @@
+{
+  "DeletesInstanceDeploySet" : {
+    "deployId" : "部署集ID",
+    "instanceIdList" : "实例ID列表"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "UpdateDeploySetRelation",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/deployset/updateRelation",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateDeploySetRelation.instanceId"
+  }, {
+    "name" : "deploysetIdList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateDeploySetRelation.deploysetIdList"
+  } ],
+  "desc_key" : "bcc.UpdateDeploySetRelation.desc"
+}

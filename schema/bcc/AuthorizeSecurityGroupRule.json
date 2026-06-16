@@ -1,0 +1,98 @@
+{
+  "name" : "AuthorizeSecurityGroupRule",
+  "method" : "PUT",
+  "uri" : "/v{version}/securityGroup/{securityGroupId}?authorizeRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "securityGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.AuthorizeSecurityGroupRule.securityGroupId"
+  }, {
+    "name" : "sgVersion",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.AuthorizeSecurityGroupRule.sgVersion"
+  }, {
+    "name" : "rule",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule",
+    "sub_parameters" : [ {
+      "name" : "remark",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.remark"
+    }, {
+      "name" : "direction",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.direction"
+    }, {
+      "name" : "ethertype",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.ethertype"
+    }, {
+      "name" : "portRange",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.portRange"
+    }, {
+      "name" : "protocol",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.protocol"
+    }, {
+      "name" : "sourceGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.sourceGroupId"
+    }, {
+      "name" : "sourceIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.sourceIp"
+    }, {
+      "name" : "destGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.destGroupId"
+    }, {
+      "name" : "destIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.destIp"
+    }, {
+      "name" : "securityGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.securityGroupId"
+    }, {
+      "name" : "securityGroupRuleId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.securityGroupRuleId"
+    }, {
+      "name" : "createdTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.createdTime"
+    }, {
+      "name" : "updatedTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.AuthorizeSecurityGroupRule.rule.updatedTime"
+    } ]
+  } ],
+  "desc_key" : "bcc.AuthorizeSecurityGroupRule.desc"
+}

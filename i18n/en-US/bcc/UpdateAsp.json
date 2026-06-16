@@ -1,0 +1,9 @@
+{
+  "UpdateAsp" : {
+    "aspId" : "Auto snapshot policy ID",
+    "name" : "Auto snapshot policy name, supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /., must start with a letter, length 1-65",
+    "timePoints" : "Snapshot time points within a day, valid values: 0-23",
+    "repeatWeekdays" : "Snapshot days within a week, valid values: 0-6",
+    "retentionDays" : "Retention days for auto snapshots, set to -1 for permanent retention"
+  }
+}

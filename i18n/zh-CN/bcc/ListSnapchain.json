@@ -1,0 +1,9 @@
+{
+  "ListSnapchain" : {
+    "orderBy" : "排序属性，可选: chainId(快照链id,默认值),chainSize(快照链大小),volumeSize(磁盘大小)",
+    "order" : "排序方式，可选: asc(正序,默认值), desc(倒序)",
+    "pageSize" : "每页返回条数，默认值为1000",
+    "pageNo" : "页数，默认值为1",
+    "volumeId" : "磁盘id，该字段非空则只返回这个磁盘的快照链信息"
+  }
+}

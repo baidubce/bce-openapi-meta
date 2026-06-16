@@ -1,0 +1,5 @@
+{
+  "GetSnapshot" : {
+    "snapshotId" : "The snapshot ID to query"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name" : "ListAsps",
+  "method" : "GET",
+  "uri" : "/v{version}/asp",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListAsps.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListAsps.maxKeys"
+  }, {
+    "name" : "aspName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListAsps.aspName"
+  }, {
+    "name" : "volumeName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListAsps.volumeName"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "autoSnapshotPolicys"
+  },
+  "desc_key" : "bcc.ListAsps.desc"
+}

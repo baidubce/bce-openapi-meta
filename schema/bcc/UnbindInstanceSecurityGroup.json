@@ -1,0 +1,32 @@
+{
+  "name" : "UnbindInstanceSecurityGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/securitygroup/unbind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindInstanceSecurityGroup.instanceIds"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindInstanceSecurityGroup.securityGroupIds"
+  }, {
+    "name" : "securityGroupType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindInstanceSecurityGroup.securityGroupType"
+  } ],
+  "desc_key" : "bcc.UnbindInstanceSecurityGroup.desc"
+}

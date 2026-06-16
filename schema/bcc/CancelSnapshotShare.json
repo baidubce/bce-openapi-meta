@@ -1,0 +1,32 @@
+{
+  "name" : "CancelSnapshotShare",
+  "method" : "POST",
+  "uri" : "/v{version}snapshot/unShare",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "sourceSnapshotId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CancelSnapshotShare.sourceSnapshotId"
+  }, {
+    "name" : "accountIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CancelSnapshotShare.accountIds"
+  }, {
+    "name" : "shareSnapshotId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CancelSnapshotShare.shareSnapshotId"
+  } ],
+  "desc_key" : "bcc.CancelSnapshotShare.desc"
+}

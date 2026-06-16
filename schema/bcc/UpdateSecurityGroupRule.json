@@ -1,0 +1,68 @@
+{
+  "name" : "UpdateSecurityGroupRule",
+  "method" : "PUT",
+  "uri" : "/v{version}/securityGroup/rule/update",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "sgVersion",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.UpdateSecurityGroupRule.sgVersion"
+  }, {
+    "name" : "securityGroupRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateSecurityGroupRule.securityGroupRuleId"
+  }, {
+    "name" : "remark",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateSecurityGroupRule.remark"
+  }, {
+    "name" : "portRange",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateSecurityGroupRule.portRange"
+  }, {
+    "name" : "sourceIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateSecurityGroupRule.sourceIp"
+  }, {
+    "name" : "sourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateSecurityGroupRule.sourceGroupId"
+  }, {
+    "name" : "destIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateSecurityGroupRule.destIp"
+  }, {
+    "name" : "destGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateSecurityGroupRule.destGroupId"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateSecurityGroupRule.protocol"
+  } ],
+  "desc_key" : "bcc.UpdateSecurityGroupRule.desc"
+}

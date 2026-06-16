@@ -1,0 +1,22 @@
+{
+  "GetBidInstancePrice" : {
+    "spec" : "Package specification",
+    "rootDiskSizeInGb" : "System disk size of the VM instance to be created, in GB. Default is 40GB, range [40, 2048]GB. Sizes exceeding 40GB are charged at cloud disk pricing. The specified size must meet the minimum disk space requirement of the image used.",
+    "rootDiskStorageType" : "System disk media type of the VM instance to be created. Defaults to SSD cloud disk. The disk type can be specified.",
+    "createCdsList" : "List of CDS disks to be created",
+    "createCdsList.storageType" : "CDS disk storage type. Default is hp1 (high-performance cloud disk). (Create instance, create spot instance, query spot instance market price)",
+    "createCdsList.cdsSizeInGB" : "CDS disk capacity. Must be a positive integer, in GB, range 0~5120GB. (Create instance, create spot instance, query spot instance market price)",
+    "createCdsList.cdsNum" : "Number of disks. (Create instance)",
+    "createCdsList.name" : "Disk name. (Create instance)",
+    "createCdsList.cdsExtraIo" : "Extra I/O performance. (Create instance)",
+    "createCdsList.snapshotId" : "Snapshot ID. Applies when creating a disk from a snapshot; cannot be smaller than the snapshot size. (Create instance, create spot instance, query spot instance market price)",
+    "createCdsList.encryptKey" : "Encryption key. (Create instance)",
+    "createCdsList.enableDeleteProtection" : "Disk deletion protection. (Create instance)",
+    "createCdsList.deleteWithInstance" : "Delete disk with instance. Takes effect when billing is pay-as-you-go; default is false. For V2 API, the cdsAttributeActive parameter must be set to true when releasing the instance. (Create instance)",
+    "createCdsList.deleteAutoSnapshot" : "Whether to delete automatic snapshots on release. (Create instance)",
+    "networkCapacityInMbps" : "Public network bandwidth in Mbps, range 0~200. 0 means no public IP is allocated.",
+    "internetChargeType" : "Billing method for public network bandwidth",
+    "purchaseCount" : "Number of VM instances to create in batch. Must be a positive integer. Optional, default is 1.",
+    "zoneName" : "Availability zone for the query. Zone name format: \"country-region-zone-letter\", lowercase. Example: Beijing Zone A is \"cn-bj-a\". For dedicated instances, use the zone of the dedicated host; this field is not required."
+  }
+}

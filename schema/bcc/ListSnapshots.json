@@ -1,0 +1,39 @@
+{
+  "name" : "ListSnapshots",
+  "method" : "GET",
+  "uri" : "/v{version}/snapshot",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListSnapshots.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListSnapshots.maxKeys"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListSnapshots.volumeId"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "snapshots"
+  },
+  "desc_key" : "bcc.ListSnapshots.desc"
+}

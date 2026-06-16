@@ -1,0 +1,24 @@
+{
+  "CreateSecurityGroup" : {
+    "name" : "安全组名称，支持大小写字母、数字、中文以及-_ /.特殊字符，必须以字母开头，长度1-65",
+    "desc" : "安全组描述信息",
+    "vpcId" : "安全组所属的vpcId",
+    "tags" : "标签列表",
+    "tags.tagKey" : "标签键",
+    "tags.tagValue" : "标签值",
+    "rules" : "安全组规则列表",
+    "rules.remark" : "规则备注（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rules.direction" : "规则方向，取值：ingress/egress（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rules.ethertype" : "以太网协议类型（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rules.portRange" : "端口范围，如1-65535，空字符串表示所有端口（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rules.protocol" : "协议类型，取值：tcp/udp/icmp，空字符串表示所有协议（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rules.sourceGroupId" : "源安全组ID，仅direction为ingress时有效（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rules.sourceIp" : "源IP地址（CIDR格式），仅direction为ingress时有效（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rules.destGroupId" : "目标安全组ID，仅direction为egress时有效（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rules.destIp" : "目标IP地址（CIDR格式），仅direction为egress时有效（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rules.securityGroupId" : "规则所属安全组ID（查询安全组列表）",
+    "rules.securityGroupRuleId" : "安全组规则ID（查询安全组列表）",
+    "rules.createdTime" : "规则创建时间（查询安全组列表）",
+    "rules.updatedTime" : "规则更新时间（查询安全组列表）"
+  }
+}

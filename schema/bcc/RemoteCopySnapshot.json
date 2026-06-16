@@ -1,0 +1,43 @@
+{
+  "name" : "RemoteCopySnapshot",
+  "method" : "PUT",
+  "uri" : "/v{version}/snapshot/remote_copy/{snapshotId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "snapshotId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.RemoteCopySnapshot.snapshotId"
+  }, {
+    "name" : "uuid",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RemoteCopySnapshot.uuid"
+  }, {
+    "name" : "destRegionInfos",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RemoteCopySnapshot.destRegionInfos",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RemoteCopySnapshot.destRegionInfos.name"
+    }, {
+      "name" : "destRegion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RemoteCopySnapshot.destRegionInfos.destRegion"
+    } ]
+  } ],
+  "desc_key" : "bcc.RemoteCopySnapshot.desc"
+}

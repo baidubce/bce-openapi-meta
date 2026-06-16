@@ -1,0 +1,5 @@
+{
+  "GetSnapshot" : {
+    "snapshotId" : "待查询的快照ID"
+  }
+}

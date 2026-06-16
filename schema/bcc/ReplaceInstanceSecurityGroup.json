@@ -1,0 +1,32 @@
+{
+  "name" : "ReplaceInstanceSecurityGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/securitygroup/replace",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReplaceInstanceSecurityGroup.instanceIds"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReplaceInstanceSecurityGroup.securityGroupIds"
+  }, {
+    "name" : "securityGroupType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ReplaceInstanceSecurityGroup.securityGroupType"
+  } ],
+  "desc_key" : "bcc.ReplaceInstanceSecurityGroup.desc"
+}

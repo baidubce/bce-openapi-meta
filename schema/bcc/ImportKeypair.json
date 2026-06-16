@@ -1,0 +1,32 @@
+{
+  "name" : "ImportKeypair",
+  "method" : "PUT",
+  "uri" : "/v{version}/keypair?import",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportKeypair.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportKeypair.description"
+  }, {
+    "name" : "publicKey",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ImportKeypair.publicKey"
+  } ],
+  "desc_key" : "bcc.ImportKeypair.desc"
+}

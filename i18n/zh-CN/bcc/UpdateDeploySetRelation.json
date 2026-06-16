@@ -1,0 +1,6 @@
+{
+  "UpdateDeploySetRelation" : {
+    "instanceId" : "实例id",
+    "deploysetIdList" : "要加入的部署集id列表"
+  }
+}

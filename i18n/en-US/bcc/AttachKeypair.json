@@ -1,0 +1,6 @@
+{
+  "AttachKeypair" : {
+    "keypairId" : "ID of the keypair to be attached",
+    "instanceIds" : "List of short instance IDs to attach the keypair to"
+  }
+}

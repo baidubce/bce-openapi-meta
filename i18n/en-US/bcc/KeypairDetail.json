@@ -1,0 +1,5 @@
+{
+  "KeypairDetail" : {
+    "keypairId" : "The ID of the key pair to query"
+  }
+}

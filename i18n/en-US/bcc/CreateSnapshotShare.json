@@ -1,0 +1,6 @@
+{
+  "CreateSnapshotShare" : {
+    "snapshotId" : "The snapshot ID to be shared",
+    "accountIds" : "List of accounts to share with, up to 100 Baidu Cloud primary accounts. For snapshots in \"share accepted\" status, configuring shared accounts will have no effect. If empty, cancels the sharing of snapshots in \"sharing\" status"
+  }
+}

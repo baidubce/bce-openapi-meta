@@ -1,0 +1,8 @@
+{
+  "CreateAsp" : {
+    "name" : "Auto snapshot policy name; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; must begin with a letter; length 1–65",
+    "timePoints" : "Time points within a day to take snapshots; valid values: 0–23",
+    "repeatWeekdays" : "Days of the week to take snapshots; valid values: 0–6",
+    "retentionDays" : "Retention days for auto snapshots; set to -1 for permanent retention"
+  }
+}

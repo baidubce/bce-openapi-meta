@@ -1,0 +1,7 @@
+{
+  "BindInstanceSecurityGroup" : {
+    "instanceIds" : "List of short IDs of instances to be bound",
+    "securityGroupIds" : "List of short IDs of security groups to be bound",
+    "securityGroupType" : "Type of security group to be bound (enterprise/normal)"
+  }
+}

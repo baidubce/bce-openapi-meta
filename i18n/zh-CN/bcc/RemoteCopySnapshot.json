@@ -1,0 +1,9 @@
+{
+  "RemoteCopySnapshot" : {
+    "snapshotId" : "待复制的快照ID",
+    "uuid" : "快照uuid",
+    "destRegionInfos" : "待复制到目标区域列表",
+    "destRegionInfos.name" : "快照名称",
+    "destRegionInfos.destRegion" : "待复制快照的目标区域"
+  }
+}

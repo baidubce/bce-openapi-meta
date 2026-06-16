@@ -1,0 +1,26 @@
+{
+  "name" : "UpdateKeypairDescription",
+  "method" : "PUT",
+  "uri" : "/v{version}/keypair/{keypairId}?updateDesc",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "keypairId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.UpdateKeypairDescription.keypairId"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateKeypairDescription.description"
+  } ],
+  "desc_key" : "bcc.UpdateKeypairDescription.desc"
+}

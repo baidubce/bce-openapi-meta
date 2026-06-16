@@ -1,0 +1,26 @@
+{
+  "name" : "AttachKeypair",
+  "method" : "PUT",
+  "uri" : "/v{version}/keypair/{keypairId}?attach",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "keypairId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.AttachKeypair.keypairId"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.AttachKeypair.instanceIds"
+  } ],
+  "desc_key" : "bcc.AttachKeypair.desc"
+}

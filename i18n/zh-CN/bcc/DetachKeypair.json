@@ -1,0 +1,6 @@
+{
+  "DetachKeypair" : {
+    "keypairId" : "待解绑的密钥对ID",
+    "instanceIds" : "待解绑的实例ID列表"
+  }
+}

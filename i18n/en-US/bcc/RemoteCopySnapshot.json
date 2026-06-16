@@ -1,0 +1,9 @@
+{
+  "RemoteCopySnapshot" : {
+    "snapshotId" : "ID of the snapshot to be copied",
+    "uuid" : "Snapshot UUID",
+    "destRegionInfos" : "List of destination regions to copy to",
+    "destRegionInfos.name" : "Snapshot name",
+    "destRegionInfos.destRegion" : "Destination region for the snapshot copy"
+  }
+}

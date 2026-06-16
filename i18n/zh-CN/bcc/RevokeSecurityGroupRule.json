@@ -1,0 +1,20 @@
+{
+  "RevokeSecurityGroupRule" : {
+    "securityGroupId" : "待撤销安全组规则的安全组ID",
+    "sgVersion" : "安全组版本号，用于乐观锁控制",
+    "rule" : "待撤销的安全组规则",
+    "rule.remark" : "规则备注（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rule.direction" : "规则方向，取值：ingress/egress（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rule.ethertype" : "以太网协议类型（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rule.portRange" : "端口范围，如1-65535，空字符串表示所有端口（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rule.protocol" : "协议类型，取值：tcp/udp/icmp，空字符串表示所有协议（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rule.sourceGroupId" : "源安全组ID，仅direction为ingress时有效（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rule.sourceIp" : "源IP地址（CIDR格式），仅direction为ingress时有效（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rule.destGroupId" : "目标安全组ID，仅direction为egress时有效（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rule.destIp" : "目标IP地址（CIDR格式），仅direction为egress时有效（创建安全组、查询安全组列表、授权安全组规则、撤销安全组规则）",
+    "rule.securityGroupId" : "规则所属安全组ID（查询安全组列表）",
+    "rule.securityGroupRuleId" : "安全组规则ID（查询安全组列表）",
+    "rule.createdTime" : "规则创建时间（查询安全组列表）",
+    "rule.updatedTime" : "规则更新时间（查询安全组列表）"
+  }
+}

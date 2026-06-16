@@ -1,0 +1,13 @@
+{
+  "UpdateSecurityGroupRule" : {
+    "sgVersion" : "Security group version number, used for optimistic locking control",
+    "securityGroupRuleId" : "Security group rule ID",
+    "remark" : "Rule remark description",
+    "portRange" : "Port range",
+    "sourceIp" : "Inbound rule IP, mutually exclusive with sourceGroupId",
+    "sourceGroupId" : "Inbound rule security group ID, mutually exclusive with sourceIp",
+    "destIp" : "Outbound rule IP, mutually exclusive with destGroupId",
+    "destGroupId" : "Outbound rule security group ID, mutually exclusive with destIp",
+    "protocol" : "Protocol type, conversion from tcp/udp to icmp is not currently supported"
+  }
+}

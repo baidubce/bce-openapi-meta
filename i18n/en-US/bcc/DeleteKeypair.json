@@ -1,0 +1,5 @@
+{
+  "DeleteKeypair" : {
+    "keypairId" : "ID of the key pair to be deleted"
+  }
+}

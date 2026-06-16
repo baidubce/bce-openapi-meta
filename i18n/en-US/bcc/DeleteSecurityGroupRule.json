@@ -1,0 +1,6 @@
+{
+  "DeleteSecurityGroupRule" : {
+    "securityGroupRuleId" : "ID of the security group rule to delete",
+    "sgVersion" : "Security group version number, used for optimistic lock control"
+  }
+}

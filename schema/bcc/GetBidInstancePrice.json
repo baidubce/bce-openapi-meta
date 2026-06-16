@@ -1,0 +1,113 @@
+{
+  "name" : "GetBidInstancePrice",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/bidPrice",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "spec",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetBidInstancePrice.spec"
+  }, {
+    "name" : "rootDiskSizeInGb",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetBidInstancePrice.rootDiskSizeInGb"
+  }, {
+    "name" : "rootDiskStorageType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetBidInstancePrice.rootDiskStorageType"
+  }, {
+    "name" : "createCdsList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetBidInstancePrice.createCdsList",
+    "sub_parameters" : [ {
+      "name" : "storageType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.GetBidInstancePrice.createCdsList.storageType"
+    }, {
+      "name" : "cdsSizeInGB",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.GetBidInstancePrice.createCdsList.cdsSizeInGB"
+    }, {
+      "name" : "cdsNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.GetBidInstancePrice.createCdsList.cdsNum"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.GetBidInstancePrice.createCdsList.name"
+    }, {
+      "name" : "cdsExtraIo",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.GetBidInstancePrice.createCdsList.cdsExtraIo"
+    }, {
+      "name" : "snapshotId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.GetBidInstancePrice.createCdsList.snapshotId"
+    }, {
+      "name" : "encryptKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.GetBidInstancePrice.createCdsList.encryptKey"
+    }, {
+      "name" : "enableDeleteProtection",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.GetBidInstancePrice.createCdsList.enableDeleteProtection"
+    }, {
+      "name" : "deleteWithInstance",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bcc.GetBidInstancePrice.createCdsList.deleteWithInstance"
+    }, {
+      "name" : "deleteAutoSnapshot",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bcc.GetBidInstancePrice.createCdsList.deleteAutoSnapshot"
+    } ]
+  }, {
+    "name" : "networkCapacityInMbps",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetBidInstancePrice.networkCapacityInMbps"
+  }, {
+    "name" : "internetChargeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetBidInstancePrice.internetChargeType"
+  }, {
+    "name" : "purchaseCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetBidInstancePrice.purchaseCount"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetBidInstancePrice.zoneName"
+  } ],
+  "desc_key" : "bcc.GetBidInstancePrice.desc"
+}

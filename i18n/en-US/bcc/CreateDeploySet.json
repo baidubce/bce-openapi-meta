@@ -1,0 +1,8 @@
+{
+  "CreateDeploySet" : {
+    "name" : "Deploy set name",
+    "desc" : "Deploy set description, may only contain Chinese characters, letters, digits, dots \".\", spaces, underscores \"_\", hyphens \"-\", equals signs \"=\", English commas \",\", Chinese commas \"，\", colons \"：\", slashes \"/\" and Chinese periods \"。\"",
+    "strategy" : "Deploy set strategy (HOST_HA: host machine, RACK_HA: rack, TOR_HA: switch)",
+    "concurrency" : "Deploy set concurrency"
+  }
+}

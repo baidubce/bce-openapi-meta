@@ -1,0 +1,26 @@
+{
+  "name" : "DetachKeypair",
+  "method" : "PUT",
+  "uri" : "/v{version}/keypair/{keypairId}?detach",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "keypairId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.DetachKeypair.keypairId"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.DetachKeypair.instanceIds"
+  } ],
+  "desc_key" : "bcc.DetachKeypair.desc"
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "AttachAsp",
+  "method" : "PUT",
+  "uri" : "/v{version}/asp/{aspId}?attach",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "aspId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.AttachAsp.aspId"
+  }, {
+    "name" : "volumeIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.AttachAsp.volumeIds"
+  }, {
+    "name" : "deleteAutoSnapshot",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AttachAsp.deleteAutoSnapshot"
+  } ],
+  "desc_key" : "bcc.AttachAsp.desc"
+}

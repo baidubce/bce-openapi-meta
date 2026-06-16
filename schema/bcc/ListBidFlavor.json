@@ -1,0 +1,14 @@
+{
+  "name" : "ListBidFlavor",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/bidFlavor",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "bcc.ListBidFlavor.desc"
+}

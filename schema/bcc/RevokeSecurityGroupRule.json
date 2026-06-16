@@ -1,0 +1,98 @@
+{
+  "name" : "RevokeSecurityGroupRule",
+  "method" : "PUT",
+  "uri" : "/v{version}/securityGroup/{securityGroupId}?revokeRule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "securityGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.RevokeSecurityGroupRule.securityGroupId"
+  }, {
+    "name" : "sgVersion",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.RevokeSecurityGroupRule.sgVersion"
+  }, {
+    "name" : "rule",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.RevokeSecurityGroupRule.rule",
+    "sub_parameters" : [ {
+      "name" : "remark",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.remark"
+    }, {
+      "name" : "direction",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.direction"
+    }, {
+      "name" : "ethertype",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.ethertype"
+    }, {
+      "name" : "portRange",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.portRange"
+    }, {
+      "name" : "protocol",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.protocol"
+    }, {
+      "name" : "sourceGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.sourceGroupId"
+    }, {
+      "name" : "sourceIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.sourceIp"
+    }, {
+      "name" : "destGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.destGroupId"
+    }, {
+      "name" : "destIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.destIp"
+    }, {
+      "name" : "securityGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.securityGroupId"
+    }, {
+      "name" : "securityGroupRuleId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.securityGroupRuleId"
+    }, {
+      "name" : "createdTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.createdTime"
+    }, {
+      "name" : "updatedTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.RevokeSecurityGroupRule.rule.updatedTime"
+    } ]
+  } ],
+  "desc_key" : "bcc.RevokeSecurityGroupRule.desc"
+}

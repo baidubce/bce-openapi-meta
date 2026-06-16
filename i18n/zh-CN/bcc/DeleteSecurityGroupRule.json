@@ -1,0 +1,6 @@
+{
+  "DeleteSecurityGroupRule" : {
+    "securityGroupRuleId" : "要删除的安全组规则ID",
+    "sgVersion" : "安全组版本号，用于乐观锁控制"
+  }
+}

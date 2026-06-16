@@ -1,0 +1,7 @@
+{
+  "CancelSnapshotShare" : {
+    "sourceSnapshotId" : "源快照需取消共享ID，共享方取消快照共享时必填。",
+    "accountIds" : "共享方可指定取消共享的接收方账号ID，不填时默认取消全部共享。",
+    "shareSnapshotId" : "已接收需取消共享的快照ID，接收方必填。"
+  }
+}

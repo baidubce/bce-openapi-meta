@@ -7,10 +7,6 @@
       "title" : "purchaseReservedInstance",
       "summary" : "purchaseReservedInstance"
     },
-    "CreateVolume" : {
-      "title" : "createVolume",
-      "summary" : "createVolume"
-    },
     "ListInstanceByIds" : {
       "title" : "listInstanceByIds",
       "summary" : "listInstanceByIds"
@@ -18,10 +14,6 @@
     "ReleaseInstanceByPost" : {
       "title" : "releaseInstanceByPost",
       "summary" : "releaseInstanceByPost"
-    },
-    "DelIpv6" : {
-      "title" : "delIpv6",
-      "summary" : "delIpv6"
     },
     "AutoReleaseInstance" : {
       "title" : "autoReleaseInstance",
@@ -35,10 +27,6 @@
       "title" : "listInstanceEnis",
       "summary" : "listInstanceEnis"
     },
-    "AddIpv6" : {
-      "title" : "addIpv6",
-      "summary" : "addIpv6"
-    },
     "ChangeVpc" : {
       "title" : "changeVpc",
       "summary" : "changeVpc"
@@ -47,10 +35,6 @@
       "title" : "instanceRecovery",
       "summary" : "instanceRecovery"
     },
-    "DeleteInstanceDeploySet" : {
-      "title" : "deleteInstanceDeploySet",
-      "summary" : "deleteInstanceDeploySet"
-    },
     "BindTagVolume" : {
       "title" : "bindTagVolume",
       "summary" : "bindTagVolume"
@@ -58,14 +42,6 @@
     "ListRecycleInstance" : {
       "title" : "listRecycleInstance",
       "summary" : "listRecycleInstance"
-    },
-    "GetVolume" : {
-      "title" : "getVolume",
-      "summary" : "getVolume"
-    },
-    "ListVolumes" : {
-      "title" : "listVolumes",
-      "summary" : "listVolumes"
     },
     "ResizeInstanceBySpec" : {
       "title" : "resizeInstanceBySpec",
@@ -79,10 +55,6 @@
       "title" : "getVolumeResizeProgress",
       "summary" : "getVolumeResizeProgress"
     },
-    "GetCdsPrice" : {
-      "title" : "getCdsPrice",
-      "summary" : "getCdsPrice"
-    },
     "ExitRescueMode" : {
       "title" : "exitRescueMode",
       "summary" : "exitRescueMode"
@@ -95,17 +67,9 @@
       "title" : "getImage",
       "summary" : "getImage"
     },
-    "UnbindTagVolume" : {
-      "title" : "unbindTagVolume",
-      "summary" : "unbindTagVolume"
-    },
     "DeleteImage" : {
       "title" : "deleteImage",
       "summary" : "deleteImage"
-    },
-    "ResizeVolume" : {
-      "title" : "resizeVolume",
-      "summary" : "resizeVolume"
     },
     "ShareImage" : {
       "title" : "shareImage",
@@ -114,10 +78,6 @@
     "UnShareImage" : {
       "title" : "unShareImage",
       "summary" : "unShareImage"
-    },
-    "GetDiskQuota" : {
-      "title" : "getDiskQuota",
-      "summary" : "getDiskQuota"
     },
     "ListSharedUser" : {
       "title" : "listSharedUser",
@@ -151,89 +111,133 @@
       "title" : "remoteCopyImage",
       "summary" : "remoteCopyImage"
     },
-    "BatchAddIp" : {
-      "title" : "batchAddIp",
-      "summary" : "batchAddIp"
+    "ListSnapshots" : {
+      "title" : "listSnapshots",
+      "summary" : "listSnapshots"
     },
-    "BatchDeleteIp" : {
-      "title" : "batchDeleteIp",
-      "summary" : "batchDeleteIp"
+    "GetSnapshot" : {
+      "title" : "getSnapshot",
+      "summary" : "getSnapshot"
     },
-    "StartInstance" : {
-      "title" : "startInstance",
-      "summary" : "startInstance"
+    "ListSnapchain" : {
+      "title" : "listSnapchain",
+      "summary" : "listSnapchain"
     },
-    "RollbackVolume" : {
-      "title" : "rollbackVolume",
-      "summary" : "rollbackVolume"
+    "UnbindTagSnapchain" : {
+      "title" : "unbindTagSnapchain",
+      "summary" : "unbindTagSnapchain"
     },
-    "PurchaseReservedVolume" : {
-      "title" : "purchaseReservedVolume",
-      "summary" : "purchaseReservedVolume"
+    "BindTagSnapchain" : {
+      "title" : "bindTagSnapchain",
+      "summary" : "bindTagSnapchain"
+    },
+    "CancelSnapshotShare" : {
+      "title" : "cancelSnapshotShare",
+      "summary" : "cancelSnapshotShare"
+    },
+    "CreateSnapshotShare" : {
+      "title" : "createSnapshotShare",
+      "summary" : "createSnapshotShare"
+    },
+    "AttachAsp" : {
+      "title" : "attachAsp",
+      "summary" : "attachAsp"
+    },
+    "DeleteSnapshot" : {
+      "title" : "deleteSnapshot",
+      "summary" : "deleteSnapshot"
+    },
+    "DetachAsp" : {
+      "title" : "detachAsp",
+      "summary" : "detachAsp"
+    },
+    "DeleteAsp" : {
+      "title" : "deleteAsp",
+      "summary" : "deleteAsp"
+    },
+    "ListAsps" : {
+      "title" : "listAsps",
+      "summary" : "listAsps"
+    },
+    "GetAsp" : {
+      "title" : "getAsp",
+      "summary" : "getAsp"
+    },
+    "ListSecurityGroups" : {
+      "title" : "listSecurityGroups",
+      "summary" : "listSecurityGroups"
+    },
+    "DeleteSecurityGroup" : {
+      "title" : "deleteSecurityGroup",
+      "summary" : "deleteSecurityGroup"
+    },
+    "DeleteSecurityGroupRule" : {
+      "title" : "deleteSecurityGroupRule",
+      "summary" : "deleteSecurityGroupRule"
+    },
+    "UpdateSecurityGroupRule" : {
+      "title" : "updateSecurityGroupRule",
+      "summary" : "updateSecurityGroupRule"
     },
     "BatchStartInstance" : {
       "title" : "batchStartInstance",
       "summary" : "batchStartInstance"
     },
-    "RenameImage" : {
-      "title" : "renameImage",
-      "summary" : "renameImage"
+    "CancelBidOrder" : {
+      "title" : "cancelBidOrder",
+      "summary" : "cancelBidOrder"
     },
-    "CreateImage" : {
-      "title" : "createImage",
-      "summary" : "createImage"
+    "AttachKeypair" : {
+      "title" : "attachKeypair",
+      "summary" : "attachKeypair"
+    },
+    "RenameKeypair" : {
+      "title" : "renameKeypair",
+      "summary" : "renameKeypair"
+    },
+    "DetachKeypair" : {
+      "title" : "detachKeypair",
+      "summary" : "detachKeypair"
     },
     "StopInstance" : {
       "title" : "stopInstance",
       "summary" : "stopInstance"
     },
+    "UpdateDeploySet" : {
+      "title" : "updateDeploySet",
+      "summary" : "updateDeploySet"
+    },
+    "DeleteDeploySet" : {
+      "title" : "deleteDeploySet",
+      "summary" : "deleteDeploySet"
+    },
+    "GetDeploySet" : {
+      "title" : "getDeploySet",
+      "summary" : "getDeploySet"
+    },
+    "UpdateDeploySetRelation" : {
+      "title" : "updateDeploySetRelation",
+      "summary" : "updateDeploySetRelation"
+    },
     "BatchStopInstance" : {
       "title" : "batchStopInstance",
       "summary" : "batchStopInstance"
     },
-    "InstanceDeletionProtection" : {
-      "title" : "instanceDeletionProtection",
-      "summary" : "instanceDeletionProtection"
-    },
-    "BatchChangeToPostpaid" : {
-      "title" : "batchChangeToPostpaid",
-      "summary" : "batchChangeToPostpaid"
+    "DeletesInstanceDeploySet" : {
+      "title" : "deletesInstanceDeploySet",
+      "summary" : "deletesInstanceDeploySet"
     },
     "RebootInstance" : {
       "title" : "rebootInstance",
       "summary" : "rebootInstance"
     },
-    "BatchChangeToPrepaid" : {
-      "title" : "batchChangeToPrepaid",
-      "summary" : "batchChangeToPrepaid"
-    },
-    "ListAvailableResizeSpec" : {
-      "title" : "listAvailableResizeSpec",
-      "summary" : "listAvailableResizeSpec"
-    },
-    "ReleaseMultipleInstanceByPost" : {
-      "title" : "releaseMultipleInstanceByPost",
-      "summary" : "releaseMultipleInstanceByPost"
-    },
     "ModifyInstancePassword" : {
       "title" : "modifyInstancePassword",
       "summary" : "modifyInstancePassword"
     },
-    "InstanceBatchResizeBySpec" : {
-      "title" : "instanceBatchResizeBySpec",
-      "summary" : "instanceBatchResizeBySpec"
-    },
-    "DeleteRecycledInstance" : {
-      "title" : "deleteRecycledInstance",
-      "summary" : "deleteRecycledInstance"
-    },
     "ModifyInstanceAttributes" : {
       "title" : "modifyInstanceAttributes",
       "summary" : "modifyInstanceAttributes"
-    },
-    "CreateAutoRenewRule" : {
-      "title" : "createAutoRenewRule",
-      "summary" : "createAutoRenewRule"
     },
     "RebuildInstance" : {
       "title" : "rebuildInstance",
@@ -247,10 +251,6 @@
       "title" : "bindInstanceToSecurityGroup",
       "summary" : "bindInstanceToSecurityGroup"
     },
-    "DeleteAutoRenewRule" : {
-      "title" : "deleteAutoRenewRule",
-      "summary" : "deleteAutoRenewRule"
-    },
     "UnbindInstanceFromSecurityGroup" : {
       "title" : "unbindInstanceFromSecurityGroup",
       "summary" : "unbindInstanceFromSecurityGroup"
@@ -259,41 +259,17 @@
       "title" : "getInstanceVnc",
       "summary" : "getInstanceVnc"
     },
-    "DeletePrepayInstance" : {
-      "title" : "deletePrepayInstance",
-      "summary" : "deletePrepayInstance"
-    },
     "UpdateInstanceSubnet" : {
       "title" : "updateInstanceSubnet",
       "summary" : "updateInstanceSubnet"
-    },
-    "AttachVolume" : {
-      "title" : "attachVolume",
-      "summary" : "attachVolume"
     },
     "ModifyInstanceDesc" : {
       "title" : "modifyInstanceDesc",
       "summary" : "modifyInstanceDesc"
     },
-    "BatchRefundResource" : {
-      "title" : "batchRefundResource",
-      "summary" : "batchRefundResource"
-    },
     "ChangeToPrepaid" : {
       "title" : "changeToPrepaid",
       "summary" : "changeToPrepaid"
-    },
-    "DetachVolume" : {
-      "title" : "detachVolume",
-      "summary" : "detachVolume"
-    },
-    "ModifyRelatedDeletePolicy" : {
-      "title" : "modifyRelatedDeletePolicy",
-      "summary" : "modifyRelatedDeletePolicy"
-    },
-    "ReleaseVolume" : {
-      "title" : "releaseVolume",
-      "summary" : "releaseVolume"
     },
     "UnbindInstanceFromTags" : {
       "title" : "unbindInstanceFromTags",
@@ -311,13 +287,233 @@
       "title" : "bindRole",
       "summary" : "bindRole"
     },
-    "RenameVolume" : {
-      "title" : "renameVolume",
-      "summary" : "renameVolume"
-    },
     "UnbindRole" : {
       "title" : "unbindRole",
       "summary" : "unbindRole"
+    },
+    "ModifyInstanceHostname" : {
+      "title" : "modifyInstanceHostname",
+      "summary" : "modifyInstanceHostname"
+    },
+    "CreateVolume" : {
+      "title" : "createVolume",
+      "summary" : "createVolume"
+    },
+    "DelIpv6" : {
+      "title" : "delIpv6",
+      "summary" : "delIpv6"
+    },
+    "AddIpv6" : {
+      "title" : "addIpv6",
+      "summary" : "addIpv6"
+    },
+    "DeleteInstanceDeploySet" : {
+      "title" : "deleteInstanceDeploySet",
+      "summary" : "deleteInstanceDeploySet"
+    },
+    "GetVolume" : {
+      "title" : "getVolume",
+      "summary" : "getVolume"
+    },
+    "ListVolumes" : {
+      "title" : "listVolumes",
+      "summary" : "listVolumes"
+    },
+    "GetCdsPrice" : {
+      "title" : "getCdsPrice",
+      "summary" : "getCdsPrice"
+    },
+    "UnbindTagVolume" : {
+      "title" : "unbindTagVolume",
+      "summary" : "unbindTagVolume"
+    },
+    "ResizeVolume" : {
+      "title" : "resizeVolume",
+      "summary" : "resizeVolume"
+    },
+    "GetDiskQuota" : {
+      "title" : "getDiskQuota",
+      "summary" : "getDiskQuota"
+    },
+    "UpdateKeypairDescription" : {
+      "title" : "updateKeypairDescription",
+      "summary" : "updateKeypairDescription"
+    },
+    "ListBidFlavor" : {
+      "title" : "listBidFlavor",
+      "summary" : "listBidFlavor"
+    },
+    "BatchAddIp" : {
+      "title" : "batchAddIp",
+      "summary" : "batchAddIp"
+    },
+    "BatchDeleteIp" : {
+      "title" : "batchDeleteIp",
+      "summary" : "batchDeleteIp"
+    },
+    "AuthorizeSecurityGroupRule" : {
+      "title" : "authorizeSecurityGroupRule",
+      "summary" : "authorizeSecurityGroupRule"
+    },
+    "RevokeSecurityGroupRule" : {
+      "title" : "revokeSecurityGroupRule",
+      "summary" : "revokeSecurityGroupRule"
+    },
+    "ListKeypair" : {
+      "title" : "listKeypair",
+      "summary" : "listKeypair"
+    },
+    "CreateKeypair" : {
+      "title" : "createKeypair",
+      "summary" : "createKeypair"
+    },
+    "ImportKeypair" : {
+      "title" : "importKeypair",
+      "summary" : "importKeypair"
+    },
+    "KeypairDetail" : {
+      "title" : "keypairDetail",
+      "summary" : "keypairDetail"
+    },
+    "DeleteKeypair" : {
+      "title" : "deleteKeypair",
+      "summary" : "deleteKeypair"
+    },
+    "StartInstance" : {
+      "title" : "startInstance",
+      "summary" : "startInstance"
+    },
+    "RollbackVolume" : {
+      "title" : "rollbackVolume",
+      "summary" : "rollbackVolume"
+    },
+    "PurchaseReservedVolume" : {
+      "title" : "purchaseReservedVolume",
+      "summary" : "purchaseReservedVolume"
+    },
+    "RenameImage" : {
+      "title" : "renameImage",
+      "summary" : "renameImage"
+    },
+    "CreateImage" : {
+      "title" : "createImage",
+      "summary" : "createImage"
+    },
+    "CreateSnapshot" : {
+      "title" : "createSnapshot",
+      "summary" : "createSnapshot"
+    },
+    "RemoteCopySnapshot" : {
+      "title" : "remoteCopySnapshot",
+      "summary" : "remoteCopySnapshot"
+    },
+    "CreateAsp" : {
+      "title" : "createAsp",
+      "summary" : "createAsp"
+    },
+    "UpdateAsp" : {
+      "title" : "updateAsp",
+      "summary" : "updateAsp"
+    },
+    "CreateSecurityGroup" : {
+      "title" : "createSecurityGroup",
+      "summary" : "createSecurityGroup"
+    },
+    "ListDeploySet" : {
+      "title" : "listDeploySet",
+      "summary" : "listDeploySet"
+    },
+    "BindInstanceSecurityGroup" : {
+      "title" : "bindInstanceSecurityGroup",
+      "summary" : "bindInstanceSecurityGroup"
+    },
+    "UnbindInstanceSecurityGroup" : {
+      "title" : "unbindInstanceSecurityGroup",
+      "summary" : "unbindInstanceSecurityGroup"
+    },
+    "ReplaceInstanceSecurityGroup" : {
+      "title" : "replaceInstanceSecurityGroup",
+      "summary" : "replaceInstanceSecurityGroup"
+    },
+    "CreateBidInstance" : {
+      "title" : "createBidInstance",
+      "summary" : "createBidInstance"
+    },
+    "CreateDeploySet" : {
+      "title" : "createDeploySet",
+      "summary" : "createDeploySet"
+    },
+    "ListSnapshotShare" : {
+      "title" : "listSnapshotShare",
+      "summary" : "listSnapshotShare"
+    },
+    "InstanceDeletionProtection" : {
+      "title" : "instanceDeletionProtection",
+      "summary" : "instanceDeletionProtection"
+    },
+    "BatchChangeToPostpaid" : {
+      "title" : "batchChangeToPostpaid",
+      "summary" : "batchChangeToPostpaid"
+    },
+    "GetBidInstancePrice" : {
+      "title" : "getBidInstancePrice",
+      "summary" : "getBidInstancePrice"
+    },
+    "BatchChangeToPrepaid" : {
+      "title" : "batchChangeToPrepaid",
+      "summary" : "batchChangeToPrepaid"
+    },
+    "ListAvailableResizeSpec" : {
+      "title" : "listAvailableResizeSpec",
+      "summary" : "listAvailableResizeSpec"
+    },
+    "ReleaseMultipleInstanceByPost" : {
+      "title" : "releaseMultipleInstanceByPost",
+      "summary" : "releaseMultipleInstanceByPost"
+    },
+    "InstanceBatchResizeBySpec" : {
+      "title" : "instanceBatchResizeBySpec",
+      "summary" : "instanceBatchResizeBySpec"
+    },
+    "DeleteRecycledInstance" : {
+      "title" : "deleteRecycledInstance",
+      "summary" : "deleteRecycledInstance"
+    },
+    "CreateAutoRenewRule" : {
+      "title" : "createAutoRenewRule",
+      "summary" : "createAutoRenewRule"
+    },
+    "DeleteAutoRenewRule" : {
+      "title" : "deleteAutoRenewRule",
+      "summary" : "deleteAutoRenewRule"
+    },
+    "DeletePrepayInstance" : {
+      "title" : "deletePrepayInstance",
+      "summary" : "deletePrepayInstance"
+    },
+    "AttachVolume" : {
+      "title" : "attachVolume",
+      "summary" : "attachVolume"
+    },
+    "BatchRefundResource" : {
+      "title" : "batchRefundResource",
+      "summary" : "batchRefundResource"
+    },
+    "DetachVolume" : {
+      "title" : "detachVolume",
+      "summary" : "detachVolume"
+    },
+    "ModifyRelatedDeletePolicy" : {
+      "title" : "modifyRelatedDeletePolicy",
+      "summary" : "modifyRelatedDeletePolicy"
+    },
+    "ReleaseVolume" : {
+      "title" : "releaseVolume",
+      "summary" : "releaseVolume"
+    },
+    "RenameVolume" : {
+      "title" : "renameVolume",
+      "summary" : "renameVolume"
     },
     "ModifyCdsAttribute" : {
       "title" : "modifyCdsAttribute",
@@ -330,10 +526,6 @@
     "ListInstances" : {
       "title" : "listInstances",
       "summary" : "listInstances"
-    },
-    "ModifyInstanceHostname" : {
-      "title" : "modifyInstanceHostname",
-      "summary" : "modifyInstanceHostname"
     },
     "ModifyVolumeChargeType" : {
       "title" : "modifyVolumeChargeType",

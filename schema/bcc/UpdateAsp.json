@@ -1,0 +1,44 @@
+{
+  "name" : "UpdateAsp",
+  "method" : "PUT",
+  "uri" : "/v{version}/asp/update",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "aspId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateAsp.aspId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateAsp.name"
+  }, {
+    "name" : "timePoints",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateAsp.timePoints"
+  }, {
+    "name" : "repeatWeekdays",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateAsp.repeatWeekdays"
+  }, {
+    "name" : "retentionDays",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UpdateAsp.retentionDays"
+  } ],
+  "desc_key" : "bcc.UpdateAsp.desc"
+}

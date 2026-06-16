@@ -1,0 +1,7 @@
+{
+  "ReplaceInstanceSecurityGroup" : {
+    "instanceIds" : "List of short IDs of instances to replace",
+    "securityGroupIds" : "List of short IDs of target security groups",
+    "securityGroupType" : "Target security group type (enterprise security group: enterprise, normal security group: normal)"
+  }
+}

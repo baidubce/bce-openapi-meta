@@ -1,0 +1,7 @@
+{
+  "ReplaceInstanceSecurityGroup" : {
+    "instanceIds" : "待替换的虚机的短id列表",
+    "securityGroupIds" : "目标安全组的短id列表",
+    "securityGroupType" : "目标安全组类型（企业安全组：enterprise，普通安全组：normal）"
+  }
+}

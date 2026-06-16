@@ -1,0 +1,7 @@
+{
+  "ImportKeypair" : {
+    "name" : "Name of the keypair to create. Supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /. Must start with a letter. Length: 1–65.",
+    "description" : "Description of the keypair to create. Supports Chinese characters, letters, digits, period (.), space, underscore (_), hyphen (-), equals sign (=), comma (,), Chinese comma (，), colon (:), slash (/), and Chinese period (。).",
+    "publicKey" : "Public key content."
+  }
+}
