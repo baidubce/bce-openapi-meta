@@ -59,14 +59,6 @@
       "title" : "exitRescueMode",
       "summary" : "exitRescueMode"
     },
-    "ListImages" : {
-      "title" : "listImages",
-      "summary" : "listImages"
-    },
-    "GetImage" : {
-      "title" : "getImage",
-      "summary" : "getImage"
-    },
     "DeleteImage" : {
       "title" : "deleteImage",
       "summary" : "deleteImage"
@@ -182,6 +174,10 @@
     "BatchStartInstance" : {
       "title" : "batchStartInstance",
       "summary" : "batchStartInstance"
+    },
+    "ListImages" : {
+      "title" : "listImages",
+      "summary" : "listImages"
     },
     "CancelBidOrder" : {
       "title" : "cancelBidOrder",
@@ -510,6 +506,10 @@
     "ReleaseVolume" : {
       "title" : "releaseVolume",
       "summary" : "releaseVolume"
+    },
+    "GetImage" : {
+      "title" : "getImage",
+      "summary" : "getImage"
     },
     "RenameVolume" : {
       "title" : "renameVolume",

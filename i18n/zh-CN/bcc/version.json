@@ -59,14 +59,6 @@
       "title" : "退出救援模式",
       "summary" : "退出救援模式"
     },
-    "ListImages" : {
-      "title" : "查询镜像列表",
-      "summary" : "查询镜像列表"
-    },
-    "GetImage" : {
-      "title" : "查询镜像详情",
-      "summary" : "查询镜像详情"
-    },
     "DeleteImage" : {
       "title" : "删除自定义镜像",
       "summary" : "删除自定义镜像"
@@ -182,6 +174,10 @@
     "BatchStartInstance" : {
       "title" : "启动实例（批量启动）",
       "summary" : "启动实例（批量启动）"
+    },
+    "ListImages" : {
+      "title" : "查询镜像列表",
+      "summary" : "查询镜像列表"
     },
     "CancelBidOrder" : {
       "title" : "取消抢占实例订单",
@@ -510,6 +506,10 @@
     "ReleaseVolume" : {
       "title" : "释放CDS磁盘（新）",
       "summary" : "释放CDS磁盘（新）"
+    },
+    "GetImage" : {
+      "title" : "查询镜像详情",
+      "summary" : "查询镜像详情"
     },
     "RenameVolume" : {
       "title" : "磁盘重命名",
