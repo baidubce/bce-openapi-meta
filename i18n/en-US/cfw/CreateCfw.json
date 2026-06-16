@@ -1,8 +1,8 @@
 {
   "CreateCfw" : {
     "name" : "CFW name, up to 65 characters, consisting of digits, letters, and underscores",
-    "type" : "CFW type; value 1 indicates a stateful firewall",
-    "border" : "CFW protection boundary; values 0, 1, 2 represent internet boundary, VPC boundary, and NAT boundary respectively; stateful firewall defaults to internet boundary",
+    "type" : "CFW type; value 1 indicates application-type firewall",
+    "border" : "CFW protection boundary; values 0, 1, 2 indicate internet boundary, VPC boundary, and NAT boundary respectively; default is internet boundary",
     "description" : "CFW description, up to 200 characters",
     "cfwRules" : "CFW rules",
     "cfwRules.ipVersion" : "IP protocol version; valid values: [ 4 | 6 ]",

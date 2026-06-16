@@ -1,8 +1,8 @@
 {
   "CreateCfw" : {
     "name" : "CFW名称，长度不超过65个字符，可由数字、字符、下划线组成",
-    "type" : "CFW类型，取值1，表示有状态防火墙",
-    "border" : "CFW防护边界，取值0、1、2，分别表示互联网边界、vpc边界、nat边界，有状态防火墙默认为互联网边界",
+    "type" : "CFW类型，取值1，表示应用型防火墙",
+    "border" : "CFW防护边界，取值0、1、2，分别表示互联网边界、vpc边界、nat边界，默认为互联网边界",
     "description" : "CFW描述，不超过200字符",
     "cfwRules" : "CFW规则",
     "cfwRules.ipVersion" : "IP协议类型，取值 \\[ 4 \\| 6 ]",
