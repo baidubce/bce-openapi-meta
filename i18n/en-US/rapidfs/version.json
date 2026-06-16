@@ -67,10 +67,6 @@
       "title" : "createCacheRule",
       "summary" : "createCacheRule"
     },
-    "ExecuteCacheRuleJob" : {
-      "title" : "executeCacheRuleJob",
-      "summary" : "executeCacheRuleJob"
-    },
     "CancelCacheRuleJob" : {
       "title" : "cancelCacheRuleJob",
       "summary" : "cancelCacheRuleJob"
@@ -78,6 +74,10 @@
     "DeleteCacheRule" : {
       "title" : "deleteCacheRule",
       "summary" : "deleteCacheRule"
+    },
+    "ExecuteCacheRuleJob" : {
+      "title" : "executeCacheRuleJob",
+      "summary" : "executeCacheRuleJob"
     },
     "CheckBeforeCreateInstance" : {
       "title" : "checkBeforeCreateInstance",

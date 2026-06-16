@@ -67,10 +67,6 @@
       "title" : "创建缓存管理规则",
       "summary" : "创建缓存管理规则"
     },
-    "ExecuteCacheRuleJob" : {
-      "title" : "执行缓存管理任务",
-      "summary" : "执行缓存管理任务"
-    },
     "CancelCacheRuleJob" : {
       "title" : "取消缓存管理任务",
       "summary" : "取消缓存管理任务"
@@ -78,6 +74,10 @@
     "DeleteCacheRule" : {
       "title" : "删除缓存管理规则",
       "summary" : "删除缓存管理规则"
+    },
+    "ExecuteCacheRuleJob" : {
+      "title" : "执行缓存管理任务",
+      "summary" : "执行缓存管理任务"
     },
     "CheckBeforeCreateInstance" : {
       "title" : "创建RapidFS实例前校验",
