@@ -7,10 +7,6 @@
       "title" : "getDownloadTaskLink",
       "summary" : "getDownloadTaskLink"
     },
-    "DeleteDownloadTask" : {
-      "title" : "deleteDownloadTask",
-      "summary" : "deleteDownloadTask"
-    },
     "DescribeDownloadTask" : {
       "title" : "describeDownloadTask",
       "summary" : "describeDownloadTask"
@@ -22,6 +18,10 @@
     "UpdateProject" : {
       "title" : "updateProject",
       "summary" : "updateProject"
+    },
+    "DeleteDownloadTask" : {
+      "title" : "deleteDownloadTask",
+      "summary" : "deleteDownloadTask"
     },
     "ListProject" : {
       "title" : "listProject",

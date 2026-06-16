@@ -7,10 +7,6 @@
       "title" : "获取下载任务地址GetDownloadTaskLink",
       "summary" : "获取下载任务地址GetDownloadTaskLink"
     },
-    "DeleteDownloadTask" : {
-      "title" : "删除下载任务DeleteDownloadTask",
-      "summary" : "删除下载任务DeleteDownloadTask"
-    },
     "DescribeDownloadTask" : {
       "title" : "获取下载任务详情DescribeDownloadTask",
       "summary" : "获取下载任务详情DescribeDownloadTask"
@@ -22,6 +18,10 @@
     "UpdateProject" : {
       "title" : "更新日志组UpdateProject",
       "summary" : "更新日志组UpdateProject"
+    },
+    "DeleteDownloadTask" : {
+      "title" : "删除下载任务DeleteDownloadTask",
+      "summary" : "删除下载任务DeleteDownloadTask"
     },
     "ListProject" : {
       "title" : "日志组列表",
