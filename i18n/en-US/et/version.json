@@ -3,49 +3,21 @@
   "style" : "rpc",
   "description" : "et",
   "apis" : {
-    "ResubmitDedicatedChannel" : {
-      "title" : "resubmitDedicatedChannel",
-      "summary" : "resubmitDedicatedChannel"
-    },
-    "UnrelatedDedicatedLineChannel" : {
-      "title" : "unrelatedDedicatedLineChannel",
-      "summary" : "unrelatedDedicatedLineChannel"
-    },
     "AssociatedDedicatedChannel" : {
       "title" : "associatedDedicatedChannel",
       "summary" : "associatedDedicatedChannel"
-    },
-    "DeleteDedicatedChannelBfd" : {
-      "title" : "deleteDedicatedChannelBfd",
-      "summary" : "deleteDedicatedChannelBfd"
     },
     "UpdateDedicatedChannelBfd" : {
       "title" : "updateDedicatedChannelBfd",
       "summary" : "updateDedicatedChannelBfd"
     },
-    "UpdateDedicatedChannel" : {
-      "title" : "updateDedicatedChannel",
-      "summary" : "updateDedicatedChannel"
-    },
     "CreateDedicatedChannel" : {
       "title" : "createDedicatedChannel",
       "summary" : "createDedicatedChannel"
     },
-    "CreateDedicatedChannelBfd" : {
-      "title" : "createDedicatedChannelBfd",
-      "summary" : "createDedicatedChannelBfd"
-    },
-    "ApplyPhysicalDedicatedLine" : {
-      "title" : "applyPhysicalDedicatedLine",
-      "summary" : "applyPhysicalDedicatedLine"
-    },
     "CreateDedicatedChannelRouteRules" : {
       "title" : "createDedicatedChannelRouteRules",
       "summary" : "createDedicatedChannelRouteRules"
-    },
-    "UpdatePhysicalDedicatedLine" : {
-      "title" : "updatePhysicalDedicatedLine",
-      "summary" : "updatePhysicalDedicatedLine"
     },
     "DeleteDedicatedChannelRouteRules" : {
       "title" : "deleteDedicatedChannelRouteRules",
@@ -62,10 +34,6 @@
     "DeleteDedicatedChannel" : {
       "title" : "deleteDedicatedChannel",
       "summary" : "deleteDedicatedChannel"
-    },
-    "QueryDedicatedLines" : {
-      "title" : "queryDedicatedLines",
-      "summary" : "queryDedicatedLines"
     },
     "EnableDedicatedChannelIpv6" : {
       "title" : "enableDedicatedChannelIpv6",
@@ -87,10 +55,6 @@
       "title" : "removeDedicatedChannelUserObject",
       "summary" : "removeDedicatedChannelUserObject"
     },
-    "CreateDedicatedChannelUserObject" : {
-      "title" : "createDedicatedChannelUserObject",
-      "summary" : "createDedicatedChannelUserObject"
-    },
     "RemoveDedicatedChannelRouteParameters" : {
       "title" : "removeDedicatedChannelRouteParameters",
       "summary" : "removeDedicatedChannelRouteParameters"
@@ -98,6 +62,46 @@
     "CreateDedicatedChannelRouteParameters" : {
       "title" : "createDedicatedChannelRouteParameters",
       "summary" : "createDedicatedChannelRouteParameters"
+    },
+    "ResubmitDedicatedChannel" : {
+      "title" : "resubmitDedicatedChannel",
+      "summary" : "resubmitDedicatedChannel"
+    },
+    "UnrelatedDedicatedLineChannel" : {
+      "title" : "unrelatedDedicatedLineChannel",
+      "summary" : "unrelatedDedicatedLineChannel"
+    },
+    "DeleteDedicatedChannelBfd" : {
+      "title" : "deleteDedicatedChannelBfd",
+      "summary" : "deleteDedicatedChannelBfd"
+    },
+    "UpdateDedicatedChannel" : {
+      "title" : "updateDedicatedChannel",
+      "summary" : "updateDedicatedChannel"
+    },
+    "DeletePhysicalDedicatedLine" : {
+      "title" : "deletePhysicalDedicatedLine",
+      "summary" : "deletePhysicalDedicatedLine"
+    },
+    "CreateDedicatedChannelBfd" : {
+      "title" : "createDedicatedChannelBfd",
+      "summary" : "createDedicatedChannelBfd"
+    },
+    "ApplyPhysicalDedicatedLine" : {
+      "title" : "applyPhysicalDedicatedLine",
+      "summary" : "applyPhysicalDedicatedLine"
+    },
+    "UpdatePhysicalDedicatedLine" : {
+      "title" : "updatePhysicalDedicatedLine",
+      "summary" : "updatePhysicalDedicatedLine"
+    },
+    "QueryDedicatedLines" : {
+      "title" : "queryDedicatedLines",
+      "summary" : "queryDedicatedLines"
+    },
+    "CreateDedicatedChannelUserObject" : {
+      "title" : "createDedicatedChannelUserObject",
+      "summary" : "createDedicatedChannelUserObject"
     }
   }
 }

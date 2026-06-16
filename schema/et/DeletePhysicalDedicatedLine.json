@@ -1,0 +1,26 @@
+{
+  "name" : "DeletePhysicalDedicatedLine",
+  "method" : "DELETE",
+  "uri" : "/v{version}/et/{dcphyId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "dcphyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "et.DeletePhysicalDedicatedLine.dcphyId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "et.DeletePhysicalDedicatedLine.clientToken"
+  } ],
+  "desc_key" : "et.DeletePhysicalDedicatedLine.desc"
+}
