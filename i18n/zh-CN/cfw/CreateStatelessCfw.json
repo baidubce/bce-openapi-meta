@@ -1,0 +1,9 @@
+{
+  "CreateStatelessCfw" : {
+    "name" : "CFW名称，长度不超过65个字符，必须以字母或中文开头，只能包含大小写字母、数字、中文及-_/.字符",
+    "description" : "CFW描述，不超过200字符",
+    "defaultAction" : "默认策略，白名单模式取值deny、黑名单模式取值allow",
+    "protocol" : "协议，取值 [ TCP \\| UDP \\| ICMP \\| ALL ]",
+    "ipList" : "IP列表，黑名单模式下命中ipList中的IP拒绝访问，白名单模式下命中ipList中的IP允许访问"
+  }
+}

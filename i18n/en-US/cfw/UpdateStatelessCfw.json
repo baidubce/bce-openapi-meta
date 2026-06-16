@@ -1,0 +1,9 @@
+{
+  "UpdateStatelessCfw" : {
+    "cfwId" : "CFW ID",
+    "name" : "CFW name, up to 65 characters, must start with a letter or Chinese character, only letters, digits, Chinese characters, and -_/. are allowed",
+    "description" : "CFW description, up to 200 characters",
+    "protocol" : "Protocol, valid values: [ TCP | UDP | ICMP | ALL ]",
+    "ipList" : "IP list"
+  }
+}

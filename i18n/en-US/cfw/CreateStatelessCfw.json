@@ -1,0 +1,9 @@
+{
+  "CreateStatelessCfw" : {
+    "name" : "CFW name, up to 65 characters, must start with a letter or Chinese character, only letters (upper/lower), digits, Chinese characters, and -_/. are allowed",
+    "description" : "CFW description, up to 200 characters",
+    "defaultAction" : "Default policy; use \"deny\" for whitelist mode, \"allow\" for blacklist mode",
+    "protocol" : "Protocol, valid values: [ TCP | UDP | ICMP | ALL ]",
+    "ipList" : "IP list; in blacklist mode, matched IPs are denied access; in whitelist mode, matched IPs are allowed access"
+  }
+}

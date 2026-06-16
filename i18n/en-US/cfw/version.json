@@ -3,21 +3,53 @@
   "style" : "rpc",
   "description" : "cfw",
   "apis" : {
+    "ListStatelessCfw" : {
+      "title" : "listStatelessCfw",
+      "summary" : "listStatelessCfw"
+    },
+    "CreateStatelessCfw" : {
+      "title" : "createStatelessCfw",
+      "summary" : "createStatelessCfw"
+    },
+    "UpdateStatelessCfw" : {
+      "title" : "updateStatelessCfw",
+      "summary" : "updateStatelessCfw"
+    },
+    "UpdateCfw" : {
+      "title" : "updateCfw",
+      "summary" : "updateCfw"
+    },
     "CreateCfw" : {
       "title" : "createCfw",
       "summary" : "createCfw"
+    },
+    "ListCfw" : {
+      "title" : "listCfw",
+      "summary" : "listCfw"
+    },
+    "GetCfw" : {
+      "title" : "getCfw",
+      "summary" : "getCfw"
+    },
+    "CreateCfwRule" : {
+      "title" : "createCfwRule",
+      "summary" : "createCfwRule"
+    },
+    "UpdateCfwRule" : {
+      "title" : "updateCfwRule",
+      "summary" : "updateCfwRule"
     },
     "DisableCfwProtect" : {
       "title" : "disableCfwProtect",
       "summary" : "disableCfwProtect"
     },
+    "DeleteCfwRule" : {
+      "title" : "deleteCfwRule",
+      "summary" : "deleteCfwRule"
+    },
     "UnbindCfw" : {
       "title" : "unbindCfw",
       "summary" : "unbindCfw"
-    },
-    "UpdateCfw" : {
-      "title" : "updateCfw",
-      "summary" : "updateCfw"
     },
     "ListProtectInstances" : {
       "title" : "listProtectInstances",
@@ -35,25 +67,9 @@
       "title" : "bindCfw",
       "summary" : "bindCfw"
     },
-    "GetCfw" : {
-      "title" : "getCfw",
-      "summary" : "getCfw"
-    },
-    "ListCfw" : {
-      "title" : "listCfw",
-      "summary" : "listCfw"
-    },
-    "UpdateCfwRule" : {
-      "title" : "updateCfwRule",
-      "summary" : "updateCfwRule"
-    },
-    "DeleteCfwRule" : {
-      "title" : "deleteCfwRule",
-      "summary" : "deleteCfwRule"
-    },
-    "CreateCfwRule" : {
-      "title" : "createCfwRule",
-      "summary" : "createCfwRule"
+    "GetStatelessCfw" : {
+      "title" : "getStatelessCfw",
+      "summary" : "getStatelessCfw"
     }
   }
 }

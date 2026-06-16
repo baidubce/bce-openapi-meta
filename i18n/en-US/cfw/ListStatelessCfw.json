@@ -1,0 +1,6 @@
+{
+  "ListStatelessCfw" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically not exceeding 1000, default value is 1000"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "CreateStatelessCfw",
+  "method" : "POST",
+  "uri" : "/v{version}/cfw/stateless",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfw.CreateStatelessCfw.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cfw.CreateStatelessCfw.description"
+  }, {
+    "name" : "defaultAction",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfw.CreateStatelessCfw.defaultAction"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfw.CreateStatelessCfw.protocol"
+  }, {
+    "name" : "ipList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cfw.CreateStatelessCfw.ipList"
+  } ],
+  "desc_key" : "cfw.CreateStatelessCfw.desc"
+}

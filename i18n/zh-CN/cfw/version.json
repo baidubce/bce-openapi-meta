@@ -3,21 +3,53 @@
   "style" : "rpc",
   "description" : "云防火墙",
   "apis" : {
+    "ListStatelessCfw" : {
+      "title" : "查询网络型CFW策略列表",
+      "summary" : "查询网络型CFW策略列表"
+    },
+    "CreateStatelessCfw" : {
+      "title" : "创建网络型CFW策略",
+      "summary" : "创建网络型CFW策略"
+    },
+    "UpdateStatelessCfw" : {
+      "title" : "修改指定网络型CFW策略",
+      "summary" : "修改指定网络型CFW策略"
+    },
+    "UpdateCfw" : {
+      "title" : "修改指定应用型CFW策略",
+      "summary" : "修改指定应用型CFW策略"
+    },
     "CreateCfw" : {
-      "title" : "创建CFW策略",
-      "summary" : "创建CFW策略"
+      "title" : "创建应用型CFW策略",
+      "summary" : "创建应用型CFW策略"
+    },
+    "ListCfw" : {
+      "title" : "查询应用型CFW策略列表",
+      "summary" : "查询应用型CFW策略列表"
+    },
+    "GetCfw" : {
+      "title" : "查询指定应用型CFW策略",
+      "summary" : "查询指定应用型CFW策略"
+    },
+    "CreateCfwRule" : {
+      "title" : "批量创建应用型CFW规则",
+      "summary" : "批量创建应用型CFW规则"
+    },
+    "UpdateCfwRule" : {
+      "title" : "修改指定应用型CFW规则",
+      "summary" : "修改指定应用型CFW规则"
     },
     "DisableCfwProtect" : {
       "title" : "实例关闭CFW保护",
       "summary" : "实例关闭CFW保护"
     },
+    "DeleteCfwRule" : {
+      "title" : "批量删除应用型CFW规则",
+      "summary" : "批量删除应用型CFW规则"
+    },
     "UnbindCfw" : {
       "title" : "批量实例解绑CFW",
       "summary" : "批量实例解绑CFW"
-    },
-    "UpdateCfw" : {
-      "title" : "修改指定CFW策略",
-      "summary" : "修改指定CFW策略"
     },
     "ListProtectInstances" : {
       "title" : "防护边界实例列表",
@@ -35,25 +67,9 @@
       "title" : "批量实例绑定CFW",
       "summary" : "批量实例绑定CFW"
     },
-    "GetCfw" : {
-      "title" : "查询指定CFW策略",
-      "summary" : "查询指定CFW策略"
-    },
-    "ListCfw" : {
-      "title" : "查询CFW策略列表",
-      "summary" : "查询CFW策略列表"
-    },
-    "UpdateCfwRule" : {
-      "title" : "修改指定CFW规则",
-      "summary" : "修改指定CFW规则"
-    },
-    "DeleteCfwRule" : {
-      "title" : "批量删除CFW规则",
-      "summary" : "批量删除CFW规则"
-    },
-    "CreateCfwRule" : {
-      "title" : "批量创建CFW规则",
-      "summary" : "批量创建CFW规则"
+    "GetStatelessCfw" : {
+      "title" : "查询指定网络型CFW策略",
+      "summary" : "查询指定网络型CFW策略"
     }
   }
 }
