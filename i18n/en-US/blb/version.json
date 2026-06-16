@@ -75,6 +75,10 @@
       "title" : "deleteBlbServer",
       "summary" : "deleteBlbServer"
     },
+    "CreateLbdc" : {
+      "title" : "createLbdc",
+      "summary" : "createLbdc"
+    },
     "DescribeAppBlbHttpsListener" : {
       "title" : "describeAppBlbHttpsListener",
       "summary" : "describeAppBlbHttpsListener"
@@ -106,10 +110,6 @@
     "DeleteAppBlbIpGroupProtocol" : {
       "title" : "deleteAppBlbIpGroupProtocol",
       "summary" : "deleteAppBlbIpGroupProtocol"
-    },
-    "CreateLbdc" : {
-      "title" : "createLbdc",
-      "summary" : "createLbdc"
     },
     "ReleaseBlb" : {
       "title" : "releaseBlb",

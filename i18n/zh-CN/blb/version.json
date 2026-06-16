@@ -75,6 +75,10 @@
       "title" : "释放后端服务器",
       "summary" : "释放后端服务器"
     },
+    "CreateLbdc" : {
+      "title" : "创建集群",
+      "summary" : "创建集群"
+    },
     "DescribeAppBlbHttpsListener" : {
       "title" : "查询HTTPS监听器",
       "summary" : "查询HTTPS监听器"
@@ -106,10 +110,6 @@
     "DeleteAppBlbIpGroupProtocol" : {
       "title" : "删除IP组协议",
       "summary" : "删除IP组协议"
-    },
-    "CreateLbdc" : {
-      "title" : "创建集群",
-      "summary" : "创建集群"
     },
     "ReleaseBlb" : {
       "title" : "释放实例",
