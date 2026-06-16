@@ -1,0 +1,15 @@
+{
+  "CreateDownloadTask" : {
+    "name" : "下载任务名称",
+    "project" : "日志组名称，默认default",
+    "logStoreName" : "日志集名称",
+    "logStreamName" : "日志流名称，默认在全部日志流中下载数据",
+    "query" : "检索语句，默认下载全部数据",
+    "queryStartTime" : "日志开始时间，UTC时间，格式ISO8601，例如：2020-01-10T13:23:34Z",
+    "queryEndTime" : "日志结束时间，UTC时间，格式ISO8601，例如：2020-01-10T13:23:34Z",
+    "format" : "下载文件的格式，默认json，支持 json,csv",
+    "limit" : "下载日志的行数，默认1000000，最大1000000",
+    "order" : "排序方式，默认desc，按照时间倒序排序，支持desc和asc",
+    "fileDir" : "下载文件的bos目录，默认放到bls资源账号的下载目录，用户不可见；如果不为空，表示放到用户自己的bos目录 需要确保bos的bucket存在，目录可以不存在，会自动创建。"
+  }
+}

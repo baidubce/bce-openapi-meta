@@ -17,10 +17,16 @@
     "desc_key" : "bls.UpdateProject.uuid"
   }, {
     "name" : "description",
-    "type" : "Boolean",
+    "type" : "String",
     "required" : false,
     "position" : "BODY",
     "desc_key" : "bls.UpdateProject.description"
+  }, {
+    "name" : "top",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateProject.top"
   } ],
   "desc_key" : "bls.UpdateProject.desc"
 }

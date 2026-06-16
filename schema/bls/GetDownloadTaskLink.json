@@ -1,0 +1,20 @@
+{
+  "name" : "GetDownloadTaskLink",
+  "method" : "GET",
+  "uri" : "/v{version}/logstore/download/link/{uuid}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "uuid",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.GetDownloadTaskLink.uuid"
+  } ],
+  "desc_key" : "bls.GetDownloadTaskLink.desc"
+}

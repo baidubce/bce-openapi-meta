@@ -1,0 +1,5 @@
+{
+  "DeleteDownloadTask" : {
+    "uuid" : "下载任务的唯一ID"
+  }
+}

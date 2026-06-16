@@ -3,21 +3,25 @@
   "style" : "rpc",
   "description" : "bls",
   "apis" : {
-    "CreateProject" : {
-      "title" : "createProject",
-      "summary" : "createProject"
+    "GetDownloadTaskLink" : {
+      "title" : "getDownloadTaskLink",
+      "summary" : "getDownloadTaskLink"
     },
-    "PullLogRecord" : {
-      "title" : "pullLogRecord",
-      "summary" : "pullLogRecord"
+    "DeleteDownloadTask" : {
+      "title" : "deleteDownloadTask",
+      "summary" : "deleteDownloadTask"
+    },
+    "DescribeDownloadTask" : {
+      "title" : "describeDownloadTask",
+      "summary" : "describeDownloadTask"
+    },
+    "ListDownloadTask" : {
+      "title" : "listDownloadTask",
+      "summary" : "listDownloadTask"
     },
     "UpdateProject" : {
       "title" : "updateProject",
       "summary" : "updateProject"
-    },
-    "QueryLogRecord" : {
-      "title" : "queryLogRecord",
-      "summary" : "queryLogRecord"
     },
     "ListProject" : {
       "title" : "listProject",
@@ -26,6 +30,18 @@
     "DescribeProject" : {
       "title" : "describeProject",
       "summary" : "describeProject"
+    },
+    "CreateProject" : {
+      "title" : "createProject",
+      "summary" : "createProject"
+    },
+    "PullLogRecord" : {
+      "title" : "pullLogRecord",
+      "summary" : "pullLogRecord"
+    },
+    "QueryLogRecord" : {
+      "title" : "queryLogRecord",
+      "summary" : "queryLogRecord"
     },
     "PushLogRecord" : {
       "title" : "pushLogRecord",
@@ -38,6 +54,10 @@
     "QueryLogHistogram" : {
       "title" : "queryLogHistogram",
       "summary" : "queryLogHistogram"
+    },
+    "CreateDownloadTask" : {
+      "title" : "createDownloadTask",
+      "summary" : "createDownloadTask"
     }
   }
 }

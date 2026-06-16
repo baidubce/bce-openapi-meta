@@ -1,0 +1,5 @@
+{
+  "GetDownloadTaskLink" : {
+    "uuid" : "Unique ID of the download task"
+  }
+}

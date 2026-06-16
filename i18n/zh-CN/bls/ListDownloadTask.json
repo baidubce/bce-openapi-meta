@@ -1,0 +1,10 @@
+{
+  "ListDownloadTask" : {
+    "project" : "日志组名称关键字查询，精确匹配",
+    "logStoreName" : "日志集关键字查询，模糊匹配",
+    "orderBy" : "排序字段，默认按照创建时间排序，支持createdTime: 创建时间，updatedTime: 修改时间, name: 名称",
+    "order" : "排序顺序，desc为降序，asc为升序，默认为 desc",
+    "pageNo" : "起始页码，默认为 1",
+    "pageSize" : "每页显示数据大小，默认为 10"
+  }
+}

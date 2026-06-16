@@ -1,0 +1,10 @@
+{
+  "ListDownloadTask" : {
+    "project" : "Log group name keyword query, exact match",
+    "logStoreName" : "Log store name keyword query, fuzzy match",
+    "orderBy" : "Sort field, default by creation time; supported values: createdTime (creation time), updatedTime (modification time), name (name)",
+    "order" : "Sort order; desc for descending, asc for ascending, default is desc",
+    "pageNo" : "Starting page number, default is 1",
+    "pageSize" : "Page size (number of records per page), default is 10"
+  }
+}

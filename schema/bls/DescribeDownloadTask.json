@@ -1,0 +1,20 @@
+{
+  "name" : "DescribeDownloadTask",
+  "method" : "GET",
+  "uri" : "/v{version}/logstore/download/{uuid}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "uuid",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.DescribeDownloadTask.uuid"
+  } ],
+  "desc_key" : "bls.DescribeDownloadTask.desc"
+}

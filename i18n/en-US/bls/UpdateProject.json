@@ -1,6 +1,7 @@
 {
   "UpdateProject" : {
     "uuid" : "UUID of the log group",
-    "description" : "Whether the log group is pinned to top"
+    "description" : "Log group description",
+    "top" : "Whether the log group is pinned to top"
   }
 }

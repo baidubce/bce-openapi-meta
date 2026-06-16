@@ -1,0 +1,5 @@
+{
+  "DescribeDownloadTask" : {
+    "uuid" : "The unique ID of the download task"
+  }
+}

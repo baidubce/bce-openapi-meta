@@ -1,0 +1,15 @@
+{
+  "CreateDownloadTask" : {
+    "name" : "Download task name",
+    "project" : "Log group name, default: default",
+    "logStoreName" : "Log store name",
+    "logStreamName" : "Log stream name, default: download from all log streams",
+    "query" : "Search query, default: download all data",
+    "queryStartTime" : "Log start time, UTC, ISO8601 format, e.g. 2020-01-10T13:23:34Z",
+    "queryEndTime" : "Log end time, UTC, ISO8601 format, e.g. 2020-01-10T13:23:34Z",
+    "format" : "Download file format, default: json, supports json and csv",
+    "limit" : "Number of log lines to download, default: 1000000, max: 1000000",
+    "order" : "Sort order, default: desc (reverse chronological), supports desc and asc",
+    "fileDir" : "BOS directory for the downloaded file; defaults to the BLS resource account's download directory (not visible to users); if specified, the file is placed in the user's own BOS directory — the bucket must exist, the directory will be created automatically if it does not exist"
+  }
+}
