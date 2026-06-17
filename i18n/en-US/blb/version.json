@@ -79,17 +79,45 @@
       "title" : "createLbdc",
       "summary" : "createLbdc"
     },
+    "CreateAppBlbServerGroup" : {
+      "title" : "createAppBlbServerGroup",
+      "summary" : "createAppBlbServerGroup"
+    },
+    "AddAppBlbServerGroupRs" : {
+      "title" : "addAppBlbServerGroupRs",
+      "summary" : "addAppBlbServerGroupRs"
+    },
     "DescribeAppBlbHttpsListener" : {
       "title" : "describeAppBlbHttpsListener",
       "summary" : "describeAppBlbHttpsListener"
+    },
+    "UpdateAppBlbServerGroupRs" : {
+      "title" : "updateAppBlbServerGroupRs",
+      "summary" : "updateAppBlbServerGroupRs"
     },
     "DescribeAppBlbListener" : {
       "title" : "describeAppBlbListener",
       "summary" : "describeAppBlbListener"
     },
+    "CreateAppBlbIpGroup" : {
+      "title" : "createAppBlbIpGroup",
+      "summary" : "createAppBlbIpGroup"
+    },
     "DescribeAppBlbUdpListener" : {
       "title" : "describeAppBlbUdpListener",
       "summary" : "describeAppBlbUdpListener"
+    },
+    "CreateAppBlbIpGroupMember" : {
+      "title" : "createAppBlbIpGroupMember",
+      "summary" : "createAppBlbIpGroupMember"
+    },
+    "UpdateAppBlbIpGroupMember" : {
+      "title" : "updateAppBlbIpGroupMember",
+      "summary" : "updateAppBlbIpGroupMember"
+    },
+    "DescribeAppBlbServerGroupMountRs" : {
+      "title" : "describeAppBlbServerGroupMountRs",
+      "summary" : "describeAppBlbServerGroupMountRs"
     },
     "DescribeAppBlbHttpListener" : {
       "title" : "describeAppBlbHttpListener",
@@ -166,10 +194,6 @@
     "CreateBlbUdpListener" : {
       "title" : "createBlbUdpListener",
       "summary" : "createBlbUdpListener"
-    },
-    "CreateAppBlbServerGroup" : {
-      "title" : "createAppBlbServerGroup",
-      "summary" : "createAppBlbServerGroup"
     },
     "BlbInquiry" : {
       "title" : "blbInquiry",
@@ -295,10 +319,6 @@
       "title" : "updateAppBlbHttpListener",
       "summary" : "updateAppBlbHttpListener"
     },
-    "AddAppBlbServerGroupRs" : {
-      "title" : "addAppBlbServerGroupRs",
-      "summary" : "addAppBlbServerGroupRs"
-    },
     "CreateAppBlbPolicy" : {
       "title" : "createAppBlbPolicy",
       "summary" : "createAppBlbPolicy"
@@ -306,10 +326,6 @@
     "DescribeAppBlbServerGroupUnmountRs" : {
       "title" : "describeAppBlbServerGroupUnmountRs",
       "summary" : "describeAppBlbServerGroupUnmountRs"
-    },
-    "UpdateAppBlbServerGroupRs" : {
-      "title" : "updateAppBlbServerGroupRs",
-      "summary" : "updateAppBlbServerGroupRs"
     },
     "UpdateAppBlbUdpListener" : {
       "title" : "updateAppBlbUdpListener",
@@ -355,14 +371,6 @@
       "title" : "updateBlbHttpsListener",
       "summary" : "updateBlbHttpsListener"
     },
-    "CreateAppBlbIpGroup" : {
-      "title" : "createAppBlbIpGroup",
-      "summary" : "createAppBlbIpGroup"
-    },
-    "CreateAppBlbIpGroupMember" : {
-      "title" : "createAppBlbIpGroupMember",
-      "summary" : "createAppBlbIpGroupMember"
-    },
     "CreateAppBlbIpGroupProtocol" : {
       "title" : "createAppBlbIpGroupProtocol",
       "summary" : "createAppBlbIpGroupProtocol"
@@ -378,10 +386,6 @@
     "UpdateAppBlbIpGroupProtocol" : {
       "title" : "updateAppBlbIpGroupProtocol",
       "summary" : "updateAppBlbIpGroupProtocol"
-    },
-    "UpdateAppBlbIpGroupMember" : {
-      "title" : "updateAppBlbIpGroupMember",
-      "summary" : "updateAppBlbIpGroupMember"
     },
     "UpdateAppBlbIpGroup" : {
       "title" : "updateAppBlbIpGroup",
@@ -414,10 +418,6 @@
     "DeleteAppBlbServerGroupRs" : {
       "title" : "deleteAppBlbServerGroupRs",
       "summary" : "deleteAppBlbServerGroupRs"
-    },
-    "DescribeAppBlbServerGroupMountRs" : {
-      "title" : "describeAppBlbServerGroupMountRs",
-      "summary" : "describeAppBlbServerGroupMountRs"
     },
     "DescribeAppBlbServerGroupRs" : {
       "title" : "describeAppBlbServerGroupRs",

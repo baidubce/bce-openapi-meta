@@ -79,17 +79,45 @@
       "title" : "创建集群",
       "summary" : "创建集群"
     },
+    "CreateAppBlbServerGroup" : {
+      "title" : "创建服务器组",
+      "summary" : "创建服务器组"
+    },
+    "AddAppBlbServerGroupRs" : {
+      "title" : "添加后端服务器",
+      "summary" : "添加后端服务器"
+    },
     "DescribeAppBlbHttpsListener" : {
       "title" : "查询HTTPS监听器",
       "summary" : "查询HTTPS监听器"
+    },
+    "UpdateAppBlbServerGroupRs" : {
+      "title" : "修改后端服务器",
+      "summary" : "修改后端服务器"
     },
     "DescribeAppBlbListener" : {
       "title" : "查询所有监听",
       "summary" : "查询所有监听"
     },
+    "CreateAppBlbIpGroup" : {
+      "title" : "创建IP组",
+      "summary" : "创建IP组"
+    },
     "DescribeAppBlbUdpListener" : {
       "title" : "查询UDP监听器",
       "summary" : "查询UDP监听器"
+    },
+    "CreateAppBlbIpGroupMember" : {
+      "title" : "创建IP组成员",
+      "summary" : "创建IP组成员"
+    },
+    "UpdateAppBlbIpGroupMember" : {
+      "title" : "更新IP组成员",
+      "summary" : "更新IP组成员"
+    },
+    "DescribeAppBlbServerGroupMountRs" : {
+      "title" : "查询已添加的所有服务器",
+      "summary" : "查询已添加的所有服务器"
     },
     "DescribeAppBlbHttpListener" : {
       "title" : "查询HTTP监听器",
@@ -166,10 +194,6 @@
     "CreateBlbUdpListener" : {
       "title" : "创建UDP监听器",
       "summary" : "创建UDP监听器"
-    },
-    "CreateAppBlbServerGroup" : {
-      "title" : "创建服务器组",
-      "summary" : "创建服务器组"
     },
     "BlbInquiry" : {
       "title" : "BLB询价",
@@ -295,10 +319,6 @@
       "title" : "更新HTTP监听器",
       "summary" : "更新HTTP监听器"
     },
-    "AddAppBlbServerGroupRs" : {
-      "title" : "添加后端服务器",
-      "summary" : "添加后端服务器"
-    },
     "CreateAppBlbPolicy" : {
       "title" : "创建策略",
       "summary" : "创建策略"
@@ -306,10 +326,6 @@
     "DescribeAppBlbServerGroupUnmountRs" : {
       "title" : "查询可添加的服务器",
       "summary" : "查询可添加的服务器"
-    },
-    "UpdateAppBlbServerGroupRs" : {
-      "title" : "修改后端服务器",
-      "summary" : "修改后端服务器"
     },
     "UpdateAppBlbUdpListener" : {
       "title" : "更新UDP监听器",
@@ -355,14 +371,6 @@
       "title" : "更新HTTPS监听器",
       "summary" : "更新HTTPS监听器"
     },
-    "CreateAppBlbIpGroup" : {
-      "title" : "创建IP组",
-      "summary" : "创建IP组"
-    },
-    "CreateAppBlbIpGroupMember" : {
-      "title" : "创建IP组成员",
-      "summary" : "创建IP组成员"
-    },
     "CreateAppBlbIpGroupProtocol" : {
       "title" : "创建IP组协议",
       "summary" : "创建IP组协议"
@@ -378,10 +386,6 @@
     "UpdateAppBlbIpGroupProtocol" : {
       "title" : "更新IP组协议",
       "summary" : "更新IP组协议"
-    },
-    "UpdateAppBlbIpGroupMember" : {
-      "title" : "更新IP组成员",
-      "summary" : "更新IP组成员"
     },
     "UpdateAppBlbIpGroup" : {
       "title" : "更新IP组",
@@ -414,10 +418,6 @@
     "DeleteAppBlbServerGroupRs" : {
       "title" : "移除后端服务器",
       "summary" : "移除后端服务器"
-    },
-    "DescribeAppBlbServerGroupMountRs" : {
-      "title" : "查询已添加的所有服务器",
-      "summary" : "查询已添加的所有服务器"
     },
     "DescribeAppBlbServerGroupRs" : {
       "title" : "查询已添加的服务器",
