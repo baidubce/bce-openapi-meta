@@ -1,0 +1,7 @@
+{
+  "EhcClusterList" : {
+    "ehcClusterIdList" : "EHC集群的ID列表",
+    "nameList" : "EHC name列表",
+    "zoneName" : "EHC集群的zoneName"
+  }
+}

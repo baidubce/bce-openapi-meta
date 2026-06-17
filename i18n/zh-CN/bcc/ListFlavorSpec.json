@@ -1,0 +1,7 @@
+{
+  "ListFlavorSpec" : {
+    "zoneName" : "可用区名称",
+    "specs" : "待查询套餐规格列表，多个套餐规格用逗号分割，如：bcc.g4.c1m4,bcc.g5.c2m8",
+    "specIds" : "待查询规格族列表，多个规格族用逗号分割，如：g4,g5"
+  }
+}

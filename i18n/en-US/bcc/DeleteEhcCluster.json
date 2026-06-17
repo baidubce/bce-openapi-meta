@@ -1,0 +1,5 @@
+{
+  "DeleteEhcCluster" : {
+    "ehcClusterIdList" : "List of EHC cluster IDs to delete"
+  }
+}

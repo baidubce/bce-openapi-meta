@@ -1,0 +1,6 @@
+{
+  "ResizeVolumeCluster" : {
+    "clusterId" : "Disk ID",
+    "newClusterSizeInGB" : "New capacity for the dedicated cluster after expansion, must be a positive integer greater than the current cluster capacity, in GB, valid range: 87040–1039360."
+  }
+}

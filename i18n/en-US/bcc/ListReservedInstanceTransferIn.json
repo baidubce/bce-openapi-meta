@@ -1,0 +1,10 @@
+{
+  "ListReservedInstanceTransferIn" : {
+    "marker" : "Pagination marker",
+    "maxKeys" : "Maximum number of items per page",
+    "reservedInstanceIds" : "Filter by reserved instance ID list",
+    "transferRecordIds" : "Filter by reserved instance transfer record ID list",
+    "spec" : "Filter by instance specification",
+    "status" : "Filter by transfer record status"
+  }
+}

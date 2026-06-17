@@ -1,0 +1,10 @@
+{
+  "ListReservedInstanceTransferOut" : {
+    "marker" : "分页标记，首次查询不传或传-1",
+    "maxKeys" : "每页最大数量，默认1000",
+    "reservedInstanceIds" : "通过预留实例券id列表过滤",
+    "transferRecordIds" : "通过预留实例券转移记录id列表过滤",
+    "spec" : "通过实例规格过滤",
+    "status" : "通过转移记录状态过滤"
+  }
+}

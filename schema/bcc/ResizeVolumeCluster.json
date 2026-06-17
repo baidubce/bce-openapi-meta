@@ -1,0 +1,26 @@
+{
+  "name" : "ResizeVolumeCluster",
+  "method" : "PUT",
+  "uri" : "/v{version}/volume/cluster/{clusterId}?resize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.ResizeVolumeCluster.clusterId"
+  }, {
+    "name" : "newClusterSizeInGB",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ResizeVolumeCluster.newClusterSizeInGB"
+  } ],
+  "desc_key" : "bcc.ResizeVolumeCluster.desc"
+}

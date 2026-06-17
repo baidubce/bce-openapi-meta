@@ -1,0 +1,7 @@
+{
+  "ModifyEhcCluster" : {
+    "ehcClusterId" : "需要修改的EHC集群ID",
+    "name" : "EHC集群名，不能与description同为空",
+    "description" : "EHC集群描述，不能与name同为空"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "CancelAutoRenewReservedInstance" : {
+    "reservedInstanceIds" : "Collection of reserved instance IDs"
+  }
+}

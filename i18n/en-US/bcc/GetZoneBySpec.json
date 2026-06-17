@@ -1,0 +1,8 @@
+{
+  "GetZoneBySpec" : {
+    "instanceType" : "Instance type; for available types, see InstanceType",
+    "productType" : "Billing method supported by the instance specification",
+    "spec" : "Instance specification; EBC product type (i.e., specifications with prefix ebc/ehc) is not supported by this API",
+    "specId" : "Specification family"
+  }
+}

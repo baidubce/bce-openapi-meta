@@ -1,0 +1,41 @@
+{
+  "name" : "ModifyReservedInstances",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/reserved/modify",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "reservedInstances",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyReservedInstances.reservedInstances",
+    "sub_parameters" : [ {
+      "name" : "reservedInstanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.ModifyReservedInstances.reservedInstances.reservedInstanceId"
+    }, {
+      "name" : "zoneName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.ModifyReservedInstances.reservedInstances.zoneName"
+    }, {
+      "name" : "reservedInstanceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.ModifyReservedInstances.reservedInstances.reservedInstanceName"
+    }, {
+      "name" : "ehcClusterId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.ModifyReservedInstances.reservedInstances.ehcClusterId"
+    } ]
+  } ],
+  "desc_key" : "bcc.ModifyReservedInstances.desc"
+}

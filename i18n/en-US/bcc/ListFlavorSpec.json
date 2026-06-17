@@ -1,0 +1,7 @@
+{
+  "ListFlavorSpec" : {
+    "zoneName" : "Availability zone name",
+    "specs" : "List of flavor specs to query, multiple specs separated by commas, e.g.: bcc.g4.c1m4,bcc.g5.c2m8",
+    "specIds" : "List of spec families to query, multiple spec families separated by commas, e.g.: g4,g5"
+  }
+}

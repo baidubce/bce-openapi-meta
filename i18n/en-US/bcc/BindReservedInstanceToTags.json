@@ -1,0 +1,8 @@
+{
+  "BindReservedInstanceToTags" : {
+    "reservedInstanceIds" : "List of reserved instance IDs, up to 100 per request.",
+    "changeTags" : "List of tags to bind, see TagModel for data format.",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value"
+  }
+}

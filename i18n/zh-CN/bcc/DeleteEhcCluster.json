@@ -1,0 +1,5 @@
+{
+  "DeleteEhcCluster" : {
+    "ehcClusterIdList" : "删除的EHC集群id列表"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "PurchaseReservedVolumeCluster" : {
+    "clusterId" : "磁盘ID",
+    "billing" : "订单、计费相关参数",
+    "billing.paymentTiming" : "付费方式，包括预支付（Prepaid）、后支付（Postpaid）和抢占实例（bidding）（创建实例、创建抢占实例、实例续费）",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置（创建实例、创建抢占实例、实例续费）"
+  }
+}

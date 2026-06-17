@@ -1,0 +1,15 @@
+{
+  "CreateVolumeCluster" : {
+    "zoneName" : "Availability zone; defaults to empty, selected automatically by the system.",
+    "clusterName" : "Name of the CDS dedicated cluster to create.",
+    "clusterSizeInGB" : "Total cluster capacity in GB; minimum 85 TB, maximum 1015 TB, in increments of 10 TB.",
+    "storageType" : "CDS disk storage type: enhanced_ssd_pl0, enhanced_ssd_pl1, enhanced_ssd_pl2, enhanced_ssd_pl3 (Enhanced SSD tiers); cloud_hp1 or premium_ssd (General SSD); hp1 or ssd (High-performance cloud disk); elastic_ephemeral_disk (Elastic ephemeral disk, standard). Default: hp1.",
+    "purchaseCount" : "Number of CDS dedicated clusters to create; must be a positive integer greater than 0. Default: 1.",
+    "billing" : "Order and billing parameters.",
+    "billing.paymentTiming" : "Payment method: Prepaid, Postpaid, or Bidding (spot instance).",
+    "billing.reservation" : "Reservation details; required for Prepaid, not needed for Postpaid.",
+    "tags" : "List of tags to attach to the created resource.",
+    "tags.tagKey" : "Tag key.",
+    "tags.tagValue" : "Tag value."
+  }
+}

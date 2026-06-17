@@ -1,0 +1,5 @@
+{
+  "CancelAutoRenewReservedInstance" : {
+    "reservedInstanceIds" : "实例券id集合"
+  }
+}

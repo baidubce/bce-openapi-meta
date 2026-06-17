@@ -1,0 +1,26 @@
+{
+  "name" : "AcceptReservedInstanceTransfer",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/reserved/transfer/accept",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "transferRecordId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.AcceptReservedInstanceTransfer.transferRecordId"
+  }, {
+    "name" : "ehcClusterId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AcceptReservedInstanceTransfer.ehcClusterId"
+  } ],
+  "desc_key" : "bcc.AcceptReservedInstanceTransfer.desc"
+}

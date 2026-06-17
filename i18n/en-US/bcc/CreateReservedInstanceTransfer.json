@@ -1,0 +1,6 @@
+{
+  "CreateReservedInstanceTransfer" : {
+    "reservedInstanceIds" : "List of reserved instance IDs to transfer",
+    "recipientAccountId" : "Account ID of the recipient"
+  }
+}

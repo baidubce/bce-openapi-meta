@@ -1,0 +1,12 @@
+{
+  "ListTask" : {
+    "taskIds" : "任务ID列表，最多100个。",
+    "marker" : "marker 任务ID",
+    "maxKeys" : "默认值10，最大100。",
+    "taskAction" : "取值范围：AttachDeploymentSets：调整部署集",
+    "taskStatus" : "任务状态。取值范围：Finished：已完成（非运行中）。Processing：运行中。Failed：失败（全部子任务失败）。默认值为空。",
+    "startTime" : "主任务按创建时间查询，创建时间区间的起始点。按照ISO 8601标准表示，并需要使用 UTC +0 时间，格式为 yyyy-MM-ddTHH:mm:ssZ。支持查近7天",
+    "endTime" : "主任务按创建时间查询，创建时间区间的终止点。按照ISO 8601标准表示，并需要使用 UTC +0 时间，格式为 yyyy-MM-ddTHH:mm:ssZ。",
+    "resourceIds" : "资源ID。单次最多支持指定 100 个，当taskAction为调整部署集时为实例ID"
+  }
+}

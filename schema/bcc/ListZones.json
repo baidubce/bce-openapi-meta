@@ -1,0 +1,14 @@
+{
+  "name" : "ListZones",
+  "method" : "GET",
+  "uri" : "/v{version}/zone",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "bcc.ListZones.desc"
+}

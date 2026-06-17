@@ -1,0 +1,7 @@
+{
+  "CreateEhcCluster" : {
+    "name" : "EHC集群名",
+    "zoneName" : "指定zone信息，命名规范是国家-region-可用区序列，例如cn-bj-a",
+    "description" : "EHC集群描述"
+  }
+}

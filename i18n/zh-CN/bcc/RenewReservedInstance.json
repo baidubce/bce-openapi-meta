@@ -1,0 +1,10 @@
+{
+  "RenewReservedInstance" : {
+    "reservedInstanceIds" : "实例券id集合",
+    "reservedInstanceTime" : "预留实例券续费时长，支持3，6，9，12，24，36个月，必须与购买时长保持一致",
+    "reservedInstanceTimeUnit" : "预留实例券购买时长单位，默认为month，不可变更",
+    "autoRenew" : "自动续费开关，默认为false",
+    "autoRenewTimeUnit" : "预留实例券自动续费时长单位，默认为month，不可变更",
+    "autoRenewTime" : "预留实例券自动续费时长，支持3，6，9，12，24，36个月，autoRenew为true时，必选且必须与reservedInstanceTime一致"
+  }
+}

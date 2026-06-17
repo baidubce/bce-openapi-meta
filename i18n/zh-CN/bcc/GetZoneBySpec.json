@@ -1,0 +1,8 @@
+{
+  "GetZoneBySpec" : {
+    "instanceType" : "实例类型，具体可选类型参见 InstanceType",
+    "productType" : "实例规格支持的付费方式",
+    "spec" : "实例规格，产品类型为ebc（也即实例规格前缀为ebc/ehc的实例规格）暂不支持本接口",
+    "specId" : "规格族"
+  }
+}

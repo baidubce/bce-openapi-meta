@@ -1,0 +1,9 @@
+{
+  "ModifyReservedInstances" : {
+    "reservedInstances" : "要调整的预留实例券列表",
+    "reservedInstances.reservedInstanceId" : "要调整的预留实例券id",
+    "reservedInstances.zoneName" : "要调整的目标可用区，例如cn-bj-b。不支持同时修改reservedInstanceName",
+    "reservedInstances.reservedInstanceName" : "要调整的实例券名称；规则：支持大小写字母、数字、中文以及-_ /.特殊字符，必须以中文或字母开头，长度1-65，可重复；客户未命名的情况下自动命名：reservedInstance-${随机生成}，同样遵循以上命名规则。不支持同时修改zoneName",
+    "reservedInstances.ehcClusterId" : "变更roce预留实例券时可选参数，若为空则使用默认EHC集群"
+  }
+}

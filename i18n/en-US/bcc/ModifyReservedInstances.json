@@ -1,0 +1,9 @@
+{
+  "ModifyReservedInstances" : {
+    "reservedInstances" : "List of reserved instances to modify",
+    "reservedInstances.reservedInstanceId" : "ID of the reserved instance to modify",
+    "reservedInstances.zoneName" : "Target availability zone to modify, e.g. cn-bj-b. Cannot be modified together with reservedInstanceName",
+    "reservedInstances.reservedInstanceName" : "Name of the reserved instance; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; must start with a Chinese character or letter; length 1-65, duplicates allowed; auto-named as reservedInstance-${random} if unset. Cannot be modified together with zoneName",
+    "reservedInstances.ehcClusterId" : "Optional parameter when modifying ROCE reserved instances; uses default EHC cluster if empty"
+  }
+}

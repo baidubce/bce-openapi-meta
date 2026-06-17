@@ -1,0 +1,22 @@
+{
+  "CreateReservedInstances" : {
+    "reservedInstanceName" : "Reserved instance name. Rules: supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; must start with a Chinese character or letter; length 1–65; duplicates allowed. Auto-named as reservedInstance-${random} if not specified, following the same rules.",
+    "scope" : "Availability scope of the reserved instance; default: AZ",
+    "zoneName" : "Availability zone, e.g. cn-bj-a",
+    "spec" : "Instance specification, e.g. bcc.g4.c2m8",
+    "offeringType" : "Default payment type is fully prepaid: FullyPrepay",
+    "instanceCount" : "Number of instances; default is 1; cannot be changed",
+    "reservedInstanceCount" : "Number of reserved instances; default is 1; cannot exceed quota (default quota: 20); contact support ticket to request more",
+    "reservedInstanceTime" : "Purchase duration for reserved instances; supports 3, 6, 9, 12, 24, 36 months",
+    "reservedInstanceTimeUnit" : "Unit for purchase duration; default is month; cannot be changed",
+    "autoRenew" : "Auto-renewal toggle; default is false",
+    "autoRenewTimeUnit" : "Unit for auto-renewal duration; default is month; cannot be changed",
+    "autoRenewTime" : "Auto-renewal duration; supports 3, 6, 9, 12, 24, 36 months; required when autoRenew is true and must match reservedInstanceTime",
+    "effectiveTime" : "Effective time; default is immediate; custom effective time cannot exceed 1 day and must be set at 15-minute intervals (e.g. 10:00, 10:15, 10:30, 10:45, 11:00)",
+    "tags" : "Tag information (returned when querying reserved instances)",
+    "tags.tagKey" : "Tag key",
+    "tags.tagValue" : "Tag value",
+    "ticketId" : "Coupon ID",
+    "ehcClusterId" : "Optional parameter when creating a RoCE reserved instance; uses the default EHC cluster if left empty"
+  }
+}

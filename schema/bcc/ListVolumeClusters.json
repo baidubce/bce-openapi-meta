@@ -1,0 +1,45 @@
+{
+  "name" : "ListVolumeClusters",
+  "method" : "GET",
+  "uri" : "/v{version}/volume/cluster",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListVolumeClusters.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListVolumeClusters.maxKeys"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListVolumeClusters.zoneName"
+  }, {
+    "name" : "clusterName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListVolumeClusters.clusterName"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "result"
+  },
+  "desc_key" : "bcc.ListVolumeClusters.desc"
+}

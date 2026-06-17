@@ -1,0 +1,37 @@
+{
+  "name" : "UnbindReservedInstanceFromTags",
+  "method" : "PUT",
+  "uri" : "/v{version}/bcc/reserved/tag?unbind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "reservedInstanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindReservedInstanceFromTags.reservedInstanceIds"
+  }, {
+    "name" : "changeTags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.UnbindReservedInstanceFromTags.changeTags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.UnbindReservedInstanceFromTags.changeTags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.UnbindReservedInstanceFromTags.changeTags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "bcc.UnbindReservedInstanceFromTags.desc"
+}

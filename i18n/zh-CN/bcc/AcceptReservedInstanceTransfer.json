@@ -1,0 +1,6 @@
+{
+  "AcceptReservedInstanceTransfer" : {
+    "transferRecordId" : "要接受的预留实例券转移记录id",
+    "ehcClusterId" : "接收roce预留实例券时可选参数，若为空则使用默认EHC集群"
+  }
+}

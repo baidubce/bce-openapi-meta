@@ -1,0 +1,5 @@
+{
+  "RefuseReservedInstanceTransfer" : {
+    "transferRecordIds" : "要拒绝的预留实例券转移记录id列表，最少1个，最多99个"
+  }
+}

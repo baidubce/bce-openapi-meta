@@ -1,0 +1,26 @@
+{
+  "name" : "CreateReservedInstanceTransfer",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/reserved/transfer/create",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "reservedInstanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateReservedInstanceTransfer.reservedInstanceIds"
+  }, {
+    "name" : "recipientAccountId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateReservedInstanceTransfer.recipientAccountId"
+  } ],
+  "desc_key" : "bcc.CreateReservedInstanceTransfer.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "CreateEhcCluster" : {
+    "name" : "EHC cluster name",
+    "zoneName" : "Specify zone information, naming convention is country-region-availability zone, e.g. cn-bj-a",
+    "description" : "EHC cluster description"
+  }
+}

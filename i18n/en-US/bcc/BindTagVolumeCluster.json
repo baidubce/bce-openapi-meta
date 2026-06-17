@@ -1,0 +1,8 @@
+{
+  "BindTagVolumeCluster" : {
+    "clusterId" : "Dedicated cluster ID",
+    "changeTags" : "List of tags to bind",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value"
+  }
+}

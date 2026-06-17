@@ -1,0 +1,5 @@
+{
+  "CancelAutoRenewVolumeCluster" : {
+    "clusterId" : "专属集群ID"
+  }
+}

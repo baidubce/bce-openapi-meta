@@ -1,0 +1,21 @@
+{
+  "GetReservedInstance" : {
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量通常不超过1000，缺省值为1000",
+    "reservedInstanceIds" : "预留实例券的id集合",
+    "reservedInstanceName" : "实例券的名称",
+    "zoneName" : "可用区，例如：cn-bj-a",
+    "reservedInstanceStatus" : "预留实例券的状态",
+    "spec" : "实例规格，例如：bcc.g4.c2m8",
+    "offeringType" : "FullyPrepay：全预付",
+    "osType" : "支持的镜像类型，all/linux/windows",
+    "instanceId" : "抵扣实例ID",
+    "instanceName" : "实例名称",
+    "isDeduct" : "是否有抵扣实例：true/false",
+    "ehcClusterId" : "ehc集群id",
+    "sortKey" : "排序字段：osType/instanceCount/effectiveTime/expireTime",
+    "sortDir" : "排序方式：desc/asc",
+    "reservedInstanceSource" : "预留实例券来源",
+    "scope" : "生效范围"
+  }
+}

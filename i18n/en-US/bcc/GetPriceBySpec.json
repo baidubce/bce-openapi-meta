@@ -1,0 +1,10 @@
+{
+  "GetPriceBySpec" : {
+    "specId" : "Instance specification family",
+    "spec" : "Instance package specification",
+    "paymentTiming" : "Payment method, including Postpaid (pay-as-you-go) and Prepaid (upfront payment)",
+    "zoneName" : "Availability zone name",
+    "purchaseCount" : "Query count, must be a positive integer, default is 1",
+    "purchaseLength" : "Duration in months, options: [1,2,3,4,5,6,7,8,9,12,24,36]"
+  }
+}

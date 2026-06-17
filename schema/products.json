@@ -164,9 +164,7 @@
       "fwh" : "bcc.fwh.baidubce.com",
       "gz" : "bcc.gz.baidubce.com",
       "hkg" : "bcc.hkg.baidubce.com",
-      "nj" : "bcc.nj.baidubce.com",
-      "su" : "bcc.su.baidubce.com",
-      "yq" : "bcc.yq.baidubce.com"
+      "su" : "bcc.su.baidubce.com"
     }
   }, {
     "code" : "aihc",

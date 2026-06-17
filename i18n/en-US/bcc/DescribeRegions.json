@@ -1,0 +1,5 @@
+{
+  "DescribeRegions" : {
+    "region" : "Specify a region to get its endpoint; if not provided, returns endpoints for all regions by default"
+  }
+}

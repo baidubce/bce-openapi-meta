@@ -1,0 +1,6 @@
+{
+  "AcceptReservedInstanceTransfer" : {
+    "transferRecordId" : "The transfer record ID of the reserved instance to accept",
+    "ehcClusterId" : "Optional parameter when receiving a RoCE reserved instance; if empty, the default EHC cluster is used"
+  }
+}

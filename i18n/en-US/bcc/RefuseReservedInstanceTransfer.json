@@ -1,0 +1,5 @@
+{
+  "RefuseReservedInstanceTransfer" : {
+    "transferRecordIds" : "List of transfer record IDs for reserved instances to refuse, minimum 1, maximum 99"
+  }
+}

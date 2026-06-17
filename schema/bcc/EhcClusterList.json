@@ -1,0 +1,32 @@
+{
+  "name" : "EhcClusterList",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/ehc/cluster/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ehcClusterIdList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.EhcClusterList.ehcClusterIdList"
+  }, {
+    "name" : "nameList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.EhcClusterList.nameList"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.EhcClusterList.zoneName"
+  } ],
+  "desc_key" : "bcc.EhcClusterList.desc"
+}

@@ -1,0 +1,57 @@
+{
+  "name" : "ListReservedInstanceTransferOut",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/reserved/transfer/out/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListReservedInstanceTransferOut.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListReservedInstanceTransferOut.maxKeys"
+  }, {
+    "name" : "reservedInstanceIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListReservedInstanceTransferOut.reservedInstanceIds"
+  }, {
+    "name" : "transferRecordIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListReservedInstanceTransferOut.transferRecordIds"
+  }, {
+    "name" : "spec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListReservedInstanceTransferOut.spec"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ListReservedInstanceTransferOut.status"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "transferRecords"
+  },
+  "desc_key" : "bcc.ListReservedInstanceTransferOut.desc"
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "CancelAutoRenewVolumeCluster",
+  "method" : "POST",
+  "uri" : "/v{version}/volume/cluster/cancelAutoRenew",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CancelAutoRenewVolumeCluster.clusterId"
+  } ],
+  "desc_key" : "bcc.CancelAutoRenewVolumeCluster.desc"
+}

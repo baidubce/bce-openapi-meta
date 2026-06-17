@@ -1,0 +1,123 @@
+{
+  "name" : "GetReservedInstance",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/reserved/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetReservedInstance.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetReservedInstance.maxKeys"
+  }, {
+    "name" : "reservedInstanceIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.reservedInstanceIds"
+  }, {
+    "name" : "reservedInstanceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.reservedInstanceName"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.zoneName"
+  }, {
+    "name" : "reservedInstanceStatus",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.reservedInstanceStatus"
+  }, {
+    "name" : "spec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.spec"
+  }, {
+    "name" : "offeringType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.offeringType"
+  }, {
+    "name" : "osType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.osType"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.instanceId"
+  }, {
+    "name" : "instanceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.instanceName"
+  }, {
+    "name" : "isDeduct",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.isDeduct"
+  }, {
+    "name" : "ehcClusterId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.ehcClusterId"
+  }, {
+    "name" : "sortKey",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.sortKey"
+  }, {
+    "name" : "sortDir",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.sortDir"
+  }, {
+    "name" : "reservedInstanceSource",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.reservedInstanceSource"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstance.scope"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "reservedInstances"
+  },
+  "desc_key" : "bcc.GetReservedInstance.desc"
+}

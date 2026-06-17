@@ -1,0 +1,6 @@
+{
+  "GetTask" : {
+    "taskIds" : "List of task IDs, up to 100.",
+    "maxKeys" : "Default value is 100."
+  }
+}

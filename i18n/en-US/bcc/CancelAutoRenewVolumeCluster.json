@@ -1,0 +1,5 @@
+{
+  "CancelAutoRenewVolumeCluster" : {
+    "clusterId" : "Dedicated cluster ID"
+  }
+}

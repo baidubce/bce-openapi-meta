@@ -1,0 +1,20 @@
+{
+  "name" : "DeleteEhcCluster",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/ehc/cluster/delete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ehcClusterIdList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.DeleteEhcCluster.ehcClusterIdList"
+  } ],
+  "desc_key" : "bcc.DeleteEhcCluster.desc"
+}

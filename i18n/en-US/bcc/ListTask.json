@@ -1,0 +1,12 @@
+{
+  "ListTask" : {
+    "taskIds" : "List of task IDs, up to 100.",
+    "marker" : "Marker task ID.",
+    "maxKeys" : "Default 10, maximum 100.",
+    "taskAction" : "Valid value: AttachDeploymentSets: Adjust deployment set.",
+    "taskStatus" : "Task status. Valid values: Finished: Completed (not running). Processing: Running. Failed: Failed (all subtasks failed). Default is empty.",
+    "startTime" : "Filter tasks by creation time range start point. Expressed in ISO 8601 format using UTC+0, formatted as yyyy-MM-ddTHH:mm:ssZ. Supports querying within the last 7 days.",
+    "endTime" : "Filter tasks by creation time range end point. Expressed in ISO 8601 format using UTC+0, formatted as yyyy-MM-ddTHH:mm:ssZ.",
+    "resourceIds" : "Resource IDs. Up to 100 can be specified at once. When taskAction is AttachDeploymentSets, this refers to instance IDs."
+  }
+}

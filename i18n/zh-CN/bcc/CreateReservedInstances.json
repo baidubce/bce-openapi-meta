@@ -1,0 +1,22 @@
+{
+  "CreateReservedInstances" : {
+    "reservedInstanceName" : "预留实例券名称，规则：支持大小写字母、数字、中文以及-_ /.特殊字符，必须以中文或字母开头，长度1-65，可重复；客户未命名的情况下自动命名：reservedInstance-${随机生成}，同样遵循以上命名规则",
+    "scope" : "实例券的可用范围；默认：AZ",
+    "zoneName" : "可用区，例如cn-bj-a",
+    "spec" : "实例规格，例如bcc.g4.c2m8",
+    "offeringType" : "默认值全预付：FullyPrepay",
+    "instanceCount" : "实例数量，默认为1，不可变更",
+    "reservedInstanceCount" : "预留实例券数量，默认1，不能超过配额，默认配额20，若需要更多配额，请联系工单（可链接）申请",
+    "reservedInstanceTime" : "预留实例券购买时长，支持3，6，9，12，24，36个月",
+    "reservedInstanceTimeUnit" : "预留实例券购买时长单位，默认为month，不可变更",
+    "autoRenew" : "自动续费开关，默认为false",
+    "autoRenewTimeUnit" : "预留实例券自动续费时长单位,默认为month，不可变更",
+    "autoRenewTime" : "预留实例券自动续费时长，支持3，6，9，12，24，36个月,autoRenew为true时，必选且必须与reservedInstanceTime一致",
+    "effectiveTime" : "生效时间，默认立即生效；自定义生效时间，最长不能超过1天。且只能设置为15min为间隔的整点（比如：10:00、10:15、10:30、10:45、11:00）",
+    "tags" : "标签信息（查询预留实例券返回）",
+    "tags.tagKey" : "标签键",
+    "tags.tagValue" : "标签值",
+    "ticketId" : "代金券id",
+    "ehcClusterId" : "创建roce预留实例券时可选参数，若为空则使用默认EHC集群"
+  }
+}

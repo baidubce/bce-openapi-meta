@@ -1,0 +1,32 @@
+{
+  "name" : "ListFlavorSpec",
+  "method" : "GET",
+  "uri" : "/v{version}/instance/flavorSpec",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListFlavorSpec.zoneName"
+  }, {
+    "name" : "specs",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListFlavorSpec.specs"
+  }, {
+    "name" : "specIds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.ListFlavorSpec.specIds"
+  } ],
+  "desc_key" : "bcc.ListFlavorSpec.desc"
+}

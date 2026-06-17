@@ -1,0 +1,7 @@
+{
+  "AutoRenewVolumeCluster" : {
+    "clusterId" : "专属集群ID",
+    "renewTimeUnit" : "按月付费或者按年付费，月是month，年是year",
+    "renewTime" : "自动续费的时间，按月是1-9，按年是1-3"
+  }
+}

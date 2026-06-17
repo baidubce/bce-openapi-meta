@@ -1,0 +1,48 @@
+{
+  "name" : "PurchaseReservedVolumeCluster",
+  "method" : "PUT",
+  "uri" : "/v{version}/volume/cluster/{clusterId}?purchaseReserved",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.PurchaseReservedVolumeCluster.clusterId"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.PurchaseReservedVolumeCluster.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.PurchaseReservedVolumeCluster.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bcc.PurchaseReservedVolumeCluster.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bcc.PurchaseReservedVolumeCluster.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcc.PurchaseReservedVolumeCluster.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "bcc.PurchaseReservedVolumeCluster.desc"
+}

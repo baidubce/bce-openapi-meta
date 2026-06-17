@@ -1,0 +1,10 @@
+{
+  "ListReservedInstanceTransferOut" : {
+    "marker" : "Pagination marker; omit or pass -1 for the first query",
+    "maxKeys" : "Maximum number of items per page, default 1000",
+    "reservedInstanceIds" : "Filter by list of reserved instance IDs",
+    "transferRecordIds" : "Filter by list of reserved instance transfer record IDs",
+    "spec" : "Filter by instance specification",
+    "status" : "Filter by transfer record status"
+  }
+}

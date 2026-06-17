@@ -1,0 +1,7 @@
+{
+  "EhcClusterList" : {
+    "ehcClusterIdList" : "List of EHC cluster IDs",
+    "nameList" : "List of EHC cluster names",
+    "zoneName" : "Zone name of the EHC cluster"
+  }
+}

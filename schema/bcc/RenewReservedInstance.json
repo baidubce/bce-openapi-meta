@@ -1,0 +1,50 @@
+{
+  "name" : "RenewReservedInstance",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/reserved/renew",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "reservedInstanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.RenewReservedInstance.reservedInstanceIds"
+  }, {
+    "name" : "reservedInstanceTime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.RenewReservedInstance.reservedInstanceTime"
+  }, {
+    "name" : "reservedInstanceTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RenewReservedInstance.reservedInstanceTimeUnit"
+  }, {
+    "name" : "autoRenew",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RenewReservedInstance.autoRenew"
+  }, {
+    "name" : "autoRenewTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RenewReservedInstance.autoRenewTimeUnit"
+  }, {
+    "name" : "autoRenewTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RenewReservedInstance.autoRenewTime"
+  } ],
+  "desc_key" : "bcc.RenewReservedInstance.desc"
+}

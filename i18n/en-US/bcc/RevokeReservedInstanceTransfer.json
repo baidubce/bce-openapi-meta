@@ -1,0 +1,5 @@
+{
+  "RevokeReservedInstanceTransfer" : {
+    "transferRecordIds" : "List of reserved instance voucher IDs to revoke"
+  }
+}

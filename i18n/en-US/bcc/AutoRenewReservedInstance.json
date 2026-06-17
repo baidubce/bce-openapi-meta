@@ -1,0 +1,7 @@
+{
+  "AutoRenewReservedInstance" : {
+    "reservedInstanceIds" : "Collection of reserved instance IDs",
+    "autoRenewTimeUnit" : "Auto-renewal time unit for reserved instances, default is month, cannot be changed",
+    "autoRenewTime" : "Auto-renewal duration for reserved instances; supports 3, 6, 9, 12, 24, 36 months; must match the original purchase duration (retrievable via the reservedInstanceTime field in the reserved instance list)"
+  }
+}

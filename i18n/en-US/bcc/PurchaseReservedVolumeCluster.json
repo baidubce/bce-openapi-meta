@@ -1,0 +1,8 @@
+{
+  "PurchaseReservedVolumeCluster" : {
+    "clusterId" : "Disk ID",
+    "billing" : "Order and billing related parameters",
+    "billing.paymentTiming" : "Payment method, including Prepaid, Postpaid, and bidding (for creating instances, creating spot instances, and renewing instances)",
+    "billing.reservation" : "Reservation info; not required for Postpaid, required for Prepaid (for creating instances, creating spot instances, and renewing instances)"
+  }
+}

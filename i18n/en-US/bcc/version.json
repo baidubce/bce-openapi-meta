@@ -59,6 +59,18 @@
       "title" : "exitRescueMode",
       "summary" : "exitRescueMode"
     },
+    "GetZoneBySpec" : {
+      "title" : "getZoneBySpec",
+      "summary" : "getZoneBySpec"
+    },
+    "ListImages" : {
+      "title" : "listImages",
+      "summary" : "listImages"
+    },
+    "GetImage" : {
+      "title" : "getImage",
+      "summary" : "getImage"
+    },
     "DeleteImage" : {
       "title" : "deleteImage",
       "summary" : "deleteImage"
@@ -83,9 +95,17 @@
       "title" : "getAvailableImagesBySpec",
       "summary" : "getAvailableImagesBySpec"
     },
+    "ModifyEhcCluster" : {
+      "title" : "modifyEhcCluster",
+      "summary" : "modifyEhcCluster"
+    },
     "CancelRemoteCopyImage" : {
       "title" : "cancelRemoteCopyImage",
       "summary" : "cancelRemoteCopyImage"
+    },
+    "DeleteEhcCluster" : {
+      "title" : "deleteEhcCluster",
+      "summary" : "deleteEhcCluster"
     },
     "BindTagImage" : {
       "title" : "bindTagImage",
@@ -94,6 +114,10 @@
     "UnbindTagImage" : {
       "title" : "unbindTagImage",
       "summary" : "unbindTagImage"
+    },
+    "CreateEhcCluster" : {
+      "title" : "createEhcCluster",
+      "summary" : "createEhcCluster"
     },
     "ImportImage" : {
       "title" : "importImage",
@@ -110,6 +134,10 @@
     "GetSnapshot" : {
       "title" : "getSnapshot",
       "summary" : "getSnapshot"
+    },
+    "ResizeVolumeCluster" : {
+      "title" : "resizeVolumeCluster",
+      "summary" : "resizeVolumeCluster"
     },
     "ListSnapchain" : {
       "title" : "listSnapchain",
@@ -163,21 +191,33 @@
       "title" : "deleteSecurityGroup",
       "summary" : "deleteSecurityGroup"
     },
+    "ListFlavorSpec" : {
+      "title" : "listFlavorSpec",
+      "summary" : "listFlavorSpec"
+    },
     "DeleteSecurityGroupRule" : {
       "title" : "deleteSecurityGroupRule",
       "summary" : "deleteSecurityGroupRule"
+    },
+    "UnbindTagVolumeCluster" : {
+      "title" : "unbindTagVolumeCluster",
+      "summary" : "unbindTagVolumeCluster"
     },
     "UpdateSecurityGroupRule" : {
       "title" : "updateSecurityGroupRule",
       "summary" : "updateSecurityGroupRule"
     },
+    "BindTagVolumeCluster" : {
+      "title" : "bindTagVolumeCluster",
+      "summary" : "bindTagVolumeCluster"
+    },
+    "EhcClusterList" : {
+      "title" : "ehcClusterList",
+      "summary" : "ehcClusterList"
+    },
     "BatchStartInstance" : {
       "title" : "batchStartInstance",
       "summary" : "batchStartInstance"
-    },
-    "ListImages" : {
-      "title" : "listImages",
-      "summary" : "listImages"
     },
     "CancelBidOrder" : {
       "title" : "cancelBidOrder",
@@ -223,17 +263,65 @@
       "title" : "deletesInstanceDeploySet",
       "summary" : "deletesInstanceDeploySet"
     },
+    "GetPriceBySpec" : {
+      "title" : "getPriceBySpec",
+      "summary" : "getPriceBySpec"
+    },
+    "CreateVolumeCluster" : {
+      "title" : "createVolumeCluster",
+      "summary" : "createVolumeCluster"
+    },
+    "ListVolumeClusters" : {
+      "title" : "listVolumeClusters",
+      "summary" : "listVolumeClusters"
+    },
+    "GetVolumeCluster" : {
+      "title" : "getVolumeCluster",
+      "summary" : "getVolumeCluster"
+    },
     "RebootInstance" : {
       "title" : "rebootInstance",
       "summary" : "rebootInstance"
+    },
+    "GetReservedInstance" : {
+      "title" : "getReservedInstance",
+      "summary" : "getReservedInstance"
+    },
+    "ListReservedInstanceTransferOut" : {
+      "title" : "listReservedInstanceTransferOut",
+      "summary" : "listReservedInstanceTransferOut"
+    },
+    "CancelAutoRenewVolumeCluster" : {
+      "title" : "cancelAutoRenewVolumeCluster",
+      "summary" : "cancelAutoRenewVolumeCluster"
     },
     "ModifyInstancePassword" : {
       "title" : "modifyInstancePassword",
       "summary" : "modifyInstancePassword"
     },
+    "GetReservedInstancePrice" : {
+      "title" : "getReservedInstancePrice",
+      "summary" : "getReservedInstancePrice"
+    },
+    "ListReservedInstanceTransferIn" : {
+      "title" : "listReservedInstanceTransferIn",
+      "summary" : "listReservedInstanceTransferIn"
+    },
+    "UnbindReservedInstanceFromTags" : {
+      "title" : "unbindReservedInstanceFromTags",
+      "summary" : "unbindReservedInstanceFromTags"
+    },
     "ModifyInstanceAttributes" : {
       "title" : "modifyInstanceAttributes",
       "summary" : "modifyInstanceAttributes"
+    },
+    "BindReservedInstanceToTags" : {
+      "title" : "bindReservedInstanceToTags",
+      "summary" : "bindReservedInstanceToTags"
+    },
+    "CreateReservedInstances" : {
+      "title" : "createReservedInstances",
+      "summary" : "createReservedInstances"
     },
     "RebuildInstance" : {
       "title" : "rebuildInstance",
@@ -243,21 +331,57 @@
       "title" : "rebuildBatchInstance",
       "summary" : "rebuildBatchInstance"
     },
+    "ModifyReservedInstances" : {
+      "title" : "modifyReservedInstances",
+      "summary" : "modifyReservedInstances"
+    },
+    "RenewReservedInstance" : {
+      "title" : "renewReservedInstance",
+      "summary" : "renewReservedInstance"
+    },
     "BindInstanceToSecurityGroup" : {
       "title" : "bindInstanceToSecurityGroup",
       "summary" : "bindInstanceToSecurityGroup"
+    },
+    "AutoRenewReservedInstance" : {
+      "title" : "autoRenewReservedInstance",
+      "summary" : "autoRenewReservedInstance"
+    },
+    "CancelAutoRenewReservedInstance" : {
+      "title" : "cancelAutoRenewReservedInstance",
+      "summary" : "cancelAutoRenewReservedInstance"
     },
     "UnbindInstanceFromSecurityGroup" : {
       "title" : "unbindInstanceFromSecurityGroup",
       "summary" : "unbindInstanceFromSecurityGroup"
     },
+    "RevokeReservedInstanceTransfer" : {
+      "title" : "revokeReservedInstanceTransfer",
+      "summary" : "revokeReservedInstanceTransfer"
+    },
     "GetInstanceVnc" : {
       "title" : "getInstanceVnc",
       "summary" : "getInstanceVnc"
     },
+    "ListZones" : {
+      "title" : "listZones",
+      "summary" : "listZones"
+    },
     "UpdateInstanceSubnet" : {
       "title" : "updateInstanceSubnet",
       "summary" : "updateInstanceSubnet"
+    },
+    "RefuseReservedInstanceTransfer" : {
+      "title" : "refuseReservedInstanceTransfer",
+      "summary" : "refuseReservedInstanceTransfer"
+    },
+    "CreateReservedInstanceTransfer" : {
+      "title" : "createReservedInstanceTransfer",
+      "summary" : "createReservedInstanceTransfer"
+    },
+    "AcceptReservedInstanceTransfer" : {
+      "title" : "acceptReservedInstanceTransfer",
+      "summary" : "acceptReservedInstanceTransfer"
     },
     "ModifyInstanceDesc" : {
       "title" : "modifyInstanceDesc",
@@ -266,6 +390,14 @@
     "ChangeToPrepaid" : {
       "title" : "changeToPrepaid",
       "summary" : "changeToPrepaid"
+    },
+    "ListTask" : {
+      "title" : "listTask",
+      "summary" : "listTask"
+    },
+    "GetTask" : {
+      "title" : "getTask",
+      "summary" : "getTask"
     },
     "UnbindInstanceFromTags" : {
       "title" : "unbindInstanceFromTags",
@@ -371,6 +503,10 @@
       "title" : "keypairDetail",
       "summary" : "keypairDetail"
     },
+    "PurchaseReservedVolumeCluster" : {
+      "title" : "purchaseReservedVolumeCluster",
+      "summary" : "purchaseReservedVolumeCluster"
+    },
     "DeleteKeypair" : {
       "title" : "deleteKeypair",
       "summary" : "deleteKeypair"
@@ -378,6 +514,10 @@
     "StartInstance" : {
       "title" : "startInstance",
       "summary" : "startInstance"
+    },
+    "AutoRenewVolumeCluster" : {
+      "title" : "autoRenewVolumeCluster",
+      "summary" : "autoRenewVolumeCluster"
     },
     "RollbackVolume" : {
       "title" : "rollbackVolume",
@@ -438,6 +578,10 @@
     "CreateDeploySet" : {
       "title" : "createDeploySet",
       "summary" : "createDeploySet"
+    },
+    "DescribeRegions" : {
+      "title" : "describeRegions",
+      "summary" : "describeRegions"
     },
     "ListSnapshotShare" : {
       "title" : "listSnapshotShare",
@@ -506,10 +650,6 @@
     "ReleaseVolume" : {
       "title" : "releaseVolume",
       "summary" : "releaseVolume"
-    },
-    "GetImage" : {
-      "title" : "getImage",
-      "summary" : "getImage"
     },
     "RenameVolume" : {
       "title" : "renameVolume",

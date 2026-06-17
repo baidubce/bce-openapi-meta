@@ -1,0 +1,7 @@
+{
+  "AutoRenewVolumeCluster" : {
+    "clusterId" : "Dedicated cluster ID",
+    "renewTimeUnit" : "Billing cycle unit for renewal: month or year",
+    "renewTime" : "Auto-renewal duration: 1-9 for monthly, 1-3 for yearly"
+  }
+}

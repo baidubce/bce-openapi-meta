@@ -1,0 +1,6 @@
+{
+  "CreateReservedInstanceTransfer" : {
+    "reservedInstanceIds" : "要转移的预留实例券id列表",
+    "recipientAccountId" : "接收人的账号id"
+  }
+}

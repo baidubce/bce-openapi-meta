@@ -1,0 +1,10 @@
+{
+  "GetPriceBySpec" : {
+    "specId" : "实例规格族",
+    "spec" : "实例套餐规格",
+    "paymentTiming" : "付费方式，包括Postpaid(后付费)、Prepaid(预付费)",
+    "zoneName" : "可用区名称",
+    "purchaseCount" : "查询数量，必须为大于0的整数，缺省为1",
+    "purchaseLength" : "时长，[1,2,3,4,5,6,7,8,9,12,24,36]，单位：月"
+  }
+}

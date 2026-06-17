@@ -1,0 +1,7 @@
+{
+  "ModifyEhcCluster" : {
+    "ehcClusterId" : "The ID of the EHC cluster to modify",
+    "name" : "EHC cluster name; cannot be empty simultaneously with description",
+    "description" : "EHC cluster description; cannot be empty simultaneously with name"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name" : "GetReservedInstancePrice",
+  "method" : "POST",
+  "uri" : "/v{version}/reservedInstance/price",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "specId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstancePrice.specId"
+  }, {
+    "name" : "spec",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstancePrice.spec"
+  }, {
+    "name" : "offeringType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstancePrice.offeringType"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstancePrice.scope"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstancePrice.zoneName"
+  }, {
+    "name" : "reservedInstanceCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstancePrice.reservedInstanceCount"
+  }, {
+    "name" : "priceTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstancePrice.priceTimeUnit"
+  }, {
+    "name" : "reservedInstanceTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstancePrice.reservedInstanceTime"
+  }, {
+    "name" : "purchaseNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.GetReservedInstancePrice.purchaseNum"
+  } ],
+  "desc_key" : "bcc.GetReservedInstancePrice.desc"
+}

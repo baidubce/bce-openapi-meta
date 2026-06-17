@@ -1,0 +1,8 @@
+{
+  "BindReservedInstanceToTags" : {
+    "reservedInstanceIds" : "预留实例券ID列表，单次最多100个。",
+    "changeTags" : "待绑定的标签列表，具体数据格式参见TagModel。",
+    "changeTags.tagKey" : "标签键",
+    "changeTags.tagValue" : "标签值"
+  }
+}

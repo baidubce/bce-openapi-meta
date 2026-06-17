@@ -1,0 +1,38 @@
+{
+  "name" : "GetZoneBySpec",
+  "method" : "GET",
+  "uri" : "/v{version}/instance/flavorZones",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetZoneBySpec.instanceType"
+  }, {
+    "name" : "productType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetZoneBySpec.productType"
+  }, {
+    "name" : "spec",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetZoneBySpec.spec"
+  }, {
+    "name" : "specId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetZoneBySpec.specId"
+  } ],
+  "desc_key" : "bcc.GetZoneBySpec.desc"
+}

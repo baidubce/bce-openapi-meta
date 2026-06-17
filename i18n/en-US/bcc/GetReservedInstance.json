@@ -1,0 +1,21 @@
+{
+  "GetReservedInstance" : {
+    "marker" : "The starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 1000, default is 1000",
+    "reservedInstanceIds" : "Collection of reserved instance IDs",
+    "reservedInstanceName" : "Name of the reserved instance",
+    "zoneName" : "Availability zone, e.g.: cn-bj-a",
+    "reservedInstanceStatus" : "Status of the reserved instance",
+    "spec" : "Instance specification, e.g.: bcc.g4.c2m8",
+    "offeringType" : "FullyPrepay: full upfront payment",
+    "osType" : "Supported image types: all/linux/windows",
+    "instanceId" : "Deducted instance ID",
+    "instanceName" : "Instance name",
+    "isDeduct" : "Whether there is a deducted instance: true/false",
+    "ehcClusterId" : "EHC cluster ID",
+    "sortKey" : "Sort field: osType/instanceCount/effectiveTime/expireTime",
+    "sortDir" : "Sort order: desc/asc",
+    "reservedInstanceSource" : "Source of the reserved instance",
+    "scope" : "Effective scope"
+  }
+}

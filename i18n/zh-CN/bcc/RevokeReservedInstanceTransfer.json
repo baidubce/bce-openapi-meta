@@ -1,0 +1,5 @@
+{
+  "RevokeReservedInstanceTransfer" : {
+    "transferRecordIds" : "要撤销的预留实例券id列表"
+  }
+}

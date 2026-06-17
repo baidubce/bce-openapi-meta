@@ -1,0 +1,15 @@
+{
+  "CreateVolumeCluster" : {
+    "zoneName" : "指定可用区信息，默认为空，由系统自动选择。",
+    "clusterName" : "创建CDS专属集群的名字。",
+    "clusterSizeInGB" : "集群总容量单位GB，最小容量85TB，最大容量1015TB，购买步长10TB。",
+    "storageType" : "CDS磁盘存储类型，包括enhanced_ssd_pl0【增强型SSD_PL0】，enhanced_ssd_pl1【增强型SSD_PL1】，enhanced_ssd_pl2【增强型SSD_PL2】，enhanced_ssd_pl3【增强型SSD_PL3】，cloud_hp1 或 premium_ssd 【通用型SSD】 和 hp1 或 ssd 【高性能云磁盘】 六种云盘类型，elastic_ephemeral_disk【弹性临时盘_标准型】一种弹性临时盘类型，默认 hp1。",
+    "purchaseCount" : "创建CDS专属集群的数量，必须大于0的证书，缺省值为1",
+    "billing" : "订单、计费相关参数",
+    "billing.paymentTiming" : "付费方式，包括预支付（Prepaid）、后支付（Postpaid）和抢占实例（bidding）（创建实例、创建抢占实例、实例续费）",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置（创建实例、创建抢占实例、实例续费）",
+    "tags" : "待创建的标签列表",
+    "tags.tagKey" : "标签键",
+    "tags.tagValue" : "标签值"
+  }
+}

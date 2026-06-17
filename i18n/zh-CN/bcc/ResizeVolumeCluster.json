@@ -1,0 +1,6 @@
+{
+  "ResizeVolumeCluster" : {
+    "clusterId" : "磁盘ID",
+    "newClusterSizeInGB" : "新扩容专属集群容量大小，必须为大于当前专属集群容量的整数，单位为GB，大小为87040~1039360的正整数。"
+  }
+}

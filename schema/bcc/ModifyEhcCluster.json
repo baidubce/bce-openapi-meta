@@ -1,0 +1,32 @@
+{
+  "name" : "ModifyEhcCluster",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/ehc/cluster/modify",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ehcClusterId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyEhcCluster.ehcClusterId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyEhcCluster.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyEhcCluster.description"
+  } ],
+  "desc_key" : "bcc.ModifyEhcCluster.desc"
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "AutoRenewVolumeCluster",
+  "method" : "POST",
+  "uri" : "/v{version}/volume/cluster/autoRenew",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.AutoRenewVolumeCluster.clusterId"
+  }, {
+    "name" : "renewTimeUnit",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.AutoRenewVolumeCluster.renewTimeUnit"
+  }, {
+    "name" : "renewTime",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.AutoRenewVolumeCluster.renewTime"
+  } ],
+  "desc_key" : "bcc.AutoRenewVolumeCluster.desc"
+}
