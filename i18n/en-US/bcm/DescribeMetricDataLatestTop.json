@@ -1,0 +1,18 @@
+{
+  "DescribeMetricDataLatestTop" : {
+    "action" : "API action name, fixed value: DescribeMetricDataLatestTop",
+    "scope" : "Cloud product type, e.g. BCE_BCC",
+    "region" : "Region",
+    "endDatetime" : "End time in UTC, e.g. 2024-10-11T10:25:10Z",
+    "metricName" : "Metric name, only single-metric Top queries are supported",
+    "filters" : "List of dimension filter conditions",
+    "filters.key" : "Filter field name, e.g. InstanceId",
+    "filters.op" : "Filter operator, options: = / != / in",
+    "filters.value" : "Single value, applicable to operators: =, !=",
+    "filters.values" : "Multiple values, applicable to operator: in",
+    "limit" : "Maximum number of curves to return when multiple match; default: 10, max: 100",
+    "asc" : "Sort order; default: false (descending)",
+    "periodSeconds" : "Period in seconds; default: 60",
+    "aggregationOverTime" : "Time-axis aggregation method; default: avg, options: avg / sum / max / min"
+  }
+}

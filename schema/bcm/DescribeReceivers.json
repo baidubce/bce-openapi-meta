@@ -1,0 +1,38 @@
+{
+  "name" : "DescribeReceivers",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=DescribeReceivers",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeReceivers.type"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeReceivers.name"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeReceivers.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeReceivers.pageSize"
+  } ],
+  "desc_key" : "bcm.DescribeReceivers.desc"
+}

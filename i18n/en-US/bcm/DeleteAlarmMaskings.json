@@ -1,0 +1,5 @@
+{
+  "DeleteAlarmMaskings" : {
+    "ids" : "List of masking rule IDs"
+  }
+}

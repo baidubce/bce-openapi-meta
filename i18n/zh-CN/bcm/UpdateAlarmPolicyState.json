@@ -1,0 +1,6 @@
+{
+  "UpdateAlarmPolicyState" : {
+    "ids" : "策略ID列表",
+    "state" : "报警策略状态，可选值：ENABLED / DISABLED"
+  }
+}

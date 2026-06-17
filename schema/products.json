@@ -179,5 +179,19 @@
       "su" : "aihc.su.baidubce.com",
       "yq" : "aihc.yq.baidubce.com"
     }
+  }, {
+    "code" : "bcm",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "bcm.bd.baidubce.com",
+      "bj" : "bcm.bj.baidubce.com",
+      "cd" : "bcm.cd.baidubce.com",
+      "fwh" : "bcm.fwh.baidubce.com",
+      "gz" : "bcm.gz.baidubce.com",
+      "hkg" : "bcm.hkg.baidubce.com",
+      "nj" : "bcm.nj.baidubce.com",
+      "su" : "bcm.su.baidubce.com",
+      "yq" : "bcm.yq.baidubce.com"
+    }
   } ]
 }

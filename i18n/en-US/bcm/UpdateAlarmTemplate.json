@@ -1,0 +1,15 @@
+{
+  "UpdateAlarmTemplate" : {
+    "id" : "Alarm template ID",
+    "scope" : "Cloud product type",
+    "resourceType" : "Resource type",
+    "subResourceType" : "Sub-resource type",
+    "name" : "Template name",
+    "comment" : "Remarks",
+    "rules" : "Alarm rule list (OR rules)",
+    "rules.conditions" : "Condition list within a rule (AND rules)",
+    "rules.pendingCount" : "Consecutive trigger count, value range: greater than 0",
+    "rules.checkIntervalSeconds" : "Check interval in seconds, value range: greater than 0",
+    "rules.content" : "Alarm condition content description (returned in query response only)"
+  }
+}

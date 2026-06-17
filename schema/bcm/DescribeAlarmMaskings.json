@@ -1,0 +1,50 @@
+{
+  "name" : "DescribeAlarmMaskings",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=DescribeAlarmMaskings",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "maskingName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmMaskings.maskingName"
+  }, {
+    "name" : "maskingId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmMaskings.maskingId"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmMaskings.order"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmMaskings.orderBy"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmMaskings.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmMaskings.pageSize"
+  } ],
+  "desc_key" : "bcm.DescribeAlarmMaskings.desc"
+}

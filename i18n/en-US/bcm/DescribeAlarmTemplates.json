@@ -1,0 +1,12 @@
+{
+  "DescribeAlarmTemplates" : {
+    "name" : "Template name, supports fuzzy matching",
+    "scope" : "Cloud product type",
+    "resourceType" : "Resource type",
+    "subResourceType" : "Sub-resource type",
+    "order" : "Sort direction, asc/desc",
+    "orderBy" : "Sort field",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Page size"
+  }
+}

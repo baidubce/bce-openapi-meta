@@ -1,0 +1,6 @@
+{
+  "UpdateAlarmPolicyNotifyEnabled" : {
+    "ids" : "策略ID列表",
+    "notifyEnabled" : "是否开启通知"
+  }
+}

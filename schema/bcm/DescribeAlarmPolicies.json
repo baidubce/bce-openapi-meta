@@ -1,0 +1,86 @@
+{
+  "name" : "DescribeAlarmPolicies",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=DescribeAlarmPolicies",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "policyName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.policyName"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.policyId"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.scope"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.resourceType"
+  }, {
+    "name" : "recursive",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.recursive"
+  }, {
+    "name" : "subResourceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.subResourceType"
+  }, {
+    "name" : "notifyEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.notifyEnabled"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.type"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.order"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.orderBy"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarmPolicies.pageSize"
+  } ],
+  "desc_key" : "bcm.DescribeAlarmPolicies.desc"
+}

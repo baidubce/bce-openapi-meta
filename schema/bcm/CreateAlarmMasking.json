@@ -1,0 +1,109 @@
+{
+  "name" : "CreateAlarmMasking",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=CreateAlarmMasking",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.name"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.scope"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.resourceType"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.policyId"
+  }, {
+    "name" : "instances",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.instances",
+    "sub_parameters" : [ {
+      "name" : "dimensions",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmMasking.instances.dimensions",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmMasking.instances.dimensions.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmMasking.instances.dimensions.value"
+      } ]
+    } ]
+  }, {
+    "name" : "region",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.region"
+  }, {
+    "name" : "metricNames",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.metricNames"
+  }, {
+    "name" : "periodType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.periodType"
+  }, {
+    "name" : "beginTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.beginTime"
+  }, {
+    "name" : "endTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.endTime"
+  }, {
+    "name" : "tz",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.tz"
+  }, {
+    "name" : "dailyBeginTimestamp",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.dailyBeginTimestamp"
+  }, {
+    "name" : "dailyEndTimestamp",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmMasking.dailyEndTimestamp"
+  } ],
+  "desc_key" : "bcm.CreateAlarmMasking.desc"
+}

@@ -1,0 +1,121 @@
+{
+  "name" : "UpdateAlarmMasking",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=UpdateAlarmMasking",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.id"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.state"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.name"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.scope"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.resourceType"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.policyId"
+  }, {
+    "name" : "instances",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.instances",
+    "sub_parameters" : [ {
+      "name" : "dimensions",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.UpdateAlarmMasking.instances.dimensions",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.UpdateAlarmMasking.instances.dimensions.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.UpdateAlarmMasking.instances.dimensions.value"
+      } ]
+    } ]
+  }, {
+    "name" : "region",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.region"
+  }, {
+    "name" : "metricNames",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.metricNames"
+  }, {
+    "name" : "periodType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.periodType"
+  }, {
+    "name" : "beginTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.beginTime"
+  }, {
+    "name" : "endTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.endTime"
+  }, {
+    "name" : "tz",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.tz"
+  }, {
+    "name" : "dailyBeginTimestamp",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.dailyBeginTimestamp"
+  }, {
+    "name" : "dailyEndTimestamp",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMasking.dailyEndTimestamp"
+  } ],
+  "desc_key" : "bcm.UpdateAlarmMasking.desc"
+}

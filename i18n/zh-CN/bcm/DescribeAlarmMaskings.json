@@ -1,0 +1,10 @@
+{
+  "DescribeAlarmMaskings" : {
+    "maskingName" : "屏蔽规则名称，模糊查询",
+    "maskingId" : "屏蔽规则ID，精确查询",
+    "order" : "排序方式，asc/desc",
+    "orderBy" : "排序字段",
+    "pageNo" : "页码",
+    "pageSize" : "每页条数"
+  }
+}

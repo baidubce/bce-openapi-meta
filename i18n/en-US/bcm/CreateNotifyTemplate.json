@@ -1,0 +1,16 @@
+{
+  "CreateNotifyTemplate" : {
+    "name" : "Notification template name, duplicates allowed",
+    "silencePeriods" : "List of silence periods during which notifications will not be triggered",
+    "silencePeriods.from" : "Silence start time, 24-hour format: HH:mm:ss",
+    "silencePeriods.to" : "Silence end time, 24-hour format: HH:mm:ss",
+    "receivers" : "List of notification receivers; empty means the template is not bound to any specific member",
+    "receivers.id" : "Receiver ID, user or user group ID",
+    "receivers.name" : "Receiver name",
+    "receivers.receiverType" : "Type of the notification receiver, valid values: USER / USER_GROUP",
+    "receivers.channels" : "List of notification channels, valid values: SMS / EMAIL / PHONE",
+    "callbacks" : "List of callback configurations",
+    "callbacks.url" : "Callback URL, supports HTTP/HTTPS",
+    "callbacks.mention" : "Mention target configuration"
+  }
+}

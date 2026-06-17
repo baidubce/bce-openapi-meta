@@ -1,0 +1,6 @@
+{
+  "DescribeAlarmPolicy" : {
+    "id" : "策略ID",
+    "requireSubResourceType" : "是否返回SubResourceType，默认值：false"
+  }
+}

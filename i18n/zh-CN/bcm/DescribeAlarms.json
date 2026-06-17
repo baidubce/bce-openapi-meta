@@ -1,0 +1,15 @@
+{
+  "DescribeAlarms" : {
+    "startTime" : "查询起始时间",
+    "endTime" : "查询结束时间",
+    "policyName" : "报警策略名称，模糊查询",
+    "scope" : "云产品命名空间",
+    "resourceType" : "资源类型",
+    "state" : "报警状态，可选OK/ALERT/NO_DATA/CLOSED",
+    "type" : "报警类型",
+    "order" : "排序方式，asc/desc",
+    "orderBy" : "排序字段",
+    "pageNo" : "页码",
+    "pageSize" : "每页条数"
+  }
+}

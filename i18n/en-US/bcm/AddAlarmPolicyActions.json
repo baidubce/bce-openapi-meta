@@ -1,0 +1,7 @@
+{
+  "AddAlarmPolicyActions" : {
+    "id" : "Policy ID",
+    "actions" : "List of alarm notification items to be added",
+    "actions.notifyId" : "Notification template ID"
+  }
+}

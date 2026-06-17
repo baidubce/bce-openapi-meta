@@ -1,0 +1,8 @@
+{
+  "DescribeReceivers" : {
+    "type" : "Object type, valid values: USER (single user) / USER_GROUP (user group)",
+    "name" : "Username or user group name, supports partial match",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Page size"
+  }
+}

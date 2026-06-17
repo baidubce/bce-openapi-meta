@@ -1,0 +1,8 @@
+{
+  "DeleteInstanceGroupInstances" : {
+    "id" : "Instance group ID",
+    "instances" : "List of instances to be deleted",
+    "instances.dimensions" : "List of instance dimension key-value pairs",
+    "instances.region" : "Region where the instance belongs"
+  }
+}

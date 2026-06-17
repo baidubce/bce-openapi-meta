@@ -1,0 +1,8 @@
+{
+  "DeleteInstanceGroupInstances" : {
+    "id" : "实例组ID",
+    "instances" : "待删除的实例列表",
+    "instances.dimensions" : "实例维度键值对列表",
+    "instances.region" : "实例所属region"
+  }
+}

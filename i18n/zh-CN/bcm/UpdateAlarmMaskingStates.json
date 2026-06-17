@@ -1,0 +1,6 @@
+{
+  "UpdateAlarmMaskingStates" : {
+    "ids" : "屏蔽规则ID列表",
+    "state" : "目标状态，可选ENABLED/DISABLED"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "UpdateAlarmMaskingStates" : {
+    "ids" : "List of masking rule IDs",
+    "state" : "Target state, ENABLED or DISABLED"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "DescribeAlarmMaskings" : {
+    "maskingName" : "Masking rule name, fuzzy query",
+    "maskingId" : "Masking rule ID, exact query",
+    "order" : "Sort order, asc/desc",
+    "orderBy" : "Sort field",
+    "pageNo" : "Page number",
+    "pageSize" : "Page size"
+  }
+}

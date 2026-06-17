@@ -1,0 +1,16 @@
+{
+  "DescribeAlarmPolicies" : {
+    "policyName" : "Filter by policy name, supports partial match",
+    "policyId" : "Filter by policy ID, exact match",
+    "scope" : "Filter by cloud product type",
+    "resourceType" : "Filter by resource type (scope must not be empty)",
+    "recursive" : "Whether to include sub-types, default: false",
+    "subResourceType" : "Filter by sub-resource type",
+    "notifyEnabled" : "Filter by notification status",
+    "type" : "Filter by policy type, valid values: APP / SITE / CLOUD / CUSTOM",
+    "order" : "Sort order, default: desc, valid values: desc / asc",
+    "orderBy" : "Sort field, default: updatedTime, valid values: updatedTime / createdTime",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Page size, range: [1, 100]"
+  }
+}

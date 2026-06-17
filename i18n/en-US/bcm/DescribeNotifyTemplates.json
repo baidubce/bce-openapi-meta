@@ -1,0 +1,10 @@
+{
+  "DescribeNotifyTemplates" : {
+    "name" : "Filter by notification template name, supports partial match",
+    "policyId" : "Policy ID, query notification templates used by this policy",
+    "order" : "Sort order, default: desc, options: desc / asc",
+    "orderBy" : "Sort field, default: updatedTime, options: updatedTime / createdTime",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Page size, range: [1, 100]"
+  }
+}

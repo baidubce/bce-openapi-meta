@@ -1,0 +1,5 @@
+{
+  "DeleteAlarmTemplates" : {
+    "ids" : "List of alarm template IDs to delete"
+  }
+}

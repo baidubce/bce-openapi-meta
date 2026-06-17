@@ -1,0 +1,14 @@
+{
+  "CreateAlarmTemplate" : {
+    "scope" : "Cloud product type",
+    "resourceType" : "Resource type",
+    "subResourceType" : "Sub-resource type",
+    "name" : "Template name",
+    "comment" : "Remarks",
+    "rules" : "Alarm rule list (OR logic)",
+    "rules.conditions" : "Condition list within a rule (AND logic)",
+    "rules.pendingCount" : "Consecutive trigger count, value range: greater than 0",
+    "rules.checkIntervalSeconds" : "Check interval in seconds, value range: greater than 0",
+    "rules.content" : "Alarm condition description (returned in query response only)"
+  }
+}

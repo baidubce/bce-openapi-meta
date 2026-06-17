@@ -1,0 +1,5 @@
+{
+  "DeleteAlarmTemplates" : {
+    "ids" : "要删除的报警模板ID列表"
+  }
+}

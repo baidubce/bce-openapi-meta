@@ -1,0 +1,20 @@
+{
+  "UpdateAlarmMasking" : {
+    "id" : "Masking rule ID",
+    "state" : "Masking rule state, options: ENABLED/DISABLED",
+    "name" : "Masking rule name",
+    "scope" : "Cloud product namespace",
+    "resourceType" : "Resource type",
+    "policyId" : "Alarm policy ID",
+    "instances" : "List of masked instances",
+    "instances.dimensions" : "List of instance dimension key-value pairs",
+    "region" : "Region",
+    "metricNames" : "List of masked metric names",
+    "periodType" : "Masking period type, default FOREVER, options: FOREVER/FIXED/RELATIVE",
+    "beginTime" : "Masking start time, required when periodType is FIXED",
+    "endTime" : "Masking end time, required when periodType is FIXED",
+    "tz" : "Timezone",
+    "dailyBeginTimestamp" : "Daily masking start timestamp, required when periodType is RELATIVE",
+    "dailyEndTimestamp" : "Daily masking end timestamp, required when periodType is RELATIVE"
+  }
+}

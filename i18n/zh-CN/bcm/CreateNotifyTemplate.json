@@ -1,0 +1,16 @@
+{
+  "CreateNotifyTemplate" : {
+    "name" : "通知模板名称，可重复",
+    "silencePeriods" : "静默时间段列表，在这些时间段内不会触发通知",
+    "silencePeriods.from" : "静默开始时间，24小时制，格式：HH:mm:ss",
+    "silencePeriods.to" : "静默结束时间，24小时制，格式：HH:mm:ss",
+    "receivers" : "通知接收者列表，为空表示模板未绑定具体成员",
+    "receivers.id" : "通知接收方ID，用户/用户组ID",
+    "receivers.name" : "接收通知方名称",
+    "receivers.receiverType" : "接收通知的用户类型，可选值：USER / USER_GROUP",
+    "receivers.channels" : "通知渠道列表，可选值：SMS / EMAIL / PHONE",
+    "callbacks" : "回调配置列表",
+    "callbacks.url" : "回调URL，支持HTTP/HTTPS",
+    "callbacks.mention" : "提醒对象配置"
+  }
+}

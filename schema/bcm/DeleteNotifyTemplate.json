@@ -1,0 +1,20 @@
+{
+  "name" : "DeleteNotifyTemplate",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=DeleteNotifyTemplate",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "notifyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DeleteNotifyTemplate.notifyId"
+  } ],
+  "desc_key" : "bcm.DeleteNotifyTemplate.desc"
+}

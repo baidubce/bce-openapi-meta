@@ -1,0 +1,6 @@
+{
+  "UpdateAlarmPolicyNotifyEnabled" : {
+    "ids" : "Policy ID list",
+    "notifyEnabled" : "Whether to enable notifications"
+  }
+}

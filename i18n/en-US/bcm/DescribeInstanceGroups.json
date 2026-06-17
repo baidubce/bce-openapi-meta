@@ -1,0 +1,11 @@
+{
+  "DescribeInstanceGroups" : {
+    "scope" : "Cloud product type",
+    "resourceType" : "Resource type",
+    "name" : "Instance group name, supports partial match",
+    "order" : "Sort order, default: desc, options: desc / asc",
+    "orderBy" : "Sort field, default: updatedTime, options: updatedTime / createdTime",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Page size, range: [1, 100]"
+  }
+}

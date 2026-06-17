@@ -1,0 +1,8 @@
+{
+  "DescribeSystemTemplateRules" : {
+    "scope" : "Cloud product type",
+    "resourceType" : "Resource type",
+    "subResourceType" : "Sub-resource type",
+    "source" : "Rule source"
+  }
+}

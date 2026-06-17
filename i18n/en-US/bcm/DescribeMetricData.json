@@ -1,0 +1,20 @@
+{
+  "DescribeMetricData" : {
+    "action" : "API name, fixed value: DescribeMetricData",
+    "scope" : "Cloud product type, e.g. BCE_BCC",
+    "resourceType" : "Cloud product resource type, e.g. Instance. Not used as a query condition; only used to verify that filters contain all identifier attributes required by the resourceType",
+    "region" : "Region",
+    "beginDatetime" : "Start time, UTC, e.g. 2024-10-11T10:10:10Z",
+    "endDatetime" : "End time, UTC, e.g. 2024-10-11T10:25:10Z",
+    "metricName" : "Metric name",
+    "filters" : "List of dimension filter conditions; must include all Resource.Identifiers dimensions for the resource type",
+    "filters.key" : "Filter field name, e.g. InstanceId",
+    "filters.op" : "Filter operator, options: = / != / in",
+    "filters.value" : "Single value, applicable to operators: =, !=",
+    "filters.values" : "Multiple values, applicable to operator: in",
+    "limit" : "Maximum number of curves returned when multiple curves match; default: 10, max: 100",
+    "offset" : "Offset for pagination; default: 0",
+    "periodSeconds" : "Aggregation period in seconds; default: auto-determined based on query time range",
+    "aggregationOverTime" : "Time-axis aggregation method; default: [\"avg\"], options: avg / sum / max / min / count"
+  }
+}

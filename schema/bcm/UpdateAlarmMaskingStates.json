@@ -1,0 +1,26 @@
+{
+  "name" : "UpdateAlarmMaskingStates",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=UpdateAlarmMaskingStates",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ids",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMaskingStates.ids"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.UpdateAlarmMaskingStates.state"
+  } ],
+  "desc_key" : "bcm.UpdateAlarmMaskingStates.desc"
+}

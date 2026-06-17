@@ -1,0 +1,92 @@
+{
+  "name" : "CreateNotifyTemplate",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=CreateNotifyTemplate",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateNotifyTemplate.name"
+  }, {
+    "name" : "silencePeriods",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateNotifyTemplate.silencePeriods",
+    "sub_parameters" : [ {
+      "name" : "from",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateNotifyTemplate.silencePeriods.from"
+    }, {
+      "name" : "to",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateNotifyTemplate.silencePeriods.to"
+    } ]
+  }, {
+    "name" : "receivers",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateNotifyTemplate.receivers",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateNotifyTemplate.receivers.id"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateNotifyTemplate.receivers.name"
+    }, {
+      "name" : "receiverType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateNotifyTemplate.receivers.receiverType"
+    }, {
+      "name" : "channels",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.CreateNotifyTemplate.receivers.channels"
+    } ]
+  }, {
+    "name" : "callbacks",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateNotifyTemplate.callbacks",
+    "sub_parameters" : [ {
+      "name" : "url",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateNotifyTemplate.callbacks.url"
+    }, {
+      "name" : "mention",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bcm.CreateNotifyTemplate.callbacks.mention",
+      "sub_parameters" : [ {
+        "name" : "type",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateNotifyTemplate.callbacks.mention.type"
+      }, {
+        "name" : "userIds",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bcm.CreateNotifyTemplate.callbacks.mention.userIds"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "bcm.CreateNotifyTemplate.desc"
+}

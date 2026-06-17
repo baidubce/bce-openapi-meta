@@ -1,0 +1,17 @@
+{
+  "DescribeDimensionValues" : {
+    "action" : "API接口名称，当前取值为DescribeDimensionValues",
+    "scope" : "云产品类型，如BCE_BCC",
+    "resourceType" : "云产品资源类型，如Instance",
+    "region" : "地域",
+    "beginDatetime" : "开始时间，UTC时间，如 2024-10-11T10:10:10Z",
+    "endDatetime" : "结束时间，UTC时间，如 2024-10-11T10:10:10Z",
+    "metricName" : "指标名",
+    "dimensionKey" : "维度名，要查询的维度key",
+    "filters" : "过滤项列表，填入已选的指标维度值，用于级联查询",
+    "filters.key" : "过滤字段名，如 InstanceId",
+    "filters.op" : "过滤操作，可选值：= / != / in",
+    "filters.value" : "单值，可用于操作符: =, !=",
+    "filters.values" : "多值，可用于操作符：in"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "DescribeAlarmPolicies" : {
+    "policyName" : "按策略名称筛选，支持部分匹配",
+    "policyId" : "按策略ID筛选，精确匹配",
+    "scope" : "云产品类型筛选",
+    "resourceType" : "资源类型筛选（scope不能为空）",
+    "recursive" : "是否包含子类型，默认为false",
+    "subResourceType" : "子资源类型筛选",
+    "notifyEnabled" : "通知状态筛选",
+    "type" : "策略类型筛选，可选值：APP / SITE / CLOUD / CUSTOM",
+    "order" : "排序顺序，默认值：desc，可选值：desc / asc",
+    "orderBy" : "排序字段，默认值：updatedTime，可选值：updatedTime / createdTime",
+    "pageNo" : "页号，从1开始",
+    "pageSize" : "页大小，取值范围：[1, 100]"
+  }
+}

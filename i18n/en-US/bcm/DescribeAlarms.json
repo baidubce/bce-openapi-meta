@@ -1,0 +1,15 @@
+{
+  "DescribeAlarms" : {
+    "startTime" : "Query start time",
+    "endTime" : "Query end time",
+    "policyName" : "Alarm policy name, fuzzy search",
+    "scope" : "Cloud product namespace",
+    "resourceType" : "Resource type",
+    "state" : "Alarm state, optional: OK/ALERT/NO_DATA/CLOSED",
+    "type" : "Alarm type",
+    "order" : "Sort order, asc/desc",
+    "orderBy" : "Sort field",
+    "pageNo" : "Page number",
+    "pageSize" : "Page size"
+  }
+}

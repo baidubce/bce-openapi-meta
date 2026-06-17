@@ -1,0 +1,8 @@
+{
+  "DescribeReceivers" : {
+    "type" : "对象类型，可选值：USER（单用户）/ USER_GROUP（用户组）",
+    "name" : "用户名或用户组名，支持部分匹配",
+    "pageNo" : "页号，从1开始",
+    "pageSize" : "页大小"
+  }
+}

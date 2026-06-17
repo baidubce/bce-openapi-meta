@@ -1,0 +1,17 @@
+{
+  "UpdateNotifyTemplate" : {
+    "id" : "Notification template ID",
+    "name" : "Notification template name",
+    "silencePeriods" : "List of silence periods",
+    "silencePeriods.from" : "Silence start time, 24-hour format: HH:mm:ss",
+    "silencePeriods.to" : "Silence end time, 24-hour format: HH:mm:ss",
+    "receivers" : "List of notification receivers",
+    "receivers.id" : "Receiver ID, user or user group ID",
+    "receivers.name" : "Receiver name",
+    "receivers.receiverType" : "Receiver type, options: USER / USER_GROUP",
+    "receivers.channels" : "Notification channel list, options: SMS / EMAIL / PHONE",
+    "callbacks" : "List of callback configurations",
+    "callbacks.url" : "Callback URL, supports HTTP/HTTPS",
+    "callbacks.mention" : "Mention target configuration"
+  }
+}

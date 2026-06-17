@@ -1,0 +1,19 @@
+{
+  "DescribeMetricDataLatest" : {
+    "action" : "API接口名称，当前取值为DescribeMetricDataLatest",
+    "scope" : "云产品类型，如BCE_BCC",
+    "resourceType" : "云产品资源类型，如Instance。目前不参与查询条件，仅用于检查filters中必需包含resourceType对应的全部identifiers属性",
+    "region" : "地域",
+    "endDatetime" : "结束时间，UTC时间，如 2024-10-11T10:25:10Z",
+    "metricName" : "指标名",
+    "filters" : "维度过滤项列表，必须包含该资源类型下所有的Resource.Identifiers维度",
+    "filters.key" : "过滤字段名，如 InstanceId",
+    "filters.op" : "过滤操作，可选值：= / != / in",
+    "filters.value" : "单值，可用于操作符: =, !=",
+    "filters.values" : "多值，可用于操作符：in",
+    "limit" : "若查询命中多条曲线，则最多返回limit条曲线，默认值：10，最大值：100",
+    "offset" : "偏移量，用于翻页查询，默认值：0",
+    "periodSeconds" : "周期，单位：秒，默认值：60",
+    "aggregationOverTime" : "统计方式（时间轴聚合方式），默认值：[\"avg\"]，可选值：avg / sum / max / min / count"
+  }
+}

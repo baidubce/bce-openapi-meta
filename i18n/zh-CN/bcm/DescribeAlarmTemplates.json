@@ -1,0 +1,12 @@
+{
+  "DescribeAlarmTemplates" : {
+    "name" : "模板名称，支持模糊匹配",
+    "scope" : "云产品类型",
+    "resourceType" : "资源类型",
+    "subResourceType" : "子资源类型",
+    "order" : "排序方向，asc/desc",
+    "orderBy" : "排序字段",
+    "pageNo" : "页码，从1开始",
+    "pageSize" : "每页条数"
+  }
+}

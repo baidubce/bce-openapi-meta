@@ -1,0 +1,6 @@
+{
+  "DescribeAlarmPolicy" : {
+    "id" : "Policy ID",
+    "requireSubResourceType" : "Whether to return SubResourceType, default: false"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "DeleteInstanceGroup",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=DeleteInstanceGroup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DeleteInstanceGroup.id"
+  } ],
+  "desc_key" : "bcm.DeleteInstanceGroup.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "UpdateAlarmPolicyState" : {
+    "ids" : "List of policy IDs",
+    "state" : "Alarm policy state, valid values: ENABLED / DISABLED"
+  }
+}

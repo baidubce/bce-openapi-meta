@@ -1,0 +1,8 @@
+{
+  "DescribeSystemTemplateRules" : {
+    "scope" : "云产品类型",
+    "resourceType" : "资源类型",
+    "subResourceType" : "子资源类型",
+    "source" : "规则来源"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name" : "DescribeAlarms",
+  "method" : "POST",
+  "uri" : "/v3/bcm/ah?action=DescribeAlarms",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "startTime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.endTime"
+  }, {
+    "name" : "policyName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.policyName"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.scope"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.resourceType"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.state"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.type"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.order"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.orderBy"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeAlarms.pageSize"
+  } ],
+  "desc_key" : "bcm.DescribeAlarms.desc"
+}

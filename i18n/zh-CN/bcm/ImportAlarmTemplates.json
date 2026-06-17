@@ -1,0 +1,12 @@
+{
+  "ImportAlarmTemplates" : {
+    "overwrite" : "若模板重名，是否覆盖（true覆盖/false跳过）",
+    "templates" : "报警模板列表",
+    "templates.scope" : "云产品类型",
+    "templates.resourceType" : "资源类型",
+    "templates.subResourceType" : "子资源类型",
+    "templates.name" : "模板名称",
+    "templates.comment" : "备注信息",
+    "templates.rules" : "报警规则列表"
+  }
+}

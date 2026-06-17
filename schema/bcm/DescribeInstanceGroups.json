@@ -1,0 +1,56 @@
+{
+  "name" : "DescribeInstanceGroups",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=DescribeInstanceGroups",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeInstanceGroups.scope"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeInstanceGroups.resourceType"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeInstanceGroups.name"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeInstanceGroups.order"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeInstanceGroups.orderBy"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeInstanceGroups.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeInstanceGroups.pageSize"
+  } ],
+  "desc_key" : "bcm.DescribeInstanceGroups.desc"
+}

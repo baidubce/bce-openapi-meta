@@ -1,0 +1,280 @@
+{
+  "name" : "CreateAlarmPolicy",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=CreateAlarmPolicy",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.name"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.scope"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.resourceType"
+  }, {
+    "name" : "target",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.target",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.target.type"
+    }, {
+      "name" : "instances",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.target.instances",
+      "sub_parameters" : [ {
+        "name" : "dimensions",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.target.instances.dimensions",
+        "sub_parameters" : [ {
+          "name" : "key",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bcm.CreateAlarmPolicy.target.instances.dimensions.key"
+        }, {
+          "name" : "value",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bcm.CreateAlarmPolicy.target.instances.dimensions.value"
+        } ]
+      } ]
+    }, {
+      "name" : "region",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.target.region"
+    }, {
+      "name" : "tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.target.tags",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.target.tags.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.target.tags.value"
+      } ]
+    }, {
+      "name" : "instanceGroups",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.target.instanceGroups"
+    }, {
+      "name" : "includingDimensions",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.target.includingDimensions"
+    }, {
+      "name" : "excludingDimensions",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.target.excludingDimensions"
+    } ]
+  }, {
+    "name" : "rules",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.rules",
+    "sub_parameters" : [ {
+      "name" : "conditions",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions",
+      "sub_parameters" : [ {
+        "name" : "metricName",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.metricName"
+      }, {
+        "name" : "metricDimensions",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.metricDimensions",
+        "sub_parameters" : [ {
+          "name" : "key",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.metricDimensions.key"
+        }, {
+          "name" : "operator",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.metricDimensions.operator"
+        }, {
+          "name" : "values",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.metricDimensions.values"
+        } ]
+      }, {
+        "name" : "operator",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.operator"
+      }, {
+        "name" : "threshold",
+        "type" : "Float",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.threshold"
+      }, {
+        "name" : "aggregateType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.aggregateType"
+      }, {
+        "name" : "windowSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.windowSeconds"
+      }, {
+        "name" : "displayUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.displayUnit"
+      }, {
+        "name" : "displayThreshold",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.rules.conditions.displayThreshold"
+      } ]
+    }, {
+      "name" : "pendingCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.rules.pendingCount"
+    }, {
+      "name" : "checkIntervalSeconds",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.rules.checkIntervalSeconds"
+    }, {
+      "name" : "content",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.rules.content"
+    } ]
+  }, {
+    "name" : "pendingCount",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.pendingCount"
+  }, {
+    "name" : "onMissingData",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.onMissingData"
+  }, {
+    "name" : "noDataNotifyPendingMinutes",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.noDataNotifyPendingMinutes"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.type"
+  }, {
+    "name" : "level",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.level"
+  }, {
+    "name" : "actions",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.actions",
+    "sub_parameters" : [ {
+      "name" : "notifyId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.actions.notifyId"
+    } ]
+  }, {
+    "name" : "notifyEnabled",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.notifyEnabled"
+  }, {
+    "name" : "callbacks",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.callbacks",
+    "sub_parameters" : [ {
+      "name" : "url",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.callbacks.url"
+    }, {
+      "name" : "mention",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bcm.CreateAlarmPolicy.callbacks.mention",
+      "sub_parameters" : [ {
+        "name" : "type",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.callbacks.mention.type"
+      }, {
+        "name" : "userIds",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bcm.CreateAlarmPolicy.callbacks.mention.userIds"
+      } ]
+    } ]
+  }, {
+    "name" : "renotifyCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.renotifyCount"
+  }, {
+    "name" : "renotifyIntervalMinutes",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.renotifyIntervalMinutes"
+  }, {
+    "name" : "notifyMergeWindowSeconds",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateAlarmPolicy.notifyMergeWindowSeconds"
+  } ],
+  "desc_key" : "bcm.CreateAlarmPolicy.desc"
+}

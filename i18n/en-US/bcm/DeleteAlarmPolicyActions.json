@@ -1,0 +1,7 @@
+{
+  "DeleteAlarmPolicyActions" : {
+    "id" : "Policy ID",
+    "actions" : "List of alarm notification items to delete",
+    "actions.notifyId" : "Notification template ID"
+  }
+}

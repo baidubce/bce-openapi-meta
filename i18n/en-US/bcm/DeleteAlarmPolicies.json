@@ -1,0 +1,5 @@
+{
+  "DeleteAlarmPolicies" : {
+    "ids" : "List of policy IDs"
+  }
+}

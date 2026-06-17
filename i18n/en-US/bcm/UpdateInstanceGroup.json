@@ -1,0 +1,11 @@
+{
+  "UpdateInstanceGroup" : {
+    "id" : "Instance group ID",
+    "scope" : "Cloud product type",
+    "resourceType" : "Resource type",
+    "name" : "Instance group name",
+    "instances" : "Instance list",
+    "instances.dimensions" : "Instance dimension key-value pair list",
+    "instances.region" : "Region of the instance"
+  }
+}

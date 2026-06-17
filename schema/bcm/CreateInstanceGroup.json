@@ -1,0 +1,60 @@
+{
+  "name" : "CreateInstanceGroup",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=CreateInstanceGroup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateInstanceGroup.scope"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateInstanceGroup.resourceType"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateInstanceGroup.name"
+  }, {
+    "name" : "instances",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.CreateInstanceGroup.instances",
+    "sub_parameters" : [ {
+      "name" : "dimensions",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.CreateInstanceGroup.instances.dimensions",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateInstanceGroup.instances.dimensions.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.CreateInstanceGroup.instances.dimensions.value"
+      } ]
+    }, {
+      "name" : "region",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.CreateInstanceGroup.instances.region"
+    } ]
+  } ],
+  "desc_key" : "bcm.CreateInstanceGroup.desc"
+}

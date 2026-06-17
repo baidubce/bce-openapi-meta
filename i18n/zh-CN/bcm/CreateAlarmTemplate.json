@@ -1,0 +1,14 @@
+{
+  "CreateAlarmTemplate" : {
+    "scope" : "云产品类型",
+    "resourceType" : "资源类型",
+    "subResourceType" : "子资源类型",
+    "name" : "模板名称",
+    "comment" : "备注信息",
+    "rules" : "报警规则列表（OR规则）",
+    "rules.conditions" : "规则内的条件列表（AND规则）",
+    "rules.pendingCount" : "连续触发次数，取值范围：大于0",
+    "rules.checkIntervalSeconds" : "检查间隔，单位：秒，取值范围：大于0",
+    "rules.content" : "报警条件内容描述（仅在查询响应中返回）"
+  }
+}

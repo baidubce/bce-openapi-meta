@@ -1,0 +1,12 @@
+{
+  "ImportAlarmTemplates" : {
+    "overwrite" : "Whether to overwrite if template name conflicts (true=overwrite/false=skip)",
+    "templates" : "List of alarm templates",
+    "templates.scope" : "Cloud product type",
+    "templates.resourceType" : "Resource type",
+    "templates.subResourceType" : "Sub-resource type",
+    "templates.name" : "Template name",
+    "templates.comment" : "Remarks",
+    "templates.rules" : "List of alarm rules"
+  }
+}

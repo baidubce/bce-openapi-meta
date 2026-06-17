@@ -1,0 +1,10 @@
+{
+  "DescribeNotifyTemplates" : {
+    "name" : "按通知模板名称筛选，支持部分匹配",
+    "policyId" : "策略ID，查询被该策略使用的通知模板",
+    "order" : "排序顺序，默认值：desc，可选值：desc / asc",
+    "orderBy" : "排序字段，默认值：updatedTime，可选值：updatedTime / createdTime",
+    "pageNo" : "页号，从1开始",
+    "pageSize" : "页大小，取值范围：[1, 100]"
+  }
+}

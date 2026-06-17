@@ -1,0 +1,17 @@
+{
+  "DescribeDimensionValues" : {
+    "action" : "API name, fixed value: DescribeDimensionValues",
+    "scope" : "Cloud product type, e.g. BCE_BCC",
+    "resourceType" : "Cloud product resource type, e.g. Instance",
+    "region" : "Region",
+    "beginDatetime" : "Start time in UTC, e.g. 2024-10-11T10:10:10Z",
+    "endDatetime" : "End time in UTC, e.g. 2024-10-11T10:10:10Z",
+    "metricName" : "Metric name",
+    "dimensionKey" : "Dimension key to query",
+    "filters" : "Filter list; specify selected metric dimension values for cascading queries",
+    "filters.key" : "Filter field name, e.g. InstanceId",
+    "filters.op" : "Filter operator, options: = / != / in",
+    "filters.value" : "Single value, applicable to operators: =, !=",
+    "filters.values" : "Multiple values, applicable to operator: in"
+  }
+}

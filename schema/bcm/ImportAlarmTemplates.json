@@ -1,0 +1,135 @@
+{
+  "name" : "ImportAlarmTemplates",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=ImportAlarmTemplates",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "overwrite",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.ImportAlarmTemplates.overwrite"
+  }, {
+    "name" : "templates",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.ImportAlarmTemplates.templates",
+    "sub_parameters" : [ {
+      "name" : "scope",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.ImportAlarmTemplates.templates.scope"
+    }, {
+      "name" : "resourceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.ImportAlarmTemplates.templates.resourceType"
+    }, {
+      "name" : "subResourceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.ImportAlarmTemplates.templates.subResourceType"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.ImportAlarmTemplates.templates.name"
+    }, {
+      "name" : "comment",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.ImportAlarmTemplates.templates.comment"
+    }, {
+      "name" : "rules",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.ImportAlarmTemplates.templates.rules",
+      "sub_parameters" : [ {
+        "name" : "conditions",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions",
+        "sub_parameters" : [ {
+          "name" : "metricName",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.metricName"
+        }, {
+          "name" : "metricDimensions",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.metricDimensions",
+          "sub_parameters" : [ {
+            "name" : "key",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.metricDimensions.key"
+          }, {
+            "name" : "operator",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.metricDimensions.operator"
+          }, {
+            "name" : "values",
+            "type" : "List",
+            "required" : false,
+            "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.metricDimensions.values"
+          } ]
+        }, {
+          "name" : "operator",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.operator"
+        }, {
+          "name" : "threshold",
+          "type" : "Float",
+          "required" : false,
+          "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.threshold"
+        }, {
+          "name" : "aggregateType",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.aggregateType"
+        }, {
+          "name" : "windowSeconds",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.windowSeconds"
+        }, {
+          "name" : "displayUnit",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.displayUnit"
+        }, {
+          "name" : "displayThreshold",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.conditions.displayThreshold"
+        } ]
+      }, {
+        "name" : "pendingCount",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.pendingCount"
+      }, {
+        "name" : "checkIntervalSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.checkIntervalSeconds"
+      }, {
+        "name" : "content",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcm.ImportAlarmTemplates.templates.rules.content"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "bcm.ImportAlarmTemplates.desc"
+}

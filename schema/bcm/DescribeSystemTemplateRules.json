@@ -1,0 +1,38 @@
+{
+  "name" : "DescribeSystemTemplateRules",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=DescribeSystemTemplateRules",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeSystemTemplateRules.scope"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeSystemTemplateRules.resourceType"
+  }, {
+    "name" : "subResourceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeSystemTemplateRules.subResourceType"
+  }, {
+    "name" : "source",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeSystemTemplateRules.source"
+  } ],
+  "desc_key" : "bcm.DescribeSystemTemplateRules.desc"
+}

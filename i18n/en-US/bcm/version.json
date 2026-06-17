@@ -1,0 +1,171 @@
+{
+  "version" : "v3",
+  "style" : "rpc",
+  "description" : "bcm",
+  "apis" : {
+    "CreateAlarmPolicy" : {
+      "title" : "createAlarmPolicy",
+      "summary" : "createAlarmPolicy"
+    },
+    "DescribeSystemTemplateRules" : {
+      "title" : "describeSystemTemplateRules",
+      "summary" : "describeSystemTemplateRules"
+    },
+    "DescribeAlarmPolicy" : {
+      "title" : "describeAlarmPolicy",
+      "summary" : "describeAlarmPolicy"
+    },
+    "DeleteAlarmPolicyActions" : {
+      "title" : "deleteAlarmPolicyActions",
+      "summary" : "deleteAlarmPolicyActions"
+    },
+    "ImportAlarmTemplates" : {
+      "title" : "importAlarmTemplates",
+      "summary" : "importAlarmTemplates"
+    },
+    "AddAlarmPolicyActions" : {
+      "title" : "addAlarmPolicyActions",
+      "summary" : "addAlarmPolicyActions"
+    },
+    "DeleteAlarmTemplates" : {
+      "title" : "deleteAlarmTemplates",
+      "summary" : "deleteAlarmTemplates"
+    },
+    "UpdateAlarmTemplate" : {
+      "title" : "updateAlarmTemplate",
+      "summary" : "updateAlarmTemplate"
+    },
+    "ExportAlarmTemplates" : {
+      "title" : "exportAlarmTemplates",
+      "summary" : "exportAlarmTemplates"
+    },
+    "DescribeAlarmTemplates" : {
+      "title" : "describeAlarmTemplates",
+      "summary" : "describeAlarmTemplates"
+    },
+    "DescribeAlarmMasking" : {
+      "title" : "describeAlarmMasking",
+      "summary" : "describeAlarmMasking"
+    },
+    "CreateInstanceGroup" : {
+      "title" : "createInstanceGroup",
+      "summary" : "createInstanceGroup"
+    },
+    "UpdateAlarmMasking" : {
+      "title" : "updateAlarmMasking",
+      "summary" : "updateAlarmMasking"
+    },
+    "DeleteAlarmMaskings" : {
+      "title" : "deleteAlarmMaskings",
+      "summary" : "deleteAlarmMaskings"
+    },
+    "UpdateAlarmMaskingStates" : {
+      "title" : "updateAlarmMaskingStates",
+      "summary" : "updateAlarmMaskingStates"
+    },
+    "DescribeAlarmMaskings" : {
+      "title" : "describeAlarmMaskings",
+      "summary" : "describeAlarmMaskings"
+    },
+    "DescribeInstanceGroups" : {
+      "title" : "describeInstanceGroups",
+      "summary" : "describeInstanceGroups"
+    },
+    "CreateAlarmMasking" : {
+      "title" : "createAlarmMasking",
+      "summary" : "createAlarmMasking"
+    },
+    "UpdateAlarmPolicyState" : {
+      "title" : "updateAlarmPolicyState",
+      "summary" : "updateAlarmPolicyState"
+    },
+    "DeleteInstanceGroup" : {
+      "title" : "deleteInstanceGroup",
+      "summary" : "deleteInstanceGroup"
+    },
+    "UpdateAlarmPolicyNotifyEnabled" : {
+      "title" : "updateAlarmPolicyNotifyEnabled",
+      "summary" : "updateAlarmPolicyNotifyEnabled"
+    },
+    "UpdateInstanceGroup" : {
+      "title" : "updateInstanceGroup",
+      "summary" : "updateInstanceGroup"
+    },
+    "DescribeAlarm" : {
+      "title" : "describeAlarm",
+      "summary" : "describeAlarm"
+    },
+    "DescribeInstanceGroup" : {
+      "title" : "describeInstanceGroup",
+      "summary" : "describeInstanceGroup"
+    },
+    "DeleteInstanceGroupInstances" : {
+      "title" : "deleteInstanceGroupInstances",
+      "summary" : "deleteInstanceGroupInstances"
+    },
+    "DescribeAlarms" : {
+      "title" : "describeAlarms",
+      "summary" : "describeAlarms"
+    },
+    "DescribeReceivers" : {
+      "title" : "describeReceivers",
+      "summary" : "describeReceivers"
+    },
+    "CreateAlarmTemplate" : {
+      "title" : "createAlarmTemplate",
+      "summary" : "createAlarmTemplate"
+    },
+    "DescribeMetricDataLatestTop" : {
+      "title" : "describeMetricDataLatestTop",
+      "summary" : "describeMetricDataLatestTop"
+    },
+    "DescribeDimensionValues" : {
+      "title" : "describeDimensionValues",
+      "summary" : "describeDimensionValues"
+    },
+    "DescribeMetricData" : {
+      "title" : "describeMetricData",
+      "summary" : "describeMetricData"
+    },
+    "DescribeMetricDataLatest" : {
+      "title" : "describeMetricDataLatest",
+      "summary" : "describeMetricDataLatest"
+    },
+    "CreateNotifyTemplate" : {
+      "title" : "createNotifyTemplate",
+      "summary" : "createNotifyTemplate"
+    },
+    "DescribeNotifyTemplate" : {
+      "title" : "describeNotifyTemplate",
+      "summary" : "describeNotifyTemplate"
+    },
+    "DeleteNotifyTemplate" : {
+      "title" : "deleteNotifyTemplate",
+      "summary" : "deleteNotifyTemplate"
+    },
+    "DescribeNotifyTemplates" : {
+      "title" : "describeNotifyTemplates",
+      "summary" : "describeNotifyTemplates"
+    },
+    "UpdateNotifyTemplate" : {
+      "title" : "updateNotifyTemplate",
+      "summary" : "updateNotifyTemplate"
+    },
+    "DeleteAlarmPolicies" : {
+      "title" : "deleteAlarmPolicies",
+      "summary" : "deleteAlarmPolicies"
+    },
+    "DescribeAlarmPolicies" : {
+      "title" : "describeAlarmPolicies",
+      "summary" : "describeAlarmPolicies"
+    },
+    "UpdateAlarmPolicy" : {
+      "title" : "updateAlarmPolicy",
+      "summary" : "updateAlarmPolicy"
+    },
+    "DescribeAlarmTemplate" : {
+      "title" : "describeAlarmTemplate",
+      "summary" : "describeAlarmTemplate"
+    }
+  }
+}

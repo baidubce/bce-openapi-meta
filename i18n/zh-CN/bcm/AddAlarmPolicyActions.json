@@ -1,0 +1,7 @@
+{
+  "AddAlarmPolicyActions" : {
+    "id" : "策略ID",
+    "actions" : "待添加的报警通知项列表",
+    "actions.notifyId" : "通知模板ID"
+  }
+}

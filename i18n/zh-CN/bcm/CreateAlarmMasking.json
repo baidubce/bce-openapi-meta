@@ -1,0 +1,18 @@
+{
+  "CreateAlarmMasking" : {
+    "name" : "屏蔽规则名称",
+    "scope" : "云产品命名空间",
+    "resourceType" : "资源类型",
+    "policyId" : "报警策略ID",
+    "instances" : "屏蔽的实例列表",
+    "instances.dimensions" : "实例维度键值对列表",
+    "region" : "地域",
+    "metricNames" : "屏蔽的指标名称列表",
+    "periodType" : "屏蔽时间类型，默认FOREVER，可选FOREVER/FIXED/RELATIVE",
+    "beginTime" : "屏蔽开始时间，periodType为FIXED时必填",
+    "endTime" : "屏蔽结束时间，periodType为FIXED时必填",
+    "tz" : "时区",
+    "dailyBeginTimestamp" : "每日屏蔽开始时间戳，periodType为RELATIVE时必填",
+    "dailyEndTimestamp" : "每日屏蔽结束时间戳，periodType为RELATIVE时必填"
+  }
+}
