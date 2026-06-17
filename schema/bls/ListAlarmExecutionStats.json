@@ -1,7 +1,7 @@
 {
   "name" : "ListAlarmExecutionStats",
   "method" : "POST",
-  "uri" : "/v{version}/alarm/execution/list",
+  "uri" : "/v{version}/alarm/execution/stats",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",
@@ -33,12 +33,6 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "bls.ListAlarmExecutionStats.states"
-  }, {
-    "name" : "noticeStates",
-    "type" : "List",
-    "required" : false,
-    "position" : "BODY",
-    "desc_key" : "bls.ListAlarmExecutionStats.noticeStates"
   }, {
     "name" : "startDateTime",
     "type" : "String",

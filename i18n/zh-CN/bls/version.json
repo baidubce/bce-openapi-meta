@@ -7,6 +7,46 @@
       "title" : "更新日志组UpdateProject",
       "summary" : "更新日志组UpdateProject"
     },
+    "SetSingleLogShipperStatus" : {
+      "title" : "设置日志投递任务状态SetSingleLogShipperStatus",
+      "summary" : "设置日志投递任务状态SetSingleLogShipperStatus"
+    },
+    "DescribeAlarmPolicy" : {
+      "title" : "获取报警策略详情DescribeAlarmPolicy",
+      "summary" : "获取报警策略详情DescribeAlarmPolicy"
+    },
+    "DescribeAlarmRecord" : {
+      "title" : "获取报警历史详情DescribeAlarmRecord",
+      "summary" : "获取报警历史详情DescribeAlarmRecord"
+    },
+    "EnableAlarmPolicy" : {
+      "title" : "启用报警策略EnableAlarmPolicy",
+      "summary" : "启用报警策略EnableAlarmPolicy"
+    },
+    "DisableAlarmPolicy" : {
+      "title" : "禁用报警策略DisableAlarmPolicy",
+      "summary" : "禁用报警策略DisableAlarmPolicy"
+    },
+    "DeleteAlarmPolicy" : {
+      "title" : "删除报警策略DeleteAlarmPolicy",
+      "summary" : "删除报警策略DeleteAlarmPolicy"
+    },
+    "ListAlarmExecutionStats" : {
+      "title" : "获取报警执行统计ListAlarmExecutionStats",
+      "summary" : "获取报警执行统计ListAlarmExecutionStats"
+    },
+    "CreateLogStoreTemplate" : {
+      "title" : "创建日志集模版CreateLogStoreTemplate",
+      "summary" : "创建日志集模版CreateLogStoreTemplate"
+    },
+    "UpdateLogStoreTemplate" : {
+      "title" : "更新日志集模版UpdateLogStoreTemplate",
+      "summary" : "更新日志集模版UpdateLogStoreTemplate"
+    },
+    "CreateTask" : {
+      "title" : "创建传输任务CreateTask",
+      "summary" : "创建传输任务CreateTask"
+    },
     "TermsEnum" : {
       "title" : "推荐字段取值 TermsEnum",
       "summary" : "推荐字段取值 TermsEnum"
@@ -51,10 +91,6 @@
       "title" : "创建索引CreateIndex",
       "summary" : "创建索引CreateIndex"
     },
-    "DescribeAlarmRecord" : {
-      "title" : "获取报警历史详情DescribeAlarmRecord",
-      "summary" : "获取报警历史详情DescribeAlarmRecord"
-    },
     "UpdateIndex" : {
       "title" : "更新索引UpdateIndex",
       "summary" : "更新索引UpdateIndex"
@@ -66,10 +102,6 @@
     "DeleteIndex" : {
       "title" : "删除索引DeleteIndex",
       "summary" : "删除索引DeleteIndex"
-    },
-    "CreateTask" : {
-      "title" : "创建传输任务CreateTask",
-      "summary" : "创建传输任务CreateTask"
     },
     "DescribeIndex" : {
       "title" : "获取索引详情DescribeIndex",
@@ -131,10 +163,6 @@
       "title" : "获取日志投递记录ListLogShipperRecord",
       "summary" : "获取日志投递记录ListLogShipperRecord"
     },
-    "SetSingleLogShipperStatus" : {
-      "title" : "设置日志投递任务状态SetSingleLogShipperStatus",
-      "summary" : "设置日志投递任务状态SetSingleLogShipperStatus"
-    },
     "BulkSetLogShipperStatus" : {
       "title" : "批量设置日志投递任务状态BulkSetLogShipperStatus",
       "summary" : "批量设置日志投递任务状态BulkSetLogShipperStatus"
@@ -155,18 +183,6 @@
       "title" : "创建日志组",
       "summary" : "创建日志组"
     },
-    "DeleteAlarmPolicy" : {
-      "title" : "删除报警策略DeleteAlarmPolicy",
-      "summary" : "删除报警策略DeleteAlarmPolicy"
-    },
-    "EnableAlarmPolicy" : {
-      "title" : "启用报警策略EnableAlarmPolicy",
-      "summary" : "启用报警策略EnableAlarmPolicy"
-    },
-    "DisableAlarmPolicy" : {
-      "title" : "禁用报警策略DisableAlarmPolicy",
-      "summary" : "禁用报警策略DisableAlarmPolicy"
-    },
     "ValidateAlarmPolicySQL" : {
       "title" : "检验报警策略查询语句ValidateAlarmPolicySQL",
       "summary" : "检验报警策略查询语句ValidateAlarmPolicySQL"
@@ -178,14 +194,6 @@
     "ListAlarmPolicy" : {
       "title" : "获取报警策略列表ListAlarmPolicy",
       "summary" : "获取报警策略列表ListAlarmPolicy"
-    },
-    "DescribeAlarmPolicy" : {
-      "title" : "获取报警策略详情DescribeAlarmPolicy",
-      "summary" : "获取报警策略详情DescribeAlarmPolicy"
-    },
-    "ListAlarmExecutionStats" : {
-      "title" : "获取报警执行统计ListAlarmExecutionStats",
-      "summary" : "获取报警执行统计ListAlarmExecutionStats"
     },
     "DeleteProject" : {
       "title" : "删除日志组",
@@ -210,14 +218,6 @@
     "ListDownloadTask" : {
       "title" : "获取下载任务列表ListDownloadTask",
       "summary" : "获取下载任务列表ListDownloadTask"
-    },
-    "CreateLogStoreTemplate" : {
-      "title" : "创建日志集模版CreateLogStoreTemplate",
-      "summary" : "创建日志集模版CreateLogStoreTemplate"
-    },
-    "UpdateLogStoreTemplate" : {
-      "title" : "更新日志集模版UpdateLogStoreTemplate",
-      "summary" : "更新日志集模版UpdateLogStoreTemplate"
     },
     "DeleteLogStoreTemplates" : {
       "title" : "删除日志集模版DeleteLogStoreTemplates",

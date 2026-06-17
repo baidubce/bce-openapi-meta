@@ -1,5 +1,5 @@
 {
   "DeleteAlarmPolicy" : {
-    "name" : "Alarm policy name"
+    "names" : "Alarm policy names"
   }
 }

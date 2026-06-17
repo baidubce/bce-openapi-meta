@@ -15,8 +15,6 @@
     "template.name" : "模板名称，同user下唯一",
     "template.projectPatterns" : "日志组匹配模式，支持*通配符",
     "template.logstorePatterns" : "日志集匹配模式，支持*通配符",
-    "template.priority" : "日志集模板优先级，值越大，优先级越高，同user下唯一",
-    "template.createdTimestamp" : "创建时间，UTC时间，格式：2025-04-20T10:01:12Z",
-    "template.updatedTimestamp" : "更新时间，UTC时间，格式：2025-04-20T10:01:12Z"
+    "template.priority" : "日志集模板优先级，值越大，优先级越高，同user下唯一"
   }
 }

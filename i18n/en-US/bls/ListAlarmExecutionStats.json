@@ -4,7 +4,6 @@
     "policyName" : "Filter by policy name",
     "logStoreName" : "Filter by log store",
     "states" : "Filter by alarm state. Values: OK: Recovered, ALERT: Alerting, CLOSED: Closed",
-    "noticeStates" : "Filter by alarm notification state. Values: SENT: Sent, NOT_SENT: Not sent, FAIL: Send failed, BLOCK_BY_PENDING_COUNT: Blocked due to insufficient frequency, BLOCK_BY_REPEAT_INTERVAL: Blocked due to repeat alarm interval not reached, BLOCK_BY_FREQUENCY: Blocked due to excessive send count, BLOCK_BY_NOTICE_DISABLED: Blocked due to notification disabled",
     "startDateTime" : "Query start time, UTC, default: 30 days ago",
     "endDateTime" : "Query end time, UTC, default: current time",
     "orderBy" : "Sort field. Values: totalCount: execution count, failCount: execution failure count, noticeTotalCount: notification count, noticeFailCount: notification failure count",

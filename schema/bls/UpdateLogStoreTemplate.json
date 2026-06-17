@@ -120,16 +120,6 @@
       "type" : "Integer",
       "required" : false,
       "desc_key" : "bls.UpdateLogStoreTemplate.template.priority"
-    }, {
-      "name" : "createdTimestamp",
-      "type" : "String",
-      "required" : false,
-      "desc_key" : "bls.UpdateLogStoreTemplate.template.createdTimestamp"
-    }, {
-      "name" : "updatedTimestamp",
-      "type" : "String",
-      "required" : false,
-      "desc_key" : "bls.UpdateLogStoreTemplate.template.updatedTimestamp"
     } ]
   } ],
   "desc_key" : "bls.UpdateLogStoreTemplate.desc"

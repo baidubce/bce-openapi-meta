@@ -1,5 +1,5 @@
 {
   "EnableAlarmPolicy" : {
-    "name" : "报警策略名称"
+    "names" : "报警策略名称"
   }
 }

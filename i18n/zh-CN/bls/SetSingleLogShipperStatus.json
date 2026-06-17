@@ -1,6 +1,6 @@
 {
   "SetSingleLogShipperStatus" : {
     "logShipperID" : "任务ID",
-    "desiredStatus" : "期望的状态，可选Running或Paused"
+    "status" : "期望的状态，可选Running或Paused"
   }
 }

@@ -10,11 +10,11 @@
     "default" : "1",
     "desc_key" : "common.version"
   }, {
-    "name" : "name",
+    "name" : "names",
     "type" : "List",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "bls.EnableAlarmPolicy.name"
+    "desc_key" : "bls.EnableAlarmPolicy.names"
   } ],
   "desc_key" : "bls.EnableAlarmPolicy.desc"
 }

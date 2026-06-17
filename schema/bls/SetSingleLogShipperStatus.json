@@ -16,11 +16,11 @@
     "position" : "URL",
     "desc_key" : "bls.SetSingleLogShipperStatus.logShipperID"
   }, {
-    "name" : "desiredStatus",
+    "name" : "status",
     "type" : "String",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "bls.SetSingleLogShipperStatus.desiredStatus"
+    "desc_key" : "bls.SetSingleLogShipperStatus.status"
   } ],
   "desc_key" : "bls.SetSingleLogShipperStatus.desc"
 }

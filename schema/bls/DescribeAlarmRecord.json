@@ -13,7 +13,7 @@
     "name" : "alarmId",
     "type" : "String",
     "required" : true,
-    "position" : "URL",
+    "position" : "QUERY",
     "desc_key" : "bls.DescribeAlarmRecord.alarmId"
   } ],
   "desc_key" : "bls.DescribeAlarmRecord.desc"

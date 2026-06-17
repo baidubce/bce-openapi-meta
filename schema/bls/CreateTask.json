@@ -216,7 +216,7 @@
   }, {
     "name" : "hosts",
     "type" : "List",
-    "required" : true,
+    "required" : false,
     "position" : "BODY",
     "desc_key" : "bls.CreateTask.hosts",
     "sub_parameters" : [ {

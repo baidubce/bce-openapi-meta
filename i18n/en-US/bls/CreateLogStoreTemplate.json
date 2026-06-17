@@ -15,8 +15,6 @@
     "template.name" : "Template name, unique per user",
     "template.projectPatterns" : "Log project matching pattern, supports * wildcard",
     "template.logstorePatterns" : "Logstore matching pattern, supports * wildcard",
-    "template.priority" : "Logstore template priority; higher value means higher priority, unique per user",
-    "template.createdTimestamp" : "Creation time in UTC, format: 2025-04-20T10:01:12Z",
-    "template.updatedTimestamp" : "Last update time in UTC, format: 2025-04-20T10:01:12Z"
+    "template.priority" : "Logstore template priority; higher value means higher priority, unique per user"
   }
 }

@@ -7,6 +7,46 @@
       "title" : "updateProject",
       "summary" : "updateProject"
     },
+    "SetSingleLogShipperStatus" : {
+      "title" : "setSingleLogShipperStatus",
+      "summary" : "setSingleLogShipperStatus"
+    },
+    "DescribeAlarmPolicy" : {
+      "title" : "describeAlarmPolicy",
+      "summary" : "describeAlarmPolicy"
+    },
+    "DescribeAlarmRecord" : {
+      "title" : "describeAlarmRecord",
+      "summary" : "describeAlarmRecord"
+    },
+    "EnableAlarmPolicy" : {
+      "title" : "enableAlarmPolicy",
+      "summary" : "enableAlarmPolicy"
+    },
+    "DisableAlarmPolicy" : {
+      "title" : "disableAlarmPolicy",
+      "summary" : "disableAlarmPolicy"
+    },
+    "DeleteAlarmPolicy" : {
+      "title" : "deleteAlarmPolicy",
+      "summary" : "deleteAlarmPolicy"
+    },
+    "ListAlarmExecutionStats" : {
+      "title" : "listAlarmExecutionStats",
+      "summary" : "listAlarmExecutionStats"
+    },
+    "CreateLogStoreTemplate" : {
+      "title" : "createLogStoreTemplate",
+      "summary" : "createLogStoreTemplate"
+    },
+    "UpdateLogStoreTemplate" : {
+      "title" : "updateLogStoreTemplate",
+      "summary" : "updateLogStoreTemplate"
+    },
+    "CreateTask" : {
+      "title" : "createTask",
+      "summary" : "createTask"
+    },
     "TermsEnum" : {
       "title" : "termsEnum",
       "summary" : "termsEnum"
@@ -51,10 +91,6 @@
       "title" : "createIndex",
       "summary" : "createIndex"
     },
-    "DescribeAlarmRecord" : {
-      "title" : "describeAlarmRecord",
-      "summary" : "describeAlarmRecord"
-    },
     "UpdateIndex" : {
       "title" : "updateIndex",
       "summary" : "updateIndex"
@@ -66,10 +102,6 @@
     "DeleteIndex" : {
       "title" : "deleteIndex",
       "summary" : "deleteIndex"
-    },
-    "CreateTask" : {
-      "title" : "createTask",
-      "summary" : "createTask"
     },
     "DescribeIndex" : {
       "title" : "describeIndex",
@@ -131,10 +163,6 @@
       "title" : "listLogShipperRecord",
       "summary" : "listLogShipperRecord"
     },
-    "SetSingleLogShipperStatus" : {
-      "title" : "setSingleLogShipperStatus",
-      "summary" : "setSingleLogShipperStatus"
-    },
     "BulkSetLogShipperStatus" : {
       "title" : "bulkSetLogShipperStatus",
       "summary" : "bulkSetLogShipperStatus"
@@ -155,18 +183,6 @@
       "title" : "createProject",
       "summary" : "createProject"
     },
-    "DeleteAlarmPolicy" : {
-      "title" : "deleteAlarmPolicy",
-      "summary" : "deleteAlarmPolicy"
-    },
-    "EnableAlarmPolicy" : {
-      "title" : "enableAlarmPolicy",
-      "summary" : "enableAlarmPolicy"
-    },
-    "DisableAlarmPolicy" : {
-      "title" : "disableAlarmPolicy",
-      "summary" : "disableAlarmPolicy"
-    },
     "ValidateAlarmPolicySQL" : {
       "title" : "validateAlarmPolicySQL",
       "summary" : "validateAlarmPolicySQL"
@@ -178,14 +194,6 @@
     "ListAlarmPolicy" : {
       "title" : "listAlarmPolicy",
       "summary" : "listAlarmPolicy"
-    },
-    "DescribeAlarmPolicy" : {
-      "title" : "describeAlarmPolicy",
-      "summary" : "describeAlarmPolicy"
-    },
-    "ListAlarmExecutionStats" : {
-      "title" : "listAlarmExecutionStats",
-      "summary" : "listAlarmExecutionStats"
     },
     "DeleteProject" : {
       "title" : "deleteProject",
@@ -210,14 +218,6 @@
     "ListDownloadTask" : {
       "title" : "listDownloadTask",
       "summary" : "listDownloadTask"
-    },
-    "CreateLogStoreTemplate" : {
-      "title" : "createLogStoreTemplate",
-      "summary" : "createLogStoreTemplate"
-    },
-    "UpdateLogStoreTemplate" : {
-      "title" : "updateLogStoreTemplate",
-      "summary" : "updateLogStoreTemplate"
     },
     "DeleteLogStoreTemplates" : {
       "title" : "deleteLogStoreTemplates",

@@ -13,7 +13,7 @@
     "name" : "PolicyName",
     "type" : "String",
     "required" : true,
-    "position" : "URL",
+    "position" : "QUERY",
     "desc_key" : "bls.DescribeAlarmPolicy.PolicyName"
   } ],
   "desc_key" : "bls.DescribeAlarmPolicy.desc"
