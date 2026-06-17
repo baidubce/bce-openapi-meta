@@ -1,0 +1,19 @@
+{
+  "name" : "FieldCaps",
+  "method" : "POST",
+  "uri" : "/{name}/_field_caps",
+  "parameters" : [ {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.FieldCaps.name"
+  }, {
+    "name" : "fields",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.FieldCaps.fields"
+  } ],
+  "desc_key" : "bls.FieldCaps.desc"
+}

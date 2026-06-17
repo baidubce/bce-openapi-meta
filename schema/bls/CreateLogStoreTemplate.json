@@ -1,0 +1,136 @@
+{
+  "name" : "CreateLogStoreTemplate",
+  "method" : "POST",
+  "uri" : "/v{version}/bls?action=CreateLogStoreTemplate",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogStoreTemplate.name"
+  }, {
+    "name" : "projectPatterns",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogStoreTemplate.projectPatterns"
+  }, {
+    "name" : "logstorePatterns",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogStoreTemplate.logstorePatterns"
+  }, {
+    "name" : "priority",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogStoreTemplate.priority"
+  }, {
+    "name" : "template",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogStoreTemplate.template",
+    "sub_parameters" : [ {
+      "name" : "retention",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.retention"
+    }, {
+      "name" : "shardCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.shardCount"
+    }, {
+      "name" : "disableShardAutoSplit",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.disableShardAutoSplit"
+    }, {
+      "name" : "maxShardCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.maxShardCount"
+    }, {
+      "name" : "enableHotRetention",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.enableHotRetention"
+    }, {
+      "name" : "hotRetention",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.hotRetention"
+    }, {
+      "name" : "index",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.index",
+      "sub_parameters" : [ {
+        "name" : "fulltext",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bls.CreateLogStoreTemplate.template.index.fulltext"
+      }, {
+        "name" : "caseSensitive",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bls.CreateLogStoreTemplate.template.index.caseSensitive"
+      }, {
+        "name" : "includeChinese",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bls.CreateLogStoreTemplate.template.index.includeChinese"
+      }, {
+        "name" : "separators",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateLogStoreTemplate.template.index.separators"
+      }, {
+        "name" : "fields",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bls.CreateLogStoreTemplate.template.index.fields"
+      } ]
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.name"
+    }, {
+      "name" : "projectPatterns",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.projectPatterns"
+    }, {
+      "name" : "logstorePatterns",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.logstorePatterns"
+    }, {
+      "name" : "priority",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.priority"
+    }, {
+      "name" : "createdTimestamp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.createdTimestamp"
+    }, {
+      "name" : "updatedTimestamp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogStoreTemplate.template.updatedTimestamp"
+    } ]
+  } ],
+  "desc_key" : "bls.CreateLogStoreTemplate.desc"
+}

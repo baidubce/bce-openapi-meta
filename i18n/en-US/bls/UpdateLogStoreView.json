@@ -1,0 +1,11 @@
+{
+  "UpdateLogStoreView" : {
+    "project" : "Log group name, default: default",
+    "name" : "Log view name",
+    "logstores" : "List of log stores associated with the log view",
+    "logstores.region" : "Region where the log store resides",
+    "logstores.project" : "Log group name that the log store belongs to",
+    "logstores.name" : "Name of the log store",
+    "logstores.extends" : "Allows aliasing index columns in the log store"
+  }
+}

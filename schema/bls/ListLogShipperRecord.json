@@ -1,0 +1,38 @@
+{
+  "name" : "ListLogShipperRecord",
+  "method" : "GET",
+  "uri" : "/v{version}/logshipper/{logShipperID}/record",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "logShipperID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.ListLogShipperRecord.logShipperID"
+  }, {
+    "name" : "sinceHours",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipperRecord.sinceHours"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipperRecord.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipperRecord.pageSize"
+  } ],
+  "desc_key" : "bls.ListLogShipperRecord.desc"
+}

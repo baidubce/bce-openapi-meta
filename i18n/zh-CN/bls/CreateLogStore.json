@@ -1,0 +1,22 @@
+{
+  "CreateLogStore" : {
+    "project" : "日志组名称，默认default",
+    "logStoreName" : "日志集名称",
+    "retention" : "日志集的租期，最大3650天，表示永久保存。单位：天数",
+    "tags" : "待创建的标签列表，具体参数格式参见下述",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65",
+    "index" : "日志集索引",
+    "index.fulltext" : "是否开启全文索引，默认false，不开启",
+    "index.caseSensitive" : "全文索引是否区分大小写，默认false，不区分",
+    "index.includeChinese" : "全文索引是否包含中文，默认false，不包含",
+    "index.separators" : "全文索引自定义分隔符，不填使用默认分词符",
+    "index.fields" : "关键字索引包含的字段名称及类型定义",
+    "shardCount" : "日志集初始shard数量，默认为1，最大值为50",
+    "maxShardCount" : "最大分片数量",
+    "disableShardAutoSplit" : "是否禁止自动分裂",
+    "indexEnabled" : "是否开启索引",
+    "hotRetention" : "热存时长",
+    "EnableHotRetention" : "是否开启热存"
+  }
+}

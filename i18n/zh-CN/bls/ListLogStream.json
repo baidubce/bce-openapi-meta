@@ -1,0 +1,11 @@
+{
+  "ListLogStream" : {
+    "project" : "指定筛选日志组的关键字",
+    "logStoreName" : "指定筛选日志流的关键字",
+    "namePattern" : "指定筛选名称的关键字",
+    "order" : "排序规则，desc为降序，asc为升序，默认为 desc",
+    "orderBy" : "排序字段，默认为创建时间",
+    "pageNo" : "起始页码，默认为 1",
+    "pageSize" : "每页显示数据大小，默认为 10"
+  }
+}

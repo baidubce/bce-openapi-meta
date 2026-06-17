@@ -1,0 +1,6 @@
+{
+  "ValidateAlarmCondition" : {
+    "fieldTypes" : "Field names and types, in SQL order",
+    "conditions" : "List of execution conditions"
+  }
+}

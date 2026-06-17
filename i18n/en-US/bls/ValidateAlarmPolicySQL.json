@@ -1,0 +1,9 @@
+{
+  "ValidateAlarmPolicySQL" : {
+    "logStores" : "List of monitored objects",
+    "logStores.project" : "Log set project, default is \"default\"",
+    "logStores.logStoreName" : "Log set name",
+    "logStores.logStoreId" : "Monitored object ID",
+    "query" : "Execution statement"
+  }
+}

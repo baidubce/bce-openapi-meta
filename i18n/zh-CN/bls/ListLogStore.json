@@ -1,0 +1,10 @@
+{
+  "ListLogStore" : {
+    "project" : "日志组名称，默认default",
+    "namePattern" : "日志集名称",
+    "order" : "排序方向，asc或者desc",
+    "orderBy" : "排序列，支持creationDateTime，lastModifiedTime，name",
+    "pageNo" : "页码，必须大于0",
+    "pageSize" : "每页大小，必须大于0"
+  }
+}

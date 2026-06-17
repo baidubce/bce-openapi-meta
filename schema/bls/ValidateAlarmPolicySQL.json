@@ -1,0 +1,42 @@
+{
+  "name" : "ValidateAlarmPolicySQL",
+  "method" : "POST",
+  "uri" : "/v{version}/logstore/validate",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "logStores",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ValidateAlarmPolicySQL.logStores",
+    "sub_parameters" : [ {
+      "name" : "project",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.ValidateAlarmPolicySQL.logStores.project"
+    }, {
+      "name" : "logStoreName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.ValidateAlarmPolicySQL.logStores.logStoreName"
+    }, {
+      "name" : "logStoreId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.ValidateAlarmPolicySQL.logStores.logStoreId"
+    } ]
+  }, {
+    "name" : "query",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ValidateAlarmPolicySQL.query"
+  } ],
+  "desc_key" : "bls.ValidateAlarmPolicySQL.desc"
+}

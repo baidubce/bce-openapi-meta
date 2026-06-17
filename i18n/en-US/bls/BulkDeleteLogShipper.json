@@ -1,0 +1,5 @@
+{
+  "BulkDeleteLogShipper" : {
+    "logShipperIDs" : "Batch task IDs"
+  }
+}

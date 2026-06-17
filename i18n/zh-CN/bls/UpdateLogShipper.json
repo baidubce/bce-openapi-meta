@@ -1,0 +1,25 @@
+{
+  "UpdateLogShipper" : {
+    "logShipperID" : "投递任务ID",
+    "project" : "日志组名称，默认default",
+    "logShipperName" : "投递任务名称",
+    "destConfig" : "目标配置详情",
+    "destConfig.BOSPath" : "BOSPath为Bucket加用户自定义路径组成，最长256个字符",
+    "destConfig.partitionFormatTS" : "分区格式，如%Y/%m/%d/%H/%M/，仅支持到分钟级别，可自定义，可为空，默认为%Y/%m/%d/%H/%M/",
+    "destConfig.partitionFormatLogStream" : "是否使用logstream作为partition层级，默认false",
+    "destConfig.maxObjectSize" : "最大对象大小，单位MB，范围为1 - 5*1024*1024（5TB），默认64",
+    "destConfig.compressType" : "压缩类型，可选参数：snappy/gzip/bzip2/lzop和不压缩（none），默认不压缩",
+    "destConfig.deliverInterval" : "投递间隔，单位分钟，限制范围为5-60的整数，默认5",
+    "destConfig.storageFormat" : "存储格式，可选参数： parquet, json, csv，默认json",
+    "destConfig.csvHeadline" : "csv时是否投递字段名称，默认false，不投递",
+    "destConfig.csvDelimiter" : "csv时的分隔符，可选：逗号（，），空格（ ）、竖线（",
+    "destConfig.csvQuote" : "csv时的引用符，可选：单引号(')，双引号(\")，空(none)，可自定义，默认为空",
+    "destConfig.nullIdentifier" : "csv时，列为空时，填写的指定内容，默认为空",
+    "destConfig.selectedColumnName" : "csv和parquet时，必填，选择的列名, 逗号分割的列名参数",
+    "destConfig.selectedColumnType" : "parquet时，必填，选择的列类型，逗号分割的列类型参数",
+    "destConfig.fieldsName" : "投递类型为kv时选择的字段名称，大小与fieldsType相同",
+    "destConfig.fieldsType" : "投递类型为kv时选择的字段类型，大小与fieldsName相同",
+    "destConfig.shipperType" : "投递类型，默认为text，如果选择投递系统字段，此时也是json格式的数据；可以选择kv类型，此时只投递指定的key和value，为json格式的数据",
+    "destConfig.kafkaConfig" : "kafka配置"
+  }
+}

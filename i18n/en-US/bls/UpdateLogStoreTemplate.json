@@ -1,0 +1,22 @@
+{
+  "UpdateLogStoreTemplate" : {
+    "name" : "Template name, unique per user",
+    "projectPatterns" : "Log project match pattern, supports * wildcard",
+    "logstorePatterns" : "Logstore match pattern, supports * wildcard",
+    "priority" : "Logstore template priority; higher value means higher priority, unique per user",
+    "template" : "Template configuration",
+    "template.retention" : "Retention duration in days",
+    "template.shardCount" : "Initial shard count",
+    "template.disableShardAutoSplit" : "Whether to disable automatic shard splitting",
+    "template.maxShardCount" : "Maximum shard split count, range: [1, 50]",
+    "template.enableHotRetention" : "Whether to enable automatic hot/cold tiering",
+    "template.hotRetention" : "Hot storage duration in days",
+    "template.index" : "Index configuration",
+    "template.name" : "Template name, unique per user",
+    "template.projectPatterns" : "Log project match pattern, supports * wildcard",
+    "template.logstorePatterns" : "Logstore match pattern, supports * wildcard",
+    "template.priority" : "Logstore template priority; higher value means higher priority, unique per user",
+    "template.createdTimestamp" : "Creation time in UTC, format: 2025-04-20T10:01:12Z",
+    "template.updatedTimestamp" : "Last update time in UTC, format: 2025-04-20T10:01:12Z"
+  }
+}

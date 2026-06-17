@@ -1,0 +1,67 @@
+{
+  "name" : "AsyncSearch",
+  "method" : "POST",
+  "uri" : "/{name}/_async_search",
+  "parameters" : [ {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.AsyncSearch.name"
+  }, {
+    "name" : "query",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.AsyncSearch.query"
+  }, {
+    "name" : "aggs",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.AsyncSearch.aggs"
+  }, {
+    "name" : "fields",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.AsyncSearch.fields"
+  }, {
+    "name" : "sort",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.AsyncSearch.sort",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "searchAfter",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.AsyncSearch.searchAfter"
+  }, {
+    "name" : "highlight",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.AsyncSearch.highlight",
+    "sub_parameters" : [ {
+      "name" : "pre_tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.AsyncSearch.highlight.pre_tags"
+    }, {
+      "name" : "post_tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.AsyncSearch.highlight.post_tags"
+    } ]
+  }, {
+    "name" : "size",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.AsyncSearch.size"
+  } ],
+  "desc_key" : "bls.AsyncSearch.desc"
+}

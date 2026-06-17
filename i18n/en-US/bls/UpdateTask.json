@@ -1,0 +1,14 @@
+{
+  "UpdateTask" : {
+    "taskId" : "UUID of the task",
+    "name" : "Name of the transfer task",
+    "config" : "Task configuration",
+    "config.srcConfig" : "Source endpoint configuration",
+    "config.destConfig" : "Destination endpoint configuration",
+    "hosts" : "List of hosts to run the task",
+    "hosts.hostId" : "Host ID",
+    "tags" : "List of tags to create",
+    "tags.tagKey" : "Tag key; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; length 1–65",
+    "tags.tagValue" : "Tag value; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; length 0–65"
+  }
+}

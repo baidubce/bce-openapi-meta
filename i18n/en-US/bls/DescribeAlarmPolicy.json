@@ -1,0 +1,5 @@
+{
+  "DescribeAlarmPolicy" : {
+    "PolicyName" : "Alarm policy name"
+  }
+}

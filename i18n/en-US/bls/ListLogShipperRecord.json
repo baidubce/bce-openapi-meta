@@ -1,0 +1,8 @@
+{
+  "ListLogShipperRecord" : {
+    "logShipperID" : "Task ID",
+    "sinceHours" : "Hours of recent data to query, integer range 1~180*24, default 1",
+    "pageNo" : "Page number, starting from 1, default 1",
+    "pageSize" : "Page size, min 10, max 100, default 10"
+  }
+}

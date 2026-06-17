@@ -1,0 +1,5 @@
+{
+  "DescribeLogStoreTemplate" : {
+    "name" : "模板名称"
+  }
+}

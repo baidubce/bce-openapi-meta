@@ -1,0 +1,57 @@
+{
+  "name" : "CreateIndex",
+  "method" : "POST",
+  "uri" : "/v{version}/logstore/{logStoreName}/index",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "project",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.CreateIndex.project"
+  }, {
+    "name" : "logStoreName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.CreateIndex.logStoreName"
+  }, {
+    "name" : "fulltext",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateIndex.fulltext"
+  }, {
+    "name" : "caseSensitive",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateIndex.caseSensitive"
+  }, {
+    "name" : "includeChinese",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateIndex.includeChinese"
+  }, {
+    "name" : "separators",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateIndex.separators"
+  }, {
+    "name" : "fields",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateIndex.fields",
+    "sub_parameters" : [ ]
+  } ],
+  "desc_key" : "bls.CreateIndex.desc"
+}

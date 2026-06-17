@@ -1,0 +1,9 @@
+{
+  "TermsEnum" : {
+    "name" : "Index name, exact match only (no wildcards)",
+    "field" : "Index field name, exact match only (no wildcards)",
+    "string" : "String prefix for matching terms. E.g. \"ki\" matches all terms starting with \"ki\"",
+    "size" : "Number of terms to return, default 10",
+    "index_filter" : "Filter documents from which to enumerate terms, same syntax as regular query DSL"
+  }
+}

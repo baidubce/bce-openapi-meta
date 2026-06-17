@@ -1,0 +1,11 @@
+{
+  "UpdateIndex" : {
+    "project" : "Log group name, default is \"default\"",
+    "logStoreName" : "Log store name",
+    "fulltext" : "Whether to enable full-text index; true means enabled",
+    "caseSensitive" : "Whether full-text index is case-sensitive; default is false (case-insensitive)",
+    "includeChinese" : "Whether to include Chinese characters; default is false (excluded)",
+    "separators" : "Full-text tokenizer delimiters; uses default delimiters if not specified",
+    "fields" : "Field names and type definitions included in the field index"
+  }
+}

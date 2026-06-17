@@ -1,0 +1,37 @@
+{
+  "name" : "TermsEnum",
+  "method" : "POST",
+  "uri" : "/{name}/_terms_enum",
+  "parameters" : [ {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.TermsEnum.name"
+  }, {
+    "name" : "field",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.TermsEnum.field"
+  }, {
+    "name" : "string",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.TermsEnum.string"
+  }, {
+    "name" : "size",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.TermsEnum.size"
+  }, {
+    "name" : "index_filter",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.TermsEnum.index_filter"
+  } ],
+  "desc_key" : "bls.TermsEnum.desc"
+}

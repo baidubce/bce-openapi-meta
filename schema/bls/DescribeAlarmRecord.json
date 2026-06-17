@@ -1,0 +1,20 @@
+{
+  "name" : "DescribeAlarmRecord",
+  "method" : "GET",
+  "uri" : "/v{version}/alarm/record",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "alarmId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.DescribeAlarmRecord.alarmId"
+  } ],
+  "desc_key" : "bls.DescribeAlarmRecord.desc"
+}

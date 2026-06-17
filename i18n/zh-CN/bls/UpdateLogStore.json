@@ -1,0 +1,15 @@
+{
+  "UpdateLogStore" : {
+    "project" : "日志组名称，默认default",
+    "logStoreName" : "日志集名称",
+    "retention" : "日志集的租期，最大3650天，表示永久保存。单位：天数",
+    "tags" : "待创建的标签列表，具体参数格式参见下述",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65",
+    "shardCount" : "日志集初始shard数量，默认为1，最大值为50",
+    "maxShardCount" : "最大分片数量",
+    "disableShardAutoSplit" : "是否禁止自动分裂",
+    "indexEnabled" : "是否开启索引",
+    "hotRetention" : "热存时长"
+  }
+}

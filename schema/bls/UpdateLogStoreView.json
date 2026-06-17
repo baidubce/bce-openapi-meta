@@ -1,0 +1,64 @@
+{
+  "name" : "UpdateLogStoreView",
+  "method" : "POST",
+  "uri" : "/v{version}/bls?action=UpdateLogStoreView",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "project",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateLogStoreView.project"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateLogStoreView.name"
+  }, {
+    "name" : "logstores",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateLogStoreView.logstores",
+    "sub_parameters" : [ {
+      "name" : "region",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.UpdateLogStoreView.logstores.region"
+    }, {
+      "name" : "project",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.UpdateLogStoreView.logstores.project"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.UpdateLogStoreView.logstores.name"
+    }, {
+      "name" : "extends",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.UpdateLogStoreView.logstores.extends",
+      "sub_parameters" : [ {
+        "name" : "column",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateLogStoreView.logstores.extends.column"
+      }, {
+        "name" : "alias",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateLogStoreView.logstores.extends.alias"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "bls.UpdateLogStoreView.desc"
+}

@@ -1,0 +1,74 @@
+{
+  "name" : "ListAlarmExecutions",
+  "method" : "POST",
+  "uri" : "/v{version}/alarm/execution/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutions.policyId"
+  }, {
+    "name" : "logStoreName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutions.logStoreName"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutions.state"
+  }, {
+    "name" : "noticeStates",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutions.noticeStates"
+  }, {
+    "name" : "startDateTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutions.startDateTime"
+  }, {
+    "name" : "endDateTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutions.endDateTime"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutions.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutions.order"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutions.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutions.pageSize"
+  } ],
+  "desc_key" : "bls.ListAlarmExecutions.desc"
+}

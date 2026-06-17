@@ -1,0 +1,7 @@
+{
+  "BatchGetLogStore" : {
+    "LogStores" : "待查询的日志集，每次最大查询100个",
+    "LogStores.project" : "项目名称",
+    "LogStores.logStoreName" : "日志集名称"
+  }
+}

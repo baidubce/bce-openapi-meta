@@ -1,0 +1,6 @@
+{
+  "DeleteLogStoreView" : {
+    "name" : "日志视图名称",
+    "project" : "日志组名称"
+  }
+}

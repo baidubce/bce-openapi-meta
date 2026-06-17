@@ -1,0 +1,247 @@
+{
+  "name" : "CreateTask",
+  "method" : "POST",
+  "uri" : "/task",
+  "parameters" : [ {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateTask.name"
+  }, {
+    "name" : "config",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateTask.config",
+    "sub_parameters" : [ {
+      "name" : "srcConfig",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bls.CreateTask.config.srcConfig",
+      "sub_parameters" : [ {
+        "name" : "srcType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.srcType"
+      }, {
+        "name" : "logType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.logType"
+      }, {
+        "name" : "srcDir",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.srcDir"
+      }, {
+        "name" : "matchedPattern",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.matchedPattern"
+      }, {
+        "name" : "ignorePattern",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.ignorePattern"
+      }, {
+        "name" : "timeFormat",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.timeFormat"
+      }, {
+        "name" : "ttl",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.ttl"
+      }, {
+        "name" : "useMultiline",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.useMultiline"
+      }, {
+        "name" : "multilineRegex",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.multilineRegex"
+      }, {
+        "name" : "recursiveDir",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.recursiveDir"
+      }, {
+        "name" : "processType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.processType"
+      }, {
+        "name" : "processConfig",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.processConfig",
+        "sub_parameters" : [ {
+          "name" : "regex",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.regex"
+        }, {
+          "name" : "separator",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.separator"
+        }, {
+          "name" : "customSeparator",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.customSeparator"
+        }, {
+          "name" : "quote",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.quote"
+        }, {
+          "name" : "kvKeyIndex",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.kvKeyIndex"
+        }, {
+          "name" : "kvValueIndex",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.kvValueIndex"
+        }, {
+          "name" : "sampleLog",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.sampleLog"
+        }, {
+          "name" : "keys",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.keys"
+        }, {
+          "name" : "dataType",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.dataType"
+        }, {
+          "name" : "discardOnFailure",
+          "type" : "Boolean",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.discardOnFailure"
+        }, {
+          "name" : "keepOriginal",
+          "type" : "Boolean",
+          "required" : false,
+          "desc_key" : "bls.CreateTask.config.srcConfig.processConfig.keepOriginal"
+        } ]
+      }, {
+        "name" : "logTime",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.logTime"
+      }, {
+        "name" : "timestampKey",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.timestampKey"
+      }, {
+        "name" : "dateFormat",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.dateFormat"
+      }, {
+        "name" : "filterExpr",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.filterExpr"
+      }, {
+        "name" : "additionConfig",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.additionConfig"
+      }, {
+        "name" : "metaEnv",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.metaEnv"
+      }, {
+        "name" : "metaLabel",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.metaLabel"
+      }, {
+        "name" : "metaContainer",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.metaContainer"
+      }, {
+        "name" : "metaToFields",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.metaToFields"
+      }, {
+        "name" : "HarvesterLimit",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.srcConfig.HarvesterLimit"
+      } ]
+    }, {
+      "name" : "destConfig",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bls.CreateTask.config.destConfig",
+      "sub_parameters" : [ {
+        "name" : "destType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.destConfig.destType"
+      }, {
+        "name" : "logStore",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.destConfig.logStore"
+      }, {
+        "name" : "rateLimit",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.destConfig.rateLimit"
+      }, {
+        "name" : "clientCount",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bls.CreateTask.config.destConfig.clientCount"
+      } ]
+    } ]
+  }, {
+    "name" : "hosts",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateTask.hosts",
+    "sub_parameters" : [ {
+      "name" : "hostId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateTask.hosts.hostId"
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateTask.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateTask.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateTask.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "bls.CreateTask.desc"
+}

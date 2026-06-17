@@ -1,0 +1,5 @@
+{
+  "EnableAlarmPolicy" : {
+    "name" : "Alarm policy name"
+  }
+}

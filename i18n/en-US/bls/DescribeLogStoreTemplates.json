@@ -1,0 +1,9 @@
+{
+  "DescribeLogStoreTemplates" : {
+    "name" : "Filter by template name",
+    "orderBy" : "Sort field: createdTime (creation time), updatedTime (update time), name (name), priority (priority). Default: priority",
+    "order" : "Sort order: asc (ascending), desc (descending). Default: desc",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Number of items per page, maximum: 100"
+  }
+}

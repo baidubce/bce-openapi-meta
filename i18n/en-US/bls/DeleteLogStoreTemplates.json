@@ -1,0 +1,5 @@
+{
+  "DeleteLogStoreTemplates" : {
+    "names" : "List of template names, supports batch deletion"
+  }
+}

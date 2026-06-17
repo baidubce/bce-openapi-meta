@@ -1,0 +1,15 @@
+{
+  "ListAlarmRecord" : {
+    "policyNamePattern" : "按策略名称过滤",
+    "policyIdPattern" : "按策略ID过滤",
+    "logStoreNamePattern" : "按日志集过滤",
+    "level" : "按报警等级过滤, 取值：INFO, WARN, CRITICAL",
+    "state" : "按报警状态过滤，取值：OK: 已恢复, ALERT: 报警中, CLOSED: 已关闭",
+    "startDateTime" : "查询开始时间，UTC时间，默认值：30天前",
+    "endDateTime" : "查询结束时间，UTC时间，默认值：当前时间",
+    "orderBy" : "排序字段，startTime: 报警开始时间， endTime: 报警结束时间，默认值：startTime",
+    "order" : "排序方式，asc: 升序， desc: 降序，默认值：desc",
+    "pageNo" : "第几页，从1开始计数",
+    "pageSize" : "每页展示数量，最大值：100"
+  }
+}

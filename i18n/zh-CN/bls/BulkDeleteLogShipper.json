@@ -1,0 +1,5 @@
+{
+  "BulkDeleteLogShipper" : {
+    "logShipperIDs" : "批量任务ID"
+  }
+}

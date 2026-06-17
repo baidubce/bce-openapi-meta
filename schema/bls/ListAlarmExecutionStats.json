@@ -1,0 +1,80 @@
+{
+  "name" : "ListAlarmExecutionStats",
+  "method" : "POST",
+  "uri" : "/v{version}/alarm/execution/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.policyId"
+  }, {
+    "name" : "policyName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.policyName"
+  }, {
+    "name" : "logStoreName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.logStoreName"
+  }, {
+    "name" : "states",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.states"
+  }, {
+    "name" : "noticeStates",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.noticeStates"
+  }, {
+    "name" : "startDateTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.startDateTime"
+  }, {
+    "name" : "endDateTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.endDateTime"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.order"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmExecutionStats.pageSize"
+  } ],
+  "desc_key" : "bls.ListAlarmExecutionStats.desc"
+}

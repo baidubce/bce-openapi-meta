@@ -1,0 +1,14 @@
+{
+  "AsyncSearch" : {
+    "name" : "索引名称，不支持模糊匹配",
+    "query" : "语法同普通queryDSL，语法规则参考[官网](https://www.elastic.co/docs/reference/query-languages/querydsl)",
+    "aggs" : "语法桶普通的Aggregations，语法规则参考[官网](https://www.elastic.co/docs/reference/aggregations/)",
+    "fields" : "返回的字段列表，默认全部字段",
+    "sort" : "排序，目前仅支持按照@timestamp排序，默认按时间倒序",
+    "searchAfter" : "下一页游标，目前只支持数组的第一个元素，默认从指定时间的第一个开始查询",
+    "highlight" : "高亮配置",
+    "highlight.pre_tags" : "高亮的前置标识，默认@kibana-highlighted-field@",
+    "highlight.post_tags" : "高亮的后置标识，默认@/kibana-highlighted-field@",
+    "size" : "查询返回多少条命中的日志，默认1000"
+  }
+}

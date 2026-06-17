@@ -1,0 +1,74 @@
+{
+  "name" : "ListLogShipper",
+  "method" : "GET",
+  "uri" : "/v{version}/logshipper?",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "logShipperID",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipper.logShipperID"
+  }, {
+    "name" : "logShipperName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipper.logShipperName"
+  }, {
+    "name" : "project",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipper.project"
+  }, {
+    "name" : "logStoreName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipper.logStoreName"
+  }, {
+    "name" : "destType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipper.destType"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipper.status"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipper.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipper.order"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipper.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListLogShipper.pageSize"
+  } ],
+  "desc_key" : "bls.ListLogShipper.desc"
+}

@@ -1,0 +1,14 @@
+{
+  "AsyncSearch" : {
+    "name" : "Index name, exact match only (no wildcards)",
+    "query" : "Same syntax as standard query DSL, see [official docs](https://www.elastic.co/docs/reference/query-languages/querydsl)",
+    "aggs" : "Same syntax as standard Aggregations, see [official docs](https://www.elastic.co/docs/reference/aggregations/)",
+    "fields" : "List of fields to return; defaults to all fields",
+    "sort" : "Sort order; currently only supports sorting by @timestamp, defaults to descending",
+    "searchAfter" : "Pagination cursor for next page; only the first array element is supported; defaults to the first entry from the specified time",
+    "highlight" : "Highlight configuration",
+    "highlight.pre_tags" : "Highlight prefix tag; default @kibana-highlighted-field@",
+    "highlight.post_tags" : "Highlight suffix tag; default @/kibana-highlighted-field@",
+    "size" : "Number of matching log entries to return; default 1000"
+  }
+}

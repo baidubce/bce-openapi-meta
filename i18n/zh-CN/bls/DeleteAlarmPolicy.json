@@ -1,0 +1,5 @@
+{
+  "DeleteAlarmPolicy" : {
+    "name" : "报警策略名称"
+  }
+}

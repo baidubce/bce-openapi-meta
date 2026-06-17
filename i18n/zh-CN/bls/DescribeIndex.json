@@ -1,0 +1,6 @@
+{
+  "DescribeIndex" : {
+    "project" : "日志组名称，默认default",
+    "logStoreName" : "日志集名称"
+  }
+}

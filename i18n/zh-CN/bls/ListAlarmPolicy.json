@@ -1,0 +1,13 @@
+{
+  "ListAlarmPolicy" : {
+    "policyNamePattern" : "按策略名称过滤",
+    "policyIdPattern" : "按策略ID过滤",
+    "logStoreNamePattern" : "按日志集过滤",
+    "state" : "按策略状态过滤, 取值：ENABLE, DISABLED",
+    "noticeState" : "按通知状态过滤，取值：ENABLE, DISABLED",
+    "orderBy" : "排序字段，createdTime: 创建时间， updatedTime: 更新时间，默认值：updatedTime",
+    "order" : "排序方式，asc: 升序， desc: 降序，默认值：desc",
+    "pageNo" : "第几页，从1开始计数",
+    "pageSize" : "每页展示数量，最大值：100"
+  }
+}

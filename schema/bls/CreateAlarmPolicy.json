@@ -1,0 +1,277 @@
+{
+  "name" : "CreateAlarmPolicy",
+  "method" : "POST",
+  "uri" : "/v{version}/alarm/policy",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.name"
+  }, {
+    "name" : "objects",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.objects",
+    "sub_parameters" : [ {
+      "name" : "project",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.objects.project"
+    }, {
+      "name" : "logStoreName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.objects.logStoreName"
+    }, {
+      "name" : "logStoreId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.objects.logStoreId"
+    } ]
+  }, {
+    "name" : "targets",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.targets",
+    "sub_parameters" : [ {
+      "name" : "query",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.targets.query"
+    }, {
+      "name" : "startTimeOffsetMinute",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.targets.startTimeOffsetMinute"
+    }, {
+      "name" : "endTimeOffsetMinute",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.targets.endTimeOffsetMinute"
+    }, {
+      "name" : "object",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.targets.object",
+      "sub_parameters" : [ {
+        "name" : "project",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateAlarmPolicy.targets.object.project"
+      }, {
+        "name" : "logStoreName",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateAlarmPolicy.targets.object.logStoreName"
+      }, {
+        "name" : "logStoreId",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateAlarmPolicy.targets.object.logStoreId"
+      } ]
+    } ]
+  }, {
+    "name" : "triggerConditions",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.triggerConditions",
+    "sub_parameters" : [ {
+      "name" : "level",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.triggerConditions.level"
+    }, {
+      "name" : "condition",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.triggerConditions.condition"
+    } ]
+  }, {
+    "name" : "groups",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.groups"
+  }, {
+    "name" : "schedule",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.schedule",
+    "sub_parameters" : [ {
+      "name" : "intervalMinute",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.schedule.intervalMinute"
+    }, {
+      "name" : "fixTimeMinute",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.schedule.fixTimeMinute"
+    }, {
+      "name" : "dayOfWeek",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.schedule.dayOfWeek"
+    } ]
+  }, {
+    "name" : "pendingCount",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.pendingCount"
+  }, {
+    "name" : "repeatIntervalMinute",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.repeatIntervalMinute"
+  }, {
+    "name" : "recoverWithoutNotice",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.recoverWithoutNotice"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.state"
+  }, {
+    "name" : "noticeState",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.noticeState"
+  }, {
+    "name" : "notices",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.notices",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.notices.id"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.notices.name"
+    }, {
+      "name" : "members",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.notices.members"
+    }, {
+      "name" : "methods",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.notices.methods"
+    }, {
+      "name" : "callbacks",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.notices.callbacks"
+    }, {
+      "name" : "disableTimes",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.notices.disableTimes",
+      "sub_parameters" : [ {
+        "name" : "from",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateAlarmPolicy.notices.disableTimes.from"
+      }, {
+        "name" : "to",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateAlarmPolicy.notices.disableTimes.to"
+      } ]
+    } ]
+  }, {
+    "name" : "noticeRawLogs",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.type"
+    }, {
+      "name" : "refTarget",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.refTarget"
+    }, {
+      "name" : "customTarget",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.customTarget",
+      "sub_parameters" : [ {
+        "name" : "query",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.customTarget.query"
+      }, {
+        "name" : "startTimeOffsetMinute",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.customTarget.startTimeOffsetMinute"
+      }, {
+        "name" : "endTimeOffsetMinute",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.customTarget.endTimeOffsetMinute"
+      }, {
+        "name" : "object",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.customTarget.object",
+        "sub_parameters" : [ {
+          "name" : "project",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.customTarget.object.project"
+        }, {
+          "name" : "logStoreName",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.customTarget.object.logStoreName"
+        }, {
+          "name" : "logStoreId",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.customTarget.object.logStoreId"
+        } ]
+      } ]
+    }, {
+      "name" : "columns",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.columns"
+    }, {
+      "name" : "limit",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateAlarmPolicy.noticeRawLogs.limit"
+    } ]
+  } ],
+  "desc_key" : "bls.CreateAlarmPolicy.desc"
+}

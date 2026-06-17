@@ -1,0 +1,6 @@
+{
+  "DeleteLogStoreView" : {
+    "name" : "Log view name",
+    "project" : "Log group name"
+  }
+}

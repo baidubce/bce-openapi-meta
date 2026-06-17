@@ -1,0 +1,10 @@
+{
+  "ListLogStore" : {
+    "project" : "Log group name, default is \"default\"",
+    "namePattern" : "Log store name",
+    "order" : "Sort direction, asc or desc",
+    "orderBy" : "Sort column, supports creationDateTime, lastModifiedTime, name",
+    "pageNo" : "Page number, must be greater than 0",
+    "pageSize" : "Page size, must be greater than 0"
+  }
+}

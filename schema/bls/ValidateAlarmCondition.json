@@ -1,0 +1,26 @@
+{
+  "name" : "ValidateAlarmCondition",
+  "method" : "POST",
+  "uri" : "/v{version}/alarm/condition/validate",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "fieldTypes",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ValidateAlarmCondition.fieldTypes"
+  }, {
+    "name" : "conditions",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ValidateAlarmCondition.conditions"
+  } ],
+  "desc_key" : "bls.ValidateAlarmCondition.desc"
+}

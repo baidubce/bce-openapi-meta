@@ -1,0 +1,10 @@
+{
+  "CreateFastQuery" : {
+    "fastQueryName" : "Fast query name",
+    "query" : "Fast query statement",
+    "description" : "Information description",
+    "project" : "Log group name, default is \"default\"",
+    "logStoreName" : "Log store name",
+    "logStreamName" : "Log stream name"
+  }
+}

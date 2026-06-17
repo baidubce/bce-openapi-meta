@@ -1,0 +1,80 @@
+{
+  "name" : "ListAlarmRecord",
+  "method" : "POST",
+  "uri" : "/v{version}/alarm/record/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "policyNamePattern",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.policyNamePattern"
+  }, {
+    "name" : "policyIdPattern",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.policyIdPattern"
+  }, {
+    "name" : "logStoreNamePattern",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.logStoreNamePattern"
+  }, {
+    "name" : "level",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.level"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.state"
+  }, {
+    "name" : "startDateTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.startDateTime"
+  }, {
+    "name" : "endDateTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.endDateTime"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.order"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmRecord.pageSize"
+  } ],
+  "desc_key" : "bls.ListAlarmRecord.desc"
+}

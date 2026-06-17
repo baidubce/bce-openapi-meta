@@ -1,0 +1,6 @@
+{
+  "DescribeLogStoreView" : {
+    "name" : "Log view name",
+    "project" : "Log group name"
+  }
+}

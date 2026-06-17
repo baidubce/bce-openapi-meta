@@ -1,0 +1,15 @@
+{
+  "ListAlarmExecutionStats" : {
+    "policyId" : "按策略ID过滤",
+    "policyName" : "按策略名称过滤",
+    "logStoreName" : "按日志集过滤",
+    "states" : "按报警状态过滤，取值：OK: 已恢复, ALERT: 报警中, CLOSED: 已关闭",
+    "noticeStates" : "按报警通知状态过滤，取值：SENT: 已发送, NOT_SENT: 不发送, FAIL: 发送失败, BLOCK_BY_PENDING_COUNT: 不发送由于频次不足, BLOCK_BY_REPEAT_INTERVAL: 不发送由于重复报警间隔没到, BLOCK_BY_FREQUENCY: 不发送由于发送次数过多, BLOCK_BY_NOTICE_DISABLED: 不发送由于通知关闭",
+    "startDateTime" : "查询开始时间，UTC时间，默认值：30天前",
+    "endDateTime" : "查询结束时间，UTC时间，默认值：当前时间",
+    "orderBy" : "排序字段，totalCount: 执行次数, failCount：执行失败次数, noticeTotalCount: 通知次数, noticeFailCount：通知失败次数",
+    "order" : "排序方式，asc: 升序， desc: 降序，默认值：desc",
+    "pageNo" : "第几页，从1开始计数",
+    "pageSize" : "每页展示数量，最大值：100"
+  }
+}

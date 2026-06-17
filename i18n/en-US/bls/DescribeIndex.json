@@ -1,0 +1,6 @@
+{
+  "DescribeIndex" : {
+    "project" : "Log group name, default: default",
+    "logStoreName" : "Log store name"
+  }
+}

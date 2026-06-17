@@ -1,0 +1,68 @@
+{
+  "name" : "ListAlarmPolicy",
+  "method" : "POST",
+  "uri" : "/v{version}/alarm/policy/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "policyNamePattern",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmPolicy.policyNamePattern"
+  }, {
+    "name" : "policyIdPattern",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmPolicy.policyIdPattern"
+  }, {
+    "name" : "logStoreNamePattern",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmPolicy.logStoreNamePattern"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmPolicy.state"
+  }, {
+    "name" : "noticeState",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmPolicy.noticeState"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmPolicy.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmPolicy.order"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmPolicy.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.ListAlarmPolicy.pageSize"
+  } ],
+  "desc_key" : "bls.ListAlarmPolicy.desc"
+}

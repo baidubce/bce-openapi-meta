@@ -1,0 +1,22 @@
+{
+  "CreateLogStore" : {
+    "project" : "Log group name, default: default",
+    "logStoreName" : "Log store name",
+    "retention" : "Log store retention period, max 3650 days; -1 indicates permanent retention. Unit: days",
+    "tags" : "List of tags to create, see below for parameter format",
+    "tags.tagKey" : "Tag key, supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /., length 1-65",
+    "tags.tagValue" : "Tag value, supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /., length 0-65",
+    "index" : "Log store index configuration",
+    "index.fulltext" : "Whether to enable full-text index, default false",
+    "index.caseSensitive" : "Whether full-text index is case-sensitive, default false",
+    "index.includeChinese" : "Whether full-text index includes Chinese characters, default false",
+    "index.separators" : "Custom delimiters for full-text index; uses default delimiters if not specified",
+    "index.fields" : "Field names and type definitions for keyword index",
+    "shardCount" : "Initial shard count for log store, default 1, max 50",
+    "maxShardCount" : "Maximum number of shards",
+    "disableShardAutoSplit" : "Whether to disable automatic shard splitting",
+    "indexEnabled" : "Whether to enable indexing",
+    "hotRetention" : "Hot storage retention duration",
+    "EnableHotRetention" : "Whether to enable hot storage"
+  }
+}

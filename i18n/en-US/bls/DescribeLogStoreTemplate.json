@@ -1,0 +1,5 @@
+{
+  "DescribeLogStoreTemplate" : {
+    "name" : "Template name"
+  }
+}

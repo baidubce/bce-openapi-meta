@@ -1,0 +1,13 @@
+{
+  "CreateTask" : {
+    "name" : "传输任务名字",
+    "config" : "任务配置",
+    "config.srcConfig" : "数据源端配置",
+    "config.destConfig" : "目的端配置",
+    "hosts" : "运行任务的主机列表",
+    "hosts.hostId" : "主机ID",
+    "tags" : "待创建的标签列表，具体参数格式参见下述",
+    "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1-65",
+    "tags.tagValue" : "标签的值，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度0-65"
+  }
+}

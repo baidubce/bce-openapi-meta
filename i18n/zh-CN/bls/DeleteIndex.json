@@ -1,0 +1,6 @@
+{
+  "DeleteIndex" : {
+    "project" : "日志组名称",
+    "logStoreName" : "日志集名称"
+  }
+}

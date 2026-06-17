@@ -1,0 +1,10 @@
+{
+  "ListLogStoreView" : {
+    "project" : "Keyword for filtering log groups",
+    "name" : "Keyword for partial match filtering of log views",
+    "order" : "Sort order: desc for descending, asc for ascending, default is desc",
+    "orderBy" : "Sort field, default is creation time, options: createdTimestamp/updatedTimestamp",
+    "pageNo" : "Starting page number, default is 1",
+    "pageSize" : "Number of records per page, default is 10"
+  }
+}

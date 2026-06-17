@@ -1,0 +1,9 @@
+{
+  "TermsEnum" : {
+    "name" : "索引名称，不支持模糊匹配",
+    "field" : "索引字段名称，不支持模糊匹配",
+    "string" : "用于前缀匹配的字符串。比如 \"ki\" 会匹配以 ki 开头的 terms",
+    "size" : "返回多少个terms 默认 10",
+    "index_filter" : "限制从哪些文档里枚举 terms，语法同普通query DSL"
+  }
+}

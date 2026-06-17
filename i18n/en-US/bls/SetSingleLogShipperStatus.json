@@ -1,0 +1,6 @@
+{
+  "SetSingleLogShipperStatus" : {
+    "logShipperID" : "Task ID",
+    "desiredStatus" : "Desired status, either Running or Paused"
+  }
+}

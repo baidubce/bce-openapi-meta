@@ -1,0 +1,14 @@
+{
+  "ListLogShipper" : {
+    "logShipperID" : "Fuzzy search by task ID",
+    "logShipperName" : "Fuzzy search by task name",
+    "project" : "Filter by log group name",
+    "logStoreName" : "Filter by log store name",
+    "destType" : "Filter by destination type; currently only BOS is supported, default BOS",
+    "status" : "Filter by task status: Running, Abnormal, or Paused",
+    "orderBy" : "Sort column; only createDateTime is supported, default createDateTime",
+    "order" : "Sort order: asc or desc, default desc",
+    "pageNo" : "Page number, starting from 1, default 1",
+    "pageSize" : "Page size, min 10, max 100, default 10"
+  }
+}

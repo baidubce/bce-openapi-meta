@@ -1,0 +1,11 @@
+{
+  "UpdateIndex" : {
+    "project" : "日志组名称，默认default",
+    "logStoreName" : "日志集名称",
+    "fulltext" : "是否开启全文索引，true 表示开启",
+    "caseSensitive" : "全文索引是否开启大小写敏感，默认false，不开启大小写敏感",
+    "includeChinese" : "是否包含中文，默认为false，不包含中文",
+    "separators" : "全文分词符，不填使用默认分词符",
+    "fields" : "字段索引包含的字段名称及类型定义"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "UpdateLogShipper" : {
+    "logShipperID" : "Log shipper task ID",
+    "project" : "Log group name, default is \"default\"",
+    "logShipperName" : "Log shipper task name",
+    "destConfig" : "Destination configuration details",
+    "destConfig.BOSPath" : "BOS path consisting of bucket name plus user-defined path, max 256 characters",
+    "destConfig.partitionFormatTS" : "Partition format, e.g. %Y/%m/%d/%H/%M/, supports up to minute level, customizable, can be empty, default is %Y/%m/%d/%H/%M/",
+    "destConfig.partitionFormatLogStream" : "Whether to use logstream as a partition level, default false",
+    "destConfig.maxObjectSize" : "Maximum object size in MB, range 1 - 5*1024*1024 (5TB), default 64",
+    "destConfig.compressType" : "Compression type, options: snappy/gzip/bzip2/lzop or no compression (none), default none",
+    "destConfig.deliverInterval" : "Delivery interval in minutes, integer between 5 and 60, default 5",
+    "destConfig.storageFormat" : "Storage format, options: parquet, json, csv, default json",
+    "destConfig.csvHeadline" : "Whether to include field names in CSV output, default false",
+    "destConfig.csvDelimiter" : "CSV delimiter, options: comma (,), space ( ), pipe (|)",
+    "destConfig.csvQuote" : "CSV quote character, options: single quote ('), double quote (\"), none, customizable, default none",
+    "destConfig.nullIdentifier" : "Placeholder for null column values in CSV, default empty",
+    "destConfig.selectedColumnName" : "Required for CSV and Parquet; selected column names as comma-separated list",
+    "destConfig.selectedColumnType" : "Required for Parquet; selected column types as comma-separated list",
+    "destConfig.fieldsName" : "Field names selected when shipper type is kv, same size as fieldsType",
+    "destConfig.fieldsType" : "Field types selected when shipper type is kv, same size as fieldsName",
+    "destConfig.shipperType" : "Shipper type, default text; when delivering system fields the data is in JSON format; kv type delivers only specified key-value pairs in JSON format",
+    "destConfig.kafkaConfig" : "Kafka configuration"
+  }
+}

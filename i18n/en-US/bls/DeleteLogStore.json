@@ -1,0 +1,6 @@
+{
+  "DeleteLogStore" : {
+    "logStoreName" : "Log store name",
+    "project" : "Log group name"
+  }
+}

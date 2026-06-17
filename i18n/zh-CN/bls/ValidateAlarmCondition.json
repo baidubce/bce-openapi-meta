@@ -1,0 +1,6 @@
+{
+  "ValidateAlarmCondition" : {
+    "fieldTypes" : "字段名称和类型，按照sql的顺序",
+    "conditions" : "执行条件列表"
+  }
+}

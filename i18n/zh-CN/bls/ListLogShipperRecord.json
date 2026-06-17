@@ -1,0 +1,8 @@
+{
+  "ListLogShipperRecord" : {
+    "logShipperID" : "任务ID",
+    "sinceHours" : "查看最近多长时间的数据，单位小时，范围为1~180*24的整数，默认1",
+    "pageNo" : "页码，从1开始，默认1",
+    "pageSize" : "页大小，最小10，最大100，默认10"
+  }
+}

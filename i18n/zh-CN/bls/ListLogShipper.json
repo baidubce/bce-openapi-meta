@@ -1,0 +1,14 @@
+{
+  "ListLogShipper" : {
+    "logShipperID" : "可按任务ID模糊查询",
+    "logShipperName" : "可按任务名称模糊查询",
+    "project" : "可按日志组名称查询",
+    "logStoreName" : "可按日志集名称查询",
+    "destType" : "按投递目的端类型查询，目前仅支持BOS，默认BOS",
+    "status" : "按任务状态过滤，可选：运行中（Running）、异常（Abnormal）、已暂停（Paused）",
+    "orderBy" : "排序列，当前只有创建时间列createDateTime，默认createDateTime",
+    "order" : "可选asc/desc, 默认降序desc",
+    "pageNo" : "页码，从1开始，默认1",
+    "pageSize" : "页大小，最小10，最大100，默认10"
+  }
+}

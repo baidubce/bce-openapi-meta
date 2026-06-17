@@ -1,0 +1,9 @@
+{
+  "DescribeLogStoreTemplates" : {
+    "name" : "按模板名称过滤",
+    "orderBy" : "排序字段，createdTime: 创建时间， updatedTime: 更新时间，name: 名称，priority: 优先级 默认值：priority",
+    "order" : "排序方式，asc: 升序， desc: 降序，默认值：desc",
+    "pageNo" : "第几页，从1开始计数",
+    "pageSize" : "每页展示数量，最大值：100"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ValidateAlarmPolicySQL" : {
+    "logStores" : "监控对象列表",
+    "logStores.project" : "日志集项目，默认default",
+    "logStores.logStoreName" : "日志集名称",
+    "logStores.logStoreId" : "监控对象ID",
+    "query" : "执行语句"
+  }
+}

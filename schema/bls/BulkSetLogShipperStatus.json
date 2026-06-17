@@ -1,0 +1,26 @@
+{
+  "name" : "BulkSetLogShipperStatus",
+  "method" : "PUT",
+  "uri" : "/v{version}/logshipper/status/batch",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "desiredStatus",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.BulkSetLogShipperStatus.desiredStatus"
+  }, {
+    "name" : "logShipperIDs",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.BulkSetLogShipperStatus.logShipperIDs"
+  } ],
+  "desc_key" : "bls.BulkSetLogShipperStatus.desc"
+}

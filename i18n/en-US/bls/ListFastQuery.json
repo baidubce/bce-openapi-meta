@@ -1,0 +1,11 @@
+{
+  "ListFastQuery" : {
+    "project" : "Specify the log group name",
+    "logStoreName" : "Specify the log store name",
+    "namePattern" : "Specify the keyword for filtering by name",
+    "order" : "Sort order, desc for descending, asc for ascending, default is desc",
+    "orderBy" : "Sort field, default is creation time",
+    "pageNo" : "Starting page number, default is 1",
+    "pageSize" : "Number of items per page, default is 10"
+  }
+}

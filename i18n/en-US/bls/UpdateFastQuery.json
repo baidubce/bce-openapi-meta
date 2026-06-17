@@ -1,0 +1,11 @@
+{
+  "UpdateFastQuery" : {
+    "name" : "Fast query name",
+    "fastQueryName" : "Fast query name",
+    "query" : "Fast query statement",
+    "description" : "Information description",
+    "project" : "Log group name, default: default",
+    "logStoreName" : "Log store name",
+    "logStreamName" : "Log stream name"
+  }
+}

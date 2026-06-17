@@ -1,0 +1,27 @@
+{
+  "CreateLogShipper" : {
+    "project" : "Log group name, default: default",
+    "logStoreName" : "Log store name",
+    "logShipperName" : "Log shipper task name",
+    "startTime" : "Shipping start time",
+    "destType" : "Destination type, supports BOS/KAFKA",
+    "destConfig" : "Destination configuration details",
+    "destConfig.BOSPath" : "BOS path consisting of bucket and user-defined path, max 256 characters",
+    "destConfig.partitionFormatTS" : "Partition format, e.g. %Y/%m/%d/%H/%M/, supports up to minute level, customizable, can be empty, default: %Y/%m/%d/%H/%M/",
+    "destConfig.partitionFormatLogStream" : "Whether to use logstream as partition level, default: false",
+    "destConfig.maxObjectSize" : "Maximum object size in MB, range 1 - 5*1024*1024 (5TB), default: 64",
+    "destConfig.compressType" : "Compression type, options: snappy/gzip/bzip2/lzop or none, default: none",
+    "destConfig.deliverInterval" : "Delivery interval in minutes, range 5-60, default: 5",
+    "destConfig.storageFormat" : "Storage format, options: parquet, json, csv, default: json",
+    "destConfig.csvHeadline" : "Whether to include field names in CSV output, default: false",
+    "destConfig.csvDelimiter" : "CSV delimiter, options: comma (,), space ( ), pipe (|)",
+    "destConfig.csvQuote" : "CSV quote character, options: single quote ('), double quote (\"), none, customizable, default: none",
+    "destConfig.nullIdentifier" : "Placeholder for null values in CSV, default: empty",
+    "destConfig.selectedColumnName" : "Required for CSV and Parquet, selected column names as comma-separated list",
+    "destConfig.selectedColumnType" : "Required for Parquet, selected column types as comma-separated list",
+    "destConfig.fieldsName" : "Field names for KV shipper type, same size as fieldsType",
+    "destConfig.fieldsType" : "Field types for KV shipper type, same size as fieldsName",
+    "destConfig.shipperType" : "Shipper type, default: text; if system fields are included output is JSON; kv type ships only specified key-value pairs in JSON format",
+    "destConfig.kafkaConfig" : "Kafka configuration"
+  }
+}

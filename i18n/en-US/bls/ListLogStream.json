@@ -1,0 +1,11 @@
+{
+  "ListLogStream" : {
+    "project" : "Keyword for filtering log groups",
+    "logStoreName" : "Keyword for filtering log streams",
+    "namePattern" : "Keyword for filtering by name",
+    "order" : "Sort order: desc for descending, asc for ascending, default is desc",
+    "orderBy" : "Sort field, default is creation time",
+    "pageNo" : "Starting page number, default is 1",
+    "pageSize" : "Number of records per page, default is 10"
+  }
+}

@@ -3,9 +3,205 @@
   "style" : "rpc",
   "description" : "日志服务",
   "apis" : {
+    "UpdateProject" : {
+      "title" : "更新日志组UpdateProject",
+      "summary" : "更新日志组UpdateProject"
+    },
+    "TermsEnum" : {
+      "title" : "推荐字段取值 TermsEnum",
+      "summary" : "推荐字段取值 TermsEnum"
+    },
+    "AsyncSearch" : {
+      "title" : "检索和分析BLS日志 AsyncSearch",
+      "summary" : "检索和分析BLS日志 AsyncSearch"
+    },
+    "CreateLogStore" : {
+      "title" : "创建日志集CreateLogStore",
+      "summary" : "创建日志集CreateLogStore"
+    },
+    "DeleteLogStore" : {
+      "title" : "删除日志集DeleteLogStore",
+      "summary" : "删除日志集DeleteLogStore"
+    },
+    "UpdateLogStore" : {
+      "title" : "修改日志集UpdateLogStore",
+      "summary" : "修改日志集UpdateLogStore"
+    },
+    "ListLogStore" : {
+      "title" : "获取日志集列表ListLogStore",
+      "summary" : "获取日志集列表ListLogStore"
+    },
+    "BatchGetLogStore" : {
+      "title" : "批量获取日志集BatchGetLogStore",
+      "summary" : "批量获取日志集BatchGetLogStore"
+    },
+    "PushLogRecord" : {
+      "title" : "推送日志",
+      "summary" : "推送日志"
+    },
+    "ListLogStream" : {
+      "title" : "获取日志流列表ListLogStream",
+      "summary" : "获取日志流列表ListLogStream"
+    },
+    "ListAlarmRecord" : {
+      "title" : "获取报警历史列表ListAlarmRecord",
+      "summary" : "获取报警历史列表ListAlarmRecord"
+    },
+    "CreateIndex" : {
+      "title" : "创建索引CreateIndex",
+      "summary" : "创建索引CreateIndex"
+    },
+    "DescribeAlarmRecord" : {
+      "title" : "获取报警历史详情DescribeAlarmRecord",
+      "summary" : "获取报警历史详情DescribeAlarmRecord"
+    },
+    "UpdateIndex" : {
+      "title" : "更新索引UpdateIndex",
+      "summary" : "更新索引UpdateIndex"
+    },
+    "ListAlarmExecutions" : {
+      "title" : "获取报警执行列表ListAlarmExecutions",
+      "summary" : "获取报警执行列表ListAlarmExecutions"
+    },
+    "DeleteIndex" : {
+      "title" : "删除索引DeleteIndex",
+      "summary" : "删除索引DeleteIndex"
+    },
+    "CreateTask" : {
+      "title" : "创建传输任务CreateTask",
+      "summary" : "创建传输任务CreateTask"
+    },
+    "DescribeIndex" : {
+      "title" : "获取索引详情DescribeIndex",
+      "summary" : "获取索引详情DescribeIndex"
+    },
+    "UpdateTask" : {
+      "title" : "更新传输任务UpdateTask",
+      "summary" : "更新传输任务UpdateTask"
+    },
+    "CreateFastQuery" : {
+      "title" : "创建快速查询CreateFastQuery",
+      "summary" : "创建快速查询CreateFastQuery"
+    },
+    "DescribeFastQuery" : {
+      "title" : "获取快速查询详情DescribeFastQuery",
+      "summary" : "获取快速查询详情DescribeFastQuery"
+    },
+    "UpdateFastQuery" : {
+      "title" : "更新快速查询UpdateFastQuery",
+      "summary" : "更新快速查询UpdateFastQuery"
+    },
+    "DeleteFastQuery" : {
+      "title" : "删除快速查询DeleteFastQuery",
+      "summary" : "删除快速查询DeleteFastQuery"
+    },
+    "ListProject" : {
+      "title" : "日志组列表",
+      "summary" : "日志组列表"
+    },
+    "ListFastQuery" : {
+      "title" : "获取快速查询列表ListFastQuery",
+      "summary" : "获取快速查询列表ListFastQuery"
+    },
+    "CreateLogShipper" : {
+      "title" : "创建日志投递CreateLogShipper",
+      "summary" : "创建日志投递CreateLogShipper"
+    },
+    "DescribeProject" : {
+      "title" : "日志组详情",
+      "summary" : "日志组详情"
+    },
+    "UpdateLogShipper" : {
+      "title" : "更新日志投递UpdateLogShipper",
+      "summary" : "更新日志投递UpdateLogShipper"
+    },
+    "DeleteSingleLogShipper" : {
+      "title" : "删除日志投递任务DeleteSingleLogShipper",
+      "summary" : "删除日志投递任务DeleteSingleLogShipper"
+    },
+    "GetLogShipper" : {
+      "title" : "获取日志投递详情GetLogShipper",
+      "summary" : "获取日志投递详情GetLogShipper"
+    },
+    "ListLogShipper" : {
+      "title" : "获取日志投递列表ListLogShipper",
+      "summary" : "获取日志投递列表ListLogShipper"
+    },
+    "ListLogShipperRecord" : {
+      "title" : "获取日志投递记录ListLogShipperRecord",
+      "summary" : "获取日志投递记录ListLogShipperRecord"
+    },
+    "SetSingleLogShipperStatus" : {
+      "title" : "设置日志投递任务状态SetSingleLogShipperStatus",
+      "summary" : "设置日志投递任务状态SetSingleLogShipperStatus"
+    },
+    "BulkSetLogShipperStatus" : {
+      "title" : "批量设置日志投递任务状态BulkSetLogShipperStatus",
+      "summary" : "批量设置日志投递任务状态BulkSetLogShipperStatus"
+    },
+    "BulkDeleteLogShipper" : {
+      "title" : "批量删除日志投递任务BulkDeleteLogShipper",
+      "summary" : "批量删除日志投递任务BulkDeleteLogShipper"
+    },
+    "CreateAlarmPolicy" : {
+      "title" : "创建报警策略CreateAlarmPolicy",
+      "summary" : "创建报警策略CreateAlarmPolicy"
+    },
+    "UpdateAlarmPolicy" : {
+      "title" : "更新报警策略UpdateAlarmPolicy",
+      "summary" : "更新报警策略UpdateAlarmPolicy"
+    },
+    "CreateProject" : {
+      "title" : "创建日志组",
+      "summary" : "创建日志组"
+    },
+    "DeleteAlarmPolicy" : {
+      "title" : "删除报警策略DeleteAlarmPolicy",
+      "summary" : "删除报警策略DeleteAlarmPolicy"
+    },
+    "EnableAlarmPolicy" : {
+      "title" : "启用报警策略EnableAlarmPolicy",
+      "summary" : "启用报警策略EnableAlarmPolicy"
+    },
+    "DisableAlarmPolicy" : {
+      "title" : "禁用报警策略DisableAlarmPolicy",
+      "summary" : "禁用报警策略DisableAlarmPolicy"
+    },
+    "ValidateAlarmPolicySQL" : {
+      "title" : "检验报警策略查询语句ValidateAlarmPolicySQL",
+      "summary" : "检验报警策略查询语句ValidateAlarmPolicySQL"
+    },
+    "ValidateAlarmCondition" : {
+      "title" : "检验报警策略执行条件ValidateAlarmCondition",
+      "summary" : "检验报警策略执行条件ValidateAlarmCondition"
+    },
+    "ListAlarmPolicy" : {
+      "title" : "获取报警策略列表ListAlarmPolicy",
+      "summary" : "获取报警策略列表ListAlarmPolicy"
+    },
+    "DescribeAlarmPolicy" : {
+      "title" : "获取报警策略详情DescribeAlarmPolicy",
+      "summary" : "获取报警策略详情DescribeAlarmPolicy"
+    },
+    "ListAlarmExecutionStats" : {
+      "title" : "获取报警执行统计ListAlarmExecutionStats",
+      "summary" : "获取报警执行统计ListAlarmExecutionStats"
+    },
+    "DeleteProject" : {
+      "title" : "删除日志组",
+      "summary" : "删除日志组"
+    },
+    "CreateDownloadTask" : {
+      "title" : "创建下载任务CreateDownloadTask",
+      "summary" : "创建下载任务CreateDownloadTask"
+    },
     "GetDownloadTaskLink" : {
       "title" : "获取下载任务地址GetDownloadTaskLink",
       "summary" : "获取下载任务地址GetDownloadTaskLink"
+    },
+    "DeleteDownloadTask" : {
+      "title" : "删除下载任务DeleteDownloadTask",
+      "summary" : "删除下载任务DeleteDownloadTask"
     },
     "DescribeDownloadTask" : {
       "title" : "获取下载任务详情DescribeDownloadTask",
@@ -15,49 +211,69 @@
       "title" : "获取下载任务列表ListDownloadTask",
       "summary" : "获取下载任务列表ListDownloadTask"
     },
-    "UpdateProject" : {
-      "title" : "更新日志组UpdateProject",
-      "summary" : "更新日志组UpdateProject"
+    "CreateLogStoreTemplate" : {
+      "title" : "创建日志集模版CreateLogStoreTemplate",
+      "summary" : "创建日志集模版CreateLogStoreTemplate"
     },
-    "DeleteDownloadTask" : {
-      "title" : "删除下载任务DeleteDownloadTask",
-      "summary" : "删除下载任务DeleteDownloadTask"
+    "UpdateLogStoreTemplate" : {
+      "title" : "更新日志集模版UpdateLogStoreTemplate",
+      "summary" : "更新日志集模版UpdateLogStoreTemplate"
     },
-    "ListProject" : {
-      "title" : "日志组列表",
-      "summary" : "日志组列表"
+    "DeleteLogStoreTemplates" : {
+      "title" : "删除日志集模版DeleteLogStoreTemplates",
+      "summary" : "删除日志集模版DeleteLogStoreTemplates"
     },
-    "DescribeProject" : {
-      "title" : "日志组详情",
-      "summary" : "日志组详情"
+    "DescribeLogStoreTemplate" : {
+      "title" : "获取日志集模版详情DescribeLogStoreTemplate",
+      "summary" : "获取日志集模版详情DescribeLogStoreTemplate"
     },
-    "CreateProject" : {
-      "title" : "创建日志组",
-      "summary" : "创建日志组"
+    "DescribeLogStoreTemplates" : {
+      "title" : "获取日志集模版列表DescribeLogStoreTemplates",
+      "summary" : "获取日志集模版列表DescribeLogStoreTemplates"
+    },
+    "CreateLogStoreView" : {
+      "title" : "创建日志视图CreateLogStoreView",
+      "summary" : "创建日志视图CreateLogStoreView"
+    },
+    "UpdateLogStoreView" : {
+      "title" : "修改日志视图UpdateLogStoreView",
+      "summary" : "修改日志视图UpdateLogStoreView"
+    },
+    "DeleteLogStoreView" : {
+      "title" : "删除日志视图DeleteLogStoreView",
+      "summary" : "删除日志视图DeleteLogStoreView"
+    },
+    "ListLogStoreView" : {
+      "title" : "获取日志视图列表ListLogStoreView",
+      "summary" : "获取日志视图列表ListLogStoreView"
+    },
+    "DescribeLogStoreView" : {
+      "title" : "获取日志视图详情DescribeLogStoreView",
+      "summary" : "获取日志视图详情DescribeLogStoreView"
+    },
+    "ResolveIndex" : {
+      "title" : "查询索引列表 ResolveIndex",
+      "summary" : "查询索引列表 ResolveIndex"
+    },
+    "FieldCaps" : {
+      "title" : "获取索引字段列表 FieldCaps",
+      "summary" : "获取索引字段列表 FieldCaps"
     },
     "PullLogRecord" : {
       "title" : "获取日志记录",
       "summary" : "获取日志记录"
     },
+    "DescribeLogStore" : {
+      "title" : "获取日志集详情DescribeLogStore",
+      "summary" : "获取日志集详情DescribeLogStore"
+    },
     "QueryLogRecord" : {
       "title" : "检索分析日志",
       "summary" : "检索分析日志"
     },
-    "PushLogRecord" : {
-      "title" : "推送日志",
-      "summary" : "推送日志"
-    },
-    "DeleteProject" : {
-      "title" : "删除日志组",
-      "summary" : "删除日志组"
-    },
     "QueryLogHistogram" : {
       "title" : "查询直方图",
       "summary" : "查询直方图"
-    },
-    "CreateDownloadTask" : {
-      "title" : "创建下载任务CreateDownloadTask",
-      "summary" : "创建下载任务CreateDownloadTask"
     }
   }
 }

@@ -1,0 +1,6 @@
+{
+  "DeleteLogStore" : {
+    "logStoreName" : "日志集名称",
+    "project" : "日志组名称"
+  }
+}

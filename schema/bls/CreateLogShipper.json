@@ -1,0 +1,136 @@
+{
+  "name" : "CreateLogShipper",
+  "method" : "POST",
+  "uri" : "/v{version}/logshipper",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "project",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogShipper.project"
+  }, {
+    "name" : "logStoreName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogShipper.logStoreName"
+  }, {
+    "name" : "logShipperName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogShipper.logShipperName"
+  }, {
+    "name" : "startTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogShipper.startTime"
+  }, {
+    "name" : "destType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogShipper.destType"
+  }, {
+    "name" : "destConfig",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateLogShipper.destConfig",
+    "sub_parameters" : [ {
+      "name" : "BOSPath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.BOSPath"
+    }, {
+      "name" : "partitionFormatTS",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.partitionFormatTS"
+    }, {
+      "name" : "partitionFormatLogStream",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.partitionFormatLogStream"
+    }, {
+      "name" : "maxObjectSize",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.maxObjectSize"
+    }, {
+      "name" : "compressType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.compressType"
+    }, {
+      "name" : "deliverInterval",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.deliverInterval"
+    }, {
+      "name" : "storageFormat",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.storageFormat"
+    }, {
+      "name" : "csvHeadline",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.csvHeadline"
+    }, {
+      "name" : "csvDelimiter",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.csvDelimiter"
+    }, {
+      "name" : "csvQuote",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.csvQuote"
+    }, {
+      "name" : "nullIdentifier",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.nullIdentifier"
+    }, {
+      "name" : "selectedColumnName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.selectedColumnName"
+    }, {
+      "name" : "selectedColumnType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.selectedColumnType"
+    }, {
+      "name" : "fieldsName",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.fieldsName"
+    }, {
+      "name" : "fieldsType",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.fieldsType"
+    }, {
+      "name" : "shipperType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.shipperType"
+    }, {
+      "name" : "kafkaConfig",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.CreateLogShipper.destConfig.kafkaConfig"
+    } ]
+  } ],
+  "desc_key" : "bls.CreateLogShipper.desc"
+}

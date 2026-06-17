@@ -1,0 +1,13 @@
+{
+  "name" : "ResolveIndex",
+  "method" : "GET",
+  "uri" : "/_resolve/index/{name}",
+  "parameters" : [ {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.ResolveIndex.name"
+  } ],
+  "desc_key" : "bls.ResolveIndex.desc"
+}

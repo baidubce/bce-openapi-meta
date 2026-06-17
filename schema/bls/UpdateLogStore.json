@@ -1,0 +1,79 @@
+{
+  "name" : "UpdateLogStore",
+  "method" : "PUT",
+  "uri" : "/v{version}/logstore/{logStoreName}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "project",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.UpdateLogStore.project"
+  }, {
+    "name" : "logStoreName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.UpdateLogStore.logStoreName"
+  }, {
+    "name" : "retention",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateLogStore.retention"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateLogStore.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.UpdateLogStore.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.UpdateLogStore.tags.tagValue"
+    } ]
+  }, {
+    "name" : "shardCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateLogStore.shardCount"
+  }, {
+    "name" : "maxShardCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateLogStore.maxShardCount"
+  }, {
+    "name" : "disableShardAutoSplit",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateLogStore.disableShardAutoSplit"
+  }, {
+    "name" : "indexEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateLogStore.indexEnabled"
+  }, {
+    "name" : "hotRetention",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateLogStore.hotRetention"
+  } ],
+  "desc_key" : "bls.UpdateLogStore.desc"
+}

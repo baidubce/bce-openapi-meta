@@ -1,0 +1,20 @@
+{
+  "name" : "GetLogShipper",
+  "method" : "GET",
+  "uri" : "/v{version}/logshipper/{logShipperID}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "logShipperID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.GetLogShipper.logShipperID"
+  } ],
+  "desc_key" : "bls.GetLogShipper.desc"
+}

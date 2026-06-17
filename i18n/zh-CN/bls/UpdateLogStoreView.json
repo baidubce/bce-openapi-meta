@@ -1,0 +1,11 @@
+{
+  "UpdateLogStoreView" : {
+    "project" : "日志组名称，默认default",
+    "name" : "日志视图名称",
+    "logstores" : "与日志视图相关联的日志集列表",
+    "logstores.region" : "日志集所在的区域",
+    "logstores.project" : "日志集所属的日志组名称",
+    "logstores.name" : "日志集的名称",
+    "logstores.extends" : "允许对日志集中的索引列进行别名"
+  }
+}

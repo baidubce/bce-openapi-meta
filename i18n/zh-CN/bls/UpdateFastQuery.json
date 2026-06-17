@@ -1,0 +1,11 @@
+{
+  "UpdateFastQuery" : {
+    "name" : "快速查询名称",
+    "fastQueryName" : "快速查询名称",
+    "query" : "快速查询语句",
+    "description" : "信息描述",
+    "project" : "日志组名称，默认default",
+    "logStoreName" : "日志集名称",
+    "logStreamName" : "日志流名称"
+  }
+}

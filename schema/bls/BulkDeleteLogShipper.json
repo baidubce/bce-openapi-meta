@@ -1,0 +1,20 @@
+{
+  "name" : "BulkDeleteLogShipper",
+  "method" : "DELETE",
+  "uri" : "/v{version}/logshipper",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "logShipperIDs",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.BulkDeleteLogShipper.logShipperIDs"
+  } ],
+  "desc_key" : "bls.BulkDeleteLogShipper.desc"
+}

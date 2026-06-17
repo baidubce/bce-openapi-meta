@@ -1,0 +1,44 @@
+{
+  "name" : "DescribeLogStoreTemplates",
+  "method" : "POST",
+  "uri" : "/v{version}/bls?action=DescribeLogStoreTemplates",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.DescribeLogStoreTemplates.name"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.DescribeLogStoreTemplates.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.DescribeLogStoreTemplates.order"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.DescribeLogStoreTemplates.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.DescribeLogStoreTemplates.pageSize"
+  } ],
+  "desc_key" : "bls.DescribeLogStoreTemplates.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "FieldCaps" : {
+    "name" : "Index name, exact match only (no wildcards)",
+    "fields" : "Index field name, supports * wildcard matching"
+  }
+}

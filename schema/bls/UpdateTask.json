@@ -1,0 +1,253 @@
+{
+  "name" : "UpdateTask",
+  "method" : "POST",
+  "uri" : "/task/{taskId}",
+  "parameters" : [ {
+    "name" : "taskId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.UpdateTask.taskId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateTask.name"
+  }, {
+    "name" : "config",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateTask.config",
+    "sub_parameters" : [ {
+      "name" : "srcConfig",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bls.UpdateTask.config.srcConfig",
+      "sub_parameters" : [ {
+        "name" : "srcType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.srcType"
+      }, {
+        "name" : "logType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.logType"
+      }, {
+        "name" : "srcDir",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.srcDir"
+      }, {
+        "name" : "matchedPattern",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.matchedPattern"
+      }, {
+        "name" : "ignorePattern",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.ignorePattern"
+      }, {
+        "name" : "timeFormat",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.timeFormat"
+      }, {
+        "name" : "ttl",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.ttl"
+      }, {
+        "name" : "useMultiline",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.useMultiline"
+      }, {
+        "name" : "multilineRegex",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.multilineRegex"
+      }, {
+        "name" : "recursiveDir",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.recursiveDir"
+      }, {
+        "name" : "processType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.processType"
+      }, {
+        "name" : "processConfig",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig",
+        "sub_parameters" : [ {
+          "name" : "regex",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.regex"
+        }, {
+          "name" : "separator",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.separator"
+        }, {
+          "name" : "customSeparator",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.customSeparator"
+        }, {
+          "name" : "quote",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.quote"
+        }, {
+          "name" : "kvKeyIndex",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.kvKeyIndex"
+        }, {
+          "name" : "kvValueIndex",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.kvValueIndex"
+        }, {
+          "name" : "sampleLog",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.sampleLog"
+        }, {
+          "name" : "keys",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.keys"
+        }, {
+          "name" : "dataType",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.dataType"
+        }, {
+          "name" : "discardOnFailure",
+          "type" : "Boolean",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.discardOnFailure"
+        }, {
+          "name" : "keepOriginal",
+          "type" : "Boolean",
+          "required" : false,
+          "desc_key" : "bls.UpdateTask.config.srcConfig.processConfig.keepOriginal"
+        } ]
+      }, {
+        "name" : "logTime",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.logTime"
+      }, {
+        "name" : "timestampKey",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.timestampKey"
+      }, {
+        "name" : "dateFormat",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.dateFormat"
+      }, {
+        "name" : "filterExpr",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.filterExpr"
+      }, {
+        "name" : "additionConfig",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.additionConfig"
+      }, {
+        "name" : "metaEnv",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.metaEnv"
+      }, {
+        "name" : "metaLabel",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.metaLabel"
+      }, {
+        "name" : "metaContainer",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.metaContainer"
+      }, {
+        "name" : "metaToFields",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.metaToFields"
+      }, {
+        "name" : "HarvesterLimit",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.srcConfig.HarvesterLimit"
+      } ]
+    }, {
+      "name" : "destConfig",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bls.UpdateTask.config.destConfig",
+      "sub_parameters" : [ {
+        "name" : "destType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.destConfig.destType"
+      }, {
+        "name" : "logStore",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.destConfig.logStore"
+      }, {
+        "name" : "rateLimit",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.destConfig.rateLimit"
+      }, {
+        "name" : "clientCount",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bls.UpdateTask.config.destConfig.clientCount"
+      } ]
+    } ]
+  }, {
+    "name" : "hosts",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateTask.hosts",
+    "sub_parameters" : [ {
+      "name" : "hostId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.UpdateTask.hosts.hostId"
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bls.UpdateTask.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.UpdateTask.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bls.UpdateTask.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "bls.UpdateTask.desc"
+}

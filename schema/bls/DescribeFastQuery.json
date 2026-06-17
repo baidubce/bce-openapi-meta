@@ -1,0 +1,20 @@
+{
+  "name" : "DescribeFastQuery",
+  "method" : "GET",
+  "uri" : "/v{version}/fastquery/{fastQueryName}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "fastQueryName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bls.DescribeFastQuery.fastQueryName"
+  } ],
+  "desc_key" : "bls.DescribeFastQuery.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "BulkSetLogShipperStatus" : {
+    "desiredStatus" : "Desired status, either Running or Paused",
+    "logShipperIDs" : "Batch task IDs"
+  }
+}

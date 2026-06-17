@@ -1,0 +1,22 @@
+{
+  "UpdateLogStoreTemplate" : {
+    "name" : "模板名称，同user下唯一",
+    "projectPatterns" : "日志组匹配模式，支持*通配符",
+    "logstorePatterns" : "日志集匹配模式，支持*通配符",
+    "priority" : "日志集模板优先级，值越大，优先级越高，同user下唯一",
+    "template" : "模板配置",
+    "template.retention" : "保存时长，单位：天",
+    "template.shardCount" : "初始shard个数",
+    "template.disableShardAutoSplit" : "是否关闭shard自动分裂",
+    "template.maxShardCount" : "最大分裂数量，取值范围:[1, 50]",
+    "template.enableHotRetention" : "是否开启冷热自动分层",
+    "template.hotRetention" : "热存时长，单位：天",
+    "template.index" : "索引配置",
+    "template.name" : "模板名称，同user下唯一",
+    "template.projectPatterns" : "日志组匹配模式，支持*通配符",
+    "template.logstorePatterns" : "日志集匹配模式，支持*通配符",
+    "template.priority" : "日志集模板优先级，值越大，优先级越高，同user下唯一",
+    "template.createdTimestamp" : "创建时间，UTC时间，格式：2025-04-20T10:01:12Z",
+    "template.updatedTimestamp" : "更新时间，UTC时间，格式：2025-04-20T10:01:12Z"
+  }
+}

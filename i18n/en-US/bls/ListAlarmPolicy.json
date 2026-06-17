@@ -1,0 +1,13 @@
+{
+  "ListAlarmPolicy" : {
+    "policyNamePattern" : "Filter by policy name",
+    "policyIdPattern" : "Filter by policy ID",
+    "logStoreNamePattern" : "Filter by log store",
+    "state" : "Filter by policy state, values: ENABLE, DISABLED",
+    "noticeState" : "Filter by notification state, values: ENABLE, DISABLED",
+    "orderBy" : "Sort field: createdTime (creation time), updatedTime (update time), default: updatedTime",
+    "order" : "Sort order: asc (ascending), desc (descending), default: desc",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Page size, maximum: 100"
+  }
+}

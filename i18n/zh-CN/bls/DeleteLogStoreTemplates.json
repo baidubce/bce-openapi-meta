@@ -1,0 +1,5 @@
+{
+  "DeleteLogStoreTemplates" : {
+    "names" : "模板名称列表，支持批量删除"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ListAlarmExecutions" : {
+    "policyId" : "Filter by policy ID",
+    "logStoreName" : "Filter by log store",
+    "state" : "Filter by alarm state. Values: OK: Recovered, ALERT: Alerting, CLOSED: Closed",
+    "noticeStates" : "Filter by alarm notification state. Values: SENT: Sent, NOT_SENT: Not sent, FAIL: Send failed, BLOCK_BY_PENDING_COUNT: Not sent due to insufficient frequency, BLOCK_BY_REPEAT_INTERVAL: Not sent due to repeat alarm interval not reached, BLOCK_BY_FREQUENCY: Not sent due to too many sends, BLOCK_BY_NOTICE_DISABLED: Not sent due to notification disabled",
+    "startDateTime" : "Query start time, UTC, default: 30 days ago",
+    "endDateTime" : "Query end time, UTC, default: current time",
+    "orderBy" : "Sort field. @timestamp: execution time, default: @timestamp",
+    "order" : "Sort order. asc: ascending, desc: descending, default: desc",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Number of items per page, max: 100"
+  }
+}

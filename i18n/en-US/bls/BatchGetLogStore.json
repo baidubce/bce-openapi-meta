@@ -1,0 +1,7 @@
+{
+  "BatchGetLogStore" : {
+    "LogStores" : "List of log stores to query, maximum 100 per request",
+    "LogStores.project" : "Project name",
+    "LogStores.logStoreName" : "Log store name"
+  }
+}

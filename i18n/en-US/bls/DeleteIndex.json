@@ -1,0 +1,6 @@
+{
+  "DeleteIndex" : {
+    "project" : "Log group name",
+    "logStoreName" : "Log store name"
+  }
+}

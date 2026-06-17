@@ -1,0 +1,5 @@
+{
+  "DescribeAlarmRecord" : {
+    "alarmId" : "报警ID"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ListAlarmRecord" : {
+    "policyNamePattern" : "Filter by policy name",
+    "policyIdPattern" : "Filter by policy ID",
+    "logStoreNamePattern" : "Filter by log store name",
+    "level" : "Filter by alarm level, values: INFO, WARN, CRITICAL",
+    "state" : "Filter by alarm state, values: OK: recovered, ALERT: alerting, CLOSED: closed",
+    "startDateTime" : "Query start time, UTC, default: 30 days ago",
+    "endDateTime" : "Query end time, UTC, default: current time",
+    "orderBy" : "Sort field, startTime: alarm start time, endTime: alarm end time, default: startTime",
+    "order" : "Sort order, asc: ascending, desc: descending, default: desc",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Number of items per page, max: 100"
+  }
+}
