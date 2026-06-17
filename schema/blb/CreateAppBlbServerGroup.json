@@ -49,52 +49,6 @@
       "type" : "Integer",
       "required" : false,
       "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.weight"
-    }, {
-      "name" : "privateIp",
-      "type" : "String",
-      "required" : false,
-      "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.privateIp"
-    }, {
-      "name" : "portList",
-      "type" : "List",
-      "required" : false,
-      "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.portList",
-      "sub_parameters" : [ {
-        "name" : "listenerPort",
-        "type" : "Integer",
-        "required" : false,
-        "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.portList.listenerPort"
-      }, {
-        "name" : "backendPort",
-        "type" : "String",
-        "required" : false,
-        "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.portList.backendPort"
-      }, {
-        "name" : "portType",
-        "type" : "String",
-        "required" : false,
-        "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.portList.portType"
-      }, {
-        "name" : "healthCheckPortType",
-        "type" : "String",
-        "required" : false,
-        "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.portList.healthCheckPortType"
-      }, {
-        "name" : "status",
-        "type" : "String",
-        "required" : false,
-        "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.portList.status"
-      }, {
-        "name" : "portId",
-        "type" : "String",
-        "required" : false,
-        "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.portList.portId"
-      }, {
-        "name" : "policyId",
-        "type" : "String",
-        "required" : false,
-        "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.portList.policyId"
-      } ]
     } ]
   } ],
   "desc_key" : "blb.CreateAppBlbServerGroup.desc"

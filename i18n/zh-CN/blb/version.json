@@ -79,21 +79,9 @@
       "title" : "创建集群",
       "summary" : "创建集群"
     },
-    "CreateAppBlbServerGroup" : {
-      "title" : "创建服务器组",
-      "summary" : "创建服务器组"
-    },
-    "AddAppBlbServerGroupRs" : {
-      "title" : "添加后端服务器",
-      "summary" : "添加后端服务器"
-    },
     "DescribeAppBlbHttpsListener" : {
       "title" : "查询HTTPS监听器",
       "summary" : "查询HTTPS监听器"
-    },
-    "UpdateAppBlbServerGroupRs" : {
-      "title" : "修改后端服务器",
-      "summary" : "修改后端服务器"
     },
     "DescribeAppBlbListener" : {
       "title" : "查询所有监听",
@@ -175,9 +163,21 @@
       "title" : "创建服务发布点",
       "summary" : "创建服务发布点"
     },
+    "CreateAppBlbServerGroup" : {
+      "title" : "创建服务器组",
+      "summary" : "创建服务器组"
+    },
+    "UpdateAppBlbServerGroupRs" : {
+      "title" : "修改后端服务器",
+      "summary" : "修改后端服务器"
+    },
     "DescribeBlb" : {
       "title" : "查询实例详情",
       "summary" : "查询实例详情"
+    },
+    "AddAppBlbServerGroupRs" : {
+      "title" : "添加后端服务器",
+      "summary" : "添加后端服务器"
     },
     "CreateBlbTcpListener" : {
       "title" : "创建TCP监听器",

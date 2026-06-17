@@ -6,8 +6,6 @@
     "desc" : "Description of the server group for additional details. Length 0~450 bytes, supports Chinese characters. Defaults to empty.",
     "backendServerList" : "List of backend servers bound to the server group",
     "backendServerList.instanceId" : "Identifier of the backend server",
-    "backendServerList.weight" : "Weight of the backend server, value range 0-100",
-    "backendServerList.privateIp" : "Returned on query; the private IP address of the bound backend server",
-    "backendServerList.portList" : "Returned on query; list of ports exposed by the RS with corresponding policies configured"
+    "backendServerList.weight" : "Weight of the backend server, value range 0-100"
   }
 }

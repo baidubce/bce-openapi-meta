@@ -79,21 +79,9 @@
       "title" : "createLbdc",
       "summary" : "createLbdc"
     },
-    "CreateAppBlbServerGroup" : {
-      "title" : "createAppBlbServerGroup",
-      "summary" : "createAppBlbServerGroup"
-    },
-    "AddAppBlbServerGroupRs" : {
-      "title" : "addAppBlbServerGroupRs",
-      "summary" : "addAppBlbServerGroupRs"
-    },
     "DescribeAppBlbHttpsListener" : {
       "title" : "describeAppBlbHttpsListener",
       "summary" : "describeAppBlbHttpsListener"
-    },
-    "UpdateAppBlbServerGroupRs" : {
-      "title" : "updateAppBlbServerGroupRs",
-      "summary" : "updateAppBlbServerGroupRs"
     },
     "DescribeAppBlbListener" : {
       "title" : "describeAppBlbListener",
@@ -175,9 +163,21 @@
       "title" : "createService",
       "summary" : "createService"
     },
+    "CreateAppBlbServerGroup" : {
+      "title" : "createAppBlbServerGroup",
+      "summary" : "createAppBlbServerGroup"
+    },
+    "UpdateAppBlbServerGroupRs" : {
+      "title" : "updateAppBlbServerGroupRs",
+      "summary" : "updateAppBlbServerGroupRs"
+    },
     "DescribeBlb" : {
       "title" : "describeBlb",
       "summary" : "describeBlb"
+    },
+    "AddAppBlbServerGroupRs" : {
+      "title" : "addAppBlbServerGroupRs",
+      "summary" : "addAppBlbServerGroupRs"
     },
     "CreateBlbTcpListener" : {
       "title" : "createBlbTcpListener",
