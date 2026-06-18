@@ -1,0 +1,7 @@
+{
+  "GetSessionToken" : {
+    "durationSeconds" : "Validity period of the temporary AK, cannot exceed 36h, default is 43200 (12h)",
+    "accessControlList" : "Permissions bound to the temporary credentials",
+    "attachment" : "Additional information attached to the credential by the business party"
+  }
+}

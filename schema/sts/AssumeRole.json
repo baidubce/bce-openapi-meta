@@ -1,0 +1,44 @@
+{
+  "name" : "AssumeRole",
+  "method" : "POST",
+  "uri" : "/v{version}/credential?assumeRole",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "durationSeconds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "sts.AssumeRole.durationSeconds"
+  }, {
+    "name" : "accountId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "sts.AssumeRole.accountId"
+  }, {
+    "name" : "userId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "sts.AssumeRole.userId"
+  }, {
+    "name" : "roleName",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "sts.AssumeRole.roleName"
+  }, {
+    "name" : "accessControlList",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "sts.AssumeRole.accessControlList"
+  } ],
+  "desc_key" : "sts.AssumeRole.desc"
+}

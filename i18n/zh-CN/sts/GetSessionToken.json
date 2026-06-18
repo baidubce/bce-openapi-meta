@@ -1,0 +1,7 @@
+{
+  "GetSessionToken" : {
+    "durationSeconds" : "临时AK的有效期，不能超过36h，默认为43200（12h）",
+    "accessControlList" : "为临时身份凭证绑定的权限",
+    "attachment" : "业务方绑定在credential上的一些信息"
+  }
+}

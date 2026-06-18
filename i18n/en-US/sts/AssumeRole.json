@@ -1,0 +1,9 @@
+{
+  "AssumeRole" : {
+    "durationSeconds" : "Validity period of the temporary AK, cannot exceed 2 hours",
+    "accountId" : "ID of the account where the role resides",
+    "userId" : "User ID, optional and not required in common scenarios",
+    "roleName" : "Name of the role",
+    "accessControlList" : "Permissions bound to the temporary credentials"
+  }
+}

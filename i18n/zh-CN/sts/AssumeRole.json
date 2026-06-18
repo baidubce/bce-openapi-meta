@@ -1,0 +1,9 @@
+{
+  "AssumeRole" : {
+    "durationSeconds" : "临时AK的有效期，不能超过2h",
+    "accountId" : "角色所在的账户的Id",
+    "userId" : "用户的Id，非必填普通场景无需关注",
+    "roleName" : "角色的名称",
+    "accessControlList" : "为临时身份凭证绑定的权限"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "GetSessionToken",
+  "method" : "POST",
+  "uri" : "/v{version}/sessionToken",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "durationSeconds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "sts.GetSessionToken.durationSeconds"
+  }, {
+    "name" : "accessControlList",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "sts.GetSessionToken.accessControlList"
+  }, {
+    "name" : "attachment",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "sts.GetSessionToken.attachment"
+  } ],
+  "desc_key" : "sts.GetSessionToken.desc"
+}

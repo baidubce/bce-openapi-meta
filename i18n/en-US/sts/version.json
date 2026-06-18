@@ -1,0 +1,15 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "sts",
+  "apis" : {
+    "AssumeRole" : {
+      "title" : "assumeRole",
+      "summary" : "assumeRole"
+    },
+    "GetSessionToken" : {
+      "title" : "getSessionToken",
+      "summary" : "getSessionToken"
+    }
+  }
+}

@@ -191,5 +191,11 @@
       "su" : "bcm.su.baidubce.com",
       "yq" : "bcm.yq.baidubce.com"
     }
+  }, {
+    "code" : "sts",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "sts.bj.baidubce.com"
+    }
   } ]
 }
