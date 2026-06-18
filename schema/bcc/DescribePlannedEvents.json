@@ -1,0 +1,73 @@
+{
+  "name" : "DescribePlannedEvents",
+  "method" : "POST",
+  "uri" : "/",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.DescribePlannedEvents.action"
+  }, {
+    "name" : "serverEventStatus",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEvents.serverEventStatus"
+  }, {
+    "name" : "serverEventIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEvents.serverEventIds"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEvents.instanceIds"
+  }, {
+    "name" : "productCategory",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEvents.productCategory"
+  }, {
+    "name" : "serverEventType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEvents.serverEventType"
+  }, {
+    "name" : "serverEventLogTimeFilter",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEvents.serverEventLogTimeFilter"
+  }, {
+    "name" : "periodStartTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEvents.periodStartTime"
+  }, {
+    "name" : "periodEndTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEvents.periodEndTime"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEvents.maxKeys"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEvents.marker"
+  } ],
+  "desc_key" : "bcc.DescribePlannedEvents.desc"
+}

@@ -1,0 +1,9 @@
+{
+  "ModifyInstUserOpAuthorizeRuleAttribute" : {
+    "action" : "Action performed on the instance; for this API the value is: ModifyInstUserOpAuthorizeRuleAttribute",
+    "enableRule" : "Whether to enable pre-authorization immediately; default is 1 (enabled)",
+    "authorizeMaintenanceOperations" : "Pre-authorization method (Repair / Reboot / TamAuthorize)",
+    "ruleName" : "Rule name",
+    "ruleId" : "Rule ID"
+  }
+}

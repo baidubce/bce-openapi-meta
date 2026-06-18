@@ -1,0 +1,9 @@
+{
+  "AuthorizeServerEvent" : {
+    "action" : "对实例执行的动作，本接口中该参数取值：AuthorizeServerEvent",
+    "serverEventId" : "维修事件ID，serverEventId、instanceId必须选择其中一个请求",
+    "instanceId" : "实例ID，serverEventId、instanceId必须选择其中一个请求",
+    "authorizeMaintenanceOperation" : "授权的运维操作，参考事件返回的运维操作",
+    "executeTime" : "授权的执行时间，符合BCE规范的日期格式"
+  }
+}

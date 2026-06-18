@@ -1,0 +1,9 @@
+{
+  "AuthorizeServerEvent" : {
+    "action" : "Action to perform on the instance; value for this API: AuthorizeServerEvent",
+    "serverEventId" : "Maintenance event ID; one of serverEventId or instanceId is required",
+    "instanceId" : "Instance ID; one of serverEventId or instanceId is required",
+    "authorizeMaintenanceOperation" : "Authorized maintenance operation; refer to the operation returned in the event",
+    "executeTime" : "Authorized execution time; date format compliant with BCE specification"
+  }
+}

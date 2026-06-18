@@ -1,0 +1,9 @@
+{
+  "DescribeAuthorizeRules" : {
+    "action" : "对实例执行的动作，本接口中该参数取值：DescribeAuthorizeRules",
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量通常不超过100，缺省值为10",
+    "ruleIds" : "待查询的规则ID",
+    "ruleNames" : "待查询的规则名称"
+  }
+}

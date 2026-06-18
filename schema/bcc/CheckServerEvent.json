@@ -1,0 +1,49 @@
+{
+  "name" : "CheckServerEvent",
+  "method" : "POST",
+  "uri" : "/",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.CheckServerEvent.action"
+  }, {
+    "name" : "serverEventId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CheckServerEvent.serverEventId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CheckServerEvent.instanceId"
+  }, {
+    "name" : "checkResult",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.CheckServerEvent.checkResult"
+  }, {
+    "name" : "issueEffect",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CheckServerEvent.issueEffect"
+  }, {
+    "name" : "issueDescription",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CheckServerEvent.issueDescription"
+  }, {
+    "name" : "authorizeMaintenanceOperation",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CheckServerEvent.authorizeMaintenanceOperation"
+  } ],
+  "desc_key" : "bcc.CheckServerEvent.desc"
+}

@@ -1,0 +1,9 @@
+{
+  "DescribeAuthorizeRules" : {
+    "action" : "Action performed on the instance, value for this API: DescribeAuthorizeRules",
+    "marker" : "Starting position for paginated list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 100, default is 10",
+    "ruleIds" : "IDs of the rules to query",
+    "ruleNames" : "Names of the rules to query"
+  }
+}

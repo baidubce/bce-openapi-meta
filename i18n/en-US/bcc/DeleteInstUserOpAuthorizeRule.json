@@ -1,0 +1,6 @@
+{
+  "DeleteInstUserOpAuthorizeRule" : {
+    "action" : "Action to perform on the instance; for this API the value is: DeleteInstUserOpAuthorizeRule",
+    "ruleId" : "Pre-authorization rule ID; only rules in DISABLED status can be deleted"
+  }
+}

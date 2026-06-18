@@ -635,9 +635,17 @@
       "title" : "attachVolume",
       "summary" : "attachVolume"
     },
+    "DescribeUnplannedEvents" : {
+      "title" : "describeUnplannedEvents",
+      "summary" : "describeUnplannedEvents"
+    },
     "BatchRefundResource" : {
       "title" : "batchRefundResource",
       "summary" : "batchRefundResource"
+    },
+    "DescribeUnplannedEventRecords" : {
+      "title" : "describeUnplannedEventRecords",
+      "summary" : "describeUnplannedEventRecords"
     },
     "DetachVolume" : {
       "title" : "detachVolume",
@@ -647,17 +655,49 @@
       "title" : "modifyRelatedDeletePolicy",
       "summary" : "modifyRelatedDeletePolicy"
     },
+    "AuthorizeServerEvent" : {
+      "title" : "authorizeServerEvent",
+      "summary" : "authorizeServerEvent"
+    },
     "ReleaseVolume" : {
       "title" : "releaseVolume",
       "summary" : "releaseVolume"
+    },
+    "CheckServerEvent" : {
+      "title" : "checkServerEvent",
+      "summary" : "checkServerEvent"
+    },
+    "DescribeAuthorizeRules" : {
+      "title" : "describeAuthorizeRules",
+      "summary" : "describeAuthorizeRules"
+    },
+    "DeleteInstUserOpAuthorizeRule" : {
+      "title" : "deleteInstUserOpAuthorizeRule",
+      "summary" : "deleteInstUserOpAuthorizeRule"
+    },
+    "ModifyInstUserOpAuthorizeRuleAttribute" : {
+      "title" : "modifyInstUserOpAuthorizeRuleAttribute",
+      "summary" : "modifyInstUserOpAuthorizeRuleAttribute"
     },
     "RenameVolume" : {
       "title" : "renameVolume",
       "summary" : "renameVolume"
     },
+    "DescribePlannedEventRecords" : {
+      "title" : "describePlannedEventRecords",
+      "summary" : "describePlannedEventRecords"
+    },
+    "CreateAuthorizationRule" : {
+      "title" : "createAuthorizationRule",
+      "summary" : "createAuthorizationRule"
+    },
     "ModifyCdsAttribute" : {
       "title" : "modifyCdsAttribute",
       "summary" : "modifyCdsAttribute"
+    },
+    "DescribePlannedEvents" : {
+      "title" : "describePlannedEvents",
+      "summary" : "describePlannedEvents"
     },
     "GetInstanceUserDataInfo" : {
       "title" : "getInstanceUserDataInfo",

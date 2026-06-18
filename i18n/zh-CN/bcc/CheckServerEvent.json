@@ -1,0 +1,11 @@
+{
+  "CheckServerEvent" : {
+    "action" : "对实例执行的动作，本接口中该参数取值：CheckServerEvent",
+    "serverEventId" : "维修事件ID，serverEventId、instanceId必须选择其中一个请求",
+    "instanceId" : "实例ID，serverEventId、instanceId必须选择其中一个请求",
+    "checkResult" : "非预期事件是否通过验收，通过：Pass；不通过：Reject。",
+    "issueEffect" : "故障影响，故障验收为Reject时必传",
+    "issueDescription" : "故障影响，故障验收为Reject时必传",
+    "authorizeMaintenanceOperation" : "故障验收为Reject时授权的运维操作"
+  }
+}

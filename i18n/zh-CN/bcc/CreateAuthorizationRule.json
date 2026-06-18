@@ -1,0 +1,9 @@
+{
+  "CreateAuthorizationRule" : {
+    "action" : "对实例执行的动作，本接口中该参数取值：CreateAuthorizeRule",
+    "enableRule" : "是否启用立即启用预授权，默认为1，开启",
+    "authorizeMaintenanceOperations" : "预授权方法（Repair / Reboot / TamAuthorize）",
+    "ruleName" : "规则名称",
+    "serverEventCategory" : "预授权任务类型（非预期事件UnplannedMaintenanceEvent / 预期内事件PlannedMaintenanceEvent）"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "CreateAuthorizationRule" : {
+    "action" : "Action performed on the instance; value for this API: CreateAuthorizeRule",
+    "enableRule" : "Whether to enable the pre-authorization rule immediately; default is 1 (enabled)",
+    "authorizeMaintenanceOperations" : "Pre-authorization method (Repair / Reboot / TamAuthorize)",
+    "ruleName" : "Rule name",
+    "serverEventCategory" : "Pre-authorization task type (UnplannedMaintenanceEvent / PlannedMaintenanceEvent)"
+  }
+}

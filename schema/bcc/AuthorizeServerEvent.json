@@ -1,0 +1,37 @@
+{
+  "name" : "AuthorizeServerEvent",
+  "method" : "POST",
+  "uri" : "/",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.AuthorizeServerEvent.action"
+  }, {
+    "name" : "serverEventId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AuthorizeServerEvent.serverEventId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AuthorizeServerEvent.instanceId"
+  }, {
+    "name" : "authorizeMaintenanceOperation",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AuthorizeServerEvent.authorizeMaintenanceOperation"
+  }, {
+    "name" : "executeTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.AuthorizeServerEvent.executeTime"
+  } ],
+  "desc_key" : "bcc.AuthorizeServerEvent.desc"
+}

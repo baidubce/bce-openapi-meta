@@ -635,9 +635,17 @@
       "title" : "挂载CDS磁盘",
       "summary" : "挂载CDS磁盘"
     },
+    "DescribeUnplannedEvents" : {
+      "title" : "非预期事件列表",
+      "summary" : "非预期事件列表"
+    },
     "BatchRefundResource" : {
       "title" : "批量退订预付费实例",
       "summary" : "批量退订预付费实例"
+    },
+    "DescribeUnplannedEventRecords" : {
+      "title" : "非预期事件记录列表",
+      "summary" : "非预期事件记录列表"
     },
     "DetachVolume" : {
       "title" : "卸载CDS磁盘",
@@ -647,17 +655,49 @@
       "title" : "设置按量付费EIP关联自动释放",
       "summary" : "设置按量付费EIP关联自动释放"
     },
+    "AuthorizeServerEvent" : {
+      "title" : "授权事件",
+      "summary" : "授权事件"
+    },
     "ReleaseVolume" : {
       "title" : "释放CDS磁盘（新）",
       "summary" : "释放CDS磁盘（新）"
+    },
+    "CheckServerEvent" : {
+      "title" : "验收事件",
+      "summary" : "验收事件"
+    },
+    "DescribeAuthorizeRules" : {
+      "title" : "获取授权规则列表",
+      "summary" : "获取授权规则列表"
+    },
+    "DeleteInstUserOpAuthorizeRule" : {
+      "title" : "删除预授权规则",
+      "summary" : "删除预授权规则"
+    },
+    "ModifyInstUserOpAuthorizeRuleAttribute" : {
+      "title" : "修改预授权规则",
+      "summary" : "修改预授权规则"
     },
     "RenameVolume" : {
       "title" : "磁盘重命名",
       "summary" : "磁盘重命名"
     },
+    "DescribePlannedEventRecords" : {
+      "title" : "查询预期事件记录列表",
+      "summary" : "查询预期事件记录列表"
+    },
+    "CreateAuthorizationRule" : {
+      "title" : "创建预授权规则",
+      "summary" : "创建预授权规则"
+    },
     "ModifyCdsAttribute" : {
       "title" : "修改磁盘属性",
       "summary" : "修改磁盘属性"
+    },
+    "DescribePlannedEvents" : {
+      "title" : "查询预期事件列表",
+      "summary" : "查询预期事件列表"
     },
     "GetInstanceUserDataInfo" : {
       "title" : "查询实例自定义数据",

@@ -1,0 +1,14 @@
+{
+  "DescribePlannedEventRecords" : {
+    "action" : "Action performed on the instance; value for this API: DescribePlannedEventRecords",
+    "serverEventIds" : "List of maintenance event IDs",
+    "instanceIds" : "List of instance short IDs",
+    "productCategory" : "Product category of the affected instance (BBC / BCC / HPAS)",
+    "serverEventType" : "Event type; supported values: InstanceRepairBySystemFailureEvent, InstanceRepairOrFastRepairBySystemFailureEvent, LocalDiskInstanceRepairBySystemFailureEvent, LocalDiskInstanceRepairOrFastRepairBySystemFailureEvent",
+    "serverEventLogTimeFilter" : "Query events within the periodStartTime–periodEndTime range by event log type; supported values: EventCreate, EventAuthorize, EventExecuting, RejectCheckResult",
+    "periodStartTime" : "Start time for the timeFilter range; if empty, only periodEndTime is applied; must conform to BCE date format",
+    "periodEndTime" : "End time for the timeFilter range; if empty, only periodStartTime is applied; must conform to BCE date format",
+    "maxKeys" : "Maximum number of records per page; usually no more than 100; default is 10",
+    "marker" : "Starting event ID for paginated list queries"
+  }
+}

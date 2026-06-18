@@ -1,0 +1,67 @@
+{
+  "name" : "DescribePlannedEventRecords",
+  "method" : "POST",
+  "uri" : "/",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.DescribePlannedEventRecords.action"
+  }, {
+    "name" : "serverEventIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEventRecords.serverEventIds"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEventRecords.instanceIds"
+  }, {
+    "name" : "productCategory",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEventRecords.productCategory"
+  }, {
+    "name" : "serverEventType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEventRecords.serverEventType"
+  }, {
+    "name" : "serverEventLogTimeFilter",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEventRecords.serverEventLogTimeFilter"
+  }, {
+    "name" : "periodStartTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEventRecords.periodStartTime"
+  }, {
+    "name" : "periodEndTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEventRecords.periodEndTime"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEventRecords.maxKeys"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribePlannedEventRecords.marker"
+  } ],
+  "desc_key" : "bcc.DescribePlannedEventRecords.desc"
+}

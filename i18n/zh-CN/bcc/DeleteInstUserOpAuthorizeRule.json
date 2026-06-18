@@ -1,0 +1,6 @@
+{
+  "DeleteInstUserOpAuthorizeRule" : {
+    "action" : "对实例执行的动作，本接口中该参数取值：DeleteInstUserOpAuthorizeRule",
+    "ruleId" : "预授权规则ID，只有在禁用状态DISABLED的规则才可以删除"
+  }
+}

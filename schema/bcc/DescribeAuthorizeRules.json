@@ -1,0 +1,37 @@
+{
+  "name" : "DescribeAuthorizeRules",
+  "method" : "POST",
+  "uri" : "/",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.DescribeAuthorizeRules.action"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribeAuthorizeRules.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribeAuthorizeRules.maxKeys"
+  }, {
+    "name" : "ruleIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribeAuthorizeRules.ruleIds"
+  }, {
+    "name" : "ruleNames",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DescribeAuthorizeRules.ruleNames"
+  } ],
+  "desc_key" : "bcc.DescribeAuthorizeRules.desc"
+}

@@ -1,0 +1,11 @@
+{
+  "CheckServerEvent" : {
+    "action" : "Action performed on the instance; fixed value for this API: CheckServerEvent",
+    "serverEventId" : "Maintenance event ID; one of serverEventId or instanceId is required",
+    "instanceId" : "Instance ID; one of serverEventId or instanceId is required",
+    "checkResult" : "Whether the unexpected event passes acceptance; Pass or Reject",
+    "issueEffect" : "Impact of the fault; required when checkResult is Reject",
+    "issueDescription" : "Description of the fault impact; required when checkResult is Reject",
+    "authorizeMaintenanceOperation" : "Authorized O&M operation when checkResult is Reject"
+  }
+}

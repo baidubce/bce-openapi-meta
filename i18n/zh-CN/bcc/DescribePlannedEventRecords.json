@@ -1,0 +1,14 @@
+{
+  "DescribePlannedEventRecords" : {
+    "action" : "对实例执行的动作，本接口中该参数取值：DescribePlannedEventRecords",
+    "serverEventIds" : "维修事件的id列表",
+    "instanceIds" : "虚机的短id列表",
+    "productCategory" : "故障实例产品类型 （BBC / BCC / HPAS）",
+    "serverEventType" : "事件类型，支持类型：InstanceRepairBySystemFailureEvent，InstanceRepairOrFastRepairBySystemFailureEvent，LocalDiskInstanceRepairBySystemFailureEvent，LocalDiskInstanceRepairOrFastRepairBySystemFailureEvent",
+    "serverEventLogTimeFilter" : "根据事件操作日志的类型查询periodStartTime和periodEndTime范围内的事件，支持类型：EventCreate、EventAuthorize、EventExecuting、RejectCheckResult",
+    "periodStartTime" : "timeFilter类型开始时间, 若为空则只按照periodEndTime限制，符合BCE规范的日期格式",
+    "periodEndTime" : "timeFilter类型结束时间, 若为空则只按照periodStartTime限制，符合BCE规范的日期格式",
+    "maxKeys" : "每页包含的最大数量，最大数量通常不超过100，缺省值为10",
+    "marker" : "批量获取列表的查询的起始事件id"
+  }
+}
