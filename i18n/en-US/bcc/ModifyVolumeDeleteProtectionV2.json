@@ -1,0 +1,6 @@
+{
+  "ModifyVolumeDeleteProtectionV2" : {
+    "volumeIds" : "Disk ID",
+    "enableDeleteProtection" : "Whether to enable disk deletion protection; true to enable, false to disable"
+  }
+}

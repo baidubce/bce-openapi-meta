@@ -707,6 +707,10 @@
       "title" : "查询实例列表",
       "summary" : "查询实例列表"
     },
+    "ModifyVolumeDeleteProtectionV2" : {
+      "title" : "配置磁盘释放保护",
+      "summary" : "配置磁盘释放保护"
+    },
     "ModifyVolumeChargeType" : {
       "title" : "磁盘计费变更",
       "summary" : "磁盘计费变更"

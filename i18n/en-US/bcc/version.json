@@ -707,6 +707,10 @@
       "title" : "listInstances",
       "summary" : "listInstances"
     },
+    "ModifyVolumeDeleteProtectionV2" : {
+      "title" : "modifyVolumeDeleteProtectionV2",
+      "summary" : "modifyVolumeDeleteProtectionV2"
+    },
     "ModifyVolumeChargeType" : {
       "title" : "modifyVolumeChargeType",
       "summary" : "modifyVolumeChargeType"

@@ -1,0 +1,26 @@
+{
+  "name" : "ModifyVolumeDeleteProtectionV2",
+  "method" : "POST",
+  "uri" : "/v{version}/volume/modify/deleteProtection",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyVolumeDeleteProtectionV2.volumeIds"
+  }, {
+    "name" : "enableDeleteProtection",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyVolumeDeleteProtectionV2.enableDeleteProtection"
+  } ],
+  "desc_key" : "bcc.ModifyVolumeDeleteProtectionV2.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "ModifyVolumeDeleteProtectionV2" : {
+    "volumeIds" : "磁盘ID",
+    "enableDeleteProtection" : "是否开启磁盘释放保护，true为开启，false为关闭"
+  }
+}
