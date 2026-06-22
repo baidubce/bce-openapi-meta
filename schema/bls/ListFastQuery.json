@@ -28,6 +28,12 @@
     "position" : "QUERY",
     "desc_key" : "bls.ListFastQuery.namePattern"
   }, {
+    "name" : "logStoreType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.ListFastQuery.logStoreType"
+  }, {
     "name" : "order",
     "type" : "String",
     "required" : false,

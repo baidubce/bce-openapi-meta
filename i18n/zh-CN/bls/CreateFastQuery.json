@@ -5,6 +5,7 @@
     "description" : "信息描述",
     "project" : "日志组名称，默认default",
     "logStoreName" : "日志集名称",
-    "logStreamName" : "日志流名称"
+    "logStreamName" : "日志流名称",
+    "logStoreType" : "日志集类型，LOGSTORE或者LOGSTORE_VIEW"
   }
 }

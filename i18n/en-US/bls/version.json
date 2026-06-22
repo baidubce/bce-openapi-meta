@@ -3,13 +3,41 @@
   "style" : "rpc",
   "description" : "bls",
   "apis" : {
+    "CreateDownloadTask" : {
+      "title" : "createDownloadTask",
+      "summary" : "createDownloadTask"
+    },
+    "ListLogStore" : {
+      "title" : "listLogStore",
+      "summary" : "listLogStore"
+    },
+    "BatchGetLogStore" : {
+      "title" : "batchGetLogStore",
+      "summary" : "batchGetLogStore"
+    },
     "UpdateProject" : {
       "title" : "updateProject",
       "summary" : "updateProject"
     },
-    "SetSingleLogShipperStatus" : {
-      "title" : "setSingleLogShipperStatus",
-      "summary" : "setSingleLogShipperStatus"
+    "CreateLogStoreTemplate" : {
+      "title" : "createLogStoreTemplate",
+      "summary" : "createLogStoreTemplate"
+    },
+    "UpdateLogStoreTemplate" : {
+      "title" : "updateLogStoreTemplate",
+      "summary" : "updateLogStoreTemplate"
+    },
+    "DeleteLogStoreTemplates" : {
+      "title" : "deleteLogStoreTemplates",
+      "summary" : "deleteLogStoreTemplates"
+    },
+    "DescribeLogStoreTemplate" : {
+      "title" : "describeLogStoreTemplate",
+      "summary" : "describeLogStoreTemplate"
+    },
+    "DescribeLogStoreTemplates" : {
+      "title" : "describeLogStoreTemplates",
+      "summary" : "describeLogStoreTemplates"
     },
     "DescribeAlarmPolicy" : {
       "title" : "describeAlarmPolicy",
@@ -35,14 +63,6 @@
       "title" : "listAlarmExecutionStats",
       "summary" : "listAlarmExecutionStats"
     },
-    "CreateLogStoreTemplate" : {
-      "title" : "createLogStoreTemplate",
-      "summary" : "createLogStoreTemplate"
-    },
-    "UpdateLogStoreTemplate" : {
-      "title" : "updateLogStoreTemplate",
-      "summary" : "updateLogStoreTemplate"
-    },
     "CreateTask" : {
       "title" : "createTask",
       "summary" : "createTask"
@@ -59,6 +79,10 @@
       "title" : "createLogStore",
       "summary" : "createLogStore"
     },
+    "CreateFastQuery" : {
+      "title" : "createFastQuery",
+      "summary" : "createFastQuery"
+    },
     "DeleteLogStore" : {
       "title" : "deleteLogStore",
       "summary" : "deleteLogStore"
@@ -67,13 +91,13 @@
       "title" : "updateLogStore",
       "summary" : "updateLogStore"
     },
-    "ListLogStore" : {
-      "title" : "listLogStore",
-      "summary" : "listLogStore"
+    "DescribeFastQuery" : {
+      "title" : "describeFastQuery",
+      "summary" : "describeFastQuery"
     },
-    "BatchGetLogStore" : {
-      "title" : "batchGetLogStore",
-      "summary" : "batchGetLogStore"
+    "ListFastQuery" : {
+      "title" : "listFastQuery",
+      "summary" : "listFastQuery"
     },
     "PushLogRecord" : {
       "title" : "pushLogRecord",
@@ -111,14 +135,6 @@
       "title" : "updateTask",
       "summary" : "updateTask"
     },
-    "CreateFastQuery" : {
-      "title" : "createFastQuery",
-      "summary" : "createFastQuery"
-    },
-    "DescribeFastQuery" : {
-      "title" : "describeFastQuery",
-      "summary" : "describeFastQuery"
-    },
     "UpdateFastQuery" : {
       "title" : "updateFastQuery",
       "summary" : "updateFastQuery"
@@ -130,10 +146,6 @@
     "ListProject" : {
       "title" : "listProject",
       "summary" : "listProject"
-    },
-    "ListFastQuery" : {
-      "title" : "listFastQuery",
-      "summary" : "listFastQuery"
     },
     "CreateLogShipper" : {
       "title" : "createLogShipper",
@@ -162,10 +174,6 @@
     "ListLogShipperRecord" : {
       "title" : "listLogShipperRecord",
       "summary" : "listLogShipperRecord"
-    },
-    "BulkSetLogShipperStatus" : {
-      "title" : "bulkSetLogShipperStatus",
-      "summary" : "bulkSetLogShipperStatus"
     },
     "BulkDeleteLogShipper" : {
       "title" : "bulkDeleteLogShipper",
@@ -199,10 +207,6 @@
       "title" : "deleteProject",
       "summary" : "deleteProject"
     },
-    "CreateDownloadTask" : {
-      "title" : "createDownloadTask",
-      "summary" : "createDownloadTask"
-    },
     "GetDownloadTaskLink" : {
       "title" : "getDownloadTaskLink",
       "summary" : "getDownloadTaskLink"
@@ -218,18 +222,6 @@
     "ListDownloadTask" : {
       "title" : "listDownloadTask",
       "summary" : "listDownloadTask"
-    },
-    "DeleteLogStoreTemplates" : {
-      "title" : "deleteLogStoreTemplates",
-      "summary" : "deleteLogStoreTemplates"
-    },
-    "DescribeLogStoreTemplate" : {
-      "title" : "describeLogStoreTemplate",
-      "summary" : "describeLogStoreTemplate"
-    },
-    "DescribeLogStoreTemplates" : {
-      "title" : "describeLogStoreTemplates",
-      "summary" : "describeLogStoreTemplates"
     },
     "CreateLogStoreView" : {
       "title" : "createLogStoreView",
@@ -271,9 +263,17 @@
       "title" : "queryLogRecord",
       "summary" : "queryLogRecord"
     },
+    "SetSingleLogShipperStatus" : {
+      "title" : "setSingleLogShipperStatus",
+      "summary" : "setSingleLogShipperStatus"
+    },
     "QueryLogHistogram" : {
       "title" : "queryLogHistogram",
       "summary" : "queryLogHistogram"
+    },
+    "BulkSetLogShipperStatus" : {
+      "title" : "bulkSetLogShipperStatus",
+      "summary" : "bulkSetLogShipperStatus"
     }
   }
 }

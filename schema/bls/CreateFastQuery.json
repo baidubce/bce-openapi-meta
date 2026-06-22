@@ -45,6 +45,12 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "bls.CreateFastQuery.logStreamName"
+  }, {
+    "name" : "logStoreType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bls.CreateFastQuery.logStoreType"
   } ],
   "desc_key" : "bls.CreateFastQuery.desc"
 }

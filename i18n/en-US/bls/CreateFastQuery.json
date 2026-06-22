@@ -5,6 +5,7 @@
     "description" : "Information description",
     "project" : "Log group name, default is \"default\"",
     "logStoreName" : "Log store name",
-    "logStreamName" : "Log stream name"
+    "logStreamName" : "Log stream name",
+    "logStoreType" : "Log store type, LOGSTORE or LOGSTORE_VIEW"
   }
 }
