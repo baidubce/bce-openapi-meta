@@ -163,6 +163,10 @@
       "title" : "绑定自动快照策略",
       "summary" : "绑定自动快照策略"
     },
+    "ModifySnapshotAttribute" : {
+      "title" : "修改快照信息",
+      "summary" : "修改快照信息"
+    },
     "DeleteSnapshot" : {
       "title" : "删除快照",
       "summary" : "删除快照"
@@ -215,6 +219,10 @@
       "title" : "EHC集群列表",
       "summary" : "EHC集群列表"
     },
+    "GetReservedInstancePrice" : {
+      "title" : "查询实例券价格",
+      "summary" : "查询实例券价格"
+    },
     "BatchStartInstance" : {
       "title" : "启动实例（批量启动）",
       "summary" : "启动实例（批量启动）"
@@ -234,6 +242,10 @@
     "DetachKeypair" : {
       "title" : "解绑密钥对",
       "summary" : "解绑密钥对"
+    },
+    "DescribeSnapshotsUsage" : {
+      "title" : "查询快照用量",
+      "summary" : "查询快照用量"
     },
     "StopInstance" : {
       "title" : "停止实例",
@@ -298,10 +310,6 @@
     "ModifyInstancePassword" : {
       "title" : "修改实例密码",
       "summary" : "修改实例密码"
-    },
-    "GetReservedInstancePrice" : {
-      "title" : "查询实例券价格",
-      "summary" : "查询实例券价格"
     },
     "ListReservedInstanceTransferIn" : {
       "title" : "预留实例券转入列表",

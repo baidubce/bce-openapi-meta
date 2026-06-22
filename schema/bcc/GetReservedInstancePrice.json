@@ -54,7 +54,7 @@
   }, {
     "name" : "reservedInstanceTime",
     "type" : "Integer",
-    "required" : false,
+    "required" : true,
     "position" : "BODY",
     "desc_key" : "bcc.GetReservedInstancePrice.reservedInstanceTime"
   }, {

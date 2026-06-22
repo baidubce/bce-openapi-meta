@@ -163,6 +163,10 @@
       "title" : "attachAsp",
       "summary" : "attachAsp"
     },
+    "ModifySnapshotAttribute" : {
+      "title" : "modifySnapshotAttribute",
+      "summary" : "modifySnapshotAttribute"
+    },
     "DeleteSnapshot" : {
       "title" : "deleteSnapshot",
       "summary" : "deleteSnapshot"
@@ -215,6 +219,10 @@
       "title" : "ehcClusterList",
       "summary" : "ehcClusterList"
     },
+    "GetReservedInstancePrice" : {
+      "title" : "getReservedInstancePrice",
+      "summary" : "getReservedInstancePrice"
+    },
     "BatchStartInstance" : {
       "title" : "batchStartInstance",
       "summary" : "batchStartInstance"
@@ -234,6 +242,10 @@
     "DetachKeypair" : {
       "title" : "detachKeypair",
       "summary" : "detachKeypair"
+    },
+    "DescribeSnapshotsUsage" : {
+      "title" : "describeSnapshotsUsage",
+      "summary" : "describeSnapshotsUsage"
     },
     "StopInstance" : {
       "title" : "stopInstance",
@@ -298,10 +310,6 @@
     "ModifyInstancePassword" : {
       "title" : "modifyInstancePassword",
       "summary" : "modifyInstancePassword"
-    },
-    "GetReservedInstancePrice" : {
-      "title" : "getReservedInstancePrice",
-      "summary" : "getReservedInstancePrice"
     },
     "ListReservedInstanceTransferIn" : {
       "title" : "listReservedInstanceTransferIn",

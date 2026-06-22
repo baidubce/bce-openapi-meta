@@ -1,0 +1,8 @@
+{
+  "ModifySnapshotAttribute" : {
+    "snapshotId" : "The ID of the snapshot to modify",
+    "snapshotName" : "New name for the snapshot; supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /.; must start with a letter; length 1–65",
+    "retentionInDays" : "Retention period of the snapshot in days; the deletion time is recalculated from the modification time; valid range: 1–10000",
+    "desc" : "Description of the snapshot"
+  }
+}

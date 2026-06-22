@@ -1,0 +1,8 @@
+{
+  "ModifySnapshotAttribute" : {
+    "snapshotId" : "需要修改的快照ID",
+    "snapshotName" : "修改后的快照名称，支持大小写字母、数字、中文以及-_ /.特殊字符，必须以字母开头，长度1-65。",
+    "retentionInDays" : "快照的保留时间，删除时间将从修改时间点开始重新计算。取值范围为1-10000天",
+    "desc" : "快照描述信息"
+  }
+}

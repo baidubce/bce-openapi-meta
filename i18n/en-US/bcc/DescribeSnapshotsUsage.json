@@ -1,0 +1,5 @@
+{
+  "DescribeSnapshotsUsage" : {
+    "action" : "The action to perform on snapshots, current value: describeSnapshotsUsage"
+  }
+}

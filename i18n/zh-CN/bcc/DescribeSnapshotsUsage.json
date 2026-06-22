@@ -1,0 +1,5 @@
+{
+  "DescribeSnapshotsUsage" : {
+    "action" : "对快照的执行动作，当前取值：describeSnapshotsUsage"
+  }
+}
