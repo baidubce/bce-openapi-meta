@@ -247,10 +247,6 @@
       "title" : "resolveIndex",
       "summary" : "resolveIndex"
     },
-    "FieldCaps" : {
-      "title" : "fieldCaps",
-      "summary" : "fieldCaps"
-    },
     "PullLogRecord" : {
       "title" : "pullLogRecord",
       "summary" : "pullLogRecord"
@@ -262,6 +258,10 @@
     "QueryLogRecord" : {
       "title" : "queryLogRecord",
       "summary" : "queryLogRecord"
+    },
+    "FieldCaps" : {
+      "title" : "fieldCaps",
+      "summary" : "fieldCaps"
     },
     "SetSingleLogShipperStatus" : {
       "title" : "setSingleLogShipperStatus",

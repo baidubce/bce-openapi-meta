@@ -247,10 +247,6 @@
       "title" : "查询索引列表 ResolveIndex",
       "summary" : "查询索引列表 ResolveIndex"
     },
-    "FieldCaps" : {
-      "title" : "获取索引字段列表 FieldCaps",
-      "summary" : "获取索引字段列表 FieldCaps"
-    },
     "PullLogRecord" : {
       "title" : "获取日志记录",
       "summary" : "获取日志记录"
@@ -262,6 +258,10 @@
     "QueryLogRecord" : {
       "title" : "检索分析日志",
       "summary" : "检索分析日志"
+    },
+    "FieldCaps" : {
+      "title" : "获取索引字段列表 FieldCaps",
+      "summary" : "获取索引字段列表 FieldCaps"
     },
     "SetSingleLogShipperStatus" : {
       "title" : "设置日志投递任务状态SetSingleLogShipperStatus",
