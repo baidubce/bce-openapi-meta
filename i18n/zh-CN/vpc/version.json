@@ -23,10 +23,6 @@
       "title" : "查询企业安全组列表",
       "summary" : "查询企业安全组列表"
     },
-    "AddEniIp" : {
-      "title" : "增加弹性网卡辅助IP",
-      "summary" : "增加弹性网卡辅助IP"
-    },
     "DeleteEniIp" : {
       "title" : "删除弹性网卡辅助IP",
       "summary" : "删除弹性网卡辅助IP"
@@ -86,6 +82,10 @@
     "UnbindHaVipEip" : {
       "title" : "高可用虚拟IP解绑EIP",
       "summary" : "高可用虚拟IP解绑EIP"
+    },
+    "AddEniIp" : {
+      "title" : "增加弹性网卡辅助IP",
+      "summary" : "增加弹性网卡辅助IP"
     },
     "RefundPeerConn" : {
       "title" : "预付费对等连接退订",

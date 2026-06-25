@@ -30,7 +30,7 @@
   }, {
     "name" : "privateIpAddress",
     "type" : "String",
-    "required" : true,
+    "required" : false,
     "position" : "BODY",
     "desc_key" : "vpc.AddEniIp.privateIpAddress"
   } ],

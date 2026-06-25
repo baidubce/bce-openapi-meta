@@ -23,10 +23,6 @@
       "title" : "queryEnterpriseSecurityGroupList",
       "summary" : "queryEnterpriseSecurityGroupList"
     },
-    "AddEniIp" : {
-      "title" : "addEniIp",
-      "summary" : "addEniIp"
-    },
     "DeleteEniIp" : {
       "title" : "deleteEniIp",
       "summary" : "deleteEniIp"
@@ -86,6 +82,10 @@
     "UnbindHaVipEip" : {
       "title" : "unbindHaVipEip",
       "summary" : "unbindHaVipEip"
+    },
+    "AddEniIp" : {
+      "title" : "addEniIp",
+      "summary" : "addEniIp"
     },
     "RefundPeerConn" : {
       "title" : "refundPeerConn",
