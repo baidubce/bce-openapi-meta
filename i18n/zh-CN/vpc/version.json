@@ -23,6 +23,10 @@
       "title" : "查询企业安全组列表",
       "summary" : "查询企业安全组列表"
     },
+    "AddEniIp" : {
+      "title" : "增加弹性网卡辅助IP",
+      "summary" : "增加弹性网卡辅助IP"
+    },
     "DeleteEniIp" : {
       "title" : "删除弹性网卡辅助IP",
       "summary" : "删除弹性网卡辅助IP"
@@ -79,13 +83,13 @@
       "title" : "关闭对等连接同步DNS",
       "summary" : "关闭对等连接同步DNS"
     },
+    "CreateDedicatedGatewayHealthCheck" : {
+      "title" : "创建专线网关健康检查",
+      "summary" : "创建专线网关健康检查"
+    },
     "UnbindHaVipEip" : {
       "title" : "高可用虚拟IP解绑EIP",
       "summary" : "高可用虚拟IP解绑EIP"
-    },
-    "AddEniIp" : {
-      "title" : "增加弹性网卡辅助IP",
-      "summary" : "增加弹性网卡辅助IP"
     },
     "RefundPeerConn" : {
       "title" : "预付费对等连接退订",
@@ -634,10 +638,6 @@
     "DeleteIpv6GatewayRateLimitRule" : {
       "title" : "删除IPv6网关限速策略",
       "summary" : "删除IPv6网关限速策略"
-    },
-    "CreateDedicatedGatewayHealthCheck" : {
-      "title" : "创建专线网关健康检查",
-      "summary" : "创建专线网关健康检查"
     },
     "QueryTheListOfDedicatedLineGateways" : {
       "title" : "查询专线网关列表",

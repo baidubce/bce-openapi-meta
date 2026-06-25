@@ -23,6 +23,10 @@
       "title" : "queryEnterpriseSecurityGroupList",
       "summary" : "queryEnterpriseSecurityGroupList"
     },
+    "AddEniIp" : {
+      "title" : "addEniIp",
+      "summary" : "addEniIp"
+    },
     "DeleteEniIp" : {
       "title" : "deleteEniIp",
       "summary" : "deleteEniIp"
@@ -79,13 +83,13 @@
       "title" : "closePeerConnSyncDns",
       "summary" : "closePeerConnSyncDns"
     },
+    "CreateDedicatedGatewayHealthCheck" : {
+      "title" : "createDedicatedGatewayHealthCheck",
+      "summary" : "createDedicatedGatewayHealthCheck"
+    },
     "UnbindHaVipEip" : {
       "title" : "unbindHaVipEip",
       "summary" : "unbindHaVipEip"
-    },
-    "AddEniIp" : {
-      "title" : "addEniIp",
-      "summary" : "addEniIp"
     },
     "RefundPeerConn" : {
       "title" : "refundPeerConn",
@@ -634,10 +638,6 @@
     "DeleteIpv6GatewayRateLimitRule" : {
       "title" : "deleteIpv6GatewayRateLimitRule",
       "summary" : "deleteIpv6GatewayRateLimitRule"
-    },
-    "CreateDedicatedGatewayHealthCheck" : {
-      "title" : "createDedicatedGatewayHealthCheck",
-      "summary" : "createDedicatedGatewayHealthCheck"
     },
     "QueryTheListOfDedicatedLineGateways" : {
       "title" : "queryTheListOfDedicatedLineGateways",

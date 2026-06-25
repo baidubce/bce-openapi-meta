@@ -34,12 +34,6 @@
     "position" : "BODY",
     "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.healthCheckType"
   }, {
-    "name" : "healthCheckPort",
-    "type" : "Integer",
-    "required" : false,
-    "position" : "BODY",
-    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.healthCheckPort"
-  }, {
     "name" : "healthCheckInterval",
     "type" : "Integer",
     "required" : true,

@@ -4,7 +4,6 @@
     "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
     "healthCheckSourceIp" : "If this parameter is not specified, the system will automatically assign an IP address",
     "healthCheckType" : "Valid value is \"ICMP\"; defaults to \"ICMP\"",
-    "healthCheckPort" : "The port used for health checks",
     "healthCheckInterval" : "Health check interval, an integer between 1 and 60, in seconds",
     "healthThreshold" : "Healthy threshold, an integer between 2 and 5",
     "unhealthThreshold" : "Unhealthy threshold, an integer between 2 and 5",
