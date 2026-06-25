@@ -75,6 +75,10 @@
       "title" : "deleteBlbServer",
       "summary" : "deleteBlbServer"
     },
+    "BlbInquiry" : {
+      "title" : "blbInquiry",
+      "summary" : "blbInquiry"
+    },
     "CreateLbdc" : {
       "title" : "createLbdc",
       "summary" : "createLbdc"
@@ -194,10 +198,6 @@
     "CreateBlbUdpListener" : {
       "title" : "createBlbUdpListener",
       "summary" : "createBlbUdpListener"
-    },
-    "BlbInquiry" : {
-      "title" : "blbInquiry",
-      "summary" : "blbInquiry"
     },
     "BillingChangePostToPreBlb" : {
       "title" : "billingChangePostToPreBlb",

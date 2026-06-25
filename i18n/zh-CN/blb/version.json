@@ -75,6 +75,10 @@
       "title" : "释放后端服务器",
       "summary" : "释放后端服务器"
     },
+    "BlbInquiry" : {
+      "title" : "BLB询价",
+      "summary" : "BLB询价"
+    },
     "CreateLbdc" : {
       "title" : "创建集群",
       "summary" : "创建集群"
@@ -194,10 +198,6 @@
     "CreateBlbUdpListener" : {
       "title" : "创建UDP监听器",
       "summary" : "创建UDP监听器"
-    },
-    "BlbInquiry" : {
-      "title" : "BLB询价",
-      "summary" : "BLB询价"
     },
     "BillingChangePostToPreBlb" : {
       "title" : "BLB计费变更-后付费转预付费",
