@@ -1,0 +1,7 @@
+{
+  "DeleteCustomScrapeTask" : {
+    "scrapeJobId" : "Scrape job ID",
+    "instanceId" : "Cprom monitoring instance ID",
+    "agentId" : "Agent ID"
+  }
+}

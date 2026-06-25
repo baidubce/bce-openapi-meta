@@ -1,0 +1,7 @@
+{
+  "ToggleServiceMonitorService" : {
+    "action" : "Toggle action: start/stop",
+    "instanceId" : "Cprom monitoring instance ID",
+    "agentId" : "Agent ID"
+  }
+}

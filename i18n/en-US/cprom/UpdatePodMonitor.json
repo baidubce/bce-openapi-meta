@@ -1,0 +1,13 @@
+{
+  "UpdatePodMonitor" : {
+    "podMonitorName" : "Pod Monitor name",
+    "instanceId" : "Cprom monitoring instance ID",
+    "agentId" : "Agent ID",
+    "enable" : "Whether to enable: true/false",
+    "podMonitor" : "PodMonitor object (see \"Create Pod Monitor\" for fields)",
+    "podMonitor.apiVersion" : "Fixed value: monitoring.coreos.com/v1",
+    "podMonitor.kind" : "Fixed value: PodMonitor",
+    "podMonitor.metadata" : "Metadata",
+    "podMonitor.spec" : "Collection rules"
+  }
+}

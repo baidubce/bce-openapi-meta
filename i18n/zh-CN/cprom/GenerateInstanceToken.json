@@ -1,0 +1,7 @@
+{
+  "GenerateInstanceToken" : {
+    "instanceId" : "CProm 监控实例 ID。",
+    "Action" : "当传值为 `DeleteToken` 时表示删除 Token；创建 Token 时无需传值。",
+    "token" : "当 `Action=DeleteToken` 时必填。表示待删除的 Token，格式为 `Bearer <jwt>`；创建 Token 时无需传入。"
+  }
+}

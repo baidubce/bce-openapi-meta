@@ -1,0 +1,14 @@
+{
+  "CreateAlert" : {
+    "instanceId" : "Cprom instance ID",
+    "alertName" : "Alert name",
+    "expr" : "Alert rule, PromQL query expression",
+    "for" : "Alert duration",
+    "description" : "Alert message content",
+    "notifyRuleId" : "Notification policy ID",
+    "enable" : "Whether to enable the alert, defaults to true on creation",
+    "severity" : "Alert severity level: notice/warning/major/critical",
+    "labels" : "Custom label key-value pairs",
+    "annotations" : "Custom annotation key-value pairs"
+  }
+}

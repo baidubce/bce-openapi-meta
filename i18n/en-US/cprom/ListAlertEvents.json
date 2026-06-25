@@ -1,0 +1,19 @@
+{
+  "ListAlertEvents" : {
+    "startTime" : "Query start time (Unix timestamp in seconds), default is the last 1 day",
+    "endTime" : "Query end time (Unix timestamp in seconds), default is current time",
+    "pageNo" : "Page number for paginated query, starting from 1, default is 1",
+    "pageSize" : "Number of items per page, range 1-100, default is 10",
+    "monitorInstanceId" : "Monitor instance ID",
+    "alertingRuleId" : "Alerting rule ID",
+    "alertingRuleName" : "Alerting rule name (supports fuzzy matching)",
+    "notifyRuleId" : "Notification rule ID",
+    "notifyRuleName" : "Notification rule name",
+    "severity" : "Alert severity, options: critical, warning, info",
+    "status" : "Event status, options: abnormal, normal, level1-4 (escalation levels)",
+    "expr" : "Alert expression",
+    "orderBy" : "Sort field, options: startTime, endTime, alarmValue, severity, default is startTime",
+    "order" : "Sort order, options: asc (ascending), desc (descending), default is desc",
+    "alarmTags" : "Alert tag filter conditions, supports multiple tags"
+  }
+}

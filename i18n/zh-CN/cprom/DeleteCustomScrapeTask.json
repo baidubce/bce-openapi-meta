@@ -1,0 +1,7 @@
+{
+  "DeleteCustomScrapeTask" : {
+    "scrapeJobId" : "采集任务ID",
+    "instanceId" : "Cprom监控实例ID",
+    "agentId" : "Agent ID"
+  }
+}

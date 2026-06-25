@@ -1,0 +1,7 @@
+{
+  "BindCluster" : {
+    "instanceId" : "CProm monitoring instance ID.",
+    "action" : "Operation type. Valid values: `Bind` (bind CProm instance to CCE cluster) and `Unbind` (unbind). Default: `Bind`.",
+    "clusterId" : "CCE cluster ID."
+  }
+}

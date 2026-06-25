@@ -1,0 +1,75 @@
+{
+  "name" : "UpdateAlert",
+  "method" : "PUT",
+  "uri" : "/v2/alerting_rule/{alertingRuleId}",
+  "parameters" : [ {
+    "name" : "alertingRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.UpdateAlert.alertingRuleId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.UpdateAlert.instanceId"
+  }, {
+    "name" : "alertName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateAlert.alertName"
+  }, {
+    "name" : "expr",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateAlert.expr"
+  }, {
+    "name" : "for",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateAlert.for"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateAlert.description"
+  }, {
+    "name" : "notifyRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateAlert.notifyRuleId"
+  }, {
+    "name" : "severity",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateAlert.severity"
+  }, {
+    "name" : "enable",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateAlert.enable"
+  }, {
+    "name" : "labels",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateAlert.labels",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "annotations",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateAlert.annotations",
+    "sub_parameters" : [ ]
+  } ],
+  "desc_key" : "cprom.UpdateAlert.desc"
+}

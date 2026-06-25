@@ -1,0 +1,98 @@
+{
+  "name" : "CreateServiceMonitor",
+  "method" : "POST",
+  "uri" : "/v2/service_monitor",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.CreateServiceMonitor.instanceId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.CreateServiceMonitor.agentId"
+  }, {
+    "name" : "apiVersion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateServiceMonitor.apiVersion"
+  }, {
+    "name" : "kind",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateServiceMonitor.kind"
+  }, {
+    "name" : "metadata",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateServiceMonitor.metadata",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.CreateServiceMonitor.metadata.name"
+    }, {
+      "name" : "namespace",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.CreateServiceMonitor.metadata.namespace"
+    } ]
+  }, {
+    "name" : "spec",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateServiceMonitor.spec",
+    "sub_parameters" : [ {
+      "name" : "endpoints",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "cprom.CreateServiceMonitor.spec.endpoints",
+      "sub_parameters" : [ {
+        "name" : "interval",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.CreateServiceMonitor.spec.endpoints.interval"
+      }, {
+        "name" : "path",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.CreateServiceMonitor.spec.endpoints.path"
+      }, {
+        "name" : "port",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.CreateServiceMonitor.spec.endpoints.port"
+      } ]
+    }, {
+      "name" : "namespaceSelector",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cprom.CreateServiceMonitor.spec.namespaceSelector",
+      "sub_parameters" : [ {
+        "name" : "matchNames",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cprom.CreateServiceMonitor.spec.namespaceSelector.matchNames"
+      } ]
+    }, {
+      "name" : "selector",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cprom.CreateServiceMonitor.spec.selector",
+      "sub_parameters" : [ {
+        "name" : "matchLabels",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "cprom.CreateServiceMonitor.spec.selector.matchLabels"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "cprom.CreateServiceMonitor.desc"
+}

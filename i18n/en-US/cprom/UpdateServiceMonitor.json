@@ -1,0 +1,13 @@
+{
+  "UpdateServiceMonitor" : {
+    "serviceMonitorName" : "Service Monitor name",
+    "instanceId" : "Cprom monitoring instance ID",
+    "agentId" : "Agent ID",
+    "enable" : "Whether to enable: true/false",
+    "serviceMonitor" : "ServiceMonitor object",
+    "serviceMonitor.apiVersion" : "Fixed value: monitoring.coreos.com/v1",
+    "serviceMonitor.kind" : "Fixed value: ServiceMonitor",
+    "serviceMonitor.metadata" : "Metadata of ServiceMonitor, modification not supported.",
+    "serviceMonitor.spec" : "Collection rules"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "CreateInstance" : {
+    "instanceName" : "Instance name",
+    "instanceType" : "Monitoring instance type, default is CCE (CCE-type monitoring instance); valid values: CCE, BCM",
+    "instanceSpec" : "Instance specification type, default is basic tier \"free-v1\"; valid values: advance-v1, advance-v2, free-v1",
+    "retentionPeriod" : "Data retention period, default is `15d`",
+    "needGrafana" : "Whether to create a Grafana instance. Can be created when no Grafana instance exists in the current region; only one Grafana instance is allowed per region.",
+    "grafanaName" : "Provided when `needGrafana=true`; Grafana instance name, default is `admin`",
+    "grafanaAdminPassword" : "Provided when `needGrafana=true`; Grafana password must be 8–32 characters and contain letters, digits, and symbols; allowed symbols: `!@#$%^*()`"
+  }
+}

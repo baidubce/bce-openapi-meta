@@ -1,0 +1,25 @@
+{
+  "name" : "CreateCustomScrapeTask",
+  "method" : "POST",
+  "uri" : "/v2/scrape_job",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.CreateCustomScrapeTask.instanceId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.CreateCustomScrapeTask.agentId"
+  }, {
+    "name" : "config",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateCustomScrapeTask.config"
+  } ],
+  "desc_key" : "cprom.CreateCustomScrapeTask.desc"
+}

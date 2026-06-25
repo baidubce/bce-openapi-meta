@@ -1,0 +1,13 @@
+{
+  "name" : "GetNotificationPolicy",
+  "method" : "GET",
+  "uri" : "/v2/notify_rule/{notifyRuleId}",
+  "parameters" : [ {
+    "name" : "notifyRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.GetNotificationPolicy.notifyRuleId"
+  } ],
+  "desc_key" : "cprom.GetNotificationPolicy.desc"
+}

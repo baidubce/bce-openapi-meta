@@ -1,0 +1,151 @@
+{
+  "version" : "v2",
+  "style" : "rpc",
+  "description" : "cprom",
+  "apis" : {
+    "UpdateAlert" : {
+      "title" : "updateAlert",
+      "summary" : "updateAlert"
+    },
+    "CreateAlert" : {
+      "title" : "createAlert",
+      "summary" : "createAlert"
+    },
+    "GetAlertDetail" : {
+      "title" : "getAlertDetail",
+      "summary" : "getAlertDetail"
+    },
+    "GetAlertEventDetail" : {
+      "title" : "getAlertEventDetail",
+      "summary" : "getAlertEventDetail"
+    },
+    "ListAlertEvents" : {
+      "title" : "listAlertEvents",
+      "summary" : "listAlertEvents"
+    },
+    "ClaimAlertEvent" : {
+      "title" : "claimAlertEvent",
+      "summary" : "claimAlertEvent"
+    },
+    "CreateNotificationPolicy" : {
+      "title" : "createNotificationPolicy",
+      "summary" : "createNotificationPolicy"
+    },
+    "BindCluster" : {
+      "title" : "bindCluster",
+      "summary" : "bindCluster"
+    },
+    "GetClusterBindStatus" : {
+      "title" : "getClusterBindStatus",
+      "summary" : "getClusterBindStatus"
+    },
+    "CreateInstance" : {
+      "title" : "createInstance",
+      "summary" : "createInstance"
+    },
+    "DeleteInstance" : {
+      "title" : "deleteInstance",
+      "summary" : "deleteInstance"
+    },
+    "GenerateInstanceToken" : {
+      "title" : "generateInstanceToken",
+      "summary" : "generateInstanceToken"
+    },
+    "ListInstances" : {
+      "title" : "listInstances",
+      "summary" : "listInstances"
+    },
+    "RemoteRead" : {
+      "title" : "remoteRead",
+      "summary" : "remoteRead"
+    },
+    "ListPodMonitors" : {
+      "title" : "listPodMonitors",
+      "summary" : "listPodMonitors"
+    },
+    "UpdateRelatedCloudProducts" : {
+      "title" : "updateRelatedCloudProducts",
+      "summary" : "updateRelatedCloudProducts"
+    },
+    "ListBindableCloudProducts" : {
+      "title" : "listBindableCloudProducts",
+      "summary" : "listBindableCloudProducts"
+    },
+    "ListRelatedCloudProducts" : {
+      "title" : "listRelatedCloudProducts",
+      "summary" : "listRelatedCloudProducts"
+    },
+    "TogglePodMonitorService" : {
+      "title" : "togglePodMonitorService",
+      "summary" : "togglePodMonitorService"
+    },
+    "CreateServiceMonitor" : {
+      "title" : "createServiceMonitor",
+      "summary" : "createServiceMonitor"
+    },
+    "ToggleServiceMonitorService" : {
+      "title" : "toggleServiceMonitorService",
+      "summary" : "toggleServiceMonitorService"
+    },
+    "UpdateServiceMonitor" : {
+      "title" : "updateServiceMonitor",
+      "summary" : "updateServiceMonitor"
+    },
+    "DeleteServiceMonitor" : {
+      "title" : "deleteServiceMonitor",
+      "summary" : "deleteServiceMonitor"
+    },
+    "UpdatePodMonitor" : {
+      "title" : "updatePodMonitor",
+      "summary" : "updatePodMonitor"
+    },
+    "ListServiceMonitors" : {
+      "title" : "listServiceMonitors",
+      "summary" : "listServiceMonitors"
+    },
+    "CreatePodmonitor" : {
+      "title" : "createPodmonitor",
+      "summary" : "createPodmonitor"
+    },
+    "DeletePodmonitor" : {
+      "title" : "deletePodmonitor",
+      "summary" : "deletePodmonitor"
+    },
+    "CreateCustomScrapeTask" : {
+      "title" : "createCustomScrapeTask",
+      "summary" : "createCustomScrapeTask"
+    },
+    "DeleteCustomScrapeTask" : {
+      "title" : "deleteCustomScrapeTask",
+      "summary" : "deleteCustomScrapeTask"
+    },
+    "GetNotificationPolicy" : {
+      "title" : "getNotificationPolicy",
+      "summary" : "getNotificationPolicy"
+    },
+    "UpdateNotificationPolicy" : {
+      "title" : "updateNotificationPolicy",
+      "summary" : "updateNotificationPolicy"
+    },
+    "DeleteNotificationPolicy" : {
+      "title" : "deleteNotificationPolicy",
+      "summary" : "deleteNotificationPolicy"
+    },
+    "ListNotificationPolicies" : {
+      "title" : "listNotificationPolicies",
+      "summary" : "listNotificationPolicies"
+    },
+    "ListAlerts" : {
+      "title" : "listAlerts",
+      "summary" : "listAlerts"
+    },
+    "ListAlertTemplates" : {
+      "title" : "listAlertTemplates",
+      "summary" : "listAlertTemplates"
+    },
+    "DeleteAlert" : {
+      "title" : "deleteAlert",
+      "summary" : "deleteAlert"
+    }
+  }
+}

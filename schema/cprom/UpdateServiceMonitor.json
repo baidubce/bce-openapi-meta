@@ -1,0 +1,113 @@
+{
+  "name" : "UpdateServiceMonitor",
+  "method" : "PUT",
+  "uri" : "/v2/service_monitor/{serviceMonitorName}",
+  "parameters" : [ {
+    "name" : "serviceMonitorName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitorName"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.UpdateServiceMonitor.instanceId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.UpdateServiceMonitor.agentId"
+  }, {
+    "name" : "enable",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateServiceMonitor.enable"
+  }, {
+    "name" : "serviceMonitor",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor",
+    "sub_parameters" : [ {
+      "name" : "apiVersion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.apiVersion"
+    }, {
+      "name" : "kind",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.kind"
+    }, {
+      "name" : "metadata",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.metadata",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.metadata.name"
+      }, {
+        "name" : "namespace",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.metadata.namespace"
+      } ]
+    }, {
+      "name" : "spec",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.spec",
+      "sub_parameters" : [ {
+        "name" : "endpoints",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.spec.endpoints",
+        "sub_parameters" : [ {
+          "name" : "interval",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.spec.endpoints.interval"
+        }, {
+          "name" : "path",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.spec.endpoints.path"
+        }, {
+          "name" : "port",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.spec.endpoints.port"
+        } ]
+      }, {
+        "name" : "namespaceSelector",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.spec.namespaceSelector",
+        "sub_parameters" : [ {
+          "name" : "matchNames",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.spec.namespaceSelector.matchNames"
+        } ]
+      }, {
+        "name" : "selector",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.spec.selector",
+        "sub_parameters" : [ {
+          "name" : "matchLabels",
+          "type" : "Object",
+          "required" : false,
+          "desc_key" : "cprom.UpdateServiceMonitor.serviceMonitor.spec.selector.matchLabels"
+        } ]
+      } ]
+    } ]
+  } ],
+  "desc_key" : "cprom.UpdateServiceMonitor.desc"
+}

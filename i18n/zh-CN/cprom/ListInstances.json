@@ -1,0 +1,9 @@
+{
+  "ListInstances" : {
+    "pageSize" : "分页查询监控实例列表每页监控实例个数，范围为1-100，缺省值为10",
+    "pageNo" : "分页查询监控实例列表分页页码数，缺省值为1",
+    "orderBy" : "排序字段，缺省值为createTime，当前只支持createTime。",
+    "order" : "排序顺序，取值: asc (表示升序), desc (表示降序)",
+    "phase" : "监控实例状态，可选值：Pending, Creating, Failed, Running, Upgrading"
+  }
+}

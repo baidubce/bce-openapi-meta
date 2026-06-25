@@ -1,0 +1,6 @@
+{
+  "ClaimAlertEvent" : {
+    "eventIds" : "List of event IDs to claim (1-100)",
+    "claimReason" : "Claim reason (max 500 characters)"
+  }
+}

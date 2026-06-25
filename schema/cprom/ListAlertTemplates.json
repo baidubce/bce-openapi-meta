@@ -1,0 +1,7 @@
+{
+  "name" : "ListAlertTemplates",
+  "method" : "GET",
+  "uri" : "/v2/alerting_rule_template",
+  "parameters" : [ ],
+  "desc_key" : "cprom.ListAlertTemplates.desc"
+}

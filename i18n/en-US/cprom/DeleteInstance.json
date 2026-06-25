@@ -1,0 +1,6 @@
+{
+  "DeleteInstance" : {
+    "instanceId" : "CProm monitoring instance ID.",
+    "deleteGrafana" : "Whether to also delete Grafana when deleting the last monitoring instance. Default is `false`."
+  }
+}

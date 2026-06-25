@@ -1,0 +1,8 @@
+{
+  "ListNotificationPolicies" : {
+    "pageSize" : "Number of instances per page for paginated query, range 1-100, default 10",
+    "pageNo" : "Page number for paginated query, default 1",
+    "keywordType" : "Filter condition type, default is notifyRuleName, only notifyRuleName is supported",
+    "keyword" : "Filter condition keyword"
+  }
+}

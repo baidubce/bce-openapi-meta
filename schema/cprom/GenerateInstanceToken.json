@@ -1,0 +1,25 @@
+{
+  "name" : "GenerateInstanceToken",
+  "method" : "POST",
+  "uri" : "/v2/instance/{instanceId}/token",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.GenerateInstanceToken.instanceId"
+  }, {
+    "name" : "Action",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.GenerateInstanceToken.Action"
+  }, {
+    "name" : "token",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.GenerateInstanceToken.token"
+  } ],
+  "desc_key" : "cprom.GenerateInstanceToken.desc"
+}

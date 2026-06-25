@@ -1,0 +1,6 @@
+{
+  "GetAlertDetail" : {
+    "alertingRuleId" : "告警ID",
+    "instanceId" : "Cprom实例ID"
+  }
+}

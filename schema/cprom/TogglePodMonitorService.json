@@ -1,0 +1,25 @@
+{
+  "name" : "TogglePodMonitorService",
+  "method" : "PUT",
+  "uri" : "/v2/pod_monitor_service",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.TogglePodMonitorService.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.TogglePodMonitorService.instanceId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.TogglePodMonitorService.agentId"
+  } ],
+  "desc_key" : "cprom.TogglePodMonitorService.desc"
+}

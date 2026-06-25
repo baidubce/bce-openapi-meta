@@ -1,0 +1,6 @@
+{
+  "DeleteInstance" : {
+    "instanceId" : "CProm 监控实例 ID。",
+    "deleteGrafana" : "删除最后一个监控实例时，可选择是否同时删除 Grafana，默认值为 `false`。"
+  }
+}

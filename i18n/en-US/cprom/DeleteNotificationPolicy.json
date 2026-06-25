@@ -1,0 +1,5 @@
+{
+  "DeleteNotificationPolicy" : {
+    "notifyRuleId" : "Notification policy ID"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ListServiceMonitors" : {
+    "instanceId" : "Cprom monitoring instance ID",
+    "agentId" : "Agent ID",
+    "pageNo" : "Page number, default is 1",
+    "pageSize" : "Items per page, range 1-100, default is 10",
+    "keywordType" : "Filter condition type, supports: serviceMonitorName",
+    "keyword" : "Filter keyword",
+    "orderBy" : "Sort field, only supports: createTime, default is createTime",
+    "order" : "Sort order: desc/asc, default is desc"
+  }
+}

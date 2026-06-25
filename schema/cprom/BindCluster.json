@@ -1,0 +1,25 @@
+{
+  "name" : "BindCluster",
+  "method" : "PUT",
+  "uri" : "/v2/instance/{instanceId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.BindCluster.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.BindCluster.action"
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.BindCluster.clusterId"
+  } ],
+  "desc_key" : "cprom.BindCluster.desc"
+}

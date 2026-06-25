@@ -1,0 +1,37 @@
+{
+  "name" : "ListInstances",
+  "method" : "GET",
+  "uri" : "/v2/instance",
+  "parameters" : [ {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListInstances.pageSize"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListInstances.pageNo"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListInstances.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListInstances.order"
+  }, {
+    "name" : "phase",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListInstances.phase"
+  } ],
+  "desc_key" : "cprom.ListInstances.desc"
+}

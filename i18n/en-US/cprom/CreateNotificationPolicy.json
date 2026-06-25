@@ -1,0 +1,32 @@
+{
+  "CreateNotificationPolicy" : {
+    "notifyRuleName" : "Notification policy name",
+    "startTime" : "Notification start time, format 00:00:00",
+    "endTime" : "Notification end time, format 23:59:59",
+    "channel" : "Notification channel: phone, sms, email (required if any of phone/sms/email is selected), webhook (optional)",
+    "receiverType" : "Receiver type: user (individual user), userGroup (user group); required when phone/sms/email is selected, optional for webhook",
+    "users" : "User list",
+    "users.userId" : "User ID",
+    "users.userName" : "User name",
+    "users.userType" : "User type, default: identity",
+    "users.phoneNumber" : "User phone number",
+    "users.email" : "User email address",
+    "userGroups" : "User group list",
+    "userGroups.groupId" : "User group ID",
+    "userGroups.groupName" : "User group name",
+    "userGroups.description" : "User group description",
+    "webhookConfigList" : "Webhook callback configuration list",
+    "webhookConfigList.webhookType" : "Webhook type: weCom (WeCom), dingTalk (DingTalk), lark (Lark), custom (custom webhook)",
+    "webhookConfigList.webhookList" : "Webhook configuration detail list",
+    "escalateConfigList" : "Escalation policy parameter list",
+    "escalateConfigList.rank" : "Escalation level (1, 2, 3); escalates from level 1 to 2 to 3 if not acknowledged within the specified time",
+    "escalateConfigList.condition" : "Acknowledgment configuration",
+    "escalateConfigList.notifyAction" : "Notification channel information",
+    "repeatNotifyConfig" : "Repeat notification configuration",
+    "repeatNotifyConfig.enabled" : "Whether repeat notification is enabled",
+    "repeatNotifyConfig.intervalHour" : "Repeat notification interval in hours",
+    "repeatNotifyConfig.intervalMin" : "Repeat notification interval in minutes",
+    "repeatNotifyConfig.maxCount" : "Maximum number of repeat notifications",
+    "repeatNotifyConfig.strategy" : "Repeat notification strategy"
+  }
+}

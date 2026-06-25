@@ -1,0 +1,7 @@
+{
+  "CreateCustomScrapeTask" : {
+    "instanceId" : "Cprom监控实例ID",
+    "agentId" : "Agent ID，参考 [查询CCE集群接入CProm状态](https://cloud.baidu.com/doc/CProm/s/fly3vn17l#%E6%9F%A5%E8%AF%A2cce%E9%9B%86%E7%BE%A4%E6%8E%A5%E5%85%A5cprom%E7%8A%B6%E6%80%81)",
+    "config" : "抓取任务配置，示例值见请求示例"
+  }
+}

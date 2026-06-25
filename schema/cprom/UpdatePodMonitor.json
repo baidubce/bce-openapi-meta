@@ -1,0 +1,113 @@
+{
+  "name" : "UpdatePodMonitor",
+  "method" : "PUT",
+  "uri" : "/v2/pod_monitor/{podMonitorName}",
+  "parameters" : [ {
+    "name" : "podMonitorName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.UpdatePodMonitor.podMonitorName"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.UpdatePodMonitor.instanceId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.UpdatePodMonitor.agentId"
+  }, {
+    "name" : "enable",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdatePodMonitor.enable"
+  }, {
+    "name" : "podMonitor",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdatePodMonitor.podMonitor",
+    "sub_parameters" : [ {
+      "name" : "apiVersion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdatePodMonitor.podMonitor.apiVersion"
+    }, {
+      "name" : "kind",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdatePodMonitor.podMonitor.kind"
+    }, {
+      "name" : "metadata",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cprom.UpdatePodMonitor.podMonitor.metadata",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.UpdatePodMonitor.podMonitor.metadata.name"
+      }, {
+        "name" : "namespace",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.UpdatePodMonitor.podMonitor.metadata.namespace"
+      } ]
+    }, {
+      "name" : "spec",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cprom.UpdatePodMonitor.podMonitor.spec",
+      "sub_parameters" : [ {
+        "name" : "namespaceSelector",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "cprom.UpdatePodMonitor.podMonitor.spec.namespaceSelector",
+        "sub_parameters" : [ {
+          "name" : "matchNames",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "cprom.UpdatePodMonitor.podMonitor.spec.namespaceSelector.matchNames"
+        } ]
+      }, {
+        "name" : "podMetricsEndpoints",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cprom.UpdatePodMonitor.podMonitor.spec.podMetricsEndpoints",
+        "sub_parameters" : [ {
+          "name" : "interval",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdatePodMonitor.podMonitor.spec.podMetricsEndpoints.interval"
+        }, {
+          "name" : "path",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdatePodMonitor.podMonitor.spec.podMetricsEndpoints.path"
+        }, {
+          "name" : "port",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdatePodMonitor.podMonitor.spec.podMetricsEndpoints.port"
+        } ]
+      }, {
+        "name" : "selector",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "cprom.UpdatePodMonitor.podMonitor.spec.selector",
+        "sub_parameters" : [ {
+          "name" : "matchLabels",
+          "type" : "Object",
+          "required" : false,
+          "desc_key" : "cprom.UpdatePodMonitor.podMonitor.spec.selector.matchLabels"
+        } ]
+      } ]
+    } ]
+  } ],
+  "desc_key" : "cprom.UpdatePodMonitor.desc"
+}

@@ -1,0 +1,15 @@
+{
+  "CreatePodmonitor" : {
+    "instanceId" : "Cprom monitoring instance ID",
+    "agentId" : "Agent ID",
+    "apiVersion" : "Fixed value: monitoring.coreos.com/v1",
+    "kind" : "Fixed value: PodMonitor",
+    "metadata" : "Metadata",
+    "metadata.name" : "Resource name",
+    "metadata.namespace" : "Namespace",
+    "spec" : "Collection rules",
+    "spec.namespaceSelector" : "Monitoring scope namespace selector",
+    "spec.podMetricsEndpoints" : "Collection endpoint configuration list",
+    "spec.selector" : "Pod label selector"
+  }
+}

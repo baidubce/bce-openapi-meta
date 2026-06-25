@@ -1,0 +1,13 @@
+{
+  "UpdateServiceMonitor" : {
+    "serviceMonitorName" : "Service Monitor名称",
+    "instanceId" : "Cprom监控实例ID",
+    "agentId" : "Agent ID",
+    "enable" : "是否启用：true/false",
+    "serviceMonitor" : "ServiceMonitor对象",
+    "serviceMonitor.apiVersion" : "固定值：monitoring.coreos.com/v1",
+    "serviceMonitor.kind" : "固定值：ServiceMonitor",
+    "serviceMonitor.metadata" : "ServiceMonitor的元数据, 不支持修改。",
+    "serviceMonitor.spec" : "采集规则"
+  }
+}

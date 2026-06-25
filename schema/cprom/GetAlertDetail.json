@@ -1,0 +1,19 @@
+{
+  "name" : "GetAlertDetail",
+  "method" : "GET",
+  "uri" : "/v2/alerting_rule/{alertingRuleId}",
+  "parameters" : [ {
+    "name" : "alertingRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.GetAlertDetail.alertingRuleId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.GetAlertDetail.instanceId"
+  } ],
+  "desc_key" : "cprom.GetAlertDetail.desc"
+}

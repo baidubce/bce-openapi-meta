@@ -1,0 +1,31 @@
+{
+  "name" : "ListNotificationPolicies",
+  "method" : "GET",
+  "uri" : "/v2/notify_rule?pageNo=1&pageSize=10",
+  "parameters" : [ {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListNotificationPolicies.pageSize"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListNotificationPolicies.pageNo"
+  }, {
+    "name" : "keywordType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListNotificationPolicies.keywordType"
+  }, {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListNotificationPolicies.keyword"
+  } ],
+  "desc_key" : "cprom.ListNotificationPolicies.desc"
+}

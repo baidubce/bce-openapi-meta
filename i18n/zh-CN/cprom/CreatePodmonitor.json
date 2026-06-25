@@ -1,0 +1,15 @@
+{
+  "CreatePodmonitor" : {
+    "instanceId" : "Cprom监控实例ID",
+    "agentId" : "Agent ID",
+    "apiVersion" : "固定值：monitoring.coreos.com/v1",
+    "kind" : "固定值：PodMonitor",
+    "metadata" : "元数据",
+    "metadata.name" : "资源名称",
+    "metadata.namespace" : "命名空间",
+    "spec" : "采集规则",
+    "spec.namespaceSelector" : "监控范围命名空间选择器",
+    "spec.podMetricsEndpoints" : "采集端点配置列表",
+    "spec.selector" : "Pod 标签选择器"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "CreateServiceMonitor" : {
+    "instanceId" : "Cprom monitoring instance ID",
+    "agentId" : "Agent ID",
+    "apiVersion" : "Fixed value: monitoring.coreos.com/v1",
+    "kind" : "Fixed value: ServiceMonitor",
+    "metadata" : "Metadata of ServiceMonitor; namespace can be set to default and will not create resources in the user cluster",
+    "metadata.name" : "Resource name",
+    "metadata.namespace" : "Namespace",
+    "spec" : "Collection rules",
+    "spec.endpoints" : "List of collection endpoint configurations",
+    "spec.namespaceSelector" : "Namespace selector for the Service",
+    "spec.selector" : "Label selector for the Service"
+  }
+}

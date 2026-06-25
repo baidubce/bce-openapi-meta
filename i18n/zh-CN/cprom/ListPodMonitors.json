@@ -1,0 +1,12 @@
+{
+  "ListPodMonitors" : {
+    "instanceId" : "Cprom监控实例ID",
+    "agentId" : "Agent ID",
+    "pageNo" : "分页页码，缺省值为1",
+    "pageSize" : "每页数量，范围为1-100，缺省值为10",
+    "keywordType" : "筛选条件类型，支持：podMonitorName",
+    "keyword" : "筛选关键字",
+    "orderBy" : "排序字段，仅支持：createTime，缺省值为createTime",
+    "order" : "排序方式：desc/asc，缺省值为desc"
+  }
+}

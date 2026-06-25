@@ -1,0 +1,37 @@
+{
+  "name" : "RemoteRead",
+  "method" : "POST",
+  "uri" : "/prometheus/api/v1/query_range",
+  "parameters" : [ {
+    "name" : "remoteReadUrl",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.RemoteRead.remoteReadUrl"
+  }, {
+    "name" : "query",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.RemoteRead.query"
+  }, {
+    "name" : "step",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.RemoteRead.step"
+  }, {
+    "name" : "start",
+    "type" : "Long",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.RemoteRead.start"
+  }, {
+    "name" : "end",
+    "type" : "Long",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.RemoteRead.end"
+  } ],
+  "desc_key" : "cprom.RemoteRead.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteAlert" : {
+    "alertingRuleId" : "Alert ID",
+    "instanceId" : "CProm instance ID"
+  }
+}

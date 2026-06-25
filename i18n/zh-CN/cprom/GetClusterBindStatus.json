@@ -1,0 +1,5 @@
+{
+  "GetClusterBindStatus" : {
+    "clusterId" : "CCE 集群 ID。"
+  }
+}

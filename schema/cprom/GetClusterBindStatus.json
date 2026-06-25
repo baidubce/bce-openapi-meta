@@ -1,0 +1,13 @@
+{
+  "name" : "GetClusterBindStatus",
+  "method" : "GET",
+  "uri" : "/v2/cluster_binding",
+  "parameters" : [ {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.GetClusterBindStatus.clusterId"
+  } ],
+  "desc_key" : "cprom.GetClusterBindStatus.desc"
+}

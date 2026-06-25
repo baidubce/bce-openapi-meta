@@ -1,0 +1,5 @@
+{
+  "DeleteNotificationPolicy" : {
+    "notifyRuleId" : "通知策略ID"
+  }
+}

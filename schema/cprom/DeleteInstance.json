@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteInstance",
+  "method" : "DELETE",
+  "uri" : "/v2/instance/{instanceId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.DeleteInstance.instanceId"
+  }, {
+    "name" : "deleteGrafana",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.DeleteInstance.deleteGrafana"
+  } ],
+  "desc_key" : "cprom.DeleteInstance.desc"
+}

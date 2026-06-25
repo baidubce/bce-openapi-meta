@@ -1,0 +1,49 @@
+{
+  "name" : "CreateInstance",
+  "method" : "POST",
+  "uri" : "/v2/instance",
+  "parameters" : [ {
+    "name" : "instanceName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateInstance.instanceName"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateInstance.instanceType"
+  }, {
+    "name" : "instanceSpec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateInstance.instanceSpec"
+  }, {
+    "name" : "retentionPeriod",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateInstance.retentionPeriod"
+  }, {
+    "name" : "needGrafana",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateInstance.needGrafana"
+  }, {
+    "name" : "grafanaName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateInstance.grafanaName"
+  }, {
+    "name" : "grafanaAdminPassword",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreateInstance.grafanaAdminPassword"
+  } ],
+  "desc_key" : "cprom.CreateInstance.desc"
+}

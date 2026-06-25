@@ -1,0 +1,25 @@
+{
+  "name" : "DeleteCustomScrapeTask",
+  "method" : "DELETE",
+  "uri" : "/v2/scrape_job/{scrapeJobId}",
+  "parameters" : [ {
+    "name" : "scrapeJobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.DeleteCustomScrapeTask.scrapeJobId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.DeleteCustomScrapeTask.instanceId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.DeleteCustomScrapeTask.agentId"
+  } ],
+  "desc_key" : "cprom.DeleteCustomScrapeTask.desc"
+}

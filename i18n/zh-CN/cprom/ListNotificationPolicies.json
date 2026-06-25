@@ -1,0 +1,8 @@
+{
+  "ListNotificationPolicies" : {
+    "pageSize" : "分页查询监控实例列表每页监控实例个数，范围为1-100，缺省值为10",
+    "pageNo" : "分页查询监控实例列表分页页码数，缺省值为1",
+    "keywordType" : "筛选条件类型，默认为notifyRuleName，只支持notifyRuleName",
+    "keyword" : "筛选条件关键字"
+  }
+}

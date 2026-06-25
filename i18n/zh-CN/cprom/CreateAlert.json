@@ -1,0 +1,14 @@
+{
+  "CreateAlert" : {
+    "instanceId" : "Cprom实例ID",
+    "alertName" : "告警名称",
+    "expr" : "告警规则，promQL查询语句",
+    "for" : "告警持续时间",
+    "description" : "告警内容",
+    "notifyRuleId" : "通知策略ID",
+    "enable" : "是否开启告警，创建时默认为true",
+    "severity" : "告警级别，notice/warning/major/critical",
+    "labels" : "自定义label键值对",
+    "annotations" : "自定义注解键值对"
+  }
+}

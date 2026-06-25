@@ -1,0 +1,151 @@
+{
+  "version" : "v2",
+  "style" : "rpc",
+  "description" : "Prometheus监控服务",
+  "apis" : {
+    "UpdateAlert" : {
+      "title" : "更新告警",
+      "summary" : "更新告警"
+    },
+    "CreateAlert" : {
+      "title" : "创建告警",
+      "summary" : "创建告警"
+    },
+    "GetAlertDetail" : {
+      "title" : "查询告警",
+      "summary" : "查询告警"
+    },
+    "GetAlertEventDetail" : {
+      "title" : "查询告警事件详情",
+      "summary" : "查询告警事件详情"
+    },
+    "ListAlertEvents" : {
+      "title" : "查询告警事件列表",
+      "summary" : "查询告警事件列表"
+    },
+    "ClaimAlertEvent" : {
+      "title" : "认领告警事件",
+      "summary" : "认领告警事件"
+    },
+    "CreateNotificationPolicy" : {
+      "title" : "创建通知策略",
+      "summary" : "创建通知策略"
+    },
+    "BindCluster" : {
+      "title" : "关联CCE集群",
+      "summary" : "关联CCE集群"
+    },
+    "GetClusterBindStatus" : {
+      "title" : "查询关联CCE集群状态",
+      "summary" : "查询关联CCE集群状态"
+    },
+    "CreateInstance" : {
+      "title" : "创建监控实例",
+      "summary" : "创建监控实例"
+    },
+    "DeleteInstance" : {
+      "title" : "释放监控实例",
+      "summary" : "释放监控实例"
+    },
+    "GenerateInstanceToken" : {
+      "title" : "生成监控实例Token",
+      "summary" : "生成监控实例Token"
+    },
+    "ListInstances" : {
+      "title" : "查询监控实例列表",
+      "summary" : "查询监控实例列表"
+    },
+    "RemoteRead" : {
+      "title" : "远程读",
+      "summary" : "远程读"
+    },
+    "ListPodMonitors" : {
+      "title" : "查询Pod Monitor列表",
+      "summary" : "查询Pod Monitor列表"
+    },
+    "UpdateRelatedCloudProducts" : {
+      "title" : "更新关联云产品列表",
+      "summary" : "更新关联云产品列表"
+    },
+    "ListBindableCloudProducts" : {
+      "title" : "查询可关联的云产品列表",
+      "summary" : "查询可关联的云产品列表"
+    },
+    "ListRelatedCloudProducts" : {
+      "title" : "查询已关联云产品列表",
+      "summary" : "查询已关联云产品列表"
+    },
+    "TogglePodMonitorService" : {
+      "title" : "启停Pod Monitor服务",
+      "summary" : "启停Pod Monitor服务"
+    },
+    "CreateServiceMonitor" : {
+      "title" : "创建Service Monitor",
+      "summary" : "创建Service Monitor"
+    },
+    "ToggleServiceMonitorService" : {
+      "title" : "启停Service Monitor服务",
+      "summary" : "启停Service Monitor服务"
+    },
+    "UpdateServiceMonitor" : {
+      "title" : "更新Service Monitor",
+      "summary" : "更新Service Monitor"
+    },
+    "DeleteServiceMonitor" : {
+      "title" : "删除Service Monitor",
+      "summary" : "删除Service Monitor"
+    },
+    "UpdatePodMonitor" : {
+      "title" : "更新Pod Monitor",
+      "summary" : "更新Pod Monitor"
+    },
+    "ListServiceMonitors" : {
+      "title" : "查询Service Monitor列表",
+      "summary" : "查询Service Monitor列表"
+    },
+    "CreatePodmonitor" : {
+      "title" : "创建Pod Monitor",
+      "summary" : "创建Pod Monitor"
+    },
+    "DeletePodmonitor" : {
+      "title" : "删除Pod Monitor",
+      "summary" : "删除Pod Monitor"
+    },
+    "CreateCustomScrapeTask" : {
+      "title" : "创建自定义采集任务",
+      "summary" : "创建自定义采集任务"
+    },
+    "DeleteCustomScrapeTask" : {
+      "title" : "删除自定义采集任务",
+      "summary" : "删除自定义采集任务"
+    },
+    "GetNotificationPolicy" : {
+      "title" : "查询通知策略",
+      "summary" : "查询通知策略"
+    },
+    "UpdateNotificationPolicy" : {
+      "title" : "更新通知策略",
+      "summary" : "更新通知策略"
+    },
+    "DeleteNotificationPolicy" : {
+      "title" : "删除通知策略",
+      "summary" : "删除通知策略"
+    },
+    "ListNotificationPolicies" : {
+      "title" : "查询通知策略列表",
+      "summary" : "查询通知策略列表"
+    },
+    "ListAlerts" : {
+      "title" : "查询告警列表",
+      "summary" : "查询告警列表"
+    },
+    "ListAlertTemplates" : {
+      "title" : "查询告警模板列表",
+      "summary" : "查询告警模板列表"
+    },
+    "DeleteAlert" : {
+      "title" : "删除告警",
+      "summary" : "删除告警"
+    }
+  }
+}

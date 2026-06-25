@@ -1,0 +1,37 @@
+{
+  "name" : "ListAlerts",
+  "method" : "GET",
+  "uri" : "/v2/alerting_rule",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlerts.instanceId"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlerts.pageSize"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlerts.pageNo"
+  }, {
+    "name" : "keywordType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlerts.keywordType"
+  }, {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlerts.keyword"
+  } ],
+  "desc_key" : "cprom.ListAlerts.desc"
+}

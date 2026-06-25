@@ -1,0 +1,15 @@
+{
+  "CreateServiceMonitor" : {
+    "instanceId" : "Cprom监控实例ID",
+    "agentId" : "Agent ID",
+    "apiVersion" : "固定值：monitoring.coreos.com/v1",
+    "kind" : "固定值：ServiceMonitor",
+    "metadata" : "ServiceMonitor的元数据, 其中namespace可固定填default, 不会在用户集群创建出资源。",
+    "metadata.name" : "资源名称",
+    "metadata.namespace" : "命名空间",
+    "spec" : "采集规则",
+    "spec.endpoints" : "采集端点配置列表",
+    "spec.namespaceSelector" : "Service 所在命名空间选择器",
+    "spec.selector" : "Service 标签选择器"
+  }
+}

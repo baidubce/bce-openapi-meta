@@ -1,0 +1,9 @@
+{
+  "RemoteRead" : {
+    "remoteReadUrl" : "监控实例 `Remote Read` 的公网 URL 前缀。",
+    "query" : "查询的指标表达式，支持直接填写指标名，也支持带 Label 选择器的 PromQL 表达式。使用 `GET` 调用时，将该参数放入 URL 查询串。",
+    "step" : "查询数据步长，单位：秒。仅在 `/query_range` 请求中必填；使用 `GET` 调用时，可放入 URL 查询串。",
+    "start" : "查询开始时间戳，单位：秒。仅在 `/query_range` 请求中必填；使用 `GET` 调用时，可放入 URL 查询串。",
+    "end" : "查询结束时间戳，单位：秒。仅在 `/query_range` 请求中必填；使用 `GET` 调用时，可放入 URL 查询串。"
+  }
+}

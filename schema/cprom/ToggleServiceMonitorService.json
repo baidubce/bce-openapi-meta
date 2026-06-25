@@ -1,0 +1,25 @@
+{
+  "name" : "ToggleServiceMonitorService",
+  "method" : "PUT",
+  "uri" : "/v2/service_monitor",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ToggleServiceMonitorService.action"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ToggleServiceMonitorService.instanceId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ToggleServiceMonitorService.agentId"
+  } ],
+  "desc_key" : "cprom.ToggleServiceMonitorService.desc"
+}

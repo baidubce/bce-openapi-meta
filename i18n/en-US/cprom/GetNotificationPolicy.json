@@ -1,0 +1,5 @@
+{
+  "GetNotificationPolicy" : {
+    "notifyRuleId" : "Notification policy ID"
+  }
+}

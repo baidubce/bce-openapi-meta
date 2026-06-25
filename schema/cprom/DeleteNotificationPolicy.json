@@ -1,0 +1,13 @@
+{
+  "name" : "DeleteNotificationPolicy",
+  "method" : "DELETE",
+  "uri" : "/v2/notify_rule/{notifyRuleId}",
+  "parameters" : [ {
+    "name" : "notifyRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.DeleteNotificationPolicy.notifyRuleId"
+  } ],
+  "desc_key" : "cprom.DeleteNotificationPolicy.desc"
+}

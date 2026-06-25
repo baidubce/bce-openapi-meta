@@ -1,0 +1,7 @@
+{
+  "BindCluster" : {
+    "instanceId" : "CProm 监控实例 ID。",
+    "action" : "操作类型，可选值为 `Bind`、`Unbind`。`Bind` 表示绑定 CProm 实例与 CCE 集群，`Unbind` 表示解绑。缺省值为 `Bind`。",
+    "clusterId" : "CCE 集群 ID。"
+  }
+}

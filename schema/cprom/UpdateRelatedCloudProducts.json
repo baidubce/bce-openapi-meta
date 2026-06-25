@@ -1,0 +1,19 @@
+{
+  "name" : "UpdateRelatedCloudProducts",
+  "method" : "PUT",
+  "uri" : "/v2/bcm_job/scopes",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.UpdateRelatedCloudProducts.instanceId"
+  }, {
+    "name" : "scopes",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateRelatedCloudProducts.scopes"
+  } ],
+  "desc_key" : "cprom.UpdateRelatedCloudProducts.desc"
+}

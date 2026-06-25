@@ -1,0 +1,19 @@
+{
+  "name" : "ClaimAlertEvent",
+  "method" : "POST",
+  "uri" : "/v2/event/claim",
+  "parameters" : [ {
+    "name" : "eventIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.ClaimAlertEvent.eventIds"
+  }, {
+    "name" : "claimReason",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.ClaimAlertEvent.claimReason"
+  } ],
+  "desc_key" : "cprom.ClaimAlertEvent.desc"
+}

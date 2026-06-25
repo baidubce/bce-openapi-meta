@@ -1,0 +1,6 @@
+{
+  "GetAlertDetail" : {
+    "alertingRuleId" : "Alert ID",
+    "instanceId" : "CProm Instance ID"
+  }
+}

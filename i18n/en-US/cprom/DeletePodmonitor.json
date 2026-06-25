@@ -1,0 +1,7 @@
+{
+  "DeletePodmonitor" : {
+    "podMonitorName" : "Pod Monitor name",
+    "instanceId" : "Cprom monitoring instance ID",
+    "agentId" : "Agent ID"
+  }
+}

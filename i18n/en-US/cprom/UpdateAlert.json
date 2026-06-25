@@ -1,0 +1,15 @@
+{
+  "UpdateAlert" : {
+    "alertingRuleId" : "Alert rule ID",
+    "instanceId" : "Cprom instance ID",
+    "alertName" : "Alert name",
+    "expr" : "Alert rule PromQL expression",
+    "for" : "Alert duration",
+    "description" : "Alert message content",
+    "notifyRuleId" : "Notification policy ID",
+    "severity" : "Alert severity: notice/warning/major/critical",
+    "enable" : "Whether to enable the alert; true=enabled, false=disabled",
+    "labels" : "Custom label key-value pairs",
+    "annotations" : "Custom annotation key-value pairs"
+  }
+}

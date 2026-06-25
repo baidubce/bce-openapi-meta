@@ -1,0 +1,98 @@
+{
+  "name" : "CreatePodmonitor",
+  "method" : "POST",
+  "uri" : "/v2/pod_monitor",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.CreatePodmonitor.instanceId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.CreatePodmonitor.agentId"
+  }, {
+    "name" : "apiVersion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreatePodmonitor.apiVersion"
+  }, {
+    "name" : "kind",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreatePodmonitor.kind"
+  }, {
+    "name" : "metadata",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreatePodmonitor.metadata",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.CreatePodmonitor.metadata.name"
+    }, {
+      "name" : "namespace",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.CreatePodmonitor.metadata.namespace"
+    } ]
+  }, {
+    "name" : "spec",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.CreatePodmonitor.spec",
+    "sub_parameters" : [ {
+      "name" : "namespaceSelector",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cprom.CreatePodmonitor.spec.namespaceSelector",
+      "sub_parameters" : [ {
+        "name" : "matchNames",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cprom.CreatePodmonitor.spec.namespaceSelector.matchNames"
+      } ]
+    }, {
+      "name" : "podMetricsEndpoints",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "cprom.CreatePodmonitor.spec.podMetricsEndpoints",
+      "sub_parameters" : [ {
+        "name" : "interval",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.CreatePodmonitor.spec.podMetricsEndpoints.interval"
+      }, {
+        "name" : "path",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.CreatePodmonitor.spec.podMetricsEndpoints.path"
+      }, {
+        "name" : "port",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.CreatePodmonitor.spec.podMetricsEndpoints.port"
+      } ]
+    }, {
+      "name" : "selector",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cprom.CreatePodmonitor.spec.selector",
+      "sub_parameters" : [ {
+        "name" : "matchLabels",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "cprom.CreatePodmonitor.spec.selector.matchLabels"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "cprom.CreatePodmonitor.desc"
+}

@@ -1,0 +1,9 @@
+{
+  "RemoteRead" : {
+    "remoteReadUrl" : "The public URL prefix for the monitoring instance's Remote Read.",
+    "query" : "The metric expression to query. Supports plain metric names or PromQL expressions with label selectors. When using GET, include this parameter in the URL query string.",
+    "step" : "Query data step size in seconds. Required only for `/query_range` requests; can be included in the URL query string when using GET.",
+    "start" : "Query start timestamp in seconds. Required only for `/query_range` requests; can be included in the URL query string when using GET.",
+    "end" : "Query end timestamp in seconds. Required only for `/query_range` requests; can be included in the URL query string when using GET."
+  }
+}

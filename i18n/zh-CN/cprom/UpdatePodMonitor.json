@@ -1,0 +1,13 @@
+{
+  "UpdatePodMonitor" : {
+    "podMonitorName" : "Pod Monitor名称",
+    "instanceId" : "Cprom监控实例ID",
+    "agentId" : "Agent ID",
+    "enable" : "是否启用：true/false",
+    "podMonitor" : "PodMonitor对象（字段见“创建Pod Monitor”）",
+    "podMonitor.apiVersion" : "固定值：monitoring.coreos.com/v1",
+    "podMonitor.kind" : "固定值：PodMonitor",
+    "podMonitor.metadata" : "元数据",
+    "podMonitor.spec" : "采集规则"
+  }
+}

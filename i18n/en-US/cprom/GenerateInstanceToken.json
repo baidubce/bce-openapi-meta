@@ -1,0 +1,7 @@
+{
+  "GenerateInstanceToken" : {
+    "instanceId" : "CProm monitoring instance ID.",
+    "Action" : "When set to `DeleteToken`, indicates deleting a token; not required when creating a token.",
+    "token" : "Required when `Action=DeleteToken`. The token to be deleted, in the format `Bearer <jwt>`; not required when creating a token."
+  }
+}

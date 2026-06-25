@@ -197,5 +197,19 @@
     "endpoint" : {
       "global" : "sts.bj.baidubce.com"
     }
+  }, {
+    "code" : "cprom",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "cprom.bd.baidubce.com",
+      "bj" : "cprom.bj.baidubce.com",
+      "cd" : "cprom.cd.baidubce.com",
+      "fwh" : "cprom.fwh.baidubce.com",
+      "gz" : "cprom.gz.baidubce.com",
+      "hkg" : "cprom.hkg.baidubce.com",
+      "nj" : "cprom.nj.baidubce.com",
+      "su" : "cprom.su.baidubce.com",
+      "yq" : "cprom.yq.baidubce.com"
+    }
   } ]
 }

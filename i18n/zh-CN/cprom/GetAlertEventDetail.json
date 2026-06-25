@@ -1,0 +1,5 @@
+{
+  "GetAlertEventDetail" : {
+    "eventId" : "告警事件 ID"
+  }
+}

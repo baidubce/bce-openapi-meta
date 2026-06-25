@@ -1,0 +1,15 @@
+{
+  "UpdateAlert" : {
+    "alertingRuleId" : "告警ID",
+    "instanceId" : "Cprom实例ID",
+    "alertName" : "告警名称",
+    "expr" : "告警规则，promQL查询语句",
+    "for" : "告警持续时间",
+    "description" : "告警内容",
+    "notifyRuleId" : "通知策略ID",
+    "severity" : "告警级别，notice/warning/major/critical",
+    "enable" : "是否开启告警，开启为true，关闭为false",
+    "labels" : "自定义label键值对",
+    "annotations" : "自定义注解键值对"
+  }
+}

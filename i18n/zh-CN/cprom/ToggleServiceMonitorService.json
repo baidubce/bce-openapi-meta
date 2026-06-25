@@ -1,0 +1,7 @@
+{
+  "ToggleServiceMonitorService" : {
+    "action" : "启停动作：start/stop",
+    "instanceId" : "Cprom监控实例ID",
+    "agentId" : "Agent ID"
+  }
+}

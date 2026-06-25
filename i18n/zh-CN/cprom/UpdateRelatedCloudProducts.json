@@ -1,0 +1,6 @@
+{
+  "UpdateRelatedCloudProducts" : {
+    "instanceId" : "CProm 监控实例ID",
+    "scopes" : "需要关联的云产品列表。取值可通过接口【获取可关联的 BCM 云产品列表】查询，传空数组或不传则表示清空云产品关联。"
+  }
+}

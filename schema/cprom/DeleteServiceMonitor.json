@@ -1,0 +1,25 @@
+{
+  "name" : "DeleteServiceMonitor",
+  "method" : "DELETE",
+  "uri" : "/v2/service_monitor/{serviceMonitorName}",
+  "parameters" : [ {
+    "name" : "serviceMonitorName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.DeleteServiceMonitor.serviceMonitorName"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.DeleteServiceMonitor.instanceId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.DeleteServiceMonitor.agentId"
+  } ],
+  "desc_key" : "cprom.DeleteServiceMonitor.desc"
+}

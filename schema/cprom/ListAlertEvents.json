@@ -1,0 +1,97 @@
+{
+  "name" : "ListAlertEvents",
+  "method" : "GET",
+  "uri" : "/v2/event",
+  "parameters" : [ {
+    "name" : "startTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.endTime"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.pageSize"
+  }, {
+    "name" : "monitorInstanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.monitorInstanceId"
+  }, {
+    "name" : "alertingRuleId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.alertingRuleId"
+  }, {
+    "name" : "alertingRuleName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.alertingRuleName"
+  }, {
+    "name" : "notifyRuleId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.notifyRuleId"
+  }, {
+    "name" : "notifyRuleName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.notifyRuleName"
+  }, {
+    "name" : "severity",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.severity"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.status"
+  }, {
+    "name" : "expr",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.expr"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.order"
+  }, {
+    "name" : "alarmTags",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListAlertEvents.alarmTags"
+  } ],
+  "desc_key" : "cprom.ListAlertEvents.desc"
+}

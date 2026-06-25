@@ -1,0 +1,7 @@
+{
+  "DeleteServiceMonitor" : {
+    "serviceMonitorName" : "Service Monitor名称",
+    "instanceId" : "Cprom监控实例ID",
+    "agentId" : "Agent ID"
+  }
+}

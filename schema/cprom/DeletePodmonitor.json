@@ -1,0 +1,25 @@
+{
+  "name" : "DeletePodmonitor",
+  "method" : "DELETE",
+  "uri" : "/v2/pod_monitor/{podMonitorName}",
+  "parameters" : [ {
+    "name" : "podMonitorName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.DeletePodmonitor.podMonitorName"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.DeletePodmonitor.instanceId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.DeletePodmonitor.agentId"
+  } ],
+  "desc_key" : "cprom.DeletePodmonitor.desc"
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "GetAlertEventDetail",
+  "method" : "GET",
+  "uri" : "/v2/event/{eventId}",
+  "parameters" : [ {
+    "name" : "eventId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.GetAlertEventDetail.eventId"
+  } ],
+  "desc_key" : "cprom.GetAlertEventDetail.desc"
+}

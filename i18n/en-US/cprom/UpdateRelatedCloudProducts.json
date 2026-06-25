@@ -1,0 +1,6 @@
+{
+  "UpdateRelatedCloudProducts" : {
+    "instanceId" : "CProm monitoring instance ID",
+    "scopes" : "List of cloud products to associate. Available values can be queried via [Get Associable BCM Cloud Product List]. Passing an empty array or omitting this field clears all cloud product associations."
+  }
+}

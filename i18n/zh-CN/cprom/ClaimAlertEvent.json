@@ -1,0 +1,6 @@
+{
+  "ClaimAlertEvent" : {
+    "eventIds" : "要认领的事件 ID 列表（1-100 个）",
+    "claimReason" : "认领原因（最大 500 字符）"
+  }
+}

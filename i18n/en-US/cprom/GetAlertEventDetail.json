@@ -1,0 +1,5 @@
+{
+  "GetAlertEventDetail" : {
+    "eventId" : "Alert event ID"
+  }
+}

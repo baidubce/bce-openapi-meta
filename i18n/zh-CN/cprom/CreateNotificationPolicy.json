@@ -1,0 +1,32 @@
+{
+  "CreateNotificationPolicy" : {
+    "notifyRuleName" : "通知策略名称",
+    "startTime" : "通知开始时间，时间格式 00：00：00",
+    "endTime" : "通知结束时间，时间格式 23：59：59",
+    "channel" : "通知渠道，phone:电话 , sms: 短信, email: 邮件。若选择phone:电话 , sms: 短信, email: 邮件这三种方式通知则必选，webhook为非必选。",
+    "receiverType" : "接受者类型，user：用户，userGroup：用户组，若选择phone:电话 , sms: 短信, email: 邮件这三种方式receiverType为必选参数，webhook为非必选。",
+    "users" : "用户列表",
+    "users.userId" : "用户ID",
+    "users.userName" : "用户名称",
+    "users.userType" : "用户类型, 默认identity",
+    "users.phoneNumber" : "用户手机号码",
+    "users.email" : "用户邮箱",
+    "userGroups" : "用户组列表",
+    "userGroups.groupId" : "用户组ID",
+    "userGroups.groupName" : "用户组名称",
+    "userGroups.description" : "用户组描述",
+    "webhookConfigList" : "webhook 回调配置信息列表",
+    "webhookConfigList.webhookType" : "回调类型，weCom:企业微信，dingTalk:钉钉，lark:飞书，custom:自定义webhook",
+    "webhookConfigList.webhookList" : "webhook配置详情列表",
+    "escalateConfigList" : "通知策略升级参数列表",
+    "escalateConfigList.rank" : "升级通知策略级别，1，2，3, xx时间未响应升级到1级->2级->3级",
+    "escalateConfigList.condition" : "认领配置",
+    "escalateConfigList.notifyAction" : "通知渠道信息",
+    "repeatNotifyConfig" : "重复通知配置",
+    "repeatNotifyConfig.enabled" : "是否开启重复通知",
+    "repeatNotifyConfig.intervalHour" : "重复通知间隔小时数",
+    "repeatNotifyConfig.intervalMin" : "重复通知间隔分钟数",
+    "repeatNotifyConfig.maxCount" : "最大重复通知次数",
+    "repeatNotifyConfig.strategy" : "重复通知策略"
+  }
+}

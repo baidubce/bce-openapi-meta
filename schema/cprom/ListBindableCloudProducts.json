@@ -1,0 +1,7 @@
+{
+  "name" : "ListBindableCloudProducts",
+  "method" : "GET",
+  "uri" : "/v2/bcm_scopes",
+  "parameters" : [ ],
+  "desc_key" : "cprom.ListBindableCloudProducts.desc"
+}

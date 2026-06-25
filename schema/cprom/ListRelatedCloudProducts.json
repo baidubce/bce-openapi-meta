@@ -1,0 +1,13 @@
+{
+  "name" : "ListRelatedCloudProducts",
+  "method" : "GET",
+  "uri" : "/v2/bcm_job/scopes",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cprom.ListRelatedCloudProducts.instanceId"
+  } ],
+  "desc_key" : "cprom.ListRelatedCloudProducts.desc"
+}

@@ -1,0 +1,337 @@
+{
+  "name" : "UpdateNotificationPolicy",
+  "method" : "PUT",
+  "uri" : "/v2/notify_rule/{notifyRuleId}",
+  "parameters" : [ {
+    "name" : "notifyRuleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cprom.UpdateNotificationPolicy.notifyRuleId"
+  }, {
+    "name" : "notifyRuleName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateNotificationPolicy.notifyRuleName"
+  }, {
+    "name" : "startTime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateNotificationPolicy.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateNotificationPolicy.endTime"
+  }, {
+    "name" : "channel",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateNotificationPolicy.channel"
+  }, {
+    "name" : "receiverType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateNotificationPolicy.receiverType"
+  }, {
+    "name" : "users",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateNotificationPolicy.users",
+    "sub_parameters" : [ {
+      "name" : "userId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.users.userId"
+    }, {
+      "name" : "userName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.users.userName"
+    }, {
+      "name" : "userType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.users.userType"
+    }, {
+      "name" : "phoneNumber",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.users.phoneNumber"
+    }, {
+      "name" : "email",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.users.email"
+    } ]
+  }, {
+    "name" : "userGroups",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateNotificationPolicy.userGroups",
+    "sub_parameters" : [ {
+      "name" : "groupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.userGroups.groupId"
+    }, {
+      "name" : "groupName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.userGroups.groupName"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.userGroups.description"
+    } ]
+  }, {
+    "name" : "webhookConfigList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList",
+    "sub_parameters" : [ {
+      "name" : "webhookType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList.webhookType"
+    }, {
+      "name" : "webhookList",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList.webhookList",
+      "sub_parameters" : [ {
+        "name" : "hookName",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList.webhookList.hookName"
+      }, {
+        "name" : "hookMethod",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList.webhookList.hookMethod"
+      }, {
+        "name" : "hookUrl",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList.webhookList.hookUrl"
+      }, {
+        "name" : "headers",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList.webhookList.headers"
+      }, {
+        "name" : "params",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList.webhookList.params"
+      }, {
+        "name" : "mentionedUsers",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList.webhookList.mentionedUsers",
+        "sub_parameters" : [ {
+          "name" : "atAll",
+          "type" : "Boolean",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList.webhookList.mentionedUsers.atAll"
+        }, {
+          "name" : "userIds",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.webhookConfigList.webhookList.mentionedUsers.userIds"
+        } ]
+      } ]
+    } ]
+  }, {
+    "name" : "escalateConfigList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList",
+    "sub_parameters" : [ {
+      "name" : "rank",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.rank"
+    }, {
+      "name" : "condition",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.condition",
+      "sub_parameters" : [ {
+        "name" : "condition",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.condition.condition"
+      } ]
+    }, {
+      "name" : "notifyAction",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction",
+      "sub_parameters" : [ {
+        "name" : "channel",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.channel"
+      }, {
+        "name" : "receiverType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.receiverType"
+      }, {
+        "name" : "users",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.users",
+        "sub_parameters" : [ {
+          "name" : "userId",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.users.userId"
+        }, {
+          "name" : "userName",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.users.userName"
+        }, {
+          "name" : "userType",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.users.userType"
+        }, {
+          "name" : "phoneNumber",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.users.phoneNumber"
+        }, {
+          "name" : "email",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.users.email"
+        } ]
+      }, {
+        "name" : "userGroups",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.userGroups",
+        "sub_parameters" : [ {
+          "name" : "groupId",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.userGroups.groupId"
+        }, {
+          "name" : "groupName",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.userGroups.groupName"
+        }, {
+          "name" : "description",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.userGroups.description"
+        } ]
+      }, {
+        "name" : "webhookConfigList",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList",
+        "sub_parameters" : [ {
+          "name" : "webhookType",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList.webhookType"
+        }, {
+          "name" : "webhookList",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList.webhookList",
+          "sub_parameters" : [ {
+            "name" : "hookName",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList.webhookList.hookName"
+          }, {
+            "name" : "hookMethod",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList.webhookList.hookMethod"
+          }, {
+            "name" : "hookUrl",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList.webhookList.hookUrl"
+          }, {
+            "name" : "headers",
+            "type" : "Object",
+            "required" : false,
+            "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList.webhookList.headers"
+          }, {
+            "name" : "params",
+            "type" : "Object",
+            "required" : false,
+            "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList.webhookList.params"
+          }, {
+            "name" : "mentionedUsers",
+            "type" : "Object",
+            "required" : false,
+            "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList.webhookList.mentionedUsers",
+            "sub_parameters" : [ {
+              "name" : "atAll",
+              "type" : "Boolean",
+              "required" : false,
+              "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList.webhookList.mentionedUsers.atAll"
+            }, {
+              "name" : "userIds",
+              "type" : "List",
+              "required" : false,
+              "desc_key" : "cprom.UpdateNotificationPolicy.escalateConfigList.notifyAction.webhookConfigList.webhookList.mentionedUsers.userIds"
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "name" : "repeatNotifyConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cprom.UpdateNotificationPolicy.repeatNotifyConfig",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.repeatNotifyConfig.enabled"
+    }, {
+      "name" : "intervalHour",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.repeatNotifyConfig.intervalHour"
+    }, {
+      "name" : "intervalMin",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.repeatNotifyConfig.intervalMin"
+    }, {
+      "name" : "maxCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.repeatNotifyConfig.maxCount"
+    }, {
+      "name" : "strategy",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cprom.UpdateNotificationPolicy.repeatNotifyConfig.strategy"
+    } ]
+  } ],
+  "desc_key" : "cprom.UpdateNotificationPolicy.desc"
+}
