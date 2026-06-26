@@ -3,93 +3,153 @@
   "style" : "rpc",
   "description" : "云监控",
   "apis" : {
-    "DescribeSystemTemplateRules" : {
-      "title" : "查询系统模版规则",
-      "summary" : "查询系统模版规则"
-    },
-    "ImportAlarmTemplates" : {
-      "title" : "报警模版导入",
-      "summary" : "报警模版导入"
-    },
-    "DeleteAlarmTemplates" : {
-      "title" : "删除报警模版",
-      "summary" : "删除报警模版"
-    },
-    "UpdateAlarmTemplate" : {
-      "title" : "更新报警模版",
-      "summary" : "更新报警模版"
-    },
-    "ExportAlarmTemplates" : {
-      "title" : "报警模版导出",
-      "summary" : "报警模版导出"
-    },
-    "DescribeAlarmTemplates" : {
-      "title" : "查询报警模版列表",
-      "summary" : "查询报警模版列表"
-    },
-    "CreateInstanceGroup" : {
-      "title" : "创建实例组",
-      "summary" : "创建实例组"
-    },
-    "DescribeInstanceGroups" : {
-      "title" : "实例组列表",
-      "summary" : "实例组列表"
-    },
-    "DeleteInstanceGroup" : {
-      "title" : "删除实例组",
-      "summary" : "删除实例组"
-    },
-    "UpdateInstanceGroup" : {
-      "title" : "更新实例组",
-      "summary" : "更新实例组"
-    },
-    "DescribeInstanceGroup" : {
-      "title" : "实例组详情",
-      "summary" : "实例组详情"
-    },
-    "DeleteInstanceGroupInstances" : {
-      "title" : "删除实例组实例",
-      "summary" : "删除实例组实例"
-    },
-    "DescribeReceivers" : {
-      "title" : "通知对象列表获取",
-      "summary" : "通知对象列表获取"
-    },
-    "CreateAlarmTemplate" : {
-      "title" : "创建报警模版",
-      "summary" : "创建报警模版"
-    },
-    "DescribeDimensionValues" : {
-      "title" : "查询指标维度值",
-      "summary" : "查询指标维度值"
-    },
-    "DescribeMetricDataLatestTop" : {
-      "title" : "查询监控指标最近Top数据",
-      "summary" : "查询监控指标最近Top数据"
-    },
-    "DescribeMetricData" : {
-      "title" : "查询监控指标数据",
-      "summary" : "查询监控指标数据"
-    },
-    "DescribeMetricDataLatest" : {
-      "title" : "查询监控指标最新数据点",
-      "summary" : "查询监控指标最新数据点"
+    "CreateAlarmPolicy" : {
+      "title" : "创建报警策略",
+      "summary" : "创建报警策略"
     },
     "CreateNotifyTemplate" : {
       "title" : "创建通知模版",
       "summary" : "创建通知模版"
     },
-    "DeleteAlarmPolicies" : {
-      "title" : "批量删除报警策略",
-      "summary" : "批量删除报警策略"
+    "DescribeAlarmPolicy" : {
+      "title" : "查询报警策略详情",
+      "summary" : "查询报警策略详情"
+    },
+    "DescribeMetricDataLatest" : {
+      "title" : "查询监控指标最新数据点",
+      "summary" : "查询监控指标最新数据点"
+    },
+    "DescribeReceivers" : {
+      "title" : "通知对象列表获取",
+      "summary" : "通知对象列表获取"
+    },
+    "DeleteAlarmPolicyActions" : {
+      "title" : "批量删除报警策略通知模版",
+      "summary" : "批量删除报警策略通知模版"
+    },
+    "DescribeNotifyTemplate" : {
+      "title" : "通知模版详情",
+      "summary" : "通知模版详情"
+    },
+    "AddAlarmPolicyActions" : {
+      "title" : "添加报警策略通知模版",
+      "summary" : "添加报警策略通知模版"
+    },
+    "DeleteNotifyTemplate" : {
+      "title" : "删除通知模版",
+      "summary" : "删除通知模版"
+    },
+    "UpdateNotifyTemplate" : {
+      "title" : "更新通知模版",
+      "summary" : "更新通知模版"
+    },
+    "DescribeNotifyTemplates" : {
+      "title" : "通知模版列表",
+      "summary" : "通知模版列表"
+    },
+    "CreateAlarmTemplate" : {
+      "title" : "创建报警模版",
+      "summary" : "创建报警模版"
+    },
+    "ImportAlarmTemplates" : {
+      "title" : "报警模版导入",
+      "summary" : "报警模版导入"
+    },
+    "DescribeAlarmTemplate" : {
+      "title" : "查询单个报警模版",
+      "summary" : "查询单个报警模版"
+    },
+    "DescribeSystemTemplateRules" : {
+      "title" : "查询系统模版规则",
+      "summary" : "查询系统模版规则"
+    },
+    "DeleteAlarmTemplates" : {
+      "title" : "删除报警模版",
+      "summary" : "删除报警模版"
+    },
+    "ExportAlarmTemplates" : {
+      "title" : "报警模版导出",
+      "summary" : "报警模版导出"
+    },
+    "DescribeAlarmMasking" : {
+      "title" : "查询报警屏蔽详情",
+      "summary" : "查询报警屏蔽详情"
+    },
+    "UpdateAlarmTemplate" : {
+      "title" : "更新报警模版",
+      "summary" : "更新报警模版"
+    },
+    "UpdateAlarmMasking" : {
+      "title" : "更新报警屏蔽",
+      "summary" : "更新报警屏蔽"
+    },
+    "DescribeAlarmTemplates" : {
+      "title" : "查询报警模版列表",
+      "summary" : "查询报警模版列表"
+    },
+    "DeleteAlarmMaskings" : {
+      "title" : "批量删除报警屏蔽",
+      "summary" : "批量删除报警屏蔽"
+    },
+    "CreateInstanceGroup" : {
+      "title" : "创建实例组",
+      "summary" : "创建实例组"
+    },
+    "UpdateAlarmMaskingStates" : {
+      "title" : "批量启停报警屏蔽",
+      "summary" : "批量启停报警屏蔽"
+    },
+    "DeleteInstanceGroupInstances" : {
+      "title" : "删除实例组实例",
+      "summary" : "删除实例组实例"
+    },
+    "DescribeAlarmMaskings" : {
+      "title" : "批量查询报警屏蔽",
+      "summary" : "批量查询报警屏蔽"
+    },
+    "DescribeInstanceGroups" : {
+      "title" : "实例组列表",
+      "summary" : "实例组列表"
+    },
+    "CreateAlarmMasking" : {
+      "title" : "创建报警屏蔽",
+      "summary" : "创建报警屏蔽"
+    },
+    "DeleteInstanceGroup" : {
+      "title" : "删除实例组",
+      "summary" : "删除实例组"
     },
     "UpdateAlarmPolicyState" : {
       "title" : "批量启停报警策略",
       "summary" : "批量启停报警策略"
     },
-    "DescribeNotifyTemplate" : {
-      "title" : "通知模版详情",
-      "summary" : "通知模版详情"
+    "DescribeInstanceGroup" : {
+      "title" : "实例组详情",
+      "summary" : "实例组详情"
+    },
+    "UpdateAlarmPolicyNotifyEnabled" : {
+      "title" : "批量启停报警通知",
+      "summary" : "批量启停报警通知"
+    },
+    "UpdateInstanceGroup" : {
+      "title" : "更新实例组",
+      "summary" : "更新实例组"
+    },
+    "DescribeAlarm" : {
+      "title" : "查询报警历史详情",
+      "summary" : "查询报警历史详情"
+    },
+    "DescribeAlarms" : {
+      "title" : "批量查询报警历史",
+      "summary" : "批量查询报警历史"
+    },
+    "DescribeDimensionValues" : {
+      "title" : "查询指标维度值",
+      "summary" : "查询指标维度值"
+    },
+    "DeleteAlarmPolicies" : {
+      "title" : "批量删除报警策略",
+      "summary" : "批量删除报警策略"
     },
     "DescribeAlarmPolicies" : {
       "title" : "批量查询报警策略",
@@ -99,73 +159,13 @@
       "title" : "更新报警策略",
       "summary" : "更新报警策略"
     },
-    "AddAlarmPolicyActions" : {
-      "title" : "添加报警策略通知模版",
-      "summary" : "添加报警策略通知模版"
+    "DescribeMetricDataLatestTop" : {
+      "title" : "查询监控指标最近Top数据",
+      "summary" : "查询监控指标最近Top数据"
     },
-    "CreateAlarmPolicy" : {
-      "title" : "创建报警策略",
-      "summary" : "创建报警策略"
-    },
-    "DeleteAlarmPolicyActions" : {
-      "title" : "批量删除报警策略通知模版",
-      "summary" : "批量删除报警策略通知模版"
-    },
-    "DeleteNotifyTemplate" : {
-      "title" : "删除通知模版",
-      "summary" : "删除通知模版"
-    },
-    "UpdateAlarmPolicyNotifyEnabled" : {
-      "title" : "批量启停报警通知",
-      "summary" : "批量启停报警通知"
-    },
-    "DescribeAlarmPolicy" : {
-      "title" : "查询报警策略详情",
-      "summary" : "查询报警策略详情"
-    },
-    "DescribeNotifyTemplates" : {
-      "title" : "通知模版列表",
-      "summary" : "通知模版列表"
-    },
-    "CreateAlarmMasking" : {
-      "title" : "创建报警屏蔽",
-      "summary" : "创建报警屏蔽"
-    },
-    "UpdateAlarmMasking" : {
-      "title" : "更新报警屏蔽",
-      "summary" : "更新报警屏蔽"
-    },
-    "UpdateNotifyTemplate" : {
-      "title" : "更新通知模版",
-      "summary" : "更新通知模版"
-    },
-    "DescribeAlarmMasking" : {
-      "title" : "查询报警屏蔽详情",
-      "summary" : "查询报警屏蔽详情"
-    },
-    "DeleteAlarmMaskings" : {
-      "title" : "批量删除报警屏蔽",
-      "summary" : "批量删除报警屏蔽"
-    },
-    "UpdateAlarmMaskingStates" : {
-      "title" : "批量启停报警屏蔽",
-      "summary" : "批量启停报警屏蔽"
-    },
-    "DescribeAlarmMaskings" : {
-      "title" : "批量查询报警屏蔽",
-      "summary" : "批量查询报警屏蔽"
-    },
-    "DescribeAlarmTemplate" : {
-      "title" : "查询单个报警模版",
-      "summary" : "查询单个报警模版"
-    },
-    "DescribeAlarms" : {
-      "title" : "批量查询报警历史",
-      "summary" : "批量查询报警历史"
-    },
-    "DescribeAlarm" : {
-      "title" : "查询报警历史详情",
-      "summary" : "查询报警历史详情"
+    "DescribeMetricData" : {
+      "title" : "查询监控指标数据",
+      "summary" : "查询监控指标数据"
     }
   }
 }
