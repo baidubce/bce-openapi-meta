@@ -3,153 +3,153 @@
   "style" : "rpc",
   "description" : "可观测",
   "apis" : {
-    "DescribeServicesNames" : {
-      "title" : "DescribeServicesNames",
-      "summary" : "DescribeServicesNames"
-    },
-    "DescribeServicesMetrics" : {
-      "title" : "DescribeServicesMetrics",
-      "summary" : "DescribeServicesMetrics"
-    },
-    "DescribeDefaultConfig" : {
-      "title" : "DescribeDefaultConfig",
-      "summary" : "DescribeDefaultConfig"
-    },
-    "DescribeRetentionLimit" : {
-      "title" : "DescribeRetentionLimit",
-      "summary" : "DescribeRetentionLimit"
-    },
-    "DescribeServiceConfig" : {
-      "title" : "DescribeServiceConfig",
-      "summary" : "DescribeServiceConfig"
-    },
-    "UpdateServiceConfig" : {
-      "title" : "UpdateServiceConfig",
-      "summary" : "UpdateServiceConfig"
-    },
-    "DescribeEnv" : {
-      "title" : "DescribeEnv",
-      "summary" : "DescribeEnv"
-    },
-    "DeleteServices" : {
-      "title" : "DeleteServices",
-      "summary" : "DeleteServices"
-    },
-    "BindServiceTag" : {
-      "title" : "BindServiceTag",
-      "summary" : "BindServiceTag"
-    },
-    "DescribeTopology" : {
-      "title" : "DescribeTopology",
-      "summary" : "DescribeTopology"
-    },
-    "DescribeSpanFieldValues" : {
-      "title" : "DescribeSpanFieldValues",
-      "summary" : "DescribeSpanFieldValues"
-    },
     "DescribeSpans" : {
-      "title" : "DescribeSpans",
-      "summary" : "DescribeSpans"
+      "title" : "查询 span 列表",
+      "summary" : "查询 span 列表"
     },
     "DescribeTrace" : {
-      "title" : "DescribeTrace",
-      "summary" : "DescribeTrace"
+      "title" : "查询 trace 详情",
+      "summary" : "查询 trace 详情"
     },
     "DescribeTraceMetricData" : {
-      "title" : "DescribeTraceMetricData",
-      "summary" : "DescribeTraceMetricData"
+      "title" : "查询 Trace 指标",
+      "summary" : "查询 Trace 指标"
+    },
+    "DescribeSpanFieldValues" : {
+      "title" : "查询 span 属性值",
+      "summary" : "查询 span 属性值"
     },
     "ApmCreateAlarmPolicy" : {
-      "title" : "APMCreateAlarmPolicy",
-      "summary" : "APMCreateAlarmPolicy"
+      "title" : "创建报警策略",
+      "summary" : "创建报警策略"
     },
     "ApmDescribeAlarmPolicies" : {
-      "title" : "APMDescribeAlarmPolicies",
-      "summary" : "APMDescribeAlarmPolicies"
+      "title" : "报警策略列表",
+      "summary" : "报警策略列表"
     },
     "ApmDescribeAlarmPolicy" : {
-      "title" : "APMDescribeAlarmPolicy",
-      "summary" : "APMDescribeAlarmPolicy"
+      "title" : "报警策略详情",
+      "summary" : "报警策略详情"
     },
     "ApmUpdateAlarmPolicy" : {
-      "title" : "APMUpdateAlarmPolicy",
-      "summary" : "APMUpdateAlarmPolicy"
+      "title" : "更新报警策略",
+      "summary" : "更新报警策略"
     },
     "ApmUpdateAlarmPolicyState" : {
-      "title" : "APMUpdateAlarmPolicyState",
-      "summary" : "APMUpdateAlarmPolicyState"
+      "title" : "更新报警策略状态",
+      "summary" : "更新报警策略状态"
     },
     "ApmUpdateAlarmPolicyAction" : {
-      "title" : "APMUpdateAlarmPolicyAction",
-      "summary" : "APMUpdateAlarmPolicyAction"
+      "title" : "更新报警策略动作",
+      "summary" : "更新报警策略动作"
     },
     "ApmDeleteAlarmPolicy" : {
-      "title" : "APMDeleteAlarmPolicy",
-      "summary" : "APMDeleteAlarmPolicy"
+      "title" : "删除报警策略",
+      "summary" : "删除报警策略"
+    },
+    "DescribeServicesMetrics" : {
+      "title" : "应用列表-指标",
+      "summary" : "应用列表-指标"
     },
     "ApmDescribeAlarms" : {
-      "title" : "APMDescribeAlarms",
-      "summary" : "APMDescribeAlarms"
+      "title" : "报警事件列表",
+      "summary" : "报警事件列表"
+    },
+    "DescribeServicesNames" : {
+      "title" : "应用列表-名称",
+      "summary" : "应用列表-名称"
+    },
+    "DescribeDefaultConfig" : {
+      "title" : "查询默认配置",
+      "summary" : "查询默认配置"
     },
     "ApmDescribeAlarm" : {
-      "title" : "APMDescribeAlarm",
-      "summary" : "APMDescribeAlarm"
+      "title" : "报警事件详情",
+      "summary" : "报警事件详情"
+    },
+    "DescribeRetentionLimit" : {
+      "title" : "查询配额限制",
+      "summary" : "查询配额限制"
     },
     "DescribeExceptions" : {
-      "title" : "DescribeExceptions",
-      "summary" : "DescribeExceptions"
+      "title" : "批量查询异常详情",
+      "summary" : "批量查询异常详情"
+    },
+    "DescribeServiceConfig" : {
+      "title" : "查询应用配置",
+      "summary" : "查询应用配置"
     },
     "DescribeDbStatement" : {
-      "title" : "DescribeDbStatement",
-      "summary" : "DescribeDbStatement"
+      "title" : "批量查询数据库操作",
+      "summary" : "批量查询数据库操作"
+    },
+    "UpdateServiceConfig" : {
+      "title" : "更新应用配置",
+      "summary" : "更新应用配置"
+    },
+    "DescribeEnv" : {
+      "title" : "查询环境列表",
+      "summary" : "查询环境列表"
     },
     "DescribeLLMTraces" : {
-      "title" : "DescribeLLMTraces",
-      "summary" : "DescribeLLMTraces"
+      "title" : "查询 LLM trace 列表",
+      "summary" : "查询 LLM trace 列表"
+    },
+    "DeleteServices" : {
+      "title" : "删除应用",
+      "summary" : "删除应用"
+    },
+    "BindServiceTag" : {
+      "title" : "绑定标签",
+      "summary" : "绑定标签"
     },
     "DescribeLLMTrace" : {
-      "title" : "DescribeLLMTrace",
-      "summary" : "DescribeLLMTrace"
-    },
-    "DescribeLLMTracesStatistics" : {
-      "title" : "DescribeLLMTracesStatistics",
-      "summary" : "DescribeLLMTracesStatistics"
+      "title" : "查询 LLM trace 详情",
+      "summary" : "查询 LLM trace 详情"
     },
     "DescribeDimensionValues" : {
-      "title" : "DescribeDimensionValues",
-      "summary" : "DescribeDimensionValues"
+      "title" : "查询指标维度",
+      "summary" : "查询指标维度"
     },
-    "DescribeLLMServices" : {
-      "title" : "DescribeLLMServices",
-      "summary" : "DescribeLLMServices"
-    },
-    "DescribeLLMSpans" : {
-      "title" : "DescribeLLMSpans",
-      "summary" : "DescribeLLMSpans"
+    "DescribeLLMTracesStatistics" : {
+      "title" : "查询 LLM trace 统计信息",
+      "summary" : "查询 LLM trace 统计信息"
     },
     "DescribeMetricData" : {
-      "title" : "DescribeMetricData",
-      "summary" : "DescribeMetricData"
+      "title" : "查询指标值",
+      "summary" : "查询指标值"
+    },
+    "DescribeLLMServices" : {
+      "title" : "查询 LLM 应用列表",
+      "summary" : "查询 LLM 应用列表"
+    },
+    "DescribeTopology" : {
+      "title" : "查询拓扑详情",
+      "summary" : "查询拓扑详情"
+    },
+    "DescribeLLMSpans" : {
+      "title" : "查询 LLM span 列表",
+      "summary" : "查询 LLM span 列表"
     },
     "DescribeLLMDimensionValues" : {
-      "title" : "DescribeLLMDimensionValues",
-      "summary" : "DescribeLLMDimensionValues"
+      "title" : "查询 LLM 维度列表",
+      "summary" : "查询 LLM 维度列表"
     },
     "DescribeLLMMetricData" : {
-      "title" : "DescribeLLMMetricData",
-      "summary" : "DescribeLLMMetricData"
+      "title" : "查询 LLM 指标数据",
+      "summary" : "查询 LLM 指标数据"
     },
     "DescribeLLMSession" : {
-      "title" : "DescribeLLMSession",
-      "summary" : "DescribeLLMSession"
+      "title" : "查询 LLM 会话详情",
+      "summary" : "查询 LLM 会话详情"
     },
     "DescribeLLMSessions" : {
-      "title" : "DescribeLLMSessions",
-      "summary" : "DescribeLLMSessions"
+      "title" : "查询 LLM 会话列表",
+      "summary" : "查询 LLM 会话列表"
     },
     "DescribeLLMSessionsStatistics" : {
-      "title" : "DescribeLLMSessionsStatistics",
-      "summary" : "DescribeLLMSessionsStatistics"
+      "title" : "查询 LLM 会话统计",
+      "summary" : "查询 LLM 会话统计"
     }
   }
 }

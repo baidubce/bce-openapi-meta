@@ -3,50 +3,6 @@
   "style" : "rpc",
   "description" : "apm",
   "apis" : {
-    "DescribeServicesNames" : {
-      "title" : "describeServicesNames",
-      "summary" : "describeServicesNames"
-    },
-    "DescribeServicesMetrics" : {
-      "title" : "describeServicesMetrics",
-      "summary" : "describeServicesMetrics"
-    },
-    "DescribeDefaultConfig" : {
-      "title" : "describeDefaultConfig",
-      "summary" : "describeDefaultConfig"
-    },
-    "DescribeRetentionLimit" : {
-      "title" : "describeRetentionLimit",
-      "summary" : "describeRetentionLimit"
-    },
-    "DescribeServiceConfig" : {
-      "title" : "describeServiceConfig",
-      "summary" : "describeServiceConfig"
-    },
-    "UpdateServiceConfig" : {
-      "title" : "updateServiceConfig",
-      "summary" : "updateServiceConfig"
-    },
-    "DescribeEnv" : {
-      "title" : "describeEnv",
-      "summary" : "describeEnv"
-    },
-    "DeleteServices" : {
-      "title" : "deleteServices",
-      "summary" : "deleteServices"
-    },
-    "BindServiceTag" : {
-      "title" : "bindServiceTag",
-      "summary" : "bindServiceTag"
-    },
-    "DescribeTopology" : {
-      "title" : "describeTopology",
-      "summary" : "describeTopology"
-    },
-    "DescribeSpanFieldValues" : {
-      "title" : "describeSpanFieldValues",
-      "summary" : "describeSpanFieldValues"
-    },
     "DescribeSpans" : {
       "title" : "describeSpans",
       "summary" : "describeSpans"
@@ -58,6 +14,10 @@
     "DescribeTraceMetricData" : {
       "title" : "describeTraceMetricData",
       "summary" : "describeTraceMetricData"
+    },
+    "DescribeSpanFieldValues" : {
+      "title" : "describeSpanFieldValues",
+      "summary" : "describeSpanFieldValues"
     },
     "ApmCreateAlarmPolicy" : {
       "title" : "apmCreateAlarmPolicy",
@@ -87,49 +47,89 @@
       "title" : "apmDeleteAlarmPolicy",
       "summary" : "apmDeleteAlarmPolicy"
     },
+    "DescribeServicesMetrics" : {
+      "title" : "describeServicesMetrics",
+      "summary" : "describeServicesMetrics"
+    },
     "ApmDescribeAlarms" : {
       "title" : "apmDescribeAlarms",
       "summary" : "apmDescribeAlarms"
+    },
+    "DescribeServicesNames" : {
+      "title" : "describeServicesNames",
+      "summary" : "describeServicesNames"
+    },
+    "DescribeDefaultConfig" : {
+      "title" : "describeDefaultConfig",
+      "summary" : "describeDefaultConfig"
     },
     "ApmDescribeAlarm" : {
       "title" : "apmDescribeAlarm",
       "summary" : "apmDescribeAlarm"
     },
+    "DescribeRetentionLimit" : {
+      "title" : "describeRetentionLimit",
+      "summary" : "describeRetentionLimit"
+    },
     "DescribeExceptions" : {
       "title" : "describeExceptions",
       "summary" : "describeExceptions"
+    },
+    "DescribeServiceConfig" : {
+      "title" : "describeServiceConfig",
+      "summary" : "describeServiceConfig"
     },
     "DescribeDbStatement" : {
       "title" : "describeDbStatement",
       "summary" : "describeDbStatement"
     },
+    "UpdateServiceConfig" : {
+      "title" : "updateServiceConfig",
+      "summary" : "updateServiceConfig"
+    },
+    "DescribeEnv" : {
+      "title" : "describeEnv",
+      "summary" : "describeEnv"
+    },
     "DescribeLLMTraces" : {
       "title" : "describeLLMTraces",
       "summary" : "describeLLMTraces"
+    },
+    "DeleteServices" : {
+      "title" : "deleteServices",
+      "summary" : "deleteServices"
+    },
+    "BindServiceTag" : {
+      "title" : "bindServiceTag",
+      "summary" : "bindServiceTag"
     },
     "DescribeLLMTrace" : {
       "title" : "describeLLMTrace",
       "summary" : "describeLLMTrace"
     },
+    "DescribeDimensionValues" : {
+      "title" : "describeDimensionValues",
+      "summary" : "describeDimensionValues"
+    },
     "DescribeLLMTracesStatistics" : {
       "title" : "describeLLMTracesStatistics",
       "summary" : "describeLLMTracesStatistics"
     },
-    "DescribeDimensionValues" : {
-      "title" : "describeDimensionValues",
-      "summary" : "describeDimensionValues"
+    "DescribeMetricData" : {
+      "title" : "describeMetricData",
+      "summary" : "describeMetricData"
     },
     "DescribeLLMServices" : {
       "title" : "describeLLMServices",
       "summary" : "describeLLMServices"
     },
+    "DescribeTopology" : {
+      "title" : "describeTopology",
+      "summary" : "describeTopology"
+    },
     "DescribeLLMSpans" : {
       "title" : "describeLLMSpans",
       "summary" : "describeLLMSpans"
-    },
-    "DescribeMetricData" : {
-      "title" : "describeMetricData",
-      "summary" : "describeMetricData"
     },
     "DescribeLLMDimensionValues" : {
       "title" : "describeLLMDimensionValues",
