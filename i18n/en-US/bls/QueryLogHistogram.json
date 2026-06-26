@@ -3,6 +3,7 @@
     "project" : "Log group name",
     "logStoreName" : "Log store name",
     "logStreamName" : "Log stream name",
+    "logStoreType" : "Log store type, LOGSTORE or LOGSTORE_VIEW",
     "query" : "Input query statement",
     "startDateTime" : "Start date and time, UTC, inclusive",
     "endDateTime" : "End date and time, UTC, exclusive"

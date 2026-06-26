@@ -28,6 +28,12 @@
     "position" : "QUERY",
     "desc_key" : "bls.QueryLogRecord.logStreamName"
   }, {
+    "name" : "logStoreType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.QueryLogRecord.logStoreType"
+  }, {
     "name" : "query",
     "type" : "String",
     "required" : true,

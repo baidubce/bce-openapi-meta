@@ -3,261 +3,21 @@
   "style" : "rpc",
   "description" : "bls",
   "apis" : {
-    "DescribeLogStoreTemplates" : {
-      "title" : "describeLogStoreTemplates",
-      "summary" : "describeLogStoreTemplates"
-    },
-    "CreateLogStoreView" : {
-      "title" : "createLogStoreView",
-      "summary" : "createLogStoreView"
-    },
-    "UpdateLogStoreView" : {
-      "title" : "updateLogStoreView",
-      "summary" : "updateLogStoreView"
-    },
-    "DescribeLogStoreView" : {
-      "title" : "describeLogStoreView",
-      "summary" : "describeLogStoreView"
-    },
-    "ListLogStoreView" : {
-      "title" : "listLogStoreView",
-      "summary" : "listLogStoreView"
-    },
-    "DeleteLogStoreView" : {
-      "title" : "deleteLogStoreView",
-      "summary" : "deleteLogStoreView"
-    },
-    "ResolveIndex" : {
-      "title" : "resolveIndex",
-      "summary" : "resolveIndex"
-    },
-    "FieldCaps" : {
-      "title" : "fieldCaps",
-      "summary" : "fieldCaps"
+    "CreateDownloadTask" : {
+      "title" : "createDownloadTask",
+      "summary" : "createDownloadTask"
     },
     "ListLogStore" : {
       "title" : "listLogStore",
       "summary" : "listLogStore"
     },
-    "TermsEnum" : {
-      "title" : "termsEnum",
-      "summary" : "termsEnum"
-    },
     "BatchGetLogStore" : {
       "title" : "batchGetLogStore",
       "summary" : "batchGetLogStore"
     },
-    "AsyncSearch" : {
-      "title" : "asyncSearch",
-      "summary" : "asyncSearch"
-    },
-    "CreateLogStore" : {
-      "title" : "createLogStore",
-      "summary" : "createLogStore"
-    },
-    "DescribeLogStore" : {
-      "title" : "describeLogStore",
-      "summary" : "describeLogStore"
-    },
-    "DeleteLogStore" : {
-      "title" : "deleteLogStore",
-      "summary" : "deleteLogStore"
-    },
-    "UpdateLogStore" : {
-      "title" : "updateLogStore",
-      "summary" : "updateLogStore"
-    },
-    "DeleteProject" : {
-      "title" : "deleteProject",
-      "summary" : "deleteProject"
-    },
-    "CreateTask" : {
-      "title" : "createTask",
-      "summary" : "createTask"
-    },
-    "ListProject" : {
-      "title" : "listProject",
-      "summary" : "listProject"
-    },
-    "UpdateTask" : {
-      "title" : "updateTask",
-      "summary" : "updateTask"
-    },
     "UpdateProject" : {
       "title" : "updateProject",
       "summary" : "updateProject"
-    },
-    "DescribeProject" : {
-      "title" : "describeProject",
-      "summary" : "describeProject"
-    },
-    "CreateProject" : {
-      "title" : "createProject",
-      "summary" : "createProject"
-    },
-    "ListLogStream" : {
-      "title" : "listLogStream",
-      "summary" : "listLogStream"
-    },
-    "PushLogRecord" : {
-      "title" : "pushLogRecord",
-      "summary" : "pushLogRecord"
-    },
-    "PullLogRecord" : {
-      "title" : "pullLogRecord",
-      "summary" : "pullLogRecord"
-    },
-    "QueryLogRecord" : {
-      "title" : "queryLogRecord",
-      "summary" : "queryLogRecord"
-    },
-    "QueryLogHistogram" : {
-      "title" : "queryLogHistogram",
-      "summary" : "queryLogHistogram"
-    },
-    "CreateIndex" : {
-      "title" : "createIndex",
-      "summary" : "createIndex"
-    },
-    "UpdateIndex" : {
-      "title" : "updateIndex",
-      "summary" : "updateIndex"
-    },
-    "DescribeIndex" : {
-      "title" : "describeIndex",
-      "summary" : "describeIndex"
-    },
-    "DeleteIndex" : {
-      "title" : "deleteIndex",
-      "summary" : "deleteIndex"
-    },
-    "CreateFastQuery" : {
-      "title" : "createFastQuery",
-      "summary" : "createFastQuery"
-    },
-    "DescribeFastQuery" : {
-      "title" : "describeFastQuery",
-      "summary" : "describeFastQuery"
-    },
-    "UpdateFastQuery" : {
-      "title" : "updateFastQuery",
-      "summary" : "updateFastQuery"
-    },
-    "ListFastQuery" : {
-      "title" : "listFastQuery",
-      "summary" : "listFastQuery"
-    },
-    "DeleteFastQuery" : {
-      "title" : "deleteFastQuery",
-      "summary" : "deleteFastQuery"
-    },
-    "CreateLogShipper" : {
-      "title" : "createLogShipper",
-      "summary" : "createLogShipper"
-    },
-    "UpdateLogShipper" : {
-      "title" : "updateLogShipper",
-      "summary" : "updateLogShipper"
-    },
-    "ListLogShipper" : {
-      "title" : "listLogShipper",
-      "summary" : "listLogShipper"
-    },
-    "ListLogShipperRecord" : {
-      "title" : "listLogShipperRecord",
-      "summary" : "listLogShipperRecord"
-    },
-    "SetSingleLogShipperStatus" : {
-      "title" : "setSingleLogShipperStatus",
-      "summary" : "setSingleLogShipperStatus"
-    },
-    "BulkSetLogShipperStatus" : {
-      "title" : "bulkSetLogShipperStatus",
-      "summary" : "bulkSetLogShipperStatus"
-    },
-    "DeleteSingleLogShipper" : {
-      "title" : "deleteSingleLogShipper",
-      "summary" : "deleteSingleLogShipper"
-    },
-    "BulkDeleteLogShipper" : {
-      "title" : "bulkDeleteLogShipper",
-      "summary" : "bulkDeleteLogShipper"
-    },
-    "GetLogShipper" : {
-      "title" : "getLogShipper",
-      "summary" : "getLogShipper"
-    },
-    "CreateAlarmPolicy" : {
-      "title" : "createAlarmPolicy",
-      "summary" : "createAlarmPolicy"
-    },
-    "UpdateAlarmPolicy" : {
-      "title" : "updateAlarmPolicy",
-      "summary" : "updateAlarmPolicy"
-    },
-    "DescribeAlarmPolicy" : {
-      "title" : "describeAlarmPolicy",
-      "summary" : "describeAlarmPolicy"
-    },
-    "ListAlarmPolicy" : {
-      "title" : "listAlarmPolicy",
-      "summary" : "listAlarmPolicy"
-    },
-    "EnableAlarmPolicy" : {
-      "title" : "enableAlarmPolicy",
-      "summary" : "enableAlarmPolicy"
-    },
-    "DisableAlarmPolicy" : {
-      "title" : "disableAlarmPolicy",
-      "summary" : "disableAlarmPolicy"
-    },
-    "DeleteAlarmPolicy" : {
-      "title" : "deleteAlarmPolicy",
-      "summary" : "deleteAlarmPolicy"
-    },
-    "ValidateAlarmPolicySQL" : {
-      "title" : "validateAlarmPolicySQL",
-      "summary" : "validateAlarmPolicySQL"
-    },
-    "ValidateAlarmCondition" : {
-      "title" : "validateAlarmCondition",
-      "summary" : "validateAlarmCondition"
-    },
-    "ListAlarmRecord" : {
-      "title" : "listAlarmRecord",
-      "summary" : "listAlarmRecord"
-    },
-    "DescribeAlarmRecord" : {
-      "title" : "describeAlarmRecord",
-      "summary" : "describeAlarmRecord"
-    },
-    "ListAlarmExecutions" : {
-      "title" : "listAlarmExecutions",
-      "summary" : "listAlarmExecutions"
-    },
-    "ListAlarmExecutionStats" : {
-      "title" : "listAlarmExecutionStats",
-      "summary" : "listAlarmExecutionStats"
-    },
-    "CreateDownloadTask" : {
-      "title" : "createDownloadTask",
-      "summary" : "createDownloadTask"
-    },
-    "DescribeDownloadTask" : {
-      "title" : "describeDownloadTask",
-      "summary" : "describeDownloadTask"
-    },
-    "DeleteDownloadTask" : {
-      "title" : "deleteDownloadTask",
-      "summary" : "deleteDownloadTask"
-    },
-    "GetDownloadTaskLink" : {
-      "title" : "getDownloadTaskLink",
-      "summary" : "getDownloadTaskLink"
-    },
-    "ListDownloadTask" : {
-      "title" : "listDownloadTask",
-      "summary" : "listDownloadTask"
     },
     "CreateLogStoreTemplate" : {
       "title" : "createLogStoreTemplate",
@@ -274,6 +34,246 @@
     "DescribeLogStoreTemplate" : {
       "title" : "describeLogStoreTemplate",
       "summary" : "describeLogStoreTemplate"
+    },
+    "DescribeLogStoreTemplates" : {
+      "title" : "describeLogStoreTemplates",
+      "summary" : "describeLogStoreTemplates"
+    },
+    "DescribeAlarmPolicy" : {
+      "title" : "describeAlarmPolicy",
+      "summary" : "describeAlarmPolicy"
+    },
+    "DescribeAlarmRecord" : {
+      "title" : "describeAlarmRecord",
+      "summary" : "describeAlarmRecord"
+    },
+    "EnableAlarmPolicy" : {
+      "title" : "enableAlarmPolicy",
+      "summary" : "enableAlarmPolicy"
+    },
+    "DisableAlarmPolicy" : {
+      "title" : "disableAlarmPolicy",
+      "summary" : "disableAlarmPolicy"
+    },
+    "DeleteAlarmPolicy" : {
+      "title" : "deleteAlarmPolicy",
+      "summary" : "deleteAlarmPolicy"
+    },
+    "ListAlarmExecutionStats" : {
+      "title" : "listAlarmExecutionStats",
+      "summary" : "listAlarmExecutionStats"
+    },
+    "CreateTask" : {
+      "title" : "createTask",
+      "summary" : "createTask"
+    },
+    "ListAlarmRecord" : {
+      "title" : "listAlarmRecord",
+      "summary" : "listAlarmRecord"
+    },
+    "PullLogRecord" : {
+      "title" : "pullLogRecord",
+      "summary" : "pullLogRecord"
+    },
+    "QueryLogRecord" : {
+      "title" : "queryLogRecord",
+      "summary" : "queryLogRecord"
+    },
+    "QueryLogHistogram" : {
+      "title" : "queryLogHistogram",
+      "summary" : "queryLogHistogram"
+    },
+    "TermsEnum" : {
+      "title" : "termsEnum",
+      "summary" : "termsEnum"
+    },
+    "AsyncSearch" : {
+      "title" : "asyncSearch",
+      "summary" : "asyncSearch"
+    },
+    "CreateLogStore" : {
+      "title" : "createLogStore",
+      "summary" : "createLogStore"
+    },
+    "CreateFastQuery" : {
+      "title" : "createFastQuery",
+      "summary" : "createFastQuery"
+    },
+    "DeleteLogStore" : {
+      "title" : "deleteLogStore",
+      "summary" : "deleteLogStore"
+    },
+    "UpdateLogStore" : {
+      "title" : "updateLogStore",
+      "summary" : "updateLogStore"
+    },
+    "DescribeFastQuery" : {
+      "title" : "describeFastQuery",
+      "summary" : "describeFastQuery"
+    },
+    "ListFastQuery" : {
+      "title" : "listFastQuery",
+      "summary" : "listFastQuery"
+    },
+    "PushLogRecord" : {
+      "title" : "pushLogRecord",
+      "summary" : "pushLogRecord"
+    },
+    "ListLogStream" : {
+      "title" : "listLogStream",
+      "summary" : "listLogStream"
+    },
+    "CreateIndex" : {
+      "title" : "createIndex",
+      "summary" : "createIndex"
+    },
+    "UpdateIndex" : {
+      "title" : "updateIndex",
+      "summary" : "updateIndex"
+    },
+    "ListAlarmExecutions" : {
+      "title" : "listAlarmExecutions",
+      "summary" : "listAlarmExecutions"
+    },
+    "DeleteIndex" : {
+      "title" : "deleteIndex",
+      "summary" : "deleteIndex"
+    },
+    "DescribeIndex" : {
+      "title" : "describeIndex",
+      "summary" : "describeIndex"
+    },
+    "UpdateTask" : {
+      "title" : "updateTask",
+      "summary" : "updateTask"
+    },
+    "UpdateFastQuery" : {
+      "title" : "updateFastQuery",
+      "summary" : "updateFastQuery"
+    },
+    "DeleteFastQuery" : {
+      "title" : "deleteFastQuery",
+      "summary" : "deleteFastQuery"
+    },
+    "ListProject" : {
+      "title" : "listProject",
+      "summary" : "listProject"
+    },
+    "CreateLogShipper" : {
+      "title" : "createLogShipper",
+      "summary" : "createLogShipper"
+    },
+    "DescribeProject" : {
+      "title" : "describeProject",
+      "summary" : "describeProject"
+    },
+    "UpdateLogShipper" : {
+      "title" : "updateLogShipper",
+      "summary" : "updateLogShipper"
+    },
+    "DeleteSingleLogShipper" : {
+      "title" : "deleteSingleLogShipper",
+      "summary" : "deleteSingleLogShipper"
+    },
+    "GetLogShipper" : {
+      "title" : "getLogShipper",
+      "summary" : "getLogShipper"
+    },
+    "ListLogShipper" : {
+      "title" : "listLogShipper",
+      "summary" : "listLogShipper"
+    },
+    "ListLogShipperRecord" : {
+      "title" : "listLogShipperRecord",
+      "summary" : "listLogShipperRecord"
+    },
+    "BulkDeleteLogShipper" : {
+      "title" : "bulkDeleteLogShipper",
+      "summary" : "bulkDeleteLogShipper"
+    },
+    "CreateAlarmPolicy" : {
+      "title" : "createAlarmPolicy",
+      "summary" : "createAlarmPolicy"
+    },
+    "UpdateAlarmPolicy" : {
+      "title" : "updateAlarmPolicy",
+      "summary" : "updateAlarmPolicy"
+    },
+    "CreateProject" : {
+      "title" : "createProject",
+      "summary" : "createProject"
+    },
+    "ValidateAlarmPolicySQL" : {
+      "title" : "validateAlarmPolicySQL",
+      "summary" : "validateAlarmPolicySQL"
+    },
+    "ValidateAlarmCondition" : {
+      "title" : "validateAlarmCondition",
+      "summary" : "validateAlarmCondition"
+    },
+    "ListAlarmPolicy" : {
+      "title" : "listAlarmPolicy",
+      "summary" : "listAlarmPolicy"
+    },
+    "DeleteProject" : {
+      "title" : "deleteProject",
+      "summary" : "deleteProject"
+    },
+    "GetDownloadTaskLink" : {
+      "title" : "getDownloadTaskLink",
+      "summary" : "getDownloadTaskLink"
+    },
+    "DeleteDownloadTask" : {
+      "title" : "deleteDownloadTask",
+      "summary" : "deleteDownloadTask"
+    },
+    "DescribeDownloadTask" : {
+      "title" : "describeDownloadTask",
+      "summary" : "describeDownloadTask"
+    },
+    "ListDownloadTask" : {
+      "title" : "listDownloadTask",
+      "summary" : "listDownloadTask"
+    },
+    "CreateLogStoreView" : {
+      "title" : "createLogStoreView",
+      "summary" : "createLogStoreView"
+    },
+    "UpdateLogStoreView" : {
+      "title" : "updateLogStoreView",
+      "summary" : "updateLogStoreView"
+    },
+    "DeleteLogStoreView" : {
+      "title" : "deleteLogStoreView",
+      "summary" : "deleteLogStoreView"
+    },
+    "ListLogStoreView" : {
+      "title" : "listLogStoreView",
+      "summary" : "listLogStoreView"
+    },
+    "DescribeLogStoreView" : {
+      "title" : "describeLogStoreView",
+      "summary" : "describeLogStoreView"
+    },
+    "ResolveIndex" : {
+      "title" : "resolveIndex",
+      "summary" : "resolveIndex"
+    },
+    "FieldCaps" : {
+      "title" : "fieldCaps",
+      "summary" : "fieldCaps"
+    },
+    "DescribeLogStore" : {
+      "title" : "describeLogStore",
+      "summary" : "describeLogStore"
+    },
+    "SetSingleLogShipperStatus" : {
+      "title" : "setSingleLogShipperStatus",
+      "summary" : "setSingleLogShipperStatus"
+    },
+    "BulkSetLogShipperStatus" : {
+      "title" : "bulkSetLogShipperStatus",
+      "summary" : "bulkSetLogShipperStatus"
     }
   }
 }

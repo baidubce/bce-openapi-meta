@@ -3,6 +3,7 @@
     "project" : "Log group name",
     "logStoreName" : "Log store name",
     "logStreamName" : "Log stream name, max 192 characters, allowed characters: `a-z, A-Z, 0-9, '_', '-', '.', '/'`",
+    "logStoreType" : "Log store type, LOGSTORE or LOGSTORE_VIEW",
     "query" : "Query parameter statement",
     "startDateTime" : "Start datetime, inclusive",
     "endDateTime" : "End datetime, exclusive",

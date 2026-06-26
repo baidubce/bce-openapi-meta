@@ -28,6 +28,12 @@
     "position" : "QUERY",
     "desc_key" : "bls.PullLogRecord.logStreamName"
   }, {
+    "name" : "logStoreType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bls.PullLogRecord.logStoreType"
+  }, {
     "name" : "startDateTime",
     "type" : "String",
     "required" : true,

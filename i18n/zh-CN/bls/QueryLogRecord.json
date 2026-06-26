@@ -3,6 +3,7 @@
     "project" : "日志组名称",
     "logStoreName" : "日志集名称",
     "logStreamName" : "日志流名称，长度不能超过 192 字符，包含的字符仅限于：`a-z, A-Z, 0-9, '_', '-', '.' '/'`",
+    "logStoreType" : "日志集类型，LOGSTORE或者LOGSTORE_VIEW",
     "query" : "输入的 Query参数 语句",
     "startDateTime" : "起始日期时间，包括起始时间",
     "endDateTime" : "结束日期时间，不包括结束时间",
