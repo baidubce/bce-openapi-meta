@@ -15,6 +15,10 @@
       "title" : "describeAlarmPolicy",
       "summary" : "describeAlarmPolicy"
     },
+    "DescribeMetricDataLatest" : {
+      "title" : "describeMetricDataLatest",
+      "summary" : "describeMetricDataLatest"
+    },
     "DeleteAlarmPolicyActions" : {
       "title" : "deleteAlarmPolicyActions",
       "summary" : "deleteAlarmPolicyActions"
@@ -115,21 +119,9 @@
       "title" : "createAlarmTemplate",
       "summary" : "createAlarmTemplate"
     },
-    "DescribeMetricDataLatestTop" : {
-      "title" : "describeMetricDataLatestTop",
-      "summary" : "describeMetricDataLatestTop"
-    },
     "DescribeDimensionValues" : {
       "title" : "describeDimensionValues",
       "summary" : "describeDimensionValues"
-    },
-    "DescribeMetricData" : {
-      "title" : "describeMetricData",
-      "summary" : "describeMetricData"
-    },
-    "DescribeMetricDataLatest" : {
-      "title" : "describeMetricDataLatest",
-      "summary" : "describeMetricDataLatest"
     },
     "CreateNotifyTemplate" : {
       "title" : "createNotifyTemplate",
@@ -163,9 +155,17 @@
       "title" : "updateAlarmPolicy",
       "summary" : "updateAlarmPolicy"
     },
+    "DescribeMetricDataLatestTop" : {
+      "title" : "describeMetricDataLatestTop",
+      "summary" : "describeMetricDataLatestTop"
+    },
     "DescribeAlarmTemplate" : {
       "title" : "describeAlarmTemplate",
       "summary" : "describeAlarmTemplate"
+    },
+    "DescribeMetricData" : {
+      "title" : "describeMetricData",
+      "summary" : "describeMetricData"
     }
   }
 }

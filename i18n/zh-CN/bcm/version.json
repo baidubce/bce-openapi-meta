@@ -15,6 +15,10 @@
       "title" : "查询报警策略详情",
       "summary" : "查询报警策略详情"
     },
+    "DescribeMetricDataLatest" : {
+      "title" : "查询监控指标最新数据点",
+      "summary" : "查询监控指标最新数据点"
+    },
     "DeleteAlarmPolicyActions" : {
       "title" : "批量删除报警策略通知模版",
       "summary" : "批量删除报警策略通知模版"
@@ -115,21 +119,9 @@
       "title" : "创建报警模版",
       "summary" : "创建报警模版"
     },
-    "DescribeMetricDataLatestTop" : {
-      "title" : "查询监控指标最近Top数据",
-      "summary" : "查询监控指标最近Top数据"
-    },
     "DescribeDimensionValues" : {
       "title" : "查询指标维度值",
       "summary" : "查询指标维度值"
-    },
-    "DescribeMetricData" : {
-      "title" : "查询监控指标数据",
-      "summary" : "查询监控指标数据"
-    },
-    "DescribeMetricDataLatest" : {
-      "title" : "查询监控指标最新数据点",
-      "summary" : "查询监控指标最新数据点"
     },
     "CreateNotifyTemplate" : {
       "title" : "创建通知模版",
@@ -163,9 +155,17 @@
       "title" : "更新报警策略",
       "summary" : "更新报警策略"
     },
+    "DescribeMetricDataLatestTop" : {
+      "title" : "查询监控指标最近Top数据",
+      "summary" : "查询监控指标最近Top数据"
+    },
     "DescribeAlarmTemplate" : {
       "title" : "查询单个报警模版",
       "summary" : "查询单个报警模版"
+    },
+    "DescribeMetricData" : {
+      "title" : "查询监控指标数据",
+      "summary" : "查询监控指标数据"
     }
   }
 }
