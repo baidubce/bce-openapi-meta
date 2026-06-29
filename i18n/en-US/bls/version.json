@@ -203,6 +203,10 @@
       "title" : "createProject",
       "summary" : "createProject"
     },
+    "ListAlarmPolicy" : {
+      "title" : "listAlarmPolicy",
+      "summary" : "listAlarmPolicy"
+    },
     "ValidateAlarmPolicySQL" : {
       "title" : "validateAlarmPolicySQL",
       "summary" : "validateAlarmPolicySQL"
@@ -210,10 +214,6 @@
     "ValidateAlarmCondition" : {
       "title" : "validateAlarmCondition",
       "summary" : "validateAlarmCondition"
-    },
-    "ListAlarmPolicy" : {
-      "title" : "listAlarmPolicy",
-      "summary" : "listAlarmPolicy"
     },
     "DeleteProject" : {
       "title" : "deleteProject",

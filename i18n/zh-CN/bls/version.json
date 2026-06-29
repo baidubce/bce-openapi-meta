@@ -203,6 +203,10 @@
       "title" : "创建日志组",
       "summary" : "创建日志组"
     },
+    "ListAlarmPolicy" : {
+      "title" : "获取报警策略列表ListAlarmPolicy",
+      "summary" : "获取报警策略列表ListAlarmPolicy"
+    },
     "ValidateAlarmPolicySQL" : {
       "title" : "检验报警策略查询语句ValidateAlarmPolicySQL",
       "summary" : "检验报警策略查询语句ValidateAlarmPolicySQL"
@@ -210,10 +214,6 @@
     "ValidateAlarmCondition" : {
       "title" : "检验报警策略执行条件ValidateAlarmCondition",
       "summary" : "检验报警策略执行条件ValidateAlarmCondition"
-    },
-    "ListAlarmPolicy" : {
-      "title" : "获取报警策略列表ListAlarmPolicy",
-      "summary" : "获取报警策略列表ListAlarmPolicy"
     },
     "DeleteProject" : {
       "title" : "删除日志组",
