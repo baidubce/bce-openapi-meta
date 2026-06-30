@@ -1,0 +1,5 @@
+{
+  "GetDnsResolverDetail" : {
+    "resolverId" : "解析器的id"
+  }
+}

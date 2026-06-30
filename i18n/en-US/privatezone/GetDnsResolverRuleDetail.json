@@ -1,0 +1,5 @@
+{
+  "GetDnsResolverRuleDetail" : {
+    "ruleId" : "The ID of the forwarding rule"
+  }
+}

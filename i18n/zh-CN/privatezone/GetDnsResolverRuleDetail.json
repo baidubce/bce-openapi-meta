@@ -1,0 +1,5 @@
+{
+  "GetDnsResolverRuleDetail" : {
+    "ruleId" : "转发规则的ID"
+  }
+}

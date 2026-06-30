@@ -1,0 +1,12 @@
+{
+  "CreateResolverRule" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](DNS/API参考/通用说明.md#幂等性)",
+    "name" : "转发规则名称，大小写字母、数字、中文以及 `-_/ .` 特殊字符，必须以字母或者中文开头，长度1-65",
+    "description" : "转发规则描述，最长不超过200个字符",
+    "zone" : "转发的私有域",
+    "resolverId" : "必须为出站解析器，使用该出站终端节点将DNS查询流量转发到目标IP地址列表中指定的IP地址",
+    "dnsServerConfigs" : "外部DNS系统的IP地址和端口列表",
+    "dnsServerConfigs.ip" : "转发目标 IP 地址",
+    "dnsServerConfigs.port" : "转发目标 IP 地址的端口号"
+  }
+}

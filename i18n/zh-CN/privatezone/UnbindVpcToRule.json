@@ -1,0 +1,9 @@
+{
+  "UnbindVpcToRule" : {
+    "clienToken" : "幂等性Token",
+    "ruleId" : "转发规则的ID",
+    "vpcRegions" : "要解绑的vpc信息",
+    "vpcRegions.region" : "VPC 所在的地区",
+    "vpcRegions.vpcIds" : "VPC 的 id 列表"
+  }
+}

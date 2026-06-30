@@ -1,0 +1,43 @@
+{
+  "name" : "UnbindVpcToRule",
+  "method" : "PUT",
+  "uri" : "/v{version}/privatezone/resolver/rule/{ruleId}/unbind",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clienToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "privatezone.UnbindVpcToRule.clienToken"
+  }, {
+    "name" : "ruleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "privatezone.UnbindVpcToRule.ruleId"
+  }, {
+    "name" : "vpcRegions",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.UnbindVpcToRule.vpcRegions",
+    "sub_parameters" : [ {
+      "name" : "region",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "privatezone.UnbindVpcToRule.vpcRegions.region"
+    }, {
+      "name" : "vpcIds",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "privatezone.UnbindVpcToRule.vpcRegions.vpcIds"
+    } ]
+  } ],
+  "desc_key" : "privatezone.UnbindVpcToRule.desc"
+}

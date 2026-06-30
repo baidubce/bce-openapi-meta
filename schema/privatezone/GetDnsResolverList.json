@@ -1,0 +1,39 @@
+{
+  "name" : "GetDnsResolverList",
+  "method" : "GET",
+  "uri" : "/v{version}/privatezone/resolver",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "privatezone.GetDnsResolverList.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "privatezone.GetDnsResolverList.maxKeys"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "privatezone.GetDnsResolverList.status"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "result"
+  },
+  "desc_key" : "privatezone.GetDnsResolverList.desc"
+}

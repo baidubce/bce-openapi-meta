@@ -1,0 +1,55 @@
+{
+  "name" : "UpdateResolverRule",
+  "method" : "PUT",
+  "uri" : "/v{version}/privatezone/resolver/rule/{reluId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "privatezone.UpdateResolverRule.clientToken"
+  }, {
+    "name" : "reluId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "privatezone.UpdateResolverRule.reluId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.UpdateResolverRule.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "privatezone.UpdateResolverRule.description"
+  }, {
+    "name" : "dnsServerConfigs",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "privatezone.UpdateResolverRule.dnsServerConfigs",
+    "sub_parameters" : [ {
+      "name" : "ip",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "privatezone.UpdateResolverRule.dnsServerConfigs.ip"
+    }, {
+      "name" : "port",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "privatezone.UpdateResolverRule.dnsServerConfigs.port"
+    } ]
+  } ],
+  "desc_key" : "privatezone.UpdateResolverRule.desc"
+}

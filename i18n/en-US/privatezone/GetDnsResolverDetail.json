@@ -1,0 +1,5 @@
+{
+  "GetDnsResolverDetail" : {
+    "resolverId" : "The ID of the DNS resolver"
+  }
+}

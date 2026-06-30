@@ -1,7 +1,6 @@
 {
   "UnbindVpc" : {
     "zoneId" : "zone的ID",
-    "action" : "解关联unbind",
     "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](DNS/API参考/通用说明.md#幂等性)",
     "region" : "关联或者解关联的VPC所属的区域",
     "vpcIds" : "想要关联或者解关联的VPC的ID列表"

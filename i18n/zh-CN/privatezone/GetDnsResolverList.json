@@ -1,0 +1,7 @@
+{
+  "GetDnsResolverList" : {
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量为100",
+    "status" : "解析器的状态，描述：CREATING：创建中；CREATE_FAILED：创建失败；RUNNING：运行中；STOPPED：停止运行；DELETING：删除中。状态为空默认获取全部解析器，状态不为空则获取指定状态的解析器  。"
+  }
+}

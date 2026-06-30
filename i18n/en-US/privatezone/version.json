@@ -3,37 +3,25 @@
   "style" : "rpc",
   "description" : "privatezone",
   "apis" : {
-    "ListRecord" : {
-      "title" : "listRecord",
-      "summary" : "listRecord"
+    "BindVpcToRule" : {
+      "title" : "bindVpcToRule",
+      "summary" : "bindVpcToRule"
     },
     "CreatePrivateZone" : {
       "title" : "createPrivateZone",
       "summary" : "createPrivateZone"
     },
-    "UnbindVpc" : {
-      "title" : "unbindVpc",
-      "summary" : "unbindVpc"
-    },
-    "DisableRecord" : {
-      "title" : "disableRecord",
-      "summary" : "disableRecord"
-    },
     "UpdateRecord" : {
       "title" : "updateRecord",
       "summary" : "updateRecord"
-    },
-    "BindVpc" : {
-      "title" : "bindVpc",
-      "summary" : "bindVpc"
     },
     "DeleteRecord" : {
       "title" : "deleteRecord",
       "summary" : "deleteRecord"
     },
-    "EnableRecord" : {
-      "title" : "enableRecord",
-      "summary" : "enableRecord"
+    "UnbindVpc" : {
+      "title" : "unbindVpc",
+      "summary" : "unbindVpc"
     },
     "DeletePrivateZone" : {
       "title" : "deletePrivateZone",
@@ -50,6 +38,66 @@
     "GetPrivateZone" : {
       "title" : "getPrivateZone",
       "summary" : "getPrivateZone"
+    },
+    "ListRecord" : {
+      "title" : "listRecord",
+      "summary" : "listRecord"
+    },
+    "EnableRecord" : {
+      "title" : "enableRecord",
+      "summary" : "enableRecord"
+    },
+    "DisableRecord" : {
+      "title" : "disableRecord",
+      "summary" : "disableRecord"
+    },
+    "UpdateDnsParser" : {
+      "title" : "updateDnsParser",
+      "summary" : "updateDnsParser"
+    },
+    "DeleteResolver" : {
+      "title" : "deleteResolver",
+      "summary" : "deleteResolver"
+    },
+    "BindVpc" : {
+      "title" : "bindVpc",
+      "summary" : "bindVpc"
+    },
+    "GetDnsResolverDetail" : {
+      "title" : "getDnsResolverDetail",
+      "summary" : "getDnsResolverDetail"
+    },
+    "GetDnsResolverList" : {
+      "title" : "getDnsResolverList",
+      "summary" : "getDnsResolverList"
+    },
+    "CreateResolverRule" : {
+      "title" : "createResolverRule",
+      "summary" : "createResolverRule"
+    },
+    "DeleteResolverRule" : {
+      "title" : "deleteResolverRule",
+      "summary" : "deleteResolverRule"
+    },
+    "UpdateResolverRule" : {
+      "title" : "updateResolverRule",
+      "summary" : "updateResolverRule"
+    },
+    "GetDnsResolverRuleDetail" : {
+      "title" : "getDnsResolverRuleDetail",
+      "summary" : "getDnsResolverRuleDetail"
+    },
+    "GetDnsResolverRuleList" : {
+      "title" : "getDnsResolverRuleList",
+      "summary" : "getDnsResolverRuleList"
+    },
+    "CreateResolver" : {
+      "title" : "createResolver",
+      "summary" : "createResolver"
+    },
+    "UnbindVpcToRule" : {
+      "title" : "unbindVpcToRule",
+      "summary" : "unbindVpcToRule"
     }
   }
 }

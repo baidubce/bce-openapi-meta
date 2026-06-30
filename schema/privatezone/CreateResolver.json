@@ -1,0 +1,67 @@
+{
+  "name" : "CreateResolver",
+  "method" : "POST",
+  "uri" : "/v{version}/privatezone/resolver",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "privatezone.CreateResolver.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolver.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolver.description"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolver.vpcId"
+  }, {
+    "name" : "vpcRegion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolver.vpcRegion"
+  }, {
+    "name" : "ipModels",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolver.ipModels",
+    "sub_parameters" : [ {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "privatezone.CreateResolver.ipModels.subnetId"
+    }, {
+      "name" : "ipAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "privatezone.CreateResolver.ipModels.ipAddress"
+    } ]
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolver.type"
+  } ],
+  "desc_key" : "privatezone.CreateResolver.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "GetDnsResolverRuleList" : {
+    "marker" : "批量获取列表的查询起始位置，由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大值为100",
+    "status" : "转发规则的状态：<br>BOUND：已关联vpc<br>UNBOUND：未关联vpc<br>BINGDING：关联中<br>UNBINGDING：解除关联中<br>不传默认获取全部转发规则，传入则获取指定状态的转发规则"
+  }
+}

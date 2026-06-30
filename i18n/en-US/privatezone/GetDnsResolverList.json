@@ -1,0 +1,7 @@
+{
+  "GetDnsResolverList" : {
+    "marker" : "The starting position for batch list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 100",
+    "status" : "Status of the resolver. Values: CREATING: being created; CREATE_FAILED: creation failed; RUNNING: running; STOPPED: stopped; DELETING: being deleted. If empty, returns all resolvers; otherwise returns resolvers with the specified status."
+  }
+}

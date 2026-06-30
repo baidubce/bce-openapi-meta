@@ -1,7 +1,7 @@
 {
   "name" : "UnbindVpc",
   "method" : "PUT",
-  "uri" : "/v{version}/privatezone/{zoneId}",
+  "uri" : "/v{version}/privatezone/{zoneId}?unbind",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",
@@ -15,12 +15,6 @@
     "required" : true,
     "position" : "URL",
     "desc_key" : "privatezone.UnbindVpc.zoneId"
-  }, {
-    "name" : "action",
-    "type" : "String",
-    "required" : true,
-    "position" : "QUERY",
-    "desc_key" : "privatezone.UnbindVpc.action"
   }, {
     "name" : "clientToken",
     "type" : "String",

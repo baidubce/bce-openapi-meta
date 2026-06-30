@@ -1,0 +1,8 @@
+{
+  "UpdateDnsParser" : {
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
+    "resolverId" : "The ID of the resolver",
+    "name" : "The name of the resolver. Allowed characters: uppercase and lowercase letters, digits, Chinese characters, and special characters `-_/.`. Must start with a letter or Chinese character. Length: 1–65",
+    "description" : "The description of the resolver. No more than 200 characters. Cannot be empty at the same time as `name`"
+  }
+}

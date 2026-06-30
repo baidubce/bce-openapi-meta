@@ -1,0 +1,8 @@
+{
+  "UpdateDnsParser" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](DNS/API参考/通用说明.md#幂等性)",
+    "resolverId" : "解析器的id",
+    "name" : "解析器的名称，允许大小写字母、数字、中文以及 `-_/.` 特殊字符，必须以字母或者中文开头，长度1-65",
+    "description" : "解析器描述，不超过200字符，与name不能同时为空"
+  }
+}

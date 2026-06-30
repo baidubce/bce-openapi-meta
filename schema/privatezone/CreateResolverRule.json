@@ -1,0 +1,61 @@
+{
+  "name" : "CreateResolverRule",
+  "method" : "POST",
+  "uri" : "/v{version}/privatezone/resolver/rule",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "privatezone.CreateResolverRule.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolverRule.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolverRule.description"
+  }, {
+    "name" : "zone",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolverRule.zone"
+  }, {
+    "name" : "resolverId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolverRule.resolverId"
+  }, {
+    "name" : "dnsServerConfigs",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "privatezone.CreateResolverRule.dnsServerConfigs",
+    "sub_parameters" : [ {
+      "name" : "ip",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "privatezone.CreateResolverRule.dnsServerConfigs.ip"
+    }, {
+      "name" : "port",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "privatezone.CreateResolverRule.dnsServerConfigs.port"
+    } ]
+  } ],
+  "desc_key" : "privatezone.CreateResolverRule.desc"
+}

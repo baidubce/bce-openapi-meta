@@ -1,0 +1,12 @@
+{
+  "CreateResolverRule" : {
+    "clientToken" : "Idempotency token, an ASCII string up to 64 characters. See [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
+    "name" : "Forwarding rule name. Supports uppercase/lowercase letters, digits, Chinese characters, and special characters `-_/ .`. Must start with a letter or Chinese character. Length: 1–65",
+    "description" : "Forwarding rule description. Maximum 200 characters",
+    "zone" : "Private zone to forward",
+    "resolverId" : "Must be an outbound resolver. Uses this outbound endpoint to forward DNS query traffic to the IP addresses specified in the target IP list",
+    "dnsServerConfigs" : "List of IP addresses and ports of the external DNS system",
+    "dnsServerConfigs.ip" : "Target IP address for forwarding",
+    "dnsServerConfigs.port" : "Port number of the target IP address for forwarding"
+  }
+}

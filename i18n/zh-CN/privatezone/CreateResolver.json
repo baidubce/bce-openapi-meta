@@ -1,0 +1,13 @@
+{
+  "CreateResolver" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串，详见[ClientToken幂等性](DNS/API参考/通用说明.md#幂等性)",
+    "name" : "解析器名称，允许大小写字母、数字、中文以及-_/.特殊字符，必须以字母或者中文开头，长度1-65",
+    "description" : "解析器描述，不超过200字符",
+    "vpcId" : "解析器所在的vpc的id",
+    "vpcRegion" : "解析器所在的地区",
+    "ipModels" : "入站/出站的流量地址",
+    "ipModels.subnetId" : "子网ID",
+    "ipModels.ipAddress" : "子网掩码参数范围内的 IP 地址（留空则系统自动分配）",
+    "type" : "解析器类型，描述：outbound：出站解析器；inbound：入站解析器"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "CreateResolver" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters. See [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
+    "name" : "Resolver name. Allows uppercase/lowercase letters, digits, Chinese characters, and special characters -_/. Must start with a letter or Chinese character. Length: 1–65",
+    "description" : "Resolver description. Maximum 200 characters",
+    "vpcId" : "ID of the VPC where the resolver resides",
+    "vpcRegion" : "Region where the resolver resides",
+    "ipModels" : "IP addresses for inbound/outbound traffic",
+    "ipModels.subnetId" : "Subnet ID",
+    "ipModels.ipAddress" : "IP address within the subnet mask range (leave empty for automatic assignment)",
+    "type" : "Resolver type. Values: outbound: outbound resolver; inbound: inbound resolver"
+  }
+}

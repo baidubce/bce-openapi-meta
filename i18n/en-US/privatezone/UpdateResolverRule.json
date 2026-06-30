@@ -1,0 +1,11 @@
+{
+  "UpdateResolverRule" : {
+    "clientToken" : "Idempotency token, an ASCII string of up to 64 characters, see [ClientToken Idempotency](DNS/API参考/通用说明.md#幂等性)",
+    "reluId" : "Forwarding rule ID",
+    "name" : "Forwarding rule name; supports uppercase/lowercase letters, digits, Chinese characters, and special characters `-_/ .`; must start with a letter or Chinese character; length 1–65",
+    "description" : "Forwarding rule description, up to 200 characters",
+    "dnsServerConfigs" : "IP address and port of the external DNS system",
+    "dnsServerConfigs.ip" : "IP address of the external DNS server",
+    "dnsServerConfigs.port" : "Port of the external DNS server"
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "name" : "EnableRecord",
-  "method" : "PUT",
-  "uri" : "/v{version}/privatezone/record/{recordId}?enable",
+  "name" : "DeleteResolver",
+  "method" : "DELETE",
+  "uri" : "/v{version}/privatezone/resolver/{resolverId}",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",
@@ -14,13 +14,13 @@
     "type" : "String",
     "required" : false,
     "position" : "QUERY",
-    "desc_key" : "privatezone.EnableRecord.clientToken"
+    "desc_key" : "privatezone.DeleteResolver.clientToken"
   }, {
-    "name" : "recordId",
+    "name" : "resolverId",
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "privatezone.EnableRecord.recordId"
+    "desc_key" : "privatezone.DeleteResolver.resolverId"
   } ],
-  "desc_key" : "privatezone.EnableRecord.desc"
+  "desc_key" : "privatezone.DeleteResolver.desc"
 }

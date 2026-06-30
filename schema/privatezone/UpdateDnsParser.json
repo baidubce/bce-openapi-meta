@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateDnsParser",
+  "method" : "PUT",
+  "uri" : "/v{version}/privatezone/resolver/{resolverId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "privatezone.UpdateDnsParser.clientToken"
+  }, {
+    "name" : "resolverId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "privatezone.UpdateDnsParser.resolverId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "privatezone.UpdateDnsParser.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "privatezone.UpdateDnsParser.description"
+  } ],
+  "desc_key" : "privatezone.UpdateDnsParser.desc"
+}

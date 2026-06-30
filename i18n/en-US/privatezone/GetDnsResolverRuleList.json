@@ -1,0 +1,7 @@
+{
+  "GetDnsResolverRuleList" : {
+    "marker" : "The starting position for batch list query, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, up to 100",
+    "status" : "Status of the forwarding rule: BOUND: associated with VPC; UNBOUND: not associated with VPC; BINGDING: associating; UNBINGDING: disassociating. If not specified, all forwarding rules are returned; if specified, only rules in the given status are returned"
+  }
+}
