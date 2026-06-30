@@ -87,10 +87,6 @@
       "title" : "推荐字段取值 TermsEnum",
       "summary" : "推荐字段取值 TermsEnum"
     },
-    "AsyncSearch" : {
-      "title" : "检索和分析BLS日志 AsyncSearch",
-      "summary" : "检索和分析BLS日志 AsyncSearch"
-    },
     "CreateLogStore" : {
       "title" : "创建日志集CreateLogStore",
       "summary" : "创建日志集CreateLogStore"
@@ -214,6 +210,10 @@
     "ValidateAlarmCondition" : {
       "title" : "检验报警策略执行条件ValidateAlarmCondition",
       "summary" : "检验报警策略执行条件ValidateAlarmCondition"
+    },
+    "AsyncSearch" : {
+      "title" : "检索和分析BLS日志 AsyncSearch",
+      "summary" : "检索和分析BLS日志 AsyncSearch"
     },
     "DeleteProject" : {
       "title" : "删除日志组",

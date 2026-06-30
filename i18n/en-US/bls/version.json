@@ -87,10 +87,6 @@
       "title" : "termsEnum",
       "summary" : "termsEnum"
     },
-    "AsyncSearch" : {
-      "title" : "asyncSearch",
-      "summary" : "asyncSearch"
-    },
     "CreateLogStore" : {
       "title" : "createLogStore",
       "summary" : "createLogStore"
@@ -214,6 +210,10 @@
     "ValidateAlarmCondition" : {
       "title" : "validateAlarmCondition",
       "summary" : "validateAlarmCondition"
+    },
+    "AsyncSearch" : {
+      "title" : "asyncSearch",
+      "summary" : "asyncSearch"
     },
     "DeleteProject" : {
       "title" : "deleteProject",
