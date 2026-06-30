@@ -75,10 +75,6 @@
       "title" : "deleteBlbServer",
       "summary" : "deleteBlbServer"
     },
-    "BlbInquiry" : {
-      "title" : "blbInquiry",
-      "summary" : "blbInquiry"
-    },
     "CreateLbdc" : {
       "title" : "createLbdc",
       "summary" : "createLbdc"
@@ -123,10 +119,6 @@
       "title" : "describeAppBlbServerGroup",
       "summary" : "describeAppBlbServerGroup"
     },
-    "CreateBlb" : {
-      "title" : "createBlb",
-      "summary" : "createBlb"
-    },
     "DeleteAppBlbIpGroupProtocol" : {
       "title" : "deleteAppBlbIpGroupProtocol",
       "summary" : "deleteAppBlbIpGroupProtocol"
@@ -155,13 +147,17 @@
       "title" : "describeLbdc",
       "summary" : "describeLbdc"
     },
-    "CreateAppBlb" : {
-      "title" : "createAppBlb",
-      "summary" : "createAppBlb"
-    },
     "DescribeAppBlbs" : {
       "title" : "describeAppBlbs",
       "summary" : "describeAppBlbs"
+    },
+    "CreateBlb" : {
+      "title" : "createBlb",
+      "summary" : "createBlb"
+    },
+    "CreateAppBlb" : {
+      "title" : "createAppBlb",
+      "summary" : "createAppBlb"
     },
     "CreateService" : {
       "title" : "createService",
@@ -198,6 +194,10 @@
     "CreateBlbUdpListener" : {
       "title" : "createBlbUdpListener",
       "summary" : "createBlbUdpListener"
+    },
+    "BlbInquiry" : {
+      "title" : "blbInquiry",
+      "summary" : "blbInquiry"
     },
     "BillingChangePostToPreBlb" : {
       "title" : "billingChangePostToPreBlb",
