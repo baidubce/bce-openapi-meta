@@ -1,0 +1,14 @@
+{
+  "name" : "QuerySummaryOfMainAccount",
+  "method" : "GET",
+  "uri" : "/v{version}/account/summary",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "iam.QuerySummaryOfMainAccount.desc"
+}

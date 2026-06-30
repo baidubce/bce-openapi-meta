@@ -1,0 +1,26 @@
+{
+  "name" : "GetSessionApiKey",
+  "method" : "GET",
+  "uri" : "/v{version}/BCE-BEARER/token",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "expireInSeconds",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "iam.GetSessionApiKey.expireInSeconds"
+  }, {
+    "name" : "acl",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "iam.GetSessionApiKey.acl"
+  } ],
+  "desc_key" : "iam.GetSessionApiKey.desc"
+}

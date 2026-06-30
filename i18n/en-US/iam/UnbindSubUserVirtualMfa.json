@@ -1,0 +1,6 @@
+{
+  "UnbindSubUserVirtualMfa" : {
+    "userName" : "Username",
+    "mfaType" : "MFA type, fixed value: TOTP"
+  }
+}

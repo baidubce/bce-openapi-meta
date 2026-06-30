@@ -1,0 +1,6 @@
+{
+  "UnbindSubUserVirtualMfa" : {
+    "userName" : "用户名",
+    "mfaType" : "MFA 类型, 固定为 TOTP"
+  }
+}

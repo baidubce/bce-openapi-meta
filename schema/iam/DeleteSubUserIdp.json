@@ -1,0 +1,14 @@
+{
+  "name" : "DeleteSubUserIdp",
+  "method" : "POST",
+  "uri" : "/v{version}/subUser/idp/delete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "iam.DeleteSubUserIdp.desc"
+}

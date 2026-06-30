@@ -1,0 +1,26 @@
+{
+  "name" : "CreateUser",
+  "method" : "POST",
+  "uri" : "/v{version}/user",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateUser.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateUser.description"
+  } ],
+  "desc_key" : "iam.CreateUser.desc"
+}

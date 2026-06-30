@@ -1,0 +1,26 @@
+{
+  "name" : "DisableAccessKey",
+  "method" : "PUT",
+  "uri" : "/v{version}/user/{userName}/accesskey/{accessKeyId}?disable",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.DisableAccessKey.userName"
+  }, {
+    "name" : "accessKeyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.DisableAccessKey.accessKeyId"
+  } ],
+  "desc_key" : "iam.DisableAccessKey.desc"
+}

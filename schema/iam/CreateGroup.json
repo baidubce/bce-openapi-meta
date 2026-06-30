@@ -1,0 +1,26 @@
+{
+  "name" : "CreateGroup",
+  "method" : "POST",
+  "uri" : "/v{version}/group",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateGroup.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateGroup.description"
+  } ],
+  "desc_key" : "iam.CreateGroup.desc"
+}

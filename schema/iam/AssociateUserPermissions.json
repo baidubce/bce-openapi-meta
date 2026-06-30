@@ -1,0 +1,32 @@
+{
+  "name" : "AssociateUserPermissions",
+  "method" : "PUT",
+  "uri" : "/v{version}/user/{userName}/policy/{policyName}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.AssociateUserPermissions.userName"
+  }, {
+    "name" : "policyName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.AssociateUserPermissions.policyName"
+  }, {
+    "name" : "policyType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "iam.AssociateUserPermissions.policyType"
+  } ],
+  "desc_key" : "iam.AssociateUserPermissions.desc"
+}

@@ -1,0 +1,5 @@
+{
+  "UpdateSubUserIdpStatus" : {
+    "status" : "Feature status, enable to turn on, disable to turn off"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "身份管理",
+  "apis" : {
+    "DecodingApikeyPermanentlyValid" : {
+      "title" : "解码API Key（永久有效）",
+      "summary" : "解码API Key（永久有效）"
+    },
+    "DeleteApikeyPermanentlyValid" : {
+      "title" : "删除API Key（永久有效）",
+      "summary" : "删除API Key（永久有效）"
+    },
+    "ObtainAListOfPermanentlyValidApikeys" : {
+      "title" : "获取永久有效API Key列表",
+      "summary" : "获取永久有效API Key列表"
+    },
+    "DeleteLoginProfile" : {
+      "title" : "关闭控制台登录配置",
+      "summary" : "关闭控制台登录配置"
+    },
+    "GetSessionApiKey" : {
+      "title" : "创建短期有效API_Key",
+      "summary" : "创建短期有效API_Key"
+    },
+    "CreateAccessKey" : {
+      "title" : "创建用户的AccessKey",
+      "summary" : "创建用户的AccessKey"
+    },
+    "DisableAccessKey" : {
+      "title" : "禁用用户的AccessKey",
+      "summary" : "禁用用户的AccessKey"
+    },
+    "UpdateSubUserIdp" : {
+      "title" : "更新IAM用户联合功能配置",
+      "summary" : "更新IAM用户联合功能配置"
+    },
+    "ListAllSubjectsGrantedPermissions" : {
+      "title" : "列举权限授予的所有主体",
+      "summary" : "列举权限授予的所有主体"
+    },
+    "EnableAccessKey" : {
+      "title" : "启用用户的AccessKey",
+      "summary" : "启用用户的AccessKey"
+    },
+    "ListTheSubjectsGrantedPermissions" : {
+      "title" : "列举权限授予的主体",
+      "summary" : "列举权限授予的主体"
+    },
+    "DeleteAccessKey" : {
+      "title" : "删除用户的AccessKey",
+      "summary" : "删除用户的AccessKey"
+    },
+    "UpdateLoginProfile" : {
+      "title" : "配置用户的控制台登录",
+      "summary" : "配置用户的控制台登录"
+    },
+    "ListAccessKey" : {
+      "title" : "列举用户的AccessKey",
+      "summary" : "列举用户的AccessKey"
+    },
+    "QueryTheLastUsageTimeOfAccesskey" : {
+      "title" : "查询用户的AccessKey上次使用时间",
+      "summary" : "查询用户的AccessKey上次使用时间"
+    },
+    "QuerySummaryOfMainAccount" : {
+      "title" : "查询主账号概览信息",
+      "summary" : "查询主账号概览信息"
+    },
+    "UpdateSubUserIdpStatus" : {
+      "title" : "更新IAM用户联合功能状态",
+      "summary" : "更新IAM用户联合功能状态"
+    },
+    "QuerySubUserIdp" : {
+      "title" : "查询IAM用户联合信息",
+      "summary" : "查询IAM用户联合信息"
+    },
+    "DeleteSubUserIdp" : {
+      "title" : "删除IAM用户联合配置",
+      "summary" : "删除IAM用户联合配置"
+    },
+    "AssociateRolePermissions" : {
+      "title" : "关联角色权限",
+      "summary" : "关联角色权限"
+    },
+    "UpdateRole" : {
+      "title" : "更新角色",
+      "summary" : "更新角色"
+    },
+    "QueryRole" : {
+      "title" : "查询角色",
+      "summary" : "查询角色"
+    },
+    "DeleteRole" : {
+      "title" : "删除角色",
+      "summary" : "删除角色"
+    },
+    "ListRoles" : {
+      "title" : "列举角色",
+      "summary" : "列举角色"
+    },
+    "CreateRole" : {
+      "title" : "创建角色",
+      "summary" : "创建角色"
+    },
+    "DeleteGroup" : {
+      "title" : "删除组",
+      "summary" : "删除组"
+    },
+    "ListGroups" : {
+      "title" : "列举组",
+      "summary" : "列举组"
+    },
+    "QueryGroup" : {
+      "title" : "查询组",
+      "summary" : "查询组"
+    },
+    "ListUserGroups" : {
+      "title" : "列举用户的组",
+      "summary" : "列举用户的组"
+    },
+    "UpdateGroup" : {
+      "title" : "更新组",
+      "summary" : "更新组"
+    },
+    "CreateGroup" : {
+      "title" : "创建组",
+      "summary" : "创建组"
+    },
+    "AddUserToGroup" : {
+      "title" : "添加用户到组",
+      "summary" : "添加用户到组"
+    },
+    "RemoveUserFromTheGroup" : {
+      "title" : "从组内移除用户",
+      "summary" : "从组内移除用户"
+    },
+    "ListUsersWithinTheGroup" : {
+      "title" : "列举组内用户",
+      "summary" : "列举组内用户"
+    },
+    "CreateUser" : {
+      "title" : "创建用户",
+      "summary" : "创建用户"
+    },
+    "QueryStrategy" : {
+      "title" : "查询策略",
+      "summary" : "查询策略"
+    },
+    "ListTheUserSPermissions" : {
+      "title" : "列举用户的权限",
+      "summary" : "列举用户的权限"
+    },
+    "UnbindSubUserVirtualMfa" : {
+      "title" : "解绑子用户虚拟 MFA",
+      "summary" : "解绑子用户虚拟 MFA"
+    },
+    "AssociateGroupPermissions" : {
+      "title" : "关联组权限",
+      "summary" : "关联组权限"
+    },
+    "DeleteUser" : {
+      "title" : "删除用户",
+      "summary" : "删除用户"
+    },
+    "CreateStrategy" : {
+      "title" : "创建策略",
+      "summary" : "创建策略"
+    },
+    "ListThePermissionsOfTheGroup" : {
+      "title" : "列举组的权限",
+      "summary" : "列举组的权限"
+    },
+    "ListThePermissionsOfRoles" : {
+      "title" : "列举角色的权限",
+      "summary" : "列举角色的权限"
+    },
+    "DeleteStrategy" : {
+      "title" : "删除策略",
+      "summary" : "删除策略"
+    },
+    "ChangeSubUserPassword" : {
+      "title" : "修改子用户密码",
+      "summary" : "修改子用户密码"
+    },
+    "UpdateUser" : {
+      "title" : "更新用户",
+      "summary" : "更新用户"
+    },
+    "UpdateStrategy" : {
+      "title" : "更新策略",
+      "summary" : "更新策略"
+    },
+    "ModifySubUserOperationProtection" : {
+      "title" : "修改子用户操作保护",
+      "summary" : "修改子用户操作保护"
+    },
+    "AssociateUserPermissions" : {
+      "title" : "关联用户权限",
+      "summary" : "关联用户权限"
+    },
+    "RemoveRolePermissions" : {
+      "title" : "解除角色权限",
+      "summary" : "解除角色权限"
+    },
+    "RemoveUserPermissions" : {
+      "title" : "解除用户权限",
+      "summary" : "解除用户权限"
+    },
+    "RemoveGroupPermissions" : {
+      "title" : "解除组权限",
+      "summary" : "解除组权限"
+    },
+    "GetUser" : {
+      "title" : "查询用户",
+      "summary" : "查询用户"
+    },
+    "ListUser" : {
+      "title" : "列举用户",
+      "summary" : "列举用户"
+    },
+    "GetLoginProfile" : {
+      "title" : "查询控制台登录配置",
+      "summary" : "查询控制台登录配置"
+    },
+    "ListStrategies" : {
+      "title" : "列举策略",
+      "summary" : "列举策略"
+    },
+    "CreateApikeyPermanentlyValid" : {
+      "title" : "创建API Key（永久有效）",
+      "summary" : "创建API Key（永久有效）"
+    },
+    "QueryApikeyDetailsPermanentlyValid" : {
+      "title" : "查询API Key详情（永久有效）",
+      "summary" : "查询API Key详情（永久有效）"
+    },
+    "UpdateApikeyPermanentlyValid" : {
+      "title" : "更新API Key（永久有效）",
+      "summary" : "更新API Key（永久有效）"
+    }
+  }
+}

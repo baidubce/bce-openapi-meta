@@ -1,0 +1,7 @@
+{
+  "AssociateGroupPermissions" : {
+    "groupName" : "组名",
+    "policyName" : "策略名",
+    "policyType" : "要关联的策略类型，为System时查询系统策略；为Custom时查询自定义策略"
+  }
+}

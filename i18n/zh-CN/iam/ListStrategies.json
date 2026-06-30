@@ -1,0 +1,6 @@
+{
+  "ListStrategies" : {
+    "policyType" : "要查询的策略类型，为System时查询系统策略；为Custom时查询自定义策略",
+    "nameFilter" : "策略名字的过滤条件；不为空时仅返回名字包含此关键字的结果"
+  }
+}

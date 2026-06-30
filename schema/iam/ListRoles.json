@@ -1,0 +1,14 @@
+{
+  "name" : "ListRoles",
+  "method" : "GET",
+  "uri" : "/v{version}/role",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "iam.ListRoles.desc"
+}

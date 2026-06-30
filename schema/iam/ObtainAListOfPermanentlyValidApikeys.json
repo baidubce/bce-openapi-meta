@@ -1,0 +1,38 @@
+{
+  "name" : "ObtainAListOfPermanentlyValidApikeys",
+  "method" : "POST",
+  "uri" : "/v{version}/apikey/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.ObtainAListOfPermanentlyValidApikeys.userId"
+  }, {
+    "name" : "service",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.ObtainAListOfPermanentlyValidApikeys.service"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.ObtainAListOfPermanentlyValidApikeys.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.ObtainAListOfPermanentlyValidApikeys.pageSize"
+  } ],
+  "desc_key" : "iam.ObtainAListOfPermanentlyValidApikeys.desc"
+}

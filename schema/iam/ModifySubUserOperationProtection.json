@@ -1,0 +1,32 @@
+{
+  "name" : "ModifySubUserOperationProtection",
+  "method" : "POST",
+  "uri" : "/v{version}/user/operation/mfa/switch",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.ModifySubUserOperationProtection.userName"
+  }, {
+    "name" : "enabledMfa",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.ModifySubUserOperationProtection.enabledMfa"
+  }, {
+    "name" : "mfaType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.ModifySubUserOperationProtection.mfaType"
+  } ],
+  "desc_key" : "iam.ModifySubUserOperationProtection.desc"
+}

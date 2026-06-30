@@ -1,0 +1,7 @@
+{
+  "ModifySubUserOperationProtection" : {
+    "userName" : "需要更新的子用户名称",
+    "enabledMfa" : "开启或关闭子用户操作保护",
+    "mfaType" : "子用户操作保护类型"
+  }
+}

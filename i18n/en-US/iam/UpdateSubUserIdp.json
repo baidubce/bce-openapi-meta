@@ -1,0 +1,7 @@
+{
+  "UpdateSubUserIdp" : {
+    "fileName" : "File name, must be an XML format file",
+    "encodeMetadata" : "Base64-encoded IdP metadata",
+    "auxiliaryDomain" : "Auxiliary domain name"
+  }
+}

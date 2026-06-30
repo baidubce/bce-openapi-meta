@@ -1,0 +1,6 @@
+{
+  "QueryStrategy" : {
+    "policyName" : "Policy name",
+    "policyType" : "Type of policy to query; use System to query system policies, Custom to query custom policies"
+  }
+}

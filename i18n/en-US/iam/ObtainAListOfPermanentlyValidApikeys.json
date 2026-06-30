@@ -1,0 +1,8 @@
+{
+  "ObtainAListOfPermanentlyValidApikeys" : {
+    "userId" : "Sub-user ID; required if the API key belongs to another sub-user",
+    "service" : "Filter condition ['AI_APAAS', 'WENXINFACTORY', 'CONSOLE_AI'], the service to which the API key belongs; multiple values are combined with OR logic",
+    "pageNo" : "Page number, starting from 1; default is 1",
+    "pageSize" : "Page size; default is 10"
+  }
+}

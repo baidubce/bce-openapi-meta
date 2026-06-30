@@ -1,0 +1,6 @@
+{
+  "ListTheSubjectsGrantedPermissions" : {
+    "policyId" : "策略ID",
+    "grantType" : "授予类型, UserPolicy或GroupPolicy"
+  }
+}

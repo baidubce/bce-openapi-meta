@@ -1,0 +1,32 @@
+{
+  "name" : "CreateStrategy",
+  "method" : "POST",
+  "uri" : "/v{version}/policy",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateStrategy.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateStrategy.description"
+  }, {
+    "name" : "document",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateStrategy.document"
+  } ],
+  "desc_key" : "iam.CreateStrategy.desc"
+}

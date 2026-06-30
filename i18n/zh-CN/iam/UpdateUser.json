@@ -1,0 +1,8 @@
+{
+  "UpdateUser" : {
+    "userName" : "用户名",
+    "name" : "更新后的用户名",
+    "description" : "用户的描述",
+    "enabled" : "用户状态"
+  }
+}

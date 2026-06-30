@@ -1,0 +1,6 @@
+{
+  "CreateUser" : {
+    "name" : "Username",
+    "description" : "Description of the user"
+  }
+}

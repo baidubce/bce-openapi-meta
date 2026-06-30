@@ -1,0 +1,7 @@
+{
+  "CreateStrategy" : {
+    "name" : "Group name",
+    "description" : "Group description",
+    "document" : "Policy content, a String serialized from ACL format"
+  }
+}

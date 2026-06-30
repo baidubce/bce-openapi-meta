@@ -1,0 +1,7 @@
+{
+  "RemoveUserPermissions" : {
+    "userName" : "Username",
+    "policyName" : "Policy name",
+    "policyType" : "Type of associated policy; \"System\" for system policies, \"Custom\" for custom policies"
+  }
+}

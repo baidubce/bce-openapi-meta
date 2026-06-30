@@ -1,0 +1,6 @@
+{
+  "RemoveUserFromTheGroup" : {
+    "userName" : "Username",
+    "groupName" : "Group name"
+  }
+}

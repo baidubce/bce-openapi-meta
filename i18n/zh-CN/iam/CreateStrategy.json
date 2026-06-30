@@ -1,0 +1,7 @@
+{
+  "CreateStrategy" : {
+    "name" : "组名",
+    "description" : "组的描述",
+    "document" : "策略内容，ACL格式序列化后得到的String"
+  }
+}

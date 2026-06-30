@@ -1,0 +1,6 @@
+{
+  "GetSessionApiKey" : {
+    "expireInSeconds" : "Validity duration in seconds; range: 5 minutes to 30 days; defaults to 1800 seconds (30 minutes) if not specified",
+    "acl" : "Base64-encoded additional ACL specification"
+  }
+}

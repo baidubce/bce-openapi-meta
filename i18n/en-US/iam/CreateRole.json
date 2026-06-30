@@ -1,0 +1,7 @@
+{
+  "CreateRole" : {
+    "name" : "Role name",
+    "description" : "Description of the role",
+    "assumeRolePolicyDocument" : "Specifies the principal allowed to assume the role"
+  }
+}

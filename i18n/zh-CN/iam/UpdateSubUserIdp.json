@@ -1,0 +1,7 @@
+{
+  "UpdateSubUserIdp" : {
+    "fileName" : "文件名称，必须为xml格式文件",
+    "encodeMetadata" : "Base64编码后的IdP元数据",
+    "auxiliaryDomain" : "辅助域名"
+  }
+}

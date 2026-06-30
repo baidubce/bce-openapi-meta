@@ -1,0 +1,12 @@
+{
+  "UpdateLoginProfile" : {
+    "userName" : "用户名",
+    "password" : "用户密码；作为响应时不显示",
+    "needResetPassword" : "下次登录时是否需要重置密码",
+    "enabledLogin" : "是否允许子用户控制台登录",
+    "enabledLoginMfa" : "是否要求绑定二次验证设备",
+    "loginMfaType" : "二次验证类型，可选：PHONE-手机号，TOTP虚拟MFA设备",
+    "thirdPartyType" : "绑定的第三方登录类型，可选：UUAP-内网账号，PASSPORT-百度账号",
+    "thirdPartyAccount" : "绑定的第三方登录账号。绑定类型为PASSPORT时可以是手机、邮箱以及账号名称"
+  }
+}

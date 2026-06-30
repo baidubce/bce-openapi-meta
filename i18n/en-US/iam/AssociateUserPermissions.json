@@ -1,0 +1,7 @@
+{
+  "AssociateUserPermissions" : {
+    "userName" : "Username",
+    "policyName" : "Policy name",
+    "policyType" : "Type of policy to associate; use \"System\" for system policies or \"Custom\" for custom policies"
+  }
+}

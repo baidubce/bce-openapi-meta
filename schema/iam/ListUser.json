@@ -1,0 +1,14 @@
+{
+  "name" : "ListUser",
+  "method" : "GET",
+  "uri" : "/v{version}/user",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "iam.ListUser.desc"
+}

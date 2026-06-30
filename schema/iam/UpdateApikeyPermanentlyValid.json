@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateApikeyPermanentlyValid",
+  "method" : "POST",
+  "uri" : "/v{version}/apikey/update",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateApikeyPermanentlyValid.userId"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateApikeyPermanentlyValid.id"
+  }, {
+    "name" : "acl",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl"
+  } ],
+  "desc_key" : "iam.UpdateApikeyPermanentlyValid.desc"
+}

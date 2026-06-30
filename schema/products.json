@@ -211,5 +211,11 @@
       "su" : "cprom.su.baidubce.com",
       "yq" : "cprom.yq.baidubce.com"
     }
+  }, {
+    "code" : "iam",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "iam.bj.baidubce.com"
+    }
   } ]
 }

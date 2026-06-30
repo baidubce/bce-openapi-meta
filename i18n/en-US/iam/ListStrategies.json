@@ -1,0 +1,6 @@
+{
+  "ListStrategies" : {
+    "policyType" : "The type of policy to query; use \"System\" to query system policies, or \"Custom\" to query custom policies",
+    "nameFilter" : "Filter condition for policy name; when not empty, only returns results whose name contains this keyword"
+  }
+}

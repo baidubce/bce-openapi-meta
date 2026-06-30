@@ -1,0 +1,8 @@
+{
+  "UpdateStrategy" : {
+    "policyName" : "Original policy name",
+    "name" : "New policy name",
+    "description" : "Description of the policy",
+    "document" : "Policy content, a String serialized from ACL format"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "CreateGroup" : {
+    "name" : "组名",
+    "description" : "组的描述"
+  }
+}

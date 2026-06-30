@@ -1,0 +1,7 @@
+{
+  "UpdateApikeyPermanentlyValid" : {
+    "userId" : "子用户Id；如果apikey归属其他子用户则必填",
+    "id" : "APIKey ID",
+    "acl" : "ACL策略"
+  }
+}

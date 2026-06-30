@@ -1,0 +1,26 @@
+{
+  "name" : "ListTheSubjectsGrantedPermissions",
+  "method" : "GET",
+  "uri" : "/v{version}/policy/{policyId}/grant/{grantType}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "policyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.ListTheSubjectsGrantedPermissions.policyId"
+  }, {
+    "name" : "grantType",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.ListTheSubjectsGrantedPermissions.grantType"
+  } ],
+  "desc_key" : "iam.ListTheSubjectsGrantedPermissions.desc"
+}

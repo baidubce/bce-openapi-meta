@@ -1,0 +1,12 @@
+{
+  "UpdateLoginProfile" : {
+    "userName" : "Username",
+    "password" : "User password; not displayed in responses",
+    "needResetPassword" : "Whether the user is required to reset password on next login",
+    "enabledLogin" : "Whether sub-user console login is allowed",
+    "enabledLoginMfa" : "Whether binding a secondary authentication device is required",
+    "loginMfaType" : "Secondary authentication type; options: PHONE - mobile number, TOTP - virtual MFA device",
+    "thirdPartyType" : "Bound third-party login type; options: UUAP - intranet account, PASSPORT - Baidu account",
+    "thirdPartyAccount" : "Bound third-party login account; when binding type is PASSPORT, can be mobile number, email, or account name"
+  }
+}

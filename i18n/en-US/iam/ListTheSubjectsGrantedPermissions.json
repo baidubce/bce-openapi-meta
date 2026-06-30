@@ -1,0 +1,6 @@
+{
+  "ListTheSubjectsGrantedPermissions" : {
+    "policyId" : "Policy ID",
+    "grantType" : "Grant type, UserPolicy or GroupPolicy"
+  }
+}

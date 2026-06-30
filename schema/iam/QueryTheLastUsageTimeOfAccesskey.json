@@ -1,0 +1,20 @@
+{
+  "name" : "QueryTheLastUsageTimeOfAccesskey",
+  "method" : "GET",
+  "uri" : "/v{version}/accesskey/{accessKeyId}/lastusedtime",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "accessKeyId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.QueryTheLastUsageTimeOfAccesskey.accessKeyId"
+  } ],
+  "desc_key" : "iam.QueryTheLastUsageTimeOfAccesskey.desc"
+}

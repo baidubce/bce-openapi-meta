@@ -1,0 +1,32 @@
+{
+  "name" : "CreateApikeyPermanentlyValid",
+  "method" : "POST",
+  "uri" : "/v{version}/apikey/create",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateApikeyPermanentlyValid.userId"
+  }, {
+    "name" : "acl",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateApikeyPermanentlyValid.acl"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateApikeyPermanentlyValid.name"
+  } ],
+  "desc_key" : "iam.CreateApikeyPermanentlyValid.desc"
+}

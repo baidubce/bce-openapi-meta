@@ -1,0 +1,26 @@
+{
+  "name" : "QueryApikeyDetailsPermanentlyValid",
+  "method" : "POST",
+  "uri" : "/v{version}/apikey/detail",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.QueryApikeyDetailsPermanentlyValid.userId"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.QueryApikeyDetailsPermanentlyValid.id"
+  } ],
+  "desc_key" : "iam.QueryApikeyDetailsPermanentlyValid.desc"
+}

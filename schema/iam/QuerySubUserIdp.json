@@ -1,0 +1,14 @@
+{
+  "name" : "QuerySubUserIdp",
+  "method" : "GET",
+  "uri" : "/v{version}/subUser/idp/query",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "iam.QuerySubUserIdp.desc"
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "CreateRole",
+  "method" : "POST",
+  "uri" : "/v{version}/role",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateRole.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateRole.description"
+  }, {
+    "name" : "assumeRolePolicyDocument",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateRole.assumeRolePolicyDocument"
+  } ],
+  "desc_key" : "iam.CreateRole.desc"
+}

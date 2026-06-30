@@ -1,0 +1,6 @@
+{
+  "AddUserToGroup" : {
+    "userName" : "Username",
+    "groupName" : "Group name"
+  }
+}

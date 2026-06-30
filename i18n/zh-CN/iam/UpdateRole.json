@@ -1,0 +1,8 @@
+{
+  "UpdateRole" : {
+    "roleName" : "角色名",
+    "name" : "更新后的角色名",
+    "description" : "角色的描述",
+    "assumeRolePolicyDocument" : "指定可以扮演此角色的身份"
+  }
+}

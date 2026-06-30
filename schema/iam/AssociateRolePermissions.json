@@ -1,0 +1,32 @@
+{
+  "name" : "AssociateRolePermissions",
+  "method" : "PUT",
+  "uri" : "/v{version}/role/{roleName}/policy/{policyName}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "roleName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.AssociateRolePermissions.roleName"
+  }, {
+    "name" : "policyName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.AssociateRolePermissions.policyName"
+  }, {
+    "name" : "policyType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "iam.AssociateRolePermissions.policyType"
+  } ],
+  "desc_key" : "iam.AssociateRolePermissions.desc"
+}

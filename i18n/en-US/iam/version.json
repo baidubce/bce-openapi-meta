@@ -1,0 +1,243 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "iam",
+  "apis" : {
+    "DecodingApikeyPermanentlyValid" : {
+      "title" : "decodingApikeyPermanentlyValid",
+      "summary" : "decodingApikeyPermanentlyValid"
+    },
+    "DeleteApikeyPermanentlyValid" : {
+      "title" : "deleteApikeyPermanentlyValid",
+      "summary" : "deleteApikeyPermanentlyValid"
+    },
+    "ObtainAListOfPermanentlyValidApikeys" : {
+      "title" : "obtainAListOfPermanentlyValidApikeys",
+      "summary" : "obtainAListOfPermanentlyValidApikeys"
+    },
+    "DeleteLoginProfile" : {
+      "title" : "deleteLoginProfile",
+      "summary" : "deleteLoginProfile"
+    },
+    "GetSessionApiKey" : {
+      "title" : "getSessionApiKey",
+      "summary" : "getSessionApiKey"
+    },
+    "CreateAccessKey" : {
+      "title" : "createAccessKey",
+      "summary" : "createAccessKey"
+    },
+    "DisableAccessKey" : {
+      "title" : "disableAccessKey",
+      "summary" : "disableAccessKey"
+    },
+    "UpdateSubUserIdp" : {
+      "title" : "updateSubUserIdp",
+      "summary" : "updateSubUserIdp"
+    },
+    "ListAllSubjectsGrantedPermissions" : {
+      "title" : "listAllSubjectsGrantedPermissions",
+      "summary" : "listAllSubjectsGrantedPermissions"
+    },
+    "EnableAccessKey" : {
+      "title" : "enableAccessKey",
+      "summary" : "enableAccessKey"
+    },
+    "ListTheSubjectsGrantedPermissions" : {
+      "title" : "listTheSubjectsGrantedPermissions",
+      "summary" : "listTheSubjectsGrantedPermissions"
+    },
+    "DeleteAccessKey" : {
+      "title" : "deleteAccessKey",
+      "summary" : "deleteAccessKey"
+    },
+    "UpdateLoginProfile" : {
+      "title" : "updateLoginProfile",
+      "summary" : "updateLoginProfile"
+    },
+    "ListAccessKey" : {
+      "title" : "listAccessKey",
+      "summary" : "listAccessKey"
+    },
+    "QueryTheLastUsageTimeOfAccesskey" : {
+      "title" : "queryTheLastUsageTimeOfAccesskey",
+      "summary" : "queryTheLastUsageTimeOfAccesskey"
+    },
+    "QuerySummaryOfMainAccount" : {
+      "title" : "querySummaryOfMainAccount",
+      "summary" : "querySummaryOfMainAccount"
+    },
+    "UpdateSubUserIdpStatus" : {
+      "title" : "updateSubUserIdpStatus",
+      "summary" : "updateSubUserIdpStatus"
+    },
+    "QuerySubUserIdp" : {
+      "title" : "querySubUserIdp",
+      "summary" : "querySubUserIdp"
+    },
+    "DeleteSubUserIdp" : {
+      "title" : "deleteSubUserIdp",
+      "summary" : "deleteSubUserIdp"
+    },
+    "AssociateRolePermissions" : {
+      "title" : "associateRolePermissions",
+      "summary" : "associateRolePermissions"
+    },
+    "UpdateRole" : {
+      "title" : "updateRole",
+      "summary" : "updateRole"
+    },
+    "QueryRole" : {
+      "title" : "queryRole",
+      "summary" : "queryRole"
+    },
+    "DeleteRole" : {
+      "title" : "deleteRole",
+      "summary" : "deleteRole"
+    },
+    "ListRoles" : {
+      "title" : "listRoles",
+      "summary" : "listRoles"
+    },
+    "CreateRole" : {
+      "title" : "createRole",
+      "summary" : "createRole"
+    },
+    "DeleteGroup" : {
+      "title" : "deleteGroup",
+      "summary" : "deleteGroup"
+    },
+    "ListGroups" : {
+      "title" : "listGroups",
+      "summary" : "listGroups"
+    },
+    "QueryGroup" : {
+      "title" : "queryGroup",
+      "summary" : "queryGroup"
+    },
+    "ListUserGroups" : {
+      "title" : "listUserGroups",
+      "summary" : "listUserGroups"
+    },
+    "UpdateGroup" : {
+      "title" : "updateGroup",
+      "summary" : "updateGroup"
+    },
+    "CreateGroup" : {
+      "title" : "createGroup",
+      "summary" : "createGroup"
+    },
+    "AddUserToGroup" : {
+      "title" : "addUserToGroup",
+      "summary" : "addUserToGroup"
+    },
+    "RemoveUserFromTheGroup" : {
+      "title" : "removeUserFromTheGroup",
+      "summary" : "removeUserFromTheGroup"
+    },
+    "ListUsersWithinTheGroup" : {
+      "title" : "listUsersWithinTheGroup",
+      "summary" : "listUsersWithinTheGroup"
+    },
+    "CreateUser" : {
+      "title" : "createUser",
+      "summary" : "createUser"
+    },
+    "QueryStrategy" : {
+      "title" : "queryStrategy",
+      "summary" : "queryStrategy"
+    },
+    "ListTheUserSPermissions" : {
+      "title" : "listTheUserSPermissions",
+      "summary" : "listTheUserSPermissions"
+    },
+    "UnbindSubUserVirtualMfa" : {
+      "title" : "unbindSubUserVirtualMfa",
+      "summary" : "unbindSubUserVirtualMfa"
+    },
+    "AssociateGroupPermissions" : {
+      "title" : "associateGroupPermissions",
+      "summary" : "associateGroupPermissions"
+    },
+    "DeleteUser" : {
+      "title" : "deleteUser",
+      "summary" : "deleteUser"
+    },
+    "CreateStrategy" : {
+      "title" : "createStrategy",
+      "summary" : "createStrategy"
+    },
+    "ListThePermissionsOfTheGroup" : {
+      "title" : "listThePermissionsOfTheGroup",
+      "summary" : "listThePermissionsOfTheGroup"
+    },
+    "ListThePermissionsOfRoles" : {
+      "title" : "listThePermissionsOfRoles",
+      "summary" : "listThePermissionsOfRoles"
+    },
+    "DeleteStrategy" : {
+      "title" : "deleteStrategy",
+      "summary" : "deleteStrategy"
+    },
+    "ChangeSubUserPassword" : {
+      "title" : "changeSubUserPassword",
+      "summary" : "changeSubUserPassword"
+    },
+    "UpdateUser" : {
+      "title" : "updateUser",
+      "summary" : "updateUser"
+    },
+    "UpdateStrategy" : {
+      "title" : "updateStrategy",
+      "summary" : "updateStrategy"
+    },
+    "ModifySubUserOperationProtection" : {
+      "title" : "modifySubUserOperationProtection",
+      "summary" : "modifySubUserOperationProtection"
+    },
+    "AssociateUserPermissions" : {
+      "title" : "associateUserPermissions",
+      "summary" : "associateUserPermissions"
+    },
+    "RemoveRolePermissions" : {
+      "title" : "removeRolePermissions",
+      "summary" : "removeRolePermissions"
+    },
+    "RemoveUserPermissions" : {
+      "title" : "removeUserPermissions",
+      "summary" : "removeUserPermissions"
+    },
+    "RemoveGroupPermissions" : {
+      "title" : "removeGroupPermissions",
+      "summary" : "removeGroupPermissions"
+    },
+    "GetUser" : {
+      "title" : "getUser",
+      "summary" : "getUser"
+    },
+    "ListUser" : {
+      "title" : "listUser",
+      "summary" : "listUser"
+    },
+    "GetLoginProfile" : {
+      "title" : "getLoginProfile",
+      "summary" : "getLoginProfile"
+    },
+    "ListStrategies" : {
+      "title" : "listStrategies",
+      "summary" : "listStrategies"
+    },
+    "CreateApikeyPermanentlyValid" : {
+      "title" : "createApikeyPermanentlyValid",
+      "summary" : "createApikeyPermanentlyValid"
+    },
+    "QueryApikeyDetailsPermanentlyValid" : {
+      "title" : "queryApikeyDetailsPermanentlyValid",
+      "summary" : "queryApikeyDetailsPermanentlyValid"
+    },
+    "UpdateApikeyPermanentlyValid" : {
+      "title" : "updateApikeyPermanentlyValid",
+      "summary" : "updateApikeyPermanentlyValid"
+    }
+  }
+}

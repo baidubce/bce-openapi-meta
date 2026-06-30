@@ -1,0 +1,6 @@
+{
+  "EnableAccessKey" : {
+    "userName" : "用户名",
+    "accessKeyId" : "访问密钥id"
+  }
+}

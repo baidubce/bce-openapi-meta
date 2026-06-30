@@ -1,0 +1,5 @@
+{
+  "UpdateSubUserIdpStatus" : {
+    "status" : "功能状态，打开为enable，关闭为disable"
+  }
+}

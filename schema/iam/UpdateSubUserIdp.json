@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateSubUserIdp",
+  "method" : "POST",
+  "uri" : "/v{version}/subUser/idp/update",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "fileName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateSubUserIdp.fileName"
+  }, {
+    "name" : "encodeMetadata",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateSubUserIdp.encodeMetadata"
+  }, {
+    "name" : "auxiliaryDomain",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateSubUserIdp.auxiliaryDomain"
+  } ],
+  "desc_key" : "iam.UpdateSubUserIdp.desc"
+}

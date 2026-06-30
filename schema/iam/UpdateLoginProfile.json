@@ -1,0 +1,62 @@
+{
+  "name" : "UpdateLoginProfile",
+  "method" : "PUT",
+  "uri" : "/v{version}/user/{userName}/loginProfile",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.UpdateLoginProfile.userName"
+  }, {
+    "name" : "password",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateLoginProfile.password"
+  }, {
+    "name" : "needResetPassword",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateLoginProfile.needResetPassword"
+  }, {
+    "name" : "enabledLogin",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateLoginProfile.enabledLogin"
+  }, {
+    "name" : "enabledLoginMfa",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateLoginProfile.enabledLoginMfa"
+  }, {
+    "name" : "loginMfaType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateLoginProfile.loginMfaType"
+  }, {
+    "name" : "thirdPartyType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateLoginProfile.thirdPartyType"
+  }, {
+    "name" : "thirdPartyAccount",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateLoginProfile.thirdPartyAccount"
+  } ],
+  "desc_key" : "iam.UpdateLoginProfile.desc"
+}

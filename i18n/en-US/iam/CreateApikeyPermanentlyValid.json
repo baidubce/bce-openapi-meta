@@ -1,0 +1,7 @@
+{
+  "CreateApikeyPermanentlyValid" : {
+    "userId" : "Sub-user ID; defaults to current user if not provided",
+    "acl" : "ACL policy",
+    "name" : "APIKey name; auto-generated if not provided"
+  }
+}

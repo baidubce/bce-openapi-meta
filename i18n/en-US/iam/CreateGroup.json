@@ -1,0 +1,6 @@
+{
+  "CreateGroup" : {
+    "name" : "Group name",
+    "description" : "Group description"
+  }
+}

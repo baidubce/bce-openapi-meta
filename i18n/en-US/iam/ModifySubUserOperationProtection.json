@@ -1,0 +1,7 @@
+{
+  "ModifySubUserOperationProtection" : {
+    "userName" : "Name of the sub-user to be updated",
+    "enabledMfa" : "Enable or disable operation protection for the sub-user",
+    "mfaType" : "Operation protection type for the sub-user"
+  }
+}

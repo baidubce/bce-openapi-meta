@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateUser",
+  "method" : "PUT",
+  "uri" : "/v{version}/user/{userName}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.UpdateUser.userName"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateUser.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateUser.description"
+  }, {
+    "name" : "enabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateUser.enabled"
+  } ],
+  "desc_key" : "iam.UpdateUser.desc"
+}

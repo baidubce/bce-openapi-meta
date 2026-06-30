@@ -1,0 +1,7 @@
+{
+  "RemoveRolePermissions" : {
+    "roleName" : "Role name",
+    "policyName" : "Policy name",
+    "policyType" : "Type of the associated policy; use \"System\" to query system policies, or \"Custom\" to query custom policies"
+  }
+}

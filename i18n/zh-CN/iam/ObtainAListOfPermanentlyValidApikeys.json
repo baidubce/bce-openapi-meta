@@ -1,0 +1,8 @@
+{
+  "ObtainAListOfPermanentlyValidApikeys" : {
+    "userId" : "子用户Id；如果apikey归属其他子用户则必填",
+    "service" : "筛选条件['AI_APAAS', 'WENXINFACTORY', 'CONSOLE_AI']，  APIKey 归属服务，多个service是或的关系",
+    "pageNo" : "页码，从1开始；默认 1",
+    "pageSize" : "每页大小；默认10"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "AddUserToGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/group/{groupName}/user/{userName}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.AddUserToGroup.userName"
+  }, {
+    "name" : "groupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.AddUserToGroup.groupName"
+  } ],
+  "desc_key" : "iam.AddUserToGroup.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteAccessKey" : {
+    "userName" : "Username",
+    "accessKeyId" : "Access key ID"
+  }
+}

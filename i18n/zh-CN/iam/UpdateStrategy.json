@@ -1,0 +1,8 @@
+{
+  "UpdateStrategy" : {
+    "policyName" : "原策略名",
+    "name" : "新策略名",
+    "description" : "策略的描述",
+    "document" : "策略内容，ACL格式序列化后得到的String"
+  }
+}

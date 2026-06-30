@@ -1,0 +1,8 @@
+{
+  "UpdateUser" : {
+    "userName" : "Username",
+    "name" : "Updated username",
+    "description" : "User description",
+    "enabled" : "User status"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteApikeyPermanentlyValid" : {
+    "userId" : "Sub-user ID; required if the API key belongs to another sub-user",
+    "id" : "APIKey ID"
+  }
+}

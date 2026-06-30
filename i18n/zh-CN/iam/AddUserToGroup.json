@@ -1,0 +1,6 @@
+{
+  "AddUserToGroup" : {
+    "userName" : "用户名",
+    "groupName" : "组名"
+  }
+}

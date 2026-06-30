@@ -1,0 +1,7 @@
+{
+  "UpdateGroup" : {
+    "groupName" : "组名",
+    "name" : "更新后的组名",
+    "description" : "组的描述"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "CreateRole" : {
+    "name" : "角色名",
+    "description" : "角色的描述",
+    "assumeRolePolicyDocument" : "指定允许扮演角色的载体"
+  }
+}

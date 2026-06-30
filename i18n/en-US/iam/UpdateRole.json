@@ -1,0 +1,8 @@
+{
+  "UpdateRole" : {
+    "roleName" : "Role name",
+    "name" : "Updated role name",
+    "description" : "Description of the role",
+    "assumeRolePolicyDocument" : "Specifies the identities that are allowed to assume this role"
+  }
+}

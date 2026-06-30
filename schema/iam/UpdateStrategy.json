@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateStrategy",
+  "method" : "POST",
+  "uri" : "/v{version}/policy/{policyName}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "policyName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "iam.UpdateStrategy.policyName"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateStrategy.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateStrategy.description"
+  }, {
+    "name" : "document",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "iam.UpdateStrategy.document"
+  } ],
+  "desc_key" : "iam.UpdateStrategy.desc"
+}

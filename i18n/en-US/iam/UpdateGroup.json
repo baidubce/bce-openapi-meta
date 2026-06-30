@@ -1,0 +1,7 @@
+{
+  "UpdateGroup" : {
+    "groupName" : "Group name",
+    "name" : "Updated group name",
+    "description" : "Description of the group"
+  }
+}
