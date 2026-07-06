@@ -19,6 +19,10 @@
       "title" : "删除解析记录",
       "summary" : "删除解析记录"
     },
+    "BindVpc" : {
+      "title" : "关联VPC",
+      "summary" : "关联VPC"
+    },
     "UnbindVpc" : {
       "title" : "解关联VPC",
       "summary" : "解关联VPC"
@@ -58,10 +62,6 @@
     "DeleteResolver" : {
       "title" : "删除DNS解析器",
       "summary" : "删除DNS解析器"
-    },
-    "BindVpc" : {
-      "title" : "关联VPC",
-      "summary" : "关联VPC"
     },
     "GetDnsResolverDetail" : {
       "title" : "查询DNS解析器详情",
