@@ -1,0 +1,12 @@
+{
+  "DescribeJobMetrics" : {
+    "resourcePoolId" : "Unique identifier of the resource pool. For self-managed pools, pass the pool ID (e.g., cce-1uji3ib5); for managed pools, pass aihc-serverless.",
+    "queueID" : "Queue to which the training job belongs. For self-managed resource pools, provide the queue name; for managed resource pools, provide the queue ID.",
+    "jobId" : "Training job ID.",
+    "startTime" : "Optional. Defaults to the job start time.",
+    "endTime" : "Optional. Defaults to the current time for running jobs, or the stop time for completed jobs.",
+    "timeStep" : "Time interval for returned monitoring data. Default is 5 minutes.",
+    "metricType" : "Metric type for monitoring data. Valid values: GpuUsage: GPU utilization. GpuMemoryUsage: GPU memory utilization. CpuUsage: CPU utilization. MemoryUsage: Memory utilization. DiskReadRate: Disk read rate, in bytes/s. DiskWriteRate: Disk write rate, in bytes/s. RDMASendDataRate: RDMA send data rate, in bytes/s. RDMARecvDataRate: RDMA receive data rate, in bytes/s. PCIESendDataRate: PCIe send data rate, in bytes/s. PCIERecvDataRate: PCIe receive data rate, in bytes/s. NVLinkSendDataRate: NVLink send data rate, in bytes/s. NVLinkRecvDataRate: NVLink receive data rate, in bytes/s. GpuTemperature: GPU temperature, in degrees Celsius. GpuPowerUsage: GPU power consumption, in watts. GpuPipeTensorUsage: GPU pipe tensor utilization. RDMAHealth: RDMA health status. RDMASendErrorRate: RDMA send-side packet loss rate, in packets/s. RDMARecvErrorRate: RDMA receive-side packet loss rate, in packets/s. RDMASendPacketsRate: RDMA send packet rate, in packets/s. RDMARecvPacketsRate: RDMA receive packet rate, in packets/s. CpuTime: CPU usage. MemoryAllocation: Memory usage, in bytes.",
+    "rateInterval" : "Metric change cycle frequency. Default is 5 minutes."
+  }
+}

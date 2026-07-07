@@ -1,0 +1,67 @@
+{
+  "name" : "DescribeJobLogs",
+  "method" : "POST",
+  "uri" : "/?action=DescribeJobLogs&resourcePoolId=xxxx&queueID=xxxx",
+  "parameters" : [ {
+    "name" : "resourcePoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeJobLogs.resourcePoolId"
+  }, {
+    "name" : "queueID",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeJobLogs.queueID"
+  }, {
+    "name" : "jobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobLogs.jobId"
+  }, {
+    "name" : "podName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobLogs.podName"
+  }, {
+    "name" : "keywords",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobLogs.keywords"
+  }, {
+    "name" : "startTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobLogs.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobLogs.endTime"
+  }, {
+    "name" : "maxLines",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobLogs.maxLines"
+  }, {
+    "name" : "chunkSize",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobLogs.chunkSize"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobLogs.marker"
+  } ],
+  "desc_key" : "aihc.DescribeJobLogs.desc"
+}

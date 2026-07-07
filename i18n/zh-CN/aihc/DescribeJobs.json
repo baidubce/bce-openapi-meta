@@ -1,0 +1,14 @@
+{
+  "DescribeJobs" : {
+    "resourcePoolId" : "自运维资源池传递资源池唯一标识（示例：cce-1uji3ib5），托管资源池传递 aihc-serverless",
+    "queueID" : "托管资源池需传入该参数，为队列Id",
+    "queue" : "训练任务所属队列，通用资源池须填入队列名称，不填时返回所有。托管资源池须填入队列Id",
+    "status" : "基于状态筛选任务",
+    "keywordType" : "筛选关键字类型，当前仅支持name/queueName",
+    "keyword" : "关键字值",
+    "orderBy" : "排序字段，支持createdAt，finishedAt，默认为createdAt",
+    "order" : "排序方式，可选 [asc, desc]，asc 为升序，desc 为降序，默认值为 desc",
+    "pageNumber" : "请求分页参数，表示第几页",
+    "pageSize" : "单页结果数，默认值为10"
+  }
+}

@@ -3,29 +3,61 @@
   "style" : "rpc",
   "description" : "aihc",
   "apis" : {
-    "CreateDataset" : {
-      "title" : "createDataset",
-      "summary" : "createDataset"
+    "DescribeJobWebterminal" : {
+      "title" : "describeJobWebterminal",
+      "summary" : "describeJobWebterminal"
+    },
+    "DescribeJobNodes" : {
+      "title" : "describeJobNodes",
+      "summary" : "describeJobNodes"
+    },
+    "DescribeJobEvents" : {
+      "title" : "describeJobEvents",
+      "summary" : "describeJobEvents"
     },
     "DeleteDataset" : {
       "title" : "deleteDataset",
       "summary" : "deleteDataset"
     },
+    "DescribeJobMetrics" : {
+      "title" : "describeJobMetrics",
+      "summary" : "describeJobMetrics"
+    },
     "DescribeDatasets" : {
       "title" : "describeDatasets",
       "summary" : "describeDatasets"
+    },
+    "DescribePodEvents" : {
+      "title" : "describePodEvents",
+      "summary" : "describePodEvents"
+    },
+    "BatchStopTrainingTasksV2" : {
+      "title" : "batchStopTrainingTasksV2",
+      "summary" : "batchStopTrainingTasksV2"
     },
     "DescribeDatasetVersions" : {
       "title" : "describeDatasetVersions",
       "summary" : "describeDatasetVersions"
     },
+    "CreateJob" : {
+      "title" : "createJob",
+      "summary" : "createJob"
+    },
     "ModifyDataset" : {
       "title" : "modifyDataset",
       "summary" : "modifyDataset"
     },
+    "DescribeJobs" : {
+      "title" : "describeJobs",
+      "summary" : "describeJobs"
+    },
     "CreateDatasetVersion" : {
       "title" : "createDatasetVersion",
       "summary" : "createDatasetVersion"
+    },
+    "DescribeJob" : {
+      "title" : "describeJob",
+      "summary" : "describeJob"
     },
     "DeleteDatasetVersion" : {
       "title" : "deleteDatasetVersion",
@@ -71,9 +103,29 @@
       "title" : "describeModelVersions",
       "summary" : "describeModelVersions"
     },
+    "DeleteJob" : {
+      "title" : "deleteJob",
+      "summary" : "deleteJob"
+    },
+    "ModifyJob" : {
+      "title" : "modifyJob",
+      "summary" : "modifyJob"
+    },
+    "DescribeJobLogs" : {
+      "title" : "describeJobLogs",
+      "summary" : "describeJobLogs"
+    },
     "CreateModel" : {
       "title" : "createModel",
       "summary" : "createModel"
+    },
+    "CreateDataset" : {
+      "title" : "createDataset",
+      "summary" : "createDataset"
+    },
+    "StopJob" : {
+      "title" : "stopJob",
+      "summary" : "stopJob"
     }
   }
 }

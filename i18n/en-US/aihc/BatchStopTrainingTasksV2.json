@@ -1,0 +1,8 @@
+{
+  "BatchStopTrainingTasksV2" : {
+    "queueID" : "The queue to which the training task belongs; for self-managed resource pools, enter the queue name; for managed resource pools, enter the queue ID",
+    "resourcePoolId" : "For self-managed resource pools, pass the unique resource pool identifier (e.g., cce-1uji3ib5); for managed resource pools, pass aihc-serverless",
+    "jobList" : "Array of task ID list, where each element is an object containing a jobId",
+    "jobList[].jobId" : "Unique identifier of a single task; must be non-empty and unique"
+  }
+}

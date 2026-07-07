@@ -1,0 +1,10 @@
+{
+  "DescribePodEvents" : {
+    "resourcePoolId" : "自运维资源池传递资源池唯一标识（示例：cce-1uji3ib5），托管资源池传递 aihc-serverless",
+    "queueID" : "训练任务所属队列，自运维资源池须填入队列名称，托管资源池须填入队列Id",
+    "jobId" : "训练任务ID",
+    "podName" : "训练任务节点名称",
+    "startTime" : "任务pod事件的起始时间，默认为 Pod 创建时间",
+    "endTime" : "任务pod事件的结束时间，默认为 now"
+  }
+}

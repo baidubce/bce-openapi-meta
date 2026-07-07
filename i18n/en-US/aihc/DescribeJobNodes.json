@@ -1,0 +1,7 @@
+{
+  "DescribeJobNodes" : {
+    "resourcePoolId" : "Unique identifier of the resource pool; pass the resource pool ID (e.g., cce-1uji3ib5) for self-managed pools, or `aihc-serverless` for managed pools",
+    "queueID" : "Queue to which the training job belongs; pass the queue name for self-managed resource pools, or the queue ID for managed resource pools",
+    "jobId" : "Training job ID"
+  }
+}

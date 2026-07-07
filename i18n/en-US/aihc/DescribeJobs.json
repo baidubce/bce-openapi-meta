@@ -1,0 +1,14 @@
+{
+  "DescribeJobs" : {
+    "resourcePoolId" : "Unique identifier of the resource pool; pass the pool ID (e.g., cce-1uji3ib5) for self-managed pools, or `aihc-serverless` for managed pools",
+    "queueID" : "Required for managed resource pools; the queue ID",
+    "queue" : "Queue to which the training job belongs; provide queue name for general resource pools (omit to return all), or queue ID for managed resource pools",
+    "status" : "Filter jobs by status",
+    "keywordType" : "Keyword filter type; currently supports `name` and `queueName` only",
+    "keyword" : "Keyword value for filtering",
+    "orderBy" : "Sort field; supports `createdAt` and `finishedAt`, defaults to `createdAt`",
+    "order" : "Sort order; `asc` for ascending, `desc` for descending, defaults to `desc`",
+    "pageNumber" : "Page number for pagination",
+    "pageSize" : "Number of results per page, defaults to 10"
+  }
+}

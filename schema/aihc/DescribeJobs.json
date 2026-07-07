@@ -1,0 +1,67 @@
+{
+  "name" : "DescribeJobs",
+  "method" : "POST",
+  "uri" : "/?action=DescribeJobs&resourcePoolId=xxxx",
+  "parameters" : [ {
+    "name" : "resourcePoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeJobs.resourcePoolId"
+  }, {
+    "name" : "queueID",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeJobs.queueID"
+  }, {
+    "name" : "queue",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobs.queue"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobs.status"
+  }, {
+    "name" : "keywordType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobs.keywordType"
+  }, {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobs.keyword"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobs.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobs.order"
+  }, {
+    "name" : "pageNumber",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobs.pageNumber"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobs.pageSize"
+  } ],
+  "desc_key" : "aihc.DescribeJobs.desc"
+}

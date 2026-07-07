@@ -1,0 +1,43 @@
+{
+  "name" : "DescribePodEvents",
+  "method" : "POST",
+  "uri" : "/?action=DescribePodEvents&resourcePoolId=xxxx&queueID=xxxx",
+  "parameters" : [ {
+    "name" : "resourcePoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribePodEvents.resourcePoolId"
+  }, {
+    "name" : "queueID",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribePodEvents.queueID"
+  }, {
+    "name" : "jobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribePodEvents.jobId"
+  }, {
+    "name" : "podName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribePodEvents.podName"
+  }, {
+    "name" : "startTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribePodEvents.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribePodEvents.endTime"
+  } ],
+  "desc_key" : "aihc.DescribePodEvents.desc"
+}

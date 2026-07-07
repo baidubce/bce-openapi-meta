@@ -1,0 +1,43 @@
+{
+  "name" : "DescribeJobWebterminal",
+  "method" : "POST",
+  "uri" : "/?action=DescribeJobWebterminal&resourcePoolId=xxxx&queueID=xxxx",
+  "parameters" : [ {
+    "name" : "resourcePoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeJobWebterminal.resourcePoolId"
+  }, {
+    "name" : "queueID",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeJobWebterminal.queueID"
+  }, {
+    "name" : "jobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobWebterminal.jobId"
+  }, {
+    "name" : "podName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobWebterminal.podName"
+  }, {
+    "name" : "handshakeTimeoutSecond",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobWebterminal.handshakeTimeoutSecond"
+  }, {
+    "name" : "pingTimeoutSecond",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobWebterminal.pingTimeoutSecond"
+  } ],
+  "desc_key" : "aihc.DescribeJobWebterminal.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "DescribeJobNodes" : {
+    "resourcePoolId" : "自运维资源池传递资源池唯一标识（示例：cce-1uji3ib5），托管资源池传递 aihc-serverless",
+    "queueID" : "训练任务所属队列，自运维资源池须填入队列名称，托管资源池须填入队列Id",
+    "jobId" : "训练任务ID"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "DescribeJobLogs" : {
+    "resourcePoolId" : "For self-managed resource pools, pass the unique resource pool identifier (e.g., cce-1uji3ib5); for managed resource pools, pass aihc-serverless",
+    "queueID" : "Queue to which the training job belongs; for self-managed resource pools, enter the queue name; for managed resource pools, enter the queue ID",
+    "jobId" : "Training job ID",
+    "podName" : "Training job pod name",
+    "keywords" : "Log keyword filter condition used to retrieve logs containing the specified keyword",
+    "startTime" : "Log start time as a Unix timestamp; if not set, all logs since pod startup are returned. Valid range: 1970 to the current time",
+    "endTime" : "Log end time as a Unix timestamp; if not set, all logs since pod startup are returned. Valid range: 1970 to the current time",
+    "maxLines" : "Maximum number of log lines to return; if not set, all logs since pod startup are returned",
+    "chunkSize" : "Number of log lines aggregated into a single record; for example, setting to 10 groups every 10 lines as one record. Defaults to 1, meaning each line is returned as a separate record",
+    "marker" : "Log query pagination token used with the nextMarker field in the response. Usage: omit marker on the first request; if nextMarker in the response is non-empty, pass its value as marker in the next request to retrieve more logs; repeat until nextMarker is empty"
+  }
+}

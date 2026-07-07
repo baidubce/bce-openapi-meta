@@ -1,0 +1,7 @@
+{
+  "StopJob" : {
+    "resourcePoolId" : "Unique resource pool identifier for self-managed pools (e.g., cce-1uji3ib5); use `aihc-serverless` for managed pools",
+    "queueID" : "Queue for the training job; provide queue name for self-managed pools, queue ID for managed pools",
+    "jobId" : "Training job ID"
+  }
+}

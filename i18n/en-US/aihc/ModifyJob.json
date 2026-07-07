@@ -1,0 +1,8 @@
+{
+  "ModifyJob" : {
+    "resourcePoolId" : "Unique identifier of the resource pool; for self-managed pools pass the pool ID (e.g. cce-1uji3ib5), for managed pools pass aihc-serverless",
+    "queueID" : "Queue to which the training job belongs; for self-managed pools pass the queue name, for managed pools pass the queue ID",
+    "jobId" : "Training job ID",
+    "priority" : "Training job priority"
+  }
+}

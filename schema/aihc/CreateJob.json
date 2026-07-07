@@ -1,0 +1,264 @@
+{
+  "name" : "CreateJob",
+  "method" : "POST",
+  "uri" : "/?action=CreateJob&resourcePoolId=xxxx&queueID=xxxx",
+  "parameters" : [ {
+    "name" : "resourcePoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.CreateJob.resourcePoolId"
+  }, {
+    "name" : "queueID",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.CreateJob.queueID"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.name"
+  }, {
+    "name" : "queue",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.queue"
+  }, {
+    "name" : "jobType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.jobType"
+  }, {
+    "name" : "jobSpec",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.jobSpec",
+    "sub_parameters" : [ {
+      "name" : "image",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.jobSpec.image"
+    }, {
+      "name" : "imageConfig",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.jobSpec.imageConfig",
+      "sub_parameters" : [ {
+        "name" : "username",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aihc.CreateJob.jobSpec.imageConfig.username"
+      }, {
+        "name" : "password",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aihc.CreateJob.jobSpec.imageConfig.password"
+      } ]
+    }, {
+      "name" : "replicas",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.jobSpec.replicas"
+    }, {
+      "name" : "resources",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.jobSpec.resources",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aihc.CreateJob.jobSpec.resources.name"
+      }, {
+        "name" : "quantity",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "aihc.CreateJob.jobSpec.resources.quantity"
+      } ]
+    }, {
+      "name" : "envs",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.jobSpec.envs",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aihc.CreateJob.jobSpec.envs.name"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aihc.CreateJob.jobSpec.envs.value"
+      } ]
+    }, {
+      "name" : "enableRDMA",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.jobSpec.enableRDMA"
+    }, {
+      "name" : "hostNetwork",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.jobSpec.hostNetwork"
+    } ]
+  }, {
+    "name" : "command",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.command"
+  }, {
+    "name" : "labels",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.labels",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.labels.key"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.labels.value"
+    } ]
+  }, {
+    "name" : "priority",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.priority"
+  }, {
+    "name" : "datasources",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.datasources",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.datasources.type"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.datasources.name"
+    }, {
+      "name" : "sourcePath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.datasources.sourcePath"
+    }, {
+      "name" : "mountPath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.datasources.mountPath"
+    }, {
+      "name" : "options",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.datasources.options",
+      "sub_parameters" : [ {
+        "name" : "readOnly",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "aihc.CreateJob.datasources.options.readOnly"
+      } ]
+    } ]
+  }, {
+    "name" : "enableBccl",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.enableBccl"
+  }, {
+    "name" : "faultTolerance",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.faultTolerance"
+  }, {
+    "name" : "faultToleranceArgs",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.faultToleranceArgs"
+  }, {
+    "name" : "tensorboardConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.tensorboardConfig",
+    "sub_parameters" : [ {
+      "name" : "enable",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.tensorboardConfig.enable"
+    }, {
+      "name" : "logPath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.tensorboardConfig.logPath"
+    } ]
+  }, {
+    "name" : "alertConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.alertConfig",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.alertConfig.instanceId"
+    }, {
+      "name" : "alertItems",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.alertConfig.alertItems"
+    }, {
+      "name" : "for",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.alertConfig.for"
+    }, {
+      "name" : "notifyRuleId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.alertConfig.notifyRuleId"
+    } ]
+  }, {
+    "name" : "retentionPeriod",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.retentionPeriod"
+  }, {
+    "name" : "advancedSettings",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.CreateJob.advancedSettings",
+    "sub_parameters" : [ {
+      "name" : "runtimeEnv",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.advancedSettings.runtimeEnv"
+    }, {
+      "name" : "SubmitterBackoffLimit",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aihc.CreateJob.advancedSettings.SubmitterBackoffLimit"
+    } ]
+  } ],
+  "desc_key" : "aihc.CreateJob.desc"
+}

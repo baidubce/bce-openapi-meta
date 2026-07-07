@@ -1,0 +1,32 @@
+{
+  "name" : "BatchStopTrainingTasksV2",
+  "method" : "POST",
+  "uri" : "/?action=BatchStopJobs&resourcePoolId=xxxx&queueID=xxxx",
+  "parameters" : [ {
+    "name" : "queueID",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.BatchStopTrainingTasksV2.queueID"
+  }, {
+    "name" : "resourcePoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.BatchStopTrainingTasksV2.resourcePoolId"
+  }, {
+    "name" : "jobList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.BatchStopTrainingTasksV2.jobList",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "jobList[].jobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.BatchStopTrainingTasksV2.jobList[].jobId"
+  } ],
+  "desc_key" : "aihc.BatchStopTrainingTasksV2.desc"
+}

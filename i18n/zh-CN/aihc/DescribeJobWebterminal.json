@@ -1,0 +1,10 @@
+{
+  "DescribeJobWebterminal" : {
+    "resourcePoolId" : "自运维资源池传递资源池唯一标识（示例：cce-1uji3ib5），托管资源池传递 aihc-serverless",
+    "queueID" : "训练任务所属队列，自运维资源池须填入队列名称，托管资源池须填入队列Id",
+    "jobId" : "训练任务ID",
+    "podName" : "训练任务节点名称",
+    "handshakeTimeoutSecond" : "连接超时参数，仅在建立连接时使用，单位秒，默认值30，最小值1",
+    "pingTimeoutSecond" : "心跳超时参数，单位秒，默认值900，最小值1，最大值3600"
+  }
+}

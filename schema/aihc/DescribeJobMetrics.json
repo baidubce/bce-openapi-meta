@@ -1,0 +1,55 @@
+{
+  "name" : "DescribeJobMetrics",
+  "method" : "POST",
+  "uri" : "/?action=DescribeJobMetrics&resourcePoolId=xxxx&queueID=xxxx",
+  "parameters" : [ {
+    "name" : "resourcePoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeJobMetrics.resourcePoolId"
+  }, {
+    "name" : "queueID",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeJobMetrics.queueID"
+  }, {
+    "name" : "jobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobMetrics.jobId"
+  }, {
+    "name" : "startTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobMetrics.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobMetrics.endTime"
+  }, {
+    "name" : "timeStep",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobMetrics.timeStep"
+  }, {
+    "name" : "metricType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobMetrics.metricType"
+  }, {
+    "name" : "rateInterval",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobMetrics.rateInterval"
+  } ],
+  "desc_key" : "aihc.DescribeJobMetrics.desc"
+}

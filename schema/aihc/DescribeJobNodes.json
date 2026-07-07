@@ -1,0 +1,25 @@
+{
+  "name" : "DescribeJobNodes",
+  "method" : "POST",
+  "uri" : "/?action=DescribeJobNodes&resourcePoolId=xxxx&queueID=xxxx",
+  "parameters" : [ {
+    "name" : "resourcePoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeJobNodes.resourcePoolId"
+  }, {
+    "name" : "queueID",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DescribeJobNodes.queueID"
+  }, {
+    "name" : "jobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.DescribeJobNodes.jobId"
+  } ],
+  "desc_key" : "aihc.DescribeJobNodes.desc"
+}

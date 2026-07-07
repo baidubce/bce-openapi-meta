@@ -1,0 +1,10 @@
+{
+  "DescribePodEvents" : {
+    "resourcePoolId" : "Unique identifier of the resource pool; for self-managed resource pools pass the pool ID (e.g. cce-1uji3ib5), for managed resource pools pass aihc-serverless",
+    "queueID" : "Queue to which the training job belongs; for self-managed resource pools provide the queue name, for managed resource pools provide the queue ID",
+    "jobId" : "Training job ID",
+    "podName" : "Node name of the training job",
+    "startTime" : "Start time for pod events of the job; defaults to the pod creation time",
+    "endTime" : "End time for pod events of the job; defaults to now"
+  }
+}

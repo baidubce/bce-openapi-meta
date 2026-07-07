@@ -1,0 +1,25 @@
+{
+  "name" : "DeleteJob",
+  "method" : "POST",
+  "uri" : "/?action=DeleteJob&resourcePoolId=xxxx&queueID=xxxx",
+  "parameters" : [ {
+    "name" : "resourcePoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DeleteJob.resourcePoolId"
+  }, {
+    "name" : "queueID",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.DeleteJob.queueID"
+  }, {
+    "name" : "jobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.DeleteJob.jobId"
+  } ],
+  "desc_key" : "aihc.DeleteJob.desc"
+}

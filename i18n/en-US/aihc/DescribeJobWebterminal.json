@@ -1,0 +1,10 @@
+{
+  "DescribeJobWebterminal" : {
+    "resourcePoolId" : "For self-managed resource pools, pass the unique resource pool identifier (e.g., cce-1uji3ib5); for managed resource pools, pass aihc-serverless",
+    "queueID" : "The queue to which the training job belongs; for self-managed resource pools, enter the queue name; for managed resource pools, enter the queue ID",
+    "jobId" : "Training job ID",
+    "podName" : "Training job node name",
+    "handshakeTimeoutSecond" : "Connection timeout parameter, used only during connection establishment, in seconds, default 30, minimum 1",
+    "pingTimeoutSecond" : "Heartbeat timeout parameter, in seconds, default 900, minimum 1, maximum 3600"
+  }
+}

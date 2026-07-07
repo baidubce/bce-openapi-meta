@@ -1,0 +1,12 @@
+{
+  "DescribeJobMetrics" : {
+    "resourcePoolId" : "自运维资源池传递资源池唯一标识（示例：cce-1uji3ib5），托管资源池传递 aihc-serverless",
+    "queueID" : "训练任务所属队列，自运维资源池须填入队列名称，托管资源池须填入队列Id",
+    "jobId" : "训练任务ID",
+    "startTime" : "可选,默认为任务启动时间",
+    "endTime" : "可选,运行中的任务默认为当前时间，已停止的任务为任务的停止时间",
+    "timeStep" : "返回监控数据的时间间隔，默认值是 5 分钟。",
+    "metricType" : "查询监控数据的指标类型，取值如下： GpuUsage：GPU 使用率。 GpuMemoryUsage：GPU Memory 使用率。 CpuUsage：CPU 使用率。 MemoryUsage：Memory 使用率。 DiskReadRate：磁盘读取速率，单位为 bytes/s。 DiskWriteRate：磁盘写入速率，单位为 bytes/s。 RDMASendDataRate: rdma 发送数据速度，单位为 bytes/s。 RDMARecvDataRate: rdma 接收数据速度，单位为 bytes/s。 PCIESendDataRate: pcie 发送数据速度，单位为 bytes/s。 PCIERecvDataRate: pcie 接收数据速度，单位为 bytes/s。 NVLinkSendDataRate: nvlink 发送数据速度，单位为 bytes/s。 NVLinkRecvDataRate: nvlink 接收数据速度，单位为 bytes/s。 GpuTemperature: gpu 温度。单位为摄氏度。 GpuPowerUsage: gpu 功率。单位为瓦w。 GpuPipeTensorUsage: gpu pipe tensor 使用率。 RDMAHealth: rdma 健康状态。 RDMASendErrorRate: rdma 发送端丢包率，单位为 个/s。 RDMARecvErrorRate: rdma 接收端丢包率，单位为 个/s。 RDMASendPacketsRate: rdma 发包率，单位为 个/s。 RDMARecvPacketsRate: rdma 收包率，单位为 个/s。 CpuTime: cpu 使用量。 MemoryAllocation: mem 使用量，单位为 bytes。",
+    "rateInterval" : "指标变化周期频率，默认为5分钟"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name" : "StopJob",
+  "method" : "POST",
+  "uri" : "/?action=StopJob&resourcePoolId=xxxx&queueID=xxxx",
+  "parameters" : [ {
+    "name" : "resourcePoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.StopJob.resourcePoolId"
+  }, {
+    "name" : "queueID",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "aihc.StopJob.queueID"
+  }, {
+    "name" : "jobId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aihc.StopJob.jobId"
+  } ],
+  "desc_key" : "aihc.StopJob.desc"
+}

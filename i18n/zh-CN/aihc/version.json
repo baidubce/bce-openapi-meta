@@ -3,29 +3,61 @@
   "style" : "rpc",
   "description" : "百度百舸·AI计算平台",
   "apis" : {
-    "CreateDataset" : {
-      "title" : "创建数据集",
-      "summary" : "创建数据集"
+    "DescribeJobWebterminal" : {
+      "title" : "获取训练任务WebTerminal地址",
+      "summary" : "获取训练任务WebTerminal地址"
+    },
+    "DescribeJobNodes" : {
+      "title" : "查询训练任务所在节点列表",
+      "summary" : "查询训练任务所在节点列表"
+    },
+    "DescribeJobEvents" : {
+      "title" : "查询训练任务事件",
+      "summary" : "查询训练任务事件"
     },
     "DeleteDataset" : {
       "title" : "删除数据集",
       "summary" : "删除数据集"
     },
+    "DescribeJobMetrics" : {
+      "title" : "查询训练任务监控",
+      "summary" : "查询训练任务监控"
+    },
     "DescribeDatasets" : {
       "title" : "获取数据集列表",
       "summary" : "获取数据集列表"
+    },
+    "DescribePodEvents" : {
+      "title" : "查询训练任务Pod事件",
+      "summary" : "查询训练任务Pod事件"
+    },
+    "BatchStopTrainingTasksV2" : {
+      "title" : "批量停止训练任务",
+      "summary" : "批量停止训练任务"
     },
     "DescribeDatasetVersions" : {
       "title" : "获取数据集版本列表",
       "summary" : "获取数据集版本列表"
     },
+    "CreateJob" : {
+      "title" : "创建训练任务",
+      "summary" : "创建训练任务"
+    },
     "ModifyDataset" : {
       "title" : "修改数据集",
       "summary" : "修改数据集"
     },
+    "DescribeJobs" : {
+      "title" : "查询训练任务列表",
+      "summary" : "查询训练任务列表"
+    },
     "CreateDatasetVersion" : {
       "title" : "创建数据集版本",
       "summary" : "创建数据集版本"
+    },
+    "DescribeJob" : {
+      "title" : "查询训练任务详情",
+      "summary" : "查询训练任务详情"
     },
     "DeleteDatasetVersion" : {
       "title" : "删除数据集版本",
@@ -71,9 +103,29 @@
       "title" : "获取模型版本列表",
       "summary" : "获取模型版本列表"
     },
+    "DeleteJob" : {
+      "title" : "删除训练任务",
+      "summary" : "删除训练任务"
+    },
+    "ModifyJob" : {
+      "title" : "更新训练任务",
+      "summary" : "更新训练任务"
+    },
+    "DescribeJobLogs" : {
+      "title" : "查询训练任务日志",
+      "summary" : "查询训练任务日志"
+    },
     "CreateModel" : {
       "title" : "创建模型",
       "summary" : "创建模型"
+    },
+    "CreateDataset" : {
+      "title" : "创建数据集",
+      "summary" : "创建数据集"
+    },
+    "StopJob" : {
+      "title" : "停止训练任务",
+      "summary" : "停止训练任务"
     }
   }
 }
