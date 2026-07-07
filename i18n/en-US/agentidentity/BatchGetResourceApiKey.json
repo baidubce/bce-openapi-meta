@@ -1,0 +1,7 @@
+{
+  "BatchGetResourceApiKey" : {
+    "x-bce-workload-access-token" : "WAT token; prefer workloadAccessToken from request params, fall back to Header if absent",
+    "names" : "List of credential provider names, up to 10",
+    "workloadAccessToken" : "WAT token, can also be passed via Header"
+  }
+}

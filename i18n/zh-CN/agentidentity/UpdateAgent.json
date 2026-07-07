@@ -1,0 +1,7 @@
+{
+  "UpdateAgent" : {
+    "agentId" : "Agent ID",
+    "description" : "新的描述，1-128 字符",
+    "allowedResourceOauth2ReturnUrls" : "OAuth2 回调 URL 白名单列表，最多 10 个（全量替换）"
+  }
+}

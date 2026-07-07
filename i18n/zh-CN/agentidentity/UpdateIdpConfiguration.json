@@ -1,0 +1,16 @@
+{
+  "UpdateIdpConfiguration" : {
+    "userPoolId" : "用户池 ID",
+    "id" : "IdP 配置 ID",
+    "name" : "新的显示名称",
+    "clientId" : "新的 client_id",
+    "clientSecret" : "新的 client_secret（非空则更新）",
+    "authorizationEndpoint" : "授权端点",
+    "tokenEndpoint" : "Token 端点",
+    "userinfoEndpoint" : "UserInfo 端点",
+    "scopes" : "scope 列表",
+    "userIdClaim" : "用户 ID 映射字段",
+    "displayNameClaim" : "显示名称映射字段",
+    "autoCreateUser" : "是否自动创建用户"
+  }
+}

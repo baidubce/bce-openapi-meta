@@ -1,0 +1,5 @@
+{
+  "OIDCDiscovery" : {
+    "userPoolId" : "用户池 ID"
+  }
+}

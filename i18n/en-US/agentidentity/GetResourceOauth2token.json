@@ -1,0 +1,12 @@
+{
+  "GetResourceOauth2token" : {
+    "x-bce-workload-access-token" : "WAT (passed via Header; mutually exclusive with workloadAccessToken in Body)",
+    "resourceCredentialProviderName" : "Name of the credential provider (required on first call)",
+    "scopes" : "List of OAuth2 scopes; defaults to provider's default if not specified",
+    "oauth2Flow" : "OAuth2 flow type; defaults to USER_FEDERATION (3LO)",
+    "resourceOauth2ReturnUrl" : "Client callback URL (required on first call); must be registered in the Agent allowlist",
+    "sessionUri" : "Session URI returned from the initial request (required when polling)",
+    "forceAuthentication" : "Defaults to false; when true, bypasses cache and forces re-authorization",
+    "workloadAccessToken" : "WAT (passed via Body; can also be passed via Header)"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "GetResourceApikey" : {
+    "x-bce-workload-access-token" : "WAT 令牌，优先使用请求参数中的 workloadAccessToken，为空时从 Header 获取",
+    "name" : "凭证提供方名称",
+    "workloadAccessToken" : "WAT 令牌，也可通过 Header 传递"
+  }
+}

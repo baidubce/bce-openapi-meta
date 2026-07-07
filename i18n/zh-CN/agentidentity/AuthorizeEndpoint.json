@@ -1,0 +1,11 @@
+{
+  "AuthorizeEndpoint" : {
+    "userPoolId" : "用户池 ID",
+    "client_id" : "OAuth2 client_id",
+    "redirect_uri" : "登录完成后回跳地址（需在客户端白名单内）",
+    "response_type" : "固定 code",
+    "scope" : "请求的 scope，空格分隔（如 openid profile offline_access）。为空时降级为客户端注册的 scopes；请求 scope 必须是客户端注册 scopes 的子集，否则返回 invalid_scope(400)；不识别的 scope 静默忽略",
+    "state" : "客户端 state（原样回传）",
+    "nonce" : "OIDC nonce（原样写入 id_token）"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "OIDCDiscovery" : {
+    "userPoolId" : "User pool ID"
+  }
+}

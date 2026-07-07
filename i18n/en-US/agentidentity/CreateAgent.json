@@ -1,0 +1,7 @@
+{
+  "CreateAgent" : {
+    "name" : "Agent name, 1-64 characters, only letters, digits, underscores, and hyphens allowed (^[a-zA-Z0-9_-]+$)",
+    "description" : "Agent description, 1-128 characters",
+    "allowedResourceOauth2ReturnUrls" : "Whitelist of OAuth2 callback URLs, up to 10 entries, each up to 512 characters"
+  }
+}

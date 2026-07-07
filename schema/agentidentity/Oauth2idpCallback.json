@@ -1,0 +1,32 @@
+{
+  "name" : "Oauth2idpCallback",
+  "method" : "GET",
+  "uri" : "/v{version}/agent-identity/oauth2/callback/{providerId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "providerId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "agentidentity.Oauth2idpCallback.providerId"
+  }, {
+    "name" : "code",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "agentidentity.Oauth2idpCallback.code"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "agentidentity.Oauth2idpCallback.state"
+  } ],
+  "desc_key" : "agentidentity.Oauth2idpCallback.desc"
+}

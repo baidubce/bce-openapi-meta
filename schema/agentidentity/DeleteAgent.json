@@ -1,0 +1,20 @@
+{
+  "name" : "DeleteAgent",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/agent/delete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.DeleteAgent.agentId"
+  } ],
+  "desc_key" : "agentidentity.DeleteAgent.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "ListAgents" : {
+    "pageNo" : "页码，默认 1",
+    "pageSize" : "每页数量，默认 10",
+    "keyword" : "关键词过滤（匹配名称/描述/ID）"
+  }
+}

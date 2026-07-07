@@ -1,0 +1,20 @@
+{
+  "name" : "GetAgent",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/agent/get",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetAgent.agentId"
+  } ],
+  "desc_key" : "agentidentity.GetAgent.desc"
+}

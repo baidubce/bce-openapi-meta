@@ -1,0 +1,68 @@
+{
+  "name" : "CreateOauth2Client",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/user-pool/oauth2-client/create",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userPoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateOauth2Client.userPoolId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateOauth2Client.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateOauth2Client.description"
+  }, {
+    "name" : "clientType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateOauth2Client.clientType"
+  }, {
+    "name" : "redirectUris",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateOauth2Client.redirectUris"
+  }, {
+    "name" : "grantTypes",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateOauth2Client.grantTypes"
+  }, {
+    "name" : "scopes",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateOauth2Client.scopes"
+  }, {
+    "name" : "accessTokenTtl",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateOauth2Client.accessTokenTtl"
+  }, {
+    "name" : "refreshTokenTtl",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateOauth2Client.refreshTokenTtl"
+  } ],
+  "desc_key" : "agentidentity.CreateOauth2Client.desc"
+}

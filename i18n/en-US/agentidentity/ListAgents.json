@@ -1,0 +1,7 @@
+{
+  "ListAgents" : {
+    "pageNo" : "Page number, default 1",
+    "pageSize" : "Page size, default 10",
+    "keyword" : "Keyword filter (matches name, description, or ID)"
+  }
+}

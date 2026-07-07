@@ -1,0 +1,7 @@
+{
+  "ListUserPools" : {
+    "keyword" : "Fuzzy search (matches name / id)",
+    "pageNo" : "Page number, default 1",
+    "pageSize" : "Items per page, default 10, max 100"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "TokenEndpoint" : {
+    "userPoolId" : "用户池 ID",
+    "grant_type" : "authorization_code 或 refresh_token",
+    "code" : "（条件必填）授权码（grant_type=authorization_code 时必填）",
+    "refresh_token" : "（条件必填）之前签发的 refresh_token JWT（grant_type=refresh_token 时必填）",
+    "client_id" : "OAuth2 client_id",
+    "client_secret" : "OAuth2 client_secret",
+    "redirect_uri" : "（条件必填）需与 authorize 时一致（grant_type=authorization_code 时必填）"
+  }
+}

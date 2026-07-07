@@ -1,0 +1,38 @@
+{
+  "name" : "GetWorkloadAccessToken",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/workload-access-token",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "bceUserId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetWorkloadAccessToken.bceUserId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetWorkloadAccessToken.agentId"
+  }, {
+    "name" : "agentName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetWorkloadAccessToken.agentName"
+  }, {
+    "name" : "durationSeconds",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetWorkloadAccessToken.durationSeconds"
+  } ],
+  "desc_key" : "agentidentity.GetWorkloadAccessToken.desc"
+}

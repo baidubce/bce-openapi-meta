@@ -1,0 +1,5 @@
+{
+  "DeleteUserPool" : {
+    "id" : "User pool ID"
+  }
+}

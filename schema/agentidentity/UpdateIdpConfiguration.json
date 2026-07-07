@@ -1,0 +1,86 @@
+{
+  "name" : "UpdateIdpConfiguration",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/user-pool/idp-config/update",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userPoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.userPoolId"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.id"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.name"
+  }, {
+    "name" : "clientId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.clientId"
+  }, {
+    "name" : "clientSecret",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.clientSecret"
+  }, {
+    "name" : "authorizationEndpoint",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.authorizationEndpoint"
+  }, {
+    "name" : "tokenEndpoint",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.tokenEndpoint"
+  }, {
+    "name" : "userinfoEndpoint",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.userinfoEndpoint"
+  }, {
+    "name" : "scopes",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.scopes"
+  }, {
+    "name" : "userIdClaim",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.userIdClaim"
+  }, {
+    "name" : "displayNameClaim",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.displayNameClaim"
+  }, {
+    "name" : "autoCreateUser",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateIdpConfiguration.autoCreateUser"
+  } ],
+  "desc_key" : "agentidentity.UpdateIdpConfiguration.desc"
+}

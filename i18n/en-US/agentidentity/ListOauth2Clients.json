@@ -1,0 +1,8 @@
+{
+  "ListOauth2Clients" : {
+    "userPoolId" : "User pool ID",
+    "keyword" : "Fuzzy search (matches clientId / name)",
+    "pageNo" : "Page number, default 1",
+    "pageSize" : "Page size, default 10"
+  }
+}

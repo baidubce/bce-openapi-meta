@@ -217,5 +217,11 @@
     "endpoint" : {
       "global" : "iam.bj.baidubce.com"
     }
+  }, {
+    "code" : "agentidentity",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "identity.bj.baidubce.com"
+    }
   } ]
 }

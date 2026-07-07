@@ -1,0 +1,6 @@
+{
+  "GetOauth2Client" : {
+    "userPoolId" : "用户池 ID",
+    "id" : "客户端记录 ID"
+  }
+}

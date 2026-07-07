@@ -1,0 +1,6 @@
+{
+  "BatchAcquisitionOfUsers" : {
+    "userPoolId" : "用户池 ID",
+    "ids" : "用户 ID 列表，最多 100 个"
+  }
+}

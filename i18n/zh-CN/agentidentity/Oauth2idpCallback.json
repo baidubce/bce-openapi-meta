@@ -1,0 +1,7 @@
+{
+  "Oauth2idpCallback" : {
+    "providerId" : "凭证提供方 ID",
+    "code" : "IdP 返回的 authorization code",
+    "state" : "OAuth2 state 参数（HMAC 签名，用于 CSRF 防护和会话路由）"
+  }
+}

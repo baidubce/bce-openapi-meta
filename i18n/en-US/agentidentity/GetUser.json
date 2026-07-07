@@ -1,0 +1,7 @@
+{
+  "GetUser" : {
+    "userPoolId" : "User pool ID",
+    "id" : "(Either) User ID",
+    "username" : "(Either) Username"
+  }
+}

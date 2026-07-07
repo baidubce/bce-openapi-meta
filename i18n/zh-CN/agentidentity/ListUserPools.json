@@ -1,0 +1,7 @@
+{
+  "ListUserPools" : {
+    "keyword" : "模糊搜索（匹配 name / id）",
+    "pageNo" : "页码，默认 1",
+    "pageSize" : "每页数量，默认 10，最大 100"
+  }
+}

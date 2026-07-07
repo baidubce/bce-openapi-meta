@@ -1,0 +1,98 @@
+{
+  "name" : "CreateIdpConfiguration",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/user-pool/idp-config/create",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userPoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.userPoolId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.name"
+  }, {
+    "name" : "idpType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.idpType"
+  }, {
+    "name" : "idpProvider",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.idpProvider"
+  }, {
+    "name" : "clientId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.clientId"
+  }, {
+    "name" : "clientSecret",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.clientSecret"
+  }, {
+    "name" : "discoveryUrl",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.discoveryUrl"
+  }, {
+    "name" : "authorizationEndpoint",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.authorizationEndpoint"
+  }, {
+    "name" : "tokenEndpoint",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.tokenEndpoint"
+  }, {
+    "name" : "userinfoEndpoint",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.userinfoEndpoint"
+  }, {
+    "name" : "scopes",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.scopes"
+  }, {
+    "name" : "userIdClaim",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.userIdClaim"
+  }, {
+    "name" : "displayNameClaim",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.displayNameClaim"
+  }, {
+    "name" : "autoCreateUser",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateIdpConfiguration.autoCreateUser"
+  } ],
+  "desc_key" : "agentidentity.CreateIdpConfiguration.desc"
+}

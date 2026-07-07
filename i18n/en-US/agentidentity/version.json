@@ -1,0 +1,187 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "agentidentity",
+  "apis" : {
+    "GetAgent" : {
+      "title" : "getAgent",
+      "summary" : "getAgent"
+    },
+    "ListIdpConfigurations" : {
+      "title" : "listIdpConfigurations",
+      "summary" : "listIdpConfigurations"
+    },
+    "UpdateIdpConfiguration" : {
+      "title" : "updateIdpConfiguration",
+      "summary" : "updateIdpConfiguration"
+    },
+    "DeleteIdpConfiguration" : {
+      "title" : "deleteIdpConfiguration",
+      "summary" : "deleteIdpConfiguration"
+    },
+    "Oauth2idpCallback" : {
+      "title" : "oauth2idpCallback",
+      "summary" : "oauth2idpCallback"
+    },
+    "GetIdpConfiguration" : {
+      "title" : "getIdpConfiguration",
+      "summary" : "getIdpConfiguration"
+    },
+    "CreateIdpConfiguration" : {
+      "title" : "createIdpConfiguration",
+      "summary" : "createIdpConfiguration"
+    },
+    "DisableIdpConfiguration" : {
+      "title" : "disableIdpConfiguration",
+      "summary" : "disableIdpConfiguration"
+    },
+    "EnableIdpConfiguration" : {
+      "title" : "enableIdpConfiguration",
+      "summary" : "enableIdpConfiguration"
+    },
+    "DeleteUser" : {
+      "title" : "deleteUser",
+      "summary" : "deleteUser"
+    },
+    "ListUsers" : {
+      "title" : "listUsers",
+      "summary" : "listUsers"
+    },
+    "GetUser" : {
+      "title" : "getUser",
+      "summary" : "getUser"
+    },
+    "UpdateUser" : {
+      "title" : "updateUser",
+      "summary" : "updateUser"
+    },
+    "BatchAcquisitionOfUsers" : {
+      "title" : "batchAcquisitionOfUsers",
+      "summary" : "batchAcquisitionOfUsers"
+    },
+    "CreateUser" : {
+      "title" : "createUser",
+      "summary" : "createUser"
+    },
+    "ResetPassword" : {
+      "title" : "resetPassword",
+      "summary" : "resetPassword"
+    },
+    "ListUserPools" : {
+      "title" : "listUserPools",
+      "summary" : "listUserPools"
+    },
+    "DeleteUserPool" : {
+      "title" : "deleteUserPool",
+      "summary" : "deleteUserPool"
+    },
+    "GetUserPool" : {
+      "title" : "getUserPool",
+      "summary" : "getUserPool"
+    },
+    "CreateUserPool" : {
+      "title" : "createUserPool",
+      "summary" : "createUserPool"
+    },
+    "UpdateUserPool" : {
+      "title" : "updateUserPool",
+      "summary" : "updateUserPool"
+    },
+    "DeleteOauth2Client" : {
+      "title" : "deleteOauth2Client",
+      "summary" : "deleteOauth2Client"
+    },
+    "CreateOauth2Client" : {
+      "title" : "createOauth2Client",
+      "summary" : "createOauth2Client"
+    },
+    "ListOauth2Clients" : {
+      "title" : "listOauth2Clients",
+      "summary" : "listOauth2Clients"
+    },
+    "GetOauth2Client" : {
+      "title" : "getOauth2Client",
+      "summary" : "getOauth2Client"
+    },
+    "UpdateOauth2Client" : {
+      "title" : "updateOauth2Client",
+      "summary" : "updateOauth2Client"
+    },
+    "ListCredentialProviders" : {
+      "title" : "listCredentialProviders",
+      "summary" : "listCredentialProviders"
+    },
+    "GetResourceOauth2token" : {
+      "title" : "getResourceOauth2token",
+      "summary" : "getResourceOauth2token"
+    },
+    "GetWorkloadAccessToken" : {
+      "title" : "getWorkloadAccessToken",
+      "summary" : "getWorkloadAccessToken"
+    },
+    "GetResourceApikey" : {
+      "title" : "getResourceApikey",
+      "summary" : "getResourceApikey"
+    },
+    "OIDCDiscovery" : {
+      "title" : "oIDCDiscovery",
+      "summary" : "oIDCDiscovery"
+    },
+    "GetWATForUser" : {
+      "title" : "getWATForUser",
+      "summary" : "getWATForUser"
+    },
+    "CompleteOauth2session" : {
+      "title" : "completeOauth2session",
+      "summary" : "completeOauth2session"
+    },
+    "BatchGetResourceApiKey" : {
+      "title" : "batchGetResourceApiKey",
+      "summary" : "batchGetResourceApiKey"
+    },
+    "CreateCredentialProvider" : {
+      "title" : "createCredentialProvider",
+      "summary" : "createCredentialProvider"
+    },
+    "DeleteCredentialProvider" : {
+      "title" : "deleteCredentialProvider",
+      "summary" : "deleteCredentialProvider"
+    },
+    "UpdateCredentialProvider" : {
+      "title" : "updateCredentialProvider",
+      "summary" : "updateCredentialProvider"
+    },
+    "GetCredentialProvider" : {
+      "title" : "getCredentialProvider",
+      "summary" : "getCredentialProvider"
+    },
+    "ListAgents" : {
+      "title" : "listAgents",
+      "summary" : "listAgents"
+    },
+    "UserinfoEndpoint" : {
+      "title" : "userinfoEndpoint",
+      "summary" : "userinfoEndpoint"
+    },
+    "CreateAgent" : {
+      "title" : "createAgent",
+      "summary" : "createAgent"
+    },
+    "AuthorizeEndpoint" : {
+      "title" : "authorizeEndpoint",
+      "summary" : "authorizeEndpoint"
+    },
+    "TokenEndpoint" : {
+      "title" : "tokenEndpoint",
+      "summary" : "tokenEndpoint"
+    },
+    "DeleteAgent" : {
+      "title" : "deleteAgent",
+      "summary" : "deleteAgent"
+    },
+    "UpdateAgent" : {
+      "title" : "updateAgent",
+      "summary" : "updateAgent"
+    }
+  }
+}

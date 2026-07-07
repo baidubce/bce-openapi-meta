@@ -1,0 +1,32 @@
+{
+  "name" : "CreateAgent",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/agent/create",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateAgent.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateAgent.description"
+  }, {
+    "name" : "allowedResourceOauth2ReturnUrls",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateAgent.allowedResourceOauth2ReturnUrls"
+  } ],
+  "desc_key" : "agentidentity.CreateAgent.desc"
+}

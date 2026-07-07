@@ -1,0 +1,11 @@
+{
+  "AuthorizeEndpoint" : {
+    "userPoolId" : "User pool ID",
+    "client_id" : "OAuth2 client_id",
+    "redirect_uri" : "Redirect URI after login (must be in client whitelist)",
+    "response_type" : "Fixed value: code",
+    "scope" : "Requested scopes, space-separated (e.g. openid profile offline_access). If empty, falls back to client-registered scopes; requested scopes must be a subset of registered scopes, otherwise returns invalid_scope(400); unrecognized scopes are silently ignored",
+    "state" : "Client state (returned as-is)",
+    "nonce" : "OIDC nonce (written into id_token as-is)"
+  }
+}

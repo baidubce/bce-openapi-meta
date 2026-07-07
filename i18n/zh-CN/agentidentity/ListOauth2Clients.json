@@ -1,0 +1,8 @@
+{
+  "ListOauth2Clients" : {
+    "userPoolId" : "用户池 ID",
+    "keyword" : "模糊搜索（匹配 clientId / name）",
+    "pageNo" : "页码，默认 1",
+    "pageSize" : "每页数量，默认 10"
+  }
+}

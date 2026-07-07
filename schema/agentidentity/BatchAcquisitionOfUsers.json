@@ -1,0 +1,26 @@
+{
+  "name" : "BatchAcquisitionOfUsers",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/user-pool/user/batch",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userPoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.BatchAcquisitionOfUsers.userPoolId"
+  }, {
+    "name" : "ids",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.BatchAcquisitionOfUsers.ids"
+  } ],
+  "desc_key" : "agentidentity.BatchAcquisitionOfUsers.desc"
+}

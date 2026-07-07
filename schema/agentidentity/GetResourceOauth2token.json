@@ -1,0 +1,62 @@
+{
+  "name" : "GetResourceOauth2token",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/credential/oauth2",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "x-bce-workload-access-token",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "agentidentity.GetResourceOauth2token.x-bce-workload-access-token"
+  }, {
+    "name" : "resourceCredentialProviderName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetResourceOauth2token.resourceCredentialProviderName"
+  }, {
+    "name" : "scopes",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetResourceOauth2token.scopes"
+  }, {
+    "name" : "oauth2Flow",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetResourceOauth2token.oauth2Flow"
+  }, {
+    "name" : "resourceOauth2ReturnUrl",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetResourceOauth2token.resourceOauth2ReturnUrl"
+  }, {
+    "name" : "sessionUri",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetResourceOauth2token.sessionUri"
+  }, {
+    "name" : "forceAuthentication",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetResourceOauth2token.forceAuthentication"
+  }, {
+    "name" : "workloadAccessToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetResourceOauth2token.workloadAccessToken"
+  } ],
+  "desc_key" : "agentidentity.GetResourceOauth2token.desc"
+}

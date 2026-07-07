@@ -1,0 +1,50 @@
+{
+  "name" : "GetWATForUser",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/workload-access-token-for-user",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "bceUserId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetWATForUser.bceUserId"
+  }, {
+    "name" : "agentId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetWATForUser.agentId"
+  }, {
+    "name" : "agentName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetWATForUser.agentName"
+  }, {
+    "name" : "userId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetWATForUser.userId"
+  }, {
+    "name" : "sessionId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetWATForUser.sessionId"
+  }, {
+    "name" : "durationSeconds",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetWATForUser.durationSeconds"
+  } ],
+  "desc_key" : "agentidentity.GetWATForUser.desc"
+}

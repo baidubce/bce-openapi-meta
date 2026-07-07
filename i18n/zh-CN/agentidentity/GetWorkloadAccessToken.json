@@ -1,0 +1,8 @@
+{
+  "GetWorkloadAccessToken" : {
+    "bceUserId" : "BCE 用户 ID（服务号调用时必填，用户身份调用不传，系统自动解析覆盖）",
+    "agentId" : "（二选一，优先使用）Agent ID，优先使用 ID，存在则不看 name",
+    "agentName" : "（二选一）Agent 名称",
+    "durationSeconds" : "有效期（秒），默认 3600，最小 900，最大 86400"
+  }
+}

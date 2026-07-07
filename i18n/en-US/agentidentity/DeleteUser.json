@@ -1,0 +1,6 @@
+{
+  "DeleteUser" : {
+    "userPoolId" : "User pool ID",
+    "id" : "User ID"
+  }
+}

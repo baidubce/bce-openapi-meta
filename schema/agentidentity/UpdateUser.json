@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateUser",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/user-pool/user/update",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userPoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateUser.userPoolId"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateUser.id"
+  }, {
+    "name" : "displayName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateUser.displayName"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.UpdateUser.description"
+  } ],
+  "desc_key" : "agentidentity.UpdateUser.desc"
+}

@@ -1,0 +1,8 @@
+{
+  "ListIdpConfigurations" : {
+    "userPoolId" : "用户池 ID",
+    "keyword" : "按名称模糊搜索",
+    "pageNo" : "页码，默认 1",
+    "pageSize" : "每页数量，默认 10"
+  }
+}

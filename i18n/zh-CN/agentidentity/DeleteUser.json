@@ -1,0 +1,6 @@
+{
+  "DeleteUser" : {
+    "userPoolId" : "用户池 ID",
+    "id" : "用户 ID"
+  }
+}

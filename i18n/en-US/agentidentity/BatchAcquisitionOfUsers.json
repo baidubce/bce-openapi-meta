@@ -1,0 +1,6 @@
+{
+  "BatchAcquisitionOfUsers" : {
+    "userPoolId" : "User pool ID",
+    "ids" : "List of user IDs, up to 100"
+  }
+}

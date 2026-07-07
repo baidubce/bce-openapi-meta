@@ -1,0 +1,20 @@
+{
+  "name" : "GetUserPool",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/user-pool/get",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.GetUserPool.id"
+  } ],
+  "desc_key" : "agentidentity.GetUserPool.desc"
+}

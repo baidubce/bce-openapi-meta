@@ -1,0 +1,13 @@
+{
+  "UpdateOauth2Client" : {
+    "userPoolId" : "User pool ID",
+    "id" : "Client record ID",
+    "name" : "New name",
+    "description" : "New description",
+    "redirectUris" : "New redirect URI whitelist (up to 20)",
+    "grantTypes" : "New grant types",
+    "scopes" : "New scopes",
+    "accessTokenTtl" : "New access_token TTL",
+    "refreshTokenTtl" : "New refresh_token TTL"
+  }
+}

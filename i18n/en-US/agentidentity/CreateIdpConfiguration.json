@@ -1,0 +1,18 @@
+{
+  "CreateIdpConfiguration" : {
+    "userPoolId" : "User pool ID",
+    "name" : "IdP display name (1–64 characters, unique within the pool)",
+    "idpType" : "Protocol type: OAUTH2 / OIDC / CAS",
+    "idpProvider" : "(Conditionally required) OAuth2 provider: CUSTOM / DINGTALK / FEISHU; required only when idpType=OAUTH2, must be null for OIDC/CAS",
+    "clientId" : "(Conditionally required) OAuth2 client_id (required for OAuth2 protocol)",
+    "clientSecret" : "(Conditionally required) OAuth2 client_secret in plaintext (required for OAuth2 protocol, stored encrypted)",
+    "discoveryUrl" : "OAuth2/OIDC Discovery URL (endpoints are auto-resolved when provided)",
+    "authorizationEndpoint" : "(Conditionally required) Authorization endpoint (required when idpProvider=CUSTOM and no discoveryUrl is provided)",
+    "tokenEndpoint" : "(Conditionally required) Token endpoint (required when idpProvider=CUSTOM and no discoveryUrl is provided)",
+    "userinfoEndpoint" : "(Conditionally required) UserInfo endpoint (required when idpProvider=CUSTOM and no discoveryUrl is provided)",
+    "scopes" : "List of requested scopes",
+    "userIdClaim" : "Field name in IdP user info mapped to the local username",
+    "displayNameClaim" : "Field name in IdP user info mapped to the local displayName",
+    "autoCreateUser" : "Whether to auto-create a user on login if they do not exist; default is false"
+  }
+}

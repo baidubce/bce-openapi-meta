@@ -1,0 +1,10 @@
+{
+  "CreateUser" : {
+    "userPoolId" : "User pool ID",
+    "username" : "Username (1–64 characters; only letters, digits, and `_.@-` are allowed)",
+    "displayName" : "Display name (up to 64 characters)",
+    "description" : "User description (up to 128 characters)",
+    "password" : "User password (8–32 characters); if omitted, the user has no password and can only sign in via IdP",
+    "forceResetPassword" : "Whether to force the user to reset their password on first login; defaults to false"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "ListAgents",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/agent/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.ListAgents.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.ListAgents.pageSize"
+  }, {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.ListAgents.keyword"
+  } ],
+  "desc_key" : "agentidentity.ListAgents.desc"
+}

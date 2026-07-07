@@ -1,0 +1,187 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "智能体身份管理",
+  "apis" : {
+    "GetAgent" : {
+      "title" : "获取Agent",
+      "summary" : "获取Agent"
+    },
+    "ListIdpConfigurations" : {
+      "title" : "列举IdP配置",
+      "summary" : "列举IdP配置"
+    },
+    "UpdateIdpConfiguration" : {
+      "title" : "更新IdP配置",
+      "summary" : "更新IdP配置"
+    },
+    "DeleteIdpConfiguration" : {
+      "title" : "删除IdP配置",
+      "summary" : "删除IdP配置"
+    },
+    "Oauth2idpCallback" : {
+      "title" : "OAuth2 IdP回调",
+      "summary" : "OAuth2 IdP回调"
+    },
+    "GetIdpConfiguration" : {
+      "title" : "获取IdP配置",
+      "summary" : "获取IdP配置"
+    },
+    "CreateIdpConfiguration" : {
+      "title" : "创建IdP配置",
+      "summary" : "创建IdP配置"
+    },
+    "DisableIdpConfiguration" : {
+      "title" : "禁用IdP配置",
+      "summary" : "禁用IdP配置"
+    },
+    "EnableIdpConfiguration" : {
+      "title" : "启用IdP配置",
+      "summary" : "启用IdP配置"
+    },
+    "DeleteUser" : {
+      "title" : "删除用户",
+      "summary" : "删除用户"
+    },
+    "ListUsers" : {
+      "title" : "列举用户",
+      "summary" : "列举用户"
+    },
+    "GetUser" : {
+      "title" : "获取用户",
+      "summary" : "获取用户"
+    },
+    "UpdateUser" : {
+      "title" : "更新用户",
+      "summary" : "更新用户"
+    },
+    "BatchAcquisitionOfUsers" : {
+      "title" : "批量获取用户",
+      "summary" : "批量获取用户"
+    },
+    "CreateUser" : {
+      "title" : "创建用户",
+      "summary" : "创建用户"
+    },
+    "ResetPassword" : {
+      "title" : "重置密码",
+      "summary" : "重置密码"
+    },
+    "ListUserPools" : {
+      "title" : "列举用户池",
+      "summary" : "列举用户池"
+    },
+    "DeleteUserPool" : {
+      "title" : "删除用户池",
+      "summary" : "删除用户池"
+    },
+    "GetUserPool" : {
+      "title" : "获取用户池",
+      "summary" : "获取用户池"
+    },
+    "CreateUserPool" : {
+      "title" : "创建用户池",
+      "summary" : "创建用户池"
+    },
+    "UpdateUserPool" : {
+      "title" : "更新用户池",
+      "summary" : "更新用户池"
+    },
+    "DeleteOauth2Client" : {
+      "title" : "删除OAuth2客户端",
+      "summary" : "删除OAuth2客户端"
+    },
+    "CreateOauth2Client" : {
+      "title" : "创建OAuth2客户端",
+      "summary" : "创建OAuth2客户端"
+    },
+    "ListOauth2Clients" : {
+      "title" : "列举OAuth2客户端",
+      "summary" : "列举OAuth2客户端"
+    },
+    "GetOauth2Client" : {
+      "title" : "获取OAuth2客户端",
+      "summary" : "获取OAuth2客户端"
+    },
+    "UpdateOauth2Client" : {
+      "title" : "更新OAuth2客户端",
+      "summary" : "更新OAuth2客户端"
+    },
+    "ListCredentialProviders" : {
+      "title" : "列举凭证提供方",
+      "summary" : "列举凭证提供方"
+    },
+    "GetResourceOauth2token" : {
+      "title" : "获取OAuth2 Token",
+      "summary" : "获取OAuth2 Token"
+    },
+    "GetWorkloadAccessToken" : {
+      "title" : "获取Workload Access Token",
+      "summary" : "获取Workload Access Token"
+    },
+    "GetResourceApikey" : {
+      "title" : "获取资源凭证(API Key)",
+      "summary" : "获取资源凭证(API Key)"
+    },
+    "OIDCDiscovery" : {
+      "title" : "OIDC Discovery",
+      "summary" : "OIDC Discovery"
+    },
+    "GetWATForUser" : {
+      "title" : "获取用户级WAT",
+      "summary" : "获取用户级WAT"
+    },
+    "CompleteOauth2session" : {
+      "title" : "完成OAuth2 Session Binding",
+      "summary" : "完成OAuth2 Session Binding"
+    },
+    "BatchGetResourceApiKey" : {
+      "title" : "批量获取API Key凭证",
+      "summary" : "批量获取API Key凭证"
+    },
+    "CreateCredentialProvider" : {
+      "title" : "创建凭证提供方",
+      "summary" : "创建凭证提供方"
+    },
+    "DeleteCredentialProvider" : {
+      "title" : "删除凭证提供方",
+      "summary" : "删除凭证提供方"
+    },
+    "UpdateCredentialProvider" : {
+      "title" : "更新凭证提供方",
+      "summary" : "更新凭证提供方"
+    },
+    "GetCredentialProvider" : {
+      "title" : "获取凭证提供方",
+      "summary" : "获取凭证提供方"
+    },
+    "ListAgents" : {
+      "title" : "列举Agent",
+      "summary" : "列举Agent"
+    },
+    "UserinfoEndpoint" : {
+      "title" : "UserInfo端点",
+      "summary" : "UserInfo端点"
+    },
+    "CreateAgent" : {
+      "title" : "创建Agent",
+      "summary" : "创建Agent"
+    },
+    "AuthorizeEndpoint" : {
+      "title" : "Authorize端点",
+      "summary" : "Authorize端点"
+    },
+    "TokenEndpoint" : {
+      "title" : "Token端点",
+      "summary" : "Token端点"
+    },
+    "DeleteAgent" : {
+      "title" : "删除Agent",
+      "summary" : "删除Agent"
+    },
+    "UpdateAgent" : {
+      "title" : "更新Agent",
+      "summary" : "更新Agent"
+    }
+  }
+}

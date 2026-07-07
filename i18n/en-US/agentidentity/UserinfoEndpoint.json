@@ -1,0 +1,6 @@
+{
+  "UserinfoEndpoint" : {
+    "userPoolId" : "User Pool ID",
+    "Authorization" : "Bearer {access_token}"
+  }
+}

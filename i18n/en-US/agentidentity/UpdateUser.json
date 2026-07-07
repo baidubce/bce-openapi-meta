@@ -1,0 +1,8 @@
+{
+  "UpdateUser" : {
+    "userPoolId" : "User pool ID",
+    "id" : "User ID",
+    "displayName" : "New display name",
+    "description" : "New description"
+  }
+}

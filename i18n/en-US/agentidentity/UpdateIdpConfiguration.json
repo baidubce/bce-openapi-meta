@@ -1,0 +1,16 @@
+{
+  "UpdateIdpConfiguration" : {
+    "userPoolId" : "User pool ID",
+    "id" : "IdP configuration ID",
+    "name" : "New display name",
+    "clientId" : "New client_id",
+    "clientSecret" : "New client_secret (updated if non-empty)",
+    "authorizationEndpoint" : "Authorization endpoint",
+    "tokenEndpoint" : "Token endpoint",
+    "userinfoEndpoint" : "UserInfo endpoint",
+    "scopes" : "List of scopes",
+    "userIdClaim" : "User ID mapping field",
+    "displayNameClaim" : "Display name mapping field",
+    "autoCreateUser" : "Whether to auto-create users"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "DisableIdpConfiguration" : {
+    "userPoolId" : "用户池 ID",
+    "id" : "IdP 配置 ID"
+  }
+}

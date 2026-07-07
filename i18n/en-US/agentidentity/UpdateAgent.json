@@ -1,0 +1,7 @@
+{
+  "UpdateAgent" : {
+    "agentId" : "Agent ID",
+    "description" : "New description, 1-128 characters",
+    "allowedResourceOauth2ReturnUrls" : "OAuth2 callback URL whitelist, up to 10 entries (full replacement)"
+  }
+}

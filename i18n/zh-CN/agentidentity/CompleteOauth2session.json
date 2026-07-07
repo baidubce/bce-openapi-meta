@@ -1,0 +1,8 @@
+{
+  "CompleteOauth2session" : {
+    "x-bce-workload-access-token" : "WAT（Header 传递，与 Body 中的 workloadAccessToken 二选一）",
+    "sessionUri" : "OAuth2 会话标识",
+    "userIdentifier" : "用户标识",
+    "workloadAccessToken" : "WAT（Body 传递，也可通过 Header 传递）"
+  }
+}

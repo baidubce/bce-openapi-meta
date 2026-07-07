@@ -1,0 +1,13 @@
+{
+  "CreateOauth2Client" : {
+    "userPoolId" : "User pool ID",
+    "name" : "Client name (1-64 characters, unique within the pool)",
+    "description" : "Description (up to 128 characters)",
+    "clientType" : "Client type: WEB_APP / SPA / M2M, default WEB_APP",
+    "redirectUris" : "Allowed redirect URI whitelist (at least 1, up to 20)",
+    "grantTypes" : "Allowed grant types, default [\"authorization_code\"]",
+    "scopes" : "Allowed scopes",
+    "accessTokenTtl" : "Access token TTL in seconds, default 3600",
+    "refreshTokenTtl" : "Refresh token TTL in seconds, default 604800"
+  }
+}

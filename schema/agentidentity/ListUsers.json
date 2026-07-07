@@ -1,0 +1,38 @@
+{
+  "name" : "ListUsers",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/user-pool/user/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userPoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.ListUsers.userPoolId"
+  }, {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.ListUsers.keyword"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.ListUsers.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.ListUsers.pageSize"
+  } ],
+  "desc_key" : "agentidentity.ListUsers.desc"
+}

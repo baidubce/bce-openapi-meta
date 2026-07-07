@@ -1,0 +1,11 @@
+{
+  "TokenEndpoint" : {
+    "userPoolId" : "User pool ID",
+    "grant_type" : "authorization_code or refresh_token",
+    "code" : "(Conditionally required) Authorization code (required when grant_type=authorization_code)",
+    "refresh_token" : "(Conditionally required) Previously issued refresh_token JWT (required when grant_type=refresh_token)",
+    "client_id" : "OAuth2 client_id",
+    "client_secret" : "OAuth2 client_secret",
+    "redirect_uri" : "(Conditionally required) Must match the redirect_uri used in the authorize request (required when grant_type=authorization_code)"
+  }
+}

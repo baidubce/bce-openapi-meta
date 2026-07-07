@@ -1,0 +1,50 @@
+{
+  "name" : "CreateUser",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/user-pool/user/create",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "userPoolId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateUser.userPoolId"
+  }, {
+    "name" : "username",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateUser.username"
+  }, {
+    "name" : "displayName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateUser.displayName"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateUser.description"
+  }, {
+    "name" : "password",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateUser.password"
+  }, {
+    "name" : "forceResetPassword",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CreateUser.forceResetPassword"
+  } ],
+  "desc_key" : "agentidentity.CreateUser.desc"
+}

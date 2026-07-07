@@ -1,0 +1,10 @@
+{
+  "GetWATForUser" : {
+    "bceUserId" : "BCE user ID (required for service account calls; omitted for user identity calls, auto-parsed and overridden by the system)",
+    "agentId" : "(Either-or, preferred) Agent ID; takes priority over name if present",
+    "agentName" : "(Either-or) Agent name",
+    "userId" : "End-user ID",
+    "sessionId" : "Session ID used to associate the user session",
+    "durationSeconds" : "Validity period in seconds; default 3600, min 900, max 86400"
+  }
+}

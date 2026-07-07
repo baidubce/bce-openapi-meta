@@ -1,0 +1,8 @@
+{
+  "ListUsers" : {
+    "userPoolId" : "User pool ID",
+    "keyword" : "Fuzzy search (matches username / id / displayName)",
+    "pageNo" : "Page number, default 1",
+    "pageSize" : "Page size, default 10"
+  }
+}

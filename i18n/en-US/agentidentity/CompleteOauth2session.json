@@ -1,0 +1,8 @@
+{
+  "CompleteOauth2session" : {
+    "x-bce-workload-access-token" : "WAT (passed via Header, alternative to workloadAccessToken in Body)",
+    "sessionUri" : "OAuth2 session identifier",
+    "userIdentifier" : "User identifier",
+    "workloadAccessToken" : "WAT (passed via Body, can also be passed via Header)"
+  }
+}

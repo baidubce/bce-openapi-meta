@@ -1,0 +1,13 @@
+{
+  "CreateOauth2Client" : {
+    "userPoolId" : "用户池 ID",
+    "name" : "客户端名称（1-64字符，池内唯一）",
+    "description" : "描述（最多128字符）",
+    "clientType" : "客户端类型：WEB_APP / SPA / M2M，默认 WEB_APP",
+    "redirectUris" : "允许的回调地址白名单（至少1个，最多20个）",
+    "grantTypes" : "允许的授权类型，默认 [\"authorization_code\"]",
+    "scopes" : "允许的 scope",
+    "accessTokenTtl" : "access_token 有效期（秒），默认 3600",
+    "refreshTokenTtl" : "refresh_token 有效期（秒），默认 604800"
+  }
+}

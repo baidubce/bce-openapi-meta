@@ -1,0 +1,38 @@
+{
+  "name" : "CompleteOauth2session",
+  "method" : "POST",
+  "uri" : "/v{version}/agent-identity/oauth2/complete-auth",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "x-bce-workload-access-token",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "agentidentity.CompleteOauth2session.x-bce-workload-access-token"
+  }, {
+    "name" : "sessionUri",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CompleteOauth2session.sessionUri"
+  }, {
+    "name" : "userIdentifier",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CompleteOauth2session.userIdentifier"
+  }, {
+    "name" : "workloadAccessToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "agentidentity.CompleteOauth2session.workloadAccessToken"
+  } ],
+  "desc_key" : "agentidentity.CompleteOauth2session.desc"
+}

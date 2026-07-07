@@ -1,0 +1,12 @@
+{
+  "GetResourceOauth2token" : {
+    "x-bce-workload-access-token" : "WAT（Header 传递，与 Body 中的 workloadAccessToken 二选一）",
+    "resourceCredentialProviderName" : "（首次调用必填）凭证提供方名称",
+    "scopes" : "OAuth2 scope 列表，不传则使用 provider 默认值",
+    "oauth2Flow" : "默认 USER_FEDERATION（3LO）",
+    "resourceOauth2ReturnUrl" : "（首次调用必填）客户端回调 URL，需在 Agent 白名单中注册",
+    "sessionUri" : "（轮询时必填）首次请求返回的 sessionUri",
+    "forceAuthentication" : "默认 false，true 时跳过缓存强制重新授权",
+    "workloadAccessToken" : "WAT（Body 传递，也可通过 Header 传递）"
+  }
+}

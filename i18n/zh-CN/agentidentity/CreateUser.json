@@ -1,0 +1,10 @@
+{
+  "CreateUser" : {
+    "userPoolId" : "用户池 ID",
+    "username" : "用户名（1-64字符，仅允许字母、数字、`_.@-`）",
+    "displayName" : "显示名称（最多64字符）",
+    "description" : "用户描述（最多128字符）",
+    "password" : "用户密码（8-32字符）；不传则用户无密码，仅能通过 IdP 登录",
+    "forceResetPassword" : "是否强制用户首次登录时重置密码，默认 false"
+  }
+}

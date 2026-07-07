@@ -1,0 +1,13 @@
+{
+  "UpdateOauth2Client" : {
+    "userPoolId" : "用户池 ID",
+    "id" : "客户端记录 ID",
+    "name" : "新的名称",
+    "description" : "新的描述",
+    "redirectUris" : "新的回调地址白名单（最多20个）",
+    "grantTypes" : "新的授权类型",
+    "scopes" : "新的 scope",
+    "accessTokenTtl" : "新的 access_token 有效期",
+    "refreshTokenTtl" : "新的 refresh_token 有效期"
+  }
+}

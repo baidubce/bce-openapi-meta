@@ -1,0 +1,7 @@
+{
+  "GetUser" : {
+    "userPoolId" : "用户池 ID",
+    "id" : "（二选一）用户 ID",
+    "username" : "（二选一）用户名"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "GetOauth2Client" : {
+    "userPoolId" : "User pool ID",
+    "id" : "Client record ID"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "ListIdpConfigurations" : {
+    "userPoolId" : "User pool ID",
+    "keyword" : "Fuzzy search by name",
+    "pageNo" : "Page number, default 1",
+    "pageSize" : "Page size, default 10"
+  }
+}

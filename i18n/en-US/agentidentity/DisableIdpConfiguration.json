@@ -1,0 +1,6 @@
+{
+  "DisableIdpConfiguration" : {
+    "userPoolId" : "User pool ID",
+    "id" : "IdP configuration ID"
+  }
+}

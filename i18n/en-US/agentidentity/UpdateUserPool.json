@@ -1,0 +1,7 @@
+{
+  "UpdateUserPool" : {
+    "id" : "User pool ID",
+    "name" : "New user pool name",
+    "description" : "New user pool description; omit to keep unchanged, pass empty string to clear"
+  }
+}

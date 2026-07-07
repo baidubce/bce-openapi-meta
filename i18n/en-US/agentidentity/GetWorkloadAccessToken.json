@@ -1,0 +1,8 @@
+{
+  "GetWorkloadAccessToken" : {
+    "bceUserId" : "BCE user ID (required for service account calls; omit for user identity calls, system will parse and override automatically)",
+    "agentId" : "(Either-or, preferred) Agent ID; takes priority over name if provided",
+    "agentName" : "(Either-or) Agent name",
+    "durationSeconds" : "Token validity period in seconds; default 3600, min 900, max 86400"
+  }
+}

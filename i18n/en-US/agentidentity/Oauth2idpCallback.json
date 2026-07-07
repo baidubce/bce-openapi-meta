@@ -1,0 +1,7 @@
+{
+  "Oauth2idpCallback" : {
+    "providerId" : "Credential provider ID",
+    "code" : "Authorization code returned by the IdP",
+    "state" : "OAuth2 state parameter (HMAC-signed, used for CSRF protection and session routing)"
+  }
+}

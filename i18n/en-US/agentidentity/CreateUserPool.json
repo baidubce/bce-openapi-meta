@@ -1,0 +1,6 @@
+{
+  "CreateUserPool" : {
+    "name" : "User pool name (1-64 characters, only letters, digits, underscores, and hyphens allowed)",
+    "description" : "User pool description (maximum 256 characters)"
+  }
+}

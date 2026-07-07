@@ -1,0 +1,18 @@
+{
+  "CreateIdpConfiguration" : {
+    "userPoolId" : "用户池 ID",
+    "name" : "IdP 显示名称（1-64字符，池内唯一）",
+    "idpType" : "协议类型：OAUTH2 / OIDC / CAS",
+    "idpProvider" : "（条件必填）OAuth2 提供方：CUSTOM / DINGTALK / FEISHU；仅 idpType=OAUTH2 时必填，OIDC/CAS 时必须为 null",
+    "clientId" : "（条件必填）OAuth2 client_id（OAuth2 协议必填）",
+    "clientSecret" : "（条件必填）OAuth2 client_secret 明文（OAuth2 协议必填，加密存储）",
+    "discoveryUrl" : "OAuth2/OIDC Discovery URL（提供后自动解析端点）",
+    "authorizationEndpoint" : "（条件必填）授权端点（idpProvider=CUSTOM 且无 discoveryUrl 时必填）",
+    "tokenEndpoint" : "（条件必填）Token 端点（idpProvider=CUSTOM 且无 discoveryUrl 时必填）",
+    "userinfoEndpoint" : "（条件必填）UserInfo 端点（idpProvider=CUSTOM 且无 discoveryUrl 时必填）",
+    "scopes" : "请求的 scope 列表",
+    "userIdClaim" : "IdP 用户信息中映射到本地 username 的字段名",
+    "displayNameClaim" : "IdP 用户信息中映射到本地 displayName 的字段名",
+    "autoCreateUser" : "登录时用户不存在是否自动创建，默认 false"
+  }
+}
