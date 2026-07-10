@@ -6,6 +6,7 @@
     "desc" : "Description of the server group for additional details. Length 0~450 bytes, supports Chinese characters. Defaults to empty.",
     "backendServerList" : "List of backend servers bound to the server group",
     "backendServerList.instanceId" : "Identifier of the backend server",
-    "backendServerList.weight" : "Weight of the backend server, value range 0-100"
+    "backendServerList.weight" : "Weight of the backend server, value range 0-100",
+    "backendServerList.desc" : "Description"
   }
 }

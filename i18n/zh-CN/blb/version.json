@@ -67,10 +67,6 @@
       "title" : "查询后端服务器健康状态",
       "summary" : "查询后端服务器健康状态"
     },
-    "DescribeBlbServers" : {
-      "title" : "查询后端服务器列表",
-      "summary" : "查询后端服务器列表"
-    },
     "DeleteBlbServer" : {
       "title" : "释放后端服务器",
       "summary" : "释放后端服务器"
@@ -103,10 +99,6 @@
       "title" : "更新IP组成员",
       "summary" : "更新IP组成员"
     },
-    "DescribeAppBlbServerGroupMountRs" : {
-      "title" : "查询已添加的所有服务器",
-      "summary" : "查询已添加的所有服务器"
-    },
     "DescribeAppBlbHttpListener" : {
       "title" : "查询HTTP监听器",
       "summary" : "查询HTTP监听器"
@@ -118,6 +110,10 @@
     "DescribeAppBlbServerGroup" : {
       "title" : "查询服务器组",
       "summary" : "查询服务器组"
+    },
+    "CreateBlb" : {
+      "title" : "创建实例",
+      "summary" : "创建实例"
     },
     "DeleteAppBlbIpGroupProtocol" : {
       "title" : "删除IP组协议",
@@ -147,37 +143,21 @@
       "title" : "查询集群详情",
       "summary" : "查询集群详情"
     },
-    "DescribeAppBlbs" : {
-      "title" : "查询实例",
-      "summary" : "查询实例"
-    },
-    "CreateBlb" : {
-      "title" : "创建实例",
-      "summary" : "创建实例"
-    },
     "CreateAppBlb" : {
       "title" : "创建实例",
       "summary" : "创建实例"
+    },
+    "DescribeAppBlbs" : {
+      "title" : "查询实例",
+      "summary" : "查询实例"
     },
     "CreateService" : {
       "title" : "创建服务发布点",
       "summary" : "创建服务发布点"
     },
-    "CreateAppBlbServerGroup" : {
-      "title" : "创建服务器组",
-      "summary" : "创建服务器组"
-    },
-    "UpdateAppBlbServerGroupRs" : {
-      "title" : "修改后端服务器",
-      "summary" : "修改后端服务器"
-    },
     "DescribeBlb" : {
       "title" : "查询实例详情",
       "summary" : "查询实例详情"
-    },
-    "AddAppBlbServerGroupRs" : {
-      "title" : "添加后端服务器",
-      "summary" : "添加后端服务器"
     },
     "CreateBlbTcpListener" : {
       "title" : "创建TCP监听器",
@@ -238,10 +218,6 @@
     "DescribeAppBlbIpGroup" : {
       "title" : "查询IP组",
       "summary" : "查询IP组"
-    },
-    "AddBlbServer" : {
-      "title" : "添加后端服务器",
-      "summary" : "添加后端服务器"
     },
     "DescribeAppBlbIpGroupMember" : {
       "title" : "查询IP组成员",
@@ -359,6 +335,38 @@
       "title" : "删除服务发布点",
       "summary" : "删除服务发布点"
     },
+    "AddBlbServer" : {
+      "title" : "添加后端服务器",
+      "summary" : "添加后端服务器"
+    },
+    "DescribeBlbServers" : {
+      "title" : "查询后端服务器列表",
+      "summary" : "查询后端服务器列表"
+    },
+    "UpdateBlbServer" : {
+      "title" : "更新后端服务器",
+      "summary" : "更新后端服务器"
+    },
+    "CreateAppBlbServerGroup" : {
+      "title" : "创建服务器组",
+      "summary" : "创建服务器组"
+    },
+    "AddAppBlbServerGroupRs" : {
+      "title" : "添加后端服务器",
+      "summary" : "添加后端服务器"
+    },
+    "DescribeAppBlbServerGroupRs" : {
+      "title" : "查询已添加的服务器",
+      "summary" : "查询已添加的服务器"
+    },
+    "UpdateAppBlbServerGroupRs" : {
+      "title" : "修改后端服务器",
+      "summary" : "修改后端服务器"
+    },
+    "DescribeAppBlbServerGroupMountRs" : {
+      "title" : "查询已添加的所有服务器",
+      "summary" : "查询已添加的所有服务器"
+    },
     "DescribeBlbs" : {
       "title" : "查询实例",
       "summary" : "查询实例"
@@ -395,10 +403,6 @@
       "title" : "释放监听器",
       "summary" : "释放监听器"
     },
-    "UpdateBlbServer" : {
-      "title" : "更新后端服务器",
-      "summary" : "更新后端服务器"
-    },
     "DeleteAppBlbListener" : {
       "title" : "释放监听器",
       "summary" : "释放监听器"
@@ -418,10 +422,6 @@
     "DeleteAppBlbServerGroupRs" : {
       "title" : "移除后端服务器",
       "summary" : "移除后端服务器"
-    },
-    "DescribeAppBlbServerGroupRs" : {
-      "title" : "查询已添加的服务器",
-      "summary" : "查询已添加的服务器"
     },
     "DeleteAppBlbServerGroupPort" : {
       "title" : "删除服务器组端口",

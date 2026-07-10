@@ -5,6 +5,7 @@
     "sgId" : "RS所属服务器组id",
     "backendServerList" : "后端服务器列表",
     "backendServerList.instanceId" : "后端服务器标识符",
-    "backendServerList.weight" : "后端服务器权重，取值范围0-100"
+    "backendServerList.weight" : "后端服务器权重，取值范围0-100",
+    "backendServerList.desc" : "描述"
   }
 }

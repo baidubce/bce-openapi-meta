@@ -43,6 +43,11 @@
       "type" : "Integer",
       "required" : false,
       "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.weight"
+    }, {
+      "name" : "desc",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.UpdateAppBlbServerGroupRs.backendServerList.desc"
     } ]
   } ],
   "desc_key" : "blb.UpdateAppBlbServerGroupRs.desc"

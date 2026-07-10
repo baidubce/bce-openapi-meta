@@ -6,6 +6,7 @@
     "desc" : "服务器组的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文。默认为空。",
     "backendServerList" : "服务器组绑定的后端服务器列表",
     "backendServerList.instanceId" : "后端服务器标识符",
-    "backendServerList.weight" : "后端服务器权重，取值范围0-100"
+    "backendServerList.weight" : "后端服务器权重，取值范围0-100",
+    "backendServerList.desc" : "描述"
   }
 }

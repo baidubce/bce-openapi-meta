@@ -5,6 +5,7 @@
     "sgId" : "Server group ID that the RS belongs to",
     "backendServerList" : "List of backend servers",
     "backendServerList.instanceId" : "Backend server identifier",
-    "backendServerList.weight" : "Backend server weight, range 0-100"
+    "backendServerList.weight" : "Backend server weight, range 0-100",
+    "backendServerList.desc" : "Description"
   }
 }

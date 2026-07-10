@@ -49,6 +49,11 @@
       "type" : "Integer",
       "required" : false,
       "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.weight"
+    }, {
+      "name" : "desc",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "blb.CreateAppBlbServerGroup.backendServerList.desc"
     } ]
   } ],
   "desc_key" : "blb.CreateAppBlbServerGroup.desc"
