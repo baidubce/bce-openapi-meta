@@ -51,6 +51,10 @@
       "title" : "启动数据流动任务",
       "summary" : "启动数据流动任务"
     },
+    "CreatePfs" : {
+      "title" : "创建PFS实例",
+      "summary" : "创建PFS实例"
+    },
     "MountTargetListClients" : {
       "title" : "查询挂载服务挂载客户端列表",
       "summary" : "查询挂载服务挂载客户端列表"
@@ -98,10 +102,6 @@
     "DescPfs" : {
       "title" : "查询PFS实例详情",
       "summary" : "查询PFS实例详情"
-    },
-    "CreatePfs" : {
-      "title" : "创建PFS实例",
-      "summary" : "创建PFS实例"
     },
     "UpdatePFSTag" : {
       "title" : "更新PFS实例标签",
