@@ -3,10 +3,6 @@
   "style" : "rpc",
   "description" : "并行文件存储",
   "apis" : {
-    "CreatePfs" : {
-      "title" : "创建PFS实例",
-      "summary" : "创建PFS实例"
-    },
     "DescL2BucketLink" : {
       "title" : "查询数据流动任务详情",
       "summary" : "查询数据流动任务详情"
@@ -102,6 +98,10 @@
     "DescPfs" : {
       "title" : "查询PFS实例详情",
       "summary" : "查询PFS实例详情"
+    },
+    "CreatePfs" : {
+      "title" : "创建PFS实例",
+      "summary" : "创建PFS实例"
     },
     "UpdatePFSTag" : {
       "title" : "更新PFS实例标签",

@@ -17,13 +17,19 @@
   }, {
     "name" : "capacity",
     "type" : "Integer",
-    "required" : true,
+    "required" : false,
     "position" : "BODY",
     "desc_key" : "pfs.CreatePfs.capacity"
   }, {
+    "name" : "zone",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreatePfs.zone"
+  }, {
     "name" : "subnetId",
     "type" : "String",
-    "required" : true,
+    "required" : false,
     "position" : "BODY",
     "desc_key" : "pfs.CreatePfs.subnetId"
   }, {

@@ -2,8 +2,9 @@
   "CreatePfs" : {
     "name" : "实例名称<br>• 长度为1~128个英文或中文字符。<br>• 必须以大小字母或中文开头。<br>• 可以包含数字、中文、半角冒号（:）、下划线（_）或者短划线（-）",
     "instanceType" : "可选类型包括：base、basic、baseX、plus、plus2、plusl2X",
-    "capacity" : "购买文件系统存储容量大小，详情见容量限制表（单位GB）",
-    "subnetId" : "子网短ID",
+    "capacity" : "购买文件系统存储容量大小，详情见容量限制表（单位GB）。plusl3_p1类型不用传（无起步要求，弹性扩缩容），其他类型必传。",
+    "zone" : "plusl3_p1类型所在可用区。plusl3_p1类型必传，其他类型不用传。",
+    "subnetId" : "子网短ID。plusl3_p1类型不用传，其他类型必传。",
     "description" : "实例描述",
     "tags" : "实例标签",
     "tags.tagKey" : "标签的键，可包含大小写字母、数字、中文以及-_ /.特殊字符，长度1–65",

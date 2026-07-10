@@ -3,10 +3,6 @@
   "style" : "rpc",
   "description" : "pfs",
   "apis" : {
-    "CreatePfs" : {
-      "title" : "createPfs",
-      "summary" : "createPfs"
-    },
     "DescL2BucketLink" : {
       "title" : "descL2BucketLink",
       "summary" : "descL2BucketLink"
@@ -102,6 +98,10 @@
     "DescPfs" : {
       "title" : "descPfs",
       "summary" : "descPfs"
+    },
+    "CreatePfs" : {
+      "title" : "createPfs",
+      "summary" : "createPfs"
     },
     "UpdatePFSTag" : {
       "title" : "updatePFSTag",
