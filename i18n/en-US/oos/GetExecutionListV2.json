@@ -1,0 +1,17 @@
+{
+  "GetExecutionListV2" : {
+    "locale" : "Language, default zh-cn",
+    "namespace" : "Namespace, default: default",
+    "template" : "Template filter condition",
+    "state" : "Execution state; if set, only returns executions with the specified state. Valid values: RUNNING, SUCCESS, FAILED, CANCELED, PENDING",
+    "trigger" : "Trigger type",
+    "cronExecutionName" : "Scheduled O&M name; if set, only returns executions triggered by the specified scheduled O&M",
+    "eventExecutionName" : "Alert event O&M name; if set, only returns executions triggered by the specified alert event O&M",
+    "startTime" : "Execution start time in milliseconds; default is the timestamp 7 days ago",
+    "endTime" : "Execution end time in milliseconds; default is the current timestamp",
+    "sort" : "Sort field, default is execution start time. Valid values: startTime, endTime",
+    "ascending" : "Whether to sort in ascending order, default false",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Number of items per page, maximum 100"
+  }
+}

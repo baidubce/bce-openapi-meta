@@ -1,0 +1,8 @@
+{
+  "GetExecutionDetailV2" : {
+    "namespace" : "Namespace, default: default",
+    "id" : "Execution ID",
+    "withLog" : "Whether to return logs",
+    "locale" : "Language, default: zh-cn"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "GetOperatorListV2" : {
+    "locale" : "语言，默认 zh-cn",
+    "operator" : "系统模板操作符过滤条件",
+    "sort" : "排序字段",
+    "ascending" : "是否升序",
+    "pageNo" : "页数，从 1 开始计数",
+    "pageSize" : "每页展示数量，最大 100"
+  }
+}

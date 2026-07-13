@@ -1,0 +1,6 @@
+{
+  "DeleteTemplateV2" : {
+    "namespace" : "Namespace, default: default",
+    "id" : "O&M template ID"
+  }
+}

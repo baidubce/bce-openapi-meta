@@ -1,0 +1,17 @@
+{
+  "GetExecutionListV2" : {
+    "locale" : "语言，默认 zh-cn",
+    "namespace" : "名称空间，默认 default",
+    "template" : "模版过滤条件",
+    "state" : "执行状态，如设置则只返回指定状态的执行列表，可选值：RUNNING（执行中）、SUCCESS（执行成功）、FAILED（执行失败）、CANCELED（已取消）、PENDING（等待中）",
+    "trigger" : "触发方式",
+    "cronExecutionName" : "定时运维名称，如设置则只返回指定定时运维触发的执行列表",
+    "eventExecutionName" : "报警事件运维名称，如设置则只返回指定报警事件运维触发的执行列表",
+    "startTime" : "执行开始时间，单位：毫秒，默认值为7天前毫秒时间戳",
+    "endTime" : "执行结束时间，单位：毫秒，默认值为当前毫秒时间戳",
+    "sort" : "排序字段，默认为执行开始时间，可选值：startTime，endTime",
+    "ascending" : "是否升序，默认false",
+    "pageNo" : "页数，从 1 开始计数",
+    "pageSize" : "每页展示数量，最大 100"
+  }
+}

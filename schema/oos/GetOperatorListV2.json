@@ -1,0 +1,50 @@
+{
+  "name" : "GetOperatorListV2",
+  "method" : "POST",
+  "uri" : "/v{version}/operator/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetOperatorListV2.locale"
+  }, {
+    "name" : "operator",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetOperatorListV2.operator"
+  }, {
+    "name" : "sort",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetOperatorListV2.sort"
+  }, {
+    "name" : "ascending",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetOperatorListV2.ascending"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "oos.GetOperatorListV2.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "oos.GetOperatorListV2.pageSize"
+  } ],
+  "desc_key" : "oos.GetOperatorListV2.desc"
+}

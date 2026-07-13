@@ -1,0 +1,11 @@
+{
+  "GetTaskChildrenListV2" : {
+    "locale" : "Language, default zh-cn",
+    "executionId" : "Execution ID",
+    "taskId" : "Task ID",
+    "namespace" : "Namespace; if no custom namespace is used, this field can be omitted, default is \"default\"",
+    "states" : "Filter by state, optional; if not set, returns sub-executions of all states",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Number of items per page, max 100, min 1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "GetTaskDetailV2" : {
+    "namespace" : "Namespace; if the user does not use a custom namespace, this field can be omitted, defaulting to \"default\"",
+    "dagId" : "Execution ID",
+    "taskId" : "Task ID",
+    "ignoreChildren" : "Whether to ignore child execution results; when set to true, only returns the current task's own information without recursively loading the subtask list",
+    "locale" : "Language, default is zh-cn"
+  }
+}

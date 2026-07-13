@@ -1,0 +1,11 @@
+{
+  "GetTaskChildrenListV2" : {
+    "locale" : "语言，默认 zh-cn",
+    "executionId" : "执行（Execution）ID",
+    "taskId" : "任务（Task）ID",
+    "namespace" : "名称空间，如果用户未使用自定义名称空间，可以不传此字段，默认为“default”，",
+    "states" : "按state进行筛选，选填，若未设置，返回所有状态的子执行",
+    "pageNo" : "页数，从 1 开始计数",
+    "pageSize" : "每页展示数量，最大值 100，最小值 1"
+  }
+}

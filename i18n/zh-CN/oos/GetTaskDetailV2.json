@@ -1,0 +1,9 @@
+{
+  "GetTaskDetailV2" : {
+    "namespace" : "名称空间，如果用户未使用自定义名称空间，可以不传此字段，默认为“default”",
+    "dagId" : "执行（Execution）ID",
+    "taskId" : "任务（Task）ID",
+    "ignoreChildren" : "是否忽略子执行返回；为 true 时只返回当前 task 自身信息，不递归加载子任务列表",
+    "locale" : "语言，默认 zh-cn"
+  }
+}

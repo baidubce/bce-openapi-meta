@@ -1,0 +1,55 @@
+{
+  "version" : "v2",
+  "style" : "rpc",
+  "description" : "运维编排",
+  "apis" : {
+    "DeleteTemplateV2" : {
+      "title" : "删除运维模板",
+      "summary" : "删除运维模板"
+    },
+    "GetExecutionListV2" : {
+      "title" : "查询执行列表",
+      "summary" : "查询执行列表"
+    },
+    "GetOperatorListV2" : {
+      "title" : "操作符（Operator）列表",
+      "summary" : "操作符（Operator）列表"
+    },
+    "GetTaskDetailV2" : {
+      "title" : "任务详情",
+      "summary" : "任务详情"
+    },
+    "GetTaskChildrenListV2" : {
+      "title" : "查询任务子执行列表",
+      "summary" : "查询任务子执行列表"
+    },
+    "CreateExecutionV2" : {
+      "title" : "创建执行",
+      "summary" : "创建执行"
+    },
+    "CheckTemplateV2" : {
+      "title" : "校验运维模板",
+      "summary" : "校验运维模板"
+    },
+    "CreateTemplateV2" : {
+      "title" : "创建运维模板",
+      "summary" : "创建运维模板"
+    },
+    "UpdateTemplateV2" : {
+      "title" : "更新运维模板",
+      "summary" : "更新运维模板"
+    },
+    "GetTemplateDetailV2" : {
+      "title" : "查看运维模板",
+      "summary" : "查看运维模板"
+    },
+    "GetTemplateListV2" : {
+      "title" : "查看运维模板列表",
+      "summary" : "查看运维模板列表"
+    },
+    "GetExecutionDetailV2" : {
+      "title" : "查看执行详情",
+      "summary" : "查看执行详情"
+    }
+  }
+}

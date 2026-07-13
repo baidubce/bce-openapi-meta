@@ -1,0 +1,10 @@
+{
+  "GetOperatorListV2" : {
+    "locale" : "Language, default zh-cn",
+    "operator" : "Filter condition for system template operators",
+    "sort" : "Sort field",
+    "ascending" : "Whether to sort in ascending order",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Number of items per page, maximum 100"
+  }
+}

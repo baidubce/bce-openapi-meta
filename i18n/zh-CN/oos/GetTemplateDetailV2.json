@@ -1,0 +1,9 @@
+{
+  "GetTemplateDetailV2" : {
+    "namespace" : "名称空间，默认 default",
+    "id" : "运维模板 ID",
+    "name" : "运维模板名称",
+    "type" : "模板类型 INDIVIDUAL/GLOBAL",
+    "locale" : "语言，默认 zh-cn"
+  }
+}

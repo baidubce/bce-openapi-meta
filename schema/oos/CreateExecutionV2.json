@@ -1,0 +1,483 @@
+{
+  "name" : "CreateExecutionV2",
+  "method" : "POST",
+  "uri" : "/v{version}/execution",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.CreateExecutionV2.locale"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.CreateExecutionV2.description"
+  }, {
+    "name" : "template",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "oos.CreateExecutionV2.template",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.id"
+    }, {
+      "name" : "ref",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.ref"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.name"
+    }, {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.type"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.description"
+    }, {
+      "name" : "tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.tags"
+    }, {
+      "name" : "linear",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.linear"
+    }, {
+      "name" : "parallelism",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.parallelism"
+    }, {
+      "name" : "operators",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.operators",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.name"
+      }, {
+        "name" : "description",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.description"
+      }, {
+        "name" : "tags",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.tags"
+      }, {
+        "name" : "operator",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.operator"
+      }, {
+        "name" : "label",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.label"
+      }, {
+        "name" : "template",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.template",
+        "sub_parameters" : [ {
+          "name" : "id",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.id"
+        }, {
+          "name" : "ref",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.ref"
+        }, {
+          "name" : "name",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.name"
+        }, {
+          "name" : "type",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.type"
+        }, {
+          "name" : "description",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.description"
+        }, {
+          "name" : "tags",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.tags"
+        }, {
+          "name" : "linear",
+          "type" : "Boolean",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.linear"
+        }, {
+          "name" : "parallelism",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.parallelism"
+        }, {
+          "name" : "operators",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.operators"
+        }, {
+          "name" : "links",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.links",
+          "sub_parameters" : [ {
+            "name" : "src",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.links.src"
+          }, {
+            "name" : "dst",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.links.dst"
+          } ]
+        }, {
+          "name" : "properties",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties",
+          "sub_parameters" : [ {
+            "name" : "name",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.name"
+          }, {
+            "name" : "required",
+            "type" : "Boolean",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.required"
+          }, {
+            "name" : "type",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.type"
+          }, {
+            "name" : "label",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.label"
+          }, {
+            "name" : "description",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.description"
+          }, {
+            "name" : "multiple",
+            "type" : "Boolean",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.multiple"
+          }, {
+            "name" : "options",
+            "type" : "List",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.options"
+          }, {
+            "name" : "selectOptions",
+            "type" : "List",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.selectOptions",
+            "sub_parameters" : [ {
+              "name" : "label",
+              "type" : "String",
+              "required" : false,
+              "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.selectOptions.label"
+            }, {
+              "name" : "value",
+              "type" : "String",
+              "required" : false,
+              "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.selectOptions.value"
+            } ]
+          }, {
+            "name" : "defaultValue",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.properties.defaultValue"
+          } ]
+        }, {
+          "name" : "updatedTime",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.updatedTime"
+        }, {
+          "name" : "supportedInstanceTypes",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.supportedInstanceTypes"
+        } ]
+      }, {
+        "name" : "retries",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.retries"
+      }, {
+        "name" : "retryInterval",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.retryInterval"
+      }, {
+        "name" : "timeout",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.timeout"
+      }, {
+        "name" : "parallelismRatio",
+        "type" : "Double",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.parallelismRatio"
+      }, {
+        "name" : "parallelismCount",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.parallelismCount"
+      }, {
+        "name" : "parallelismControl",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.parallelismControl",
+        "sub_parameters" : [ {
+          "name" : "ratio",
+          "type" : "Double",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.parallelismControl.ratio"
+        }, {
+          "name" : "count",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.parallelismControl.count"
+        } ]
+      }, {
+        "name" : "allowedFailureRatio",
+        "type" : "Double",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.allowedFailureRatio"
+      }, {
+        "name" : "allowedFailureCount",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.allowedFailureCount"
+      }, {
+        "name" : "allowedFailureControl",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.allowedFailureControl",
+        "sub_parameters" : [ {
+          "name" : "ratio",
+          "type" : "Double",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.allowedFailureControl.ratio"
+        }, {
+          "name" : "count",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.allowedFailureControl.count"
+        } ]
+      }, {
+        "name" : "manually",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.manually"
+      }, {
+        "name" : "scheduleDelayMilli",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.scheduleDelayMilli"
+      }, {
+        "name" : "waitOnAgentMilli",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.waitOnAgentMilli"
+      }, {
+        "name" : "pauseOnFailure",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.pauseOnFailure"
+      }, {
+        "name" : "condition",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.condition"
+      }, {
+        "name" : "breakpoints",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.breakpoints"
+      }, {
+        "name" : "triggerRule",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.triggerRule"
+      }, {
+        "name" : "loopWindowType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.loopWindowType"
+      }, {
+        "name" : "properties",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.properties"
+      }, {
+        "name" : "loops",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.operators.loops"
+      } ]
+    }, {
+      "name" : "links",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.links",
+      "sub_parameters" : [ {
+        "name" : "src",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.links.src"
+      }, {
+        "name" : "dst",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.links.dst"
+      } ]
+    }, {
+      "name" : "properties",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.properties",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.properties.name"
+      }, {
+        "name" : "required",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.properties.required"
+      }, {
+        "name" : "type",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.properties.type"
+      }, {
+        "name" : "label",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.properties.label"
+      }, {
+        "name" : "description",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.properties.description"
+      }, {
+        "name" : "multiple",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.properties.multiple"
+      }, {
+        "name" : "options",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.properties.options"
+      }, {
+        "name" : "selectOptions",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.properties.selectOptions",
+        "sub_parameters" : [ {
+          "name" : "label",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.properties.selectOptions.label"
+        }, {
+          "name" : "value",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.properties.selectOptions.value"
+        } ]
+      }, {
+        "name" : "defaultValue",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.properties.defaultValue"
+      } ]
+    }, {
+      "name" : "updatedTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.updatedTime"
+    }, {
+      "name" : "supportedInstanceTypes",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.template.supportedInstanceTypes"
+    } ]
+  }, {
+    "name" : "parallelism",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.CreateExecutionV2.parallelism"
+  }, {
+    "name" : "manually",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.CreateExecutionV2.manually"
+  }, {
+    "name" : "properties",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.CreateExecutionV2.properties"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.CreateExecutionV2.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "oos.CreateExecutionV2.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "oos.CreateExecutionV2.desc"
+}

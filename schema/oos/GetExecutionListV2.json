@@ -1,0 +1,92 @@
+{
+  "name" : "GetExecutionListV2",
+  "method" : "POST",
+  "uri" : "/v{version}/execution/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetExecutionListV2.locale"
+  }, {
+    "name" : "namespace",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.namespace"
+  }, {
+    "name" : "template",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.template"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.state"
+  }, {
+    "name" : "trigger",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.trigger"
+  }, {
+    "name" : "cronExecutionName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.cronExecutionName"
+  }, {
+    "name" : "eventExecutionName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.eventExecutionName"
+  }, {
+    "name" : "startTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.endTime"
+  }, {
+    "name" : "sort",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.sort"
+  }, {
+    "name" : "ascending",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.ascending"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "oos.GetExecutionListV2.pageSize"
+  } ],
+  "desc_key" : "oos.GetExecutionListV2.desc"
+}

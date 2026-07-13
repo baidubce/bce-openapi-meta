@@ -1,0 +1,74 @@
+{
+  "name" : "GetTemplateListV2",
+  "method" : "POST",
+  "uri" : "/v{version}/template/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTemplateListV2.locale"
+  }, {
+    "name" : "namespace",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetTemplateListV2.namespace"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetTemplateListV2.name"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetTemplateListV2.id"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetTemplateListV2.type"
+  }, {
+    "name" : "sort",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetTemplateListV2.sort"
+  }, {
+    "name" : "ascending",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetTemplateListV2.ascending"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "oos.GetTemplateListV2.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "oos.GetTemplateListV2.pageSize"
+  }, {
+    "name" : "supportedInstanceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "oos.GetTemplateListV2.supportedInstanceType"
+  } ],
+  "desc_key" : "oos.GetTemplateListV2.desc"
+}

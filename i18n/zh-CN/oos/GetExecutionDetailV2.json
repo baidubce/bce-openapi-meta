@@ -1,0 +1,8 @@
+{
+  "GetExecutionDetailV2" : {
+    "namespace" : "名称空间，默认 default",
+    "id" : "执行 ID",
+    "withLog" : "是否返回日志",
+    "locale" : "语言，默认 zh-cn"
+  }
+}

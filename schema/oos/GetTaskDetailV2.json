@@ -1,0 +1,44 @@
+{
+  "name" : "GetTaskDetailV2",
+  "method" : "GET",
+  "uri" : "/v{version}/task",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "namespace",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTaskDetailV2.namespace"
+  }, {
+    "name" : "dagId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTaskDetailV2.dagId"
+  }, {
+    "name" : "taskId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTaskDetailV2.taskId"
+  }, {
+    "name" : "ignoreChildren",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTaskDetailV2.ignoreChildren"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTaskDetailV2.locale"
+  } ],
+  "desc_key" : "oos.GetTaskDetailV2.desc"
+}

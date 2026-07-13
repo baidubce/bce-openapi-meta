@@ -1,0 +1,14 @@
+{
+  "GetTemplateListV2" : {
+    "locale" : "Language, default zh-cn",
+    "namespace" : "Namespace, default default",
+    "name" : "Template name",
+    "id" : "Template ID",
+    "type" : "Template type INDIVIDUAL/GLOBAL",
+    "sort" : "Sort field, default is creation time",
+    "ascending" : "Whether ascending order, default false",
+    "pageNo" : "Page number, starting from 1",
+    "pageSize" : "Number of items per page, max: 100",
+    "supportedInstanceType" : "Filter by supported instance type"
+  }
+}

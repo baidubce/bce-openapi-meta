@@ -1,0 +1,44 @@
+{
+  "name" : "GetTemplateDetailV2",
+  "method" : "GET",
+  "uri" : "/v{version}/template",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "namespace",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTemplateDetailV2.namespace"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTemplateDetailV2.id"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTemplateDetailV2.name"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTemplateDetailV2.type"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "oos.GetTemplateDetailV2.locale"
+  } ],
+  "desc_key" : "oos.GetTemplateDetailV2.desc"
+}

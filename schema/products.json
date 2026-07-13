@@ -223,5 +223,18 @@
     "endpoint" : {
       "global" : "identity.bj.baidubce.com"
     }
+  }, {
+    "code" : "oos",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "oos.bd.baidubce.com",
+      "bj" : "oos.bj.baidubce.com",
+      "cd" : "oos.cd.baidubce.com",
+      "fwh" : "oos.fwh.baidubce.com",
+      "gz" : "oos.gz.baidubce.com",
+      "hkg" : "oos.hkg.baidubce.com",
+      "su" : "oos.su.baidubce.com",
+      "yq" : "oos.yq.baidubce.com"
+    }
   } ]
 }

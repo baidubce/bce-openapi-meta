@@ -1,0 +1,14 @@
+{
+  "GetTemplateListV2" : {
+    "locale" : "语言，默认 zh-cn",
+    "namespace" : "名称空间，默认 default",
+    "name" : "模板名称",
+    "id" : "模板 ID",
+    "type" : "模板类型 INDIVIDUAL/GLOBAL",
+    "sort" : "排序字段，默认为创建时间",
+    "ascending" : "是否升序，默认 false",
+    "pageNo" : "页数，从 1 开始计数",
+    "pageSize" : "每页展示数量，最大值：100",
+    "supportedInstanceType" : "支持的实例类型筛选"
+  }
+}

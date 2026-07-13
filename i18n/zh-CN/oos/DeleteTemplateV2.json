@@ -1,0 +1,6 @@
+{
+  "DeleteTemplateV2" : {
+    "namespace" : "名称空间，默认 default",
+    "id" : "运维模板 ID"
+  }
+}

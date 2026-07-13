@@ -1,0 +1,26 @@
+{
+  "CreateExecutionV2" : {
+    "locale" : "语言，默认 zh-cn",
+    "description" : "执行描述",
+    "template" : "嵌套引用的子模板",
+    "template.id" : "模板唯一标识，由服务端生成，更新模版需要传递此字段，查询详情和列表时响应此字段",
+    "template.ref" : "创建执行时，使用本字段设置使用的模版id",
+    "template.name" : "模板名称，不允许重复",
+    "template.type" : "模板类型，可选值：INDIVIDUAL（个人模板）,GLOBAL（系统模板）",
+    "template.description" : "模板描述",
+    "template.tags" : "模板标签",
+    "template.linear" : "任务是否串行执行，默认false",
+    "template.parallelism" : "并发度",
+    "template.operators" : "模板任务步骤列表",
+    "template.links" : "描述 operator 之间的拓扑关系，linear=false 时必填",
+    "template.properties" : "全局参数列表",
+    "template.updatedTime" : "最后更新时间，查询详情和列表接口返回",
+    "template.supportedInstanceTypes" : "支持的实例类型列表，目前仅用于系统模版",
+    "parallelism" : "并发度",
+    "manually" : "是否手动触发",
+    "properties" : "全局参数取值集合",
+    "tags" : "执行绑定标签列表",
+    "tags.tagKey" : "标签 key",
+    "tags.tagValue" : "标签 value"
+  }
+}
