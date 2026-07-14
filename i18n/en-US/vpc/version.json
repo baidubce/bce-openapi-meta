@@ -83,10 +83,6 @@
       "title" : "closePeerConnSyncDns",
       "summary" : "closePeerConnSyncDns"
     },
-    "CreateDedicatedGatewayHealthCheck" : {
-      "title" : "createDedicatedGatewayHealthCheck",
-      "summary" : "createDedicatedGatewayHealthCheck"
-    },
     "UnbindHaVipEip" : {
       "title" : "unbindHaVipEip",
       "summary" : "unbindHaVipEip"
@@ -538,6 +534,10 @@
     "AddIpAddressToIpGroup" : {
       "title" : "addIpAddressToIpGroup",
       "summary" : "addIpAddressToIpGroup"
+    },
+    "CreateDedicatedGatewayHealthCheck" : {
+      "title" : "createDedicatedGatewayHealthCheck",
+      "summary" : "createDedicatedGatewayHealthCheck"
     },
     "QueryIpSetList" : {
       "title" : "queryIpSetList",

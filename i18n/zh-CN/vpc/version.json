@@ -83,10 +83,6 @@
       "title" : "关闭对等连接同步DNS",
       "summary" : "关闭对等连接同步DNS"
     },
-    "CreateDedicatedGatewayHealthCheck" : {
-      "title" : "创建专线网关健康检查",
-      "summary" : "创建专线网关健康检查"
-    },
     "UnbindHaVipEip" : {
       "title" : "高可用虚拟IP解绑EIP",
       "summary" : "高可用虚拟IP解绑EIP"
@@ -538,6 +534,10 @@
     "AddIpAddressToIpGroup" : {
       "title" : "IP地址组添加IP地址",
       "summary" : "IP地址组添加IP地址"
+    },
+    "CreateDedicatedGatewayHealthCheck" : {
+      "title" : "创建专线网关健康检查",
+      "summary" : "创建专线网关健康检查"
     },
     "QueryIpSetList" : {
       "title" : "查询IP地址族列表",

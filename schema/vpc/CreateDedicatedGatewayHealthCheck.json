@@ -22,6 +22,24 @@
     "position" : "QUERY",
     "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.clientToken"
   }, {
+    "name" : "dcphyId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.dcphyId"
+  }, {
+    "name" : "channelId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.channelId"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vpc.CreateDedicatedGatewayHealthCheck.subnetId"
+  }, {
     "name" : "healthCheckSourceIp",
     "type" : "String",
     "required" : false,

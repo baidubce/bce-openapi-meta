@@ -2,6 +2,9 @@
   "CreateDedicatedGatewayHealthCheck" : {
     "etGatewayId" : "The ID of the dedicated gateway",
     "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency Support](VPC/API参考/通用说明.md#幂等性)",
+    "dcphyId" : "Physical dedicated line ID",
+    "channelId" : "Dedicated line channel ID",
+    "subnetId" : "Subnet ID",
     "healthCheckSourceIp" : "If this parameter is not specified, the system will automatically assign an IP address",
     "healthCheckType" : "Valid value is \"ICMP\"; defaults to \"ICMP\"",
     "healthCheckInterval" : "Health check interval, an integer between 1 and 60, in seconds",
