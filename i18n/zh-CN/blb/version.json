@@ -163,22 +163,6 @@
       "title" : "创建UDP监听器",
       "summary" : "创建UDP监听器"
     },
-    "CreateAppBlbIpGroup" : {
-      "title" : "创建IP组",
-      "summary" : "创建IP组"
-    },
-    "CreateAppBlbIpGroupMember" : {
-      "title" : "创建IP组成员",
-      "summary" : "创建IP组成员"
-    },
-    "DescribeAppBlbIpGroupMember" : {
-      "title" : "查询IP组成员",
-      "summary" : "查询IP组成员"
-    },
-    "UpdateAppBlbIpGroupMember" : {
-      "title" : "更新IP组成员",
-      "summary" : "更新IP组成员"
-    },
     "CreateAppBlbIpGroupProtocol" : {
       "title" : "创建IP组协议",
       "summary" : "创建IP组协议"
@@ -187,14 +171,6 @@
       "title" : "BLB询价",
       "summary" : "BLB询价"
     },
-    "BillingChangePostToPreBlb" : {
-      "title" : "BLB计费变更-后付费转预付费",
-      "summary" : "BLB计费变更-后付费转预付费"
-    },
-    "BillingChangePreToPostBlb" : {
-      "title" : "BLB计费变更-预付费转后付费",
-      "summary" : "BLB计费变更-预付费转后付费"
-    },
     "UpdateBlbTcpListener" : {
       "title" : "更新TCP监听器",
       "summary" : "更新TCP监听器"
@@ -202,10 +178,6 @@
     "BillingChangeCancelToPostBlb" : {
       "title" : "BLB计费变更-取消预付费转后付费",
       "summary" : "BLB计费变更-取消预付费转后付费"
-    },
-    "ResizeBlb" : {
-      "title" : "BLB-变配",
-      "summary" : "BLB-变配"
     },
     "RefundBlb" : {
       "title" : "BLB退订接口",
@@ -223,9 +195,9 @@
       "title" : "更新UDP监听器",
       "summary" : "更新UDP监听器"
     },
-    "DescribeAppBlbIpGroup" : {
-      "title" : "查询IP组",
-      "summary" : "查询IP组"
+    "CreateAppBlbIpGroup" : {
+      "title" : "创建IP组",
+      "summary" : "创建IP组"
     },
     "DescribeAppBlbPolicy" : {
       "title" : "查询转发策略",
@@ -243,6 +215,10 @@
       "title" : "查询集群列表",
       "summary" : "查询集群列表"
     },
+    "DescribeAppBlbIpGroupMember" : {
+      "title" : "查询IP组成员",
+      "summary" : "查询IP组成员"
+    },
     "DescribeLbdcBlb" : {
       "title" : "查询集群下的BLB实例",
       "summary" : "查询集群下的BLB实例"
@@ -255,21 +231,45 @@
       "title" : "更新实例",
       "summary" : "更新实例"
     },
+    "CreateAppBlbIpGroupMember" : {
+      "title" : "创建IP组成员",
+      "summary" : "创建IP组成员"
+    },
+    "UpdateAppBlbIpGroupMember" : {
+      "title" : "更新IP组成员",
+      "summary" : "更新IP组成员"
+    },
     "CreateAppBlbSslListener" : {
       "title" : "创建SSL监听器",
       "summary" : "创建SSL监听器"
+    },
+    "BillingChangePostToPreBlb" : {
+      "title" : "BLB计费变更-后付费转预付费",
+      "summary" : "BLB计费变更-后付费转预付费"
     },
     "CreateAppBlbTcpListener" : {
       "title" : "创建TCP监听器",
       "summary" : "创建TCP监听器"
     },
+    "BillingChangePreToPostBlb" : {
+      "title" : "BLB计费变更-预付费转后付费",
+      "summary" : "BLB计费变更-预付费转后付费"
+    },
     "CreateAppBlbHttpsListener" : {
       "title" : "创建HTTPS监听器",
       "summary" : "创建HTTPS监听器"
     },
+    "ResizeBlb" : {
+      "title" : "BLB-变配",
+      "summary" : "BLB-变配"
+    },
     "CreateAppBlbHttpListener" : {
       "title" : "创建HTTP监听器",
       "summary" : "创建HTTP监听器"
+    },
+    "DescribeAppBlbIpGroup" : {
+      "title" : "查询IP组",
+      "summary" : "查询IP组"
     },
     "CreateAppBlbUdpListener" : {
       "title" : "创建UDP监听器",

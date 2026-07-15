@@ -8,8 +8,6 @@
     "memberList.ip" : "IPv4 address",
     "memberList.port" : "Port number, range 1–65535",
     "memberList.weight" : "Weight, range 0–100",
-    "memberList.desc" : "Description, max 200 characters",
-    "memberList.memberId" : "Identifier of the IP group member",
-    "memberList.portList" : "List of ports exposed by the IP group member"
+    "memberList.desc" : "Description, max 200 characters"
   }
 }

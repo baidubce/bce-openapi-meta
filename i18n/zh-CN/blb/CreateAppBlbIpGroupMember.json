@@ -7,8 +7,6 @@
     "memberList.ip" : "ipv4地址",
     "memberList.port" : "端口号，取值范围1~65535",
     "memberList.weight" : "权重，取值范围0~100",
-    "memberList.desc" : "描述信息，最大支持200个字符",
-    "memberList.memberId" : "IP组成员标识符",
-    "memberList.portList" : "IP组成员开放的端口列表"
+    "memberList.desc" : "描述信息，最大支持200个字符"
   }
 }

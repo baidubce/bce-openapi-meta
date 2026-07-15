@@ -163,22 +163,6 @@
       "title" : "createBlbUdpListener",
       "summary" : "createBlbUdpListener"
     },
-    "CreateAppBlbIpGroup" : {
-      "title" : "createAppBlbIpGroup",
-      "summary" : "createAppBlbIpGroup"
-    },
-    "CreateAppBlbIpGroupMember" : {
-      "title" : "createAppBlbIpGroupMember",
-      "summary" : "createAppBlbIpGroupMember"
-    },
-    "DescribeAppBlbIpGroupMember" : {
-      "title" : "describeAppBlbIpGroupMember",
-      "summary" : "describeAppBlbIpGroupMember"
-    },
-    "UpdateAppBlbIpGroupMember" : {
-      "title" : "updateAppBlbIpGroupMember",
-      "summary" : "updateAppBlbIpGroupMember"
-    },
     "CreateAppBlbIpGroupProtocol" : {
       "title" : "createAppBlbIpGroupProtocol",
       "summary" : "createAppBlbIpGroupProtocol"
@@ -187,14 +171,6 @@
       "title" : "blbInquiry",
       "summary" : "blbInquiry"
     },
-    "BillingChangePostToPreBlb" : {
-      "title" : "billingChangePostToPreBlb",
-      "summary" : "billingChangePostToPreBlb"
-    },
-    "BillingChangePreToPostBlb" : {
-      "title" : "billingChangePreToPostBlb",
-      "summary" : "billingChangePreToPostBlb"
-    },
     "UpdateBlbTcpListener" : {
       "title" : "updateBlbTcpListener",
       "summary" : "updateBlbTcpListener"
@@ -202,10 +178,6 @@
     "BillingChangeCancelToPostBlb" : {
       "title" : "billingChangeCancelToPostBlb",
       "summary" : "billingChangeCancelToPostBlb"
-    },
-    "ResizeBlb" : {
-      "title" : "resizeBlb",
-      "summary" : "resizeBlb"
     },
     "RefundBlb" : {
       "title" : "refundBlb",
@@ -223,9 +195,9 @@
       "title" : "updateBlbUdpListener",
       "summary" : "updateBlbUdpListener"
     },
-    "DescribeAppBlbIpGroup" : {
-      "title" : "describeAppBlbIpGroup",
-      "summary" : "describeAppBlbIpGroup"
+    "CreateAppBlbIpGroup" : {
+      "title" : "createAppBlbIpGroup",
+      "summary" : "createAppBlbIpGroup"
     },
     "DescribeAppBlbPolicy" : {
       "title" : "describeAppBlbPolicy",
@@ -243,6 +215,10 @@
       "title" : "describeLbdcs",
       "summary" : "describeLbdcs"
     },
+    "DescribeAppBlbIpGroupMember" : {
+      "title" : "describeAppBlbIpGroupMember",
+      "summary" : "describeAppBlbIpGroupMember"
+    },
     "DescribeLbdcBlb" : {
       "title" : "describeLbdcBlb",
       "summary" : "describeLbdcBlb"
@@ -255,21 +231,45 @@
       "title" : "updateAppBlb",
       "summary" : "updateAppBlb"
     },
+    "CreateAppBlbIpGroupMember" : {
+      "title" : "createAppBlbIpGroupMember",
+      "summary" : "createAppBlbIpGroupMember"
+    },
+    "UpdateAppBlbIpGroupMember" : {
+      "title" : "updateAppBlbIpGroupMember",
+      "summary" : "updateAppBlbIpGroupMember"
+    },
     "CreateAppBlbSslListener" : {
       "title" : "createAppBlbSslListener",
       "summary" : "createAppBlbSslListener"
+    },
+    "BillingChangePostToPreBlb" : {
+      "title" : "billingChangePostToPreBlb",
+      "summary" : "billingChangePostToPreBlb"
     },
     "CreateAppBlbTcpListener" : {
       "title" : "createAppBlbTcpListener",
       "summary" : "createAppBlbTcpListener"
     },
+    "BillingChangePreToPostBlb" : {
+      "title" : "billingChangePreToPostBlb",
+      "summary" : "billingChangePreToPostBlb"
+    },
     "CreateAppBlbHttpsListener" : {
       "title" : "createAppBlbHttpsListener",
       "summary" : "createAppBlbHttpsListener"
     },
+    "ResizeBlb" : {
+      "title" : "resizeBlb",
+      "summary" : "resizeBlb"
+    },
     "CreateAppBlbHttpListener" : {
       "title" : "createAppBlbHttpListener",
       "summary" : "createAppBlbHttpListener"
+    },
+    "DescribeAppBlbIpGroup" : {
+      "title" : "describeAppBlbIpGroup",
+      "summary" : "describeAppBlbIpGroup"
     },
     "CreateAppBlbUdpListener" : {
       "title" : "createAppBlbUdpListener",

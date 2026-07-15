@@ -53,27 +53,6 @@
       "type" : "String",
       "required" : false,
       "desc_key" : "blb.CreateAppBlbIpGroupMember.memberList.desc"
-    }, {
-      "name" : "memberId",
-      "type" : "String",
-      "required" : false,
-      "desc_key" : "blb.CreateAppBlbIpGroupMember.memberList.memberId"
-    }, {
-      "name" : "portList",
-      "type" : "List",
-      "required" : false,
-      "desc_key" : "blb.CreateAppBlbIpGroupMember.memberList.portList",
-      "sub_parameters" : [ {
-        "name" : "healthCheckPortType",
-        "type" : "String",
-        "required" : false,
-        "desc_key" : "blb.CreateAppBlbIpGroupMember.memberList.portList.healthCheckPortType"
-      }, {
-        "name" : "status",
-        "type" : "String",
-        "required" : false,
-        "desc_key" : "blb.CreateAppBlbIpGroupMember.memberList.portList.status"
-      } ]
     } ]
   } ],
   "desc_key" : "blb.CreateAppBlbIpGroupMember.desc"
