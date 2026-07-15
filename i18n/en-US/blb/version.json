@@ -111,10 +111,6 @@
       "title" : "describeAppBlbServerGroup",
       "summary" : "describeAppBlbServerGroup"
     },
-    "CreateBlb" : {
-      "title" : "createBlb",
-      "summary" : "createBlb"
-    },
     "DeleteAppBlbIpGroupProtocol" : {
       "title" : "deleteAppBlbIpGroupProtocol",
       "summary" : "deleteAppBlbIpGroupProtocol"
@@ -422,6 +418,10 @@
     "DeleteAppBlbServerGroupRs" : {
       "title" : "deleteAppBlbServerGroupRs",
       "summary" : "deleteAppBlbServerGroupRs"
+    },
+    "CreateBlb" : {
+      "title" : "createBlb",
+      "summary" : "createBlb"
     },
     "DeleteAppBlbServerGroupPort" : {
       "title" : "deleteAppBlbServerGroupPort",

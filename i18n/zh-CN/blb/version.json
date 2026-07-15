@@ -111,10 +111,6 @@
       "title" : "查询服务器组",
       "summary" : "查询服务器组"
     },
-    "CreateBlb" : {
-      "title" : "创建实例",
-      "summary" : "创建实例"
-    },
     "DeleteAppBlbIpGroupProtocol" : {
       "title" : "删除IP组协议",
       "summary" : "删除IP组协议"
@@ -422,6 +418,10 @@
     "DeleteAppBlbServerGroupRs" : {
       "title" : "移除后端服务器",
       "summary" : "移除后端服务器"
+    },
+    "CreateBlb" : {
+      "title" : "创建实例",
+      "summary" : "创建实例"
     },
     "DeleteAppBlbServerGroupPort" : {
       "title" : "删除服务器组端口",
