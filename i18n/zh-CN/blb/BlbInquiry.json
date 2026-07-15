@@ -1,7 +1,7 @@
 {
   "BlbInquiry" : {
     "blbType" : "blb类型，不传默认是普通型blb。 取值可以为\"normal\"代表普通型，\"application\"代表应用型，\"ipv6\"代表普通型IPv6，\"ipv6Application\"代表应用型IPv6",
-    "performanceLevel" : "性能规格参数，不传默认为共享型。取值如下：\"small1\"标准型1，\"small2\"标准型2，\"medium1\"增强型1，\"medium2\"增强型1，\"large1\"超大型1，\"large2\"超大型2，\"large3\"超大型3",
+    "performanceLevel" : "性能规格参数，不传默认为共享型。当规格为预付费时，performanceLevel必填。取值如下：\"small1\"标准型1，\"small2\"标准型2，\"medium1\"增强型1，\"medium2\"增强型1，\"large1\"超大型1，\"large2\"超大型2，\"large3\"超大型3",
     "count" : "购买数量，不传默认是1",
     "billing" : "订单相关信息",
     "billing.paymentTiming" : "付款时间，预支付（Prepaid）和后支付（Postpaid）",
