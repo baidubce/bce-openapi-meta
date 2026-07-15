@@ -1,0 +1,11 @@
+{
+  "ListAsGroupV2" : {
+    "keyword" : "关键字，标签筛选时，tagValue 填在本字段",
+    "keywordType" : "关键字字段，当标签筛选时，填 tag",
+    "subKeywordType" : "标签筛选时，tagKey 填在本字段",
+    "order" : "排序方式，desc",
+    "orderBy" : "排序字段，createTime",
+    "pageNo" : "页数",
+    "pageSize" : "每页返回结果数"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "UpdateProtectV2" : {
+    "groupId" : "伸缩组id",
+    "updateProtect" : "接口执行的动作，本接口取值为updateProtect",
+    "nodes" : "待移入实例短id列表",
+    "isProtected" : "是否将nodes中节点设置为保护节点"
+  }
+}

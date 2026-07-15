@@ -1,0 +1,11 @@
+{
+  "ListAsNodeV2" : {
+    "groupid" : "伸缩组ID",
+    "keyword" : "关键字字段",
+    "keywordType" : "关键字类型，可选值：instanceId、instanceName",
+    "order" : "排序方式，desc",
+    "orderBy" : "排序字段，createTime",
+    "pageNo" : "页数",
+    "pageSize" : "页码"
+  }
+}

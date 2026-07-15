@@ -1,0 +1,8 @@
+{
+  "UpdateProtectV2" : {
+    "groupId" : "Scaling group ID",
+    "updateProtect" : "Action performed by the interface, value is updateProtect for this API",
+    "nodes" : "List of short instance IDs to be moved in",
+    "isProtected" : "Whether to set the nodes in the nodes list as protected nodes"
+  }
+}

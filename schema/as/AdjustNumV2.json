@@ -1,0 +1,25 @@
+{
+  "name" : "AdjustNumV2",
+  "method" : "POST",
+  "uri" : "/v2/group/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "as.AdjustNumV2.groupId"
+  }, {
+    "name" : "adjustNode",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.AdjustNumV2.adjustNode"
+  }, {
+    "name" : "adjustNum",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.AdjustNumV2.adjustNum"
+  } ],
+  "desc_key" : "as.AdjustNumV2.desc"
+}

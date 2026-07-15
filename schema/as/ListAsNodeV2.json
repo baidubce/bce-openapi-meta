@@ -1,0 +1,49 @@
+{
+  "name" : "ListAsNodeV2",
+  "method" : "GET",
+  "uri" : "/v1/node",
+  "parameters" : [ {
+    "name" : "groupid",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.ListAsNodeV2.groupid"
+  }, {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "as.ListAsNodeV2.keyword"
+  }, {
+    "name" : "keywordType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "as.ListAsNodeV2.keywordType"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "as.ListAsNodeV2.order"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "as.ListAsNodeV2.orderBy"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.ListAsNodeV2.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.ListAsNodeV2.pageSize"
+  } ],
+  "desc_key" : "as.ListAsNodeV2.desc"
+}

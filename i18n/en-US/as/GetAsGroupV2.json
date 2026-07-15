@@ -1,0 +1,5 @@
+{
+  "GetAsGroupV2" : {
+    "groupId" : "Scaling group ID"
+  }
+}

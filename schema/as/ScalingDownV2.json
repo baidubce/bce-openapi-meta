@@ -1,0 +1,25 @@
+{
+  "name" : "ScalingDownV2",
+  "method" : "POST",
+  "uri" : "/v2/group/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "as.ScalingDownV2.groupId"
+  }, {
+    "name" : "scalingDown",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.ScalingDownV2.scalingDown"
+  }, {
+    "name" : "nodes",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.ScalingDownV2.nodes"
+  } ],
+  "desc_key" : "as.ScalingDownV2.desc"
+}

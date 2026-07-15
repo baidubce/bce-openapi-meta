@@ -1,0 +1,25 @@
+{
+  "name" : "DetachNodeV2",
+  "method" : "POST",
+  "uri" : "/v2/group/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "as.DetachNodeV2.groupId"
+  }, {
+    "name" : "detachNode",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.DetachNodeV2.detachNode"
+  }, {
+    "name" : "nodes",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.DetachNodeV2.nodes"
+  } ],
+  "desc_key" : "as.DetachNodeV2.desc"
+}

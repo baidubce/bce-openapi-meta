@@ -1,0 +1,215 @@
+{
+  "name" : "CreateRuleV2",
+  "method" : "POST",
+  "uri" : "/v1/rule",
+  "parameters" : [ {
+    "name" : "ruleName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.ruleName"
+  }, {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.groupId"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.state"
+  }, {
+    "name" : "type",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.type"
+  }, {
+    "name" : "actionType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.actionType"
+  }, {
+    "name" : "actionNum",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.actionNum"
+  }, {
+    "name" : "cronTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.cronTime"
+  }, {
+    "name" : "cooldownInSec",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.cooldownInSec"
+  }, {
+    "name" : "periodType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.periodType"
+  }, {
+    "name" : "periodValue",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.periodValue"
+  }, {
+    "name" : "periodStartTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.periodStartTime"
+  }, {
+    "name" : "periodEndTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.periodEndTime"
+  }, {
+    "name" : "asAlarmRule",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateRuleV2.asAlarmRule",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.id"
+    }, {
+      "name" : "scope",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.scope"
+    }, {
+      "name" : "monitorObject",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject",
+      "sub_parameters" : [ {
+        "name" : "type",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject.type"
+      }, {
+        "name" : "names",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject.names"
+      }, {
+        "name" : "resources",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject.resources",
+        "sub_parameters" : [ {
+          "name" : "identifiers",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject.resources.identifiers",
+          "sub_parameters" : [ {
+            "name" : "name",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject.resources.identifiers.name"
+          }, {
+            "name" : "value",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject.resources.identifiers.value"
+          } ]
+        }, {
+          "name" : "metricDimensions",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject.resources.metricDimensions",
+          "sub_parameters" : [ {
+            "name" : "name",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject.resources.metricDimensions.name"
+          }, {
+            "name" : "value",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject.resources.metricDimensions.value"
+          } ]
+        } ]
+      }, {
+        "name" : "typeName",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "as.CreateRuleV2.asAlarmRule.monitorObject.typeName"
+      } ]
+    }, {
+      "name" : "rules",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.rules"
+    }, {
+      "name" : "alarmName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.alarmName"
+    }, {
+      "name" : "aliasName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.aliasName"
+    }, {
+      "name" : "insufficientCycle",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.insufficientCycle"
+    }, {
+      "name" : "policyEnabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.policyEnabled"
+    }, {
+      "name" : "ruleContents",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.ruleContents"
+    }, {
+      "name" : "ruleContentsEn",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.ruleContentsEn"
+    }, {
+      "name" : "source",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.source"
+    }, {
+      "name" : "componentType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.componentType"
+    }, {
+      "name" : "alarmActions",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.alarmActions"
+    }, {
+      "name" : "okActions",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.okActions"
+    }, {
+      "name" : "insufficientActions",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateRuleV2.asAlarmRule.insufficientActions"
+    } ]
+  } ],
+  "desc_key" : "as.CreateRuleV2.desc"
+}

@@ -1,0 +1,11 @@
+{
+  "ListTaskV2" : {
+    "groupid" : "伸缩组 ID",
+    "order" : "排序顺序（升序asc，降序desc）",
+    "orderBy" : "排序的key，目前只支持：startTime",
+    "pageNo" : "页码数",
+    "pageSize" : "每页的大小，默认 1000",
+    "startTime" : "活动开始时间，格式：2022-03-15T10:30:00Z，不填写默认不约束",
+    "endTime" : "活动结束时间，格式：2022-03-15T10:30:00Z，不填写默认不约束"
+  }
+}

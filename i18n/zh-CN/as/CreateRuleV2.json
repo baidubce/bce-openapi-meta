@@ -1,0 +1,32 @@
+{
+  "CreateRuleV2" : {
+    "ruleName" : "规则名称",
+    "groupId" : "伸缩组id",
+    "state" : "规则状态。包括：ENABLE(可用),DISABLE(禁用)",
+    "type" : "规则类型。包括：CRONTAB(定时伸缩),ALARM(报警触发伸缩),PERIOD(周期伸缩)",
+    "actionType" : "动作类型。包括：INCREASE(扩容),DECREASE(缩容),ADJUST(调整至)",
+    "actionNum" : "动作数量",
+    "cronTime" : "定时规则或周期规则：当日执行时间。如12:30。",
+    "cooldownInSec" : "冷却时间（秒）",
+    "periodType" : "周期规则：周期单位，可选值为DAY/WEEK/MONTH/CronExpression",
+    "periodValue" : "周期规则：周期触发日期，1-7标识周1-周日，1-31表示1号到31号，与periodType相关",
+    "periodStartTime" : "周期规则：周期有效期开始时间。如：2023-12-10T12:00:00Z",
+    "periodEndTime" : "周期规则：周期有效期结束时间。如：2023-12-11T12:00:00Z",
+    "asAlarmRule" : "报警类规则：报警规则信息，详情见附录",
+    "asAlarmRule.id" : "策略ID",
+    "asAlarmRule.scope" : "策略归属产品",
+    "asAlarmRule.monitorObject" : "策略实例信息",
+    "asAlarmRule.rules" : "创建伸缩组的规则时，传入具体的判断规则，支持且规则、或规则。",
+    "asAlarmRule.alarmName" : "BCM策略ID，使用BCM已有策略时候，传入对应策略的唯一id",
+    "asAlarmRule.aliasName" : "BCM策略别名",
+    "asAlarmRule.insufficientCycle" : "无数据状态触发的持续时间，单位s",
+    "asAlarmRule.policyEnabled" : "策略状态",
+    "asAlarmRule.ruleContents" : "报警规则的内容描述",
+    "asAlarmRule.ruleContentsEn" : "报警规则的英文描述",
+    "asAlarmRule.source" : "报警策略创建来源",
+    "asAlarmRule.componentType" : "表示报警策略来自于哪个业务组件",
+    "asAlarmRule.alarmActions" : "报警动作",
+    "asAlarmRule.okActions" : "当报警恢复时执行的动作列表",
+    "asAlarmRule.insufficientActions" : "当数据不足时执行的动作列表"
+  }
+}

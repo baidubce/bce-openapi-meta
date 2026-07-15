@@ -1,0 +1,11 @@
+{
+  "ListRuleV2" : {
+    "groupid" : "Scaling group ID",
+    "keyword" : "Keyword for filtering rules",
+    "keywordType" : "Type of keyword. Options: ruleId, ruleName",
+    "order" : "Sort order of rules, default is desc",
+    "orderBy" : "Field to sort rules by, default is createTime",
+    "pageNo" : "Page number, default is 1",
+    "pageSize" : "Page size, default is 1000"
+  }
+}

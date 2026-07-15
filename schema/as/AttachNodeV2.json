@@ -1,0 +1,25 @@
+{
+  "name" : "AttachNodeV2",
+  "method" : "POST",
+  "uri" : "/v2/group/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "as.AttachNodeV2.groupId"
+  }, {
+    "name" : "attachNode",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.AttachNodeV2.attachNode"
+  }, {
+    "name" : "nodes",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.AttachNodeV2.nodes"
+  } ],
+  "desc_key" : "as.AttachNodeV2.desc"
+}

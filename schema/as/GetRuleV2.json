@@ -1,0 +1,13 @@
+{
+  "name" : "GetRuleV2",
+  "method" : "GET",
+  "uri" : "/v1/rule/{ruleId}",
+  "parameters" : [ {
+    "name" : "ruleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "as.GetRuleV2.ruleId"
+  } ],
+  "desc_key" : "as.GetRuleV2.desc"
+}

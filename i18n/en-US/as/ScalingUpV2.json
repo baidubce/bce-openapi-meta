@@ -1,0 +1,9 @@
+{
+  "ScalingUpV2" : {
+    "groupId" : "Scaling group ID",
+    "scalingUp" : "API action",
+    "nodeCount" : "Number of nodes",
+    "zone" : "Zone information",
+    "expansionStrategy" : "Expansion strategy (Priority - create in a single availability zone; Balanced - create evenly across selected availability zones)"
+  }
+}

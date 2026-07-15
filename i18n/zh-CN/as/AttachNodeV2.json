@@ -1,0 +1,7 @@
+{
+  "AttachNodeV2" : {
+    "groupId" : "伸缩组 ID",
+    "attachNode" : "接口执行的动作，本接口取值为attachNode",
+    "nodes" : "期望添加的节点列表"
+  }
+}

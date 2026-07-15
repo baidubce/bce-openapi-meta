@@ -1,0 +1,13 @@
+{
+  "name" : "DeleteAsGroupV2",
+  "method" : "POST",
+  "uri" : "/v2/group/delete",
+  "parameters" : [ {
+    "name" : "groupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.DeleteAsGroupV2.groupIds"
+  } ],
+  "desc_key" : "as.DeleteAsGroupV2.desc"
+}

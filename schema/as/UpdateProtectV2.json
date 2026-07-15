@@ -1,0 +1,31 @@
+{
+  "name" : "UpdateProtectV2",
+  "method" : "POST",
+  "uri" : "/v1/group/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "as.UpdateProtectV2.groupId"
+  }, {
+    "name" : "updateProtect",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.UpdateProtectV2.updateProtect"
+  }, {
+    "name" : "nodes",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.UpdateProtectV2.nodes"
+  }, {
+    "name" : "isProtected",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.UpdateProtectV2.isProtected"
+  } ],
+  "desc_key" : "as.UpdateProtectV2.desc"
+}

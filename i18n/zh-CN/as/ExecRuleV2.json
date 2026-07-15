@@ -1,0 +1,7 @@
+{
+  "ExecRuleV2" : {
+    "groupId" : "伸缩组 ID",
+    "execRule" : "接口执行的动作，本接口中取值为execRule",
+    "ruleId" : "伸缩组规则的 ID"
+  }
+}

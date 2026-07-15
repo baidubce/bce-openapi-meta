@@ -1,0 +1,49 @@
+{
+  "name" : "ListTaskV2",
+  "method" : "GET",
+  "uri" : "/v1/task",
+  "parameters" : [ {
+    "name" : "groupid",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.ListTaskV2.groupid"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "as.ListTaskV2.order"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.ListTaskV2.orderBy"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.ListTaskV2.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "as.ListTaskV2.pageSize"
+  }, {
+    "name" : "startTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "as.ListTaskV2.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "as.ListTaskV2.endTime"
+  } ],
+  "desc_key" : "as.ListTaskV2.desc"
+}

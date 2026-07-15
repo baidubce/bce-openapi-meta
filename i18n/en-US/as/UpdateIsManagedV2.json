@@ -1,0 +1,8 @@
+{
+  "UpdateIsManagedV2" : {
+    "groupId" : "scaling group ID",
+    "updateIsManaged" : "action performed by the interface, value for this interface is updateIsManaged",
+    "addManagedNodeIds" : "list of nodes to add to managed",
+    "delManagedNodeIds" : "list of nodes to remove from managed"
+  }
+}

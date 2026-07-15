@@ -1,0 +1,11 @@
+{
+  "ListAsGroupV2" : {
+    "keyword" : "Keyword; when filtering by tag, fill tagValue in this field",
+    "keywordType" : "Keyword field type; when filtering by tag, fill \"tag\"",
+    "subKeywordType" : "Sub-keyword type; when filtering by tag, fill tagKey in this field",
+    "order" : "Sort order, e.g. desc",
+    "orderBy" : "Sort field, e.g. createTime",
+    "pageNo" : "Page number",
+    "pageSize" : "Number of results returned per page"
+  }
+}

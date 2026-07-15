@@ -1,0 +1,25 @@
+{
+  "name" : "ExecRuleV2",
+  "method" : "POST",
+  "uri" : "/v2/group/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "as.ExecRuleV2.groupId"
+  }, {
+    "name" : "execRule",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.ExecRuleV2.execRule"
+  }, {
+    "name" : "ruleId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.ExecRuleV2.ruleId"
+  } ],
+  "desc_key" : "as.ExecRuleV2.desc"
+}

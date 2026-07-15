@@ -1,0 +1,37 @@
+{
+  "name" : "ScalingUpV2",
+  "method" : "POST",
+  "uri" : "/v2/group/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "as.ScalingUpV2.groupId"
+  }, {
+    "name" : "scalingUp",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.ScalingUpV2.scalingUp"
+  }, {
+    "name" : "nodeCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.ScalingUpV2.nodeCount"
+  }, {
+    "name" : "zone",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.ScalingUpV2.zone"
+  }, {
+    "name" : "expansionStrategy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.ScalingUpV2.expansionStrategy"
+  } ],
+  "desc_key" : "as.ScalingUpV2.desc"
+}

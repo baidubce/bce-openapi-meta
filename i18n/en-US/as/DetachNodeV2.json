@@ -1,0 +1,7 @@
+{
+  "DetachNodeV2" : {
+    "groupId" : "Scaling group ID",
+    "detachNode" : "Action performed by the interface, value is detachNode for this API",
+    "nodes" : "List of short IDs of instances to be removed"
+  }
+}

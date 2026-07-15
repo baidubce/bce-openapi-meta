@@ -1,0 +1,7 @@
+{
+  "AdjustNumV2" : {
+    "groupId" : "伸缩组 ID",
+    "adjustNode" : "接口执行的动作，本接口取值为adjustNode",
+    "adjustNum" : "期望调整到的节点数"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ListAsNodeV2" : {
+    "groupid" : "Auto scaling group ID",
+    "keyword" : "Keyword field",
+    "keywordType" : "Keyword type, optional values: instanceId, instanceName",
+    "order" : "Sort order, desc",
+    "orderBy" : "Sort field, createTime",
+    "pageNo" : "Page number",
+    "pageSize" : "Page size"
+  }
+}

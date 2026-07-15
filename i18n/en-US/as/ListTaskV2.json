@@ -1,0 +1,11 @@
+{
+  "ListTaskV2" : {
+    "groupid" : "Scaling group ID",
+    "order" : "Sort order (ascending: asc, descending: desc)",
+    "orderBy" : "Sort key, currently only supports: startTime",
+    "pageNo" : "Page number",
+    "pageSize" : "Page size, default 1000",
+    "startTime" : "Activity start time, format: 2022-03-15T10:30:00Z, unconstrained if not specified",
+    "endTime" : "Activity end time, format: 2022-03-15T10:30:00Z, unconstrained if not specified"
+  }
+}

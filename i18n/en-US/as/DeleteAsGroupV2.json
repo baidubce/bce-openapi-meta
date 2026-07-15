@@ -1,0 +1,5 @@
+{
+  "DeleteAsGroupV2" : {
+    "groupIds" : "List of scaling group IDs"
+  }
+}

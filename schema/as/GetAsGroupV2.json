@@ -1,0 +1,13 @@
+{
+  "name" : "GetAsGroupV2",
+  "method" : "GET",
+  "uri" : "/v1/group/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "as.GetAsGroupV2.groupId"
+  } ],
+  "desc_key" : "as.GetAsGroupV2.desc"
+}

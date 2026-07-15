@@ -1,0 +1,7 @@
+{
+  "DetachNodeV2" : {
+    "groupId" : "伸缩组 ID",
+    "detachNode" : "接口执行的动作，本接口取值为detachNode",
+    "nodes" : "待移出实例短id列表"
+  }
+}

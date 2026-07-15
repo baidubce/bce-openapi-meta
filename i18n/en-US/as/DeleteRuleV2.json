@@ -1,0 +1,5 @@
+{
+  "DeleteRuleV2" : {
+    "ruleId" : "The unique identifier of the rule to be deleted."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ScalingDownV2" : {
+    "groupId" : "Scaling group ID",
+    "scalingDown" : "Action performed by this API, fixed value: scalingDown",
+    "nodes" : "List of nodes expected to be scaled down"
+  }
+}

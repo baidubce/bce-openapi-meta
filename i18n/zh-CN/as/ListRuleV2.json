@@ -1,0 +1,11 @@
+{
+  "ListRuleV2" : {
+    "groupid" : "伸缩组ID",
+    "keyword" : "过滤规则的关键词",
+    "keywordType" : "关键词的类型。包括：ruleId, ruleName",
+    "order" : "规则的顺序，默认为desc",
+    "orderBy" : "排序规则的字段，默认为createTime",
+    "pageNo" : "页码，默认为1",
+    "pageSize" : "页面大小，默认为1000"
+  }
+}

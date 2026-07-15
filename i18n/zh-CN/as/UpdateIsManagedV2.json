@@ -1,0 +1,8 @@
+{
+  "UpdateIsManagedV2" : {
+    "groupId" : "伸缩组id",
+    "updateIsManaged" : "接口执行的动作，本接口取值为updateIsManaged",
+    "addManagedNodeIds" : "新增托管的节点列表",
+    "delManagedNodeIds" : "取消托管的节点列表"
+  }
+}

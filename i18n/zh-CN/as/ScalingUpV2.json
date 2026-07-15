@@ -1,0 +1,9 @@
+{
+  "ScalingUpV2" : {
+    "groupId" : "伸缩组 ID",
+    "scalingUp" : "接口动作",
+    "nodeCount" : "节点数量",
+    "zone" : "区域信息",
+    "expansionStrategy" : "扩容策略 ( Priority - 以单独可用区进行创建 ; Balanced - 在选定可用区中均衡创建)"
+  }
+}

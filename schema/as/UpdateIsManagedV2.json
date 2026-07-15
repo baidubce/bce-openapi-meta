@@ -1,0 +1,31 @@
+{
+  "name" : "UpdateIsManagedV2",
+  "method" : "PUT",
+  "uri" : "/v1/node/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "as.UpdateIsManagedV2.groupId"
+  }, {
+    "name" : "updateIsManaged",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "as.UpdateIsManagedV2.updateIsManaged"
+  }, {
+    "name" : "addManagedNodeIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.UpdateIsManagedV2.addManagedNodeIds"
+  }, {
+    "name" : "delManagedNodeIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.UpdateIsManagedV2.delManagedNodeIds"
+  } ],
+  "desc_key" : "as.UpdateIsManagedV2.desc"
+}

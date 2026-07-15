@@ -1,0 +1,7 @@
+{
+  "ScalingDownV2" : {
+    "groupId" : "伸缩组 ID",
+    "scalingDown" : "接口执行的动作，本接口取值为scalingDown",
+    "nodes" : "期望缩容的节点列表"
+  }
+}

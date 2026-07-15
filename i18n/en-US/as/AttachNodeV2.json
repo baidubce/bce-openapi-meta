@@ -1,0 +1,7 @@
+{
+  "AttachNodeV2" : {
+    "groupId" : "Scaling group ID",
+    "attachNode" : "Action performed by the API, fixed value for this API is attachNode",
+    "nodes" : "List of nodes to be added"
+  }
+}

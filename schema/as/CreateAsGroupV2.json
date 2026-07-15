@@ -1,0 +1,642 @@
+{
+  "name" : "CreateAsGroupV2",
+  "method" : "POST",
+  "uri" : "/v2/group",
+  "parameters" : [ {
+    "name" : "groupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.groupName"
+  }, {
+    "name" : "zoneInfo",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.zoneInfo",
+    "sub_parameters" : [ {
+      "name" : "zone",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.zoneInfo.zone"
+    }, {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.zoneInfo.subnetId"
+    }, {
+      "name" : "subnetUuid",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.zoneInfo.subnetUuid"
+    }, {
+      "name" : "subnetName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.zoneInfo.subnetName"
+    }, {
+      "name" : "subnetType",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.zoneInfo.subnetType"
+    }, {
+      "name" : "nodeCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.zoneInfo.nodeCount"
+    } ]
+  }, {
+    "name" : "config",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.config",
+    "sub_parameters" : [ {
+      "name" : "minNodeNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.config.minNodeNum"
+    }, {
+      "name" : "maxNodeNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.config.maxNodeNum"
+    }, {
+      "name" : "cooldownInSec",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.config.cooldownInSec"
+    }, {
+      "name" : "expectNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.config.expectNum"
+    }, {
+      "name" : "initNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.config.initNum"
+    } ]
+  }, {
+    "name" : "keypairId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.keypairId"
+  }, {
+    "name" : "keypairName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.keypairName"
+  }, {
+    "name" : "keepImageLogin",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.keepImageLogin"
+  }, {
+    "name" : "blb",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.blb",
+    "sub_parameters" : [ {
+      "name" : "blbId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.blb.blbId"
+    }, {
+      "name" : "blbName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.blb.blbName"
+    }, {
+      "name" : "blbType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.blb.blbType"
+    }, {
+      "name" : "sgIds",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.blb.sgIds"
+    } ]
+  }, {
+    "name" : "blbUnbindWaitTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.blbUnbindWaitTime"
+  }, {
+    "name" : "nodes",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.nodes",
+    "sub_parameters" : [ {
+      "name" : "spec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.spec"
+    }, {
+      "name" : "cpuCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.cpuCount"
+    }, {
+      "name" : "memoryCapacityInGB",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.memoryCapacityInGB"
+    }, {
+      "name" : "sysDiskType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.sysDiskType"
+    }, {
+      "name" : "sysDiskInGB",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.sysDiskInGB"
+    }, {
+      "name" : "billing",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.billing",
+      "sub_parameters" : [ {
+        "name" : "paymentTiming",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.nodes.billing.paymentTiming"
+      }, {
+        "name" : "reservation",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.nodes.billing.reservation",
+        "sub_parameters" : [ {
+          "name" : "reservationLengthInMonth",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "as.CreateAsGroupV2.nodes.billing.reservation.reservationLengthInMonth"
+        } ]
+      } ]
+    }, {
+      "name" : "bidModel",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.bidModel"
+    }, {
+      "name" : "bidPrice",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.bidPrice"
+    }, {
+      "name" : "ephemeralDisks",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.ephemeralDisks",
+      "sub_parameters" : [ {
+        "name" : "storageType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.nodes.ephemeralDisks.storageType"
+      }, {
+        "name" : "sizeInGB",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.nodes.ephemeralDisks.sizeInGB"
+      } ]
+    }, {
+      "name" : "instanceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.instanceType"
+    }, {
+      "name" : "gpuCard",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.gpuCard"
+    }, {
+      "name" : "gpuCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.gpuCount"
+    }, {
+      "name" : "fpgaCard",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.fpgaCard"
+    }, {
+      "name" : "fpgaCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.fpgaCount"
+    }, {
+      "name" : "containsFpga",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.containsFpga"
+    }, {
+      "name" : "kunlunCard",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.kunlunCard"
+    }, {
+      "name" : "kunlunCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.kunlunCount"
+    }, {
+      "name" : "imageType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.imageType"
+    }, {
+      "name" : "imageId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.imageId"
+    }, {
+      "name" : "imageName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.imageName"
+    }, {
+      "name" : "osType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.osType"
+    }, {
+      "name" : "osName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.osName"
+    }, {
+      "name" : "osVersion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.osVersion"
+    }, {
+      "name" : "osArch",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.osArch"
+    }, {
+      "name" : "securityGroupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.securityGroupId"
+    }, {
+      "name" : "adminPass",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.adminPass"
+    }, {
+      "name" : "adminPassType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.adminPassType"
+    }, {
+      "name" : "securityGroupName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.securityGroupName"
+    }, {
+      "name" : "totalCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.totalCount"
+    }, {
+      "name" : "aspId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.aspId"
+    }, {
+      "name" : "cds",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.cds",
+      "sub_parameters" : [ {
+        "name" : "volumeType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.nodes.cds.volumeType"
+      }, {
+        "name" : "sizeInGB",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.nodes.cds.sizeInGB"
+      }, {
+        "name" : "snapshotId",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.nodes.cds.snapshotId"
+      }, {
+        "name" : "snapshotName",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.nodes.cds.snapshotName"
+      } ]
+    }, {
+      "name" : "zoneSubnet",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.zoneSubnet"
+    }, {
+      "name" : "userData",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.userData"
+    }, {
+      "name" : "priorities",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.priorities"
+    }, {
+      "name" : "templateId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.nodes.templateId"
+    } ]
+  }, {
+    "name" : "eip",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.eip",
+    "sub_parameters" : [ {
+      "name" : "ifBindEip",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.eip.ifBindEip"
+    }, {
+      "name" : "bandwidthInMbps",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.eip.bandwidthInMbps"
+    }, {
+      "name" : "eipProductType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.eip.eipProductType"
+    }, {
+      "name" : "purchaseType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.eip.purchaseType"
+    } ]
+  }, {
+    "name" : "eipConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.eipConfig",
+    "sub_parameters" : [ {
+      "name" : "eipGroupBindStrategy",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.eipConfig.eipGroupBindStrategy"
+    }, {
+      "name" : "eipGroupUnbindStrategy",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.eipConfig.eipGroupUnbindStrategy"
+    }, {
+      "name" : "eipGroupIdList",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.eipConfig.eipGroupIdList"
+    }, {
+      "name" : "increase",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.eipConfig.increase",
+      "sub_parameters" : [ {
+        "name" : "enabled",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.eipConfig.increase.enabled"
+      }, {
+        "name" : "strategy",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.eipConfig.increase.strategy"
+      } ]
+    }, {
+      "name" : "decrease",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.eipConfig.decrease",
+      "sub_parameters" : [ {
+        "name" : "enabled",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.eipConfig.decrease.enabled"
+      } ]
+    }, {
+      "name" : "bandwidth",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.eipConfig.bandwidth",
+      "sub_parameters" : [ {
+        "name" : "max",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.eipConfig.bandwidth.max"
+      }, {
+        "name" : "min",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.eipConfig.bandwidth.min"
+      }, {
+        "name" : "standard",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.eipConfig.bandwidth.standard"
+      } ]
+    } ]
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLengthInMonth",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.billing.reservation.reservationLengthInMonth"
+      } ]
+    } ]
+  }, {
+    "name" : "rds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.rds"
+  }, {
+    "name" : "scs",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.scs"
+  }, {
+    "name" : "healthCheck",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.healthCheck",
+    "sub_parameters" : [ {
+      "name" : "healthCheckInterval",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.healthCheck.healthCheckInterval"
+    }, {
+      "name" : "graceTime",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.healthCheck.graceTime"
+    } ]
+  }, {
+    "name" : "expansionStrategy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.expansionStrategy"
+  }, {
+    "name" : "shrinkageStrategy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.shrinkageStrategy"
+  }, {
+    "name" : "assignTagInfo",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.assignTagInfo",
+    "sub_parameters" : [ {
+      "name" : "resourceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.assignTagInfo.resourceId"
+    }, {
+      "name" : "relationTag",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.assignTagInfo.relationTag"
+    }, {
+      "name" : "tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.assignTagInfo.tags",
+      "sub_parameters" : [ {
+        "name" : "tagKey",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.assignTagInfo.tags.tagKey"
+      }, {
+        "name" : "tagValue",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "as.CreateAsGroupV2.assignTagInfo.tags.tagValue"
+      } ]
+    } ]
+  }, {
+    "name" : "cmdConfig",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.cmdConfig",
+    "sub_parameters" : [ {
+      "name" : "hasDecreaseCmd",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.cmdConfig.hasDecreaseCmd"
+    }, {
+      "name" : "decCmdStrategy",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.cmdConfig.decCmdStrategy"
+    }, {
+      "name" : "decCmdData",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.cmdConfig.decCmdData"
+    }, {
+      "name" : "decCmdTimeout",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.cmdConfig.decCmdTimeout"
+    }, {
+      "name" : "decCmdManual",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.cmdConfig.decCmdManual"
+    }, {
+      "name" : "hasIncreaseCmd",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.cmdConfig.hasIncreaseCmd"
+    }, {
+      "name" : "incCmdStrategy",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.cmdConfig.incCmdStrategy"
+    }, {
+      "name" : "incCmdData",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.cmdConfig.incCmdData"
+    }, {
+      "name" : "incCmdTimeout",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.cmdConfig.incCmdTimeout"
+    }, {
+      "name" : "incCmdManual",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.cmdConfig.incCmdManual"
+    } ]
+  }, {
+    "name" : "bccNameConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "as.CreateAsGroupV2.bccNameConfig",
+    "sub_parameters" : [ {
+      "name" : "bccName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.bccNameConfig.bccName"
+    }, {
+      "name" : "bccHostname",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.bccNameConfig.bccHostname"
+    }, {
+      "name" : "autoSeqSuffix",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.bccNameConfig.autoSeqSuffix"
+    }, {
+      "name" : "openHostnameDomain",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "as.CreateAsGroupV2.bccNameConfig.openHostnameDomain"
+    } ]
+  } ],
+  "desc_key" : "as.CreateAsGroupV2.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "AdjustNumV2" : {
+    "groupId" : "Scaling group ID",
+    "adjustNode" : "Action performed by the API, value for this API is adjustNode",
+    "adjustNum" : "Desired number of nodes to scale to"
+  }
+}

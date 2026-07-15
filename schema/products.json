@@ -236,5 +236,15 @@
       "su" : "oos.su.baidubce.com",
       "yq" : "oos.yq.baidubce.com"
     }
+  }, {
+    "code" : "as",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "as.bd.baidubce.com",
+      "bj" : "as.bj.baidubce.com",
+      "fwh" : "as.fwh.baidubce.com",
+      "gz" : "as.gz.baidubce.com",
+      "su" : "as.su.baidubce.com"
+    }
   } ]
 }

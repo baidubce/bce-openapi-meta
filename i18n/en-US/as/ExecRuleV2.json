@@ -1,0 +1,7 @@
+{
+  "ExecRuleV2" : {
+    "groupId" : "Scaling group ID",
+    "execRule" : "Action executed by the API, value is execRule in this interface",
+    "ruleId" : "ID of the scaling group rule"
+  }
+}

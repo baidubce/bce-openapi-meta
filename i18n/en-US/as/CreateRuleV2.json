@@ -1,0 +1,32 @@
+{
+  "CreateRuleV2" : {
+    "ruleName" : "Rule name",
+    "groupId" : "Scaling group ID",
+    "state" : "Rule state. Options: ENABLE(enabled), DISABLE(disabled)",
+    "type" : "Rule type. Options: CRONTAB(scheduled scaling), ALARM(alarm-triggered scaling), PERIOD(periodic scaling)",
+    "actionType" : "Action type. Options: INCREASE(scale out), DECREASE(scale in), ADJUST(adjust to)",
+    "actionNum" : "Action quantity",
+    "cronTime" : "Scheduled or periodic rule: execution time of the day, e.g. 12:30",
+    "cooldownInSec" : "Cooldown period (seconds)",
+    "periodType" : "Periodic rule: period unit, options: DAY/WEEK/MONTH/CronExpression",
+    "periodValue" : "Periodic rule: trigger date within the period; 1-7 for Mon-Sun, 1-31 for day of month; depends on periodType",
+    "periodStartTime" : "Periodic rule: start time of the validity period, e.g. 2023-12-10T12:00:00Z",
+    "periodEndTime" : "Periodic rule: end time of the validity period, e.g. 2023-12-11T12:00:00Z",
+    "asAlarmRule" : "Alarm rule: alarm rule details, see appendix",
+    "asAlarmRule.id" : "Policy ID",
+    "asAlarmRule.scope" : "Product the policy belongs to",
+    "asAlarmRule.monitorObject" : "Policy instance information",
+    "asAlarmRule.rules" : "Judgment rules for the scaling group rule; supports AND and OR logic",
+    "asAlarmRule.alarmName" : "BCM policy ID; pass the unique ID of an existing BCM policy when reusing one",
+    "asAlarmRule.aliasName" : "BCM policy alias",
+    "asAlarmRule.insufficientCycle" : "Duration (in seconds) to trigger on no-data state",
+    "asAlarmRule.policyEnabled" : "Policy state",
+    "asAlarmRule.ruleContents" : "Chinese description of the alarm rule content",
+    "asAlarmRule.ruleContentsEn" : "English description of the alarm rule content",
+    "asAlarmRule.source" : "Source from which the alarm policy was created",
+    "asAlarmRule.componentType" : "Business component that the alarm policy originates from",
+    "asAlarmRule.alarmActions" : "Alarm actions",
+    "asAlarmRule.okActions" : "List of actions to execute when the alarm recovers",
+    "asAlarmRule.insufficientActions" : "List of actions to execute when data is insufficient"
+  }
+}
