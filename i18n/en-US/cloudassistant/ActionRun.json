@@ -1,0 +1,13 @@
+{
+  "ActionRun" : {
+    "locale" : "Language, default zh-cn",
+    "action" : "Command to execute, only the id is required",
+    "parameters" : "Parameter values for command execution, required only when the command has parameters",
+    "targetSelectorType" : "Instance selector type, required only when the action is Execute or Save and Execute. Default: INSTANCES_LIST. Options: INSTANCES_LIST (instance list), ALL_INSTANCES (all instances), TAG_INSTANCES (instance tag selection), INSTANCES_IMPORT (instance list import)",
+    "targets" : "List of instance IDs, required only when targetSelectorType is INSTANCES_LIST",
+    "targetSelector" : "Instance selector",
+    "targetSelector.instanceType" : "Instance type. Enum values: BCC, BBC",
+    "targetSelector.tags" : "List of instance tags",
+    "targetSelector.importInstances" : ""
+  }
+}

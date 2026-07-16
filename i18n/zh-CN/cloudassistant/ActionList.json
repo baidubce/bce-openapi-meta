@@ -1,0 +1,13 @@
+{
+  "ActionList" : {
+    "locale" : "语言，默认 zh-CN",
+    "pageNo" : "页码",
+    "pageSize" : "页大小",
+    "sort" : "排序字段，可选值createTime（命令创建时间）",
+    "ascending" : "是否升序，默认false",
+    "action" : "命令过滤器",
+    "action.type" : "Action类型",
+    "action.command" : "执行动作详情",
+    "action.instanceType" : "实例类型"
+  }
+}

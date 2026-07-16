@@ -1,0 +1,47 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "cloudassistant",
+  "apis" : {
+    "GetAction" : {
+      "title" : "getAction",
+      "summary" : "getAction"
+    },
+    "BatchGetAgent" : {
+      "title" : "batchGetAgent",
+      "summary" : "batchGetAgent"
+    },
+    "ActionList" : {
+      "title" : "actionList",
+      "summary" : "actionList"
+    },
+    "UpdateAction" : {
+      "title" : "updateAction",
+      "summary" : "updateAction"
+    },
+    "ActionLog" : {
+      "title" : "actionLog",
+      "summary" : "actionLog"
+    },
+    "GetActionRun" : {
+      "title" : "getActionRun",
+      "summary" : "getActionRun"
+    },
+    "ActionRunList" : {
+      "title" : "actionRunList",
+      "summary" : "actionRunList"
+    },
+    "ActionRun" : {
+      "title" : "actionRun",
+      "summary" : "actionRun"
+    },
+    "DeleteAction" : {
+      "title" : "deleteAction",
+      "summary" : "deleteAction"
+    },
+    "CreateAction" : {
+      "title" : "createAction",
+      "summary" : "createAction"
+    }
+  }
+}

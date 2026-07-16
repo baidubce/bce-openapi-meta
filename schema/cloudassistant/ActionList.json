@@ -1,0 +1,82 @@
+{
+  "name" : "ActionList",
+  "method" : "POST",
+  "uri" : "/v{version}/ca/action/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.ActionList.locale"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionList.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionList.pageSize"
+  }, {
+    "name" : "sort",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionList.sort"
+  }, {
+    "name" : "ascending",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionList.ascending"
+  }, {
+    "name" : "action",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionList.action",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionList.action.type"
+    }, {
+      "name" : "command",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionList.action.command",
+      "sub_parameters" : [ {
+        "name" : "scope",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.ActionList.action.command.scope"
+      }, {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.ActionList.action.command.name"
+      }, {
+        "name" : "type",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.ActionList.action.command.type"
+      } ]
+    }, {
+      "name" : "instanceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionList.action.instanceType"
+    } ]
+  } ],
+  "desc_key" : "cloudassistant.ActionList.desc"
+}

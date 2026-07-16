@@ -1,0 +1,13 @@
+{
+  "ActionList" : {
+    "locale" : "Language, default zh-CN",
+    "pageNo" : "Page number",
+    "pageSize" : "Page size",
+    "sort" : "Sort field, optional value: createTime (command creation time)",
+    "ascending" : "Whether to sort ascending, default false",
+    "action" : "Command filter",
+    "action.type" : "Action type",
+    "action.command" : "Action execution details",
+    "action.instanceType" : "Instance type"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ActionRunList" : {
+    "locale" : "Language, default zh-CN",
+    "pageNo" : "Page number",
+    "pageSize" : "Page size",
+    "sort" : "Sort field",
+    "ascending" : "Whether to sort in ascending order, default false",
+    "action" : "Details of the executed action",
+    "action.type" : "Type, optional values: COMMAND, FILE_UPLOAD",
+    "action.id" : "Command ID, only available for saved commands",
+    "action.name" : "Command name, only available for saved commands",
+    "action.command" : "Command details",
+    "action.fileUpload" : "File upload details",
+    "state" : "Filter by execution status. Enum values: FAILED (execution failed), RUNNING (executing), SUCCESS (execution succeeded)",
+    "runId" : "Filter by execution ID",
+    "startTime" : "Time filter, Unix timestamp (ms). Execution start time >= startTime, Unix timestamp (ms)",
+    "endTime" : "Time filter, Unix timestamp (ms). Execution start time <= endTime, Unix timestamp (ms)"
+  }
+}

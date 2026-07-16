@@ -1,0 +1,19 @@
+{
+  "ActionRunList" : {
+    "locale" : "语言，默认 zh-CN",
+    "pageNo" : "页码",
+    "pageSize" : "页大小",
+    "sort" : "排序字段",
+    "ascending" : "是否升序，默认false",
+    "action" : "所执行动作详情",
+    "action.type" : "类型，可选值：COMMAND，FILE_UPLOAD",
+    "action.id" : "命令 ID，仅被保存的命令拥有",
+    "action.name" : "命令名称，仅被保存的命令拥有",
+    "action.command" : "命令详情",
+    "action.fileUpload" : "文件上传详情",
+    "state" : "根据执行状态过滤。枚举值：FAILED（执行失败），RUNNING（执行中），SUCCESS（执行完成）",
+    "runId" : "根据执行ID过滤",
+    "startTime" : "时间筛选，Unix时间戳（毫秒）。执行开始时间 >= endTime,Unix时间戳（毫秒）",
+    "endTime" : "时间筛选，Unix时间戳（毫秒）。执行开始时间 <= endTime，Unix时间戳（毫秒）"
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "name" : "CreateAction",
+  "method" : "POST",
+  "uri" : "/v{version}/ca/action",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "execution",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.CreateAction.execution"
+  }, {
+    "name" : "action",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.CreateAction.action",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.id"
+    }, {
+      "name" : "ref",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.ref"
+    }, {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.type"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.name"
+    }, {
+      "name" : "alias",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.alias"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.description"
+    }, {
+      "name" : "timeoutSecond",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.timeoutSecond"
+    }, {
+      "name" : "command",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.command",
+      "sub_parameters" : [ {
+        "name" : "type",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.command.type"
+      }, {
+        "name" : "content",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.command.content"
+      }, {
+        "name" : "scope",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.command.scope"
+      }, {
+        "name" : "enableParameter",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.command.enableParameter"
+      }, {
+        "name" : "parameters",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.command.parameters",
+        "sub_parameters" : [ {
+          "name" : "name",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cloudassistant.CreateAction.action.command.parameters.name"
+        }, {
+          "name" : "desc",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cloudassistant.CreateAction.action.command.parameters.desc"
+        }, {
+          "name" : "required",
+          "type" : "Boolean",
+          "required" : false,
+          "desc_key" : "cloudassistant.CreateAction.action.command.parameters.required"
+        }, {
+          "name" : "defaultValue",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "cloudassistant.CreateAction.action.command.parameters.defaultValue"
+        } ]
+      }, {
+        "name" : "user",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.command.user"
+      }, {
+        "name" : "workDir",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.command.workDir"
+      }, {
+        "name" : "execParams",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.command.execParams"
+      }, {
+        "name" : "waitOnAgentMilli",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.command.waitOnAgentMilli"
+      } ]
+    }, {
+      "name" : "fileUpload",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.fileUpload",
+      "sub_parameters" : [ {
+        "name" : "os",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.os"
+      }, {
+        "name" : "content",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.content"
+      }, {
+        "name" : "filename",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.filename"
+      }, {
+        "name" : "filepath",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.filepath"
+      }, {
+        "name" : "bosBucketName",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.bosBucketName"
+      }, {
+        "name" : "bosFilePath",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.bosFilePath"
+      }, {
+        "name" : "bosEtag",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.bosEtag"
+      }, {
+        "name" : "user",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.user"
+      }, {
+        "name" : "group",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.group"
+      }, {
+        "name" : "mode",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.mode"
+      }, {
+        "name" : "overwrite",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.action.fileUpload.overwrite"
+      } ]
+    }, {
+      "name" : "supportedInstanceTypes",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.supportedInstanceTypes"
+    }, {
+      "name" : "createdTimestamp",
+      "type" : "Long",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.createdTimestamp"
+    }, {
+      "name" : "updatedTimestamp",
+      "type" : "Long",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.action.updatedTimestamp"
+    } ]
+  }, {
+    "name" : "parameters",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.CreateAction.parameters"
+  }, {
+    "name" : "targetSelectorType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.CreateAction.targetSelectorType"
+  }, {
+    "name" : "targets",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.CreateAction.targets",
+    "sub_parameters" : [ {
+      "name" : "instanceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.targets.instanceType"
+    }, {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.targets.instanceId"
+    }, {
+      "name" : "instanceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.targets.instanceName"
+    }, {
+      "name" : "internalIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.targets.internalIp"
+    }, {
+      "name" : "externalIp",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.targets.externalIp"
+    }, {
+      "name" : "bandwidth",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.targets.bandwidth"
+    } ]
+  }, {
+    "name" : "targetSelector",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.CreateAction.targetSelector",
+    "sub_parameters" : [ {
+      "name" : "instanceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.targetSelector.instanceType"
+    }, {
+      "name" : "tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.targetSelector.tags",
+      "sub_parameters" : [ {
+        "name" : "tagKey",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.targetSelector.tags.tagKey"
+      }, {
+        "name" : "tagValue",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.targetSelector.tags.tagValue"
+      } ]
+    }, {
+      "name" : "importInstances",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cloudassistant.CreateAction.targetSelector.importInstances",
+      "sub_parameters" : [ {
+        "name" : "keywordType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.targetSelector.importInstances.keywordType"
+      }, {
+        "name" : "instances",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cloudassistant.CreateAction.targetSelector.importInstances.instances"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "cloudassistant.CreateAction.desc"
+}

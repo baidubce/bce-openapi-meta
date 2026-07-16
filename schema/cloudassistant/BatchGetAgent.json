@@ -1,0 +1,26 @@
+{
+  "name" : "BatchGetAgent",
+  "method" : "POST",
+  "uri" : "/v{version}/ca/agent/batch",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "hosts",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.BatchGetAgent.hosts",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.BatchGetAgent.hosts.instanceId"
+    } ]
+  } ],
+  "desc_key" : "cloudassistant.BatchGetAgent.desc"
+}

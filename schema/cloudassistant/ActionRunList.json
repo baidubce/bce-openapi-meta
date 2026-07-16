@@ -1,0 +1,100 @@
+{
+  "name" : "ActionRunList",
+  "method" : "POST",
+  "uri" : "/v{version}/ca/actionRun/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.ActionRunList.locale"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRunList.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRunList.pageSize"
+  }, {
+    "name" : "sort",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRunList.sort"
+  }, {
+    "name" : "ascending",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRunList.ascending"
+  }, {
+    "name" : "action",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRunList.action",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionRunList.action.type"
+    }, {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionRunList.action.id"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionRunList.action.name"
+    }, {
+      "name" : "command",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionRunList.action.command"
+    }, {
+      "name" : "fileUpload",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionRunList.action.fileUpload"
+    } ]
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRunList.state"
+  }, {
+    "name" : "runId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRunList.runId"
+  }, {
+    "name" : "startTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRunList.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRunList.endTime"
+  } ],
+  "desc_key" : "cloudassistant.ActionRunList.desc"
+}

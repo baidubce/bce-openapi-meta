@@ -1,0 +1,88 @@
+{
+  "name" : "ActionRun",
+  "method" : "POST",
+  "uri" : "/v{version}/ca/actionRun",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.ActionRun.locale"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRun.action"
+  }, {
+    "name" : "parameters",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRun.parameters"
+  }, {
+    "name" : "targetSelectorType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRun.targetSelectorType"
+  }, {
+    "name" : "targets",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRun.targets"
+  }, {
+    "name" : "targetSelector",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cloudassistant.ActionRun.targetSelector",
+    "sub_parameters" : [ {
+      "name" : "instanceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionRun.targetSelector.instanceType"
+    }, {
+      "name" : "tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionRun.targetSelector.tags",
+      "sub_parameters" : [ {
+        "name" : "tagKey",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.ActionRun.targetSelector.tags.tagKey"
+      }, {
+        "name" : "tagValue",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.ActionRun.targetSelector.tags.tagValue"
+      } ]
+    }, {
+      "name" : "importInstances",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionRun.targetSelector.importInstances",
+      "sub_parameters" : [ {
+        "name" : "keywordType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.ActionRun.targetSelector.importInstances.keywordType"
+      }, {
+        "name" : "instances",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "cloudassistant.ActionRun.targetSelector.importInstances.instances"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "cloudassistant.ActionRun.desc"
+}

@@ -1,0 +1,47 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "云助手",
+  "apis" : {
+    "GetAction" : {
+      "title" : "查询命令详情",
+      "summary" : "查询命令详情"
+    },
+    "BatchGetAgent" : {
+      "title" : "批量获取实例内bsm-agent状态",
+      "summary" : "批量获取实例内bsm-agent状态"
+    },
+    "ActionList" : {
+      "title" : "命令列表查询",
+      "summary" : "命令列表查询"
+    },
+    "UpdateAction" : {
+      "title" : "修改我的命令",
+      "summary" : "修改我的命令"
+    },
+    "ActionLog" : {
+      "title" : "查询日记记录",
+      "summary" : "查询日记记录"
+    },
+    "GetActionRun" : {
+      "title" : "查询执行历史记录详情",
+      "summary" : "查询执行历史记录详情"
+    },
+    "ActionRunList" : {
+      "title" : "查询执行记录列表",
+      "summary" : "查询执行记录列表"
+    },
+    "ActionRun" : {
+      "title" : "执行命令",
+      "summary" : "执行命令"
+    },
+    "DeleteAction" : {
+      "title" : "删除命令",
+      "summary" : "删除命令"
+    },
+    "CreateAction" : {
+      "title" : "创建命令",
+      "summary" : "创建命令"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "GetActionRun" : {
+    "id" : "Execution ID",
+    "withLog" : "Whether to include execution logs for each sub-run in the detail response",
+    "pageNo" : "Page number for sub-run records, default 1",
+    "pageSize" : "Page size for sub-run records, default 10, max 100",
+    "childRunState" : "Filter sub-run records by state. Enum: FAILED (execution failed), RUNNING (in progress), SUCCESS (execution completed)",
+    "locale" : "Language, default zh-CN"
+  }
+}

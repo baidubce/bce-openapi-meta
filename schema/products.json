@@ -246,5 +246,18 @@
       "gz" : "as.gz.baidubce.com",
       "su" : "as.su.baidubce.com"
     }
+  }, {
+    "code" : "cloudassistant",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "ca.bd.baidubce.com",
+      "bj" : "ca.bj.baidubce.com",
+      "cd" : "ca.cd.baidubce.com",
+      "fwh" : "ca.fwh.baidubce.com",
+      "gz" : "ca.gz.baidubce.com",
+      "hkg" : "ca.hkg.baidubce.com",
+      "su" : "ca.su.baidubce.com",
+      "yq" : "ca.yq.baidubce.com"
+    }
   } ]
 }

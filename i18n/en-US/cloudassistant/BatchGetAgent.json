@@ -1,0 +1,6 @@
+{
+  "BatchGetAgent" : {
+    "hosts" : "VM list",
+    "hosts.instanceId" : "Instance ID, e.g. BCC instance ID: i-gVGDt***"
+  }
+}

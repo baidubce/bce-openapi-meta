@@ -1,0 +1,6 @@
+{
+  "GetAction" : {
+    "id" : "命令ID",
+    "locale" : "语言，默认 zh-cn，可选：zh-cn，en-us"
+  }
+}

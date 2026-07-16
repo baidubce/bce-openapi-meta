@@ -1,0 +1,50 @@
+{
+  "name" : "GetActionRun",
+  "method" : "GET",
+  "uri" : "/v{version}/ca/actionRun",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.GetActionRun.id"
+  }, {
+    "name" : "withLog",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.GetActionRun.withLog"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.GetActionRun.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.GetActionRun.pageSize"
+  }, {
+    "name" : "childRunState",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.GetActionRun.childRunState"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.GetActionRun.locale"
+  } ],
+  "desc_key" : "cloudassistant.GetActionRun.desc"
+}

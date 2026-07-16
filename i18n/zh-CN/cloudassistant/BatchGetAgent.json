@@ -1,0 +1,6 @@
+{
+  "BatchGetAgent" : {
+    "hosts" : "虚机列表",
+    "hosts.instanceId" : "实例id，如bcc实例id: i-gVGDt***"
+  }
+}

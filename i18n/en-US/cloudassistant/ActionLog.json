@@ -1,0 +1,7 @@
+{
+  "ActionLog" : {
+    "runId" : "Execution ID",
+    "childId" : "Sub-execution ID under a given execution ID",
+    "cursor" : "Set to 0 for the first request; for subsequent pagination, use the nextCursor value returned by the previous request"
+  }
+}

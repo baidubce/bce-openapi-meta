@@ -1,0 +1,26 @@
+{
+  "name" : "GetAction",
+  "method" : "GET",
+  "uri" : "/v{version}/ca/action",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.GetAction.id"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cloudassistant.GetAction.locale"
+  } ],
+  "desc_key" : "cloudassistant.GetAction.desc"
+}

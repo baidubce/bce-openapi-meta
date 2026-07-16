@@ -1,0 +1,6 @@
+{
+  "GetAction" : {
+    "id" : "Command ID",
+    "locale" : "Language, default zh-cn, options: zh-cn, en-us"
+  }
+}
