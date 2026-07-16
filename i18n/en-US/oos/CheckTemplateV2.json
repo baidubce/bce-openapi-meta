@@ -13,7 +13,7 @@
     "operators.tags" : "Task tag list",
     "operators.operator" : "Task ID/type identifier (e.g. BCE::BCC::StopInstance); cannot both be empty with template.ref",
     "operators.label" : "Task display name",
-    "operators.template" : "",
+    "operators.template" : "template",
     "operators.retries" : "Number of retries, default 0 (no retry)",
     "operators.retryInterval" : "Retry interval in milliseconds, default 300000 (5 minutes)",
     "operators.timeout" : "Timeout in milliseconds, default 21600000 (6 hours); timeout triggers a retry",

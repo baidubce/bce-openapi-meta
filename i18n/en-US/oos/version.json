@@ -3,34 +3,6 @@
   "style" : "rpc",
   "description" : "oos",
   "apis" : {
-    "DeleteTemplateV2" : {
-      "title" : "deleteTemplateV2",
-      "summary" : "deleteTemplateV2"
-    },
-    "GetExecutionListV2" : {
-      "title" : "getExecutionListV2",
-      "summary" : "getExecutionListV2"
-    },
-    "GetOperatorListV2" : {
-      "title" : "getOperatorListV2",
-      "summary" : "getOperatorListV2"
-    },
-    "GetTaskDetailV2" : {
-      "title" : "getTaskDetailV2",
-      "summary" : "getTaskDetailV2"
-    },
-    "GetTaskChildrenListV2" : {
-      "title" : "getTaskChildrenListV2",
-      "summary" : "getTaskChildrenListV2"
-    },
-    "CreateExecutionV2" : {
-      "title" : "createExecutionV2",
-      "summary" : "createExecutionV2"
-    },
-    "CheckTemplateV2" : {
-      "title" : "checkTemplateV2",
-      "summary" : "checkTemplateV2"
-    },
     "CreateTemplateV2" : {
       "title" : "createTemplateV2",
       "summary" : "createTemplateV2"
@@ -47,9 +19,37 @@
       "title" : "getTemplateListV2",
       "summary" : "getTemplateListV2"
     },
+    "CreateExecutionV2" : {
+      "title" : "createExecutionV2",
+      "summary" : "createExecutionV2"
+    },
     "GetExecutionDetailV2" : {
       "title" : "getExecutionDetailV2",
       "summary" : "getExecutionDetailV2"
+    },
+    "CheckTemplateV2" : {
+      "title" : "checkTemplateV2",
+      "summary" : "checkTemplateV2"
+    },
+    "GetExecutionListV2" : {
+      "title" : "getExecutionListV2",
+      "summary" : "getExecutionListV2"
+    },
+    "DeleteTemplateV2" : {
+      "title" : "deleteTemplateV2",
+      "summary" : "deleteTemplateV2"
+    },
+    "GetTaskDetailV2" : {
+      "title" : "getTaskDetailV2",
+      "summary" : "getTaskDetailV2"
+    },
+    "GetTaskChildrenListV2" : {
+      "title" : "getTaskChildrenListV2",
+      "summary" : "getTaskChildrenListV2"
+    },
+    "GetOperatorListV2" : {
+      "title" : "getOperatorListV2",
+      "summary" : "getOperatorListV2"
     }
   }
 }
