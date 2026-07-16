@@ -1,7 +1,7 @@
 {
   "UpdateBlbServer" : {
-    "blbId" : "Identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token, no more than 64 characters in length",
+    "blbId" : "Identifier of the associated LoadBalancer",
     "backendServerList" : "List of backend servers to be updated",
     "backendServerList.instanceId" : "Backend server identifier",
     "backendServerList.weight" : "Backend server weight, value range [0, 100]; a weight of 0 means no traffic will be forwarded to this backend server",

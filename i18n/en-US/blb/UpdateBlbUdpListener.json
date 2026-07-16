@@ -1,5 +1,6 @@
 {
   "UpdateBlbUdpListener" : {
+    "clientToken" : "Idempotency token, maximum length 64 characters",
     "blbId" : "Identifier of the associated LoadBalancer",
     "listenerPort" : "Listening port of the listener, must be an integer between 1 and 65535",
     "backendPort" : "Listening port of the backend server, must be an integer between 1 and 65535",

@@ -1,5 +1,6 @@
 {
   "UpdateBlbHttpsListener" : {
+    "clientToken" : "幂等性Token，长度不超过64位",
     "blbId" : "所属LoadBalancer的标识符",
     "listenerPort" : "要更新的监听器端口，需为1-65535间的整数",
     "backendPort" : "后端服务器的监听端口，需为1-65535间的整数",

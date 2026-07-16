@@ -1,7 +1,7 @@
 {
   "DeleteBlbListener" : {
-    "blbId" : "所属LoadBalancer的标识符",
     "clientToken" : "幂等性Token，长度不超过64位",
+    "blbId" : "所属LoadBalancer的标识符",
     "portList" : "所有待释放的监听器的端口，一起组成一个数组",
     "portTypeList" : "所有待释放的监听器的端口和协议，一起组成一个数组，如果开通了同端口多协议，并且只想删除其中一个协议，使用这个参数。portList和portTypeList至少传一个。",
     "portTypeList.port" : "监听端口",

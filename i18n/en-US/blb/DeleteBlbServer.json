@@ -1,7 +1,7 @@
 {
   "DeleteBlbServer" : {
-    "blbId" : "Identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token, up to 64 characters in length",
+    "blbId" : "Identifier of the associated LoadBalancer",
     "backendServerList" : "Array of identifiers for all backend servers to be released"
   }
 }

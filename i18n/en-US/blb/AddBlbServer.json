@@ -1,7 +1,7 @@
 {
   "AddBlbServer" : {
-    "blbId" : "Identifier of the associated LoadBalancer",
     "clientToken" : "Idempotency token, max length 64 characters",
+    "blbId" : "Identifier of the associated LoadBalancer",
     "backendServerList" : "List of backend servers to be added",
     "backendServerList.instanceId" : "Identifier of the backend server",
     "backendServerList.weight" : "Weight of the backend server, range [0, 100]; weight 0 means no traffic will be forwarded to this backend server",

@@ -10,6 +10,12 @@
     "default" : "1",
     "desc_key" : "common.version"
   }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.UpdateBlbUdpListener.clientToken"
+  }, {
     "name" : "blbId",
     "type" : "String",
     "required" : true,

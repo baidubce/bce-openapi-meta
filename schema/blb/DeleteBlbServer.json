@@ -10,17 +10,17 @@
     "default" : "1",
     "desc_key" : "common.version"
   }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "blb.DeleteBlbServer.clientToken"
+  }, {
     "name" : "blbId",
     "type" : "String",
     "required" : true,
     "position" : "URL",
     "desc_key" : "blb.DeleteBlbServer.blbId"
-  }, {
-    "name" : "clientToken",
-    "type" : "String",
-    "required" : true,
-    "position" : "QUERY",
-    "desc_key" : "blb.DeleteBlbServer.clientToken"
   }, {
     "name" : "backendServerList",
     "type" : "List",
