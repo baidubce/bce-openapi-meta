@@ -8,6 +8,6 @@
     "targetSelector" : "Instance selector",
     "targetSelector.instanceType" : "Instance type. Enum values: BCC, BBC",
     "targetSelector.tags" : "List of instance tags",
-    "targetSelector.importInstances" : ""
+    "targetSelector.importInstances" : "Specifies the list of instances to import as execution targets"
   }
 }

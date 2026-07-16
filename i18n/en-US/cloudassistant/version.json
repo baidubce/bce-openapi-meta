@@ -3,45 +3,45 @@
   "style" : "rpc",
   "description" : "cloudassistant",
   "apis" : {
+    "UpdateAction" : {
+      "title" : "updateAction",
+      "summary" : "updateAction"
+    },
+    "CreateAction" : {
+      "title" : "createAction",
+      "summary" : "createAction"
+    },
     "GetAction" : {
       "title" : "getAction",
       "summary" : "getAction"
-    },
-    "BatchGetAgent" : {
-      "title" : "batchGetAgent",
-      "summary" : "batchGetAgent"
     },
     "ActionList" : {
       "title" : "actionList",
       "summary" : "actionList"
     },
-    "UpdateAction" : {
-      "title" : "updateAction",
-      "summary" : "updateAction"
+    "GetActionRun" : {
+      "title" : "getActionRun",
+      "summary" : "getActionRun"
     },
     "ActionLog" : {
       "title" : "actionLog",
       "summary" : "actionLog"
     },
-    "GetActionRun" : {
-      "title" : "getActionRun",
-      "summary" : "getActionRun"
-    },
-    "ActionRunList" : {
-      "title" : "actionRunList",
-      "summary" : "actionRunList"
+    "BatchGetAgent" : {
+      "title" : "batchGetAgent",
+      "summary" : "batchGetAgent"
     },
     "ActionRun" : {
       "title" : "actionRun",
       "summary" : "actionRun"
     },
+    "ActionRunList" : {
+      "title" : "actionRunList",
+      "summary" : "actionRunList"
+    },
     "DeleteAction" : {
       "title" : "deleteAction",
       "summary" : "deleteAction"
-    },
-    "CreateAction" : {
-      "title" : "createAction",
-      "summary" : "createAction"
     }
   }
 }

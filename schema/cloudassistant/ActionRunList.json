@@ -46,15 +46,15 @@
     "position" : "BODY",
     "desc_key" : "cloudassistant.ActionRunList.action",
     "sub_parameters" : [ {
-      "name" : "type",
-      "type" : "String",
-      "required" : false,
-      "desc_key" : "cloudassistant.ActionRunList.action.type"
-    }, {
       "name" : "id",
       "type" : "String",
       "required" : false,
       "desc_key" : "cloudassistant.ActionRunList.action.id"
+    }, {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionRunList.action.type"
     }, {
       "name" : "name",
       "type" : "String",
