@@ -1,7 +1,7 @@
 {
   "UpdateAppBlb" : {
-    "blbId" : "The ID of the LoadBalancer to be updated.",
     "clientToken" : "Idempotency token, no more than 64 characters in length.",
+    "blbId" : "The ID of the LoadBalancer to be updated.",
     "name" : "The name of the LoadBalancer for easy identification. Length 1–65 bytes, must start with a letter, and may contain letters, digits, and the characters -\\_/. If not specified, a name will be generated automatically.",
     "desc" : "Description of the LoadBalancer instance, allowing users to add more detailed information. Length 0–450 bytes, supports Chinese characters. Defaults to empty.",
     "allowDelete" : "Whether deletion is allowed. Defaults to true, indicating deletion is permitted.",

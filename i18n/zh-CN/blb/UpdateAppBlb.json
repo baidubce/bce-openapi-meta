@@ -1,7 +1,7 @@
 {
   "UpdateAppBlb" : {
-    "blbId" : "待更新的LoadBalancer的ID",
     "clientToken" : "幂等性Token，长度不超过64位",
+    "blbId" : "待更新的LoadBalancer的ID",
     "name" : "LoadBalancer的名称，方便记忆。长度1~65个字节，字母开头，可包含字母数字-\\_/.字符。若不传该参数，会自动生成",
     "desc" : "LoadBalancer实例的描述，便于用户添加更详细的描述信息。长度0~450个字节，支持中文。默认为空",
     "allowDelete" : "是否允许删除。缺省值为true，代表允许删除",

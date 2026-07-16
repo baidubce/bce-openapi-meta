@@ -18,7 +18,7 @@
   }, {
     "name" : "clientToken",
     "type" : "String",
-    "required" : true,
+    "required" : false,
     "position" : "QUERY",
     "desc_key" : "blb.BillingChangePostToPreBlb.clientToken"
   }, {
