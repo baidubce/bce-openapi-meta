@@ -46,6 +46,16 @@
     "position" : "BODY",
     "desc_key" : "cloudassistant.ActionList.action",
     "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionList.action.id"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cloudassistant.ActionList.action.name"
+    }, {
       "name" : "type",
       "type" : "String",
       "required" : false,
@@ -72,10 +82,16 @@
         "desc_key" : "cloudassistant.ActionList.action.command.type"
       } ]
     }, {
-      "name" : "instanceType",
-      "type" : "String",
+      "name" : "fileUpload",
+      "type" : "Object",
       "required" : false,
-      "desc_key" : "cloudassistant.ActionList.action.instanceType"
+      "desc_key" : "cloudassistant.ActionList.action.fileUpload",
+      "sub_parameters" : [ {
+        "name" : "filename",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "cloudassistant.ActionList.action.fileUpload.filename"
+      } ]
     } ]
   } ],
   "desc_key" : "cloudassistant.ActionList.desc"

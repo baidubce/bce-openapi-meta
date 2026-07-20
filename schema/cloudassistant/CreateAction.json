@@ -207,10 +207,11 @@
     } ]
   }, {
     "name" : "parameters",
-    "type" : "String",
+    "type" : "Object",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "cloudassistant.CreateAction.parameters"
+    "desc_key" : "cloudassistant.CreateAction.parameters",
+    "sub_parameters" : [ ]
   }, {
     "name" : "targetSelectorType",
     "type" : "String",

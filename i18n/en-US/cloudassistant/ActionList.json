@@ -6,8 +6,10 @@
     "sort" : "Sort field, optional value: createTime (command creation time)",
     "ascending" : "Whether to sort ascending, default false",
     "action" : "Command filter",
-    "action.type" : "Action type",
-    "action.command" : "Action execution details",
-    "action.instanceType" : "Instance type"
+    "action.id" : "Command ID, used only for querying execution history, e.g.: c-jPwwUBxxxxxxxxxx",
+    "action.name" : "Command name, used only for querying execution history",
+    "action.type" : "Action type. COMMAND (command), FILE_UPLOAD (upload file)",
+    "action.command" : "Filter criteria related to command execution",
+    "action.fileUpload" : "Filter criteria related to file upload"
   }
 }

@@ -6,8 +6,10 @@
     "sort" : "排序字段，可选值createTime（命令创建时间）",
     "ascending" : "是否升序，默认false",
     "action" : "命令过滤器",
-    "action.type" : "Action类型",
-    "action.command" : "执行动作详情",
-    "action.instanceType" : "实例类型"
+    "action.id" : "命令 ID，仅用来查询执行历史记录，例如：c-jPwwUBxxxxxxxxxx",
+    "action.name" : "命令名称，仅用来查询执行历史记录",
+    "action.type" : "Action类型。COMMAND（命令），FILE_UPLOAD（上传文件）",
+    "action.command" : "执行命令相关过滤条件",
+    "action.fileUpload" : "上传文件相关过滤条件"
   }
 }

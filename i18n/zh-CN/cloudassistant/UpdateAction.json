@@ -14,7 +14,7 @@
     "action.supportedInstanceTypes" : "此公共命令支持的实例类型列表，根据命令创建执行时，根据此字段确定展示那些实例列表，目前支持：BCC、BBC、HPAS",
     "action.createdTimestamp" : "命令创建时间。unix时间戳（毫秒）",
     "action.updatedTimestamp" : "命令最后一次被修改时间。unix时间戳（毫秒）",
-    "parameters" : "执行命令时的参数值，仅在命令有参数且需要执行时需要",
+    "parameters" : "执行命令时的参数值，仅在命令有参数时需要",
     "targetSelectorType" : "实例选择器类型，仅在执行动作为执行或保存并执行时需要。默认值为INSTANCES_LIST。可选值：INSTANCES_LIST（实例列表），ALL_INSTANCES（全部实例），TAG_INSTANCES（实例标签选择），INSTANCES_IMPORT（实例列表导入）",
     "targets" : "实例ID列表，仅在targetSelectorType为INSTANCES_LIST时需要",
     "targets.instanceType" : "实例类型。枚举值：BCC，BBC",

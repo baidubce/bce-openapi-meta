@@ -207,10 +207,11 @@
     } ]
   }, {
     "name" : "parameters",
-    "type" : "String",
+    "type" : "Object",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "cloudassistant.UpdateAction.parameters"
+    "desc_key" : "cloudassistant.UpdateAction.parameters",
+    "sub_parameters" : [ ]
   }, {
     "name" : "targetSelectorType",
     "type" : "String",
