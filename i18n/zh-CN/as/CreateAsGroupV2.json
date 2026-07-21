@@ -92,7 +92,7 @@
     "cmdConfig.decCmdTimeout" : "缩容脚本超时时间",
     "cmdConfig.decCmdManual" : "手动移出是否执行缩容脚本",
     "cmdConfig.hasIncreaseCmd" : "是否配置扩容脚本",
-    "cmdConfig.incCmdStrategy" : "缩容策略，不可为空，失败暂停缩容、失败继续缩容：Proceed、Pause",
+    "cmdConfig.incCmdStrategy" : "扩容策略，不可为空、失败继续扩容：Proceed、Pause",
     "cmdConfig.incCmdData" : "扩容脚本",
     "cmdConfig.incCmdTimeout" : "扩容脚本超时时间",
     "cmdConfig.incCmdManual" : "手动移入是否执行扩容脚本",

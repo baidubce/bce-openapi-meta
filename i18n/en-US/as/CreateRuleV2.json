@@ -2,7 +2,7 @@
   "CreateRuleV2" : {
     "ruleName" : "Rule name",
     "groupId" : "Scaling group ID",
-    "state" : "Rule state. Options: ENABLE(enabled), DISABLE(disabled)",
+    "state" : "Rule state after creation. Values: ENABLE (enabled), DISABLE (disabled)",
     "type" : "Rule type. Options: CRONTAB(scheduled scaling), ALARM(alarm-triggered scaling), PERIOD(periodic scaling)",
     "actionType" : "Action type. Options: INCREASE(scale out), DECREASE(scale in), ADJUST(adjust to)",
     "actionNum" : "Action quantity",

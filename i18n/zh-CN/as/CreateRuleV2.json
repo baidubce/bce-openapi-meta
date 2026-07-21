@@ -2,7 +2,7 @@
   "CreateRuleV2" : {
     "ruleName" : "规则名称",
     "groupId" : "伸缩组id",
-    "state" : "规则状态。包括：ENABLE(可用),DISABLE(禁用)",
+    "state" : "创建后的规则状态。包括：ENABLE(启用),DISABLE(禁用)",
     "type" : "规则类型。包括：CRONTAB(定时伸缩),ALARM(报警触发伸缩),PERIOD(周期伸缩)",
     "actionType" : "动作类型。包括：INCREASE(扩容),DECREASE(缩容),ADJUST(调整至)",
     "actionNum" : "动作数量",

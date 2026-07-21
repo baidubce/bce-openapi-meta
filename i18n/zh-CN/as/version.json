@@ -23,6 +23,10 @@
       "title" : "查询伸缩日志列表",
       "summary" : "查询伸缩日志列表"
     },
+    "CreateRuleV2" : {
+      "title" : "创建伸缩规则",
+      "summary" : "创建伸缩规则"
+    },
     "UpdateProtectV2" : {
       "title" : "修改节点保护",
       "summary" : "修改节点保护"
@@ -39,10 +43,6 @@
       "title" : "手动移入节点",
       "summary" : "手动移入节点"
     },
-    "CreateAsGroupV2" : {
-      "title" : "创建伸缩组",
-      "summary" : "创建伸缩组"
-    },
     "GetAsGroupV2" : {
       "title" : "查询伸缩组详情",
       "summary" : "查询伸缩组详情"
@@ -55,9 +55,9 @@
       "title" : "查询伸缩组下节点列表",
       "summary" : "查询伸缩组下节点列表"
     },
-    "CreateRuleV2" : {
-      "title" : "创建伸缩规则",
-      "summary" : "创建伸缩规则"
+    "CreateAsGroupV2" : {
+      "title" : "创建伸缩组",
+      "summary" : "创建伸缩组"
     },
     "DeleteAsGroupV2" : {
       "title" : "删除伸缩组",

@@ -92,7 +92,7 @@
     "cmdConfig.decCmdTimeout" : "Scale-in script timeout",
     "cmdConfig.decCmdManual" : "Whether to execute the scale-in script on manual removal",
     "cmdConfig.hasIncreaseCmd" : "Whether a scale-out script is configured",
-    "cmdConfig.incCmdStrategy" : "Scale-out strategy; required. On failure: pause - Pause, continue - Proceed",
+    "cmdConfig.incCmdStrategy" : "Scale-out strategy, cannot be empty; on failure: Proceed (continue scaling) or Pause",
     "cmdConfig.incCmdData" : "Scale-out script",
     "cmdConfig.incCmdTimeout" : "Scale-out script timeout",
     "cmdConfig.incCmdManual" : "Whether to execute the scale-out script on manual addition",

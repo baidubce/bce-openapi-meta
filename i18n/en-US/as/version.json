@@ -23,6 +23,10 @@
       "title" : "listTaskV2",
       "summary" : "listTaskV2"
     },
+    "CreateRuleV2" : {
+      "title" : "createRuleV2",
+      "summary" : "createRuleV2"
+    },
     "UpdateProtectV2" : {
       "title" : "updateProtectV2",
       "summary" : "updateProtectV2"
@@ -39,10 +43,6 @@
       "title" : "attachNodeV2",
       "summary" : "attachNodeV2"
     },
-    "CreateAsGroupV2" : {
-      "title" : "createAsGroupV2",
-      "summary" : "createAsGroupV2"
-    },
     "GetAsGroupV2" : {
       "title" : "getAsGroupV2",
       "summary" : "getAsGroupV2"
@@ -55,9 +55,9 @@
       "title" : "listAsNodeV2",
       "summary" : "listAsNodeV2"
     },
-    "CreateRuleV2" : {
-      "title" : "createRuleV2",
-      "summary" : "createRuleV2"
+    "CreateAsGroupV2" : {
+      "title" : "createAsGroupV2",
+      "summary" : "createAsGroupV2"
     },
     "DeleteAsGroupV2" : {
       "title" : "deleteAsGroupV2",
