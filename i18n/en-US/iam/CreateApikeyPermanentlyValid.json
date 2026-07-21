@@ -2,6 +2,9 @@
   "CreateApikeyPermanentlyValid" : {
     "userId" : "Sub-user ID; defaults to current user if not provided",
     "acl" : "ACL policy",
+    "acl.id" : "id",
+    "acl.version" : "\"v2\"",
+    "acl.accessControlList" : "ACL entry",
     "name" : "APIKey name; auto-generated if not provided"
   }
 }

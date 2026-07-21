@@ -23,10 +23,52 @@
     "desc_key" : "iam.UpdateApikeyPermanentlyValid.id"
   }, {
     "name" : "acl",
-    "type" : "String",
+    "type" : "Object",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl"
+    "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl.id"
+    }, {
+      "name" : "version",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl.version"
+    }, {
+      "name" : "accessControlList",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl.accessControlList",
+      "sub_parameters" : [ {
+        "name" : "service",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl.accessControlList.service"
+      }, {
+        "name" : "region",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl.accessControlList.region"
+      }, {
+        "name" : "resource",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl.accessControlList.resource"
+      }, {
+        "name" : "permission",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl.accessControlList.permission"
+      }, {
+        "name" : "effect",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "iam.UpdateApikeyPermanentlyValid.acl.accessControlList.effect"
+      } ]
+    } ]
   } ],
   "desc_key" : "iam.UpdateApikeyPermanentlyValid.desc"
 }

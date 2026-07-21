@@ -2,6 +2,9 @@
   "UpdateApikeyPermanentlyValid" : {
     "userId" : "Sub-user ID; required if the API key belongs to another sub-user",
     "id" : "APIKey ID",
-    "acl" : "ACL policy"
+    "acl" : "ACL policy",
+    "acl.id" : "id",
+    "acl.version" : "v2",
+    "acl.accessControlList" : "ACL entry"
   }
 }

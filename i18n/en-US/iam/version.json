@@ -3,25 +3,9 @@
   "style" : "rpc",
   "description" : "iam",
   "apis" : {
-    "DecodingApikeyPermanentlyValid" : {
-      "title" : "decodingApikeyPermanentlyValid",
-      "summary" : "decodingApikeyPermanentlyValid"
-    },
-    "DeleteApikeyPermanentlyValid" : {
-      "title" : "deleteApikeyPermanentlyValid",
-      "summary" : "deleteApikeyPermanentlyValid"
-    },
-    "ObtainAListOfPermanentlyValidApikeys" : {
-      "title" : "obtainAListOfPermanentlyValidApikeys",
-      "summary" : "obtainAListOfPermanentlyValidApikeys"
-    },
     "DeleteLoginProfile" : {
       "title" : "deleteLoginProfile",
       "summary" : "deleteLoginProfile"
-    },
-    "GetSessionApiKey" : {
-      "title" : "getSessionApiKey",
-      "summary" : "getSessionApiKey"
     },
     "CreateAccessKey" : {
       "title" : "createAccessKey",
@@ -83,6 +67,30 @@
       "title" : "associateRolePermissions",
       "summary" : "associateRolePermissions"
     },
+    "CreateApikeyPermanentlyValid" : {
+      "title" : "createApikeyPermanentlyValid",
+      "summary" : "createApikeyPermanentlyValid"
+    },
+    "UpdateApikeyPermanentlyValid" : {
+      "title" : "updateApikeyPermanentlyValid",
+      "summary" : "updateApikeyPermanentlyValid"
+    },
+    "QueryApikeyDetailsPermanentlyValid" : {
+      "title" : "queryApikeyDetailsPermanentlyValid",
+      "summary" : "queryApikeyDetailsPermanentlyValid"
+    },
+    "DecodingApikeyPermanentlyValid" : {
+      "title" : "decodingApikeyPermanentlyValid",
+      "summary" : "decodingApikeyPermanentlyValid"
+    },
+    "DeleteApikeyPermanentlyValid" : {
+      "title" : "deleteApikeyPermanentlyValid",
+      "summary" : "deleteApikeyPermanentlyValid"
+    },
+    "GetSessionApiKey" : {
+      "title" : "getSessionApiKey",
+      "summary" : "getSessionApiKey"
+    },
     "UpdateRole" : {
       "title" : "updateRole",
       "summary" : "updateRole"
@@ -106,6 +114,10 @@
     "DeleteGroup" : {
       "title" : "deleteGroup",
       "summary" : "deleteGroup"
+    },
+    "ObtainAListOfPermanentlyValidApikeys" : {
+      "title" : "obtainAListOfPermanentlyValidApikeys",
+      "summary" : "obtainAListOfPermanentlyValidApikeys"
     },
     "ListGroups" : {
       "title" : "listGroups",
@@ -226,18 +238,6 @@
     "ListStrategies" : {
       "title" : "listStrategies",
       "summary" : "listStrategies"
-    },
-    "CreateApikeyPermanentlyValid" : {
-      "title" : "createApikeyPermanentlyValid",
-      "summary" : "createApikeyPermanentlyValid"
-    },
-    "QueryApikeyDetailsPermanentlyValid" : {
-      "title" : "queryApikeyDetailsPermanentlyValid",
-      "summary" : "queryApikeyDetailsPermanentlyValid"
-    },
-    "UpdateApikeyPermanentlyValid" : {
-      "title" : "updateApikeyPermanentlyValid",
-      "summary" : "updateApikeyPermanentlyValid"
     }
   }
 }

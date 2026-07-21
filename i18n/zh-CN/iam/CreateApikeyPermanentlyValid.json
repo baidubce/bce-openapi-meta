@@ -2,6 +2,9 @@
   "CreateApikeyPermanentlyValid" : {
     "userId" : "子用户Id；不传就是当前用户",
     "acl" : "ACL策略",
+    "acl.id" : "id",
+    "acl.version" : "\"v2\"",
+    "acl.accessControlList" : "ACL entry",
     "name" : "APIKey名称；不传会默认生成"
   }
 }
