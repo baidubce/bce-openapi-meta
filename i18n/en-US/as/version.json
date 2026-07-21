@@ -3,6 +3,26 @@
   "style" : "rpc",
   "description" : "as",
   "apis" : {
+    "ListAsGroupV2" : {
+      "title" : "listAsGroupV2",
+      "summary" : "listAsGroupV2"
+    },
+    "ListAsNodeV2" : {
+      "title" : "listAsNodeV2",
+      "summary" : "listAsNodeV2"
+    },
+    "CreateRuleV2" : {
+      "title" : "createRuleV2",
+      "summary" : "createRuleV2"
+    },
+    "ListRuleV2" : {
+      "title" : "listRuleV2",
+      "summary" : "listRuleV2"
+    },
+    "GetRuleV2" : {
+      "title" : "getRuleV2",
+      "summary" : "getRuleV2"
+    },
     "ExecRuleV2" : {
       "title" : "execRuleV2",
       "summary" : "execRuleV2"
@@ -23,9 +43,13 @@
       "title" : "listTaskV2",
       "summary" : "listTaskV2"
     },
-    "CreateRuleV2" : {
-      "title" : "createRuleV2",
-      "summary" : "createRuleV2"
+    "AttachNodeV2" : {
+      "title" : "attachNodeV2",
+      "summary" : "attachNodeV2"
+    },
+    "DetachNodeV2" : {
+      "title" : "detachNodeV2",
+      "summary" : "detachNodeV2"
     },
     "UpdateProtectV2" : {
       "title" : "updateProtectV2",
@@ -35,25 +59,9 @@
       "title" : "updateIsManagedV2",
       "summary" : "updateIsManagedV2"
     },
-    "DetachNodeV2" : {
-      "title" : "detachNodeV2",
-      "summary" : "detachNodeV2"
-    },
-    "AttachNodeV2" : {
-      "title" : "attachNodeV2",
-      "summary" : "attachNodeV2"
-    },
-    "GetAsGroupV2" : {
-      "title" : "getAsGroupV2",
-      "summary" : "getAsGroupV2"
-    },
-    "ListAsGroupV2" : {
-      "title" : "listAsGroupV2",
-      "summary" : "listAsGroupV2"
-    },
-    "ListAsNodeV2" : {
-      "title" : "listAsNodeV2",
-      "summary" : "listAsNodeV2"
+    "DeleteRuleV2" : {
+      "title" : "deleteRuleV2",
+      "summary" : "deleteRuleV2"
     },
     "CreateAsGroupV2" : {
       "title" : "createAsGroupV2",
@@ -63,17 +71,9 @@
       "title" : "deleteAsGroupV2",
       "summary" : "deleteAsGroupV2"
     },
-    "DeleteRuleV2" : {
-      "title" : "deleteRuleV2",
-      "summary" : "deleteRuleV2"
-    },
-    "ListRuleV2" : {
-      "title" : "listRuleV2",
-      "summary" : "listRuleV2"
-    },
-    "GetRuleV2" : {
-      "title" : "getRuleV2",
-      "summary" : "getRuleV2"
+    "GetAsGroupV2" : {
+      "title" : "getAsGroupV2",
+      "summary" : "getAsGroupV2"
     }
   }
 }

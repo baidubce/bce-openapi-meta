@@ -22,7 +22,7 @@
     "blb.blbName" : "BLB instance name",
     "blb.blbType" : "BLB type: Blb - standard BLB, AppBlb - application BLB, Ipv6Blb - IPv6 BLB",
     "blb.sgIds" : "Required when BLB type is application BLB; specifies server group IDs (multiple allowed). Not required for other BLB types",
-    "blbUnbindWaitTime" : "",
+    "blbUnbindWaitTime" : "The waiting time before unbinding the BLB (load balancer) instance",
     "nodes" : "Node configuration for scaling group scale-out",
     "nodes.spec" : "Instance spec/flavor",
     "nodes.cpuCount" : "CPU count",

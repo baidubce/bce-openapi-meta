@@ -3,6 +3,26 @@
   "style" : "rpc",
   "description" : "弹性伸缩",
   "apis" : {
+    "ListAsGroupV2" : {
+      "title" : "查询弹性伸缩组列表",
+      "summary" : "查询弹性伸缩组列表"
+    },
+    "ListAsNodeV2" : {
+      "title" : "查询弹性伸缩组下节点列表",
+      "summary" : "查询弹性伸缩组下节点列表"
+    },
+    "CreateRuleV2" : {
+      "title" : "创建伸缩规则",
+      "summary" : "创建伸缩规则"
+    },
+    "ListRuleV2" : {
+      "title" : "查询伸缩规则列表",
+      "summary" : "查询伸缩规则列表"
+    },
+    "GetRuleV2" : {
+      "title" : "查询伸缩规则详情",
+      "summary" : "查询伸缩规则详情"
+    },
     "ExecRuleV2" : {
       "title" : "执行伸缩规则",
       "summary" : "执行伸缩规则"
@@ -23,9 +43,13 @@
       "title" : "查询伸缩日志列表",
       "summary" : "查询伸缩日志列表"
     },
-    "CreateRuleV2" : {
-      "title" : "创建伸缩规则",
-      "summary" : "创建伸缩规则"
+    "AttachNodeV2" : {
+      "title" : "手动移入节点",
+      "summary" : "手动移入节点"
+    },
+    "DetachNodeV2" : {
+      "title" : "手动移出节点",
+      "summary" : "手动移出节点"
     },
     "UpdateProtectV2" : {
       "title" : "修改节点保护",
@@ -35,45 +59,21 @@
       "title" : "修改节点托管状态",
       "summary" : "修改节点托管状态"
     },
-    "DetachNodeV2" : {
-      "title" : "手动移出节点",
-      "summary" : "手动移出节点"
-    },
-    "AttachNodeV2" : {
-      "title" : "手动移入节点",
-      "summary" : "手动移入节点"
-    },
-    "GetAsGroupV2" : {
-      "title" : "查询伸缩组详情",
-      "summary" : "查询伸缩组详情"
-    },
-    "ListAsGroupV2" : {
-      "title" : "查询伸缩组列表",
-      "summary" : "查询伸缩组列表"
-    },
-    "ListAsNodeV2" : {
-      "title" : "查询伸缩组下节点列表",
-      "summary" : "查询伸缩组下节点列表"
-    },
-    "CreateAsGroupV2" : {
-      "title" : "创建伸缩组",
-      "summary" : "创建伸缩组"
-    },
-    "DeleteAsGroupV2" : {
-      "title" : "删除伸缩组",
-      "summary" : "删除伸缩组"
-    },
     "DeleteRuleV2" : {
       "title" : "删除伸缩规则",
       "summary" : "删除伸缩规则"
     },
-    "ListRuleV2" : {
-      "title" : "查询伸缩规则列表",
-      "summary" : "查询伸缩规则列表"
+    "CreateAsGroupV2" : {
+      "title" : "创建弹性伸缩组",
+      "summary" : "创建弹性伸缩组"
     },
-    "GetRuleV2" : {
-      "title" : "查询伸缩规则详情",
-      "summary" : "查询伸缩规则详情"
+    "DeleteAsGroupV2" : {
+      "title" : "删除弹性伸缩组",
+      "summary" : "删除弹性伸缩组"
+    },
+    "GetAsGroupV2" : {
+      "title" : "查询弹性伸缩组详情",
+      "summary" : "查询弹性伸缩组详情"
     }
   }
 }
