@@ -42,7 +42,7 @@
   }, {
     "name" : "action",
     "type" : "Object",
-    "required" : false,
+    "required" : true,
     "position" : "BODY",
     "desc_key" : "cloudassistant.ActionRunList.action",
     "sub_parameters" : [ {

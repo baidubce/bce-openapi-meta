@@ -27,13 +27,13 @@
       "title" : "actionList",
       "summary" : "actionList"
     },
-    "GetActionRun" : {
-      "title" : "getActionRun",
-      "summary" : "getActionRun"
-    },
     "ActionRunList" : {
       "title" : "actionRunList",
       "summary" : "actionRunList"
+    },
+    "GetActionRun" : {
+      "title" : "getActionRun",
+      "summary" : "getActionRun"
     },
     "DeleteAction" : {
       "title" : "deleteAction",
