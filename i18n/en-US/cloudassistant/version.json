@@ -7,10 +7,6 @@
       "title" : "actionRun",
       "summary" : "actionRun"
     },
-    "CreateAction" : {
-      "title" : "createAction",
-      "summary" : "createAction"
-    },
     "UpdateAction" : {
       "title" : "updateAction",
       "summary" : "updateAction"
@@ -27,17 +23,21 @@
       "title" : "actionList",
       "summary" : "actionList"
     },
-    "ActionRunList" : {
-      "title" : "actionRunList",
-      "summary" : "actionRunList"
-    },
     "GetActionRun" : {
       "title" : "getActionRun",
       "summary" : "getActionRun"
     },
+    "ActionRunList" : {
+      "title" : "actionRunList",
+      "summary" : "actionRunList"
+    },
     "DeleteAction" : {
       "title" : "deleteAction",
       "summary" : "deleteAction"
+    },
+    "CreateAction" : {
+      "title" : "createAction",
+      "summary" : "createAction"
     },
     "ActionLog" : {
       "title" : "actionLog",
