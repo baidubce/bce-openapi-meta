@@ -1,7 +1,6 @@
 {
   "GetTemplateListV2" : {
     "locale" : "语言，默认 zh-cn",
-    "namespace" : "名称空间，默认 default",
     "name" : "模板名称",
     "id" : "模板 ID",
     "type" : "模板类型 INDIVIDUAL/GLOBAL",

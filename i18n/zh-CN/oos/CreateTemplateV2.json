@@ -39,7 +39,7 @@
     "properties" : "全局参数列表",
     "properties.name" : "参数名称",
     "properties.required" : "是否必填",
-    "properties.type" : "参数类型",
+    "properties.type" : "参数类型，支持的类型：string、number、boolean、list、object、bccInstance、hpasInstance",
     "properties.label" : "参数显示名称",
     "properties.description" : "参数描述",
     "properties.multiple" : "可选项列表是否允许多选",

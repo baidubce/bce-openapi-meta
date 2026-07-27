@@ -16,12 +16,6 @@
     "position" : "QUERY",
     "desc_key" : "oos.GetTemplateListV2.locale"
   }, {
-    "name" : "namespace",
-    "type" : "String",
-    "required" : false,
-    "position" : "BODY",
-    "desc_key" : "oos.GetTemplateListV2.namespace"
-  }, {
     "name" : "name",
     "type" : "String",
     "required" : false,

@@ -1,6 +1,5 @@
 {
   "GetTemplateDetailV2" : {
-    "namespace" : "Namespace, default: default",
     "id" : "O&M template ID",
     "name" : "O&M template name",
     "type" : "Template type: INDIVIDUAL/GLOBAL",

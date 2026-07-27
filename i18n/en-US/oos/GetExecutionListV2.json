@@ -1,8 +1,8 @@
 {
   "GetExecutionListV2" : {
     "locale" : "Language, default zh-cn",
-    "namespace" : "Namespace, default: default",
     "template" : "Template filter condition",
+    "template.name" : "Filter by a single template name",
     "state" : "Execution state; if set, only returns executions with the specified state. Valid values: RUNNING, SUCCESS, FAILED, CANCELED, PENDING",
     "trigger" : "Trigger type",
     "cronExecutionName" : "Scheduled O&M name; if set, only returns executions triggered by the specified scheduled O&M",

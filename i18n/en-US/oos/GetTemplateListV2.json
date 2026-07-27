@@ -1,7 +1,6 @@
 {
   "GetTemplateListV2" : {
     "locale" : "Language, default zh-cn",
-    "namespace" : "Namespace, default default",
     "name" : "Template name",
     "id" : "Template ID",
     "type" : "Template type INDIVIDUAL/GLOBAL",

@@ -16,17 +16,17 @@
     "position" : "QUERY",
     "desc_key" : "oos.GetExecutionListV2.locale"
   }, {
-    "name" : "namespace",
-    "type" : "String",
-    "required" : false,
-    "position" : "BODY",
-    "desc_key" : "oos.GetExecutionListV2.namespace"
-  }, {
     "name" : "template",
-    "type" : "String",
+    "type" : "Object",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "oos.GetExecutionListV2.template"
+    "desc_key" : "oos.GetExecutionListV2.template",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "oos.GetExecutionListV2.template.name"
+    } ]
   }, {
     "name" : "state",
     "type" : "String",

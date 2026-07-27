@@ -2,6 +2,7 @@
   "GetOperatorListV2" : {
     "locale" : "Language, default zh-cn",
     "operator" : "Filter condition for system template operators",
+    "operator.name" : "System operator name filter keyword",
     "sort" : "Sort field",
     "ascending" : "Whether to sort in ascending order",
     "pageNo" : "Page number, starting from 1",

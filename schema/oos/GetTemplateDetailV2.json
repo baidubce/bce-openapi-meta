@@ -10,12 +10,6 @@
     "default" : "2",
     "desc_key" : "common.version"
   }, {
-    "name" : "namespace",
-    "type" : "String",
-    "required" : false,
-    "position" : "QUERY",
-    "desc_key" : "oos.GetTemplateDetailV2.namespace"
-  }, {
     "name" : "id",
     "type" : "String",
     "required" : false,

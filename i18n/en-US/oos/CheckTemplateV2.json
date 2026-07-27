@@ -39,7 +39,7 @@
     "properties" : "Global parameter list",
     "properties.name" : "Parameter name",
     "properties.required" : "Whether the parameter is required",
-    "properties.type" : "Parameter type",
+    "properties.type" : "Parameter type, supported types: string, number, boolean, list, object, bccInstance, hpasInstance",
     "properties.label" : "Parameter display name",
     "properties.description" : "Parameter description",
     "properties.multiple" : "Whether multiple selections are allowed in the options list",

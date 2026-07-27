@@ -10,12 +10,6 @@
     "default" : "2",
     "desc_key" : "common.version"
   }, {
-    "name" : "namespace",
-    "type" : "String",
-    "required" : false,
-    "position" : "BODY",
-    "desc_key" : "oos.UpdateTemplateV2.namespace"
-  }, {
     "name" : "id",
     "type" : "String",
     "required" : true,
@@ -315,7 +309,7 @@
           "desc_key" : "oos.UpdateTemplateV2.operators.template.operators.loopWindowType"
         }, {
           "name" : "properties",
-          "type" : "String",
+          "type" : "Object",
           "required" : false,
           "desc_key" : "oos.UpdateTemplateV2.operators.template.operators.properties"
         }, {
@@ -522,7 +516,7 @@
       "desc_key" : "oos.UpdateTemplateV2.operators.loopWindowType"
     }, {
       "name" : "properties",
-      "type" : "String",
+      "type" : "Object",
       "required" : false,
       "desc_key" : "oos.UpdateTemplateV2.operators.properties"
     }, {

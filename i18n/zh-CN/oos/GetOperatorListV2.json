@@ -2,6 +2,7 @@
   "GetOperatorListV2" : {
     "locale" : "语言，默认 zh-cn",
     "operator" : "系统模板操作符过滤条件",
+    "operator.name" : "系统操作符名称过滤关键字",
     "sort" : "排序字段",
     "ascending" : "是否升序",
     "pageNo" : "页数，从 1 开始计数",

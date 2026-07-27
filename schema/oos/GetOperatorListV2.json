@@ -17,10 +17,16 @@
     "desc_key" : "oos.GetOperatorListV2.locale"
   }, {
     "name" : "operator",
-    "type" : "String",
+    "type" : "Object",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "oos.GetOperatorListV2.operator"
+    "desc_key" : "oos.GetOperatorListV2.operator",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "oos.GetOperatorListV2.operator.name"
+    } ]
   }, {
     "name" : "sort",
     "type" : "String",

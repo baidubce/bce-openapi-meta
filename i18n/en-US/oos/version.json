@@ -3,34 +3,6 @@
   "style" : "rpc",
   "description" : "oos",
   "apis" : {
-    "CreateTemplateV2" : {
-      "title" : "createTemplateV2",
-      "summary" : "createTemplateV2"
-    },
-    "UpdateTemplateV2" : {
-      "title" : "updateTemplateV2",
-      "summary" : "updateTemplateV2"
-    },
-    "GetTemplateDetailV2" : {
-      "title" : "getTemplateDetailV2",
-      "summary" : "getTemplateDetailV2"
-    },
-    "GetTemplateListV2" : {
-      "title" : "getTemplateListV2",
-      "summary" : "getTemplateListV2"
-    },
-    "CreateExecutionV2" : {
-      "title" : "createExecutionV2",
-      "summary" : "createExecutionV2"
-    },
-    "GetExecutionDetailV2" : {
-      "title" : "getExecutionDetailV2",
-      "summary" : "getExecutionDetailV2"
-    },
-    "CheckTemplateV2" : {
-      "title" : "checkTemplateV2",
-      "summary" : "checkTemplateV2"
-    },
     "GetExecutionListV2" : {
       "title" : "getExecutionListV2",
       "summary" : "getExecutionListV2"
@@ -39,13 +11,41 @@
       "title" : "deleteTemplateV2",
       "summary" : "deleteTemplateV2"
     },
+    "GetTaskChildrenListV2" : {
+      "title" : "getTaskChildrenListV2",
+      "summary" : "getTaskChildrenListV2"
+    },
+    "UpdateTemplateV2" : {
+      "title" : "updateTemplateV2",
+      "summary" : "updateTemplateV2"
+    },
     "GetTaskDetailV2" : {
       "title" : "getTaskDetailV2",
       "summary" : "getTaskDetailV2"
     },
-    "GetTaskChildrenListV2" : {
-      "title" : "getTaskChildrenListV2",
-      "summary" : "getTaskChildrenListV2"
+    "GetTemplateListV2" : {
+      "title" : "getTemplateListV2",
+      "summary" : "getTemplateListV2"
+    },
+    "GetExecutionDetailV2" : {
+      "title" : "getExecutionDetailV2",
+      "summary" : "getExecutionDetailV2"
+    },
+    "CreateExecutionV2" : {
+      "title" : "createExecutionV2",
+      "summary" : "createExecutionV2"
+    },
+    "GetTemplateDetailV2" : {
+      "title" : "getTemplateDetailV2",
+      "summary" : "getTemplateDetailV2"
+    },
+    "CheckTemplateV2" : {
+      "title" : "checkTemplateV2",
+      "summary" : "checkTemplateV2"
+    },
+    "CreateTemplateV2" : {
+      "title" : "createTemplateV2",
+      "summary" : "createTemplateV2"
     },
     "GetOperatorListV2" : {
       "title" : "getOperatorListV2",

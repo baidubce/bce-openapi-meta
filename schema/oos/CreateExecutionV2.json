@@ -56,7 +56,18 @@
       "name" : "tags",
       "type" : "List",
       "required" : false,
-      "desc_key" : "oos.CreateExecutionV2.template.tags"
+      "desc_key" : "oos.CreateExecutionV2.template.tags",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.tags.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "oos.CreateExecutionV2.template.tags.value"
+      } ]
     }, {
       "name" : "linear",
       "type" : "Boolean",
@@ -86,7 +97,18 @@
         "name" : "tags",
         "type" : "List",
         "required" : false,
-        "desc_key" : "oos.CreateExecutionV2.template.operators.tags"
+        "desc_key" : "oos.CreateExecutionV2.template.operators.tags",
+        "sub_parameters" : [ {
+          "name" : "key",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.tags.key"
+        }, {
+          "name" : "value",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "oos.CreateExecutionV2.template.operators.tags.value"
+        } ]
       }, {
         "name" : "operator",
         "type" : "String",
@@ -131,7 +153,18 @@
           "name" : "tags",
           "type" : "List",
           "required" : false,
-          "desc_key" : "oos.CreateExecutionV2.template.operators.template.tags"
+          "desc_key" : "oos.CreateExecutionV2.template.operators.template.tags",
+          "sub_parameters" : [ {
+            "name" : "key",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.tags.key"
+          }, {
+            "name" : "value",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "oos.CreateExecutionV2.template.operators.template.tags.value"
+          } ]
         }, {
           "name" : "linear",
           "type" : "Boolean",
@@ -345,7 +378,7 @@
         "desc_key" : "oos.CreateExecutionV2.template.operators.loopWindowType"
       }, {
         "name" : "properties",
-        "type" : "String",
+        "type" : "Object",
         "required" : false,
         "desc_key" : "oos.CreateExecutionV2.template.operators.properties"
       }, {
@@ -457,10 +490,11 @@
     "desc_key" : "oos.CreateExecutionV2.manually"
   }, {
     "name" : "properties",
-    "type" : "String",
+    "type" : "Object",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "oos.CreateExecutionV2.properties"
+    "desc_key" : "oos.CreateExecutionV2.properties",
+    "sub_parameters" : [ ]
   }, {
     "name" : "tags",
     "type" : "List",

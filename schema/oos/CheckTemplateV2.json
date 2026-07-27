@@ -303,7 +303,7 @@
           "desc_key" : "oos.CheckTemplateV2.operators.template.operators.loopWindowType"
         }, {
           "name" : "properties",
-          "type" : "String",
+          "type" : "Object",
           "required" : false,
           "desc_key" : "oos.CheckTemplateV2.operators.template.operators.properties"
         }, {
@@ -510,7 +510,7 @@
       "desc_key" : "oos.CheckTemplateV2.operators.loopWindowType"
     }, {
       "name" : "properties",
-      "type" : "String",
+      "type" : "Object",
       "required" : false,
       "desc_key" : "oos.CheckTemplateV2.operators.properties"
     }, {

@@ -28,12 +28,6 @@
     "position" : "BODY",
     "desc_key" : "oos.GetTaskChildrenListV2.taskId"
   }, {
-    "name" : "namespace",
-    "type" : "String",
-    "required" : false,
-    "position" : "BODY",
-    "desc_key" : "oos.GetTaskChildrenListV2.namespace"
-  }, {
     "name" : "states",
     "type" : "List",
     "required" : false,
