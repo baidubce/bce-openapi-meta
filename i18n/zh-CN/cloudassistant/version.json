@@ -3,13 +3,17 @@
   "style" : "rpc",
   "description" : "云助手",
   "apis" : {
+    "UpdateAction" : {
+      "title" : "修改我的命令",
+      "summary" : "修改我的命令"
+    },
     "ActionRun" : {
       "title" : "执行命令",
       "summary" : "执行命令"
     },
-    "UpdateAction" : {
-      "title" : "修改我的命令",
-      "summary" : "修改我的命令"
+    "CreateAction" : {
+      "title" : "创建命令",
+      "summary" : "创建命令"
     },
     "BatchGetAgent" : {
       "title" : "批量获取实例内bsm-agent状态",
@@ -34,10 +38,6 @@
     "DeleteAction" : {
       "title" : "删除命令",
       "summary" : "删除命令"
-    },
-    "CreateAction" : {
-      "title" : "创建命令",
-      "summary" : "创建命令"
     },
     "ActionLog" : {
       "title" : "查询日记记录",
