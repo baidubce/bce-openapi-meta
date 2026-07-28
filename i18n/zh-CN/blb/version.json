@@ -63,6 +63,14 @@
       "title" : "服务发布点解绑实例",
       "summary" : "服务发布点解绑实例"
     },
+    "DescribeBlb" : {
+      "title" : "查询实例详情",
+      "summary" : "查询实例详情"
+    },
+    "DescribeBlbs" : {
+      "title" : "查询实例",
+      "summary" : "查询实例"
+    },
     "DescribeBlbServerHealth" : {
       "title" : "查询后端服务器健康状态",
       "summary" : "查询后端服务器健康状态"
@@ -134,10 +142,6 @@
     "CreateService" : {
       "title" : "创建服务发布点",
       "summary" : "创建服务发布点"
-    },
-    "DescribeBlb" : {
-      "title" : "查询实例详情",
-      "summary" : "查询实例详情"
     },
     "CreateAppBlbIpGroupProtocol" : {
       "title" : "创建IP组协议",
@@ -370,10 +374,6 @@
     "DeleteAppBlbServerGroup" : {
       "title" : "删除服务器组",
       "summary" : "删除服务器组"
-    },
-    "DescribeBlbs" : {
-      "title" : "查询实例",
-      "summary" : "查询实例"
     },
     "AddAppBlbServerGroupRs" : {
       "title" : "添加后端服务器",

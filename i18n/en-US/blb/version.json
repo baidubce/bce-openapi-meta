@@ -63,6 +63,14 @@
       "title" : "unbindInstanceFromService",
       "summary" : "unbindInstanceFromService"
     },
+    "DescribeBlb" : {
+      "title" : "describeBlb",
+      "summary" : "describeBlb"
+    },
+    "DescribeBlbs" : {
+      "title" : "describeBlbs",
+      "summary" : "describeBlbs"
+    },
     "DescribeBlbServerHealth" : {
       "title" : "describeBlbServerHealth",
       "summary" : "describeBlbServerHealth"
@@ -134,10 +142,6 @@
     "CreateService" : {
       "title" : "createService",
       "summary" : "createService"
-    },
-    "DescribeBlb" : {
-      "title" : "describeBlb",
-      "summary" : "describeBlb"
     },
     "CreateAppBlbIpGroupProtocol" : {
       "title" : "createAppBlbIpGroupProtocol",
@@ -370,10 +374,6 @@
     "DeleteAppBlbServerGroup" : {
       "title" : "deleteAppBlbServerGroup",
       "summary" : "deleteAppBlbServerGroup"
-    },
-    "DescribeBlbs" : {
-      "title" : "describeBlbs",
-      "summary" : "describeBlbs"
     },
     "AddAppBlbServerGroupRs" : {
       "title" : "addAppBlbServerGroupRs",
