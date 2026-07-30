@@ -16,12 +16,6 @@
     "position" : "URL",
     "desc_key" : "bcc.RemoteCopySnapshot.snapshotId"
   }, {
-    "name" : "uuid",
-    "type" : "String",
-    "required" : false,
-    "position" : "BODY",
-    "desc_key" : "bcc.RemoteCopySnapshot.uuid"
-  }, {
     "name" : "destRegionInfos",
     "type" : "List",
     "required" : false,

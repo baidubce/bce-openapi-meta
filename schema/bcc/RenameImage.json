@@ -10,6 +10,12 @@
     "default" : "2",
     "desc_key" : "common.version"
   }, {
+    "name" : "imageId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.RenameImage.imageId"
+  }, {
     "name" : "imageIds",
     "type" : "List",
     "required" : false,

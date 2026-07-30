@@ -171,10 +171,6 @@
       "title" : "deleteSnapshot",
       "summary" : "deleteSnapshot"
     },
-    "DetachAsp" : {
-      "title" : "detachAsp",
-      "summary" : "detachAsp"
-    },
     "DeleteAsp" : {
       "title" : "deleteAsp",
       "summary" : "deleteAsp"
@@ -415,6 +411,18 @@
       "title" : "bindInstanceToTags",
       "summary" : "bindInstanceToTags"
     },
+    "DetachAsp" : {
+      "title" : "detachAsp",
+      "summary" : "detachAsp"
+    },
+    "RemoteCopySnapshot" : {
+      "title" : "remoteCopySnapshot",
+      "summary" : "remoteCopySnapshot"
+    },
+    "ListSnapshotShare" : {
+      "title" : "listSnapshotShare",
+      "summary" : "listSnapshotShare"
+    },
     "GetRoleList" : {
       "title" : "getRoleList",
       "summary" : "getRoleList"
@@ -422,6 +430,10 @@
     "BindRole" : {
       "title" : "bindRole",
       "summary" : "bindRole"
+    },
+    "RenameImage" : {
+      "title" : "renameImage",
+      "summary" : "renameImage"
     },
     "UnbindRole" : {
       "title" : "unbindRole",
@@ -535,10 +547,6 @@
       "title" : "purchaseReservedVolume",
       "summary" : "purchaseReservedVolume"
     },
-    "RenameImage" : {
-      "title" : "renameImage",
-      "summary" : "renameImage"
-    },
     "CreateImage" : {
       "title" : "createImage",
       "summary" : "createImage"
@@ -546,10 +554,6 @@
     "CreateSnapshot" : {
       "title" : "createSnapshot",
       "summary" : "createSnapshot"
-    },
-    "RemoteCopySnapshot" : {
-      "title" : "remoteCopySnapshot",
-      "summary" : "remoteCopySnapshot"
     },
     "CreateAsp" : {
       "title" : "createAsp",
@@ -590,10 +594,6 @@
     "DescribeRegions" : {
       "title" : "describeRegions",
       "summary" : "describeRegions"
-    },
-    "ListSnapshotShare" : {
-      "title" : "listSnapshotShare",
-      "summary" : "listSnapshotShare"
     },
     "InstanceDeletionProtection" : {
       "title" : "instanceDeletionProtection",

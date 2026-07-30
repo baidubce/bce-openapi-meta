@@ -1,6 +1,6 @@
 {
   "ListSnapshotShare" : {
-    "marker" : "The starting position for paginated list queries, a system-generated string.",
-    "maxKeys" : "Maximum number of items per page."
+    "marker" : "The starting position for batch list queries, a system-generated string",
+    "maxKeys" : "Maximum number of items per page, typically no more than 100, default value is 10"
   }
 }

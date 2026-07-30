@@ -21,12 +21,6 @@
     "required" : true,
     "position" : "BODY",
     "desc_key" : "bcc.DetachAsp.volumeIds"
-  }, {
-    "name" : "deleteAutoSnapshot",
-    "type" : "Boolean",
-    "required" : false,
-    "position" : "BODY",
-    "desc_key" : "bcc.DetachAsp.deleteAutoSnapshot"
   } ],
   "desc_key" : "bcc.DetachAsp.desc"
 }

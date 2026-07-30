@@ -171,10 +171,6 @@
       "title" : "删除快照",
       "summary" : "删除快照"
     },
-    "DetachAsp" : {
-      "title" : "解绑自动快照策略",
-      "summary" : "解绑自动快照策略"
-    },
     "DeleteAsp" : {
       "title" : "删除自动快照策略",
       "summary" : "删除自动快照策略"
@@ -415,6 +411,18 @@
       "title" : "实例绑定标签",
       "summary" : "实例绑定标签"
     },
+    "DetachAsp" : {
+      "title" : "解绑自动快照策略",
+      "summary" : "解绑自动快照策略"
+    },
+    "RemoteCopySnapshot" : {
+      "title" : "跨地域复制快照",
+      "summary" : "跨地域复制快照"
+    },
+    "ListSnapshotShare" : {
+      "title" : "查询共享快照列表",
+      "summary" : "查询共享快照列表"
+    },
     "GetRoleList" : {
       "title" : "获取实例角色列表",
       "summary" : "获取实例角色列表"
@@ -422,6 +430,10 @@
     "BindRole" : {
       "title" : "绑定角色",
       "summary" : "绑定角色"
+    },
+    "RenameImage" : {
+      "title" : "修改自定义镜像名称",
+      "summary" : "修改自定义镜像名称"
     },
     "UnbindRole" : {
       "title" : "解绑角色",
@@ -535,10 +547,6 @@
       "title" : "磁盘续费",
       "summary" : "磁盘续费"
     },
-    "RenameImage" : {
-      "title" : "修改自定义镜像名称",
-      "summary" : "修改自定义镜像名称"
-    },
     "CreateImage" : {
       "title" : "创建自定义镜像",
       "summary" : "创建自定义镜像"
@@ -546,10 +554,6 @@
     "CreateSnapshot" : {
       "title" : "创建快照",
       "summary" : "创建快照"
-    },
-    "RemoteCopySnapshot" : {
-      "title" : "跨地域复制快照",
-      "summary" : "跨地域复制快照"
     },
     "CreateAsp" : {
       "title" : "创建自动快照策略",
@@ -590,10 +594,6 @@
     "DescribeRegions" : {
       "title" : "获取域名列表",
       "summary" : "获取域名列表"
-    },
-    "ListSnapshotShare" : {
-      "title" : "查询共享快照列表",
-      "summary" : "查询共享快照列表"
     },
     "InstanceDeletionProtection" : {
       "title" : "设置实例删除保护",

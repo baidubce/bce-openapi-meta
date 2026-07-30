@@ -1,6 +1,7 @@
 {
   "RenameImage" : {
-    "imageIds" : "List of custom image IDs",
+    "imageId" : "Accepts a single custom image ID; mutually exclusive with imageIds",
+    "imageIds" : "Accepts a list of custom image IDs (up to 100); mutually exclusive with imageId",
     "name" : "Name of the custom image to create. Supports uppercase/lowercase letters, digits, Chinese characters, and special characters -_ /. Must start with a letter, length 1-65."
   }
 }
