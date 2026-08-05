@@ -4,6 +4,7 @@
     "clientToken" : "Idempotency token, max 64 characters",
     "sgId" : "ID of the server group to update",
     "name" : "Server group name. 1–65 bytes, must start with a letter, allows letters/digits/-\\_/. If omitted, auto-generated",
-    "desc" : "Server group description. 0–450 bytes, supports Chinese. Defaults to empty"
+    "desc" : "Server group description. 0–450 bytes, supports Chinese. Defaults to empty",
+    "preserveClientIpEnabled" : "Whether to enable client IP address preservation. Note: only supported on application-type instances; not supported on application-type IPv6 instances."
   }
 }

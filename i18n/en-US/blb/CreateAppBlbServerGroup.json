@@ -4,6 +4,7 @@
     "clientToken" : "Idempotency token, no more than 64 characters",
     "name" : "Name of the server group for easy identification. Length 1~65 bytes, must start with a letter, may contain letters, digits, -, /, . and _. Auto-generated if not specified.",
     "desc" : "Description of the server group for additional details. Length 0~450 bytes, supports Chinese characters. Defaults to empty.",
+    "preserveClientIpEnabled" : "Whether to enable client IP address preservation. Default is true. Note: Only supported on application-type instances; not supported on application-type IPv6 instances.",
     "backendServerList" : "List of backend servers bound to the server group",
     "backendServerList.instanceId" : "Identifier of the backend server",
     "backendServerList.weight" : "Weight of the backend server, value range 0-100",

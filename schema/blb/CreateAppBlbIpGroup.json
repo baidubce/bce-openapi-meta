@@ -34,6 +34,18 @@
     "position" : "BODY",
     "desc_key" : "blb.CreateAppBlbIpGroup.desc"
   }, {
+    "name" : "preserveClientIpEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroup.preserveClientIpEnabled"
+  }, {
+    "name" : "groupTargetType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroup.groupTargetType"
+  }, {
     "name" : "memberList",
     "type" : "List",
     "required" : false,

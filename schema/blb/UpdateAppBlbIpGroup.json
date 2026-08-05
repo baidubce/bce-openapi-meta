@@ -39,6 +39,12 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "blb.UpdateAppBlbIpGroup.desc"
+  }, {
+    "name" : "preserveClientIpEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbIpGroup.preserveClientIpEnabled"
   } ],
   "desc_key" : "blb.UpdateAppBlbIpGroup.desc"
 }

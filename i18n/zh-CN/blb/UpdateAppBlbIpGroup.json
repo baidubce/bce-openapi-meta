@@ -4,6 +4,7 @@
     "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
     "ipGroupId" : "要更新的IP组id",
     "name" : "IP组的名称，方便记忆。长度1~65个字节，字母开头，_可包含字母数字-/.字符。",
-    "desc" : "IP组的描述，最大支持200字符"
+    "desc" : "IP组的描述，最大支持200字符",
+    "preserveClientIpEnabled" : "是否开启客户端地址保持功能，默认为true。当且仅当`groupTargetType`数据流模式为同Region同VPC时才支持关闭。注意：仅应用型实例支持，应用型IPv6不支持该功能"
   }
 }

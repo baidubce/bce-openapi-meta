@@ -34,6 +34,12 @@
     "position" : "BODY",
     "desc_key" : "blb.CreateAppBlbServerGroup.desc"
   }, {
+    "name" : "preserveClientIpEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbServerGroup.preserveClientIpEnabled"
+  }, {
     "name" : "backendServerList",
     "type" : "List",
     "required" : false,
