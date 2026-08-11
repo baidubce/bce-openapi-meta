@@ -259,5 +259,13 @@
       "su" : "ca.su.baidubce.com",
       "yq" : "ca.yq.baidubce.com"
     }
+  }, {
+    "code" : "ax",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bj" : "api.sandbox-execute.bj.baidubce.com",
+      "gz" : "api.sandbox-execute.gz.baidubce.com",
+      "su" : "api.sandbox-execute.su.baidubce.com"
+    }
   } ]
 }

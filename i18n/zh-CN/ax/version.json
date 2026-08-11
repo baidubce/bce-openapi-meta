@@ -1,0 +1,11 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "智能体沙箱",
+  "apis" : {
+    "QuerySandboxes" : {
+      "title" : "批量查询沙箱实例",
+      "summary" : "批量查询沙箱实例"
+    }
+  }
+}

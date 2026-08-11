@@ -1,0 +1,11 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "ax",
+  "apis" : {
+    "QuerySandboxes" : {
+      "title" : "querySandboxes",
+      "summary" : "querySandboxes"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "QuerySandboxes",
+  "method" : "POST",
+  "uri" : "/sandboxes/query",
+  "parameters" : [ {
+    "name" : "limit",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.QuerySandboxes.limit"
+  }, {
+    "name" : "nextToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.QuerySandboxes.nextToken"
+  }, {
+    "name" : "sandboxIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.QuerySandboxes.sandboxIds"
+  }, {
+    "name" : "imagePaths",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.QuerySandboxes.imagePaths"
+  }, {
+    "name" : "metadata",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.QuerySandboxes.metadata",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "state",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.QuerySandboxes.state"
+  } ],
+  "desc_key" : "ax.QuerySandboxes.desc"
+}
