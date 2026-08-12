@@ -1,0 +1,8 @@
+{
+  "ListL3MountTarget" : {
+    "action" : "Fixed value for this API: ListL3MountTarget",
+    "instanceId" : "PFS instance ID",
+    "maxKeys" : "Max number of mount targets to return; maximum and default is 1000 (values above 1000 or <= 0 are normalized to 1000)",
+    "marker" : "Returns results in lexicographic order by mountTargetId, starting from (and including) the specified marker"
+  }
+}

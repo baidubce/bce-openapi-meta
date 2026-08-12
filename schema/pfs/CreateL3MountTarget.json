@@ -1,0 +1,38 @@
+{
+  "name" : "CreateL3MountTarget",
+  "method" : "POST",
+  "uri" : "/?action=CreateL3MountTarget",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.CreateL3MountTarget.action"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3MountTarget.instanceId"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3MountTarget.vpcId"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3MountTarget.subnetId"
+  } ],
+  "desc_key" : "pfs.CreateL3MountTarget.desc"
+}

@@ -31,13 +31,29 @@
       "title" : "创建Fileset",
       "summary" : "创建Fileset"
     },
+    "DescribeL3MountTarget" : {
+      "title" : "挂载点详情",
+      "summary" : "挂载点详情"
+    },
     "DeleteFileset" : {
       "title" : "删除Fileset",
       "summary" : "删除Fileset"
     },
+    "ListL3MountTarget" : {
+      "title" : "查询挂载点列表",
+      "summary" : "查询挂载点列表"
+    },
+    "DeleteL3MountTarget" : {
+      "title" : "删除挂载点",
+      "summary" : "删除挂载点"
+    },
     "UpdateFileset" : {
       "title" : "更新Fileset",
       "summary" : "更新Fileset"
+    },
+    "CreateL3MountTarget" : {
+      "title" : "创建挂载点",
+      "summary" : "创建挂载点"
     },
     "ListFileset" : {
       "title" : "获取Fileset列表",
@@ -50,10 +66,6 @@
     "ResumeL2BucketLink" : {
       "title" : "启动数据流动任务",
       "summary" : "启动数据流动任务"
-    },
-    "CreatePfs" : {
-      "title" : "创建PFS实例",
-      "summary" : "创建PFS实例"
     },
     "MountTargetListClients" : {
       "title" : "查询挂载服务挂载客户端列表",
@@ -102,6 +114,10 @@
     "DescPfs" : {
       "title" : "查询PFS实例详情",
       "summary" : "查询PFS实例详情"
+    },
+    "CreatePfs" : {
+      "title" : "创建PFS实例",
+      "summary" : "创建PFS实例"
     },
     "UpdatePFSTag" : {
       "title" : "更新PFS实例标签",

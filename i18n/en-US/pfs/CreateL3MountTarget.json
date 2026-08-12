@@ -1,0 +1,8 @@
+{
+  "CreateL3MountTarget" : {
+    "action" : "Fixed value for this API: CreateL3MountTarget",
+    "instanceId" : "PFS instance ID",
+    "vpcId" : "Short ID of the VPC to which the PFS instance VIP belongs",
+    "subnetId" : "Subnet to which the MountTarget belongs; must be within the VPC of the PFS instance, short ID format"
+  }
+}

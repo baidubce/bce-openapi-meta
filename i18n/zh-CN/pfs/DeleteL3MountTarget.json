@@ -1,0 +1,7 @@
+{
+  "DeleteL3MountTarget" : {
+    "action" : "本接口中固定为 CreateL3MountTarget",
+    "instanceId" : "PFS实例ID",
+    "mountTargetId" : "PFS实例的挂载点ID"
+  }
+}

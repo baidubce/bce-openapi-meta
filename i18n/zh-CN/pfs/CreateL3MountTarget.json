@@ -1,0 +1,8 @@
+{
+  "CreateL3MountTarget" : {
+    "action" : "本接口中固定为 CreateL3MountTarget",
+    "instanceId" : "PFS实例ID",
+    "vpcId" : "PFS实例vip所属VPC的短Id",
+    "subnetId" : "MountTarget所属子网，subnet属于PFS实例所在vpc，为短id"
+  }
+}

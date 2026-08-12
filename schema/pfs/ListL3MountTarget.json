@@ -1,0 +1,38 @@
+{
+  "name" : "ListL3MountTarget",
+  "method" : "POST",
+  "uri" : "/?action=ListL3MountTarget",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.ListL3MountTarget.action"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.ListL3MountTarget.instanceId"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.ListL3MountTarget.maxKeys"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.ListL3MountTarget.marker"
+  } ],
+  "desc_key" : "pfs.ListL3MountTarget.desc"
+}

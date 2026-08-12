@@ -1,0 +1,7 @@
+{
+  "DescribeL3MountTarget" : {
+    "action" : "本接口中固定为 ListL3MountTarget",
+    "instanceId" : "PFS实例ID",
+    "mountTargetId" : "挂载点ID"
+  }
+}

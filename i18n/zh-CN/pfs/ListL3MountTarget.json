@@ -1,0 +1,8 @@
+{
+  "ListL3MountTarget" : {
+    "action" : "本接口中固定为 ListL3MountTarget",
+    "instanceId" : "PFS实例ID",
+    "maxKeys" : "返回挂载点列表长度，最大为1000，默认为1000个（超过1000或者小于等于0的都规整为1000）",
+    "marker" : "按照mountTargetId的字典序排列，从marker开始返回（包括marker）"
+  }
+}
