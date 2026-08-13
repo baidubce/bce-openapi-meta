@@ -52,6 +52,16 @@
       "required" : false,
       "desc_key" : "cfw.CreateCfwRule.cfwRules.destAddress"
     }, {
+      "name" : "domainDetectMode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.domainDetectMode"
+    }, {
+      "name" : "applications",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "cfw.CreateCfwRule.cfwRules.applications"
+    }, {
       "name" : "sourcePort",
       "type" : "String",
       "required" : false,

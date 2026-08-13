@@ -15,29 +15,25 @@
       "title" : "修改指定网络型CFW策略",
       "summary" : "修改指定网络型CFW策略"
     },
-    "CreateCfwRule" : {
-      "title" : "批量创建应用型CFW规则",
-      "summary" : "批量创建应用型CFW规则"
-    },
-    "UpdateCfwRule" : {
-      "title" : "修改指定应用型CFW规则",
-      "summary" : "修改指定应用型CFW规则"
-    },
-    "DeleteCfwRule" : {
-      "title" : "批量删除应用型CFW规则",
-      "summary" : "批量删除应用型CFW规则"
+    "UpdateCfw" : {
+      "title" : "修改指定应用型CFW策略",
+      "summary" : "修改指定应用型CFW策略"
     },
     "CreateCfw" : {
       "title" : "创建应用型CFW策略",
       "summary" : "创建应用型CFW策略"
     },
-    "GetCfw" : {
-      "title" : "查询指定应用型CFW策略",
-      "summary" : "查询指定应用型CFW策略"
+    "UpdateCfwRule" : {
+      "title" : "修改指定应用型CFW规则",
+      "summary" : "修改指定应用型CFW规则"
     },
     "DisableCfwProtect" : {
       "title" : "实例关闭CFW保护",
       "summary" : "实例关闭CFW保护"
+    },
+    "DeleteCfwRule" : {
+      "title" : "批量删除应用型CFW规则",
+      "summary" : "批量删除应用型CFW规则"
     },
     "UnbindCfw" : {
       "title" : "批量实例解绑CFW",
@@ -59,6 +55,10 @@
       "title" : "批量实例绑定CFW",
       "summary" : "批量实例绑定CFW"
     },
+    "GetCfw" : {
+      "title" : "查询指定应用型CFW策略",
+      "summary" : "查询指定应用型CFW策略"
+    },
     "GetStatelessCfw" : {
       "title" : "查询指定网络型CFW策略",
       "summary" : "查询指定网络型CFW策略"
@@ -67,9 +67,9 @@
       "title" : "查询应用型CFW策略列表",
       "summary" : "查询应用型CFW策略列表"
     },
-    "UpdateCfw" : {
-      "title" : "修改指定应用型CFW策略",
-      "summary" : "修改指定应用型CFW策略"
+    "CreateCfwRule" : {
+      "title" : "批量创建应用型CFW规则",
+      "summary" : "批量创建应用型CFW规则"
     }
   }
 }

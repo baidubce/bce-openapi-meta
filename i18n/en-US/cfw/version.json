@@ -15,29 +15,25 @@
       "title" : "updateStatelessCfw",
       "summary" : "updateStatelessCfw"
     },
-    "CreateCfwRule" : {
-      "title" : "createCfwRule",
-      "summary" : "createCfwRule"
-    },
-    "UpdateCfwRule" : {
-      "title" : "updateCfwRule",
-      "summary" : "updateCfwRule"
-    },
-    "DeleteCfwRule" : {
-      "title" : "deleteCfwRule",
-      "summary" : "deleteCfwRule"
+    "UpdateCfw" : {
+      "title" : "updateCfw",
+      "summary" : "updateCfw"
     },
     "CreateCfw" : {
       "title" : "createCfw",
       "summary" : "createCfw"
     },
-    "GetCfw" : {
-      "title" : "getCfw",
-      "summary" : "getCfw"
+    "UpdateCfwRule" : {
+      "title" : "updateCfwRule",
+      "summary" : "updateCfwRule"
     },
     "DisableCfwProtect" : {
       "title" : "disableCfwProtect",
       "summary" : "disableCfwProtect"
+    },
+    "DeleteCfwRule" : {
+      "title" : "deleteCfwRule",
+      "summary" : "deleteCfwRule"
     },
     "UnbindCfw" : {
       "title" : "unbindCfw",
@@ -59,6 +55,10 @@
       "title" : "bindCfw",
       "summary" : "bindCfw"
     },
+    "GetCfw" : {
+      "title" : "getCfw",
+      "summary" : "getCfw"
+    },
     "GetStatelessCfw" : {
       "title" : "getStatelessCfw",
       "summary" : "getStatelessCfw"
@@ -67,9 +67,9 @@
       "title" : "listCfw",
       "summary" : "listCfw"
     },
-    "UpdateCfw" : {
-      "title" : "updateCfw",
-      "summary" : "updateCfw"
+    "CreateCfwRule" : {
+      "title" : "createCfwRule",
+      "summary" : "createCfwRule"
     }
   }
 }
