@@ -1,0 +1,13 @@
+{
+  "name" : "ListSandboxes",
+  "method" : "GET",
+  "uri" : "/sandboxes",
+  "parameters" : [ {
+    "name" : "metadata",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ax.ListSandboxes.metadata"
+  } ],
+  "desc_key" : "ax.ListSandboxes.desc"
+}

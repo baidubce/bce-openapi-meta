@@ -1,0 +1,8 @@
+{
+  "ListSandboxesV2ByPath" : {
+    "limit" : "Number of items per page. Values less than 1 or greater than 100 are adjusted to 100. Default is 100.",
+    "nextToken" : "The value of the X-Next-Token response header from the previous page.",
+    "metadata" : "URL-encoded metadata key-value pairs.",
+    "state" : "State filter; can be specified multiple times or as a comma-separated list."
+  }
+}

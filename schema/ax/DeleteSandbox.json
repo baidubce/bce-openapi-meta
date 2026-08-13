@@ -1,0 +1,13 @@
+{
+  "name" : "DeleteSandbox",
+  "method" : "DELETE",
+  "uri" : "/sandboxes/{sandboxID}",
+  "parameters" : [ {
+    "name" : "sandboxID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.DeleteSandbox.sandboxID"
+  } ],
+  "desc_key" : "ax.DeleteSandbox.desc"
+}

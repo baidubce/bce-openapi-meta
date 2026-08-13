@@ -1,0 +1,6 @@
+{
+  "SetSandboxTimeout" : {
+    "sandboxID" : "沙箱实例 ID。",
+    "timeout" : "从当前时间起的存活时间，单位秒。"
+  }
+}

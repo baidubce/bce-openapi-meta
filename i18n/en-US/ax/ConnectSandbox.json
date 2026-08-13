@@ -1,0 +1,7 @@
+{
+  "ConnectSandbox" : {
+    "sandboxID" : "Sandbox instance ID.",
+    "timeout" : "Renewal duration in seconds; -1 means permanent.",
+    "snapshotID" : "Snapshot ID used for restoration."
+  }
+}

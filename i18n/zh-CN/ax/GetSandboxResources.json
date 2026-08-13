@@ -1,0 +1,5 @@
+{
+  "GetSandboxResources" : {
+    "sandboxID" : "沙箱实例 ID。"
+  }
+}

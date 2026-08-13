@@ -1,0 +1,78 @@
+{
+  "name" : "CreateSandbox",
+  "method" : "POST",
+  "uri" : "/sandboxes",
+  "parameters" : [ {
+    "name" : "templateID",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.templateID"
+  }, {
+    "name" : "timeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.timeout"
+  }, {
+    "name" : "metadata",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.metadata",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "envVars",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.envVars",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "secure",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.secure"
+  }, {
+    "name" : "allow_internet_access",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.allow_internet_access"
+  }, {
+    "name" : "autoPause",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.autoPause"
+  }, {
+    "name" : "autoResume",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.autoResume",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "runtimeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.runtimeType"
+  }, {
+    "name" : "mcp",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.mcp",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "volumeMounts",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.volumeMounts",
+    "sub_parameters" : [ ]
+  } ],
+  "desc_key" : "ax.CreateSandbox.desc"
+}

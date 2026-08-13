@@ -1,0 +1,7 @@
+{
+  "ResumeSandbox" : {
+    "sandboxID" : "沙箱实例 ID。",
+    "timeout" : "恢复后存活时间，单位秒。",
+    "autoPause" : "是否自动暂停。"
+  }
+}

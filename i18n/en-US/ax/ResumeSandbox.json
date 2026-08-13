@@ -1,0 +1,7 @@
+{
+  "ResumeSandbox" : {
+    "sandboxID" : "Sandbox instance ID.",
+    "timeout" : "Survival duration after resumption, in seconds.",
+    "autoPause" : "Whether to automatically pause."
+  }
+}

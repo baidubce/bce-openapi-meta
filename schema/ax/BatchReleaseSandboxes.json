@@ -1,0 +1,13 @@
+{
+  "name" : "BatchReleaseSandboxes",
+  "method" : "POST",
+  "uri" : "/sandboxes/batchRelease",
+  "parameters" : [ {
+    "name" : "sandboxIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ax.BatchReleaseSandboxes.sandboxIds"
+  } ],
+  "desc_key" : "ax.BatchReleaseSandboxes.desc"
+}

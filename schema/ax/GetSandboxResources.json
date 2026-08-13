@@ -1,0 +1,13 @@
+{
+  "name" : "GetSandboxResources",
+  "method" : "GET",
+  "uri" : "/sandboxes/{sandboxID}/resources",
+  "parameters" : [ {
+    "name" : "sandboxID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.GetSandboxResources.sandboxID"
+  } ],
+  "desc_key" : "ax.GetSandboxResources.desc"
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "CreateSandboxSnapshot",
+  "method" : "POST",
+  "uri" : "/sandboxes/{sandboxID}/snapshots",
+  "parameters" : [ {
+    "name" : "sandboxID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.CreateSandboxSnapshot.sandboxID"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandboxSnapshot.name"
+  } ],
+  "desc_key" : "ax.CreateSandboxSnapshot.desc"
+}

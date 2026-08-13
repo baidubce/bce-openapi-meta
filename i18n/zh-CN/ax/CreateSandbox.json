@@ -1,0 +1,15 @@
+{
+  "CreateSandbox" : {
+    "templateID" : "沙箱模板 ID。",
+    "timeout" : "沙箱超时时间，单位秒。",
+    "metadata" : "沙箱标签元数据。",
+    "envVars" : "沙箱环境变量。",
+    "secure" : "是否对沙箱的全部系统通信进行加密。",
+    "allow_internet_access" : "是否允许沙箱访问公网。",
+    "autoPause" : "超时后是否自动暂停沙箱。",
+    "autoResume" : "暂停沙箱后的自动恢复配置，含 enabled（Boolean）字段。",
+    "runtimeType" : "沙箱运行时类型，可选 kata；仅白名单用户可指定，默认空为 CRIU。",
+    "mcp" : "沙箱的 MCP 配置。",
+    "volumeMounts" : "挂载到沙箱的 NFS 卷列表，元素含 name、path、subPath、readOnly 字段。"
+  }
+}

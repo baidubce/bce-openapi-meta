@@ -1,0 +1,31 @@
+{
+  "name" : "ListSandboxesV2ByPath",
+  "method" : "GET",
+  "uri" : "/sandboxes/v2",
+  "parameters" : [ {
+    "name" : "limit",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ax.ListSandboxesV2ByPath.limit"
+  }, {
+    "name" : "nextToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ax.ListSandboxesV2ByPath.nextToken"
+  }, {
+    "name" : "metadata",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ax.ListSandboxesV2ByPath.metadata"
+  }, {
+    "name" : "state",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ax.ListSandboxesV2ByPath.state"
+  } ],
+  "desc_key" : "ax.ListSandboxesV2ByPath.desc"
+}

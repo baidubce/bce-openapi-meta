@@ -3,9 +3,69 @@
   "style" : "rpc",
   "description" : "智能体沙箱",
   "apis" : {
+    "ResumeSandbox" : {
+      "title" : "恢复沙箱实例",
+      "summary" : "恢复沙箱实例"
+    },
+    "PauseSandbox" : {
+      "title" : "暂停沙箱实例",
+      "summary" : "暂停沙箱实例"
+    },
+    "DeleteSandbox" : {
+      "title" : "删除沙箱实例",
+      "summary" : "删除沙箱实例"
+    },
+    "CreateSandbox" : {
+      "title" : "创建沙箱实例",
+      "summary" : "创建沙箱实例"
+    },
+    "SetSandboxTimeout" : {
+      "title" : "设置沙箱实例超时时间",
+      "summary" : "设置沙箱实例超时时间"
+    },
+    "ConnectSandbox" : {
+      "title" : "连接沙箱实例",
+      "summary" : "连接沙箱实例"
+    },
+    "ForkSandbox" : {
+      "title" : "派生沙箱实例",
+      "summary" : "派生沙箱实例"
+    },
+    "CreateSandboxSnapshot" : {
+      "title" : "创建沙箱快照",
+      "summary" : "创建沙箱快照"
+    },
+    "ListSandboxSnapshots" : {
+      "title" : "查询沙箱快照列表",
+      "summary" : "查询沙箱快照列表"
+    },
+    "GetSandboxSnapshot" : {
+      "title" : "查询沙箱快照详情",
+      "summary" : "查询沙箱快照详情"
+    },
     "QuerySandboxes" : {
       "title" : "批量查询沙箱实例",
       "summary" : "批量查询沙箱实例"
+    },
+    "ListSandboxes" : {
+      "title" : "列出沙箱实例",
+      "summary" : "列出沙箱实例"
+    },
+    "ListSandboxesV2" : {
+      "title" : "分页列出沙箱实例",
+      "summary" : "分页列出沙箱实例"
+    },
+    "BatchReleaseSandboxes" : {
+      "title" : "批量释放沙箱实例",
+      "summary" : "批量释放沙箱实例"
+    },
+    "ListSandboxesV2ByPath" : {
+      "title" : "按路径查询沙箱实例",
+      "summary" : "按路径查询沙箱实例"
+    },
+    "GetSandboxResources" : {
+      "title" : "查询沙箱实例资源",
+      "summary" : "查询沙箱实例资源"
     }
   }
 }

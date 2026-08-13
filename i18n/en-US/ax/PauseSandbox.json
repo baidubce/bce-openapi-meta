@@ -1,0 +1,6 @@
+{
+  "PauseSandbox" : {
+    "sandboxID" : "Sandbox instance ID.",
+    "hibernateMode" : "Pause mode."
+  }
+}

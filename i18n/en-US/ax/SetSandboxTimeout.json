@@ -1,0 +1,6 @@
+{
+  "SetSandboxTimeout" : {
+    "sandboxID" : "Sandbox instance ID.",
+    "timeout" : "Time-to-live in seconds from the current time."
+  }
+}

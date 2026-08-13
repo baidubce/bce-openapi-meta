@@ -1,0 +1,19 @@
+{
+  "name" : "GetSandboxSnapshot",
+  "method" : "GET",
+  "uri" : "/sandboxes/{sandboxID}/snapshots/{snapshotID}",
+  "parameters" : [ {
+    "name" : "sandboxID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.GetSandboxSnapshot.sandboxID"
+  }, {
+    "name" : "snapshotID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.GetSandboxSnapshot.snapshotID"
+  } ],
+  "desc_key" : "ax.GetSandboxSnapshot.desc"
+}

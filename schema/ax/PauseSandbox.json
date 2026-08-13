@@ -1,0 +1,19 @@
+{
+  "name" : "PauseSandbox",
+  "method" : "POST",
+  "uri" : "/sandboxes/{sandboxID}/pause",
+  "parameters" : [ {
+    "name" : "sandboxID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.PauseSandbox.sandboxID"
+  }, {
+    "name" : "hibernateMode",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "ax.PauseSandbox.hibernateMode"
+  } ],
+  "desc_key" : "ax.PauseSandbox.desc"
+}

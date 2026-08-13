@@ -1,0 +1,8 @@
+{
+  "ListSandboxesV2ByPath" : {
+    "limit" : "单页数量。代码会将小于 1 或大于 100 的值调整为 100，默认 100。",
+    "nextToken" : "上一页响应头 X-Next-Token 的值。",
+    "metadata" : "URL 编码的 metadata 键值对。",
+    "state" : "状态过滤，可重复传入或使用逗号分隔。"
+  }
+}

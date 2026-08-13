@@ -1,0 +1,5 @@
+{
+  "GetSandboxResources" : {
+    "sandboxID" : "Sandbox instance ID."
+  }
+}

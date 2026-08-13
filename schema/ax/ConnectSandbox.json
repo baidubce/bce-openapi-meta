@@ -1,0 +1,25 @@
+{
+  "name" : "ConnectSandbox",
+  "method" : "POST",
+  "uri" : "/sandboxes/{sandboxID}/connect",
+  "parameters" : [ {
+    "name" : "sandboxID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.ConnectSandbox.sandboxID"
+  }, {
+    "name" : "timeout",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ax.ConnectSandbox.timeout"
+  }, {
+    "name" : "snapshotID",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.ConnectSandbox.snapshotID"
+  } ],
+  "desc_key" : "ax.ConnectSandbox.desc"
+}

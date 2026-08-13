@@ -3,9 +3,69 @@
   "style" : "rpc",
   "description" : "ax",
   "apis" : {
+    "ResumeSandbox" : {
+      "title" : "resumeSandbox",
+      "summary" : "resumeSandbox"
+    },
+    "PauseSandbox" : {
+      "title" : "pauseSandbox",
+      "summary" : "pauseSandbox"
+    },
+    "DeleteSandbox" : {
+      "title" : "deleteSandbox",
+      "summary" : "deleteSandbox"
+    },
+    "CreateSandbox" : {
+      "title" : "createSandbox",
+      "summary" : "createSandbox"
+    },
+    "SetSandboxTimeout" : {
+      "title" : "setSandboxTimeout",
+      "summary" : "setSandboxTimeout"
+    },
+    "ConnectSandbox" : {
+      "title" : "connectSandbox",
+      "summary" : "connectSandbox"
+    },
+    "ForkSandbox" : {
+      "title" : "forkSandbox",
+      "summary" : "forkSandbox"
+    },
+    "CreateSandboxSnapshot" : {
+      "title" : "createSandboxSnapshot",
+      "summary" : "createSandboxSnapshot"
+    },
+    "ListSandboxSnapshots" : {
+      "title" : "listSandboxSnapshots",
+      "summary" : "listSandboxSnapshots"
+    },
+    "GetSandboxSnapshot" : {
+      "title" : "getSandboxSnapshot",
+      "summary" : "getSandboxSnapshot"
+    },
     "QuerySandboxes" : {
       "title" : "querySandboxes",
       "summary" : "querySandboxes"
+    },
+    "ListSandboxes" : {
+      "title" : "listSandboxes",
+      "summary" : "listSandboxes"
+    },
+    "ListSandboxesV2" : {
+      "title" : "listSandboxesV2",
+      "summary" : "listSandboxesV2"
+    },
+    "BatchReleaseSandboxes" : {
+      "title" : "batchReleaseSandboxes",
+      "summary" : "batchReleaseSandboxes"
+    },
+    "ListSandboxesV2ByPath" : {
+      "title" : "listSandboxesV2ByPath",
+      "summary" : "listSandboxesV2ByPath"
+    },
+    "GetSandboxResources" : {
+      "title" : "getSandboxResources",
+      "summary" : "getSandboxResources"
     }
   }
 }

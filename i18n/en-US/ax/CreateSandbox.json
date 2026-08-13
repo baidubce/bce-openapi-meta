@@ -1,0 +1,15 @@
+{
+  "CreateSandbox" : {
+    "templateID" : "Sandbox template ID.",
+    "timeout" : "Sandbox timeout duration in seconds.",
+    "metadata" : "Sandbox label metadata.",
+    "envVars" : "Sandbox environment variables.",
+    "secure" : "Whether to encrypt all system communications of the sandbox.",
+    "allow_internet_access" : "Whether to allow the sandbox to access the public internet.",
+    "autoPause" : "Whether to automatically pause the sandbox after timeout.",
+    "autoResume" : "Auto-resume configuration after sandbox pause, containing an enabled (Boolean) field.",
+    "runtimeType" : "Sandbox runtime type; optional value: kata; only available to whitelisted users, defaults to CRIU when empty.",
+    "mcp" : "MCP configuration for the sandbox.",
+    "volumeMounts" : "List of NFS volumes mounted to the sandbox; each element contains name, path, subPath, and readOnly fields."
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "BatchReleaseSandboxes" : {
+    "sandboxIds" : "List of sandbox instance IDs to release, up to 100."
+  }
+}

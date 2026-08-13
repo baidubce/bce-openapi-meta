@@ -1,0 +1,25 @@
+{
+  "name" : "ResumeSandbox",
+  "method" : "POST",
+  "uri" : "/sandboxes/{sandboxID}/resume",
+  "parameters" : [ {
+    "name" : "sandboxID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.ResumeSandbox.sandboxID"
+  }, {
+    "name" : "timeout",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.ResumeSandbox.timeout"
+  }, {
+    "name" : "autoPause",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.ResumeSandbox.autoPause"
+  } ],
+  "desc_key" : "ax.ResumeSandbox.desc"
+}

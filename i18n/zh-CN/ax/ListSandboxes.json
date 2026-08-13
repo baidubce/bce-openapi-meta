@@ -1,0 +1,5 @@
+{
+  "ListSandboxes" : {
+    "metadata" : "URL 编码的 metadata 键值对，例如 app%3Dagent%26env%3Dtest。"
+  }
+}

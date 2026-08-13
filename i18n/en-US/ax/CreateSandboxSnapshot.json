@@ -1,0 +1,6 @@
+{
+  "CreateSandboxSnapshot" : {
+    "sandboxID" : "Sandbox instance ID.",
+    "name" : "Snapshot template name, also used as the template ID."
+  }
+}

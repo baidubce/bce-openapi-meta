@@ -1,0 +1,6 @@
+{
+  "PauseSandbox" : {
+    "sandboxID" : "沙箱实例 ID。",
+    "hibernateMode" : "暂停模式。"
+  }
+}

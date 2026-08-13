@@ -1,0 +1,19 @@
+{
+  "name" : "SetSandboxTimeout",
+  "method" : "POST",
+  "uri" : "/sandboxes/{sandboxID}/timeout",
+  "parameters" : [ {
+    "name" : "sandboxID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.SetSandboxTimeout.sandboxID"
+  }, {
+    "name" : "timeout",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ax.SetSandboxTimeout.timeout"
+  } ],
+  "desc_key" : "ax.SetSandboxTimeout.desc"
+}

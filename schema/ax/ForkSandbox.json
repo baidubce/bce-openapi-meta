@@ -1,0 +1,13 @@
+{
+  "name" : "ForkSandbox",
+  "method" : "POST",
+  "uri" : "/sandboxes/{sandboxID}/fork",
+  "parameters" : [ {
+    "name" : "sandboxID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.ForkSandbox.sandboxID"
+  } ],
+  "desc_key" : "ax.ForkSandbox.desc"
+}

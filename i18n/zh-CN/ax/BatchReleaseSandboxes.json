@@ -1,0 +1,5 @@
+{
+  "BatchReleaseSandboxes" : {
+    "sandboxIds" : "要释放的沙箱实例 ID 列表，最多 100 个。"
+  }
+}

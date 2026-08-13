@@ -1,0 +1,5 @@
+{
+  "DeleteSandbox" : {
+    "sandboxID" : "Sandbox instance ID."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "GetSandboxSnapshot" : {
+    "sandboxID" : "沙箱实例 ID。",
+    "snapshotID" : "快照 ID。"
+  }
+}

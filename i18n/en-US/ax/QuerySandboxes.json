@@ -1,10 +1,10 @@
 {
   "QuerySandboxes" : {
-    "limit" : "Maximum number of sandboxes returned per page. Valid range: 1–100. Default: 100.",
-    "nextToken" : "Pagination cursor from the previous response. Omit or pass an empty string on the first request; an empty value in the response indicates no more data.",
-    "sandboxIds" : "Filter by sandbox instance IDs. Up to 100 IDs. Multiple IDs are evaluated with OR logic.",
-    "imagePaths" : "Filter by actual image paths. Up to 100 paths. Multiple paths are evaluated with OR logic.",
-    "metadata" : "Filter by sandbox metadata key-value pairs. All specified key-value conditions must match.",
-    "state" : "Filter by sandbox state. Valid values: running, paused, killing, killed. Multiple states are evaluated with OR logic."
+    "limit" : "Number of results per page, range 1-100, default 100.",
+    "nextToken" : "Pagination cursor from the previous response; empty for the first request.",
+    "sandboxIds" : "List of sandbox instance IDs; multiple values within the group are OR-combined.",
+    "imagePaths" : "List of actual image paths; multiple values within the group are OR-combined.",
+    "metadata" : "Key-value filter for metadata; multiple conditions are AND-combined.",
+    "state" : "List of sandbox states; valid values: running, paused, killing, killed."
   }
 }

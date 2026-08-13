@@ -1,0 +1,6 @@
+{
+  "CreateSandboxSnapshot" : {
+    "sandboxID" : "沙箱实例 ID。",
+    "name" : "快照模板名称，同时作为模板 ID。"
+  }
+}
