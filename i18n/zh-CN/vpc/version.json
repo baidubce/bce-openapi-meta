@@ -231,10 +231,6 @@
       "title" : "查询对等连接列表",
       "summary" : "查询对等连接列表"
     },
-    "DeleteSecurityGroup" : {
-      "title" : "删除普通安全组",
-      "summary" : "删除普通安全组"
-    },
     "GetVpcResourceIpInfo" : {
       "title" : "查询VPC内产品占用IP",
       "summary" : "查询VPC内产品占用IP"
@@ -247,10 +243,6 @@
       "title" : "创建VPN",
       "summary" : "创建VPN"
     },
-    "RevokeSecurityGroupRules" : {
-      "title" : "撤销普通安全组规则",
-      "summary" : "撤销普通安全组规则"
-    },
     "QueryVpnList" : {
       "title" : "查询VPN列表",
       "summary" : "查询VPN列表"
@@ -258,10 +250,6 @@
     "SearchForVpnDetails" : {
       "title" : "查询VPN详情",
       "summary" : "查询VPN详情"
-    },
-    "UpdateSecurityGroupRules" : {
-      "title" : "更新普通安全组规则",
-      "summary" : "更新普通安全组规则"
     },
     "UpdateVpn" : {
       "title" : "更新VPN",
@@ -271,10 +259,6 @@
       "title" : "释放VPN",
       "summary" : "释放VPN"
     },
-    "QuerySecurityGroupsList" : {
-      "title" : "查询普通安全组列表",
-      "summary" : "查询普通安全组列表"
-    },
     "BindEip" : {
       "title" : "绑定EIP",
       "summary" : "绑定EIP"
@@ -282,10 +266,6 @@
     "UnbindEip" : {
       "title" : "解绑EIP",
       "summary" : "解绑EIP"
-    },
-    "CreateSecurityGroup" : {
-      "title" : "创建普通安全组",
-      "summary" : "创建普通安全组"
     },
     "RenewVpn" : {
       "title" : "VPN网关续费",
@@ -295,10 +275,6 @@
       "title" : "更新VPN释放保护开关",
       "summary" : "更新VPN释放保护开关"
     },
-    "DeleteSecurityGroupRules" : {
-      "title" : "删除普通安全组规则",
-      "summary" : "删除普通安全组规则"
-    },
     "CreateVpnTunnel" : {
       "title" : "创建VPN隧道",
       "summary" : "创建VPN隧道"
@@ -307,10 +283,6 @@
       "title" : "查询VPN隧道",
       "summary" : "查询VPN隧道"
     },
-    "GetSecurityGroupDetails" : {
-      "title" : "查看安全组详情",
-      "summary" : "查看安全组详情"
-    },
     "UpdateVpnTunnel" : {
       "title" : "更新VPN隧道",
       "summary" : "更新VPN隧道"
@@ -318,10 +290,6 @@
     "DeleteVpnTunnel" : {
       "title" : "删除VPN隧道",
       "summary" : "删除VPN隧道"
-    },
-    "AuthorizeSecurityGroupRules" : {
-      "title" : "授权普通安全组规则",
-      "summary" : "授权普通安全组规则"
     },
     "CreateUserGateway" : {
       "title" : "创建用户网关",
@@ -543,13 +511,45 @@
       "title" : "查询IP地址族列表",
       "summary" : "查询IP地址族列表"
     },
+    "DeleteSecurityGroup" : {
+      "title" : "删除普通安全组",
+      "summary" : "删除普通安全组"
+    },
     "QueryIpGroupDetail" : {
       "title" : "查询指定的IP地址组",
       "summary" : "查询指定的IP地址组"
     },
+    "RevokeSecurityGroupRules" : {
+      "title" : "撤销普通安全组规则",
+      "summary" : "撤销普通安全组规则"
+    },
+    "UpdateSecurityGroupRules" : {
+      "title" : "更新普通安全组规则",
+      "summary" : "更新普通安全组规则"
+    },
     "RemoveEni" : {
       "title" : "删除弹性网卡",
       "summary" : "删除弹性网卡"
+    },
+    "QuerySecurityGroupsList" : {
+      "title" : "查询普通安全组列表",
+      "summary" : "查询普通安全组列表"
+    },
+    "CreateSecurityGroup" : {
+      "title" : "创建普通安全组",
+      "summary" : "创建普通安全组"
+    },
+    "DeleteSecurityGroupRules" : {
+      "title" : "删除普通安全组规则",
+      "summary" : "删除普通安全组规则"
+    },
+    "GetSecurityGroupDetails" : {
+      "title" : "查看安全组详情",
+      "summary" : "查看安全组详情"
+    },
+    "AuthorizeSecurityGroupRules" : {
+      "title" : "授权普通安全组规则",
+      "summary" : "授权普通安全组规则"
     },
     "DetachEniInstance" : {
       "title" : "弹性网卡卸载云产品实例",

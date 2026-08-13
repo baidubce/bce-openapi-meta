@@ -231,10 +231,6 @@
       "title" : "listPeerConn",
       "summary" : "listPeerConn"
     },
-    "DeleteSecurityGroup" : {
-      "title" : "deleteSecurityGroup",
-      "summary" : "deleteSecurityGroup"
-    },
     "GetVpcResourceIpInfo" : {
       "title" : "getVpcResourceIpInfo",
       "summary" : "getVpcResourceIpInfo"
@@ -247,10 +243,6 @@
       "title" : "createVpn",
       "summary" : "createVpn"
     },
-    "RevokeSecurityGroupRules" : {
-      "title" : "revokeSecurityGroupRules",
-      "summary" : "revokeSecurityGroupRules"
-    },
     "QueryVpnList" : {
       "title" : "queryVpnList",
       "summary" : "queryVpnList"
@@ -258,10 +250,6 @@
     "SearchForVpnDetails" : {
       "title" : "searchForVpnDetails",
       "summary" : "searchForVpnDetails"
-    },
-    "UpdateSecurityGroupRules" : {
-      "title" : "updateSecurityGroupRules",
-      "summary" : "updateSecurityGroupRules"
     },
     "UpdateVpn" : {
       "title" : "updateVpn",
@@ -271,10 +259,6 @@
       "title" : "releaseVpn",
       "summary" : "releaseVpn"
     },
-    "QuerySecurityGroupsList" : {
-      "title" : "querySecurityGroupsList",
-      "summary" : "querySecurityGroupsList"
-    },
     "BindEip" : {
       "title" : "bindEip",
       "summary" : "bindEip"
@@ -282,10 +266,6 @@
     "UnbindEip" : {
       "title" : "unbindEip",
       "summary" : "unbindEip"
-    },
-    "CreateSecurityGroup" : {
-      "title" : "createSecurityGroup",
-      "summary" : "createSecurityGroup"
     },
     "RenewVpn" : {
       "title" : "renewVpn",
@@ -295,10 +275,6 @@
       "title" : "updateVpnReleaseProtection",
       "summary" : "updateVpnReleaseProtection"
     },
-    "DeleteSecurityGroupRules" : {
-      "title" : "deleteSecurityGroupRules",
-      "summary" : "deleteSecurityGroupRules"
-    },
     "CreateVpnTunnel" : {
       "title" : "createVpnTunnel",
       "summary" : "createVpnTunnel"
@@ -307,10 +283,6 @@
       "title" : "searchVpnTunnel",
       "summary" : "searchVpnTunnel"
     },
-    "GetSecurityGroupDetails" : {
-      "title" : "getSecurityGroupDetails",
-      "summary" : "getSecurityGroupDetails"
-    },
     "UpdateVpnTunnel" : {
       "title" : "updateVpnTunnel",
       "summary" : "updateVpnTunnel"
@@ -318,10 +290,6 @@
     "DeleteVpnTunnel" : {
       "title" : "deleteVpnTunnel",
       "summary" : "deleteVpnTunnel"
-    },
-    "AuthorizeSecurityGroupRules" : {
-      "title" : "authorizeSecurityGroupRules",
-      "summary" : "authorizeSecurityGroupRules"
     },
     "CreateUserGateway" : {
       "title" : "createUserGateway",
@@ -543,13 +511,45 @@
       "title" : "queryIpSetList",
       "summary" : "queryIpSetList"
     },
+    "DeleteSecurityGroup" : {
+      "title" : "deleteSecurityGroup",
+      "summary" : "deleteSecurityGroup"
+    },
     "QueryIpGroupDetail" : {
       "title" : "queryIpGroupDetail",
       "summary" : "queryIpGroupDetail"
     },
+    "RevokeSecurityGroupRules" : {
+      "title" : "revokeSecurityGroupRules",
+      "summary" : "revokeSecurityGroupRules"
+    },
+    "UpdateSecurityGroupRules" : {
+      "title" : "updateSecurityGroupRules",
+      "summary" : "updateSecurityGroupRules"
+    },
     "RemoveEni" : {
       "title" : "removeEni",
       "summary" : "removeEni"
+    },
+    "QuerySecurityGroupsList" : {
+      "title" : "querySecurityGroupsList",
+      "summary" : "querySecurityGroupsList"
+    },
+    "CreateSecurityGroup" : {
+      "title" : "createSecurityGroup",
+      "summary" : "createSecurityGroup"
+    },
+    "DeleteSecurityGroupRules" : {
+      "title" : "deleteSecurityGroupRules",
+      "summary" : "deleteSecurityGroupRules"
+    },
+    "GetSecurityGroupDetails" : {
+      "title" : "getSecurityGroupDetails",
+      "summary" : "getSecurityGroupDetails"
+    },
+    "AuthorizeSecurityGroupRules" : {
+      "title" : "authorizeSecurityGroupRules",
+      "summary" : "authorizeSecurityGroupRules"
     },
     "DetachEniInstance" : {
       "title" : "detachEniInstance",
