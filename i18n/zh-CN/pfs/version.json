@@ -31,29 +31,13 @@
       "title" : "创建Fileset",
       "summary" : "创建Fileset"
     },
-    "DescribeL3MountTarget" : {
-      "title" : "挂载点详情",
-      "summary" : "挂载点详情"
-    },
     "DeleteFileset" : {
       "title" : "删除Fileset",
       "summary" : "删除Fileset"
     },
-    "ListL3MountTarget" : {
-      "title" : "查询挂载点列表",
-      "summary" : "查询挂载点列表"
-    },
-    "DeleteL3MountTarget" : {
-      "title" : "删除挂载点",
-      "summary" : "删除挂载点"
-    },
     "UpdateFileset" : {
       "title" : "更新Fileset",
       "summary" : "更新Fileset"
-    },
-    "CreateL3MountTarget" : {
-      "title" : "创建挂载点",
-      "summary" : "创建挂载点"
     },
     "ListFileset" : {
       "title" : "获取Fileset列表",
@@ -71,13 +55,29 @@
       "title" : "查询挂载服务挂载客户端列表",
       "summary" : "查询挂载服务挂载客户端列表"
     },
+    "CreateL3MountTarget" : {
+      "title" : "创建挂载点",
+      "summary" : "创建挂载点"
+    },
     "ListL2BucketLink" : {
       "title" : "查询数据流动任务列表",
       "summary" : "查询数据流动任务列表"
     },
+    "DeleteL3MountTarget" : {
+      "title" : "删除挂载点",
+      "summary" : "删除挂载点"
+    },
+    "ListL3MountTarget" : {
+      "title" : "查询挂载点列表",
+      "summary" : "查询挂载点列表"
+    },
     "CreateL2Policy" : {
       "title" : "创建生命周期规则",
       "summary" : "创建生命周期规则"
+    },
+    "DescribeL3MountTarget" : {
+      "title" : "挂载点详情",
+      "summary" : "挂载点详情"
     },
     "InstanceListClients" : {
       "title" : "查询PFS实例挂载客户端列表",
