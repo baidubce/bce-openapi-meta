@@ -1,6 +1,6 @@
 {
   "DeleteL3MountTarget" : {
-    "action" : "Fixed value for this API: CreateL3MountTarget",
+    "action" : "Fixed value for this API: DeleteL3MountTarget",
     "instanceId" : "PFS instance ID",
     "mountTargetId" : "Mount target ID of the PFS instance"
   }
