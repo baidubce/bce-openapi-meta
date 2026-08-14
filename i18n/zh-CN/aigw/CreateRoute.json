@@ -3,7 +3,7 @@
     "instanceId" : "AI 网关实例 ID",
     "clusterId" : "集群 ID",
     "routeName" : "路由名称，长度为 2～64 个字符，在同一实例内唯一",
-    "srcProduct" : "来源产品标识",
+    "srcProduct" : "来源产品标识，外部用户无需填写",
     "accessMode" : "访问模式，取值为 API 或 Web，默认为 API",
     "webSubdomain" : "Web 模式的独立子域名，accessMode 为 Web 时必需",
     "servicePath" : "Web 模式的后端服务路径，accessMode 为 Web 时必需，必须以 `/` 开头",
