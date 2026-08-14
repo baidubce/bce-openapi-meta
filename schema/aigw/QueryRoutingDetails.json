@@ -1,0 +1,19 @@
+{
+  "name" : "QueryRoutingDetails",
+  "method" : "GET",
+  "uri" : "/v1/aigw/{instanceId}/{routeName}/route/detail",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.QueryRoutingDetails.instanceId"
+  }, {
+    "name" : "routeName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.QueryRoutingDetails.routeName"
+  } ],
+  "desc_key" : "aigw.QueryRoutingDetails.desc"
+}

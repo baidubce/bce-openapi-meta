@@ -1,0 +1,43 @@
+{
+  "name" : "QueryRoutingList",
+  "method" : "GET",
+  "uri" : "/v1/aigw/cluster/{instanceId}/route",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.QueryRoutingList.instanceId"
+  }, {
+    "name" : "routeName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.QueryRoutingList.routeName"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.QueryRoutingList.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.QueryRoutingList.pageSize"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.QueryRoutingList.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.QueryRoutingList.order"
+  } ],
+  "desc_key" : "aigw.QueryRoutingList.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "QueryRoutingDetails" : {
+    "instanceId" : "AI 网关实例 ID",
+    "routeName" : "路由名称"
+  }
+}

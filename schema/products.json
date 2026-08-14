@@ -267,5 +267,16 @@
       "gz" : "api.sandbox-execute.gz.baidubce.com",
       "su" : "api.sandbox-execute.su.baidubce.com"
     }
+  }, {
+    "code" : "aigw",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "aigw.bd.baidubce.com",
+      "bj" : "aigw.bj.baidubce.com",
+      "cd" : "aigw.cd.baidubce.com",
+      "gz" : "aigw.gz.baidubce.com",
+      "su" : "aigw.su.baidubce.com",
+      "yq" : "aigw.yq.baidubce.com"
+    }
   } ]
 }

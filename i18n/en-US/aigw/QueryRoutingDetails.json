@@ -1,0 +1,6 @@
+{
+  "QueryRoutingDetails" : {
+    "instanceId" : "AI Gateway instance ID",
+    "routeName" : "Route name"
+  }
+}

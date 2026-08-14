@@ -1,0 +1,536 @@
+{
+  "name" : "UpdateRoute",
+  "method" : "PUT",
+  "uri" : "/v1/aigw/{instanceId}/{routeName}/route/detail",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.UpdateRoute.instanceId"
+  }, {
+    "name" : "routeName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.UpdateRoute.routeName"
+  }, {
+    "name" : "srcProduct",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.srcProduct"
+  }, {
+    "name" : "accessMode",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.accessMode"
+  }, {
+    "name" : "webSubdomain",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.webSubdomain"
+  }, {
+    "name" : "servicePath",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.servicePath"
+  }, {
+    "name" : "domains",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.domains"
+  }, {
+    "name" : "matchRules",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.matchRules",
+    "sub_parameters" : [ {
+      "name" : "pathRule",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.matchRules.pathRule",
+      "sub_parameters" : [ {
+        "name" : "matchType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.matchRules.pathRule.matchType"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.matchRules.pathRule.value"
+      }, {
+        "name" : "caseSensitive",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.matchRules.pathRule.caseSensitive"
+      } ]
+    }, {
+      "name" : "methods",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.matchRules.methods"
+    }, {
+      "name" : "headers",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.matchRules.headers",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.matchRules.headers.key"
+      }, {
+        "name" : "matchType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.matchRules.headers.matchType"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.matchRules.headers.value"
+      } ]
+    }, {
+      "name" : "queryParams",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.matchRules.queryParams",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.matchRules.queryParams.key"
+      }, {
+        "name" : "matchType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.matchRules.queryParams.matchType"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.matchRules.queryParams.value"
+      } ]
+    } ]
+  }, {
+    "name" : "multiService",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.multiService"
+  }, {
+    "name" : "trafficDistributionStrategy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.trafficDistributionStrategy"
+  }, {
+    "name" : "enableWeightAdjust",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.enableWeightAdjust"
+  }, {
+    "name" : "targetService",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.targetService",
+    "sub_parameters" : [ {
+      "name" : "serviceSource",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.serviceSource"
+    }, {
+      "name" : "serviceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.serviceName"
+    }, {
+      "name" : "namespace",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.namespace"
+    }, {
+      "name" : "servicePort",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.servicePort"
+    }, {
+      "name" : "loadBalanceAlgorithm",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.loadBalanceAlgorithm"
+    }, {
+      "name" : "hashType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.hashType"
+    }, {
+      "name" : "hashKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.hashKey"
+    }, {
+      "name" : "requestRatio",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.requestRatio"
+    }, {
+      "name" : "weightFactor",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.weightFactor"
+    }, {
+      "name" : "modelName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.modelName"
+    }, {
+      "name" : "modelNameMode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.modelNameMode"
+    }, {
+      "name" : "specifiedModelName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.targetService.specifiedModelName"
+    } ]
+  }, {
+    "name" : "rewrite",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.rewrite",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.rewrite.enabled"
+    }, {
+      "name" : "path",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.rewrite.path"
+    } ]
+  }, {
+    "name" : "regexRewrite",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.regexRewrite",
+    "sub_parameters" : [ {
+      "name" : "match",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.regexRewrite.match"
+    }, {
+      "name" : "rewrite",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.regexRewrite.rewrite"
+    } ]
+  }, {
+    "name" : "customHeaders",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.customHeaders",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.customHeaders.key"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.customHeaders.value"
+    } ]
+  }, {
+    "name" : "skipSetHostHeader",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.skipSetHostHeader"
+  }, {
+    "name" : "authEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.authEnabled"
+  }, {
+    "name" : "allowedConsumers",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.allowedConsumers"
+  }, {
+    "name" : "tokenRateLimit",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.tokenRateLimit",
+    "sub_parameters" : [ {
+      "name" : "rule_name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.rule_name"
+    }, {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.enabled"
+    }, {
+      "name" : "pre_reserve_remaining_ratio",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.pre_reserve_remaining_ratio"
+    }, {
+      "name" : "pre_reserve_history_window_seconds",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.pre_reserve_history_window_seconds"
+    }, {
+      "name" : "pre_reserve_safety_factor",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.pre_reserve_safety_factor"
+    }, {
+      "name" : "pre_reserve_estimation_mode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.pre_reserve_estimation_mode"
+    }, {
+      "name" : "pre_reserve_initial_tokens",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.pre_reserve_initial_tokens"
+    }, {
+      "name" : "sliding_window_bucket_count",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.sliding_window_bucket_count"
+    }, {
+      "name" : "pre_reserve_admission_mode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.pre_reserve_admission_mode"
+    }, {
+      "name" : "pre_reserve_admission_burst_seconds",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.pre_reserve_admission_burst_seconds"
+    }, {
+      "name" : "pre_reserve_retry_jitter_ms",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.pre_reserve_retry_jitter_ms"
+    }, {
+      "name" : "rule_items",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.tokenRateLimit.rule_items",
+      "sub_parameters" : [ {
+        "name" : "match_condition",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.tokenRateLimit.rule_items.match_condition"
+      }, {
+        "name" : "limit_config",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.tokenRateLimit.rule_items.limit_config"
+      } ]
+    } ]
+  }, {
+    "name" : "requestRateLimit",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.requestRateLimit",
+    "sub_parameters" : [ {
+      "name" : "rule_name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.requestRateLimit.rule_name"
+    }, {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.requestRateLimit.enabled"
+    }, {
+      "name" : "rule_items",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.requestRateLimit.rule_items",
+      "sub_parameters" : [ {
+        "name" : "match_condition",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.requestRateLimit.rule_items.match_condition"
+      }, {
+        "name" : "limit_config",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.requestRateLimit.rule_items.limit_config"
+      } ]
+    } ]
+  }, {
+    "name" : "timeoutPolicy",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.timeoutPolicy",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.timeoutPolicy.enabled"
+    }, {
+      "name" : "timeout",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.timeoutPolicy.timeout"
+    } ]
+  }, {
+    "name" : "retryPolicy",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.retryPolicy",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.retryPolicy.enabled"
+    }, {
+      "name" : "retryConditions",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.retryPolicy.retryConditions"
+    }, {
+      "name" : "numRetries",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.retryPolicy.numRetries"
+    } ]
+  }, {
+    "name" : "corsPolicy",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.corsPolicy",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.corsPolicy.enabled"
+    }, {
+      "name" : "allowOrigins",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.corsPolicy.allowOrigins",
+      "sub_parameters" : [ {
+        "name" : "matchType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.corsPolicy.allowOrigins.matchType"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.corsPolicy.allowOrigins.value"
+      } ]
+    }, {
+      "name" : "allowMethods",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.corsPolicy.allowMethods"
+    }, {
+      "name" : "allowHeaders",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.corsPolicy.allowHeaders"
+    }, {
+      "name" : "exposeHeaders",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.corsPolicy.exposeHeaders"
+    }, {
+      "name" : "maxAge",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.corsPolicy.maxAge"
+    }, {
+      "name" : "allowCredentials",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.corsPolicy.allowCredentials"
+    } ]
+  }, {
+    "name" : "responseHeaders",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.responseHeaders",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.responseHeaders.enabled"
+    }, {
+      "name" : "headers",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.responseHeaders.headers",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.responseHeaders.headers.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.UpdateRoute.responseHeaders.headers.value"
+      } ]
+    } ]
+  }, {
+    "name" : "fallbackConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateRoute.fallbackConfig",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.fallbackConfig.enabled"
+    }, {
+      "name" : "serviceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.fallbackConfig.serviceName"
+    }, {
+      "name" : "modelNameMode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.fallbackConfig.modelNameMode"
+    }, {
+      "name" : "specifiedModelName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateRoute.fallbackConfig.specifiedModelName"
+    } ]
+  } ],
+  "desc_key" : "aigw.UpdateRoute.desc"
+}

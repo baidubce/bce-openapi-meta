@@ -1,0 +1,27 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "AI原生网关",
+  "apis" : {
+    "CreateRoute" : {
+      "title" : "创建路由",
+      "summary" : "创建路由"
+    },
+    "DeleteRoute" : {
+      "title" : "删除路由",
+      "summary" : "删除路由"
+    },
+    "QueryRoutingList" : {
+      "title" : "查询路由列表",
+      "summary" : "查询路由列表"
+    },
+    "QueryRoutingDetails" : {
+      "title" : "查询路由详情",
+      "summary" : "查询路由详情"
+    },
+    "UpdateRoute" : {
+      "title" : "更新路由",
+      "summary" : "更新路由"
+    }
+  }
+}

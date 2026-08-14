@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteRoute",
+  "method" : "DELETE",
+  "uri" : "/v1/aigw/{instanceId}/{routeName}/route/detail",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.DeleteRoute.instanceId"
+  }, {
+    "name" : "routeName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.DeleteRoute.routeName"
+  } ],
+  "desc_key" : "aigw.DeleteRoute.desc"
+}

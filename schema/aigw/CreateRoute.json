@@ -1,0 +1,557 @@
+{
+  "name" : "CreateRoute",
+  "method" : "POST",
+  "uri" : "/v1/aigw/{instanceId}/{clusterId}/route",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.CreateRoute.instanceId"
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.CreateRoute.clusterId"
+  }, {
+    "name" : "routeName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.routeName"
+  }, {
+    "name" : "srcProduct",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.srcProduct"
+  }, {
+    "name" : "accessMode",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.accessMode"
+  }, {
+    "name" : "webSubdomain",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.webSubdomain"
+  }, {
+    "name" : "servicePath",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.servicePath"
+  }, {
+    "name" : "domains",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.domains"
+  }, {
+    "name" : "matchRules",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.matchRules",
+    "sub_parameters" : [ {
+      "name" : "pathRule",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.matchRules.pathRule",
+      "sub_parameters" : [ {
+        "name" : "matchType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.matchRules.pathRule.matchType"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.matchRules.pathRule.value"
+      }, {
+        "name" : "caseSensitive",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.matchRules.pathRule.caseSensitive"
+      } ]
+    }, {
+      "name" : "methods",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.matchRules.methods"
+    }, {
+      "name" : "headers",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.matchRules.headers",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.matchRules.headers.key"
+      }, {
+        "name" : "matchType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.matchRules.headers.matchType"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.matchRules.headers.value"
+      } ]
+    }, {
+      "name" : "queryParams",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.matchRules.queryParams",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.matchRules.queryParams.key"
+      }, {
+        "name" : "matchType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.matchRules.queryParams.matchType"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.matchRules.queryParams.value"
+      } ]
+    } ]
+  }, {
+    "name" : "multiService",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.multiService"
+  }, {
+    "name" : "trafficDistributionStrategy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.trafficDistributionStrategy"
+  }, {
+    "name" : "enableWeightAdjust",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.enableWeightAdjust"
+  }, {
+    "name" : "targetService",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.targetService",
+    "sub_parameters" : [ {
+      "name" : "serviceSource",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.serviceSource"
+    }, {
+      "name" : "serviceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.serviceName"
+    }, {
+      "name" : "namespace",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.namespace"
+    }, {
+      "name" : "servicePort",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.servicePort"
+    }, {
+      "name" : "loadBalanceAlgorithm",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.loadBalanceAlgorithm"
+    }, {
+      "name" : "hashType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.hashType"
+    }, {
+      "name" : "hashKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.hashKey"
+    }, {
+      "name" : "requestRatio",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.requestRatio"
+    }, {
+      "name" : "weightFactor",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.weightFactor"
+    }, {
+      "name" : "modelName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.modelName"
+    }, {
+      "name" : "modelNameMode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.modelNameMode"
+    }, {
+      "name" : "specifiedModelName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.targetService.specifiedModelName"
+    } ]
+  }, {
+    "name" : "rewrite",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.rewrite",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.rewrite.enabled"
+    }, {
+      "name" : "path",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.rewrite.path"
+    } ]
+  }, {
+    "name" : "regexRewrite",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.regexRewrite",
+    "sub_parameters" : [ {
+      "name" : "match",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.regexRewrite.match"
+    }, {
+      "name" : "rewrite",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.regexRewrite.rewrite"
+    } ]
+  }, {
+    "name" : "customHeaders",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.customHeaders",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.customHeaders.key"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.customHeaders.value"
+    } ]
+  }, {
+    "name" : "skipSetHostHeader",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.skipSetHostHeader"
+  }, {
+    "name" : "authEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.authEnabled"
+  }, {
+    "name" : "allowedConsumers",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.allowedConsumers"
+  }, {
+    "name" : "tokenRateLimit",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.tokenRateLimit",
+    "sub_parameters" : [ {
+      "name" : "rule_name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_name"
+    }, {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.enabled"
+    }, {
+      "name" : "pre_reserve_remaining_ratio",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_remaining_ratio"
+    }, {
+      "name" : "pre_reserve_history_window_seconds",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_history_window_seconds"
+    }, {
+      "name" : "pre_reserve_safety_factor",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_safety_factor"
+    }, {
+      "name" : "pre_reserve_estimation_mode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_estimation_mode"
+    }, {
+      "name" : "pre_reserve_initial_tokens",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_initial_tokens"
+    }, {
+      "name" : "sliding_window_bucket_count",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.sliding_window_bucket_count"
+    }, {
+      "name" : "pre_reserve_admission_mode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_admission_mode"
+    }, {
+      "name" : "pre_reserve_admission_burst_seconds",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_admission_burst_seconds"
+    }, {
+      "name" : "pre_reserve_retry_jitter_ms",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_retry_jitter_ms"
+    }, {
+      "name" : "rule_items",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items",
+      "sub_parameters" : [ {
+        "name" : "match_condition",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.match_condition"
+      }, {
+        "name" : "limit_config",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config",
+        "sub_parameters" : [ {
+          "name" : "time_unit",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config.time_unit"
+        }, {
+          "name" : "time_window",
+          "type" : "Float",
+          "required" : false,
+          "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config.time_window"
+        }, {
+          "name" : "token_amount",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config.token_amount"
+        }, {
+          "name" : "limits",
+          "type" : "Object",
+          "required" : false,
+          "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config.limits"
+        }, {
+          "name" : "token_usage_weight",
+          "type" : "Object",
+          "required" : false,
+          "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config.token_usage_weight"
+        } ]
+      } ]
+    } ]
+  }, {
+    "name" : "requestRateLimit",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.requestRateLimit",
+    "sub_parameters" : [ {
+      "name" : "rule_name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.requestRateLimit.rule_name"
+    }, {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.requestRateLimit.enabled"
+    }, {
+      "name" : "rule_items",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.requestRateLimit.rule_items",
+      "sub_parameters" : [ {
+        "name" : "match_condition",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.requestRateLimit.rule_items.match_condition"
+      }, {
+        "name" : "limit_config",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.requestRateLimit.rule_items.limit_config"
+      } ]
+    } ]
+  }, {
+    "name" : "timeoutPolicy",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.timeoutPolicy",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.timeoutPolicy.enabled"
+    }, {
+      "name" : "timeout",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.timeoutPolicy.timeout"
+    } ]
+  }, {
+    "name" : "retryPolicy",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.retryPolicy",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.retryPolicy.enabled"
+    }, {
+      "name" : "retryConditions",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.retryPolicy.retryConditions"
+    }, {
+      "name" : "numRetries",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.retryPolicy.numRetries"
+    } ]
+  }, {
+    "name" : "corsPolicy",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.corsPolicy",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.corsPolicy.enabled"
+    }, {
+      "name" : "allowOrigins",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.corsPolicy.allowOrigins"
+    }, {
+      "name" : "allowMethods",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.corsPolicy.allowMethods"
+    }, {
+      "name" : "allowHeaders",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.corsPolicy.allowHeaders"
+    }, {
+      "name" : "exposeHeaders",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.corsPolicy.exposeHeaders"
+    }, {
+      "name" : "maxAge",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.corsPolicy.maxAge"
+    }, {
+      "name" : "allowCredentials",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.corsPolicy.allowCredentials"
+    } ]
+  }, {
+    "name" : "responseHeaders",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.responseHeaders",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.responseHeaders.enabled"
+    }, {
+      "name" : "headers",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.responseHeaders.headers",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.responseHeaders.headers.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.responseHeaders.headers.value"
+      } ]
+    } ]
+  }, {
+    "name" : "fallbackConfig",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateRoute.fallbackConfig",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.fallbackConfig.enabled"
+    }, {
+      "name" : "serviceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.fallbackConfig.serviceName"
+    }, {
+      "name" : "modelNameMode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.fallbackConfig.modelNameMode"
+    }, {
+      "name" : "specifiedModelName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateRoute.fallbackConfig.specifiedModelName"
+    } ]
+  } ],
+  "desc_key" : "aigw.CreateRoute.desc"
+}
