@@ -1,0 +1,25 @@
+{
+  "name" : "DeleteConsumer",
+  "method" : "DELETE",
+  "uri" : "/v1/aigw/{instanceId}/consumer/{consumerId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.DeleteConsumer.instanceId"
+  }, {
+    "name" : "consumerId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.DeleteConsumer.consumerId"
+  }, {
+    "name" : "keyType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.DeleteConsumer.keyType"
+  } ],
+  "desc_key" : "aigw.DeleteConsumer.desc"
+}

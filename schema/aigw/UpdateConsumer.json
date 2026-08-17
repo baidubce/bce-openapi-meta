@@ -1,0 +1,155 @@
+{
+  "name" : "UpdateConsumer",
+  "method" : "PUT",
+  "uri" : "/v1/aigw/{instanceId}/consumer/{consumerId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.UpdateConsumer.instanceId"
+  }, {
+    "name" : "consumerId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.UpdateConsumer.consumerId"
+  }, {
+    "name" : "keyType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.UpdateConsumer.keyType"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateConsumer.description"
+  }, {
+    "name" : "routeNames",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateConsumer.routeNames"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateConsumer.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.tags.tagValue"
+    } ]
+  }, {
+    "name" : "credentialOp",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateConsumer.credentialOp",
+    "sub_parameters" : [ {
+      "name" : "operation",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.credentialOp.operation"
+    }, {
+      "name" : "credentialName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.credentialOp.credentialName"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.credentialOp.value"
+    } ]
+  }, {
+    "name" : "credentialLocation",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateConsumer.credentialLocation",
+    "sub_parameters" : [ {
+      "name" : "inHeader",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.credentialLocation.inHeader"
+    }, {
+      "name" : "inQuery",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.credentialLocation.inQuery"
+    }, {
+      "name" : "keyNames",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.credentialLocation.keyNames"
+    } ]
+  }, {
+    "name" : "iamCredential",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateConsumer.iamCredential",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.iamCredential.name"
+    }, {
+      "name" : "iamApiKeyId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.iamCredential.iamApiKeyId"
+    }, {
+      "name" : "iamTokenIdMasked",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.iamCredential.iamTokenIdMasked"
+    }, {
+      "name" : "iamUserId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.iamCredential.iamUserId"
+    }, {
+      "name" : "iamDomainId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.iamCredential.iamDomainId"
+    }, {
+      "name" : "resourceIds",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.iamCredential.resourceIds"
+    }, {
+      "name" : "inHeader",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.iamCredential.inHeader"
+    }, {
+      "name" : "inQuery",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.iamCredential.inQuery"
+    }, {
+      "name" : "keyNames",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.iamCredential.keyNames"
+    }, {
+      "name" : "status",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateConsumer.iamCredential.status"
+    } ]
+  } ],
+  "desc_key" : "aigw.UpdateConsumer.desc"
+}

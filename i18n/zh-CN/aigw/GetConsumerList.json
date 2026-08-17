@@ -1,0 +1,9 @@
+{
+  "GetConsumerList" : {
+    "instanceId" : "AI 网关实例 ID",
+    "pageNo" : "页码",
+    "pageSize" : "每页数量",
+    "tagKey" : "标签键",
+    "tagValue" : "标签值"
+  }
+}

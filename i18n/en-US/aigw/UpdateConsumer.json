@@ -1,0 +1,31 @@
+{
+  "UpdateConsumer" : {
+    "instanceId" : "AI Gateway instance ID",
+    "consumerId" : "Consumer ID or name",
+    "keyType" : "id or name",
+    "description" : "Description",
+    "routeNames" : "Associated route list",
+    "tags" : "Tag list",
+    "tags.tagKey" : "Tag key",
+    "tags.tagValue" : "Tag value",
+    "credentialOp" : "add, delete, or rotate",
+    "credentialOp.operation" : "add, delete, or rotate",
+    "credentialOp.credentialName" : "Credential name",
+    "credentialOp.value" : "Credential value",
+    "credentialLocation" : "Credential location",
+    "credentialLocation.inHeader" : "Whether to pass in request header",
+    "credentialLocation.inQuery" : "Whether to pass as query parameter",
+    "credentialLocation.keyNames" : "Credential key name",
+    "iamCredential" : "IAM credential configuration",
+    "iamCredential.name" : "Credential name",
+    "iamCredential.iamApiKeyId" : "IAM APIKey ID",
+    "iamCredential.iamTokenIdMasked" : "Masked token ID",
+    "iamCredential.iamUserId" : "IAM user ID",
+    "iamCredential.iamDomainId" : "IAM domain ID",
+    "iamCredential.resourceIds" : "Authorized resource ID",
+    "iamCredential.inHeader" : "Whether to pass in request header",
+    "iamCredential.inQuery" : "Whether to pass as query parameter",
+    "iamCredential.keyNames" : "Credential key name",
+    "iamCredential.status" : "Credential status"
+  }
+}

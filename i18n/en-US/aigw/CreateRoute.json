@@ -3,7 +3,7 @@
     "instanceId" : "AI gateway instance ID",
     "clusterId" : "Cluster ID",
     "routeName" : "Route name, 2–64 characters, unique within the same instance",
-    "srcProduct" : "Source product identifier, no need to fill in for external users",
+    "srcProduct" : "Source product identifier",
     "accessMode" : "Access mode, either API or Web, defaults to API",
     "webSubdomain" : "Standalone subdomain for Web mode, required when accessMode is Web",
     "servicePath" : "Backend service path for Web mode, required when accessMode is Web, must start with `/`",

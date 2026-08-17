@@ -1,0 +1,37 @@
+{
+  "name" : "GetConsumerList",
+  "method" : "GET",
+  "uri" : "/v1/aigw/{instanceId}/consumers",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.GetConsumerList.instanceId"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.GetConsumerList.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.GetConsumerList.pageSize"
+  }, {
+    "name" : "tagKey",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.GetConsumerList.tagKey"
+  }, {
+    "name" : "tagValue",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.GetConsumerList.tagValue"
+  } ],
+  "desc_key" : "aigw.GetConsumerList.desc"
+}

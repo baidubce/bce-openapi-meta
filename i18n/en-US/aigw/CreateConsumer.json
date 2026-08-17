@@ -1,0 +1,32 @@
+{
+  "CreateConsumer" : {
+    "instanceId" : "AI Gateway instance ID",
+    "consumerName" : "Consumer name",
+    "description" : "Description",
+    "authType" : "KeyAuth or JWT",
+    "credentialType" : "LOCAL or IAM",
+    "routeNames" : "List of associated route names",
+    "tags" : "Consumer tags",
+    "tags.tagKey" : "Tag key",
+    "tags.tagValue" : "Tag value",
+    "credential" : "Local credential configuration",
+    "credential.name" : "Credential name",
+    "credential.generateMode" : "Generation mode",
+    "credential.value" : "Credential value",
+    "credential.inHeader" : "Whether to place in request header",
+    "credential.inQuery" : "Whether to place in query parameter",
+    "credential.keyNames" : "Credential key names",
+    "credential.description" : "Credential description",
+    "iamCredential" : "IAM credential configuration",
+    "iamCredential.name" : "Credential name",
+    "iamCredential.iamApiKeyId" : "IAM API key ID",
+    "iamCredential.iamTokenIdMasked" : "Masked token ID",
+    "iamCredential.iamUserId" : "IAM user ID",
+    "iamCredential.iamDomainId" : "IAM domain ID",
+    "iamCredential.resourceIds" : "Authorized resource IDs",
+    "iamCredential.inHeader" : "Whether to place in request header",
+    "iamCredential.inQuery" : "Whether to place in query parameter",
+    "iamCredential.keyNames" : "Credential key names",
+    "iamCredential.status" : "Credential status"
+  }
+}

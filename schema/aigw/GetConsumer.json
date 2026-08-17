@@ -1,0 +1,25 @@
+{
+  "name" : "GetConsumer",
+  "method" : "GET",
+  "uri" : "/v1/aigw/{instanceId}/consumer/{consumerId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.GetConsumer.instanceId"
+  }, {
+    "name" : "consumerId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.GetConsumer.consumerId"
+  }, {
+    "name" : "keyType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.GetConsumer.keyType"
+  } ],
+  "desc_key" : "aigw.GetConsumer.desc"
+}

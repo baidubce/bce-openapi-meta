@@ -1,0 +1,7 @@
+{
+  "GetConsumer" : {
+    "instanceId" : "AI 网关实例 ID",
+    "consumerId" : "消费者 ID 或名称",
+    "keyType" : "id 或 name"
+  }
+}

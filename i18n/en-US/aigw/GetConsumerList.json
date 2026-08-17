@@ -1,0 +1,9 @@
+{
+  "GetConsumerList" : {
+    "instanceId" : "AI gateway instance ID",
+    "pageNo" : "Page number",
+    "pageSize" : "Number of items per page",
+    "tagKey" : "Tag key",
+    "tagValue" : "Tag value"
+  }
+}

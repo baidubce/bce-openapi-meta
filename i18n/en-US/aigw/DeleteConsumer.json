@@ -1,0 +1,7 @@
+{
+  "DeleteConsumer" : {
+    "instanceId" : "AI Gateway instance ID",
+    "consumerId" : "Consumer ID or name",
+    "keyType" : "id or name"
+  }
+}

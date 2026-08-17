@@ -1,0 +1,31 @@
+{
+  "UpdateConsumer" : {
+    "instanceId" : "AI 网关实例 ID",
+    "consumerId" : "消费者 ID 或名称",
+    "keyType" : "id 或 name",
+    "description" : "描述",
+    "routeNames" : "关联路由列表",
+    "tags" : "标签列表",
+    "tags.tagKey" : "标签键",
+    "tags.tagValue" : "标签值",
+    "credentialOp" : "add、delete 或 rotate",
+    "credentialOp.operation" : "add、delete 或 rotate",
+    "credentialOp.credentialName" : "凭证名称",
+    "credentialOp.value" : "凭证值",
+    "credentialLocation" : "凭证位置",
+    "credentialLocation.inHeader" : "是否放入请求头",
+    "credentialLocation.inQuery" : "是否放入查询参数",
+    "credentialLocation.keyNames" : "凭证键名",
+    "iamCredential" : "IAM 凭证配置",
+    "iamCredential.name" : "凭证名称",
+    "iamCredential.iamApiKeyId" : "IAM APIKey ID",
+    "iamCredential.iamTokenIdMasked" : "脱敏 Token ID",
+    "iamCredential.iamUserId" : "IAM 用户 ID",
+    "iamCredential.iamDomainId" : "IAM 域 ID",
+    "iamCredential.resourceIds" : "授权资源 ID",
+    "iamCredential.inHeader" : "是否放入请求头",
+    "iamCredential.inQuery" : "是否放入查询参数",
+    "iamCredential.keyNames" : "凭证键名",
+    "iamCredential.status" : "凭证状态"
+  }
+}

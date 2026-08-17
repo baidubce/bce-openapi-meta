@@ -1,0 +1,159 @@
+{
+  "name" : "CreateConsumer",
+  "method" : "POST",
+  "uri" : "/v1/aigw/{instanceId}/consumer",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.CreateConsumer.instanceId"
+  }, {
+    "name" : "consumerName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateConsumer.consumerName"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateConsumer.description"
+  }, {
+    "name" : "authType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateConsumer.authType"
+  }, {
+    "name" : "credentialType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateConsumer.credentialType"
+  }, {
+    "name" : "routeNames",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateConsumer.routeNames"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateConsumer.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.tags.tagValue"
+    } ]
+  }, {
+    "name" : "credential",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateConsumer.credential",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.credential.name"
+    }, {
+      "name" : "generateMode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.credential.generateMode"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.credential.value"
+    }, {
+      "name" : "inHeader",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.credential.inHeader"
+    }, {
+      "name" : "inQuery",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.credential.inQuery"
+    }, {
+      "name" : "keyNames",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.credential.keyNames"
+    }, {
+      "name" : "description",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.credential.description"
+    } ]
+  }, {
+    "name" : "iamCredential",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateConsumer.iamCredential",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.iamCredential.name"
+    }, {
+      "name" : "iamApiKeyId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.iamCredential.iamApiKeyId"
+    }, {
+      "name" : "iamTokenIdMasked",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.iamCredential.iamTokenIdMasked"
+    }, {
+      "name" : "iamUserId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.iamCredential.iamUserId"
+    }, {
+      "name" : "iamDomainId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.iamCredential.iamDomainId"
+    }, {
+      "name" : "resourceIds",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.iamCredential.resourceIds"
+    }, {
+      "name" : "inHeader",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.iamCredential.inHeader"
+    }, {
+      "name" : "inQuery",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.iamCredential.inQuery"
+    }, {
+      "name" : "keyNames",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.iamCredential.keyNames"
+    }, {
+      "name" : "status",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateConsumer.iamCredential.status"
+    } ]
+  } ],
+  "desc_key" : "aigw.CreateConsumer.desc"
+}
