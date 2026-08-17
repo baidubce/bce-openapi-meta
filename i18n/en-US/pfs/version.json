@@ -63,6 +63,10 @@
       "title" : "listL2BucketLink",
       "summary" : "listL2BucketLink"
     },
+    "DeleteL3MountTarget" : {
+      "title" : "deleteL3MountTarget",
+      "summary" : "deleteL3MountTarget"
+    },
     "ListL3MountTarget" : {
       "title" : "listL3MountTarget",
       "summary" : "listL3MountTarget"
@@ -107,6 +111,10 @@
       "title" : "descPfs",
       "summary" : "descPfs"
     },
+    "DescribeL3MountTarget" : {
+      "title" : "describeL3MountTarget",
+      "summary" : "describeL3MountTarget"
+    },
     "CreatePfs" : {
       "title" : "createPfs",
       "summary" : "createPfs"
@@ -122,14 +130,6 @@
     "UpdPerL2BktLnkInfo" : {
       "title" : "updPerL2BktLnkInfo",
       "summary" : "updPerL2BktLnkInfo"
-    },
-    "DeleteL3MountTarget" : {
-      "title" : "deleteL3MountTarget",
-      "summary" : "deleteL3MountTarget"
-    },
-    "DescribeL3MountTarget" : {
-      "title" : "describeL3MountTarget",
-      "summary" : "describeL3MountTarget"
     }
   }
 }
