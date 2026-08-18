@@ -3,13 +3,13 @@
   "style" : "rpc",
   "description" : "财务相关",
   "apis" : {
-    "CreateRenewResourceRule" : {
-      "title" : "CreateRenewResourceRule",
-      "summary" : "CreateRenewResourceRule"
-    },
     "GetRenewResourceList" : {
-      "title" : "GetRenewResourceList",
-      "summary" : "GetRenewResourceList"
+      "title" : "自动续费资源列表查询",
+      "summary" : "自动续费资源列表查询"
+    },
+    "CreateRenewResourceRule" : {
+      "title" : "为预付费资源配置自动续费",
+      "summary" : "为预付费资源配置自动续费"
     }
   }
 }

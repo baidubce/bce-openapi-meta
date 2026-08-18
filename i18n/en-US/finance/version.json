@@ -3,13 +3,13 @@
   "style" : "rpc",
   "description" : "finance",
   "apis" : {
-    "CreateRenewResourceRule" : {
-      "title" : "createRenewResourceRule",
-      "summary" : "createRenewResourceRule"
-    },
     "GetRenewResourceList" : {
       "title" : "getRenewResourceList",
       "summary" : "getRenewResourceList"
+    },
+    "CreateRenewResourceRule" : {
+      "title" : "createRenewResourceRule",
+      "summary" : "createRenewResourceRule"
     }
   }
 }
