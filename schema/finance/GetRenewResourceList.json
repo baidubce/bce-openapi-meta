@@ -1,0 +1,56 @@
+{
+  "name" : "GetRenewResourceList",
+  "method" : "POST",
+  "uri" : "/v{version}/renew/resource/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "queryAccountId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "finance.GetRenewResourceList.queryAccountId"
+  }, {
+    "name" : "serviceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "finance.GetRenewResourceList.serviceType"
+  }, {
+    "name" : "region",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "finance.GetRenewResourceList.region"
+  }, {
+    "name" : "expiredDays",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "finance.GetRenewResourceList.expiredDays"
+  }, {
+    "name" : "shortOrInstanceIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "finance.GetRenewResourceList.shortOrInstanceIds"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "finance.GetRenewResourceList.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "finance.GetRenewResourceList.pageSize"
+  } ],
+  "desc_key" : "finance.GetRenewResourceList.desc"
+}

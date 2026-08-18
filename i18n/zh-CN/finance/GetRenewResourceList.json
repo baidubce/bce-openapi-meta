@@ -1,0 +1,11 @@
+{
+  "GetRenewResourceList" : {
+    "queryAccountId" : "查询资源账户，若为空则表示当前登陆账户。只有主账户可以代查其财务圈（或者虚商组织）子账户的资源信息，其他查询场景会提示AccessDenied",
+    "serviceType" : "产品类型，例：BCC，EIP等，注意仅允许查询支持自动续费的产品",
+    "region" : "区域，bj,su,gz等",
+    "expiredDays" : "查询预付费资源过期天数，可以为null，默认查询全量，不能为负，不能大于90天",
+    "shortOrInstanceIds" : "资源长短ID列表，可以通过订单 或者 月账单等OPEN API查询到相关感兴趣的资源ID信息。",
+    "pageNo" : "分页查询的页数，从1开始计数，缺省值为1",
+    "pageSize" : "每页包含的最大数量，最大数量通常不超过1000，缺省值为100。"
+  }
+}

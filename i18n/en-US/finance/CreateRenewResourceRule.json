@@ -1,0 +1,10 @@
+{
+  "CreateRenewResourceRule" : {
+    "accountId" : "Account ID; if omitted, defaults to the current logged-in account; if provided, only sub-account IDs that have joined the master account's financial group are supported, initiated by the financial group master account to manage resources on behalf of the sub-account",
+    "serviceType" : "Product type, e.g. BCC, EIP",
+    "region" : "Region, e.g. bj",
+    "instanceId" : "Resource long ID, the unique UUID identifying the resource to be configured",
+    "renewTimeUnit" : "Auto-renewal time unit; only two values: month or year",
+    "renewTime" : "Auto-renewal duration; when renewTimeUnit is month, specifies the number of months (1–9); when renewTimeUnit is year, specifies the number of years (1–3)"
+  }
+}

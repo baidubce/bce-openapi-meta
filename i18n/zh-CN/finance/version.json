@@ -1,0 +1,15 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "财务相关",
+  "apis" : {
+    "CreateRenewResourceRule" : {
+      "title" : "CreateRenewResourceRule",
+      "summary" : "CreateRenewResourceRule"
+    },
+    "GetRenewResourceList" : {
+      "title" : "GetRenewResourceList",
+      "summary" : "GetRenewResourceList"
+    }
+  }
+}

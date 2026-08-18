@@ -1,0 +1,11 @@
+{
+  "GetRenewResourceList" : {
+    "queryAccountId" : "Account ID to query; if empty, defaults to the currently logged-in account. Only the primary account can query resource information for sub-accounts within its financial circle (or virtual operator organization); other query scenarios will return AccessDenied.",
+    "serviceType" : "Product type, e.g. BCC, EIP, etc. Only products that support auto-renewal are allowed.",
+    "region" : "Region, e.g. bj, su, gz, etc.",
+    "expiredDays" : "Number of days until prepaid resource expiration. Can be null (defaults to all resources). Must not be negative or greater than 90.",
+    "shortOrInstanceIds" : "List of resource short or instance IDs. These can be retrieved via order or monthly billing Open APIs.",
+    "pageNo" : "Page number for paginated queries, starting from 1. Default is 1.",
+    "pageSize" : "Maximum number of items per page, typically no more than 1000. Default is 100."
+  }
+}

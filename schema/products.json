@@ -284,5 +284,11 @@
     "endpoint" : {
       "global" : "aip.baidubce.com"
     }
+  }, {
+    "code" : "finance",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "billing.baidubce.com"
+    }
   } ]
 }
