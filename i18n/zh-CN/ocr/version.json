@@ -1,0 +1,39 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "文字识别",
+  "apis" : {
+    "MedicalInvoice" : {
+      "title" : "医疗发票识别",
+      "summary" : "医疗发票识别"
+    },
+    "MedicalDetail" : {
+      "title" : "医疗费用明细识别",
+      "summary" : "医疗费用明细识别"
+    },
+    "MedicalSummary" : {
+      "title" : "出院小结识别",
+      "summary" : "出院小结识别"
+    },
+    "MedicalPrescription" : {
+      "title" : "处方笺识别",
+      "summary" : "处方笺识别"
+    },
+    "MedicalReportDetection" : {
+      "title" : "医疗检验报告单识别",
+      "summary" : "医疗检验报告单识别"
+    },
+    "HealthReport" : {
+      "title" : "医疗诊断报告单识别",
+      "summary" : "医疗诊断报告单识别"
+    },
+    "MedicalStatement" : {
+      "title" : "医疗费用结算单识别",
+      "summary" : "医疗费用结算单识别"
+    },
+    "MedicalRecord" : {
+      "title" : "病案首页识别",
+      "summary" : "病案首页识别"
+    }
+  }
+}

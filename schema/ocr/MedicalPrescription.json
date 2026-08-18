@@ -1,0 +1,7 @@
+{
+  "name" : "MedicalPrescription",
+  "method" : "POST",
+  "uri" : "/rest/2.0/ocr/v1/medical_prescription",
+  "parameters" : [ ],
+  "desc_key" : "ocr.MedicalPrescription.desc"
+}

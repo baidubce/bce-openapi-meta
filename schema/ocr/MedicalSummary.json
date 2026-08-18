@@ -1,0 +1,7 @@
+{
+  "name" : "MedicalSummary",
+  "method" : "POST",
+  "uri" : "/rest/2.0/ocr/v1/medical_summary",
+  "parameters" : [ ],
+  "desc_key" : "ocr.MedicalSummary.desc"
+}

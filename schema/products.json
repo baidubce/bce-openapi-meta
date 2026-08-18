@@ -278,5 +278,11 @@
       "su" : "aigw.su.baidubce.com",
       "yq" : "aigw.yq.baidubce.com"
     }
+  }, {
+    "code" : "ocr",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "global" : "aip.baidubce.com"
+    }
   } ]
 }

@@ -1,0 +1,7 @@
+{
+  "name" : "MedicalReportDetection",
+  "method" : "POST",
+  "uri" : "/rest/2.0/ocr/v1/medical_report_detection",
+  "parameters" : [ ],
+  "desc_key" : "ocr.MedicalReportDetection.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "name" : "MedicalRecord",
+  "method" : "POST",
+  "uri" : "/rest/2.0/ocr/v1/medical_record",
+  "parameters" : [ ],
+  "desc_key" : "ocr.MedicalRecord.desc"
+}

@@ -1,0 +1,39 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "ocr",
+  "apis" : {
+    "MedicalInvoice" : {
+      "title" : "medicalInvoice",
+      "summary" : "medicalInvoice"
+    },
+    "MedicalDetail" : {
+      "title" : "medicalDetail",
+      "summary" : "medicalDetail"
+    },
+    "MedicalSummary" : {
+      "title" : "medicalSummary",
+      "summary" : "medicalSummary"
+    },
+    "MedicalPrescription" : {
+      "title" : "medicalPrescription",
+      "summary" : "medicalPrescription"
+    },
+    "MedicalReportDetection" : {
+      "title" : "medicalReportDetection",
+      "summary" : "medicalReportDetection"
+    },
+    "HealthReport" : {
+      "title" : "healthReport",
+      "summary" : "healthReport"
+    },
+    "MedicalStatement" : {
+      "title" : "medicalStatement",
+      "summary" : "medicalStatement"
+    },
+    "MedicalRecord" : {
+      "title" : "medicalRecord",
+      "summary" : "medicalRecord"
+    }
+  }
+}

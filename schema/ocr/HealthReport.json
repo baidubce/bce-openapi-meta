@@ -1,0 +1,7 @@
+{
+  "name" : "HealthReport",
+  "method" : "POST",
+  "uri" : "/rest/2.0/ocr/v1/health_report",
+  "parameters" : [ ],
+  "desc_key" : "ocr.HealthReport.desc"
+}

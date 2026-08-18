@@ -1,0 +1,7 @@
+{
+  "name" : "MedicalInvoice",
+  "method" : "POST",
+  "uri" : "/rest/2.0/ocr/v1/medical_invoice",
+  "parameters" : [ ],
+  "desc_key" : "ocr.MedicalInvoice.desc"
+}
