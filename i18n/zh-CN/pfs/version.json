@@ -59,10 +59,6 @@
       "title" : "创建挂载点",
       "summary" : "创建挂载点"
     },
-    "ListL2BucketLink" : {
-      "title" : "查询数据流动任务列表",
-      "summary" : "查询数据流动任务列表"
-    },
     "DeleteL3MountTarget" : {
       "title" : "删除挂载点",
       "summary" : "删除挂载点"
@@ -74,6 +70,10 @@
     "CreateL2Policy" : {
       "title" : "创建生命周期规则",
       "summary" : "创建生命周期规则"
+    },
+    "DescribeL3MountTarget" : {
+      "title" : "挂载点详情",
+      "summary" : "挂载点详情"
     },
     "InstanceListClients" : {
       "title" : "查询PFS实例挂载客户端列表",
@@ -111,10 +111,6 @@
       "title" : "查询PFS实例详情",
       "summary" : "查询PFS实例详情"
     },
-    "DescribeL3MountTarget" : {
-      "title" : "查询挂载点详情",
-      "summary" : "查询挂载点详情"
-    },
     "CreatePfs" : {
       "title" : "创建PFS实例",
       "summary" : "创建PFS实例"
@@ -130,6 +126,10 @@
     "UpdPerL2BktLnkInfo" : {
       "title" : "更新周期性数据流动任务",
       "summary" : "更新周期性数据流动任务"
+    },
+    "ListL2BucketLink" : {
+      "title" : "查询数据流动任务列表",
+      "summary" : "查询数据流动任务列表"
     }
   }
 }
