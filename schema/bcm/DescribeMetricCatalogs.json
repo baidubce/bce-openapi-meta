@@ -1,0 +1,101 @@
+{
+  "name" : "DescribeMetricCatalogs",
+  "method" : "POST",
+  "uri" : "/v3/bcm?action=DescribeMetricCatalogs&locale=zh-cn",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "3",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "locale",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcm.DescribeMetricCatalogs.locale"
+  }, {
+    "name" : "scope",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeMetricCatalogs.scope"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeMetricCatalogs.resourceType"
+  }, {
+    "name" : "catalog",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeMetricCatalogs.catalog"
+  }, {
+    "name" : "filters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeMetricCatalogs.filters",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.DescribeMetricCatalogs.filters.key"
+    }, {
+      "name" : "op",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.DescribeMetricCatalogs.filters.op"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcm.DescribeMetricCatalogs.filters.value"
+    }, {
+      "name" : "values",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcm.DescribeMetricCatalogs.filters.values"
+    } ]
+  }, {
+    "name" : "filters[].key",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeMetricCatalogs.filters[].key"
+  }, {
+    "name" : "filters[].op",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeMetricCatalogs.filters[].op"
+  }, {
+    "name" : "filters[].value",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeMetricCatalogs.filters[].value"
+  }, {
+    "name" : "filters[].values",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeMetricCatalogs.filters[].values"
+  }, {
+    "name" : "includingDimensions",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeMetricCatalogs.includingDimensions"
+  }, {
+    "name" : "excludingDimensions",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcm.DescribeMetricCatalogs.excludingDimensions"
+  } ],
+  "desc_key" : "bcm.DescribeMetricCatalogs.desc"
+}

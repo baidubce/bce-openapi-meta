@@ -7,9 +7,9 @@
       "title" : "createAlarmPolicy",
       "summary" : "createAlarmPolicy"
     },
-    "CreateNotifyTemplate" : {
-      "title" : "createNotifyTemplate",
-      "summary" : "createNotifyTemplate"
+    "DescribeSystemTemplateRules" : {
+      "title" : "describeSystemTemplateRules",
+      "summary" : "describeSystemTemplateRules"
     },
     "DescribeAlarmPolicy" : {
       "title" : "describeAlarmPolicy",
@@ -19,89 +19,53 @@
       "title" : "describeMetricDataLatest",
       "summary" : "describeMetricDataLatest"
     },
-    "DescribeReceivers" : {
-      "title" : "describeReceivers",
-      "summary" : "describeReceivers"
-    },
     "DeleteAlarmPolicyActions" : {
       "title" : "deleteAlarmPolicyActions",
       "summary" : "deleteAlarmPolicyActions"
-    },
-    "DescribeNotifyTemplate" : {
-      "title" : "describeNotifyTemplate",
-      "summary" : "describeNotifyTemplate"
-    },
-    "AddAlarmPolicyActions" : {
-      "title" : "addAlarmPolicyActions",
-      "summary" : "addAlarmPolicyActions"
-    },
-    "DeleteNotifyTemplate" : {
-      "title" : "deleteNotifyTemplate",
-      "summary" : "deleteNotifyTemplate"
-    },
-    "UpdateNotifyTemplate" : {
-      "title" : "updateNotifyTemplate",
-      "summary" : "updateNotifyTemplate"
-    },
-    "DescribeNotifyTemplates" : {
-      "title" : "describeNotifyTemplates",
-      "summary" : "describeNotifyTemplates"
-    },
-    "CreateAlarmTemplate" : {
-      "title" : "createAlarmTemplate",
-      "summary" : "createAlarmTemplate"
     },
     "ImportAlarmTemplates" : {
       "title" : "importAlarmTemplates",
       "summary" : "importAlarmTemplates"
     },
-    "DescribeAlarmTemplate" : {
-      "title" : "describeAlarmTemplate",
-      "summary" : "describeAlarmTemplate"
-    },
-    "DescribeSystemTemplateRules" : {
-      "title" : "describeSystemTemplateRules",
-      "summary" : "describeSystemTemplateRules"
+    "AddAlarmPolicyActions" : {
+      "title" : "addAlarmPolicyActions",
+      "summary" : "addAlarmPolicyActions"
     },
     "DeleteAlarmTemplates" : {
       "title" : "deleteAlarmTemplates",
       "summary" : "deleteAlarmTemplates"
     },
-    "ExportAlarmTemplates" : {
-      "title" : "exportAlarmTemplates",
-      "summary" : "exportAlarmTemplates"
-    },
-    "DescribeAlarmMasking" : {
-      "title" : "describeAlarmMasking",
-      "summary" : "describeAlarmMasking"
-    },
     "UpdateAlarmTemplate" : {
       "title" : "updateAlarmTemplate",
       "summary" : "updateAlarmTemplate"
     },
-    "UpdateAlarmMasking" : {
-      "title" : "updateAlarmMasking",
-      "summary" : "updateAlarmMasking"
+    "ExportAlarmTemplates" : {
+      "title" : "exportAlarmTemplates",
+      "summary" : "exportAlarmTemplates"
     },
     "DescribeAlarmTemplates" : {
       "title" : "describeAlarmTemplates",
       "summary" : "describeAlarmTemplates"
     },
-    "DeleteAlarmMaskings" : {
-      "title" : "deleteAlarmMaskings",
-      "summary" : "deleteAlarmMaskings"
+    "DescribeAlarmMasking" : {
+      "title" : "describeAlarmMasking",
+      "summary" : "describeAlarmMasking"
     },
     "CreateInstanceGroup" : {
       "title" : "createInstanceGroup",
       "summary" : "createInstanceGroup"
     },
+    "UpdateAlarmMasking" : {
+      "title" : "updateAlarmMasking",
+      "summary" : "updateAlarmMasking"
+    },
+    "DeleteAlarmMaskings" : {
+      "title" : "deleteAlarmMaskings",
+      "summary" : "deleteAlarmMaskings"
+    },
     "UpdateAlarmMaskingStates" : {
       "title" : "updateAlarmMaskingStates",
       "summary" : "updateAlarmMaskingStates"
-    },
-    "DeleteInstanceGroupInstances" : {
-      "title" : "deleteInstanceGroupInstances",
-      "summary" : "deleteInstanceGroupInstances"
     },
     "DescribeAlarmMaskings" : {
       "title" : "describeAlarmMaskings",
@@ -115,17 +79,13 @@
       "title" : "createAlarmMasking",
       "summary" : "createAlarmMasking"
     },
-    "DeleteInstanceGroup" : {
-      "title" : "deleteInstanceGroup",
-      "summary" : "deleteInstanceGroup"
-    },
     "UpdateAlarmPolicyState" : {
       "title" : "updateAlarmPolicyState",
       "summary" : "updateAlarmPolicyState"
     },
-    "DescribeInstanceGroup" : {
-      "title" : "describeInstanceGroup",
-      "summary" : "describeInstanceGroup"
+    "DeleteInstanceGroup" : {
+      "title" : "deleteInstanceGroup",
+      "summary" : "deleteInstanceGroup"
     },
     "UpdateAlarmPolicyNotifyEnabled" : {
       "title" : "updateAlarmPolicyNotifyEnabled",
@@ -139,13 +99,57 @@
       "title" : "describeAlarm",
       "summary" : "describeAlarm"
     },
+    "DescribeInstanceGroup" : {
+      "title" : "describeInstanceGroup",
+      "summary" : "describeInstanceGroup"
+    },
+    "DeleteInstanceGroupInstances" : {
+      "title" : "deleteInstanceGroupInstances",
+      "summary" : "deleteInstanceGroupInstances"
+    },
     "DescribeAlarms" : {
       "title" : "describeAlarms",
       "summary" : "describeAlarms"
     },
+    "DescribeReceivers" : {
+      "title" : "describeReceivers",
+      "summary" : "describeReceivers"
+    },
+    "CreateAlarmTemplate" : {
+      "title" : "createAlarmTemplate",
+      "summary" : "createAlarmTemplate"
+    },
     "DescribeDimensionValues" : {
       "title" : "describeDimensionValues",
       "summary" : "describeDimensionValues"
+    },
+    "DescribeMetricCatalogs" : {
+      "title" : "describeMetricCatalogs",
+      "summary" : "describeMetricCatalogs"
+    },
+    "DescribeResourceCatalogs" : {
+      "title" : "describeResourceCatalogs",
+      "summary" : "describeResourceCatalogs"
+    },
+    "CreateNotifyTemplate" : {
+      "title" : "createNotifyTemplate",
+      "summary" : "createNotifyTemplate"
+    },
+    "DescribeNotifyTemplate" : {
+      "title" : "describeNotifyTemplate",
+      "summary" : "describeNotifyTemplate"
+    },
+    "DeleteNotifyTemplate" : {
+      "title" : "deleteNotifyTemplate",
+      "summary" : "deleteNotifyTemplate"
+    },
+    "DescribeNotifyTemplates" : {
+      "title" : "describeNotifyTemplates",
+      "summary" : "describeNotifyTemplates"
+    },
+    "UpdateNotifyTemplate" : {
+      "title" : "updateNotifyTemplate",
+      "summary" : "updateNotifyTemplate"
     },
     "DeleteAlarmPolicies" : {
       "title" : "deleteAlarmPolicies",
@@ -162,6 +166,10 @@
     "DescribeMetricDataLatestTop" : {
       "title" : "describeMetricDataLatestTop",
       "summary" : "describeMetricDataLatestTop"
+    },
+    "DescribeAlarmTemplate" : {
+      "title" : "describeAlarmTemplate",
+      "summary" : "describeAlarmTemplate"
     },
     "DescribeMetricData" : {
       "title" : "describeMetricData",

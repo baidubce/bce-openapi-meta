@@ -1,0 +1,5 @@
+{
+  "DescribeResourceCatalogs" : {
+    "locale" : "The language for returned names; optional values: zh-cn / en-us; default is zh-cn"
+  }
+}

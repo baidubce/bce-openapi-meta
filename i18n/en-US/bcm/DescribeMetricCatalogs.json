@@ -1,0 +1,19 @@
+{
+  "DescribeMetricCatalogs" : {
+    "locale" : "Language for returned names; accepted values: zh-cn / en-us; default: zh-cn",
+    "scope" : "Cloud product identifier, retrievable via DescribeResourceCatalogs, e.g. BCE_BCC",
+    "resourceType" : "Resource type identifier, retrievable via DescribeResourceCatalogs, e.g. Instance",
+    "catalog" : "Top-level metric catalog name. Used to filter catalogs by name; name matching is case-insensitive",
+    "filters" : "List of metric attribute filter conditions. Multiple conditions are combined with AND; supports filtering by metric tags or metric dimensions",
+    "filters.key" : "Filter field name. Required when filters is configured; accepts a metric tag name or metric dimension name",
+    "filters.op" : "Filter operator; accepted values: = / != / contains / in",
+    "filters.value" : "Single-value filter condition, used with =, !=, or contains operators. When an empty string is used for a metric dimension, it can be used to check whether the dimension exists",
+    "filters.values" : "Multi-value filter condition. Required when op is in; the condition is satisfied if any one value matches",
+    "filters[].key" : "Filter field name. Required when filters is configured; accepts a metric tag name or metric dimension name",
+    "filters[].op" : "Filter operator; accepted values: = / != / contains / in",
+    "filters[].value" : "Single-value filter condition, used with =, !=, or contains operators. When an empty string is used for a metric dimension, it can be used to check whether the dimension exists",
+    "filters[].values" : "Multi-value filter condition. Required when op is in; the condition is satisfied if any one value matches",
+    "includingDimensions" : "List of metric dimensions that a metric must include all of",
+    "excludingDimensions" : "List of metric dimensions where a metric must not include any of them"
+  }
+}

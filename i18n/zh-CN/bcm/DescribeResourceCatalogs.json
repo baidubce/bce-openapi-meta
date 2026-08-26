@@ -1,0 +1,5 @@
+{
+  "DescribeResourceCatalogs" : {
+    "locale" : "返回名称的语言，可选值：zh-cn / en-us，默认值为zh-cn"
+  }
+}

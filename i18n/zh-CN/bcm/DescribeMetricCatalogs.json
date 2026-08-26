@@ -1,0 +1,19 @@
+{
+  "DescribeMetricCatalogs" : {
+    "locale" : "返回名称的语言，可选值：zh-cn / en-us，默认值为zh-cn",
+    "scope" : "云产品标识，可通过DescribeResourceCatalogs接口获取，例如BCE_BCC",
+    "resourceType" : "资源类型标识，可通过DescribeResourceCatalogs接口获取，例如Instance",
+    "catalog" : "一级指标目录名称。按名称过滤目录时使用，名称匹配不区分大小写",
+    "filters" : "指标属性过滤条件列表。多个条件之间为AND关系，可根据指标标签或指标维度过滤",
+    "filters.key" : "过滤字段名称。配置filters时必填，可填写指标标签名称或指标维度名称",
+    "filters.op" : "过滤操作符，可选值：= / != / contains / in",
+    "filters.value" : "单值过滤条件，用于=、!=或contains操作符。对指标维度使用空字符串时，可用于判断该维度是否存在",
+    "filters.values" : "多值过滤条件，op为in时必填，匹配任意一个值即满足当前条件",
+    "filters[].key" : "过滤字段名称。配置filters时必填，可填写指标标签名称或指标维度名称",
+    "filters[].op" : "过滤操作符，可选值：= / != / contains / in",
+    "filters[].value" : "单值过滤条件，用于=、!=或contains操作符。对指标维度使用空字符串时，可用于判断该维度是否存在",
+    "filters[].values" : "多值过滤条件，op为in时必填，匹配任意一个值即满足当前条件",
+    "includingDimensions" : "指标必须同时包含的指标维度列表",
+    "excludingDimensions" : "指标不能包含其中任意维度的指标维度列表"
+  }
+}
