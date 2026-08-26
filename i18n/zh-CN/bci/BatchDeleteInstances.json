@@ -1,0 +1,6 @@
+{
+  "BatchDeleteInstances" : {
+    "instanceIds" : "待删除的BCI实例ID列表",
+    "relatedReleaseFlag" : "释放关联资源（目前只有EIP资源），默认值：false"
+  }
+}

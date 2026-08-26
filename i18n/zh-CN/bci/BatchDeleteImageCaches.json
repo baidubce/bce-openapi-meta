@@ -1,0 +1,5 @@
+{
+  "BatchDeleteImageCaches" : {
+    "imageCacheIds" : "需要被删除的镜像缓存ID列表"
+  }
+}

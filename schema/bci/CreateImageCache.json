@@ -1,0 +1,101 @@
+{
+  "name" : "CreateImageCache",
+  "method" : "POST",
+  "uri" : "/v{version}/imageCache",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "imageCacheName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateImageCache.imageCacheName"
+  }, {
+    "name" : "originImages",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateImageCache.originImages",
+    "sub_parameters" : [ {
+      "name" : "originImageAddress",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateImageCache.originImages.originImageAddress"
+    }, {
+      "name" : "originImageVersion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateImageCache.originImages.originImageVersion"
+    } ]
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateImageCache.subnetId"
+  }, {
+    "name" : "securityGroupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateImageCache.securityGroupId"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateImageCache.zoneName"
+  }, {
+    "name" : "temporaryStorageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateImageCache.temporaryStorageSize"
+  }, {
+    "name" : "needEip",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateImageCache.needEip"
+  }, {
+    "name" : "eipIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateImageCache.eipIp"
+  }, {
+    "name" : "autoMatchImageCache",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateImageCache.autoMatchImageCache"
+  }, {
+    "name" : "imageRegistrySecrets",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateImageCache.imageRegistrySecrets",
+    "sub_parameters" : [ {
+      "name" : "server",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateImageCache.imageRegistrySecrets.server"
+    }, {
+      "name" : "userName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateImageCache.imageRegistrySecrets.userName"
+    }, {
+      "name" : "password",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateImageCache.imageRegistrySecrets.password"
+    } ]
+  } ],
+  "desc_key" : "bci.CreateImageCache.desc"
+}

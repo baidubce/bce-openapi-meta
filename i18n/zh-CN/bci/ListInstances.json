@@ -1,0 +1,8 @@
+{
+  "ListInstances" : {
+    "keywordType" : "查询关键字名称，取值范围：name、podId",
+    "keyword" : "查询关键字值",
+    "marker" : "表示下一个查询开始的marker。首次查询无需设置，后续从返回结果获取，返回为空表示没有下一个",
+    "maxKeys" : "每页最大数量，取值范围[1, 1000]，默认值10"
+  }
+}

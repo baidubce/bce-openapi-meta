@@ -290,5 +290,15 @@
     "endpoint" : {
       "global" : "billing.baidubce.com"
     }
+  }, {
+    "code" : "bci",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "bci.bd.baidubce.com",
+      "bj" : "bci.bj.baidubce.com",
+      "fwh" : "bci.fwh.baidubce.com",
+      "gz" : "bci.gz.baidubce.com",
+      "su" : "bci.su.baidubce.com"
+    }
   } ]
 }

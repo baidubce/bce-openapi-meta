@@ -1,0 +1,19 @@
+{
+  "CreateImageCache" : {
+    "imageCacheName" : "镜像缓存名称",
+    "originImages" : "原始镜像数组，每个对象包含镜像地址和版本信息",
+    "originImages.originImageAddress" : "原始镜像地址",
+    "originImages.originImageVersion" : "原始镜像版本",
+    "subnetId" : "子网ID",
+    "securityGroupId" : "安全组ID",
+    "zoneName" : "可用区名称",
+    "temporaryStorageSize" : "临时存储大小（单位：GB）",
+    "needEip" : "是否需要弹性公网IP",
+    "eipIp" : "弹性公网IP地址，needEip为true时必须提供",
+    "autoMatchImageCache" : "是否自动匹配镜像缓存",
+    "imageRegistrySecrets" : "镜像仓库凭据",
+    "imageRegistrySecrets.server" : "镜像仓库注册地址",
+    "imageRegistrySecrets.userName" : "镜像仓库用户名",
+    "imageRegistrySecrets.password" : "镜像仓库密码"
+  }
+}

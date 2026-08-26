@@ -1,0 +1,39 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "bci",
+  "apis" : {
+    "CreateInstance" : {
+      "title" : "createInstance",
+      "summary" : "createInstance"
+    },
+    "DeleteInstance" : {
+      "title" : "deleteInstance",
+      "summary" : "deleteInstance"
+    },
+    "BatchDeleteInstances" : {
+      "title" : "batchDeleteInstances",
+      "summary" : "batchDeleteInstances"
+    },
+    "ListInstances" : {
+      "title" : "listInstances",
+      "summary" : "listInstances"
+    },
+    "GetInstance" : {
+      "title" : "getInstance",
+      "summary" : "getInstance"
+    },
+    "BatchDeleteImageCaches" : {
+      "title" : "batchDeleteImageCaches",
+      "summary" : "batchDeleteImageCaches"
+    },
+    "CreateImageCache" : {
+      "title" : "createImageCache",
+      "summary" : "createImageCache"
+    },
+    "ListImageCaches" : {
+      "title" : "listImageCaches",
+      "summary" : "listImageCaches"
+    }
+  }
+}

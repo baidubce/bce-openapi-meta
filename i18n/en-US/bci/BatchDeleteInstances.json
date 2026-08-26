@@ -1,0 +1,6 @@
+{
+  "BatchDeleteInstances" : {
+    "instanceIds" : "List of BCI instance IDs to delete",
+    "relatedReleaseFlag" : "Release associated resources (currently EIP only); default: false"
+  }
+}

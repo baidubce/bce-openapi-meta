@@ -1,0 +1,5 @@
+{
+  "BatchDeleteImageCaches" : {
+    "imageCacheIds" : "List of image cache IDs to be deleted"
+  }
+}

@@ -1,0 +1,1299 @@
+{
+  "name" : "CreateInstance",
+  "method" : "POST",
+  "uri" : "/v{version}/instance",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bci.CreateInstance.clientToken"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.name"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.zoneName"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.securityGroupIds"
+  }, {
+    "name" : "subnetIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.subnetIds"
+  }, {
+    "name" : "restartPolicy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.restartPolicy"
+  }, {
+    "name" : "eipIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.eipIp"
+  }, {
+    "name" : "autoCreateEip",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.autoCreateEip"
+  }, {
+    "name" : "eipName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.eipName"
+  }, {
+    "name" : "eipRouteType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.eipRouteType"
+  }, {
+    "name" : "eipBandwidthInMbps",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.eipBandwidthInMbps"
+  }, {
+    "name" : "eipBillingMethod",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.eipBillingMethod"
+  }, {
+    "name" : "gpuType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.gpuType"
+  }, {
+    "name" : "terminationGracePeriodSeconds",
+    "type" : "Long",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.terminationGracePeriodSeconds"
+  }, {
+    "name" : "hostName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.hostName"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.tags.tagValue"
+    } ]
+  }, {
+    "name" : "imageRegistryCredentials",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.imageRegistryCredentials",
+    "sub_parameters" : [ {
+      "name" : "server",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.imageRegistryCredentials.server"
+    }, {
+      "name" : "userName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.imageRegistryCredentials.userName"
+    }, {
+      "name" : "password",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.imageRegistryCredentials.password"
+    } ]
+  }, {
+    "name" : "containers",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.containers",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.name"
+    }, {
+      "name" : "image",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.image"
+    }, {
+      "name" : "memory",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.memory"
+    }, {
+      "name" : "cpu",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.cpu"
+    }, {
+      "name" : "gpu",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.gpu"
+    }, {
+      "name" : "workingDir",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.workingDir"
+    }, {
+      "name" : "imagePullPolicy",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.imagePullPolicy"
+    }, {
+      "name" : "commands",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.commands"
+    }, {
+      "name" : "args",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.args"
+    }, {
+      "name" : "volumeMounts",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.volumeMounts",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.volumeMounts.name"
+      }, {
+        "name" : "type",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.volumeMounts.type"
+      }, {
+        "name" : "mountPath",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.volumeMounts.mountPath"
+      }, {
+        "name" : "readOnly",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.volumeMounts.readOnly"
+      } ]
+    }, {
+      "name" : "ports",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.ports",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.ports.name"
+      }, {
+        "name" : "port",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.ports.port"
+      }, {
+        "name" : "protocol",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.ports.protocol"
+      } ]
+    }, {
+      "name" : "environmentVars",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.environmentVars",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.environmentVars.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.environmentVars.value"
+      } ]
+    }, {
+      "name" : "livenessProbe",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.livenessProbe",
+      "sub_parameters" : [ {
+        "name" : "initialDelaySeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.livenessProbe.initialDelaySeconds"
+      }, {
+        "name" : "timeoutSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.livenessProbe.timeoutSeconds"
+      }, {
+        "name" : "periodSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.livenessProbe.periodSeconds"
+      }, {
+        "name" : "successThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.livenessProbe.successThreshold"
+      }, {
+        "name" : "failureThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.livenessProbe.failureThreshold"
+      }, {
+        "name" : "terminationGracePeriodSeconds",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.livenessProbe.terminationGracePeriodSeconds"
+      }, {
+        "name" : "httpGet",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.livenessProbe.httpGet",
+        "sub_parameters" : [ {
+          "name" : "path",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.livenessProbe.httpGet.path"
+        }, {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.livenessProbe.httpGet.port"
+        }, {
+          "name" : "scheme",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.livenessProbe.httpGet.scheme"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.livenessProbe.httpGet.host"
+        }, {
+          "name" : "httpHeaders",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.livenessProbe.httpGet.httpHeaders",
+          "sub_parameters" : [ {
+            "name" : "name",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.containers.livenessProbe.httpGet.httpHeaders.name"
+          }, {
+            "name" : "value",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.containers.livenessProbe.httpGet.httpHeaders.value"
+          } ]
+        } ]
+      }, {
+        "name" : "tcpSocket",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.livenessProbe.tcpSocket",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.livenessProbe.tcpSocket.port"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.livenessProbe.tcpSocket.host"
+        } ]
+      }, {
+        "name" : "exec",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.livenessProbe.exec",
+        "sub_parameters" : [ {
+          "name" : "command",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.livenessProbe.exec.command"
+        } ]
+      }, {
+        "name" : "grpc",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.livenessProbe.grpc",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.livenessProbe.grpc.port"
+        }, {
+          "name" : "service",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.livenessProbe.grpc.service"
+        } ]
+      } ]
+    }, {
+      "name" : "readinessProbe",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.readinessProbe",
+      "sub_parameters" : [ {
+        "name" : "initialDelaySeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.readinessProbe.initialDelaySeconds"
+      }, {
+        "name" : "timeoutSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.readinessProbe.timeoutSeconds"
+      }, {
+        "name" : "periodSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.readinessProbe.periodSeconds"
+      }, {
+        "name" : "successThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.readinessProbe.successThreshold"
+      }, {
+        "name" : "failureThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.readinessProbe.failureThreshold"
+      }, {
+        "name" : "terminationGracePeriodSeconds",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.readinessProbe.terminationGracePeriodSeconds"
+      }, {
+        "name" : "httpGet",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.readinessProbe.httpGet",
+        "sub_parameters" : [ {
+          "name" : "path",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.readinessProbe.httpGet.path"
+        }, {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.readinessProbe.httpGet.port"
+        }, {
+          "name" : "scheme",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.readinessProbe.httpGet.scheme"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.readinessProbe.httpGet.host"
+        }, {
+          "name" : "httpHeaders",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.readinessProbe.httpGet.httpHeaders",
+          "sub_parameters" : [ {
+            "name" : "name",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.containers.readinessProbe.httpGet.httpHeaders.name"
+          }, {
+            "name" : "value",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.containers.readinessProbe.httpGet.httpHeaders.value"
+          } ]
+        } ]
+      }, {
+        "name" : "tcpSocket",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.readinessProbe.tcpSocket",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.readinessProbe.tcpSocket.port"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.readinessProbe.tcpSocket.host"
+        } ]
+      }, {
+        "name" : "exec",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.readinessProbe.exec",
+        "sub_parameters" : [ {
+          "name" : "command",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.readinessProbe.exec.command"
+        } ]
+      }, {
+        "name" : "grpc",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.readinessProbe.grpc",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.readinessProbe.grpc.port"
+        }, {
+          "name" : "service",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.readinessProbe.grpc.service"
+        } ]
+      } ]
+    }, {
+      "name" : "startupProbe",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.startupProbe",
+      "sub_parameters" : [ {
+        "name" : "initialDelaySeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.startupProbe.initialDelaySeconds"
+      }, {
+        "name" : "timeoutSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.startupProbe.timeoutSeconds"
+      }, {
+        "name" : "periodSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.startupProbe.periodSeconds"
+      }, {
+        "name" : "successThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.startupProbe.successThreshold"
+      }, {
+        "name" : "failureThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.startupProbe.failureThreshold"
+      }, {
+        "name" : "terminationGracePeriodSeconds",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.startupProbe.terminationGracePeriodSeconds"
+      }, {
+        "name" : "httpGet",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.startupProbe.httpGet",
+        "sub_parameters" : [ {
+          "name" : "path",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.startupProbe.httpGet.path"
+        }, {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.startupProbe.httpGet.port"
+        }, {
+          "name" : "scheme",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.startupProbe.httpGet.scheme"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.startupProbe.httpGet.host"
+        }, {
+          "name" : "httpHeaders",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.startupProbe.httpGet.httpHeaders",
+          "sub_parameters" : [ {
+            "name" : "name",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.containers.startupProbe.httpGet.httpHeaders.name"
+          }, {
+            "name" : "value",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.containers.startupProbe.httpGet.httpHeaders.value"
+          } ]
+        } ]
+      }, {
+        "name" : "tcpSocket",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.startupProbe.tcpSocket",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.startupProbe.tcpSocket.port"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.startupProbe.tcpSocket.host"
+        } ]
+      }, {
+        "name" : "exec",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.startupProbe.exec",
+        "sub_parameters" : [ {
+          "name" : "command",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.startupProbe.exec.command"
+        } ]
+      }, {
+        "name" : "grpc",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.startupProbe.grpc",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.startupProbe.grpc.port"
+        }, {
+          "name" : "service",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.startupProbe.grpc.service"
+        } ]
+      } ]
+    }, {
+      "name" : "stdin",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.stdin"
+    }, {
+      "name" : "stdinOnce",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.stdinOnce"
+    }, {
+      "name" : "tty",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.tty"
+    }, {
+      "name" : "securityContext",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.containers.securityContext",
+      "sub_parameters" : [ {
+        "name" : "capabilities",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.securityContext.capabilities",
+        "sub_parameters" : [ {
+          "name" : "add",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.securityContext.capabilities.add"
+        }, {
+          "name" : "drop",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.containers.securityContext.capabilities.drop"
+        } ]
+      }, {
+        "name" : "runAsUser",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.securityContext.runAsUser"
+      }, {
+        "name" : "runAsGroup",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.securityContext.runAsGroup"
+      }, {
+        "name" : "runAsNonRoot",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.securityContext.runAsNonRoot"
+      }, {
+        "name" : "readOnlyRootFilesystem",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.containers.securityContext.readOnlyRootFilesystem"
+      } ]
+    } ]
+  }, {
+    "name" : "initContainers",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.initContainers",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.name"
+    }, {
+      "name" : "image",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.image"
+    }, {
+      "name" : "memory",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.memory"
+    }, {
+      "name" : "cpu",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.cpu"
+    }, {
+      "name" : "gpu",
+      "type" : "Float",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.gpu"
+    }, {
+      "name" : "workingDir",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.workingDir"
+    }, {
+      "name" : "imagePullPolicy",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.imagePullPolicy"
+    }, {
+      "name" : "commands",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.commands"
+    }, {
+      "name" : "args",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.args"
+    }, {
+      "name" : "volumeMounts",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.volumeMounts",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.volumeMounts.name"
+      }, {
+        "name" : "type",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.volumeMounts.type"
+      }, {
+        "name" : "mountPath",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.volumeMounts.mountPath"
+      }, {
+        "name" : "readOnly",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.volumeMounts.readOnly"
+      } ]
+    }, {
+      "name" : "ports",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.ports",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.ports.name"
+      }, {
+        "name" : "port",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.ports.port"
+      }, {
+        "name" : "protocol",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.ports.protocol"
+      } ]
+    }, {
+      "name" : "environmentVars",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.environmentVars",
+      "sub_parameters" : [ {
+        "name" : "key",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.environmentVars.key"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.environmentVars.value"
+      } ]
+    }, {
+      "name" : "livenessProbe",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.livenessProbe",
+      "sub_parameters" : [ {
+        "name" : "initialDelaySeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.initialDelaySeconds"
+      }, {
+        "name" : "timeoutSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.timeoutSeconds"
+      }, {
+        "name" : "periodSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.periodSeconds"
+      }, {
+        "name" : "successThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.successThreshold"
+      }, {
+        "name" : "failureThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.failureThreshold"
+      }, {
+        "name" : "terminationGracePeriodSeconds",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.terminationGracePeriodSeconds"
+      }, {
+        "name" : "httpGet",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.httpGet",
+        "sub_parameters" : [ {
+          "name" : "path",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.httpGet.path"
+        }, {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.httpGet.port"
+        }, {
+          "name" : "scheme",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.httpGet.scheme"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.httpGet.host"
+        }, {
+          "name" : "httpHeaders",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.httpGet.httpHeaders",
+          "sub_parameters" : [ {
+            "name" : "name",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.httpGet.httpHeaders.name"
+          }, {
+            "name" : "value",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.httpGet.httpHeaders.value"
+          } ]
+        } ]
+      }, {
+        "name" : "tcpSocket",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.tcpSocket",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.tcpSocket.port"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.tcpSocket.host"
+        } ]
+      }, {
+        "name" : "exec",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.exec",
+        "sub_parameters" : [ {
+          "name" : "command",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.exec.command"
+        } ]
+      }, {
+        "name" : "grpc",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.grpc",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.grpc.port"
+        }, {
+          "name" : "service",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.livenessProbe.grpc.service"
+        } ]
+      } ]
+    }, {
+      "name" : "readinessProbe",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.readinessProbe",
+      "sub_parameters" : [ {
+        "name" : "initialDelaySeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.initialDelaySeconds"
+      }, {
+        "name" : "timeoutSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.timeoutSeconds"
+      }, {
+        "name" : "periodSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.periodSeconds"
+      }, {
+        "name" : "successThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.successThreshold"
+      }, {
+        "name" : "failureThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.failureThreshold"
+      }, {
+        "name" : "terminationGracePeriodSeconds",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.terminationGracePeriodSeconds"
+      }, {
+        "name" : "httpGet",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.httpGet",
+        "sub_parameters" : [ {
+          "name" : "path",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.httpGet.path"
+        }, {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.httpGet.port"
+        }, {
+          "name" : "scheme",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.httpGet.scheme"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.httpGet.host"
+        }, {
+          "name" : "httpHeaders",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.httpGet.httpHeaders",
+          "sub_parameters" : [ {
+            "name" : "name",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.httpGet.httpHeaders.name"
+          }, {
+            "name" : "value",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.httpGet.httpHeaders.value"
+          } ]
+        } ]
+      }, {
+        "name" : "tcpSocket",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.tcpSocket",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.tcpSocket.port"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.tcpSocket.host"
+        } ]
+      }, {
+        "name" : "exec",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.exec",
+        "sub_parameters" : [ {
+          "name" : "command",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.exec.command"
+        } ]
+      }, {
+        "name" : "grpc",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.grpc",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.grpc.port"
+        }, {
+          "name" : "service",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.readinessProbe.grpc.service"
+        } ]
+      } ]
+    }, {
+      "name" : "startupProbe",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.startupProbe",
+      "sub_parameters" : [ {
+        "name" : "initialDelaySeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.startupProbe.initialDelaySeconds"
+      }, {
+        "name" : "timeoutSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.startupProbe.timeoutSeconds"
+      }, {
+        "name" : "periodSeconds",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.startupProbe.periodSeconds"
+      }, {
+        "name" : "successThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.startupProbe.successThreshold"
+      }, {
+        "name" : "failureThreshold",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.startupProbe.failureThreshold"
+      }, {
+        "name" : "terminationGracePeriodSeconds",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.startupProbe.terminationGracePeriodSeconds"
+      }, {
+        "name" : "httpGet",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.startupProbe.httpGet",
+        "sub_parameters" : [ {
+          "name" : "path",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.startupProbe.httpGet.path"
+        }, {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.startupProbe.httpGet.port"
+        }, {
+          "name" : "scheme",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.startupProbe.httpGet.scheme"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.startupProbe.httpGet.host"
+        }, {
+          "name" : "httpHeaders",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.startupProbe.httpGet.httpHeaders",
+          "sub_parameters" : [ {
+            "name" : "name",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.initContainers.startupProbe.httpGet.httpHeaders.name"
+          }, {
+            "name" : "value",
+            "type" : "String",
+            "required" : false,
+            "desc_key" : "bci.CreateInstance.initContainers.startupProbe.httpGet.httpHeaders.value"
+          } ]
+        } ]
+      }, {
+        "name" : "tcpSocket",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.startupProbe.tcpSocket",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.startupProbe.tcpSocket.port"
+        }, {
+          "name" : "host",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.startupProbe.tcpSocket.host"
+        } ]
+      }, {
+        "name" : "exec",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.startupProbe.exec",
+        "sub_parameters" : [ {
+          "name" : "command",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.startupProbe.exec.command"
+        } ]
+      }, {
+        "name" : "grpc",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.startupProbe.grpc",
+        "sub_parameters" : [ {
+          "name" : "port",
+          "type" : "Integer",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.startupProbe.grpc.port"
+        }, {
+          "name" : "service",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.startupProbe.grpc.service"
+        } ]
+      } ]
+    }, {
+      "name" : "stdin",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.stdin"
+    }, {
+      "name" : "stdinOnce",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.stdinOnce"
+    }, {
+      "name" : "tty",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.tty"
+    }, {
+      "name" : "securityContext",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.initContainers.securityContext",
+      "sub_parameters" : [ {
+        "name" : "capabilities",
+        "type" : "Object",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.securityContext.capabilities",
+        "sub_parameters" : [ {
+          "name" : "add",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.securityContext.capabilities.add"
+        }, {
+          "name" : "drop",
+          "type" : "List",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.initContainers.securityContext.capabilities.drop"
+        } ]
+      }, {
+        "name" : "runAsUser",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.securityContext.runAsUser"
+      }, {
+        "name" : "runAsGroup",
+        "type" : "Long",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.securityContext.runAsGroup"
+      }, {
+        "name" : "runAsNonRoot",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.securityContext.runAsNonRoot"
+      }, {
+        "name" : "readOnlyRootFilesystem",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.initContainers.securityContext.readOnlyRootFilesystem"
+      } ]
+    } ]
+  }, {
+    "name" : "volume",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bci.CreateInstance.volume",
+    "sub_parameters" : [ {
+      "name" : "nfs",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.volume.nfs",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.volume.nfs.name"
+      }, {
+        "name" : "server",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.volume.nfs.server"
+      }, {
+        "name" : "path",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.volume.nfs.path"
+      }, {
+        "name" : "readOnly",
+        "type" : "Boolean",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.volume.nfs.readOnly"
+      } ]
+    }, {
+      "name" : "emptyDir",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.volume.emptyDir",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.volume.emptyDir.name"
+      }, {
+        "name" : "medium",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.volume.emptyDir.medium"
+      }, {
+        "name" : "sizeLimit",
+        "type" : "Float",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.volume.emptyDir.sizeLimit"
+      } ]
+    }, {
+      "name" : "configFile",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bci.CreateInstance.volume.configFile",
+      "sub_parameters" : [ {
+        "name" : "name",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.volume.configFile.name"
+      }, {
+        "name" : "defaultMode",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.volume.configFile.defaultMode"
+      }, {
+        "name" : "configFiles",
+        "type" : "List",
+        "required" : false,
+        "desc_key" : "bci.CreateInstance.volume.configFile.configFiles",
+        "sub_parameters" : [ {
+          "name" : "path",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.volume.configFile.configFiles.path"
+        }, {
+          "name" : "file",
+          "type" : "String",
+          "required" : false,
+          "desc_key" : "bci.CreateInstance.volume.configFile.configFiles.file"
+        } ]
+      } ]
+    } ]
+  } ],
+  "desc_key" : "bci.CreateInstance.desc"
+}

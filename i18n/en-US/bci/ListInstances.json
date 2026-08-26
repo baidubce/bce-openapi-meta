@@ -1,0 +1,8 @@
+{
+  "ListInstances" : {
+    "keywordType" : "Query keyword name, valid values: name, podId",
+    "keyword" : "Query keyword value",
+    "marker" : "Marker indicating the start of the next query. Not required for the first request; retrieve from the response for subsequent requests; empty value indicates no more results",
+    "maxKeys" : "Maximum number of items per page, range [1, 1000], default value 10"
+  }
+}

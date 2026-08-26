@@ -1,0 +1,39 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "弹性容器实例",
+  "apis" : {
+    "CreateInstance" : {
+      "title" : "创建节点",
+      "summary" : "创建节点"
+    },
+    "DeleteInstance" : {
+      "title" : "删除节点",
+      "summary" : "删除节点"
+    },
+    "BatchDeleteInstances" : {
+      "title" : "批量删除节点",
+      "summary" : "批量删除节点"
+    },
+    "ListInstances" : {
+      "title" : "节点列表",
+      "summary" : "节点列表"
+    },
+    "GetInstance" : {
+      "title" : "获取节点详情",
+      "summary" : "获取节点详情"
+    },
+    "BatchDeleteImageCaches" : {
+      "title" : "批量删除镜像缓存",
+      "summary" : "批量删除镜像缓存"
+    },
+    "CreateImageCache" : {
+      "title" : "创建镜像缓存",
+      "summary" : "创建镜像缓存"
+    },
+    "ListImageCaches" : {
+      "title" : "镜像缓存列表",
+      "summary" : "镜像缓存列表"
+    }
+  }
+}

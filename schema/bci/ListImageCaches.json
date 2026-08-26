@@ -1,0 +1,26 @@
+{
+  "name" : "ListImageCaches",
+  "method" : "GET",
+  "uri" : "/v{version}/imageCache",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bci.ListImageCaches.pageSize"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "bci.ListImageCaches.pageNo"
+  } ],
+  "desc_key" : "bci.ListImageCaches.desc"
+}

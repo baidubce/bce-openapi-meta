@@ -1,0 +1,6 @@
+{
+  "DeleteInstance" : {
+    "instanceId" : "待删除的BCI实例ID",
+    "relatedReleaseFlag" : "释放关联资源，目前只有EIP资源，默认值为false"
+  }
+}

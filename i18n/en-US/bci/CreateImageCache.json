@@ -1,0 +1,19 @@
+{
+  "CreateImageCache" : {
+    "imageCacheName" : "Image cache name",
+    "originImages" : "Array of source images, each containing image address and version info",
+    "originImages.originImageAddress" : "Source image address",
+    "originImages.originImageVersion" : "Source image version",
+    "subnetId" : "Subnet ID",
+    "securityGroupId" : "Security group ID",
+    "zoneName" : "Availability zone name",
+    "temporaryStorageSize" : "Temporary storage size (unit: GB)",
+    "needEip" : "Whether an elastic public IP is required",
+    "eipIp" : "Elastic public IP address, required when needEip is true",
+    "autoMatchImageCache" : "Whether to automatically match an existing image cache",
+    "imageRegistrySecrets" : "Image registry credentials",
+    "imageRegistrySecrets.server" : "Image registry server address",
+    "imageRegistrySecrets.userName" : "Image registry username",
+    "imageRegistrySecrets.password" : "Image registry password"
+  }
+}

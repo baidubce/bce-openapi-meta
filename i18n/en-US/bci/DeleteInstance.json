@@ -1,0 +1,6 @@
+{
+  "DeleteInstance" : {
+    "instanceId" : "The ID of the BCI instance to be deleted",
+    "relatedReleaseFlag" : "Whether to release associated resources (currently EIP only); defaults to false"
+  }
+}
