@@ -22,6 +22,12 @@
     "position" : "BODY",
     "desc_key" : "iam.CreateRole.description"
   }, {
+    "name" : "grantType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "iam.CreateRole.grantType"
+  }, {
     "name" : "assumeRolePolicyDocument",
     "type" : "String",
     "required" : true,

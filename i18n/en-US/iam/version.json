@@ -107,10 +107,6 @@
       "title" : "listRoles",
       "summary" : "listRoles"
     },
-    "CreateRole" : {
-      "title" : "createRole",
-      "summary" : "createRole"
-    },
     "DeleteGroup" : {
       "title" : "deleteGroup",
       "summary" : "deleteGroup"
@@ -234,6 +230,10 @@
     "GetLoginProfile" : {
       "title" : "getLoginProfile",
       "summary" : "getLoginProfile"
+    },
+    "CreateRole" : {
+      "title" : "createRole",
+      "summary" : "createRole"
     },
     "ListStrategies" : {
       "title" : "listStrategies",

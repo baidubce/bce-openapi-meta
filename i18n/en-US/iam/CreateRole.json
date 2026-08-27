@@ -2,6 +2,7 @@
   "CreateRole" : {
     "name" : "Role name",
     "description" : "Description of the role",
+    "grantType" : "The type of entity that assumes the role",
     "assumeRolePolicyDocument" : "Specifies the principal allowed to assume the role"
   }
 }

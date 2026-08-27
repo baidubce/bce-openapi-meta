@@ -107,10 +107,6 @@
       "title" : "列举角色",
       "summary" : "列举角色"
     },
-    "CreateRole" : {
-      "title" : "创建角色",
-      "summary" : "创建角色"
-    },
     "DeleteGroup" : {
       "title" : "删除组",
       "summary" : "删除组"
@@ -234,6 +230,10 @@
     "GetLoginProfile" : {
       "title" : "查询控制台登录配置",
       "summary" : "查询控制台登录配置"
+    },
+    "CreateRole" : {
+      "title" : "创建角色",
+      "summary" : "创建角色"
     },
     "ListStrategies" : {
       "title" : "列举策略",
