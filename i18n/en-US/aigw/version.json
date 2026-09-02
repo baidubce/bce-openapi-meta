@@ -3,17 +3,9 @@
   "style" : "rpc",
   "description" : "aigw",
   "apis" : {
-    "UpdateConsumer" : {
-      "title" : "updateConsumer",
-      "summary" : "updateConsumer"
-    },
     "CreateRoute" : {
       "title" : "createRoute",
       "summary" : "createRoute"
-    },
-    "DeleteConsumer" : {
-      "title" : "deleteConsumer",
-      "summary" : "deleteConsumer"
     },
     "DeleteRoute" : {
       "title" : "deleteRoute",
@@ -27,10 +19,6 @@
       "title" : "queryRoutingDetails",
       "summary" : "queryRoutingDetails"
     },
-    "UpdateRoute" : {
-      "title" : "updateRoute",
-      "summary" : "updateRoute"
-    },
     "CreateConsumer" : {
       "title" : "createConsumer",
       "summary" : "createConsumer"
@@ -42,6 +30,18 @@
     "GetConsumer" : {
       "title" : "getConsumer",
       "summary" : "getConsumer"
+    },
+    "UpdateConsumer" : {
+      "title" : "updateConsumer",
+      "summary" : "updateConsumer"
+    },
+    "DeleteConsumer" : {
+      "title" : "deleteConsumer",
+      "summary" : "deleteConsumer"
+    },
+    "UpdateRoute" : {
+      "title" : "updateRoute",
+      "summary" : "updateRoute"
     }
   }
 }

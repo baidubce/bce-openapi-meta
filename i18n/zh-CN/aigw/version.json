@@ -3,17 +3,9 @@
   "style" : "rpc",
   "description" : "AI原生网关",
   "apis" : {
-    "UpdateConsumer" : {
-      "title" : "更新消费者",
-      "summary" : "更新消费者"
-    },
     "CreateRoute" : {
       "title" : "创建路由",
       "summary" : "创建路由"
-    },
-    "DeleteConsumer" : {
-      "title" : "删除消费者",
-      "summary" : "删除消费者"
     },
     "DeleteRoute" : {
       "title" : "删除路由",
@@ -27,10 +19,6 @@
       "title" : "查询路由详情",
       "summary" : "查询路由详情"
     },
-    "UpdateRoute" : {
-      "title" : "更新路由",
-      "summary" : "更新路由"
-    },
     "CreateConsumer" : {
       "title" : "创建消费者",
       "summary" : "创建消费者"
@@ -42,6 +30,18 @@
     "GetConsumer" : {
       "title" : "查询消费者详情",
       "summary" : "查询消费者详情"
+    },
+    "UpdateConsumer" : {
+      "title" : "更新消费者",
+      "summary" : "更新消费者"
+    },
+    "DeleteConsumer" : {
+      "title" : "删除消费者",
+      "summary" : "删除消费者"
+    },
+    "UpdateRoute" : {
+      "title" : "更新路由",
+      "summary" : "更新路由"
     }
   }
 }
