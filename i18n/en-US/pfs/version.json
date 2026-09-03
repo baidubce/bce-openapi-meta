@@ -7,6 +7,10 @@
       "title" : "descL2BucketLink",
       "summary" : "descL2BucketLink"
     },
+    "ListPfs" : {
+      "title" : "listPfs",
+      "summary" : "listPfs"
+    },
     "PauseL2BucketLink" : {
       "title" : "pauseL2BucketLink",
       "summary" : "pauseL2BucketLink"
@@ -43,6 +47,10 @@
       "title" : "listFileset",
       "summary" : "listFileset"
     },
+    "UpdatePFSTag" : {
+      "title" : "updatePFSTag",
+      "summary" : "updatePFSTag"
+    },
     "DescFileset" : {
       "title" : "descFileset",
       "summary" : "descFileset"
@@ -50,6 +58,18 @@
     "ResumeL2BucketLink" : {
       "title" : "resumeL2BucketLink",
       "summary" : "resumeL2BucketLink"
+    },
+    "DescPfs" : {
+      "title" : "descPfs",
+      "summary" : "descPfs"
+    },
+    "DeletePfs" : {
+      "title" : "deletePfs",
+      "summary" : "deletePfs"
+    },
+    "CreatePfs" : {
+      "title" : "createPfs",
+      "summary" : "createPfs"
     },
     "MountTargetListClients" : {
       "title" : "mountTargetListClients",
@@ -59,14 +79,6 @@
       "title" : "createL3MountTarget",
       "summary" : "createL3MountTarget"
     },
-    "ListL2BucketLink" : {
-      "title" : "listL2BucketLink",
-      "summary" : "listL2BucketLink"
-    },
-    "DeleteL3MountTarget" : {
-      "title" : "deleteL3MountTarget",
-      "summary" : "deleteL3MountTarget"
-    },
     "ListL3MountTarget" : {
       "title" : "listL3MountTarget",
       "summary" : "listL3MountTarget"
@@ -74,10 +86,6 @@
     "CreateL2Policy" : {
       "title" : "createL2Policy",
       "summary" : "createL2Policy"
-    },
-    "DescribeL3MountTarget" : {
-      "title" : "describeL3MountTarget",
-      "summary" : "describeL3MountTarget"
     },
     "UpdateL2Policy" : {
       "title" : "updateL2Policy",
@@ -107,29 +115,21 @@
       "title" : "qryL2PolExecDetail",
       "summary" : "qryL2PolExecDetail"
     },
-    "DeletePfs" : {
-      "title" : "deletePfs",
-      "summary" : "deletePfs"
-    },
-    "DescPfs" : {
-      "title" : "descPfs",
-      "summary" : "descPfs"
-    },
-    "CreatePfs" : {
-      "title" : "createPfs",
-      "summary" : "createPfs"
-    },
-    "UpdatePFSTag" : {
-      "title" : "updatePFSTag",
-      "summary" : "updatePFSTag"
-    },
-    "ListPfs" : {
-      "title" : "listPfs",
-      "summary" : "listPfs"
+    "DescribeL3MountTarget" : {
+      "title" : "describeL3MountTarget",
+      "summary" : "describeL3MountTarget"
     },
     "UpdPerL2BktLnkInfo" : {
       "title" : "updPerL2BktLnkInfo",
       "summary" : "updPerL2BktLnkInfo"
+    },
+    "DeleteL3MountTarget" : {
+      "title" : "deleteL3MountTarget",
+      "summary" : "deleteL3MountTarget"
+    },
+    "ListL2BucketLink" : {
+      "title" : "listL2BucketLink",
+      "summary" : "listL2BucketLink"
     }
   }
 }

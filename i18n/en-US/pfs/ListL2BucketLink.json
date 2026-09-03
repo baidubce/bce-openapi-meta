@@ -2,7 +2,7 @@
   "ListL2BucketLink" : {
     "action" : "The action for this API is fixed as ListL2BucketLink",
     "instanceId" : "PFS instance ID",
-    "maxKeys" : "Maximum number of bucket links to return. Default is 20. Valid range is [1, 20]; values outside this range are clamped to 1 or 20.",
+    "maxKeys" : "Maximum number of bucket links to return; default is 50, valid range is [1, 50], values outside the range are clamped to 1 or 50",
     "manner" : "Pagination type for the request. The marker parameter must be specified",
     "marker" : "Results are sorted by bucketlinkId (typically in the format \"dflow-xxxxxx\") in lexicographical order. Returns entries starting from the first one after the specified marker (exclusive)"
   }

@@ -7,6 +7,10 @@
       "title" : "查询数据流动任务详情",
       "summary" : "查询数据流动任务详情"
     },
+    "ListPfs" : {
+      "title" : "获取PFS实例列表",
+      "summary" : "获取PFS实例列表"
+    },
     "PauseL2BucketLink" : {
       "title" : "暂停数据流动任务",
       "summary" : "暂停数据流动任务"
@@ -43,6 +47,10 @@
       "title" : "获取Fileset列表",
       "summary" : "获取Fileset列表"
     },
+    "UpdatePFSTag" : {
+      "title" : "更新PFS实例标签",
+      "summary" : "更新PFS实例标签"
+    },
     "DescFileset" : {
       "title" : "查询FIleset详情",
       "summary" : "查询FIleset详情"
@@ -50,6 +58,18 @@
     "ResumeL2BucketLink" : {
       "title" : "启动数据流动任务",
       "summary" : "启动数据流动任务"
+    },
+    "DescPfs" : {
+      "title" : "查询PFS实例详情",
+      "summary" : "查询PFS实例详情"
+    },
+    "DeletePfs" : {
+      "title" : "删除PFS实例",
+      "summary" : "删除PFS实例"
+    },
+    "CreatePfs" : {
+      "title" : "创建PFS实例",
+      "summary" : "创建PFS实例"
     },
     "MountTargetListClients" : {
       "title" : "查询挂载服务挂载客户端列表",
@@ -59,14 +79,6 @@
       "title" : "创建挂载点",
       "summary" : "创建挂载点"
     },
-    "ListL2BucketLink" : {
-      "title" : "查询数据流动任务列表",
-      "summary" : "查询数据流动任务列表"
-    },
-    "DeleteL3MountTarget" : {
-      "title" : "删除挂载点",
-      "summary" : "删除挂载点"
-    },
     "ListL3MountTarget" : {
       "title" : "查询挂载点列表",
       "summary" : "查询挂载点列表"
@@ -74,10 +86,6 @@
     "CreateL2Policy" : {
       "title" : "创建生命周期规则",
       "summary" : "创建生命周期规则"
-    },
-    "DescribeL3MountTarget" : {
-      "title" : "挂载点详情",
-      "summary" : "挂载点详情"
     },
     "UpdateL2Policy" : {
       "title" : "更新生命周期规则",
@@ -107,29 +115,21 @@
       "title" : "查询规则任务详情",
       "summary" : "查询规则任务详情"
     },
-    "DeletePfs" : {
-      "title" : "删除PFS实例",
-      "summary" : "删除PFS实例"
-    },
-    "DescPfs" : {
-      "title" : "查询PFS实例详情",
-      "summary" : "查询PFS实例详情"
-    },
-    "CreatePfs" : {
-      "title" : "创建PFS实例",
-      "summary" : "创建PFS实例"
-    },
-    "UpdatePFSTag" : {
-      "title" : "更新PFS实例标签",
-      "summary" : "更新PFS实例标签"
-    },
-    "ListPfs" : {
-      "title" : "获取PFS实例列表",
-      "summary" : "获取PFS实例列表"
+    "DescribeL3MountTarget" : {
+      "title" : "查询挂载点详情",
+      "summary" : "查询挂载点详情"
     },
     "UpdPerL2BktLnkInfo" : {
       "title" : "更新周期性数据流动任务",
       "summary" : "更新周期性数据流动任务"
+    },
+    "DeleteL3MountTarget" : {
+      "title" : "删除挂载点",
+      "summary" : "删除挂载点"
+    },
+    "ListL2BucketLink" : {
+      "title" : "查询数据流动任务列表",
+      "summary" : "查询数据流动任务列表"
     }
   }
 }
