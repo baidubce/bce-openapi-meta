@@ -20,6 +20,12 @@
     "required" : false,
     "position" : "QUERY",
     "desc_key" : "aigw.DeleteConsumer.keyType"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.DeleteConsumer.X-Region"
   } ],
   "desc_key" : "aigw.DeleteConsumer.desc"
 }

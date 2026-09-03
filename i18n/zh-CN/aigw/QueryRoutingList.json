@@ -5,6 +5,7 @@
     "pageNo" : "页码，从 1 开始，默认为 1",
     "pageSize" : "每页条数，默认为 10",
     "orderBy" : "排序字段，默认为 createTime",
-    "order" : "排序方向，取值为 asc 或 desc，默认为 desc"
+    "order" : "排序方向，取值为 asc 或 desc，默认为 desc",
+    "X-Region" : "地域代码，如 `bj`"
   }
 }

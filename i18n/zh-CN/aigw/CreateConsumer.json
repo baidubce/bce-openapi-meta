@@ -1,6 +1,7 @@
 {
   "CreateConsumer" : {
     "instanceId" : "AI 网关实例 ID",
+    "X-Region" : "地域代码，如 `bj`",
     "consumerName" : "消费者名称",
     "description" : "描述",
     "authType" : "KeyAuth 或 JWT",

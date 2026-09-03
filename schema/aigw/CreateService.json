@@ -1,0 +1,126 @@
+{
+  "name" : "CreateService",
+  "method" : "POST",
+  "uri" : "/v1/aigw/cluster/{instanceId}/serviceList",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.CreateService.instanceId"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.CreateService.X-Region"
+  }, {
+    "name" : "serviceSource",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.serviceSource"
+  }, {
+    "name" : "namespace",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.namespace"
+  }, {
+    "name" : "serviceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.serviceName"
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.clusterId"
+  }, {
+    "name" : "clusterIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.clusterIds"
+  }, {
+    "name" : "serviceList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.serviceList",
+    "sub_parameters" : [ {
+      "name" : "serviceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateService.serviceList.serviceName"
+    }, {
+      "name" : "clusterIds",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "aigw.CreateService.serviceList.clusterIds"
+    } ]
+  }, {
+    "name" : "registryId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.registryId"
+  }, {
+    "name" : "serviceAddresses",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.serviceAddresses"
+  }, {
+    "name" : "serviceProtocol",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.serviceProtocol"
+  }, {
+    "name" : "provider",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.provider"
+  }, {
+    "name" : "endpoint",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.endpoint"
+  }, {
+    "name" : "apiKeys",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.apiKeys"
+  }, {
+    "name" : "credentialSource",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.credentialSource"
+  }, {
+    "name" : "credentialNames",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.credentialNames"
+  }, {
+    "name" : "failoverEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.failoverEnabled"
+  }, {
+    "name" : "failoverModel",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateService.failoverModel"
+  } ],
+  "desc_key" : "aigw.CreateService.desc"
+}

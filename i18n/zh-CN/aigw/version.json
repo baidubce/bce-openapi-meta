@@ -3,17 +3,29 @@
   "style" : "rpc",
   "description" : "AI原生网关",
   "apis" : {
-    "CreateRoute" : {
-      "title" : "创建路由",
-      "summary" : "创建路由"
+    "DeleteService" : {
+      "title" : "删除服务",
+      "summary" : "删除服务"
     },
-    "DeleteRoute" : {
-      "title" : "删除路由",
-      "summary" : "删除路由"
+    "GetAIGatewayDetail" : {
+      "title" : "查询网关实例详情",
+      "summary" : "查询网关实例详情"
     },
-    "QueryRoutingList" : {
-      "title" : "查询路由列表",
-      "summary" : "查询路由列表"
+    "UpdateAIGateway" : {
+      "title" : "更新网关实例",
+      "summary" : "更新网关实例"
+    },
+    "DeleteAIGateway" : {
+      "title" : "删除网关实例",
+      "summary" : "删除网关实例"
+    },
+    "UpdateService" : {
+      "title" : "更新服务",
+      "summary" : "更新服务"
+    },
+    "UpdateRoute" : {
+      "title" : "更新路由",
+      "summary" : "更新路由"
     },
     "QueryRoutingDetails" : {
       "title" : "查询路由详情",
@@ -31,6 +43,10 @@
       "title" : "查询消费者详情",
       "summary" : "查询消费者详情"
     },
+    "CreateService" : {
+      "title" : "添加服务",
+      "summary" : "添加服务"
+    },
     "UpdateConsumer" : {
       "title" : "更新消费者",
       "summary" : "更新消费者"
@@ -39,9 +55,37 @@
       "title" : "删除消费者",
       "summary" : "删除消费者"
     },
-    "UpdateRoute" : {
-      "title" : "更新路由",
-      "summary" : "更新路由"
+    "GetServiceList" : {
+      "title" : "查询服务列表",
+      "summary" : "查询服务列表"
+    },
+    "CreateRoute" : {
+      "title" : "创建路由",
+      "summary" : "创建路由"
+    },
+    "GetServiceDetail" : {
+      "title" : "查询服务详情",
+      "summary" : "查询服务详情"
+    },
+    "DeleteRoute" : {
+      "title" : "删除路由",
+      "summary" : "删除路由"
+    },
+    "ListServicesBySource" : {
+      "title" : "根据服务来源查询服务信息",
+      "summary" : "根据服务来源查询服务信息"
+    },
+    "QueryRoutingList" : {
+      "title" : "查询路由列表",
+      "summary" : "查询路由列表"
+    },
+    "CreateAIGateway" : {
+      "title" : "创建网关实例",
+      "summary" : "创建网关实例"
+    },
+    "ListAIGateways" : {
+      "title" : "查询网关实例列表",
+      "summary" : "查询网关实例列表"
     }
   }
 }

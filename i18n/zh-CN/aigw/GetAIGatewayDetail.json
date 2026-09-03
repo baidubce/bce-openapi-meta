@@ -1,0 +1,7 @@
+{
+  "GetAIGatewayDetail" : {
+    "instanceId" : "网关实例 ID",
+    "srcProduct" : "来源产品过滤条件",
+    "X-Region" : "地域代码，如 bj、gz、su、cd、yq、bd"
+  }
+}

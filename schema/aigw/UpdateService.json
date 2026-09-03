@@ -1,0 +1,85 @@
+{
+  "name" : "UpdateService",
+  "method" : "PUT",
+  "uri" : "/v1/aigw/{instanceId}/{serviceNamePath}/service",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.UpdateService.instanceId"
+  }, {
+    "name" : "serviceNamePath",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.UpdateService.serviceNamePath"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.UpdateService.X-Region"
+  }, {
+    "name" : "serviceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateService.serviceName"
+  }, {
+    "name" : "serviceAddresses",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateService.serviceAddresses"
+  }, {
+    "name" : "serviceProtocol",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateService.serviceProtocol"
+  }, {
+    "name" : "provider",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateService.provider"
+  }, {
+    "name" : "endpoint",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateService.endpoint"
+  }, {
+    "name" : "apiKeys",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateService.apiKeys"
+  }, {
+    "name" : "failoverEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateService.failoverEnabled"
+  }, {
+    "name" : "failoverModel",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateService.failoverModel"
+  }, {
+    "name" : "credentialSource",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateService.credentialSource"
+  }, {
+    "name" : "credentialNames",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateService.credentialNames"
+  } ],
+  "desc_key" : "aigw.UpdateService.desc"
+}

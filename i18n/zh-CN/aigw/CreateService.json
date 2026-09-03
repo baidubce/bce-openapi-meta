@@ -1,0 +1,24 @@
+{
+  "CreateService" : {
+    "instanceId" : "AI 网关实例 ID，位于路径中",
+    "X-Region" : "地域代码，如 bj、gz、su、cd、yq、bd",
+    "serviceSource" : "服务来源：CCE、MSE、FIXED_IP、DNS_DOMAIN、CFC、AI_PROXY",
+    "namespace" : "服务命名空间；AI_PROXY 默认 default",
+    "serviceName" : "固定 IP、DNS_DOMAIN 或 AI_PROXY 服务名称",
+    "clusterId" : "CCE 或托管集群 ID",
+    "clusterIds" : "CCE 多集群绑定 ID 列表",
+    "serviceList" : "CCE/MSE/CFC 服务列表",
+    "serviceList.serviceName" : "服务名称",
+    "serviceList.clusterIds" : "服务绑定的集群 ID 列表",
+    "registryId" : "MSE 服务注册中心 ID",
+    "serviceAddresses" : "固定 IP 或 DNS 地址列表，格式为 host:port",
+    "serviceProtocol" : "HTTP、HTTPS 或 HTTP&HTTPS",
+    "provider" : "AI_PROXY 模型供应商，如 QIANFAN、DEEPSEEK、OPENAI",
+    "endpoint" : "模型供应商端点；Qianfan 使用 https://qianfan.baidubce.com/v2",
+    "apiKeys" : "模型供应商 API Key 列表；IAM 模式禁止传入",
+    "credentialSource" : "AI_PROXY 凭证来源：DEFAULT 或 IAM",
+    "credentialNames" : "IAM CredentialProvider 名称列表",
+    "failoverEnabled" : "是否启用模型 Failover",
+    "failoverModel" : "Failover 健康检查模型"
+  }
+}

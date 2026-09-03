@@ -9,6 +9,12 @@
     "position" : "URL",
     "desc_key" : "aigw.CreateConsumer.instanceId"
   }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.CreateConsumer.X-Region"
+  }, {
     "name" : "consumerName",
     "type" : "String",
     "required" : true,

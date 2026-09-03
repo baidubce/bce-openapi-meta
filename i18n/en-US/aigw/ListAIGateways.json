@@ -1,0 +1,16 @@
+{
+  "ListAIGateways" : {
+    "keyword" : "Instance name or ID keyword",
+    "keywordType" : "Keyword type: gatewayName or gatewayId",
+    "status" : "Status filter: running or creating",
+    "srcProduct" : "Source product filter",
+    "tagKey" : "Tag key",
+    "tagValue" : "Tag value",
+    "resourceGroupId" : "Resource group ID",
+    "pageNo" : "Page number, starting from 1, default 1",
+    "pageSize" : "Number of items per page, default 10",
+    "orderBy" : "Sort field: createTime or name, default createTime",
+    "order" : "Sort direction, default desc",
+    "X-Region" : "Region code, e.g. bj, gz, su, cd, yq, bd"
+  }
+}

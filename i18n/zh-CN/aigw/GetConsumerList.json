@@ -4,6 +4,7 @@
     "pageNo" : "页码",
     "pageSize" : "每页数量",
     "tagKey" : "标签键",
-    "tagValue" : "标签值"
+    "tagValue" : "标签值",
+    "X-Region" : "地域代码，如 `bj`"
   }
 }

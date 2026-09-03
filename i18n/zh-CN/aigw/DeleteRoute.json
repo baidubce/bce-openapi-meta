@@ -1,6 +1,7 @@
 {
   "DeleteRoute" : {
     "instanceId" : "AI 网关实例 ID",
-    "routeName" : "待删除的路由名称，必须已存在"
+    "routeName" : "待删除的路由名称，必须已存在",
+    "X-Region" : "地域代码，如 `bj`"
   }
 }

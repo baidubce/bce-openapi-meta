@@ -1,0 +1,72 @@
+{
+  "name" : "UpdateAIGateway",
+  "method" : "PUT",
+  "uri" : "/v1/aigateway/{instanceId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.UpdateAIGateway.instanceId"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.UpdateAIGateway.X-Region"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateAIGateway.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateAIGateway.description"
+  }, {
+    "name" : "deleteProtection",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateAIGateway.deleteProtection"
+  }, {
+    "name" : "publicAccessible",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateAIGateway.publicAccessible"
+  }, {
+    "name" : "replicas",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateAIGateway.replicas"
+  }, {
+    "name" : "networkTypes",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateAIGateway.networkTypes"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.UpdateAIGateway.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateAIGateway.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.UpdateAIGateway.tags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "aigw.UpdateAIGateway.desc"
+}

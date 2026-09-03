@@ -1,0 +1,15 @@
+{
+  "UpdateAIGateway" : {
+    "instanceId" : "网关实例 ID",
+    "X-Region" : "地域代码，如 bj、gz、su、cd、yq、bd",
+    "name" : "实例名称",
+    "description" : "实例描述",
+    "deleteProtection" : "是否开启删除保护",
+    "publicAccessible" : "是否允许公网访问",
+    "replicas" : "副本数，服务端校验范围为 2-5",
+    "networkTypes" : "网络类型：private、public，可多选",
+    "tags" : "标签列表；不传表示不修改，空数组表示清空",
+    "tags.tagKey" : "标签键",
+    "tags.tagValue" : "标签值"
+  }
+}

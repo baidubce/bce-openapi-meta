@@ -1,0 +1,217 @@
+{
+  "name" : "CreateAIGateway",
+  "method" : "POST",
+  "uri" : "/v1/aigateway",
+  "parameters" : [ {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.CreateAIGateway.X-Region"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.name"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.vpcId"
+  }, {
+    "name" : "vpcCidr",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.vpcCidr"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.subnetId"
+  }, {
+    "name" : "gatewayType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.gatewayType"
+  }, {
+    "name" : "isInternal",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.isInternal"
+  }, {
+    "name" : "networkTypes",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.networkTypes"
+  }, {
+    "name" : "replicas",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.replicas"
+  }, {
+    "name" : "installMode",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.installMode"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.description"
+  }, {
+    "name" : "deleteProtection",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.deleteProtection"
+  }, {
+    "name" : "srcProduct",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.srcProduct"
+  }, {
+    "name" : "accountId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.accountId"
+  }, {
+    "name" : "workspaceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.workspaceId"
+  }, {
+    "name" : "workspaceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.workspaceName"
+  }, {
+    "name" : "blbId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.blbId"
+  }, {
+    "name" : "blbIp",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.blbIp"
+  }, {
+    "name" : "clusters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.clusters",
+    "sub_parameters" : [ {
+      "name" : "clusterId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateAIGateway.clusters.clusterId"
+    }, {
+      "name" : "clusterName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateAIGateway.clusters.clusterName"
+    } ]
+  }, {
+    "name" : "cpromInstanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.cpromInstanceId"
+  }, {
+    "name" : "cpromBearerToken",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.cpromBearerToken"
+  }, {
+    "name" : "blsEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.blsEnabled"
+  }, {
+    "name" : "logStoreName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.logStoreName"
+  }, {
+    "name" : "version",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.version"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateAIGateway.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateAIGateway.tags.tagValue"
+    } ]
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.resourceGroupId"
+  }, {
+    "name" : "aihcArgs",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "aigw.CreateAIGateway.aihcArgs",
+    "sub_parameters" : [ {
+      "name" : "accountId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateAIGateway.aihcArgs.accountId"
+    }, {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateAIGateway.aihcArgs.subnetId"
+    }, {
+      "name" : "securityGroupIds",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateAIGateway.aihcArgs.securityGroupIds"
+    }, {
+      "name" : "vpcCidr",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateAIGateway.aihcArgs.vpcCidr"
+    }, {
+      "name" : "domainPrefix",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "aigw.CreateAIGateway.aihcArgs.domainPrefix"
+    } ]
+  } ],
+  "desc_key" : "aigw.CreateAIGateway.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "ListServicesBySource" : {
+    "instanceId" : "AI 网关实例 ID",
+    "serviceSource" : "服务来源过滤条件；支持 CCE、MSE、FIXED_IP、DNS_DOMAIN、CFC、AI_PROXY",
+    "X-Region" : "地域代码，如 bj、gz、su、cd、yq、bd"
+  }
+}

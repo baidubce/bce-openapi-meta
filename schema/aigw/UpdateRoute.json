@@ -15,6 +15,12 @@
     "position" : "URL",
     "desc_key" : "aigw.UpdateRoute.routeName"
   }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.UpdateRoute.X-Region"
+  }, {
     "name" : "srcProduct",
     "type" : "String",
     "required" : false,

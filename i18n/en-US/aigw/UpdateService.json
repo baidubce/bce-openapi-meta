@@ -1,0 +1,17 @@
+{
+  "UpdateService" : {
+    "instanceId" : "AI Gateway instance ID",
+    "serviceNamePath" : "Current service name; path variable mapped to backend serviceName",
+    "X-Region" : "Region code, e.g. bj, gz, su, cd, yq, bd",
+    "serviceName" : "Updated service name",
+    "serviceAddresses" : "Updated list of service addresses",
+    "serviceProtocol" : "HTTP, HTTPS, or HTTP&HTTPS",
+    "provider" : "AI_PROXY model provider",
+    "endpoint" : "AI_PROXY upstream endpoint",
+    "apiKeys" : "AI_PROXY API key list; not allowed in IAM mode",
+    "failoverEnabled" : "Whether failover is enabled",
+    "failoverModel" : "Failover health check model",
+    "credentialSource" : "AI_PROXY credential source: DEFAULT or IAM",
+    "credentialNames" : "List of IAM CredentialProvider names"
+  }
+}

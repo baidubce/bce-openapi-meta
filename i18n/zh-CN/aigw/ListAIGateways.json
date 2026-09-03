@@ -1,0 +1,16 @@
+{
+  "ListAIGateways" : {
+    "keyword" : "实例名称或 ID 关键字",
+    "keywordType" : "关键字类型：gatewayName 或 gatewayId",
+    "status" : "状态筛选：running 或 creating",
+    "srcProduct" : "来源产品筛选",
+    "tagKey" : "标签键",
+    "tagValue" : "标签值",
+    "resourceGroupId" : "资源分组 ID",
+    "pageNo" : "页码，从 1 开始，默认 1",
+    "pageSize" : "每页数量，默认 10",
+    "orderBy" : "排序字段：createTime 或 name，默认 createTime",
+    "order" : "排序方向，默认 desc",
+    "X-Region" : "地域代码，如 bj、gz、su、cd、yq、bd"
+  }
+}

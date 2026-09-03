@@ -1,0 +1,24 @@
+{
+  "CreateService" : {
+    "instanceId" : "AI Gateway instance ID, located in the path",
+    "X-Region" : "Region code, e.g. bj, gz, su, cd, yq, bd",
+    "serviceSource" : "Service source: CCE, MSE, FIXED_IP, DNS_DOMAIN, CFC, AI_PROXY",
+    "namespace" : "Service namespace; defaults to \"default\" for AI_PROXY",
+    "serviceName" : "Service name for FIXED_IP, DNS_DOMAIN, or AI_PROXY",
+    "clusterId" : "CCE or managed cluster ID",
+    "clusterIds" : "List of CCE multi-cluster binding IDs",
+    "serviceList" : "Service list for CCE/MSE/CFC",
+    "serviceList.serviceName" : "Service name",
+    "serviceList.clusterIds" : "List of cluster IDs bound to the service",
+    "registryId" : "MSE service registry ID",
+    "serviceAddresses" : "List of fixed IP or DNS addresses in host:port format",
+    "serviceProtocol" : "HTTP, HTTPS, or HTTP&HTTPS",
+    "provider" : "AI_PROXY model provider, e.g. QIANFAN, DEEPSEEK, OPENAI",
+    "endpoint" : "Model provider endpoint; Qianfan uses https://qianfan.baidubce.com/v2",
+    "apiKeys" : "List of model provider API keys; not allowed in IAM mode",
+    "credentialSource" : "AI_PROXY credential source: DEFAULT or IAM",
+    "credentialNames" : "List of IAM CredentialProvider names",
+    "failoverEnabled" : "Whether to enable model failover",
+    "failoverModel" : "Health check model for failover"
+  }
+}

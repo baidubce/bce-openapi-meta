@@ -3,6 +3,7 @@
     "instanceId" : "AI Gateway instance ID",
     "consumerId" : "Consumer ID or name",
     "keyType" : "id or name",
+    "X-Region" : "Region code, e.g. `bj`",
     "description" : "Description",
     "routeNames" : "Associated route list",
     "tags" : "Tag list",

@@ -2,6 +2,7 @@
   "UpdateRoute" : {
     "instanceId" : "AI 网关实例 ID",
     "routeName" : "待更新的路由名称，必须已存在且不可修改",
+    "X-Region" : "地域代码，如 `bj`",
     "srcProduct" : "来源产品标识",
     "accessMode" : "访问模式，取值为 API 或 Web，默认为 API",
     "webSubdomain" : "Web 模式的独立子域名，accessMode 为 Web 时必需",

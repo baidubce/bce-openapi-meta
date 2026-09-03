@@ -15,6 +15,12 @@
     "position" : "URL",
     "desc_key" : "aigw.CreateRoute.clusterId"
   }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.CreateRoute.X-Region"
+  }, {
     "name" : "routeName",
     "type" : "String",
     "required" : true,
@@ -58,25 +64,9 @@
     "desc_key" : "aigw.CreateRoute.matchRules",
     "sub_parameters" : [ {
       "name" : "pathRule",
-      "type" : "Object",
+      "type" : "String",
       "required" : false,
-      "desc_key" : "aigw.CreateRoute.matchRules.pathRule",
-      "sub_parameters" : [ {
-        "name" : "matchType",
-        "type" : "String",
-        "required" : false,
-        "desc_key" : "aigw.CreateRoute.matchRules.pathRule.matchType"
-      }, {
-        "name" : "value",
-        "type" : "String",
-        "required" : false,
-        "desc_key" : "aigw.CreateRoute.matchRules.pathRule.value"
-      }, {
-        "name" : "caseSensitive",
-        "type" : "Boolean",
-        "required" : false,
-        "desc_key" : "aigw.CreateRoute.matchRules.pathRule.caseSensitive"
-      } ]
+      "desc_key" : "aigw.CreateRoute.matchRules.pathRule"
     }, {
       "name" : "methods",
       "type" : "List",
@@ -184,31 +174,6 @@
       "type" : "String",
       "required" : false,
       "desc_key" : "aigw.CreateRoute.targetService.hashKey"
-    }, {
-      "name" : "requestRatio",
-      "type" : "Integer",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.targetService.requestRatio"
-    }, {
-      "name" : "weightFactor",
-      "type" : "Integer",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.targetService.weightFactor"
-    }, {
-      "name" : "modelName",
-      "type" : "String",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.targetService.modelName"
-    }, {
-      "name" : "modelNameMode",
-      "type" : "String",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.targetService.modelNameMode"
-    }, {
-      "name" : "specifiedModelName",
-      "type" : "String",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.targetService.specifiedModelName"
     } ]
   }, {
     "name" : "rewrite",
@@ -295,93 +260,6 @@
       "type" : "Boolean",
       "required" : false,
       "desc_key" : "aigw.CreateRoute.tokenRateLimit.enabled"
-    }, {
-      "name" : "pre_reserve_remaining_ratio",
-      "type" : "Float",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_remaining_ratio"
-    }, {
-      "name" : "pre_reserve_history_window_seconds",
-      "type" : "Integer",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_history_window_seconds"
-    }, {
-      "name" : "pre_reserve_safety_factor",
-      "type" : "Float",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_safety_factor"
-    }, {
-      "name" : "pre_reserve_estimation_mode",
-      "type" : "String",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_estimation_mode"
-    }, {
-      "name" : "pre_reserve_initial_tokens",
-      "type" : "Object",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_initial_tokens"
-    }, {
-      "name" : "sliding_window_bucket_count",
-      "type" : "Integer",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.tokenRateLimit.sliding_window_bucket_count"
-    }, {
-      "name" : "pre_reserve_admission_mode",
-      "type" : "String",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_admission_mode"
-    }, {
-      "name" : "pre_reserve_admission_burst_seconds",
-      "type" : "Integer",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_admission_burst_seconds"
-    }, {
-      "name" : "pre_reserve_retry_jitter_ms",
-      "type" : "Integer",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.tokenRateLimit.pre_reserve_retry_jitter_ms"
-    }, {
-      "name" : "rule_items",
-      "type" : "List",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items",
-      "sub_parameters" : [ {
-        "name" : "match_condition",
-        "type" : "Object",
-        "required" : false,
-        "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.match_condition"
-      }, {
-        "name" : "limit_config",
-        "type" : "Object",
-        "required" : false,
-        "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config",
-        "sub_parameters" : [ {
-          "name" : "time_unit",
-          "type" : "String",
-          "required" : false,
-          "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config.time_unit"
-        }, {
-          "name" : "time_window",
-          "type" : "Float",
-          "required" : false,
-          "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config.time_window"
-        }, {
-          "name" : "token_amount",
-          "type" : "Integer",
-          "required" : false,
-          "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config.token_amount"
-        }, {
-          "name" : "limits",
-          "type" : "Object",
-          "required" : false,
-          "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config.limits"
-        }, {
-          "name" : "token_usage_weight",
-          "type" : "Object",
-          "required" : false,
-          "desc_key" : "aigw.CreateRoute.tokenRateLimit.rule_items.limit_config.token_usage_weight"
-        } ]
-      } ]
     } ]
   }, {
     "name" : "requestRateLimit",
@@ -399,22 +277,6 @@
       "type" : "Boolean",
       "required" : false,
       "desc_key" : "aigw.CreateRoute.requestRateLimit.enabled"
-    }, {
-      "name" : "rule_items",
-      "type" : "List",
-      "required" : false,
-      "desc_key" : "aigw.CreateRoute.requestRateLimit.rule_items",
-      "sub_parameters" : [ {
-        "name" : "match_condition",
-        "type" : "Object",
-        "required" : false,
-        "desc_key" : "aigw.CreateRoute.requestRateLimit.rule_items.match_condition"
-      }, {
-        "name" : "limit_config",
-        "type" : "Object",
-        "required" : false,
-        "desc_key" : "aigw.CreateRoute.requestRateLimit.rule_items.limit_config"
-      } ]
     } ]
   }, {
     "name" : "timeoutPolicy",
@@ -470,7 +332,18 @@
       "name" : "allowOrigins",
       "type" : "List",
       "required" : false,
-      "desc_key" : "aigw.CreateRoute.corsPolicy.allowOrigins"
+      "desc_key" : "aigw.CreateRoute.corsPolicy.allowOrigins",
+      "sub_parameters" : [ {
+        "name" : "matchType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.corsPolicy.allowOrigins.matchType"
+      }, {
+        "name" : "value",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "aigw.CreateRoute.corsPolicy.allowOrigins.value"
+      } ]
     }, {
       "name" : "allowMethods",
       "type" : "List",

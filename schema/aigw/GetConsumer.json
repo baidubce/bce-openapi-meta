@@ -20,6 +20,12 @@
     "required" : false,
     "position" : "QUERY",
     "desc_key" : "aigw.GetConsumer.keyType"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.GetConsumer.X-Region"
   } ],
   "desc_key" : "aigw.GetConsumer.desc"
 }

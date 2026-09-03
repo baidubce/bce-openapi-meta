@@ -1,0 +1,7 @@
+{
+  "ListServicesBySource" : {
+    "instanceId" : "AI Gateway instance ID",
+    "serviceSource" : "Service source filter; supports CCE, MSE, FIXED_IP, DNS_DOMAIN, CFC, AI_PROXY",
+    "X-Region" : "Region code, e.g. bj, gz, su, cd, yq, bd"
+  }
+}

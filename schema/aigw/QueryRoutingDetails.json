@@ -14,6 +14,12 @@
     "required" : true,
     "position" : "URL",
     "desc_key" : "aigw.QueryRoutingDetails.routeName"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.QueryRoutingDetails.X-Region"
   } ],
   "desc_key" : "aigw.QueryRoutingDetails.desc"
 }

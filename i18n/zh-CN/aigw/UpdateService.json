@@ -1,0 +1,17 @@
+{
+  "UpdateService" : {
+    "instanceId" : "AI 网关实例 ID",
+    "serviceNamePath" : "当前服务名称；路径变量，映射到后端 serviceName",
+    "X-Region" : "地域代码，如 bj、gz、su、cd、yq、bd",
+    "serviceName" : "更新后的服务名称",
+    "serviceAddresses" : "更新后的服务地址列表",
+    "serviceProtocol" : "HTTP、HTTPS 或 HTTP&HTTPS",
+    "provider" : "AI_PROXY 模型供应商",
+    "endpoint" : "AI_PROXY 上游端点",
+    "apiKeys" : "AI_PROXY API Key 列表；IAM 模式禁止传入",
+    "failoverEnabled" : "是否启用 Failover",
+    "failoverModel" : "Failover 健康检查模型",
+    "credentialSource" : "AI_PROXY 凭证来源：DEFAULT 或 IAM",
+    "credentialNames" : "IAM CredentialProvider 名称列表"
+  }
+}

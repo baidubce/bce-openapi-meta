@@ -2,6 +2,7 @@
   "GetConsumer" : {
     "instanceId" : "AI Gateway instance ID",
     "consumerId" : "Consumer ID or name",
-    "keyType" : "id or name"
+    "keyType" : "id or name",
+    "X-Region" : "Region code, e.g. `bj`"
   }
 }

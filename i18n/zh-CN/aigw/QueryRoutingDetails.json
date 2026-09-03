@@ -1,6 +1,7 @@
 {
   "QueryRoutingDetails" : {
     "instanceId" : "AI 网关实例 ID",
-    "routeName" : "路由名称"
+    "routeName" : "路由名称",
+    "X-Region" : "地域代码，如 `bj`"
   }
 }

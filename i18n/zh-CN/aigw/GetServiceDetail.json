@@ -1,0 +1,7 @@
+{
+  "GetServiceDetail" : {
+    "instanceId" : "AI 网关实例 ID",
+    "serviceName" : "服务名称",
+    "X-Region" : "地域代码，如 bj、gz、su、cd、yq、bd"
+  }
+}

@@ -1,6 +1,7 @@
 {
   "DeleteRoute" : {
     "instanceId" : "AI Gateway instance ID",
-    "routeName" : "Name of the route to delete, must already exist"
+    "routeName" : "Name of the route to delete, must already exist",
+    "X-Region" : "Region code, e.g. `bj`"
   }
 }

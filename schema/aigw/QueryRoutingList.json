@@ -38,6 +38,12 @@
     "required" : false,
     "position" : "QUERY",
     "desc_key" : "aigw.QueryRoutingList.order"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.QueryRoutingList.X-Region"
   } ],
   "desc_key" : "aigw.QueryRoutingList.desc"
 }

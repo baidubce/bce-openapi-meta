@@ -4,6 +4,7 @@
     "pageNo" : "Page number",
     "pageSize" : "Number of items per page",
     "tagKey" : "Tag key",
-    "tagValue" : "Tag value"
+    "tagValue" : "Tag value",
+    "X-Region" : "Region code, e.g. `bj`"
   }
 }

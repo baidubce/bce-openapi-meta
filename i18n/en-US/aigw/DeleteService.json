@@ -1,0 +1,8 @@
+{
+  "DeleteService" : {
+    "instanceId" : "AI Gateway instance ID",
+    "serviceName" : "Name of the service to delete",
+    "namespace" : "Namespace where the service resides",
+    "X-Region" : "Region code, e.g. bj, gz, su, cd, yq, bd"
+  }
+}

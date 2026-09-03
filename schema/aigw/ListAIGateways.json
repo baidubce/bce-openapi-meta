@@ -1,0 +1,79 @@
+{
+  "name" : "ListAIGateways",
+  "method" : "GET",
+  "uri" : "/v1/aigateway/list",
+  "parameters" : [ {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.keyword"
+  }, {
+    "name" : "keywordType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.keywordType"
+  }, {
+    "name" : "status",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.status"
+  }, {
+    "name" : "srcProduct",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.srcProduct"
+  }, {
+    "name" : "tagKey",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.tagKey"
+  }, {
+    "name" : "tagValue",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.tagValue"
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.resourceGroupId"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.pageSize"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.ListAIGateways.order"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.ListAIGateways.X-Region"
+  } ],
+  "desc_key" : "aigw.ListAIGateways.desc"
+}

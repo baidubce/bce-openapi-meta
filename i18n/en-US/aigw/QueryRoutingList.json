@@ -5,6 +5,7 @@
     "pageNo" : "Page number, starts from 1, default is 1",
     "pageSize" : "Number of items per page, default is 10",
     "orderBy" : "Sort field, default is createTime",
-    "order" : "Sort direction, value is asc or desc, default is desc"
+    "order" : "Sort direction, value is asc or desc, default is desc",
+    "X-Region" : "Region code, e.g. `bj`"
   }
 }

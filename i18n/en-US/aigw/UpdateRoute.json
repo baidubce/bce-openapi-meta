@@ -2,6 +2,7 @@
   "UpdateRoute" : {
     "instanceId" : "AI gateway instance ID",
     "routeName" : "Name of the route to update; must already exist and cannot be modified",
+    "X-Region" : "Region code, e.g. `bj`",
     "srcProduct" : "Source product identifier",
     "accessMode" : "Access mode: API or Web; defaults to API",
     "webSubdomain" : "Dedicated subdomain for Web mode; required when accessMode is Web",

@@ -1,6 +1,7 @@
 {
   "CreateConsumer" : {
     "instanceId" : "AI Gateway instance ID",
+    "X-Region" : "Region code, e.g. `bj`",
     "consumerName" : "Consumer name",
     "description" : "Description",
     "authType" : "KeyAuth or JWT",

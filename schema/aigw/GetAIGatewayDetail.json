@@ -1,0 +1,25 @@
+{
+  "name" : "GetAIGatewayDetail",
+  "method" : "GET",
+  "uri" : "/v1/aigateway/{instanceId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.GetAIGatewayDetail.instanceId"
+  }, {
+    "name" : "srcProduct",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.GetAIGatewayDetail.srcProduct"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.GetAIGatewayDetail.X-Region"
+  } ],
+  "desc_key" : "aigw.GetAIGatewayDetail.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "DeleteAIGateway" : {
+    "instanceId" : "The ID of the gateway instance to delete",
+    "force" : "Whether to force delete; defaults to false",
+    "X-Region" : "Region code, e.g. bj, gz, su, cd, yq, bd"
+  }
+}

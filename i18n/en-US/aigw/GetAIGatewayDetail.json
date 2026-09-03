@@ -1,0 +1,7 @@
+{
+  "GetAIGatewayDetail" : {
+    "instanceId" : "Gateway instance ID",
+    "srcProduct" : "Source product filter condition",
+    "X-Region" : "Region code, e.g. bj, gz, su, cd, yq, bd"
+  }
+}

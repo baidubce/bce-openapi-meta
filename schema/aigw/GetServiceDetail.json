@@ -1,0 +1,25 @@
+{
+  "name" : "GetServiceDetail",
+  "method" : "GET",
+  "uri" : "/v1/aigw/{instanceId}/{serviceName}/service",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.GetServiceDetail.instanceId"
+  }, {
+    "name" : "serviceName",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.GetServiceDetail.serviceName"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.GetServiceDetail.X-Region"
+  } ],
+  "desc_key" : "aigw.GetServiceDetail.desc"
+}

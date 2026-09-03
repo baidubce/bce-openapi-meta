@@ -3,6 +3,7 @@
     "instanceId" : "AI 网关实例 ID",
     "consumerId" : "消费者 ID 或名称",
     "keyType" : "id 或 name",
+    "X-Region" : "地域代码，如 `bj`",
     "description" : "描述",
     "routeNames" : "关联路由列表",
     "tags" : "标签列表",

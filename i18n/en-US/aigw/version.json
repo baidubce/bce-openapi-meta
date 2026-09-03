@@ -3,17 +3,29 @@
   "style" : "rpc",
   "description" : "aigw",
   "apis" : {
-    "CreateRoute" : {
-      "title" : "createRoute",
-      "summary" : "createRoute"
+    "DeleteService" : {
+      "title" : "deleteService",
+      "summary" : "deleteService"
     },
-    "DeleteRoute" : {
-      "title" : "deleteRoute",
-      "summary" : "deleteRoute"
+    "GetAIGatewayDetail" : {
+      "title" : "getAIGatewayDetail",
+      "summary" : "getAIGatewayDetail"
     },
-    "QueryRoutingList" : {
-      "title" : "queryRoutingList",
-      "summary" : "queryRoutingList"
+    "UpdateAIGateway" : {
+      "title" : "updateAIGateway",
+      "summary" : "updateAIGateway"
+    },
+    "DeleteAIGateway" : {
+      "title" : "deleteAIGateway",
+      "summary" : "deleteAIGateway"
+    },
+    "UpdateService" : {
+      "title" : "updateService",
+      "summary" : "updateService"
+    },
+    "UpdateRoute" : {
+      "title" : "updateRoute",
+      "summary" : "updateRoute"
     },
     "QueryRoutingDetails" : {
       "title" : "queryRoutingDetails",
@@ -31,6 +43,10 @@
       "title" : "getConsumer",
       "summary" : "getConsumer"
     },
+    "CreateService" : {
+      "title" : "createService",
+      "summary" : "createService"
+    },
     "UpdateConsumer" : {
       "title" : "updateConsumer",
       "summary" : "updateConsumer"
@@ -39,9 +55,37 @@
       "title" : "deleteConsumer",
       "summary" : "deleteConsumer"
     },
-    "UpdateRoute" : {
-      "title" : "updateRoute",
-      "summary" : "updateRoute"
+    "GetServiceList" : {
+      "title" : "getServiceList",
+      "summary" : "getServiceList"
+    },
+    "CreateRoute" : {
+      "title" : "createRoute",
+      "summary" : "createRoute"
+    },
+    "GetServiceDetail" : {
+      "title" : "getServiceDetail",
+      "summary" : "getServiceDetail"
+    },
+    "DeleteRoute" : {
+      "title" : "deleteRoute",
+      "summary" : "deleteRoute"
+    },
+    "ListServicesBySource" : {
+      "title" : "listServicesBySource",
+      "summary" : "listServicesBySource"
+    },
+    "QueryRoutingList" : {
+      "title" : "queryRoutingList",
+      "summary" : "queryRoutingList"
+    },
+    "CreateAIGateway" : {
+      "title" : "createAIGateway",
+      "summary" : "createAIGateway"
+    },
+    "ListAIGateways" : {
+      "title" : "listAIGateways",
+      "summary" : "listAIGateways"
     }
   }
 }

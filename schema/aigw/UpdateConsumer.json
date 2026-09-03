@@ -21,6 +21,12 @@
     "position" : "QUERY",
     "desc_key" : "aigw.UpdateConsumer.keyType"
   }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.UpdateConsumer.X-Region"
+  }, {
     "name" : "description",
     "type" : "String",
     "required" : false,

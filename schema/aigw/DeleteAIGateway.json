@@ -1,0 +1,25 @@
+{
+  "name" : "DeleteAIGateway",
+  "method" : "DELETE",
+  "uri" : "/v1/aigateway/{instanceId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "aigw.DeleteAIGateway.instanceId"
+  }, {
+    "name" : "force",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "aigw.DeleteAIGateway.force"
+  }, {
+    "name" : "X-Region",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "desc_key" : "aigw.DeleteAIGateway.X-Region"
+  } ],
+  "desc_key" : "aigw.DeleteAIGateway.desc"
+}

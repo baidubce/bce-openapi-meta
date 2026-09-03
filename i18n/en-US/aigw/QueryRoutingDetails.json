@@ -1,6 +1,7 @@
 {
   "QueryRoutingDetails" : {
     "instanceId" : "AI Gateway instance ID",
-    "routeName" : "Route name"
+    "routeName" : "Route name",
+    "X-Region" : "Region code, e.g. `bj`"
   }
 }

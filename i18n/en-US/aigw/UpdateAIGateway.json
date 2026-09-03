@@ -1,0 +1,15 @@
+{
+  "UpdateAIGateway" : {
+    "instanceId" : "Gateway instance ID",
+    "X-Region" : "Region code, e.g. bj, gz, su, cd, yq, bd",
+    "name" : "Instance name",
+    "description" : "Instance description",
+    "deleteProtection" : "Whether to enable deletion protection",
+    "publicAccessible" : "Whether to allow public network access",
+    "replicas" : "Number of replicas; server-side valid range is 2-5",
+    "networkTypes" : "Network type: private, public; multiple selections allowed",
+    "tags" : "Tag list; omitting this field means no change, empty array means clear all tags",
+    "tags.tagKey" : "Tag key",
+    "tags.tagValue" : "Tag value"
+  }
+}
