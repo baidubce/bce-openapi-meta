@@ -1,0 +1,31 @@
+{
+  "name" : "RetrieveTheNodeGroupNodeListV2",
+  "method" : "GET",
+  "uri" : "/v2/cluster/{clusterID}/instancegroup/{instanceGroupID}/instances",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.RetrieveTheNodeGroupNodeListV2.clusterID"
+  }, {
+    "name" : "instanceGroupID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.RetrieveTheNodeGroupNodeListV2.instanceGroupID"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.RetrieveTheNodeGroupNodeListV2.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.RetrieveTheNodeGroupNodeListV2.pageSize"
+  } ],
+  "desc_key" : "cce.RetrieveTheNodeGroupNodeListV2.desc"
+}

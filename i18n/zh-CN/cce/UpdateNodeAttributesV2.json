@@ -1,0 +1,13 @@
+{
+  "UpdateNodeAttributesV2" : {
+    "clusterID" : "集群 ID",
+    "instanceID" : "节点 ID",
+    "labels" : "节点的标签",
+    "annotations" : "节点的注解",
+    "taints" : "节点的污点",
+    "taints.key" : "",
+    "taints.value" : "",
+    "taints.effect" : "",
+    "cceInstancePriority" : "节点的优先级"
+  }
+}

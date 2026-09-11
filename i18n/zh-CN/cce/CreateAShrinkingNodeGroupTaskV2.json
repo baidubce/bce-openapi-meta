@@ -1,0 +1,13 @@
+{
+  "CreateAShrinkingNodeGroupTaskV2" : {
+    "clusterID" : "集群 ID",
+    "instanceGroupID" : "节点组 ID",
+    "instancesToBeRemoved" : "缩容节点组时计划从节点组移除的节点 ID 列表",
+    "k8sNodesToBeRemoved" : "缩容节点组时计划从节点组移除的 K8s 节点名称列表。instancesToBeRemoved 和 k8sNodesToBeRemoved 至少填一个",
+    "cleanPolicy" : "缩容节点组时是否保留节点对应的实例, 可选 [Remain,Delete]",
+    "deleteOption" : "修改指定节点删除选项。cleanPolicy为Delete时，需要设置该参数。",
+    "deleteOption.moveOut" : "",
+    "deleteOption.deleteResource" : "",
+    "deleteOption.deleteCDSSnapshot" : ""
+  }
+}

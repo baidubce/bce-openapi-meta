@@ -1,0 +1,8 @@
+{
+  "RetrieveTheNodeGroupNodeListV2" : {
+    "clusterID" : "集群 ID",
+    "instanceGroupID" : "节点组 ID",
+    "pageNo" : "页码，默认值为1，取值范围[1, 100000]",
+    "pageSize" : "单页结果数，默认值为10，取值范围[1, 100000]"
+  }
+}

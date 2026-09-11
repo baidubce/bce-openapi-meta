@@ -1,0 +1,7 @@
+{
+  "ModifyNodeGroupNodeShrinkProtectionStatusV2" : {
+    "clusterID" : "Cluster ID",
+    "instanceIDs" : "List of node IDs (CCEInstanceID) for which scale-down protection status needs to be modified",
+    "scaleDownDisabled" : "Whether to enable scale-down protection: true to enable (prevent scale-down), false to disable"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name" : "GetTheListOfClusterNodesV2",
+  "method" : "GET",
+  "uri" : "/v2/cluster/{clusterID}/instances",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.GetTheListOfClusterNodesV2.clusterID"
+  }, {
+    "name" : "keywordType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodesV2.keywordType"
+  }, {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodesV2.keyword"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodesV2.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodesV2.order"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodesV2.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodesV2.pageSize"
+  } ],
+  "desc_key" : "cce.GetTheListOfClusterNodesV2.desc"
+}

@@ -1,0 +1,59 @@
+{
+  "name" : "CreateAShrinkingNodeGroupTaskV2",
+  "method" : "PUT",
+  "uri" : "/v2/cluster/{clusterID}/instancegroup/{instanceGroupID}/scaledown",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.CreateAShrinkingNodeGroupTaskV2.clusterID"
+  }, {
+    "name" : "instanceGroupID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.CreateAShrinkingNodeGroupTaskV2.instanceGroupID"
+  }, {
+    "name" : "instancesToBeRemoved",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateAShrinkingNodeGroupTaskV2.instancesToBeRemoved"
+  }, {
+    "name" : "k8sNodesToBeRemoved",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateAShrinkingNodeGroupTaskV2.k8sNodesToBeRemoved"
+  }, {
+    "name" : "cleanPolicy",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateAShrinkingNodeGroupTaskV2.cleanPolicy"
+  }, {
+    "name" : "deleteOption",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateAShrinkingNodeGroupTaskV2.deleteOption",
+    "sub_parameters" : [ {
+      "name" : "moveOut",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.CreateAShrinkingNodeGroupTaskV2.deleteOption.moveOut"
+    }, {
+      "name" : "deleteResource",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.CreateAShrinkingNodeGroupTaskV2.deleteOption.deleteResource"
+    }, {
+      "name" : "deleteCDSSnapshot",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.CreateAShrinkingNodeGroupTaskV2.deleteOption.deleteCDSSnapshot"
+    } ]
+  } ],
+  "desc_key" : "cce.CreateAShrinkingNodeGroupTaskV2.desc"
+}

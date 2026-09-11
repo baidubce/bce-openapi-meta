@@ -1,0 +1,6 @@
+{
+  "ViewTaskDetailsV2" : {
+    "taskType" : "任务类型，当前仅支持 InstanceGroupReplicas。",
+    "taskID" : "任务 ID。"
+  }
+}

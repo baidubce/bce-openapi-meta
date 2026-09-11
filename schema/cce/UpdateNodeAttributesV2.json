@@ -1,0 +1,61 @@
+{
+  "name" : "UpdateNodeAttributesV2",
+  "method" : "PUT",
+  "uri" : "/v2/cluster/{clusterID}/instance/{instanceID}",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.UpdateNodeAttributesV2.clusterID"
+  }, {
+    "name" : "instanceID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.UpdateNodeAttributesV2.instanceID"
+  }, {
+    "name" : "labels",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateNodeAttributesV2.labels",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "annotations",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateNodeAttributesV2.annotations",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "taints",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateNodeAttributesV2.taints",
+    "sub_parameters" : [ {
+      "name" : "key",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.UpdateNodeAttributesV2.taints.key"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.UpdateNodeAttributesV2.taints.value"
+    }, {
+      "name" : "effect",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.UpdateNodeAttributesV2.taints.effect"
+    } ]
+  }, {
+    "name" : "cceInstancePriority",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateNodeAttributesV2.cceInstancePriority"
+  } ],
+  "desc_key" : "cce.UpdateNodeAttributesV2.desc"
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "CreateAnAutoscalerV2",
+  "method" : "POST",
+  "uri" : "/v2/autoscaler/{clusterID}",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.CreateAnAutoscalerV2.clusterID"
+  } ],
+  "desc_key" : "cce.CreateAnAutoscalerV2.desc"
+}

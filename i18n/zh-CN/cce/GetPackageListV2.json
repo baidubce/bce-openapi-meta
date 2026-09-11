@@ -1,0 +1,6 @@
+{
+  "GetPackageListV2" : {
+    "type" : "套餐类型，可选值为 common（普通套餐）或 gpu（异构套餐）。",
+    "machineSpecList" : "查询指定套餐"
+  }
+}

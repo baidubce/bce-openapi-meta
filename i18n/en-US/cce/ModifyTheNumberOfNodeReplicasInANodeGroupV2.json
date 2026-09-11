@@ -1,0 +1,12 @@
+{
+  "ModifyTheNumberOfNodeReplicasInANodeGroupV2" : {
+    "clusterID" : "Cluster ID",
+    "instanceGroupID" : "Node group ID",
+    "replicas" : "Desired number of node replicas in the node group. Valid values are non-negative integers.",
+    "instanceIDs" : "Set of node IDs to be added or preferentially removed",
+    "deleteInstance" : "Whether to delete nodes removed during node group scale-in. Defaults to false. Takes precedence over the node group CleanPolicy for scaled-in nodes.",
+    "deleteOption" : "Specify delete options for the given nodes.",
+    "deleteOption.deleteResource" : "",
+    "deleteOption.deleteCDSSnapshot" : ""
+  }
+}

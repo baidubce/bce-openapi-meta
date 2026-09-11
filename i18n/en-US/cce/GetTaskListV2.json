@@ -1,0 +1,12 @@
+{
+  "GetTaskListV2" : {
+    "taskType" : "Task type, currently only supports InstanceGroupReplicas.",
+    "targetID" : "Task target object ID. When task type is InstanceGroupReplicas, targetID is the ID of the target node group.",
+    "operationType" : "Operation type. Supported values: [ScalingUp, ScalingDown, Repair, ExistedScaleup]. ScalingUp: scale out; ScalingDown: scale in; Repair: scaling adjustment by modifying desired node count; ExistedScaleup: adding existing nodes to a node group.",
+    "phase" : "Task status. Supported values: [Pending, Processing, Done, Aborted, Collecting].",
+    "order" : "Sort order. Supported values: [ASC, DESC]. Default is DESC. ASC is effective only when orderBy is non-empty.",
+    "orderBy" : "Sort field. Currently only supports [startTime]. Default is startTime (creation time).",
+    "pageNo" : "Page number for query. Set to 0 to disable pagination.",
+    "pageSize" : "Number of entries per page. Set to 0 to disable pagination."
+  }
+}

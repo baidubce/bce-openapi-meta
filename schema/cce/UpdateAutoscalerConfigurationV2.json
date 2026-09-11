@@ -1,0 +1,87 @@
+{
+  "name" : "UpdateAutoscalerConfigurationV2",
+  "method" : "PUT",
+  "uri" : "/v2/autoscaler/{clusterID}",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.clusterID"
+  }, {
+    "name" : "expander",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.expander"
+  }, {
+    "name" : "instanceGroups",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.instanceGroups",
+    "sub_parameters" : [ ]
+  }, {
+    "name" : "kubeVersion",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.kubeVersion"
+  }, {
+    "name" : "maxEmptyBulkDelete",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.maxEmptyBulkDelete"
+  }, {
+    "name" : "scaleDownDelayAfterAdd",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.scaleDownDelayAfterAdd"
+  }, {
+    "name" : "scaleDownEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.scaleDownEnabled"
+  }, {
+    "name" : "scaleDownGPUUtilizationThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.scaleDownGPUUtilizationThreshold"
+  }, {
+    "name" : "scaleDownUnneededTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.scaleDownUnneededTime"
+  }, {
+    "name" : "scaleDownUtilizationThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.scaleDownUtilizationThreshold"
+  }, {
+    "name" : "skipNodesWithLocalStorage",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.skipNodesWithLocalStorage"
+  }, {
+    "name" : "skipNodesWithSystemPods",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.skipNodesWithSystemPods"
+  }, {
+    "name" : "customConfigs",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.UpdateAutoscalerConfigurationV2.customConfigs",
+    "sub_parameters" : [ ]
+  } ],
+  "desc_key" : "cce.UpdateAutoscalerConfigurationV2.desc"
+}

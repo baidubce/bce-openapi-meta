@@ -1,0 +1,6 @@
+{
+  "GetNodeGroupDetailsV2" : {
+    "clusterID" : "集群 ID",
+    "instanceGroupID" : "节点组 ID"
+  }
+}

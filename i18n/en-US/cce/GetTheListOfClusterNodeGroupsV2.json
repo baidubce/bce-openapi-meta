@@ -1,0 +1,11 @@
+{
+  "GetTheListOfClusterNodeGroupsV2" : {
+    "clusterID" : "Cluster ID",
+    "pageNo" : "Page number for query. Returns all node groups when pageNo or pageSize is 0",
+    "pageSize" : "Number of entries per page. Returns all node groups when pageNo or pageSize is 0",
+    "keywordType" : "Keyword search type. Options: [ instanceGroupName, instanceGroupID ]",
+    "keyword" : "Search keyword, used together with keywordType",
+    "autoscalerEnabled" : "Filter by autoscaling status. Set to true to return only node groups with autoscaling enabled",
+    "chargingType" : "Filter by billing method. Options: [ Prepaid, Postpaid, bidding ]"
+  }
+}

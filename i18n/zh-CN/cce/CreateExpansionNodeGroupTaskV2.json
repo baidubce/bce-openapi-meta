@@ -1,0 +1,8 @@
+{
+  "CreateExpansionNodeGroupTaskV2" : {
+    "clusterID" : "集群 ID",
+    "instanceGroupID" : "节点组 ID",
+    "upToReplicas" : "扩容节点组的目标副本数，如果选择该参数则必须大于节点组的当前副本数",
+    "upReplicas" : "节点组扩容的副本数，如果选择该参数则必须大于0"
+  }
+}

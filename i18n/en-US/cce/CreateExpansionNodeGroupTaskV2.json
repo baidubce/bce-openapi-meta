@@ -1,0 +1,8 @@
+{
+  "CreateExpansionNodeGroupTaskV2" : {
+    "clusterID" : "Cluster ID",
+    "instanceGroupID" : "Node group ID",
+    "upToReplicas" : "Target replica count for scaling out the node group; if specified, must be greater than the current replica count of the node group",
+    "upReplicas" : "Number of replicas to add when scaling out the node group; if specified, must be greater than 0"
+  }
+}

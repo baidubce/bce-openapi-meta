@@ -1,0 +1,10 @@
+{
+  "ModifyIGAutoScaler" : {
+    "clusterID" : "Cluster ID",
+    "instanceGroupID" : "Instance group ID",
+    "enabled" : "Whether to enable Autoscaler",
+    "minReplicas" : "Minimum replica count. Valid values: non-negative integers. Default: 0.",
+    "maxReplicas" : "Maximum replica count. Valid values: non-negative integers. Must be greater than minReplicas.",
+    "scalingGroupPriority" : "Scaling group priority. Valid values: non-negative integers. Default: 0."
+  }
+}

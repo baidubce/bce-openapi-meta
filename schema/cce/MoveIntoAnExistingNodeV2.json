@@ -1,0 +1,67 @@
+{
+  "name" : "MoveIntoAnExistingNodeV2",
+  "method" : "PUT",
+  "uri" : "/v2/cluster/[clusterID]/instancegroup/[instanceGroupID]/attachInstances",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.MoveIntoAnExistingNodeV2.clusterID"
+  }, {
+    "name" : "instanceGroupID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.MoveIntoAnExistingNodeV2.instanceGroupID"
+  }, {
+    "name" : "inCluster",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.MoveIntoAnExistingNodeV2.inCluster"
+  }, {
+    "name" : "useInstanceGroupConfig",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.MoveIntoAnExistingNodeV2.useInstanceGroupConfig"
+  }, {
+    "name" : "useInstanceGroupConfigWithDiskInfo",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.MoveIntoAnExistingNodeV2.useInstanceGroupConfigWithDiskInfo"
+  }, {
+    "name" : "installGpuDriver",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.MoveIntoAnExistingNodeV2.installGpuDriver"
+  }, {
+    "name" : "existedInstances",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.MoveIntoAnExistingNodeV2.existedInstances",
+    "sub_parameters" : [ {
+      "name" : "instanceSpec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.MoveIntoAnExistingNodeV2.existedInstances.instanceSpec"
+    } ]
+  }, {
+    "name" : "existedInstancesInCluster",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.MoveIntoAnExistingNodeV2.existedInstancesInCluster",
+    "sub_parameters" : [ {
+      "name" : "existedInstanceID",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.MoveIntoAnExistingNodeV2.existedInstancesInCluster.existedInstanceID"
+    } ]
+  } ],
+  "desc_key" : "cce.MoveIntoAnExistingNodeV2.desc"
+}

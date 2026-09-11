@@ -1,0 +1,12 @@
+{
+  "GetTaskListV2" : {
+    "taskType" : "任务类型，当前仅支持 InstanceGroupReplicas。",
+    "targetID" : "任务目标对象 ID，任务类型为 InstanceGroupReplicas 时，targetID 是目标节点组的 ID",
+    "operationType" : "操作类型，目前支持[ScalingUp, ScalingDown, Repair, ExistedScaleup]，ScalingUp表示扩容，ScalingDown表示缩容，Repair 表示修改期望节点数的伸缩处理，ExistedScaleup表示添加已有节点到节点组的处理",
+    "phase" : "任务状态，目前支持[Pending, Processing, Done, Aborted, Collecting]",
+    "order" : "排序方式，目前支持[ASC,DESC], 默认为DESC(降序)，如果传ASC需要保证orderBy非空才有效。",
+    "orderBy" : "排序字段，目前仅支持[startTime], 默认为startTime（创建时间）",
+    "pageNo" : "查询页码序号。 为0时不分页",
+    "pageSize" : "查询结果每页条目数。为0时不分页"
+  }
+}

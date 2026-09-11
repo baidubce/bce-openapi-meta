@@ -1,0 +1,14 @@
+{
+  "MoveIntoAnExistingNodeV2" : {
+    "clusterID" : "集群 ID，用于标识特定的集群。",
+    "instanceGroupID" : "节点组 ID，用于标识特定的节点组。",
+    "inCluster" : "是否是集群内节点。",
+    "useInstanceGroupConfig" : "针对集群外节点生效，设置为 true 将使用节点组配置。",
+    "useInstanceGroupConfigWithDiskInfo" : "针对集群外节点生效，设置为 true 将使用节点组配置（含磁盘信息）。",
+    "installGpuDriver" : "是否安装 GPU 驱动",
+    "existedInstances" : "配置集群外节点的详细信息。",
+    "existedInstances.instanceSpec" : "",
+    "existedInstancesInCluster" : "配置集群内节点的详细信息。",
+    "existedInstancesInCluster.existedInstanceID" : ""
+  }
+}

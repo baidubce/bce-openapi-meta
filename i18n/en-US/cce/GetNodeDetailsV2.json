@@ -1,0 +1,6 @@
+{
+  "GetNodeDetailsV2" : {
+    "clusterID" : "Cluster ID",
+    "instanceID" : "Node ID"
+  }
+}

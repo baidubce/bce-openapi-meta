@@ -1,0 +1,31 @@
+{
+  "name" : "DeleteNodeGroupV2",
+  "method" : "DELETE",
+  "uri" : "/v2/cluster/{clusterID}/instancegroup/{instanceGroupID}",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.DeleteNodeGroupV2.clusterID"
+  }, {
+    "name" : "instanceGroupID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.DeleteNodeGroupV2.instanceGroupID"
+  }, {
+    "name" : "deleteInstances",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.DeleteNodeGroupV2.deleteInstances"
+  }, {
+    "name" : "releaseAllResource",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.DeleteNodeGroupV2.releaseAllResource"
+  } ],
+  "desc_key" : "cce.DeleteNodeGroupV2.desc"
+}

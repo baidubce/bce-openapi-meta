@@ -1,0 +1,99 @@
+{
+  "version" : "v2",
+  "style" : "rpc",
+  "description" : "容器引擎",
+  "apis" : {
+    "CreateAShrinkingNodeGroupTaskV2" : {
+      "title" : "创建缩容节点组任务",
+      "summary" : "创建缩容节点组任务"
+    },
+    "GetNodeGroupDetailsV2" : {
+      "title" : "获取节点组详情",
+      "summary" : "获取节点组详情"
+    },
+    "GetNodeDetailsV2" : {
+      "title" : "获取节点详情",
+      "summary" : "获取节点详情"
+    },
+    "SynchronizeNodeMetadataV2" : {
+      "title" : "同步节点元信息",
+      "summary" : "同步节点元信息"
+    },
+    "GetPackageListV2" : {
+      "title" : "获取套餐列表",
+      "summary" : "获取套餐列表"
+    },
+    "UpdateNodeAttributesV2" : {
+      "title" : "更新节点属性",
+      "summary" : "更新节点属性"
+    },
+    "ModifyNodeGroupNodeShrinkProtectionStatusV2" : {
+      "title" : "修改节点组节点缩容保护状态",
+      "summary" : "修改节点组节点缩容保护状态"
+    },
+    "GetTheListOfClusterNodesV2" : {
+      "title" : "获取集群节点列表",
+      "summary" : "获取集群节点列表"
+    },
+    "CreateNodeGroupV2" : {
+      "title" : "创建节点组",
+      "summary" : "创建节点组"
+    },
+    "CreateExpansionNodeGroupTaskV2" : {
+      "title" : "创建扩容节点组任务",
+      "summary" : "创建扩容节点组任务"
+    },
+    "GetTaskListV2" : {
+      "title" : "获取任务列表",
+      "summary" : "获取任务列表"
+    },
+    "UpdateAutoscalerConfigurationV2" : {
+      "title" : "更新 Autoscaler 配置",
+      "summary" : "更新 Autoscaler 配置"
+    },
+    "RetrieveTheNodeGroupNodeListV2" : {
+      "title" : "获取节点组节点列表",
+      "summary" : "获取节点组节点列表"
+    },
+    "StepsToObtainNodeEventsV2" : {
+      "title" : "获取节点事件步骤",
+      "summary" : "获取节点事件步骤"
+    },
+    "GetTheListOfClusterNodeGroupsV2" : {
+      "title" : "获取集群节点组列表",
+      "summary" : "获取集群节点组列表"
+    },
+    "QueryTheConfigurationOfAutoscalerV2" : {
+      "title" : "查询 Autoscaler 配置",
+      "summary" : "查询 Autoscaler 配置"
+    },
+    "CreateAnAutoscalerV2" : {
+      "title" : "创建 Autoscaler",
+      "summary" : "创建 Autoscaler"
+    },
+    "ModifyTheNumberOfNodeReplicasInANodeGroupV2" : {
+      "title" : "修改节点组节点副本数",
+      "summary" : "修改节点组节点副本数"
+    },
+    "ModifyIGAutoScaler" : {
+      "title" : "修改节点组节点自动扩缩容配置",
+      "summary" : "修改节点组节点自动扩缩容配置"
+    },
+    "DeleteNodeGroupV2" : {
+      "title" : "删除节点组",
+      "summary" : "删除节点组"
+    },
+    "MoveIntoAnExistingNodeV2" : {
+      "title" : "移入已有节点",
+      "summary" : "移入已有节点"
+    },
+    "ViewTaskDetailsV2" : {
+      "title" : "查看任务详情",
+      "summary" : "查看任务详情"
+    },
+    "DeleteNodesClusterScalingV2" : {
+      "title" : "删除节点（集群缩容）",
+      "summary" : "删除节点（集群缩容）"
+    }
+  }
+}

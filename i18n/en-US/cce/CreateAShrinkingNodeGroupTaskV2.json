@@ -1,0 +1,13 @@
+{
+  "CreateAShrinkingNodeGroupTaskV2" : {
+    "clusterID" : "Cluster ID",
+    "instanceGroupID" : "Node group ID",
+    "instancesToBeRemoved" : "List of node IDs to be removed from the node group when scaling in",
+    "k8sNodesToBeRemoved" : "List of Kubernetes node names to be removed from the node group when scaling in; at least one of instancesToBeRemoved or k8sNodesToBeRemoved must be specified",
+    "cleanPolicy" : "Whether to retain the instances corresponding to the nodes when scaling in the node group; valid values: [Remain, Delete]",
+    "deleteOption" : "Deletion options for the specified nodes; required when cleanPolicy is set to Delete",
+    "deleteOption.moveOut" : "",
+    "deleteOption.deleteResource" : "",
+    "deleteOption.deleteCDSSnapshot" : ""
+  }
+}

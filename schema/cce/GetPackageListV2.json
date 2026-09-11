@@ -1,0 +1,19 @@
+{
+  "name" : "GetPackageListV2",
+  "method" : "POST",
+  "uri" : "/api/cce/artifact-service/v1/machine-specs",
+  "parameters" : [ {
+    "name" : "type",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetPackageListV2.type"
+  }, {
+    "name" : "machineSpecList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.GetPackageListV2.machineSpecList"
+  } ],
+  "desc_key" : "cce.GetPackageListV2.desc"
+}

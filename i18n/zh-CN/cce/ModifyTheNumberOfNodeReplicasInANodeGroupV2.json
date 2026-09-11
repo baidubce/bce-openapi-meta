@@ -1,0 +1,12 @@
+{
+  "ModifyTheNumberOfNodeReplicasInANodeGroupV2" : {
+    "clusterID" : "集群 ID",
+    "instanceGroupID" : "节点组 ID",
+    "replicas" : "期望的节点组节点的副本数. 取值范围是自然数集.",
+    "instanceIDs" : "指定被添加或是优先被删除的节点 ID 集合",
+    "deleteInstance" : "是否删除节点组收缩时被剔除的节点. 默认为 false. 此值的优先级高于节点组CleanPolicy, 被缩容节点使用该配置.",
+    "deleteOption" : "修改指定节点删除选项.",
+    "deleteOption.deleteResource" : "",
+    "deleteOption.deleteCDSSnapshot" : ""
+  }
+}

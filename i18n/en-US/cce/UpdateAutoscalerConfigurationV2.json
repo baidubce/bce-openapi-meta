@@ -1,0 +1,17 @@
+{
+  "UpdateAutoscalerConfigurationV2" : {
+    "clusterID" : "The ID of an existing cluster.",
+    "expander" : "Node group selection strategy for autoscaling. Valid values: random, most-pods, least-waste, priority. Default: random.",
+    "instanceGroups" : "Autoscaler configuration for node groups. No user input required.",
+    "kubeVersion" : "Kubernetes version. If left empty, the backend will automatically query the cluster's Kubernetes version.",
+    "maxEmptyBulkDelete" : "Maximum number of concurrent scale-down operations.",
+    "scaleDownDelayAfterAdd" : "Delay before scale-down starts after a scale-up event, in minutes.",
+    "scaleDownEnabled" : "Whether to enable scale-down. Default: false.",
+    "scaleDownGPUUtilizationThreshold" : "GPU utilization threshold percentage for scale-down, range: (0, 100).",
+    "scaleDownUnneededTime" : "Delay before triggering scale-down, in minutes.",
+    "scaleDownUtilizationThreshold" : "CPU/memory utilization threshold percentage for scale-down, range: (0, 100).",
+    "skipNodesWithLocalStorage" : "Whether to skip nodes using local storage. Default: true.",
+    "skipNodesWithSystemPods" : "Whether to skip nodes running system pods. Default: true.",
+    "customConfigs" : "User-defined custom configurations."
+  }
+}

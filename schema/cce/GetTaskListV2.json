@@ -1,0 +1,55 @@
+{
+  "name" : "GetTaskListV2",
+  "method" : "GET",
+  "uri" : "/v2/tasks/{taskType}",
+  "parameters" : [ {
+    "name" : "taskType",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.GetTaskListV2.taskType"
+  }, {
+    "name" : "targetID",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTaskListV2.targetID"
+  }, {
+    "name" : "operationType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTaskListV2.operationType"
+  }, {
+    "name" : "phase",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTaskListV2.phase"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTaskListV2.order"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTaskListV2.orderBy"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTaskListV2.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTaskListV2.pageSize"
+  } ],
+  "desc_key" : "cce.GetTaskListV2.desc"
+}

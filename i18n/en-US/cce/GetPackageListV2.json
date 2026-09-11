@@ -1,0 +1,6 @@
+{
+  "GetPackageListV2" : {
+    "type" : "Package type, valid values are common (standard package) or gpu (heterogeneous package).",
+    "machineSpecList" : "Query specified packages."
+  }
+}

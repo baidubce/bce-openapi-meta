@@ -300,5 +300,19 @@
       "gz" : "bci.gz.baidubce.com",
       "su" : "bci.su.baidubce.com"
     }
+  }, {
+    "code" : "cce",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "cce.bd.baidubce.com",
+      "bj" : "cce.bj.baidubce.com",
+      "cd" : "cce.cd.baidubce.com",
+      "fwh" : "cce.fwh.baidubce.com",
+      "gz" : "cce.gz.baidubce.com",
+      "hkg" : "cce.hkg.baidubce.com",
+      "nj" : "cce.nj.baidubce.com",
+      "su" : "cce.su.baidubce.com",
+      "yq" : "cce.yq.baidubce.com"
+    }
   } ]
 }

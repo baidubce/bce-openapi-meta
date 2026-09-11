@@ -1,0 +1,11 @@
+{
+  "GetTheListOfClusterNodeGroupsV2" : {
+    "clusterID" : "集群 ID",
+    "pageNo" : "查询页码序号. pageNo 或 pageSize 为0时会返回集群全部节点组",
+    "pageSize" : "查询结果每页条目数. pageNo 或 pageSize 为0时会返回集群全部节点组",
+    "keywordType" : "关键词搜索类型。可选 [ instanceGroupName, instanceGroupID ]",
+    "keyword" : "搜索关键词，配合 keywordType 使用",
+    "autoscalerEnabled" : "按自动伸缩状态过滤。设为 true 仅返回已开启自动伸缩的节点组",
+    "chargingType" : "按计费方式过滤。可选 [ Prepaid, Postpaid, bidding ]"
+  }
+}

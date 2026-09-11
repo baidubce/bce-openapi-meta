@@ -1,0 +1,13 @@
+{
+  "name" : "StepsToObtainNodeEventsV2",
+  "method" : "GET",
+  "uri" : "/v2/event/instance/{instanceID}",
+  "parameters" : [ {
+    "name" : "instanceID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.StepsToObtainNodeEventsV2.instanceID"
+  } ],
+  "desc_key" : "cce.StepsToObtainNodeEventsV2.desc"
+}

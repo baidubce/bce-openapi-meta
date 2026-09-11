@@ -1,0 +1,7 @@
+{
+  "ModifyNodeGroupNodeShrinkProtectionStatusV2" : {
+    "clusterID" : "集群 ID",
+    "instanceIDs" : "需要修改缩容保护状态的节点 ID 列表（CCEInstanceID）",
+    "scaleDownDisabled" : "是否开启缩容保护：true 开启（禁止被缩容），false 关闭"
+  }
+}

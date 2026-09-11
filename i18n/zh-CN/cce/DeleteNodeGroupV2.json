@@ -1,0 +1,8 @@
+{
+  "DeleteNodeGroupV2" : {
+    "clusterID" : "集群 ID",
+    "instanceGroupID" : "节点组 ID",
+    "deleteInstances" : "是否删除节点组内节点. 默认为false",
+    "releaseAllResource" : "是否将该节点组中的节点移出集群，并释放虚机资源、后付费公网IP和云磁盘. 默认为false"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "GetTheListOfClusterNodesV2" : {
+    "clusterID" : "集群ID",
+    "keywordType" : "集群模糊查询字段，可选 [ instanceName, instanceID, clusterRole]，默认值为 instanceName",
+    "keyword" : "查询关键词",
+    "orderBy" : "集群查询排序字段，可选 [ instanceName, instanceID, createdAt]，默认值为 instance_name",
+    "order" : "排序方式，可选 [ ASC, DESC ], ASC 为升序，DESC 为降序，默认值为 ASC",
+    "pageNo" : "页码，默认值为1，取值范围[1, 100000]",
+    "pageSize" : "单页结果数，默认值为10，取值范围[1, 100000]"
+  }
+}

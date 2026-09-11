@@ -1,0 +1,19 @@
+{
+  "name" : "GetNodeGroupDetailsV2",
+  "method" : "GET",
+  "uri" : "/v2/cluster/{clusterID}/instancegroup/{instanceGroupID}",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.GetNodeGroupDetailsV2.clusterID"
+  }, {
+    "name" : "instanceGroupID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.GetNodeGroupDetailsV2.instanceGroupID"
+  } ],
+  "desc_key" : "cce.GetNodeGroupDetailsV2.desc"
+}

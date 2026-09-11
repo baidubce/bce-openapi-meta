@@ -1,0 +1,54 @@
+{
+  "name" : "ModifyTheNumberOfNodeReplicasInANodeGroupV2",
+  "method" : "PUT",
+  "uri" : "/v2/cluster/{clusterID}/instancegroup/{instanceGroupID}/replicas",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.ModifyTheNumberOfNodeReplicasInANodeGroupV2.clusterID"
+  }, {
+    "name" : "instanceGroupID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.ModifyTheNumberOfNodeReplicasInANodeGroupV2.instanceGroupID"
+  }, {
+    "name" : "replicas",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.ModifyTheNumberOfNodeReplicasInANodeGroupV2.replicas"
+  }, {
+    "name" : "instanceIDs",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.ModifyTheNumberOfNodeReplicasInANodeGroupV2.instanceIDs"
+  }, {
+    "name" : "deleteInstance",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.ModifyTheNumberOfNodeReplicasInANodeGroupV2.deleteInstance"
+  }, {
+    "name" : "deleteOption",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.ModifyTheNumberOfNodeReplicasInANodeGroupV2.deleteOption",
+    "sub_parameters" : [ {
+      "name" : "deleteResource",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.ModifyTheNumberOfNodeReplicasInANodeGroupV2.deleteOption.deleteResource"
+    }, {
+      "name" : "deleteCDSSnapshot",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.ModifyTheNumberOfNodeReplicasInANodeGroupV2.deleteOption.deleteCDSSnapshot"
+    } ]
+  } ],
+  "desc_key" : "cce.ModifyTheNumberOfNodeReplicasInANodeGroupV2.desc"
+}

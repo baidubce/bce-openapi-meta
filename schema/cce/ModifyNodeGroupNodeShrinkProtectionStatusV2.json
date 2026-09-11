@@ -1,0 +1,25 @@
+{
+  "name" : "ModifyNodeGroupNodeShrinkProtectionStatusV2",
+  "method" : "PUT",
+  "uri" : "/v2/cluster/{clusterID}/instanceScaleDown",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.ModifyNodeGroupNodeShrinkProtectionStatusV2.clusterID"
+  }, {
+    "name" : "instanceIDs",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.ModifyNodeGroupNodeShrinkProtectionStatusV2.instanceIDs"
+  }, {
+    "name" : "scaleDownDisabled",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.ModifyNodeGroupNodeShrinkProtectionStatusV2.scaleDownDisabled"
+  } ],
+  "desc_key" : "cce.ModifyNodeGroupNodeShrinkProtectionStatusV2.desc"
+}

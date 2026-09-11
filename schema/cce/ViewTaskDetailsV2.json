@@ -1,0 +1,19 @@
+{
+  "name" : "ViewTaskDetailsV2",
+  "method" : "GET",
+  "uri" : "/v2/task/{taskType}/{taskID}",
+  "parameters" : [ {
+    "name" : "taskType",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.ViewTaskDetailsV2.taskType"
+  }, {
+    "name" : "taskID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.ViewTaskDetailsV2.taskID"
+  } ],
+  "desc_key" : "cce.ViewTaskDetailsV2.desc"
+}

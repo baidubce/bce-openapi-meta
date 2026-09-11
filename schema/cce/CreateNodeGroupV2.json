@@ -1,0 +1,203 @@
+{
+  "name" : "CreateNodeGroupV2",
+  "method" : "POST",
+  "uri" : "/v2/cluster/{clusterID}/instancegroup",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.CreateNodeGroupV2.clusterID"
+  }, {
+    "name" : "instanceGroupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateNodeGroupV2.instanceGroupName"
+  }, {
+    "name" : "clusterRole",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateNodeGroupV2.clusterRole"
+  }, {
+    "name" : "shrinkPolicy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateNodeGroupV2.shrinkPolicy"
+  }, {
+    "name" : "updatePolicy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateNodeGroupV2.updatePolicy"
+  }, {
+    "name" : "cleanPolicy",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateNodeGroupV2.cleanPolicy"
+  }, {
+    "name" : "instanceTemplate",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate",
+    "sub_parameters" : [ {
+      "name" : "machineType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.machineType"
+    }, {
+      "name" : "instanceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.instanceType"
+    }, {
+      "name" : "instanceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.instanceName"
+    }, {
+      "name" : "vpcConfig",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.vpcConfig"
+    }, {
+      "name" : "instanceResource",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.instanceResource"
+    }, {
+      "name" : "checkGPUDriver",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.checkGPUDriver"
+    }, {
+      "name" : "imageID",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.imageID"
+    }, {
+      "name" : "userData",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.userData"
+    }, {
+      "name" : "instanceOS",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.instanceOS"
+    }, {
+      "name" : "scaleDownDisabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.scaleDownDisabled"
+    }, {
+      "name" : "isOpenHostnameDomain",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.isOpenHostnameDomain"
+    }, {
+      "name" : "needEIP",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.needEIP"
+    }, {
+      "name" : "eipOption",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.eipOption"
+    }, {
+      "name" : "iamRole",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.iamRole"
+    }, {
+      "name" : "deployCustomConfig",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.deployCustomConfig"
+    }, {
+      "name" : "runtimeType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.runtimeType"
+    }, {
+      "name" : "runtimeVersion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.runtimeVersion"
+    }, {
+      "name" : "deploySetIDs",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.deploySetIDs"
+    }, {
+      "name" : "labels",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.labels"
+    }, {
+      "name" : "annotations",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.annotations"
+    }, {
+      "name" : "tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.tags"
+    }, {
+      "name" : "taints",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.taints"
+    }, {
+      "name" : "relationTag",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.relationTag"
+    }, {
+      "name" : "instancePreChargingOption",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.instanceTemplate.instancePreChargingOption"
+    } ]
+  }, {
+    "name" : "replicas",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateNodeGroupV2.replicas"
+  }, {
+    "name" : "clusterAutoscalerSpec",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.CreateNodeGroupV2.clusterAutoscalerSpec",
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.clusterAutoscalerSpec.enabled"
+    }, {
+      "name" : "minReplicas",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.clusterAutoscalerSpec.minReplicas"
+    }, {
+      "name" : "maxReplicas",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.clusterAutoscalerSpec.maxReplicas"
+    }, {
+      "name" : "scalingGroupPriority",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "cce.CreateNodeGroupV2.clusterAutoscalerSpec.scalingGroupPriority"
+    } ]
+  } ],
+  "desc_key" : "cce.CreateNodeGroupV2.desc"
+}

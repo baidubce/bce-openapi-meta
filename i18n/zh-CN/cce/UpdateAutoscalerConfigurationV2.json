@@ -1,0 +1,17 @@
+{
+  "UpdateAutoscalerConfigurationV2" : {
+    "clusterID" : "已存在的集群 ID",
+    "expander" : "自动扩缩容选组策略。可选值：random、most-pods、least-waste、priority。默认值为 random。",
+    "instanceGroups" : "节点组的 Autoscaler 配置。用户无需输入此项内容。",
+    "kubeVersion" : "K8S 版本。为空时，后台会自动查询集群 K8S 版本号。",
+    "maxEmptyBulkDelete" : "最大并发缩容数",
+    "scaleDownDelayAfterAdd" : "扩容后缩容启动时延，单位为分钟",
+    "scaleDownEnabled" : "是否启用缩容。默认值为 false。",
+    "scaleDownGPUUtilizationThreshold" : "GPU 缩容阈值百分比，取值范围为 (0, 100)。",
+    "scaleDownUnneededTime" : "缩容触发时延，单位为分钟。",
+    "scaleDownUtilizationThreshold" : "缩容阈值百分比，取值范围为 (0, 100)。",
+    "skipNodesWithLocalStorage" : "是否跳过使用本地存储的节点。默认值为 true。",
+    "skipNodesWithSystemPods" : "是否跳过有部署系统 Pod 的节点。默认值为 true。",
+    "customConfigs" : "用户自定义配置。"
+  }
+}

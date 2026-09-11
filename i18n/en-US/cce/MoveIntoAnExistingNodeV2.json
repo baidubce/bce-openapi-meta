@@ -1,0 +1,14 @@
+{
+  "MoveIntoAnExistingNodeV2" : {
+    "clusterID" : "Cluster ID used to identify a specific cluster.",
+    "instanceGroupID" : "Node group ID used to identify a specific node group.",
+    "inCluster" : "Whether the node is within the cluster.",
+    "useInstanceGroupConfig" : "Applies to out-of-cluster nodes; set to true to use the node group configuration.",
+    "useInstanceGroupConfigWithDiskInfo" : "Applies to out-of-cluster nodes; set to true to use the node group configuration (including disk information).",
+    "installGpuDriver" : "Whether to install the GPU driver.",
+    "existedInstances" : "Detailed configuration for out-of-cluster nodes.",
+    "existedInstances.instanceSpec" : "",
+    "existedInstancesInCluster" : "Detailed configuration for in-cluster nodes.",
+    "existedInstancesInCluster.existedInstanceID" : ""
+  }
+}

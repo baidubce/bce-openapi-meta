@@ -1,0 +1,11 @@
+{
+  "DeleteNodesClusterScalingV2" : {
+    "clusterID" : "集群ID",
+    "deleteOption" : "删除选项. 为空时使用节点自身的 DeleteOption 配置",
+    "deleteOption.moveOut" : "",
+    "deleteOption.deleteResource" : "",
+    "deleteOption.deleteCDSSnapshot" : "",
+    "instanceIDs" : "要删除的节点 ID 列表",
+    "scaleDown" : "是否同时减少被删除节点所在节点组的期望节点数"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name" : "CreateExpansionNodeGroupTaskV2",
+  "method" : "PUT",
+  "uri" : "/v2/cluster/{clusterID}/instancegroup/{instanceGroupID}/scaleup",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.CreateExpansionNodeGroupTaskV2.clusterID"
+  }, {
+    "name" : "instanceGroupID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.CreateExpansionNodeGroupTaskV2.instanceGroupID"
+  }, {
+    "name" : "upToReplicas",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.CreateExpansionNodeGroupTaskV2.upToReplicas"
+  }, {
+    "name" : "upReplicas",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.CreateExpansionNodeGroupTaskV2.upReplicas"
+  } ],
+  "desc_key" : "cce.CreateExpansionNodeGroupTaskV2.desc"
+}

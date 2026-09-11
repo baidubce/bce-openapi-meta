@@ -1,0 +1,5 @@
+{
+  "QueryTheConfigurationOfAutoscalerV2" : {
+    "clusterID" : "The ID of an existing cluster"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "SynchronizeNodeMetadataV2",
+  "method" : "POST",
+  "uri" : "/v2/sync/cluster/{clusterID}/instances",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.SynchronizeNodeMetadataV2.clusterID"
+  } ],
+  "desc_key" : "cce.SynchronizeNodeMetadataV2.desc"
+}

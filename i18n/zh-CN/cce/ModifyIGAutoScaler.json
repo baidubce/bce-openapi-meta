@@ -1,0 +1,10 @@
+{
+  "ModifyIGAutoScaler" : {
+    "clusterID" : "集群 ID",
+    "instanceGroupID" : "节点组 ID",
+    "enabled" : "是否启用Autoscaler",
+    "minReplicas" : "最小副本数. 取值范围是自然数集, 默认值为0.",
+    "maxReplicas" : "最大副本数. 取值范围是自然数集, 需大于minReplicas.",
+    "scalingGroupPriority" : "伸缩组优先级. 取值范围是自然数集,默认值为0."
+  }
+}

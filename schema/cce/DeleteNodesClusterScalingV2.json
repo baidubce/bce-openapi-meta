@@ -1,0 +1,47 @@
+{
+  "name" : "DeleteNodesClusterScalingV2",
+  "method" : "PUT",
+  "uri" : "/v2/cluster/{clusterID}/instances",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.DeleteNodesClusterScalingV2.clusterID"
+  }, {
+    "name" : "deleteOption",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.DeleteNodesClusterScalingV2.deleteOption",
+    "sub_parameters" : [ {
+      "name" : "moveOut",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.DeleteNodesClusterScalingV2.deleteOption.moveOut"
+    }, {
+      "name" : "deleteResource",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.DeleteNodesClusterScalingV2.deleteOption.deleteResource"
+    }, {
+      "name" : "deleteCDSSnapshot",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "cce.DeleteNodesClusterScalingV2.deleteOption.deleteCDSSnapshot"
+    } ]
+  }, {
+    "name" : "instanceIDs",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.DeleteNodesClusterScalingV2.instanceIDs"
+  }, {
+    "name" : "scaleDown",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.DeleteNodesClusterScalingV2.scaleDown"
+  } ],
+  "desc_key" : "cce.DeleteNodesClusterScalingV2.desc"
+}

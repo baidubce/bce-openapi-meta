@@ -1,0 +1,13 @@
+{
+  "UpdateNodeAttributesV2" : {
+    "clusterID" : "Cluster ID",
+    "instanceID" : "Node ID",
+    "labels" : "Labels of the node",
+    "annotations" : "Annotations of the node",
+    "taints" : "Taints of the node",
+    "taints.key" : "Key of the taint",
+    "taints.value" : "Value of the taint",
+    "taints.effect" : "Effect of the taint",
+    "cceInstancePriority" : "Priority of the node"
+  }
+}

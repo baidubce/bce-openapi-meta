@@ -1,0 +1,8 @@
+{
+  "DeleteNodeGroupV2" : {
+    "clusterID" : "Cluster ID",
+    "instanceGroupID" : "Node group ID",
+    "deleteInstances" : "Whether to delete nodes in the node group. Default is false",
+    "releaseAllResource" : "Whether to remove nodes from the cluster and release VM resources, postpaid public IPs, and cloud disks. Default is false"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "version" : "v2",
+  "style" : "rpc",
+  "description" : "cce",
+  "apis" : {
+    "CreateAShrinkingNodeGroupTaskV2" : {
+      "title" : "createAShrinkingNodeGroupTaskV2",
+      "summary" : "createAShrinkingNodeGroupTaskV2"
+    },
+    "GetNodeGroupDetailsV2" : {
+      "title" : "getNodeGroupDetailsV2",
+      "summary" : "getNodeGroupDetailsV2"
+    },
+    "GetNodeDetailsV2" : {
+      "title" : "getNodeDetailsV2",
+      "summary" : "getNodeDetailsV2"
+    },
+    "SynchronizeNodeMetadataV2" : {
+      "title" : "synchronizeNodeMetadataV2",
+      "summary" : "synchronizeNodeMetadataV2"
+    },
+    "GetPackageListV2" : {
+      "title" : "getPackageListV2",
+      "summary" : "getPackageListV2"
+    },
+    "UpdateNodeAttributesV2" : {
+      "title" : "updateNodeAttributesV2",
+      "summary" : "updateNodeAttributesV2"
+    },
+    "ModifyNodeGroupNodeShrinkProtectionStatusV2" : {
+      "title" : "modifyNodeGroupNodeShrinkProtectionStatusV2",
+      "summary" : "modifyNodeGroupNodeShrinkProtectionStatusV2"
+    },
+    "GetTheListOfClusterNodesV2" : {
+      "title" : "getTheListOfClusterNodesV2",
+      "summary" : "getTheListOfClusterNodesV2"
+    },
+    "CreateNodeGroupV2" : {
+      "title" : "createNodeGroupV2",
+      "summary" : "createNodeGroupV2"
+    },
+    "CreateExpansionNodeGroupTaskV2" : {
+      "title" : "createExpansionNodeGroupTaskV2",
+      "summary" : "createExpansionNodeGroupTaskV2"
+    },
+    "GetTaskListV2" : {
+      "title" : "getTaskListV2",
+      "summary" : "getTaskListV2"
+    },
+    "UpdateAutoscalerConfigurationV2" : {
+      "title" : "updateAutoscalerConfigurationV2",
+      "summary" : "updateAutoscalerConfigurationV2"
+    },
+    "RetrieveTheNodeGroupNodeListV2" : {
+      "title" : "retrieveTheNodeGroupNodeListV2",
+      "summary" : "retrieveTheNodeGroupNodeListV2"
+    },
+    "StepsToObtainNodeEventsV2" : {
+      "title" : "stepsToObtainNodeEventsV2",
+      "summary" : "stepsToObtainNodeEventsV2"
+    },
+    "GetTheListOfClusterNodeGroupsV2" : {
+      "title" : "getTheListOfClusterNodeGroupsV2",
+      "summary" : "getTheListOfClusterNodeGroupsV2"
+    },
+    "QueryTheConfigurationOfAutoscalerV2" : {
+      "title" : "queryTheConfigurationOfAutoscalerV2",
+      "summary" : "queryTheConfigurationOfAutoscalerV2"
+    },
+    "CreateAnAutoscalerV2" : {
+      "title" : "createAnAutoscalerV2",
+      "summary" : "createAnAutoscalerV2"
+    },
+    "ModifyTheNumberOfNodeReplicasInANodeGroupV2" : {
+      "title" : "modifyTheNumberOfNodeReplicasInANodeGroupV2",
+      "summary" : "modifyTheNumberOfNodeReplicasInANodeGroupV2"
+    },
+    "ModifyIGAutoScaler" : {
+      "title" : "modifyIGAutoScaler",
+      "summary" : "modifyIGAutoScaler"
+    },
+    "DeleteNodeGroupV2" : {
+      "title" : "deleteNodeGroupV2",
+      "summary" : "deleteNodeGroupV2"
+    },
+    "MoveIntoAnExistingNodeV2" : {
+      "title" : "moveIntoAnExistingNodeV2",
+      "summary" : "moveIntoAnExistingNodeV2"
+    },
+    "ViewTaskDetailsV2" : {
+      "title" : "viewTaskDetailsV2",
+      "summary" : "viewTaskDetailsV2"
+    },
+    "DeleteNodesClusterScalingV2" : {
+      "title" : "deleteNodesClusterScalingV2",
+      "summary" : "deleteNodesClusterScalingV2"
+    }
+  }
+}

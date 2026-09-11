@@ -1,0 +1,13 @@
+{
+  "name" : "QueryTheConfigurationOfAutoscalerV2",
+  "method" : "GET",
+  "uri" : "/v2/autoscaler/{clusterID}",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.QueryTheConfigurationOfAutoscalerV2.clusterID"
+  } ],
+  "desc_key" : "cce.QueryTheConfigurationOfAutoscalerV2.desc"
+}

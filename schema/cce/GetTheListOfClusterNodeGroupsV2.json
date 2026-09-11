@@ -1,0 +1,49 @@
+{
+  "name" : "GetTheListOfClusterNodeGroupsV2",
+  "method" : "GET",
+  "uri" : "/v2/cluster/{clusterID}/instancegroups",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.GetTheListOfClusterNodeGroupsV2.clusterID"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodeGroupsV2.pageNo"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodeGroupsV2.pageSize"
+  }, {
+    "name" : "keywordType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodeGroupsV2.keywordType"
+  }, {
+    "name" : "keyword",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodeGroupsV2.keyword"
+  }, {
+    "name" : "autoscalerEnabled",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodeGroupsV2.autoscalerEnabled"
+  }, {
+    "name" : "chargingType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "cce.GetTheListOfClusterNodeGroupsV2.chargingType"
+  } ],
+  "desc_key" : "cce.GetTheListOfClusterNodeGroupsV2.desc"
+}

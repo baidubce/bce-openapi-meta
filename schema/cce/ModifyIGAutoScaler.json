@@ -1,0 +1,43 @@
+{
+  "name" : "ModifyIGAutoScaler",
+  "method" : "PUT",
+  "uri" : "/v2/cluster/{clusterID}/instancegroup/{instanceGroupID}/autoscaler",
+  "parameters" : [ {
+    "name" : "clusterID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.ModifyIGAutoScaler.clusterID"
+  }, {
+    "name" : "instanceGroupID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "cce.ModifyIGAutoScaler.instanceGroupID"
+  }, {
+    "name" : "enabled",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.ModifyIGAutoScaler.enabled"
+  }, {
+    "name" : "minReplicas",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.ModifyIGAutoScaler.minReplicas"
+  }, {
+    "name" : "maxReplicas",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "cce.ModifyIGAutoScaler.maxReplicas"
+  }, {
+    "name" : "scalingGroupPriority",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "cce.ModifyIGAutoScaler.scalingGroupPriority"
+  } ],
+  "desc_key" : "cce.ModifyIGAutoScaler.desc"
+}
