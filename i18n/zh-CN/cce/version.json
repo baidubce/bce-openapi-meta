@@ -87,13 +87,13 @@
       "title" : "移入已有节点",
       "summary" : "移入已有节点"
     },
-    "ViewTaskDetailsV2" : {
-      "title" : "查看任务详情",
-      "summary" : "查看任务详情"
-    },
     "DeleteNodesClusterScalingV2" : {
       "title" : "删除节点（集群缩容）",
       "summary" : "删除节点（集群缩容）"
+    },
+    "ViewTaskDetailsV2" : {
+      "title" : "查看任务详情",
+      "summary" : "查看任务详情"
     }
   }
 }

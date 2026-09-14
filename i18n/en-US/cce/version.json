@@ -87,13 +87,13 @@
       "title" : "moveIntoAnExistingNodeV2",
       "summary" : "moveIntoAnExistingNodeV2"
     },
-    "ViewTaskDetailsV2" : {
-      "title" : "viewTaskDetailsV2",
-      "summary" : "viewTaskDetailsV2"
-    },
     "DeleteNodesClusterScalingV2" : {
       "title" : "deleteNodesClusterScalingV2",
       "summary" : "deleteNodesClusterScalingV2"
+    },
+    "ViewTaskDetailsV2" : {
+      "title" : "viewTaskDetailsV2",
+      "summary" : "viewTaskDetailsV2"
     }
   }
 }

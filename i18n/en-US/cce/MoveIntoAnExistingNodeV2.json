@@ -7,8 +7,8 @@
     "useInstanceGroupConfigWithDiskInfo" : "Applies to out-of-cluster nodes; set to true to use the node group configuration (including disk information).",
     "installGpuDriver" : "Whether to install the GPU driver.",
     "existedInstances" : "Detailed configuration for out-of-cluster nodes.",
-    "existedInstances.instanceSpec" : "",
+    "existedInstances.instanceSpec" : "Instance specification of the existing instance",
     "existedInstancesInCluster" : "Detailed configuration for in-cluster nodes.",
-    "existedInstancesInCluster.existedInstanceID" : ""
+    "existedInstancesInCluster.existedInstanceID" : "Instance ID of the existing instance in the cluster"
   }
 }

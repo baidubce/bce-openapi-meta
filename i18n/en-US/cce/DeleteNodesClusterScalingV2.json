@@ -2,9 +2,9 @@
   "DeleteNodesClusterScalingV2" : {
     "clusterID" : "Cluster ID",
     "deleteOption" : "Delete option. If empty, uses the node's own DeleteOption configuration",
-    "deleteOption.moveOut" : "",
-    "deleteOption.deleteResource" : "",
-    "deleteOption.deleteCDSSnapshot" : "",
+    "deleteOption.moveOut" : "Move the node out of the cluster without deleting it",
+    "deleteOption.deleteResource" : "Delete the node and its associated resources",
+    "deleteOption.deleteCDSSnapshot" : "Delete the CDS snapshots associated with the node",
     "instanceIDs" : "List of node IDs to delete",
     "scaleDown" : "Whether to simultaneously decrease the desired node count of the node group where the deleted nodes reside"
   }
