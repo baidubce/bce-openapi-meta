@@ -375,10 +375,6 @@
       "title" : "创建网关限速规则",
       "summary" : "创建网关限速规则"
     },
-    "ListNat" : {
-      "title" : "查询NAT网关列表",
-      "summary" : "查询NAT网关列表"
-    },
     "ModifyNat" : {
       "title" : "更新NAT网关名称",
       "summary" : "更新NAT网关名称"
@@ -406,6 +402,10 @@
     "DeleteIpGroup" : {
       "title" : "删除IP地址组",
       "summary" : "删除IP地址组"
+    },
+    "ListNat" : {
+      "title" : "查询NAT网关列表",
+      "summary" : "查询NAT网关列表"
     },
     "ResizeNat" : {
       "title" : "NAT网关变配",

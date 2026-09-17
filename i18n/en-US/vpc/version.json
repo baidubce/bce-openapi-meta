@@ -375,10 +375,6 @@
       "title" : "createGatewayLimitRules",
       "summary" : "createGatewayLimitRules"
     },
-    "ListNat" : {
-      "title" : "listNat",
-      "summary" : "listNat"
-    },
     "ModifyNat" : {
       "title" : "modifyNat",
       "summary" : "modifyNat"
@@ -406,6 +402,10 @@
     "DeleteIpGroup" : {
       "title" : "deleteIpGroup",
       "summary" : "deleteIpGroup"
+    },
+    "ListNat" : {
+      "title" : "listNat",
+      "summary" : "listNat"
     },
     "ResizeNat" : {
       "title" : "resizeNat",
