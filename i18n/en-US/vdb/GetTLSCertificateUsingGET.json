@@ -1,0 +1,6 @@
+{
+  "GetTLSCertificateUsingGET" : {
+    "instanceId" : "instanceId",
+    "engineType" : "engineType"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "向量数据库 VectorDB",
+  "apis" : {
+    "GetNodeSpecListUsingGET" : {
+      "title" : "获取节点规格列表",
+      "summary" : "获取节点规格列表"
+    },
+    "GetTLSInfoUsingGET" : {
+      "title" : "查询指定实例的TLS配置详情",
+      "summary" : "查询指定实例的TLS配置详情"
+    },
+    "DeleteRecordUsingDELETE" : {
+      "title" : "删除备份记录",
+      "summary" : "删除备份记录"
+    },
+    "SetConfigUsingPOST" : {
+      "title" : "设置备份配置",
+      "summary" : "设置备份配置"
+    },
+    "GetInstanceListUsingGET" : {
+      "title" : "获取实例列表",
+      "summary" : "获取实例列表"
+    },
+    "GetConfigUsingGET" : {
+      "title" : "获取备份配置",
+      "summary" : "获取备份配置"
+    },
+    "CreateInstanceUsingPOST" : {
+      "title" : "创建实例",
+      "summary" : "创建实例"
+    },
+    "UnbindEipUsingPOST" : {
+      "title" : "解绑EIP",
+      "summary" : "解绑EIP"
+    },
+    "ZoneListUsingGET" : {
+      "title" : "获取可用区列表",
+      "summary" : "获取可用区列表"
+    },
+    "ListRecordsUsingGET" : {
+      "title" : "获取备份记录列表",
+      "summary" : "获取备份记录列表"
+    },
+    "DeleteInstanceUsingDELETE" : {
+      "title" : "删除实例",
+      "summary" : "删除实例"
+    },
+    "GetPriceUsingPOST" : {
+      "title" : "获取订单价格",
+      "summary" : "获取订单价格"
+    },
+    "ManualBackupUsingPOST" : {
+      "title" : "手动备份",
+      "summary" : "手动备份"
+    },
+    "Getinstancelistusingget1" : {
+      "title" : "获取回收站实例列表",
+      "summary" : "获取回收站实例列表"
+    },
+    "ModifyInstanceConfig" : {
+      "title" : "修改实例配置",
+      "summary" : "修改实例配置"
+    },
+    "DeleteRecyclerInstance" : {
+      "title" : "删除回收站实例",
+      "summary" : "删除回收站实例"
+    },
+    "ModifyPublicAccess" : {
+      "title" : "更新公网访问状态",
+      "summary" : "更新公网访问状态"
+    },
+    "GetFreeInstanceQuota" : {
+      "title" : "获取免费实例额度",
+      "summary" : "获取免费实例额度"
+    },
+    "DescribeInstanceConfigs" : {
+      "title" : "获取实例配置",
+      "summary" : "获取实例配置"
+    },
+    "RecoverUsingPOST" : {
+      "title" : "从备份恢复",
+      "summary" : "从备份恢复"
+    },
+    "ModifyTLSUsingPUT" : {
+      "title" : "修改TLS",
+      "summary" : "修改TLS"
+    },
+    "ResizeInstanceUsingPOST" : {
+      "title" : "实例变配",
+      "summary" : "实例变配"
+    },
+    "UpdateInstanceDomain" : {
+      "title" : "修改实例域名",
+      "summary" : "修改实例域名"
+    },
+    "BindEipUsingPOST" : {
+      "title" : "绑定EIP",
+      "summary" : "绑定EIP"
+    },
+    "UpdateInstanceName" : {
+      "title" : "修改实例名称",
+      "summary" : "修改实例名称"
+    },
+    "AccountListUsingGET" : {
+      "title" : "获取账号列表",
+      "summary" : "获取账号列表"
+    },
+    "GetQuotaUsingGET" : {
+      "title" : "获取备份配额",
+      "summary" : "获取备份配额"
+    },
+    "RecoverInstanceUsingPOST" : {
+      "title" : "恢复回收站实例",
+      "summary" : "恢复回收站实例"
+    },
+    "InstanceDetailUsingGET" : {
+      "title" : "获取实例详情",
+      "summary" : "获取实例详情"
+    },
+    "PasswordUsingGET" : {
+      "title" : "获取账号密码",
+      "summary" : "获取账号密码"
+    },
+    "GetTLSCertificateUsingGET" : {
+      "title" : "获取实例证书",
+      "summary" : "获取实例证书"
+    },
+    "ModifyPasswordUsingPOST" : {
+      "title" : "修改账号密码",
+      "summary" : "修改账号密码"
+    },
+    "SetCommentUsingPOST" : {
+      "title" : "设置备份备注",
+      "summary" : "设置备份备注"
+    }
+  }
+}

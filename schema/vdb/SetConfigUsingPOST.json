@@ -1,0 +1,44 @@
+{
+  "name" : "SetConfigUsingPOST",
+  "method" : "POST",
+  "uri" : "/v{version}/vdb/backup/setConfig",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vdb.SetConfigUsingPOST.instanceId"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.SetConfigUsingPOST.engineType"
+  }, {
+    "name" : "autoBackupConfig",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.SetConfigUsingPOST.autoBackupConfig"
+  }, {
+    "name" : "autoBackupEnabled",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.SetConfigUsingPOST.autoBackupEnabled"
+  }, {
+    "name" : "isEncrypt",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.SetConfigUsingPOST.isEncrypt"
+  } ],
+  "desc_key" : "vdb.SetConfigUsingPOST.desc"
+}

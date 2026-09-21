@@ -1,0 +1,26 @@
+{
+  "name" : "DeleteInstanceUsingDELETE",
+  "method" : "DELETE",
+  "uri" : "/v{version}/vdb/instance/delete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vdb.DeleteInstanceUsingDELETE.instanceId"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.DeleteInstanceUsingDELETE.engineType"
+  } ],
+  "desc_key" : "vdb.DeleteInstanceUsingDELETE.desc"
+}

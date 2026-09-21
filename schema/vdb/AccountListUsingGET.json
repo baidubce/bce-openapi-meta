@@ -1,0 +1,26 @@
+{
+  "name" : "AccountListUsingGET",
+  "method" : "GET",
+  "uri" : "/v{version}/vdb/account/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vdb.AccountListUsingGET.instanceId"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.AccountListUsingGET.engineType"
+  } ],
+  "desc_key" : "vdb.AccountListUsingGET.desc"
+}

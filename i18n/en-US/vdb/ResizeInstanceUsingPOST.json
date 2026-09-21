@@ -1,0 +1,22 @@
+{
+  "ResizeInstanceUsingPOST" : {
+    "engineType" : "engineType",
+    "components" : "Components",
+    "components.diskSizeType" : "Disk size type",
+    "components.replicas" : "Number of replicas",
+    "components.spec" : "Specification",
+    "components.type" : "Component type",
+    "dataNodeNum" : "Number of data nodes",
+    "diskFlavor" : "Disk flavor",
+    "diskType" : "Disk type",
+    "env" : "Environment",
+    "instanceId" : "Instance ID",
+    "masterNodeSpec" : "Master node specification",
+    "masterNum" : "Number of master nodes",
+    "nodeSpec" : "Node specification",
+    "nodeType" : "Node type",
+    "orderId" : "Order ID",
+    "proxyNodeSpec" : "Proxy node specification",
+    "proxyNum" : "Number of proxy nodes"
+  }
+}

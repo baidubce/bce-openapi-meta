@@ -1,0 +1,9 @@
+{
+  "SetConfigUsingPOST" : {
+    "instanceId" : "instanceId",
+    "engineType" : "engineType",
+    "autoBackupConfig" : "autoBackupConfig",
+    "autoBackupEnabled" : "autoBackupEnabled",
+    "isEncrypt" : "isEncrypt"
+  }
+}

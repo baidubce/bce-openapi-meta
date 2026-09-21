@@ -1,0 +1,38 @@
+{
+  "name" : "DeleteRecordUsingDELETE",
+  "method" : "DELETE",
+  "uri" : "/v{version}/vdb/backup/deleteRecord",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vdb.DeleteRecordUsingDELETE.instanceId"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.DeleteRecordUsingDELETE.engineType"
+  }, {
+    "name" : "batchId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.DeleteRecordUsingDELETE.batchId"
+  }, {
+    "name" : "backupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.DeleteRecordUsingDELETE.backupId"
+  } ],
+  "desc_key" : "vdb.DeleteRecordUsingDELETE.desc"
+}

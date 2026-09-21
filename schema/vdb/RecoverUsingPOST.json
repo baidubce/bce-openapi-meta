@@ -1,0 +1,44 @@
+{
+  "name" : "RecoverUsingPOST",
+  "method" : "POST",
+  "uri" : "/v{version}/vdb/backup/recover",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vdb.RecoverUsingPOST.instanceId"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.RecoverUsingPOST.engineType"
+  }, {
+    "name" : "backupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.RecoverUsingPOST.backupId"
+  }, {
+    "name" : "batchId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.RecoverUsingPOST.batchId"
+  }, {
+    "name" : "confirmed",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.RecoverUsingPOST.confirmed"
+  } ],
+  "desc_key" : "vdb.RecoverUsingPOST.desc"
+}

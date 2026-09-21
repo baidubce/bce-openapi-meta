@@ -1,0 +1,32 @@
+{
+  "name" : "BindEipUsingPOST",
+  "method" : "POST",
+  "uri" : "/v{version}/vdb/instance/{instanceId}/bindEip",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vdb.BindEipUsingPOST.instanceId"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.BindEipUsingPOST.engineType"
+  }, {
+    "name" : "eip",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.BindEipUsingPOST.eip"
+  } ],
+  "desc_key" : "vdb.BindEipUsingPOST.desc"
+}

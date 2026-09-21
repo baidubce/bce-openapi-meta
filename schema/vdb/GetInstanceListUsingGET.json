@@ -1,0 +1,26 @@
+{
+  "name" : "GetInstanceListUsingGET",
+  "method" : "GET",
+  "uri" : "/v{version}/vdb/instance/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.GetInstanceListUsingGET.engineType"
+  }, {
+    "name" : "instanceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.GetInstanceListUsingGET.instanceType"
+  } ],
+  "desc_key" : "vdb.GetInstanceListUsingGET.desc"
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "RecoverInstanceUsingPOST",
+  "method" : "POST",
+  "uri" : "/v{version}/vdb/recycler/instance/recover",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vdb.RecoverInstanceUsingPOST.instanceId"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.RecoverInstanceUsingPOST.engineType"
+  } ],
+  "desc_key" : "vdb.RecoverInstanceUsingPOST.desc"
+}

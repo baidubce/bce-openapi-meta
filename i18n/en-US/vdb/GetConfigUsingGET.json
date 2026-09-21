@@ -1,0 +1,6 @@
+{
+  "GetConfigUsingGET" : {
+    "instanceId" : "instanceId",
+    "engineType" : "engineType"
+  }
+}

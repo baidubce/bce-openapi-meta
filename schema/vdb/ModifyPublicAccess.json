@@ -1,0 +1,26 @@
+{
+  "name" : "ModifyPublicAccess",
+  "method" : "PUT",
+  "uri" : "/v{version}/vdb/instance/{instanceId}/modifyPublicAccess",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "vdb.ModifyPublicAccess.instanceId"
+  }, {
+    "name" : "publicAccess",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ModifyPublicAccess.publicAccess"
+  } ],
+  "desc_key" : "vdb.ModifyPublicAccess.desc"
+}

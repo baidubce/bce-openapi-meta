@@ -1,0 +1,44 @@
+{
+  "name" : "SetCommentUsingPOST",
+  "method" : "POST",
+  "uri" : "/v{version}/vdb/backup/setComment",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vdb.SetCommentUsingPOST.instanceId"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.SetCommentUsingPOST.engineType"
+  }, {
+    "name" : "backupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.SetCommentUsingPOST.backupId"
+  }, {
+    "name" : "batchId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.SetCommentUsingPOST.batchId"
+  }, {
+    "name" : "comment",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.SetCommentUsingPOST.comment"
+  } ],
+  "desc_key" : "vdb.SetCommentUsingPOST.desc"
+}

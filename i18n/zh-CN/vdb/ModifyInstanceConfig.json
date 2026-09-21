@@ -1,0 +1,9 @@
+{
+  "ModifyInstanceConfig" : {
+    "instanceId" : "",
+    "reason" : "",
+    "userConfigs" : "",
+    "userConfigs.name" : "",
+    "userConfigs.value" : ""
+  }
+}

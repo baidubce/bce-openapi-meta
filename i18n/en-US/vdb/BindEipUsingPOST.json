@@ -1,0 +1,7 @@
+{
+  "BindEipUsingPOST" : {
+    "instanceId" : "instanceId",
+    "engineType" : "engineType",
+    "eip" : "eip"
+  }
+}

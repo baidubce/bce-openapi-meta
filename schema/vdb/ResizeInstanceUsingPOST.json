@@ -1,0 +1,119 @@
+{
+  "name" : "ResizeInstanceUsingPOST",
+  "method" : "POST",
+  "uri" : "/v{version}/vdb/instance/resize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.engineType"
+  }, {
+    "name" : "components",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.components",
+    "sub_parameters" : [ {
+      "name" : "diskSizeType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.ResizeInstanceUsingPOST.components.diskSizeType"
+    }, {
+      "name" : "replicas",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.ResizeInstanceUsingPOST.components.replicas"
+    }, {
+      "name" : "spec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.ResizeInstanceUsingPOST.components.spec"
+    }, {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.ResizeInstanceUsingPOST.components.type"
+    } ]
+  }, {
+    "name" : "dataNodeNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.dataNodeNum"
+  }, {
+    "name" : "diskFlavor",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.diskFlavor"
+  }, {
+    "name" : "diskType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.diskType"
+  }, {
+    "name" : "env",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.env"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.instanceId"
+  }, {
+    "name" : "masterNodeSpec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.masterNodeSpec"
+  }, {
+    "name" : "masterNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.masterNum"
+  }, {
+    "name" : "nodeSpec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.nodeSpec"
+  }, {
+    "name" : "nodeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.nodeType"
+  }, {
+    "name" : "orderId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.orderId"
+  }, {
+    "name" : "proxyNodeSpec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.proxyNodeSpec"
+  }, {
+    "name" : "proxyNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ResizeInstanceUsingPOST.proxyNum"
+  } ],
+  "desc_key" : "vdb.ResizeInstanceUsingPOST.desc"
+}

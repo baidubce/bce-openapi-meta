@@ -314,5 +314,14 @@
       "su" : "cce.su.baidubce.com",
       "yq" : "cce.yq.baidubce.com"
     }
+  }, {
+    "code" : "vdb",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "vdb.bd.baidubce.com",
+      "bj" : "vdb.bj.baidubce.com",
+      "gz" : "vdb.gz.baidubce.com",
+      "su" : "vdb.su.baidubce.com"
+    }
   } ]
 }

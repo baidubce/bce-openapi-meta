@@ -1,0 +1,6 @@
+{
+  "GetQuotaUsingGET" : {
+    "instanceId" : "instanceId",
+    "engineType" : "engineType"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "vdb",
+  "apis" : {
+    "GetNodeSpecListUsingGET" : {
+      "title" : "getNodeSpecListUsingGET",
+      "summary" : "getNodeSpecListUsingGET"
+    },
+    "GetTLSInfoUsingGET" : {
+      "title" : "getTLSInfoUsingGET",
+      "summary" : "getTLSInfoUsingGET"
+    },
+    "DeleteRecordUsingDELETE" : {
+      "title" : "deleteRecordUsingDELETE",
+      "summary" : "deleteRecordUsingDELETE"
+    },
+    "SetConfigUsingPOST" : {
+      "title" : "setConfigUsingPOST",
+      "summary" : "setConfigUsingPOST"
+    },
+    "GetInstanceListUsingGET" : {
+      "title" : "getInstanceListUsingGET",
+      "summary" : "getInstanceListUsingGET"
+    },
+    "GetConfigUsingGET" : {
+      "title" : "getConfigUsingGET",
+      "summary" : "getConfigUsingGET"
+    },
+    "CreateInstanceUsingPOST" : {
+      "title" : "createInstanceUsingPOST",
+      "summary" : "createInstanceUsingPOST"
+    },
+    "UnbindEipUsingPOST" : {
+      "title" : "unbindEipUsingPOST",
+      "summary" : "unbindEipUsingPOST"
+    },
+    "ZoneListUsingGET" : {
+      "title" : "zoneListUsingGET",
+      "summary" : "zoneListUsingGET"
+    },
+    "ListRecordsUsingGET" : {
+      "title" : "listRecordsUsingGET",
+      "summary" : "listRecordsUsingGET"
+    },
+    "DeleteInstanceUsingDELETE" : {
+      "title" : "deleteInstanceUsingDELETE",
+      "summary" : "deleteInstanceUsingDELETE"
+    },
+    "GetPriceUsingPOST" : {
+      "title" : "getPriceUsingPOST",
+      "summary" : "getPriceUsingPOST"
+    },
+    "ManualBackupUsingPOST" : {
+      "title" : "manualBackupUsingPOST",
+      "summary" : "manualBackupUsingPOST"
+    },
+    "Getinstancelistusingget1" : {
+      "title" : "getinstancelistusingget1",
+      "summary" : "getinstancelistusingget1"
+    },
+    "ModifyInstanceConfig" : {
+      "title" : "modifyInstanceConfig",
+      "summary" : "modifyInstanceConfig"
+    },
+    "DeleteRecyclerInstance" : {
+      "title" : "deleteRecyclerInstance",
+      "summary" : "deleteRecyclerInstance"
+    },
+    "ModifyPublicAccess" : {
+      "title" : "modifyPublicAccess",
+      "summary" : "modifyPublicAccess"
+    },
+    "GetFreeInstanceQuota" : {
+      "title" : "getFreeInstanceQuota",
+      "summary" : "getFreeInstanceQuota"
+    },
+    "DescribeInstanceConfigs" : {
+      "title" : "describeInstanceConfigs",
+      "summary" : "describeInstanceConfigs"
+    },
+    "RecoverUsingPOST" : {
+      "title" : "recoverUsingPOST",
+      "summary" : "recoverUsingPOST"
+    },
+    "ModifyTLSUsingPUT" : {
+      "title" : "modifyTLSUsingPUT",
+      "summary" : "modifyTLSUsingPUT"
+    },
+    "ResizeInstanceUsingPOST" : {
+      "title" : "resizeInstanceUsingPOST",
+      "summary" : "resizeInstanceUsingPOST"
+    },
+    "UpdateInstanceDomain" : {
+      "title" : "updateInstanceDomain",
+      "summary" : "updateInstanceDomain"
+    },
+    "BindEipUsingPOST" : {
+      "title" : "bindEipUsingPOST",
+      "summary" : "bindEipUsingPOST"
+    },
+    "UpdateInstanceName" : {
+      "title" : "updateInstanceName",
+      "summary" : "updateInstanceName"
+    },
+    "AccountListUsingGET" : {
+      "title" : "accountListUsingGET",
+      "summary" : "accountListUsingGET"
+    },
+    "GetQuotaUsingGET" : {
+      "title" : "getQuotaUsingGET",
+      "summary" : "getQuotaUsingGET"
+    },
+    "RecoverInstanceUsingPOST" : {
+      "title" : "recoverInstanceUsingPOST",
+      "summary" : "recoverInstanceUsingPOST"
+    },
+    "InstanceDetailUsingGET" : {
+      "title" : "instanceDetailUsingGET",
+      "summary" : "instanceDetailUsingGET"
+    },
+    "PasswordUsingGET" : {
+      "title" : "passwordUsingGET",
+      "summary" : "passwordUsingGET"
+    },
+    "GetTLSCertificateUsingGET" : {
+      "title" : "getTLSCertificateUsingGET",
+      "summary" : "getTLSCertificateUsingGET"
+    },
+    "ModifyPasswordUsingPOST" : {
+      "title" : "modifyPasswordUsingPOST",
+      "summary" : "modifyPasswordUsingPOST"
+    },
+    "SetCommentUsingPOST" : {
+      "title" : "setCommentUsingPOST",
+      "summary" : "setCommentUsingPOST"
+    }
+  }
+}

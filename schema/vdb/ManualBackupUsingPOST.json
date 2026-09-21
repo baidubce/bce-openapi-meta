@@ -1,0 +1,32 @@
+{
+  "name" : "ManualBackupUsingPOST",
+  "method" : "POST",
+  "uri" : "/v{version}/vdb/backup/manualBackup",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vdb.ManualBackupUsingPOST.instanceId"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.ManualBackupUsingPOST.engineType"
+  }, {
+    "name" : "comment",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ManualBackupUsingPOST.comment"
+  } ],
+  "desc_key" : "vdb.ManualBackupUsingPOST.desc"
+}

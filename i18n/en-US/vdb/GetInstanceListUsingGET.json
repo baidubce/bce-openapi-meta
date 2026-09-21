@@ -1,0 +1,6 @@
+{
+  "GetInstanceListUsingGET" : {
+    "engineType" : "Engine type",
+    "instanceType" : "Instance type"
+  }
+}

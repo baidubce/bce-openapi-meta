@@ -1,0 +1,44 @@
+{
+  "name" : "ListRecordsUsingGET",
+  "method" : "GET",
+  "uri" : "/v{version}/vdb/backup/listRecords",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "vdb.ListRecordsUsingGET.instanceId"
+  }, {
+    "name" : "engineType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.ListRecordsUsingGET.engineType"
+  }, {
+    "name" : "listOrder",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.ListRecordsUsingGET.listOrder"
+  }, {
+    "name" : "page",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.ListRecordsUsingGET.page"
+  }, {
+    "name" : "pageSize",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "vdb.ListRecordsUsingGET.pageSize"
+  } ],
+  "desc_key" : "vdb.ListRecordsUsingGET.desc"
+}
