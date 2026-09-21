@@ -1,0 +1,17 @@
+{
+  "GetMongodbSlowQueryTemplate" : {
+    "appId" : "集群ID",
+    "nodeId" : "节点ID",
+    "start" : "开始时间",
+    "end" : "结束时间",
+    "users" : "数据库用户，多个以逗号分隔",
+    "dbNames" : "数据库，多个以逗号分隔",
+    "clientIps" : "客户端IP，多个以逗号分隔",
+    "fingerprintMd5" : "SQL的归一化指纹的MD5值",
+    "namespace" : "命名空间",
+    "orderBy" : "排序字段，比如durationSum，支持的排序字段：executeTimes：执行次数durationSum：命令执行总时间durationMax：命令执行最大时间durationMin：命令执行最小时间durationAvg：命令执行平均时间keyScanRowsSum：命令索引扫描总行数keyScanRowsMax：命令索引扫描总大行数keyScanRowsMin：命令索引扫描总小行数keyScanRowsAvg：命令索引扫描平均行数scanRowsSum：命令扫描平均行数scanRowsMax：命令扫描最大行数scanRowsMin：命令扫描最小行数scanRowsAvg：命令扫描平均行数returnRowsSum：命令返回总行数returnRowsMax：命令返回最大行数returnRowsMin：命令返回最小行数returnRowsAvg：命令返回平均行数",
+    "order" : "排序方式正序：asc倒序：desc",
+    "page" : "分页，默认是1",
+    "pageSize" : "每页展示条数，默认是20"
+  }
+}

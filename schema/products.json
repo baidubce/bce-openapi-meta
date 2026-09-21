@@ -323,5 +323,19 @@
       "gz" : "vdb.gz.baidubce.com",
       "su" : "vdb.su.baidubce.com"
     }
+  }, {
+    "code" : "dbsc",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "dbsc.bd.baidubce.com",
+      "bj" : "dbsc.bj.baidubce.com",
+      "cd" : "dbsc.cd.baidubce.com",
+      "fwh" : "dbsc.wh.baidubce.com",
+      "gz" : "dbsc.gz.baidubce.com",
+      "hkg" : "dbsc.xg.baidubce.com",
+      "nj" : "dbsc.nj.baidubce.com",
+      "su" : "dbsc.sz.baidubce.com",
+      "yq" : "dbsc.yq.baidubce.com"
+    }
   } ]
 }

@@ -1,0 +1,8 @@
+{
+  "GetMysqlKillSessionHistory" : {
+    "appId" : "集群ID",
+    "nodeId" : "节点ID",
+    "start" : "查询范围开始时间",
+    "end" : "查询范围结束时间"
+  }
+}

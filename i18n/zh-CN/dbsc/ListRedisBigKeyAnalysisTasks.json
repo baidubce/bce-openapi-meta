@@ -1,0 +1,10 @@
+{
+  "ListRedisBigKeyAnalysisTasks" : {
+    "id" : "大Key任务ID",
+    "appId" : "集群ID",
+    "clusterId" : "分片ID，如果实例是标准版，则不需要传入该参数。",
+    "dataType" : "数据类型不传则展示全部类型的数据，支持的数据类型：string、list、set、hash、zset、stream",
+    "order" : "排序方式，支持正序asc和倒序desc",
+    "orderBy" : "排序字段：size：按内存大小排序elementCount：按元素数量排序"
+  }
+}

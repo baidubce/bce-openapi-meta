@@ -1,0 +1,12 @@
+{
+  "GetPostgresqlSlowLogTimeDistribution" : {
+    "product" : "产品类型，例如：rds、gaiadbs等",
+    "appId" : "实例ID，例如：rdsmte2lk8ap0sl",
+    "nodeId" : "节点ID",
+    "start" : "查询开始时间，UTC格式，例如：2023-06-01T00:00:00Z",
+    "end" : "查询结束时间，UTC格式，例如：2023-06-02T00:00:00Z",
+    "dbNames" : "数据库名称列表",
+    "users" : "用户名列表",
+    "clientIPs" : "客户端IP列表"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteRedisBigKeyAnalysisTask" : {
+    "ids" : "大Key任务ID列表",
+    "appId" : "集群ID"
+  }
+}

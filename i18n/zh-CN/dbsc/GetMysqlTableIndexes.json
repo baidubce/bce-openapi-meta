@@ -1,0 +1,8 @@
+{
+  "GetMysqlTableIndexes" : {
+    "product" : "产品类型，例如：rds、gaiadbs等",
+    "appId" : "实例ID，例如：rdsmte2lk8ap0sl",
+    "database" : "数据库名称，例如：mysql、information\\_schema等",
+    "table" : "表名称，例如：user\\_info"
+  }
+}

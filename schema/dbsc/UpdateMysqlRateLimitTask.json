@@ -1,0 +1,50 @@
+{
+  "name" : "UpdateMysqlRateLimitTask",
+  "method" : "PUT",
+  "uri" : "/v{version}/mysql/sqlfilter",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "filterId",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.UpdateMysqlRateLimitTask.filterId"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.UpdateMysqlRateLimitTask.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "dbsc.UpdateMysqlRateLimitTask.nodeId"
+  }, {
+    "name" : "filterKey",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "dbsc.UpdateMysqlRateLimitTask.filterKey"
+  }, {
+    "name" : "filterLimit",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.UpdateMysqlRateLimitTask.filterLimit"
+  }, {
+    "name" : "filterType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.UpdateMysqlRateLimitTask.filterType"
+  } ],
+  "desc_key" : "dbsc.UpdateMysqlRateLimitTask.desc"
+}

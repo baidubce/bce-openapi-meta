@@ -1,0 +1,7 @@
+{
+  "KillMysqlSession" : {
+    "appId" : "集群ID",
+    "nodeId" : "节点ID",
+    "idItems" : "idItems 指定了需要查杀的会话ID列表"
+  }
+}

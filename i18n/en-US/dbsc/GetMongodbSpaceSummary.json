@@ -1,0 +1,6 @@
+{
+  "GetMongodbSpaceSummary" : {
+    "appId" : "Instance ID",
+    "nodeId" : "Node ID"
+  }
+}

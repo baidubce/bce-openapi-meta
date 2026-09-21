@@ -1,0 +1,13 @@
+{
+  "ListPegadbSlowLogs" : {
+    "appId" : "实例ID",
+    "nodeId" : "节点ID",
+    "start" : "查询开始时间，UTC格式，例如：2025-08-01T00:00:00Z",
+    "end" : "查询结束时间，UTC格式，例如：2025-08-02T00:00:00Z",
+    "dbEngine" : "数据库名称， 例如redis，pega。",
+    "page" : "分页页码，默认值为1",
+    "pageSize" : "每页记录数，默认值为20",
+    "orderBy" : "排序字段，默认为log\\_time, 支持排序字段log\\_time, slow\\_log\\_id, log\\_duration",
+    "order" : "排序方向，可选值为asc和desc，默认为desc"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "GetRedisSlowLogTimeDistribution" : {
+    "appId" : "Instance ID",
+    "nodeId" : "Node ID",
+    "start" : "Query start time in UTC format, e.g., 2025-09-01T00:00:00Z",
+    "end" : "Query end time in UTC format, e.g., 2025-09-02T00:00:00Z",
+    "dbEngine" : "Database name, e.g., redis, pega"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "GetRedisBigKeyAnalysisResult",
+  "method" : "GET",
+  "uri" : "/v{version}/diagnosis/redis/big-key/task/list?appId=appId&page=page&pageSize=pageSize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetRedisBigKeyAnalysisResult.appId"
+  }, {
+    "name" : "page",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetRedisBigKeyAnalysisResult.page"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetRedisBigKeyAnalysisResult.pageSize"
+  } ],
+  "desc_key" : "dbsc.GetRedisBigKeyAnalysisResult.desc"
+}

@@ -1,0 +1,10 @@
+{
+  "UpdateMysqlRateLimitTask" : {
+    "filterId" : "Rate limit rule ID",
+    "appId" : "Cluster ID",
+    "nodeId" : "Node ID",
+    "filterKey" : "FilterKey. Rate limit keywords. Multiple keyword groups are separated by commas. Supports the utf8 character set. Except for commas serving as keyword separators, no other restrictions apply.",
+    "filterLimit" : "FilterLimit. Concurrency of the rate limit rule: value ranges from 0 to 1,000,000 (inclusive).",
+    "filterType" : "FilterType. SQL rate limit type. Supports SELECT, UPDATE, INSERT, DELETE, and REPLACE."
+  }
+}

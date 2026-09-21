@@ -1,0 +1,6 @@
+{
+  "GetMysqlSpaceSummary" : {
+    "appId" : "Instance ID",
+    "nodeId" : "Node ID"
+  }
+}

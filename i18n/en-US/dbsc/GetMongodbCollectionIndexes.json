@@ -1,0 +1,9 @@
+{
+  "GetMongodbCollectionIndexes" : {
+    "product" : "Product type, e.g., mongodb",
+    "appId" : "Instance ID, e.g., mongodbcyr46f5v3r",
+    "nodeId" : "Node ID",
+    "database" : "Database name, e.g., admin",
+    "collection" : "Collection name, e.g., users"
+  }
+}

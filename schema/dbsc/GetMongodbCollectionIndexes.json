@@ -1,0 +1,44 @@
+{
+  "name" : "GetMongodbCollectionIndexes",
+  "method" : "GET",
+  "uri" : "/api/v{version}/diagnosis/mongodb/schema/collection/index?product=string&appId=string&nodeId=string&database=string&collection=string",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "product",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbCollectionIndexes.product"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbCollectionIndexes.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbCollectionIndexes.nodeId"
+  }, {
+    "name" : "database",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbCollectionIndexes.database"
+  }, {
+    "name" : "collection",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbCollectionIndexes.collection"
+  } ],
+  "desc_key" : "dbsc.GetMongodbCollectionIndexes.desc"
+}

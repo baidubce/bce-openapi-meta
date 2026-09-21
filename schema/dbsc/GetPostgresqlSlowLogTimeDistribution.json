@@ -1,0 +1,62 @@
+{
+  "name" : "GetPostgresqlSlowLogTimeDistribution",
+  "method" : "GET",
+  "uri" : "/api/v{version}/diagnosis/postgresql/slowlog/stats/duration?product=string",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "product",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTimeDistribution.product"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTimeDistribution.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTimeDistribution.nodeId"
+  }, {
+    "name" : "start",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTimeDistribution.start"
+  }, {
+    "name" : "end",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTimeDistribution.end"
+  }, {
+    "name" : "dbNames",
+    "type" : "List",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTimeDistribution.dbNames"
+  }, {
+    "name" : "users",
+    "type" : "List",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTimeDistribution.users"
+  }, {
+    "name" : "clientIPs",
+    "type" : "List",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTimeDistribution.clientIPs"
+  } ],
+  "desc_key" : "dbsc.GetPostgresqlSlowLogTimeDistribution.desc"
+}

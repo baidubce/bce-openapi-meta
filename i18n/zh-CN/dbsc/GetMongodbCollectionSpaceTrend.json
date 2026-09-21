@@ -1,0 +1,13 @@
+{
+  "GetMongodbCollectionSpaceTrend" : {
+    "appId" : "实例ID",
+    "nodeId" : "节点ID",
+    "database" : "数据库名称",
+    "collection" : "集合名称",
+    "period" : "时间间隔（秒），如3600表示按小时聚合数据",
+    "start" : "开始时间，格式：2023-11-01T00:00:00Z",
+    "end" : "结束时间，格式：2023-11-07T00:00:00Z",
+    "metrics" : "指标列表，多个指标用逗号分隔，支持的指标参考下表",
+    "statistics" : "统计类型，多个类型用逗号分隔。支持的类型包括：avg：平均值max：最大值min：最小值sum：累加值count：总数"
+  }
+}

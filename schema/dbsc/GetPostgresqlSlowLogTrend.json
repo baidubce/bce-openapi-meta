@@ -1,0 +1,50 @@
+{
+  "name" : "GetPostgresqlSlowLogTrend",
+  "method" : "GET",
+  "uri" : "/api/v{version}/diagnosis/postgresql/slowlog/trend?product=string&appId=string&nodeId=string&start=string&end=string&period=int",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "product",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTrend.product"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTrend.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTrend.nodeId"
+  }, {
+    "name" : "start",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTrend.start"
+  }, {
+    "name" : "end",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTrend.end"
+  }, {
+    "name" : "period",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTrend.period"
+  } ],
+  "desc_key" : "dbsc.GetPostgresqlSlowLogTrend.desc"
+}

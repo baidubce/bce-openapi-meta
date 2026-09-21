@@ -1,0 +1,187 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "数据库智能驾驶舱 DBSC",
+  "apis" : {
+    "DeleteRedisBigKeyAnalysisTask" : {
+      "title" : "删除Redis实例大Key分析任务",
+      "summary" : "删除Redis实例大Key分析任务"
+    },
+    "ListMongodbSlowLogs" : {
+      "title" : "获取MongoDB实例慢日志列表",
+      "summary" : "获取MongoDB实例慢日志列表"
+    },
+    "GetMysqlSlowLogTimeDistribution" : {
+      "title" : "获取MySQL实例慢日志执行时间分布",
+      "summary" : "获取MySQL实例慢日志执行时间分布"
+    },
+    "GetMongodbSlowLogTimeDistribution" : {
+      "title" : "获取MongoDB实例慢日志执行时间分布",
+      "summary" : "获取MongoDB实例慢日志执行时间分布"
+    },
+    "GetMysqlSlowLogTemplate" : {
+      "title" : "获取MySQL实例慢日志模板",
+      "summary" : "获取MySQL实例慢日志模板"
+    },
+    "GetMysqlSlowLogTrend" : {
+      "title" : "获取MySQL实例慢日志趋势",
+      "summary" : "获取MySQL实例慢日志趋势"
+    },
+    "GetMongodbSlowQueryTemplate" : {
+      "title" : "获取MongoDB实例慢查询模板",
+      "summary" : "获取MongoDB实例慢查询模板"
+    },
+    "GetMongodbSlowLogTrend" : {
+      "title" : "获取MongoDB实例慢日志趋势",
+      "summary" : "获取MongoDB实例慢日志趋势"
+    },
+    "KillMysqlSession" : {
+      "title" : "查杀MySQL实例会话",
+      "summary" : "查杀MySQL实例会话"
+    },
+    "GetPostgresqlSlowLogTemplate" : {
+      "title" : "获取PostgreSQL慢日志模板",
+      "summary" : "获取PostgreSQL慢日志模板"
+    },
+    "GetPostgresqlSlowLogTrend" : {
+      "title" : "获取PostgreSQL慢日志趋势",
+      "summary" : "获取PostgreSQL慢日志趋势"
+    },
+    "GetMysqlKillSessionHistory" : {
+      "title" : "获取MySQL实例查杀会话历史",
+      "summary" : "获取MySQL实例查杀会话历史"
+    },
+    "GetRedisSlowLogTrend" : {
+      "title" : "获取Redis实例慢日志趋势",
+      "summary" : "获取Redis实例慢日志趋势"
+    },
+    "GetPegadbSlowLogTrend" : {
+      "title" : "获取PegaDB实例慢日志趋势",
+      "summary" : "获取PegaDB实例慢日志趋势"
+    },
+    "UpdateMysqlRateLimitTask" : {
+      "title" : "修改MySQL实例限流任务",
+      "summary" : "修改MySQL实例限流任务"
+    },
+    "StartStopMysqlInstanceFlowLimitingTask" : {
+      "title" : "启停MySQL实例限流任务",
+      "summary" : "启停MySQL实例限流任务"
+    },
+    "GetPegadbSlowLogTemplate" : {
+      "title" : "获取PegaDB实例慢日志模版",
+      "summary" : "获取PegaDB实例慢日志模版"
+    },
+    "GetMysqlRateLimitTaskDetail" : {
+      "title" : "获取MySQL实例限流任务详情",
+      "summary" : "获取MySQL实例限流任务详情"
+    },
+    "GetMongodbDatabaseSpace" : {
+      "title" : "获取MongoDB实例库空间",
+      "summary" : "获取MongoDB实例库空间"
+    },
+    "GetPegadbSlowLogTimeDistribution" : {
+      "title" : "获取PegaDB实例慢日志执行时间分布",
+      "summary" : "获取PegaDB实例慢日志执行时间分布"
+    },
+    "GetMongodbSpaceSummary" : {
+      "title" : "获取MongoDB实例空间汇总信息",
+      "summary" : "获取MongoDB实例空间汇总信息"
+    },
+    "DeleteMysqlRateLimitTask" : {
+      "title" : "删除MySQL实例限流任务",
+      "summary" : "删除MySQL实例限流任务"
+    },
+    "GetMongodbCollectionSpaceTrend" : {
+      "title" : "获取MongoDB实例集合空间趋势",
+      "summary" : "获取MongoDB实例集合空间趋势"
+    },
+    "CreateMysqlRateLimitTask" : {
+      "title" : "创建MySQL实例限流任务",
+      "summary" : "创建MySQL实例限流任务"
+    },
+    "CheckMysqlRateLimitSupport" : {
+      "title" : "判断MySQL实例是否支持限流",
+      "summary" : "判断MySQL实例是否支持限流"
+    },
+    "GetMysqlSpaceSummary" : {
+      "title" : "获取MySQL实例空间汇总信息",
+      "summary" : "获取MySQL实例空间汇总信息"
+    },
+    "ListMysqlRateLimitTasks" : {
+      "title" : "获取MySQL实例限流任务列表",
+      "summary" : "获取MySQL实例限流任务列表"
+    },
+    "GetMysqlActiveSessions" : {
+      "title" : "获取MySQL实例实时会话",
+      "summary" : "获取MySQL实例实时会话"
+    },
+    "GetMysqlDeadlockInfo" : {
+      "title" : "获取MySQL实例死锁信息",
+      "summary" : "获取MySQL实例死锁信息"
+    },
+    "GetMongodbDatabaseSpaceTrend" : {
+      "title" : "获取MongoDB实例数据库空间趋势",
+      "summary" : "获取MongoDB实例数据库空间趋势"
+    },
+    "GetMongodbCollectionSpace" : {
+      "title" : "获取MongoDB实例集合空间",
+      "summary" : "获取MongoDB实例集合空间"
+    },
+    "ListPostgresqlSlowLogs" : {
+      "title" : "获取PostgreSQL慢日志列表",
+      "summary" : "获取PostgreSQL慢日志列表"
+    },
+    "GetMysqlDatabaseSpace" : {
+      "title" : "获取MySQL实例库空间",
+      "summary" : "获取MySQL实例库空间"
+    },
+    "GetMysqlTableSpace" : {
+      "title" : "获取MySQL实例表空间",
+      "summary" : "获取MySQL实例表空间"
+    },
+    "GetPostgresqlSlowLogTimeDistribution" : {
+      "title" : "获取PostgreSQL慢日志执行时间分布",
+      "summary" : "获取PostgreSQL慢日志执行时间分布"
+    },
+    "GetRedisSlowLogTimeDistribution" : {
+      "title" : "获取Redis实例慢日执行时间分布",
+      "summary" : "获取Redis实例慢日执行时间分布"
+    },
+    "GetMongodbCollectionIndexes" : {
+      "title" : "获取MongoDB集合索引信息",
+      "summary" : "获取MongoDB集合索引信息"
+    },
+    "ListPegadbSlowLogs" : {
+      "title" : "获取PegaDB实例慢日志列表",
+      "summary" : "获取PegaDB实例慢日志列表"
+    },
+    "GetMysqlTableIndexes" : {
+      "title" : "获取MySQL表索引信息",
+      "summary" : "获取MySQL表索引信息"
+    },
+    "ListMysqlSlowLogs" : {
+      "title" : "获取MySQL实例慢日志列表",
+      "summary" : "获取MySQL实例慢日志列表"
+    },
+    "ListRedisSlowLogs" : {
+      "title" : "获取Redis实例慢日志列表",
+      "summary" : "获取Redis实例慢日志列表"
+    },
+    "GetRedisSlowLogTemplate" : {
+      "title" : "获取Redis实例慢日志模版",
+      "summary" : "获取Redis实例慢日志模版"
+    },
+    "CreateRedisBigKeyAnalysisTask" : {
+      "title" : "创建Redis实例大Key分析任务",
+      "summary" : "创建Redis实例大Key分析任务"
+    },
+    "GetRedisBigKeyAnalysisResult" : {
+      "title" : "获取Redis实例大Key分析任务列表",
+      "summary" : "获取Redis实例大Key分析任务列表"
+    },
+    "ListRedisBigKeyAnalysisTasks" : {
+      "title" : "获取Redis实例大Key分析结果",
+      "summary" : "获取Redis实例大Key分析结果"
+    }
+  }
+}

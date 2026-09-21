@@ -1,0 +1,12 @@
+{
+  "GetMysqlTableSpace" : {
+    "appId" : "实例ID",
+    "nodeId" : "节点ID",
+    "database" : "数据库名，以模糊匹配方式进行搜索",
+    "table" : "表名，以模糊匹配方式进行搜索",
+    "orderBy" : "排序字段，参考返回结果中MysqlTableSpaceModel结构字段",
+    "order" : "排序方式正序：asc倒序：desc",
+    "page" : "分页，默认是1",
+    "pageSize" : "每页展示条数，默认是20"
+  }
+}

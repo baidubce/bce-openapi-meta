@@ -1,0 +1,7 @@
+{
+  "DeleteMysqlRateLimitTask" : {
+    "filterId" : "指定了限流规则ID",
+    "appId" : "集群ID",
+    "nodeId" : "节点ID"
+  }
+}

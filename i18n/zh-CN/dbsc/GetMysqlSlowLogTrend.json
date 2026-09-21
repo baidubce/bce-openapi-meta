@@ -1,0 +1,9 @@
+{
+  "GetMysqlSlowLogTrend" : {
+    "appId" : "实例ID",
+    "nodeId" : "节点ID",
+    "start" : "开始时间",
+    "end" : "结束时间",
+    "period" : "数据点间隔，单位秒"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteRedisBigKeyAnalysisTask" : {
+    "ids" : "List of big key task IDs",
+    "appId" : "Cluster ID"
+  }
+}

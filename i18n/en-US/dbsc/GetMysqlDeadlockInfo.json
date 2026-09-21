@@ -1,0 +1,6 @@
+{
+  "GetMysqlDeadlockInfo" : {
+    "appId" : "Instance ID",
+    "nodeId" : "Node ID"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "CreateMysqlRateLimitTask" : {
+    "appId" : "集群ID",
+    "nodeId" : "实例ID",
+    "filterKey" : "FilterKey 限流关键字，多组关键字，逗号分割，支持字符集utf8，除逗号为关键字外只能做分隔符使用，其他不设置限制",
+    "filterLimit" : "FilterLimit 限流规则的并发数：取值 0-100w 闭区间",
+    "filterType" : "FilterType SQL限流类型：SELECTUPDATEINSERTDELETEREPLACE"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "GetPegadbSlowLogTemplate" : {
+    "appId" : "Instance ID",
+    "nodeId" : "Node ID",
+    "start" : "Query start time in UTC format, e.g., 2025-09-01T00:00:00Z",
+    "end" : "Query end time in UTC format, e.g., 2025-09-02T00:00:00Z",
+    "dbEngine" : "Database name, e.g., redis, pega",
+    "page" : "Page number for pagination, default is 1",
+    "pageSize" : "Number of records per page, default is 20",
+    "orderBy" : "Sort field, defaults to execution count. Supported fields: executeTime (execution count), logDurationSum (total execution time), logDurationMax (maximum execution time), logDurationAvg (average execution time)",
+    "order" : "Sort direction, valid values are asc and desc, default is desc"
+  }
+}

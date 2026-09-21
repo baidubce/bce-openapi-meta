@@ -1,0 +1,8 @@
+{
+  "CreateRedisBigKeyAnalysisTask" : {
+    "appId" : "集群ID",
+    "clusterId" : "分片ID",
+    "backupType" : "BackupType 使用的备份方式1：新建备份 2.：使用历史备份",
+    "backupId" : "备份ID，当BackupType为2时，必须指定该字段"
+  }
+}

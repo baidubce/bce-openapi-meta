@@ -1,0 +1,7 @@
+{
+  "GetRedisBigKeyAnalysisResult" : {
+    "appId" : "Cluster ID",
+    "page" : "Page number for pagination, defaults to 1",
+    "pageSize" : "Number of items displayed per page, defaults to 20"
+  }
+}

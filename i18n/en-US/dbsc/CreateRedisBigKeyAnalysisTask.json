@@ -1,0 +1,8 @@
+{
+  "CreateRedisBigKeyAnalysisTask" : {
+    "appId" : "Cluster ID",
+    "clusterId" : "Shard ID",
+    "backupType" : "Backup method used. 1: create a new backup; 2: use a historical backup",
+    "backupId" : "Backup ID. This field is required when BackupType is 2"
+  }
+}

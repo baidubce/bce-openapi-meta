@@ -1,0 +1,16 @@
+{
+  "GetPostgresqlSlowLogTemplate" : {
+    "appId" : "Instance ID, e.g., rdsmte2lk8ap0sl",
+    "nodeId" : "Node ID",
+    "start" : "Query start time in UTC format, e.g., 2023-06-01T00:00:00Z",
+    "end" : "Query end time in UTC format, e.g., 2023-06-02T00:00:00Z",
+    "users" : "Database users, separated by commas",
+    "dbNames" : "Databases, separated by commas",
+    "clientIps" : "Client IPs, separated by commas",
+    "fingerprintMd5" : "MD5 value of the normalized SQL fingerprint",
+    "page" : "Page number, default is 1",
+    "pageSize" : "Records per page, default is 20",
+    "orderBy" : "Sort field, default is durationCount. Supported sort fields: executeTimes (execution count), durationSum (total execution time), durationMax (maximum execution time), durationMin (minimum execution time), durationAvg (average execution time)",
+    "order" : "Sort direction, either asc or desc, default is desc"
+  }
+}

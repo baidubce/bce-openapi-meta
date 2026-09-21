@@ -1,0 +1,16 @@
+{
+  "GetMysqlSlowLogTemplate" : {
+    "appId" : "实例ID",
+    "nodeId" : "节点ID",
+    "start" : "开始时间",
+    "end" : "结束时间",
+    "users" : "数据库用户，多个以逗号分隔",
+    "dbNames" : "数据库，多个以逗号分隔",
+    "clientIps" : "客户端IP，多个以逗号分隔",
+    "fingerprintMd5" : "SQL的归一化指纹的MD5值",
+    "orderBy" : "排序字段，支持的排序字段：executeTimes：执行次数durationSum：总执行时间durationMax：最大执行时间durationMin：最小执行时间durationAvg：平均执行时间lockTimeSum：总锁时间lockTimeMax：最大锁时间lockTimeMin：最小锁时间lockTimeAvg：平均锁时间scanRowsSum：总扫描行数scanRowsMax：最大扫描行数scanRowsMin：最小扫描行数scanRowsAvg：平均扫描行数returnRowsSum：总返回行数returnRowsMax：最大返回行数returnRowsMin：最小返回行数returnRowsAvg：平均返回行数",
+    "order" : "排序方式正序：asc倒序：desc",
+    "page" : "分页，默认是1",
+    "pageSize" : "每页展示条数，默认是20"
+  }
+}

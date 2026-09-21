@@ -1,0 +1,16 @@
+{
+  "ListMysqlSlowLogs" : {
+    "appId" : "实例ID",
+    "nodeId" : "节点ID",
+    "start" : "开始时间",
+    "end" : "结束时间",
+    "users" : "数据库用户，多个以逗号分隔",
+    "dbNames" : "数据库，多个以逗号分隔",
+    "clientIps" : "客户端IP，多个以逗号分隔",
+    "fingerprintMd5" : "SQL的归一化指纹的MD5值",
+    "orderBy" : "排序字段，参考返回结果中MySQLSlowLogDetail结构体字段",
+    "order" : "排序方式正序：asc倒序：desc",
+    "page" : "分页，默认是1",
+    "pageSize" : "每页展示条数，默认是20"
+  }
+}

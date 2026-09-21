@@ -1,0 +1,38 @@
+{
+  "name" : "GetMysqlTableIndexes",
+  "method" : "GET",
+  "uri" : "/api/v{version}/diagnosis/mysql/schema/table/index?product=string&appId=string&database=string&table=string",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "product",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlTableIndexes.product"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlTableIndexes.appId"
+  }, {
+    "name" : "database",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlTableIndexes.database"
+  }, {
+    "name" : "table",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlTableIndexes.table"
+  } ],
+  "desc_key" : "dbsc.GetMysqlTableIndexes.desc"
+}

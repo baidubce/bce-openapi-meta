@@ -1,0 +1,7 @@
+{
+  "KillMysqlSession" : {
+    "appId" : "Cluster ID",
+    "nodeId" : "Node ID",
+    "idItems" : "idItems specifies the list of session IDs to be killed"
+  }
+}

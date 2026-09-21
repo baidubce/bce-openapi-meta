@@ -1,0 +1,38 @@
+{
+  "name" : "StartStopMysqlInstanceFlowLimitingTask",
+  "method" : "PUT",
+  "uri" : "/v{version}/v1/diagnosis/mysql/sqlfilter/action",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "filterId",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.StartStopMysqlInstanceFlowLimitingTask.filterId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.StartStopMysqlInstanceFlowLimitingTask.action"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.StartStopMysqlInstanceFlowLimitingTask.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.StartStopMysqlInstanceFlowLimitingTask.nodeId"
+  } ],
+  "desc_key" : "dbsc.StartStopMysqlInstanceFlowLimitingTask.desc"
+}

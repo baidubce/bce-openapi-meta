@@ -1,0 +1,8 @@
+{
+  "StartStopMysqlInstanceFlowLimitingTask" : {
+    "filterId" : "Specifies the flow limiting rule ID",
+    "action" : "Specifies the operation type: ON: enable SQL flow limiting; OFF: stop SQL flow limiting",
+    "appId" : "Cluster ID",
+    "nodeId" : "Node ID"
+  }
+}

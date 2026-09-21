@@ -1,0 +1,92 @@
+{
+  "name" : "ListMongodbSlowLogs",
+  "method" : "GET",
+  "uri" : "/v{version}/diagnosis/mongodb/slowlog/list?appId=appId",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.nodeId"
+  }, {
+    "name" : "start",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.start"
+  }, {
+    "name" : "end",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.end"
+  }, {
+    "name" : "users",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.users"
+  }, {
+    "name" : "dbNames",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.dbNames"
+  }, {
+    "name" : "clientIps",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.clientIps"
+  }, {
+    "name" : "namespace",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.namespace"
+  }, {
+    "name" : "fingerprintMd5",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.fingerprintMd5"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.order"
+  }, {
+    "name" : "page",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.page"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListMongodbSlowLogs.pageSize"
+  } ],
+  "desc_key" : "dbsc.ListMongodbSlowLogs.desc"
+}

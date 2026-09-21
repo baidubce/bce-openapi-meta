@@ -1,0 +1,6 @@
+{
+  "GetMysqlActiveSessions" : {
+    "appId" : "集群ID",
+    "nodeId" : "节点ID"
+  }
+}

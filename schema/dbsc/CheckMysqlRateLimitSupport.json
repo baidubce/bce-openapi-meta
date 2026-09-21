@@ -1,0 +1,26 @@
+{
+  "name" : "CheckMysqlRateLimitSupport",
+  "method" : "GET",
+  "uri" : "/v{version}/diagnosis/mysql/sqlfilter/allowed?appId=appId&nodeId=nodeId",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.CheckMysqlRateLimitSupport.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.CheckMysqlRateLimitSupport.nodeId"
+  } ],
+  "desc_key" : "dbsc.CheckMysqlRateLimitSupport.desc"
+}

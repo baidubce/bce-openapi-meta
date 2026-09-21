@@ -1,0 +1,8 @@
+{
+  "GetMysqlTableIndexes" : {
+    "product" : "Product type, e.g., rds, gaiadbs",
+    "appId" : "Instance ID, e.g., rdsmte2lk8ap0sl",
+    "database" : "Database name, e.g., mysql, information\\_schema",
+    "table" : "Table name, e.g., user\\_info"
+  }
+}

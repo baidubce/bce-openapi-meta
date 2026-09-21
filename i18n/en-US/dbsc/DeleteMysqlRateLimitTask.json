@@ -1,0 +1,7 @@
+{
+  "DeleteMysqlRateLimitTask" : {
+    "filterId" : "Specified rate limiting rule ID",
+    "appId" : "Cluster ID",
+    "nodeId" : "Node ID"
+  }
+}

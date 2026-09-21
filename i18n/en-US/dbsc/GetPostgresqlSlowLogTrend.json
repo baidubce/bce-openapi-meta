@@ -1,0 +1,10 @@
+{
+  "GetPostgresqlSlowLogTrend" : {
+    "product" : "Product type, e.g., rds, gaiadbs, etc.",
+    "appId" : "Instance ID, e.g., rdsmte2lk8ap0sl",
+    "nodeId" : "Node ID",
+    "start" : "Query start time in UTC format, e.g., 2023-06-01T00:00:00Z",
+    "end" : "Query end time in UTC format, e.g., 2023-06-02T00:00:00Z",
+    "period" : "Statistical period in seconds, e.g., 3600 for hourly statistics"
+  }
+}

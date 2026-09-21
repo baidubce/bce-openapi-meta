@@ -1,0 +1,16 @@
+{
+  "GetPostgresqlSlowLogTemplate" : {
+    "appId" : "实例ID，例如：rdsmte2lk8ap0sl",
+    "nodeId" : "节点ID",
+    "start" : "查询开始时间，UTC格式，例如：2023-06-01T00:00:00Z",
+    "end" : "查询结束时间，UTC格式，例如：2023-06-02T00:00:00Z",
+    "users" : "数据库用户，多个以逗号分隔",
+    "dbNames" : "数据库，多个以逗号分隔",
+    "clientIps" : "客户端IP，多个以逗号分隔",
+    "fingerprintMd5" : "SQL的归一化指纹的MD5值",
+    "page" : "分页页码，默认值为1",
+    "pageSize" : "每页记录数，默认值为20",
+    "orderBy" : "排序字段，默认为durationCount。支持的排序字段：executeTimes：执行次数durationSum：总执行时间durationMax：最大执行时间durationMin：最小执行时间durationAvg：平均执行时间",
+    "order" : "排序方向，可选值为asc和desc，默认为desc"
+  }
+}

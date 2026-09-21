@@ -1,0 +1,11 @@
+{
+  "GetMongodbDatabaseSpace" : {
+    "appId" : "实例ID",
+    "nodeId" : "节点ID",
+    "database" : "数据库名，以模糊匹配方式进行搜索",
+    "orderBy" : "排序字段，参考返回结果中MongodbDatabaseSpaceItem结构字段",
+    "order" : "排序方式• 正序：asc• 倒序：desc",
+    "page" : "分页，默认是1",
+    "pageSize" : "每页展示条数，默认是20"
+  }
+}

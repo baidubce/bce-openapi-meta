@@ -1,0 +1,8 @@
+{
+  "GetMysqlKillSessionHistory" : {
+    "appId" : "Cluster ID",
+    "nodeId" : "Node ID",
+    "start" : "Query range start time",
+    "end" : "Query range end time"
+  }
+}

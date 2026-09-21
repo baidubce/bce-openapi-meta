@@ -1,0 +1,9 @@
+{
+  "GetMongodbCollectionIndexes" : {
+    "product" : "产品类型，例如：mongodb等",
+    "appId" : "实例ID，例如：mongodbcyr46f5v3r",
+    "nodeId" : "节点ID",
+    "database" : "数据库名称，例如：admin",
+    "collection" : "集合名称，例如：users"
+  }
+}

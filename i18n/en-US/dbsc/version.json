@@ -1,0 +1,187 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "dbsc",
+  "apis" : {
+    "DeleteRedisBigKeyAnalysisTask" : {
+      "title" : "deleteRedisBigKeyAnalysisTask",
+      "summary" : "deleteRedisBigKeyAnalysisTask"
+    },
+    "ListMongodbSlowLogs" : {
+      "title" : "listMongodbSlowLogs",
+      "summary" : "listMongodbSlowLogs"
+    },
+    "GetMysqlSlowLogTimeDistribution" : {
+      "title" : "getMysqlSlowLogTimeDistribution",
+      "summary" : "getMysqlSlowLogTimeDistribution"
+    },
+    "GetMongodbSlowLogTimeDistribution" : {
+      "title" : "getMongodbSlowLogTimeDistribution",
+      "summary" : "getMongodbSlowLogTimeDistribution"
+    },
+    "GetMysqlSlowLogTemplate" : {
+      "title" : "getMysqlSlowLogTemplate",
+      "summary" : "getMysqlSlowLogTemplate"
+    },
+    "GetMysqlSlowLogTrend" : {
+      "title" : "getMysqlSlowLogTrend",
+      "summary" : "getMysqlSlowLogTrend"
+    },
+    "GetMongodbSlowQueryTemplate" : {
+      "title" : "getMongodbSlowQueryTemplate",
+      "summary" : "getMongodbSlowQueryTemplate"
+    },
+    "GetMongodbSlowLogTrend" : {
+      "title" : "getMongodbSlowLogTrend",
+      "summary" : "getMongodbSlowLogTrend"
+    },
+    "KillMysqlSession" : {
+      "title" : "killMysqlSession",
+      "summary" : "killMysqlSession"
+    },
+    "GetPostgresqlSlowLogTemplate" : {
+      "title" : "getPostgresqlSlowLogTemplate",
+      "summary" : "getPostgresqlSlowLogTemplate"
+    },
+    "GetPostgresqlSlowLogTrend" : {
+      "title" : "getPostgresqlSlowLogTrend",
+      "summary" : "getPostgresqlSlowLogTrend"
+    },
+    "GetMysqlKillSessionHistory" : {
+      "title" : "getMysqlKillSessionHistory",
+      "summary" : "getMysqlKillSessionHistory"
+    },
+    "GetRedisSlowLogTrend" : {
+      "title" : "getRedisSlowLogTrend",
+      "summary" : "getRedisSlowLogTrend"
+    },
+    "GetPegadbSlowLogTrend" : {
+      "title" : "getPegadbSlowLogTrend",
+      "summary" : "getPegadbSlowLogTrend"
+    },
+    "UpdateMysqlRateLimitTask" : {
+      "title" : "updateMysqlRateLimitTask",
+      "summary" : "updateMysqlRateLimitTask"
+    },
+    "StartStopMysqlInstanceFlowLimitingTask" : {
+      "title" : "startStopMysqlInstanceFlowLimitingTask",
+      "summary" : "startStopMysqlInstanceFlowLimitingTask"
+    },
+    "GetPegadbSlowLogTemplate" : {
+      "title" : "getPegadbSlowLogTemplate",
+      "summary" : "getPegadbSlowLogTemplate"
+    },
+    "GetMysqlRateLimitTaskDetail" : {
+      "title" : "getMysqlRateLimitTaskDetail",
+      "summary" : "getMysqlRateLimitTaskDetail"
+    },
+    "GetMongodbDatabaseSpace" : {
+      "title" : "getMongodbDatabaseSpace",
+      "summary" : "getMongodbDatabaseSpace"
+    },
+    "GetPegadbSlowLogTimeDistribution" : {
+      "title" : "getPegadbSlowLogTimeDistribution",
+      "summary" : "getPegadbSlowLogTimeDistribution"
+    },
+    "GetMongodbSpaceSummary" : {
+      "title" : "getMongodbSpaceSummary",
+      "summary" : "getMongodbSpaceSummary"
+    },
+    "DeleteMysqlRateLimitTask" : {
+      "title" : "deleteMysqlRateLimitTask",
+      "summary" : "deleteMysqlRateLimitTask"
+    },
+    "GetMongodbCollectionSpaceTrend" : {
+      "title" : "getMongodbCollectionSpaceTrend",
+      "summary" : "getMongodbCollectionSpaceTrend"
+    },
+    "CreateMysqlRateLimitTask" : {
+      "title" : "createMysqlRateLimitTask",
+      "summary" : "createMysqlRateLimitTask"
+    },
+    "CheckMysqlRateLimitSupport" : {
+      "title" : "checkMysqlRateLimitSupport",
+      "summary" : "checkMysqlRateLimitSupport"
+    },
+    "GetMysqlSpaceSummary" : {
+      "title" : "getMysqlSpaceSummary",
+      "summary" : "getMysqlSpaceSummary"
+    },
+    "ListMysqlRateLimitTasks" : {
+      "title" : "listMysqlRateLimitTasks",
+      "summary" : "listMysqlRateLimitTasks"
+    },
+    "GetMysqlActiveSessions" : {
+      "title" : "getMysqlActiveSessions",
+      "summary" : "getMysqlActiveSessions"
+    },
+    "GetMysqlDeadlockInfo" : {
+      "title" : "getMysqlDeadlockInfo",
+      "summary" : "getMysqlDeadlockInfo"
+    },
+    "GetMongodbDatabaseSpaceTrend" : {
+      "title" : "getMongodbDatabaseSpaceTrend",
+      "summary" : "getMongodbDatabaseSpaceTrend"
+    },
+    "GetMongodbCollectionSpace" : {
+      "title" : "getMongodbCollectionSpace",
+      "summary" : "getMongodbCollectionSpace"
+    },
+    "ListPostgresqlSlowLogs" : {
+      "title" : "listPostgresqlSlowLogs",
+      "summary" : "listPostgresqlSlowLogs"
+    },
+    "GetMysqlDatabaseSpace" : {
+      "title" : "getMysqlDatabaseSpace",
+      "summary" : "getMysqlDatabaseSpace"
+    },
+    "GetMysqlTableSpace" : {
+      "title" : "getMysqlTableSpace",
+      "summary" : "getMysqlTableSpace"
+    },
+    "GetPostgresqlSlowLogTimeDistribution" : {
+      "title" : "getPostgresqlSlowLogTimeDistribution",
+      "summary" : "getPostgresqlSlowLogTimeDistribution"
+    },
+    "GetRedisSlowLogTimeDistribution" : {
+      "title" : "getRedisSlowLogTimeDistribution",
+      "summary" : "getRedisSlowLogTimeDistribution"
+    },
+    "GetMongodbCollectionIndexes" : {
+      "title" : "getMongodbCollectionIndexes",
+      "summary" : "getMongodbCollectionIndexes"
+    },
+    "ListPegadbSlowLogs" : {
+      "title" : "listPegadbSlowLogs",
+      "summary" : "listPegadbSlowLogs"
+    },
+    "GetMysqlTableIndexes" : {
+      "title" : "getMysqlTableIndexes",
+      "summary" : "getMysqlTableIndexes"
+    },
+    "ListMysqlSlowLogs" : {
+      "title" : "listMysqlSlowLogs",
+      "summary" : "listMysqlSlowLogs"
+    },
+    "ListRedisSlowLogs" : {
+      "title" : "listRedisSlowLogs",
+      "summary" : "listRedisSlowLogs"
+    },
+    "GetRedisSlowLogTemplate" : {
+      "title" : "getRedisSlowLogTemplate",
+      "summary" : "getRedisSlowLogTemplate"
+    },
+    "CreateRedisBigKeyAnalysisTask" : {
+      "title" : "createRedisBigKeyAnalysisTask",
+      "summary" : "createRedisBigKeyAnalysisTask"
+    },
+    "GetRedisBigKeyAnalysisResult" : {
+      "title" : "getRedisBigKeyAnalysisResult",
+      "summary" : "getRedisBigKeyAnalysisResult"
+    },
+    "ListRedisBigKeyAnalysisTasks" : {
+      "title" : "listRedisBigKeyAnalysisTasks",
+      "summary" : "listRedisBigKeyAnalysisTasks"
+    }
+  }
+}

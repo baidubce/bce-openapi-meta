@@ -1,0 +1,10 @@
+{
+  "GetPostgresqlSlowLogTrend" : {
+    "product" : "产品类型，例如：rds、gaiadbs等",
+    "appId" : "实例ID，例如：rdsmte2lk8ap0sl",
+    "nodeId" : "节点ID",
+    "start" : "查询开始时间，UTC格式，例如：2023-06-01T00:00:00Z",
+    "end" : "查询结束时间，UTC格式，例如：2023-06-02T00:00:00Z",
+    "period" : "统计周期（秒），例如：3600表示按小时统计"
+  }
+}

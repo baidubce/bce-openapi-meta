@@ -1,0 +1,38 @@
+{
+  "name" : "CreateRedisBigKeyAnalysisTask",
+  "method" : "POST",
+  "uri" : "/v{version}/diagnosis/redis/big-key/task",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.CreateRedisBigKeyAnalysisTask.appId"
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.CreateRedisBigKeyAnalysisTask.clusterId"
+  }, {
+    "name" : "backupType",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.CreateRedisBigKeyAnalysisTask.backupType"
+  }, {
+    "name" : "backupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "dbsc.CreateRedisBigKeyAnalysisTask.backupId"
+  } ],
+  "desc_key" : "dbsc.CreateRedisBigKeyAnalysisTask.desc"
+}

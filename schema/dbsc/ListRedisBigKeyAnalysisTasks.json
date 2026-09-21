@@ -1,0 +1,50 @@
+{
+  "name" : "ListRedisBigKeyAnalysisTasks",
+  "method" : "GET",
+  "uri" : "/v{version}/diagnosis/redis/big-key/task/result?id=id&appId=appId&nodeId=nodeId&dataType=dataType&orderBy=orderBy&order=order",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "id",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListRedisBigKeyAnalysisTasks.id"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListRedisBigKeyAnalysisTasks.appId"
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListRedisBigKeyAnalysisTasks.clusterId"
+  }, {
+    "name" : "dataType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListRedisBigKeyAnalysisTasks.dataType"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListRedisBigKeyAnalysisTasks.order"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.ListRedisBigKeyAnalysisTasks.orderBy"
+  } ],
+  "desc_key" : "dbsc.ListRedisBigKeyAnalysisTasks.desc"
+}

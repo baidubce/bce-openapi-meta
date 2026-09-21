@@ -1,0 +1,9 @@
+{
+  "GetMysqlSlowLogTrend" : {
+    "appId" : "Instance ID",
+    "nodeId" : "Node ID",
+    "start" : "Start time",
+    "end" : "End time",
+    "period" : "Data point interval, in seconds"
+  }
+}

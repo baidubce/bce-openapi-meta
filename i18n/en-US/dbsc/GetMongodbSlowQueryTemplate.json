@@ -1,0 +1,17 @@
+{
+  "GetMongodbSlowQueryTemplate" : {
+    "appId" : "Cluster ID",
+    "nodeId" : "Node ID",
+    "start" : "Start time",
+    "end" : "End time",
+    "users" : "Database users, separated by commas",
+    "dbNames" : "Databases, separated by commas",
+    "clientIps" : "Client IPs, separated by commas",
+    "fingerprintMd5" : "MD5 value of the SQL normalized fingerprint",
+    "namespace" : "Namespace",
+    "orderBy" : "Sort field, e.g. durationSum. Supported sort fields: executeTimes: number of executions; durationSum: total command execution time; durationMax: maximum command execution time; durationMin: minimum command execution time; durationAvg: average command execution time; keyScanRowsSum: total index scan rows; keyScanRowsMax: maximum index scan rows; keyScanRowsMin: minimum index scan rows; keyScanRowsAvg: average index scan rows; scanRowsSum: total scan rows; scanRowsMax: maximum scan rows; scanRowsMin: minimum scan rows; scanRowsAvg: average scan rows; returnRowsSum: total returned rows; returnRowsMax: maximum returned rows; returnRowsMin: minimum returned rows; returnRowsAvg: average returned rows",
+    "order" : "Sort order, asc for ascending, desc for descending",
+    "page" : "Page number, default is 1",
+    "pageSize" : "Number of items per page, default is 20"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "GetMysqlActiveSessions" : {
+    "appId" : "Cluster ID",
+    "nodeId" : "Node ID"
+  }
+}

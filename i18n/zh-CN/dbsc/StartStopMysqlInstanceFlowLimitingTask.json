@@ -1,0 +1,8 @@
+{
+  "StartStopMysqlInstanceFlowLimitingTask" : {
+    "filterId" : "指定了限流规则ID",
+    "action" : "Action 指定操作类型：ON：开启SQL限流OFF：停止SQL限流",
+    "appId" : "集群ID",
+    "nodeId" : "节点ID"
+  }
+}

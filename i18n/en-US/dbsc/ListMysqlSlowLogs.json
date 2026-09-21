@@ -1,0 +1,16 @@
+{
+  "ListMysqlSlowLogs" : {
+    "appId" : "Instance ID",
+    "nodeId" : "Node ID",
+    "start" : "Start time",
+    "end" : "End time",
+    "users" : "Database users, separated by commas",
+    "dbNames" : "Databases, separated by commas",
+    "clientIps" : "Client IPs, separated by commas",
+    "fingerprintMd5" : "MD5 value of the SQL normalized fingerprint",
+    "orderBy" : "Sort field, refer to the MySQLSlowLogDetail struct fields in the returned result",
+    "order" : "Sort order, ascending: asc, descending: desc",
+    "page" : "Page number, default is 1",
+    "pageSize" : "Number of items per page, default is 20"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "GetMysqlRateLimitTaskDetail" : {
+    "appId" : "Cluster ID",
+    "nodeId" : "Node ID",
+    "filterId" : "Rate limit rule ID"
+  }
+}

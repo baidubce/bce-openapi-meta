@@ -1,0 +1,32 @@
+{
+  "name" : "DeleteMysqlRateLimitTask",
+  "method" : "DELETE",
+  "uri" : "/v{version}/diagnosis/mysql/sqlfilter/delete?appId=appId&nodeId=nodeId&filterId=filterId",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "filterId",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.DeleteMysqlRateLimitTask.filterId"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.DeleteMysqlRateLimitTask.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.DeleteMysqlRateLimitTask.nodeId"
+  } ],
+  "desc_key" : "dbsc.DeleteMysqlRateLimitTask.desc"
+}

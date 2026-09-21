@@ -1,0 +1,26 @@
+{
+  "name" : "DeleteRedisBigKeyAnalysisTask",
+  "method" : "DELETE",
+  "uri" : "/v{version}/diagnosis/redis/big-key/task",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "ids",
+    "type" : "List",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.DeleteRedisBigKeyAnalysisTask.ids"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "dbsc.DeleteRedisBigKeyAnalysisTask.appId"
+  } ],
+  "desc_key" : "dbsc.DeleteRedisBigKeyAnalysisTask.desc"
+}

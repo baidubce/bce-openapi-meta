@@ -1,0 +1,10 @@
+{
+  "ListRedisBigKeyAnalysisTasks" : {
+    "id" : "Big key task ID",
+    "appId" : "Cluster ID",
+    "clusterId" : "Shard ID. Not required if the instance is the standard edition.",
+    "dataType" : "Data type. If not specified, all data types are displayed. Supported data types: string, list, set, hash, zset, stream",
+    "order" : "Sort order. Supports ascending (asc) and descending (desc)",
+    "orderBy" : "Sort field: size sorts by memory size; elementCount sorts by number of elements"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name" : "GetMysqlSlowLogTimeDistribution",
+  "method" : "GET",
+  "uri" : "/v{version}/diagnosis/mysql/slowlog/stats/duration?appId=appId",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTimeDistribution.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTimeDistribution.nodeId"
+  }, {
+    "name" : "start",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTimeDistribution.start"
+  }, {
+    "name" : "end",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTimeDistribution.end"
+  }, {
+    "name" : "dbNames",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTimeDistribution.dbNames"
+  }, {
+    "name" : "fingerprintMd5",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTimeDistribution.fingerprintMd5"
+  } ],
+  "desc_key" : "dbsc.GetMysqlSlowLogTimeDistribution.desc"
+}

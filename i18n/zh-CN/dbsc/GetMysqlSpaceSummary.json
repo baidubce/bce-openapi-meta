@@ -1,0 +1,6 @@
+{
+  "GetMysqlSpaceSummary" : {
+    "appId" : "实例ID",
+    "nodeId" : "节点ID"
+  }
+}

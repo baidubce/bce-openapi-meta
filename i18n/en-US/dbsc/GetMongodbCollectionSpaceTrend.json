@@ -1,0 +1,13 @@
+{
+  "GetMongodbCollectionSpaceTrend" : {
+    "appId" : "Instance ID",
+    "nodeId" : "Node ID",
+    "database" : "Database name",
+    "collection" : "Collection name",
+    "period" : "Time interval (seconds), e.g. 3600 means aggregating data by hour",
+    "start" : "Start time, format: 2023-11-01T00:00:00Z",
+    "end" : "End time, format: 2023-11-07T00:00:00Z",
+    "metrics" : "Metric list, multiple metrics separated by commas; see the table below for supported metrics",
+    "statistics" : "Statistic type, multiple types separated by commas. Supported types: avg (average), max (maximum), min (minimum), sum (accumulated value), count (total count)"
+  }
+}

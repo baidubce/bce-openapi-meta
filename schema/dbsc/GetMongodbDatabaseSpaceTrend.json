@@ -1,0 +1,62 @@
+{
+  "name" : "GetMongodbDatabaseSpaceTrend",
+  "method" : "GET",
+  "uri" : "/api/v{version}/diagnosis/mongodb/space/database/trend?appId=appId",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbDatabaseSpaceTrend.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbDatabaseSpaceTrend.nodeId"
+  }, {
+    "name" : "database",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbDatabaseSpaceTrend.database"
+  }, {
+    "name" : "period",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbDatabaseSpaceTrend.period"
+  }, {
+    "name" : "start",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbDatabaseSpaceTrend.start"
+  }, {
+    "name" : "end",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbDatabaseSpaceTrend.end"
+  }, {
+    "name" : "metrics",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbDatabaseSpaceTrend.metrics"
+  }, {
+    "name" : "statistics",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMongodbDatabaseSpaceTrend.statistics"
+  } ],
+  "desc_key" : "dbsc.GetMongodbDatabaseSpaceTrend.desc"
+}

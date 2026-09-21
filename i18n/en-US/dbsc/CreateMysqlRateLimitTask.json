@@ -1,0 +1,9 @@
+{
+  "CreateMysqlRateLimitTask" : {
+    "appId" : "Cluster ID",
+    "nodeId" : "Instance ID",
+    "filterKey" : "FilterKey: rate-limiting keywords. Multiple keyword groups separated by commas, supporting the utf8 charset. Except for commas used as keywords, commas can only be used as separators; no other restrictions apply.",
+    "filterLimit" : "FilterLimit: concurrency of the rate-limiting rule, ranging from 0 to 1,000,000 (inclusive)",
+    "filterType" : "FilterType: SQL rate-limiting type: SELECT, UPDATE, INSERT, DELETE, REPLACE"
+  }
+}

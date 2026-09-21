@@ -1,0 +1,7 @@
+{
+  "GetRedisBigKeyAnalysisResult" : {
+    "appId" : "集群ID",
+    "page" : "分页页数，默认为1",
+    "pageSize" : "每页展示条数，默认为20"
+  }
+}

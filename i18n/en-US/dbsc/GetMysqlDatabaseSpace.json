@@ -1,0 +1,11 @@
+{
+  "GetMysqlDatabaseSpace" : {
+    "appId" : "Instance ID",
+    "nodeId" : "Node ID",
+    "database" : "Database name, searched by fuzzy matching",
+    "orderBy" : "Sort field, refer to the fields of the MysqlDatabaseSpaceModel structure in the returned result",
+    "order" : "Sort order. Ascending: asc. Descending: desc",
+    "page" : "Page number, default is 1",
+    "pageSize" : "Number of items per page, default is 20"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name" : "GetPostgresqlSlowLogTemplate",
+  "method" : "GET",
+  "uri" : "/api/v{version}/diagnosis/postgresql/slowlog/template?product=string&appId=string&nodeId=string&start=string&end=string&&dbNames=dbNames&clientIps=clientIps&fingerprintMd5=fingerprintMd5page=int&pageSize=int",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.nodeId"
+  }, {
+    "name" : "start",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.start"
+  }, {
+    "name" : "end",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.end"
+  }, {
+    "name" : "users",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.users"
+  }, {
+    "name" : "dbNames",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.dbNames"
+  }, {
+    "name" : "clientIps",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.clientIps"
+  }, {
+    "name" : "fingerprintMd5",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.fingerprintMd5"
+  }, {
+    "name" : "page",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.page"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.pageSize"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.order"
+  } ],
+  "desc_key" : "dbsc.GetPostgresqlSlowLogTemplate.desc"
+}

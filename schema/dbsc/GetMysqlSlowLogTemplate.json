@@ -1,0 +1,86 @@
+{
+  "name" : "GetMysqlSlowLogTemplate",
+  "method" : "GET",
+  "uri" : "/v{version}/diagnosis/mysql/slowlog/template?appId=appId",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "appId",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.appId"
+  }, {
+    "name" : "nodeId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.nodeId"
+  }, {
+    "name" : "start",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.start"
+  }, {
+    "name" : "end",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.end"
+  }, {
+    "name" : "users",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.users"
+  }, {
+    "name" : "dbNames",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.dbNames"
+  }, {
+    "name" : "clientIps",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.clientIps"
+  }, {
+    "name" : "fingerprintMd5",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.fingerprintMd5"
+  }, {
+    "name" : "orderBy",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.orderBy"
+  }, {
+    "name" : "order",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.order"
+  }, {
+    "name" : "page",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.page"
+  }, {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "dbsc.GetMysqlSlowLogTemplate.pageSize"
+  } ],
+  "desc_key" : "dbsc.GetMysqlSlowLogTemplate.desc"
+}

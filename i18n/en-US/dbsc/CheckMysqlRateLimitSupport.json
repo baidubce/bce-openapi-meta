@@ -1,0 +1,6 @@
+{
+  "CheckMysqlRateLimitSupport" : {
+    "appId" : "Cluster ID",
+    "nodeId" : "Node ID"
+  }
+}
