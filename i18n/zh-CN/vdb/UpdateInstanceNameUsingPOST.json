@@ -1,0 +1,7 @@
+{
+  "UpdateInstanceNameUsingPOST" : {
+    "instanceId" : "instanceId",
+    "engineType" : "engineType",
+    "instanceName" : ""
+  }
+}

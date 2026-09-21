@@ -1,0 +1,5 @@
+{
+  "DescribeInstanceConfigsUsingGET" : {
+    "instanceId" : "instanceId"
+  }
+}

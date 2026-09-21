@@ -1,0 +1,7 @@
+{
+  "UpdateInstanceDomainUsingPOST" : {
+    "instanceId" : "instanceId",
+    "engineType" : "engineType",
+    "domain" : "domain"
+  }
+}

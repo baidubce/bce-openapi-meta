@@ -15,6 +15,259 @@
     "required" : false,
     "position" : "QUERY",
     "desc_key" : "vdb.CreateInstanceUsingPOST.engineType"
+  }, {
+    "name" : "autoRenew",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.CreateInstanceUsingPOST.autoRenew"
+  }, {
+    "name" : "autoRenewTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.CreateInstanceUsingPOST.autoRenewTime"
+  }, {
+    "name" : "autoRenewTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.CreateInstanceUsingPOST.autoRenewTimeUnit"
+  }, {
+    "name" : "components",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.CreateInstanceUsingPOST.components",
+    "sub_parameters" : [ {
+      "name" : "diskSizeType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.components.diskSizeType"
+    }, {
+      "name" : "replicas",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.components.replicas"
+    }, {
+      "name" : "spec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.components.spec"
+    }, {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.components.type"
+    } ]
+  }, {
+    "name" : "duration",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.CreateInstanceUsingPOST.duration"
+  }, {
+    "name" : "env",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.CreateInstanceUsingPOST.env"
+  }, {
+    "name" : "instanceParam",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam",
+    "sub_parameters" : [ {
+      "name" : "availabilityZone",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.availabilityZone"
+    }, {
+      "name" : "azInfos",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.azInfos",
+      "sub_parameters" : [ {
+        "name" : "availabilityZone",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.azInfos.availabilityZone"
+      }, {
+        "name" : "count",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.azInfos.count"
+      }, {
+        "name" : "subnetId",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.azInfos.subnetId"
+      } ]
+    }, {
+      "name" : "cloneDataAppBackupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.cloneDataAppBackupId"
+    }, {
+      "name" : "cloneDataAppId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.cloneDataAppId"
+    }, {
+      "name" : "components",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.components",
+      "sub_parameters" : [ {
+        "name" : "diskSizeType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.components.diskSizeType"
+      }, {
+        "name" : "replicas",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.components.replicas"
+      }, {
+        "name" : "spec",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.components.spec"
+      }, {
+        "name" : "type",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.components.type"
+      } ]
+    }, {
+      "name" : "dataNodeNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.dataNodeNum"
+    }, {
+      "name" : "diskFlavor",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.diskFlavor"
+    }, {
+      "name" : "diskType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.diskType"
+    }, {
+      "name" : "enableEmbedding",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.enableEmbedding"
+    }, {
+      "name" : "enableEncryption",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.enableEncryption"
+    }, {
+      "name" : "engineVersion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.engineVersion"
+    }, {
+      "name" : "from",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.from"
+    }, {
+      "name" : "instanceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.instanceName"
+    }, {
+      "name" : "instanceNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.instanceNum"
+    }, {
+      "name" : "instanceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.instanceType"
+    }, {
+      "name" : "masterNodeSpec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.masterNodeSpec"
+    }, {
+      "name" : "masterNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.masterNum"
+    }, {
+      "name" : "nodeSpec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.nodeSpec"
+    }, {
+      "name" : "nodeType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.nodeType"
+    }, {
+      "name" : "orderId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.orderId"
+    }, {
+      "name" : "password",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.password"
+    }, {
+      "name" : "port",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.port"
+    }, {
+      "name" : "proxyNodeSpec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.proxyNodeSpec"
+    }, {
+      "name" : "proxyNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.proxyNum"
+    }, {
+      "name" : "reqSource",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.reqSource"
+    }, {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.subnetId"
+    }, {
+      "name" : "switchEntrance",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.switchEntrance"
+    }, {
+      "name" : "vpcId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.CreateInstanceUsingPOST.instanceParam.vpcId"
+    } ]
+  }, {
+    "name" : "productType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.CreateInstanceUsingPOST.productType"
+  }, {
+    "name" : "timeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.CreateInstanceUsingPOST.timeUnit"
   } ],
   "desc_key" : "vdb.CreateInstanceUsingPOST.desc"
 }

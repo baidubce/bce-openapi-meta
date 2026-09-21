@@ -1,0 +1,9 @@
+{
+  "ModifyInstanceConfigUsingPOST" : {
+    "instanceId" : "Instance ID",
+    "reason" : "Reason for modification",
+    "userConfigs" : "User configuration list",
+    "userConfigs.name" : "Configuration name",
+    "userConfigs.value" : "Configuration value"
+  }
+}

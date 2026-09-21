@@ -2,6 +2,6 @@
   "UpdateInstanceDomain" : {
     "instanceId" : "instanceId",
     "engineType" : "engineType",
-    "domain" : ""
+    "domain" : "The domain name of the instance"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "name" : "ModifyInstanceConfigUsingPOST",
+  "method" : "POST",
+  "uri" : "/v{version}/vdb/instance/modifyInstanceConfig",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ModifyInstanceConfigUsingPOST.instanceId"
+  }, {
+    "name" : "reason",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ModifyInstanceConfigUsingPOST.reason"
+  }, {
+    "name" : "userConfigs",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.ModifyInstanceConfigUsingPOST.userConfigs",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.ModifyInstanceConfigUsingPOST.userConfigs.name"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.ModifyInstanceConfigUsingPOST.userConfigs.value"
+    } ]
+  } ],
+  "desc_key" : "vdb.ModifyInstanceConfigUsingPOST.desc"
+}

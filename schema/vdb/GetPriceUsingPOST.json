@@ -15,6 +15,259 @@
     "required" : false,
     "position" : "QUERY",
     "desc_key" : "vdb.GetPriceUsingPOST.engineType"
+  }, {
+    "name" : "autoRenew",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.GetPriceUsingPOST.autoRenew"
+  }, {
+    "name" : "autoRenewTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.GetPriceUsingPOST.autoRenewTime"
+  }, {
+    "name" : "autoRenewTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.GetPriceUsingPOST.autoRenewTimeUnit"
+  }, {
+    "name" : "components",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.GetPriceUsingPOST.components",
+    "sub_parameters" : [ {
+      "name" : "diskSizeType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.components.diskSizeType"
+    }, {
+      "name" : "replicas",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.components.replicas"
+    }, {
+      "name" : "spec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.components.spec"
+    }, {
+      "name" : "type",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.components.type"
+    } ]
+  }, {
+    "name" : "duration",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.GetPriceUsingPOST.duration"
+  }, {
+    "name" : "env",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.GetPriceUsingPOST.env"
+  }, {
+    "name" : "instanceParam",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.GetPriceUsingPOST.instanceParam",
+    "sub_parameters" : [ {
+      "name" : "availabilityZone",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.availabilityZone"
+    }, {
+      "name" : "azInfos",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.azInfos",
+      "sub_parameters" : [ {
+        "name" : "availabilityZone",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.azInfos.availabilityZone"
+      }, {
+        "name" : "count",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.azInfos.count"
+      }, {
+        "name" : "subnetId",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.azInfos.subnetId"
+      } ]
+    }, {
+      "name" : "cloneDataAppBackupId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.cloneDataAppBackupId"
+    }, {
+      "name" : "cloneDataAppId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.cloneDataAppId"
+    }, {
+      "name" : "components",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.components",
+      "sub_parameters" : [ {
+        "name" : "diskSizeType",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.components.diskSizeType"
+      }, {
+        "name" : "replicas",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.components.replicas"
+      }, {
+        "name" : "spec",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.components.spec"
+      }, {
+        "name" : "type",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.components.type"
+      } ]
+    }, {
+      "name" : "dataNodeNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.dataNodeNum"
+    }, {
+      "name" : "diskFlavor",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.diskFlavor"
+    }, {
+      "name" : "diskType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.diskType"
+    }, {
+      "name" : "enableEmbedding",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.enableEmbedding"
+    }, {
+      "name" : "enableEncryption",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.enableEncryption"
+    }, {
+      "name" : "engineVersion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.engineVersion"
+    }, {
+      "name" : "from",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.from"
+    }, {
+      "name" : "instanceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.instanceName"
+    }, {
+      "name" : "instanceNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.instanceNum"
+    }, {
+      "name" : "instanceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.instanceType"
+    }, {
+      "name" : "masterNodeSpec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.masterNodeSpec"
+    }, {
+      "name" : "masterNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.masterNum"
+    }, {
+      "name" : "nodeSpec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.nodeSpec"
+    }, {
+      "name" : "nodeType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.nodeType"
+    }, {
+      "name" : "orderId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.orderId"
+    }, {
+      "name" : "password",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.password"
+    }, {
+      "name" : "port",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.port"
+    }, {
+      "name" : "proxyNodeSpec",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.proxyNodeSpec"
+    }, {
+      "name" : "proxyNum",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.proxyNum"
+    }, {
+      "name" : "reqSource",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.reqSource"
+    }, {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.subnetId"
+    }, {
+      "name" : "switchEntrance",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.switchEntrance"
+    }, {
+      "name" : "vpcId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "vdb.GetPriceUsingPOST.instanceParam.vpcId"
+    } ]
+  }, {
+    "name" : "productType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.GetPriceUsingPOST.productType"
+  }, {
+    "name" : "timeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "vdb.GetPriceUsingPOST.timeUnit"
   } ],
   "desc_key" : "vdb.GetPriceUsingPOST.desc"
 }
