@@ -12,7 +12,7 @@
   }, {
     "name" : "instanceId",
     "type" : "String",
-    "required" : true,
+    "required" : false,
     "position" : "QUERY",
     "desc_key" : "vdb.GetTLSInfoUsingGET.instanceId"
   }, {

@@ -1,5 +1,5 @@
 {
   "DescribeInstanceConfigsUsingGET" : {
-    "instanceId" : "instanceId"
+    "instanceId" : "实例ID"
   }
 }

@@ -1,6 +1,6 @@
 {
   "InstanceDetailUsingGET" : {
     "instanceId" : "Instance ID",
-    "engineType" : "Engine type"
+    "engineType" : "Engine type (vdb/milvus)"
   }
 }

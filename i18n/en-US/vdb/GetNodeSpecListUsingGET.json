@@ -1,5 +1,5 @@
 {
   "GetNodeSpecListUsingGET" : {
-    "engineType" : "Engine type"
+    "engineType" : "Engine type (vdb/milvus)"
   }
 }

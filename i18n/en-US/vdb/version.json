@@ -3,65 +3,117 @@
   "style" : "rpc",
   "description" : "vdb",
   "apis" : {
-    "RecoverInstanceUsingPOST" : {
-      "title" : "recoverInstanceUsingPOST",
-      "summary" : "recoverInstanceUsingPOST"
+    "ManualBackupUsingPOST" : {
+      "title" : "manualBackupUsingPOST",
+      "summary" : "manualBackupUsingPOST"
     },
-    "InstanceDetailUsingGET" : {
-      "title" : "instanceDetailUsingGET",
-      "summary" : "instanceDetailUsingGET"
+    "ListRecordsUsingGET" : {
+      "title" : "listRecordsUsingGET",
+      "summary" : "listRecordsUsingGET"
     },
-    "PasswordUsingGET" : {
-      "title" : "passwordUsingGET",
-      "summary" : "passwordUsingGET"
+    "GetConfigUsingGET" : {
+      "title" : "getConfigUsingGET",
+      "summary" : "getConfigUsingGET"
     },
-    "UpdateInstanceDomainUsingPOST" : {
-      "title" : "updateInstanceDomainUsingPOST",
-      "summary" : "updateInstanceDomainUsingPOST"
-    },
-    "RecoverUsingPOST" : {
-      "title" : "recoverUsingPOST",
-      "summary" : "recoverUsingPOST"
-    },
-    "GetTLSCertificateUsingGET" : {
-      "title" : "getTLSCertificateUsingGET",
-      "summary" : "getTLSCertificateUsingGET"
-    },
-    "GetFreeInstanceQuotaUsingGET" : {
-      "title" : "getFreeInstanceQuotaUsingGET",
-      "summary" : "getFreeInstanceQuotaUsingGET"
+    "GetQuotaUsingGET" : {
+      "title" : "getQuotaUsingGET",
+      "summary" : "getQuotaUsingGET"
     },
     "SetCommentUsingPOST" : {
       "title" : "setCommentUsingPOST",
       "summary" : "setCommentUsingPOST"
     },
-    "UpdateInstanceNameUsingPOST" : {
-      "title" : "updateInstanceNameUsingPOST",
-      "summary" : "updateInstanceNameUsingPOST"
+    "SetConfigUsingPOST" : {
+      "title" : "setConfigUsingPOST",
+      "summary" : "setConfigUsingPOST"
+    },
+    "AccountListUsingGET" : {
+      "title" : "accountListUsingGET",
+      "summary" : "accountListUsingGET"
+    },
+    "PasswordUsingGET" : {
+      "title" : "passwordUsingGET",
+      "summary" : "passwordUsingGET"
     },
     "ModifyPasswordUsingPOST" : {
       "title" : "modifyPasswordUsingPOST",
       "summary" : "modifyPasswordUsingPOST"
     },
-    "GetTLSInfoUsingGET" : {
-      "title" : "getTLSInfoUsingGET",
-      "summary" : "getTLSInfoUsingGET"
+    "BindEipUsingPOST" : {
+      "title" : "bindEipUsingPOST",
+      "summary" : "bindEipUsingPOST"
+    },
+    "UnbindEipUsingPOST" : {
+      "title" : "unbindEipUsingPOST",
+      "summary" : "unbindEipUsingPOST"
+    },
+    "ZoneListUsingGET" : {
+      "title" : "zoneListUsingGET",
+      "summary" : "zoneListUsingGET"
     },
     "GetNodeSpecListUsingGET" : {
       "title" : "getNodeSpecListUsingGET",
       "summary" : "getNodeSpecListUsingGET"
     },
-    "SetConfigUsingPOST" : {
-      "title" : "setConfigUsingPOST",
-      "summary" : "setConfigUsingPOST"
+    "Deleteinstanceusingdelete1" : {
+      "title" : "deleteinstanceusingdelete1",
+      "summary" : "deleteinstanceusingdelete1"
+    },
+    "RecoverInstanceUsingPOST" : {
+      "title" : "recoverInstanceUsingPOST",
+      "summary" : "recoverInstanceUsingPOST"
+    },
+    "CreateInstanceUsingPOST" : {
+      "title" : "createInstanceUsingPOST",
+      "summary" : "createInstanceUsingPOST"
+    },
+    "Getinstancelistusingget1" : {
+      "title" : "getinstancelistusingget1",
+      "summary" : "getinstancelistusingget1"
+    },
+    "GetTLSCertificateUsingGET" : {
+      "title" : "getTLSCertificateUsingGET",
+      "summary" : "getTLSCertificateUsingGET"
+    },
+    "InstanceDetailUsingGET" : {
+      "title" : "instanceDetailUsingGET",
+      "summary" : "instanceDetailUsingGET"
+    },
+    "UpdateInstanceDomainUsingPOST" : {
+      "title" : "updateInstanceDomainUsingPOST",
+      "summary" : "updateInstanceDomainUsingPOST"
+    },
+    "ModifyInstanceConfigUsingPOST" : {
+      "title" : "modifyInstanceConfigUsingPOST",
+      "summary" : "modifyInstanceConfigUsingPOST"
+    },
+    "DeleteInstanceUsingDELETE" : {
+      "title" : "deleteInstanceUsingDELETE",
+      "summary" : "deleteInstanceUsingDELETE"
+    },
+    "GetTLSInfoUsingGET" : {
+      "title" : "getTLSInfoUsingGET",
+      "summary" : "getTLSInfoUsingGET"
+    },
+    "UpdateInstanceNameUsingPOST" : {
+      "title" : "updateInstanceNameUsingPOST",
+      "summary" : "updateInstanceNameUsingPOST"
+    },
+    "GetFreeInstanceQuotaUsingGET" : {
+      "title" : "getFreeInstanceQuotaUsingGET",
+      "summary" : "getFreeInstanceQuotaUsingGET"
+    },
+    "GetPriceUsingPOST" : {
+      "title" : "getPriceUsingPOST",
+      "summary" : "getPriceUsingPOST"
+    },
+    "DescribeInstanceConfigsUsingGET" : {
+      "title" : "describeInstanceConfigsUsingGET",
+      "summary" : "describeInstanceConfigsUsingGET"
     },
     "ModifyPublicAccessUsingPUT" : {
       "title" : "modifyPublicAccessUsingPUT",
       "summary" : "modifyPublicAccessUsingPUT"
-    },
-    "DeleteRecordUsingDELETE" : {
-      "title" : "deleteRecordUsingDELETE",
-      "summary" : "deleteRecordUsingDELETE"
     },
     "ModifyTLSUsingPUT" : {
       "title" : "modifyTLSUsingPUT",
@@ -71,97 +123,17 @@
       "title" : "getInstanceListUsingGET",
       "summary" : "getInstanceListUsingGET"
     },
-    "UnbindEipUsingPOST" : {
-      "title" : "unbindEipUsingPOST",
-      "summary" : "unbindEipUsingPOST"
-    },
-    "CreateInstanceUsingPOST" : {
-      "title" : "createInstanceUsingPOST",
-      "summary" : "createInstanceUsingPOST"
-    },
-    "ZoneListUsingGET" : {
-      "title" : "zoneListUsingGET",
-      "summary" : "zoneListUsingGET"
-    },
-    "GetConfigUsingGET" : {
-      "title" : "getConfigUsingGET",
-      "summary" : "getConfigUsingGET"
-    },
-    "ModifyInstanceConfigUsingPOST" : {
-      "title" : "modifyInstanceConfigUsingPOST",
-      "summary" : "modifyInstanceConfigUsingPOST"
-    },
-    "Deleteinstanceusingdelete1" : {
-      "title" : "deleteinstanceusingdelete1",
-      "summary" : "deleteinstanceusingdelete1"
-    },
-    "DeleteInstanceUsingDELETE" : {
-      "title" : "deleteInstanceUsingDELETE",
-      "summary" : "deleteInstanceUsingDELETE"
-    },
-    "ListRecordsUsingGET" : {
-      "title" : "listRecordsUsingGET",
-      "summary" : "listRecordsUsingGET"
-    },
-    "ModifyInstanceConfig" : {
-      "title" : "modifyInstanceConfig",
-      "summary" : "modifyInstanceConfig"
-    },
-    "GetPriceUsingPOST" : {
-      "title" : "getPriceUsingPOST",
-      "summary" : "getPriceUsingPOST"
-    },
-    "DeleteRecyclerInstance" : {
-      "title" : "deleteRecyclerInstance",
-      "summary" : "deleteRecyclerInstance"
-    },
-    "Getinstancelistusingget1" : {
-      "title" : "getinstancelistusingget1",
-      "summary" : "getinstancelistusingget1"
-    },
-    "ModifyPublicAccess" : {
-      "title" : "modifyPublicAccess",
-      "summary" : "modifyPublicAccess"
-    },
-    "DescribeInstanceConfigsUsingGET" : {
-      "title" : "describeInstanceConfigsUsingGET",
-      "summary" : "describeInstanceConfigsUsingGET"
-    },
-    "GetFreeInstanceQuota" : {
-      "title" : "getFreeInstanceQuota",
-      "summary" : "getFreeInstanceQuota"
-    },
-    "ManualBackupUsingPOST" : {
-      "title" : "manualBackupUsingPOST",
-      "summary" : "manualBackupUsingPOST"
-    },
-    "DescribeInstanceConfigs" : {
-      "title" : "describeInstanceConfigs",
-      "summary" : "describeInstanceConfigs"
+    "RecoverUsingPOST" : {
+      "title" : "recoverUsingPOST",
+      "summary" : "recoverUsingPOST"
     },
     "ResizeInstanceUsingPOST" : {
       "title" : "resizeInstanceUsingPOST",
       "summary" : "resizeInstanceUsingPOST"
     },
-    "UpdateInstanceDomain" : {
-      "title" : "updateInstanceDomain",
-      "summary" : "updateInstanceDomain"
-    },
-    "UpdateInstanceName" : {
-      "title" : "updateInstanceName",
-      "summary" : "updateInstanceName"
-    },
-    "AccountListUsingGET" : {
-      "title" : "accountListUsingGET",
-      "summary" : "accountListUsingGET"
-    },
-    "BindEipUsingPOST" : {
-      "title" : "bindEipUsingPOST",
-      "summary" : "bindEipUsingPOST"
-    },
-    "GetQuotaUsingGET" : {
-      "title" : "getQuotaUsingGET",
-      "summary" : "getQuotaUsingGET"
+    "DeleteRecordUsingDELETE" : {
+      "title" : "deleteRecordUsingDELETE",
+      "summary" : "deleteRecordUsingDELETE"
     }
   }
 }

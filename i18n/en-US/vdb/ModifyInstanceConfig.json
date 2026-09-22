@@ -1,9 +1,0 @@
-{
-  "ModifyInstanceConfig" : {
-    "instanceId" : "Instance ID",
-    "reason" : "Reason for modification",
-    "userConfigs" : "User configuration list",
-    "userConfigs.name" : "Configuration parameter name",
-    "userConfigs.value" : "Configuration parameter value"
-  }
-}

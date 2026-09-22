@@ -1,7 +1,7 @@
 {
   "UpdateInstanceNameUsingPOST" : {
-    "instanceId" : "instanceId",
-    "engineType" : "engineType",
-    "instanceName" : ""
+    "instanceId" : "实例ID",
+    "engineType" : "引擎类型（vdb/milvus）",
+    "instanceName" : "实例名称"
   }
 }

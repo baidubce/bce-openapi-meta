@@ -1,22 +1,22 @@
 {
   "ResizeInstanceUsingPOST" : {
-    "engineType" : "engineType",
-    "components" : "",
+    "engineType" : "引擎类型（vdb/milvus）",
+    "components" : "组件配置",
     "components.diskSizeType" : "",
     "components.replicas" : "",
     "components.spec" : "",
     "components.type" : "",
-    "dataNodeNum" : "",
-    "diskFlavor" : "",
-    "diskType" : "",
-    "env" : "",
-    "instanceId" : "",
-    "masterNodeSpec" : "",
-    "masterNum" : "",
-    "nodeSpec" : "",
-    "nodeType" : "",
-    "orderId" : "",
-    "proxyNodeSpec" : "",
-    "proxyNum" : ""
+    "dataNodeNum" : "数据节点数量",
+    "diskFlavor" : "磁盘容量（GB）",
+    "diskType" : "磁盘类型",
+    "env" : "环境",
+    "instanceId" : "实例ID",
+    "masterNodeSpec" : "主节点规格",
+    "masterNum" : "主节点数量",
+    "nodeSpec" : "节点规格",
+    "nodeType" : "节点类型",
+    "orderId" : "订单ID",
+    "proxyNodeSpec" : "代理节点规格",
+    "proxyNum" : "代理节点数量"
   }
 }

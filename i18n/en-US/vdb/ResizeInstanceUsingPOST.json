@@ -1,13 +1,13 @@
 {
   "ResizeInstanceUsingPOST" : {
-    "engineType" : "engineType",
-    "components" : "Components",
+    "engineType" : "Engine type (vdb/milvus)",
+    "components" : "Component configuration",
     "components.diskSizeType" : "Disk size type",
     "components.replicas" : "Number of replicas",
     "components.spec" : "Specification",
     "components.type" : "Component type",
     "dataNodeNum" : "Number of data nodes",
-    "diskFlavor" : "Disk flavor",
+    "diskFlavor" : "Disk capacity (GB)",
     "diskType" : "Disk type",
     "env" : "Environment",
     "instanceId" : "Instance ID",

@@ -1,6 +1,6 @@
 {
   "AccountListUsingGET" : {
-    "instanceId" : "instanceId",
-    "engineType" : "engineType"
+    "instanceId" : "Instance ID",
+    "engineType" : "Engine type (vdb/milvus)"
   }
 }

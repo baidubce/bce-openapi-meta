@@ -1,6 +1,6 @@
 {
   "GetInstanceListUsingGET" : {
-    "engineType" : "Engine type",
+    "engineType" : "Engine type (vdb/milvus)",
     "instanceType" : "Instance type"
   }
 }

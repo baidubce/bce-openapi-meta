@@ -1,6 +1,6 @@
 {
   "ModifyPublicAccessUsingPUT" : {
-    "instanceId" : "instanceId",
+    "instanceId" : "实例ID",
     "publicAccess" : ""
   }
 }

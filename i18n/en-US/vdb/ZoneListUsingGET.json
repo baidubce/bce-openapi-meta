@@ -1,6 +1,6 @@
 {
   "ZoneListUsingGET" : {
-    "from" : "from",
-    "engineType" : "engineType"
+    "from" : "Request source",
+    "engineType" : "Engine type (vdb/milvus)"
   }
 }

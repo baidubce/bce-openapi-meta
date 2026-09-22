@@ -1,7 +1,7 @@
 {
   "ModifyTLSUsingPUT" : {
-    "engineType" : "Engine type",
-    "action" : "Action",
+    "engineType" : "Engine type (vdb/milvus)",
+    "action" : "Action type",
     "instanceId" : "Instance ID"
   }
 }

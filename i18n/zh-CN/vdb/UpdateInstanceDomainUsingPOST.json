@@ -1,7 +1,7 @@
 {
   "UpdateInstanceDomainUsingPOST" : {
-    "instanceId" : "instanceId",
-    "engineType" : "engineType",
-    "domain" : ""
+    "instanceId" : "实例ID",
+    "engineType" : "引擎类型（vdb/milvus）",
+    "domain" : "域名"
   }
 }

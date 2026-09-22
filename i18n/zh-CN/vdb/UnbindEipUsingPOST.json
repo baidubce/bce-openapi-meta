@@ -1,6 +1,6 @@
 {
   "UnbindEipUsingPOST" : {
-    "instanceId" : "instanceId",
-    "engineType" : "engineType"
+    "instanceId" : "实例ID",
+    "engineType" : "引擎类型（vdb/milvus）"
   }
 }

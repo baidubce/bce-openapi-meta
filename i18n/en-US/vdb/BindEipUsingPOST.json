@@ -1,7 +1,7 @@
 {
   "BindEipUsingPOST" : {
-    "instanceId" : "instanceId",
-    "engineType" : "engineType",
-    "eip" : "eip"
+    "instanceId" : "Instance ID",
+    "engineType" : "Engine type (vdb/milvus)",
+    "eip" : "EIP address"
   }
 }
