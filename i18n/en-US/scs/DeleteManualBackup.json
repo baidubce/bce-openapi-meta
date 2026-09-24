@@ -1,0 +1,6 @@
+{
+  "DeleteManualBackup" : {
+    "instanceId" : "Cluster ID",
+    "batchId" : "Backup ID"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "ManualBackup" : {
+    "instanceId" : "集群ID",
+    "comment" : "备注。字符长度限制0-256个字符。"
+  }
+}

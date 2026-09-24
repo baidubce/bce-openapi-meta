@@ -1,0 +1,37 @@
+{
+  "name" : "CreateSyncGroup",
+  "method" : "POST",
+  "uri" : "/v{version}/syncGroup/create",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "syncGroupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateSyncGroup.syncGroupName"
+  }, {
+    "name" : "members",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateSyncGroup.members",
+    "sub_parameters" : [ {
+      "name" : "memberId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateSyncGroup.members.memberId"
+    }, {
+      "name" : "region",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateSyncGroup.members.region"
+    } ]
+  } ],
+  "desc_key" : "scs.CreateSyncGroup.desc"
+}

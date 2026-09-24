@@ -1,0 +1,70 @@
+{
+  "name" : "CreateParameterTemplate",
+  "method" : "POST",
+  "uri" : "/v2/template/create",
+  "parameters" : [ {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateParameterTemplate.name"
+  }, {
+    "name" : "engine",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateParameterTemplate.engine"
+  }, {
+    "name" : "engineVersion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateParameterTemplate.engineVersion"
+  }, {
+    "name" : "clusterType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateParameterTemplate.clusterType"
+  }, {
+    "name" : "templateType",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateParameterTemplate.templateType"
+  }, {
+    "name" : "comment",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateParameterTemplate.comment"
+  }, {
+    "name" : "parameters",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateParameterTemplate.parameters",
+    "sub_parameters" : [ {
+      "name" : "confName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateParameterTemplate.parameters.confName"
+    }, {
+      "name" : "confValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateParameterTemplate.parameters.confValue"
+    }, {
+      "name" : "confType",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.CreateParameterTemplate.parameters.confType"
+    }, {
+      "name" : "confModule",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.CreateParameterTemplate.parameters.confModule"
+    } ]
+  } ],
+  "desc_key" : "scs.CreateParameterTemplate.desc"
+}

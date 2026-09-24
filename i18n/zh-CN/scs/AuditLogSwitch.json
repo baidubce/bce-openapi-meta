@@ -1,0 +1,6 @@
+{
+  "AuditLogSwitch" : {
+    "instanceId" : "集群ID",
+    "action" : "开关动作。open（开启）、close（关闭）"
+  }
+}

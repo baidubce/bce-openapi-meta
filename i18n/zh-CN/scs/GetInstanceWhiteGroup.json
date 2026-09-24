@@ -1,0 +1,6 @@
+{
+  "GetInstanceWhiteGroup" : {
+    "instanceId" : "集群ID",
+    "groupName" : "白名单分组名称，传入时按分组名过滤"
+  }
+}

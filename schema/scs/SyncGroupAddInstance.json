@@ -1,0 +1,25 @@
+{
+  "name" : "SyncGroupAddInstance",
+  "method" : "POST",
+  "uri" : "/v1/syncGroup/{groupId}/addCluster",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.SyncGroupAddInstance.groupId"
+  }, {
+    "name" : "memberId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.SyncGroupAddInstance.memberId"
+  }, {
+    "name" : "region",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.SyncGroupAddInstance.region"
+  } ],
+  "desc_key" : "scs.SyncGroupAddInstance.desc"
+}

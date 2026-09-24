@@ -1,0 +1,212 @@
+{
+  "name" : "CreateAnInstance",
+  "method" : "POST",
+  "uri" : "/v2/instance",
+  "parameters" : [ {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "scs.CreateAnInstance.clientToken"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateAnInstance.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "scs.CreateAnInstance.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "scs.CreateAnInstance.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "scs.CreateAnInstance.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "instanceName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.instanceName"
+  }, {
+    "name" : "nodeType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.nodeType"
+  }, {
+    "name" : "port",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.port"
+  }, {
+    "name" : "engine",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.engine"
+  }, {
+    "name" : "engineVersion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.engineVersion"
+  }, {
+    "name" : "storeType",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.storeType"
+  }, {
+    "name" : "enableReadOnly",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.enableReadOnly"
+  }, {
+    "name" : "purchaseCount",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.purchaseCount"
+  }, {
+    "name" : "shardNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.shardNum"
+  }, {
+    "name" : "proxyNum",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.proxyNum"
+  }, {
+    "name" : "clusterType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.clusterType"
+  }, {
+    "name" : "diskFlavor",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.diskFlavor"
+  }, {
+    "name" : "diskType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.diskType"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.vpcId"
+  }, {
+    "name" : "replicationInfo",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.replicationInfo",
+    "sub_parameters" : [ {
+      "name" : "availabilityZone",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateAnInstance.replicationInfo.availabilityZone"
+    }, {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateAnInstance.replicationInfo.subnetId"
+    }, {
+      "name" : "isMaster",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.CreateAnInstance.replicationInfo.isMaster"
+    } ]
+  }, {
+    "name" : "autoRenewTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.autoRenewTimeUnit"
+  }, {
+    "name" : "autoRenewTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.autoRenewTime"
+  }, {
+    "name" : "bgwGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.bgwGroupId"
+  }, {
+    "name" : "clientAuth",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.clientAuth"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateAnInstance.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateAnInstance.tags.tagValue"
+    } ]
+  }, {
+    "name" : "confTpl",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.confTpl"
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.resourceGroupId"
+  }, {
+    "name" : "autoBackupConfig",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.autoBackupConfig"
+  }, {
+    "name" : "deployIdList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAnInstance.deployIdList"
+  } ],
+  "desc_key" : "scs.CreateAnInstance.desc"
+}

@@ -1,0 +1,10 @@
+{
+  "ModifyReplicationZone" : {
+    "instanceId" : "Cluster ID.",
+    "isDefer" : "Whether to execute during the maintenance window. <li>true: execute during the maintenance window <li>false: execute immediately",
+    "replicationInfo" : "Replica information. Full replica information is required; the availability zone and subnet can be modified.",
+    "replicationInfo.availabilityZone" : "Availability zone. Example: cn-bj-a",
+    "replicationInfo.subnetId" : "Subnet ID. Example: sbn-x94w3r601111",
+    "replicationInfo.isMaster" : "Whether it is the master node. There is one and only one master node. <li>1: master node <li>0: slave node"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "BindSecurityGroup",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/securityGroup/bind",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.BindSecurityGroup.instanceId"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.BindSecurityGroup.securityGroupIds"
+  } ],
+  "desc_key" : "scs.BindSecurityGroup.desc"
+}

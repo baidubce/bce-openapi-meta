@@ -1,0 +1,25 @@
+{
+  "name" : "ModifyBackupComment",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/backup/{batchId}/comment",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ModifyBackupComment.instanceId"
+  }, {
+    "name" : "batchId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ModifyBackupComment.batchId"
+  }, {
+    "name" : "comment",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyBackupComment.comment"
+  } ],
+  "desc_key" : "scs.ModifyBackupComment.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "TdeEncryption" : {
+    "instanceId" : "Cluster ID.",
+    "action" : "Enable TDE encryption. Optional value: open"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "GetInstanceList" : {
+    "marker" : "The starting position for the paginated query, a system-generated string.",
+    "maxKeys" : "The maximum number of items per page (primary instances), usually not exceeding 1000, with a default value of 1000.",
+    "instanceIds" : "Query by cluster ID. Supports multiple instance IDs separated by commas.",
+    "vnetIp" : "Query by intranet IP."
+  }
+}

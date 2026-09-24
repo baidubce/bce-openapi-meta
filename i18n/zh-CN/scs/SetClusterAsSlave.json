@@ -1,0 +1,7 @@
+{
+  "SetClusterAsSlave" : {
+    "instanceId" : "实例ID",
+    "masterDomain" : "热活主实例的访问域名，如果是跨region，需要打开对等链接的dns复制功能",
+    "masterPort" : "热活主实例的访问端口"
+  }
+}

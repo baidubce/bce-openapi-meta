@@ -1,0 +1,6 @@
+{
+  "DeleteManualBackup" : {
+    "instanceId" : "集群ID",
+    "batchId" : "备份ID。"
+  }
+}

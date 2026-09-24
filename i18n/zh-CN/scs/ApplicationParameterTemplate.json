@@ -1,0 +1,15 @@
+{
+  "ApplicationParameterTemplate" : {
+    "templateShowId" : "模版ID",
+    "extra" : "是否有额外的修改（0：无；1：有），没有修改的参数不需要传parameters",
+    "cacheClusterList" : "实例ID集合",
+    "cacheClusterList.region" : "实例所在地域",
+    "cacheClusterList.cacheClusterShowId" : "实例ID",
+    "rebootType" : "是否需要重启（0 不重启 1 维护时间重启 2 立即重启 如果是热活的主集群的话不可以重启）",
+    "parameters" : "参数模版中需要修改的参数，extra=1时有效",
+    "parameters.confName" : "参数名称（可参考系统模版）",
+    "parameters.confValue" : "参数值（可修改对应的值，可参考系统模版在confRange的允许范围内修改）",
+    "parameters.confType" : "参数类型（可参考系统模版）",
+    "parameters.confModule" : "可参考系统模版"
+  }
+}

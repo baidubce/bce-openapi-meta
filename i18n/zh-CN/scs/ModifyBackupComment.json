@@ -1,0 +1,7 @@
+{
+  "ModifyBackupComment" : {
+    "instanceId" : "集群ID",
+    "batchId" : "备份ID",
+    "comment" : "备注。字符长度限制0-256个字符。"
+  }
+}

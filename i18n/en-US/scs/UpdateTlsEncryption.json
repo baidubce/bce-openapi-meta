@@ -1,0 +1,6 @@
+{
+  "UpdateTlsEncryption" : {
+    "instanceId" : "Cluster ID",
+    "action" : "open: enable; close: disable; update: update certificate validity period. Encryption must be enabled before updating."
+  }
+}

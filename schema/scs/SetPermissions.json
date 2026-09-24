@@ -1,0 +1,32 @@
+{
+  "name" : "SetPermissions",
+  "method" : "POST",
+  "uri" : "/v{version}/{instanceId}/aclUserActions/authority",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.SetPermissions.instanceId"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.SetPermissions.userName"
+  }, {
+    "name" : "userType",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.SetPermissions.userType"
+  } ],
+  "desc_key" : "scs.SetPermissions.desc"
+}

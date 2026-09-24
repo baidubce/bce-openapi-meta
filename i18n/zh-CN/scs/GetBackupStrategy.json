@@ -1,0 +1,5 @@
+{
+  "GetBackupStrategy" : {
+    "instanceId" : "集群ID"
+  }
+}

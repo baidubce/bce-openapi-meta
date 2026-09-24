@@ -1,0 +1,10 @@
+{
+  "HotGroupPreCheck" : {
+    "leader" : "主角色信息",
+    "leader.leaderId" : "热活实例组主角色实例ID",
+    "leader.leaderRegion" : "热活实例组主角色所在地域",
+    "followers" : "从角色信息",
+    "followers.followerId" : "从角色实例ID",
+    "followers.followerRegion" : "从角色实例所在地域"
+  }
+}

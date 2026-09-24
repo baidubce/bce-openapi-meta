@@ -1,0 +1,41 @@
+{
+  "name" : "ModifyReplicationZone",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/azoneMigration",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ModifyReplicationZone.instanceId"
+  }, {
+    "name" : "isDefer",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyReplicationZone.isDefer"
+  }, {
+    "name" : "replicationInfo",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyReplicationZone.replicationInfo",
+    "sub_parameters" : [ {
+      "name" : "availabilityZone",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ModifyReplicationZone.replicationInfo.availabilityZone"
+    }, {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ModifyReplicationZone.replicationInfo.subnetId"
+    }, {
+      "name" : "isMaster",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.ModifyReplicationZone.replicationInfo.isMaster"
+    } ]
+  } ],
+  "desc_key" : "scs.ModifyReplicationZone.desc"
+}

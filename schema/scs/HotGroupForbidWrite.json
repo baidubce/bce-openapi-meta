@@ -1,0 +1,19 @@
+{
+  "name" : "HotGroupForbidWrite",
+  "method" : "PUT",
+  "uri" : "/v2/group/{groupId}/forbidWrite",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.HotGroupForbidWrite.groupId"
+  }, {
+    "name" : "forbidWriteFlag",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.HotGroupForbidWrite.forbidWriteFlag"
+  } ],
+  "desc_key" : "scs.HotGroupForbidWrite.desc"
+}

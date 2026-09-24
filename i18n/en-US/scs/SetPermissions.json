@@ -1,0 +1,7 @@
+{
+  "SetPermissions" : {
+    "instanceId" : "Cluster ID.",
+    "userName" : "Account name to set.",
+    "userType" : "Permissions for the account. 1: read-write; 2: read-only;"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "SyncGroupRemoveInstance" : {
+    "groupId" : "Display ID of the multi-active instance group",
+    "memberId" : "Display ID of the member instance to be removed",
+    "region" : "Region where the member instance is located"
+  }
+}

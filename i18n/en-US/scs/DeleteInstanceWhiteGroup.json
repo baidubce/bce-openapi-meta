@@ -1,0 +1,6 @@
+{
+  "DeleteInstanceWhiteGroup" : {
+    "instanceId" : "Instance ID",
+    "groupName" : "Group name"
+  }
+}

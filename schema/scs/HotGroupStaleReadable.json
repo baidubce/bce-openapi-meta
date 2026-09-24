@@ -1,0 +1,25 @@
+{
+  "name" : "HotGroupStaleReadable",
+  "method" : "PUT",
+  "uri" : "/v2/group/{groupId}/stale_readable",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.HotGroupStaleReadable.groupId"
+  }, {
+    "name" : "followerId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.HotGroupStaleReadable.followerId"
+  }, {
+    "name" : "staleReadable",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.HotGroupStaleReadable.staleReadable"
+  } ],
+  "desc_key" : "scs.HotGroupStaleReadable.desc"
+}

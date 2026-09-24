@@ -1,0 +1,8 @@
+{
+  "UpdateInstanceWhiteGroup" : {
+    "instanceId" : "集群ID",
+    "groupName" : "要修改的分组名称",
+    "newGroupName" : "新的分组名称",
+    "clusterIpList" : "白名单IP列表"
+  }
+}

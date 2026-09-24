@@ -1,0 +1,12 @@
+{
+  "ClusterTypeUpgrade" : {
+    "instanceId" : "集群ID",
+    "isDefer" : "是否维护时间内执行。默认false。true：维护时间内执行；false：立即执行。",
+    "nodeType" : "节点规格。<li>可以是新的规格，需要是Redis集群版的规格。<li>可以为空，默认为原实例规格，但是需要确保原实例规格为集群版的规格，否则执行失败。",
+    "shardNum" : "分片数量。<li>可以设置新的分片数量；<li>可以为空，默认为原实例分片数。",
+    "replicationInfo" : "副本信息。<li>不支持减少副本，可以新增。<li>可以设置新的副本信息，需全量的副本信息。<li>可以为空，默认为原实例副本数。",
+    "replicationInfo.availabilityZone" : "可通过调用获取可用区列表接口查询可用区列表。zoneName命名规范是“国家-region-可用区序列\"，小写，例如北京可用区A为\"cn-bj-a\"",
+    "replicationInfo.subnetId" : "子网Id",
+    "replicationInfo.isMaster" : "是否是主节点 1代表主 0代表从。主节点有且仅有一个。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "DeleteAccount" : {
+    "instanceId" : "集群ID。",
+    "userName" : "要删除的账号名称。"
+  }
+}

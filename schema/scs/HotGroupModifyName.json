@@ -1,0 +1,19 @@
+{
+  "name" : "HotGroupModifyName",
+  "method" : "PUT",
+  "uri" : "/v2/group/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.HotGroupModifyName.groupId"
+  }, {
+    "name" : "groupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.HotGroupModifyName.groupName"
+  } ],
+  "desc_key" : "scs.HotGroupModifyName.desc"
+}

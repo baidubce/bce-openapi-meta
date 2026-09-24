@@ -1,0 +1,5 @@
+{
+  "GetTlsCert" : {
+    "instanceId" : "集群ID"
+  }
+}

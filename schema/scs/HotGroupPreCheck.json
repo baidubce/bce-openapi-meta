@@ -1,0 +1,41 @@
+{
+  "name" : "HotGroupPreCheck",
+  "method" : "POST",
+  "uri" : "/v2/group/check",
+  "parameters" : [ {
+    "name" : "leader",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.HotGroupPreCheck.leader",
+    "sub_parameters" : [ {
+      "name" : "leaderId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.HotGroupPreCheck.leader.leaderId"
+    }, {
+      "name" : "leaderRegion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.HotGroupPreCheck.leader.leaderRegion"
+    } ]
+  }, {
+    "name" : "followers",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.HotGroupPreCheck.followers",
+    "sub_parameters" : [ {
+      "name" : "followerId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.HotGroupPreCheck.followers.followerId"
+    }, {
+      "name" : "followerRegion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.HotGroupPreCheck.followers.followerRegion"
+    } ]
+  } ],
+  "desc_key" : "scs.HotGroupPreCheck.desc"
+}

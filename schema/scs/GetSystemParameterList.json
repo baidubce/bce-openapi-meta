@@ -1,0 +1,25 @@
+{
+  "name" : "GetSystemParameterList",
+  "method" : "GET",
+  "uri" : "/v2/template/system",
+  "parameters" : [ {
+    "name" : "engine",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "scs.GetSystemParameterList.engine"
+  }, {
+    "name" : "engineVersion",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "scs.GetSystemParameterList.engineVersion"
+  }, {
+    "name" : "clusterType",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "scs.GetSystemParameterList.clusterType"
+  } ],
+  "desc_key" : "scs.GetSystemParameterList.desc"
+}

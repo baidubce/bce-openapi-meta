@@ -1,0 +1,37 @@
+{
+  "name" : "ClearInstance",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/flush",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ClearInstance.instanceId"
+  }, {
+    "name" : "password",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ClearInstance.password"
+  }, {
+    "name" : "dbIndex",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ClearInstance.dbIndex"
+  }, {
+    "name" : "isFlushExpired",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ClearInstance.isFlushExpired"
+  }, {
+    "name" : "isDefer",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ClearInstance.isDefer"
+  } ],
+  "desc_key" : "scs.ClearInstance.desc"
+}

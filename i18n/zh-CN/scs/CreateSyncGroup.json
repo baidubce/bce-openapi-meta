@@ -1,0 +1,8 @@
+{
+  "CreateSyncGroup" : {
+    "syncGroupName" : "多活实例组名称。规则：支持大小写字母、数字以及-_.等特殊字符，以字母开头，长度6~32位",
+    "members" : "多活实例组成员。最多支持5个成员。",
+    "members.memberId" : "集群ID。",
+    "members.region" : "集群所在地域。"
+  }
+}

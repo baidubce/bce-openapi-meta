@@ -1,0 +1,19 @@
+{
+  "name" : "ManualBackup",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/backup",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ManualBackup.instanceId"
+  }, {
+    "name" : "comment",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ManualBackup.comment"
+  } ],
+  "desc_key" : "scs.ManualBackup.desc"
+}

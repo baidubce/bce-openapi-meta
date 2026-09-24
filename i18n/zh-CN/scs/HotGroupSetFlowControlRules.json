@@ -1,0 +1,8 @@
+{
+  "HotGroupSetFlowControlRules" : {
+    "groupId" : "热活实例组ID",
+    "clusterShowId" : "集群ID",
+    "qpsWrite" : "写流量限制。（读写流量限制至少传一个）",
+    "qpsRead" : "读流量限制。（读写流量限制至少传一个）"
+  }
+}

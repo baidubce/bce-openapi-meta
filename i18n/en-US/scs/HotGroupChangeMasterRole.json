@@ -1,0 +1,6 @@
+{
+  "HotGroupChangeMasterRole" : {
+    "groupId" : "Hot-active instance group ID",
+    "instanceId" : "Slave role cluster ID"
+  }
+}

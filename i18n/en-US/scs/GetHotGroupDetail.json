@@ -1,0 +1,5 @@
+{
+  "GetHotGroupDetail" : {
+    "groupId" : "ID of the hot active instance group to query"
+  }
+}

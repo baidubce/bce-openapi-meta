@@ -1,0 +1,15 @@
+{
+  "CreateParameterTemplate" : {
+    "name" : "Template name. Format: uppercase/lowercase letters, digits, Chinese characters, and special characters -_/. ; must start with a letter or Chinese character; length 1-65",
+    "engine" : "Engine (currently only redis is supported)",
+    "engineVersion" : "Engine version",
+    "clusterType" : "Cluster type (master_slave / cluster)",
+    "templateType" : "Template type (1: custom parameter template)",
+    "comment" : "Comment",
+    "parameters" : "Parameter list; data within the system template, related to the engine and engine version",
+    "parameters.confName" : "Parameter name (refer to the system template)",
+    "parameters.confValue" : "Parameter value (the value can be modified within the allowed range specified in confRange of the system template)",
+    "parameters.confType" : "Parameter type (refer to the system template)",
+    "parameters.confModule" : "Refer to the system template"
+  }
+}

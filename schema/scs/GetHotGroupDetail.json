@@ -1,0 +1,13 @@
+{
+  "name" : "GetHotGroupDetail",
+  "method" : "GET",
+  "uri" : "/v2/group/{groupId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GetHotGroupDetail.groupId"
+  } ],
+  "desc_key" : "scs.GetHotGroupDetail.desc"
+}

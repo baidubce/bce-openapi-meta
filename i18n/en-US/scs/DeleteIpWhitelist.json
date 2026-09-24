@@ -1,0 +1,6 @@
+{
+  "DeleteIpWhitelist" : {
+    "instanceId" : "Instance ID",
+    "securityIps" : "IP list under the IP whitelist group. Includes regular addresses (e.g., 192\\.168\\.0\\.1), CIDR addresses (e.g., 192\\.168\\.1\\.0/24), and 0\\.0\\.0\\.0/0 which allows all addresses"
+  }
+}

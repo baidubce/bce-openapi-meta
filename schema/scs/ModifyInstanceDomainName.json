@@ -1,0 +1,19 @@
+{
+  "name" : "ModifyInstanceDomainName",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/renameDomain",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ModifyInstanceDomainName.instanceId"
+  }, {
+    "name" : "domain",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyInstanceDomainName.domain"
+  } ],
+  "desc_key" : "scs.ModifyInstanceDomainName.desc"
+}

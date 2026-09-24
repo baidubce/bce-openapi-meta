@@ -1,0 +1,13 @@
+{
+  "ChangeConfiguration" : {
+    "instanceId" : "Instance ID",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters",
+    "billing" : "Billing-related parameters.",
+    "billing.paymentTiming" : "Payment method: Prepaid or Postpaid",
+    "billing.reservation" : "Reservation information. Not required for Postpaid; must be set for Prepaid",
+    "engineVersion" : "Engine version, e.g., Redis 3.2/4.0/5.0/6.0",
+    "nodeType" : "See [Instance Specifications](https://cloud.baidu.com/doc/SCS/s/1jwvxtsh0#%E5%AE%9E%E4%BE%8B%E8%A7%84%E6%A0%BC) in the appendix",
+    "shardNum" : "Number of shards",
+    "diskFlavor" : "Storage space"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "GetParameterTemplateList" : {
+    "marker" : "The starting position of the query for the batch list, a system-generated string",
+    "maxKeys" : "The maximum number of items per page, usually no more than 1000, with a default value of 1000"
+  }
+}

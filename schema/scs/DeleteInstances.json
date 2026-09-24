@@ -1,0 +1,13 @@
+{
+  "name" : "DeleteInstances",
+  "method" : "POST",
+  "uri" : "/v2/recycler/delete HTTP/1.1",
+  "parameters" : [ {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.DeleteInstances.instanceIds"
+  } ],
+  "desc_key" : "scs.DeleteInstances.desc"
+}

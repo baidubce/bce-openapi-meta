@@ -1,0 +1,19 @@
+{
+  "name" : "RestartInstance",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/restart",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.RestartInstance.instanceId"
+  }, {
+    "name" : "isDefer",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.RestartInstance.isDefer"
+  } ],
+  "desc_key" : "scs.RestartInstance.desc"
+}

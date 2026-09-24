@@ -1,0 +1,5 @@
+{
+  "GetHotGroupDetail" : {
+    "groupId" : "待查询的热活实例组ID"
+  }
+}

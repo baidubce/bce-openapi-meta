@@ -1,0 +1,15 @@
+{
+  "ApplicationParameterTemplate" : {
+    "templateShowId" : "Template ID",
+    "extra" : "Whether there are additional modifications (0: none; 1: yes). Parameters without modifications do not need to be passed",
+    "cacheClusterList" : "Instance ID collection",
+    "cacheClusterList.region" : "Region where the instance is located",
+    "cacheClusterList.cacheClusterShowId" : "Instance ID",
+    "rebootType" : "Whether a reboot is required (0: no reboot; 1: reboot during maintenance window; 2: reboot immediately. The primary cluster of a hot-active setup cannot be rebooted)",
+    "parameters" : "Parameters to be modified in the parameter template, valid when extra=1",
+    "parameters.confName" : "Parameter name (refer to the system template)",
+    "parameters.confValue" : "Parameter value (modify the corresponding value within the allowed range specified in confRange, refer to the system template)",
+    "parameters.confType" : "Parameter type (refer to the system template)",
+    "parameters.confModule" : "Refer to the system template"
+  }
+}

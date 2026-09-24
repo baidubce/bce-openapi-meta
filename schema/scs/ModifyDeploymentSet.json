@@ -1,0 +1,31 @@
+{
+  "name" : "ModifyDeploymentSet",
+  "method" : "PUT",
+  "uri" : "/v1/deploySet/{deploySetId}",
+  "parameters" : [ {
+    "name" : "deploySetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ModifyDeploymentSet.deploySetId"
+  }, {
+    "name" : "desc",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyDeploymentSet.desc"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyDeploymentSet.name"
+  }, {
+    "name" : "concurrency",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyDeploymentSet.concurrency"
+  } ],
+  "desc_key" : "scs.ModifyDeploymentSet.desc"
+}

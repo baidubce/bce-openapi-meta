@@ -1,0 +1,6 @@
+{
+  "ModifySyncGroupName" : {
+    "syncGroupShowId" : "Multi-active instance group ID.",
+    "groupName" : "Modified instance group name."
+  }
+}

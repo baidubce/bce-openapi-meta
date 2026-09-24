@@ -1,0 +1,13 @@
+{
+  "name" : "SetClusterAsMaster",
+  "method" : "PUT",
+  "uri" : "/v2/instance/{instanceId}/setAsMaster",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.SetClusterAsMaster.instanceId"
+  } ],
+  "desc_key" : "scs.SetClusterAsMaster.desc"
+}

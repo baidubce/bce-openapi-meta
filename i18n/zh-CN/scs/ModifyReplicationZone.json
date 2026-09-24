@@ -1,0 +1,10 @@
+{
+  "ModifyReplicationZone" : {
+    "instanceId" : "集群ID。",
+    "isDefer" : "是否维护时间内执行。 <li>true：维护时间内执行 <li>false：立即执行",
+    "replicationInfo" : "副本信息。需全量的副本信息，可以修改可用区和子网。",
+    "replicationInfo.availabilityZone" : "可用区。示例：cn-bj-a",
+    "replicationInfo.subnetId" : "子网ID。示例：sbn-x94w3r601111",
+    "replicationInfo.isMaster" : "是否是主节点。主节点有且仅有一个。  <li>1：主节点 <li> 0：从节点"
+  }
+}

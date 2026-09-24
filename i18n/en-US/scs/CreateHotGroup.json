@@ -1,0 +1,8 @@
+{
+  "CreateHotGroup" : {
+    "leader" : "Leader role information",
+    "leader.groupName" : "Hot group instance name. Rules: supports uppercase and lowercase letters, digits, and special characters such as -_. , length 6-32",
+    "leader.leaderId" : "Leader role instance ID",
+    "leader.leaderRegion" : "Leader role region"
+  }
+}

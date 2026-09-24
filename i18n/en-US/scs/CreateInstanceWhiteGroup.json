@@ -1,0 +1,7 @@
+{
+  "CreateInstanceWhiteGroup" : {
+    "instanceId" : "Cluster ID",
+    "groupName" : "Whitelist group name",
+    "clusterIpList" : "Whitelist group name"
+  }
+}

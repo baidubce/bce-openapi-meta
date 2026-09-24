@@ -1,0 +1,8 @@
+{
+  "ModifyTimeWindow" : {
+    "instanceId" : "Cluster ID",
+    "startTime" : "Start time. Example: 04:00 (i.e., 4 AM)",
+    "duration" : "Duration. Value range: 1-8 (unit: hours)",
+    "period" : "Maintenance period. 1-6 represent Monday to Saturday respectively. 0 represents Sunday."
+  }
+}

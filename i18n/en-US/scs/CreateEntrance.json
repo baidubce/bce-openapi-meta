@@ -1,0 +1,5 @@
+{
+  "CreateEntrance" : {
+    "instanceId" : "The cluster ID to operate on"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateInstanceWhiteGroup",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}/whitelist",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.UpdateInstanceWhiteGroup.instanceId"
+  }, {
+    "name" : "groupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.UpdateInstanceWhiteGroup.groupName"
+  }, {
+    "name" : "newGroupName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.UpdateInstanceWhiteGroup.newGroupName"
+  }, {
+    "name" : "clusterIpList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.UpdateInstanceWhiteGroup.clusterIpList"
+  } ],
+  "desc_key" : "scs.UpdateInstanceWhiteGroup.desc"
+}

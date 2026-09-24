@@ -1,0 +1,79 @@
+{
+  "name" : "GetPriceForCreateInstance",
+  "method" : "POST",
+  "uri" : "/v1/price",
+  "parameters" : [ {
+    "name" : "engine",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.engine"
+  }, {
+    "name" : "clusterType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.clusterType"
+  }, {
+    "name" : "nodeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.nodeType"
+  }, {
+    "name" : "cacheInstanceType",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.cacheInstanceType"
+  }, {
+    "name" : "shardNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.shardNum"
+  }, {
+    "name" : "replicationNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.replicationNum"
+  }, {
+    "name" : "instanceNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.instanceNum"
+  }, {
+    "name" : "diskType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.diskType"
+  }, {
+    "name" : "diskFlavor",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.diskFlavor"
+  }, {
+    "name" : "chargeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.chargeType"
+  }, {
+    "name" : "period",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.period"
+  }, {
+    "name" : "timeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GetPriceForCreateInstance.timeUnit"
+  } ],
+  "desc_key" : "scs.GetPriceForCreateInstance.desc"
+}

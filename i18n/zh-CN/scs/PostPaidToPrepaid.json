@@ -1,0 +1,6 @@
+{
+  "PostPaidToPrepaid" : {
+    "duration" : "转预付费的时长，单位月。最小值1。",
+    "instanceIds" : "集群ID列表。"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "SetPermissions" : {
+    "instanceId" : "集群ID。",
+    "userName" : "要设置的账号名称。",
+    "userType" : "该账号设置的权限。1：读写；2：只读；"
+  }
+}

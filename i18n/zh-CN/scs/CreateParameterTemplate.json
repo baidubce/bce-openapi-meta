@@ -1,0 +1,15 @@
+{
+  "CreateParameterTemplate" : {
+    "name" : "模板名称，格式要求：大小写字母、数字、中文以及-_/.特殊字符，必须以字母或者中文开头，长度1-65",
+    "engine" : "引擎（当前仅支持redis）",
+    "engineVersion" : "引擎版本",
+    "clusterType" : "集群类型（master_slave\\cluster）",
+    "templateType" : "模板类型（1、自定义参数模板）",
+    "comment" : "备注",
+    "parameters" : "参数列表，系统模版内的数据，和引擎及引擎版本有关",
+    "parameters.confName" : "参数名称（可参考系统模版）",
+    "parameters.confValue" : "参数值（可修改对应的值，可参考系统模版在confRange的允许范围内修改）",
+    "parameters.confType" : "参数类型（可参考系统模版）",
+    "parameters.confModule" : "可参考系统模版"
+  }
+}

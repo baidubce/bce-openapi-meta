@@ -1,0 +1,19 @@
+{
+  "name" : "AddIpWhitelist",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/securityIp",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.AddIpWhitelist.instanceId"
+  }, {
+    "name" : "securityIps",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.AddIpWhitelist.securityIps"
+  } ],
+  "desc_key" : "scs.AddIpWhitelist.desc"
+}

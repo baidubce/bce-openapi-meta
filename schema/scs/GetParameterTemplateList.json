@@ -1,0 +1,26 @@
+{
+  "name" : "GetParameterTemplateList",
+  "method" : "GET",
+  "uri" : "/v2/template/list",
+  "parameters" : [ {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "scs.GetParameterTemplateList.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "scs.GetParameterTemplateList.maxKeys"
+  } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "result"
+  },
+  "desc_key" : "scs.GetParameterTemplateList.desc"
+}

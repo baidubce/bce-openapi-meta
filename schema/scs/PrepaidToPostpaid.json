@@ -1,0 +1,13 @@
+{
+  "name" : "PrepaidToPostpaid",
+  "method" : "POST",
+  "uri" : "/v1/instance/toPostpay",
+  "parameters" : [ {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.PrepaidToPostpaid.instanceIds"
+  } ],
+  "desc_key" : "scs.PrepaidToPostpaid.desc"
+}

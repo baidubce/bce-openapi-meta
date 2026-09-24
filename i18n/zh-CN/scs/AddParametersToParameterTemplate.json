@@ -1,0 +1,10 @@
+{
+  "AddParametersToParameterTemplate" : {
+    "templateShowId" : "待查询的参数模版ID",
+    "parameters" : "要添加的参数集合",
+    "parameters.confName" : "参数名称（可参考系统模版）",
+    "parameters.confValue" : "参数值（可修改对应的值，可参考系统模版在confRange的允许范围内修改）",
+    "parameters.confType" : "参数类型（可参考系统模版）",
+    "parameters.confModule" : "可参考系统模版"
+  }
+}

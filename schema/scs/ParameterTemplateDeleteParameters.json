@@ -1,0 +1,19 @@
+{
+  "name" : "ParameterTemplateDeleteParameters",
+  "method" : "POST",
+  "uri" : "/v2/template/deleteParams/{templateShowId}",
+  "parameters" : [ {
+    "name" : "templateShowId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ParameterTemplateDeleteParameters.templateShowId"
+  }, {
+    "name" : "parameters",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ParameterTemplateDeleteParameters.parameters"
+  } ],
+  "desc_key" : "scs.ParameterTemplateDeleteParameters.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "HotGroupStaleReadable" : {
+    "groupId" : "热活实例组ID",
+    "followerId" : "从角色集群ID",
+    "staleReadable" : "是否开启从角色脏读（true：开启，false：关闭）"
+  }
+}

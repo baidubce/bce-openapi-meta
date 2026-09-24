@@ -337,5 +337,19 @@
       "su" : "dbsc.sz.baidubce.com",
       "yq" : "dbsc.yq.baidubce.com"
     }
+  }, {
+    "code" : "scs",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "redis.bd.baidubce.com",
+      "bj" : "redis.bj.baidubce.com",
+      "cd" : "redis.cd.baidubce.com",
+      "fwh" : "redis.fwh.baidubce.com",
+      "gz" : "redis.gz.baidubce.com",
+      "hkg" : "redis.hkg.baidubce.com",
+      "nj" : "redis.nj.baidubce.com",
+      "su" : "redis.su.baidubce.com",
+      "yq" : "redis.yq.baidubce.com"
+    }
   } ]
 }

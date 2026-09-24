@@ -1,0 +1,7 @@
+{
+  "InstanceVersionUpgrade" : {
+    "instanceId" : "Cluster ID",
+    "kernelVersion" : "Version number for major version upgrades. Empty for non-major version upgrades. <li>The target version must be higher than the current version. <li>Standard version 3.x can be upgraded to 6.x or 7.x <li>4.x can be upgraded to 6.x or 7.x <li>5.x can be upgraded to 6.x or 7.x <li>6.x can be upgraded to 7.x",
+    "isDefer" : "Execution time. <li>false: execute immediately <li>true: execute during the maintenance window"
+  }
+}

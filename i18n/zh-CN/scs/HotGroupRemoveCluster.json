@@ -1,0 +1,6 @@
+{
+  "HotGroupRemoveCluster" : {
+    "groupId" : "热活实例组ID",
+    "instanceId" : "从角色集群ID"
+  }
+}

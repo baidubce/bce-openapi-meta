@@ -1,0 +1,19 @@
+{
+  "name" : "RenewInstance",
+  "method" : "POST",
+  "uri" : "/v1/instance/renew",
+  "parameters" : [ {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.RenewInstance.instanceIds"
+  }, {
+    "name" : "duration",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.RenewInstance.duration"
+  } ],
+  "desc_key" : "scs.RenewInstance.desc"
+}

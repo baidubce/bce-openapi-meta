@@ -1,0 +1,31 @@
+{
+  "name" : "ProxyVersionUpgradeOrRestart",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/upgradeProxy",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ProxyVersionUpgradeOrRestart.instanceId"
+  }, {
+    "name" : "proxyList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ProxyVersionUpgradeOrRestart.proxyList"
+  }, {
+    "name" : "upgradeType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ProxyVersionUpgradeOrRestart.upgradeType"
+  }, {
+    "name" : "isDefer",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ProxyVersionUpgradeOrRestart.isDefer"
+  } ],
+  "desc_key" : "scs.ProxyVersionUpgradeOrRestart.desc"
+}

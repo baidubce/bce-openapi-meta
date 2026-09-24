@@ -1,0 +1,25 @@
+{
+  "name" : "LogDetails",
+  "method" : "GET",
+  "uri" : "/v1/instance/{instanceId}/log/{logId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.LogDetails.instanceId"
+  }, {
+    "name" : "logId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.LogDetails.logId"
+  }, {
+    "name" : "validSeconds",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "scs.LogDetails.validSeconds"
+  } ],
+  "desc_key" : "scs.LogDetails.desc"
+}

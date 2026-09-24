@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteManualBackup",
+  "method" : "DELETE",
+  "uri" : "/v1/instance/{instanceId}/backup/{batchId}",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.DeleteManualBackup.instanceId"
+  }, {
+    "name" : "batchId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.DeleteManualBackup.batchId"
+  } ],
+  "desc_key" : "scs.DeleteManualBackup.desc"
+}

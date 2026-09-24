@@ -1,0 +1,19 @@
+{
+  "name" : "SyncGroupModifyBnsgroup",
+  "method" : "PUT",
+  "uri" : "/v1/syncGroup/{groupId}/modifyBnsGroup",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.SyncGroupModifyBnsgroup.groupId"
+  }, {
+    "name" : "bnsGroup",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.SyncGroupModifyBnsgroup.bnsGroup"
+  } ],
+  "desc_key" : "scs.SyncGroupModifyBnsgroup.desc"
+}

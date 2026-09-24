@@ -1,0 +1,7 @@
+{
+  "InstanceVersionUpgrade" : {
+    "instanceId" : "集群ID",
+    "kernelVersion" : "升级大版本时的版本号。非大版本升级时为空。<li>升级版本要高于现在的版本。<li>3系标准版可以升级到6系、7系<li> 4系可以升级到6系、7系<li> 5系可以升级到6系、7系<li>6系可以升到7系",
+    "isDefer" : "执行时间。<li> false：立即执行<li>true：维护时间内执行"
+  }
+}

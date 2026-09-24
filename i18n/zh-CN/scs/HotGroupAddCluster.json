@@ -1,0 +1,8 @@
+{
+  "HotGroupAddCluster" : {
+    "groupId" : "热活实例组ID",
+    "followerId" : "从角色集群ID",
+    "followerRegion" : "从角色集群所在地域",
+    "syncMaster" : "是否同步主角色的参数（sync: 同步主角色参数， nosync：不同步主角色参数）"
+  }
+}

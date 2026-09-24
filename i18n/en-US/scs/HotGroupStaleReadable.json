@@ -1,0 +1,7 @@
+{
+  "HotGroupStaleReadable" : {
+    "groupId" : "Hot active instance group ID",
+    "followerId" : "Follower cluster ID",
+    "staleReadable" : "Whether to enable stale read on the follower role (true: enabled, false: disabled)"
+  }
+}

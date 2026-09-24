@@ -1,0 +1,7 @@
+{
+  "GetApplicationParameterTemplateRecords" : {
+    "templateShowId" : "Parameter template ID",
+    "marker" : "The starting position of the query for batch retrieval of the list, which is a system-generated string",
+    "maxKeys" : "The maximum number of items per page, usually no more than 1000, with a default value of 1000"
+  }
+}

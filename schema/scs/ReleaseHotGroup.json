@@ -1,0 +1,13 @@
+{
+  "name" : "ReleaseHotGroup",
+  "method" : "DELETE",
+  "uri" : "/v2/group/{groupId}/release",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ReleaseHotGroup.groupId"
+  } ],
+  "desc_key" : "scs.ReleaseHotGroup.desc"
+}

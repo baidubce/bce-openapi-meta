@@ -1,0 +1,53 @@
+{
+  "name" : "ClusterTypeUpgrade",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/clusterTypeChange",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ClusterTypeUpgrade.instanceId"
+  }, {
+    "name" : "isDefer",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ClusterTypeUpgrade.isDefer"
+  }, {
+    "name" : "nodeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ClusterTypeUpgrade.nodeType"
+  }, {
+    "name" : "shardNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ClusterTypeUpgrade.shardNum"
+  }, {
+    "name" : "replicationInfo",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ClusterTypeUpgrade.replicationInfo",
+    "sub_parameters" : [ {
+      "name" : "availabilityZone",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ClusterTypeUpgrade.replicationInfo.availabilityZone"
+    }, {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ClusterTypeUpgrade.replicationInfo.subnetId"
+    }, {
+      "name" : "isMaster",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.ClusterTypeUpgrade.replicationInfo.isMaster"
+    } ]
+  } ],
+  "desc_key" : "scs.ClusterTypeUpgrade.desc"
+}

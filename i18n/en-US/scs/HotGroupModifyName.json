@@ -1,0 +1,6 @@
+{
+  "HotGroupModifyName" : {
+    "groupId" : "ID of the hot instance group to query",
+    "groupName" : "New name. Rule: supports uppercase and lowercase letters, digits, and special characters such as -_., length 6-32"
+  }
+}

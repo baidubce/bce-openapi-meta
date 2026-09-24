@@ -1,0 +1,6 @@
+{
+  "ModifyInstanceName" : {
+    "instanceId" : "Instance ID",
+    "instanceName" : "New instance name. Requirements:<br>1. Supports uppercase and lowercase letters, digits, and special characters such as \\-\\_ /\\.; must start with a letter;<br>2. Length must be 1\\-64 characters;<br>3. Must not duplicate the names of your other instances"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "GetRecycleList" : {
+    "marker" : "The starting position of the query for batch retrieving the list. It is a system-generated string. The initial value can be set to -1.",
+    "maxKeys" : "The maximum number of items per page (primary instance). The maximum is usually no more than 1000, and the default value is 1000."
+  }
+}

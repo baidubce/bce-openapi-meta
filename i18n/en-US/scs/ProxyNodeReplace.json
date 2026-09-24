@@ -1,0 +1,7 @@
+{
+  "ProxyNodeReplace" : {
+    "instanceId" : "Instance ID.",
+    "proxyList" : "List of proxy nodes to be replaced. Supports single and batch selection.",
+    "defer" : "Whether to execute during the maintenance window. `false` means execute immediately; `true` means create a maintenance window task. Defaults to `false`."
+  }
+}

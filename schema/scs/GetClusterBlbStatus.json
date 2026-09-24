@@ -1,0 +1,20 @@
+{
+  "name" : "GetClusterBlbStatus",
+  "method" : "GET",
+  "uri" : "/v{version}/instance/{instanceId}/blbStatus",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GetClusterBlbStatus.instanceId"
+  } ],
+  "desc_key" : "scs.GetClusterBlbStatus.desc"
+}

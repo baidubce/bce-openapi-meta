@@ -1,0 +1,8 @@
+{
+  "ManuallyModifyBandwidth" : {
+    "instanceId" : "Instance ID",
+    "shardBandwidthInfo" : "Shard bandwidth list.",
+    "shardBandwidthInfo.shardName" : "Shard hashName",
+    "shardBandwidthInfo.nodeBandwidthInMB" : "Current shard bandwidth size, cannot be less than the default bandwidth. Incremental bandwidth incurs additional charges. Unit: MB."
+  }
+}

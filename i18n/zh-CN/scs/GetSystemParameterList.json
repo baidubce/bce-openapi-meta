@@ -1,0 +1,7 @@
+{
+  "GetSystemParameterList" : {
+    "engine" : "引擎。可选值：redis",
+    "engineVersion" : "引擎版本。示例：5.0",
+    "clusterType" : "集群类型。可选值：master_slave，cluster"
+  }
+}

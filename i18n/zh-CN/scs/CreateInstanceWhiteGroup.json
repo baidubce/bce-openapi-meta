@@ -1,0 +1,7 @@
+{
+  "CreateInstanceWhiteGroup" : {
+    "instanceId" : "集群ID",
+    "groupName" : "白名单分组名称",
+    "clusterIpList" : "白名单分组名称"
+  }
+}

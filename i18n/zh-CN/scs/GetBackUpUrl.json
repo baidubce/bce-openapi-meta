@@ -1,0 +1,6 @@
+{
+  "GetBackUpUrl" : {
+    "instanceId" : "集群ID",
+    "backupId" : "备份ID。"
+  }
+}

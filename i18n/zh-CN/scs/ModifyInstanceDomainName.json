@@ -1,0 +1,6 @@
+{
+  "ModifyInstanceDomainName" : {
+    "instanceId" : "实例ID",
+    "domain" : "新的实例域名。域名命名规范：<br>1\\.由小写字母和数字组成；<br>2\\.以小写字母开头；<br>3\\.长度在3\\-30之间。"
+  }
+}

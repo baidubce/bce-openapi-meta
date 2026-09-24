@@ -1,0 +1,31 @@
+{
+  "name" : "HotGroupAddCluster",
+  "method" : "POST",
+  "uri" : "/v2/group/{groupId}/join",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.HotGroupAddCluster.groupId"
+  }, {
+    "name" : "followerId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.HotGroupAddCluster.followerId"
+  }, {
+    "name" : "followerRegion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.HotGroupAddCluster.followerRegion"
+  }, {
+    "name" : "syncMaster",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.HotGroupAddCluster.syncMaster"
+  } ],
+  "desc_key" : "scs.HotGroupAddCluster.desc"
+}

@@ -1,0 +1,61 @@
+{
+  "name" : "GePriceForResizeInstance",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/price",
+  "parameters" : [ {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GePriceForResizeInstance.clientToken"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GePriceForResizeInstance.instanceId"
+  }, {
+    "name" : "nodeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GePriceForResizeInstance.nodeType"
+  }, {
+    "name" : "shardNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GePriceForResizeInstance.shardNum"
+  }, {
+    "name" : "replicationNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GePriceForResizeInstance.replicationNum"
+  }, {
+    "name" : "diskFlavor",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GePriceForResizeInstance.diskFlavor"
+  }, {
+    "name" : "chargeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GePriceForResizeInstance.chargeType"
+  }, {
+    "name" : "period",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GePriceForResizeInstance.period"
+  }, {
+    "name" : "changeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.GePriceForResizeInstance.changeType"
+  } ],
+  "desc_key" : "scs.GePriceForResizeInstance.desc"
+}

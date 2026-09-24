@@ -1,0 +1,13 @@
+{
+  "name" : "GetBackupStrategy",
+  "method" : "GET",
+  "uri" : "/v1/instance/{instanceId}/backup/policy",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GetBackupStrategy.instanceId"
+  } ],
+  "desc_key" : "scs.GetBackupStrategy.desc"
+}

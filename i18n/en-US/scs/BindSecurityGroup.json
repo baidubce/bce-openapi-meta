@@ -1,0 +1,6 @@
+{
+  "BindSecurityGroup" : {
+    "instanceId" : "Cluster ID",
+    "securityGroupIds" : "List of security group IDs to bind."
+  }
+}

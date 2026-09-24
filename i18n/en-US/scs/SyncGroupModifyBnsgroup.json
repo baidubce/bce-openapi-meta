@@ -1,0 +1,6 @@
+{
+  "SyncGroupModifyBnsgroup" : {
+    "groupId" : "Multi-active instance group display ID",
+    "bnsGroup" : "BNS Group"
+  }
+}

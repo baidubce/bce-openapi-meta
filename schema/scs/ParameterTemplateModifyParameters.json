@@ -1,0 +1,40 @@
+{
+  "name" : "ParameterTemplateModifyParameters",
+  "method" : "PUT",
+  "uri" : "/v2/template/modifyParams/{templateShowId}",
+  "parameters" : [ {
+    "name" : "templateShowId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ParameterTemplateModifyParameters.templateShowId"
+  }, {
+    "name" : "parameters",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ParameterTemplateModifyParameters.parameters",
+    "sub_parameters" : [ {
+      "name" : "confName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ParameterTemplateModifyParameters.parameters.confName"
+    }, {
+      "name" : "confValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ParameterTemplateModifyParameters.parameters.confValue"
+    }, {
+      "name" : "confType",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.ParameterTemplateModifyParameters.parameters.confType"
+    }, {
+      "name" : "confModule",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.ParameterTemplateModifyParameters.parameters.confModule"
+    } ]
+  } ],
+  "desc_key" : "scs.ParameterTemplateModifyParameters.desc"
+}

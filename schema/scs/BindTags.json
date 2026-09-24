@@ -1,0 +1,30 @@
+{
+  "name" : "BindTags",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/bindTag",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.BindTags.instanceId"
+  }, {
+    "name" : "changeTags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.BindTags.changeTags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.BindTags.changeTags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.BindTags.changeTags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "scs.BindTags.desc"
+}

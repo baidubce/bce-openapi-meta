@@ -1,0 +1,5 @@
+{
+  "DisconnectEntrance" : {
+    "instanceId" : "要操作的集群ID"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ProxyNodeReplace" : {
+    "instanceId" : "实例ID。",
+    "proxyList" : "待替换的代理节点列表。支持单选、批量选择。",
+    "defer" : "是否维护时间内执行。`false` 表示立即执行；`true` 表示创建维护窗口任务。默认值为 `false`。"
+  }
+}

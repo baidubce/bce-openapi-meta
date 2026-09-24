@@ -1,0 +1,6 @@
+{
+  "GetDeploymentSetList" : {
+    "marker" : "The starting position of the query for the batch list, a system-generated string. Default is -1.",
+    "maxKeys" : "The maximum number of items per page (primary instances), usually not exceeding 1000. Default is 1000."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name" : "SetMemoryScalingConfig",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/autoScalingConfig",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.SetMemoryScalingConfig.instanceId"
+  }, {
+    "name" : "memSpec",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.SetMemoryScalingConfig.memSpec",
+    "sub_parameters" : [ {
+      "name" : "memUsageUpperThreshold",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.SetMemoryScalingConfig.memSpec.memUsageUpperThreshold"
+    }, {
+      "name" : "memUsageDownThreshold",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.SetMemoryScalingConfig.memSpec.memUsageDownThreshold"
+    }, {
+      "name" : "maxNodeType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.SetMemoryScalingConfig.memSpec.maxNodeType"
+    }, {
+      "name" : "minNodeType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.SetMemoryScalingConfig.memSpec.minNodeType"
+    }, {
+      "name" : "observationWindowSizeForUpper",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.SetMemoryScalingConfig.memSpec.observationWindowSizeForUpper"
+    }, {
+      "name" : "observationWindowSizeForDown",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.SetMemoryScalingConfig.memSpec.observationWindowSizeForDown"
+    } ]
+  } ],
+  "desc_key" : "scs.SetMemoryScalingConfig.desc"
+}

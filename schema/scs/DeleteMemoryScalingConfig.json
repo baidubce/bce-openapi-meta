@@ -1,0 +1,13 @@
+{
+  "name" : "DeleteMemoryScalingConfig",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/deleteAutoScalingConfig",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.DeleteMemoryScalingConfig.instanceId"
+  } ],
+  "desc_key" : "scs.DeleteMemoryScalingConfig.desc"
+}

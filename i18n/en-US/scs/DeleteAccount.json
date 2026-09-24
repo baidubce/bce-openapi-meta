@@ -1,0 +1,6 @@
+{
+  "DeleteAccount" : {
+    "instanceId" : "Cluster ID.",
+    "userName" : "Name of the account to delete."
+  }
+}

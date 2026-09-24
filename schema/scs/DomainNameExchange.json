@@ -1,0 +1,19 @@
+{
+  "name" : "DomainNameExchange",
+  "method" : "POST",
+  "uri" : "/v2/instance/swapDomain",
+  "parameters" : [ {
+    "name" : "sourceInstanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.DomainNameExchange.sourceInstanceId"
+  }, {
+    "name" : "targetInstanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.DomainNameExchange.targetInstanceId"
+  } ],
+  "desc_key" : "scs.DomainNameExchange.desc"
+}

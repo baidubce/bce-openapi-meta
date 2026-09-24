@@ -1,0 +1,8 @@
+{
+  "SyncGroupPreCheck" : {
+    "syncGroupShowId" : "Multi-active instance group display ID (optional for new creation check)",
+    "members" : "Member instance list",
+    "members.memberId" : "Member instance display ID",
+    "members.region" : "Region where the member instance is located"
+  }
+}

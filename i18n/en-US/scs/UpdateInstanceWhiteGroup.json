@@ -1,0 +1,8 @@
+{
+  "UpdateInstanceWhiteGroup" : {
+    "instanceId" : "Cluster ID",
+    "groupName" : "Group name to be modified",
+    "newGroupName" : "New group name",
+    "clusterIpList" : "Whitelist IP list"
+  }
+}

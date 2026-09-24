@@ -1,0 +1,13 @@
+{
+  "name" : "ViewSecurityGroup",
+  "method" : "GET",
+  "uri" : "/v1/instance/{instanceId}/securityGroup",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ViewSecurityGroup.instanceId"
+  } ],
+  "desc_key" : "scs.ViewSecurityGroup.desc"
+}

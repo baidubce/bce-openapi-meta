@@ -1,0 +1,13 @@
+{
+  "name" : "ReleaseInstance",
+  "method" : "DELETE",
+  "uri" : "/v1/instance/{instanceId} HTTP/1.1",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ReleaseInstance.instanceId"
+  } ],
+  "desc_key" : "scs.ReleaseInstance.desc"
+}

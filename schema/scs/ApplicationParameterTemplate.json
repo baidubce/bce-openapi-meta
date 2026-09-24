@@ -1,0 +1,69 @@
+{
+  "name" : "ApplicationParameterTemplate",
+  "method" : "POST",
+  "uri" : "/v2/template/apply/{templateShowId}",
+  "parameters" : [ {
+    "name" : "templateShowId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ApplicationParameterTemplate.templateShowId"
+  }, {
+    "name" : "extra",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ApplicationParameterTemplate.extra"
+  }, {
+    "name" : "cacheClusterList",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ApplicationParameterTemplate.cacheClusterList",
+    "sub_parameters" : [ {
+      "name" : "region",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ApplicationParameterTemplate.cacheClusterList.region"
+    }, {
+      "name" : "cacheClusterShowId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ApplicationParameterTemplate.cacheClusterList.cacheClusterShowId"
+    } ]
+  }, {
+    "name" : "rebootType",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ApplicationParameterTemplate.rebootType"
+  }, {
+    "name" : "parameters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ApplicationParameterTemplate.parameters",
+    "sub_parameters" : [ {
+      "name" : "confName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ApplicationParameterTemplate.parameters.confName"
+    }, {
+      "name" : "confValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ApplicationParameterTemplate.parameters.confValue"
+    }, {
+      "name" : "confType",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.ApplicationParameterTemplate.parameters.confType"
+    }, {
+      "name" : "confModule",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.ApplicationParameterTemplate.parameters.confModule"
+    } ]
+  } ],
+  "desc_key" : "scs.ApplicationParameterTemplate.desc"
+}

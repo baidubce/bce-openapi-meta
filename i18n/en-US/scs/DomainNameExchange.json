@@ -1,0 +1,6 @@
+{
+  "DomainNameExchange" : {
+    "sourceInstanceId" : "Source instance ID",
+    "targetInstanceId" : "Target instance ID"
+  }
+}

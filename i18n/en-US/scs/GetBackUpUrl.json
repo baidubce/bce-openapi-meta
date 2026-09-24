@@ -1,0 +1,6 @@
+{
+  "GetBackUpUrl" : {
+    "instanceId" : "Cluster ID",
+    "backupId" : "Backup ID"
+  }
+}

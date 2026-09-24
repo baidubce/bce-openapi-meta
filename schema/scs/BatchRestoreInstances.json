@@ -1,0 +1,13 @@
+{
+  "name" : "BatchRestoreInstances",
+  "method" : "POST",
+  "uri" : "/v2/recycler/recover HTTP/1.1",
+  "parameters" : [ {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.BatchRestoreInstances.instanceIds"
+  } ],
+  "desc_key" : "scs.BatchRestoreInstances.desc"
+}

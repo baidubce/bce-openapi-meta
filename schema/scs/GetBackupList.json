@@ -1,0 +1,13 @@
+{
+  "name" : "GetBackupList",
+  "method" : "GET",
+  "uri" : "/v1/instance/{instanceId}/backup",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GetBackupList.instanceId"
+  } ],
+  "desc_key" : "scs.GetBackupList.desc"
+}

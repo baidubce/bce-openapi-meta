@@ -1,0 +1,30 @@
+{
+  "name" : "UnbindTags",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/unBindTag",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.UnbindTags.instanceId"
+  }, {
+    "name" : "changeTags",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.UnbindTags.changeTags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.UnbindTags.changeTags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.UnbindTags.changeTags.tagValue"
+    } ]
+  } ],
+  "desc_key" : "scs.UnbindTags.desc"
+}

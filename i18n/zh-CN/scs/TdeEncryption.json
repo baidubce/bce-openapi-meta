@@ -1,0 +1,6 @@
+{
+  "TdeEncryption" : {
+    "instanceId" : "集群ID。",
+    "action" : "开启TDE加密。参数可选值：open"
+  }
+}

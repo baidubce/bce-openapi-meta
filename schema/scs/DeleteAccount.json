@@ -1,0 +1,26 @@
+{
+  "name" : "DeleteAccount",
+  "method" : "POST",
+  "uri" : "/v{version}/{instanceId}/aclUserActions/delete",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.DeleteAccount.instanceId"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.DeleteAccount.userName"
+  } ],
+  "desc_key" : "scs.DeleteAccount.desc"
+}

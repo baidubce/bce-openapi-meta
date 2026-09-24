@@ -1,0 +1,6 @@
+{
+  "RenewInstance" : {
+    "instanceIds" : "List of cluster IDs.",
+    "duration" : "Duration for converting to prepaid, in months. Minimum value 1."
+  }
+}

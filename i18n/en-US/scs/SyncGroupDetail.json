@@ -1,0 +1,5 @@
+{
+  "SyncGroupDetail" : {
+    "syncGroupShowId" : "The ID of the multi-active instance group."
+  }
+}

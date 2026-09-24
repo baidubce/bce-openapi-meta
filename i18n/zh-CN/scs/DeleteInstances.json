@@ -1,0 +1,5 @@
+{
+  "DeleteInstances" : {
+    "instanceIds" : "实例Id列表"
+  }
+}

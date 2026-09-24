@@ -1,0 +1,6 @@
+{
+  "GetInstanceWhiteGroup" : {
+    "instanceId" : "Cluster ID",
+    "groupName" : "Whitelist group name; filter by group name when provided"
+  }
+}

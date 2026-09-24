@@ -1,0 +1,6 @@
+{
+  "ParameterTemplateDeleteParameters" : {
+    "templateShowId" : "待查询的参数模版ID",
+    "parameters" : "要删除的参数名称集合"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "HotGroupPreCheck" : {
+    "leader" : "Leader role information",
+    "leader.leaderId" : "Leader role instance ID of the hot-active instance group",
+    "leader.leaderRegion" : "Region of the leader role in the hot-active instance group",
+    "followers" : "Follower role information",
+    "followers.followerId" : "Follower role instance ID",
+    "followers.followerRegion" : "Region of the follower role instance"
+  }
+}

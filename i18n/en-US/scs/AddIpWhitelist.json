@@ -1,0 +1,6 @@
+{
+  "AddIpWhitelist" : {
+    "instanceId" : "Instance ID",
+    "securityIps" : "List of IPs under the IP whitelist group. Includes regular addresses such as 192\\.168\\.0\\.1, CIDR addresses such as 192\\.168\\.1\\.0/24, and 0\\.0\\.0\\.0/0 which allows all addresses"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "CreateAccount" : {
+    "instanceId" : "Cluster ID.",
+    "userName" : "Account name. Composed of lowercase letters, digits, and underscores. Must start with a letter and end with a letter or digit. Maximum 16 characters.",
+    "clientAuth" : "Account password. For details, please refer to [Password Encryption Transmission Specification](SCS/API参考/通用说明.md#密码加密传输规范定义)",
+    "extra" : "Remarks",
+    "userType" : "Account permissions. 1: read-write; 2: read-only;"
+  }
+}

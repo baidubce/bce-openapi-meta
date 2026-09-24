@@ -1,0 +1,19 @@
+{
+  "name" : "GetHotGroupList",
+  "method" : "POST",
+  "uri" : "/v2/group/list",
+  "parameters" : [ {
+    "name" : "pageSize",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.GetHotGroupList.pageSize"
+  }, {
+    "name" : "pageNo",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.GetHotGroupList.pageNo"
+  } ],
+  "desc_key" : "scs.GetHotGroupList.desc"
+}

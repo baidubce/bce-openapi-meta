@@ -1,0 +1,7 @@
+{
+  "GetSystemParameterList" : {
+    "engine" : "Engine. Optional values: redis",
+    "engineVersion" : "Engine version. Example: 5.0",
+    "clusterType" : "Cluster type. Optional values: master_slave, cluster"
+  }
+}

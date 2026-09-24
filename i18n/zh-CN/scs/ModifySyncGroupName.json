@@ -1,0 +1,6 @@
+{
+  "ModifySyncGroupName" : {
+    "syncGroupShowId" : "多活实例组ID。",
+    "groupName" : "修改后的实例组名称。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "RenewInstance" : {
+    "instanceIds" : "集群ID列表。",
+    "duration" : "转预付费的时长，单位月。最小值1。"
+  }
+}

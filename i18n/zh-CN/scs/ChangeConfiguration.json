@@ -1,0 +1,13 @@
+{
+  "ChangeConfiguration" : {
+    "instanceId" : "实例ID",
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "billing" : "计费相关参数。",
+    "billing.paymentTiming" : "付费方式：预付费：Prepaid，后付费：Postpaid",
+    "billing.reservation" : "保留信息，支付方式为后支付时不需要设置，预支付时必须设置",
+    "engineVersion" : "引擎版本。例如redis 3.2/4.0/5.0/6.0 等",
+    "nodeType" : "参见附录中[实例规格](https://cloud.baidu.com/doc/SCS/s/1jwvxtsh0#%E5%AE%9E%E4%BE%8B%E8%A7%84%E6%A0%BC)",
+    "shardNum" : "分片个数",
+    "diskFlavor" : "存储空间"
+  }
+}

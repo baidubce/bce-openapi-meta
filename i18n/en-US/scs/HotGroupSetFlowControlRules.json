@@ -1,0 +1,8 @@
+{
+  "HotGroupSetFlowControlRules" : {
+    "groupId" : "Hot group instance group ID",
+    "clusterShowId" : "Cluster ID",
+    "qpsWrite" : "Write traffic limit. (At least one of read/write traffic limits is required)",
+    "qpsRead" : "Read traffic limit. (At least one of read/write traffic limits is required)"
+  }
+}

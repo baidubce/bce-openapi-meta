@@ -1,0 +1,6 @@
+{
+  "GetSubnetList" : {
+    "vpcId" : "The ID of the VPC to which it belongs",
+    "zoneName" : "The name of the availability zone to which it belongs"
+  }
+}

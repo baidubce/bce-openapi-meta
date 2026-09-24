@@ -1,0 +1,6 @@
+{
+  "SyncGroupModifyBnsgroup" : {
+    "groupId" : "多活实例组展示ID",
+    "bnsGroup" : "BNS Group"
+  }
+}

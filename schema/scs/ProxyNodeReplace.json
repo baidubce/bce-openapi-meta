@@ -1,0 +1,25 @@
+{
+  "name" : "ProxyNodeReplace",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/proxyNode",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ProxyNodeReplace.instanceId"
+  }, {
+    "name" : "proxyList",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ProxyNodeReplace.proxyList"
+  }, {
+    "name" : "defer",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ProxyNodeReplace.defer"
+  } ],
+  "desc_key" : "scs.ProxyNodeReplace.desc"
+}

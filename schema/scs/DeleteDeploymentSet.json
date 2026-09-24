@@ -1,0 +1,13 @@
+{
+  "name" : "DeleteDeploymentSet",
+  "method" : "DELETE",
+  "uri" : "/v1/deploySet/{deploySetId}",
+  "parameters" : [ {
+    "name" : "deploySetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.DeleteDeploymentSet.deploySetId"
+  } ],
+  "desc_key" : "scs.DeleteDeploymentSet.desc"
+}

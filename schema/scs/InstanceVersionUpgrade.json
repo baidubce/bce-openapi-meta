@@ -1,0 +1,25 @@
+{
+  "name" : "InstanceVersionUpgrade",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/upgradeVersion",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.InstanceVersionUpgrade.instanceId"
+  }, {
+    "name" : "kernelVersion",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.InstanceVersionUpgrade.kernelVersion"
+  }, {
+    "name" : "isDefer",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.InstanceVersionUpgrade.isDefer"
+  } ],
+  "desc_key" : "scs.InstanceVersionUpgrade.desc"
+}

@@ -1,0 +1,37 @@
+{
+  "name" : "SetBackupPolicy",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/backup/modifyPolicy",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.SetBackupPolicy.instanceId"
+  }, {
+    "name" : "backupTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.SetBackupPolicy.backupTime"
+  }, {
+    "name" : "backupDays",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.SetBackupPolicy.backupDays"
+  }, {
+    "name" : "expireDay",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.SetBackupPolicy.expireDay"
+  }, {
+    "name" : "isEncrypt",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.SetBackupPolicy.isEncrypt"
+  } ],
+  "desc_key" : "scs.SetBackupPolicy.desc"
+}

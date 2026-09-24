@@ -1,0 +1,7 @@
+{
+  "ModifyBackupComment" : {
+    "instanceId" : "Cluster ID",
+    "batchId" : "Backup ID",
+    "comment" : "Comment. Character length limit is 0-256 characters."
+  }
+}

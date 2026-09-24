@@ -1,0 +1,6 @@
+{
+  "GetHotGroupList" : {
+    "pageSize" : "Number of items per page",
+    "pageNo" : "Page number"
+  }
+}

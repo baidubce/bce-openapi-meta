@@ -1,0 +1,8 @@
+{
+  "MasterSlaveSwitch" : {
+    "instanceId" : "集群ID",
+    "shards" : "切换的分片列表。",
+    "shards.hashName" : "指定要切换的分片。可从实例详情接口RedisList字段中获取分片信息。",
+    "shards.nodeShowId" : "指定该分片中要切换为主的节点ID。可从实例详情接口RedisList字段中获取分片中节点ID的信息。"
+  }
+}

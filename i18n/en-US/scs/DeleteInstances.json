@@ -1,0 +1,5 @@
+{
+  "DeleteInstances" : {
+    "instanceIds" : "Instance ID list"
+  }
+}

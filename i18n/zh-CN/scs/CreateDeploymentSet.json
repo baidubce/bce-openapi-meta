@@ -1,0 +1,8 @@
+{
+  "CreateDeploymentSet" : {
+    "name" : "部署集名称。",
+    "desc" : "备注。",
+    "strategy" : "策略。默认值：HOST_HA。",
+    "concurrency" : "并发度。取值范围：1-127。默认值：20。"
+  }
+}

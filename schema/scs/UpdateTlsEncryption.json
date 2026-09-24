@@ -1,0 +1,19 @@
+{
+  "name" : "UpdateTlsEncryption",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/tls",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.UpdateTlsEncryption.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.UpdateTlsEncryption.action"
+  } ],
+  "desc_key" : "scs.UpdateTlsEncryption.desc"
+}

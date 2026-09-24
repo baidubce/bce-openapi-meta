@@ -1,0 +1,6 @@
+{
+  "ModifyEntrance" : {
+    "instanceId" : "Cluster ID.",
+    "isDefer" : "Whether to execute during the maintenance window. <li>true: execute during the maintenance window <li>false: execute immediately"
+  }
+}

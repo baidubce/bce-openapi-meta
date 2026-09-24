@@ -1,0 +1,6 @@
+{
+  "UpdateSecurityGroup" : {
+    "instanceId" : "Cluster ID",
+    "securityGroupIds" : "List of bound security group IDs."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ClearInstance" : {
+    "instanceId" : "Cluster ID",
+    "password" : "Instance password. If no password is set, pass an empty string. The password must be encrypted for transmission; plaintext transmission is prohibited. For details, refer to [Password Encryption Transmission Specification](https://cloud.baidu.com/doc/SCS/s/fjwvxtrd9#%E5%AF%86%E7%A0%81%E5%8A%A0%E5%AF%86%E4%BC%A0%E8%BE%93%E8%A7%84%E8%8C%83%E5%AE%9A%E4%B9%89)",
+    "dbIndex" : "Database index, value range: [0,255]",
+    "isFlushExpired" : "true = clear only expired data, false = clear all data",
+    "isDefer" : "Execute during maintenance time window, available only when isFlushExpired=true. <li>true: execute during maintenance time, false: execute immediately."
+  }
+}

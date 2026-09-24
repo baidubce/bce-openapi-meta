@@ -1,0 +1,6 @@
+{
+  "ManualBackup" : {
+    "instanceId" : "Cluster ID",
+    "comment" : "Comment. Character length limit is 0-256 characters."
+  }
+}

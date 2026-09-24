@@ -1,0 +1,29 @@
+{
+  "name" : "CreateHotGroup",
+  "method" : "POST",
+  "uri" : "/v2/group/create",
+  "parameters" : [ {
+    "name" : "leader",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateHotGroup.leader",
+    "sub_parameters" : [ {
+      "name" : "groupName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateHotGroup.leader.groupName"
+    }, {
+      "name" : "leaderId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateHotGroup.leader.leaderId"
+    }, {
+      "name" : "leaderRegion",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.CreateHotGroup.leader.leaderRegion"
+    } ]
+  } ],
+  "desc_key" : "scs.CreateHotGroup.desc"
+}

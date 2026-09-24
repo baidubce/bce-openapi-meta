@@ -1,0 +1,8 @@
+{
+  "ModifyDeploymentSet" : {
+    "deploySetId" : "Deployment set ID.",
+    "desc" : "Remarks.",
+    "name" : "Deployment set name.",
+    "concurrency" : "Concurrency. Value range: 1-127. Default: 20."
+  }
+}

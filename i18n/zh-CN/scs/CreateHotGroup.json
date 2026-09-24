@@ -1,0 +1,8 @@
+{
+  "CreateHotGroup" : {
+    "leader" : "主角色信息",
+    "leader.groupName" : "热活实例组名称。规则：支持大小写字母、数字以及-_.等特殊字符，长度6~32",
+    "leader.leaderId" : "主角色实例ID",
+    "leader.leaderRegion" : "主角色地域"
+  }
+}

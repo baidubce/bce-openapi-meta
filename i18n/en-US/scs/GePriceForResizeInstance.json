@@ -1,0 +1,13 @@
+{
+  "GePriceForResizeInstance" : {
+    "clientToken" : "Idempotency token, an ASCII string no longer than 64 characters",
+    "instanceId" : "Instance ID",
+    "nodeType" : "Node specification. Valid for Redis memory-optimized and Redis capacity-optimized types.<br>Get specific specifications via the [Get Instance Specification List](https://cloud.baidu.com/doc/SCS/s/ikhvw6dqg) API.",
+    "shardNum" : "Number of shards, defaults to 1",
+    "replicationNum" : "Number of replicas, defaults to 1.<br/>Valid for Redis memory-optimized and Redis capacity-optimized types.",
+    "diskFlavor" : "Capacity per shard, in GB.<br/>  Valid for Redis capacity-optimized type.",
+    "chargeType" : "Billing type. Prepaid (prepay) / Postpaid (postpay). The billing type must match the original instance.",
+    "period" : "Billing cycle. Required when billing type is prepaid, in months.",
+    "changeType" : "Change type.<br/>modifyType: Price inquiry identifier when changing Redis Standard Edition to Cluster Edition; required in this case."
+  }
+}

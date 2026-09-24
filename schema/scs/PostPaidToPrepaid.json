@@ -1,0 +1,19 @@
+{
+  "name" : "PostPaidToPrepaid",
+  "method" : "POST",
+  "uri" : "/v1/instance/toPrepay",
+  "parameters" : [ {
+    "name" : "duration",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.PostPaidToPrepaid.duration"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.PostPaidToPrepaid.instanceIds"
+  } ],
+  "desc_key" : "scs.PostPaidToPrepaid.desc"
+}

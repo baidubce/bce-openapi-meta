@@ -1,0 +1,6 @@
+{
+  "UnbindSecurityGroup" : {
+    "instanceId" : "集群ID",
+    "securityGroupIds" : "解绑的安全组ID列表。"
+  }
+}

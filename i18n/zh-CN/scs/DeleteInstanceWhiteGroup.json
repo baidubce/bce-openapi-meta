@@ -1,0 +1,6 @@
+{
+  "DeleteInstanceWhiteGroup" : {
+    "instanceId" : "集群ID",
+    "groupName" : "分组名称"
+  }
+}

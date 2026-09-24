@@ -1,0 +1,13 @@
+{
+  "name" : "GetTlsCert",
+  "method" : "GET",
+  "uri" : "/v1/instance/{instanceId}/tls",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GetTlsCert.instanceId"
+  } ],
+  "desc_key" : "scs.GetTlsCert.desc"
+}

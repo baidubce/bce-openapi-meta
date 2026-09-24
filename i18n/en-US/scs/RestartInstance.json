@@ -1,0 +1,6 @@
+{
+  "RestartInstance" : {
+    "instanceId" : "Instance ID",
+    "isDefer" : "Execution timing. <li>false: Execute immediately <li>true: Execute during maintenance window"
+  }
+}

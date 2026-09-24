@@ -1,0 +1,5 @@
+{
+  "BatchRestoreInstances" : {
+    "instanceIds" : "List of instance IDs"
+  }
+}

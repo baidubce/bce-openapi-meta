@@ -1,0 +1,19 @@
+{
+  "name" : "UpdateSecurityGroup",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/securityGroup/update",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.UpdateSecurityGroup.instanceId"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.UpdateSecurityGroup.securityGroupIds"
+  } ],
+  "desc_key" : "scs.UpdateSecurityGroup.desc"
+}

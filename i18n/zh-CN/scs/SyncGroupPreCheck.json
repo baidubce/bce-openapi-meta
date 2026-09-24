@@ -1,0 +1,8 @@
+{
+  "SyncGroupPreCheck" : {
+    "syncGroupShowId" : "多活实例组展示ID（新建校验时可不传）",
+    "members" : "成员实例列表",
+    "members.memberId" : "成员实例展示ID",
+    "members.region" : "成员实例所在地域"
+  }
+}

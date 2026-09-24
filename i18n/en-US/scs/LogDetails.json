@@ -1,0 +1,7 @@
+{
+  "LogDetails" : {
+    "instanceId" : "Cluster ID",
+    "logId" : "Log ID",
+    "validSeconds" : "Download valid duration, in seconds. Default value is 1800."
+  }
+}

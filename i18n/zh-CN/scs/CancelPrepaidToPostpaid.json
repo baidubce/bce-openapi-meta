@@ -1,0 +1,5 @@
+{
+  "CancelPrepaidToPostpaid" : {
+    "instanceIds" : "集群ID列表。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "GetSubnetList" : {
+    "vpcId" : "所属vpc的id",
+    "zoneName" : "所属可用区的名称"
+  }
+}

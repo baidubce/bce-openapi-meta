@@ -1,0 +1,8 @@
+{
+  "ModifyDeploymentSet" : {
+    "deploySetId" : "部署集ID。",
+    "desc" : "备注。",
+    "name" : "部署集名称。",
+    "concurrency" : "并发度。取值范围：1-127。默认值：20。"
+  }
+}

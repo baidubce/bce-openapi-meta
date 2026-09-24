@@ -1,0 +1,8 @@
+{
+  "BindTags" : {
+    "instanceId" : "VM instance ID",
+    "changeTags" : "List of tags to unbind",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "ParameterTemplateDeleteParameters" : {
+    "templateShowId" : "ID of the parameter template to query",
+    "parameters" : "Set of parameter names to delete"
+  }
+}

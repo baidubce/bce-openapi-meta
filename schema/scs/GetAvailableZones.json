@@ -1,0 +1,7 @@
+{
+  "name" : "GetAvailableZones",
+  "method" : "GET",
+  "uri" : "/v1/zone",
+  "parameters" : [ ],
+  "desc_key" : "scs.GetAvailableZones.desc"
+}

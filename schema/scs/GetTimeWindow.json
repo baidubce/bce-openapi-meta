@@ -1,0 +1,13 @@
+{
+  "name" : "GetTimeWindow",
+  "method" : "GET",
+  "uri" : "/v1/instance/{instanceId}/timeWindow",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GetTimeWindow.instanceId"
+  } ],
+  "desc_key" : "scs.GetTimeWindow.desc"
+}

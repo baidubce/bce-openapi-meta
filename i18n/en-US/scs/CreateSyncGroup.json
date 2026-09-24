@@ -1,0 +1,8 @@
+{
+  "CreateSyncGroup" : {
+    "syncGroupName" : "Name of the multi-active instance group. Rules: supports uppercase and lowercase letters, digits, and special characters such as -_.; must start with a letter; length 6 to 32 characters.",
+    "members" : "Members of the multi-active instance group. Supports up to 5 members.",
+    "members.memberId" : "Cluster ID.",
+    "members.region" : "Region where the cluster is located."
+  }
+}

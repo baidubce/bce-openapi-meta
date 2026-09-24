@@ -1,0 +1,19 @@
+{
+  "name" : "DeleteIpWhitelist",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/securityIp",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.DeleteIpWhitelist.instanceId"
+  }, {
+    "name" : "securityIps",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.DeleteIpWhitelist.securityIps"
+  } ],
+  "desc_key" : "scs.DeleteIpWhitelist.desc"
+}

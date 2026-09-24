@@ -1,0 +1,5 @@
+{
+  "DisconnectEntrance" : {
+    "instanceId" : "The ID of the cluster to operate on"
+  }
+}

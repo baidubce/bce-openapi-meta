@@ -1,0 +1,6 @@
+{
+  "UpdateTlsEncryption" : {
+    "instanceId" : "集群ID",
+    "action" : "open：开启；close：关闭；update：更新证书有效期。开启加密之后才能进行更新。"
+  }
+}

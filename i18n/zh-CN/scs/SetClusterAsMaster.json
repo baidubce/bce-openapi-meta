@@ -1,0 +1,5 @@
+{
+  "SetClusterAsMaster" : {
+    "instanceId" : "实例ID"
+  }
+}

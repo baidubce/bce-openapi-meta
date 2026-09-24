@@ -1,0 +1,5 @@
+{
+  "ClusterStatusCheck" : {
+    "instanceId" : "要检查的实例ID。"
+  }
+}

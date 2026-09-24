@@ -1,0 +1,6 @@
+{
+  "BindSecurityGroup" : {
+    "instanceId" : "集群ID",
+    "securityGroupIds" : "绑定的安全组ID列表。"
+  }
+}

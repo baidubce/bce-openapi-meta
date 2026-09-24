@@ -1,0 +1,13 @@
+{
+  "name" : "CancelPrepaidToPostpaid",
+  "method" : "POST",
+  "uri" : "/v1/instance/cancelToPostpay",
+  "parameters" : [ {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CancelPrepaidToPostpaid.instanceIds"
+  } ],
+  "desc_key" : "scs.CancelPrepaidToPostpaid.desc"
+}

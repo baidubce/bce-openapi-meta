@@ -1,0 +1,8 @@
+{
+  "CreateDeploymentSet" : {
+    "name" : "Deployment set name.",
+    "desc" : "Remarks.",
+    "strategy" : "Strategy. Default value: HOST_HA.",
+    "concurrency" : "Concurrency. Value range: 1-127. Default value: 20."
+  }
+}

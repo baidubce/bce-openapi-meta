@@ -1,0 +1,467 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "scs",
+  "apis" : {
+    "ModifyParameters" : {
+      "title" : "modifyParameters",
+      "summary" : "modifyParameters"
+    },
+    "GetClusterBlbStatus" : {
+      "title" : "getClusterBlbStatus",
+      "summary" : "getClusterBlbStatus"
+    },
+    "ClusterStatusCheck" : {
+      "title" : "clusterStatusCheck",
+      "summary" : "clusterStatusCheck"
+    },
+    "SetClusterAsMaster" : {
+      "title" : "setClusterAsMaster",
+      "summary" : "setClusterAsMaster"
+    },
+    "SetClusterAsSlave" : {
+      "title" : "setClusterAsSlave",
+      "summary" : "setClusterAsSlave"
+    },
+    "CreateHotGroup" : {
+      "title" : "createHotGroup",
+      "summary" : "createHotGroup"
+    },
+    "BindTags" : {
+      "title" : "bindTags",
+      "summary" : "bindTags"
+    },
+    "UnbindTags" : {
+      "title" : "unbindTags",
+      "summary" : "unbindTags"
+    },
+    "SyncGroupPreCheck" : {
+      "title" : "syncGroupPreCheck",
+      "summary" : "syncGroupPreCheck"
+    },
+    "HotGroupRemoveCluster" : {
+      "title" : "hotGroupRemoveCluster",
+      "summary" : "hotGroupRemoveCluster"
+    },
+    "SyncGroupRemoveInstance" : {
+      "title" : "syncGroupRemoveInstance",
+      "summary" : "syncGroupRemoveInstance"
+    },
+    "HotGroupAddCluster" : {
+      "title" : "hotGroupAddCluster",
+      "summary" : "hotGroupAddCluster"
+    },
+    "SyncGroupAddInstance" : {
+      "title" : "syncGroupAddInstance",
+      "summary" : "syncGroupAddInstance"
+    },
+    "DeleteInstances" : {
+      "title" : "deleteInstances",
+      "summary" : "deleteInstances"
+    },
+    "SyncGroupModifyBnsgroup" : {
+      "title" : "syncGroupModifyBnsgroup",
+      "summary" : "syncGroupModifyBnsgroup"
+    },
+    "BatchRestoreInstances" : {
+      "title" : "batchRestoreInstances",
+      "summary" : "batchRestoreInstances"
+    },
+    "HotGroupChangeMasterRole" : {
+      "title" : "hotGroupChangeMasterRole",
+      "summary" : "hotGroupChangeMasterRole"
+    },
+    "SyncGroupDelayInfo" : {
+      "title" : "syncGroupDelayInfo",
+      "summary" : "syncGroupDelayInfo"
+    },
+    "HotGroupSetFlowControlRules" : {
+      "title" : "hotGroupSetFlowControlRules",
+      "summary" : "hotGroupSetFlowControlRules"
+    },
+    "InstanceVersionUpgrade" : {
+      "title" : "instanceVersionUpgrade",
+      "summary" : "instanceVersionUpgrade"
+    },
+    "BindSecurityGroup" : {
+      "title" : "bindSecurityGroup",
+      "summary" : "bindSecurityGroup"
+    },
+    "UpdateSecurityGroup" : {
+      "title" : "updateSecurityGroup",
+      "summary" : "updateSecurityGroup"
+    },
+    "DisconnectEntrance" : {
+      "title" : "disconnectEntrance",
+      "summary" : "disconnectEntrance"
+    },
+    "UnbindSecurityGroup" : {
+      "title" : "unbindSecurityGroup",
+      "summary" : "unbindSecurityGroup"
+    },
+    "ModifyDeploymentSet" : {
+      "title" : "modifyDeploymentSet",
+      "summary" : "modifyDeploymentSet"
+    },
+    "CreateEntrance" : {
+      "title" : "createEntrance",
+      "summary" : "createEntrance"
+    },
+    "CreateDeploymentSet" : {
+      "title" : "createDeploymentSet",
+      "summary" : "createDeploymentSet"
+    },
+    "ModifyEntrance" : {
+      "title" : "modifyEntrance",
+      "summary" : "modifyEntrance"
+    },
+    "DeleteDeploymentSet" : {
+      "title" : "deleteDeploymentSet",
+      "summary" : "deleteDeploymentSet"
+    },
+    "GetDeploymentSetList" : {
+      "title" : "getDeploymentSetList",
+      "summary" : "getDeploymentSetList"
+    },
+    "ModifyReplicationZone" : {
+      "title" : "modifyReplicationZone",
+      "summary" : "modifyReplicationZone"
+    },
+    "GetRecycleList" : {
+      "title" : "getRecycleList",
+      "summary" : "getRecycleList"
+    },
+    "ModifyTimeWindow" : {
+      "title" : "modifyTimeWindow",
+      "summary" : "modifyTimeWindow"
+    },
+    "ClusterTypeUpgrade" : {
+      "title" : "clusterTypeUpgrade",
+      "summary" : "clusterTypeUpgrade"
+    },
+    "GetHotGroupList" : {
+      "title" : "getHotGroupList",
+      "summary" : "getHotGroupList"
+    },
+    "ModifyInstanceName" : {
+      "title" : "modifyInstanceName",
+      "summary" : "modifyInstanceName"
+    },
+    "ProxyNodeReplace" : {
+      "title" : "proxyNodeReplace",
+      "summary" : "proxyNodeReplace"
+    },
+    "GetHotGroupDetail" : {
+      "title" : "getHotGroupDetail",
+      "summary" : "getHotGroupDetail"
+    },
+    "MasterSlaveSwitch" : {
+      "title" : "masterSlaveSwitch",
+      "summary" : "masterSlaveSwitch"
+    },
+    "ReleaseHotGroup" : {
+      "title" : "releaseHotGroup",
+      "summary" : "releaseHotGroup"
+    },
+    "HotGroupModifyName" : {
+      "title" : "hotGroupModifyName",
+      "summary" : "hotGroupModifyName"
+    },
+    "HotGroupForbidWrite" : {
+      "title" : "hotGroupForbidWrite",
+      "summary" : "hotGroupForbidWrite"
+    },
+    "HotGroupStaleReadable" : {
+      "title" : "hotGroupStaleReadable",
+      "summary" : "hotGroupStaleReadable"
+    },
+    "GetInstanceSpecList" : {
+      "title" : "getInstanceSpecList",
+      "summary" : "getInstanceSpecList"
+    },
+    "GetSubnetList" : {
+      "title" : "getSubnetList",
+      "summary" : "getSubnetList"
+    },
+    "HotGroupSyncStatus" : {
+      "title" : "hotGroupSyncStatus",
+      "summary" : "hotGroupSyncStatus"
+    },
+    "GetAvailableZones" : {
+      "title" : "getAvailableZones",
+      "summary" : "getAvailableZones"
+    },
+    "GetBackUpUrl" : {
+      "title" : "getBackUpUrl",
+      "summary" : "getBackUpUrl"
+    },
+    "ModifyParameterTemplateName" : {
+      "title" : "modifyParameterTemplateName",
+      "summary" : "modifyParameterTemplateName"
+    },
+    "CreateSyncGroup" : {
+      "title" : "createSyncGroup",
+      "summary" : "createSyncGroup"
+    },
+    "ParameterTemplateModifyParameters" : {
+      "title" : "parameterTemplateModifyParameters",
+      "summary" : "parameterTemplateModifyParameters"
+    },
+    "SyncGroupList" : {
+      "title" : "syncGroupList",
+      "summary" : "syncGroupList"
+    },
+    "SyncGroupDetail" : {
+      "title" : "syncGroupDetail",
+      "summary" : "syncGroupDetail"
+    },
+    "DeleteSyncGroup" : {
+      "title" : "deleteSyncGroup",
+      "summary" : "deleteSyncGroup"
+    },
+    "ModifySyncGroupName" : {
+      "title" : "modifySyncGroupName",
+      "summary" : "modifySyncGroupName"
+    },
+    "GetSyncGroupStatus" : {
+      "title" : "getSyncGroupStatus",
+      "summary" : "getSyncGroupStatus"
+    },
+    "GetApplicationParameterTemplateRecords" : {
+      "title" : "getApplicationParameterTemplateRecords",
+      "summary" : "getApplicationParameterTemplateRecords"
+    },
+    "AddParametersToParameterTemplate" : {
+      "title" : "addParametersToParameterTemplate",
+      "summary" : "addParametersToParameterTemplate"
+    },
+    "GetSystemParameterList" : {
+      "title" : "getSystemParameterList",
+      "summary" : "getSystemParameterList"
+    },
+    "ClearInstance" : {
+      "title" : "clearInstance",
+      "summary" : "clearInstance"
+    },
+    "CreateParameterTemplate" : {
+      "title" : "createParameterTemplate",
+      "summary" : "createParameterTemplate"
+    },
+    "GetParameterTemplateList" : {
+      "title" : "getParameterTemplateList",
+      "summary" : "getParameterTemplateList"
+    },
+    "QueryMemoryScalingConfig" : {
+      "title" : "queryMemoryScalingConfig",
+      "summary" : "queryMemoryScalingConfig"
+    },
+    "ParameterTemplateDetails" : {
+      "title" : "parameterTemplateDetails",
+      "summary" : "parameterTemplateDetails"
+    },
+    "SetMemoryScalingConfig" : {
+      "title" : "setMemoryScalingConfig",
+      "summary" : "setMemoryScalingConfig"
+    },
+    "DeleteMemoryScalingConfig" : {
+      "title" : "deleteMemoryScalingConfig",
+      "summary" : "deleteMemoryScalingConfig"
+    },
+    "ApplicationParameterTemplate" : {
+      "title" : "applicationParameterTemplate",
+      "summary" : "applicationParameterTemplate"
+    },
+    "ProxyVersionUpgradeOrRestart" : {
+      "title" : "proxyVersionUpgradeOrRestart",
+      "summary" : "proxyVersionUpgradeOrRestart"
+    },
+    "ParameterTemplateDeleteParameters" : {
+      "title" : "parameterTemplateDeleteParameters",
+      "summary" : "parameterTemplateDeleteParameters"
+    },
+    "DeleteParameterTemplate" : {
+      "title" : "deleteParameterTemplate",
+      "summary" : "deleteParameterTemplate"
+    },
+    "GetInstanceDetail" : {
+      "title" : "getInstanceDetail",
+      "summary" : "getInstanceDetail"
+    },
+    "GetPriceForCreateInstance" : {
+      "title" : "getPriceForCreateInstance",
+      "summary" : "getPriceForCreateInstance"
+    },
+    "CreateAnInstance" : {
+      "title" : "createAnInstance",
+      "summary" : "createAnInstance"
+    },
+    "ChangeConfiguration" : {
+      "title" : "changeConfiguration",
+      "summary" : "changeConfiguration"
+    },
+    "TdeEncryption" : {
+      "title" : "tdeEncryption",
+      "summary" : "tdeEncryption"
+    },
+    "GePriceForResizeInstance" : {
+      "title" : "gePriceForResizeInstance",
+      "summary" : "gePriceForResizeInstance"
+    },
+    "QueryIpWhitelist" : {
+      "title" : "queryIpWhitelist",
+      "summary" : "queryIpWhitelist"
+    },
+    "ChangeAccessPassword" : {
+      "title" : "changeAccessPassword",
+      "summary" : "changeAccessPassword"
+    },
+    "ViewSecurityGroup" : {
+      "title" : "viewSecurityGroup",
+      "summary" : "viewSecurityGroup"
+    },
+    "DeleteIpWhitelist" : {
+      "title" : "deleteIpWhitelist",
+      "summary" : "deleteIpWhitelist"
+    },
+    "AddIpWhitelist" : {
+      "title" : "addIpWhitelist",
+      "summary" : "addIpWhitelist"
+    },
+    "ReleaseInstance" : {
+      "title" : "releaseInstance",
+      "summary" : "releaseInstance"
+    },
+    "GetTlsCert" : {
+      "title" : "getTlsCert",
+      "summary" : "getTlsCert"
+    },
+    "DomainNameExchange" : {
+      "title" : "domainNameExchange",
+      "summary" : "domainNameExchange"
+    },
+    "UpdateTlsEncryption" : {
+      "title" : "updateTlsEncryption",
+      "summary" : "updateTlsEncryption"
+    },
+    "GetInstanceList" : {
+      "title" : "getInstanceList",
+      "summary" : "getInstanceList"
+    },
+    "GetInstanceWhiteGroup" : {
+      "title" : "getInstanceWhiteGroup",
+      "summary" : "getInstanceWhiteGroup"
+    },
+    "CancelPrepaidToPostpaid" : {
+      "title" : "cancelPrepaidToPostpaid",
+      "summary" : "cancelPrepaidToPostpaid"
+    },
+    "DeleteInstanceWhiteGroup" : {
+      "title" : "deleteInstanceWhiteGroup",
+      "summary" : "deleteInstanceWhiteGroup"
+    },
+    "UpdateInstanceWhiteGroup" : {
+      "title" : "updateInstanceWhiteGroup",
+      "summary" : "updateInstanceWhiteGroup"
+    },
+    "CreateInstanceWhiteGroup" : {
+      "title" : "createInstanceWhiteGroup",
+      "summary" : "createInstanceWhiteGroup"
+    },
+    "ManuallyModifyBandwidth" : {
+      "title" : "manuallyModifyBandwidth",
+      "summary" : "manuallyModifyBandwidth"
+    },
+    "ModifyInstanceDomainName" : {
+      "title" : "modifyInstanceDomainName",
+      "summary" : "modifyInstanceDomainName"
+    },
+    "ModifyBackupComment" : {
+      "title" : "modifyBackupComment",
+      "summary" : "modifyBackupComment"
+    },
+    "ManualBackup" : {
+      "title" : "manualBackup",
+      "summary" : "manualBackup"
+    },
+    "GetBackupList" : {
+      "title" : "getBackupList",
+      "summary" : "getBackupList"
+    },
+    "GetBackupStrategy" : {
+      "title" : "getBackupStrategy",
+      "summary" : "getBackupStrategy"
+    },
+    "DeleteManualBackup" : {
+      "title" : "deleteManualBackup",
+      "summary" : "deleteManualBackup"
+    },
+    "SetBackupPolicy" : {
+      "title" : "setBackupPolicy",
+      "summary" : "setBackupPolicy"
+    },
+    "GetBackUpUsage" : {
+      "title" : "getBackUpUsage",
+      "summary" : "getBackUpUsage"
+    },
+    "RenewInstance" : {
+      "title" : "renewInstance",
+      "summary" : "renewInstance"
+    },
+    "PrepaidToPostpaid" : {
+      "title" : "prepaidToPostpaid",
+      "summary" : "prepaidToPostpaid"
+    },
+    "PostPaidToPrepaid" : {
+      "title" : "postPaidToPrepaid",
+      "summary" : "postPaidToPrepaid"
+    },
+    "CreateAccount" : {
+      "title" : "createAccount",
+      "summary" : "createAccount"
+    },
+    "LogList" : {
+      "title" : "logList",
+      "summary" : "logList"
+    },
+    "DeleteAccount" : {
+      "title" : "deleteAccount",
+      "summary" : "deleteAccount"
+    },
+    "LogDetails" : {
+      "title" : "logDetails",
+      "summary" : "logDetails"
+    },
+    "AuditLogSwitch" : {
+      "title" : "auditLogSwitch",
+      "summary" : "auditLogSwitch"
+    },
+    "SetPermissions" : {
+      "title" : "setPermissions",
+      "summary" : "setPermissions"
+    },
+    "ChangeAccountPassword" : {
+      "title" : "changeAccountPassword",
+      "summary" : "changeAccountPassword"
+    },
+    "GetTimeWindow" : {
+      "title" : "getTimeWindow",
+      "summary" : "getTimeWindow"
+    },
+    "RestartInstance" : {
+      "title" : "restartInstance",
+      "summary" : "restartInstance"
+    },
+    "AccountList" : {
+      "title" : "accountList",
+      "summary" : "accountList"
+    },
+    "HotGroupPreCheck" : {
+      "title" : "hotGroupPreCheck",
+      "summary" : "hotGroupPreCheck"
+    },
+    "GetParameterList" : {
+      "title" : "getParameterList",
+      "summary" : "getParameterList"
+    }
+  }
+}

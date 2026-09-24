@@ -1,0 +1,6 @@
+{
+  "HotGroupRemoveCluster" : {
+    "groupId" : "Hot active instance group ID",
+    "instanceId" : "Secondary role cluster ID"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "RestartInstance" : {
+    "instanceId" : "实例ID",
+    "isDefer" : "执行时机。<li>false：立即执行<li>true：维护时间内执行"
+  }
+}

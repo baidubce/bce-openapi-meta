@@ -1,0 +1,19 @@
+{
+  "name" : "ModifyEntrance",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/azoneMigration/modifyEntrance",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ModifyEntrance.instanceId"
+  }, {
+    "name" : "isDefer",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyEntrance.isDefer"
+  } ],
+  "desc_key" : "scs.ModifyEntrance.desc"
+}

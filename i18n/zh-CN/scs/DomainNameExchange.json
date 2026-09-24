@@ -1,0 +1,6 @@
+{
+  "DomainNameExchange" : {
+    "sourceInstanceId" : "源实例ID",
+    "targetInstanceId" : "目标实例ID"
+  }
+}

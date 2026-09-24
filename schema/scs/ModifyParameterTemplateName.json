@@ -1,0 +1,19 @@
+{
+  "name" : "ModifyParameterTemplateName",
+  "method" : "PUT",
+  "uri" : "/v2/template/rename/{templateShowId}",
+  "parameters" : [ {
+    "name" : "templateShowId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ModifyParameterTemplateName.templateShowId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyParameterTemplateName.name"
+  } ],
+  "desc_key" : "scs.ModifyParameterTemplateName.desc"
+}

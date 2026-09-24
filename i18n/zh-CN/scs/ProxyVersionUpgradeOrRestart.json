@@ -1,0 +1,8 @@
+{
+  "ProxyVersionUpgradeOrRestart" : {
+    "instanceId" : "集群ID",
+    "proxyList" : "升级任务为空 重启任务不为空。<li>填写批量重启的proxy的showId",
+    "upgradeType" : "任务类型。 <li>relaunch：重启proxy；<li> latest：升级proxy版本",
+    "isDefer" : "是否延迟执行，默认false： <li>false 立即执行 <li>true 延迟执行(维护时间窗口执行)"
+  }
+}

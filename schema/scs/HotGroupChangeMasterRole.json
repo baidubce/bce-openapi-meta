@@ -1,0 +1,19 @@
+{
+  "name" : "HotGroupChangeMasterRole",
+  "method" : "POST",
+  "uri" : "/v2/group/{groupId}/setAsLeader/{instanceId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.HotGroupChangeMasterRole.groupId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.HotGroupChangeMasterRole.instanceId"
+  } ],
+  "desc_key" : "scs.HotGroupChangeMasterRole.desc"
+}

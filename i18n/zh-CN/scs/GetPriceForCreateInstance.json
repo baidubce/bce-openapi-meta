@@ -1,0 +1,16 @@
+{
+  "GetPriceForCreateInstance" : {
+    "engine" : "引擎类型。默认值为2。取值范围如下： <br>  Redis内存型: 2 <br>  Reids 容量型: 3",
+    "clusterType" : "集群类型。默认值为master_slave。取值范围如下：<br>  Redis内存型标准版：master_slave<br>  Redis内存型集群版：cluster<br>  Redis容量型（Pegadb）集群版：cluster<br> Memcache: default",
+    "nodeType" : "实例规格。<br>Redis内存型和Redis容量型时为必填项。具体规格通过   [获取实例规格列表](https://cloud.baidu.com/doc/SCS/s/ikhvw6dqg)接口获取。<br>Memcache时为非必填项，此参数无效。",
+    "cacheInstanceType" : "Memcache的节点规格。单位GB。<br>取值范围：1、2、4、8、16、32、64。",
+    "shardNum" : "分片个数，默认为1",
+    "replicationNum" : "副本数量。默认值为1。取值范围1-10。<br>Redis内存型和Redis容量型时有效。<br>Memcache时无效。",
+    "instanceNum" : "购买数量，默认为1",
+    "diskType" : "存储磁盘类型，购买Reids 容量型(原 PegaDB)时有效 。默认值为cloud_hp1。",
+    "diskFlavor" : "单分片存储磁盘容量大小，购买Reids 容量型(原 PegaDB)时为必填项。",
+    "chargeType" : "计费类型。默认为按量付费postpay。取值范围如下：<br>包年包月：prepay。<br> 按量付费：postpay。",
+    "period" : "计费周期。计费类型为包年包月时必填，单位为月，默认为1",
+    "timeUnit" : "计费单位。包年包月时默认值为MONTH；按量付费时默认值为MINUTE。取值范围如下，区分大小写：<br>  年：YEAR<br> 月：MONTH<br> 日：DAY<br>小时：HOUR。仅按量付费支持此项。<br>分钟：MINUTE。仅按量付费支持此项。"
+  }
+}

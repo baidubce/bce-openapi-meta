@@ -1,0 +1,5 @@
+{
+  "GetClusterBlbStatus" : {
+    "instanceId" : "实例ID"
+  }
+}

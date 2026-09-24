@@ -1,0 +1,6 @@
+{
+  "HotGroupModifyName" : {
+    "groupId" : "待查询的热活实例组ID",
+    "groupName" : "新的名称。规则：支持大小写字母、数字以及-_.等特殊字符，长度6~32"
+  }
+}

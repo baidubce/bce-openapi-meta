@@ -1,0 +1,8 @@
+{
+  "LogList" : {
+    "instanceId" : "集群ID",
+    "fileType" : "日志类型，取值范围：</li><li>slowlog（慢日志下载列表）</li><li>runlog（运行日志下载列表）</li><li>auditlog（审计列表）",
+    "startTime" : "开始时间，格式 \"yyyy-MM-dd hh:mm:ss\"",
+    "endTime" : "结束时间，格式 \"yyyy-MM-dd hh:mm:ss\"<li>未填写该参数，将默认返回开始时间+24小时内的日志。\"<li>开始时间和结束时间时间跨度最大为7天。"
+  }
+}

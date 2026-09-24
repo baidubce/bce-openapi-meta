@@ -1,0 +1,19 @@
+{
+  "name" : "UnbindSecurityGroup",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/securityGroup/unbind",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.UnbindSecurityGroup.instanceId"
+  }, {
+    "name" : "securityGroupIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.UnbindSecurityGroup.securityGroupIds"
+  } ],
+  "desc_key" : "scs.UnbindSecurityGroup.desc"
+}

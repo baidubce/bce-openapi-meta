@@ -1,0 +1,16 @@
+{
+  "GetPriceForCreateInstance" : {
+    "engine" : "Engine type. Default is 2. Valid values: <br> Redis in-memory: 2 <br> Redis capacity: 3",
+    "clusterType" : "Cluster type. Default is master_slave. Valid values: <br> Redis in-memory Standard Edition: master_slave <br> Redis in-memory Cluster Edition: cluster <br> Redis capacity (PegaDB) Cluster Edition: cluster <br> Memcache: default",
+    "nodeType" : "Instance specification. <br> Required for Redis in-memory and Redis capacity types. Obtain specific specifications via the [Get Instance Specification List](https://cloud.baidu.com/doc/SCS/s/ikhvw6dqg) API. <br> Optional for Memcache; this parameter is invalid.",
+    "cacheInstanceType" : "Memcache node specification. Unit: GB. <br> Valid values: 1, 2, 4, 8, 16, 32, 64.",
+    "shardNum" : "Number of shards. Default is 1.",
+    "replicationNum" : "Number of replicas. Default is 1. Valid range: 1-10. <br> Valid for Redis in-memory and Redis capacity types. <br> Invalid for Memcache.",
+    "instanceNum" : "Purchase quantity. Default is 1.",
+    "diskType" : "Storage disk type. Valid when purchasing Redis capacity (formerly PegaDB). Default is cloud_hp1.",
+    "diskFlavor" : "Storage disk capacity per shard. Required when purchasing Redis capacity (formerly PegaDB).",
+    "chargeType" : "Billing type. Default is pay-as-you-go (postpay). Valid values: <br> Subscription: prepay. <br> Pay-as-you-go: postpay.",
+    "period" : "Billing cycle. Required when billing type is subscription. Unit: month. Default is 1.",
+    "timeUnit" : "Billing unit. Default is MONTH for subscription; MINUTE for pay-as-you-go. Valid values (case-sensitive): <br> Year: YEAR <br> Month: MONTH <br> Day: DAY <br> Hour: HOUR. Supported only for pay-as-you-go. <br> Minute: MINUTE. Supported only for pay-as-you-go."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "GePriceForResizeInstance" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
+    "instanceId" : "实例Id",
+    "nodeType" : "节点规格，Redis内存型和Redis容量型此字段有效。<br>具体规格通过 [获取实例规格列表](https://cloud.baidu.com/doc/SCS/s/ikhvw6dqg)接口获取。",
+    "shardNum" : "分片个数，默认为1",
+    "replicationNum" : "副本数量，默认为1。<br/>Redis内存型和Redis容量型此字段有效。",
+    "diskFlavor" : "单分片容量，单位GB。<br/>  Redis容量型此字段有效。",
+    "chargeType" : "计费类型。预付费prepay/后付费postpay,计费类型需与原实例相同",
+    "period" : "计费周期。计费类型为预付费必填,单位为月",
+    "changeType" : "变更类型。<br/>modifyType：Redis标准版变配为集群版时的询价标识，此时为必填字段。"
+  }
+}

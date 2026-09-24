@@ -1,0 +1,19 @@
+{
+  "name" : "AuditLogSwitch",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/log/audit/switch",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.AuditLogSwitch.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.AuditLogSwitch.action"
+  } ],
+  "desc_key" : "scs.AuditLogSwitch.desc"
+}

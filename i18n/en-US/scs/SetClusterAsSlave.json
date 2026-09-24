@@ -1,0 +1,7 @@
+{
+  "SetClusterAsSlave" : {
+    "instanceId" : "Instance ID",
+    "masterDomain" : "Access domain of the hot-active master instance. For cross-region setups, the DNS replication feature of peer connection must be enabled",
+    "masterPort" : "Access port of the hot-active master instance"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name" : "ManuallyModifyBandwidth",
+  "method" : "POST",
+  "uri" : "/v1/instance/{instanceId}/modifyBandwidth",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ManuallyModifyBandwidth.instanceId"
+  }, {
+    "name" : "shardBandwidthInfo",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ManuallyModifyBandwidth.shardBandwidthInfo",
+    "sub_parameters" : [ {
+      "name" : "shardName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ManuallyModifyBandwidth.shardBandwidthInfo.shardName"
+    }, {
+      "name" : "nodeBandwidthInMB",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "scs.ManuallyModifyBandwidth.shardBandwidthInfo.nodeBandwidthInMB"
+    } ]
+  } ],
+  "desc_key" : "scs.ManuallyModifyBandwidth.desc"
+}

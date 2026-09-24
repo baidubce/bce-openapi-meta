@@ -1,0 +1,30 @@
+{
+  "name" : "ModifyParameters",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/parameter",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ModifyParameters.instanceId"
+  }, {
+    "name" : "parameter",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyParameters.parameter",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ModifyParameters.parameter.name"
+    }, {
+      "name" : "value",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ModifyParameters.parameter.value"
+    } ]
+  } ],
+  "desc_key" : "scs.ModifyParameters.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "HotGroupForbidWrite" : {
+    "groupId" : "热活实例组ID",
+    "forbidWriteFlag" : "禁写标识（false 未禁写 true 禁写）"
+  }
+}

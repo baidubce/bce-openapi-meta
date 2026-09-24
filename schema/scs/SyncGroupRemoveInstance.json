@@ -1,0 +1,25 @@
+{
+  "name" : "SyncGroupRemoveInstance",
+  "method" : "POST",
+  "uri" : "/v1/syncGroup/{groupId}/removeCluster",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.SyncGroupRemoveInstance.groupId"
+  }, {
+    "name" : "memberId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.SyncGroupRemoveInstance.memberId"
+  }, {
+    "name" : "region",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.SyncGroupRemoveInstance.region"
+  } ],
+  "desc_key" : "scs.SyncGroupRemoveInstance.desc"
+}

@@ -1,0 +1,5 @@
+{
+  "ClusterStatusCheck" : {
+    "instanceId" : "The instance ID to check."
+  }
+}

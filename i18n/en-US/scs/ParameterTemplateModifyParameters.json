@@ -1,0 +1,10 @@
+{
+  "ParameterTemplateModifyParameters" : {
+    "templateShowId" : "Parameter template ID to query",
+    "parameters" : "Collection of parameters to add",
+    "parameters.confName" : "Parameter name (refer to the system template)",
+    "parameters.confValue" : "Parameter value (can be modified within the allowed range defined by confRange in the system template)",
+    "parameters.confType" : "Parameter type (refer to the system template)",
+    "parameters.confModule" : "Refer to the system template"
+  }
+}

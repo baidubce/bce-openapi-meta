@@ -1,0 +1,8 @@
+{
+  "ModifyParameters" : {
+    "instanceId" : "实例Id",
+    "parameter" : "需要修改的参数",
+    "parameter.name" : "参数名称",
+    "parameter.value" : "设置参数值"
+  }
+}

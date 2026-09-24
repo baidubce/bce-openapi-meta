@@ -1,0 +1,19 @@
+{
+  "name" : "HotGroupRemoveCluster",
+  "method" : "POST",
+  "uri" : "/v2/group/{groupId}/quit/{instanceId}",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.HotGroupRemoveCluster.groupId"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.HotGroupRemoveCluster.instanceId"
+  } ],
+  "desc_key" : "scs.HotGroupRemoveCluster.desc"
+}

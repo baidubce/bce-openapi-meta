@@ -1,0 +1,71 @@
+{
+  "name" : "ChangeConfiguration",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/change",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ChangeConfiguration.instanceId"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ChangeConfiguration.clientToken"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ChangeConfiguration.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.ChangeConfiguration.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "scs.ChangeConfiguration.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "scs.ChangeConfiguration.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "scs.ChangeConfiguration.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  }, {
+    "name" : "engineVersion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ChangeConfiguration.engineVersion"
+  }, {
+    "name" : "nodeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ChangeConfiguration.nodeType"
+  }, {
+    "name" : "shardNum",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ChangeConfiguration.shardNum"
+  }, {
+    "name" : "diskFlavor",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.ChangeConfiguration.diskFlavor"
+  } ],
+  "desc_key" : "scs.ChangeConfiguration.desc"
+}

@@ -1,0 +1,6 @@
+{
+  "PostPaidToPrepaid" : {
+    "duration" : "Duration for converting to prepaid, in months. Minimum value is 1.",
+    "instanceIds" : "List of cluster IDs."
+  }
+}

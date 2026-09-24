@@ -1,0 +1,5 @@
+{
+  "GetSyncGroupStatus" : {
+    "syncGroupShowId" : "Instance group ID."
+  }
+}

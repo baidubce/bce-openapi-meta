@@ -1,0 +1,6 @@
+{
+  "SyncGroupList" : {
+    "page" : "Current page number.",
+    "pageSize" : "Number of items displayed per page."
+  }
+}

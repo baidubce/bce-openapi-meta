@@ -1,0 +1,25 @@
+{
+  "name" : "SetClusterAsSlave",
+  "method" : "PUT",
+  "uri" : "/v2/instance/{instanceId}/setAsSlave",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.SetClusterAsSlave.instanceId"
+  }, {
+    "name" : "masterDomain",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.SetClusterAsSlave.masterDomain"
+  }, {
+    "name" : "masterPort",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.SetClusterAsSlave.masterPort"
+  } ],
+  "desc_key" : "scs.SetClusterAsSlave.desc"
+}

@@ -1,0 +1,7 @@
+{
+  "LogDetails" : {
+    "instanceId" : "集群ID",
+    "logId" : "日志ID",
+    "validSeconds" : "下载有效时间，单位s。默认值1800。"
+  }
+}

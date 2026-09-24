@@ -1,0 +1,6 @@
+{
+  "AuditLogSwitch" : {
+    "instanceId" : "Cluster ID",
+    "action" : "Switch action. open (enable), close (disable)"
+  }
+}

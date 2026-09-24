@@ -1,0 +1,8 @@
+{
+  "ModifyTimeWindow" : {
+    "instanceId" : "集群ID",
+    "startTime" : "开始时间。示例：04:00（即凌晨4点）",
+    "duration" : "持续时间。取值范围：1-8（单位：小时）",
+    "period" : "维护周期。1-6分别代表周一到周六。0代表周日。"
+  }
+}

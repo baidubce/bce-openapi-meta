@@ -1,0 +1,13 @@
+{
+  "name" : "SyncGroupDelayInfo",
+  "method" : "GET",
+  "uri" : "/v1/syncGroup/{groupId}/delayInfo",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.SyncGroupDelayInfo.groupId"
+  } ],
+  "desc_key" : "scs.SyncGroupDelayInfo.desc"
+}

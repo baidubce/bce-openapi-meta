@@ -1,0 +1,5 @@
+{
+  "GetParameterList" : {
+    "instanceId" : "Instance ID to query"
+  }
+}

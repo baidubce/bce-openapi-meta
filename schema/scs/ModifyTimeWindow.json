@@ -1,0 +1,31 @@
+{
+  "name" : "ModifyTimeWindow",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/timeWindow",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ModifyTimeWindow.instanceId"
+  }, {
+    "name" : "startTime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyTimeWindow.startTime"
+  }, {
+    "name" : "duration",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyTimeWindow.duration"
+  }, {
+    "name" : "period",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyTimeWindow.period"
+  } ],
+  "desc_key" : "scs.ModifyTimeWindow.desc"
+}

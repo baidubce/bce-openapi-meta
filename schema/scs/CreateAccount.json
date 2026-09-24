@@ -1,0 +1,44 @@
+{
+  "name" : "CreateAccount",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/{instanceId}/aclUserActions",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.CreateAccount.instanceId"
+  }, {
+    "name" : "userName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAccount.userName"
+  }, {
+    "name" : "clientAuth",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAccount.clientAuth"
+  }, {
+    "name" : "extra",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAccount.extra"
+  }, {
+    "name" : "userType",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.CreateAccount.userType"
+  } ],
+  "desc_key" : "scs.CreateAccount.desc"
+}

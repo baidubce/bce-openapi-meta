@@ -1,0 +1,19 @@
+{
+  "name" : "GetSubnetList",
+  "method" : "GET",
+  "uri" : "/v1/subnet",
+  "parameters" : [ {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "scs.GetSubnetList.vpcId"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "QUERY",
+    "desc_key" : "scs.GetSubnetList.zoneName"
+  } ],
+  "desc_key" : "scs.GetSubnetList.desc"
+}

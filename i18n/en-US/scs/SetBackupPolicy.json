@@ -1,0 +1,9 @@
+{
+  "SetBackupPolicy" : {
+    "instanceId" : "Cluster ID",
+    "backupTime" : "Backup time. <li>When this parameter is not specified, the backup time defaults to 1:05:00.",
+    "backupDays" : "Backup cycle.",
+    "expireDay" : "Retention period of backup files, range: 1-15 days",
+    "isEncrypt" : "Whether to enable encryption. no: disabled; yes: enabled"
+  }
+}

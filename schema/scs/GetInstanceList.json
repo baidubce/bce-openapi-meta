@@ -1,0 +1,31 @@
+{
+  "name" : "GetInstanceList",
+  "method" : "GET",
+  "uri" : "/v2/instance",
+  "parameters" : [ {
+    "name" : "marker",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GetInstanceList.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GetInstanceList.maxKeys"
+  }, {
+    "name" : "instanceIds",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GetInstanceList.instanceIds"
+  }, {
+    "name" : "vnetIp",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.GetInstanceList.vnetIp"
+  } ],
+  "desc_key" : "scs.GetInstanceList.desc"
+}

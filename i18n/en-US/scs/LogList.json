@@ -1,0 +1,8 @@
+{
+  "LogList" : {
+    "instanceId" : "Cluster ID",
+    "fileType" : "Log type. Valid values: </li><li>slowlog (slow log download list)</li><li>runlog (running log download list)</li><li>auditlog (audit list)",
+    "startTime" : "Start time, in the format \"yyyy-MM-dd hh:mm:ss\"",
+    "endTime" : "End time, in the format \"yyyy-MM-dd hh:mm:ss\"<li>If this parameter is not specified, logs within 24 hours from the start time are returned by default.\"<li>The maximum time span between the start time and end time is 7 days."
+  }
+}

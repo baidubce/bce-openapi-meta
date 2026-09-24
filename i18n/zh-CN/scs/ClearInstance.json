@@ -1,0 +1,9 @@
+{
+  "ClearInstance" : {
+    "instanceId" : "集群ID",
+    "password" : "实例密码，如果没有设置密码，传递空字符串，密码需要加密传输，禁止明文传输，详情请参考[密码加密传输规范定义](https://cloud.baidu.com/doc/SCS/s/fjwvxtrd9#%E5%AF%86%E7%A0%81%E5%8A%A0%E5%AF%86%E4%BC%A0%E8%BE%93%E8%A7%84%E8%8C%83%E5%AE%9A%E4%B9%89)",
+    "dbIndex" : "数据库索引，取值为：[0,255]",
+    "isFlushExpired" : "true=只清理过期数据, false=清理所有数据",
+    "isDefer" : "维护时间窗口执行, 仅isFlushExpired=true时可用。<li>true：维护时间执行，false：立即执行。"
+  }
+}

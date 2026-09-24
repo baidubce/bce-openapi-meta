@@ -1,0 +1,6 @@
+{
+  "ModifyInstanceDomainName" : {
+    "instanceId" : "Instance ID",
+    "domain" : "New instance domain name. Domain naming rules:<br>1\\.Composed of lowercase letters and digits;<br>2\\.Must start with a lowercase letter;<br>3\\.Length between 3 and 30 characters."
+  }
+}

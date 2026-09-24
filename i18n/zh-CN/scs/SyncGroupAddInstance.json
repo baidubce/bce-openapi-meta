@@ -1,0 +1,7 @@
+{
+  "SyncGroupAddInstance" : {
+    "groupId" : "多活实例组展示ID",
+    "memberId" : "待添加的成员实例展示ID",
+    "region" : "成员实例所在地域"
+  }
+}

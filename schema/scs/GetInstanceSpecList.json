@@ -1,0 +1,7 @@
+{
+  "name" : "GetInstanceSpecList",
+  "method" : "GET",
+  "uri" : "/v2/nodetypes",
+  "parameters" : [ ],
+  "desc_key" : "scs.GetInstanceSpecList.desc"
+}

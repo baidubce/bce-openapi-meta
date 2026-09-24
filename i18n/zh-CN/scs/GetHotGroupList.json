@@ -1,0 +1,6 @@
+{
+  "GetHotGroupList" : {
+    "pageSize" : "每页数量",
+    "pageNo" : "页码"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "QueryIpWhitelist" : {
+    "instanceId" : "The ID of the instance to be queried"
+  }
+}

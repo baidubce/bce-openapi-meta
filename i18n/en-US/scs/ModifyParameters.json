@@ -1,0 +1,8 @@
+{
+  "ModifyParameters" : {
+    "instanceId" : "Instance ID",
+    "parameter" : "Parameters to modify",
+    "parameter.name" : "Parameter name",
+    "parameter.value" : "Parameter value"
+  }
+}

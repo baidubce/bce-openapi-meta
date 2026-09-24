@@ -1,0 +1,20 @@
+{
+  "name" : "ClusterStatusCheck",
+  "method" : "GET",
+  "uri" : "/v{version}/instance/{instanceId}/status",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ClusterStatusCheck.instanceId"
+  } ],
+  "desc_key" : "scs.ClusterStatusCheck.desc"
+}

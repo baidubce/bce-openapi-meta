@@ -1,0 +1,30 @@
+{
+  "name" : "MasterSlaveSwitch",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/switchMasterSlave",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.MasterSlaveSwitch.instanceId"
+  }, {
+    "name" : "shards",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.MasterSlaveSwitch.shards",
+    "sub_parameters" : [ {
+      "name" : "hashName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.MasterSlaveSwitch.shards.hashName"
+    }, {
+      "name" : "nodeShowId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.MasterSlaveSwitch.shards.nodeShowId"
+    } ]
+  } ],
+  "desc_key" : "scs.MasterSlaveSwitch.desc"
+}

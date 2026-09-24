@@ -1,0 +1,9 @@
+{
+  "SetBackupPolicy" : {
+    "instanceId" : "集群ID",
+    "backupTime" : "备份时间。<li>未填写该参数时，备份时间默认修改为1:05:00。",
+    "backupDays" : "备份周期。",
+    "expireDay" : "备份文件保留时长，可选范围： 1-15天",
+    "isEncrypt" : "是否开启加密 no 不开启 yes 开启"
+  }
+}

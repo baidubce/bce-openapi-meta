@@ -1,0 +1,12 @@
+{
+  "SetMemoryScalingConfig" : {
+    "instanceId" : "Instance ID",
+    "memSpec" : "Instance ID",
+    "memSpec.memUsageUpperThreshold" : "Average memory utilization threshold that triggers automatic scale-up, in %. Values: 70, 80, 90.",
+    "memSpec.memUsageDownThreshold" : "Average memory utilization threshold that triggers automatic scale-down, in %. Values: 20, 30, 40.",
+    "memSpec.maxNodeType" : "Upper limit for scale-up spec",
+    "memSpec.minNodeType" : "Lower limit for scale-down spec",
+    "memSpec.observationWindowSizeForUpper" : "Observation window. The value consists of a number and a time unit suffix. Supported database instances and their values are as follows (suffix m indicates minutes, h indicates hours): 1m, 3m, 5m, 10m, 15m, 30m.",
+    "memSpec.observationWindowSizeForDown" : "Observation window. The value consists of a number and a time unit suffix. Supported database instances and their values are as follows (suffix m indicates minutes, h indicates hours): 5m, 10m, 15m, 30m."
+  }
+}

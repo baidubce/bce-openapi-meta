@@ -1,0 +1,19 @@
+{
+  "name" : "ModifyInstanceName",
+  "method" : "PUT",
+  "uri" : "/v1/instance/{instanceId}/rename",
+  "parameters" : [ {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.ModifyInstanceName.instanceId"
+  }, {
+    "name" : "instanceName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "scs.ModifyInstanceName.instanceName"
+  } ],
+  "desc_key" : "scs.ModifyInstanceName.desc"
+}

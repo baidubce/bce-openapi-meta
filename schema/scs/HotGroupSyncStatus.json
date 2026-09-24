@@ -1,0 +1,13 @@
+{
+  "name" : "HotGroupSyncStatus",
+  "method" : "GET",
+  "uri" : "/v2/group/{groupId}/syncStatus",
+  "parameters" : [ {
+    "name" : "groupId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "scs.HotGroupSyncStatus.groupId"
+  } ],
+  "desc_key" : "scs.HotGroupSyncStatus.desc"
+}

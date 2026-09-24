@@ -1,0 +1,8 @@
+{
+  "HotGroupAddCluster" : {
+    "groupId" : "Hot-active instance group ID",
+    "followerId" : "Follower role cluster ID",
+    "followerRegion" : "Region where the follower role cluster is located",
+    "syncMaster" : "Whether to sync the master role's parameters (sync: sync master role parameters, nosync: do not sync master role parameters)"
+  }
+}

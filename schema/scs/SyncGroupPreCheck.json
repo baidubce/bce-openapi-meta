@@ -1,0 +1,30 @@
+{
+  "name" : "SyncGroupPreCheck",
+  "method" : "POST",
+  "uri" : "/v1/syncGroup/check",
+  "parameters" : [ {
+    "name" : "syncGroupShowId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.SyncGroupPreCheck.syncGroupShowId"
+  }, {
+    "name" : "members",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "scs.SyncGroupPreCheck.members",
+    "sub_parameters" : [ {
+      "name" : "memberId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.SyncGroupPreCheck.members.memberId"
+    }, {
+      "name" : "region",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "scs.SyncGroupPreCheck.members.region"
+    } ]
+  } ],
+  "desc_key" : "scs.SyncGroupPreCheck.desc"
+}

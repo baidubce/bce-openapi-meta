@@ -1,0 +1,8 @@
+{
+  "MasterSlaveSwitch" : {
+    "instanceId" : "Cluster ID",
+    "shards" : "List of shards to switch.",
+    "shards.hashName" : "The shard to switch. Shard information can be obtained from the RedisList field of the instance details API.",
+    "shards.nodeShowId" : "The ID of the node in this shard to promote to master. Node ID information within the shard can be obtained from the RedisList field of the instance details API."
+  }
+}
