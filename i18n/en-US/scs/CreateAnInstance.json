@@ -31,7 +31,7 @@
     "tags.tagValue" : "Tag value.",
     "confTpl" : "Specified parameter template ID.",
     "resourceGroupId" : "Resource group ID. Resource group information can be queried via the Resource Management API.",
-    "autoBackupConfig" : "Backup configuration. Format: \"${backup cycle};${backup time};${backup duration}\". Backup cycle values: Monday: 'Mon', Tuesday: 'Tue', Wednesday: 'Wed', Thursday: 'Thu', Friday: 'Fri', Saturday: 'Sta', Sunday: 'Sun'. Backup time is in UTC, e.g., 16:00:00 corresponds to 00:00:00 Beijing time. Backup time: value 1-15.",
+    "autoBackupConfig" : "Backup configuration. Format: \"${backup cycle};${backup time};${backup duration}\".<br>Backup cycle values: `Mon`: Monday, `Tue`: Tuesday, `Wed`: Wednesday, `Thu`: Thursday, `Fri`: Friday, `Sta`: Saturday, `Sun`: Sunday.<br>Backup time is in UTC, e.g. 16:00:00, which is 00:00:00 Beijing time.<br>Backup duration: value 1-15",
     "deployIdList" : "Deployment set ID list. It is recommended to provide only one deployment set ID, i.e., the list length must not exceed 1. Get the deployment set ID via the Deployment Set List API."
   }
 }

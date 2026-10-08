@@ -1,8 +1,8 @@
 {
   "ProxyVersionUpgradeOrRestart" : {
     "instanceId" : "Cluster ID",
-    "proxyList" : "Empty for upgrade tasks; required for restart tasks. <li>Enter the showId of proxies to restart in batch",
-    "upgradeType" : "Task type. <li>relaunch: restart proxy; <li>latest: upgrade proxy version",
-    "isDefer" : "Whether to execute with delay, default false: <li>false: execute immediately <li>true: execute with delay (during maintenance window)"
+    "proxyList" : "Empty for upgrade tasks; required for restart tasks. Enter the showIds of proxies to restart in batch",
+    "upgradeType" : "Task type. `relaunch`: restart proxy; `latest`: upgrade proxy version",
+    "isDefer" : "Whether to defer execution, default false. `false`: execute immediately; `true`: execute during maintenance time window"
   }
 }

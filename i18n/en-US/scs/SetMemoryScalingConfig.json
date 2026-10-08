@@ -1,7 +1,7 @@
 {
   "SetMemoryScalingConfig" : {
     "instanceId" : "Instance ID",
-    "memSpec" : "Instance ID",
+    "memSpec" : "Memory specification",
     "memSpec.memUsageUpperThreshold" : "Average memory utilization threshold that triggers automatic scale-up, in %. Values: 70, 80, 90.",
     "memSpec.memUsageDownThreshold" : "Average memory utilization threshold that triggers automatic scale-down, in %. Values: 20, 30, 40.",
     "memSpec.maxNodeType" : "Upper limit for scale-up spec",

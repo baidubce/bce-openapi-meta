@@ -1,10 +1,10 @@
 {
   "ClusterTypeUpgrade" : {
     "instanceId" : "Cluster ID",
-    "isDefer" : "Whether to execute during the maintenance window. Defaults to false. true: execute during the maintenance window; false: execute immediately.",
-    "nodeType" : "Node specification. <li>Can be a new specification, which must be a Redis cluster edition specification. <li>Can be empty, defaulting to the original instance specification, but the original instance specification must be a cluster edition specification, otherwise execution fails.",
-    "shardNum" : "Number of shards. <li>Can be set to a new number of shards; <li>Can be empty, defaulting to the original instance's shard count.",
-    "replicationInfo" : "Replica information. <li>Reducing replicas is not supported; adding is allowed. <li>Can be set to new replica information, which must be the full replica information. <li>Can be empty, defaulting to the original instance's replica count.",
+    "isDefer" : "Whether to execute within the maintenance window. Defaults to false. `true`: execute within the maintenance window; `false`: execute immediately.",
+    "nodeType" : "Node specification.<br/>1. Can be a new specification, which must be a Redis cluster edition specification.<br/>2. Can be empty, defaulting to the original instance specification, but the original instance specification must be a cluster edition specification, otherwise execution fails.",
+    "shardNum" : "Number of shards.<br/>1. A new number of shards can be set;<br/>2. Can be empty, defaulting to the original instance's number of shards.",
+    "replicationInfo" : "Replica information.<br/>1. Reducing replicas is not supported; replicas can only be added.<br/>2. New replica information can be set, and it must be the complete replica information.<br/>3. Can be empty, defaulting to the original instance's number of replicas.",
     "replicationInfo.availabilityZone" : "You can query the availability zone list by calling the get availability zone list API. The zoneName naming convention is \"country-region-availability zone sequence\" in lowercase, e.g., Beijing availability zone A is \"cn-bj-a\".",
     "replicationInfo.subnetId" : "Subnet ID",
     "replicationInfo.isMaster" : "Whether it is the master node. 1 for master, 0 for slave. There is one and only one master node."

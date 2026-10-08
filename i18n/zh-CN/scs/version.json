@@ -7,14 +7,6 @@
       "title" : "修改参数",
       "summary" : "修改参数"
     },
-    "GetClusterBlbStatus" : {
-      "title" : "拨测接口",
-      "summary" : "拨测接口"
-    },
-    "ClusterStatusCheck" : {
-      "title" : "集群状态检查",
-      "summary" : "集群状态检查"
-    },
     "SetClusterAsMaster" : {
       "title" : "设置集群为热活主地域",
       "summary" : "设置集群为热活主地域"
@@ -30,10 +22,6 @@
     "BindTags" : {
       "title" : "绑定标签",
       "summary" : "绑定标签"
-    },
-    "UnbindTags" : {
-      "title" : "解绑标签",
-      "summary" : "解绑标签"
     },
     "SyncGroupPreCheck" : {
       "title" : "前置检查",
@@ -79,10 +67,6 @@
       "title" : "设置流控规则",
       "summary" : "设置流控规则"
     },
-    "InstanceVersionUpgrade" : {
-      "title" : "大版本升级API",
-      "summary" : "大版本升级API"
-    },
     "BindSecurityGroup" : {
       "title" : "绑定安全组API",
       "summary" : "绑定安全组API"
@@ -111,10 +95,6 @@
       "title" : "创建部署集API",
       "summary" : "创建部署集API"
     },
-    "ModifyEntrance" : {
-      "title" : "IP变更API",
-      "summary" : "IP变更API"
-    },
     "DeleteDeploymentSet" : {
       "title" : "删除部署集API",
       "summary" : "删除部署集API"
@@ -122,10 +102,6 @@
     "GetDeploymentSetList" : {
       "title" : "获取部署集列表API",
       "summary" : "获取部署集列表API"
-    },
-    "ModifyReplicationZone" : {
-      "title" : "迁移可用区API",
-      "summary" : "迁移可用区API"
     },
     "GetRecycleList" : {
       "title" : "获取回收站内的实例列表",
@@ -135,21 +111,9 @@
       "title" : "修改维护时间窗口API",
       "summary" : "修改维护时间窗口API"
     },
-    "ClusterTypeUpgrade" : {
-      "title" : "标准版升级集群版API",
-      "summary" : "标准版升级集群版API"
-    },
     "GetHotGroupList" : {
       "title" : "获取热活实例组列表",
       "summary" : "获取热活实例组列表"
-    },
-    "ModifyInstanceName" : {
-      "title" : "修改实例名称",
-      "summary" : "修改实例名称"
-    },
-    "ProxyNodeReplace" : {
-      "title" : "代理节点替换API",
-      "summary" : "代理节点替换API"
     },
     "GetHotGroupDetail" : {
       "title" : "热活实例组详情",
@@ -167,18 +131,6 @@
       "title" : "修改热活实例组名称",
       "summary" : "修改热活实例组名称"
     },
-    "HotGroupForbidWrite" : {
-      "title" : "实例组禁写",
-      "summary" : "实例组禁写"
-    },
-    "HotGroupStaleReadable" : {
-      "title" : "设置从角色脏读",
-      "summary" : "设置从角色脏读"
-    },
-    "GetInstanceSpecList" : {
-      "title" : "获取实例规格列表",
-      "summary" : "获取实例规格列表"
-    },
     "GetSubnetList" : {
       "title" : "获取子网列表",
       "summary" : "获取子网列表"
@@ -187,17 +139,9 @@
       "title" : "获取从角色同步状态",
       "summary" : "获取从角色同步状态"
     },
-    "GetAvailableZones" : {
-      "title" : "获取可用区列表",
-      "summary" : "获取可用区列表"
-    },
     "GetBackUpUrl" : {
       "title" : "获取备份的URL API",
       "summary" : "获取备份的URL API"
-    },
-    "ModifyParameterTemplateName" : {
-      "title" : "修改参数模版名称",
-      "summary" : "修改参数模版名称"
     },
     "CreateSyncGroup" : {
       "title" : "创建多活实例组",
@@ -239,10 +183,6 @@
       "title" : "获取系统参数列表",
       "summary" : "获取系统参数列表"
     },
-    "ClearInstance" : {
-      "title" : "清空实例API",
-      "summary" : "清空实例API"
-    },
     "CreateParameterTemplate" : {
       "title" : "创建参数模版",
       "summary" : "创建参数模版"
@@ -259,10 +199,6 @@
       "title" : "参数模版详情",
       "summary" : "参数模版详情"
     },
-    "SetMemoryScalingConfig" : {
-      "title" : "设置内存弹性扩缩配置API",
-      "summary" : "设置内存弹性扩缩配置API"
-    },
     "DeleteMemoryScalingConfig" : {
       "title" : "删除 内存弹性扩缩API",
       "summary" : "删除 内存弹性扩缩API"
@@ -270,10 +206,6 @@
     "ApplicationParameterTemplate" : {
       "title" : "应用参数模版",
       "summary" : "应用参数模版"
-    },
-    "ProxyVersionUpgradeOrRestart" : {
-      "title" : "代理版本升级or重启 API",
-      "summary" : "代理版本升级or重启 API"
     },
     "ParameterTemplateDeleteParameters" : {
       "title" : "参数模版删除参数",
@@ -283,17 +215,9 @@
       "title" : "删除参数模版",
       "summary" : "删除参数模版"
     },
-    "GetInstanceDetail" : {
-      "title" : "获取实例详情",
-      "summary" : "获取实例详情"
-    },
     "GetPriceForCreateInstance" : {
       "title" : "获取创建实例价格",
       "summary" : "获取创建实例价格"
-    },
-    "CreateAnInstance" : {
-      "title" : "创建实例",
-      "summary" : "创建实例"
     },
     "ChangeConfiguration" : {
       "title" : "变更配置",
@@ -311,10 +235,6 @@
       "title" : "查询IP白名单",
       "summary" : "查询IP白名单"
     },
-    "ChangeAccessPassword" : {
-      "title" : "修改访问密码",
-      "summary" : "修改访问密码"
-    },
     "ViewSecurityGroup" : {
       "title" : "查看安全组API",
       "summary" : "查看安全组API"
@@ -326,10 +246,6 @@
     "AddIpWhitelist" : {
       "title" : "增加IP白名单",
       "summary" : "增加IP白名单"
-    },
-    "ReleaseInstance" : {
-      "title" : "释放实例",
-      "summary" : "释放实例"
     },
     "GetTlsCert" : {
       "title" : "获取TLS证书API",
@@ -343,13 +259,13 @@
       "title" : "开启或关闭TLS加密API",
       "summary" : "开启或关闭TLS加密API"
     },
-    "GetInstanceList" : {
-      "title" : "获取实例列表",
-      "summary" : "获取实例列表"
-    },
     "GetInstanceWhiteGroup" : {
       "title" : "查询白名单分组",
       "summary" : "查询白名单分组"
+    },
+    "GetInstanceList" : {
+      "title" : "获取实例列表",
+      "summary" : "获取实例列表"
     },
     "CancelPrepaidToPostpaid" : {
       "title" : "取消预付费转后付费API",
@@ -363,45 +279,133 @@
       "title" : "更新白名单分组",
       "summary" : "更新白名单分组"
     },
+    "GetInstanceDetail" : {
+      "title" : "获取实例详情",
+      "summary" : "获取实例详情"
+    },
     "CreateInstanceWhiteGroup" : {
       "title" : "创建白名单分组",
       "summary" : "创建白名单分组"
+    },
+    "GetAvailableZones" : {
+      "title" : "获取可用区列表",
+      "summary" : "获取可用区列表"
+    },
+    "GetInstanceSpecList" : {
+      "title" : "获取实例规格列表",
+      "summary" : "获取实例规格列表"
+    },
+    "ProxyNodeReplace" : {
+      "title" : "代理节点替换API",
+      "summary" : "代理节点替换API"
     },
     "ManuallyModifyBandwidth" : {
       "title" : "手动修改带宽API",
       "summary" : "手动修改带宽API"
     },
+    "RestartInstance" : {
+      "title" : "重启实例API",
+      "summary" : "重启实例API"
+    },
+    "ModifyInstanceName" : {
+      "title" : "修改实例名称",
+      "summary" : "修改实例名称"
+    },
+    "ClearInstance" : {
+      "title" : "清空实例API",
+      "summary" : "清空实例API"
+    },
+    "ClusterTypeUpgrade" : {
+      "title" : "标准版升级集群版API",
+      "summary" : "标准版升级集群版API"
+    },
+    "ModifyReplicationZone" : {
+      "title" : "迁移可用区API",
+      "summary" : "迁移可用区API"
+    },
+    "ModifyEntrance" : {
+      "title" : "IP变更API",
+      "summary" : "IP变更API"
+    },
+    "UnbindTags" : {
+      "title" : "解绑标签",
+      "summary" : "解绑标签"
+    },
+    "GetClusterBlbStatus" : {
+      "title" : "拨测接口",
+      "summary" : "拨测接口"
+    },
+    "ClusterStatusCheck" : {
+      "title" : "集群状态检查",
+      "summary" : "集群状态检查"
+    },
+    "CreateAnInstance" : {
+      "title" : "创建实例",
+      "summary" : "创建实例"
+    },
+    "ReleaseInstance" : {
+      "title" : "释放实例",
+      "summary" : "释放实例"
+    },
     "ModifyInstanceDomainName" : {
       "title" : "修改实例域名",
       "summary" : "修改实例域名"
+    },
+    "CreateAccount" : {
+      "title" : "创建账号",
+      "summary" : "创建账号"
     },
     "ModifyBackupComment" : {
       "title" : "修改备份备注API",
       "summary" : "修改备份备注API"
     },
+    "ChangeAccountPassword" : {
+      "title" : "修改账号密码",
+      "summary" : "修改账号密码"
+    },
     "ManualBackup" : {
       "title" : "手动备份API",
       "summary" : "手动备份API"
-    },
-    "GetBackupList" : {
-      "title" : "查看备份列表API",
-      "summary" : "查看备份列表API"
     },
     "GetBackupStrategy" : {
       "title" : "获取备份策略API",
       "summary" : "获取备份策略API"
     },
-    "DeleteManualBackup" : {
-      "title" : "删除手动备份API",
-      "summary" : "删除手动备份API"
+    "GetBackupList" : {
+      "title" : "查看备份列表API",
+      "summary" : "查看备份列表API"
     },
     "SetBackupPolicy" : {
       "title" : "设置备份策略API",
       "summary" : "设置备份策略API"
     },
+    "DeleteManualBackup" : {
+      "title" : "删除手动备份API",
+      "summary" : "删除手动备份API"
+    },
+    "ChangeAccessPassword" : {
+      "title" : "修改访问密码",
+      "summary" : "修改访问密码"
+    },
+    "HotGroupForbidWrite" : {
+      "title" : "实例组禁写",
+      "summary" : "实例组禁写"
+    },
+    "HotGroupStaleReadable" : {
+      "title" : "设置从角色脏读",
+      "summary" : "设置从角色脏读"
+    },
+    "ModifyParameterTemplateName" : {
+      "title" : "修改参数模版名称",
+      "summary" : "修改参数模版名称"
+    },
     "GetBackUpUsage" : {
       "title" : "获取备份用量信息",
       "summary" : "获取备份用量信息"
+    },
+    "InstanceVersionUpgrade" : {
+      "title" : "大版本升级API",
+      "summary" : "大版本升级API"
     },
     "RenewInstance" : {
       "title" : "续费API",
@@ -415,9 +419,13 @@
       "title" : "后付费转预付费API",
       "summary" : "后付费转预付费API"
     },
-    "CreateAccount" : {
-      "title" : "创建账号",
-      "summary" : "创建账号"
+    "ProxyVersionUpgradeOrRestart" : {
+      "title" : "代理版本升级or重启 API",
+      "summary" : "代理版本升级or重启 API"
+    },
+    "SetMemoryScalingConfig" : {
+      "title" : "设置内存弹性扩缩配置API",
+      "summary" : "设置内存弹性扩缩配置API"
     },
     "LogList" : {
       "title" : "日志列表API",
@@ -439,17 +447,9 @@
       "title" : "设置权限",
       "summary" : "设置权限"
     },
-    "ChangeAccountPassword" : {
-      "title" : "修改账号密码",
-      "summary" : "修改账号密码"
-    },
     "GetTimeWindow" : {
       "title" : "获取维护时间窗口",
       "summary" : "获取维护时间窗口"
-    },
-    "RestartInstance" : {
-      "title" : "重启实例API",
-      "summary" : "重启实例API"
     },
     "AccountList" : {
       "title" : "账号列表",

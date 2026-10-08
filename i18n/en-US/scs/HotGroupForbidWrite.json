@@ -1,6 +1,6 @@
 {
   "HotGroupForbidWrite" : {
     "groupId" : "Hot group instance ID",
-    "forbidWriteFlag" : "Write-forbidden flag (false: not forbidden, true: forbidden)"
+    "forbidWriteFlag" : "Write-forbidden flag. `false`: not write-forbidden; `true`: write-forbidden"
   }
 }

@@ -31,7 +31,7 @@
     "tags.tagValue" : "标签值",
     "confTpl" : "指定的参数模版ID",
     "resourceGroupId" : "资源分组ID。资源分组信息可通过 [资源管理接口](https://cloud.baidu.com/doc/ResManagement/s/Qlth2ic41)查询。",
-    "autoBackupConfig" : "备份配置。格式：\"${备份周期};${备份时间};${备份时长}\"。<br>备份周期取值参考：周一：'Mon',  周二：'Tue', 周三： 'Wed', 周四：'Thu',周五： 'Fri', 周六：'Sta', 周日：'Sun'。<br>备份时间为UTC时间，如16:00:00，北京时间为00:00:00。<br>备份时间：取值1-15",
+    "autoBackupConfig" : "备份配置。格式：\"${备份周期};${备份时间};${备份时长}\"。<br>备份周期取值参考：`Mon`：周一, `Tue`：周二, `Wed`：周三, `Thu`：周四, `Fri`：周五, `Sta`：周六, `Sun`：周日。<br>备份时间为UTC时间，如16:00:00，北京时间为00:00:00。<br>备份时间：取值1-15",
     "deployIdList" : "部署集ID列表。建议仅传一个部署集ID，即此列表长度不能大于1。部署集ID通过[部署集列表接口](https://cloud.baidu.com/doc/SCS/s/dm423yimp)获取。"
   }
 }

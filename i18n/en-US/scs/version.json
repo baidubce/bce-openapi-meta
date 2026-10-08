@@ -7,14 +7,6 @@
       "title" : "modifyParameters",
       "summary" : "modifyParameters"
     },
-    "GetClusterBlbStatus" : {
-      "title" : "getClusterBlbStatus",
-      "summary" : "getClusterBlbStatus"
-    },
-    "ClusterStatusCheck" : {
-      "title" : "clusterStatusCheck",
-      "summary" : "clusterStatusCheck"
-    },
     "SetClusterAsMaster" : {
       "title" : "setClusterAsMaster",
       "summary" : "setClusterAsMaster"
@@ -30,10 +22,6 @@
     "BindTags" : {
       "title" : "bindTags",
       "summary" : "bindTags"
-    },
-    "UnbindTags" : {
-      "title" : "unbindTags",
-      "summary" : "unbindTags"
     },
     "SyncGroupPreCheck" : {
       "title" : "syncGroupPreCheck",
@@ -79,10 +67,6 @@
       "title" : "hotGroupSetFlowControlRules",
       "summary" : "hotGroupSetFlowControlRules"
     },
-    "InstanceVersionUpgrade" : {
-      "title" : "instanceVersionUpgrade",
-      "summary" : "instanceVersionUpgrade"
-    },
     "BindSecurityGroup" : {
       "title" : "bindSecurityGroup",
       "summary" : "bindSecurityGroup"
@@ -111,10 +95,6 @@
       "title" : "createDeploymentSet",
       "summary" : "createDeploymentSet"
     },
-    "ModifyEntrance" : {
-      "title" : "modifyEntrance",
-      "summary" : "modifyEntrance"
-    },
     "DeleteDeploymentSet" : {
       "title" : "deleteDeploymentSet",
       "summary" : "deleteDeploymentSet"
@@ -122,10 +102,6 @@
     "GetDeploymentSetList" : {
       "title" : "getDeploymentSetList",
       "summary" : "getDeploymentSetList"
-    },
-    "ModifyReplicationZone" : {
-      "title" : "modifyReplicationZone",
-      "summary" : "modifyReplicationZone"
     },
     "GetRecycleList" : {
       "title" : "getRecycleList",
@@ -135,21 +111,9 @@
       "title" : "modifyTimeWindow",
       "summary" : "modifyTimeWindow"
     },
-    "ClusterTypeUpgrade" : {
-      "title" : "clusterTypeUpgrade",
-      "summary" : "clusterTypeUpgrade"
-    },
     "GetHotGroupList" : {
       "title" : "getHotGroupList",
       "summary" : "getHotGroupList"
-    },
-    "ModifyInstanceName" : {
-      "title" : "modifyInstanceName",
-      "summary" : "modifyInstanceName"
-    },
-    "ProxyNodeReplace" : {
-      "title" : "proxyNodeReplace",
-      "summary" : "proxyNodeReplace"
     },
     "GetHotGroupDetail" : {
       "title" : "getHotGroupDetail",
@@ -167,18 +131,6 @@
       "title" : "hotGroupModifyName",
       "summary" : "hotGroupModifyName"
     },
-    "HotGroupForbidWrite" : {
-      "title" : "hotGroupForbidWrite",
-      "summary" : "hotGroupForbidWrite"
-    },
-    "HotGroupStaleReadable" : {
-      "title" : "hotGroupStaleReadable",
-      "summary" : "hotGroupStaleReadable"
-    },
-    "GetInstanceSpecList" : {
-      "title" : "getInstanceSpecList",
-      "summary" : "getInstanceSpecList"
-    },
     "GetSubnetList" : {
       "title" : "getSubnetList",
       "summary" : "getSubnetList"
@@ -187,17 +139,9 @@
       "title" : "hotGroupSyncStatus",
       "summary" : "hotGroupSyncStatus"
     },
-    "GetAvailableZones" : {
-      "title" : "getAvailableZones",
-      "summary" : "getAvailableZones"
-    },
     "GetBackUpUrl" : {
       "title" : "getBackUpUrl",
       "summary" : "getBackUpUrl"
-    },
-    "ModifyParameterTemplateName" : {
-      "title" : "modifyParameterTemplateName",
-      "summary" : "modifyParameterTemplateName"
     },
     "CreateSyncGroup" : {
       "title" : "createSyncGroup",
@@ -239,10 +183,6 @@
       "title" : "getSystemParameterList",
       "summary" : "getSystemParameterList"
     },
-    "ClearInstance" : {
-      "title" : "clearInstance",
-      "summary" : "clearInstance"
-    },
     "CreateParameterTemplate" : {
       "title" : "createParameterTemplate",
       "summary" : "createParameterTemplate"
@@ -259,10 +199,6 @@
       "title" : "parameterTemplateDetails",
       "summary" : "parameterTemplateDetails"
     },
-    "SetMemoryScalingConfig" : {
-      "title" : "setMemoryScalingConfig",
-      "summary" : "setMemoryScalingConfig"
-    },
     "DeleteMemoryScalingConfig" : {
       "title" : "deleteMemoryScalingConfig",
       "summary" : "deleteMemoryScalingConfig"
@@ -270,10 +206,6 @@
     "ApplicationParameterTemplate" : {
       "title" : "applicationParameterTemplate",
       "summary" : "applicationParameterTemplate"
-    },
-    "ProxyVersionUpgradeOrRestart" : {
-      "title" : "proxyVersionUpgradeOrRestart",
-      "summary" : "proxyVersionUpgradeOrRestart"
     },
     "ParameterTemplateDeleteParameters" : {
       "title" : "parameterTemplateDeleteParameters",
@@ -283,17 +215,9 @@
       "title" : "deleteParameterTemplate",
       "summary" : "deleteParameterTemplate"
     },
-    "GetInstanceDetail" : {
-      "title" : "getInstanceDetail",
-      "summary" : "getInstanceDetail"
-    },
     "GetPriceForCreateInstance" : {
       "title" : "getPriceForCreateInstance",
       "summary" : "getPriceForCreateInstance"
-    },
-    "CreateAnInstance" : {
-      "title" : "createAnInstance",
-      "summary" : "createAnInstance"
     },
     "ChangeConfiguration" : {
       "title" : "changeConfiguration",
@@ -311,10 +235,6 @@
       "title" : "queryIpWhitelist",
       "summary" : "queryIpWhitelist"
     },
-    "ChangeAccessPassword" : {
-      "title" : "changeAccessPassword",
-      "summary" : "changeAccessPassword"
-    },
     "ViewSecurityGroup" : {
       "title" : "viewSecurityGroup",
       "summary" : "viewSecurityGroup"
@@ -326,10 +246,6 @@
     "AddIpWhitelist" : {
       "title" : "addIpWhitelist",
       "summary" : "addIpWhitelist"
-    },
-    "ReleaseInstance" : {
-      "title" : "releaseInstance",
-      "summary" : "releaseInstance"
     },
     "GetTlsCert" : {
       "title" : "getTlsCert",
@@ -343,13 +259,13 @@
       "title" : "updateTlsEncryption",
       "summary" : "updateTlsEncryption"
     },
-    "GetInstanceList" : {
-      "title" : "getInstanceList",
-      "summary" : "getInstanceList"
-    },
     "GetInstanceWhiteGroup" : {
       "title" : "getInstanceWhiteGroup",
       "summary" : "getInstanceWhiteGroup"
+    },
+    "GetInstanceList" : {
+      "title" : "getInstanceList",
+      "summary" : "getInstanceList"
     },
     "CancelPrepaidToPostpaid" : {
       "title" : "cancelPrepaidToPostpaid",
@@ -363,45 +279,133 @@
       "title" : "updateInstanceWhiteGroup",
       "summary" : "updateInstanceWhiteGroup"
     },
+    "GetInstanceDetail" : {
+      "title" : "getInstanceDetail",
+      "summary" : "getInstanceDetail"
+    },
     "CreateInstanceWhiteGroup" : {
       "title" : "createInstanceWhiteGroup",
       "summary" : "createInstanceWhiteGroup"
+    },
+    "GetAvailableZones" : {
+      "title" : "getAvailableZones",
+      "summary" : "getAvailableZones"
+    },
+    "GetInstanceSpecList" : {
+      "title" : "getInstanceSpecList",
+      "summary" : "getInstanceSpecList"
+    },
+    "ProxyNodeReplace" : {
+      "title" : "proxyNodeReplace",
+      "summary" : "proxyNodeReplace"
     },
     "ManuallyModifyBandwidth" : {
       "title" : "manuallyModifyBandwidth",
       "summary" : "manuallyModifyBandwidth"
     },
+    "RestartInstance" : {
+      "title" : "restartInstance",
+      "summary" : "restartInstance"
+    },
+    "ModifyInstanceName" : {
+      "title" : "modifyInstanceName",
+      "summary" : "modifyInstanceName"
+    },
+    "ClearInstance" : {
+      "title" : "clearInstance",
+      "summary" : "clearInstance"
+    },
+    "ClusterTypeUpgrade" : {
+      "title" : "clusterTypeUpgrade",
+      "summary" : "clusterTypeUpgrade"
+    },
+    "ModifyReplicationZone" : {
+      "title" : "modifyReplicationZone",
+      "summary" : "modifyReplicationZone"
+    },
+    "ModifyEntrance" : {
+      "title" : "modifyEntrance",
+      "summary" : "modifyEntrance"
+    },
+    "UnbindTags" : {
+      "title" : "unbindTags",
+      "summary" : "unbindTags"
+    },
+    "GetClusterBlbStatus" : {
+      "title" : "getClusterBlbStatus",
+      "summary" : "getClusterBlbStatus"
+    },
+    "ClusterStatusCheck" : {
+      "title" : "clusterStatusCheck",
+      "summary" : "clusterStatusCheck"
+    },
+    "CreateAnInstance" : {
+      "title" : "createAnInstance",
+      "summary" : "createAnInstance"
+    },
+    "ReleaseInstance" : {
+      "title" : "releaseInstance",
+      "summary" : "releaseInstance"
+    },
     "ModifyInstanceDomainName" : {
       "title" : "modifyInstanceDomainName",
       "summary" : "modifyInstanceDomainName"
+    },
+    "CreateAccount" : {
+      "title" : "createAccount",
+      "summary" : "createAccount"
     },
     "ModifyBackupComment" : {
       "title" : "modifyBackupComment",
       "summary" : "modifyBackupComment"
     },
+    "ChangeAccountPassword" : {
+      "title" : "changeAccountPassword",
+      "summary" : "changeAccountPassword"
+    },
     "ManualBackup" : {
       "title" : "manualBackup",
       "summary" : "manualBackup"
-    },
-    "GetBackupList" : {
-      "title" : "getBackupList",
-      "summary" : "getBackupList"
     },
     "GetBackupStrategy" : {
       "title" : "getBackupStrategy",
       "summary" : "getBackupStrategy"
     },
-    "DeleteManualBackup" : {
-      "title" : "deleteManualBackup",
-      "summary" : "deleteManualBackup"
+    "GetBackupList" : {
+      "title" : "getBackupList",
+      "summary" : "getBackupList"
     },
     "SetBackupPolicy" : {
       "title" : "setBackupPolicy",
       "summary" : "setBackupPolicy"
     },
+    "DeleteManualBackup" : {
+      "title" : "deleteManualBackup",
+      "summary" : "deleteManualBackup"
+    },
+    "ChangeAccessPassword" : {
+      "title" : "changeAccessPassword",
+      "summary" : "changeAccessPassword"
+    },
+    "HotGroupForbidWrite" : {
+      "title" : "hotGroupForbidWrite",
+      "summary" : "hotGroupForbidWrite"
+    },
+    "HotGroupStaleReadable" : {
+      "title" : "hotGroupStaleReadable",
+      "summary" : "hotGroupStaleReadable"
+    },
+    "ModifyParameterTemplateName" : {
+      "title" : "modifyParameterTemplateName",
+      "summary" : "modifyParameterTemplateName"
+    },
     "GetBackUpUsage" : {
       "title" : "getBackUpUsage",
       "summary" : "getBackUpUsage"
+    },
+    "InstanceVersionUpgrade" : {
+      "title" : "instanceVersionUpgrade",
+      "summary" : "instanceVersionUpgrade"
     },
     "RenewInstance" : {
       "title" : "renewInstance",
@@ -415,9 +419,13 @@
       "title" : "postPaidToPrepaid",
       "summary" : "postPaidToPrepaid"
     },
-    "CreateAccount" : {
-      "title" : "createAccount",
-      "summary" : "createAccount"
+    "ProxyVersionUpgradeOrRestart" : {
+      "title" : "proxyVersionUpgradeOrRestart",
+      "summary" : "proxyVersionUpgradeOrRestart"
+    },
+    "SetMemoryScalingConfig" : {
+      "title" : "setMemoryScalingConfig",
+      "summary" : "setMemoryScalingConfig"
     },
     "LogList" : {
       "title" : "logList",
@@ -439,17 +447,9 @@
       "title" : "setPermissions",
       "summary" : "setPermissions"
     },
-    "ChangeAccountPassword" : {
-      "title" : "changeAccountPassword",
-      "summary" : "changeAccountPassword"
-    },
     "GetTimeWindow" : {
       "title" : "getTimeWindow",
       "summary" : "getTimeWindow"
-    },
-    "RestartInstance" : {
-      "title" : "restartInstance",
-      "summary" : "restartInstance"
     },
     "AccountList" : {
       "title" : "accountList",

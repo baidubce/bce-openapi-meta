@@ -1,6 +1,6 @@
 {
   "ModifyParameterTemplateName" : {
     "templateShowId" : "Parameter template ID to be queried",
-    "name" : "New instance name. Requirements:<br> Uppercase/lowercase letters, digits, Chinese characters, and special characters -_/., must start with a letter or Chinese character, length 1-65<br>"
+    "name" : "New instance name. Requirements: uppercase and lowercase letters, numbers, Chinese characters, and special characters -_/.; must start with a letter or Chinese character; length 1-65"
   }
 }

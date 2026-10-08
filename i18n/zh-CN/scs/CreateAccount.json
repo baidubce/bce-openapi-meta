@@ -2,7 +2,7 @@
   "CreateAccount" : {
     "instanceId" : "集群ID。",
     "userName" : "账号名称。由小写字母、数字、下划线组成、字母开头,字母或数字结尾,最长16个字符。",
-    "clientAuth" : "账号密码。详情请参考[密码加密传输规范定义](SCS/API参考/通用说明.md#密码加密传输规范定义)",
+    "clientAuth" : "账号密码。详情请参考[密码加密传输规范定义](https://cloud.baidu.com/doc/SCS/s/fjwvxtrd9#%E5%AF%86%E7%A0%81%E5%8A%A0%E5%AF%86%E4%BC%A0%E8%BE%93%E8%A7%84%E8%8C%83%E5%AE%9A%E4%B9%89)",
     "extra" : "备注",
     "userType" : "账号权限。1：读写；2：只读；"
   }

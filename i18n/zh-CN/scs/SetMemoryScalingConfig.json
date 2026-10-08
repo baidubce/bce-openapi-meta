@@ -1,7 +1,7 @@
 {
   "SetMemoryScalingConfig" : {
     "instanceId" : "实例ID",
-    "memSpec" : "实例ID",
+    "memSpec" : "配置信息",
     "memSpec.memUsageUpperThreshold" : "触发规格自动扩容的内存平均利用率阈值，单位为%，取值：70、80、90    。",
     "memSpec.memUsageDownThreshold" : "触发规格自动缩容的内存平均利用率阈值，单位为% ，取值：20、30、40  。",
     "memSpec.maxNodeType" : "扩容规格上限",

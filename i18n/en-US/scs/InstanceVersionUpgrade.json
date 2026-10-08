@@ -1,7 +1,7 @@
 {
   "InstanceVersionUpgrade" : {
     "instanceId" : "Cluster ID",
-    "kernelVersion" : "Version number for major version upgrades. Empty for non-major version upgrades. <li>The target version must be higher than the current version. <li>Standard version 3.x can be upgraded to 6.x or 7.x <li>4.x can be upgraded to 6.x or 7.x <li>5.x can be upgraded to 6.x or 7.x <li>6.x can be upgraded to 7.x",
-    "isDefer" : "Execution time. <li>false: execute immediately <li>true: execute during the maintenance window"
+    "kernelVersion" : "Version number for major version upgrade. Empty for non-major version upgrades.<br/>1. The target version must be higher than the current version;<br/>2. Standard edition series 3 can be upgraded to series 6 or 7;<br/>3. Series 4 can be upgraded to series 6 or 7;<br/>4. Series 5 can be upgraded to series 6 or 7;<br/>5. Series 6 can be upgraded to series 7;",
+    "isDefer" : "Execution time. `false`: execute immediately; `true`: execute during maintenance window"
   }
 }

@@ -5,27 +5,34 @@
   "parameters" : [ {
     "name" : "marker",
     "type" : "String",
-    "required" : true,
-    "position" : "URL",
+    "required" : false,
+    "position" : "QUERY",
     "desc_key" : "scs.GetInstanceList.marker"
   }, {
     "name" : "maxKeys",
     "type" : "String",
-    "required" : true,
-    "position" : "URL",
+    "required" : false,
+    "position" : "QUERY",
     "desc_key" : "scs.GetInstanceList.maxKeys"
   }, {
     "name" : "instanceIds",
     "type" : "String",
-    "required" : true,
-    "position" : "URL",
+    "required" : false,
+    "position" : "QUERY",
     "desc_key" : "scs.GetInstanceList.instanceIds"
   }, {
     "name" : "vnetIp",
     "type" : "String",
-    "required" : true,
-    "position" : "URL",
+    "required" : false,
+    "position" : "QUERY",
     "desc_key" : "scs.GetInstanceList.vnetIp"
   } ],
+  "paginator" : {
+    "input_token" : "marker",
+    "output_token" : "nextMarker",
+    "limit_key" : "maxKeys",
+    "more_results" : "isTruncated",
+    "result_key" : "instances"
+  },
   "desc_key" : "scs.GetInstanceList.desc"
 }
