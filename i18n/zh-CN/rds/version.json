@@ -1,0 +1,11 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "云数据库 RDS",
+  "apis" : {
+    "QueryTaskList" : {
+      "title" : "查询任务列表",
+      "summary" : "查询任务列表"
+    }
+  }
+}

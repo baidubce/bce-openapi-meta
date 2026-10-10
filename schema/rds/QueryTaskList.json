@@ -1,0 +1,61 @@
+{
+  "name" : "QueryTaskList",
+  "method" : "POST",
+  "uri" : "/v1/instance/task",
+  "parameters" : [ {
+    "name" : "pageSize",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.QueryTaskList.pageSize"
+  }, {
+    "name" : "pageNo",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.QueryTaskList.pageNo"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.QueryTaskList.instanceId"
+  }, {
+    "name" : "instanceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.QueryTaskList.instanceName"
+  }, {
+    "name" : "taskId",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.QueryTaskList.taskId"
+  }, {
+    "name" : "taskType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.QueryTaskList.taskType"
+  }, {
+    "name" : "taskStatus",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.QueryTaskList.taskStatus"
+  }, {
+    "name" : "startTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.QueryTaskList.startTime"
+  }, {
+    "name" : "endTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.QueryTaskList.endTime"
+  } ],
+  "desc_key" : "rds.QueryTaskList.desc"
+}

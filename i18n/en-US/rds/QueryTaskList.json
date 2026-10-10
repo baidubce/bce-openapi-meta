@@ -1,0 +1,13 @@
+{
+  "QueryTaskList" : {
+    "pageSize" : "Page size",
+    "pageNo" : "Page number",
+    "instanceId" : "Instance ID",
+    "instanceName" : "Instance name",
+    "taskId" : "Task ID",
+    "taskType" : "Task type. Valid values: resize/switch/reboot/changeAzone",
+    "taskStatus" : "Task status. Valid values: created/running/success/failed/cancelled",
+    "startTime" : "Task start time",
+    "endTime" : "Task end time"
+  }
+}

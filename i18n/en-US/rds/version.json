@@ -1,0 +1,11 @@
+{
+  "version" : "v1",
+  "style" : "rpc",
+  "description" : "rds",
+  "apis" : {
+    "QueryTaskList" : {
+      "title" : "queryTaskList",
+      "summary" : "queryTaskList"
+    }
+  }
+}

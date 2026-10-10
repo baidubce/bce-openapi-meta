@@ -351,5 +351,18 @@
       "su" : "redis.su.baidubce.com",
       "yq" : "redis.yq.baidubce.com"
     }
+  }, {
+    "code" : "rds",
+    "protocol" : "HTTP",
+    "endpoint" : {
+      "bd" : "rds.bd.baidubce.com",
+      "bj" : "rds.bj.baidubce.com",
+      "cd" : "rds.cd.baidubce.com",
+      "fwh" : "rds.fwh.baidubce.com",
+      "gz" : "rds.gz.baidubce.com",
+      "hkg" : "rds.hkg.baidubce.com",
+      "su" : "rds.su.baidubce.com",
+      "yq" : "rds.yq.baidubce.com"
+    }
   } ]
 }

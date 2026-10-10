@@ -1,0 +1,13 @@
+{
+  "QueryTaskList" : {
+    "pageSize" : "每页的大小",
+    "pageNo" : "页码",
+    "instanceId" : "实例ID",
+    "instanceName" : "实例名称",
+    "taskId" : "任务ID",
+    "taskType" : "任务类型，可取值：resize/switch/reboot/changeAzone",
+    "taskStatus" : "任务状态，可取值：created/running/success/failed/cancelled",
+    "startTime" : "任务开始时间",
+    "endTime" : "任务结束时间"
+  }
+}
