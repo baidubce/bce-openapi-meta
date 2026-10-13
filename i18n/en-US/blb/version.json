@@ -175,14 +175,6 @@
       "title" : "describeAppBlbPolicy",
       "summary" : "describeAppBlbPolicy"
     },
-    "DescribeBlbSecurityGroups" : {
-      "title" : "describeBlbSecurityGroups",
-      "summary" : "describeBlbSecurityGroups"
-    },
-    "DescribeBlbEnterpriseSecurityGroups" : {
-      "title" : "describeBlbEnterpriseSecurityGroups",
-      "summary" : "describeBlbEnterpriseSecurityGroups"
-    },
     "DescribeLbdcs" : {
       "title" : "describeLbdcs",
       "summary" : "describeLbdcs"
@@ -195,17 +187,41 @@
       "title" : "describeLbdcBlb",
       "summary" : "describeLbdcBlb"
     },
+    "DescribeBlbSecurityGroups" : {
+      "title" : "describeBlbSecurityGroups",
+      "summary" : "describeBlbSecurityGroups"
+    },
     "UpdateLbdc" : {
       "title" : "updateLbdc",
       "summary" : "updateLbdc"
+    },
+    "DescribeBlbEnterpriseSecurityGroups" : {
+      "title" : "describeBlbEnterpriseSecurityGroups",
+      "summary" : "describeBlbEnterpriseSecurityGroups"
+    },
+    "BindBlbSecurityGroup" : {
+      "title" : "bindBlbSecurityGroup",
+      "summary" : "bindBlbSecurityGroup"
     },
     "CreateAppBlbIpGroupMember" : {
       "title" : "createAppBlbIpGroupMember",
       "summary" : "createAppBlbIpGroupMember"
     },
+    "UnbindBlbSecurityGroup" : {
+      "title" : "unbindBlbSecurityGroup",
+      "summary" : "unbindBlbSecurityGroup"
+    },
     "UpdateAppBlbIpGroupMember" : {
       "title" : "updateAppBlbIpGroupMember",
       "summary" : "updateAppBlbIpGroupMember"
+    },
+    "BindBlbEnterpriseSecurityGroup" : {
+      "title" : "bindBlbEnterpriseSecurityGroup",
+      "summary" : "bindBlbEnterpriseSecurityGroup"
+    },
+    "UnbindBlbEnterpriseSecurityGroup" : {
+      "title" : "unbindBlbEnterpriseSecurityGroup",
+      "summary" : "unbindBlbEnterpriseSecurityGroup"
     },
     "DescribeAppBlbSslListener" : {
       "title" : "describeAppBlbSslListener",
@@ -227,33 +243,17 @@
       "title" : "createBlbTcpListener",
       "summary" : "createBlbTcpListener"
     },
-    "BindBlbSecurityGroup" : {
-      "title" : "bindBlbSecurityGroup",
-      "summary" : "bindBlbSecurityGroup"
-    },
     "CreateBlbSslListener" : {
       "title" : "createBlbSslListener",
       "summary" : "createBlbSslListener"
-    },
-    "UnbindBlbSecurityGroup" : {
-      "title" : "unbindBlbSecurityGroup",
-      "summary" : "unbindBlbSecurityGroup"
     },
     "CreateBlbHttpListener" : {
       "title" : "createBlbHttpListener",
       "summary" : "createBlbHttpListener"
     },
-    "BindBlbEnterpriseSecurityGroup" : {
-      "title" : "bindBlbEnterpriseSecurityGroup",
-      "summary" : "bindBlbEnterpriseSecurityGroup"
-    },
     "CreateBlbHttpsListener" : {
       "title" : "createBlbHttpsListener",
       "summary" : "createBlbHttpsListener"
-    },
-    "UnbindBlbEnterpriseSecurityGroup" : {
-      "title" : "unbindBlbEnterpriseSecurityGroup",
-      "summary" : "unbindBlbEnterpriseSecurityGroup"
     },
     "UpdateBlbTcpListener" : {
       "title" : "updateBlbTcpListener",

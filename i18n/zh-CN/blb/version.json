@@ -175,14 +175,6 @@
       "title" : "查询转发策略",
       "summary" : "查询转发策略"
     },
-    "DescribeBlbSecurityGroups" : {
-      "title" : "查询普通安全组",
-      "summary" : "查询普通安全组"
-    },
-    "DescribeBlbEnterpriseSecurityGroups" : {
-      "title" : "查询企业安全组",
-      "summary" : "查询企业安全组"
-    },
     "DescribeLbdcs" : {
       "title" : "查询集群列表",
       "summary" : "查询集群列表"
@@ -195,17 +187,41 @@
       "title" : "查询集群下的BLB实例",
       "summary" : "查询集群下的BLB实例"
     },
+    "DescribeBlbSecurityGroups" : {
+      "title" : "查询普通安全组",
+      "summary" : "查询普通安全组"
+    },
     "UpdateLbdc" : {
       "title" : "更新集群",
       "summary" : "更新集群"
+    },
+    "DescribeBlbEnterpriseSecurityGroups" : {
+      "title" : "查询企业安全组",
+      "summary" : "查询企业安全组"
+    },
+    "BindBlbSecurityGroup" : {
+      "title" : "绑定普通安全组",
+      "summary" : "绑定普通安全组"
     },
     "CreateAppBlbIpGroupMember" : {
       "title" : "创建IP组成员",
       "summary" : "创建IP组成员"
     },
+    "UnbindBlbSecurityGroup" : {
+      "title" : "解绑普通安全组",
+      "summary" : "解绑普通安全组"
+    },
     "UpdateAppBlbIpGroupMember" : {
       "title" : "更新IP组成员",
       "summary" : "更新IP组成员"
+    },
+    "BindBlbEnterpriseSecurityGroup" : {
+      "title" : "绑定企业安全组",
+      "summary" : "绑定企业安全组"
+    },
+    "UnbindBlbEnterpriseSecurityGroup" : {
+      "title" : "解绑企业安全组",
+      "summary" : "解绑企业安全组"
     },
     "DescribeAppBlbSslListener" : {
       "title" : "查询SSL监听器",
@@ -227,33 +243,17 @@
       "title" : "创建TCP监听器",
       "summary" : "创建TCP监听器"
     },
-    "BindBlbSecurityGroup" : {
-      "title" : "绑定普通安全组",
-      "summary" : "绑定普通安全组"
-    },
     "CreateBlbSslListener" : {
       "title" : "创建SSL监听器",
       "summary" : "创建SSL监听器"
-    },
-    "UnbindBlbSecurityGroup" : {
-      "title" : "解绑普通安全组",
-      "summary" : "解绑普通安全组"
     },
     "CreateBlbHttpListener" : {
       "title" : "创建HTTP监听器",
       "summary" : "创建HTTP监听器"
     },
-    "BindBlbEnterpriseSecurityGroup" : {
-      "title" : "绑定企业安全组",
-      "summary" : "绑定企业安全组"
-    },
     "CreateBlbHttpsListener" : {
       "title" : "创建HTTPS监听器",
       "summary" : "创建HTTPS监听器"
-    },
-    "UnbindBlbEnterpriseSecurityGroup" : {
-      "title" : "解绑企业安全组",
-      "summary" : "解绑企业安全组"
     },
     "UpdateBlbTcpListener" : {
       "title" : "更新TCP监听器",
