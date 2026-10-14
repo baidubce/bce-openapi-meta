@@ -23,10 +23,6 @@
       "title" : "查询企业安全组列表",
       "summary" : "查询企业安全组列表"
     },
-    "AddEniIp" : {
-      "title" : "增加弹性网卡辅助IP",
-      "summary" : "增加弹性网卡辅助IP"
-    },
     "DeleteEniIp" : {
       "title" : "删除弹性网卡辅助IP",
       "summary" : "删除弹性网卡辅助IP"
@@ -86,6 +82,10 @@
     "UnbindHaVipEip" : {
       "title" : "高可用虚拟IP解绑EIP",
       "summary" : "高可用虚拟IP解绑EIP"
+    },
+    "AddEniIp" : {
+      "title" : "增加弹性网卡辅助IP",
+      "summary" : "增加弹性网卡辅助IP"
     },
     "RefundPeerConn" : {
       "title" : "预付费对等连接退订",
@@ -174,14 +174,6 @@
     "UpdateProbe" : {
       "title" : "更新网络探测",
       "summary" : "更新网络探测"
-    },
-    "CreateVpc" : {
-      "title" : "创建VPC",
-      "summary" : "创建VPC"
-    },
-    "QueryVpcList" : {
-      "title" : "查询VPC列表",
-      "summary" : "查询VPC列表"
     },
     "ListProbes" : {
       "title" : "查询网络探测列表",
@@ -274,10 +266,6 @@
     "UpdateVpnReleaseProtection" : {
       "title" : "更新VPN释放保护开关",
       "summary" : "更新VPN释放保护开关"
-    },
-    "CreateVpnTunnel" : {
-      "title" : "创建VPN隧道",
-      "summary" : "创建VPN隧道"
     },
     "SearchVpnTunnel" : {
       "title" : "查询VPN隧道",
@@ -507,6 +495,10 @@
       "title" : "创建专线网关健康检查",
       "summary" : "创建专线网关健康检查"
     },
+    "CreateVpnTunnel" : {
+      "title" : "创建VPN隧道",
+      "summary" : "创建VPN隧道"
+    },
     "QueryIpSetList" : {
       "title" : "查询IP地址族列表",
       "summary" : "查询IP地址族列表"
@@ -638,6 +630,14 @@
     "DeleteIpv6GatewayRateLimitRule" : {
       "title" : "删除IPv6网关限速策略",
       "summary" : "删除IPv6网关限速策略"
+    },
+    "CreateVpc" : {
+      "title" : "创建VPC",
+      "summary" : "创建VPC"
+    },
+    "QueryVpcList" : {
+      "title" : "查询VPC列表",
+      "summary" : "查询VPC列表"
     },
     "QueryTheListOfDedicatedLineGateways" : {
       "title" : "查询专线网关列表",

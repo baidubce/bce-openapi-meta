@@ -23,10 +23,6 @@
       "title" : "queryEnterpriseSecurityGroupList",
       "summary" : "queryEnterpriseSecurityGroupList"
     },
-    "AddEniIp" : {
-      "title" : "addEniIp",
-      "summary" : "addEniIp"
-    },
     "DeleteEniIp" : {
       "title" : "deleteEniIp",
       "summary" : "deleteEniIp"
@@ -86,6 +82,10 @@
     "UnbindHaVipEip" : {
       "title" : "unbindHaVipEip",
       "summary" : "unbindHaVipEip"
+    },
+    "AddEniIp" : {
+      "title" : "addEniIp",
+      "summary" : "addEniIp"
     },
     "RefundPeerConn" : {
       "title" : "refundPeerConn",
@@ -174,14 +174,6 @@
     "UpdateProbe" : {
       "title" : "updateProbe",
       "summary" : "updateProbe"
-    },
-    "CreateVpc" : {
-      "title" : "createVpc",
-      "summary" : "createVpc"
-    },
-    "QueryVpcList" : {
-      "title" : "queryVpcList",
-      "summary" : "queryVpcList"
     },
     "ListProbes" : {
       "title" : "listProbes",
@@ -274,10 +266,6 @@
     "UpdateVpnReleaseProtection" : {
       "title" : "updateVpnReleaseProtection",
       "summary" : "updateVpnReleaseProtection"
-    },
-    "CreateVpnTunnel" : {
-      "title" : "createVpnTunnel",
-      "summary" : "createVpnTunnel"
     },
     "SearchVpnTunnel" : {
       "title" : "searchVpnTunnel",
@@ -507,6 +495,10 @@
       "title" : "createDedicatedGatewayHealthCheck",
       "summary" : "createDedicatedGatewayHealthCheck"
     },
+    "CreateVpnTunnel" : {
+      "title" : "createVpnTunnel",
+      "summary" : "createVpnTunnel"
+    },
     "QueryIpSetList" : {
       "title" : "queryIpSetList",
       "summary" : "queryIpSetList"
@@ -638,6 +630,14 @@
     "DeleteIpv6GatewayRateLimitRule" : {
       "title" : "deleteIpv6GatewayRateLimitRule",
       "summary" : "deleteIpv6GatewayRateLimitRule"
+    },
+    "CreateVpc" : {
+      "title" : "createVpc",
+      "summary" : "createVpc"
+    },
+    "QueryVpcList" : {
+      "title" : "queryVpcList",
+      "summary" : "queryVpcList"
     },
     "QueryTheListOfDedicatedLineGateways" : {
       "title" : "queryTheListOfDedicatedLineGateways",
