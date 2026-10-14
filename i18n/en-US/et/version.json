@@ -3,6 +3,10 @@
   "style" : "rpc",
   "description" : "et",
   "apis" : {
+    "UpdateDedicatedChannelRouteRules" : {
+      "title" : "updateDedicatedChannelRouteRules",
+      "summary" : "updateDedicatedChannelRouteRules"
+    },
     "AssociatedDedicatedChannel" : {
       "title" : "associatedDedicatedChannel",
       "summary" : "associatedDedicatedChannel"
@@ -26,10 +30,6 @@
     "QueryDedicatedChannelRouteRules" : {
       "title" : "queryDedicatedChannelRouteRules",
       "summary" : "queryDedicatedChannelRouteRules"
-    },
-    "UpdateDedicatedChannelRouteRules" : {
-      "title" : "updateDedicatedChannelRouteRules",
-      "summary" : "updateDedicatedChannelRouteRules"
     },
     "DeleteDedicatedChannel" : {
       "title" : "deleteDedicatedChannel",

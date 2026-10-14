@@ -3,6 +3,10 @@
   "style" : "rpc",
   "description" : "专线接入",
   "apis" : {
+    "UpdateDedicatedChannelRouteRules" : {
+      "title" : "修改专线通道路由规则",
+      "summary" : "修改专线通道路由规则"
+    },
     "AssociatedDedicatedChannel" : {
       "title" : "关联专线通道",
       "summary" : "关联专线通道"
@@ -26,10 +30,6 @@
     "QueryDedicatedChannelRouteRules" : {
       "title" : "查询专线通道路由规则",
       "summary" : "查询专线通道路由规则"
-    },
-    "UpdateDedicatedChannelRouteRules" : {
-      "title" : "修改专线通道路由规则",
-      "summary" : "修改专线通道路由规则"
     },
     "DeleteDedicatedChannel" : {
       "title" : "删除专线通道",
