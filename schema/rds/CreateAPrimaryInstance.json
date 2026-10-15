@@ -1,0 +1,292 @@
+{
+  "name" : "CreateAPrimaryInstance",
+  "method" : "POST",
+  "uri" : "/v{version}/instance",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rds.CreateAPrimaryInstance.clientToken"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.billing.reservation"
+    } ]
+  }, {
+    "name" : "purchaseCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.purchaseCount"
+  }, {
+    "name" : "instanceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.instanceName"
+  }, {
+    "name" : "engine",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.engine"
+  }, {
+    "name" : "engineVersion",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.engineVersion"
+  }, {
+    "name" : "category",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.category"
+  }, {
+    "name" : "cpuCount",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.cpuCount"
+  }, {
+    "name" : "memoryCapacity",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.memoryCapacity"
+  }, {
+    "name" : "volumeCapacity",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.volumeCapacity"
+  }, {
+    "name" : "diskIoType",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.diskIoType"
+  }, {
+    "name" : "zoneNames",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.zoneNames"
+  }, {
+    "name" : "bcmGroupName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.bcmGroupName"
+  }, {
+    "name" : "vpcId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.vpcId"
+  }, {
+    "name" : "isDirectPay",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.isDirectPay"
+  }, {
+    "name" : "subnets",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.subnets",
+    "sub_parameters" : [ {
+      "name" : "zoneName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.subnets.zoneName"
+    }, {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.subnets.subnetId"
+    } ]
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.tags.tagValue"
+    } ]
+  }, {
+    "name" : "bgwGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.bgwGroupId"
+  }, {
+    "name" : "bgwGroupExclusive",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.bgwGroupExclusive"
+  }, {
+    "name" : "characterSetName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.characterSetName"
+  }, {
+    "name" : "autoRenewTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.autoRenewTimeUnit"
+  }, {
+    "name" : "autoRenewTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.autoRenewTime"
+  }, {
+    "name" : "lowerCaseTableNames",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.lowerCaseTableNames"
+  }, {
+    "name" : "parameterTemplateId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.parameterTemplateId"
+  }, {
+    "name" : "ovip",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.ovip"
+  }, {
+    "name" : "entryPort",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.entryPort"
+  }, {
+    "name" : "replicationType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.replicationType"
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.resourceGroupId"
+  }, {
+    "name" : "initialDataReference",
+    "type" : "Object",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.initialDataReference",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.initialDataReference.instanceId"
+    }, {
+      "name" : "referenceType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.initialDataReference.referenceType"
+    }, {
+      "name" : "datetime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.initialDataReference.datetime"
+    }, {
+      "name" : "snapshotId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.initialDataReference.snapshotId"
+    } ]
+  }, {
+    "name" : "data",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.data",
+    "sub_parameters" : [ {
+      "name" : "restoreMode",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.data.restoreMode"
+    }, {
+      "name" : "dbName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.data.dbName"
+    }, {
+      "name" : "newDbname",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.data.newDbname"
+    }, {
+      "name" : "tables",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "rds.CreateAPrimaryInstance.data.tables",
+      "sub_parameters" : [ {
+        "name" : "tableName",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rds.CreateAPrimaryInstance.data.tables.tableName"
+      }, {
+        "name" : "newTablename",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rds.CreateAPrimaryInstance.data.tables.newTablename"
+      } ]
+    } ]
+  }, {
+    "name" : "leaderInstanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.leaderInstanceId"
+  }, {
+    "name" : "resourceType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.CreateAPrimaryInstance.resourceType"
+  } ],
+  "desc_key" : "rds.CreateAPrimaryInstance.desc"
+}

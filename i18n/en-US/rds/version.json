@@ -6,6 +6,18 @@
     "QueryTaskList" : {
       "title" : "queryTaskList",
       "summary" : "queryTaskList"
+    },
+    "CreateAPrimaryInstance" : {
+      "title" : "createAPrimaryInstance",
+      "summary" : "createAPrimaryInstance"
+    },
+    "CreateReadOnlyInstance" : {
+      "title" : "createReadOnlyInstance",
+      "summary" : "createReadOnlyInstance"
+    },
+    "CreateAProxyInstance" : {
+      "title" : "createAProxyInstance",
+      "summary" : "createAProxyInstance"
     }
   }
 }

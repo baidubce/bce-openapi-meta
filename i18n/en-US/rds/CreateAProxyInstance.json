@@ -1,0 +1,19 @@
+{
+  "CreateAProxyInstance" : {
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters.",
+    "billing" : "Billing-related parameters. Proxy instances only support Postpaid billing. [Refer to structure and values](/doc/RDS/s/9jwvz0wd3#billing)",
+    "billing.paymentTiming" : "Payment method (Postpaid; read-only instances only support Postpaid).",
+    "sourceInstanceId" : "Master instance ID.",
+    "instanceName" : "User-defined instance name. Requirements: 1) only lowercase letters and digits are allowed; 2) length must be 1 to 32 characters. Defaults to rdsproxy.",
+    "nodeAmount" : "Number of proxy instance nodes. Valid values: 2, 4, 6, 8, 16.",
+    "zoneNames" : "Specifies zone information. Empty by default, in which case the system selects automatically. You can query the available zone list via the [Query Available Zone List](/doc/RDS/s/zka65zqz2) API. The zoneName naming convention is lowercase \"country-region-zone sequence\", for example Beijing Zone A is \"cn-bj-a\". It is recommended to keep it consistent with the master instance's zone.",
+    "vpcId" : "Same as the master instance's vpcId.",
+    "isDirectPay" : "Whether to pay directly. Defaults to false. Orders set to direct payment are charged immediately without going through the payment process.",
+    "subnets" : "The subnetId of the zone within a specific VPC. If the specified vpcId is a custom VPC, subnetId must be specified. You can query the subnet list via the [Query Subnet List](/doc/RDS/s/Wka66184u) API. It is recommended to keep it consistent with the master instance's subnet.",
+    "subnets.zoneName" : "Availability zone.",
+    "subnets.subnetId" : "Subnet ID.",
+    "ovip" : "The ovip of the BLB used as the RDS instance access entry. If this parameter is passed with a non-empty value, the BLB is applied for using this value as the BLB's ovip; otherwise, the BLB is assigned a random IP.",
+    "entryPort" : "The port of the BLB used as the RDS instance access entry. If this parameter is passed with a non-empty value, the BLB is applied for using this value as the BLB's listener port; otherwise, it defaults to 3306. Valid port range: 1024-65535.",
+    "resourceGroupId" : "Resource group ID, for example: RESG-bKMxbExtnoG."
+  }
+}

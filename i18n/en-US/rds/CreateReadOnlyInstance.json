@@ -1,0 +1,29 @@
+{
+  "CreateReadOnlyInstance" : {
+    "clientToken" : "Idempotency token, an ASCII string no longer than 64 characters.",
+    "billing" : "Billing-related parameters. [See structure and values](/doc/RDS/s/9jwvz0wd3#billing)",
+    "billing.paymentTiming" : "Payment method (Postpaid; read-only instances only support postpaid)",
+    "sourceInstanceId" : "Master instance ID",
+    "instanceName" : "User-defined instance name. Requirements: 1) lowercase letters and digits allowed; 2) length limited to 1–64; defaults to {engine} + {engineVersion}",
+    "cpuCount" : "Number of CPU cores. [See values](/doc/RDS/s/9jwvz0wd3#%E5%AE%9E%E4%BE%8B%E5%8F%AF%E9%80%89%E5%A5%97%E9%A4%90)",
+    "memoryCapacity" : "Package memory size, in GB. [See values](/doc/RDS/s/9jwvz0wd3#%E5%AE%9E%E4%BE%8B%E5%8F%AF%E9%80%89%E5%A5%97%E9%A4%90)",
+    "volumeCapacity" : "Package disk size, in GB, incremented by 5GB. Cannot be smaller than the master instance disk. [See range](/doc/RDS/s/9jwvz0wd3#%E5%AE%9E%E4%BE%8B%E5%8F%AF%E9%80%89%E5%A5%97%E9%A4%90)",
+    "diskIoType" : "Disk type. normal\\_io: local SSD disk. cloud\\_high: high-performance cloud disk. cloud\\_nor: general-purpose SSD. cloud\\_enha: enhanced SSD",
+    "zoneNames" : "Specifies zone information. Empty by default, in which case the system selects automatically. You can query the list of available zones via the [Query Available Zone List](/doc/RDS/s/zka65zqz2) API. The zoneName naming convention is lowercase \"country-region-zone sequence\", e.g. Beijing zone A is \"cn-bj-a\". A read-only instance can only reside in a single zone, so only one zone can be specified here.",
+    "vpcId" : "Same as the master instance's vpcId",
+    "bcmGroupName" : "BCM instance group name",
+    "isDirectPay" : "Whether to make a direct payment. Default is false. Change orders set to direct payment are charged immediately without going through the payment flow",
+    "subnets" : "The subnetId of the zone within a specific VPC. If the specified vpcId is a custom VPC, subnetId must be specified. You can query the list of subnets via the [Query Subnet List](/doc/RDS/s/Wka66184u) API. A read-only instance can only reside in a single zone, so only one SubnetMap can be specified here",
+    "subnets.zoneName" : "Zone",
+    "subnets.subnetId" : "Subnet ID",
+    "ovip" : "The ovip of the BLB access entry for the RDS instance. If this parameter is passed with a non-empty value, the BLB is requested using this value as the BLB ovip; otherwise a random IP is assigned to the BLB",
+    "entryPort" : "The port of the BLB access entry for the RDS instance. If this parameter is passed with a non-empty value, the BLB is requested using this value as the BLB listener port; otherwise it defaults to 3306. Port range: 1024–65535",
+    "resourceGroupId" : "Resource group ID. For example: RESG-bKMxbExtnoG",
+    "replicaType" : "basic indicates a basic read-only instance, ha indicates a high-availability read-only instance. Defaults to basic if not specified",
+    "isInheritMasterAuthip" : "Indicates whether the newly created read-only instance should inherit the master instance's IP whitelist configuration. true means inherit, false means do not inherit. Defaults to false (does not inherit the master instance's IP whitelist)",
+    "purchaseCount" : "The number of instances to purchase. Default is 1, maximum is 10",
+    "resourceType" : "Instance type, supports exclusive/shared, defaults to exclusive. exclusive indicates dedicated type, shared indicates general-purpose type",
+    "autoRenewTimeUnit" : "Auto-renewal unit (\"year\"; \"month\")",
+    "autoRenewTime" : "Auto-renewal duration (no more than 3 when the unit is year, no more than 9 when the unit is month)"
+  }
+}

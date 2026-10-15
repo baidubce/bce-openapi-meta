@@ -1,0 +1,29 @@
+{
+  "CreateReadOnlyInstance" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串。",
+    "billing" : "计费相关参数。[结构及取值参考](/doc/RDS/s/9jwvz0wd3#billing)",
+    "billing.paymentTiming" : "付款方式（后付费：Postpaid；只读实例只支持后付费）",
+    "sourceInstanceId" : "主实例ID",
+    "instanceName" : "用户自定义实例名，要求： 1）允许小写字母、数字； 2）长度限制为1~64； 默认{engine} + {engineVersion}",
+    "cpuCount" : "CPU核数。[取值参考](/doc/RDS/s/9jwvz0wd3#%E5%AE%9E%E4%BE%8B%E5%8F%AF%E9%80%89%E5%A5%97%E9%A4%90)",
+    "memoryCapacity" : "套餐内存大小，单位GB。[取值参考](/doc/RDS/s/9jwvz0wd3#%E5%AE%9E%E4%BE%8B%E5%8F%AF%E9%80%89%E5%A5%97%E9%A4%90)",
+    "volumeCapacity" : "套餐磁盘大小，单位GB，每5GB递增。不能小于主实例磁盘。[范围参考](/doc/RDS/s/9jwvz0wd3#%E5%AE%9E%E4%BE%8B%E5%8F%AF%E9%80%89%E5%A5%97%E9%A4%90)",
+    "diskIoType" : "磁盘类型。  normal\\_io : 本地盘ssd磁盘。 cloud\\_high : 高性能云磁盘。  cloud\\_nor : 通用型SSD。   cloud\\_enha: 增强型SSD",
+    "zoneNames" : "指定zone信息，默认为空，由系统自动选择，可通过调用[查询可用区列表](/doc/RDS/s/zka65zqz2)接口查询可用区列表。zoneName命名规范是小写的“国家-region-可用区序列\"，例如北京可用区A为\"cn-bj-a\"。 只读实例只能在单可用区中，故此处只能填写一个可用区。",
+    "vpcId" : "与主实例 vpcId 相同",
+    "bcmGroupName" : "bcm 实例组名称",
+    "isDirectPay" : "是否进行直接支付，默认false，设置为直接支付的变配订单会直接扣款，不需要在走支付逻辑",
+    "subnets" : "特定vpc内，可用区的 subnetId；如果指定的 vpcId为自定义vpc，则必须指定 subnetId。可通过调用[查询子网列表](/doc/RDS/s/Wka66184u)接口查询子网列表。 只读实例只能在单可用区中，故此处只能填写一个 SubnetMap",
+    "subnets.zoneName" : "可用区",
+    "subnets.subnetId" : "子网ID",
+    "ovip" : "RDS实例访问入口BLB的ovip，传该参数且值非空，会根据该值为blb的ovip去申请blb，否则申请blb随机分配ip",
+    "entryPort" : "RDS实例访问入口BLB的端口，传该参数且值非空，会根据该值为blb的listener port去申请blb，否则默认3306，端口取值范围：1024-65535",
+    "resourceGroupId" : "资源分组Id。例如：RESG-bKMxbExtnoG",
+    "replicaType" : "basic表示基础版只读实例，ha表示高可用版只读实例，不传默认basic",
+    "isInheritMasterAuthip" : "当前参数表示新建的只读实例是否要继承主实例IP白名单配置，值为true表示继承，false表示不继承。默认为 false，不继承主实例的 IP 白名单",
+    "purchaseCount" : "当前购买实例的个数，默认为1 最大为10",
+    "resourceType" : "实例类型，支持exclusive/shared，默认exclusive。exclusive表示独享型，shared表示通用型",
+    "autoRenewTimeUnit" : "自动续费单位（\"year\";\"month\"）",
+    "autoRenewTime" : "自动续费时长（续费单位为year 不大于3，续费单位为month 不大于9）"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "CreateAProxyInstance" : {
+    "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串。",
+    "billing" : "计费相关参数。 代理实例只支持后付费Postpaid。[结构及取值参考](/doc/RDS/s/9jwvz0wd3#billing)",
+    "billing.paymentTiming" : "付款方式（后付费：Postpaid；只读实例只支持后付费）",
+    "sourceInstanceId" : "主实例ID",
+    "instanceName" : "用户自定义实例名，要求： 1）允许小写字母、数字； 2）长度限制为1~32； 默认为rdsproxy",
+    "nodeAmount" : "代理实例节点数。取值范围2，4，6，8，16。",
+    "zoneNames" : "指定zone信息，默认为空，由系统自动选择，可通过调用[查询可用区列表](/doc/RDS/s/zka65zqz2)接口查询可用区列表。zoneName命名规范是小写的“国家-region-可用区序列\"，例如北京可用区A为\"cn-bj-a\"。 建议与主实例的可用区保持一致。",
+    "vpcId" : "与主实例vpcId相同。",
+    "isDirectPay" : "是否进行直接支付，默认false，设置为直接支付的变配订单会直接扣款，不需要在走支付逻辑。",
+    "subnets" : "特定vpc内，可用区的subnetId；如果指定的vpcId为自定义vpc，则必须指定subnetId。可通过调用[查询子网列表](/doc/RDS/s/Wka66184u)接口查询子网列表。 建议与主实例的子网保持一致。",
+    "subnets.zoneName" : "可用区",
+    "subnets.subnetId" : "子网ID",
+    "ovip" : "RDS实例访问入口BLB的ovip，传该参数且值非空，会根据该值为blb的ovip去申请blb，否则申请blb随机分配IP。",
+    "entryPort" : "RDS实例访问入口BLB的端口，传该参数且值非空，会根据该值为blb的listener port去申请blb，否则默认3306，端口取值范围：1024-65535。",
+    "resourceGroupId" : "资源分组Id，例如：RESG-bKMxbExtnoG。"
+  }
+}
