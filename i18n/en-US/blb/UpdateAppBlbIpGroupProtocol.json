@@ -5,6 +5,8 @@
     "ipGroupId" : "ID of the IP group",
     "id" : "ID of the IP group protocol",
     "healthCheck" : "Health check protocol type (HTTPS, HTTP, TCP, UDP, ICMP). Mapping between listener protocol (type) and health check protocol (healthCheck): (type)TCP->(healthCheck)TCP; (type)UDP->(healthCheck)UDP, ICMP; (type)HTTP->(healthCheck)TCP, HTTP; (type)HTTPS->(healthCheck)TCP, HTTP, HTTPS",
+    "healthCheckHttpVersion" : "Health check HTTP protocol version. Effective only when `healthCheck` is set to HTTP. Values: `HTTP 1.0` (default), `HTTP 1.1`",
+    "healthCheckMethod" : "Health check method. Effective only when `healthCheck` is set to HTTP. Values: `GET`, `HEAD` (default)",
     "healthCheckPort" : "Health check port",
     "healthCheckUrlPath" : "Health check path, default is /, effective when the health check protocol is HTTP",
     "healthCheckTimeoutInSecond" : "Health check timeout in seconds, default is 3, must be an integer between 1 and 60",

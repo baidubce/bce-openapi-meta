@@ -46,6 +46,18 @@
     "position" : "BODY",
     "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheck"
   }, {
+    "name" : "healthCheckHttpVersion",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheckHttpVersion"
+  }, {
+    "name" : "healthCheckMethod",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateAppBlbServerGroupPort.healthCheckMethod"
+  }, {
     "name" : "healthCheckPort",
     "type" : "Integer",
     "required" : false,

@@ -52,6 +52,18 @@
     "position" : "BODY",
     "desc_key" : "blb.CreateAppBlbServerGroupPort.healthCheck"
   }, {
+    "name" : "healthCheckHttpVersion",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbServerGroupPort.healthCheckHttpVersion"
+  }, {
+    "name" : "healthCheckMethod",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbServerGroupPort.healthCheckMethod"
+  }, {
     "name" : "healthCheckPort",
     "type" : "Integer",
     "required" : false,

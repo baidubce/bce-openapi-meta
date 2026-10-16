@@ -14,6 +14,8 @@
     "additionalAttributes" : "Custom configuration for HTTP type listeners",
     "additionalAttributes.gzipJson" : "Whether to enable gzip JSON compression; string type, accepts \"on\" or \"off\"",
     "healthCheckType" : "Health check protocol, supports \"HTTP\" or \"TCP\"; defaults to \"HTTP\"",
+    "healthCheckHttpVersion" : "Health check HTTP protocol version, effective only when `healthCheckType` is set to HTTP. Values: `HTTP 1.0` (default), `HTTP 1.1`",
+    "healthCheckMethod" : "Health check method, effective only when `healthCheckType` is set to HTTP. Values: `GET`, `HEAD` (default)",
     "healthCheckPort" : "Health check port, defaults to backendPort",
     "healthCheckURI" : "Health check URI, defaults to /; takes effect when the health check protocol is \"HTTP\"",
     "healthCheckTimeoutInSecond" : "Health check timeout (in seconds), defaults to 3, must be an integer between 1 and 60",

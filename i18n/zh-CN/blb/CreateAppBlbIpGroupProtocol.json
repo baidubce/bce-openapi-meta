@@ -5,6 +5,8 @@
     "ipGroupId" : "所属IP组的标识符",
     "type" : "IP组开放协议类型，\"TCP\"/\"HTTP\"/\"HTTPS\"/\"UDP\"",
     "healthCheck" : "健康检查类型，默认与IP组协议类型相同，\"TCP\"/\"HTTP\"/\"UDP\"/\"ICMP\"/\"HTTPS\"监听端口协议type和健康检查协议healthCheck对应关系如下：(type)TCP->(healthCheck)TCP(type)UDP->(healthCheck)UDP、ICMP(type)HTTP->(healthCheck)TCP、HTTP(type)HTTPS->(healthCheck)TCP、HTTP、HTTPS",
+    "healthCheckHttpVersion" : "健康检查HTTP协议版本,只有`healthCheck`设置为HTTP时生效。取值: `HTTP 1.0`(默认)、`HTTP 1.1`",
+    "healthCheckMethod" : "健康检查的方法,只有`healthCheck`设置为HTTP时生效。取值:`GET`,`HEAD`(默认)",
     "healthCheckPort" : "健康检查端口，IP组协议为HTTP协议时必传",
     "healthCheckUrlPath" : "健康检查路径，默认/，当健康检查协议为\"HTTP\"时生效",
     "healthCheckTimeoutInSecond" : "健康检查超时（单位：秒），默认为3，需为1-60间的整数",

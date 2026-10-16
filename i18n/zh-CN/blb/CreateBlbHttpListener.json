@@ -14,6 +14,8 @@
     "additionalAttributes" : "HTTP类型监听器定制配置",
     "additionalAttributes.gzipJson" : "是否启用gzipJSON压缩,字符串类型,取值 \"on\" 或 \"off\"",
     "healthCheckType" : "健康检查协议，支持\"HTTP\"/\"TCP\"，默认\"HTTP\"",
+    "healthCheckHttpVersion" : "健康检查HTTP协议版本,只有`healthCheckType`设置为HTTP时生效。取值: `HTTP 1.0`(默认)、`HTTP 1.1`",
+    "healthCheckMethod" : "健康检查的方法,只有`healthCheckType`设置为HTTP时生效。取值:`GET`,`HEAD`(默认)",
     "healthCheckPort" : "健康检查端口，默认为backendPort",
     "healthCheckURI" : "健康检查URI，默认/。当健康检查协议为\"HTTP\"时生效",
     "healthCheckTimeoutInSecond" : "健康检查超时（单位：秒），默认为3，需为1-60间的整数",

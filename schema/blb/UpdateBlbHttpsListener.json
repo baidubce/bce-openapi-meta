@@ -94,6 +94,18 @@
     "position" : "BODY",
     "desc_key" : "blb.UpdateBlbHttpsListener.healthCheckType"
   }, {
+    "name" : "healthCheckHttpVersion",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbHttpsListener.healthCheckHttpVersion"
+  }, {
+    "name" : "healthCheckMethod",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.UpdateBlbHttpsListener.healthCheckMethod"
+  }, {
     "name" : "healthCheckPort",
     "type" : "Integer",
     "required" : false,

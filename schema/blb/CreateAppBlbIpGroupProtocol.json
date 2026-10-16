@@ -40,6 +40,18 @@
     "position" : "BODY",
     "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheck"
   }, {
+    "name" : "healthCheckHttpVersion",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheckHttpVersion"
+  }, {
+    "name" : "healthCheckMethod",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "blb.CreateAppBlbIpGroupProtocol.healthCheckMethod"
+  }, {
     "name" : "healthCheckPort",
     "type" : "Integer",
     "required" : false,

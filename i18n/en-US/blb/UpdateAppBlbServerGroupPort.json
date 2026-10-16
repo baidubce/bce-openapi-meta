@@ -6,6 +6,8 @@
     "portId" : "Identifier of the server group port to be updated",
     "enableHealthCheck" : "Whether to enable health check, default true",
     "healthCheck" : "Health check protocol, supports \"HTTP\"/\"TCP\"/\"UDP\"/\"ICMP\"; default is TCP for TCP listeners, UDP for UDP listeners, HTTP for HTTP listeners",
+    "healthCheckHttpVersion" : "HTTP protocol version for health check. Effective only when `healthCheck` is set to HTTP. Values: `HTTP 1.0` (default), `HTTP 1.1`",
+    "healthCheckMethod" : "Health check method. Effective only when `healthCheck` is set to HTTP. Values: `GET`, `HEAD` (default)",
     "healthCheckPort" : "Health check port, defaults to the value of port; takes effect when health check protocol is \"HTTP\"",
     "healthCheckUrlPath" : "Health check URI path, default /; takes effect when health check protocol is \"HTTP\"",
     "healthCheckTimeoutInSecond" : "Health check timeout in seconds, default 3, must be an integer between 1 and 60",

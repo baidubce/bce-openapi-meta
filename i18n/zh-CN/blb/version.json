@@ -27,14 +27,6 @@
       "title" : "新增服务发布点鉴权信息",
       "summary" : "新增服务发布点鉴权信息"
     },
-    "DescribeBlbListener" : {
-      "title" : "查询所有监听",
-      "summary" : "查询所有监听"
-    },
-    "DescribeBlbHttpListener" : {
-      "title" : "查询HTTP监听器",
-      "summary" : "查询HTTP监听器"
-    },
     "UpdateServiceAuth" : {
       "title" : "修改服务发布点鉴权信息",
       "summary" : "修改服务发布点鉴权信息"
@@ -46,10 +38,6 @@
     "DeleteServiceAuth" : {
       "title" : "删除服务发布点鉴权信息",
       "summary" : "删除服务发布点鉴权信息"
-    },
-    "DescribeBlbHttpsListener" : {
-      "title" : "查询HTTPS监听器",
-      "summary" : "查询HTTPS监听器"
     },
     "BindInstanceToService" : {
       "title" : "服务发布点绑定实例",
@@ -83,10 +71,6 @@
       "title" : "查询所有监听",
       "summary" : "查询所有监听"
     },
-    "DescribeAppBlbServerGroup" : {
-      "title" : "查询服务器组",
-      "summary" : "查询服务器组"
-    },
     "DescribeAppBlbUdpListener" : {
       "title" : "查询UDP监听器",
       "summary" : "查询UDP监听器"
@@ -98,10 +82,6 @@
     "DescribeAppBlbHttpListener" : {
       "title" : "查询HTTP监听器",
       "summary" : "查询HTTP监听器"
-    },
-    "DescribeAppBlbIpGroup" : {
-      "title" : "查询IP组",
-      "summary" : "查询IP组"
     },
     "UpdateAppBlbIpGroup" : {
       "title" : "更新IP组",
@@ -115,6 +95,50 @@
       "title" : "查询实例详情",
       "summary" : "查询实例详情"
     },
+    "CreateBlbHttpListener" : {
+      "title" : "创建HTTP监听器",
+      "summary" : "创建HTTP监听器"
+    },
+    "CreateBlbHttpsListener" : {
+      "title" : "创建HTTPS监听器",
+      "summary" : "创建HTTPS监听器"
+    },
+    "DescribeBlbHttpListener" : {
+      "title" : "查询HTTP监听器",
+      "summary" : "查询HTTP监听器"
+    },
+    "DescribeBlbHttpsListener" : {
+      "title" : "查询HTTPS监听器",
+      "summary" : "查询HTTPS监听器"
+    },
+    "DescribeBlbListener" : {
+      "title" : "查询所有监听",
+      "summary" : "查询所有监听"
+    },
+    "UpdateBlbHttpListener" : {
+      "title" : "更新HTTP监听器",
+      "summary" : "更新HTTP监听器"
+    },
+    "UpdateBlbHttpsListener" : {
+      "title" : "更新HTTPS监听器",
+      "summary" : "更新HTTPS监听器"
+    },
+    "CreateAppBlbServerGroupPort" : {
+      "title" : "创建服务器组端口",
+      "summary" : "创建服务器组端口"
+    },
+    "UpdateAppBlbServerGroupPort" : {
+      "title" : "更新服务器组端口",
+      "summary" : "更新服务器组端口"
+    },
+    "DescribeAppBlbServerGroup" : {
+      "title" : "查询服务器组",
+      "summary" : "查询服务器组"
+    },
+    "CreateAppBlbIpGroupProtocol" : {
+      "title" : "创建IP组协议",
+      "summary" : "创建IP组协议"
+    },
     "CreateBlb" : {
       "title" : "创建实例",
       "summary" : "创建实例"
@@ -122,6 +146,14 @@
     "DeleteAppBlbIpGroupProtocol" : {
       "title" : "删除IP组协议",
       "summary" : "删除IP组协议"
+    },
+    "UpdateAppBlbIpGroupProtocol" : {
+      "title" : "更新IP组协议",
+      "summary" : "更新IP组协议"
+    },
+    "DescribeAppBlbIpGroup" : {
+      "title" : "查询IP组",
+      "summary" : "查询IP组"
     },
     "ReleaseBlb" : {
       "title" : "释放实例",
@@ -159,10 +191,6 @@
       "title" : "查询实例详情",
       "summary" : "查询实例详情"
     },
-    "CreateAppBlbIpGroupProtocol" : {
-      "title" : "创建IP组协议",
-      "summary" : "创建IP组协议"
-    },
     "BlbInquiry" : {
       "title" : "BLB询价",
       "summary" : "BLB询价"
@@ -174,6 +202,14 @@
     "DescribeAppBlbPolicy" : {
       "title" : "查询转发策略",
       "summary" : "查询转发策略"
+    },
+    "DescribeBlbSecurityGroups" : {
+      "title" : "查询普通安全组",
+      "summary" : "查询普通安全组"
+    },
+    "DescribeBlbEnterpriseSecurityGroups" : {
+      "title" : "查询企业安全组",
+      "summary" : "查询企业安全组"
     },
     "DescribeLbdcs" : {
       "title" : "查询集群列表",
@@ -187,41 +223,17 @@
       "title" : "查询集群下的BLB实例",
       "summary" : "查询集群下的BLB实例"
     },
-    "DescribeBlbSecurityGroups" : {
-      "title" : "查询普通安全组",
-      "summary" : "查询普通安全组"
-    },
     "UpdateLbdc" : {
       "title" : "更新集群",
       "summary" : "更新集群"
-    },
-    "DescribeBlbEnterpriseSecurityGroups" : {
-      "title" : "查询企业安全组",
-      "summary" : "查询企业安全组"
-    },
-    "BindBlbSecurityGroup" : {
-      "title" : "绑定普通安全组",
-      "summary" : "绑定普通安全组"
     },
     "CreateAppBlbIpGroupMember" : {
       "title" : "创建IP组成员",
       "summary" : "创建IP组成员"
     },
-    "UnbindBlbSecurityGroup" : {
-      "title" : "解绑普通安全组",
-      "summary" : "解绑普通安全组"
-    },
     "UpdateAppBlbIpGroupMember" : {
       "title" : "更新IP组成员",
       "summary" : "更新IP组成员"
-    },
-    "BindBlbEnterpriseSecurityGroup" : {
-      "title" : "绑定企业安全组",
-      "summary" : "绑定企业安全组"
-    },
-    "UnbindBlbEnterpriseSecurityGroup" : {
-      "title" : "解绑企业安全组",
-      "summary" : "解绑企业安全组"
     },
     "DescribeAppBlbSslListener" : {
       "title" : "查询SSL监听器",
@@ -243,17 +255,25 @@
       "title" : "创建TCP监听器",
       "summary" : "创建TCP监听器"
     },
+    "BindBlbSecurityGroup" : {
+      "title" : "绑定普通安全组",
+      "summary" : "绑定普通安全组"
+    },
     "CreateBlbSslListener" : {
       "title" : "创建SSL监听器",
       "summary" : "创建SSL监听器"
     },
-    "CreateBlbHttpListener" : {
-      "title" : "创建HTTP监听器",
-      "summary" : "创建HTTP监听器"
+    "UnbindBlbSecurityGroup" : {
+      "title" : "解绑普通安全组",
+      "summary" : "解绑普通安全组"
     },
-    "CreateBlbHttpsListener" : {
-      "title" : "创建HTTPS监听器",
-      "summary" : "创建HTTPS监听器"
+    "BindBlbEnterpriseSecurityGroup" : {
+      "title" : "绑定企业安全组",
+      "summary" : "绑定企业安全组"
+    },
+    "UnbindBlbEnterpriseSecurityGroup" : {
+      "title" : "解绑企业安全组",
+      "summary" : "解绑企业安全组"
     },
     "UpdateBlbTcpListener" : {
       "title" : "更新TCP监听器",
@@ -270,14 +290,6 @@
     "UpdateBlbSslListener" : {
       "title" : "更新SSL监听器",
       "summary" : "更新SSL监听器"
-    },
-    "UpdateBlbHttpListener" : {
-      "title" : "更新HTTP监听器",
-      "summary" : "更新HTTP监听器"
-    },
-    "UpdateBlbHttpsListener" : {
-      "title" : "更新HTTPS监听器",
-      "summary" : "更新HTTPS监听器"
     },
     "AddBlbServer" : {
       "title" : "添加后端服务器",
@@ -391,14 +403,6 @@
       "title" : "移除后端服务器",
       "summary" : "移除后端服务器"
     },
-    "CreateAppBlbServerGroupPort" : {
-      "title" : "创建服务器组端口",
-      "summary" : "创建服务器组端口"
-    },
-    "UpdateAppBlbServerGroupPort" : {
-      "title" : "更新服务器组端口",
-      "summary" : "更新服务器组端口"
-    },
     "DeleteAppBlbServerGroupPort" : {
       "title" : "删除服务器组端口",
       "summary" : "删除服务器组端口"
@@ -418,10 +422,6 @@
     "BillingChangePreToPostBlb" : {
       "title" : "BLB计费变更-预付费转后付费",
       "summary" : "BLB计费变更-预付费转后付费"
-    },
-    "UpdateAppBlbIpGroupProtocol" : {
-      "title" : "更新IP组协议",
-      "summary" : "更新IP组协议"
     },
     "BillingChangeCancelToPostBlb" : {
       "title" : "BLB计费变更-取消预付费转后付费",

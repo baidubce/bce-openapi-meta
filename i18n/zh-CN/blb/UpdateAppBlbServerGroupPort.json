@@ -6,6 +6,8 @@
     "portId" : "要更新的服务器组端口的标识符",
     "enableHealthCheck" : "是否开启健康检查，默认true",
     "healthCheck" : "健康检查协议，支持\"HTTP\"/\"TCP\"/\"UDP\"/\"ICMP\"，  TCP默认TCP，UDP默认UDP，HTTP默认HTTP",
+    "healthCheckHttpVersion" : "健康检查HTTP协议版本,只有`healthCheck`设置为HTTP时生效。取值: `HTTP 1.0`(默认)、`HTTP 1.1`",
+    "healthCheckMethod" : "健康检查的方法,只有`healthCheck`设置为HTTP时生效。取值:`GET`,`HEAD`(默认)",
     "healthCheckPort" : "健康检查端口，默认为port的取值，当健康检查协议为\"HTTP\"时生效",
     "healthCheckUrlPath" : "健康检查URI，默认/。当健康检查协议为\"HTTP\"时生效",
     "healthCheckTimeoutInSecond" : "健康检查超时（单位：秒），默认为3，需为1-60间的整数",

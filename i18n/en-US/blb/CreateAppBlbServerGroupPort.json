@@ -7,6 +7,8 @@
     "type" : "Protocol type of the listening port: \"TCP\" / \"UDP\" / \"HTTP\"",
     "enableHealthCheck" : "Whether to enable health check, default is true",
     "healthCheck" : "Health check protocol, supports \"HTTP\" / \"TCP\" / \"UDP\" / \"ICMP\"; default is TCP for TCP listeners, UDP for UDP listeners, HTTP for HTTP listeners",
+    "healthCheckHttpVersion" : "Health check HTTP protocol version, effective only when `healthCheck` is set to HTTP. Values: `HTTP 1.0` (default), `HTTP 1.1`",
+    "healthCheckMethod" : "Health check method, effective only when `healthCheck` is set to HTTP. Values: `GET`, `HEAD` (default)",
     "healthCheckPort" : "Health check port, valid range 1-65535, defaults to the value of port; takes effect when health check protocol is \"HTTP\"",
     "healthCheckUrlPath" : "Health check URI path, default is /; takes effect when health check protocol is \"HTTP\"",
     "healthCheckTimeoutInSecond" : "Health check timeout in seconds, default is 3, must be an integer between 1 and 60",
