@@ -335,10 +335,6 @@
       "title" : "querySslVpnUsers",
       "summary" : "querySslVpnUsers"
     },
-    "QueryVpnList" : {
-      "title" : "queryVpnList",
-      "summary" : "queryVpnList"
-    },
     "DeleteSslVpnUser" : {
       "title" : "deleteSslVpnUser",
       "summary" : "deleteSslVpnUser"
@@ -374,6 +370,10 @@
     "CreateGatewayLimitRules" : {
       "title" : "createGatewayLimitRules",
       "summary" : "createGatewayLimitRules"
+    },
+    "QueryVpnList" : {
+      "title" : "queryVpnList",
+      "summary" : "queryVpnList"
     },
     "ModifyNat" : {
       "title" : "modifyNat",

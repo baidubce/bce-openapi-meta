@@ -335,10 +335,6 @@
       "title" : "查询SSL-VPN用户",
       "summary" : "查询SSL-VPN用户"
     },
-    "QueryVpnList" : {
-      "title" : "查询VPN列表",
-      "summary" : "查询VPN列表"
-    },
     "DeleteSslVpnUser" : {
       "title" : "删除SSL-VPN用户",
       "summary" : "删除SSL-VPN用户"
@@ -374,6 +370,10 @@
     "CreateGatewayLimitRules" : {
       "title" : "创建网关限速规则",
       "summary" : "创建网关限速规则"
+    },
+    "QueryVpnList" : {
+      "title" : "查询VPN列表",
+      "summary" : "查询VPN列表"
     },
     "ModifyNat" : {
       "title" : "更新NAT网关名称",
