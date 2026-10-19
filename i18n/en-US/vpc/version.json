@@ -239,10 +239,6 @@
       "title" : "getPeerConn",
       "summary" : "getPeerConn"
     },
-    "CreateVpn" : {
-      "title" : "createVpn",
-      "summary" : "createVpn"
-    },
     "SearchForVpnDetails" : {
       "title" : "searchForVpnDetails",
       "summary" : "searchForVpnDetails"
@@ -370,6 +366,10 @@
     "CreateGatewayLimitRules" : {
       "title" : "createGatewayLimitRules",
       "summary" : "createGatewayLimitRules"
+    },
+    "CreateVpn" : {
+      "title" : "createVpn",
+      "summary" : "createVpn"
     },
     "QueryVpnList" : {
       "title" : "queryVpnList",

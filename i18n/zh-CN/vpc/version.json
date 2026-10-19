@@ -239,10 +239,6 @@
       "title" : "查看对等连接详情",
       "summary" : "查看对等连接详情"
     },
-    "CreateVpn" : {
-      "title" : "创建VPN",
-      "summary" : "创建VPN"
-    },
     "SearchForVpnDetails" : {
       "title" : "查询VPN详情",
       "summary" : "查询VPN详情"
@@ -370,6 +366,10 @@
     "CreateGatewayLimitRules" : {
       "title" : "创建网关限速规则",
       "summary" : "创建网关限速规则"
+    },
+    "CreateVpn" : {
+      "title" : "创建VPN",
+      "summary" : "创建VPN"
     },
     "QueryVpnList" : {
       "title" : "查询VPN列表",
