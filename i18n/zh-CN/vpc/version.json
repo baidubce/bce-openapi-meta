@@ -175,21 +175,9 @@
       "title" : "更新网络探测",
       "summary" : "更新网络探测"
     },
-    "CreateVpc" : {
-      "title" : "创建VPC",
-      "summary" : "创建VPC"
-    },
-    "QueryVpcList" : {
-      "title" : "查询VPC列表",
-      "summary" : "查询VPC列表"
-    },
     "ListProbes" : {
       "title" : "查询网络探测列表",
       "summary" : "查询网络探测列表"
-    },
-    "QuerySpecifiedVpc" : {
-      "title" : "查询指定VPC",
-      "summary" : "查询指定VPC"
     },
     "DeleteVpc" : {
       "title" : "删除VPC",
@@ -238,6 +226,10 @@
     "GetPeerConn" : {
       "title" : "查看对等连接详情",
       "summary" : "查看对等连接详情"
+    },
+    "CreateVpn" : {
+      "title" : "创建VPN",
+      "summary" : "创建VPN"
     },
     "SearchForVpnDetails" : {
       "title" : "查询VPN详情",
@@ -331,6 +323,10 @@
       "title" : "查询SSL-VPN用户",
       "summary" : "查询SSL-VPN用户"
     },
+    "QueryVpnList" : {
+      "title" : "查询VPN列表",
+      "summary" : "查询VPN列表"
+    },
     "DeleteSslVpnUser" : {
       "title" : "删除SSL-VPN用户",
       "summary" : "删除SSL-VPN用户"
@@ -367,13 +363,9 @@
       "title" : "创建网关限速规则",
       "summary" : "创建网关限速规则"
     },
-    "CreateVpn" : {
-      "title" : "创建VPN",
-      "summary" : "创建VPN"
-    },
-    "QueryVpnList" : {
-      "title" : "查询VPN列表",
-      "summary" : "查询VPN列表"
+    "CreateVpc" : {
+      "title" : "创建VPC",
+      "summary" : "创建VPC"
     },
     "ModifyNat" : {
       "title" : "更新NAT网关名称",
@@ -543,6 +535,10 @@
       "title" : "删除普通安全组规则",
       "summary" : "删除普通安全组规则"
     },
+    "QuerySpecifiedVpc" : {
+      "title" : "查询指定VPC",
+      "summary" : "查询指定VPC"
+    },
     "GetSecurityGroupDetails" : {
       "title" : "查看安全组详情",
       "summary" : "查看安全组详情"
@@ -638,6 +634,10 @@
     "DeleteIpv6GatewayRateLimitRule" : {
       "title" : "删除IPv6网关限速策略",
       "summary" : "删除IPv6网关限速策略"
+    },
+    "QueryVpcList" : {
+      "title" : "查询VPC列表",
+      "summary" : "查询VPC列表"
     },
     "QueryTheListOfDedicatedLineGateways" : {
       "title" : "查询专线网关列表",

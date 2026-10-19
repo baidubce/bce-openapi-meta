@@ -175,21 +175,9 @@
       "title" : "updateProbe",
       "summary" : "updateProbe"
     },
-    "CreateVpc" : {
-      "title" : "createVpc",
-      "summary" : "createVpc"
-    },
-    "QueryVpcList" : {
-      "title" : "queryVpcList",
-      "summary" : "queryVpcList"
-    },
     "ListProbes" : {
       "title" : "listProbes",
       "summary" : "listProbes"
-    },
-    "QuerySpecifiedVpc" : {
-      "title" : "querySpecifiedVpc",
-      "summary" : "querySpecifiedVpc"
     },
     "DeleteVpc" : {
       "title" : "deleteVpc",
@@ -238,6 +226,10 @@
     "GetPeerConn" : {
       "title" : "getPeerConn",
       "summary" : "getPeerConn"
+    },
+    "CreateVpn" : {
+      "title" : "createVpn",
+      "summary" : "createVpn"
     },
     "SearchForVpnDetails" : {
       "title" : "searchForVpnDetails",
@@ -331,6 +323,10 @@
       "title" : "querySslVpnUsers",
       "summary" : "querySslVpnUsers"
     },
+    "QueryVpnList" : {
+      "title" : "queryVpnList",
+      "summary" : "queryVpnList"
+    },
     "DeleteSslVpnUser" : {
       "title" : "deleteSslVpnUser",
       "summary" : "deleteSslVpnUser"
@@ -367,13 +363,9 @@
       "title" : "createGatewayLimitRules",
       "summary" : "createGatewayLimitRules"
     },
-    "CreateVpn" : {
-      "title" : "createVpn",
-      "summary" : "createVpn"
-    },
-    "QueryVpnList" : {
-      "title" : "queryVpnList",
-      "summary" : "queryVpnList"
+    "CreateVpc" : {
+      "title" : "createVpc",
+      "summary" : "createVpc"
     },
     "ModifyNat" : {
       "title" : "modifyNat",
@@ -543,6 +535,10 @@
       "title" : "deleteSecurityGroupRules",
       "summary" : "deleteSecurityGroupRules"
     },
+    "QuerySpecifiedVpc" : {
+      "title" : "querySpecifiedVpc",
+      "summary" : "querySpecifiedVpc"
+    },
     "GetSecurityGroupDetails" : {
       "title" : "getSecurityGroupDetails",
       "summary" : "getSecurityGroupDetails"
@@ -638,6 +634,10 @@
     "DeleteIpv6GatewayRateLimitRule" : {
       "title" : "deleteIpv6GatewayRateLimitRule",
       "summary" : "deleteIpv6GatewayRateLimitRule"
+    },
+    "QueryVpcList" : {
+      "title" : "queryVpcList",
+      "summary" : "queryVpcList"
     },
     "QueryTheListOfDedicatedLineGateways" : {
       "title" : "queryTheListOfDedicatedLineGateways",
