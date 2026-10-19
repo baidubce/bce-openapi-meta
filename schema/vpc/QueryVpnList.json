@@ -24,7 +24,7 @@
   }, {
     "name" : "vpcId",
     "type" : "String",
-    "required" : true,
+    "required" : false,
     "position" : "QUERY",
     "desc_key" : "vpc.QueryVpnList.vpcId"
   }, {

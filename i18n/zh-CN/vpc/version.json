@@ -243,10 +243,6 @@
       "title" : "创建VPN",
       "summary" : "创建VPN"
     },
-    "QueryVpnList" : {
-      "title" : "查询VPN列表",
-      "summary" : "查询VPN列表"
-    },
     "SearchForVpnDetails" : {
       "title" : "查询VPN详情",
       "summary" : "查询VPN详情"
@@ -274,6 +270,10 @@
     "UpdateVpnReleaseProtection" : {
       "title" : "更新VPN释放保护开关",
       "summary" : "更新VPN释放保护开关"
+    },
+    "CreateVpnTunnel" : {
+      "title" : "创建VPN隧道",
+      "summary" : "创建VPN隧道"
     },
     "SearchVpnTunnel" : {
       "title" : "查询VPN隧道",
@@ -334,6 +334,10 @@
     "QuerySslVpnUsers" : {
       "title" : "查询SSL-VPN用户",
       "summary" : "查询SSL-VPN用户"
+    },
+    "QueryVpnList" : {
+      "title" : "查询VPN列表",
+      "summary" : "查询VPN列表"
     },
     "DeleteSslVpnUser" : {
       "title" : "删除SSL-VPN用户",
@@ -518,10 +522,6 @@
     "RevokeSecurityGroupRules" : {
       "title" : "撤销普通安全组规则",
       "summary" : "撤销普通安全组规则"
-    },
-    "CreateVpnTunnel" : {
-      "title" : "创建VPN隧道",
-      "summary" : "创建VPN隧道"
     },
     "UpdateSecurityGroupRules" : {
       "title" : "更新普通安全组规则",

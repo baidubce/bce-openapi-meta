@@ -243,10 +243,6 @@
       "title" : "createVpn",
       "summary" : "createVpn"
     },
-    "QueryVpnList" : {
-      "title" : "queryVpnList",
-      "summary" : "queryVpnList"
-    },
     "SearchForVpnDetails" : {
       "title" : "searchForVpnDetails",
       "summary" : "searchForVpnDetails"
@@ -274,6 +270,10 @@
     "UpdateVpnReleaseProtection" : {
       "title" : "updateVpnReleaseProtection",
       "summary" : "updateVpnReleaseProtection"
+    },
+    "CreateVpnTunnel" : {
+      "title" : "createVpnTunnel",
+      "summary" : "createVpnTunnel"
     },
     "SearchVpnTunnel" : {
       "title" : "searchVpnTunnel",
@@ -334,6 +334,10 @@
     "QuerySslVpnUsers" : {
       "title" : "querySslVpnUsers",
       "summary" : "querySslVpnUsers"
+    },
+    "QueryVpnList" : {
+      "title" : "queryVpnList",
+      "summary" : "queryVpnList"
     },
     "DeleteSslVpnUser" : {
       "title" : "deleteSslVpnUser",
@@ -518,10 +522,6 @@
     "RevokeSecurityGroupRules" : {
       "title" : "revokeSecurityGroupRules",
       "summary" : "revokeSecurityGroupRules"
-    },
-    "CreateVpnTunnel" : {
-      "title" : "createVpnTunnel",
-      "summary" : "createVpnTunnel"
     },
     "UpdateSecurityGroupRules" : {
       "title" : "updateSecurityGroupRules",
