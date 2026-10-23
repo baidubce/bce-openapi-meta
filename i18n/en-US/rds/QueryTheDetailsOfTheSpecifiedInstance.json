@@ -1,0 +1,5 @@
+{
+  "QueryTheDetailsOfTheSpecifiedInstance" : {
+    "instanceId" : "The ID of the specified instance"
+  }
+}

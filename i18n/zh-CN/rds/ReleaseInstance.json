@@ -1,0 +1,5 @@
+{
+  "ReleaseInstance" : {
+    "instanceIds" : "实例ID,多个实例间用英文半角逗号\",\"隔开，同时支持3个实例释放"
+  }
+}

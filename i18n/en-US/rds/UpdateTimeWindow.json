@@ -1,0 +1,7 @@
+{
+  "UpdateTimeWindow" : {
+    "instanceId" : "Instance ID",
+    "maintainStartTime" : "Start time of the instance maintenance time window, in local time, e.g. 17:00:00",
+    "maintainDuration" : "Duration of the instance maintenance time window, in hours, e.g. 1; each hour is a time segment, and the start time plus duration cannot span across days"
+  }
+}

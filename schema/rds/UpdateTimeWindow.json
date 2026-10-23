@@ -1,0 +1,32 @@
+{
+  "name" : "UpdateTimeWindow",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}/maintaintime",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "rds.UpdateTimeWindow.instanceId"
+  }, {
+    "name" : "maintainStartTime",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.UpdateTimeWindow.maintainStartTime"
+  }, {
+    "name" : "maintainDuration",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.UpdateTimeWindow.maintainDuration"
+  } ],
+  "desc_key" : "rds.UpdateTimeWindow.desc"
+}

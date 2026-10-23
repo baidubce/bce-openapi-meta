@@ -1,0 +1,7 @@
+{
+  "BindingTags" : {
+    "resources" : "Resource list",
+    "resources.instanceId" : "Resource ID (instance ID)",
+    "resources.tags" : "Tag list"
+  }
+}

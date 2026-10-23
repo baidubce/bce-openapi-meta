@@ -1,0 +1,26 @@
+{
+  "name" : "UpdateInstanceConnectionInformation",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}?modifyEndpoint",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "rds.UpdateInstanceConnectionInformation.instanceId"
+  }, {
+    "name" : "address",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.UpdateInstanceConnectionInformation.address"
+  } ],
+  "desc_key" : "rds.UpdateInstanceConnectionInformation.desc"
+}

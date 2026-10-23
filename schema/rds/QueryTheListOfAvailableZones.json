@@ -1,0 +1,14 @@
+{
+  "name" : "QueryTheListOfAvailableZones",
+  "method" : "GET",
+  "uri" : "/v{version}/zone",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  } ],
+  "desc_key" : "rds.QueryTheListOfAvailableZones.desc"
+}

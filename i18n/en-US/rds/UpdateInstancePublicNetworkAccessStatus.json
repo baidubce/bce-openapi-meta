@@ -1,0 +1,6 @@
+{
+  "UpdateInstancePublicNetworkAccessStatus" : {
+    "instanceId" : "Instance ID",
+    "publicAccess" : "true: enable public network access; false: disable public network access"
+  }
+}

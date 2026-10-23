@@ -1,0 +1,21 @@
+{
+  "TransformationExample" : {
+    "instanceId" : "Instance ID",
+    "cpuCount" : "Number of CPU cores, minimum value is 1",
+    "memoryCapacity" : "Memory size in GB, minimum value is 1",
+    "volumeCapacity" : "Storage size in GB, minimum value is 1. If the disk type diskIoType is cloud\\_enha, volumeCapacity must be greater than 50",
+    "allocatedMemoryInMB" : "Memory size in MB, minimum value is 1",
+    "nodeAmount" : "Number of proxy instance nodes. This parameter can be omitted if the resize type is not for proxy nodes. If resizing proxy nodes, the value must be one of (2, 4, 6, 8, 16)",
+    "isDirectPay" : "Whether to pay directly, defaults to false. Resize orders set to direct payment will be charged immediately without going through the payment process",
+    "isEnhanced" : "Whether it is an enhanced edition RDS",
+    "effectiveTime" : "Execution method, with two values: timewindow and immediate. timewindow means execution within the time window, immediate means immediate execution. Defaults to immediate. The default time window for an instance is 05:00-06:00; refer to the instance details for specifics",
+    "masterAzone" : "The master availability zone to change during resize. This parameter requires a value, e.g., cn-bj-a. If not provided, the current master AZ is used by default",
+    "backupAzone" : "The backup availability zone to change during resize. This parameter requires a value, e.g., cn-bj-a. If not provided, the current backup AZ is used by default",
+    "diskIoType" : "Storage disk type, including four types: local SSD disk (value: normal\\_io), enhanced ESSD cloud disk (value: cloud\\_enha), high-performance cloud disk (value: cloud\\_high), and general-purpose cloud disk (value: cloud\\_nor)",
+    "subnetId" : "Subnet ID, defaults to empty",
+    "edgeSubnetId" : "Edge subnet ID",
+    "subnets" : "Required when the master or backup availability zone needs to be changed during resize",
+    "subnets.zoneName" : "Availability zone",
+    "subnets.subnetId" : "Subnet ID"
+  }
+}

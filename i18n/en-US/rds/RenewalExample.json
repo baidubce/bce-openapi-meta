@@ -1,0 +1,6 @@
+{
+  "RenewalExample" : {
+    "duration" : "Renewal period, in months",
+    "instanceIds" : "Instance ID list"
+  }
+}

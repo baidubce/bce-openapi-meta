@@ -1,0 +1,7 @@
+{
+  "InstanceEnablesAutomaticRenewal" : {
+    "instanceIds" : "实例ID列表",
+    "autoRenewTimeUnit" : "自动续费周期单位（年：year；月：month）",
+    "autoRenewTime" : "续费周期按月（不超过9个月）按年付费（不超过3年）"
+  }
+}

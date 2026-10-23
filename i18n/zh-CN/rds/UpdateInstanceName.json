@@ -1,0 +1,6 @@
+{
+  "UpdateInstanceName" : {
+    "instanceId" : "实例ID",
+    "instanceName" : "实例名称。 1）用户自定义实例名。 2）允许小写字母、数字。 3）长度限制为1~64。"
+  }
+}

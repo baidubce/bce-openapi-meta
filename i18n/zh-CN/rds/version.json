@@ -3,9 +3,81 @@
   "style" : "rpc",
   "description" : "云数据库 RDS",
   "apis" : {
+    "TransformationExample" : {
+      "title" : "变配实例",
+      "summary" : "变配实例"
+    },
+    "UpdateInstanceName" : {
+      "title" : "更新实例名称",
+      "summary" : "更新实例名称"
+    },
+    "BindingTags" : {
+      "title" : "绑定标签",
+      "summary" : "绑定标签"
+    },
+    "ReleaseInstance" : {
+      "title" : "释放实例",
+      "summary" : "释放实例"
+    },
+    "QueryTheDetailsOfTheSpecifiedInstance" : {
+      "title" : "查询指定实例详情",
+      "summary" : "查询指定实例详情"
+    },
+    "QueryInstanceList" : {
+      "title" : "查询实例列表",
+      "summary" : "查询实例列表"
+    },
+    "QueryTheListOfAvailableZones" : {
+      "title" : "查询可用区列表",
+      "summary" : "查询可用区列表"
+    },
+    "ClusterStatusCheck" : {
+      "title" : "集群状态检查",
+      "summary" : "集群状态检查"
+    },
+    "QuerySubnetList" : {
+      "title" : "查询子网列表",
+      "summary" : "查询子网列表"
+    },
+    "DoesTheInstanceSupportEnablingAutomaticExpansion" : {
+      "title" : "实例是否支持启用自动扩容",
+      "summary" : "实例是否支持启用自动扩容"
+    },
+    "UpdateInstanceConnectionInformation" : {
+      "title" : "更新实例连接信息",
+      "summary" : "更新实例连接信息"
+    },
+    "RetrieveInstanceAutoScalingConfig" : {
+      "title" : "获取指定实例的自动扩容配置信息",
+      "summary" : "获取指定实例的自动扩容配置信息"
+    },
+    "DialTestInterface" : {
+      "title" : "拨测接口",
+      "summary" : "拨测接口"
+    },
+    "UpdateTimeWindow" : {
+      "title" : "更新时间窗口",
+      "summary" : "更新时间窗口"
+    },
+    "RestartTheInstance" : {
+      "title" : "重启实例",
+      "summary" : "重启实例"
+    },
+    "UpdateAutomaticStorageExpansionConfiguration" : {
+      "title" : "更新存储自动扩容配置",
+      "summary" : "更新存储自动扩容配置"
+    },
+    "BatchConfigurationOfInstances" : {
+      "title" : "实例批量变配",
+      "summary" : "实例批量变配"
+    },
     "QueryTaskList" : {
       "title" : "查询任务列表",
       "summary" : "查询任务列表"
+    },
+    "UpdateInstancePublicNetworkAccessStatus" : {
+      "title" : "更新实例公网访问状态",
+      "summary" : "更新实例公网访问状态"
     },
     "CreateAPrimaryInstance" : {
       "title" : "创建主实例",
@@ -14,6 +86,18 @@
     "CreateReadOnlyInstance" : {
       "title" : "创建只读实例",
       "summary" : "创建只读实例"
+    },
+    "RenewalExample" : {
+      "title" : "续费实例",
+      "summary" : "续费实例"
+    },
+    "UpdateInstanceSynchronizationMode" : {
+      "title" : "更新实例同步模式",
+      "summary" : "更新实例同步模式"
+    },
+    "InstanceEnablesAutomaticRenewal" : {
+      "title" : "实例开启自动续费",
+      "summary" : "实例开启自动续费"
     },
     "CreateAProxyInstance" : {
       "title" : "创建代理实例",

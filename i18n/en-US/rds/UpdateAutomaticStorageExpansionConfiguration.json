@@ -1,0 +1,8 @@
+{
+  "UpdateAutomaticStorageExpansionConfiguration" : {
+    "instanceId" : "Instance ID",
+    "action" : "Valid values: - open, enable automatic storage expansion - stop, disable automatic storage expansion - update, modify the free space threshold or disk upper limit while automatic storage expansion is enabled",
+    "freeSpaceThreshold" : "Free space threshold, in %. Required when action is open. Can only be modified while automatic storage expansion is enabled for the instance",
+    "diskMaxLimit" : "Upper limit of the auto-expanded disk, in GB. Required when action is open. Can only be modified while automatic storage expansion is enabled for the instance. Validation: must be a multiple of 5, must be greater than the instance's current disk quota, and must be less than or equal to the disk upper limit allowed when the instance is reconfigured"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "QueryInstanceList" : {
+    "marker" : "The starting position of the marker in the paginated primary instance list, used together with maxKeys. It retrieves data between the index position of the matched marker keyword and the maxKeys index position. If marker is not passed, the system default is -1 (meaning it starts from the first item in the list).",
+    "maxKeys" : "The maximum number of items (primary instances) per page, usually no more than 1000, with a default value of 1000.",
+    "vnetIp" : "Query the specified intranet IP, with fuzzy search supported."
+  }
+}

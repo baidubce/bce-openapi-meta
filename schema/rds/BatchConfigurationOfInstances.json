@@ -1,0 +1,147 @@
+{
+  "name" : "BatchConfigurationOfInstances",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}?resize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "rds.BatchConfigurationOfInstances.instanceId"
+  }, {
+    "name" : "cpuCount",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.cpuCount"
+  }, {
+    "name" : "memoryCapacity",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.memoryCapacity"
+  }, {
+    "name" : "volumeCapacity",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.volumeCapacity"
+  }, {
+    "name" : "readReplicas",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.readReplicas",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.BatchConfigurationOfInstances.readReplicas.instanceId"
+    }, {
+      "name" : "cpuCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "rds.BatchConfigurationOfInstances.readReplicas.cpuCount"
+    }, {
+      "name" : "memoryCapacity",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "rds.BatchConfigurationOfInstances.readReplicas.memoryCapacity"
+    }, {
+      "name" : "volumeCapacity",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "rds.BatchConfigurationOfInstances.readReplicas.volumeCapacity"
+    }, {
+      "name" : "diskIoType",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.BatchConfigurationOfInstances.readReplicas.diskIoType"
+    } ]
+  }, {
+    "name" : "isBatchResize",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.isBatchResize"
+  }, {
+    "name" : "isDirectPay",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.isDirectPay"
+  }, {
+    "name" : "isEnhanced",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.isEnhanced"
+  }, {
+    "name" : "effectiveTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.effectiveTime"
+  }, {
+    "name" : "masterAzone",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.masterAzone"
+  }, {
+    "name" : "backupAzone",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.backupAzone"
+  }, {
+    "name" : "diskIoType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.diskIoType"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.subnetId"
+  }, {
+    "name" : "edgeSubnetId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.edgeSubnetId"
+  }, {
+    "name" : "subnets",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.subnets",
+    "sub_parameters" : [ {
+      "name" : "zoneName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.BatchConfigurationOfInstances.subnets.zoneName"
+    }, {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.BatchConfigurationOfInstances.subnets.subnetId"
+    } ]
+  }, {
+    "name" : "couponId",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.BatchConfigurationOfInstances.couponId"
+  } ],
+  "desc_key" : "rds.BatchConfigurationOfInstances.desc"
+}

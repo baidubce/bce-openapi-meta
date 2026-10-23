@@ -1,0 +1,5 @@
+{
+  "ReleaseInstance" : {
+    "instanceIds" : "Instance IDs, separated by commas \",\". Supports releasing up to 3 instances at a time."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "RenewalExample",
+  "method" : "POST",
+  "uri" : "/v1/instance/renew",
+  "parameters" : [ {
+    "name" : "duration",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.RenewalExample.duration"
+  }, {
+    "name" : "instanceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.RenewalExample.instanceIds"
+  } ],
+  "desc_key" : "rds.RenewalExample.desc"
+}

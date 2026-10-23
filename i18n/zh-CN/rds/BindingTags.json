@@ -1,0 +1,7 @@
+{
+  "BindingTags" : {
+    "resources" : "资源列表",
+    "resources.instanceId" : "资源ID（实例ID）",
+    "resources.tags" : "标签列表"
+  }
+}

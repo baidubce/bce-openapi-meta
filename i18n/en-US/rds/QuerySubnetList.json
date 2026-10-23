@@ -1,0 +1,6 @@
+{
+  "QuerySubnetList" : {
+    "zoneName" : "Subnet zone name, formatted as country-region-subnet number (a-f). Note: the subnet sequence must be any single letter from a to f, otherwise a parsing error will occur. For example, Beijing Availability Zone A is \"cn-bj-a\".",
+    "vpcId" : "VPC ID of the subnet"
+  }
+}

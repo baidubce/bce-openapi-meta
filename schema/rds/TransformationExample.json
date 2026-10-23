@@ -1,0 +1,115 @@
+{
+  "name" : "TransformationExample",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}?resize",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "rds.TransformationExample.instanceId"
+  }, {
+    "name" : "cpuCount",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.cpuCount"
+  }, {
+    "name" : "memoryCapacity",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.memoryCapacity"
+  }, {
+    "name" : "volumeCapacity",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.volumeCapacity"
+  }, {
+    "name" : "allocatedMemoryInMB",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.allocatedMemoryInMB"
+  }, {
+    "name" : "nodeAmount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.nodeAmount"
+  }, {
+    "name" : "isDirectPay",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.isDirectPay"
+  }, {
+    "name" : "isEnhanced",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.isEnhanced"
+  }, {
+    "name" : "effectiveTime",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.effectiveTime"
+  }, {
+    "name" : "masterAzone",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.masterAzone"
+  }, {
+    "name" : "backupAzone",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.backupAzone"
+  }, {
+    "name" : "diskIoType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.diskIoType"
+  }, {
+    "name" : "subnetId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.subnetId"
+  }, {
+    "name" : "edgeSubnetId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.edgeSubnetId"
+  }, {
+    "name" : "subnets",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.TransformationExample.subnets",
+    "sub_parameters" : [ {
+      "name" : "zoneName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.TransformationExample.subnets.zoneName"
+    }, {
+      "name" : "subnetId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.TransformationExample.subnets.subnetId"
+    } ]
+  } ],
+  "desc_key" : "rds.TransformationExample.desc"
+}

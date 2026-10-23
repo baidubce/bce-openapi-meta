@@ -1,0 +1,20 @@
+{
+  "name" : "ReleaseInstance",
+  "method" : "DELETE",
+  "uri" : "/v{version}/instance",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceIds",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "rds.ReleaseInstance.instanceIds"
+  } ],
+  "desc_key" : "rds.ReleaseInstance.desc"
+}

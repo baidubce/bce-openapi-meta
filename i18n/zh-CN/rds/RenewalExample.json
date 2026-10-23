@@ -1,0 +1,6 @@
+{
+  "RenewalExample" : {
+    "duration" : "续费周期，单位为月",
+    "instanceIds" : "实例ID列表"
+  }
+}

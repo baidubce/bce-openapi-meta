@@ -1,0 +1,6 @@
+{
+  "UpdateInstanceName" : {
+    "instanceId" : "Instance ID",
+    "instanceName" : "Instance name. 1) User-defined instance name. 2) Lowercase letters and numbers allowed. 3) Length limit is 1 to 64 characters."
+  }
+}

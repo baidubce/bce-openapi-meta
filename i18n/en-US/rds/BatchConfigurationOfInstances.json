@@ -1,0 +1,27 @@
+{
+  "BatchConfigurationOfInstances" : {
+    "instanceId" : "The master instance ID for batch configuration change",
+    "cpuCount" : "Number of CPU cores, minimum value is 1",
+    "memoryCapacity" : "Memory size in GB, minimum value is 1",
+    "volumeCapacity" : "Storage size in GB, minimum value is 1. If diskIoType is cloud_enha, volumeCapacity must be greater than 50",
+    "readReplicas" : "Array of read replicas for batch configuration change. This value is invalid when isBatchResize = true; otherwise it is required.",
+    "readReplicas.instanceId" : "The read replica instance ID for batch configuration change",
+    "readReplicas.cpuCount" : "Number of CPU cores for the read replica, minimum value is 1",
+    "readReplicas.memoryCapacity" : "Memory size of the read replica in GB, minimum value is 1",
+    "readReplicas.volumeCapacity" : "Storage size of the read replica in GB, minimum value is 1. If diskIoType is cloud_enha, volumeCapacity must be greater than 50",
+    "readReplicas.diskIoType" : "Storage disk types include local SSD disk (normal_io), enhanced SSD cloud disk (cloud_enha), high-performance cloud disk (cloud_high), and general-purpose SSD (cloud_nor). Changing a local disk to an enhanced SSD cloud disk is supported (disable restriction removed); conversely, a cloud disk cannot be changed to a local disk. Conditions for converting local to cloud disk: 1) the instance application is mysql with version 5.5 or 5.6; 2) the parameter is a non-local SSD disk (normal_io) and this parameter is not an empty string",
+    "isBatchResize" : "When set to true, the one-click batch configuration change feature is enabled; in this case the read replica information (readReplicas) provided by the customer is ignored, and the storage size of the read replicas to be upgraded will be kept consistent with the target master instance storage size by default. When set to false, readReplicas is required.",
+    "isDirectPay" : "Whether to pay directly. Defaults to false. A configuration change order set to direct pay will be charged immediately without going through the payment flow.",
+    "isEnhanced" : "Whether it is an enhanced edition RDS",
+    "effectiveTime" : "Execution mode, with two values: timewindow and immediate. timewindow means execution within the maintenance time window, immediate means immediate execution. Defaults to immediate. The default time window for an instance is 05:00-06:00; refer to the instance details for specifics.",
+    "masterAzone" : "The master availability zone to change during the configuration change. This parameter must be provided, e.g., cn-bj-a. If not provided, the current master AZ is used by default.",
+    "backupAzone" : "The backup availability zone to change during the configuration change. This parameter must be provided, e.g., cn-bj-a. If not provided, the current backup AZ is used by default.",
+    "diskIoType" : "Storage disk types include local SSD disk (normal_io), enhanced SSD cloud disk (cloud_enha), high-performance cloud disk (cloud_high), and general-purpose SSD (cloud_nor). Changing a local disk to an enhanced SSD cloud disk is supported (disable restriction removed); conversely, a cloud disk cannot be changed to a local disk. Conditions for converting local to cloud disk: 1) the instance application is mysql with version 5.5 or 5.6; 2) the parameter is a non-local SSD disk (normal_io) and this parameter is not an empty string",
+    "subnetId" : "Subnet ID, empty by default",
+    "edgeSubnetId" : "Edge subnet ID",
+    "subnets" : "This parameter must be provided if the master or backup needs to change its availability zone during the configuration change",
+    "subnets.zoneName" : "Availability zone",
+    "subnets.subnetId" : "Subnet ID",
+    "couponId" : "During batch configuration change, API payment supports passing a specified coupon ID. This value is required when the master instance is prepaid and you want to use an existing coupon. Currently only one value is supported."
+  }
+}

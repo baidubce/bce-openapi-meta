@@ -1,0 +1,6 @@
+{
+  "UpdateInstancePublicNetworkAccessStatus" : {
+    "instanceId" : "实例ID",
+    "publicAccess" : "true：开启公网访问 false：关闭公网访问"
+  }
+}

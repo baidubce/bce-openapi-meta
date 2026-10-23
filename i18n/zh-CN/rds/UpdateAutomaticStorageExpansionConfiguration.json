@@ -1,0 +1,8 @@
+{
+  "UpdateAutomaticStorageExpansionConfiguration" : {
+    "instanceId" : "实例ID",
+    "action" : "取值为： - open，表示开启存储自动扩容 - stop，表示关闭存储自动扩容 - update，表示实例在开启存储自动扩容的状态下，修改可用空间阈值或者磁盘上限",
+    "freeSpaceThreshold" : "可用空间阈值, 单位%。当action为open时，为必传参数，仅允许实例在启用存储自动扩容时修改",
+    "diskMaxLimit" : "自动扩容磁盘的上限，单位GB。当action为open时，为必传参数，仅允许实例在启用存储自动扩容时修改。参数校验：必须为5的整倍数，必须大于实例当前磁盘quto，必须小于等于该实例变配时的磁盘上限"
+  }
+}

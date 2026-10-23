@@ -1,0 +1,7 @@
+{
+  "UpdateTimeWindow" : {
+    "instanceId" : "实例ID",
+    "maintainStartTime" : "实例维护时间窗口的开始时间，local时间，如17:00:00",
+    "maintainDuration" : "实例维护时间窗口的持续时间，单位是小时，如：1；每1个小时为一个时间段，开始时间+持续时间不可跨天"
+  }
+}

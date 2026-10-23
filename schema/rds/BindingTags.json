@@ -1,0 +1,42 @@
+{
+  "name" : "BindingTags",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/tags",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "resources",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "rds.BindingTags.resources",
+    "sub_parameters" : [ {
+      "name" : "instanceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rds.BindingTags.resources.instanceId"
+    }, {
+      "name" : "tags",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "rds.BindingTags.resources.tags",
+      "sub_parameters" : [ {
+        "name" : "tagKey",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rds.BindingTags.resources.tags.tagKey"
+      }, {
+        "name" : "tagValue",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rds.BindingTags.resources.tags.tagValue"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "rds.BindingTags.desc"
+}

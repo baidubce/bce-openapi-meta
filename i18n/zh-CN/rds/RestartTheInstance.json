@@ -1,0 +1,6 @@
+{
+  "RestartTheInstance" : {
+    "instanceId" : "实例ID",
+    "effectiveTime" : "操作执行方式，有两种取值：timewindow、immediate。其中timewindow表示在时间窗口内执行，immediate表示立即执行。默认为immediate。实例默认的时间窗口为05:00~06:00，具体可参考实例详情内容"
+  }
+}

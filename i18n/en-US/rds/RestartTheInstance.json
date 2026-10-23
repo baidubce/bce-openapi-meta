@@ -1,0 +1,6 @@
+{
+  "RestartTheInstance" : {
+    "instanceId" : "Instance ID",
+    "effectiveTime" : "Execution method, with two values: timewindow and immediate. timewindow means execution within the time window, immediate means immediate execution. Defaults to immediate. The default time window for an instance is 05:00-06:00; refer to the instance details for specifics."
+  }
+}

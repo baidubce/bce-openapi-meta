@@ -1,0 +1,6 @@
+{
+  "UpdateInstanceConnectionInformation" : {
+    "instanceId" : "Instance ID",
+    "address" : "Domain name prefix. The domain name prefix consists of lowercase letters and digits, must start with a lowercase letter, and must be between 3 and 30 characters in length"
+  }
+}

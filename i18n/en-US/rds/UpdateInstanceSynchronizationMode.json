@@ -1,0 +1,6 @@
+{
+  "UpdateInstanceSynchronizationMode" : {
+    "instanceId" : "Instance ID",
+    "syncMode" : "Synchronization mode (Asynchronous replication: Async, Semi-synchronous replication: Semi\\_sync)"
+  }
+}

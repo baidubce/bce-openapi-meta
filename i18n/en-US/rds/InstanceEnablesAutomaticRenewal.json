@@ -1,0 +1,7 @@
+{
+  "InstanceEnablesAutomaticRenewal" : {
+    "instanceIds" : "List of instance IDs",
+    "autoRenewTimeUnit" : "Auto-renewal period unit (year: year; month: month)",
+    "autoRenewTime" : "Renewal period: by month (up to 9 months) or by year (up to 3 years)"
+  }
+}

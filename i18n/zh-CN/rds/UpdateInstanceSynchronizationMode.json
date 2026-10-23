@@ -1,0 +1,6 @@
+{
+  "UpdateInstanceSynchronizationMode" : {
+    "instanceId" : "实例ID",
+    "syncMode" : "同步模式（异步复制：Async，半同步复制：Semi\\_sync）"
+  }
+}

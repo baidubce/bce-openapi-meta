@@ -1,0 +1,38 @@
+{
+  "name" : "UpdateAutomaticStorageExpansionConfiguration",
+  "method" : "PUT",
+  "uri" : "/v{version}/instance/{instanceId}/diskAutoResize/config/{action}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "rds.UpdateAutomaticStorageExpansionConfiguration.instanceId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "rds.UpdateAutomaticStorageExpansionConfiguration.action"
+  }, {
+    "name" : "freeSpaceThreshold",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.UpdateAutomaticStorageExpansionConfiguration.freeSpaceThreshold"
+  }, {
+    "name" : "diskMaxLimit",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rds.UpdateAutomaticStorageExpansionConfiguration.diskMaxLimit"
+  } ],
+  "desc_key" : "rds.UpdateAutomaticStorageExpansionConfiguration.desc"
+}

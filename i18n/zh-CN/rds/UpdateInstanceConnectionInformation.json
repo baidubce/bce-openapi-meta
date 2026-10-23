@@ -1,0 +1,6 @@
+{
+  "UpdateInstanceConnectionInformation" : {
+    "instanceId" : "实例ID",
+    "address" : "域名前缀。域名前缀 由小写字母和数字组 成，以小写字母开头 ，长度在3-30之间"
+  }
+}
