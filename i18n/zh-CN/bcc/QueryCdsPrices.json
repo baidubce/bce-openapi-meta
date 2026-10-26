@@ -1,0 +1,22 @@
+{
+  "QueryCdsPrices" : {
+    "storageType" : "CDS磁盘存储类型，包括SSD_Enhanced（增强型SSD），cloud_hp1 (通用型SSD)，hp1 (高性能云磁盘)和hdd (通用型HDD) 四种类型，默认 hp1。",
+    "storageType.enhanced_ssd_pl1 或 SSD_Enhanced" : "增强型SSD_PL1",
+    "storageType.enhanced_ssd_pl2" : "增强型SSD_PL2",
+    "storageType.enhanced_ssd_pl3" : "增强型SSD_PL3",
+    "storageType.cloud_hp1 或 premium_ssd" : "通用型SSD",
+    "storageType.hp1 或 ssd" : "高性能云磁盘",
+    "storageType.hdd" : "通用型HDD (该类型已在逐步下线中)",
+    "storageType.elastic_ephemeral_disk" : "弹性临时盘普通型",
+    "storageType.local" : "本地盘",
+    "storageType.sata" : "上一代云磁盘，创建DCC子实例专用",
+    "storageType.local_ssd" : "数据存储于本地SSD盘，延时较低，IO和吞吐能力较好，适用于中大型关系型数据库业务",
+    "storageType.local_hdd 或 std1" : "本地HDD磁盘，适合大规模数据存储的场景",
+    "storageType.local_nvme 或 nvme" : "本地NVME磁盘,数据存储于本地NVME SSD盘，超高性能，适用于时延敏感型业务",
+    "cdsSizeInGB" : "CDS磁盘容量",
+    "paymentTiming" : "付费方式，包括Postpaid(后付费)，Prepaid(预付费)两种。",
+    "zoneName" : "可用区名称",
+    "purchaseCount" : "任意数量CDS的总价格，必须为大于0的整数，可选参数，缺省为1",
+    "purchaseLength" : "时长，[1,2,3,4,5,6,7,8,9,12,24,36]，单位：月"
+  }
+}

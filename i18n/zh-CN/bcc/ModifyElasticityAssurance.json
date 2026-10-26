@@ -1,0 +1,7 @@
+{
+  "ModifyElasticityAssurance" : {
+    "elasticityAssuranceIds" : "弹性保障id，单次最多100个",
+    "autoRenew" : "是否自动续费, true：开启或修改自动续费；false：取消自动续费",
+    "autoRenewPeriod" : "自动续费周期, autoRenew=true时必填，单位为月；允许值：1~9、12、24、36、48、60；autoRenew=false时无需传，传入不生效"
+  }
+}

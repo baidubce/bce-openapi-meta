@@ -1,0 +1,7 @@
+{
+  "RollBackTheDisk" : {
+    "volumeId" : "待回滚的磁盘ID",
+    "action" : "对磁盘执行的操作，当前取值：rollback",
+    "snapshotId" : "用于回滚指定磁盘的快照ID，必须为 volumeId 所创建的快照"
+  }
+}

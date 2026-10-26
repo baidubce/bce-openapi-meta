@@ -1,0 +1,5 @@
+{
+  "DeleteElasticityAssurance" : {
+    "elasticityAssuranceIds" : "Elasticity assurance IDs to be released, up to 100 per request"
+  }
+}

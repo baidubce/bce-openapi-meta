@@ -1,0 +1,26 @@
+{
+  "name" : "GetPurchasableDiskInformationNew",
+  "method" : "GET",
+  "uri" : "/v{version}/volume/disk/quota",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetPurchasableDiskInformationNew.clientToken"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.GetPurchasableDiskInformationNew.zoneName"
+  } ],
+  "desc_key" : "bcc.GetPurchasableDiskInformationNew.desc"
+}

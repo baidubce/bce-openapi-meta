@@ -1,0 +1,13 @@
+{
+  "CreateElasticityAssurance" : {
+    "elasticityAssuranceName" : "弹性保障名称，规则：支持大小写字母、数字、中文以及-_ /.特殊字符，必须以中文或字母开头，长度1-65，可重复；客户未命名的情况下自动命名：elasticityAssurance-${随机生成}，同样遵循以上命名规则",
+    "zoneName" : "可用区，例如cn-bj-a",
+    "spec" : "弹性保障实例规格，例如bcc.g4.c2m8",
+    "capacity" : "保障数量，最少为1，最大为100",
+    "period" : "弹性保障购买时长，支持1~9、12、24、36、48、60，单位默认为month，不可变更",
+    "autoRenew" : "自动续费开关，默认为false，续费时长与period一致",
+    "tags" : "待创建的标签列表",
+    "tags.tagKey" : "标签键",
+    "tags.tagValue" : "标签值"
+  }
+}

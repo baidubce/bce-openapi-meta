@@ -1,0 +1,6 @@
+{
+  "RenewElasticityAssurance" : {
+    "elasticityAssuranceIds" : "弹性保障id集合，最多100个",
+    "period" : "弹性保障续费时长，单位为月，允许值：1~9、12、24、36、48、60"
+  }
+}

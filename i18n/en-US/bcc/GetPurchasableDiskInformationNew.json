@@ -1,0 +1,6 @@
+{
+  "GetPurchasableDiskInformationNew" : {
+    "clientToken" : "Idempotency Token, an ASCII string of no more than 64 characters. See [Idempotency](BCC/API参考/通用说明.md#幂等性) for details.",
+    "zoneName" : "Zone information. The naming convention for zoneName is \"country-region-availability zone sequence\" in lowercase, e.g., Beijing availability zone A is \"cn-bj-a\"."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ModifyElasticityAssurance" : {
+    "elasticityAssuranceIds" : "Elasticity assurance IDs, up to 100 per request",
+    "autoRenew" : "Whether to enable auto-renewal. true: enable or modify auto-renewal; false: cancel auto-renewal",
+    "autoRenewPeriod" : "Auto-renewal period. Required when autoRenew=true, in months; allowed values: 1-9, 12, 24, 36, 48, 60. Not required when autoRenew=false, and ignored if provided"
+  }
+}

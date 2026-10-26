@@ -1,0 +1,290 @@
+{
+  "name" : "CreateCdsDisk",
+  "method" : "POST",
+  "uri" : "/v{version}/volume",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.CreateCdsDisk.clientToken"
+  }, {
+    "name" : "purchaseCount",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.purchaseCount"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.name"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.description"
+  }, {
+    "name" : "cdsSizeInGB",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.cdsSizeInGB"
+  }, {
+    "name" : "storageType",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.storageType",
+    "sub_parameters" : [ {
+      "name" : "enhanced_ssd_pl1 或 SSD_Enhanced",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.enhanced_ssd_pl1 或 SSD_Enhanced"
+    }, {
+      "name" : "enhanced_ssd_pl2",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.enhanced_ssd_pl2"
+    }, {
+      "name" : "enhanced_ssd_pl3",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.enhanced_ssd_pl3"
+    }, {
+      "name" : "cloud_hp1 或 premium_ssd",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.cloud_hp1 或 premium_ssd"
+    }, {
+      "name" : "hp1 或 ssd",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.hp1 或 ssd"
+    }, {
+      "name" : "hdd",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.hdd"
+    }, {
+      "name" : "elastic_ephemeral_disk",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.elastic_ephemeral_disk"
+    }, {
+      "name" : "local",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.local"
+    }, {
+      "name" : "sata",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.sata"
+    }, {
+      "name" : "local_ssd",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.local_ssd"
+    }, {
+      "name" : "local_hdd 或 std1",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.local_hdd 或 std1"
+    }, {
+      "name" : "local_nvme 或 nvme",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.storageType.local_nvme 或 nvme"
+    } ]
+  }, {
+    "name" : "chargeType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.chargeType"
+  }, {
+    "name" : "snapshotId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.snapshotId"
+  }, {
+    "name" : "shareSnapshotId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.shareSnapshotId"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.zoneName"
+  }, {
+    "name" : "autoSnapshotPolicy",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy",
+    "sub_parameters" : [ {
+      "name" : "id",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.id"
+    }, {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.name"
+    }, {
+      "name" : "timePoints",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.timePoints"
+    }, {
+      "name" : "repeatWeekdays",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.repeatWeekdays"
+    }, {
+      "name" : "status",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.status"
+    }, {
+      "name" : "retentionDays",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.retentionDays"
+    }, {
+      "name" : "createdTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.createdTime"
+    }, {
+      "name" : "updatedTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.updatedTime"
+    }, {
+      "name" : "deletedTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.deletedTime"
+    }, {
+      "name" : "lastExecuteTime",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.lastExecuteTime"
+    }, {
+      "name" : "volumeCount",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.autoSnapshotPolicy.volumeCount"
+    } ]
+  }, {
+    "name" : "renewTimeUnit",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.renewTimeUnit"
+  }, {
+    "name" : "renewTime",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.renewTime"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.instanceId"
+  }, {
+    "name" : "encryptKey",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.encryptKey"
+  }, {
+    "name" : "relationTag",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.relationTag"
+  }, {
+    "name" : "tags",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.tags",
+    "sub_parameters" : [ {
+      "name" : "tagKey",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.tags.tagKey"
+    }, {
+      "name" : "tagValue",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.tags.tagValue"
+    } ]
+  }, {
+    "name" : "clusterId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.clusterId"
+  }, {
+    "name" : "resGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.resGroupId"
+  }, {
+    "name" : "deleteWithInstance",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.deleteWithInstance"
+  }, {
+    "name" : "billing",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateCdsDisk.billing",
+    "sub_parameters" : [ {
+      "name" : "paymentTiming",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.billing.paymentTiming"
+    }, {
+      "name" : "reservation",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "bcc.CreateCdsDisk.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "bcc.CreateCdsDisk.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "bcc.CreateCdsDisk.billing.reservation.reservationTimeUnit"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "bcc.CreateCdsDisk.desc"
+}

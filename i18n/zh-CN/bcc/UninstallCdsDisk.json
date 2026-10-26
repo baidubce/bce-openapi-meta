@@ -1,0 +1,7 @@
+{
+  "UninstallCdsDisk" : {
+    "volumeId" : "待卸载的磁盘对应的ID",
+    "action" : "对磁盘的执行动作，当前取值：detach",
+    "instanceId" : "所挂载的实例ID"
+  }
+}

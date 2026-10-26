@@ -1,0 +1,22 @@
+{
+  "DiskExpansionAndTypeChange" : {
+    "volumeId" : "Disk ID",
+    "action" : "Value for this API: resize",
+    "clientToken" : "Idempotency token, an ASCII string of no more than 64 characters. See [ClientToken Idempotency](BCC/API参考/通用说明.md#幂等性) for details.",
+    "newCdsSizeInGB" : "New capacity for the expanded CDS disk. Must be an integer greater than the current CDS capacity, in GB, a positive integer ranging from 0 to 32765 GB.",
+    "newExtraIO" : "Adjusted extra IOPS count. Supports both upgrading and downgrading. newVolumeType, newCdsSizeInGB, and newExtraIO cannot all be empty at the same time.",
+    "newVolumeType" : "CDS supports upgrading and downgrading both prepaid and postpaid cloud disks. newVolumeType and newCdsSizeInGB cannot both be empty at the same time.",
+    "newVolumeType.enhanced_ssd_pl1 或 SSD_Enhanced" : "Enhanced SSD_PL1",
+    "newVolumeType.enhanced_ssd_pl2" : "Enhanced SSD_PL2",
+    "newVolumeType.enhanced_ssd_pl3" : "Enhanced SSD_PL3",
+    "newVolumeType.cloud_hp1 或 premium_ssd" : "General Purpose SSD",
+    "newVolumeType.hp1 或 ssd" : "High Performance Cloud Disk",
+    "newVolumeType.hdd" : "General Purpose HDD (this type is being gradually phased out)",
+    "newVolumeType.elastic_ephemeral_disk" : "Elastic Ephemeral Disk, Standard",
+    "newVolumeType.local" : "Local Disk",
+    "newVolumeType.sata" : "Previous-generation cloud disk, dedicated to creating DCC sub-instances",
+    "newVolumeType.local_ssd" : "Data stored on local SSD disk, with low latency and good IO and throughput capabilities. Suitable for medium to large relational database workloads.",
+    "newVolumeType.local_hdd 或 std1" : "Local HDD disk, suitable for large-scale data storage scenarios",
+    "newVolumeType.local_nvme 或 nvme" : "Local NVME disk. Data stored on local NVME SSD disk, with ultra-high performance. Suitable for latency-sensitive workloads."
+  }
+}

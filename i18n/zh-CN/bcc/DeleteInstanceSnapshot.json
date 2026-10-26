@@ -1,0 +1,5 @@
+{
+  "DeleteInstanceSnapshot" : {
+    "deleteInsnapIds" : "待删除的实例快照ID列表，单次上限100个"
+  }
+}

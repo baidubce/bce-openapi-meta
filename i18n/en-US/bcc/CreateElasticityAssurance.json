@@ -1,0 +1,13 @@
+{
+  "CreateElasticityAssurance" : {
+    "elasticityAssuranceName" : "Elasticity assurance name. Rules: supports uppercase and lowercase letters, numbers, Chinese characters, and special characters -_ /.; must start with a Chinese character or letter; length 1-65; can be duplicated. If not named by the customer, it is auto-named as elasticityAssurance-${randomly generated}, following the same naming rules.",
+    "zoneName" : "Availability zone, e.g. cn-bj-a",
+    "spec" : "Elasticity assurance instance specification, e.g. bcc.g4.c2m8",
+    "capacity" : "Assurance quantity, minimum 1, maximum 100",
+    "period" : "Elasticity assurance purchase duration, supports 1-9, 12, 24, 36, 48, 60; unit defaults to month and cannot be changed",
+    "autoRenew" : "Auto-renewal switch, defaults to false; renewal duration is consistent with period",
+    "tags" : "List of tags to be created",
+    "tags.tagKey" : "Tag key",
+    "tags.tagValue" : "Tag value"
+  }
+}

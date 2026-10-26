@@ -1,0 +1,32 @@
+{
+  "name" : "ModifyElasticityAssurance",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/elasticityAssurance/modifyAutoRenew",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "elasticityAssuranceIds",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyElasticityAssurance.elasticityAssuranceIds"
+  }, {
+    "name" : "autoRenew",
+    "type" : "Boolean",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyElasticityAssurance.autoRenew"
+  }, {
+    "name" : "autoRenewPeriod",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.ModifyElasticityAssurance.autoRenewPeriod"
+  } ],
+  "desc_key" : "bcc.ModifyElasticityAssurance.desc"
+}

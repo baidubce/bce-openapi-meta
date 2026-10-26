@@ -1,0 +1,6 @@
+{
+  "RenewElasticityAssurance" : {
+    "elasticityAssuranceIds" : "Collection of elasticity assurance IDs, up to 100",
+    "period" : "Elasticity assurance renewal duration in months, allowed values: 1-9, 12, 24, 36, 48, 60"
+  }
+}

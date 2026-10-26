@@ -1,0 +1,10 @@
+{
+  "DiskBindingLabel" : {
+    "volumeId" : "Disk ID",
+    "action" : "Action to perform on the disk. Current value: bind",
+    "relationTag" : "Whether to bind tags to associated resources",
+    "changeTags" : "List of tags to bind. For the data format, see [TagModel](BCC/API参考/附录.md#TagModel) below. If a tag to be bound does not already exist, it will be created automatically",
+    "changeTags.tagKey" : "Tag key",
+    "changeTags.tagValue" : "Tag value"
+  }
+}

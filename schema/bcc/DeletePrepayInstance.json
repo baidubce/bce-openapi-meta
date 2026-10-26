@@ -13,7 +13,7 @@
     "name" : "instanceId",
     "type" : "String",
     "required" : true,
-    "position" : "QUERY",
+    "position" : "BODY",
     "desc_key" : "bcc.DeletePrepayInstance.instanceId"
   }, {
     "name" : "relatedReleaseFlag",

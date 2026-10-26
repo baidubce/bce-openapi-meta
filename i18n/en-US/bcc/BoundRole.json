@@ -1,0 +1,8 @@
+{
+  "BoundRole" : {
+    "action" : "The operation to perform on the instance. Current value: bind",
+    "roleName" : "The name of the role bound to the instance",
+    "instances" : "The list of instance IDs to bind the role to",
+    "instances.instanceId" : "Instance ID"
+  }
+}

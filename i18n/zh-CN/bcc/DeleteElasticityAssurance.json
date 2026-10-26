@@ -1,0 +1,5 @@
+{
+  "DeleteElasticityAssurance" : {
+    "elasticityAssuranceIds" : "待释放的弹性保障 ID，单次最多100个"
+  }
+}

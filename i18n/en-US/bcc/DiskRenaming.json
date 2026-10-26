@@ -1,0 +1,7 @@
+{
+  "DiskRenaming" : {
+    "volumeId" : "The ID of the disk to be renamed",
+    "action" : "The action to perform on the disk, currently the value is rename",
+    "name" : "The new name of the disk. Supports uppercase and lowercase letters, numbers, Chinese characters, and special characters -\\_ /. Must start with a letter, length 1-65."
+  }
+}

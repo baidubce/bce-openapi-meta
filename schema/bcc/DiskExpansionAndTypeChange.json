@@ -1,0 +1,111 @@
+{
+  "name" : "DiskExpansionAndTypeChange",
+  "method" : "PUT",
+  "uri" : "/v{version}/volume/{volumeId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.DiskExpansionAndTypeChange.volumeId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.DiskExpansionAndTypeChange.action"
+  }, {
+    "name" : "clientToken",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.DiskExpansionAndTypeChange.clientToken"
+  }, {
+    "name" : "newCdsSizeInGB",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DiskExpansionAndTypeChange.newCdsSizeInGB"
+  }, {
+    "name" : "newExtraIO",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DiskExpansionAndTypeChange.newExtraIO"
+  }, {
+    "name" : "newVolumeType",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType",
+    "sub_parameters" : [ {
+      "name" : "enhanced_ssd_pl1 或 SSD_Enhanced",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.enhanced_ssd_pl1 或 SSD_Enhanced"
+    }, {
+      "name" : "enhanced_ssd_pl2",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.enhanced_ssd_pl2"
+    }, {
+      "name" : "enhanced_ssd_pl3",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.enhanced_ssd_pl3"
+    }, {
+      "name" : "cloud_hp1 或 premium_ssd",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.cloud_hp1 或 premium_ssd"
+    }, {
+      "name" : "hp1 或 ssd",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.hp1 或 ssd"
+    }, {
+      "name" : "hdd",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.hdd"
+    }, {
+      "name" : "elastic_ephemeral_disk",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.elastic_ephemeral_disk"
+    }, {
+      "name" : "local",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.local"
+    }, {
+      "name" : "sata",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.sata"
+    }, {
+      "name" : "local_ssd",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.local_ssd"
+    }, {
+      "name" : "local_hdd 或 std1",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.local_hdd 或 std1"
+    }, {
+      "name" : "local_nvme 或 nvme",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "bcc.DiskExpansionAndTypeChange.newVolumeType.local_nvme 或 nvme"
+    } ]
+  } ],
+  "desc_key" : "bcc.DiskExpansionAndTypeChange.desc"
+}

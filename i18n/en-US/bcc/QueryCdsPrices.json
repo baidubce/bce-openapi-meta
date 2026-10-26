@@ -1,0 +1,22 @@
+{
+  "QueryCdsPrices" : {
+    "storageType" : "CDS disk storage type, including SSD_Enhanced (Enhanced SSD), cloud_hp1 (General Purpose SSD), hp1 (High Performance Cloud Disk), and hdd (General Purpose HDD). Default is hp1.",
+    "storageType.enhanced_ssd_pl1 或 SSD_Enhanced" : "Enhanced SSD_PL1",
+    "storageType.enhanced_ssd_pl2" : "Enhanced SSD_PL2",
+    "storageType.enhanced_ssd_pl3" : "Enhanced SSD_PL3",
+    "storageType.cloud_hp1 或 premium_ssd" : "General Purpose SSD",
+    "storageType.hp1 或 ssd" : "High Performance Cloud Disk",
+    "storageType.hdd" : "General Purpose HDD (this type is being gradually phased out)",
+    "storageType.elastic_ephemeral_disk" : "Elastic Ephemeral Disk Standard",
+    "storageType.local" : "Local Disk",
+    "storageType.sata" : "Previous-generation cloud disk, dedicated to creating DCC sub-instances",
+    "storageType.local_ssd" : "Data stored on local SSD disk, with lower latency and better IO and throughput, suitable for medium to large relational database workloads",
+    "storageType.local_hdd 或 std1" : "Local HDD disk, suitable for large-scale data storage scenarios",
+    "storageType.local_nvme 或 nvme" : "Local NVME disk, data stored on local NVME SSD disk, ultra-high performance, suitable for latency-sensitive workloads",
+    "cdsSizeInGB" : "CDS disk capacity",
+    "paymentTiming" : "Payment method, including Postpaid and Prepaid.",
+    "zoneName" : "Availability zone name",
+    "purchaseCount" : "Total price for any number of CDS disks, must be an integer greater than 0, optional parameter, defaults to 1",
+    "purchaseLength" : "Duration, [1,2,3,4,5,6,7,8,9,12,24,36], unit: month"
+  }
+}

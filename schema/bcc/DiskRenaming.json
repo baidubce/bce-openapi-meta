@@ -1,0 +1,32 @@
+{
+  "name" : "DiskRenaming",
+  "method" : "PUT",
+  "uri" : "/v{version}/volume/{volumeId}",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "1",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "volumeId",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "bcc.DiskRenaming.volumeId"
+  }, {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "bcc.DiskRenaming.action"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "bcc.DiskRenaming.name"
+  } ],
+  "desc_key" : "bcc.DiskRenaming.desc"
+}
