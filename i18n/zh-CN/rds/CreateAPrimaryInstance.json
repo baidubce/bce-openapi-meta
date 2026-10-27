@@ -2,8 +2,8 @@
   "CreateAPrimaryInstance" : {
     "clientToken" : "幂等性Token，是一个长度不超过64位的ASCII字符串",
     "billing" : "计费相关参数。[结构及取值参考](/doc/RDS/s/9jwvz0wd3#billing)",
-    "billing.paymentTiming" : "",
-    "billing.reservation" : "",
+    "billing.paymentTiming" : "付费方式。预付费：Prepaid，后付费：Postpaid",
+    "billing.reservation" : "保留信息，支付方式为后付费时不需要设置，预付费时必须设置",
     "purchaseCount" : "批量创建云数据库 RDS 实例个数, 最大不超过10；默认1",
     "instanceName" : "1）用户自定义实例名； 2）允许小写字母、数字； 3）长度限制为1~64； 4) 默认命名规则:{engine} + {engineVersion}",
     "engine" : "数据库引擎： MySQL 、SQLServer 、PostgreSQL。[详情参考](/doc/RDS/s/9jwvz0wd3#%E5%BC%95%E6%93%8E%E7%B1%BB%E5%9E%8B)",

@@ -28,9 +28,20 @@
       "desc_key" : "rds.CreateAPrimaryInstance.billing.paymentTiming"
     }, {
       "name" : "reservation",
-      "type" : "String",
+      "type" : "Object",
       "required" : false,
-      "desc_key" : "rds.CreateAPrimaryInstance.billing.reservation"
+      "desc_key" : "rds.CreateAPrimaryInstance.billing.reservation",
+      "sub_parameters" : [ {
+        "name" : "reservationLength",
+        "type" : "Integer",
+        "required" : false,
+        "desc_key" : "rds.CreateAPrimaryInstance.billing.reservation.reservationLength"
+      }, {
+        "name" : "reservationTimeUnit",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "rds.CreateAPrimaryInstance.billing.reservation.reservationTimeUnit"
+      } ]
     } ]
   }, {
     "name" : "purchaseCount",
@@ -213,7 +224,7 @@
   }, {
     "name" : "initialDataReference",
     "type" : "Object",
-    "required" : true,
+    "required" : false,
     "position" : "BODY",
     "desc_key" : "rds.CreateAPrimaryInstance.initialDataReference",
     "sub_parameters" : [ {

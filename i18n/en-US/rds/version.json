@@ -3,41 +3,57 @@
   "style" : "rpc",
   "description" : "rds",
   "apis" : {
-    "TransformationExample" : {
-      "title" : "transformationExample",
-      "summary" : "transformationExample"
-    },
-    "UpdateInstanceName" : {
-      "title" : "updateInstanceName",
-      "summary" : "updateInstanceName"
-    },
     "BindingTags" : {
       "title" : "bindingTags",
       "summary" : "bindingTags"
     },
-    "ReleaseInstance" : {
-      "title" : "releaseInstance",
-      "summary" : "releaseInstance"
-    },
-    "QueryTheDetailsOfTheSpecifiedInstance" : {
-      "title" : "queryTheDetailsOfTheSpecifiedInstance",
-      "summary" : "queryTheDetailsOfTheSpecifiedInstance"
-    },
-    "QueryInstanceList" : {
-      "title" : "queryInstanceList",
-      "summary" : "queryInstanceList"
+    "RenewalExample" : {
+      "title" : "renewalExample",
+      "summary" : "renewalExample"
     },
     "QueryTheListOfAvailableZones" : {
       "title" : "queryTheListOfAvailableZones",
       "summary" : "queryTheListOfAvailableZones"
     },
-    "ClusterStatusCheck" : {
-      "title" : "clusterStatusCheck",
-      "summary" : "clusterStatusCheck"
+    "InstanceEnablesAutomaticRenewal" : {
+      "title" : "instanceEnablesAutomaticRenewal",
+      "summary" : "instanceEnablesAutomaticRenewal"
     },
     "QuerySubnetList" : {
       "title" : "querySubnetList",
       "summary" : "querySubnetList"
+    },
+    "QueryTheDetailsOfTheSpecifiedInstance" : {
+      "title" : "queryTheDetailsOfTheSpecifiedInstance",
+      "summary" : "queryTheDetailsOfTheSpecifiedInstance"
+    },
+    "ClusterStatusCheck" : {
+      "title" : "clusterStatusCheck",
+      "summary" : "clusterStatusCheck"
+    },
+    "BatchConfigurationOfInstances" : {
+      "title" : "batchConfigurationOfInstances",
+      "summary" : "batchConfigurationOfInstances"
+    },
+    "QueryInstanceList" : {
+      "title" : "queryInstanceList",
+      "summary" : "queryInstanceList"
+    },
+    "ReleaseInstance" : {
+      "title" : "releaseInstance",
+      "summary" : "releaseInstance"
+    },
+    "CreateReadOnlyInstance" : {
+      "title" : "createReadOnlyInstance",
+      "summary" : "createReadOnlyInstance"
+    },
+    "CreateAProxyInstance" : {
+      "title" : "createAProxyInstance",
+      "summary" : "createAProxyInstance"
+    },
+    "CreateAPrimaryInstance" : {
+      "title" : "createAPrimaryInstance",
+      "summary" : "createAPrimaryInstance"
     },
     "DoesTheInstanceSupportEnablingAutomaticExpansion" : {
       "title" : "doesTheInstanceSupportEnablingAutomaticExpansion",
@@ -59,18 +75,6 @@
       "title" : "updateTimeWindow",
       "summary" : "updateTimeWindow"
     },
-    "RestartTheInstance" : {
-      "title" : "restartTheInstance",
-      "summary" : "restartTheInstance"
-    },
-    "UpdateAutomaticStorageExpansionConfiguration" : {
-      "title" : "updateAutomaticStorageExpansionConfiguration",
-      "summary" : "updateAutomaticStorageExpansionConfiguration"
-    },
-    "BatchConfigurationOfInstances" : {
-      "title" : "batchConfigurationOfInstances",
-      "summary" : "batchConfigurationOfInstances"
-    },
     "QueryTaskList" : {
       "title" : "queryTaskList",
       "summary" : "queryTaskList"
@@ -79,29 +83,25 @@
       "title" : "updateInstancePublicNetworkAccessStatus",
       "summary" : "updateInstancePublicNetworkAccessStatus"
     },
-    "CreateAPrimaryInstance" : {
-      "title" : "createAPrimaryInstance",
-      "summary" : "createAPrimaryInstance"
-    },
-    "CreateReadOnlyInstance" : {
-      "title" : "createReadOnlyInstance",
-      "summary" : "createReadOnlyInstance"
-    },
-    "RenewalExample" : {
-      "title" : "renewalExample",
-      "summary" : "renewalExample"
-    },
     "UpdateInstanceSynchronizationMode" : {
       "title" : "updateInstanceSynchronizationMode",
       "summary" : "updateInstanceSynchronizationMode"
     },
-    "InstanceEnablesAutomaticRenewal" : {
-      "title" : "instanceEnablesAutomaticRenewal",
-      "summary" : "instanceEnablesAutomaticRenewal"
+    "UpdateInstanceName" : {
+      "title" : "updateInstanceName",
+      "summary" : "updateInstanceName"
     },
-    "CreateAProxyInstance" : {
-      "title" : "createAProxyInstance",
-      "summary" : "createAProxyInstance"
+    "RestartTheInstance" : {
+      "title" : "restartTheInstance",
+      "summary" : "restartTheInstance"
+    },
+    "UpdateAutomaticStorageExpansionConfiguration" : {
+      "title" : "updateAutomaticStorageExpansionConfiguration",
+      "summary" : "updateAutomaticStorageExpansionConfiguration"
+    },
+    "TransformationExample" : {
+      "title" : "transformationExample",
+      "summary" : "transformationExample"
     }
   }
 }

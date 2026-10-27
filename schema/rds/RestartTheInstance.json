@@ -4,7 +4,7 @@
   "uri" : "/v{version}/instance/{instanceId}?reboot",
   "parameters" : [ {
     "name" : "version",
-    "type" : "Integer",
+    "type" : "String",
     "required" : true,
     "position" : "URL",
     "default" : "1",

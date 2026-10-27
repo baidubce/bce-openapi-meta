@@ -2,8 +2,8 @@
   "CreateAPrimaryInstance" : {
     "clientToken" : "Idempotency token, an ASCII string of up to 64 characters",
     "billing" : "Billing-related parameters. [Refer to structure and values](/doc/RDS/s/9jwvz0wd3#billing)",
-    "billing.paymentTiming" : "付款时间，预付费（Prepaid）或后付费（Postpaid）",
-    "billing.reservation" : "保留信息，预付费时必填",
+    "billing.paymentTiming" : "Payment method. Prepaid: Prepaid, Postpaid: Postpaid",
+    "billing.reservation" : "Reservation information. Not required when payment method is Postpaid; required when Prepaid",
     "purchaseCount" : "Number of RDS instances to create in batch, up to 10; default 1",
     "instanceName" : "1) User-defined instance name; 2) Lowercase letters and digits allowed; 3) Length limited to 1-64; 4) Default naming rule: {engine} + {engineVersion}",
     "engine" : "Database engine: MySQL, SQLServer, PostgreSQL. [Refer to details](/doc/RDS/s/9jwvz0wd3#%E5%BC%95%E6%93%8E%E7%B1%BB%E5%9E%8B)",
