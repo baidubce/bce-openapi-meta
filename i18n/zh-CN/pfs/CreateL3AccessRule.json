@@ -1,0 +1,13 @@
+{
+  "CreateL3AccessRule" : {
+    "action" : "本接口固定为 CreateL3AccessRule",
+    "accessGroupName" : "权限组名称",
+    "zoneName" : "可用区名称",
+    "accessRules" : "规则列表，不能为空数组",
+    "accessRules[].ip" : "客户端 IP",
+    "accessRules[].mask" : "掩码位数，不传时 IPv4 默认 32、IPv6 默认 128",
+    "accessRules[].writeAccess" : "读写权限，read_only（只读）/ read_write（读写）",
+    "accessRules[].userAccess" : "用户权限，no_squash（不限制 root）/ root_squash（限制 root）/ all_squash（限制所有用户）",
+    "accessRules[].priority" : "优先级"
+  }
+}

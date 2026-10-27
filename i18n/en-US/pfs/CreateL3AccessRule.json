@@ -1,0 +1,13 @@
+{
+  "CreateL3AccessRule" : {
+    "action" : "This interface is fixed to CreateL3AccessRule",
+    "accessGroupName" : "Access group name",
+    "zoneName" : "Availability zone name",
+    "accessRules" : "Rule list, cannot be an empty array",
+    "accessRules[].ip" : "Client IP",
+    "accessRules[].mask" : "Mask bits, defaults to 32 for IPv4 and 128 for IPv6 when not provided",
+    "accessRules[].writeAccess" : "Read/write permission, read_only / read_write",
+    "accessRules[].userAccess" : "User permission, no_squash (do not restrict root) / root_squash (restrict root) / all_squash (restrict all users)",
+    "accessRules[].priority" : "Priority"
+  }
+}

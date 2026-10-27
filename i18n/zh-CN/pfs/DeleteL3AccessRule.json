@@ -1,0 +1,8 @@
+{
+  "DeleteL3AccessRule" : {
+    "action" : "本接口固定为 DeleteL3AccessRule",
+    "accessGroupName" : "权限组名称",
+    "zoneName" : "可用区名称",
+    "accessRuleId" : "要删除的规则 ID"
+  }
+}

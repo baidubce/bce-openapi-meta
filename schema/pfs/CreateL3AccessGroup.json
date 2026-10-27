@@ -1,0 +1,50 @@
+{
+  "name" : "CreateL3AccessGroup",
+  "method" : "POST",
+  "uri" : "/?action=CreateL3AccessGroup",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.CreateL3AccessGroup.action"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "accessGroupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3AccessGroup.accessGroupName"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3AccessGroup.zoneName"
+  }, {
+    "name" : "description",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3AccessGroup.description"
+  }, {
+    "name" : "sourceZoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3AccessGroup.sourceZoneName"
+  }, {
+    "name" : "sourceAccessGroupName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3AccessGroup.sourceAccessGroupName"
+  } ],
+  "desc_key" : "pfs.CreateL3AccessGroup.desc"
+}

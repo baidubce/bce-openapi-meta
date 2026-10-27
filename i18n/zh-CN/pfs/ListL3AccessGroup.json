@@ -1,0 +1,12 @@
+{
+  "ListL3AccessGroup" : {
+    "action" : "本接口固定为 ListL3AccessGroup",
+    "keyword" : "搜索关键字，需与 keywordType 同时传才生效",
+    "keywordType" : "搜索字段，当前仅支持 name（按权限组名模糊匹配）",
+    "zoneName" : "可用区；不传则返回所有可用区",
+    "order" : "排序方向，asc / desc，默认 desc",
+    "orderBy" : "排序字段，默认 createTime",
+    "pageNo" : "页码，从 1 开始；传 ≤ 0 会被纠正为 1，默认 1",
+    "pageSize" : "每页条数；传 ≤ 0 会被纠正为 10，默认 10"
+  }
+}

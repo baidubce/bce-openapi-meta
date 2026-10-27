@@ -1,0 +1,7 @@
+{
+  "DeleteL3AccessGroup" : {
+    "action" : "本接口固定为 DeleteL3AccessGroup",
+    "accessGroupName" : "要删除的权限组名称",
+    "zoneName" : "权限组所属的可用区"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "CreateL3AccessGroup" : {
+    "action" : "This parameter is fixed to CreateL3AccessGroup",
+    "accessGroupName" : "Access group name. Must start with a letter, can contain letters/digits/`.`/`_`/`-`, 1 to 65 bytes",
+    "zoneName" : "Availability zone name",
+    "description" : "Description",
+    "sourceZoneName" : "Source availability zone to copy from, used together with sourceAccessGroupName",
+    "sourceAccessGroupName" : "Source access group name to copy from, used together with sourceZoneName"
+  }
+}

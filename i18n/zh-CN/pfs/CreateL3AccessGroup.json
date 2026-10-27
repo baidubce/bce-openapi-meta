@@ -1,0 +1,10 @@
+{
+  "CreateL3AccessGroup" : {
+    "action" : "本接口固定为 CreateL3AccessGroup",
+    "accessGroupName" : "权限组名称。字母开头，可含字母/数字/`.`/`_`/`-`，1~65 字节",
+    "zoneName" : "可用区名称",
+    "description" : "描述",
+    "sourceZoneName" : "复制源可用区，与 sourceAccessGroupName 成对使用",
+    "sourceAccessGroupName" : "复制源权限组名，与 sourceZoneName 成对使用"
+  }
+}

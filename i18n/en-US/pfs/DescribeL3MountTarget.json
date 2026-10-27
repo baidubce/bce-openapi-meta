@@ -1,6 +1,6 @@
 {
   "DescribeL3MountTarget" : {
-    "action" : "Fixed value for this API: DescribeL3MountTarget",
+    "action" : "Fixed as ListL3MountTarget in this API",
     "instanceId" : "PFS instance ID",
     "mountTargetId" : "Mount target ID"
   }

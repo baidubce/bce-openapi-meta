@@ -1,0 +1,8 @@
+{
+  "DeleteL3AccessRule" : {
+    "action" : "This API is fixed as DeleteL3AccessRule",
+    "accessGroupName" : "Access group name",
+    "zoneName" : "Availability zone name",
+    "accessRuleId" : "ID of the rule to delete"
+  }
+}

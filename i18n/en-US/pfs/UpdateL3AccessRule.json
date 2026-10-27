@@ -1,0 +1,13 @@
+{
+  "UpdateL3AccessRule" : {
+    "action" : "This API is fixed as UpdateL3AccessRule",
+    "accessGroupName" : "Access group name (locator key)",
+    "zoneName" : "Availability zone name (locator key)",
+    "accessRuleId" : "ID of the access rule to modify (locator key)",
+    "ip" : "IP address, e.g. 192.168.1.0",
+    "mask" : "Subnet mask length, e.g. 24",
+    "writeAccess" : "Read/write permission, read_only / read_write",
+    "userAccess" : "User permission, no_squash / root_squash / all_squash",
+    "priority" : "Rule priority"
+  }
+}

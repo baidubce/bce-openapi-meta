@@ -1,0 +1,12 @@
+{
+  "ListL3AccessRule" : {
+    "action" : "本接口固定为 ListL3AccessRule",
+    "accessGroupName" : "权限组名称",
+    "zoneName" : "可用区名称",
+    "pageNo" : "页码，默认 1",
+    "pageSize" : "每页条数，默认 10",
+    "orderBy" : "排序字段，默认 priority",
+    "order" : "排序方向，asc / desc，默认 asc",
+    "ipFilter" : "按 IP 过滤，ipv4 / ipv6，为空时展示所有，默认空字符串"
+  }
+}

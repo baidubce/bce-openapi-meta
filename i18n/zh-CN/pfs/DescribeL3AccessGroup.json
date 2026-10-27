@@ -1,0 +1,7 @@
+{
+  "DescribeL3AccessGroup" : {
+    "action" : "本接口固定为 DescribeL3AccessGroup",
+    "accessGroupName" : "权限组名称",
+    "zoneName" : "权限组所属的可用区"
+  }
+}

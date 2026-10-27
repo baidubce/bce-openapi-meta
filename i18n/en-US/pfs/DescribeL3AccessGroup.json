@@ -1,0 +1,7 @@
+{
+  "DescribeL3AccessGroup" : {
+    "action" : "This API is fixed as DescribeL3AccessGroup",
+    "accessGroupName" : "Access group name",
+    "zoneName" : "Availability zone the access group belongs to"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ListL3AccessRule" : {
+    "action" : "This API is fixed as ListL3AccessRule",
+    "accessGroupName" : "Access group name",
+    "zoneName" : "Availability zone name",
+    "pageNo" : "Page number, default 1",
+    "pageSize" : "Items per page, default 10",
+    "orderBy" : "Sort field, default priority",
+    "order" : "Sort direction, asc / desc, default asc",
+    "ipFilter" : "Filter by IP, ipv4 / ipv6, shows all when empty, default empty string"
+  }
+}

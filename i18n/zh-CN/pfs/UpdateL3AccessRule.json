@@ -1,0 +1,13 @@
+{
+  "UpdateL3AccessRule" : {
+    "action" : "本接口固定为 UpdateL3AccessRule",
+    "accessGroupName" : "权限组名称（定位键）",
+    "zoneName" : "可用区名称（定位键）",
+    "accessRuleId" : "要修改的访问规则 ID（定位键）",
+    "ip" : "IP 地址，例如 192.168.1.0",
+    "mask" : "子网掩码长度，例如 24",
+    "writeAccess" : "读写权限，read_only（只读）/ read_write（读写）",
+    "userAccess" : "用户权限，no_squash / root_squash / all_squash",
+    "priority" : "规则优先级"
+  }
+}

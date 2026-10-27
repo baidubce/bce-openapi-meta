@@ -1,0 +1,32 @@
+{
+  "name" : "DescribeL3AccessGroup",
+  "method" : "POST",
+  "uri" : "/?action=DescribeL3AccessGroup",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.DescribeL3AccessGroup.action"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "accessGroupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DescribeL3AccessGroup.accessGroupName"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.DescribeL3AccessGroup.zoneName"
+  } ],
+  "desc_key" : "pfs.DescribeL3AccessGroup.desc"
+}

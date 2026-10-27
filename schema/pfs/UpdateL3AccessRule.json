@@ -1,0 +1,68 @@
+{
+  "name" : "UpdateL3AccessRule",
+  "method" : "POST",
+  "uri" : "/?action=UpdateL3AccessRule",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.UpdateL3AccessRule.action"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "accessGroupName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3AccessRule.accessGroupName"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3AccessRule.zoneName"
+  }, {
+    "name" : "accessRuleId",
+    "type" : "Integer",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3AccessRule.accessRuleId"
+  }, {
+    "name" : "ip",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3AccessRule.ip"
+  }, {
+    "name" : "mask",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3AccessRule.mask"
+  }, {
+    "name" : "writeAccess",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3AccessRule.writeAccess"
+  }, {
+    "name" : "userAccess",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3AccessRule.userAccess"
+  }, {
+    "name" : "priority",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3AccessRule.priority"
+  } ],
+  "desc_key" : "pfs.UpdateL3AccessRule.desc"
+}

@@ -1,0 +1,12 @@
+{
+  "ListL3AccessGroup" : {
+    "action" : "This API is fixed as ListL3AccessGroup",
+    "keyword" : "Search keyword; only takes effect when passed together with keywordType",
+    "keywordType" : "Search field; currently only supports name (fuzzy match by access group name)",
+    "zoneName" : "Availability zone; returns all zones if not specified",
+    "order" : "Sort direction, asc / desc, defaults to desc",
+    "orderBy" : "Sort field, defaults to createTime",
+    "pageNo" : "Page number, starting from 1; values ≤ 0 are corrected to 1, defaults to 1",
+    "pageSize" : "Items per page; values ≤ 0 are corrected to 10, defaults to 10"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "UpdateL3AccessGroup" : {
+    "action" : "This parameter is fixed to UpdateL3AccessGroup",
+    "accessGroupName" : "Used for locating, not the new name to change to. Starts with a letter, can contain letters/digits/`.`/`_`/`-`, 1-65 bytes",
+    "zoneName" : "Used for locating, the availability zone name",
+    "description" : "The description to update, no more than 1024 bytes after UTF-8 encoding"
+  }
+}

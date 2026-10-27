@@ -1,0 +1,8 @@
+{
+  "UpdateL3AccessGroup" : {
+    "action" : "本接口固定为 UpdateL3AccessGroup",
+    "accessGroupName" : "定位用，不是要改成的新名字。字母开头，可含字母/数字/`.`/`_`/`-`，1~65 字节",
+    "zoneName" : "定位用，可用区名称",
+    "description" : "要更新的描述，UTF-8 编码后不超过 1024 字节"
+  }
+}

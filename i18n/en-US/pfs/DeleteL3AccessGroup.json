@@ -1,0 +1,7 @@
+{
+  "DeleteL3AccessGroup" : {
+    "action" : "This interface is fixed as DeleteL3AccessGroup",
+    "accessGroupName" : "Name of the access group to delete",
+    "zoneName" : "Availability zone to which the access group belongs"
+  }
+}
