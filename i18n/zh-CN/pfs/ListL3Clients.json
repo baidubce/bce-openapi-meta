@@ -1,0 +1,8 @@
+{
+  "ListL3Clients" : {
+    "action" : "本接口固定为 ListL3Clients",
+    "instanceId" : "PFS 实例 ID",
+    "marker" : "按 clientIp 的字典序排列，从 marker 之后开始返回（不含 marker），默认空串",
+    "maxKeys" : "本次最多返回的客户端数量，默认 1000；传 ≤ 0 会被纠正为 1，传 > 1000 会被纠正为 1000"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "ListL3Clients" : {
+    "action" : "This interface is fixed as ListL3Clients",
+    "instanceId" : "PFS instance ID",
+    "marker" : "Sorted by clientIp in lexicographical order, returns results after marker (excluding marker), defaults to empty string",
+    "maxKeys" : "Maximum number of clients to return, defaults to 1000; values ≤ 0 are corrected to 1, values > 1000 are corrected to 1000"
+  }
+}

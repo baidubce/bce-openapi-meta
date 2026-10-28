@@ -1,0 +1,50 @@
+{
+  "name" : "UpdateL3MountTarget",
+  "method" : "POST",
+  "uri" : "/?action=UpdateL3MountTarget",
+  "parameters" : [ {
+    "name" : "action",
+    "type" : "String",
+    "required" : true,
+    "position" : "QUERY",
+    "desc_key" : "pfs.UpdateL3MountTarget.action"
+  }, {
+    "name" : "Version",
+    "type" : "String",
+    "required" : true,
+    "position" : "HEADER",
+    "default" : "v2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "instanceId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3MountTarget.instanceId"
+  }, {
+    "name" : "mountTargetId",
+    "type" : "String",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3MountTarget.mountTargetId"
+  }, {
+    "name" : "admissionStatus",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3MountTarget.admissionStatus"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3MountTarget.name"
+  }, {
+    "name" : "accessGroupName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.UpdateL3MountTarget.accessGroupName"
+  } ],
+  "desc_key" : "pfs.UpdateL3MountTarget.desc"
+}

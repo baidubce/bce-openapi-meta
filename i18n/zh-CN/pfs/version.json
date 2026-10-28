@@ -27,6 +27,10 @@
       "title" : "取消数据流动任务",
       "summary" : "取消数据流动任务"
     },
+    "ListL3Clients" : {
+      "title" : "挂载客户端列表",
+      "summary" : "挂载客户端列表"
+    },
     "CreateFileset" : {
       "title" : "创建Fileset",
       "summary" : "创建Fileset"
@@ -34,6 +38,10 @@
     "DeleteFileset" : {
       "title" : "删除Fileset",
       "summary" : "删除Fileset"
+    },
+    "UpdateL3MountTarget" : {
+      "title" : "编辑挂载点",
+      "summary" : "编辑挂载点"
     },
     "UpdateFileset" : {
       "title" : "更新Fileset",

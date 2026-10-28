@@ -1,0 +1,10 @@
+{
+  "UpdateL3MountTarget" : {
+    "action" : "This interface is fixed as UpdateL3MountTarget",
+    "instanceId" : "PFS instance ID",
+    "mountTargetId" : "Mount target ID",
+    "admissionStatus" : "When this value is passed, updates the mount target disabled status; pass 1 to disable, 0 to enable; omit to leave the status unchanged",
+    "name" : "When this value is passed, updates the mount target name, 1-128 characters, cannot be an empty string; omit to keep the name unchanged",
+    "accessGroupName" : "When this value is passed, updates the bound access group; omit to leave unchanged"
+  }
+}

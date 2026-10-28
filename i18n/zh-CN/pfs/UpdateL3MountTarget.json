@@ -1,0 +1,10 @@
+{
+  "UpdateL3MountTarget" : {
+    "action" : "本接口固定为 UpdateL3MountTarget",
+    "instanceId" : "PFS 实例 ID",
+    "mountTargetId" : "挂载点 ID",
+    "admissionStatus" : "传入该值时更新挂载点禁用状态，传 1 禁用、传 0 启用；不传表示不修改状态",
+    "name" : "传入该值时更新挂载点名称，长度 1~128 个字符，不可为空串；不传表示不改名",
+    "accessGroupName" : "传入该值时更新绑定的权限组；不传表示不修改"
+  }
+}

@@ -27,6 +27,10 @@
       "title" : "cancelL2BucketLink",
       "summary" : "cancelL2BucketLink"
     },
+    "ListL3Clients" : {
+      "title" : "listL3Clients",
+      "summary" : "listL3Clients"
+    },
     "CreateFileset" : {
       "title" : "createFileset",
       "summary" : "createFileset"
@@ -34,6 +38,10 @@
     "DeleteFileset" : {
       "title" : "deleteFileset",
       "summary" : "deleteFileset"
+    },
+    "UpdateL3MountTarget" : {
+      "title" : "updateL3MountTarget",
+      "summary" : "updateL3MountTarget"
     },
     "UpdateFileset" : {
       "title" : "updateFileset",
