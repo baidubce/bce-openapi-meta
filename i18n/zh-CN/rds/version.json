@@ -23,10 +23,6 @@
       "title" : "查询子网列表",
       "summary" : "查询子网列表"
     },
-    "QueryTheDetailsOfTheSpecifiedInstance" : {
-      "title" : "查询指定实例详情",
-      "summary" : "查询指定实例详情"
-    },
     "ClusterStatusCheck" : {
       "title" : "集群状态检查",
       "summary" : "集群状态检查"
@@ -39,21 +35,25 @@
       "title" : "查询实例列表",
       "summary" : "查询实例列表"
     },
-    "ReleaseInstance" : {
-      "title" : "释放实例",
-      "summary" : "释放实例"
+    "CreateAPrimaryInstance" : {
+      "title" : "创建主实例",
+      "summary" : "创建主实例"
+    },
+    "QueryTheDetailsOfTheSpecifiedInstance" : {
+      "title" : "查询指定实例详情",
+      "summary" : "查询指定实例详情"
     },
     "CreateReadOnlyInstance" : {
       "title" : "创建只读实例",
       "summary" : "创建只读实例"
     },
+    "ReleaseInstance" : {
+      "title" : "释放实例",
+      "summary" : "释放实例"
+    },
     "CreateAProxyInstance" : {
       "title" : "创建代理实例",
       "summary" : "创建代理实例"
-    },
-    "CreateAPrimaryInstance" : {
-      "title" : "创建主实例",
-      "summary" : "创建主实例"
     },
     "DoesTheInstanceSupportEnablingAutomaticExpansion" : {
       "title" : "实例是否支持启用自动扩容",

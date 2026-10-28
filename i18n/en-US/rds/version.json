@@ -23,10 +23,6 @@
       "title" : "querySubnetList",
       "summary" : "querySubnetList"
     },
-    "QueryTheDetailsOfTheSpecifiedInstance" : {
-      "title" : "queryTheDetailsOfTheSpecifiedInstance",
-      "summary" : "queryTheDetailsOfTheSpecifiedInstance"
-    },
     "ClusterStatusCheck" : {
       "title" : "clusterStatusCheck",
       "summary" : "clusterStatusCheck"
@@ -39,21 +35,25 @@
       "title" : "queryInstanceList",
       "summary" : "queryInstanceList"
     },
-    "ReleaseInstance" : {
-      "title" : "releaseInstance",
-      "summary" : "releaseInstance"
+    "CreateAPrimaryInstance" : {
+      "title" : "createAPrimaryInstance",
+      "summary" : "createAPrimaryInstance"
+    },
+    "QueryTheDetailsOfTheSpecifiedInstance" : {
+      "title" : "queryTheDetailsOfTheSpecifiedInstance",
+      "summary" : "queryTheDetailsOfTheSpecifiedInstance"
     },
     "CreateReadOnlyInstance" : {
       "title" : "createReadOnlyInstance",
       "summary" : "createReadOnlyInstance"
     },
+    "ReleaseInstance" : {
+      "title" : "releaseInstance",
+      "summary" : "releaseInstance"
+    },
     "CreateAProxyInstance" : {
       "title" : "createAProxyInstance",
       "summary" : "createAProxyInstance"
-    },
-    "CreateAPrimaryInstance" : {
-      "title" : "createAPrimaryInstance",
-      "summary" : "createAPrimaryInstance"
     },
     "DoesTheInstanceSupportEnablingAutomaticExpansion" : {
       "title" : "doesTheInstanceSupportEnablingAutomaticExpansion",
