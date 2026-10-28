@@ -3,6 +3,14 @@
   "style" : "rpc",
   "description" : "rapidfs",
   "apis" : {
+    "ImportDataSrc" : {
+      "title" : "importDataSrc",
+      "summary" : "importDataSrc"
+    },
+    "ModifyDataSrc" : {
+      "title" : "modifyDataSrc",
+      "summary" : "modifyDataSrc"
+    },
     "RemoveCacheNodes" : {
       "title" : "removeCacheNodes",
       "summary" : "removeCacheNodes"
@@ -19,17 +27,9 @@
       "title" : "restartCacheNodes",
       "summary" : "restartCacheNodes"
     },
-    "ImportDataSrc" : {
-      "title" : "importDataSrc",
-      "summary" : "importDataSrc"
-    },
     "DescribeZones" : {
       "title" : "describeZones",
       "summary" : "describeZones"
-    },
-    "ModifyDataSrc" : {
-      "title" : "modifyDataSrc",
-      "summary" : "modifyDataSrc"
     },
     "RemoveDataSrc" : {
       "title" : "removeDataSrc",
@@ -67,6 +67,10 @@
       "title" : "createCacheRule",
       "summary" : "createCacheRule"
     },
+    "ExecuteCacheRuleJob" : {
+      "title" : "executeCacheRuleJob",
+      "summary" : "executeCacheRuleJob"
+    },
     "CancelCacheRuleJob" : {
       "title" : "cancelCacheRuleJob",
       "summary" : "cancelCacheRuleJob"
@@ -74,10 +78,6 @@
     "DeleteCacheRule" : {
       "title" : "deleteCacheRule",
       "summary" : "deleteCacheRule"
-    },
-    "ExecuteCacheRuleJob" : {
-      "title" : "executeCacheRuleJob",
-      "summary" : "executeCacheRuleJob"
     },
     "CheckBeforeCreateInstance" : {
       "title" : "checkBeforeCreateInstance",
@@ -147,14 +147,6 @@
       "title" : "describeCacheNodeQuota",
       "summary" : "describeCacheNodeQuota"
     },
-    "DescribeDataSrcs" : {
-      "title" : "describeDataSrcs",
-      "summary" : "describeDataSrcs"
-    },
-    "DescribeDataSrc" : {
-      "title" : "describeDataSrc",
-      "summary" : "describeDataSrc"
-    },
     "DescribeAllocatableDataSrcQuota" : {
       "title" : "describeAllocatableDataSrcQuota",
       "summary" : "describeAllocatableDataSrcQuota"
@@ -222,6 +214,14 @@
     "DescribeAihcResourcePools" : {
       "title" : "describeAihcResourcePools",
       "summary" : "describeAihcResourcePools"
+    },
+    "DescribeDataSrcs" : {
+      "title" : "describeDataSrcs",
+      "summary" : "describeDataSrcs"
+    },
+    "DescribeDataSrc" : {
+      "title" : "describeDataSrc",
+      "summary" : "describeDataSrc"
     }
   }
 }

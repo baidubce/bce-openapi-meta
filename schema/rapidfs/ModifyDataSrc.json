@@ -28,6 +28,18 @@
     "position" : "BODY",
     "desc_key" : "rapidfs.ModifyDataSrc.instanceId"
   }, {
+    "name" : "bucketAK",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyDataSrc.bucketAK"
+  }, {
+    "name" : "bucketSK",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyDataSrc.bucketSK"
+  }, {
     "name" : "keepSymlink",
     "type" : "Boolean",
     "required" : false,
@@ -39,6 +51,43 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "rapidfs.ModifyDataSrc.authGroupId"
+  }, {
+    "name" : "mountServiceBindings",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ModifyDataSrc.mountServiceBindings",
+    "sub_parameters" : [ {
+      "name" : "mountServiceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyDataSrc.mountServiceBindings.mountServiceId"
+    }, {
+      "name" : "mountServiceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyDataSrc.mountServiceBindings.mountServiceName"
+    }, {
+      "name" : "dataSrcId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyDataSrc.mountServiceBindings.dataSrcId"
+    }, {
+      "name" : "dataSrcName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyDataSrc.mountServiceBindings.dataSrcName"
+    }, {
+      "name" : "logicalMountPath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyDataSrc.mountServiceBindings.logicalMountPath"
+    }, {
+      "name" : "status",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ModifyDataSrc.mountServiceBindings.status"
+    } ]
   }, {
     "name" : "description",
     "type" : "String",

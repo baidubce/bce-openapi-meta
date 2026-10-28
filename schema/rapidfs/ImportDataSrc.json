@@ -40,6 +40,18 @@
     "position" : "BODY",
     "desc_key" : "rapidfs.ImportDataSrc.otherAccount"
   }, {
+    "name" : "storageType",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ImportDataSrc.storageType"
+  }, {
+    "name" : "bucketEndpoint",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ImportDataSrc.bucketEndpoint"
+  }, {
     "name" : "bucketAK",
     "type" : "String",
     "required" : false,
@@ -64,6 +76,12 @@
     "position" : "BODY",
     "desc_key" : "rapidfs.ImportDataSrc.dirPrefix"
   }, {
+    "name" : "syncMetaOnImport",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ImportDataSrc.syncMetaOnImport"
+  }, {
     "name" : "keepSymlink",
     "type" : "Boolean",
     "required" : false,
@@ -75,6 +93,43 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "rapidfs.ImportDataSrc.authGroupId"
+  }, {
+    "name" : "mountServiceBindings",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "rapidfs.ImportDataSrc.mountServiceBindings",
+    "sub_parameters" : [ {
+      "name" : "mountServiceId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ImportDataSrc.mountServiceBindings.mountServiceId"
+    }, {
+      "name" : "mountServiceName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ImportDataSrc.mountServiceBindings.mountServiceName"
+    }, {
+      "name" : "dataSrcId",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ImportDataSrc.mountServiceBindings.dataSrcId"
+    }, {
+      "name" : "dataSrcName",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ImportDataSrc.mountServiceBindings.dataSrcName"
+    }, {
+      "name" : "logicalMountPath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ImportDataSrc.mountServiceBindings.logicalMountPath"
+    }, {
+      "name" : "status",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "rapidfs.ImportDataSrc.mountServiceBindings.status"
+    } ]
   }, {
     "name" : "description",
     "type" : "String",

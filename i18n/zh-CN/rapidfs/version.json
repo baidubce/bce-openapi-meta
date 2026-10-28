@@ -1,8 +1,16 @@
 {
   "version" : "v2",
   "style" : "rpc",
-  "description" : "数据湖存储加速工具",
+  "description" : "极速文件缓存",
   "apis" : {
+    "ImportDataSrc" : {
+      "title" : "导入数据源",
+      "summary" : "导入数据源"
+    },
+    "ModifyDataSrc" : {
+      "title" : "修改数据源",
+      "summary" : "修改数据源"
+    },
     "RemoveCacheNodes" : {
       "title" : "批量移出CacheNode节点",
       "summary" : "批量移出CacheNode节点"
@@ -19,17 +27,9 @@
       "title" : "批量重启CacheNode节点",
       "summary" : "批量重启CacheNode节点"
     },
-    "ImportDataSrc" : {
-      "title" : "导入数据源",
-      "summary" : "导入数据源"
-    },
     "DescribeZones" : {
       "title" : "查询可用区",
       "summary" : "查询可用区"
-    },
-    "ModifyDataSrc" : {
-      "title" : "修改数据源",
-      "summary" : "修改数据源"
     },
     "RemoveDataSrc" : {
       "title" : "移除数据源",
@@ -67,6 +67,10 @@
       "title" : "创建缓存管理规则",
       "summary" : "创建缓存管理规则"
     },
+    "ExecuteCacheRuleJob" : {
+      "title" : "执行缓存管理任务",
+      "summary" : "执行缓存管理任务"
+    },
     "CancelCacheRuleJob" : {
       "title" : "取消缓存管理任务",
       "summary" : "取消缓存管理任务"
@@ -74,10 +78,6 @@
     "DeleteCacheRule" : {
       "title" : "删除缓存管理规则",
       "summary" : "删除缓存管理规则"
-    },
-    "ExecuteCacheRuleJob" : {
-      "title" : "执行缓存管理任务",
-      "summary" : "执行缓存管理任务"
     },
     "CheckBeforeCreateInstance" : {
       "title" : "创建RapidFS实例前校验",
@@ -147,14 +147,6 @@
       "title" : "查询CacheNode节点数配额信息",
       "summary" : "查询CacheNode节点数配额信息"
     },
-    "DescribeDataSrcs" : {
-      "title" : "查询数据源列表",
-      "summary" : "查询数据源列表"
-    },
-    "DescribeDataSrc" : {
-      "title" : "查询单个数据源详情",
-      "summary" : "查询单个数据源详情"
-    },
     "DescribeAllocatableDataSrcQuota" : {
       "title" : "查询可分配的数据源配额",
       "summary" : "查询可分配的数据源配额"
@@ -222,6 +214,14 @@
     "DescribeAihcResourcePools" : {
       "title" : "查询AIHC资源池列表",
       "summary" : "查询AIHC资源池列表"
+    },
+    "DescribeDataSrcs" : {
+      "title" : "查询数据源列表",
+      "summary" : "查询数据源列表"
+    },
+    "DescribeDataSrc" : {
+      "title" : "查询单个数据源详情",
+      "summary" : "查询单个数据源详情"
     }
   }
 }
