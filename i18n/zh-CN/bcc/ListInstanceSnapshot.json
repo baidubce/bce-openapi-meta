@@ -1,8 +1,0 @@
-{
-  "ListInstanceSnapshot" : {
-    "marker" : "批量获取列表的查询起始位置，是一个由系统生成的字符串，缺省 -1 表示从头开始",
-    "maxKeys" : "每页包含的最大数量，取值范围1-100，缺省值为10",
-    "instanceIds" : "按实例ID过滤，选填",
-    "instanceSnapshotIds" : "按实例快照ID过滤，选填"
-  }
-}

@@ -1,5 +1,0 @@
-{
-  "DeleteInstanceSnapshot" : {
-    "deleteInsnapIds" : "List of instance snapshot IDs to delete, up to 100 per request"
-  }
-}

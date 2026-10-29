@@ -1,0 +1,11 @@
+{
+  "QueryElasticityAssurance" : {
+    "marker" : "批量获取列表的查询的起始位置，是一个由系统生成的字符串",
+    "maxKeys" : "每页包含的最大数量，最大数量通常不超过1000，缺省值为1000",
+    "elasticityAssuranceIds" : "弹性保障的id集合",
+    "elasticityAssuranceName" : "弹性保障的名称",
+    "zoneName" : "可用区，例如：cn-bj-a",
+    "spec" : "实例规格，例如：bcc.g4.c2m8",
+    "status" : "弹性保障状态,可选值：CREATING/ACTIVE"
+  }
+}

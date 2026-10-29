@@ -1,8 +1,0 @@
-{
-  "ListInstanceSnapshot" : {
-    "marker" : "The starting position of the query for batch retrieval of the list. It is a system-generated string. The default value -1 means starting from the beginning.",
-    "maxKeys" : "The maximum number of items per page, ranging from 1 to 100. The default value is 10.",
-    "instanceIds" : "Filter by instance ID, optional.",
-    "instanceSnapshotIds" : "Filter by instance snapshot ID, optional."
-  }
-}

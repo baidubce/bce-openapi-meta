@@ -124,11 +124,11 @@
     "position" : "BODY",
     "desc_key" : "bcc.CreateInstanceBySpec.hosteyeType"
   }, {
-    "name" : "enableHt",
+    "name" : "enableNuma",
     "type" : "Boolean",
     "required" : false,
     "position" : "BODY",
-    "desc_key" : "bcc.CreateInstanceBySpec.enableHt"
+    "desc_key" : "bcc.CreateInstanceBySpec.enableNuma"
   }, {
     "name" : "dataPartitionType",
     "type" : "String",
@@ -462,6 +462,12 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "bcc.CreateInstanceBySpec.isOpenHostEye"
+  }, {
+    "name" : "enableHt",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.CreateInstanceBySpec.enableHt"
   }, {
     "name" : "billing",
     "type" : "Object",

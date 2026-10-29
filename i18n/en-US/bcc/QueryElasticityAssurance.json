@@ -1,0 +1,11 @@
+{
+  "QueryElasticityAssurance" : {
+    "marker" : "The starting position of the query for the batch list, a system-generated string",
+    "maxKeys" : "The maximum number of entries per page, usually no more than 1000; default is 1000",
+    "elasticityAssuranceIds" : "The set of elasticity assurance IDs",
+    "elasticityAssuranceName" : "The name of the elasticity assurance",
+    "zoneName" : "Availability zone, e.g., cn-bj-a",
+    "spec" : "Instance type, e.g., bcc.g4.c2m8",
+    "status" : "Elasticity assurance status; valid values: CREATING/ACTIVE"
+  }
+}

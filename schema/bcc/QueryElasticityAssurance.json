@@ -1,0 +1,56 @@
+{
+  "name" : "QueryElasticityAssurance",
+  "method" : "POST",
+  "uri" : "/v{version}/instance/elasticityAssurance/list",
+  "parameters" : [ {
+    "name" : "version",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "default" : "2",
+    "desc_key" : "common.version"
+  }, {
+    "name" : "marker",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryElasticityAssurance.marker"
+  }, {
+    "name" : "maxKeys",
+    "type" : "Integer",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryElasticityAssurance.maxKeys"
+  }, {
+    "name" : "elasticityAssuranceIds",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryElasticityAssurance.elasticityAssuranceIds"
+  }, {
+    "name" : "elasticityAssuranceName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryElasticityAssurance.elasticityAssuranceName"
+  }, {
+    "name" : "zoneName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryElasticityAssurance.zoneName"
+  }, {
+    "name" : "spec",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryElasticityAssurance.spec"
+  }, {
+    "name" : "status",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "bcc.QueryElasticityAssurance.status"
+  } ],
+  "desc_key" : "bcc.QueryElasticityAssurance.desc"
+}

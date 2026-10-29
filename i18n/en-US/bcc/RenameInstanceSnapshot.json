@@ -1,6 +1,0 @@
-{
-  "RenameInstanceSnapshot" : {
-    "insnapIds" : "List of instance snapshot IDs to rename, up to 100 per request",
-    "name" : "New instance snapshot name, must start with a letter, supports uppercase and lowercase letters, numbers, Chinese characters, and special characters -_ /., length 1-65. Sequence numbers are automatically appended in order during batch renaming"
-  }
-}

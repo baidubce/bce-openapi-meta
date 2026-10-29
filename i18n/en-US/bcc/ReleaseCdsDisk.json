@@ -1,5 +1,0 @@
-{
-  "ReleaseCdsDisk" : {
-    "volumeId" : "The ID of the disk to be released"
-  }
-}

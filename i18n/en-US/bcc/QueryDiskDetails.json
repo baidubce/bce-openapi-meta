@@ -1,5 +1,0 @@
-{
-  "QueryDiskDetails" : {
-    "volumeId" : "The ID of the disk to query"
-  }
-}
