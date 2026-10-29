@@ -1,7 +1,7 @@
 {
   "name" : "SetPermissions",
   "method" : "POST",
-  "uri" : "/v{version}/{instanceId}/aclUserActions/authority",
+  "uri" : "/v{version}/instance/{instanceId}/aclUserActions/authority",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",

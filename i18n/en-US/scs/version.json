@@ -35,6 +35,10 @@
       "title" : "syncGroupRemoveInstance",
       "summary" : "syncGroupRemoveInstance"
     },
+    "QueryMemoryScalingConfig" : {
+      "title" : "queryMemoryScalingConfig",
+      "summary" : "queryMemoryScalingConfig"
+    },
     "HotGroupAddCluster" : {
       "title" : "hotGroupAddCluster",
       "summary" : "hotGroupAddCluster"
@@ -191,10 +195,6 @@
       "title" : "getParameterTemplateList",
       "summary" : "getParameterTemplateList"
     },
-    "QueryMemoryScalingConfig" : {
-      "title" : "queryMemoryScalingConfig",
-      "summary" : "queryMemoryScalingConfig"
-    },
     "ParameterTemplateDetails" : {
       "title" : "parameterTemplateDetails",
       "summary" : "parameterTemplateDetails"
@@ -223,9 +223,29 @@
       "title" : "changeConfiguration",
       "summary" : "changeConfiguration"
     },
+    "ChangeAccountPassword" : {
+      "title" : "changeAccountPassword",
+      "summary" : "changeAccountPassword"
+    },
+    "DeleteAccount" : {
+      "title" : "deleteAccount",
+      "summary" : "deleteAccount"
+    },
+    "SetPermissions" : {
+      "title" : "setPermissions",
+      "summary" : "setPermissions"
+    },
+    "SetBackupPolicy" : {
+      "title" : "setBackupPolicy",
+      "summary" : "setBackupPolicy"
+    },
     "TdeEncryption" : {
       "title" : "tdeEncryption",
       "summary" : "tdeEncryption"
+    },
+    "AccountList" : {
+      "title" : "accountList",
+      "summary" : "accountList"
     },
     "GePriceForResizeInstance" : {
       "title" : "gePriceForResizeInstance",
@@ -359,10 +379,6 @@
       "title" : "modifyBackupComment",
       "summary" : "modifyBackupComment"
     },
-    "ChangeAccountPassword" : {
-      "title" : "changeAccountPassword",
-      "summary" : "changeAccountPassword"
-    },
     "ManualBackup" : {
       "title" : "manualBackup",
       "summary" : "manualBackup"
@@ -374,10 +390,6 @@
     "GetBackupList" : {
       "title" : "getBackupList",
       "summary" : "getBackupList"
-    },
-    "SetBackupPolicy" : {
-      "title" : "setBackupPolicy",
-      "summary" : "setBackupPolicy"
     },
     "DeleteManualBackup" : {
       "title" : "deleteManualBackup",
@@ -431,10 +443,6 @@
       "title" : "logList",
       "summary" : "logList"
     },
-    "DeleteAccount" : {
-      "title" : "deleteAccount",
-      "summary" : "deleteAccount"
-    },
     "LogDetails" : {
       "title" : "logDetails",
       "summary" : "logDetails"
@@ -443,17 +451,9 @@
       "title" : "auditLogSwitch",
       "summary" : "auditLogSwitch"
     },
-    "SetPermissions" : {
-      "title" : "setPermissions",
-      "summary" : "setPermissions"
-    },
     "GetTimeWindow" : {
       "title" : "getTimeWindow",
       "summary" : "getTimeWindow"
-    },
-    "AccountList" : {
-      "title" : "accountList",
-      "summary" : "accountList"
     },
     "HotGroupPreCheck" : {
       "title" : "hotGroupPreCheck",

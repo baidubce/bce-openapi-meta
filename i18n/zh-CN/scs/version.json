@@ -35,6 +35,10 @@
       "title" : "多活实例组移除子实例",
       "summary" : "多活实例组移除子实例"
     },
+    "QueryMemoryScalingConfig" : {
+      "title" : "查询内存弹性扩缩配置API",
+      "summary" : "查询内存弹性扩缩配置API"
+    },
     "HotGroupAddCluster" : {
       "title" : "添加从集群",
       "summary" : "添加从集群"
@@ -191,10 +195,6 @@
       "title" : "获取参数模版列表",
       "summary" : "获取参数模版列表"
     },
-    "QueryMemoryScalingConfig" : {
-      "title" : "查询内存弹性扩缩配置API",
-      "summary" : "查询内存弹性扩缩配置API"
-    },
     "ParameterTemplateDetails" : {
       "title" : "参数模版详情",
       "summary" : "参数模版详情"
@@ -223,9 +223,29 @@
       "title" : "变更配置",
       "summary" : "变更配置"
     },
+    "ChangeAccountPassword" : {
+      "title" : "修改账号密码",
+      "summary" : "修改账号密码"
+    },
+    "DeleteAccount" : {
+      "title" : "删除账号",
+      "summary" : "删除账号"
+    },
+    "SetPermissions" : {
+      "title" : "设置权限",
+      "summary" : "设置权限"
+    },
+    "SetBackupPolicy" : {
+      "title" : "设置备份策略API",
+      "summary" : "设置备份策略API"
+    },
     "TdeEncryption" : {
       "title" : "TDE加密",
       "summary" : "TDE加密"
+    },
+    "AccountList" : {
+      "title" : "账号列表",
+      "summary" : "账号列表"
     },
     "GePriceForResizeInstance" : {
       "title" : "获取实例变更配置价格",
@@ -359,10 +379,6 @@
       "title" : "修改备份备注API",
       "summary" : "修改备份备注API"
     },
-    "ChangeAccountPassword" : {
-      "title" : "修改账号密码",
-      "summary" : "修改账号密码"
-    },
     "ManualBackup" : {
       "title" : "手动备份API",
       "summary" : "手动备份API"
@@ -374,10 +390,6 @@
     "GetBackupList" : {
       "title" : "查看备份列表API",
       "summary" : "查看备份列表API"
-    },
-    "SetBackupPolicy" : {
-      "title" : "设置备份策略API",
-      "summary" : "设置备份策略API"
     },
     "DeleteManualBackup" : {
       "title" : "删除手动备份API",
@@ -431,10 +443,6 @@
       "title" : "日志列表API",
       "summary" : "日志列表API"
     },
-    "DeleteAccount" : {
-      "title" : "删除账号",
-      "summary" : "删除账号"
-    },
     "LogDetails" : {
       "title" : "日志明细API",
       "summary" : "日志明细API"
@@ -443,17 +451,9 @@
       "title" : "审计日志开关API",
       "summary" : "审计日志开关API"
     },
-    "SetPermissions" : {
-      "title" : "设置权限",
-      "summary" : "设置权限"
-    },
     "GetTimeWindow" : {
       "title" : "获取维护时间窗口",
       "summary" : "获取维护时间窗口"
-    },
-    "AccountList" : {
-      "title" : "账号列表",
-      "summary" : "账号列表"
     },
     "HotGroupPreCheck" : {
       "title" : "前置检查",

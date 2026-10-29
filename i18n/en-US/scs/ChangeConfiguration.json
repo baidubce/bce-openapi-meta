@@ -6,8 +6,8 @@
     "billing.paymentTiming" : "Payment method: Prepaid or Postpaid",
     "billing.reservation" : "Reservation information. Not required for Postpaid; must be set for Prepaid",
     "engineVersion" : "Engine version, e.g., Redis 3.2/4.0/5.0/6.0",
-    "nodeType" : "See [Instance Specifications](https://cloud.baidu.com/doc/SCS/s/1jwvxtsh0#%E5%AE%9E%E4%BE%8B%E8%A7%84%E6%A0%BC) in the appendix",
-    "shardNum" : "Number of shards",
-    "diskFlavor" : "Storage space"
+    "nodeType" : "See [Instance Specifications](https://cloud.baidu.com/doc/SCS/s/1jwvxtsh0#%E5%AE%9E%E4%BE%8B%E8%A7%84%E6%A0%BC) in the appendix. Only one of instance specification or shard can be changed at a time; when changing the instance specification, the shards remain consistent with the original instance.",
+    "shardNum" : "Number of shards. Only one of instance specification or shard can be changed at a time; when changing the instance specification, the shards remain consistent with the original instance.",
+    "diskFlavor" : "Storage space. Only supported by Redis capacity type (PegaDB); cannot be changed together with shards."
   }
 }

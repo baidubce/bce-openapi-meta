@@ -1,6 +1,6 @@
 {
   "name" : "AccountList",
-  "method" : "POST",
+  "method" : "GET",
   "uri" : "/v{version}/instance/{instanceId}/aclUserActions",
   "parameters" : [ {
     "name" : "version",

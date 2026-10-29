@@ -1,7 +1,7 @@
 {
   "name" : "DeleteAccount",
   "method" : "POST",
-  "uri" : "/v{version}/{instanceId}/aclUserActions/delete",
+  "uri" : "/v{version}/instance/{instanceId}/aclUserActions/delete",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",
