@@ -5,7 +5,7 @@
     "instanceId" : "Unique ID of the RapidFS instance that the data source belongs to",
     "bucketAK" : "Modify bucket credentials. Only data sources with otherAccount == true can be modified; must be provided together with bucketSK",
     "bucketSK" : "Modify bucket credentials, using the same encryption method as when importing the data source. See [Password Encryption Transmission Specification](https://cloud.baidu.com/doc/BCC/s/ojwvynrqn#%E5%AF%86%E7%A0%81%E5%8A%A0%E5%AF%86%E4%BC%A0%E8%BE%93%E8%A7%84%E8%8C%83). Refer to the aes128_encrypt_16char_key() function in [bce-python-sdk](https://cloud.baidu.com/doc/Developer/index.html); must be provided together with bucketAK",
-    "keepSymlink" : "Whether to retain BOS soft links; retaining them reduces data source import efficiency and incremental metadata sync efficiency.",
+    "keepSymlink" : "Whether to preserve symbolic links. Preserving symbolic links reduces data source import efficiency and subsequent incremental metadata synchronization efficiency",
     "authGroupId" : "Permission group ID",
     "mountServiceBindings" : "The complete set of target bindings for the data source. See data type MountServiceBinding.<br>When passed in (including an empty list): the list entirely overrides the data source's bindings; an empty list removes all bindings.<br>Modification is allowed when the data source status is RUNNING or CHANGE_FAILED; binding changes are executed asynchronously.<br>Bindings in BIND_FAILED / UNBIND_FAILED state can be resubmitted to retry.",
     "mountServiceBindings.mountServiceId" : "Mount service Id. Always returned in responses; can be omitted in requests, in which case the default mount service MNTSVC-RAPIDFS_DEFAULT_ID is used.",

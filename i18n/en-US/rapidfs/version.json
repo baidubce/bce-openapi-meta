@@ -7,10 +7,6 @@
       "title" : "importDataSrc",
       "summary" : "importDataSrc"
     },
-    "ModifyDataSrc" : {
-      "title" : "modifyDataSrc",
-      "summary" : "modifyDataSrc"
-    },
     "RemoveCacheNodes" : {
       "title" : "removeCacheNodes",
       "summary" : "removeCacheNodes"
@@ -74,6 +70,10 @@
     "CancelCacheRuleJob" : {
       "title" : "cancelCacheRuleJob",
       "summary" : "cancelCacheRuleJob"
+    },
+    "ModifyDataSrc" : {
+      "title" : "modifyDataSrc",
+      "summary" : "modifyDataSrc"
     },
     "DeleteCacheRule" : {
       "title" : "deleteCacheRule",

@@ -7,10 +7,6 @@
       "title" : "导入数据源",
       "summary" : "导入数据源"
     },
-    "ModifyDataSrc" : {
-      "title" : "修改数据源",
-      "summary" : "修改数据源"
-    },
     "RemoveCacheNodes" : {
       "title" : "批量移出CacheNode节点",
       "summary" : "批量移出CacheNode节点"
@@ -74,6 +70,10 @@
     "CancelCacheRuleJob" : {
       "title" : "取消缓存管理任务",
       "summary" : "取消缓存管理任务"
+    },
+    "ModifyDataSrc" : {
+      "title" : "修改数据源",
+      "summary" : "修改数据源"
     },
     "DeleteCacheRule" : {
       "title" : "删除缓存管理规则",
