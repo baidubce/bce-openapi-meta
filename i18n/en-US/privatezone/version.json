@@ -19,10 +19,6 @@
       "title" : "deleteRecord",
       "summary" : "deleteRecord"
     },
-    "BindVpc" : {
-      "title" : "bindVpc",
-      "summary" : "bindVpc"
-    },
     "UnbindVpc" : {
       "title" : "unbindVpc",
       "summary" : "unbindVpc"
@@ -70,6 +66,10 @@
     "DeleteResolver" : {
       "title" : "deleteResolver",
       "summary" : "deleteResolver"
+    },
+    "BindVpc" : {
+      "title" : "bindVpc",
+      "summary" : "bindVpc"
     },
     "GetDnsResolverDetail" : {
       "title" : "getDnsResolverDetail",
