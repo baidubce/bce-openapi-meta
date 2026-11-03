@@ -31,9 +31,17 @@
       "title" : "deletePrivateZone",
       "summary" : "deletePrivateZone"
     },
+    "UnbindVpcToRule" : {
+      "title" : "unbindVpcToRule",
+      "summary" : "unbindVpcToRule"
+    },
     "ListPrivateZone" : {
       "title" : "listPrivateZone",
       "summary" : "listPrivateZone"
+    },
+    "UpdateResolverRule" : {
+      "title" : "updateResolverRule",
+      "summary" : "updateResolverRule"
     },
     "AddRecord" : {
       "title" : "addRecord",
@@ -79,10 +87,6 @@
       "title" : "deleteResolverRule",
       "summary" : "deleteResolverRule"
     },
-    "UpdateResolverRule" : {
-      "title" : "updateResolverRule",
-      "summary" : "updateResolverRule"
-    },
     "GetDnsResolverRuleDetail" : {
       "title" : "getDnsResolverRuleDetail",
       "summary" : "getDnsResolverRuleDetail"
@@ -94,10 +98,6 @@
     "CreateResolver" : {
       "title" : "createResolver",
       "summary" : "createResolver"
-    },
-    "UnbindVpcToRule" : {
-      "title" : "unbindVpcToRule",
-      "summary" : "unbindVpcToRule"
     }
   }
 }

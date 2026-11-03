@@ -1,6 +1,6 @@
 {
   "UnbindVpcToRule" : {
-    "clienToken" : "Idempotency token",
+    "clientToken" : "Idempotency token",
     "ruleId" : "ID of the forwarding rule",
     "vpcRegions" : "VPC information to unbind",
     "vpcRegions.region" : "Region where the VPC is located",

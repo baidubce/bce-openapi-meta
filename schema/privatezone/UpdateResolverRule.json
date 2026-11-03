@@ -1,7 +1,7 @@
 {
   "name" : "UpdateResolverRule",
   "method" : "PUT",
-  "uri" : "/v{version}/privatezone/resolver/rule/{reluId}",
+  "uri" : "/v{version}/privatezone/resolver/rule/{ruleId}",
   "parameters" : [ {
     "name" : "version",
     "type" : "String",
@@ -16,11 +16,11 @@
     "position" : "QUERY",
     "desc_key" : "privatezone.UpdateResolverRule.clientToken"
   }, {
-    "name" : "reluId",
+    "name" : "ruleId",
     "type" : "String",
     "required" : true,
     "position" : "URL",
-    "desc_key" : "privatezone.UpdateResolverRule.reluId"
+    "desc_key" : "privatezone.UpdateResolverRule.ruleId"
   }, {
     "name" : "name",
     "type" : "String",
