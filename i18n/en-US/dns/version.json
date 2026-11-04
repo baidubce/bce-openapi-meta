@@ -35,6 +35,10 @@
       "title" : "deleteLineGroup",
       "summary" : "deleteLineGroup"
     },
+    "UpdateRecordDisable" : {
+      "title" : "updateRecordDisable",
+      "summary" : "updateRecordDisable"
+    },
     "AddLineGroup" : {
       "title" : "addLineGroup",
       "summary" : "addLineGroup"
@@ -54,10 +58,6 @@
     "ListZone" : {
       "title" : "listZone",
       "summary" : "listZone"
-    },
-    "UpdateRecordDisable" : {
-      "title" : "updateRecordDisable",
-      "summary" : "updateRecordDisable"
     },
     "DeleteRecord" : {
       "title" : "deleteRecord",

@@ -35,6 +35,10 @@
       "title" : "删除线路组",
       "summary" : "删除线路组"
     },
+    "UpdateRecordDisable" : {
+      "title" : "暂停解析记录状态",
+      "summary" : "暂停解析记录状态"
+    },
     "AddLineGroup" : {
       "title" : "添加线路组",
       "summary" : "添加线路组"
@@ -54,10 +58,6 @@
     "ListZone" : {
       "title" : "查询域名列表",
       "summary" : "查询域名列表"
-    },
-    "UpdateRecordDisable" : {
-      "title" : "暂停解析记录状态",
-      "summary" : "暂停解析记录状态"
     },
     "DeleteRecord" : {
       "title" : "删除解析记录",
