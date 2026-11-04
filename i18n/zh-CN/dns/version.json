@@ -7,10 +7,6 @@
       "title" : "购买付费版域名",
       "summary" : "购买付费版域名"
     },
-    "UpdateRecordDisable" : {
-      "title" : "暂停解析记录状态",
-      "summary" : "暂停解析记录状态"
-    },
     "UpgradeZone" : {
       "title" : "免费版域名升级成普惠版",
       "summary" : "免费版域名升级成普惠版"
@@ -27,25 +23,21 @@
       "title" : "查询解析记录列表",
       "summary" : "查询解析记录列表"
     },
-    "UpdateRecord" : {
-      "title" : "修改解析记录",
-      "summary" : "修改解析记录"
-    },
     "UpdateLineGroup" : {
       "title" : "更新线路组",
       "summary" : "更新线路组"
     },
-    "DeleteRecord" : {
-      "title" : "删除解析记录",
-      "summary" : "删除解析记录"
-    },
-    "AddLineGroup" : {
-      "title" : "添加线路组",
-      "summary" : "添加线路组"
+    "UpdateRecord" : {
+      "title" : "修改解析记录",
+      "summary" : "修改解析记录"
     },
     "DeleteLineGroup" : {
       "title" : "删除线路组",
       "summary" : "删除线路组"
+    },
+    "AddLineGroup" : {
+      "title" : "添加线路组",
+      "summary" : "添加线路组"
     },
     "CreateZone" : {
       "title" : "添加域名",
@@ -62,6 +54,14 @@
     "ListZone" : {
       "title" : "查询域名列表",
       "summary" : "查询域名列表"
+    },
+    "UpdateRecordDisable" : {
+      "title" : "暂停解析记录状态",
+      "summary" : "暂停解析记录状态"
+    },
+    "DeleteRecord" : {
+      "title" : "删除解析记录",
+      "summary" : "删除解析记录"
     },
     "UpdateRecordEnable" : {
       "title" : "启用解析记录状态",

@@ -7,10 +7,6 @@
       "title" : "createPaidZone",
       "summary" : "createPaidZone"
     },
-    "UpdateRecordDisable" : {
-      "title" : "updateRecordDisable",
-      "summary" : "updateRecordDisable"
-    },
     "UpgradeZone" : {
       "title" : "upgradeZone",
       "summary" : "upgradeZone"
@@ -27,25 +23,21 @@
       "title" : "listRecord",
       "summary" : "listRecord"
     },
-    "UpdateRecord" : {
-      "title" : "updateRecord",
-      "summary" : "updateRecord"
-    },
     "UpdateLineGroup" : {
       "title" : "updateLineGroup",
       "summary" : "updateLineGroup"
     },
-    "DeleteRecord" : {
-      "title" : "deleteRecord",
-      "summary" : "deleteRecord"
-    },
-    "AddLineGroup" : {
-      "title" : "addLineGroup",
-      "summary" : "addLineGroup"
+    "UpdateRecord" : {
+      "title" : "updateRecord",
+      "summary" : "updateRecord"
     },
     "DeleteLineGroup" : {
       "title" : "deleteLineGroup",
       "summary" : "deleteLineGroup"
+    },
+    "AddLineGroup" : {
+      "title" : "addLineGroup",
+      "summary" : "addLineGroup"
     },
     "CreateZone" : {
       "title" : "createZone",
@@ -62,6 +54,14 @@
     "ListZone" : {
       "title" : "listZone",
       "summary" : "listZone"
+    },
+    "UpdateRecordDisable" : {
+      "title" : "updateRecordDisable",
+      "summary" : "updateRecordDisable"
+    },
+    "DeleteRecord" : {
+      "title" : "deleteRecord",
+      "summary" : "deleteRecord"
     },
     "UpdateRecordEnable" : {
       "title" : "updateRecordEnable",
