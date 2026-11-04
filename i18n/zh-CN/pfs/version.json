@@ -3,17 +3,21 @@
   "style" : "rpc",
   "description" : "并行文件存储",
   "apis" : {
-    "DescL2BucketLink" : {
-      "title" : "查询数据流动任务详情",
-      "summary" : "查询数据流动任务详情"
-    },
     "CreateL3AccessRule" : {
       "title" : "创建权限组规则",
       "summary" : "创建权限组规则"
     },
+    "DescL2BucketLink" : {
+      "title" : "查询数据流动任务详情",
+      "summary" : "查询数据流动任务详情"
+    },
     "UpdateL3AccessRule" : {
       "title" : "更新权限组规则",
       "summary" : "更新权限组规则"
+    },
+    "ListL3AccessRule" : {
+      "title" : "查询权限组规则列表",
+      "summary" : "查询权限组规则列表"
     },
     "PauseL2BucketLink" : {
       "title" : "暂停数据流动任务",
@@ -34,10 +38,6 @@
     "DeleteL2BucketLink" : {
       "title" : "删除数据流动任务",
       "summary" : "删除数据流动任务"
-    },
-    "ListL3AccessRule" : {
-      "title" : "查询权限组规则列表",
-      "summary" : "查询权限组规则列表"
     },
     "CancelL2BucketLink" : {
       "title" : "取消数据流动任务",
@@ -71,17 +71,9 @@
       "title" : "查询挂载服务挂载客户端列表",
       "summary" : "查询挂载服务挂载客户端列表"
     },
-    "CreateL3MountTarget" : {
-      "title" : "创建挂载点",
-      "summary" : "创建挂载点"
-    },
     "ListL2BucketLink" : {
       "title" : "查询数据流动任务列表",
       "summary" : "查询数据流动任务列表"
-    },
-    "ListL3MountTarget" : {
-      "title" : "查询挂载点列表",
-      "summary" : "查询挂载点列表"
     },
     "CreateL2Policy" : {
       "title" : "创建生命周期规则",
@@ -119,10 +111,6 @@
       "title" : "删除PFS实例",
       "summary" : "删除PFS实例"
     },
-    "DescribeL3AccessGroup" : {
-      "title" : "查询权限组详情",
-      "summary" : "查询权限组详情"
-    },
     "DescPfs" : {
       "title" : "查询PFS实例详情",
       "summary" : "查询PFS实例详情"
@@ -130,6 +118,14 @@
     "UpdateL3MountTarget" : {
       "title" : "更新挂载点",
       "summary" : "更新挂载点"
+    },
+    "CreateL3MountTarget" : {
+      "title" : "创建挂载点",
+      "summary" : "创建挂载点"
+    },
+    "ListL3MountTarget" : {
+      "title" : "查询挂载点列表",
+      "summary" : "查询挂载点列表"
     },
     "DescribeL3MountTarget" : {
       "title" : "查询挂载点详情",
@@ -159,13 +155,13 @@
       "title" : "删除权限组",
       "summary" : "删除权限组"
     },
+    "DescribeL3AccessGroup" : {
+      "title" : "查询权限组详情",
+      "summary" : "查询权限组详情"
+    },
     "UpdatePFSTag" : {
       "title" : "更新PFS实例标签",
       "summary" : "更新PFS实例标签"
-    },
-    "ListL3AccessGroup" : {
-      "title" : "查询权限组列表",
-      "summary" : "查询权限组列表"
     },
     "ListPfs" : {
       "title" : "获取PFS实例列表",
@@ -174,6 +170,10 @@
     "UpdPerL2BktLnkInfo" : {
       "title" : "更新周期性数据流动任务",
       "summary" : "更新周期性数据流动任务"
+    },
+    "ListL3AccessGroup" : {
+      "title" : "查询权限组列表",
+      "summary" : "查询权限组列表"
     }
   }
 }

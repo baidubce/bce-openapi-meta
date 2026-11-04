@@ -33,6 +33,30 @@
     "required" : true,
     "position" : "BODY",
     "desc_key" : "pfs.CreateL3MountTarget.subnetId"
+  }, {
+    "name" : "name",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3MountTarget.name"
+  }, {
+    "name" : "accessGroupName",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3MountTarget.accessGroupName"
+  }, {
+    "name" : "protocol",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3MountTarget.protocol"
+  }, {
+    "name" : "ipAddress",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL3MountTarget.ipAddress"
   } ],
   "desc_key" : "pfs.CreateL3MountTarget.desc"
 }

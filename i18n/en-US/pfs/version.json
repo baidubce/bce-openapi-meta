@@ -3,17 +3,21 @@
   "style" : "rpc",
   "description" : "pfs",
   "apis" : {
-    "DescL2BucketLink" : {
-      "title" : "descL2BucketLink",
-      "summary" : "descL2BucketLink"
-    },
     "CreateL3AccessRule" : {
       "title" : "createL3AccessRule",
       "summary" : "createL3AccessRule"
     },
+    "DescL2BucketLink" : {
+      "title" : "descL2BucketLink",
+      "summary" : "descL2BucketLink"
+    },
     "UpdateL3AccessRule" : {
       "title" : "updateL3AccessRule",
       "summary" : "updateL3AccessRule"
+    },
+    "ListL3AccessRule" : {
+      "title" : "listL3AccessRule",
+      "summary" : "listL3AccessRule"
     },
     "PauseL2BucketLink" : {
       "title" : "pauseL2BucketLink",
@@ -34,10 +38,6 @@
     "DeleteL2BucketLink" : {
       "title" : "deleteL2BucketLink",
       "summary" : "deleteL2BucketLink"
-    },
-    "ListL3AccessRule" : {
-      "title" : "listL3AccessRule",
-      "summary" : "listL3AccessRule"
     },
     "CancelL2BucketLink" : {
       "title" : "cancelL2BucketLink",
@@ -71,17 +71,9 @@
       "title" : "mountTargetListClients",
       "summary" : "mountTargetListClients"
     },
-    "CreateL3MountTarget" : {
-      "title" : "createL3MountTarget",
-      "summary" : "createL3MountTarget"
-    },
     "ListL2BucketLink" : {
       "title" : "listL2BucketLink",
       "summary" : "listL2BucketLink"
-    },
-    "ListL3MountTarget" : {
-      "title" : "listL3MountTarget",
-      "summary" : "listL3MountTarget"
     },
     "CreateL2Policy" : {
       "title" : "createL2Policy",
@@ -119,10 +111,6 @@
       "title" : "deletePfs",
       "summary" : "deletePfs"
     },
-    "DescribeL3AccessGroup" : {
-      "title" : "describeL3AccessGroup",
-      "summary" : "describeL3AccessGroup"
-    },
     "DescPfs" : {
       "title" : "descPfs",
       "summary" : "descPfs"
@@ -130,6 +118,14 @@
     "UpdateL3MountTarget" : {
       "title" : "updateL3MountTarget",
       "summary" : "updateL3MountTarget"
+    },
+    "CreateL3MountTarget" : {
+      "title" : "createL3MountTarget",
+      "summary" : "createL3MountTarget"
+    },
+    "ListL3MountTarget" : {
+      "title" : "listL3MountTarget",
+      "summary" : "listL3MountTarget"
     },
     "DescribeL3MountTarget" : {
       "title" : "describeL3MountTarget",
@@ -159,13 +155,13 @@
       "title" : "deleteL3AccessGroup",
       "summary" : "deleteL3AccessGroup"
     },
+    "DescribeL3AccessGroup" : {
+      "title" : "describeL3AccessGroup",
+      "summary" : "describeL3AccessGroup"
+    },
     "UpdatePFSTag" : {
       "title" : "updatePFSTag",
       "summary" : "updatePFSTag"
-    },
-    "ListL3AccessGroup" : {
-      "title" : "listL3AccessGroup",
-      "summary" : "listL3AccessGroup"
     },
     "ListPfs" : {
       "title" : "listPfs",
@@ -174,6 +170,10 @@
     "UpdPerL2BktLnkInfo" : {
       "title" : "updPerL2BktLnkInfo",
       "summary" : "updPerL2BktLnkInfo"
+    },
+    "ListL3AccessGroup" : {
+      "title" : "listL3AccessGroup",
+      "summary" : "listL3AccessGroup"
     }
   }
 }

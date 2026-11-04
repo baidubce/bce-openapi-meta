@@ -32,37 +32,33 @@
     "type" : "List",
     "required" : true,
     "position" : "BODY",
-    "desc_key" : "pfs.CreateL3AccessRule.accessRules"
-  }, {
-    "name" : "accessRules[].ip",
-    "type" : "String",
-    "required" : true,
-    "position" : "BODY",
-    "desc_key" : "pfs.CreateL3AccessRule.accessRules[].ip"
-  }, {
-    "name" : "accessRules[].mask",
-    "type" : "Integer",
-    "required" : false,
-    "position" : "BODY",
-    "desc_key" : "pfs.CreateL3AccessRule.accessRules[].mask"
-  }, {
-    "name" : "accessRules[].writeAccess",
-    "type" : "String",
-    "required" : true,
-    "position" : "BODY",
-    "desc_key" : "pfs.CreateL3AccessRule.accessRules[].writeAccess"
-  }, {
-    "name" : "accessRules[].userAccess",
-    "type" : "String",
-    "required" : true,
-    "position" : "BODY",
-    "desc_key" : "pfs.CreateL3AccessRule.accessRules[].userAccess"
-  }, {
-    "name" : "accessRules[].priority",
-    "type" : "Integer",
-    "required" : true,
-    "position" : "BODY",
-    "desc_key" : "pfs.CreateL3AccessRule.accessRules[].priority"
+    "desc_key" : "pfs.CreateL3AccessRule.accessRules",
+    "sub_parameters" : [ {
+      "name" : "ip",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "pfs.CreateL3AccessRule.accessRules.ip"
+    }, {
+      "name" : "mask",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "pfs.CreateL3AccessRule.accessRules.mask"
+    }, {
+      "name" : "writeAccess",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "pfs.CreateL3AccessRule.accessRules.writeAccess"
+    }, {
+      "name" : "userAccess",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "pfs.CreateL3AccessRule.accessRules.userAccess"
+    }, {
+      "name" : "priority",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "pfs.CreateL3AccessRule.accessRules.priority"
+    } ]
   } ],
   "desc_key" : "pfs.CreateL3AccessRule.desc"
 }

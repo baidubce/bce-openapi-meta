@@ -3,6 +3,10 @@
     "action" : "本接口中固定为 CreateL3MountTarget",
     "instanceId" : "PFS实例ID",
     "vpcId" : "PFS实例vip所属VPC的短Id",
-    "subnetId" : "MountTarget所属子网，subnet属于PFS实例所在vpc，为短id"
+    "subnetId" : "MountTarget所属子网，subnet属于PFS实例所在vpc，为短id",
+    "name" : "挂载点名称，默认default",
+    "accessGroupName" : "权限组名称，默认DEFAULT_ACCESS_GROUP_NAME",
+    "protocol" : "协议类型，默认bpfs，当前只支持bpfs/nfs",
+    "ipAddress" : "挂载点IP地址"
   }
 }
