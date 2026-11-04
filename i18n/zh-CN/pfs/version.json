@@ -7,6 +7,14 @@
       "title" : "查询数据流动任务详情",
       "summary" : "查询数据流动任务详情"
     },
+    "CreateL3AccessRule" : {
+      "title" : "创建权限组规则",
+      "summary" : "创建权限组规则"
+    },
+    "UpdateL3AccessRule" : {
+      "title" : "更新权限组规则",
+      "summary" : "更新权限组规则"
+    },
     "PauseL2BucketLink" : {
       "title" : "暂停数据流动任务",
       "summary" : "暂停数据流动任务"
@@ -14,6 +22,10 @@
     "LstPerL2BktLnkExecLog" : {
       "title" : "查询周期性数据流动执行日志列表",
       "summary" : "查询周期性数据流动执行日志列表"
+    },
+    "DeleteL3AccessRule" : {
+      "title" : "删除权限组规则",
+      "summary" : "删除权限组规则"
     },
     "CreateL2BucketLink" : {
       "title" : "创建数据流动任务",
@@ -23,13 +35,13 @@
       "title" : "删除数据流动任务",
       "summary" : "删除数据流动任务"
     },
+    "ListL3AccessRule" : {
+      "title" : "查询权限组规则列表",
+      "summary" : "查询权限组规则列表"
+    },
     "CancelL2BucketLink" : {
       "title" : "取消数据流动任务",
       "summary" : "取消数据流动任务"
-    },
-    "ListL3Clients" : {
-      "title" : "挂载客户端列表",
-      "summary" : "挂载客户端列表"
     },
     "CreateFileset" : {
       "title" : "创建Fileset",
@@ -38,10 +50,6 @@
     "DeleteFileset" : {
       "title" : "删除Fileset",
       "summary" : "删除Fileset"
-    },
-    "UpdateL3MountTarget" : {
-      "title" : "编辑挂载点",
-      "summary" : "编辑挂载点"
     },
     "UpdateFileset" : {
       "title" : "更新Fileset",
@@ -59,14 +67,6 @@
       "title" : "启动数据流动任务",
       "summary" : "启动数据流动任务"
     },
-    "ListL3AccessGroup" : {
-      "title" : "权限组列表接口",
-      "summary" : "权限组列表接口"
-    },
-    "CreateL3AccessRule" : {
-      "title" : "创建权限组规则",
-      "summary" : "创建权限组规则"
-    },
     "MountTargetListClients" : {
       "title" : "查询挂载服务挂载客户端列表",
       "summary" : "查询挂载服务挂载客户端列表"
@@ -79,10 +79,6 @@
       "title" : "查询数据流动任务列表",
       "summary" : "查询数据流动任务列表"
     },
-    "DeleteL3MountTarget" : {
-      "title" : "删除挂载点",
-      "summary" : "删除挂载点"
-    },
     "ListL3MountTarget" : {
       "title" : "查询挂载点列表",
       "summary" : "查询挂载点列表"
@@ -90,14 +86,6 @@
     "CreateL2Policy" : {
       "title" : "创建生命周期规则",
       "summary" : "创建生命周期规则"
-    },
-    "DescribeL3MountTarget" : {
-      "title" : "挂载点详情",
-      "summary" : "挂载点详情"
-    },
-    "DescribeL3AccessGroup" : {
-      "title" : "权限组详情",
-      "summary" : "权限组详情"
     },
     "InstanceListClients" : {
       "title" : "查询PFS实例挂载客户端列表",
@@ -111,10 +99,6 @@
       "title" : "删除生命周期规则",
       "summary" : "删除生命周期规则"
     },
-    "CreateL3AccessGroup" : {
-      "title" : "创建权限组",
-      "summary" : "创建权限组"
-    },
     "ListL2Policy" : {
       "title" : "获取生命周期规则列表",
       "summary" : "获取生命周期规则列表"
@@ -122,10 +106,6 @@
     "DescL2Policy" : {
       "title" : "查询生命周期规则详情",
       "summary" : "查询生命周期规则详情"
-    },
-    "DeleteL3AccessGroup" : {
-      "title" : "删除权限组",
-      "summary" : "删除权限组"
     },
     "QryL2PolExecLog" : {
       "title" : "查询规则任务执行日志列表",
@@ -139,33 +119,53 @@
       "title" : "删除PFS实例",
       "summary" : "删除PFS实例"
     },
-    "UpdateL3AccessGroup" : {
-      "title" : "更新权限组",
-      "summary" : "更新权限组"
+    "DescribeL3AccessGroup" : {
+      "title" : "查询权限组详情",
+      "summary" : "查询权限组详情"
     },
     "DescPfs" : {
       "title" : "查询PFS实例详情",
       "summary" : "查询PFS实例详情"
     },
-    "ListL3AccessRule" : {
-      "title" : "权限组规则列表",
-      "summary" : "权限组规则列表"
+    "UpdateL3MountTarget" : {
+      "title" : "更新挂载点",
+      "summary" : "更新挂载点"
     },
-    "DeleteL3AccessRule" : {
-      "title" : "删除权限组规则",
-      "summary" : "删除权限组规则"
-    },
-    "UpdateL3AccessRule" : {
-      "title" : "更新权限组规则",
-      "summary" : "更新权限组规则"
+    "DescribeL3MountTarget" : {
+      "title" : "查询挂载点详情",
+      "summary" : "查询挂载点详情"
     },
     "CreatePfs" : {
       "title" : "创建PFS实例",
       "summary" : "创建PFS实例"
     },
+    "DeleteL3MountTarget" : {
+      "title" : "删除挂载点",
+      "summary" : "删除挂载点"
+    },
+    "ListL3Clients" : {
+      "title" : "查询挂载客户端列表",
+      "summary" : "查询挂载客户端列表"
+    },
+    "UpdateL3AccessGroup" : {
+      "title" : "更新权限组",
+      "summary" : "更新权限组"
+    },
+    "CreateL3AccessGroup" : {
+      "title" : "创建权限组",
+      "summary" : "创建权限组"
+    },
+    "DeleteL3AccessGroup" : {
+      "title" : "删除权限组",
+      "summary" : "删除权限组"
+    },
     "UpdatePFSTag" : {
       "title" : "更新PFS实例标签",
       "summary" : "更新PFS实例标签"
+    },
+    "ListL3AccessGroup" : {
+      "title" : "查询权限组列表",
+      "summary" : "查询权限组列表"
     },
     "ListPfs" : {
       "title" : "获取PFS实例列表",

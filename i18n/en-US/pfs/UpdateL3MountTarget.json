@@ -4,7 +4,7 @@
     "instanceId" : "PFS instance ID",
     "mountTargetId" : "Mount target ID",
     "admissionStatus" : "When this value is passed, updates the mount target disabled status; pass 1 to disable, 0 to enable; omit to leave the status unchanged",
-    "name" : "When this value is passed, updates the mount target name, 1-128 characters, cannot be an empty string; omit to keep the name unchanged",
+    "name" : "When this value is passed, the mount target name is updated.<br><li>Supports uppercase and lowercase letters, numbers, Chinese characters, half-width colons (:), underscores (_), or hyphens (-)<br><li>Must start with an uppercase/lowercase letter or Chinese character, with a length of 1 to 128 English or Chinese characters<br><li>Cannot be an empty string<br><li>If not passed, the name will not be changed",
     "accessGroupName" : "When this value is passed, updates the bound access group; omit to leave unchanged"
   }
 }
