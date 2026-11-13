@@ -55,6 +55,12 @@
       "required" : false,
       "desc_key" : "pfs.CreatePfs.tags.tagValue"
     } ]
+  }, {
+    "name" : "resourceGroupId",
+    "type" : "String",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreatePfs.resourceGroupId"
   } ],
   "desc_key" : "pfs.CreatePfs.desc"
 }

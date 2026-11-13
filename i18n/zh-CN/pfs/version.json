@@ -51,13 +51,25 @@
       "title" : "获取Fileset列表",
       "summary" : "获取Fileset列表"
     },
+    "ListPfs" : {
+      "title" : "获取PFS实例列表",
+      "summary" : "获取PFS实例列表"
+    },
     "DescFileset" : {
       "title" : "查询FIleset详情",
       "summary" : "查询FIleset详情"
     },
+    "CreatePfs" : {
+      "title" : "创建PFS实例",
+      "summary" : "创建PFS实例"
+    },
     "ResumeL2BucketLink" : {
       "title" : "启动数据流动任务",
       "summary" : "启动数据流动任务"
+    },
+    "DescPfs" : {
+      "title" : "查询PFS实例详情",
+      "summary" : "查询PFS实例详情"
     },
     "CreateL2BucketLink" : {
       "title" : "创建数据流动任务",
@@ -111,10 +123,6 @@
       "title" : "删除PFS实例",
       "summary" : "删除PFS实例"
     },
-    "DescPfs" : {
-      "title" : "查询PFS实例详情",
-      "summary" : "查询PFS实例详情"
-    },
     "UpdateL3MountTarget" : {
       "title" : "更新挂载点",
       "summary" : "更新挂载点"
@@ -130,10 +138,6 @@
     "DescribeL3MountTarget" : {
       "title" : "查询挂载点详情",
       "summary" : "查询挂载点详情"
-    },
-    "CreatePfs" : {
-      "title" : "创建PFS实例",
-      "summary" : "创建PFS实例"
     },
     "DeleteL3MountTarget" : {
       "title" : "删除挂载点",
@@ -162,10 +166,6 @@
     "UpdatePFSTag" : {
       "title" : "更新PFS实例标签",
       "summary" : "更新PFS实例标签"
-    },
-    "ListPfs" : {
-      "title" : "获取PFS实例列表",
-      "summary" : "获取PFS实例列表"
     },
     "UpdPerL2BktLnkInfo" : {
       "title" : "更新周期性数据流动任务",
