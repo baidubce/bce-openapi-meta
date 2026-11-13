@@ -8,6 +8,9 @@
     "type" : "Rule type: 0 for data deletion; 1 for data archiving",
     "executeTime" : "Execution hour of the rule, integer from 0 to 23, default is 0",
     "bucketName" : "Target bucket for data archiving. Required when type is data archiving.",
-    "bucketPrefix" : "Target prefix for data archiving. Required when type is data archiving. Must not start with \"/\" and must end with \"/\""
+    "bucketPrefix" : "Target prefix for data archiving. Required when type is data archiving. Must not start with \"/\" and must end with \"/\"",
+    "pathFilters" : "Path filter rules. Can only be set during creation, currently up to 1 rule. type: 0 suffix match (e.g. <code>\\*.jpg</code>), 1 path match (e.g. <code>\\*&#47;data/\\*&#47;test</code>); pattern: match rule",
+    "pathFilters.type" : "Filter type. 0 suffix match (SUFFIX); 1 path match (PATH_PATTERN)",
+    "pathFilters.pattern" : "Match rule, up to 1000 bytes"
   }
 }

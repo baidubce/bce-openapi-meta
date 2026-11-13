@@ -7,10 +7,6 @@
       "title" : "创建权限组规则",
       "summary" : "创建权限组规则"
     },
-    "DescL2BucketLink" : {
-      "title" : "查询数据流动任务详情",
-      "summary" : "查询数据流动任务详情"
-    },
     "UpdateL3AccessRule" : {
       "title" : "更新权限组规则",
       "summary" : "更新权限组规则"
@@ -30,10 +26,6 @@
     "DeleteL3AccessRule" : {
       "title" : "删除权限组规则",
       "summary" : "删除权限组规则"
-    },
-    "CreateL2BucketLink" : {
-      "title" : "创建数据流动任务",
-      "summary" : "创建数据流动任务"
     },
     "DeleteL2BucketLink" : {
       "title" : "删除数据流动任务",
@@ -67,6 +59,10 @@
       "title" : "启动数据流动任务",
       "summary" : "启动数据流动任务"
     },
+    "CreateL2BucketLink" : {
+      "title" : "创建数据流动任务",
+      "summary" : "创建数据流动任务"
+    },
     "MountTargetListClients" : {
       "title" : "查询挂载服务挂载客户端列表",
       "summary" : "查询挂载服务挂载客户端列表"
@@ -75,9 +71,21 @@
       "title" : "查询数据流动任务列表",
       "summary" : "查询数据流动任务列表"
     },
+    "DescL2BucketLink" : {
+      "title" : "查询数据流动任务详情",
+      "summary" : "查询数据流动任务详情"
+    },
     "CreateL2Policy" : {
       "title" : "创建生命周期规则",
       "summary" : "创建生命周期规则"
+    },
+    "ListL2Policy" : {
+      "title" : "获取生命周期规则列表",
+      "summary" : "获取生命周期规则列表"
+    },
+    "DescL2Policy" : {
+      "title" : "查询生命周期规则详情",
+      "summary" : "查询生命周期规则详情"
     },
     "InstanceListClients" : {
       "title" : "查询PFS实例挂载客户端列表",
@@ -90,14 +98,6 @@
     "DeleteL2Policy" : {
       "title" : "删除生命周期规则",
       "summary" : "删除生命周期规则"
-    },
-    "ListL2Policy" : {
-      "title" : "获取生命周期规则列表",
-      "summary" : "获取生命周期规则列表"
-    },
-    "DescL2Policy" : {
-      "title" : "查询生命周期规则详情",
-      "summary" : "查询生命周期规则详情"
     },
     "QryL2PolExecLog" : {
       "title" : "查询规则任务执行日志列表",

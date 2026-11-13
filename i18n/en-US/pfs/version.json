@@ -7,10 +7,6 @@
       "title" : "createL3AccessRule",
       "summary" : "createL3AccessRule"
     },
-    "DescL2BucketLink" : {
-      "title" : "descL2BucketLink",
-      "summary" : "descL2BucketLink"
-    },
     "UpdateL3AccessRule" : {
       "title" : "updateL3AccessRule",
       "summary" : "updateL3AccessRule"
@@ -30,10 +26,6 @@
     "DeleteL3AccessRule" : {
       "title" : "deleteL3AccessRule",
       "summary" : "deleteL3AccessRule"
-    },
-    "CreateL2BucketLink" : {
-      "title" : "createL2BucketLink",
-      "summary" : "createL2BucketLink"
     },
     "DeleteL2BucketLink" : {
       "title" : "deleteL2BucketLink",
@@ -67,6 +59,10 @@
       "title" : "resumeL2BucketLink",
       "summary" : "resumeL2BucketLink"
     },
+    "CreateL2BucketLink" : {
+      "title" : "createL2BucketLink",
+      "summary" : "createL2BucketLink"
+    },
     "MountTargetListClients" : {
       "title" : "mountTargetListClients",
       "summary" : "mountTargetListClients"
@@ -75,9 +71,21 @@
       "title" : "listL2BucketLink",
       "summary" : "listL2BucketLink"
     },
+    "DescL2BucketLink" : {
+      "title" : "descL2BucketLink",
+      "summary" : "descL2BucketLink"
+    },
     "CreateL2Policy" : {
       "title" : "createL2Policy",
       "summary" : "createL2Policy"
+    },
+    "ListL2Policy" : {
+      "title" : "listL2Policy",
+      "summary" : "listL2Policy"
+    },
+    "DescL2Policy" : {
+      "title" : "descL2Policy",
+      "summary" : "descL2Policy"
     },
     "InstanceListClients" : {
       "title" : "instanceListClients",
@@ -90,14 +98,6 @@
     "DeleteL2Policy" : {
       "title" : "deleteL2Policy",
       "summary" : "deleteL2Policy"
-    },
-    "ListL2Policy" : {
-      "title" : "listL2Policy",
-      "summary" : "listL2Policy"
-    },
-    "DescL2Policy" : {
-      "title" : "descL2Policy",
-      "summary" : "descL2Policy"
     },
     "QryL2PolExecLog" : {
       "title" : "qryL2PolExecLog",

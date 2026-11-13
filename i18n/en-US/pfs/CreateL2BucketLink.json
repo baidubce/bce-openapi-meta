@@ -13,6 +13,9 @@
     "cron" : "Indicates whether this is a periodic data transfer task. Omit this field for one-time tasks; provide a recurrence rule for periodic tasks. The cron field uses a crontab-like syntax, supporting only <code>\\*</code> and <code>numbers</code>: <code>\\* \\* \\* \\* \\*</code> corresponds to <code>minute hour day month weekday</code>. Examples:<br><code>0 0 \\* \\* \\*</code> Run once daily at 00:00<br><code>0 0 1 \\* \\*</code> Run on the 1st of every month at 00:00<br><code>0 0 \\* \\* 1</code> Run every Monday at 00:00<br>Note: Only the following schedule expressions are supported: a specific time each day, a specific day and time each month, or a specific weekday and time each week. Other expressions will be rejected.",
     "bucketBelongUserId" : "Cross-account field specifying the primary account user ID of the target account",
     "lccId" : "When cross-account access is enabled, if the bucket belongs to an LCC zone, the LCC ID of the bucket must also be specified",
-    "scope" : "Visibility scope of the task. 1: visible to both primary account and all sub-accounts; 2: visible to primary account and associated sub-accounts only"
+    "scope" : "Visibility scope of the task. 1: visible to both primary account and all sub-accounts; 2: visible to primary account and associated sub-accounts only",
+    "pathFilters" : "Path filter rules. Can only be set at creation, currently up to 1 rule. type: 0 for suffix match (e.g. <code>\\*.jpg</code>), 1 for path match (e.g. <code>\\*&#47;data/\\*&#47;test</code>); pattern: the match rule.",
+    "pathFilters.type" : "Filter type. 0 for suffix match (SUFFIX); 1 for path match (PATH_PATTERN).",
+    "pathFilters.pattern" : "Match rule, up to 1000 bytes."
   }
 }

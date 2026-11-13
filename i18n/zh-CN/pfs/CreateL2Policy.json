@@ -8,6 +8,9 @@
     "type" : "规则的类型：<br>0：表示数据删除<br>1：表示数据转存",
     "executeTime" : "规则的执行时间点，0～23整数，默认为0，范围在：0 ～ 23",
     "bucketName" : "数据转存对应的bucket，当type为数据转存时，该字段必须声明",
-    "bucketPrefix" : "数据转存对应的prefix，当type为数据转存时，该字段必须声明prefix非\"/'开头，以\"/\"结尾"
+    "bucketPrefix" : "数据转存对应的prefix，当type为数据转存时，该字段必须声明prefix非\"/'开头，以\"/\"结尾",
+    "pathFilters" : "路径过滤规则，仅创建时可设置，目前最多1条。type：0 后缀匹配（如 <code>\\*.jpg</code>），1 路径匹配（如 <code>\\*&#47;data/\\*&#47;test</code>）；pattern：匹配规则",
+    "pathFilters.type" : "过滤类型。0 后缀匹配（SUFFIX）；1 路径匹配（PATH_PATTERN）",
+    "pathFilters.pattern" : "匹配规则，最长1000字节"
   }
 }

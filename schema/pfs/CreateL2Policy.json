@@ -63,6 +63,23 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "pfs.CreateL2Policy.bucketPrefix"
+  }, {
+    "name" : "pathFilters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2Policy.pathFilters",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "pfs.CreateL2Policy.pathFilters.type"
+    }, {
+      "name" : "pattern",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "pfs.CreateL2Policy.pathFilters.pattern"
+    } ]
   } ],
   "desc_key" : "pfs.CreateL2Policy.desc"
 }

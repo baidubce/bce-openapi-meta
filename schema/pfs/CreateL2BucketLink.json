@@ -93,6 +93,23 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "pfs.CreateL2BucketLink.scope"
+  }, {
+    "name" : "pathFilters",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "pfs.CreateL2BucketLink.pathFilters",
+    "sub_parameters" : [ {
+      "name" : "type",
+      "type" : "Integer",
+      "required" : false,
+      "desc_key" : "pfs.CreateL2BucketLink.pathFilters.type"
+    }, {
+      "name" : "pattern",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "pfs.CreateL2BucketLink.pathFilters.pattern"
+    } ]
   } ],
   "desc_key" : "pfs.CreateL2BucketLink.desc"
 }
