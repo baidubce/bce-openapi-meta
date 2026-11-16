@@ -51,10 +51,6 @@
       "title" : "listFileset",
       "summary" : "listFileset"
     },
-    "ListPfs" : {
-      "title" : "listPfs",
-      "summary" : "listPfs"
-    },
     "DescFileset" : {
       "title" : "descFileset",
       "summary" : "descFileset"
@@ -98,6 +94,10 @@
     "DescL2Policy" : {
       "title" : "descL2Policy",
       "summary" : "descL2Policy"
+    },
+    "ListPfs" : {
+      "title" : "listPfs",
+      "summary" : "listPfs"
     },
     "InstanceListClients" : {
       "title" : "instanceListClients",

@@ -51,10 +51,6 @@
       "title" : "获取Fileset列表",
       "summary" : "获取Fileset列表"
     },
-    "ListPfs" : {
-      "title" : "获取PFS实例列表",
-      "summary" : "获取PFS实例列表"
-    },
     "DescFileset" : {
       "title" : "查询FIleset详情",
       "summary" : "查询FIleset详情"
@@ -98,6 +94,10 @@
     "DescL2Policy" : {
       "title" : "查询生命周期规则详情",
       "summary" : "查询生命周期规则详情"
+    },
+    "ListPfs" : {
+      "title" : "获取PFS实例列表",
+      "summary" : "获取PFS实例列表"
     },
     "InstanceListClients" : {
       "title" : "查询PFS实例挂载客户端列表",
