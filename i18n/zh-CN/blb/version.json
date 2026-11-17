@@ -99,10 +99,6 @@
       "title" : "创建HTTP监听器",
       "summary" : "创建HTTP监听器"
     },
-    "CreateBlbHttpsListener" : {
-      "title" : "创建HTTPS监听器",
-      "summary" : "创建HTTPS监听器"
-    },
     "DescribeBlbHttpListener" : {
       "title" : "查询HTTP监听器",
       "summary" : "查询HTTP监听器"
@@ -422,6 +418,10 @@
     "BillingChangePreToPostBlb" : {
       "title" : "BLB计费变更-预付费转后付费",
       "summary" : "BLB计费变更-预付费转后付费"
+    },
+    "CreateBlbHttpsListener" : {
+      "title" : "创建HTTPS监听器",
+      "summary" : "创建HTTPS监听器"
     },
     "BillingChangeCancelToPostBlb" : {
       "title" : "BLB计费变更-取消预付费转后付费",

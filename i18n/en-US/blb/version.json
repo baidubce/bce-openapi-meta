@@ -99,10 +99,6 @@
       "title" : "createBlbHttpListener",
       "summary" : "createBlbHttpListener"
     },
-    "CreateBlbHttpsListener" : {
-      "title" : "createBlbHttpsListener",
-      "summary" : "createBlbHttpsListener"
-    },
     "DescribeBlbHttpListener" : {
       "title" : "describeBlbHttpListener",
       "summary" : "describeBlbHttpListener"
@@ -422,6 +418,10 @@
     "BillingChangePreToPostBlb" : {
       "title" : "billingChangePreToPostBlb",
       "summary" : "billingChangePreToPostBlb"
+    },
+    "CreateBlbHttpsListener" : {
+      "title" : "createBlbHttpsListener",
+      "summary" : "createBlbHttpsListener"
     },
     "BillingChangeCancelToPostBlb" : {
       "title" : "billingChangeCancelToPostBlb",
