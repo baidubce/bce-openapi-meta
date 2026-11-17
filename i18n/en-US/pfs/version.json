@@ -63,10 +63,6 @@
       "title" : "resumeL2BucketLink",
       "summary" : "resumeL2BucketLink"
     },
-    "DescPfs" : {
-      "title" : "descPfs",
-      "summary" : "descPfs"
-    },
     "CreateL2BucketLink" : {
       "title" : "createL2BucketLink",
       "summary" : "createL2BucketLink"
@@ -94,6 +90,10 @@
     "DescL2Policy" : {
       "title" : "descL2Policy",
       "summary" : "descL2Policy"
+    },
+    "DescPfs" : {
+      "title" : "descPfs",
+      "summary" : "descPfs"
     },
     "ListPfs" : {
       "title" : "listPfs",
