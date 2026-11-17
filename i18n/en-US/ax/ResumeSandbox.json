@@ -1,7 +1,7 @@
 {
   "ResumeSandbox" : {
-    "sandboxID" : "Sandbox instance ID.",
-    "timeout" : "Survival duration after resumption, in seconds.",
-    "autoPause" : "Whether to automatically pause."
+    "sandboxID" : "The ID of the original sandbox instance in paused state.",
+    "timeout" : "Lifetime of the new instance, in seconds; omitted or 0 defaults to 300, -1 means permanent, maximum 604800.",
+    "autoPause" : "Deprecated. Whether the new instance automatically pauses after timeout."
   }
 }

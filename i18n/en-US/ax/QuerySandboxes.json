@@ -1,10 +1,10 @@
 {
   "QuerySandboxes" : {
-    "limit" : "Number of results per page, range 1-100, default 100.",
-    "nextToken" : "Pagination cursor from the previous response; empty for the first request.",
-    "sandboxIds" : "List of sandbox instance IDs; multiple values within the group are OR-combined.",
-    "imagePaths" : "List of actual image paths; multiple values within the group are OR-combined.",
-    "metadata" : "Key-value filter for metadata; multiple conditions are AND-combined.",
-    "state" : "List of sandbox states; valid values: running, paused, killing, killed."
+    "limit" : "Number of items per page, range 1-100; 0 or omitted defaults to 100; out-of-range returns 400.",
+    "nextToken" : "Pagination cursor; use the nextToken from the previous page's response; omit for the first page.",
+    "sandboxIds" : "List of sandbox instance IDs, up to 100, must not contain empty strings.",
+    "imagePaths" : "List of actual sandbox image paths, up to 100, must not contain empty strings.",
+    "metadata" : "Metadata filter; the sandbox must contain all key-value pairs.",
+    "state" : "State filter; one of running, paused, pending, standby, failed, killing, killed; omit to not filter by state; other values return 400."
   }
 }

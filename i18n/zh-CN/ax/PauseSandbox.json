@@ -1,6 +1,6 @@
 {
   "PauseSandbox" : {
     "sandboxID" : "沙箱实例 ID。",
-    "hibernateMode" : "暂停模式。"
+    "hibernateMode" : "休眠模式。不传为深休眠；standby 为浅休眠（仅冻结 VM，Pod 保留，恢复更快）。"
   }
 }

@@ -1,6 +1,6 @@
 {
   "PauseSandbox" : {
     "sandboxID" : "Sandbox instance ID.",
-    "hibernateMode" : "Pause mode."
+    "hibernateMode" : "Hibernation mode. Defaults to deep hibernation if not specified; \"standby\" means light hibernation (freezes the VM only, retains the Pod, enabling faster resume)."
   }
 }

@@ -1,8 +1,8 @@
 {
   "ListSandboxesV2" : {
-    "limit" : "单页数量。代码会将小于 1 或大于 100 的值调整为 100，默认 100。",
-    "nextToken" : "上一页响应头 X-Next-Token 的值。",
-    "metadata" : "URL 编码的 metadata 键值对。",
-    "state" : "状态过滤，可重复传入或使用逗号分隔。"
+    "limit" : "单页数量，默认 100；小于 1、大于 100 或非数字时按 100 处理。",
+    "nextToken" : "分页游标，取上一页响应头 X-Next-Token 的值；首页不传。",
+    "metadata" : "metadata 过滤条件，格式为 URL 编码后的 key=value&key2=value2，多个条件之间为 AND。",
+    "state" : "状态过滤，可选 running、paused，可重复传入（state=running&state=paused）或逗号分隔（state=running,paused）；不传默认 running 和 paused。"
   }
 }

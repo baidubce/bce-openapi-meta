@@ -1,7 +1,7 @@
 {
   "ResumeSandbox" : {
-    "sandboxID" : "沙箱实例 ID。",
-    "timeout" : "恢复后存活时间，单位秒。",
-    "autoPause" : "是否自动暂停。"
+    "sandboxID" : "处于 paused 状态的原沙箱实例 ID。",
+    "timeout" : "新实例的存活时间，单位秒；不传或 0 为 300，-1 为永久，最大 604800。",
+    "autoPause" : "已废弃。新实例超时后是否自动暂停。"
   }
 }

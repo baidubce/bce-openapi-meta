@@ -1,6 +1,7 @@
 {
   "CreateSandboxSnapshot" : {
     "sandboxID" : "Sandbox instance ID.",
-    "name" : "Snapshot template name, also used as the template ID."
+    "name" : "Snapshot template name, also used as the template ID.",
+    "resourceGroupId" : "The ID of the resource group that the snapshot template belongs to. Optional."
   }
 }

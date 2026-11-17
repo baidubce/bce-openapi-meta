@@ -1,0 +1,57 @@
+{
+  "name" : "ResizeSandboxResources",
+  "method" : "POST",
+  "uri" : "/sandboxes/{sandboxID}/resources",
+  "parameters" : [ {
+    "name" : "sandboxID",
+    "type" : "String",
+    "required" : true,
+    "position" : "URL",
+    "desc_key" : "ax.ResizeSandboxResources.sandboxID"
+  }, {
+    "name" : "containers",
+    "type" : "List",
+    "required" : true,
+    "position" : "BODY",
+    "desc_key" : "ax.ResizeSandboxResources.containers",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ax.ResizeSandboxResources.containers.name"
+    }, {
+      "name" : "requests",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "ax.ResizeSandboxResources.containers.requests",
+      "sub_parameters" : [ {
+        "name" : "cpu",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "ax.ResizeSandboxResources.containers.requests.cpu"
+      }, {
+        "name" : "memory",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "ax.ResizeSandboxResources.containers.requests.memory"
+      } ]
+    }, {
+      "name" : "limits",
+      "type" : "Object",
+      "required" : false,
+      "desc_key" : "ax.ResizeSandboxResources.containers.limits",
+      "sub_parameters" : [ {
+        "name" : "cpu",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "ax.ResizeSandboxResources.containers.limits.cpu"
+      }, {
+        "name" : "memory",
+        "type" : "String",
+        "required" : false,
+        "desc_key" : "ax.ResizeSandboxResources.containers.limits.memory"
+      } ]
+    } ]
+  } ],
+  "desc_key" : "ax.ResizeSandboxResources.desc"
+}

@@ -1,8 +1,8 @@
 {
   "ListSandboxesV2" : {
-    "limit" : "Number of items per page. Values less than 1 or greater than 100 are adjusted to 100; default is 100.",
-    "nextToken" : "The value of the X-Next-Token response header from the previous page.",
-    "metadata" : "URL-encoded metadata key-value pairs.",
-    "state" : "State filter; can be specified multiple times or as a comma-separated list."
+    "limit" : "Number of items per page, default 100; values less than 1, greater than 100, or non-numeric are treated as 100.",
+    "nextToken" : "Pagination cursor; use the X-Next-Token value from the previous page's response header. Omit for the first page.",
+    "metadata" : "Metadata filter, formatted as URL-encoded key=value&key2=value2; multiple conditions are combined with AND.",
+    "state" : "State filter; options are running and paused. Can be passed repeatedly (state=running&state=paused) or comma-separated (state=running,paused); defaults to both running and paused when omitted."
   }
 }

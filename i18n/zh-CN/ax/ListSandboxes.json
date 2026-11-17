@@ -1,5 +1,5 @@
 {
   "ListSandboxes" : {
-    "metadata" : "URL 编码的 metadata 键值对，例如 app%3Dagent%26env%3Dtest。"
+    "metadata" : "metadata 过滤条件，格式为 URL 编码后的 key=value&key2=value2，例如 app%3Dagent%26env%3Dtest，多个条件之间为 AND。"
   }
 }

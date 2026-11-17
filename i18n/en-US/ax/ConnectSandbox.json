@@ -1,7 +1,12 @@
 {
   "ConnectSandbox" : {
     "sandboxID" : "Sandbox instance ID.",
-    "timeout" : "Renewal duration in seconds; -1 means permanent.",
-    "snapshotID" : "Snapshot ID used for restoration."
+    "timeout" : "Time-to-live from the current time, in seconds; greater than 0 or -1 (permanent sandbox), and must not exceed 604800 when greater than 0.",
+    "snapshotID" : "Snapshot ID to use when resuming a paused sandbox (obtainable via \"List Sandbox Snapshots\"); only effective for paused sandboxes.",
+    "volumeMounts" : "Only effective when resuming a paused sandbox: omit to keep existing mounts; pass an empty array to clear all mounts; a non-empty array fully replaces the mount set, up to 10 entries. Returns 400 if this field is included while the sandbox is running; use the dynamic mount API to add mounts to a running sandbox.",
+    "volumeMounts.name" : "Volume name, corresponding to the volume name registered via the Create Volume API; required.",
+    "volumeMounts.path" : "Mount path inside the container; must be an absolute path; required.",
+    "volumeMounts.subPath" : "Subdirectory under the NFS export directory; supports the {{sandboxID}} template variable.",
+    "volumeMounts.readOnly" : "Whether to mount as read-only; defaults to false."
   }
 }

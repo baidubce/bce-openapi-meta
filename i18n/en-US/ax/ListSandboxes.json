@@ -1,5 +1,5 @@
 {
   "ListSandboxes" : {
-    "metadata" : ""
+    "metadata" : "metadata filter condition, formatted as URL-encoded key=value&key2=value2, for example app%3Dagent%26env%3Dtest. Multiple conditions are combined with AND."
   }
 }

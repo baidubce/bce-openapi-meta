@@ -1,0 +1,9 @@
+{
+  "ResizeSandboxResources" : {
+    "sandboxID" : "沙箱实例 ID。",
+    "containers" : "要调整资源的容器列表。",
+    "containers.name" : "容器名称，必填。",
+    "containers.requests" : "目标 requests。",
+    "containers.limits" : "目标 limits。"
+  }
+}

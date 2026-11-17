@@ -1,10 +1,10 @@
 {
   "QuerySandboxes" : {
-    "limit" : "单页返回数量，取值 1-100，默认 100。",
-    "nextToken" : "上一页返回的游标，首次请求为空。",
-    "sandboxIds" : "沙箱实例 ID 列表，同组内 OR。",
-    "imagePaths" : "实际镜像地址列表，同组内 OR。",
-    "metadata" : "metadata 键值过滤，条件之间 AND。",
-    "state" : "沙箱状态列表，可选 running、paused、killing、killed。"
+    "limit" : "单页数量，取值 1~100，不传或 0 为 100，超出范围返回 400。",
+    "nextToken" : "分页游标，取上一页响应中的 nextToken；首页不传。",
+    "sandboxIds" : "沙箱实例 ID 列表，最多 100 个，不能包含空字符串。",
+    "imagePaths" : "沙箱实际镜像地址列表，最多 100 个，不能包含空字符串。",
+    "metadata" : "metadata 过滤条件，沙箱需包含全部键值对。",
+    "state" : "状态过滤，可选 running、paused、pending、standby、failed、killing、killed；不传则不按状态过滤。传入其他值返回 400。"
   }
 }

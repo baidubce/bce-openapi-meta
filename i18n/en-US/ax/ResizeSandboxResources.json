@@ -1,0 +1,9 @@
+{
+  "ResizeSandboxResources" : {
+    "sandboxID" : "Sandbox instance ID.",
+    "containers" : "List of containers to resize resources for.",
+    "containers.name" : "Container name, required.",
+    "containers.requests" : "Target requests.",
+    "containers.limits" : "Target limits."
+  }
+}

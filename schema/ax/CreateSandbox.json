@@ -41,6 +41,29 @@
     "position" : "BODY",
     "desc_key" : "ax.CreateSandbox.allow_internet_access"
   }, {
+    "name" : "allowInternetAccess",
+    "type" : "Boolean",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.allowInternetAccess"
+  }, {
+    "name" : "network",
+    "type" : "Object",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.CreateSandbox.network",
+    "sub_parameters" : [ {
+      "name" : "allowOut",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "ax.CreateSandbox.network.allowOut"
+    }, {
+      "name" : "denyOut",
+      "type" : "List",
+      "required" : false,
+      "desc_key" : "ax.CreateSandbox.network.denyOut"
+    } ]
+  }, {
     "name" : "autoPause",
     "type" : "Boolean",
     "required" : false,
@@ -52,7 +75,12 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "ax.CreateSandbox.autoResume",
-    "sub_parameters" : [ ]
+    "sub_parameters" : [ {
+      "name" : "enabled",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "ax.CreateSandbox.autoResume.enabled"
+    } ]
   }, {
     "name" : "runtimeType",
     "type" : "String",
@@ -72,7 +100,27 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "ax.CreateSandbox.volumeMounts",
-    "sub_parameters" : [ ]
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ax.CreateSandbox.volumeMounts.name"
+    }, {
+      "name" : "path",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ax.CreateSandbox.volumeMounts.path"
+    }, {
+      "name" : "subPath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ax.CreateSandbox.volumeMounts.subPath"
+    }, {
+      "name" : "readOnly",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "ax.CreateSandbox.volumeMounts.readOnly"
+    } ]
   } ],
   "desc_key" : "ax.CreateSandbox.desc"
 }

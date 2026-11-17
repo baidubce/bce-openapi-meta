@@ -1,6 +1,6 @@
 {
   "GetSandboxSnapshot" : {
     "sandboxID" : "Sandbox instance ID.",
-    "snapshotID" : "Snapshot ID."
+    "snapshotID" : "Snapshot ID, i.e., the snapshotId in the snapshot list."
   }
 }

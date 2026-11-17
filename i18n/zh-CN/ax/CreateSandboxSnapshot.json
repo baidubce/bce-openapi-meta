@@ -1,6 +1,7 @@
 {
   "CreateSandboxSnapshot" : {
     "sandboxID" : "沙箱实例 ID。",
-    "name" : "快照模板名称，同时作为模板 ID。"
+    "name" : "快照模板名称，同时作为模板 ID。",
+    "resourceGroupId" : "快照模板归属的资源管理资源组 ID，可选。"
   }
 }

@@ -20,6 +20,33 @@
     "required" : false,
     "position" : "BODY",
     "desc_key" : "ax.ConnectSandbox.snapshotID"
+  }, {
+    "name" : "volumeMounts",
+    "type" : "List",
+    "required" : false,
+    "position" : "BODY",
+    "desc_key" : "ax.ConnectSandbox.volumeMounts",
+    "sub_parameters" : [ {
+      "name" : "name",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ax.ConnectSandbox.volumeMounts.name"
+    }, {
+      "name" : "path",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ax.ConnectSandbox.volumeMounts.path"
+    }, {
+      "name" : "subPath",
+      "type" : "String",
+      "required" : false,
+      "desc_key" : "ax.ConnectSandbox.volumeMounts.subPath"
+    }, {
+      "name" : "readOnly",
+      "type" : "Boolean",
+      "required" : false,
+      "desc_key" : "ax.ConnectSandbox.volumeMounts.readOnly"
+    } ]
   } ],
   "desc_key" : "ax.ConnectSandbox.desc"
 }

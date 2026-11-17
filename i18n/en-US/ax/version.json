@@ -3,6 +3,22 @@
   "style" : "rpc",
   "description" : "ax",
   "apis" : {
+    "QuerySandboxes" : {
+      "title" : "querySandboxes",
+      "summary" : "querySandboxes"
+    },
+    "CreateSandbox" : {
+      "title" : "createSandbox",
+      "summary" : "createSandbox"
+    },
+    "ListSandboxes" : {
+      "title" : "listSandboxes",
+      "summary" : "listSandboxes"
+    },
+    "ListSandboxesV2ByPath" : {
+      "title" : "listSandboxesV2ByPath",
+      "summary" : "listSandboxesV2ByPath"
+    },
     "ResumeSandbox" : {
       "title" : "resumeSandbox",
       "summary" : "resumeSandbox"
@@ -14,10 +30,6 @@
     "DeleteSandbox" : {
       "title" : "deleteSandbox",
       "summary" : "deleteSandbox"
-    },
-    "CreateSandbox" : {
-      "title" : "createSandbox",
-      "summary" : "createSandbox"
     },
     "SetSandboxTimeout" : {
       "title" : "setSandboxTimeout",
@@ -43,29 +55,21 @@
       "title" : "getSandboxSnapshot",
       "summary" : "getSandboxSnapshot"
     },
-    "QuerySandboxes" : {
-      "title" : "querySandboxes",
-      "summary" : "querySandboxes"
+    "ResizeSandboxResources" : {
+      "title" : "resizeSandboxResources",
+      "summary" : "resizeSandboxResources"
     },
-    "ListSandboxes" : {
-      "title" : "listSandboxes",
-      "summary" : "listSandboxes"
-    },
-    "ListSandboxesV2" : {
-      "title" : "listSandboxesV2",
-      "summary" : "listSandboxesV2"
+    "GetSandboxResources" : {
+      "title" : "getSandboxResources",
+      "summary" : "getSandboxResources"
     },
     "BatchReleaseSandboxes" : {
       "title" : "batchReleaseSandboxes",
       "summary" : "batchReleaseSandboxes"
     },
-    "ListSandboxesV2ByPath" : {
-      "title" : "listSandboxesV2ByPath",
-      "summary" : "listSandboxesV2ByPath"
-    },
-    "GetSandboxResources" : {
-      "title" : "getSandboxResources",
-      "summary" : "getSandboxResources"
+    "ListSandboxesV2" : {
+      "title" : "listSandboxesV2",
+      "summary" : "listSandboxesV2"
     }
   }
 }

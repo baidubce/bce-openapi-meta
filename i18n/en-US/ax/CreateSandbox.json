@@ -1,15 +1,24 @@
 {
   "CreateSandbox" : {
-    "templateID" : "Sandbox template ID.",
-    "timeout" : "Sandbox timeout duration in seconds.",
-    "metadata" : "Sandbox label metadata.",
+    "templateID" : "Sandbox template ID. Supports the templateID:tag format to specify a particular tag version of the template.",
+    "timeout" : "Sandbox idle timeout in seconds. Omitted or 0 means 300; maximum is 604800; -1 means a permanent sandbox.",
+    "metadata" : "Sandbox labels. Keys starting with baidubce_ are platform-reserved and validated, e.g. baidubce_cpuCores (1–16) and baidubce_memoryGb (1–64) override the template spec; baidubce_sandboxGraceTime (0–60 minutes), baidubce_persistenceMode (snapshot or data_persistence), baidubce_dataPersistenceSizeGb (5–4096); baidubce_securityGroupId and baidubce_enterpriseSecurityGroupId are mutually exclusive, and exactly one of them is required when baidubce_subnetId is set.",
     "envVars" : "Sandbox environment variables.",
-    "secure" : "Whether to encrypt all system communications of the sandbox.",
+    "secure" : "Whether to enable data-plane authentication. When true, envdAccessToken is returned and must be included to access the sandbox; otherwise envdAccessToken is an empty string.",
     "allow_internet_access" : "Whether to allow the sandbox to access the public internet.",
-    "autoPause" : "Whether to automatically pause the sandbox after timeout.",
-    "autoResume" : "Auto-resume configuration after sandbox pause, containing an enabled (Boolean) field.",
-    "runtimeType" : "Sandbox runtime type; optional value: kata; only available to whitelisted users, defaults to CRIU when empty.",
+    "allowInternetAccess" : "Camel-case form of allow_internet_access (E2B-compatible, deprecated). If both are provided with different values, returns 400.",
+    "network" : "Sandbox egress policy (domain-level allowlist/denylist). Returns 400 if rules are invalid; if policy enforcement fails, the sandbox is deleted and an error is returned.",
+    "network.allowOut" : "Domains (supports *.example.com wildcards), IPs, or CIDRs allowed for egress, up to 128 entries. The allowlist takes precedence over the denylist.",
+    "network.denyOut" : "Domains, IPs, or CIDRs denied for egress, up to 128 entries.",
+    "autoPause" : "Whether to automatically pause (instead of delete) after timeout. Defaults to false.",
+    "autoResume" : "Auto-resume configuration after pausing. Takes effect only when autoPause is true.",
+    "autoResume.enabled" : "Whether to automatically resume a paused sandbox when it is accessed. Defaults to false.",
+    "runtimeType" : "Runtime type. Optional value kata; omitting it uses the default CRIU runtime. Only allowlisted accounts can specify kata; otherwise returns 400.",
     "mcp" : "MCP configuration for the sandbox.",
-    "volumeMounts" : "List of NFS volumes mounted to the sandbox; each element contains name, path, subPath, and readOnly fields."
+    "volumeMounts" : "List of NFS volumes mounted to the sandbox, up to 10. Not supported by the kata runtime or multi-container templates; returns 400 if provided.",
+    "volumeMounts.name" : "Volume name, corresponding to the volume name registered via the create-volume API. Required.",
+    "volumeMounts.path" : "Mount path inside the container. Must be an absolute path. Required.",
+    "volumeMounts.subPath" : "Subdirectory under the NFS export directory. Supports the {{sandboxID}} template variable.",
+    "volumeMounts.readOnly" : "Whether to mount as read-only. Defaults to false."
   }
 }
